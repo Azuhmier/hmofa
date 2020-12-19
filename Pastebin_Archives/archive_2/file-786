@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chapter 6 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Chapter 6 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/a8yb0wW9" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/a8yb0wW9" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="X9H7218q_Ome2Yx0mMjOMrj6DC8SLUotfY3eMolzMk49gqSNAF-yg-ie7xryvr5G275udUUceVUk7KpZ-zRFIg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/a8yb0wW9" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/a8yb0wW9" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Chapter 6</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                        a guest                    </div>
+                
+                <div class="date">
+                    <span title="Thursday 20th of April 2017 06:08:29 AM CDT">Apr 20th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    420                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 9.04 KB            </div>
+
+            <div class="right">
+                <a href="/raw/a8yb0wW9" class="btn -small">raw</a>
+                <a href="/dl/a8yb0wW9" class="btn -small">download</a>
+                <a href="/clone/a8yb0wW9" class="btn -small h_800">clone</a>
+                <a href="/embed/a8yb0wW9" class="btn -small h_800">embed</a>
+                <a href="/report/a8yb0wW9" class="btn -small">report</a>
+                <a href="/print/a8yb0wW9" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;this doesn&#039;t feel right</div></li><li class="li1"><div class="de1">&gt;you&#039;re sitting down at the coffee table eating raw hot dogs with coco</div></li><li class="li1"><div class="de1">&gt;baileys not hungry at the moment, she full up on poultry</div></li><li class="li1"><div class="de1">&gt;coco seems to be savoring the hot dogs as if they&#039;re the best meal she ever had</div></li><li class="li1"><div class="de1">&gt;having your pets starve on their first week here would set a bad first impression</div></li><li class="li1"><div class="de1">&gt;but if you don&#039;t go out and buy things like leashes, toys, cleaning kits or appliances adapted to your pets anatomy then that would be just as bad</div></li><li class="li1"><div class="de1">&gt;there has to be a way to have your cake and eat it too</div></li><li class="li1"><div class="de1">&gt;if only your rich neighbors weren&#039;t so greedy and would lend you some money</div></li><li class="li1"><div class="de1">&gt;wait a second</div></li><li class="li1"><div class="de1">&gt;rich neighbors</div></li><li class="li1"><div class="de1">&gt;rich OLD neighbors</div></li><li class="li1"><div class="de1">&gt;and if theres one thing grandma taught you it&#039;s that rich old people love paying young men like you to do some menial chore</div></li><li class="li1"><div class="de1">&gt;theres only like 4 or 5 houses on this road so if you can get them to cough up 20$ a piece then that&#039;d be enough to tide you over</div></li><li class="li1"><div class="de1">&gt;assuming you only bought the cheapest shittiest crap they had on sale anyway</div></li><li class="li1"><div class="de1">&gt;with a plan in hand you quickly finish up your meager breakfast</div></li><li class="li1"><div class="de1">&quot;Coco, bailey, I&#039;m going out for a few hours, think you can handle being home alone for a little bit?&quot;</div></li><li class="li1"><div class="de1">&gt;bailey just waves you off, too engrossed in her videos to give a proper answer</div></li><li class="li1"><div class="de1">&gt;coco on the other hand lets out a little whine and seems genuinely distressed by the prospect</div></li><li class="li1"><div class="de1">&quot;Don&#039;t be gone too long okay?&quot;</div></li><li class="li1"><div class="de1">&gt;you assure her it&#039;ll only be a few hours while gathering your things before heading out the door, but not before hearing cocos nervous voice call out</div></li><li class="li1"><div class="de1">&quot;Be safe master!&quot;</div></li><li class="li1"><div class="de1">&gt;you head on out to the car and slide yourself into the drivers seat</div></li><li class="li1"><div class="de1">&gt;you puts the keys in the ignition but before you pull out you notice in the window of the front door coco has her face pressed up against the glass and is sadly waving to you</div></li><li class="li1"><div class="de1">&gt;you wave back </div></li><li class="li1"><div class="de1">&gt;you begin backing up out of your driveway </div></li><li class="li1"><div class="de1">&gt;when you&#039;re just about out you notice scaled feet clutching the rim of your roof right above the front door</div></li><li class="li1"><div class="de1">&gt;it&#039;s that damned bird again , staring at you</div></li><li class="li1"><div class="de1">&gt;you shake your fist at him before finally heading down the road</div></li><li class="li1"><div class="de1">&gt;you never have much reason to go down here but you do know there are 2 more houses before the road ends</div></li><li class="li1"><div class="de1">&gt;might as well start with the one furthest down</div></li><li class="li1"><div class="de1">&gt;you come up on a plain white house with 2 stories, 2 garages and notably no direct access to the lake</div></li><li class="li1"><div class="de1">&gt;as luck would have it you see a man outside with his head under the hood of some vintage sports car</div></li><li class="li1"><div class="de1">&gt;you pull your car up alongside the road next to his house, get out and ask him how he&#039;s doing</div></li><li class="li1"><div class="de1">&quot;Do I know you?&quot;</div></li><li class="li1"><div class="de1">&gt;it&#039;s understandable that that would be his first reaction but you tell him he probably doesn&#039;t</div></li><li class="li1"><div class="de1">&gt;with his face out of the car you can now get a good look at the guy</div></li><li class="li1"><div class="de1">&gt;he&#039;s nearly bald, wearing sunglasses and wearing a blue oily coverall with no shirt on</div></li><li class="li1"><div class="de1">&gt;you tell him you&#039;re looking to make a few bucks and couldn&#039;t help but notice his lawn is looking a bit untamed</div></li><li class="li1"><div class="de1">&gt;he turns around to give it some thought before turning back to you</div></li><li class="li1"><div class="de1">&quot;Yeah I suppose i could have someone mow it, how does 15$ for it sound?&quot;</div></li><li class="li1"><div class="de1">&gt;cheap old bastard</div></li><li class="li1"><div class="de1">&quot;I&#039;ll do it for 20$&quot;</div></li><li class="li1"><div class="de1">&gt;he narrows his eyes and wipes his hands on his shirt</div></li><li class="li1"><div class="de1">&quot;17$&quot;</div></li><li class="li1"><div class="de1">&gt;is this guy really haggling you over a few dollars?</div></li><li class="li1"><div class="de1">&gt;whatever you don&#039;t have the patience for this</div></li><li class="li1"><div class="de1">&quot;Sounds good&quot;</div></li><li class="li1"><div class="de1">&gt;he smiles and tells you the mower is in the garage before going back to tending to his car</div></li><li class="li1"><div class="de1">&gt;you head in, grab the mower and start earning your pay</div></li><li class="li1"><div class="de1">&gt;nothing really interesting happens while you&#039;re mowing his lawn</div></li><li class="li1"><div class="de1">&gt;except for you notice your little spy has followed you</div></li><li class="li1"><div class="de1">&gt;you notice him down the street perched on a light pole</div></li><li class="li1"><div class="de1">&gt;you just ignore him and continue on with your work</div></li><li class="li1"><div class="de1">&gt;it takes about 2 hours to finish his lawn</div></li><li class="li1"><div class="de1">&gt;while he&#039;s getting your money counted you decide to ask him if he&#039;s had any problems with spies</div></li><li class="li1"><div class="de1">&quot;Hey old man d-&quot;</div></li><li class="li1"><div class="de1">&quot;My names curtis&quot;</div></li><li class="li1"><div class="de1">&quot;Curtis, have you noticed any birds looking in on your business?&quot;</div></li><li class="li1"><div class="de1">&gt;curtis gives you an incredulous look</div></li><li class="li1"><div class="de1">&quot;No, have you?&quot;</div></li><li class="li1"><div class="de1">&gt;you go to point out your family friend on the light pole but surprise surprise he&#039;s no longer there</div></li><li class="li1"><div class="de1">&gt;suddenly worried you made yourself look crazy to stranger you look to him but he&#039;s taking off his glasses and squinting trying to see it</div></li><li class="li1"><div class="de1">&quot;Son, I can&#039;t see that far but i&#039;ll take your word for it, I used to have trouble with a bird who always went out of his way to shit on my car, those things can get fixated on the strangest stuff&quot;</div></li><li class="li1"><div class="de1">&gt;with that he hands you the money and heads back to his car</div></li><li class="li1"><div class="de1">&gt;you thank him and head on to the next house</div></li><li class="li1"><div class="de1">&gt;this one you can barely make out between the trees</div></li><li class="li1"><div class="de1">&gt;the house seems to be bright red but it&#039;s down a long gravel driveway surrounded by the forest</div></li><li class="li1"><div class="de1">&gt;in other words no lawn to mow</div></li><li class="li1"><div class="de1">&gt;they might still have something for you to do though</div></li><li class="li1"><div class="de1">&gt;so you pull over, get out and walk down the gravel driveway</div></li><li class="li1"><div class="de1">&gt;whoever lives here has a decidedly more modern car then last time parked out front</div></li><li class="li1"><div class="de1">&gt;once you reach the door you ring the doorbell and wait</div></li><li class="li1"><div class="de1">&gt;you aren&#039;t waiting long</div></li><li class="li1"><div class="de1">&gt;the door opens and you&#039;re greeted by a surprisingly young women</div></li><li class="li1"><div class="de1">&gt;well young for around here anyways</div></li><li class="li1"><div class="de1">&gt;you&#039;d say she&#039;s on the older end of middle age  </div></li><li class="li1"><div class="de1">&gt;she greets you in slippers, a pink bathrobe and a cup of coffee in one hand</div></li><li class="li1"><div class="de1">&quot;Ooh~, whats a young handsome man like you doing knocking on my door so early in the morning?&quot;</div></li><li class="li1"><div class="de1">&gt;handsome?</div></li><li class="li1"><div class="de1">&gt;and it&#039;s getting pretty close to noon now</div></li><li class="li1"><div class="de1">&gt;but whatever</div></li><li class="li1"><div class="de1">&gt;you explain your predicament and ask if theres anything she needs doing</div></li><li class="li1"><div class="de1">&quot;It depends, do you know your way around a car?&quot;</div></li><li class="li1"><div class="de1">&gt;you tell her you worked as a part time mechanic when you were a teenager</div></li><li class="li1"><div class="de1">&quot;Well whenever I make a turn my car makes a loud squealing sound, can you check it out for me sweetie?&quot;</div></li><li class="li1"><div class="de1">&gt;with her watching you walk down to her car and pop the hood open</div></li><li class="li1"><div class="de1">&gt;you lean in to check if your suspicions are correct when you&#039;re suddenly overwhelmed by the sound of meowing</div></li><li class="li1"><div class="de1">&gt;you try to back up only to find you&#039;ve been swamped in a small sea of feral cats</div></li><li class="li1"><div class="de1">&gt;oh no</div></li><li class="li1"><div class="de1">&gt;shes one of those ladies</div></li><li class="li1"><div class="de1">&gt;you turn around to look back at her only to see shes been joined in watching you from the doorway by 2 other figures</div></li><li class="li1"><div class="de1">&gt;2 identical anthro siamese cats</div></li><li class="li1"><div class="de1">&gt;they&#039;re a bit taller than bailey but much better endowed while maintaining their trim figure</div></li><li class="li1"><div class="de1">&gt;in unison they walk down towards you</div></li><li class="li1"><div class="de1">&gt;they part the sea of cats as if it was an extension of themselves</div></li><li class="li1"><div class="de1">&gt;the first thing they do when they reach you is hug and nuzzle into your chest</div></li><li class="li1"><div class="de1">&gt;you get a better look at them and see they do have a difference between them</div></li><li class="li1"><div class="de1">&gt;they&#039;re both heterochromatic with one blue and one green eye</div></li><li class="li1"><div class="de1">&gt;but one has the green eye on the left while the other has it on the right</div></li><li class="li1"><div class="de1">&gt;the one with the right green eye is the first to speak </div></li><li class="li1"><div class="de1">&quot;Hey cutie, what brings you here?&quot;</div></li><li class="li1"><div class="de1">&gt;you tell you&#039;re just checking out their owners car for her</div></li><li class="li1"><div class="de1">&gt;now it&#039;s the others turn to speak</div></li><li class="li1"><div class="de1">&quot;Hmmm~ car repair is such hard work, when your done why don&#039;t you come in and relax a little bit~&quot;</div></li><li class="li1"><div class="de1">&gt;this isn&#039;t good</div></li><li class="li1"><div class="de1">&gt;their constant rubbing, purring and seductive language is wearing on your resolve</div></li><li class="li1"><div class="de1">&gt;so you try to change the subject</div></li><li class="li1"><div class="de1">&quot;You know, you 2 remind me of my own cat&quot;</div></li><li class="li1"><div class="de1">&gt;you were expecting this to get them to back off but it only seemed to interest them further</div></li><li class="li1"><div class="de1">&quot;Oh? Maybe we should be the ones paying you a visit~, it&#039;s awfully lonely around here with no one else of our own kind to hang around with&quot; </div></li><li class="li1"><div class="de1">&quot;Do you live far away from here cutie?&quot;</div></li><li class="li1"><div class="de1">&gt;you say you live right next door</div></li><li class="li1"><div class="de1">&gt;you mentally punch yourself as soon as the words leave your lips</div></li><li class="li1"><div class="de1">&gt;you were supposed to be avoiding talking to them and now they know they can just pop in whenever</div></li><li class="li1"><div class="de1">&quot;Really!? We had such a handsome guy living right next to us this whole time?&quot;</div></li><li class="li1"><div class="de1">&gt;they shared a look before nodding at each other</div></li><li class="li1"><div class="de1">&gt;they both backed off a little before doing a little spin</div></li><li class="li1"><div class="de1">&gt;the one with the left green eyed declared her name was meena</div></li><li class="li1"><div class="de1">&gt;while the other said hers was zeena</div></li><li class="li1"><div class="de1">&quot;So now that you know our names...&quot;</div></li><li class="li1"><div class="de1">&quot;Next time we meet you should introduce us to your cat&quot;</div></li><li class="li1"><div class="de1">&quot;Okay?&quot;</div></li><li class="li1"><div class="de1">&gt;you sighed and agreed to the deal</div></li><li class="li1"><div class="de1">&gt;both the seductive felines walked back towards their master with the horde of feral cats following behind</div></li><li class="li1"><div class="de1">&gt;well as least now you can check the car in peace</div></li><li class="li1"><div class="de1">&gt;as you expected the problem is the engine belt</div></li><li class="li1"><div class="de1">&gt;shes desperately in need of a replacement</div></li><li class="li1"><div class="de1">&gt;theres not much you can do about it</div></li><li class="li1"><div class="de1">&gt;you close the hood and head back to tell her the bad news</div></li><li class="li1"><div class="de1">&gt;she seems to take it well</div></li><li class="li1"><div class="de1">&quot;Thats too bad honey, here , take this for your trouble&quot;</div></li><li class="li1"><div class="de1">&gt;she hands you a twenty</div></li><li class="li1"><div class="de1">&gt;you try to refuse since you really didn&#039;t do anything but she insists</div></li><li class="li1"><div class="de1">&gt;well it&#039;s her loss</div></li><li class="li1"><div class="de1">&gt;you wave her goodbye as you head down the driveway</div></li><li class="li1"><div class="de1">&gt;somehow you&#039;re really not looking forward to the cats visiting</div></li><li class="li1"><div class="de1">&gt;you sigh and continue on your way</div></li><li class="li1"><div class="de1">&gt;when the trees thin out towards the road you see something on top of your car</div></li><li class="li1"><div class="de1">&gt;it&#039;s that damned bird again</div></li><li class="li1"><div class="de1">&gt;you shout out and begin to run to your car</div></li><li class="li1"><div class="de1">&gt;as soon as the bird hears you he takes flight up onto a nearby tree</div></li><li class="li1"><div class="de1">&gt;you shake your fist at him as you get into the car</div></li><li class="li1"><div class="de1">&gt;you take a quick look around the inside of your car but everything seems to be in order with nothing missing</div></li><li class="li1"><div class="de1">&gt;you can&#039;t take this shit much longer</div></li><li class="li1"><div class="de1">&gt;since you gotta pass by your house to get to the next one anyways you decide to stop in for a quick drink</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;this doesn&#039;t feel right
+&gt;you&#039;re sitting down at the coffee table eating raw hot dogs with coco
+&gt;baileys not hungry at the moment, she full up on poultry
+&gt;coco seems to be savoring the hot dogs as if they&#039;re the best meal she ever had
+&gt;having your pets starve on their first week here would set a bad first impression
+&gt;but if you don&#039;t go out and buy things like leashes, toys, cleaning kits or appliances adapted to your pets anatomy then that would be just as bad
+&gt;there has to be a way to have your cake and eat it too
+&gt;if only your rich neighbors weren&#039;t so greedy and would lend you some money
+&gt;wait a second
+&gt;rich neighbors
+&gt;rich OLD neighbors
+&gt;and if theres one thing grandma taught you it&#039;s that rich old people love paying young men like you to do some menial chore
+&gt;theres only like 4 or 5 houses on this road so if you can get them to cough up 20$ a piece then that&#039;d be enough to tide you over
+&gt;assuming you only bought the cheapest shittiest crap they had on sale anyway
+&gt;with a plan in hand you quickly finish up your meager breakfast
+&quot;Coco, bailey, I&#039;m going out for a few hours, think you can handle being home alone for a little bit?&quot;
+&gt;bailey just waves you off, too engrossed in her videos to give a proper answer
+&gt;coco on the other hand lets out a little whine and seems genuinely distressed by the prospect
+&quot;Don&#039;t be gone too long okay?&quot;
+&gt;you assure her it&#039;ll only be a few hours while gathering your things before heading out the door, but not before hearing cocos nervous voice call out
+&quot;Be safe master!&quot;
+&gt;you head on out to the car and slide yourself into the drivers seat
+&gt;you puts the keys in the ignition but before you pull out you notice in the window of the front door coco has her face pressed up against the glass and is sadly waving to you
+&gt;you wave back 
+&gt;you begin backing up out of your driveway 
+&gt;when you&#039;re just about out you notice scaled feet clutching the rim of your roof right above the front door
+&gt;it&#039;s that damned bird again , staring at you
+&gt;you shake your fist at him before finally heading down the road
+&gt;you never have much reason to go down here but you do know there are 2 more houses before the road ends
+&gt;might as well start with the one furthest down
+&gt;you come up on a plain white house with 2 stories, 2 garages and notably no direct access to the lake
+&gt;as luck would have it you see a man outside with his head under the hood of some vintage sports car
+&gt;you pull your car up alongside the road next to his house, get out and ask him how he&#039;s doing
+&quot;Do I know you?&quot;
+&gt;it&#039;s understandable that that would be his first reaction but you tell him he probably doesn&#039;t
+&gt;with his face out of the car you can now get a good look at the guy
+&gt;he&#039;s nearly bald, wearing sunglasses and wearing a blue oily coverall with no shirt on
+&gt;you tell him you&#039;re looking to make a few bucks and couldn&#039;t help but notice his lawn is looking a bit untamed
+&gt;he turns around to give it some thought before turning back to you
+&quot;Yeah I suppose i could have someone mow it, how does 15$ for it sound?&quot;
+&gt;cheap old bastard
+&quot;I&#039;ll do it for 20$&quot;
+&gt;he narrows his eyes and wipes his hands on his shirt
+&quot;17$&quot;
+&gt;is this guy really haggling you over a few dollars?
+&gt;whatever you don&#039;t have the patience for this
+&quot;Sounds good&quot;
+&gt;he smiles and tells you the mower is in the garage before going back to tending to his car
+&gt;you head in, grab the mower and start earning your pay
+&gt;nothing really interesting happens while you&#039;re mowing his lawn
+&gt;except for you notice your little spy has followed you
+&gt;you notice him down the street perched on a light pole
+&gt;you just ignore him and continue on with your work
+&gt;it takes about 2 hours to finish his lawn
+&gt;while he&#039;s getting your money counted you decide to ask him if he&#039;s had any problems with spies
+&quot;Hey old man d-&quot;
+&quot;My names curtis&quot;
+&quot;Curtis, have you noticed any birds looking in on your business?&quot;
+&gt;curtis gives you an incredulous look
+&quot;No, have you?&quot;
+&gt;you go to point out your family friend on the light pole but surprise surprise he&#039;s no longer there
+&gt;suddenly worried you made yourself look crazy to stranger you look to him but he&#039;s taking off his glasses and squinting trying to see it
+&quot;Son, I can&#039;t see that far but i&#039;ll take your word for it, I used to have trouble with a bird who always went out of his way to shit on my car, those things can get fixated on the strangest stuff&quot;
+&gt;with that he hands you the money and heads back to his car
+&gt;you thank him and head on to the next house
+&gt;this one you can barely make out between the trees
+&gt;the house seems to be bright red but it&#039;s down a long gravel driveway surrounded by the forest
+&gt;in other words no lawn to mow
+&gt;they might still have something for you to do though
+&gt;so you pull over, get out and walk down the gravel driveway
+&gt;whoever lives here has a decidedly more modern car then last time parked out front
+&gt;once you reach the door you ring the doorbell and wait
+&gt;you aren&#039;t waiting long
+&gt;the door opens and you&#039;re greeted by a surprisingly young women
+&gt;well young for around here anyways
+&gt;you&#039;d say she&#039;s on the older end of middle age  
+&gt;she greets you in slippers, a pink bathrobe and a cup of coffee in one hand
+&quot;Ooh~, whats a young handsome man like you doing knocking on my door so early in the morning?&quot;
+&gt;handsome?
+&gt;and it&#039;s getting pretty close to noon now
+&gt;but whatever
+&gt;you explain your predicament and ask if theres anything she needs doing
+&quot;It depends, do you know your way around a car?&quot;
+&gt;you tell her you worked as a part time mechanic when you were a teenager
+&quot;Well whenever I make a turn my car makes a loud squealing sound, can you check it out for me sweetie?&quot;
+&gt;with her watching you walk down to her car and pop the hood open
+&gt;you lean in to check if your suspicions are correct when you&#039;re suddenly overwhelmed by the sound of meowing
+&gt;you try to back up only to find you&#039;ve been swamped in a small sea of feral cats
+&gt;oh no
+&gt;shes one of those ladies
+&gt;you turn around to look back at her only to see shes been joined in watching you from the doorway by 2 other figures
+&gt;2 identical anthro siamese cats
+&gt;they&#039;re a bit taller than bailey but much better endowed while maintaining their trim figure
+&gt;in unison they walk down towards you
+&gt;they part the sea of cats as if it was an extension of themselves
+&gt;the first thing they do when they reach you is hug and nuzzle into your chest
+&gt;you get a better look at them and see they do have a difference between them
+&gt;they&#039;re both heterochromatic with one blue and one green eye
+&gt;but one has the green eye on the left while the other has it on the right
+&gt;the one with the right green eye is the first to speak 
+&quot;Hey cutie, what brings you here?&quot;
+&gt;you tell you&#039;re just checking out their owners car for her
+&gt;now it&#039;s the others turn to speak
+&quot;Hmmm~ car repair is such hard work, when your done why don&#039;t you come in and relax a little bit~&quot;
+&gt;this isn&#039;t good
+&gt;their constant rubbing, purring and seductive language is wearing on your resolve
+&gt;so you try to change the subject
+&quot;You know, you 2 remind me of my own cat&quot;
+&gt;you were expecting this to get them to back off but it only seemed to interest them further
+&quot;Oh? Maybe we should be the ones paying you a visit~, it&#039;s awfully lonely around here with no one else of our own kind to hang around with&quot; 
+&quot;Do you live far away from here cutie?&quot;
+&gt;you say you live right next door
+&gt;you mentally punch yourself as soon as the words leave your lips
+&gt;you were supposed to be avoiding talking to them and now they know they can just pop in whenever
+&quot;Really!? We had such a handsome guy living right next to us this whole time?&quot;
+&gt;they shared a look before nodding at each other
+&gt;they both backed off a little before doing a little spin
+&gt;the one with the left green eyed declared her name was meena
+&gt;while the other said hers was zeena
+&quot;So now that you know our names...&quot;
+&quot;Next time we meet you should introduce us to your cat&quot;
+&quot;Okay?&quot;
+&gt;you sighed and agreed to the deal
+&gt;both the seductive felines walked back towards their master with the horde of feral cats following behind
+&gt;well as least now you can check the car in peace
+&gt;as you expected the problem is the engine belt
+&gt;shes desperately in need of a replacement
+&gt;theres not much you can do about it
+&gt;you close the hood and head back to tell her the bad news
+&gt;she seems to take it well
+&quot;Thats too bad honey, here , take this for your trouble&quot;
+&gt;she hands you a twenty
+&gt;you try to refuse since you really didn&#039;t do anything but she insists
+&gt;well it&#039;s her loss
+&gt;you wave her goodbye as you head down the driveway
+&gt;somehow you&#039;re really not looking forward to the cats visiting
+&gt;you sigh and continue on your way
+&gt;when the trees thin out towards the road you see something on top of your car
+&gt;it&#039;s that damned bird again
+&gt;you shout out and begin to run to your car
+&gt;as soon as the bird hears you he takes flight up onto a nearby tree
+&gt;you shake your fist at him as you get into the car
+&gt;you take a quick look around the inside of your car but everything seems to be in order with nothing missing
+&gt;you can&#039;t take this shit much longer
+&gt;since you gotta pass by your house to get to the next one anyways you decide to stop in for a quick drink</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    27 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    28 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    35 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

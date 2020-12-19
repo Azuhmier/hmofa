@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tasty Morsel - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Tasty Morsel - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/kiqU8VW2" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/kiqU8VW2" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="3Lw38n3siea111Ki8pFlKchilkfcKiLbozSJQSYq_-CqzQWHT4Tnv8eZE9iQxDdIhVXDNbpSQImaebsySRO-lg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/kiqU8VW2" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/kiqU8VW2" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="ROTHY">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Tasty Morsel</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/ROTHY">ROTHY</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=ROTHY" class="message" title="Send a private message to: ROTHY"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 26th of February 2018 12:55:39 PM CDT">Feb 26th, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,181                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 7.80 KB            </div>
+
+            <div class="right">
+                <a href="/raw/kiqU8VW2" class="btn -small">raw</a>
+                <a href="/dl/kiqU8VW2" class="btn -small">download</a>
+                <a href="/clone/kiqU8VW2" class="btn -small h_800">clone</a>
+                <a href="/embed/kiqU8VW2" class="btn -small h_800">embed</a>
+                <a href="/report/kiqU8VW2" class="btn -small">report</a>
+                <a href="/print/kiqU8VW2" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">You awaken feeling groggy. The party must have been really good.</div></li><li class="li1"><div class="de1">As you stretch your arms and legs out and yawn, you notice the bed you&#039;re on is really soft.</div></li><li class="li1"><div class="de1">But as you try to pull your limbs back, you get an unexpected resistance and they stay splayed outwards.</div></li><li class="li1"><div class="de1">Snapping into full awareness, you realize you&#039;re tied to the bed with rope.</div></li><li class="li1"><div class="de1">The unmistakable stench of blood reaches your nostrils as you try frantically to recall what the hell could have lead to this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A rich baroness was having a party, that was a fact.</div></li><li class="li1"><div class="de1">Normally, a minor noble like yourself wouldn&#039;t get invited to a knight&#039;s home, let alone that of a baroness.</div></li><li class="li1"><div class="de1">Odd as it was, you were eager to go and mingle.</div></li><li class="li1"><div class="de1">You seem to have overestimated the size of the party, though. The place you were told to gather is a ballroom, which is empty aside from a table with some meat pies and some chairs.</div></li><li class="li1"><div class="de1">There&#039;s only five other men, minus any servants you catch glimpses of.</div></li><li class="li1"><div class="de1">The room is uncomfortably vacant aside from the furnishings.</div></li><li class="li1"><div class="de1">The others don&#039;t seem intent on talking, but you do catch a whisper of one of them asking if they knew who the baroness was. Come to think of it, the invitation never said what the party was for either.</div></li><li class="li1"><div class="de1">Within a few minutes of arriving, your hostess makes her appearance.</div></li><li class="li1"><div class="de1">She&#039;s a plump rat wearing an outfit that looks to be in less than ideal condition. A brooch and pair of necklaces adorn her neck.</div></li><li class="li1"><div class="de1">To be honest, you wouldn&#039;t have attended if you knew she was a rat, so that was clever on her part.</div></li><li class="li1"><div class="de1">A grins widely as she brings her hands together, &quot;Oh, perfect! Everyone&#039;s here!&quot; she squeals.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&#039;Why&#039;d you invite us?&#039; is what you&#039;re probably thinking, right?&quot; she strides over to you. &quot;Sit down with me and I&#039;ll tell you my tale.&quot;</div></li><li class="li1"><div class="de1">Everyone complies. Your hostess&#039;s body seems to fit snuggly into the chair she&#039;s in. The cheeriness she displayed before dropped. &quot;My name is Griotte and I am an unfortunate widow.&quot;</div></li><li class="li1"><div class="de1">It&#039;s at this point you notice the ring on her foot that you overlooked. She continues, &quot;Fate is an unkind mistress and my husband died last year. Wyld rest his soul.&quot;</div></li><li class="li1"><div class="de1">&quot;Sooo, we&#039;re suitors is what you&#039;re getting at.&quot; one of the guests says. Griotte simply smiles, &quot;Well, yes, if you want to be blunt.&quot;</div></li><li class="li1"><div class="de1">She goes on to explain that she would be interviewing each of you, starting with asking if they were even interested, and if they weren&#039;t, no further questions would be asked and they would be free to go after everything was concluded.</div></li><li class="li1"><div class="de1">While you were waiting, she offered some of her freshly made meat pies. You had one and it actually tasted really damn good.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your turn finally came around. &quot;First things first, are you interested?&quot; &quot;Well, I&#039;m not disinterested.&quot; You retort.</div></li><li class="li1"><div class="de1">She laughed, &quot;Ohoho, cheeky.&quot; The interview went on. It&#039;s mostly basic stuff, though there are a few questions that caught you off guard. Of course you didn&#039;t have The Rot or associated with anyone who did.</div></li><li class="li1"><div class="de1">Before she asks the last question, Griotte pulls a tattered rose-patterned fan from her cleavage. It takes you a second to realize you&#039;re staring, but Griotte&#039;s already noticed. &quot;Hmm hmm~&quot; The rat hums, fanning herself and looking at you with half-lidded eyes.</div></li><li class="li1"><div class="de1">The questions end and she finally lets you go. You decide to remain seated as the rat retrieves several glasses of wine and hands it to you and the others. &quot;It&#039;s not a real party without some wine now, is it?&quot;</div></li><li class="li1"><div class="de1">You drink it. After that, you can&#039;t remember anything else.</div></li><li class="li1"><div class="de1">And now you&#039;re caught up to where you ended up tied to this bed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Struggle as you might, you can&#039;t escape your bonds. You hear movement from outside the room and you desperately hope that whoever&#039;s coming through the door won&#039;t kill you.</div></li><li class="li1"><div class="de1">So of course it&#039;s Griotte wielding a blood-stained cleaver. &quot;Hellooo~...&quot;</div></li><li class="li1"><div class="de1">She draws closer to you as you realize she&#039;s now wearing an apron with blood splatters on it.</div></li><li class="li1"><div class="de1">&quot;The others weren&#039;t nearly as cooperative as you. One of them didn&#039;t even accept my drink and I had to cleave his skull while he was fumbling with the door! Unlucky for him, I&#039;d locked it.&quot;</div></li><li class="li1"><div class="de1">She passes her cleaver off to her tail as she reaches the foot of the bed. &quot;You, on the other hand, left such an impression on me, I just had to skip straight to the final test.&quot;</div></li><li class="li1"><div class="de1">Griotte tugs on the top of her dress a couple of times, before freeing her large breasts from their confinement.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your survival instincts are trying desperately to keep your dick limp. Unfortunately, Griotte tears your trousers open with her bare hands.</div></li><li class="li1"><div class="de1">When she moves onto the bed, you feel the entire thing shift forward from her weight. She places one claw on the head and lightly bats it upward a few times before giving a couple of strokes.</div></li><li class="li1"><div class="de1">Even with the looming fear of death, your dick betrays you and becomes erect. Making that grin from earlier and putting it into a new context, Griotte envelops your cock between her tits.</div></li><li class="li1"><div class="de1">Her fur is actually surprisingly soft and clean. She starts moving her breasts up and down on your shaft.</div></li><li class="li1"><div class="de1">It&#039;s really hard to think clearly when the woman that just killed the other guests starts giving you a titfuck.</div></li><li class="li1"><div class="de1">It&#039;s even harder once she starts taking it into her mouth.</div></li><li class="li1"><div class="de1">The combined pressure and skillful oral assault on your member make it impossible to concentrate.</div></li><li class="li1"><div class="de1">It takes a few seconds for you to realize you&#039;re already cumming in her mouth.</div></li><li class="li1"><div class="de1">Griotte greedily swallows all of it, making sure to show you, before cleaning the rest off your cock.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Still in a daze, you almost miss Griotte stripping out of her dress. All of her plump body is revealed to you. There&#039;s still a threat to your life as she still has that cleaver.</div></li><li class="li1"><div class="de1">Climbing onto the bed, she moves all the way up beside your head. The rat puts a claw on your nose.</div></li><li class="li1"><div class="de1">Wordlessly, she moves over your face and turns around, giving you an up-close look at her massive ass. Her puffy pucker is aligned with your mouth.</div></li><li class="li1"><div class="de1">Griotte drops herself on your face and you feel her full weight push you hard against the mattress. &quot;Now you best get to licking, or I&#039;ll have to start chopping.&quot; she says, her tail swinging the cleaver for emphasis.</div></li><li class="li1"><div class="de1">Rimming her in lieu of speaking, you trace around the hole briefly before moving in.</div></li><li class="li1"><div class="de1">In response, the rat pushes even harder down. You feel like she&#039;s really trying to kill you with this. If she is, then you might as well enjoy yourself.</div></li><li class="li1"><div class="de1">You dig your tongue as far as it can go and move around. Griotte grunts in response, but doesn&#039;t let up.</div></li><li class="li1"><div class="de1">Just as you&#039;re feeling lightheaded, she finally gets off you. Saliva coats her anus, making it shine.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;One... last thing... and this&#039;ll be over.&quot; she whispers in-between breaths. You hadn&#039;t realized, but you&#039;re erect again.</div></li><li class="li1"><div class="de1">She moves her now slippery hole over your dick. With little resistance, it goes in.</div></li><li class="li1"><div class="de1">Griotte brings her rear down upon you.</div></li><li class="li1"><div class="de1">You&#039;d be lying if you said this didn&#039;t feel good, but this is still rape.</div></li><li class="li1"><div class="de1">A lot of weight pushes down on your pelvis as Griotte starts putting all of her weight into it. It actually hurts and she has no sign of letting up on you.</div></li><li class="li1"><div class="de1">Pleasure and pain runs through your crotch. You are at her mercy while she shows none.</div></li><li class="li1"><div class="de1">Just as it feels like something is about to break, you cum inside.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Completely spent, you watch as Griotte lets your dick out with a POP sound. She turns back to face you and falls to your side.</div></li><li class="li1"><div class="de1">&quot;That was fantastic! We&#039;ll make a great couple, don&#039;t you think so, hubby?&quot; That wicked grin of hers never leaves her face.</div></li><li class="li1"><div class="de1">Without letting you respond, she gets off the bed and puts her clothes back on, cum still leaking from her behind.</div></li><li class="li1"><div class="de1">&quot;Aren&#039;t you going to untie me?&quot; You ask, hoping you haven&#039;t overstepped anything.</div></li><li class="li1"><div class="de1">Instead, she turns to you, tossing her cleaver between her hands. &quot;Oh no, no, no, I just said the test was over. I&#039;ll consider removing the ropes, hmmm, tomorrow. We&#039;ll have a lot more fun tonight.&quot;</div></li><li class="li1"><div class="de1">She is about to exit, but says one more thing to you, &quot;I just have to prepare my special meat pies. I&#039;ll even let you have the freshest one if you&#039;re good!&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">You awaken feeling groggy. The party must have been really good.
+As you stretch your arms and legs out and yawn, you notice the bed you&#039;re on is really soft.
+But as you try to pull your limbs back, you get an unexpected resistance and they stay splayed outwards.
+Snapping into full awareness, you realize you&#039;re tied to the bed with rope.
+The unmistakable stench of blood reaches your nostrils as you try frantically to recall what the hell could have lead to this.
+
+A rich baroness was having a party, that was a fact.
+Normally, a minor noble like yourself wouldn&#039;t get invited to a knight&#039;s home, let alone that of a baroness.
+Odd as it was, you were eager to go and mingle.
+You seem to have overestimated the size of the party, though. The place you were told to gather is a ballroom, which is empty aside from a table with some meat pies and some chairs.
+There&#039;s only five other men, minus any servants you catch glimpses of.
+The room is uncomfortably vacant aside from the furnishings.
+The others don&#039;t seem intent on talking, but you do catch a whisper of one of them asking if they knew who the baroness was. Come to think of it, the invitation never said what the party was for either.
+Within a few minutes of arriving, your hostess makes her appearance.
+She&#039;s a plump rat wearing an outfit that looks to be in less than ideal condition. A brooch and pair of necklaces adorn her neck.
+To be honest, you wouldn&#039;t have attended if you knew she was a rat, so that was clever on her part.
+A grins widely as she brings her hands together, &quot;Oh, perfect! Everyone&#039;s here!&quot; she squeals.
+
+&quot;&#039;Why&#039;d you invite us?&#039; is what you&#039;re probably thinking, right?&quot; she strides over to you. &quot;Sit down with me and I&#039;ll tell you my tale.&quot;
+Everyone complies. Your hostess&#039;s body seems to fit snuggly into the chair she&#039;s in. The cheeriness she displayed before dropped. &quot;My name is Griotte and I am an unfortunate widow.&quot;
+It&#039;s at this point you notice the ring on her foot that you overlooked. She continues, &quot;Fate is an unkind mistress and my husband died last year. Wyld rest his soul.&quot;
+&quot;Sooo, we&#039;re suitors is what you&#039;re getting at.&quot; one of the guests says. Griotte simply smiles, &quot;Well, yes, if you want to be blunt.&quot;
+She goes on to explain that she would be interviewing each of you, starting with asking if they were even interested, and if they weren&#039;t, no further questions would be asked and they would be free to go after everything was concluded.
+While you were waiting, she offered some of her freshly made meat pies. You had one and it actually tasted really damn good.
+
+Your turn finally came around. &quot;First things first, are you interested?&quot; &quot;Well, I&#039;m not disinterested.&quot; You retort.
+She laughed, &quot;Ohoho, cheeky.&quot; The interview went on. It&#039;s mostly basic stuff, though there are a few questions that caught you off guard. Of course you didn&#039;t have The Rot or associated with anyone who did.
+Before she asks the last question, Griotte pulls a tattered rose-patterned fan from her cleavage. It takes you a second to realize you&#039;re staring, but Griotte&#039;s already noticed. &quot;Hmm hmm~&quot; The rat hums, fanning herself and looking at you with half-lidded eyes.
+The questions end and she finally lets you go. You decide to remain seated as the rat retrieves several glasses of wine and hands it to you and the others. &quot;It&#039;s not a real party without some wine now, is it?&quot;
+You drink it. After that, you can&#039;t remember anything else.
+And now you&#039;re caught up to where you ended up tied to this bed.
+
+Struggle as you might, you can&#039;t escape your bonds. You hear movement from outside the room and you desperately hope that whoever&#039;s coming through the door won&#039;t kill you.
+So of course it&#039;s Griotte wielding a blood-stained cleaver. &quot;Hellooo~...&quot;
+She draws closer to you as you realize she&#039;s now wearing an apron with blood splatters on it.
+&quot;The others weren&#039;t nearly as cooperative as you. One of them didn&#039;t even accept my drink and I had to cleave his skull while he was fumbling with the door! Unlucky for him, I&#039;d locked it.&quot;
+She passes her cleaver off to her tail as she reaches the foot of the bed. &quot;You, on the other hand, left such an impression on me, I just had to skip straight to the final test.&quot;
+Griotte tugs on the top of her dress a couple of times, before freeing her large breasts from their confinement.
+
+Your survival instincts are trying desperately to keep your dick limp. Unfortunately, Griotte tears your trousers open with her bare hands.
+When she moves onto the bed, you feel the entire thing shift forward from her weight. She places one claw on the head and lightly bats it upward a few times before giving a couple of strokes.
+Even with the looming fear of death, your dick betrays you and becomes erect. Making that grin from earlier and putting it into a new context, Griotte envelops your cock between her tits.
+Her fur is actually surprisingly soft and clean. She starts moving her breasts up and down on your shaft.
+It&#039;s really hard to think clearly when the woman that just killed the other guests starts giving you a titfuck.
+It&#039;s even harder once she starts taking it into her mouth.
+The combined pressure and skillful oral assault on your member make it impossible to concentrate.
+It takes a few seconds for you to realize you&#039;re already cumming in her mouth.
+Griotte greedily swallows all of it, making sure to show you, before cleaning the rest off your cock.
+
+Still in a daze, you almost miss Griotte stripping out of her dress. All of her plump body is revealed to you. There&#039;s still a threat to your life as she still has that cleaver.
+Climbing onto the bed, she moves all the way up beside your head. The rat puts a claw on your nose.
+Wordlessly, she moves over your face and turns around, giving you an up-close look at her massive ass. Her puffy pucker is aligned with your mouth.
+Griotte drops herself on your face and you feel her full weight push you hard against the mattress. &quot;Now you best get to licking, or I&#039;ll have to start chopping.&quot; she says, her tail swinging the cleaver for emphasis.
+Rimming her in lieu of speaking, you trace around the hole briefly before moving in.
+In response, the rat pushes even harder down. You feel like she&#039;s really trying to kill you with this. If she is, then you might as well enjoy yourself.
+You dig your tongue as far as it can go and move around. Griotte grunts in response, but doesn&#039;t let up.
+Just as you&#039;re feeling lightheaded, she finally gets off you. Saliva coats her anus, making it shine.
+
+&quot;One... last thing... and this&#039;ll be over.&quot; she whispers in-between breaths. You hadn&#039;t realized, but you&#039;re erect again.
+She moves her now slippery hole over your dick. With little resistance, it goes in.
+Griotte brings her rear down upon you.
+You&#039;d be lying if you said this didn&#039;t feel good, but this is still rape.
+A lot of weight pushes down on your pelvis as Griotte starts putting all of her weight into it. It actually hurts and she has no sign of letting up on you.
+Pleasure and pain runs through your crotch. You are at her mercy while she shows none.
+Just as it feels like something is about to break, you cum inside.
+
+Completely spent, you watch as Griotte lets your dick out with a POP sound. She turns back to face you and falls to your side.
+&quot;That was fantastic! We&#039;ll make a great couple, don&#039;t you think so, hubby?&quot; That wicked grin of hers never leaves her face.
+Without letting you respond, she gets off the bed and puts her clothes back on, cum still leaking from her behind.
+&quot;Aren&#039;t you going to untie me?&quot; You ask, hoping you haven&#039;t overstepped anything.
+Instead, she turns to you, tossing her cleaver between her hands. &quot;Oh no, no, no, I just said the test was over. I&#039;ll consider removing the ropes, hmmm, tomorrow. We&#039;ll have a lot more fun tonight.&quot;
+She is about to exit, but says one more thing to you, &quot;I just have to prepare my special meat pies. I&#039;ll even let you have the freshest one if you&#039;re good!&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    9 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    10 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    13 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    14 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chapter 5 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Chapter 5 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/ezsj2qLM" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/ezsj2qLM" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="LD8JNIDniYmFJePibjAf8xcfTJWnLga3q7IP1kv2Nb16WkEG36Xx2cJK1a0cQ2-FVGx8-pJ6NPHigUqsEZN4xw==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        
+                                    
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/ezsj2qLM" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/ezsj2qLM" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Chapter 5</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                        a guest                    </div>
+                
+                <div class="date">
+                    <span title="Wednesday 19th of April 2017 05:23:21 AM CDT">Apr 19th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    418                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 4.31 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/ezsj2qLM" class="btn -small">raw</a>
+                    <a href="/dl/ezsj2qLM" class="btn -small">download</a>
+                    <a href="/clone/ezsj2qLM" class="btn -small h_800">clone</a>
+                    <a href="/embed/ezsj2qLM" class="btn -small h_800">embed</a>
+                    <a href="/print/ezsj2qLM" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/ezsj2qLM" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;ah thats much better</div></li><li class="li1"><div class="de1">&gt;after that shower you&#039;re feeling much cleaner and greatly de-stressed </div></li><li class="li1"><div class="de1">&gt;you towel off and put on your bathrobe </div></li><li class="li1"><div class="de1">&gt;before leaving the bathroom you take a quick look up the skylight to see if your peeping tom is still there</div></li><li class="li1"><div class="de1">&gt;surprisingly enough he&#039;s gone</div></li><li class="li1"><div class="de1">&gt;with that you unlock the door and swagger out into the living with all the confidence you can muster</div></li><li class="li1"><div class="de1">&gt;but you demeanor is brutally shattered by the sight that greets you</div></li><li class="li1"><div class="de1">&gt;baily is kneeling on the couch with her face pressed into a pillow, butt in the air and a horrified expression on her face</div></li><li class="li1"><div class="de1">&gt;coco is crouched behind bailey with her snout pressed firmly and tightly under the cats tail and a similarly horrified expression on her face</div></li><li class="li1"><div class="de1">&gt;you 3 share a few moments of silence before you have to cover your mouth to prevent your sudden mad giggling from being heard</div></li><li class="li1"><div class="de1">&gt;you fail miserably </div></li><li class="li1"><div class="de1">&gt;coco and bailey seem to calm down when they realize you&#039;re amused instead of mad but they don&#039;t move an inch from their compromising position</div></li><li class="li1"><div class="de1">&gt;coco is the first to break the silence on your pets side with 3 loud sniffs against baileys bottom</div></li><li class="li1"><div class="de1">&gt;baileys horrified expression comes back with a vengeance</div></li><li class="li1"><div class="de1">&quot;Coco stop that you dumb dog!&quot;</div></li><li class="li1"><div class="de1">&gt;bailey pushes coco away with her feet and covers her butt by sitting down on it</div></li><li class="li1"><div class="de1">&quot;Bailey language, I don&#039;t want to hear any speciesism in this house, especially against the members of it&quot;</div></li><li class="li1"><div class="de1">&gt;her ear flatten again</div></li><li class="li1"><div class="de1">&quot;Sorry&quot;</div></li><li class="li1"><div class="de1">&quot;Apologize to coco not me&quot;</div></li><li class="li1"><div class="de1">&gt;bailey rolls her eyes and looks over at coco</div></li><li class="li1"><div class="de1">&quot;Sorry for calling you a dumb dog coco&quot;</div></li><li class="li1"><div class="de1">&gt;coco gives bailey a scratch behind her ears</div></li><li class="li1"><div class="de1">&quot;It&#039;s okay bailey, I know you didn&#039;t mean it&quot;</div></li><li class="li1"><div class="de1">&gt;bailey looks miffed at cocos obvious sucking up</div></li><li class="li1"><div class="de1">&gt;you wait for them to explain themselves</div></li><li class="li1"><div class="de1">&gt;they just sit there and look at you</div></li><li class="li1"><div class="de1">&gt;you clear your throat</div></li><li class="li1"><div class="de1">&quot;So what were you girls up to just now? I thought cats and dogs weren&#039;t supposed to get along, I didn-&quot;</div></li><li class="li1"><div class="de1">&gt;bailey lets out a loud aha and points her finger at you</div></li><li class="li1"><div class="de1">&quot;Cats and dogs hating each other is a speciesist and untrue stereotype perpetuated by old slapstick cartoons&quot;</div></li><li class="li1"><div class="de1">&gt;she crosses her arms and smirks like she just won a great victory</div></li><li class="li1"><div class="de1">&quot;I think you owe us both an apology&quot;</div></li><li class="li1"><div class="de1">&gt;you have to smirk and chuckle at her antics</div></li><li class="li1"><div class="de1">&gt;you walk over scratch their heads</div></li><li class="li1"><div class="de1">&quot;I&#039;m real sorry girls, can you ever forgive&quot;</div></li><li class="li1"><div class="de1">&gt;coco immediately begins nodding her head vigorously while bailey makes a show of thinking it over</div></li><li class="li1"><div class="de1">&quot;I guess I can, but don&#039;t ever let it happen again&quot;</div></li><li class="li1"><div class="de1">&quot;Oh don&#039;t worry I&#039;ve learned my lesson&quot;</div></li><li class="li1"><div class="de1">&gt;with that out of the way you move on over to the fridge</div></li><li class="li1"><div class="de1">&gt;you suppose breakfast is long overd-</div></li><li class="li1"><div class="de1">&quot;Hey wait a second, don&#039;t change the subject, what were you 2 just doing?&quot; </div></li><li class="li1"><div class="de1">&gt;you turn around just in time to see them deflate from their hopes of not having to explain this being crushed</div></li><li class="li1"><div class="de1">&gt;you cross your arms and wait for whoevers the first one to speak up </div></li><li class="li1"><div class="de1">&gt;turns out to be bailey</div></li><li class="li1"><div class="de1">&quot;Uh well you see..., I wanted to pay coco back for helping me clean myself so...&quot;</div></li><li class="li1"><div class="de1">&gt;bailey hides her face behind the armrest of the couch</div></li><li class="li1"><div class="de1">&quot;So you let her smell your butt?&quot;</div></li><li class="li1"><div class="de1">&gt;bailey points at coco while hiding herself</div></li><li class="li1"><div class="de1">&quot;It&#039;s what she asked for&quot;</div></li><li class="li1"><div class="de1">&gt;you turn your attention to coco who looks very nervous at the moment</div></li><li class="li1"><div class="de1">&gt;you hold your silence for a few moments as the pressure gets to her</div></li><li class="li1"><div class="de1">&quot;What? You can learn a lot about a person from how their butthole smells&quot;</div></li><li class="li1"><div class="de1">&gt;she seems to realize how dumb that explanation sounds as toward the end it turns into a whisper</div></li><li class="li1"><div class="de1">&quot;Oh really? So what did you learn about her?&quot;</div></li><li class="li1"><div class="de1">&gt;she brings up her finger as if she going to launch into a long explanation but it instead trails off into a long uhhhhhhhhhhhh</div></li><li class="li1"><div class="de1">&gt;then she perks up as she seems to get an idea</div></li><li class="li1"><div class="de1">&quot;I learned that bailey is deep down a very nice person&quot;</div></li><li class="li1"><div class="de1">&gt;coco seems very pleased with herself for that save</div></li><li class="li1"><div class="de1">&gt;but you&#039;ve had enough embarrassing your pets for today</div></li><li class="li1"><div class="de1">&gt;you give coco a nod of acceptance and go back to the fridge</div></li><li class="li1"><div class="de1">&gt;your not in the mood for a fancy breakfast so you just take the half pack of wieners left over from last night and throw them into a pot of water and wait for it to boil</div></li><li class="li1"><div class="de1">&gt;your food situation is getting pretty dire</div></li><li class="li1"><div class="de1">&gt;but you also haven&#039;t gotten any of the stuff taking care of a pair of pets requires</div></li><li class="li1"><div class="de1">&gt;and you&#039;re not exactly made of money right now</div></li><li class="li1"><div class="de1">&gt;you planned on going out to town to pick up some stuff but it becomes obvious you can&#039;t get everything you need right now</div></li><li class="li1"><div class="de1">&gt;you&#039;re going to have to make some tough choices</div></li></ol>        </div>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;ah thats much better
+&gt;after that shower you&#039;re feeling much cleaner and greatly de-stressed 
+&gt;you towel off and put on your bathrobe 
+&gt;before leaving the bathroom you take a quick look up the skylight to see if your peeping tom is still there
+&gt;surprisingly enough he&#039;s gone
+&gt;with that you unlock the door and swagger out into the living with all the confidence you can muster
+&gt;but you demeanor is brutally shattered by the sight that greets you
+&gt;baily is kneeling on the couch with her face pressed into a pillow, butt in the air and a horrified expression on her face
+&gt;coco is crouched behind bailey with her snout pressed firmly and tightly under the cats tail and a similarly horrified expression on her face
+&gt;you 3 share a few moments of silence before you have to cover your mouth to prevent your sudden mad giggling from being heard
+&gt;you fail miserably 
+&gt;coco and bailey seem to calm down when they realize you&#039;re amused instead of mad but they don&#039;t move an inch from their compromising position
+&gt;coco is the first to break the silence on your pets side with 3 loud sniffs against baileys bottom
+&gt;baileys horrified expression comes back with a vengeance
+&quot;Coco stop that you dumb dog!&quot;
+&gt;bailey pushes coco away with her feet and covers her butt by sitting down on it
+&quot;Bailey language, I don&#039;t want to hear any speciesism in this house, especially against the members of it&quot;
+&gt;her ear flatten again
+&quot;Sorry&quot;
+&quot;Apologize to coco not me&quot;
+&gt;bailey rolls her eyes and looks over at coco
+&quot;Sorry for calling you a dumb dog coco&quot;
+&gt;coco gives bailey a scratch behind her ears
+&quot;It&#039;s okay bailey, I know you didn&#039;t mean it&quot;
+&gt;bailey looks miffed at cocos obvious sucking up
+&gt;you wait for them to explain themselves
+&gt;they just sit there and look at you
+&gt;you clear your throat
+&quot;So what were you girls up to just now? I thought cats and dogs weren&#039;t supposed to get along, I didn-&quot;
+&gt;bailey lets out a loud aha and points her finger at you
+&quot;Cats and dogs hating each other is a speciesist and untrue stereotype perpetuated by old slapstick cartoons&quot;
+&gt;she crosses her arms and smirks like she just won a great victory
+&quot;I think you owe us both an apology&quot;
+&gt;you have to smirk and chuckle at her antics
+&gt;you walk over scratch their heads
+&quot;I&#039;m real sorry girls, can you ever forgive&quot;
+&gt;coco immediately begins nodding her head vigorously while bailey makes a show of thinking it over
+&quot;I guess I can, but don&#039;t ever let it happen again&quot;
+&quot;Oh don&#039;t worry I&#039;ve learned my lesson&quot;
+&gt;with that out of the way you move on over to the fridge
+&gt;you suppose breakfast is long overd-
+&quot;Hey wait a second, don&#039;t change the subject, what were you 2 just doing?&quot; 
+&gt;you turn around just in time to see them deflate from their hopes of not having to explain this being crushed
+&gt;you cross your arms and wait for whoevers the first one to speak up 
+&gt;turns out to be bailey
+&quot;Uh well you see..., I wanted to pay coco back for helping me clean myself so...&quot;
+&gt;bailey hides her face behind the armrest of the couch
+&quot;So you let her smell your butt?&quot;
+&gt;bailey points at coco while hiding herself
+&quot;It&#039;s what she asked for&quot;
+&gt;you turn your attention to coco who looks very nervous at the moment
+&gt;you hold your silence for a few moments as the pressure gets to her
+&quot;What? You can learn a lot about a person from how their butthole smells&quot;
+&gt;she seems to realize how dumb that explanation sounds as toward the end it turns into a whisper
+&quot;Oh really? So what did you learn about her?&quot;
+&gt;she brings up her finger as if she going to launch into a long explanation but it instead trails off into a long uhhhhhhhhhhhh
+&gt;then she perks up as she seems to get an idea
+&quot;I learned that bailey is deep down a very nice person&quot;
+&gt;coco seems very pleased with herself for that save
+&gt;but you&#039;ve had enough embarrassing your pets for today
+&gt;you give coco a nod of acceptance and go back to the fridge
+&gt;your not in the mood for a fancy breakfast so you just take the half pack of wieners left over from last night and throw them into a pot of water and wait for it to boil
+&gt;your food situation is getting pretty dire
+&gt;but you also haven&#039;t gotten any of the stuff taking care of a pair of pets requires
+&gt;and you&#039;re not exactly made of money right now
+&gt;you planned on going out to town to pick up some stuff but it becomes obvious you can&#039;t get everything you need right now
+&gt;you&#039;re going to have to make some tough choices</textarea>
+    
+        
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/5T5nHhJz">OnePunchMan Destiny</a>
+                <div class="details">
+                                            Lua |
+                    
+                    2 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cBbWma3n">Calcular e média de um aluno</a>
+                <div class="details">
+                                            Python |
+                    
+                    18 min ago                </div>
+            </li>
+                    <li>
+                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
+                <div class="details">
+                                            Python |
+                    
+                    33 min ago                </div>
+            </li>
+                    <li>
+                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
+                <div class="details">
+                                            HTML 5 |
+                    
+                    38 min ago                </div>
+            </li>
+                    <li>
+                <a href="/btQEV0ET">Programming - practice</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/puJtA4QV">views.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/XgV1xT3P">forms.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+        
+        
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
+<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
+</body>
+</html>

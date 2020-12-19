@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Boar-Bait - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Boar-Bait - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/3DG1LBKG" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/3DG1LBKG" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="OdkEiuOXa_4TAriCmLyqwsTOFb60ew0ABHH8tDx2ctcUvX3C2_UHtVlD58CgjZLztZxm7-0NdWhPNaTYCjQUoA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/3DG1LBKG" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/3DG1LBKG" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Bockwood">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Boar-Bait</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Bockwood">Bockwood</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=Bockwood" class="message" title="Send a private message to: Bockwood"></a>
+                                    
+                <div class="date">
+                    <span title="Friday 17th of April 2020 02:37:44 AM CDT">Apr 17th, 2020</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,273                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 24.39 KB            </div>
+
+            <div class="right">
+                <a href="/raw/3DG1LBKG" class="btn -small">raw</a>
+                <a href="/dl/3DG1LBKG" class="btn -small">download</a>
+                <a href="/clone/3DG1LBKG" class="btn -small h_800">clone</a>
+                <a href="/embed/3DG1LBKG" class="btn -small h_800">embed</a>
+                <a href="/report/3DG1LBKG" class="btn -small">report</a>
+                <a href="/print/3DG1LBKG" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;You were Anon</div></li><li class="li1"><div class="de1">&gt;An average, if young human male who seemingly despised anthro women</div></li><li class="li1"><div class="de1">&gt;You however, secretly found them very appealing, it was the whole domination thing they had going on that twisted your innards into knots</div></li><li class="li1"><div class="de1">&gt;Most human boys would have anthros crawling all over them. Some were there solely for lust, others genuinely loved human boys.</div></li><li class="li1"><div class="de1">&gt;You were ignored and left alone by the vast majority of the anthro girls you knew</div></li><li class="li1"><div class="de1">&gt;This did not come without a price however, you were left alone because a sounder of boar anthros had ‘claimed’ you for themselves</div></li><li class="li1"><div class="de1">&gt;They were crude and lecherous in their behavior towards you. Constantly asking if you wanted to ‘pull some pork’, or if you’d let them ‘teach you how to squeal’. The worst line came from a particularly tall, broad and muscled sow who asked if you would ‘glaze her haunches’.</div></li><li class="li1"><div class="de1">&gt;They weren’t forceful, but it was clear they were a bunch of horny sows who wanted nothing more than to have a shared ‘humie’ that they all desired</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Most of them were older than you, but not by much. With the oldest only being 5 years older than you</div></li><li class="li1"><div class="de1">&gt;You yourself were 18, having just graduated highschool and been thrust out in the wide-open world</div></li><li class="li1"><div class="de1">&gt;Your parents, who were not kind or generous in any sense, had kicked you out of the home. You expected as much, given that they had only ‘been there’ for most of you life</div></li><li class="li1"><div class="de1">&gt;You were working a dead-end job, and living inside what amounted to a closet-space advertised as a apartment</div></li><li class="li1"><div class="de1">&gt;Without a ton of money, you took up hiking as a hobby since you lived in the middle of the southeastern boondocks. You were several hours away from everywhere else, a geographical anomaly</div></li><li class="li1"><div class="de1">&gt;There were a lot of lakes around the area, and to keep your water-bill down you had taken up skinny-dipping to cool-off and keep clean</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Today was an average day, you had the day off and had taken a hike through the landscape and worked up a sweat. You had even begun taking a log of interesting plants, fungi or animals you encountered</div></li><li class="li1"><div class="de1">&gt;With sweat dripping down your forehead, you descended down to a small lake and stripped. Leaving your clothes upon some rocks to dry</div></li><li class="li1"><div class="de1">&gt;You swam out and enjoyed yourself, before paddling to a small, sheltered alcove that you could clean yourself in peace at</div></li><li class="li1"><div class="de1">&gt;When you came back to swim ashore and find your clothes. You found that they were missing. Ice ran through your veins as you heard barely-suppressed giggling and snorting</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Well! Lookie here girls! Th’ hunk just up and disappeared on us, only to wash up naked in our waterin’ hole!” A husky tone yelled from the tree-line. That would be Lee, or Eileen if you were to use her actual name. She was the leader of the sounder, as far as you could tell. She stepped out from the trees, revealing that she was stark naked. She was extremely strong and well-built, but covered with a layer of fat that gave her plenty of jiggle and a curved belly. She was covered with a thin layer of shaggy fur, and possessed two, massive breasts that rested lightly on her belly. Her hair was a reddish-brown, almost rust colored that gave way to a tawny brown pelt. Her privates were obscured by her thick pubic-fur. The hairs around her slit were short and out of the way, but the ones that ran up her belly were longer and drooping from sweat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Looks like he already got the memo on proper swimmin’ attire!” Called out a high, almost squealing-voice. That was April, the youngest of the boars. She was a great deal smaller than her compatriots, roughly your height. Her small frame didn’t have much in the way of pudge for a boar. Allowing you to see the rippling muscle that was normally obscured by it. Her hair was straw-blonde and long. Currently hanging free without a hint of styling. She too was naked, infact, all of the boars were naked. This was looking like the start to a porno shoot.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Several more emerge from the brush. In total, six boars stand between you and dry land</div></li><li class="li1"><div class="de1">&gt;You make out the charcoal-furred Mary with her short-cut hair and distinctive ‘razorback’, along with untrimmed tusks. She’s massive compared to the others. 100% strongfat, the muscle managing to show beneath her padding. </div></li><li class="li1"><div class="de1">&gt;There’s piebald June, splotches of brown disturbing her otherwise pristine white coat. She’s a bit fuzzier than the others, with a fuzzy mop of hair on her head that comically drapes over her eyes and makes it seem as though she’s blind.</div></li><li class="li1"><div class="de1">&gt;Penny is the next one over with grey, spotted fur and a lack of noticeable headfur. A patch was slung over one of her eyes, having always been there. She was rather average in build for a boar, much like June. Thickset, chubby and muscled</div></li><li class="li1"><div class="de1">&gt;Lastly you spot flat-chested and ruddy-furred Becky. Her tits are rather small for a boar, but as if to compensate she has a pair of amazonian thighs and rear-end. Almost giving her a rabbit-like appearance from a distance</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You gulp down the bile in your throat, and suppress the fear-boner that’s threatening to rise out of you</div></li><li class="li1"><div class="de1">&gt;”Did you so-. Did you take the clothes I had sunning out on these here rocks!?” You question in an accusing tone.</div></li><li class="li1"><div class="de1">&gt;Lee is quick to fire back. “No sir, not our fault if you can&#039;t keep track of where you leave your rags when going for a dip!”</div></li><li class="li1"><div class="de1">&gt;You stay in the water as the sounder of sows grows closer to you, until they’re right up on the shore.</div></li><li class="li1"><div class="de1">&gt;”Course, I think you should be more worried about tresspassin’ on our property. Rather than worrying about being naked. The latter ain’t a crime, even if it does cost you some of that ‘pure Human dignity’.” Lee teases as she draws even closer, taking a seat on the rocks in front of you and spreading her legs. Letting you get an eyeful of her moist cunt.</div></li><li class="li1"><div class="de1">&gt;Your boner flares to life underneath the waves, thankfully the water isn’t that clear this time of year.</div></li><li class="li1"><div class="de1">&gt;”Never understood that. Your all’s obsession with clothes, seems like it would be more comfortable to go buff like us in this weather. Rather than sweating and getting your clothes all dirty.” She remarks, idly scratching her thighs.</div></li><li class="li1"><div class="de1">&gt;”So, why don’t you come on up out of the water and tell us why you was skulkin’ around on our property and we might just let you walk on out of here Anon.” She hastily adds, patting the rocks near her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Naturally, you refuse to do so, and before you can even blink. Mary is already charging, tearing through the water towards you and scooping you up. Her height allowed her to stride along the bottom while you struggled to tread water.</div></li><li class="li1"><div class="de1">&gt;She carries you out of the water and sets you down, with surprising gentleness, next to Lee.</div></li><li class="li1"><div class="de1">&gt;You’re shaking from a mixture of fear, arousal and cold from having been submerged in the lakewater</div></li><li class="li1"><div class="de1">&gt;Your boner throbs achingly in the warm air, having been weeks since you felt the urge to ‘clean your pipes’. It had given you plenty of time to inconveniently be backed up for this moment</div></li><li class="li1"><div class="de1">&gt;All of the sows are staring at you, making you very uncomfortable under their gaze. You shiver even more, and then you feel Lee wrap an arm around you and hold you close. Likely an attempt to help warm you up. You’d normally shove her off, but, you kind of like the sensation.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Anon. T. Nymous. And you’re not getting pissy about me touching you naked? Who the hell are you and what did you do with him?” The sow guffaws. “I’m just messin’ with you about the trespassing thing. We do own the land, but it’s not marked well and we don’t care so long as no one litters.” She clears her throat. “So why the change in heart, normally you’d have shoved me away and called me a ‘fat pig’ by now.”</div></li><li class="li1"><div class="de1">&gt;You were a bit of an asshole while you were younger, and while you weren’t very comfortable with anthro women still. You were a saint compared to your vicious, younger self that got black-eyes and harassed by the anthro schoolgirls.</div></li><li class="li1"><div class="de1">&gt;”I’m cold.” You reply, trying to keep your voice monotone to avoid giving away any emotion. But your voice cracks for a moment, and soon Lee has you sitting within her lap. Breasts pressed against your back and arms wrapped around your shoulders.</div></li><li class="li1"><div class="de1">&gt;Normally you would protest, but the naked sow was blissfully warm against your naked skin, and her embrace just felt good</div></li><li class="li1"><div class="de1">&gt;You didn’t know why just being held by her felt this good, but you had been missing this sort of thing your whole life.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You’ve been utterly alone for the past couple of months, whereas before you at least had some contact with your parents. They’d listen, even if they never showed you any affection.</div></li><li class="li1"><div class="de1">&gt;”I-I’ve not been doing well.” You reply honestly to Lee’s question. You feel her draw you in closer, and the sounder of sows draw in tighter around you</div></li><li class="li1"><div class="de1">&gt;”My shitty parents who never cared for me kicked me, and now I’m living in a closet, working a dead-end job. Is that what you wanted to know? The speciest human’s all fucked up and living like shit.” You snarl at her.</div></li><li class="li1"><div class="de1">&gt;Her embrace around you grows tighter, confusing you greatly. You thought she’d get vindictive and mean, they were your former bullies after all.</div></li><li class="li1"><div class="de1">&gt;”No Anon, that’s fuckin’ awful and if you told us that we’d have helped ya, or at the least not ribbed you as much.” She replies.</div></li><li class="li1"><div class="de1">&gt;”Bullshit! You all just fuckin’ catcalled and mad-” You’re silenced by her raising a hand to your mouth</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Anon, we was all a bunch of horny, young sows. And we still are. All that teasing we did? It’s because we were attracted to ya.”</div></li><li class="li1"><div class="de1">&gt;You try to free your mouth to give another scathing reply, but she holds firm. “You’re a really good guy Anon, beneath your miles of parent and affection issues. We know you really don’t hate us, otherwise.” She reaches out and grabs a hold of your boner, which is still standing strong. You’re over-sensitive and can’t help but buck your hips instinctually from the sensation.</div></li><li class="li1"><div class="de1">&gt;”You wouldn’t be sporting a boner that could drill diamond.” She leans in close to your ear and whispers something that makes your blood run cold. “We know you like U.F.B.”</div></li><li class="li1"><div class="de1">&gt;”How the F-!” You attempt to question, only for your muffled voice to end in a squawk as she gently squeezes your cock. It angrily fires a strand of pre into the warm, summer air.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Ssssh. Just let us take care of you. If you want Anon, you can stay with us at our place. We’ve got room, you’ll have plenty of people who know what it’s like to have shitty parents, and all the boar pussy you can eat.”</div></li><li class="li1"><div class="de1">&gt;The offer is incredibly tempting, but on the flip-side you don’t know if they’re being wholly sincere or not.</div></li><li class="li1"><div class="de1">&gt;”Don’t expect you to have an answer right now. Tell you what, you let us know after we’re all done here~” She remarks in a sultry tone, before standing up and carrying you with her. You don’t bother fighting.</div></li><li class="li1"><div class="de1">&gt;You’re set down within a clear patch of dirt, the loamy soil warm and slightly moist against your skin.</div></li><li class="li1"><div class="de1">&gt;Lee is quick to clamber over top of you, breasts dangling down in front of you while she straddles your shaft. Her hips angle forward to grind her puffy lips against your shaft, and a whorish moan escapes your mouth from the contact</div></li><li class="li1"><div class="de1">&gt;You blush furiously, much to the amusement of your partners.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Safeword is ‘Ohl-lee-garchy’. Cry that out if we’re getting too rough, or if you’re uncomfortable darlin’.” Lee states, betraying her eastern kentucky accent.</div></li><li class="li1"><div class="de1">&gt;Mary circles around and gets down on her knees over your head, and suddenly your world is darkened by a pair of charcoal thighs that could crack skulls, and a massive, drooling pussy. The smell is overwhelming and you feel your cock attempting in vain to grow even harder.</div></li><li class="li1"><div class="de1">&gt;”Course, gonna have to scream it for us to hear you underneath all that boar-puss you’re about to swallow~” Lee adds, before rotating around on your hips, hooking your cock with the entrance of her pussy and slamming herself to the hilt in one fluid motion</div></li><li class="li1"><div class="de1">&gt;As she does this, Mary kneels forward, pressing her crotch against your face. Your entire world becomes sow, with two, massive thighs cradling your head and blocking out sound. A face-full of boar pussy fills your mouth, blocks your nose and you can see nothing but her pubic-fur and the curve of her belly.</div></li><li class="li1"><div class="de1">&gt;Your dick is enveloped inside a hot, silken chamber. With a light, undulating pressure that’s squeezing your cock and forcing the velvet-like texture of her walls to grind against your sensitive rod</div></li><li class="li1"><div class="de1">&gt;A spasm rocks your hips as you instinctively buck upwards and into that wonderful snatch, the pleasure is too much for you to handle and you let a low, throaty moan escape into the slit enveloping your mouth</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Lee’s slit and the musky boar-pussy currently lodged in your face is currently working you up into a sexual frenzy</div></li><li class="li1"><div class="de1">&gt;You grasp ahold of the thick thighs straddling your head and press your mouth into the boar-pussy coating your mouth</div></li><li class="li1"><div class="de1">&gt;Your thick tongue emerges, licking and probing her depths, the sow above you squealing softly and twitching her legs. She tastes slightly sweet and earthy, almost herbal strangely enough</div></li><li class="li1"><div class="de1">&gt;You nibble on her fat, peaking clit with your teeth, soliciting more excited squeaks and squeals from Mary. She’s leaking arousal all over you, it’s all you can smell and taste at this point.</div></li><li class="li1"><div class="de1">&gt;Meanwhile, Lee is pistoning herself on your cock, her thick thighs and rear impact against your wet body with wet, lewd smacks.</div></li><li class="li1"><div class="de1">&gt;You resist the urge to grit your teeth and instead howl your pleasure into the pork obscuring your face, pressing yourself deeper into it as you thrust and buck your hips as much as you can. The sensation of her walls physically *pulling* you as she bounces is making you feral horny</div></li><li class="li1"><div class="de1">&gt;Soon enough you begin to feel lee tighten around you, her thrusts are becoming shorter, keeping more and more of you inside her until finally she stops. Her pussy clamps down and explodes on your shaft, the muscled walls tugging and milking your shaft</div></li><li class="li1"><div class="de1">&gt;You let out a primal snarl into the pig coochie as you thrust your hips as far in as they’ll go. Bumping into a small dimple upon a hard surface. You then explode into her, jamming your cock against it as you unload rope after rope of thick jism into her</div></li><li class="li1"><div class="de1">&gt;You’re cumming so hard you feel as though you’re suffocating and that your balls have pulled themselves up and into your pelvis.</div></li><li class="li1"><div class="de1">&gt;It’s then that Mary decides to let out a deep, booming squeal as her pussy spasms before a tide of liquid suddenly splashes over your face and fills your mouth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can’t actually breath now. Spitting it out just meant it went right back into your mouth, so you swallowed all of it and took in deep, shuddering breaths.</div></li><li class="li1"><div class="de1">&gt;Mary shakily pulls herself off your head, allowing you to taste the cool and comparably cool summer air once more.</div></li><li class="li1"><div class="de1">&gt;There’s maybe five seconds of rest before April steps into view, biting her lip as she saunters over to Lee</div></li><li class="li1"><div class="de1">&gt;”Quit hogging the humie-dick to yourself Lee!” She shouts, before hip-checking the sow you’re currently embedded in</div></li><li class="li1"><div class="de1">&gt;She goes tumbling off to the side in the dirt, leaving your dick throbbing, wet and painfully cold.</div></li><li class="li1"><div class="de1">&gt;April stands at your feet, before squatting down and grasping them. She then moves forward, moving your legs further and further back until they’re practically next to your head. Your manhood proudly jaunts out from the bottom of your thighs.</div></li><li class="li1"><div class="de1">&gt;”Oh good, he’s just as flexible as always. Gonna have to get some gymnastic clothes for you, like you wore back in high-school.” The muscled boar comments, before squatting down on you pussy-first.</div></li><li class="li1"><div class="de1">&gt;Her pussy is different compared to Lees. Hers is coarser and texture, and the rippling muscles that line her canal are much stronger. Instantly contracting to form an even tighter fight than Lee. Feeling like you’re being grasped by a gloved hand, rather than fucking a sensual tunnel</div></li><li class="li1"><div class="de1">&gt;Still, you groan like the man-whore you are as you’re mating-pressed into the dirt</div></li><li class="li1"><div class="de1">&gt;You’re so into April you don’t even notice June had gotten onto her hands and knees, and was backing up</div></li><li class="li1"><div class="de1">&gt;Only when you see her fuzzy backside, and her dripping folds over your face do you realize she’s there</div></li><li class="li1"><div class="de1">&gt;You jerk for a moment, only for her to sit down on your head. Unlike Mary she wasn’t as heavy and didn’t have to worry about your health</div></li><li class="li1"><div class="de1">&gt;Your face is pressed into a pair of fat, furry cheeks. It’s hard to breathe, but the overpowering smell of sow arousal is already making it bearable</div></li><li class="li1"><div class="de1">&gt;The two are pressed against one another’s chest and pinning you in place as they sloppily make out. You can feel their drool or some other liquid dribbling down and onto your belly. Both of them are pinning you in place so badly you can’t so much as move. The only way you can express your pleasure is by moaning as you devour June’s pussy, or angrily flex your cock in April’s vice-like folds</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The sow pressing you begins to grind her hips in a circle, willingly flexing her muscles to grasp and jerk your cock. Your curl your toes and squint your eyes shut, unable to handle the pleasure as you flex your cock in vain</div></li><li class="li1"><div class="de1">&gt;June has begun to grind her pussy against your face, the sopping, furry folds coating your entire head in her juices. It’s filling your mouth, nose and you can feel it escaping into your hair.</div></li><li class="li1"><div class="de1">&gt;It’s hot as fuck and  you can’t help but extend your tongue and hold it in place as she uses your face like a cheap toy</div></li><li class="li1"><div class="de1">&gt;Your amazonian dominator decides to change her position once again, and now your cock feels like it’s being gripped even tighter. Your entire shaft is rubbing against something soft and pink compared to the rest of her, and judging by the guttural squeals she’s releasing. She enjoys it as much as you are</div></li><li class="li1"><div class="de1">&gt;Her ‘jerks’ are much shorter now, properly milking your cock as her cheeks meet yours in thunderous slaps.</div></li><li class="li1"><div class="de1">&gt;You feel a bit thirsty, so you begin to suck on June’s pussy. The pig moans whorishly at this development, pressing herself hard against your mouth as you suction the arousal right out of her.</div></li><li class="li1"><div class="de1">&gt;This is followed up by your tongue rasping against the ‘top’ of her canal, and soon enough you’re properly rewarded.</div></li><li class="li1"><div class="de1">&gt;Another flood of boar-arousal is dumped onto you. So much so that it’s hard to get enough into your mouth to gulp down.</div></li><li class="li1"><div class="de1">&gt;After what feels like a minute of June pouring a water-hose on your face, she pulls off and collapses in the dirt nearby. Breathing heavily, but happily.</div></li><li class="li1"><div class="de1">&gt;April takes advantage and leans down from her perch. Grasping both of your legs and forcing them to the dirt by your head.</div></li><li class="li1"><div class="de1">&gt;Feeling begins to return to them as the blood rushes down their length.</div></li><li class="li1"><div class="de1">&gt;The sow is now staring directly into your eyes as she savagely ruts you. Her fat, porcine pussy is gripping your cock so tightly now it almost hurts.</div></li><li class="li1"><div class="de1">&gt;The pleasure is getting overwhelming, your whole body twitching as you try in vain to delay your oncoming orgasm to prolong the sensations</div></li><li class="li1"><div class="de1">&gt;”That’s it. Cum for me human, show me who owns this dick!”</div></li><li class="li1"><div class="de1">&gt;You throw your head back and let a feral, lusty moan loose as you unload more of your creamy ball-batter into April</div></li><li class="li1"><div class="de1">&gt;Your voice however is overshadowed by a deep, almost masculine bellow from April as her own cunt clamps down on your. Physically pulling you to rest against her womb as you blast ropes.</div></li><li class="li1"><div class="de1">&gt;Phosphorescent lights dance in your vision, and you struggle to accurately comprehend or explain what happens in the next few seconds</div></li><li class="li1"><div class="de1">&gt;All you can recall is tightness, April orgasming, and you passing out for a few moments.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;April pulls away from you, your dick pulling free after some considerable effort</div></li><li class="li1"><div class="de1">&gt;It makes a soft ‘plap’ when it collides against your stomach. Spent and completely saturated with boar femcum</div></li><li class="li1"><div class="de1">&gt;You can see Becky padding over as you get onto your hands and knees, sucking in gulps of air now that you were free from cumming your brains out, or swallowing pork-juice</div></li><li class="li1"><div class="de1">&gt;She pats you on the head, before lying down in the dirt before you. Spreading her legs wide open. A hand pats her sopping pussy, letting you know what she wants and where she wants it.</div></li><li class="li1"><div class="de1">&gt;”You’ve all broke ‘im in good.” She hollars. “But you need to be gentle when wranglin’ a humie stud, don’t want to choke ‘im out, or tucker him out before he’s done got a feel for everyone~” She comments in a thick drawl, accentuating her Rs.</div></li><li class="li1"><div class="de1">&gt;You’re not sure how, but you still have enough in you left to get hard</div></li><li class="li1"><div class="de1">&gt;Grabbing handfuls of earth, you propel yourself until you’re lazily situated atop Becky, your head laying on her chest as your grind against her fat, lips. Enjoying the slick, tickling sensation before you plunge into her proper</div></li><li class="li1"><div class="de1">&gt;You don’t feel like making too much noise, so you just grunt your satisfaction. Compared to the overwhelming vice that was April. Becky is nice, loose and soft. Mirroring the overall state of her bottom half.</div></li><li class="li1"><div class="de1">&gt;It’s perfect and sensual compared to the milking that you’ve just received, subtle but not overwhelming.</div></li><li class="li1"><div class="de1">&gt;Thrusting into her, your balls and hips smack loudly against her fat rear as you hook your arms underneath her legs and get into a kneeling position. Leaning forward into a press of your own, but mostly so you could support yourself with her legs</div></li><li class="li1"><div class="de1">&gt;Yours were still numb from April’s powerfucking after all</div></li><li class="li1"><div class="de1">&gt;As you’re easing off the last of your lust. Penny decides to get some action herself, stepping over and above Becky. Her crotch loomed in front of you, just the perfect height for you to eat her out while you mated with the plump-thighed sow beneath you</div></li><li class="li1"><div class="de1">&gt;You leaned forward, once again taking a mouthful of boar-pussy. This time however, you weren’t being facefucked, this was a willing tongue-fucking</div></li><li class="li1"><div class="de1">&gt;You lap at her labia, gently parting her clitoral hood with your tongue and flicking the pink nub hidden within.</div></li><li class="li1"><div class="de1">&gt;She gently cups your head with her hands, holding you steady and massaging your scalp with her hard, hoovish fingers</div></li><li class="li1"><div class="de1">&gt;Becky lets out soft, girlish squeals of contentment as you hump her in deep, hard thrusts. Enjoying just how soft she is, and the solid core of muscle that lays underneath that thick subcutaneous layer</div></li><li class="li1"><div class="de1">&gt;She shifts her thighs, and before you know it her calves are hooked behind your shoulder blades</div></li><li class="li1"><div class="de1">&gt;You couldn’t pull out far now, not that you were going to anyways.</div></li><li class="li1"><div class="de1">&gt;It’s a reminder, that even though she’s letting you on top. She’s the one in charge, and damned if she’ll let that fine dick get too far out of her now</div></li><li class="li1"><div class="de1">&gt;Thrusting and sex doesn’t seem as appealing as it used to be. You were still going to finish these two off of course, but you weren’t as horny as you once were. The repeated milkings have sapped your strength and will</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Another broad lick from your tongue solicits Penny to lean her hips forward, pushing your mouth into her pussy</div></li><li class="li1"><div class="de1">&gt;Lapping as normal, you grind the rougher base of your tongue against her wettened clit</div></li><li class="li1"><div class="de1">&gt;This sets her off, her hips bucking softly. Grinding her clit against the muscle in question</div></li><li class="li1"><div class="de1">&gt;A sharp squeal warns you of her oncoming orgasm, and you wisely close most of your mouth. The fluids of her climax rolling down your face, coating your chest, stomach and dribbling down to combine with Becky’s</div></li><li class="li1"><div class="de1">&gt;The one-eyed sow steps back, freeing you up to deal with Becky</div></li><li class="li1"><div class="de1">&gt;You lean down, coiling your arms around her and pushing your head into her soft and relatively flat chest</div></li><li class="li1"><div class="de1">&gt;Your cock flares wildly inside her depths as you shorten your thrusts even further, the ungraceful sounds of your meeting flesh are like a jackhammer</div></li><li class="li1"><div class="de1">&gt;You’re too desensitized to top yourself off any other way</div></li><li class="li1"><div class="de1">&gt;Becky similarly has wrapped herself around you, choked snorts and grunts coming from her puzzle as she draws close to her own edge as well</div></li><li class="li1"><div class="de1">&gt;Slamming your hips home, you hold them there as you surrender the last vestiges of your seed to the boar.</div></li><li class="li1"><div class="de1">&gt;In tandem with your own, you feel Becky climaxing around you. Though you feel her legs squeezing you more than you do her snatch. Hopefully she didn’t break anything with how hard her legs squeezed your chest</div></li><li class="li1"><div class="de1">&gt;You don’t feel any pain while breathing or moving, so that’s good</div></li><li class="li1"><div class="de1">&gt;You feel really good in fact, and this sow is the perfect bed</div></li><li class="li1"><div class="de1">&gt;You decide to nod off, embedded within Becky.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">------------------</div></li><li class="li1"><div class="de1">&gt;When you awaken, you are still naked. However, you’re no longer balls-deep within a sow. Rather, you’re surrounded by all of them, and laying in what looks to be some large bed</div></li><li class="li1"><div class="de1">&gt;There are no sheets covering you, but given it’s summer-time and you’re surrounded by big, naked boar women you don’t feel the slightest bit cold</div></li><li class="li1"><div class="de1">&gt;You guess they took you home with them after you passed out from train-fucking all of them</div></li><li class="li1"><div class="de1">&gt;Your mind goes back to that lakeside encounter</div></li><li class="li1"><div class="de1">&gt;You think you’ll take them up on that offer. Guess you’ll have to get used to smelling like horny-sow.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;You were Anon
+&gt;An average, if young human male who seemingly despised anthro women
+&gt;You however, secretly found them very appealing, it was the whole domination thing they had going on that twisted your innards into knots
+&gt;Most human boys would have anthros crawling all over them. Some were there solely for lust, others genuinely loved human boys.
+&gt;You were ignored and left alone by the vast majority of the anthro girls you knew
+&gt;This did not come without a price however, you were left alone because a sounder of boar anthros had ‘claimed’ you for themselves
+&gt;They were crude and lecherous in their behavior towards you. Constantly asking if you wanted to ‘pull some pork’, or if you’d let them ‘teach you how to squeal’. The worst line came from a particularly tall, broad and muscled sow who asked if you would ‘glaze her haunches’.
+&gt;They weren’t forceful, but it was clear they were a bunch of horny sows who wanted nothing more than to have a shared ‘humie’ that they all desired
+
+&gt;Most of them were older than you, but not by much. With the oldest only being 5 years older than you
+&gt;You yourself were 18, having just graduated highschool and been thrust out in the wide-open world
+&gt;Your parents, who were not kind or generous in any sense, had kicked you out of the home. You expected as much, given that they had only ‘been there’ for most of you life
+&gt;You were working a dead-end job, and living inside what amounted to a closet-space advertised as a apartment
+&gt;Without a ton of money, you took up hiking as a hobby since you lived in the middle of the southeastern boondocks. You were several hours away from everywhere else, a geographical anomaly
+&gt;There were a lot of lakes around the area, and to keep your water-bill down you had taken up skinny-dipping to cool-off and keep clean
+
+&gt;Today was an average day, you had the day off and had taken a hike through the landscape and worked up a sweat. You had even begun taking a log of interesting plants, fungi or animals you encountered
+&gt;With sweat dripping down your forehead, you descended down to a small lake and stripped. Leaving your clothes upon some rocks to dry
+&gt;You swam out and enjoyed yourself, before paddling to a small, sheltered alcove that you could clean yourself in peace at
+&gt;When you came back to swim ashore and find your clothes. You found that they were missing. Ice ran through your veins as you heard barely-suppressed giggling and snorting
+
+&gt;”Well! Lookie here girls! Th’ hunk just up and disappeared on us, only to wash up naked in our waterin’ hole!” A husky tone yelled from the tree-line. That would be Lee, or Eileen if you were to use her actual name. She was the leader of the sounder, as far as you could tell. She stepped out from the trees, revealing that she was stark naked. She was extremely strong and well-built, but covered with a layer of fat that gave her plenty of jiggle and a curved belly. She was covered with a thin layer of shaggy fur, and possessed two, massive breasts that rested lightly on her belly. Her hair was a reddish-brown, almost rust colored that gave way to a tawny brown pelt. Her privates were obscured by her thick pubic-fur. The hairs around her slit were short and out of the way, but the ones that ran up her belly were longer and drooping from sweat.
+
+&gt;”Looks like he already got the memo on proper swimmin’ attire!” Called out a high, almost squealing-voice. That was April, the youngest of the boars. She was a great deal smaller than her compatriots, roughly your height. Her small frame didn’t have much in the way of pudge for a boar. Allowing you to see the rippling muscle that was normally obscured by it. Her hair was straw-blonde and long. Currently hanging free without a hint of styling. She too was naked, infact, all of the boars were naked. This was looking like the start to a porno shoot.
+
+&gt;Several more emerge from the brush. In total, six boars stand between you and dry land
+&gt;You make out the charcoal-furred Mary with her short-cut hair and distinctive ‘razorback’, along with untrimmed tusks. She’s massive compared to the others. 100% strongfat, the muscle managing to show beneath her padding. 
+&gt;There’s piebald June, splotches of brown disturbing her otherwise pristine white coat. She’s a bit fuzzier than the others, with a fuzzy mop of hair on her head that comically drapes over her eyes and makes it seem as though she’s blind.
+&gt;Penny is the next one over with grey, spotted fur and a lack of noticeable headfur. A patch was slung over one of her eyes, having always been there. She was rather average in build for a boar, much like June. Thickset, chubby and muscled
+&gt;Lastly you spot flat-chested and ruddy-furred Becky. Her tits are rather small for a boar, but as if to compensate she has a pair of amazonian thighs and rear-end. Almost giving her a rabbit-like appearance from a distance
+
+&gt;You gulp down the bile in your throat, and suppress the fear-boner that’s threatening to rise out of you
+&gt;”Did you so-. Did you take the clothes I had sunning out on these here rocks!?” You question in an accusing tone.
+&gt;Lee is quick to fire back. “No sir, not our fault if you can&#039;t keep track of where you leave your rags when going for a dip!”
+&gt;You stay in the water as the sounder of sows grows closer to you, until they’re right up on the shore.
+&gt;”Course, I think you should be more worried about tresspassin’ on our property. Rather than worrying about being naked. The latter ain’t a crime, even if it does cost you some of that ‘pure Human dignity’.” Lee teases as she draws even closer, taking a seat on the rocks in front of you and spreading her legs. Letting you get an eyeful of her moist cunt.
+&gt;Your boner flares to life underneath the waves, thankfully the water isn’t that clear this time of year.
+&gt;”Never understood that. Your all’s obsession with clothes, seems like it would be more comfortable to go buff like us in this weather. Rather than sweating and getting your clothes all dirty.” She remarks, idly scratching her thighs.
+&gt;”So, why don’t you come on up out of the water and tell us why you was skulkin’ around on our property and we might just let you walk on out of here Anon.” She hastily adds, patting the rocks near her.
+
+&gt;Naturally, you refuse to do so, and before you can even blink. Mary is already charging, tearing through the water towards you and scooping you up. Her height allowed her to stride along the bottom while you struggled to tread water.
+&gt;She carries you out of the water and sets you down, with surprising gentleness, next to Lee.
+&gt;You’re shaking from a mixture of fear, arousal and cold from having been submerged in the lakewater
+&gt;Your boner throbs achingly in the warm air, having been weeks since you felt the urge to ‘clean your pipes’. It had given you plenty of time to inconveniently be backed up for this moment
+&gt;All of the sows are staring at you, making you very uncomfortable under their gaze. You shiver even more, and then you feel Lee wrap an arm around you and hold you close. Likely an attempt to help warm you up. You’d normally shove her off, but, you kind of like the sensation.
+
+&gt;”Anon. T. Nymous. And you’re not getting pissy about me touching you naked? Who the hell are you and what did you do with him?” The sow guffaws. “I’m just messin’ with you about the trespassing thing. We do own the land, but it’s not marked well and we don’t care so long as no one litters.” She clears her throat. “So why the change in heart, normally you’d have shoved me away and called me a ‘fat pig’ by now.”
+&gt;You were a bit of an asshole while you were younger, and while you weren’t very comfortable with anthro women still. You were a saint compared to your vicious, younger self that got black-eyes and harassed by the anthro schoolgirls.
+&gt;”I’m cold.” You reply, trying to keep your voice monotone to avoid giving away any emotion. But your voice cracks for a moment, and soon Lee has you sitting within her lap. Breasts pressed against your back and arms wrapped around your shoulders.
+&gt;Normally you would protest, but the naked sow was blissfully warm against your naked skin, and her embrace just felt good
+&gt;You didn’t know why just being held by her felt this good, but you had been missing this sort of thing your whole life.
+
+&gt;You’ve been utterly alone for the past couple of months, whereas before you at least had some contact with your parents. They’d listen, even if they never showed you any affection.
+&gt;”I-I’ve not been doing well.” You reply honestly to Lee’s question. You feel her draw you in closer, and the sounder of sows draw in tighter around you
+&gt;”My shitty parents who never cared for me kicked me, and now I’m living in a closet, working a dead-end job. Is that what you wanted to know? The speciest human’s all fucked up and living like shit.” You snarl at her.
+&gt;Her embrace around you grows tighter, confusing you greatly. You thought she’d get vindictive and mean, they were your former bullies after all.
+&gt;”No Anon, that’s fuckin’ awful and if you told us that we’d have helped ya, or at the least not ribbed you as much.” She replies.
+&gt;”Bullshit! You all just fuckin’ catcalled and mad-” You’re silenced by her raising a hand to your mouth
+
+&gt;”Anon, we was all a bunch of horny, young sows. And we still are. All that teasing we did? It’s because we were attracted to ya.”
+&gt;You try to free your mouth to give another scathing reply, but she holds firm. “You’re a really good guy Anon, beneath your miles of parent and affection issues. We know you really don’t hate us, otherwise.” She reaches out and grabs a hold of your boner, which is still standing strong. You’re over-sensitive and can’t help but buck your hips instinctually from the sensation.
+&gt;”You wouldn’t be sporting a boner that could drill diamond.” She leans in close to your ear and whispers something that makes your blood run cold. “We know you like U.F.B.”
+&gt;”How the F-!” You attempt to question, only for your muffled voice to end in a squawk as she gently squeezes your cock. It angrily fires a strand of pre into the warm, summer air.
+
+&gt;”Ssssh. Just let us take care of you. If you want Anon, you can stay with us at our place. We’ve got room, you’ll have plenty of people who know what it’s like to have shitty parents, and all the boar pussy you can eat.”
+&gt;The offer is incredibly tempting, but on the flip-side you don’t know if they’re being wholly sincere or not.
+&gt;”Don’t expect you to have an answer right now. Tell you what, you let us know after we’re all done here~” She remarks in a sultry tone, before standing up and carrying you with her. You don’t bother fighting.
+&gt;You’re set down within a clear patch of dirt, the loamy soil warm and slightly moist against your skin.
+&gt;Lee is quick to clamber over top of you, breasts dangling down in front of you while she straddles your shaft. Her hips angle forward to grind her puffy lips against your shaft, and a whorish moan escapes your mouth from the contact
+&gt;You blush furiously, much to the amusement of your partners.
+
+&gt;”Safeword is ‘Ohl-lee-garchy’. Cry that out if we’re getting too rough, or if you’re uncomfortable darlin’.” Lee states, betraying her eastern kentucky accent.
+&gt;Mary circles around and gets down on her knees over your head, and suddenly your world is darkened by a pair of charcoal thighs that could crack skulls, and a massive, drooling pussy. The smell is overwhelming and you feel your cock attempting in vain to grow even harder.
+&gt;”Course, gonna have to scream it for us to hear you underneath all that boar-puss you’re about to swallow~” Lee adds, before rotating around on your hips, hooking your cock with the entrance of her pussy and slamming herself to the hilt in one fluid motion
+&gt;As she does this, Mary kneels forward, pressing her crotch against your face. Your entire world becomes sow, with two, massive thighs cradling your head and blocking out sound. A face-full of boar pussy fills your mouth, blocks your nose and you can see nothing but her pubic-fur and the curve of her belly.
+&gt;Your dick is enveloped inside a hot, silken chamber. With a light, undulating pressure that’s squeezing your cock and forcing the velvet-like texture of her walls to grind against your sensitive rod
+&gt;A spasm rocks your hips as you instinctively buck upwards and into that wonderful snatch, the pleasure is too much for you to handle and you let a low, throaty moan escape into the slit enveloping your mouth
+
+&gt;Lee’s slit and the musky boar-pussy currently lodged in your face is currently working you up into a sexual frenzy
+&gt;You grasp ahold of the thick thighs straddling your head and press your mouth into the boar-pussy coating your mouth
+&gt;Your thick tongue emerges, licking and probing her depths, the sow above you squealing softly and twitching her legs. She tastes slightly sweet and earthy, almost herbal strangely enough
+&gt;You nibble on her fat, peaking clit with your teeth, soliciting more excited squeaks and squeals from Mary. She’s leaking arousal all over you, it’s all you can smell and taste at this point.
+&gt;Meanwhile, Lee is pistoning herself on your cock, her thick thighs and rear impact against your wet body with wet, lewd smacks.
+&gt;You resist the urge to grit your teeth and instead howl your pleasure into the pork obscuring your face, pressing yourself deeper into it as you thrust and buck your hips as much as you can. The sensation of her walls physically *pulling* you as she bounces is making you feral horny
+&gt;Soon enough you begin to feel lee tighten around you, her thrusts are becoming shorter, keeping more and more of you inside her until finally she stops. Her pussy clamps down and explodes on your shaft, the muscled walls tugging and milking your shaft
+&gt;You let out a primal snarl into the pig coochie as you thrust your hips as far in as they’ll go. Bumping into a small dimple upon a hard surface. You then explode into her, jamming your cock against it as you unload rope after rope of thick jism into her
+&gt;You’re cumming so hard you feel as though you’re suffocating and that your balls have pulled themselves up and into your pelvis.
+&gt;It’s then that Mary decides to let out a deep, booming squeal as her pussy spasms before a tide of liquid suddenly splashes over your face and fills your mouth.
+
+&gt;You can’t actually breath now. Spitting it out just meant it went right back into your mouth, so you swallowed all of it and took in deep, shuddering breaths.
+&gt;Mary shakily pulls herself off your head, allowing you to taste the cool and comparably cool summer air once more.
+&gt;There’s maybe five seconds of rest before April steps into view, biting her lip as she saunters over to Lee
+&gt;”Quit hogging the humie-dick to yourself Lee!” She shouts, before hip-checking the sow you’re currently embedded in
+&gt;She goes tumbling off to the side in the dirt, leaving your dick throbbing, wet and painfully cold.
+&gt;April stands at your feet, before squatting down and grasping them. She then moves forward, moving your legs further and further back until they’re practically next to your head. Your manhood proudly jaunts out from the bottom of your thighs.
+&gt;”Oh good, he’s just as flexible as always. Gonna have to get some gymnastic clothes for you, like you wore back in high-school.” The muscled boar comments, before squatting down on you pussy-first.
+&gt;Her pussy is different compared to Lees. Hers is coarser and texture, and the rippling muscles that line her canal are much stronger. Instantly contracting to form an even tighter fight than Lee. Feeling like you’re being grasped by a gloved hand, rather than fucking a sensual tunnel
+&gt;Still, you groan like the man-whore you are as you’re mating-pressed into the dirt
+&gt;You’re so into April you don’t even notice June had gotten onto her hands and knees, and was backing up
+&gt;Only when you see her fuzzy backside, and her dripping folds over your face do you realize she’s there
+&gt;You jerk for a moment, only for her to sit down on your head. Unlike Mary she wasn’t as heavy and didn’t have to worry about your health
+&gt;Your face is pressed into a pair of fat, furry cheeks. It’s hard to breathe, but the overpowering smell of sow arousal is already making it bearable
+&gt;The two are pressed against one another’s chest and pinning you in place as they sloppily make out. You can feel their drool or some other liquid dribbling down and onto your belly. Both of them are pinning you in place so badly you can’t so much as move. The only way you can express your pleasure is by moaning as you devour June’s pussy, or angrily flex your cock in April’s vice-like folds
+
+&gt;The sow pressing you begins to grind her hips in a circle, willingly flexing her muscles to grasp and jerk your cock. Your curl your toes and squint your eyes shut, unable to handle the pleasure as you flex your cock in vain
+&gt;June has begun to grind her pussy against your face, the sopping, furry folds coating your entire head in her juices. It’s filling your mouth, nose and you can feel it escaping into your hair.
+&gt;It’s hot as fuck and  you can’t help but extend your tongue and hold it in place as she uses your face like a cheap toy
+&gt;Your amazonian dominator decides to change her position once again, and now your cock feels like it’s being gripped even tighter. Your entire shaft is rubbing against something soft and pink compared to the rest of her, and judging by the guttural squeals she’s releasing. She enjoys it as much as you are
+&gt;Her ‘jerks’ are much shorter now, properly milking your cock as her cheeks meet yours in thunderous slaps.
+&gt;You feel a bit thirsty, so you begin to suck on June’s pussy. The pig moans whorishly at this development, pressing herself hard against your mouth as you suction the arousal right out of her.
+&gt;This is followed up by your tongue rasping against the ‘top’ of her canal, and soon enough you’re properly rewarded.
+&gt;Another flood of boar-arousal is dumped onto you. So much so that it’s hard to get enough into your mouth to gulp down.
+&gt;After what feels like a minute of June pouring a water-hose on your face, she pulls off and collapses in the dirt nearby. Breathing heavily, but happily.
+&gt;April takes advantage and leans down from her perch. Grasping both of your legs and forcing them to the dirt by your head.
+&gt;Feeling begins to return to them as the blood rushes down their length.
+&gt;The sow is now staring directly into your eyes as she savagely ruts you. Her fat, porcine pussy is gripping your cock so tightly now it almost hurts.
+&gt;The pleasure is getting overwhelming, your whole body twitching as you try in vain to delay your oncoming orgasm to prolong the sensations
+&gt;”That’s it. Cum for me human, show me who owns this dick!”
+&gt;You throw your head back and let a feral, lusty moan loose as you unload more of your creamy ball-batter into April
+&gt;Your voice however is overshadowed by a deep, almost masculine bellow from April as her own cunt clamps down on your. Physically pulling you to rest against her womb as you blast ropes.
+&gt;Phosphorescent lights dance in your vision, and you struggle to accurately comprehend or explain what happens in the next few seconds
+&gt;All you can recall is tightness, April orgasming, and you passing out for a few moments.
+
+&gt;April pulls away from you, your dick pulling free after some considerable effort
+&gt;It makes a soft ‘plap’ when it collides against your stomach. Spent and completely saturated with boar femcum
+&gt;You can see Becky padding over as you get onto your hands and knees, sucking in gulps of air now that you were free from cumming your brains out, or swallowing pork-juice
+&gt;She pats you on the head, before lying down in the dirt before you. Spreading her legs wide open. A hand pats her sopping pussy, letting you know what she wants and where she wants it.
+&gt;”You’ve all broke ‘im in good.” She hollars. “But you need to be gentle when wranglin’ a humie stud, don’t want to choke ‘im out, or tucker him out before he’s done got a feel for everyone~” She comments in a thick drawl, accentuating her Rs.
+&gt;You’re not sure how, but you still have enough in you left to get hard
+&gt;Grabbing handfuls of earth, you propel yourself until you’re lazily situated atop Becky, your head laying on her chest as your grind against her fat, lips. Enjoying the slick, tickling sensation before you plunge into her proper
+&gt;You don’t feel like making too much noise, so you just grunt your satisfaction. Compared to the overwhelming vice that was April. Becky is nice, loose and soft. Mirroring the overall state of her bottom half.
+&gt;It’s perfect and sensual compared to the milking that you’ve just received, subtle but not overwhelming.
+&gt;Thrusting into her, your balls and hips smack loudly against her fat rear as you hook your arms underneath her legs and get into a kneeling position. Leaning forward into a press of your own, but mostly so you could support yourself with her legs
+&gt;Yours were still numb from April’s powerfucking after all
+&gt;As you’re easing off the last of your lust. Penny decides to get some action herself, stepping over and above Becky. Her crotch loomed in front of you, just the perfect height for you to eat her out while you mated with the plump-thighed sow beneath you
+&gt;You leaned forward, once again taking a mouthful of boar-pussy. This time however, you weren’t being facefucked, this was a willing tongue-fucking
+&gt;You lap at her labia, gently parting her clitoral hood with your tongue and flicking the pink nub hidden within.
+&gt;She gently cups your head with her hands, holding you steady and massaging your scalp with her hard, hoovish fingers
+&gt;Becky lets out soft, girlish squeals of contentment as you hump her in deep, hard thrusts. Enjoying just how soft she is, and the solid core of muscle that lays underneath that thick subcutaneous layer
+&gt;She shifts her thighs, and before you know it her calves are hooked behind your shoulder blades
+&gt;You couldn’t pull out far now, not that you were going to anyways.
+&gt;It’s a reminder, that even though she’s letting you on top. She’s the one in charge, and damned if she’ll let that fine dick get too far out of her now
+&gt;Thrusting and sex doesn’t seem as appealing as it used to be. You were still going to finish these two off of course, but you weren’t as horny as you once were. The repeated milkings have sapped your strength and will
+
+&gt;Another broad lick from your tongue solicits Penny to lean her hips forward, pushing your mouth into her pussy
+&gt;Lapping as normal, you grind the rougher base of your tongue against her wettened clit
+&gt;This sets her off, her hips bucking softly. Grinding her clit against the muscle in question
+&gt;A sharp squeal warns you of her oncoming orgasm, and you wisely close most of your mouth. The fluids of her climax rolling down your face, coating your chest, stomach and dribbling down to combine with Becky’s
+&gt;The one-eyed sow steps back, freeing you up to deal with Becky
+&gt;You lean down, coiling your arms around her and pushing your head into her soft and relatively flat chest
+&gt;Your cock flares wildly inside her depths as you shorten your thrusts even further, the ungraceful sounds of your meeting flesh are like a jackhammer
+&gt;You’re too desensitized to top yourself off any other way
+&gt;Becky similarly has wrapped herself around you, choked snorts and grunts coming from her puzzle as she draws close to her own edge as well
+&gt;Slamming your hips home, you hold them there as you surrender the last vestiges of your seed to the boar.
+&gt;In tandem with your own, you feel Becky climaxing around you. Though you feel her legs squeezing you more than you do her snatch. Hopefully she didn’t break anything with how hard her legs squeezed your chest
+&gt;You don’t feel any pain while breathing or moving, so that’s good
+&gt;You feel really good in fact, and this sow is the perfect bed
+&gt;You decide to nod off, embedded within Becky.
+
+------------------
+&gt;When you awaken, you are still naked. However, you’re no longer balls-deep within a sow. Rather, you’re surrounded by all of them, and laying in what looks to be some large bed
+&gt;There are no sheets covering you, but given it’s summer-time and you’re surrounded by big, naked boar women you don’t feel the slightest bit cold
+&gt;You guess they took you home with them after you passed out from train-fucking all of them
+&gt;Your mind goes back to that lakeside encounter
+&gt;You think you’ll take them up on that offer. Guess you’ll have to get used to smelling like horny-sow.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    22 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    26 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    27 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    33 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

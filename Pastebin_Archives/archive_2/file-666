@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Decennial - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Decennial - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/rPgQkvw5" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/rPgQkvw5" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="hyFGzzx7kjwzzdElde94gEIQ2BVDS0Sp95fTfneYpmq3ciqudwrnVny9tHQEvx64GHjscxUZLuWe0uUUL8ruMg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/rPgQkvw5" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/rPgQkvw5" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="sub_anon">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Decennial</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/sub_anon">sub_anon</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=sub_anon" class="message" title="Send a private message to: sub_anon"></a>
+                                    
+                <div class="date">
+                    <span title="Wednesday 28th of August 2019 12:36:50 AM CDT">Aug 28th, 2019</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    2,186                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 14.38 KB            </div>
+
+            <div class="right">
+                <a href="/raw/rPgQkvw5" class="btn -small">raw</a>
+                <a href="/dl/rPgQkvw5" class="btn -small">download</a>
+                <a href="/clone/rPgQkvw5" class="btn -small h_800">clone</a>
+                <a href="/embed/rPgQkvw5" class="btn -small h_800">embed</a>
+                <a href="/report/rPgQkvw5" class="btn -small">report</a>
+                <a href="/print/rPgQkvw5" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&quot;Decennial&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon groaned softly as he awoke to find himself lying in a soft, comfortable bed in a dark log cabin. After turning on the electric lamp by the bedside, he realized that this was definitely not the same cabin he went to sleep in. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Knowing very well what that meant, he decided his first step should be to check on the weather. Despite it being about midnight outside, the breeze felt pleasantly cool on his face as it blew softly in through the now open window. The moon was shining brightly in the sky, with not a cloud in sight to obscure it&#039;s light. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon then began surveying the forest from the vantage point that the cabin provided him. It stood on a tall hill that overlooked the dense forest, allowing him to see for many miles. Not that it helped him much, as he could only see the roof of the forest and already knew which direction to go to get home. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After closing the window, Anon went over to the wardrobe to get some proper clothes for a trek through the forest. As he expected, it was well stocked with more than enough for his needs. after throwing on a long sleeve shirt and some sweatpants, with a leather jacket over the shirt for good measure, he turned off the cabin light and ventured into the forest. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The soft crunching of dry leaves under his feet gave him pause on multiple occasions as he cautiously proceeded through the woods. The crunching was relatively loud in comparison to the distant hooting of owls and chirping of nocturnal bugs, and any sounds quieter than those would be near inaudible over the sound of Anon&#039;s own footsteps.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was after a few minutes into his walk that he noticed something to make him pause. On one of his stops to listen to his surroundings, he realized that his footsteps seemed to stop making sound an extra second after he stopped moving. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He quickly scanned his surroundings, peering intently through the large shadows cast by the trees. As his eyes tried to catch sight of anything more than a tree in the nest of shadows that surrounded him, he made a mental note to stock the cabin with a flashlight for the next time this happened. Of course, he wasn&#039;t sure any equipment he tried to stash away in there would actually remain there until he needed it, but there couldn&#039;t be any harm in trying.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After not being able to see anything aside from trees in the vicinity, Anon experimentally walked another minute or so before stopping. The lack of any phantom footsteps this time gave him some relief. Maybe it had just been his imagination acting up after all.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The sudden snapping of a twig broke Anon&#039;s sense of safety. He was definitely not alone, and he wasn&#039;t about to gamble on the possibility that it was just an innocent animal. He broke into a sprint, abandoning all attempts at being quiet, and started running in the direction he knew his home to be. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His panicked sprint was made all the faster by the loud rustling of branches behind him as he ran, not daring to look back long enough to catch more than a fleeting glimpse at his pursuer&#039;s vague shadow. At one point he even made the mistake of looking back, only to be further panicked by seeing what few leaves remained on the trees he had passed fall to the forest floor as a tall shadow leapt from tree to tree, it&#039;s large antlers shining as the moonlight glinted off of them. The beast made the trees shake as it landed on each one, the sudden shaking as well as the creature&#039;s own eager snarling scaring more than one wide eyed owl away from its nest. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After a few minutes of running at his top speed, which his burning lungs and muscles made seem more like hours, he noticed that the shaking of the trees had finally stopped. As much as he wasn&#039;t completely certain of it, he decided that the chase was over for now, and resumed his slower pace of travel after veering well off the straight path toward his home in an attempt to throw off his pursuer. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon&#039;s cautious, quiet tread became eager and hasty as the trees became less and less dense, giving way to the familiar sight of his own property. The sound of the clear, bubbling creek that ran though his large backyard made him change his quick walk into a run as the promise of escape became more and more tangible. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As he began to cross the bridge that he had built across the large stream, his final sprint hastened by the sight of the back door of his house in the distance, he felt the wooden structure suddenly shake loudly. A quick, panicked look behind him only allowed Anon a brief glimpse of a furry, clawed hand a moment before it grabbed a hold of his head with an iron grip. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His first instinct was to desperately try and pry his attacker&#039;s hand off of him with both hands. This failed to stop the monster from pulling him flush against its furry chest before using its other arm wrapped tight around his torso, trapping him in place. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon continued to struggle right up until he felt the monster&#039;s three slimy, tentacle-like tongues running slowly over the back of his neck. He finally stopped his futile struggling once he felt the thick fluid dripping down the sensitive nape of neck, knowing that it would make what was coming next easier on him. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His surrender elicited a low, pleased sounding growl from the creature behind him. It then followed up by slowly bringing its eight fangs up to Anon&#039;s shoulder, letting him feel it&#039;s hot breath against his skin before gently nipping at his shoulder. The careful, gentle bite elicited a soft groan out of Anon as the creature&#039;s venom did its work, forcing him to fall gently asleep in the monster&#039;s arms.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The calming, familiar feeling of his wife, Alyssa&#039;s tongues against his cheek was the first thing that greeted Anon after emerging from his venom induced slumber. As he opened his eyes to the sight of his lover&#039;s cervine skull head looming over him, Anon quickly moved to gently kiss at the furry part of her neck.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Ah!&quot; She yelped in surprise. Though yelped was a crude way of describing it. It was more of distorted hiss that seemed to emanate from all four corners of the bedroom. &quot;I...I see you&#039;re awake, beloved.&quot; She panted, recovering from his sudden &#039;assualt&#039; on her neck. She lowered herself down on her two strong, fur covered arms to lie down on top of Anon while she caught her breath. His newfound closeness to her let him feel her hot, steaming breath and hastened heartbeat, indicating that she must have enjoyed their little game just as much as he had.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon only a brief moment to quietly enjoy the feeling of his wife&#039;s furry chest and four modest breasts against his skin before he paused his enthusiastic kissing of her neck to respond. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It was a nice nap.&quot; He said with a smile, drawing his face away from her neck to gaze into the pitch black eyeholes that she had assured him functioned as eyes. &quot;But I just couldn&#039;t wait to see you again.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Alyssa chose to show her affection by bringing her three tongues up to Anon&#039;s lips. Knowing what his lover wanted, Anon opened his mouth and allowed her to playfully wrap them around his own tongue. She then turned her attention from his mouth to his chest, reaching under his shirt to run her two clawed hands slowly up his chest. She then withdrew her tongues to allow him to catch his breath, a few last drops of her saliva landing on his chin as they returned to her mouth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I do hope I wasn&#039;t too rough with you.&quot; She crooned, bringing her head down to nuzzle against Anon&#039;s neck. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You were as gentle as it gets.&quot; He assured her with a gentle stroking of her head. Despite the bony look and texture of it, he had learned that she enjoyed being stroked there just as much as a cat or a dog did. &quot;I&#039;m just kicking myself for not checking under the bridge first. How&#039;d you even get ahead of me quick enough to get there anyway?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This kind of chatter was common for the two of them. While he and Alyssa were dating, she had informed him about her kind&#039;s odd mating ritual before either of them had committed long term. It was both an old custom and a kind of built in instinct that compelled her species to engage in a mutual cat and mouse &#039;hunt&#039; as a kind of foreplay, with the winner being the dominant partner. The aftermath of such a &#039;hunt&#039; was typically a rough lovemaking session that could easily be called a &quot;struggle snuggle&quot;. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Mercifully, Alyssa was never as rough with Anon as was customary for her kind and neither did she seem dissapointed about not being able to completely let loose. For Anon&#039;s part,  he enjoyed their little jogs through the woods at night. He had always enjoyed being scared, but horror games and slasher films had lost their thrill for him a long time ago, and his wife&#039;s favorite form of foreplay offered a real thrill with the promise of no real physical harm. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">While the idea of being tranquilized via venom might have been a cause for concern for some, Alyssa had already been putting it to good use to help Anon&#039;s bouts of insomnia while they were still dating. The sleep brought on by her venom felt surprisingly natural for an anesthetic induced slumber, and he never failed to emerge from it feeling better rested than he had before the lovebite that caused it.    </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His reminiscing was interrupted by his wife&#039;s smug sounding response as she guided one of his hands down along her strong, musuclar thigh. &quot;I&#039;ll give you a hint. It has something to do with these, beloved.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon took the welcome opportunity to massage his wife&#039;s tense thigh muscles, moving his head rubbing hand down to her other thigh to give attention to both. &quot;You keep finding new ways to impress me, you know that?&quot; He told her sincerely, not interested in completely spoiling her strategy for the next time. &quot;How do you want your prize for the night, big girl?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Letting out a pleased sigh from Anon&#039;s ministrations, Alyssa moved her mouth right up to his ear. Giving him a teasing nip along the way, she let him feel  her hot breath on his sensitive neck as she whispered her reply right into his ear. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I want him happy.&quot; She replied with a quick flick of one of her tongues against his ear. &quot;A happy, drooling mess with pleasantly empty balls if I do my job well. Lord knows you earned it, putting up with being knocked out twice in one night.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her proclamation of intent sent Anon&#039;s heart beating a little quicker, while his now stiffening cock made him realize that his wife had already taken the liberty of removing his pants and underwear for him. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You know I don&#039;t mind that.&quot; He assured her, wrapping his arms around her to hold her close. &quot;Helps me be well rested for the main event. Wouldn&#039;t do to go passing out on you, now would it?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You know I wouldn&#039;t hold it against you.&quot; She whispered softly, gently caressing his face. &quot;Any time with you is a blessing, no matter how brief, or how awake you are for it. Though I do much prefer it when you&#039;re awake.&quot; As she whispered her reassuring words he felt the small mass of black, finger sized, sucker coated tentacles that usually functioned as Alyssa&#039;s labia leave their normal position and slowly attach to his waist, tying the two of them together. Anon knew from experience that any attempt to pull free of the tiny suction cups would be futile until Alyssa got off at least once, not that he would want to get free even if he could.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Soon afterwards, he felt her move her hips up to grind her already dripping wet pussy against his cock. With a sharp gasp, she suddenly slipped Anon&#039;s cock inside her, a sharp wave of pleasure forcing itself through his body as her strong internal muscles gripped his member in their tight, wet embrace.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After catching her breath, she began to slowly move her hips up and down. Anon soon heard his partner start panting and growling with need as her initially slow pace grew quick and frenzied, her mouth hanging open and letting a fair amount of her saliva drip down onto Anon&#039;s chin and neck. It wasn&#039;t long before Anon realized that he was panting and moaning just as much as she was. Both their vocalizations of pleasure blended together in a loud, intimate symphony which soon became a good deal quieter when Alyssa drew him into another kiss, muffling their moans with each other&#039;s mouths. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After another few blissful, long minutes of feeling Alyssa&#039;s sopping wet hole move up and down his shaft, Anon felt his first orgasm of the night quickly approaching. To his own pleasure, he felt Alyssa&#039;s pussy contract around his cock as she broke their kiss to let out a loud snarl, signaling to him that she had already had her own first orgasm. This, of course, hardly stopped her quick and shallow thrusts of her hips against his own. In fact, it only made her start thrusting harder if anything. The feeling of his wife&#039;s orgasm quickly forced Anon beyond the edge of his, pushing his face against Alyssa&#039;s neck as he came inside her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The onslaught of his wife&#039;s warm, wet insides around his member continued even after his ejaculation, serving to make his pleasured vocalizations louder and slightly higher pitched as the brief moments of overstimulation kicked in. Nevertheless, he managed to stay hard for her as she pleasured herself with his body. Her loud, primal sounds of pleasure were all the reward he needed to power through the few overwhelming moments of post-orgasm hypersensitivity, and soon enough he found nothing but pleasure in her continued wild riding of his member.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In what seemed like no time at all, Anon found himself on the brink of another orgasm. The loud wet sounds of Alyssa riding him were only made more obscene by the presence of his first load still inside of her, and judging by the way she hugged him even closer to her and pressed his face between her four breasts, she wanted another. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He soon surrendered to the overwhelming pleasure and Alyssa&#039;s desires, moaning loudly into her breasts as he let out another load inside of her. This time, however, she gently pulled the sucker coated tendrils off of his hips and raised herself off of his cock, granting him a much appreciated respite. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Y-you...done already?&quot; He panted, giving her a cheeky smirk. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She playfully rustles his hair in response, giggling to herself. &quot;I&#039;m just getting up to get you some water, beloved. Besides, if I recall correctly, you do enjoy the feeling of my tendrils around your head while you put that mouth to work.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He nodded his head in agreement, letting his head rest on the pillow as he gently scratched his wife&#039;s fluffy neck. &quot;You really do know how to celebrate, don&#039;t you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">she responded to his scratches with a pleased growl before giving him a loving lick along the cheek. &quot;Happy tenth anniversary, beloved.&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&quot;Decennial&quot;
+
+Anon groaned softly as he awoke to find himself lying in a soft, comfortable bed in a dark log cabin. After turning on the electric lamp by the bedside, he realized that this was definitely not the same cabin he went to sleep in. 
+
+Knowing very well what that meant, he decided his first step should be to check on the weather. Despite it being about midnight outside, the breeze felt pleasantly cool on his face as it blew softly in through the now open window. The moon was shining brightly in the sky, with not a cloud in sight to obscure it&#039;s light. 
+
+Anon then began surveying the forest from the vantage point that the cabin provided him. It stood on a tall hill that overlooked the dense forest, allowing him to see for many miles. Not that it helped him much, as he could only see the roof of the forest and already knew which direction to go to get home. 
+
+After closing the window, Anon went over to the wardrobe to get some proper clothes for a trek through the forest. As he expected, it was well stocked with more than enough for his needs. after throwing on a long sleeve shirt and some sweatpants, with a leather jacket over the shirt for good measure, he turned off the cabin light and ventured into the forest. 
+
+The soft crunching of dry leaves under his feet gave him pause on multiple occasions as he cautiously proceeded through the woods. The crunching was relatively loud in comparison to the distant hooting of owls and chirping of nocturnal bugs, and any sounds quieter than those would be near inaudible over the sound of Anon&#039;s own footsteps.
+
+It was after a few minutes into his walk that he noticed something to make him pause. On one of his stops to listen to his surroundings, he realized that his footsteps seemed to stop making sound an extra second after he stopped moving. 
+
+He quickly scanned his surroundings, peering intently through the large shadows cast by the trees. As his eyes tried to catch sight of anything more than a tree in the nest of shadows that surrounded him, he made a mental note to stock the cabin with a flashlight for the next time this happened. Of course, he wasn&#039;t sure any equipment he tried to stash away in there would actually remain there until he needed it, but there couldn&#039;t be any harm in trying.
+
+After not being able to see anything aside from trees in the vicinity, Anon experimentally walked another minute or so before stopping. The lack of any phantom footsteps this time gave him some relief. Maybe it had just been his imagination acting up after all.
+
+The sudden snapping of a twig broke Anon&#039;s sense of safety. He was definitely not alone, and he wasn&#039;t about to gamble on the possibility that it was just an innocent animal. He broke into a sprint, abandoning all attempts at being quiet, and started running in the direction he knew his home to be. 
+
+His panicked sprint was made all the faster by the loud rustling of branches behind him as he ran, not daring to look back long enough to catch more than a fleeting glimpse at his pursuer&#039;s vague shadow. At one point he even made the mistake of looking back, only to be further panicked by seeing what few leaves remained on the trees he had passed fall to the forest floor as a tall shadow leapt from tree to tree, it&#039;s large antlers shining as the moonlight glinted off of them. The beast made the trees shake as it landed on each one, the sudden shaking as well as the creature&#039;s own eager snarling scaring more than one wide eyed owl away from its nest. 
+
+After a few minutes of running at his top speed, which his burning lungs and muscles made seem more like hours, he noticed that the shaking of the trees had finally stopped. As much as he wasn&#039;t completely certain of it, he decided that the chase was over for now, and resumed his slower pace of travel after veering well off the straight path toward his home in an attempt to throw off his pursuer. 
+
+Anon&#039;s cautious, quiet tread became eager and hasty as the trees became less and less dense, giving way to the familiar sight of his own property. The sound of the clear, bubbling creek that ran though his large backyard made him change his quick walk into a run as the promise of escape became more and more tangible. 
+
+As he began to cross the bridge that he had built across the large stream, his final sprint hastened by the sight of the back door of his house in the distance, he felt the wooden structure suddenly shake loudly. A quick, panicked look behind him only allowed Anon a brief glimpse of a furry, clawed hand a moment before it grabbed a hold of his head with an iron grip. 
+
+His first instinct was to desperately try and pry his attacker&#039;s hand off of him with both hands. This failed to stop the monster from pulling him flush against its furry chest before using its other arm wrapped tight around his torso, trapping him in place. 
+
+Anon continued to struggle right up until he felt the monster&#039;s three slimy, tentacle-like tongues running slowly over the back of his neck. He finally stopped his futile struggling once he felt the thick fluid dripping down the sensitive nape of neck, knowing that it would make what was coming next easier on him. 
+
+His surrender elicited a low, pleased sounding growl from the creature behind him. It then followed up by slowly bringing its eight fangs up to Anon&#039;s shoulder, letting him feel it&#039;s hot breath against his skin before gently nipping at his shoulder. The careful, gentle bite elicited a soft groan out of Anon as the creature&#039;s venom did its work, forcing him to fall gently asleep in the monster&#039;s arms.
+
+The calming, familiar feeling of his wife, Alyssa&#039;s tongues against his cheek was the first thing that greeted Anon after emerging from his venom induced slumber. As he opened his eyes to the sight of his lover&#039;s cervine skull head looming over him, Anon quickly moved to gently kiss at the furry part of her neck.
+
+&quot;Ah!&quot; She yelped in surprise. Though yelped was a crude way of describing it. It was more of distorted hiss that seemed to emanate from all four corners of the bedroom. &quot;I...I see you&#039;re awake, beloved.&quot; She panted, recovering from his sudden &#039;assualt&#039; on her neck. She lowered herself down on her two strong, fur covered arms to lie down on top of Anon while she caught her breath. His newfound closeness to her let him feel her hot, steaming breath and hastened heartbeat, indicating that she must have enjoyed their little game just as much as he had.
+
+Anon only a brief moment to quietly enjoy the feeling of his wife&#039;s furry chest and four modest breasts against his skin before he paused his enthusiastic kissing of her neck to respond. 
+
+&quot;It was a nice nap.&quot; He said with a smile, drawing his face away from her neck to gaze into the pitch black eyeholes that she had assured him functioned as eyes. &quot;But I just couldn&#039;t wait to see you again.&quot;
+
+Alyssa chose to show her affection by bringing her three tongues up to Anon&#039;s lips. Knowing what his lover wanted, Anon opened his mouth and allowed her to playfully wrap them around his own tongue. She then turned her attention from his mouth to his chest, reaching under his shirt to run her two clawed hands slowly up his chest. She then withdrew her tongues to allow him to catch his breath, a few last drops of her saliva landing on his chin as they returned to her mouth.
+
+&quot;I do hope I wasn&#039;t too rough with you.&quot; She crooned, bringing her head down to nuzzle against Anon&#039;s neck. 
+
+&quot;You were as gentle as it gets.&quot; He assured her with a gentle stroking of her head. Despite the bony look and texture of it, he had learned that she enjoyed being stroked there just as much as a cat or a dog did. &quot;I&#039;m just kicking myself for not checking under the bridge first. How&#039;d you even get ahead of me quick enough to get there anyway?&quot;
+
+This kind of chatter was common for the two of them. While he and Alyssa were dating, she had informed him about her kind&#039;s odd mating ritual before either of them had committed long term. It was both an old custom and a kind of built in instinct that compelled her species to engage in a mutual cat and mouse &#039;hunt&#039; as a kind of foreplay, with the winner being the dominant partner. The aftermath of such a &#039;hunt&#039; was typically a rough lovemaking session that could easily be called a &quot;struggle snuggle&quot;. 
+
+Mercifully, Alyssa was never as rough with Anon as was customary for her kind and neither did she seem dissapointed about not being able to completely let loose. For Anon&#039;s part,  he enjoyed their little jogs through the woods at night. He had always enjoyed being scared, but horror games and slasher films had lost their thrill for him a long time ago, and his wife&#039;s favorite form of foreplay offered a real thrill with the promise of no real physical harm. 
+
+While the idea of being tranquilized via venom might have been a cause for concern for some, Alyssa had already been putting it to good use to help Anon&#039;s bouts of insomnia while they were still dating. The sleep brought on by her venom felt surprisingly natural for an anesthetic induced slumber, and he never failed to emerge from it feeling better rested than he had before the lovebite that caused it.    
+
+His reminiscing was interrupted by his wife&#039;s smug sounding response as she guided one of his hands down along her strong, musuclar thigh. &quot;I&#039;ll give you a hint. It has something to do with these, beloved.&quot;
+
+Anon took the welcome opportunity to massage his wife&#039;s tense thigh muscles, moving his head rubbing hand down to her other thigh to give attention to both. &quot;You keep finding new ways to impress me, you know that?&quot; He told her sincerely, not interested in completely spoiling her strategy for the next time. &quot;How do you want your prize for the night, big girl?&quot;
+
+Letting out a pleased sigh from Anon&#039;s ministrations, Alyssa moved her mouth right up to his ear. Giving him a teasing nip along the way, she let him feel  her hot breath on his sensitive neck as she whispered her reply right into his ear. 
+
+&quot;I want him happy.&quot; She replied with a quick flick of one of her tongues against his ear. &quot;A happy, drooling mess with pleasantly empty balls if I do my job well. Lord knows you earned it, putting up with being knocked out twice in one night.&quot;
+
+Her proclamation of intent sent Anon&#039;s heart beating a little quicker, while his now stiffening cock made him realize that his wife had already taken the liberty of removing his pants and underwear for him. 
+ 
+&quot;You know I don&#039;t mind that.&quot; He assured her, wrapping his arms around her to hold her close. &quot;Helps me be well rested for the main event. Wouldn&#039;t do to go passing out on you, now would it?&quot;
+
+&quot;You know I wouldn&#039;t hold it against you.&quot; She whispered softly, gently caressing his face. &quot;Any time with you is a blessing, no matter how brief, or how awake you are for it. Though I do much prefer it when you&#039;re awake.&quot; As she whispered her reassuring words he felt the small mass of black, finger sized, sucker coated tentacles that usually functioned as Alyssa&#039;s labia leave their normal position and slowly attach to his waist, tying the two of them together. Anon knew from experience that any attempt to pull free of the tiny suction cups would be futile until Alyssa got off at least once, not that he would want to get free even if he could.
+
+Soon afterwards, he felt her move her hips up to grind her already dripping wet pussy against his cock. With a sharp gasp, she suddenly slipped Anon&#039;s cock inside her, a sharp wave of pleasure forcing itself through his body as her strong internal muscles gripped his member in their tight, wet embrace.  
+
+After catching her breath, she began to slowly move her hips up and down. Anon soon heard his partner start panting and growling with need as her initially slow pace grew quick and frenzied, her mouth hanging open and letting a fair amount of her saliva drip down onto Anon&#039;s chin and neck. It wasn&#039;t long before Anon realized that he was panting and moaning just as much as she was. Both their vocalizations of pleasure blended together in a loud, intimate symphony which soon became a good deal quieter when Alyssa drew him into another kiss, muffling their moans with each other&#039;s mouths. 
+
+After another few blissful, long minutes of feeling Alyssa&#039;s sopping wet hole move up and down his shaft, Anon felt his first orgasm of the night quickly approaching. To his own pleasure, he felt Alyssa&#039;s pussy contract around his cock as she broke their kiss to let out a loud snarl, signaling to him that she had already had her own first orgasm. This, of course, hardly stopped her quick and shallow thrusts of her hips against his own. In fact, it only made her start thrusting harder if anything. The feeling of his wife&#039;s orgasm quickly forced Anon beyond the edge of his, pushing his face against Alyssa&#039;s neck as he came inside her. 
+
+The onslaught of his wife&#039;s warm, wet insides around his member continued even after his ejaculation, serving to make his pleasured vocalizations louder and slightly higher pitched as the brief moments of overstimulation kicked in. Nevertheless, he managed to stay hard for her as she pleasured herself with his body. Her loud, primal sounds of pleasure were all the reward he needed to power through the few overwhelming moments of post-orgasm hypersensitivity, and soon enough he found nothing but pleasure in her continued wild riding of his member.
+
+In what seemed like no time at all, Anon found himself on the brink of another orgasm. The loud wet sounds of Alyssa riding him were only made more obscene by the presence of his first load still inside of her, and judging by the way she hugged him even closer to her and pressed his face between her four breasts, she wanted another. 
+
+He soon surrendered to the overwhelming pleasure and Alyssa&#039;s desires, moaning loudly into her breasts as he let out another load inside of her. This time, however, she gently pulled the sucker coated tendrils off of his hips and raised herself off of his cock, granting him a much appreciated respite. 
+
+&quot;Y-you...done already?&quot; He panted, giving her a cheeky smirk. 
+
+She playfully rustles his hair in response, giggling to herself. &quot;I&#039;m just getting up to get you some water, beloved. Besides, if I recall correctly, you do enjoy the feeling of my tendrils around your head while you put that mouth to work.&quot; 
+
+He nodded his head in agreement, letting his head rest on the pillow as he gently scratched his wife&#039;s fluffy neck. &quot;You really do know how to celebrate, don&#039;t you?&quot;
+
+she responded to his scratches with a pleased growl before giving him a loving lick along the cheek. &quot;Happy tenth anniversary, beloved.&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    19 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    20 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    30 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

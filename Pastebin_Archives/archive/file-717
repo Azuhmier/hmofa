@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>defrosted pt.1 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="defrosted pt.1 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/sUfRbFV8" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/sUfRbFV8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="N9PBYDcMWlBmSonYLTnE6XVOTUWrkyT_EJhYAlj9Plt2uJI1BksZNhcG5ZkdVpezPDoecsjdE51Ry21wbLwKLw==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/sUfRbFV8" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/sUfRbFV8" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="jears">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
+                
+                
+                <h1>defrosted pt.1</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/jears">jears</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=jears" class="message" title="Send a private message to: jears"></a>
+                                    
+                <div class="date">
+                    <span title="Sunday 16th of August 2020 04:25:29 PM CDT">Aug 16th, 2020</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    295                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 6.31 KB            </div>
+
+            <div class="right">
+                <a href="/raw/sUfRbFV8" class="btn -small">raw</a>
+                <a href="/dl/sUfRbFV8" class="btn -small">download</a>
+                <a href="/clone/sUfRbFV8" class="btn -small h_800">clone</a>
+                <a href="/embed/sUfRbFV8" class="btn -small h_800">embed</a>
+                <a href="/report/sUfRbFV8" class="btn -small">report</a>
+                <a href="/print/sUfRbFV8" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Get violently pulled out of the nightmare that is cryo-sleep</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;have people you cant even see or hear properly yet ,thanks to the ice crystals,frost and cocktail of cryogenic chems your body has currently been marinating in for god knows how long, asking a dozen things in some bizarre language</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;one of them seems to grasp the fact that you cant percieve a damn thing and waves their hand in front your eyes, one of them reaches </div></li><li class="li1"><div class="de1">over and snaps their fingers next to your ear</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you cant hear it, you only hear the throbbing in your brain</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The one snapping its figners gets pulled away by the other, retreating outside your field of view to the other side of the room</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you begin clenching up, the post-cryo calm is wearing off</div></li><li class="li1"><div class="de1">&gt;being ejected from cryo was at first like you hadnt woke up at all, your brain hadnt barely turned on enough to let you do more than breathe and think</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;once that wore off though, oh boy</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it starts with shivering, shallow breathing before proceeding quickly to spasming and a sensation of burning</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;without the right drugs, pullling someone out of cryo too quick is like dunking a guy in a frozen lake then setting him on fire.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the people come back into view and seem to panic, oddly proportioned shapes flailing around and shouting</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you however are doubling clutching at yourself with gaunt, frosted hands</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it hurts</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the people are really starting to panic now</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;one of the shouts something in that incomprehensible gibber</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the other replies panicked and stammering</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;then something thrusts forward and grabs at you, shrinking back immediately as it touches you before boldly pushing forward and wrapping its arms around you</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you feel yourself lift up and bobbing up and down slightly as whoever grabbed you is running, somewhere.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you were rapildy progressing to stage 3 cryo-sickness, extreme hypothermia</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;your already dim vision was clouding, darkening</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;But then whatever was holding you lets you go, dropping you like a sack of bricks down</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;your vision snaps clearer as soon as you make contact with what it dropped you into</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the sensation is immediate and banishing of the cold, Warmth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;like the cold before it its everywhere and coiling around you, melting away the ice and purging the frost, searing away the cold that clung to every part of you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you sink into the heat, staring up at 2 dark shapes staring down at you through a window of flickering lights and wispy motes of warmth</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you hit the bottom, the heat easing all aches and pains</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;then as suddenly as you awoke before your eyes widen and the andrenaline kicks in</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You burst through the surface of the water</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your lungs are burning as you guzzzle down as much air as your lungs can fit</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The lights are searingly bright and leave spots across your vision</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you push against the side of the pool, bath or tub, whatever you were in, clawing for the rim</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;something from behind you grabs you and pulls you against the edge, keeping you from sinking back down</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;where there was once nothing but cold and quiet theres now a flood of sensation. heat,light,sound, pressure and memory all rushing through you</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;your head tilts back against something or rather, someone, staring up exhaustedly into a pair of emerald pools, looking down into you with concern</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you think its saying something</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;its a person, you reach up and touch it</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;its soft</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;your hand moves across whatever the person is wearing, its soft and warm</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;they stammer something and another person comes into view, grabbing your hand, moving it away from the soft,warm thing</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;whoever grabbed you was soft too, smooth hands that gripped yours lightly</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the rush of sensation couple with the nightmare of waking is too much and you pass out, these two people who awoke you still holding you</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;....</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you awake eyes bleary and foggy, limbs throbbing and head swimming.you&#039;re staring up again, at another plain ceiling, this one however was a much more pleasent shade of dull green rather than dull grey</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;a tiny series of beeps draws your attention, unwilling and probably unable to move you neck much, you sideeye the source of the noise</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;its a small monitory affixed to the wall, a green line peaking before sharply dipping then peaking again a few moments later, the beeping coming each time the line rises</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you look away from the monitor around the room, the room is sparse save for the monitor yourself, the bed you&#039;re on and an empty chair in the corner</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;everything is slightly clearer now, the lights and sounds of the room arent an imperceptible mist like they were before</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;everything still aches fiercly though, a dull persistent pain across your entire body</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;if you were more alert you would of flinched when a face came into view</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;a face was generous a description</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;whoever they were, they were unfortunately, very ugly</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;wide nostrils, scraggly hair framing patchy grey-brown skin</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;dull yellow eyes framed by a pair of spectacles gave you a concerned look, a pair of fingers gently rest on your face, pulling one of your eyes open further to shine a small light in</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;they give you another look, a toothy smile revealing far too much of their gums burts onto their face, they beam down at you for a moment before moving out of view</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;sometime later that same ugly doctor or nurse comes back in with another person</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the two come into view, the new person grips your face lightly, shining that light into your eye again</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;their fingers are oddly soft, fuzzy even</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the light flicks off and the new person leans down</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;hallucinations werent part of cryo-sickness you remembered that much at least</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;so what the hell was going on</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the doctor, you presume, had a very hairy face,furry even.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;pink nose, slit-pupiled eyes, two pointy ears poking up and out. it was a cat. some kind at the &gt;very least, but off somehow, it simultaneously looked like every cat you knew and none of them, if you can trust your refridgerate memory that is</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the cat-doctor said something to you softly and slowly, golden eyes staring into your own</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you dont say anything, nothing really works right, not even your mind apparently</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the doctor says it again slower, you dont reply, agauin. she frowns and rises back up, speaking to the ugly nurse</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you can hear the words but with everything the way it is you cant make it out. they sound distant and warped</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Get violently pulled out of the nightmare that is cryo-sleep
+
+&gt;have people you cant even see or hear properly yet ,thanks to the ice crystals,frost and cocktail of cryogenic chems your body has currently been marinating in for god knows how long, asking a dozen things in some bizarre language
+
+&gt;one of them seems to grasp the fact that you cant percieve a damn thing and waves their hand in front your eyes, one of them reaches 
+over and snaps their fingers next to your ear
+
+&gt;you cant hear it, you only hear the throbbing in your brain
+
+&gt;The one snapping its figners gets pulled away by the other, retreating outside your field of view to the other side of the room
+
+
+&gt;you begin clenching up, the post-cryo calm is wearing off
+&gt;being ejected from cryo was at first like you hadnt woke up at all, your brain hadnt barely turned on enough to let you do more than breathe and think
+
+&gt;once that wore off though, oh boy
+
+&gt;it starts with shivering, shallow breathing before proceeding quickly to spasming and a sensation of burning
+
+&gt;without the right drugs, pullling someone out of cryo too quick is like dunking a guy in a frozen lake then setting him on fire.
+
+&gt;the people come back into view and seem to panic, oddly proportioned shapes flailing around and shouting
+
+&gt;you however are doubling clutching at yourself with gaunt, frosted hands
+
+&gt;it hurts
+
+&gt;the people are really starting to panic now
+
+&gt;one of the shouts something in that incomprehensible gibber
+
+&gt;the other replies panicked and stammering
+
+&gt;then something thrusts forward and grabs at you, shrinking back immediately as it touches you before boldly pushing forward and wrapping its arms around you
+
+&gt;you feel yourself lift up and bobbing up and down slightly as whoever grabbed you is running, somewhere.
+
+&gt;you were rapildy progressing to stage 3 cryo-sickness, extreme hypothermia
+
+&gt;your already dim vision was clouding, darkening
+
+&gt;But then whatever was holding you lets you go, dropping you like a sack of bricks down
+
+&gt;your vision snaps clearer as soon as you make contact with what it dropped you into
+
+&gt;the sensation is immediate and banishing of the cold, Warmth.
+
+&gt;like the cold before it its everywhere and coiling around you, melting away the ice and purging the frost, searing away the cold that clung to every part of you.
+
+&gt;you sink into the heat, staring up at 2 dark shapes staring down at you through a window of flickering lights and wispy motes of warmth
+
+&gt;you hit the bottom, the heat easing all aches and pains
+
+&gt;then as suddenly as you awoke before your eyes widen and the andrenaline kicks in
+
+&gt;You burst through the surface of the water
+
+&gt;Your lungs are burning as you guzzzle down as much air as your lungs can fit
+
+&gt;The lights are searingly bright and leave spots across your vision
+
+&gt;you push against the side of the pool, bath or tub, whatever you were in, clawing for the rim
+
+&gt;something from behind you grabs you and pulls you against the edge, keeping you from sinking back down
+
+&gt;where there was once nothing but cold and quiet theres now a flood of sensation. heat,light,sound, pressure and memory all rushing through you
+
+&gt;your head tilts back against something or rather, someone, staring up exhaustedly into a pair of emerald pools, looking down into you with concern
+
+&gt;you think its saying something
+
+&gt;its a person, you reach up and touch it
+
+&gt;its soft
+
+&gt;your hand moves across whatever the person is wearing, its soft and warm
+
+&gt;they stammer something and another person comes into view, grabbing your hand, moving it away from the soft,warm thing
+
+&gt;whoever grabbed you was soft too, smooth hands that gripped yours lightly
+
+&gt;the rush of sensation couple with the nightmare of waking is too much and you pass out, these two people who awoke you still holding you
+
+&gt;....
+
+&gt;you awake eyes bleary and foggy, limbs throbbing and head swimming.you&#039;re staring up again, at another plain ceiling, this one however was a much more pleasent shade of dull green rather than dull grey
+
+&gt;a tiny series of beeps draws your attention, unwilling and probably unable to move you neck much, you sideeye the source of the noise
+
+&gt;its a small monitory affixed to the wall, a green line peaking before sharply dipping then peaking again a few moments later, the beeping coming each time the line rises
+
+&gt;you look away from the monitor around the room, the room is sparse save for the monitor yourself, the bed you&#039;re on and an empty chair in the corner
+
+&gt;everything is slightly clearer now, the lights and sounds of the room arent an imperceptible mist like they were before
+
+&gt;everything still aches fiercly though, a dull persistent pain across your entire body
+
+&gt;if you were more alert you would of flinched when a face came into view
+
+&gt;a face was generous a description
+
+&gt;whoever they were, they were unfortunately, very ugly
+
+&gt;wide nostrils, scraggly hair framing patchy grey-brown skin
+
+&gt;dull yellow eyes framed by a pair of spectacles gave you a concerned look, a pair of fingers gently rest on your face, pulling one of your eyes open further to shine a small light in
+
+&gt;they give you another look, a toothy smile revealing far too much of their gums burts onto their face, they beam down at you for a moment before moving out of view
+
+&gt;sometime later that same ugly doctor or nurse comes back in with another person
+
+&gt;the two come into view, the new person grips your face lightly, shining that light into your eye again
+
+&gt;their fingers are oddly soft, fuzzy even
+
+&gt;the light flicks off and the new person leans down
+
+&gt;hallucinations werent part of cryo-sickness you remembered that much at least
+
+&gt;so what the hell was going on
+
+&gt;the doctor, you presume, had a very hairy face,furry even.
+
+&gt;pink nose, slit-pupiled eyes, two pointy ears poking up and out. it was a cat. some kind at the &gt;very least, but off somehow, it simultaneously looked like every cat you knew and none of them, if you can trust your refridgerate memory that is
+
+&gt;the cat-doctor said something to you softly and slowly, golden eyes staring into your own
+
+&gt;you dont say anything, nothing really works right, not even your mind apparently
+
+&gt;the doctor says it again slower, you dont reply, agauin. she frowns and rises back up, speaking to the ugly nurse
+
+&gt;you can hear the words but with everything the way it is you cant make it out. they sound distant and warped</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/xwAjZLQ3">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 min ago                </div>
+            </li>
+                    <li>
+                <a href="/dqGkThKL">Linear array rotation</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    10 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    48 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

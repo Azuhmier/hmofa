@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>mongoose and covra clan - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="mongoose and covra clan - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/RqARaYEE" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/RqARaYEE" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="t3gJypEWbCbajs5HHMrqMJRgVk7M-eRUMzgohvtiShCCIHGQ32U0S7Cj4wovpL548hYkY6a_lGBXDEzLjzs7ag==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        
+                                    
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/RqARaYEE" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/RqARaYEE" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/cache/img/11/18/25/2552270.jpg" alt="DandySpider">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>mongoose and covra clan</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/DandySpider">DandySpider</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=DandySpider" class="message" title="Send a private message to: DandySpider"></a>
+                                    
+                <div class="date">
+                    <span title="Sunday 19th of April 2020 05:56:47 PM CDT">Apr 19th, 2020</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    564                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 3.63 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/RqARaYEE" class="btn -small">raw</a>
+                    <a href="/dl/RqARaYEE" class="btn -small">download</a>
+                    <a href="/clone/RqARaYEE" class="btn -small h_800">clone</a>
+                    <a href="/embed/RqARaYEE" class="btn -small h_800">embed</a>
+                    <a href="/print/RqARaYEE" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/RqARaYEE" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;be some middle level noble&#039;s son and/or very very distant blood relative of the emperor </div></li><li class="li1"><div class="de1">&gt;get sent to try to resolve another blood feud threatening to turn into a war between the cobra and mongoose clan or at least secure an alliance with one side </div></li><li class="li1"><div class="de1">&gt;both are neutral/allies to the human empire and their war would be bad for the humans too</div></li><li class="li1"><div class="de1">&gt;both sides catch on that you&#039;re a way to getting human support to their side ensuring a victory over the other clan</div></li><li class="li1"><div class="de1">&gt;you at least get a momentary ceasefire negotiation talk going </div></li><li class="li1"><div class="de1">&gt;the representatives each clan sent was what are essentially their princesses with some guards too</div></li><li class="li1"><div class="de1">&gt;the fighting has at least stopped for the moment, but your life is now at risk due to the princesses fighting for your support through marriage and each species is infamous for their rough long mating sessions </div></li><li class="li1"><div class="de1">&gt;shenanigans ensue has each clan&#039;s guards try to kidnap you or steal you away from each other the whole time so their leader can fuck you into clan marriage</div></li><li class="li1"><div class="de1">&gt;needless to say this shit is way over your head and you&#039;re not prepared for this</div></li><li class="li1"><div class="de1">&gt;you&#039;re not even a warrior just the son of a minor noble who has some middling skill in diplomacy with beastkin </div></li><li class="li1"><div class="de1">&gt;and both the princesses are deadly warriors too</div></li><li class="li1"><div class="de1">&gt;and even worse both sides have been spiking your food and drink with aphrodisiacs so you&#039;re super on edge and pent up</div></li><li class="li1"><div class="de1">&gt;things come to ahead when both princesses end up cornering you in a room with the same intent of seducing you</div></li><li class="li1"><div class="de1">&gt;you can&#039;t take it anymore when they both strip and try to temp you with escalating shows of sexuality/competition </div></li><li class="li1"><div class="de1">&gt;que what can only be described has a hellish all night long gauntlet of sex </div></li><li class="li1"><div class="de1">&gt;pass out at some point due to exhaustion and dehydration </div></li><li class="li1"><div class="de1">&gt;you were out for a day afterwards in recovery</div></li><li class="li1"><div class="de1">&gt;when you awoke you nearly depleted both side&#039;s supply of water</div></li><li class="li1"><div class="de1">&gt;at least it looks like both sides aren&#039;t fighting</div></li><li class="li1"><div class="de1">&gt;still need help walking around though and the bruises are still tender</div></li><li class="li1"><div class="de1">&gt;with all those aphrodisiacs in your system at the time you were so productive and fertile both princesses are going to have a full clutch and litter</div></li><li class="li1"><div class="de1">&gt;and by beastkin culture you&#039;re married/mated to both now</div></li><li class="li1"><div class="de1">&gt;and now the clans can&#039;t fight due to your three way marriage which complicates things and neither side knows what to do in the situation </div></li><li class="li1"><div class="de1">&gt;since neither princess is willing to live within the other&#039;s land and yours is too faraway from either sides lands a new settlement needs to be made </div></li><li class="li1"><div class="de1">&gt;this causes members from both clans to come help build and populate it and your family lands/empire also see the opportunity and joins in settling too</div></li><li class="li1"><div class="de1">&gt;you just accidentally created a new fledgling kingdom that is fiercely guarded by venomous cobra beastkin and unrelenting mongoose beastkin along with the humans looking for new opportunities </div></li><li class="li1"><div class="de1">&gt;not to mention your efforts for your new home and family have increased your diplomatic skills earning you some mutual agreements with other close beastkin clans</div></li><li class="li1"><div class="de1">&gt;all the mixing of species has created an almost new culture unto its own as well separating you from the empire</div></li><li class="li1"><div class="de1">&gt;and people won&#039;t stop exaggerating stories about you making it sound like you&#039;re going to take over the empire</div></li><li class="li1"><div class="de1">&gt;your wives have to drag you out from hiding in your bed sometimes from anxiety of dealing with it all </div></li><li class="li1"><div class="de1">&gt;and your wives have only become more dangerous due to wanting to protect you, their children, their people, and kingdom</div></li><li class="li1"><div class="de1">&gt;and you&#039;ve at least become immune to cobra venom now with how many times your children have accidentally bitten you which just makes the stories about you more outlandish</div></li><li class="li1"><div class="de1">&gt;and worse of all your wives are still just has competitive sexually has the first night you were with them</div></li></ol>        </div>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;be some middle level noble&#039;s son and/or very very distant blood relative of the emperor 
+&gt;get sent to try to resolve another blood feud threatening to turn into a war between the cobra and mongoose clan or at least secure an alliance with one side 
+&gt;both are neutral/allies to the human empire and their war would be bad for the humans too
+&gt;both sides catch on that you&#039;re a way to getting human support to their side ensuring a victory over the other clan
+&gt;you at least get a momentary ceasefire negotiation talk going 
+&gt;the representatives each clan sent was what are essentially their princesses with some guards too
+&gt;the fighting has at least stopped for the moment, but your life is now at risk due to the princesses fighting for your support through marriage and each species is infamous for their rough long mating sessions 
+&gt;shenanigans ensue has each clan&#039;s guards try to kidnap you or steal you away from each other the whole time so their leader can fuck you into clan marriage
+&gt;needless to say this shit is way over your head and you&#039;re not prepared for this
+&gt;you&#039;re not even a warrior just the son of a minor noble who has some middling skill in diplomacy with beastkin 
+&gt;and both the princesses are deadly warriors too
+&gt;and even worse both sides have been spiking your food and drink with aphrodisiacs so you&#039;re super on edge and pent up
+&gt;things come to ahead when both princesses end up cornering you in a room with the same intent of seducing you
+&gt;you can&#039;t take it anymore when they both strip and try to temp you with escalating shows of sexuality/competition 
+&gt;que what can only be described has a hellish all night long gauntlet of sex 
+&gt;pass out at some point due to exhaustion and dehydration 
+&gt;you were out for a day afterwards in recovery
+&gt;when you awoke you nearly depleted both side&#039;s supply of water
+&gt;at least it looks like both sides aren&#039;t fighting
+&gt;still need help walking around though and the bruises are still tender
+&gt;with all those aphrodisiacs in your system at the time you were so productive and fertile both princesses are going to have a full clutch and litter
+&gt;and by beastkin culture you&#039;re married/mated to both now
+&gt;and now the clans can&#039;t fight due to your three way marriage which complicates things and neither side knows what to do in the situation 
+&gt;since neither princess is willing to live within the other&#039;s land and yours is too faraway from either sides lands a new settlement needs to be made 
+&gt;this causes members from both clans to come help build and populate it and your family lands/empire also see the opportunity and joins in settling too
+&gt;you just accidentally created a new fledgling kingdom that is fiercely guarded by venomous cobra beastkin and unrelenting mongoose beastkin along with the humans looking for new opportunities 
+&gt;not to mention your efforts for your new home and family have increased your diplomatic skills earning you some mutual agreements with other close beastkin clans
+&gt;all the mixing of species has created an almost new culture unto its own as well separating you from the empire
+&gt;and people won&#039;t stop exaggerating stories about you making it sound like you&#039;re going to take over the empire
+&gt;your wives have to drag you out from hiding in your bed sometimes from anxiety of dealing with it all 
+&gt;and your wives have only become more dangerous due to wanting to protect you, their children, their people, and kingdom
+&gt;and you&#039;ve at least become immune to cobra venom now with how many times your children have accidentally bitten you which just makes the stories about you more outlandish
+&gt;and worse of all your wives are still just has competitive sexually has the first night you were with them</textarea>
+    
+        
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/cBbWma3n">Calcular e média de um aluno</a>
+                <div class="details">
+                                            Python |
+                    
+                    6 min ago                </div>
+            </li>
+                    <li>
+                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
+                <div class="details">
+                                            Python |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
+                <div class="details">
+                                            HTML 5 |
+                    
+                    26 min ago                </div>
+            </li>
+                    <li>
+                <a href="/btQEV0ET">Programming - practice</a>
+                <div class="details">
+                                            Java |
+                    
+                    57 min ago                </div>
+            </li>
+                    <li>
+                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
+                <div class="details">
+                                            Python |
+                    
+                    60 min ago                </div>
+            </li>
+                    <li>
+                <a href="/puJtA4QV">views.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/XgV1xT3P">forms.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/uxEpBHki">K1_as</a>
+                <div class="details">
+                                            C# |
+                    
+                    1 hour ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+        
+        
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
+<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
+</body>
+</html>

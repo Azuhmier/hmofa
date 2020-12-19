@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>(WIP) Tranquility Gun - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+            <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="(WIP) Tranquility Gun - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/D48bmiTv" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/D48bmiTv" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="-4bGqV_7O8q0l328eTUcBphUo5vPbB6b-9sba0HhJgWN0qf7apMLmc7PLokLdn1y-RbazqBcZ9eCqmIgM9BIKA==">
+
+<link href="/assets/c80611c4/css/bootstrap.min.css" rel="stylesheet">        
+<link href="/themes/pastebin/css/vendors.bundle.css?fd97d1a14d3e5eb8409d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?fd97d1a14d3e5eb8409d" rel="stylesheet">
+    </head>
+<body class="" data-partner="LockerDome">
+
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        
+                                    
+            
+            
+<link href="/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/D48bmiTv" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/D48bmiTv" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="dsfargig">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>(WIP) Tranquility Gun</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/dsfargig">dsfargig</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=dsfargig" class="message" title="Send a private message to: dsfargig"></a>
+                                    
+                <div class="date">
+                    <span title="Tuesday 22nd of January 2019 04:13:19 AM CDT">Jan 22nd, 2019</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    649                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 20.61 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/D48bmiTv" class="btn -small">raw</a>
+                    <a href="/dl/D48bmiTv" class="btn -small">download</a>
+                    <a href="/clone/D48bmiTv" class="btn -small h_800">clone</a>
+                    <a href="/embed/D48bmiTv" class="btn -small h_800">embed</a>
+                    <a href="/print/D48bmiTv" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/D48bmiTv" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Tranquility Gun</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In which a human finds himself in an anthro world by accident</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Basically, a nice canid lady lives in a world where humans are creatures of myth (like Bigfoot), and shortly after meeting one, they both discover they are in a different (but very similar) world where humans are a small minority among anthros.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This mostly grew out of something I wrote where two beings that did not believe the other existed explore each other</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it was late Thursday, nearly an hour past your shift when you finally left work.</div></li><li class="li1"><div class="de1">&gt;It never failed: if you had a day off coming, your boss managed to find a way to keep you late</div></li><li class="li1"><div class="de1">&gt;but it doesn’t matter. Tomorrow you were going camping, and you were looking forward to four days and three nights of quiet</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">One of your favorite places to camp was a nearby state park, about a 3 hour drive north east of your crappy studio apartment.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">McCloud State Recreational Area was well known for its rugged beauty. Miles of craggy coastline, tall coastal forests that were often cloaked in mist, and if one was willing to hike a bit inland, vast plains that, in Zach’s mind, practically embodied the seasons.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In the fall, the plains were brown and dry, practically empty except for the occasional deer or fox.</div></li><li class="li1"><div class="de1">In the winter, they were a featureless, white, windswept wasteland. One might see a few rabbit tracks here and there, but it was silent and seemingly mostly lifeless.</div></li><li class="li1"><div class="de1">The spring was more interesting, albeit a tad marshy due to snowmelt and rain. A few green spots would just be beginning to peek through the brown, a grassy clump here, new shoots of a shrub there, and then there was the current season of summer, Zach’s favorite.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The plains before him were a brilliant unbroken expanse of green, dusted with patches of color from a dense carpet of wildflowers.</div></li><li class="li1"><div class="de1">Life was everywhere - deer, foxes, rabbits, birds, and butterflies - all perfect, all pristine, and a strange quirk of the park’s geography kept it that way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach’s favorite campsite used to be easily accessible via a well-maintained dirt road, about a 30 minute drive from the main park. However, federal law had made that section a limited-access nature preserve, and vehicles were no longer permitted.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The only way to get to the campsite now was to drive the long way around, adding 4 hours to one’s trip, or be willing to hike 8 miles along the old road, carrying everything you needed with you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach was willing to hike.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">On a good day, if he left his apartment just before dawn, he’d drive there, park, sign in, hike, set up camp, and would be ready to enjoy lunch and a nap all before 1pm.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Today had been a good day.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After a light nap, Zach decided to head down to the meadow to nature watch. He grabbed his canteen, binoculars, camera, and a collapsible chair, and set out for a small hill he knew overlooked the plains.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He spent the next hour drinking in the sunlight and scenery, snapping the occasional photo, and trying to identify the birds he saw.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">While sweeping his gaze across the meadow</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach panned his binoculars across the meadow when something caught his eye. There was a box-like frame of some sort, its straight lines and right angles standing in stark contrast to the natural shapes around it.</div></li><li class="li1"><div class="de1">He struggled to identify it for a while until his curiosity got the better of him, and he decided to go see it up close</div></li><li class="li1"><div class="de1">It was a fair bit farther away than it looked, and as Zach crossed the stream, it occurred to him that it was a good couple hundred yards into the federal preserve. The stream marking the boundary between the park he was permitted in, and the section of the federal preserve where he was not was well behind him, and the mystery thing was still a ways in front of him.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">But a quick look never hurt anyone, right?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A few minutes later, Zach found himself near a rather interesting cage and pen assembly. There were waist high fences that would channel smaller animals into the cage, which was open at both ends for some reason. There was an odd metal pan covering the cage floor, and in placed in each corner was a camera, oriented to point at the pan. The cables from the pan, doors, and cameras snaked outside to a small box next to several solar panels and a large sign that he hadn’t noticed before.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">DO NOT DISTURB</div></li><li class="li1"><div class="de1">WILDLIFE RESEARCH IN PROGRESS</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In smaller letters, it read</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">AUTOMATED LIVE CAPTURE AND RELEASE SYSTEM</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There was the federal parks insignia and a hand-written phone number as well as some dates.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach looked over the cage appreciatively. It was obvious in retrospect that it would trap, weigh, photograph, and release a specimen by itself, but he wondered how they dealt with the same animal coming around for seconds.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It suddenly occurred to him that there may be motion detection as well, and, not wanting to be photographed trespassing in a nature preserve, Zach turned to leave.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was then the hairs stood up on the back of his neck. He was being watched. There was a flicker of movement in the corner of his eye, and he turned to see what might have been a deer, but his instincts told him it wasn’t. There was more slight movement, and Zach caught a glimpse of something that made his blood freeze in his veins.</div></li><li class="li1"><div class="de1">Whatever it was out there was as tall as he was, and looked to have the muzzle of a predator.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The clearing was silent and time seemed to slow as Zach looked and listened for his stalker... there! Right there!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He’d started to back away slowly from where it was, and nearly tumbled over the cage when a humanoid figure suddenly stood up, several meters off to the side of where he’d expected and much closer. Their height, stern posture, and the chalky green shirt of the park ranger uniform they were wearing all caught his eye and Zach wracked his brain for a good excuse.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The figure raised their hands and leaned toward him in an oddly familiar posture, and just as Zach began to explain, they coughed once, sharply and loudly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A sharp pain in his thigh coupled with a wave of dizziness caused Zach to fall against the cage with a yelp.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He sluggishly tried to scramble to his feet when his hand brushed something on his thigh. He looked down at a thumb-sized cylinder with a tuft of artificial blue feathers that looked vaguely familiar.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wait.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Is that... is that a tranquilizer dart?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The world spun around Zach and a giggle escaped him when he thought of how silly the park ranger would feel when they realized they’d missed whatever it was they were shooting at and hit him instead.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach plucked the dart out of his thigh and mused over what they might have been shooting at.  A bear?  A dear?  A beer? A dear old beer drinking deer-bear? He giggled again as he suddenly found himself sitting down. He began to wonder if the tranquilizer dart was affecting him and decided to pull it out.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach clumsily tossed the funny little cylinder he was holding over his shoulder, braced himself for the pain, and groped his bare thigh for the dart.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Another giggle escaped him as he realized the dart was already out for some reason, perhaps the same reason why he was lying down?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A funny shape moved into view and it took him a moment to recognize it as a very large fox wearing a ranger’s uniform. Another burst of giggles escaped him at the idea until the fox spoke.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“McCloud Station, this is Ranger Karos, over.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The ranger, of course. Zach was trying to compose himself and think up an explanation when she continued.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I caught one! I caught a human!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This was simply too much for Zach and he begin to laugh so hard the world spun faster and faster while becoming blurrier before spiraling into complete darkness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos set down her pack and loaded another tranquilizer into her air rifle. The human wasn’t particularly large and she doubted it posed a threat to her, but better safe than sorry. Her paws shook as pulled her video camera out of her pack.</div></li><li class="li1"><div class="de1">A human. Here.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A. Real. Live. Human!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos continued to shoot video as she examined his unconscious form. She zoomed in on his hands and his creepily long fingers, then felt his shirt.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Everyone knew humans were fur-less and were supposedly capable of making crude clothes, but the clothing the human wore was something else entirely. She’d expected rough garments from poorly tanned animal hides, clumsily stitched together by hand. Instead, his clothes were every bit as quality as hers - synthetic fabrics, machine stitching, and well shaped to fit the human form.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That was the perplexing thing. Where could one find mass-produced, human-shaped clothing?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her hackles rose and she looked around for... anything. Anything that would make this situation make sense, maybe a camera crew from some prank show or a fellow ranger, because this couldn’t possibly be anything other than an elaborate hoax.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hang in there, Ranger,” she murmured to herself. “You aren’t going crazy.” She didn’t feel crazy, at least, but did crazy people ever actually feel crazy?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She steeled herself. She was a park ranger that had managed to find a mythological animal, a thing of legend here in the flesh. Legendary though it may be, in the end it was still just an animal.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She begin to narrate her video, pointing out some of the oddities she’d noticed about the human form, as well as the differences she saw in him when compared to popular belief.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She repositioned his limp form into a more relaxed position. His skin was warm and dry, and to her surprise she noticed that this human wasn’t completely hairless, but actually had a very fine spread of fur on the outside of his forelimbs.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her attention went back to his hands again. They were much too delicate for knuckle-walking, and she said as such to her camera.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She looked toward his feet and a low noise of surprise escaped her. “The human’s boots,” she narrated, “are as finely made as the rest of his clothes.  Their well-worn condition and the fact that the human remained upright the entire time strongly suggests that humans are upright and bipedal.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">They are worn at both the toe and heel, but</div></li><li class="li1"><div class="de1">There was something off about the human’s knees and ankles</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos went through her pack and pulled out a field sample kit. She took several of the human’s eyelashes, swabbed the inside of its cheek for DNA, and was midway through taking a blood sample when the human growled. She jumped up and scrambled for the rifle, but the human didn’t move an inch. Instead, it gave a funny sigh, then another soft growl- wait, was it snoring?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She gave it a cautious poke, then a considerably more confident one as the human continued to snore. The human was definitely still asleep, and she wondered how long the tranquilizer would last. She retrieved the blood sample and placed it in her pack, then dug out a wildlife tracking collar for its leg. She hadn’t decided whether to take the human back to the station with her or leave it in the wild, but it seemed like a good idea either way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As she narrated her observations, her eyes fell on a small, oddly shaped box with a strap near the human. She picked it up and her mouth went dry.</div></li><li class="li1"><div class="de1">It was very obviously a camera, the presence of the lens made that much clear. The brand was one she’d never heard of and the layout was strange. The buttons on it were much too small and too close together for her to manipulate, but she could imagine a human’s hands being able to use them. She tried to look through it, but the viewfinder was flat against the rear of the camera in a way that made it uncomfortable to hold to her face. She looked at the relatively flat face of the captured human and noted its lack of muzzle.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was definitely a human camera.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The implications shook her to her core. Mythologically speaking, Humans had long been viewed as more intelligent than simple beasts, but not by much. Those that believed humans really existed typically viewed them as having a simple language of grunts and gestures and weak grasp of technology, capable of making basic stone tools and using fire, but little beyond that. Humans were still viewed as beasts, lacking any real culture or</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Yet, here before her was a human with high technology artifacts that were clearly made for human use.</div></li><li class="li1"><div class="de1">Made for human use, but... could they have been made BY humans as well?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her attention turned back to his clothes and she noticed his trousers had pockets. Her paws were too big to fit in them easily, but with some work she was able to get out a small set of keys, a wallet, and a miniature tablet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She opened the wallet and gaped at its contents. There were human identification cards, and what looked like currency. There were drawings of humans on each bill, the same human on bills with the same markings. The markings on everything were intriguing, the language and letterforms both unfamiliar to her. She scrutinized his picture on the card, then looked to his face to compare. It was then when she noticed his eyes were open and pointed right at her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The human’s eyes narrowed as his stare seemed to lock her in place. He closed his eyes and sighed.</div></li><li class="li1"><div class="de1">“I’m being pick-pocketed by a fox-man wearing a stolen park ranger’s uniform,” he said, conversationally.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos gaped at him. “Y-you... you can talk,” she croaked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Make that ‘a TALKING fox-man’,” he said. “Yes, I can talk.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her ears flattened. “I’m not a fox-man, I’m a wolf-woman. I’m wearing a Ranger’s uniform because I am a park ranger.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmm hmm. And the pick-pocketing?”</div></li><li class="li1"><div class="de1">A wave of embarrassment washed over her as she realized she was still holding his wallet. She mutely thrust it towards his face as she tried to compose her thoughts. This was not at all what she’d expected from a human.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Just drop it nearby, I can’t do a lot of moving yet,” the human said. “So, a wolf-woman, eh? You look a lot like a fox.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos spluttered at the human’s rudeness. “Actually, I am a maned wolf,” she bit out. “You look a lot like a monkey.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He gave a nearly identical splutter of his own. “Actually, I am a hairless ape.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos’ ears twitched at that. There were no primate Folk at all, everyone knew that, but...</div></li><li class="li1"><div class="de1">“So you aren’t a human?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He bared his teeth at her, putting her on edge until she realized he was grinning, then it clicked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He was teasing her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos was stunned. Clearly, This was far beyond grunts and gestures, well past simple speech, and well into fluent, conversational Common, with humor no less. But how...?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I take it being a furry park ranger is pretty rough around these parts, which is why you’ve turned to alternate revenue streams?” He gave a pointed glance toward her hands and she realized she was still holding his wallet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I was looking for... uh, ID,” she huffed, and dropped it on his chest. “So you are a human. A real live human, out here?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The more you talk, the more I find myself wondering if this is some sort of weird joke perpetrated by a crazy person, or a side effect of the tranquilizer.” Zach grunted as he rolled on to his side. “Yes, Ranger Wolf Fursona, I am a real live human. By the way, that is quite possibly the best suit I’ve ever seen, movie quality, really.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My name is Ranger Karos, and this is a standard park ranger uniform,” she responded with a flick of her ears, her head cocked in curiosity.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach sat up slowly, eyeing her with suspicion.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I... ha ha, yeah, because...</div></li><li class="li1"><div class="de1">“wait, this is...” Zach looked her up and down, slowly.</div></li><li class="li1"><div class="de1">“That... you... that isn’t a fursuit, is it?”</div></li><li class="li1"><div class="de1">“It’s a Ranger uniform,” she corrected.</div></li><li class="li1"><div class="de1">“I meant the fur under the uniform!” he snapped.</div></li><li class="li1"><div class="de1">Her ears flattened at his tone. She could smell his fear now, so she moved back a bit and sat down so as to appear less threatening.</div></li><li class="li1"><div class="de1">“What about my fur?”</div></li><li class="li1"><div class="de1">“It’s not... artificial, is it? You are an actual talking animal,” Zach said, as much to himself as to her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Of course I can talk. Why do you call me an animal, human?”</div></li><li class="li1"><div class="de1">“Zach.”</div></li><li class="li1"><div class="de1">“What?”</div></li><li class="li1"><div class="de1">“Zach. My name is Zach. You keep calling me ‘human’,” he grumbled.</div></li><li class="li1"><div class="de1">Ranger Karos nodded slowly. “I will stop calling you ‘human’ if you stop calling me ‘animal.’”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That’s fair,” he agreed, and rather shakily got to his feet. “I don’t suppose you’ve seen my camera?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos picked it up and moved over toward him, hesitating only a second before moving into arms reach to hand it to him. Zach noticed anyway.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, us Humans don’t bite,” he said as he raised his camera. “Unless you ask.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He snapped several photos of Ranger Karos, who watched him with growing irritation.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Why are you taking pictures of me?” she asked.</div></li><li class="li1"><div class="de1">“Because I’ve never seen a talking anim- uh, wolf... person.” Zach frowned.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, I suppose maned wolves aren’t super common, and we do have many similarities to Vulpes, so I can see how you may have mistaken me for a fox-“ she paused at this, as Zach was shaking his head so vigorously that, for a moment, she feared it’d fall off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’ve never seen a talking fox, either. I mean... their are myths about talking animals, but-“ Zach saw her hackles raise a bit. “-not animals, but I mean...”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Where I am from, the word person is synonymous with human.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ranger Karos stared at that. “No other races of people?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach shook his head again. “No, only... regular animals. Talking people that... aren’t human people are stuff of myth. There are lots in folklore and tall tails, but you...”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes?”</div></li><li class="li1"><div class="de1">“You seem... normal. Not special at all.”</div></li><li class="li1"><div class="de1">Karos’ ears drooped at that. “Thanks.”</div></li><li class="li1"><div class="de1">“Sorry, I didn’t mean it like that. It’s just that all of the stories usually feature magic and demi-gods, and you seem like pretty much any other person.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I am pretty much a normal person. Are you... normal for a human?”</div></li><li class="li1"><div class="de1">Zach shrugged. “I think that depends on who you ask. Are there really no humans you know of?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“None. You are cryptids, fringe stuff, really.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Cryptids?!” Zach smirked and struck an exaggerated pose. “Well, what do you think: Does The Man match The Myth?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A small hysterical giggle escaped Ranger Karos as she looked him up and down. “No, you are actually... this is a bit scary for me. You aren’t...” she sighed. “You are nothing like what I thought. What we thought.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach raised an eyebrow. “Scary? You are bigger than me, almost certainly much stronger than me, you have teeth and claws, and a tranq gun. How can you possibly find me threatening in any way?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She exploded to her feet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Not threatening,” she responded, with more intensity than she intended. “Frightening. The implications, they... they challenge everything. Everything I thought I knew about the world and nature.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The moment Ranger Karos found herself began to speak and her words came out in a rush. She told Zach of legends, folklore, and human mythology. How humans were considered intelligent beasts, but beasts none the less. How they were believed to be barely capable of learning a language, or using tools. How they lacked real awareness or any real cultural markers. How there was no hard evidence of their existence.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Then you show up with clothes and a camera, and an ID card for Athe’s sake, and you talk like a native speaker and even made jokes!” She was pacing now, trying to calm herself. “I keep thinking you’re a hoax. Hoping, really.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach watched her silently for a while, and then spoke.</div></li><li class="li1"><div class="de1">“Yeah... well, I actually don’t believe you are real.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karos stopped and gaped at him. “What?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I mean... this has got to be a hallucination or a hoax or you’re some crazy animatronic thing, because talking ani- er, fox-wolves or whatever don’t exist outside of books or movies, or games or... you know, whatever media.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her eyes narrowed and her ears flattened. “You intend to debate my existence, the very nature of ME, a purported hallucination, WITH me, said hallucination?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zach sighed and laid back to stare at the sky. “Yeah, I have no idea what I am doing.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Neither of them moved nor said anything for a long while, the relative silence only broken by the birds, the breeze, and other sounds of nature.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was a long moment before either of them said anything, and when the silence was finally broken, both broke it at the same time.</div></li><li class="li1"><div class="de1">“Ok, I-“</div></li><li class="li1"><div class="de1">“What if we-“</div></li><li class="li1"><div class="de1">They stopped, in an attempt to let the other speak.</div></li><li class="li1"><div class="de1">“You go first.”</div></li><li class="li1"><div class="de1">“No, you go.”</div></li><li class="li1"><div class="de1">“Ok. I... uh...” Zach hesitated. “I want to look at you. I want to convince myself that you aren’t a robot or someone with a costume.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He touched her</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The examination quickly became more intimate than either intended -not sexual, but intense in ways that were hard to describe.</div></li></ol>        </div>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Tranquility Gun
+
+In which a human finds himself in an anthro world by accident
+
+
+Basically, a nice canid lady lives in a world where humans are creatures of myth (like Bigfoot), and shortly after meeting one, they both discover they are in a different (but very similar) world where humans are a small minority among anthros.
+
+This mostly grew out of something I wrote where two beings that did not believe the other existed explore each other
+
+
+
+&gt;it was late Thursday, nearly an hour past your shift when you finally left work.
+&gt;It never failed: if you had a day off coming, your boss managed to find a way to keep you late
+&gt;but it doesn’t matter. Tomorrow you were going camping, and you were looking forward to four days and three nights of quiet
+
+One of your favorite places to camp was a nearby state park, about a 3 hour drive north east of your crappy studio apartment.
+
+McCloud State Recreational Area was well known for its rugged beauty. Miles of craggy coastline, tall coastal forests that were often cloaked in mist, and if one was willing to hike a bit inland, vast plains that, in Zach’s mind, practically embodied the seasons.
+
+In the fall, the plains were brown and dry, practically empty except for the occasional deer or fox.
+In the winter, they were a featureless, white, windswept wasteland. One might see a few rabbit tracks here and there, but it was silent and seemingly mostly lifeless.
+The spring was more interesting, albeit a tad marshy due to snowmelt and rain. A few green spots would just be beginning to peek through the brown, a grassy clump here, new shoots of a shrub there, and then there was the current season of summer, Zach’s favorite.
+
+The plains before him were a brilliant unbroken expanse of green, dusted with patches of color from a dense carpet of wildflowers.
+Life was everywhere - deer, foxes, rabbits, birds, and butterflies - all perfect, all pristine, and a strange quirk of the park’s geography kept it that way.
+
+Zach’s favorite campsite used to be easily accessible via a well-maintained dirt road, about a 30 minute drive from the main park. However, federal law had made that section a limited-access nature preserve, and vehicles were no longer permitted.
+
+The only way to get to the campsite now was to drive the long way around, adding 4 hours to one’s trip, or be willing to hike 8 miles along the old road, carrying everything you needed with you.
+
+Zach was willing to hike.
+
+On a good day, if he left his apartment just before dawn, he’d drive there, park, sign in, hike, set up camp, and would be ready to enjoy lunch and a nap all before 1pm.
+
+Today had been a good day.
+
+After a light nap, Zach decided to head down to the meadow to nature watch. He grabbed his canteen, binoculars, camera, and a collapsible chair, and set out for a small hill he knew overlooked the plains.
+
+He spent the next hour drinking in the sunlight and scenery, snapping the occasional photo, and trying to identify the birds he saw.
+
+While sweeping his gaze across the meadow
+
+Zach panned his binoculars across the meadow when something caught his eye. There was a box-like frame of some sort, its straight lines and right angles standing in stark contrast to the natural shapes around it.
+He struggled to identify it for a while until his curiosity got the better of him, and he decided to go see it up close
+It was a fair bit farther away than it looked, and as Zach crossed the stream, it occurred to him that it was a good couple hundred yards into the federal preserve. The stream marking the boundary between the park he was permitted in, and the section of the federal preserve where he was not was well behind him, and the mystery thing was still a ways in front of him.
+
+But a quick look never hurt anyone, right?
+
+A few minutes later, Zach found himself near a rather interesting cage and pen assembly. There were waist high fences that would channel smaller animals into the cage, which was open at both ends for some reason. There was an odd metal pan covering the cage floor, and in placed in each corner was a camera, oriented to point at the pan. The cables from the pan, doors, and cameras snaked outside to a small box next to several solar panels and a large sign that he hadn’t noticed before.
+
+DO NOT DISTURB
+WILDLIFE RESEARCH IN PROGRESS
+
+In smaller letters, it read
+
+AUTOMATED LIVE CAPTURE AND RELEASE SYSTEM
+
+There was the federal parks insignia and a hand-written phone number as well as some dates.
+
+Zach looked over the cage appreciatively. It was obvious in retrospect that it would trap, weigh, photograph, and release a specimen by itself, but he wondered how they dealt with the same animal coming around for seconds.
+
+It suddenly occurred to him that there may be motion detection as well, and, not wanting to be photographed trespassing in a nature preserve, Zach turned to leave.
+
+It was then the hairs stood up on the back of his neck. He was being watched. There was a flicker of movement in the corner of his eye, and he turned to see what might have been a deer, but his instincts told him it wasn’t. There was more slight movement, and Zach caught a glimpse of something that made his blood freeze in his veins.
+Whatever it was out there was as tall as he was, and looked to have the muzzle of a predator.
+
+The clearing was silent and time seemed to slow as Zach looked and listened for his stalker... there! Right there!
+
+He’d started to back away slowly from where it was, and nearly tumbled over the cage when a humanoid figure suddenly stood up, several meters off to the side of where he’d expected and much closer. Their height, stern posture, and the chalky green shirt of the park ranger uniform they were wearing all caught his eye and Zach wracked his brain for a good excuse.
+
+The figure raised their hands and leaned toward him in an oddly familiar posture, and just as Zach began to explain, they coughed once, sharply and loudly.
+
+A sharp pain in his thigh coupled with a wave of dizziness caused Zach to fall against the cage with a yelp.
+
+He sluggishly tried to scramble to his feet when his hand brushed something on his thigh. He looked down at a thumb-sized cylinder with a tuft of artificial blue feathers that looked vaguely familiar.
+
+Wait.
+
+Is that... is that a tranquilizer dart?
+
+The world spun around Zach and a giggle escaped him when he thought of how silly the park ranger would feel when they realized they’d missed whatever it was they were shooting at and hit him instead.
+
+Zach plucked the dart out of his thigh and mused over what they might have been shooting at.  A bear?  A dear?  A beer? A dear old beer drinking deer-bear? He giggled again as he suddenly found himself sitting down. He began to wonder if the tranquilizer dart was affecting him and decided to pull it out.
+
+Zach clumsily tossed the funny little cylinder he was holding over his shoulder, braced himself for the pain, and groped his bare thigh for the dart.
+
+Another giggle escaped him as he realized the dart was already out for some reason, perhaps the same reason why he was lying down?
+
+A funny shape moved into view and it took him a moment to recognize it as a very large fox wearing a ranger’s uniform. Another burst of giggles escaped him at the idea until the fox spoke.
+
+“McCloud Station, this is Ranger Karos, over.”
+
+The ranger, of course. Zach was trying to compose himself and think up an explanation when she continued.
+
+“I caught one! I caught a human!”
+
+This was simply too much for Zach and he begin to laugh so hard the world spun faster and faster while becoming blurrier before spiraling into complete darkness.
+
+-----------
+
+
+Ranger Karos set down her pack and loaded another tranquilizer into her air rifle. The human wasn’t particularly large and she doubted it posed a threat to her, but better safe than sorry. Her paws shook as pulled her video camera out of her pack.
+A human. Here.
+
+A. Real. Live. Human!
+
+Ranger Karos continued to shoot video as she examined his unconscious form. She zoomed in on his hands and his creepily long fingers, then felt his shirt.
+
+Everyone knew humans were fur-less and were supposedly capable of making crude clothes, but the clothing the human wore was something else entirely. She’d expected rough garments from poorly tanned animal hides, clumsily stitched together by hand. Instead, his clothes were every bit as quality as hers - synthetic fabrics, machine stitching, and well shaped to fit the human form.
+
+That was the perplexing thing. Where could one find mass-produced, human-shaped clothing?
+
+Her hackles rose and she looked around for... anything. Anything that would make this situation make sense, maybe a camera crew from some prank show or a fellow ranger, because this couldn’t possibly be anything other than an elaborate hoax.
+
+“Hang in there, Ranger,” she murmured to herself. “You aren’t going crazy.” She didn’t feel crazy, at least, but did crazy people ever actually feel crazy?
+
+She steeled herself. She was a park ranger that had managed to find a mythological animal, a thing of legend here in the flesh. Legendary though it may be, in the end it was still just an animal.
+
+She begin to narrate her video, pointing out some of the oddities she’d noticed about the human form, as well as the differences she saw in him when compared to popular belief.
+
+She repositioned his limp form into a more relaxed position. His skin was warm and dry, and to her surprise she noticed that this human wasn’t completely hairless, but actually had a very fine spread of fur on the outside of his forelimbs.
+
+Her attention went back to his hands again. They were much too delicate for knuckle-walking, and she said as such to her camera.
+
+She looked toward his feet and a low noise of surprise escaped her. “The human’s boots,” she narrated, “are as finely made as the rest of his clothes.  Their well-worn condition and the fact that the human remained upright the entire time strongly suggests that humans are upright and bipedal.”
+
+They are worn at both the toe and heel, but
+There was something off about the human’s knees and ankles
+
+Ranger Karos went through her pack and pulled out a field sample kit. She took several of the human’s eyelashes, swabbed the inside of its cheek for DNA, and was midway through taking a blood sample when the human growled. She jumped up and scrambled for the rifle, but the human didn’t move an inch. Instead, it gave a funny sigh, then another soft growl- wait, was it snoring?
+
+She gave it a cautious poke, then a considerably more confident one as the human continued to snore. The human was definitely still asleep, and she wondered how long the tranquilizer would last. She retrieved the blood sample and placed it in her pack, then dug out a wildlife tracking collar for its leg. She hadn’t decided whether to take the human back to the station with her or leave it in the wild, but it seemed like a good idea either way.
+
+As she narrated her observations, her eyes fell on a small, oddly shaped box with a strap near the human. She picked it up and her mouth went dry.
+It was very obviously a camera, the presence of the lens made that much clear. The brand was one she’d never heard of and the layout was strange. The buttons on it were much too small and too close together for her to manipulate, but she could imagine a human’s hands being able to use them. She tried to look through it, but the viewfinder was flat against the rear of the camera in a way that made it uncomfortable to hold to her face. She looked at the relatively flat face of the captured human and noted its lack of muzzle.
+
+It was definitely a human camera.
+
+The implications shook her to her core. Mythologically speaking, Humans had long been viewed as more intelligent than simple beasts, but not by much. Those that believed humans really existed typically viewed them as having a simple language of grunts and gestures and weak grasp of technology, capable of making basic stone tools and using fire, but little beyond that. Humans were still viewed as beasts, lacking any real culture or
+
+Yet, here before her was a human with high technology artifacts that were clearly made for human use.
+Made for human use, but... could they have been made BY humans as well?
+
+Her attention turned back to his clothes and she noticed his trousers had pockets. Her paws were too big to fit in them easily, but with some work she was able to get out a small set of keys, a wallet, and a miniature tablet.
+
+She opened the wallet and gaped at its contents. There were human identification cards, and what looked like currency. There were drawings of humans on each bill, the same human on bills with the same markings. The markings on everything were intriguing, the language and letterforms both unfamiliar to her. She scrutinized his picture on the card, then looked to his face to compare. It was then when she noticed his eyes were open and pointed right at her.
+
+The human’s eyes narrowed as his stare seemed to lock her in place. He closed his eyes and sighed.
+“I’m being pick-pocketed by a fox-man wearing a stolen park ranger’s uniform,” he said, conversationally.
+
+Ranger Karos gaped at him. “Y-you... you can talk,” she croaked.
+
+“Make that ‘a TALKING fox-man’,” he said. “Yes, I can talk.”
+
+Her ears flattened. “I’m not a fox-man, I’m a wolf-woman. I’m wearing a Ranger’s uniform because I am a park ranger.”
+
+“Mmm hmm. And the pick-pocketing?”
+A wave of embarrassment washed over her as she realized she was still holding his wallet. She mutely thrust it towards his face as she tried to compose her thoughts. This was not at all what she’d expected from a human.
+
+“Just drop it nearby, I can’t do a lot of moving yet,” the human said. “So, a wolf-woman, eh? You look a lot like a fox.”
+
+Ranger Karos spluttered at the human’s rudeness. “Actually, I am a maned wolf,” she bit out. “You look a lot like a monkey.”
+
+He gave a nearly identical splutter of his own. “Actually, I am a hairless ape.”
+
+Ranger Karos’ ears twitched at that. There were no primate Folk at all, everyone knew that, but...
+“So you aren’t a human?”
+
+He bared his teeth at her, putting her on edge until she realized he was grinning, then it clicked.
+
+He was teasing her.
+
+Ranger Karos was stunned. Clearly, This was far beyond grunts and gestures, well past simple speech, and well into fluent, conversational Common, with humor no less. But how...?
+
+“I take it being a furry park ranger is pretty rough around these parts, which is why you’ve turned to alternate revenue streams?” He gave a pointed glance toward her hands and she realized she was still holding his wallet.
+
+“I was looking for... uh, ID,” she huffed, and dropped it on his chest. “So you are a human. A real live human, out here?”
+
+“The more you talk, the more I find myself wondering if this is some sort of weird joke perpetrated by a crazy person, or a side effect of the tranquilizer.” Zach grunted as he rolled on to his side. “Yes, Ranger Wolf Fursona, I am a real live human. By the way, that is quite possibly the best suit I’ve ever seen, movie quality, really.”
+
+“My name is Ranger Karos, and this is a standard park ranger uniform,” she responded with a flick of her ears, her head cocked in curiosity.
+
+Zach sat up slowly, eyeing her with suspicion.
+
+“I... ha ha, yeah, because...
+“wait, this is...” Zach looked her up and down, slowly.
+“That... you... that isn’t a fursuit, is it?”
+“It’s a Ranger uniform,” she corrected.
+“I meant the fur under the uniform!” he snapped.
+Her ears flattened at his tone. She could smell his fear now, so she moved back a bit and sat down so as to appear less threatening.
+“What about my fur?”
+“It’s not... artificial, is it? You are an actual talking animal,” Zach said, as much to himself as to her.
+
+“Of course I can talk. Why do you call me an animal, human?”
+“Zach.”
+“What?”
+“Zach. My name is Zach. You keep calling me ‘human’,” he grumbled.
+Ranger Karos nodded slowly. “I will stop calling you ‘human’ if you stop calling me ‘animal.’”
+
+“That’s fair,” he agreed, and rather shakily got to his feet. “I don’t suppose you’ve seen my camera?”
+
+Ranger Karos picked it up and moved over toward him, hesitating only a second before moving into arms reach to hand it to him. Zach noticed anyway.
+
+“Hey, us Humans don’t bite,” he said as he raised his camera. “Unless you ask.”
+
+He snapped several photos of Ranger Karos, who watched him with growing irritation.
+
+“Why are you taking pictures of me?” she asked.
+“Because I’ve never seen a talking anim- uh, wolf... person.” Zach frowned.
+
+“Well, I suppose maned wolves aren’t super common, and we do have many similarities to Vulpes, so I can see how you may have mistaken me for a fox-“ she paused at this, as Zach was shaking his head so vigorously that, for a moment, she feared it’d fall off.
+
+“I’ve never seen a talking fox, either. I mean... their are myths about talking animals, but-“ Zach saw her hackles raise a bit. “-not animals, but I mean...”
+
+“Where I am from, the word person is synonymous with human.”
+
+Ranger Karos stared at that. “No other races of people?”
+
+Zach shook his head again. “No, only... regular animals. Talking people that... aren’t human people are stuff of myth. There are lots in folklore and tall tails, but you...”
+
+“Yes?”
+“You seem... normal. Not special at all.”
+Karos’ ears drooped at that. “Thanks.”
+“Sorry, I didn’t mean it like that. It’s just that all of the stories usually feature magic and demi-gods, and you seem like pretty much any other person.”
+
+“I am pretty much a normal person. Are you... normal for a human?”
+Zach shrugged. “I think that depends on who you ask. Are there really no humans you know of?”
+
+“None. You are cryptids, fringe stuff, really.”
+
+“Cryptids?!” Zach smirked and struck an exaggerated pose. “Well, what do you think: Does The Man match The Myth?”
+
+A small hysterical giggle escaped Ranger Karos as she looked him up and down. “No, you are actually... this is a bit scary for me. You aren’t...” she sighed. “You are nothing like what I thought. What we thought.”
+
+Zach raised an eyebrow. “Scary? You are bigger than me, almost certainly much stronger than me, you have teeth and claws, and a tranq gun. How can you possibly find me threatening in any way?”
+
+She exploded to her feet.
+
+“Not threatening,” she responded, with more intensity than she intended. “Frightening. The implications, they... they challenge everything. Everything I thought I knew about the world and nature.”
+
+The moment Ranger Karos found herself began to speak and her words came out in a rush. She told Zach of legends, folklore, and human mythology. How humans were considered intelligent beasts, but beasts none the less. How they were believed to be barely capable of learning a language, or using tools. How they lacked real awareness or any real cultural markers. How there was no hard evidence of their existence.
+
+“Then you show up with clothes and a camera, and an ID card for Athe’s sake, and you talk like a native speaker and even made jokes!” She was pacing now, trying to calm herself. “I keep thinking you’re a hoax. Hoping, really.”
+
+Zach watched her silently for a while, and then spoke.
+“Yeah... well, I actually don’t believe you are real.”
+
+Karos stopped and gaped at him. “What?”
+
+“I mean... this has got to be a hallucination or a hoax or you’re some crazy animatronic thing, because talking ani- er, fox-wolves or whatever don’t exist outside of books or movies, or games or... you know, whatever media.”
+
+Her eyes narrowed and her ears flattened. “You intend to debate my existence, the very nature of ME, a purported hallucination, WITH me, said hallucination?”
+
+Zach sighed and laid back to stare at the sky. “Yeah, I have no idea what I am doing.”
+
+Neither of them moved nor said anything for a long while, the relative silence only broken by the birds, the breeze, and other sounds of nature.
+
+It was a long moment before either of them said anything, and when the silence was finally broken, both broke it at the same time.
+“Ok, I-“
+“What if we-“
+They stopped, in an attempt to let the other speak.
+“You go first.”
+“No, you go.”
+“Ok. I... uh...” Zach hesitated. “I want to look at you. I want to convince myself that you aren’t a robot or someone with a costume.”
+
+He touched her
+
+The examination quickly became more intimate than either intended -not sexual, but intense in ways that were hard to describe.</textarea>
+    
+        <div style="padding: 12px;" id="ld-6241-5672"></div><script>(function(w,d,s,i){w.ldAdInit=w.ldAdInit||[];w.ldAdInit.push({slot:13577583510107238,size:[0, 0],id:"ld-6241-5672"});if(!d.getElementById(i)){var j=d.createElement(s),p=d.getElementsByTagName(s)[0];j.async=true;j.src="//cdn2.lockerdomecdn.com/_js/ajs.js";j.id=i;p.parentNode.insertBefore(j,p);}})(window,document,"script","ld-ajs");</script>
+
+</div>
+                        <div style="padding: 12px;" id="ld-6241-5672"></div><script>(function(w,d,s,i){w.ldAdInit=w.ldAdInit||[];w.ldAdInit.push({slot:13577583510107238,size:[0, 0],id:"ld-6241-5672"});if(!d.getElementById(i)){var j=d.createElement(s),p=d.getElementsByTagName(s)[0];j.async=true;j.src="//cdn2.lockerdomecdn.com/_js/ajs.js";j.id=i;p.parentNode.insertBefore(j,p);}})(window,document,"script","ld-ajs");</script>
+        </div>
+
+        <div class="sidebar h_1024">
+            
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/PYemJSby">[ENSIAS IT Club] MCPC2020 Mock - C</a>
+                <div class="details">
+                                            Java |
+                    
+                    17 min ago                </div>
+            </li>
+                    <li>
+                <a href="/qf9nv9Jv">Tinker&#039;s Construct smeltery automation (Computercraft 1.6)</a>
+                <div class="details">
+                                            Lua |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/jEsJpw11">Untitled</a>
+                <div class="details">
+                                            PowerShell |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/TQB3Lfns">Untitled</a>
+                <div class="details">
+                                            VIM |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Yr5NrNgG">joshua XML test dayu booking setting read</a>
+                <div class="details">
+                                            XML |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/hJ0C6Rr3">scripts.blade.php</a>
+                <div class="details">
+                                            PHP |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Jcy10EPG">footer.blade.php</a>
+                <div class="details">
+                                            PHP |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/gLvXm1fj">head.blade.php</a>
+                <div class="details">
+                                            PHP |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+                                </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+        
+        
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/9ce1885/jquery.min.js"></script>
+<script src="/assets/f04f76b8/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?fd97d1a14d3e5eb8409d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?fd97d1a14d3e5eb8409d"></script>
+
+</body>
+</html>

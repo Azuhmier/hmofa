@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chickmas - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Chickmas - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/y7FVLeiQ" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/y7FVLeiQ" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="Iaf_dV1QtNvjakQ_vy75lYLToLZmEHZRXqbId7J2Zcdn67cHNmXTv64OAG_KTajsy6LV3zQkIx4bxYQS2SA0vg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/y7FVLeiQ" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/y7FVLeiQ" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/24/23/5/2985205.jpg" alt="Mousguy">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Chickmas</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Mousguy">Mousguy</a>
+                                            </div>
+
+                                            <a href="/pro" class="pro" title="PRO User!"></a>
+                    
+                                             <a href="/message/compose?to=Mousguy" class="message" title="Send a private message to: Mousguy"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 25th of December 2017 06:42:56 AM CDT">Dec 25th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    709                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 27.16 KB            </div>
+
+            <div class="right">
+                <a href="/raw/y7FVLeiQ" class="btn -small">raw</a>
+                <a href="/dl/y7FVLeiQ" class="btn -small">download</a>
+                <a href="/clone/y7FVLeiQ" class="btn -small h_800">clone</a>
+                <a href="/embed/y7FVLeiQ" class="btn -small h_800">embed</a>
+                <a href="/report/y7FVLeiQ" class="btn -small">report</a>
+                <a href="/print/y7FVLeiQ" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;You are Anon &quot;Chick&quot; Mous, the Chickenman</div></li><li class="li1"><div class="de1">&gt;You&#039;re one of many anonymous humans that have been appearing in the anthro world, and a beacon of hope to many</div></li><li class="li1"><div class="de1">&gt;Most people who are close to you know how hard you&#039;ve fought for what you have and the mistakes you&#039;ve made...</div></li><li class="li1"><div class="de1">&gt;But right now isn&#039;t the time for that</div></li><li class="li1"><div class="de1">&gt;Right now you&#039;re on a flight headed to a Christmas party with the Millers and your closest friends</div></li><li class="li1"><div class="de1">&gt;Jasmine was already home with her family, so they were just waiting on your party of five to arrive</div></li><li class="li1"><div class="de1">&gt;Strong, Clara, Mechanic, and Lilith were sitting with you in the odd little first class seat enclosures</div></li><li class="li1"><div class="de1">&gt;You sat in the middle of the section, Clara and Strong to your immediate left while Lilith and her Anon sat to your right chatting towards you</div></li><li class="li1"><div class="de1">&gt;&quot;I can&#039;t believe we&#039;re flying in such a nice cabin! I never would have been able to do this before meeting all of you wonderful people. Gah. And these baby lobsters are so good too! You really didn&#039;t have to do this Chick!&quot;</div></li><li class="li1"><div class="de1">&gt;You laugh as the Mechanic does his best to explain that they weren&#039;t baby Lobsters when you cut in</div></li><li class="li1"><div class="de1">&gt;&quot;Actually, some planes do offer baby lobsters. That&#039;s just a bit silly for me though, and I got you guys the Royal Red shrimp. They do call them the mini lobsters of the shrimp world though.&quot;</div></li><li class="li1"><div class="de1">&gt;Lilith beams at you while poking her lover on the nose and quietly saying she knew she read the menu right, Mechanic just accepting it and giving up on arguing the point</div></li><li class="li1"><div class="de1">&gt;You take a glance over to Clara and Strong to find that they&#039;re chatting quietly under their breath about how they&#039;ll have to return the favor at some point for all of this luxury</div></li><li class="li1"><div class="de1">&gt;&quot;Why would I make you guys pay for a treat? It&#039;s Christmas. I&#039;m spending the money I normally just sit on a bit so we can have a good time with it. Don&#039;t worry about what the price tags all add up to. I don&#039;t put a price on friendship, so you shouldn&#039;t worry about doing so either.&quot;</div></li><li class="li1"><div class="de1">&gt;Clara sheepishly nods, sighing and looking at the menu in front of her and deciding to just got a hamburger and some fries</div></li><li class="li1"><div class="de1">&gt;A smile cracks your face as you remember meeting her parents, and how your dad so quickly adjusted to you</div></li><li class="li1"><div class="de1">&gt;At some point Clara told him about your rather dark secret and how you had taken someone&#039;s life</div></li><li class="li1"><div class="de1">&gt;When you arrived Clara blurted it out in the car to you, and you didn&#039;t know how to react as you approached their house</div></li><li class="li1"><div class="de1">&gt;As it turns out, he didn&#039;t care about you doing that at all, but he was rather impressed by the rest of your personal achievements</div></li><li class="li1"><div class="de1">&gt;Close to equal representation for anthros and humans in a thriving business, all but married to a very lovely and loving tiger, and covered in the kinds of scars only someone who has survived hardships could possibly bare</div></li><li class="li1"><div class="de1">&gt;He even took note of your eye-patch, and you tried to explain to him it was because of a recent accident but he didn&#039;t care</div></li><li class="li1"><div class="de1">&gt;He just patted you on the shoulder and told you that you had to be a good person to have endured so much and still came out like you have</div></li><li class="li1"><div class="de1">&gt;Clara&#039;s mother &quot;momo&quot; was a much different story with how she felt about you</div></li><li class="li1"><div class="de1">&gt;She was entranced by your various scars and marks, impressed by how dangerous your previous life had been, excited by the fact that you married an apex predator</div></li><li class="li1"><div class="de1">&gt;When she gave you a hug you could hear her purring heartily against you, and felt her tail wrap slightly around you as she asked you if you wanted to stay the night</div></li><li class="li1"><div class="de1">&gt;Clara angrily interjected that you all had to get to a party a few states away, and left her baby with them to watch over while looking in some kind of book in her purse and writing something down</div></li><li class="li1"><div class="de1">&gt;Though you were as puzzled by the book as Strong seemed to be, you were happy to head towards the airport and to the very flight you were on right now</div></li><li class="li1"><div class="de1">&gt;As you allow your mind to wander more and more, the gentle sound of your best friends talking around you lulls you into a deep sleep, being woken by Lilith just minutes before you were all set to land</div></li><li class="li1"><div class="de1">&gt;It looks like Clara got her hamburger and fries, but let Strong have the fries to go with a PBJ sandwhich from inside of his backpack</div></li><li class="li1"><div class="de1">&gt;Part of you wants to chide them about being so worried about you spending money, but you can understand why they care so much</div></li><li class="li1"><div class="de1">&gt;Lilith&#039;s anon is looking over a menu of various beers and trying to decide what he wants as the captain walks into the cabin to tell everyone that the menus are now closed because we&#039;ll be landing soon</div></li><li class="li1"><div class="de1">&gt;Mechanic scowls, Lilith smiles at you, and Clara and Strong are discussing meeting Jasmine&#039;s family for the first time as the plane slowly descends onto the runway</div></li><li class="li1"><div class="de1">&gt;A few minutes later and everyone is loading luggage into the rental truck you&#039;d be driving for the next few days</div></li><li class="li1"><div class="de1">&gt;With Clara, Strong, and Lilith in the back while Mechanic rides shotgun it&#039;s time to head out towards the Miller family house and get this party started</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Rolling through the streets around the &quot;Little Russia&quot; neighborhood make you feel like you&#039;re in a different country</div></li><li class="li1"><div class="de1">&gt;Brutalist soviet apartment complexes slowly taper off into normal housing that the community&#039;s best people seemed to live in</div></li><li class="li1"><div class="de1">&gt;Doctors that did &quot;house&quot; calls to the complexes, dentists that would do procedures on the cheap, importers that could get their hands on goods from other countries easily, etc.</div></li><li class="li1"><div class="de1">&gt;The Millers seemed out of place if you didn&#039;t know better, what with Olga&#039;s husband almost never leaving the house and Olga only ever leaving the house at random</div></li><li class="li1"><div class="de1">&gt;Pulling up into their driveway and unpacking your stuff you try to start to explain why they&#039;re so loved by the community when Jasmine comes running out to hug you</div></li><li class="li1"><div class="de1">&gt;&quot;CHICKY! Chicky chicky Chicky chicky! I&#039;m glad you guys got here! I&#039;m sorry about the rental car situation, I would have picked you guys up but some asshole stole my old Volkswagen.&quot;</div></li><li class="li1"><div class="de1">&gt;When she lets go of you she seems angry, but a quick hug from Clara and Lilith quickly get rid of her frown as they all cheer in the front yard at all being together for Christmas</div></li><li class="li1"><div class="de1">&gt;You whisper to the other guys to make sure everything about Jasmine&#039;s car was in order, knowing she couldn&#039;t hear you, and they both nod</div></li><li class="li1"><div class="de1">&gt;The trio of lovely ladies all quickly dash into the house to talk more as Olga&#039;s massive frame appears in the doorway, blocking Clara and picking her up for a hug</div></li><li class="li1"><div class="de1">&gt;You hear the telltale popping of Clara&#039;s back as Olga&#039;s special back breaking hug does it&#039;s magic on the smaller snow leopard, moving on to the raccoon who seems happy to get her back popped as Clara rubs her back and comments on how all of the stress on it seemingly melted away</div></li><li class="li1"><div class="de1">&gt;Lilith joins her a second later in talking about Olga&#039;s magic as she spots all of the anons bringing in luggage and goes to pop your back first</div></li><li class="li1"><div class="de1">&gt;She picks you up without any struggling, remembering the magical feeling of her strong arms popping all the disks in your back at once and somehow making it feel amazing</div></li><li class="li1"><div class="de1">&gt;When she puts you down she asks if Jasmine hurt you again, and you tell her it was just an accident which she takes to heart as she moves on to grab for the Mechanic</div></li><li class="li1"><div class="de1">&gt;Strong manages to duck around her and get into the house without having his back popped, Mechanic trying to understand how she could give such amazing bear hugs</div></li><li class="li1"><div class="de1">&gt;Olga responds with a smile while patting his head like he was only a child</div></li><li class="li1"><div class="de1">&gt;&quot;Olga is licensed Chiropractor. I am master at making backs pop. I learn how to give hug that makes back feel good, all visitors get magic hug before they enter house. It make everyone happy, yes?&quot;</div></li><li class="li1"><div class="de1">&gt;A chorus of happy yeses respond to her as she seems flustered, her fur poofing out with happiness</div></li><li class="li1"><div class="de1">&gt;Upon entering the house Grant&#039;s handiwork is more evident than ever</div></li><li class="li1"><div class="de1">&gt;Custom woodwork is everywhere, the dining room full of upscaled engraved wood furnishings, the stair railing detailed beautifully, the living room&#039;s normal coffee table having been replaced by one of Grant&#039;s custom works</div></li><li class="li1"><div class="de1">&gt;Judging by the noises coming from the kitchen he was back there doing his best to prepare enough food for everyone</div></li><li class="li1"><div class="de1">&gt;You&#039;re tempted to walk back there and help him cook when you hear someone yelling in a thick Slavic accent yelling to hold the door</div></li><li class="li1"><div class="de1">&gt;Jasmine&#039;s sister Natalia is following right behind a human dressed head to toe in Adidas gear</div></li><li class="li1"><div class="de1">&gt;Her white stripes and orange fur seem to match up with his bright clothes pretty well, and you assume that they must have done that on purpose</div></li><li class="li1"><div class="de1">&gt;Boris avoids coming inside after his tiger however, and says something about buying fireworks that catches the Mechanic&#039;s attention</div></li><li class="li1"><div class="de1">&gt;After a moment of short discussion Boris convinces him to join him in getting the fireworks for tonight, and they head off leaving everyone else behind to chat and talk while waiting on grant to finish making the food</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;An few hours have passed and Grant is putting the finishing touches on setting up dinner while You, Strong, Clara, and Jasmine are all chatting with Olga in the living room</div></li><li class="li1"><div class="de1">&gt;You and Strong were both sober right now, with Jasmine holding anything even remotely alcoholic away from her in the hopes that she was carrying your child</div></li><li class="li1"><div class="de1">&gt;Clara however, has had an awful lot of the vodka and eggnog flavoring mix that Olga made for the party, and she&#039;s poofed out a bit while speaking with Jasmine about something</div></li><li class="li1"><div class="de1">&gt;After a while she begins to get closer and closer to Jasmine, seemingly happier and more drunk by the second</div></li><li class="li1"><div class="de1">&gt;Obviously very inebriated, she puts a hand on Jasmine&#039;s shoulder and speaks loudly to her</div></li><li class="li1"><div class="de1">&gt;&quot;Ya know Jas... I saw that vidyo you and Chick made. That was a gooooodd vee-day-oh. I watched it so many times...&quot;</div></li><li class="li1"><div class="de1">&gt;Jasmine appears flustered by her comment, but mutters a slightly stuttered thanks as Clara continues to go on, pulling herself closer to Jasmine</div></li><li class="li1"><div class="de1">&gt;&quot;I think you and Chicky need to do like Emi! Swwwwiiingin with us. You&#039;re so pretty Jasmine... You got a beautiful white fur pattern on you now. So much more stunning than plain old Emi.&quot; </div></li><li class="li1"><div class="de1">&gt;Jasmine looks at you confused as Clara hugs her tightly, and it suddenly dawns on you that you never told Jasmine about what Strong and Clara had done with Emi</div></li><li class="li1"><div class="de1">&gt;You&#039;re about to say something about it when Jasmine suddenly lets out a confused &quot;huh&quot; as Clara&#039;s face slams into her chest</div></li><li class="li1"><div class="de1">&gt;&quot;OH! Clara. Maybe you should lay off the drinks for a while because you seem pretty-&quot;</div></li><li class="li1"><div class="de1">&gt;Jasmine&#039;s words are cut off by a very loud purr from Clara as she motorboats your wife, causing Jasmine to pull the snep off of her</div></li><li class="li1"><div class="de1">&gt;A less gentle person would have shoved her off but Jasmine had the control to just hold her at bay as she tried to dive into her cleavage again</div></li><li class="li1"><div class="de1">&gt;Strong moves in quickly to grab her by the arms and with Jasmine&#039;s help they pull the snep up the stairs towards the upper bathroom</div></li><li class="li1"><div class="de1">&gt;After a few moments you can hear a shower running, and a slightly damp tigress comes back down the stairs to inform you Strong is currently sobering Clara up and that he&#039;ll be busy for a second</div></li><li class="li1"><div class="de1">&gt;With Olga having gone to the Kitchen to help out her husband, only you and your lovely partner are in the living room now</div></li><li class="li1"><div class="de1">&gt;&quot;I want an explanation for what she meant by that comment later, but for now I just want to cuddle a bit.&quot;</div></li><li class="li1"><div class="de1">&gt;Jasmine carefully sits down beside you on the couch, sliding close to you and nuzzling you lovingly</div></li><li class="li1"><div class="de1">&gt;Her eyes close as she begins to fully relax beside you and a gentle purring escapes her chest</div></li><li class="li1"><div class="de1">&gt;You lean against her a bit and close your own eyes, enjoying the moment for however long it will last</div></li><li class="li1"><div class="de1">&gt;Almost a half hour later and Strong comes down the stairs with a seemingly grumpy Clara trailing behind him, just in time to hear Olga calling from the dining room that dinner is ready</div></li><li class="li1"><div class="de1">&gt;After Olga calls out loudly into the house that dinner is ready, and everyone comes out of hiding to participate in the start of tonight&#039;s festivities</div></li><li class="li1"><div class="de1">&gt;Lilith and Natalia come out of her bedroom with freshly painted nails, giggling like they&#039;d known each other for years</div></li><li class="li1"><div class="de1">&gt;The sound of roman candles and bottle-rockets firing off outside dies down a fair bit as Boris and the Mechanic come back inside, putting down large bags of unused fireworks by the door</div></li><li class="li1"><div class="de1">&gt;Clara abandons her grumpy mood as she jumps into the seat right beside you so she&#039;s as close to Jasmine as possible, but Strong seems to hesitate as he leans over the railing on the stairs and complains about throwing out his back trying to wash Clara</div></li><li class="li1"><div class="de1">&gt;Olga overhears him and walks towards him as fast as she can, ignoring his gentle pleas not to crack his back</div></li><li class="li1"><div class="de1">&gt;He almost yells out for her not to do it as she lifts him into the air and pressed hard into his back with her arms, causing very loud pops to emanate from his back</div></li><li class="li1"><div class="de1">&gt;Rather than stopping there however, Olga repositions him onto her shoulder for a moment and flexes her large muscular arms on his back again, causing more distinct cracking</div></li><li class="li1"><div class="de1">&gt;When Strong is finally out of her grasp and back on the floor he seems ready to complain about the pain being worse, but his grimace quickly turns into a look of pure confusion</div></li><li class="li1"><div class="de1">&gt;&quot;Olga tell you she knows what she is doing.&quot;</div></li><li class="li1"><div class="de1">&gt;He nods at her as he stretches his back out, amazed at how the simple hug fixed all of his pains in a single go</div></li><li class="li1"><div class="de1">&gt;With everyone taking a spot at the table, Grant opens up various dishes on the table to display the various dishes laid out before everyone</div></li><li class="li1"><div class="de1">&gt;&quot;Pelmeni, Pirozhki, Hamburgers, Fries... I think we have a good mix of all kinds of things from American and Russian culture for us all to eat. I wanted to make something everyone would like, so I hope you guys like it! Now dig in!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The dinner was oddly quiet as the various sweets, pastries, and fried foods were passed around</div></li><li class="li1"><div class="de1">&gt;The Mechanic asked about Grant&#039;s fur and if it was a mutation or not, and Lily almost jumped on his neck for asking what she thought was such a very personal question</div></li><li class="li1"><div class="de1">&gt;Grant didn&#039;t seem to care as much though, explaining that it was in fact a mutation and most likely the reason Jasmine had her fur condition when she was young</div></li><li class="li1"><div class="de1">&gt;Clara at one point whispered with Olga about Grant&#039;s &quot;size&quot; and Olga purred loudly as she went into great detail about how &quot;he is big, and has bumps not spurs&quot; and so on</div></li><li class="li1"><div class="de1">&gt;Jasmine physically gagged at one point, but other than that the dinner was rather tame and quiet</div></li><li class="li1"><div class="de1">&gt;You and Strong helped Grant clean up the dishes, moving slower on account of all of the food you were stuffed with</div></li><li class="li1"><div class="de1">&gt;His small 5&#039;5 frame darts quickly around the kitchen as he excitedly speaks about how Christmas was normally just Olga&#039;s kids and Olga, and how this year everyone except Omar was here with their new lovers</div></li><li class="li1"><div class="de1">&gt;&quot;Shame that Omar can&#039;t be here Grant. I assume being a professional gridiron player keeps him too busy to come home when he wants to, or find a date.&quot;</div></li><li class="li1"><div class="de1">&gt;Grant nods to you from a step ladder in front of the sink, cleaning dishes rapidly with his small paws</div></li><li class="li1"><div class="de1">&gt;&quot;He&#039;ll find love one day. Speaking of things people love... you two boys did take Jasmine&#039;s old junk heap right? Seems a bit odd that the BHA said they were handling the theft case as a personal matter, and that someone would want that old bucket of bolts.&quot;</div></li><li class="li1"><div class="de1">&gt;Strong quickly checks that the females are all moving gifts from hiding spots to the living room, giving you the thumbs up</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s right. Anon Davidson, my Mechanic, had some people he knows in town grab it in the night last week and they&#039;ve been doing the restoration as fast as they can since then. The only problem is that they can&#039;t find the rear seats for it, so they put Jasmine&#039;s junk back in place and even threw in a new pure foam mattress for her back there.&quot;</div></li><li class="li1"><div class="de1">&gt;Grant smiles at the two of you, cleaning the last dish and putting it away before throwing off his apron and walking towards the two of you</div></li><li class="li1"><div class="de1">&gt;&quot;Let&#039;s get to the gift opening then boys.&quot;</div></li><li class="li1"><div class="de1">&gt;Sounds good to you, and Strong doesn&#039;t seem to be arguing the point of waiting any longer</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The living room is full of various covered presents, and all of the ladies are smiling at you when you walk in</div></li><li class="li1"><div class="de1">&gt;The fireplace on the wall across from the couch is lit, making the room a bit more welcoming than usual</div></li><li class="li1"><div class="de1">&gt;Grant walks over to Olga and she lifts her massively over-sized sweater to let him crawl under it, fitting perfectly around the both of them</div></li><li class="li1"><div class="de1">&gt;&quot;Chick first gals. Then we pass out the others, since most of you already had your Christmas gifts.&quot;</div></li><li class="li1"><div class="de1">&gt;You plop down on the couch and the first gift is carefully handed to you by Strong</div></li><li class="li1"><div class="de1">&gt;You gently open a small envelope to find a letter of authenticity inside, detailing how it was proof for an antique Winchester 1895 in and a Dragunov Tigr in 7.62x54mmR </div></li><li class="li1"><div class="de1">&gt;&quot;I would have brought them with me, but I&#039;m not like you and I can&#039;t just wave a badge and pack heat on a plane. Speaking of that, can you two get me a badge some day?&quot;</div></li><li class="li1"><div class="de1">&gt;You laugh and pat him on the shoulder, assuring him that you&#039;ll do your absolute best to get him a badge at some point</div></li><li class="li1"><div class="de1">&gt;The next gift is a much larger one, given to you by Lilith while her husband hands a similar package to Jasmine</div></li><li class="li1"><div class="de1">&gt;Opening up the packages you find a matching pair of hand knitted tiger striped sweaters </div></li><li class="li1"><div class="de1">&gt;Jasmine&#039;s is a lovely shade of pink while yours is a dashing white</div></li><li class="li1"><div class="de1">&gt;Jasmine giggles at her color, but thanks Lilith all the same while you put on your sweater and remove your shirt underneath without taking it off</div></li><li class="li1"><div class="de1">&gt;When your abs show for a fleeting second as you pull your shirt out of the bottom of the sweater Jasmine playfully whistles, making you blush a bit</div></li><li class="li1"><div class="de1">&gt;Boris announces he has &quot;gift for all of peoples&quot; while opening up a box of various vodkas and passing them around while Natalia passes around small Tupperware containers of Blini</div></li><li class="li1"><div class="de1">&gt;Feeling like it&#039;s time for Jasmine&#039;s surprise, you&#039;re caught off guard when Grant slides out of Olga&#039;s sweater for a second and goes through the door off the side of the living room into their bedroom to get something</div></li><li class="li1"><div class="de1">&gt;He comes back after a moment with a very heavy crate in his arms, beautifully styled with tags on strings hanging out of the box marking it &quot;IMPORT&quot; and &quot;AWARDED ITEM&quot;</div></li><li class="li1"><div class="de1">&gt;He hands you a key for a very plane set of locks on the front, and you open it to see what appears to be the rough shape of an AK platform rifle under a silk sheet</div></li><li class="li1"><div class="de1">&gt;A plaque on the inside is beyond your comprehension for what it says, other than your name where you assume whomever was given such a rifle would have their name placed</div></li><li class="li1"><div class="de1">&gt;When you pull back the covering, sitting above a row of matching magazine is an AKM with unmistakable green bakelite furniture</div></li><li class="li1"><div class="de1">&gt;The exact furniture you only heard about being awarded to people who did amazing things for their country</div></li><li class="li1"><div class="de1">&gt;You check the fire selector and your eyes go wide in horror as you recognize that the full auto mode is marked and able to be selected</div></li><li class="li1"><div class="de1">&gt;Your gaze shoots to Olga and she beams at you, assuming you enjoyed your very unique gift</div></li><li class="li1"><div class="de1">&gt;&quot;How the hell did you get this Olga? I know that you did that thing for the government right before the union collapsed... but this is a full auto AK! These are illegal! Who the heck did you kill to get this?&quot;</div></li><li class="li1"><div class="de1">&gt;Olga looks confused, and Clara has a moment of clarity as she explain things to you with a calm tone</div></li><li class="li1"><div class="de1">&gt;&quot;Chick. This place is different than your home. Olga gave up whatever award they wanted to give up so you could get that. Plus, Russian guns aren&#039;t illegal. The &quot;Red scare&quot; your world went through never happened. The Cold war never escalated because the USSR collapsed way earlier because of trying to spread itself too thin. Vietnam only happened because the NVA were trying to seize power and influence with all of the soviet states that were going into chaos during the slow collapse. I mean... I could go on for hours... but you get the point, right?&quot;</div></li><li class="li1"><div class="de1">&gt;For a moment you feel the old sting of this world not being &quot;yours&quot; swirling in your head, but you push it aside and remember that this very much was your home now</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ll read some books on the subject later Clara. For now I think we have a few more gifts, right?&quot;</div></li><li class="li1"><div class="de1">&gt;Olga nods, and Boris pulls out some packages from behind her chair and hands them to your closest friends</div></li><li class="li1"><div class="de1">&gt;Mechanic gets a massive blue adjustable wrench with soviet markings on it, also tagged as an import</div></li><li class="li1"><div class="de1">&gt;Clara opens a compact box with Strong and finds a Makarov inside, which she seems confused by until Olga explains</div></li><li class="li1"><div class="de1">&gt;&quot;Is special factory engraved pistol. Is for you. I know you are not like Strong in how much you like guns, but I think you will find is a good pistol to start out with. Grip also looks like tiny human pecker.&quot;</div></li><li class="li1"><div class="de1">&gt;Clara looks it over, and her drunk mind finally realizes what she said at the last part while she laughs</div></li><li class="li1"><div class="de1">&gt;With that out of the way you watch as Mechanic sends someone a text on his phone, a familiar honk coming from outside as Jasmine glances out the window with a confused look on her face</div></li><li class="li1"><div class="de1">&gt;The second she sees her yellow 1971 Volkswagen Deluxe sitting outside with a fresh coat of paint she tries to jump up and towards it</div></li><li class="li1"><div class="de1">&gt;You grab her by the hand and she slows down but still drags you out towards it as the Mechanic laughs and chatters on about how hard it was to actually take it without being caught</div></li><li class="li1"><div class="de1">&gt;He goes over how he replaced pretty much everything and even put in a new engine, but Jasmine is just happy to slide the door open and get into the back where her freshly claened stuffed animals and blankets are</div></li><li class="li1"><div class="de1">&gt;You crawl into the van beside her, and she confused as you fiddle with the buckle on something</div></li><li class="li1"><div class="de1">&gt;&quot;Really now Chick? Here? Now?&quot;</div></li><li class="li1"><div class="de1">&gt;A slight tremor in her chest of an excited purr she&#039;s trying to hide escapes her mouth as you slowly put a lovely leather collar around her neck</div></li><li class="li1"><div class="de1">&gt;You tighten it to your liking and she uses her phone to get a proper glimpse at it around her neck, purring loudly in approval</div></li><li class="li1"><div class="de1">&gt;&quot;I take it you like it?&quot;</div></li><li class="li1"><div class="de1">&gt;She responds with a gentle kiss on your cheek, sliding covers over you and cuddling closely to you</div></li><li class="li1"><div class="de1">&gt;The mechanic heads back inside while you and Jasmine take a moment to relax alone, Clara and Strong coming outside to see the collar that you told them about when you remember Jasmine still didn&#039;t know about their odd habits</div></li><li class="li1"><div class="de1">&gt;Sitting with your back against the inner wall of the Volkswagen, you invite the two of them inside and decide to have a chat about it with the four of you</div></li><li class="li1"><div class="de1">&gt;They agree, and a Strong begins to explain what exactly went down between him, Emi, and Clara</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;At the end of the story Jasmine looks somewhat shocked at what they&#039;ve both said and done</div></li><li class="li1"><div class="de1">&gt;She holds your hand and you whisper back and forth about it before she concedes that it&#039;s their life, and they can do what they want</div></li><li class="li1"><div class="de1">&gt;&quot;But, and this is a big but... I don&#039;t want to swing with you Clara. I&#039;m highly flattered knowing that you loved the video I made with Chick, but I don&#039;t think I could ever be with anyone but Chick. He was the first person I trusted to even get close to me in that way in such a very long time, and I honestly don&#039;t think I can handle anyone besides him sharing a bed like that. I will say that IF, and this is also a big IF, I was ever to do that with anyone it would definitely be you guys. But... I don&#039;t think that will ever happen.&quot;</div></li><li class="li1"><div class="de1">&gt;Strong looks like he knew that answer all along, neither happy or sad at hearing it</div></li><li class="li1"><div class="de1">&gt;Clara seems a bit downtrodden, but understands that Jasmine didn&#039;t want to have a relationship like she did</div></li><li class="li1"><div class="de1">&gt;They have a short hug, and Jasmine nuzzles Clara with a tender affection before letting them crawl out of the back of her vehicle and back towards the house</div></li><li class="li1"><div class="de1">&gt;Feeling tired but not wanting to sleep in the van for the night, you follow them with Jasmine back into the house</div></li><li class="li1"><div class="de1">&gt;A pretty good amount of time has passed since you take note that Olga and Grant have retired to their bedroom, while Jasmine&#039;s sister and Lilith cuddle up and sleep soundly with their lovers in front of the fireplace</div></li><li class="li1"><div class="de1">&gt;Jasmine nudges Clara and asks if she wants to join them, but Clara rubs her neck and mumbles about how hot it would be with so many people right next to the fire</div></li><li class="li1"><div class="de1">&gt;&quot;As much as I would love to lay down with you guys I can&#039;t handle the fire so closely with so many people. I&#039;d love lay down with you guys, but we&#039;re sleeping in Omar&#039;s room because it&#039;s nice and cool in there.&quot;</div></li><li class="li1"><div class="de1">&gt;A moment of inspiration hits and you kiss Jasmine on the cheek softly saying the word &quot;nest&quot; in a questioning tone</div></li><li class="li1"><div class="de1">&gt;She thinks for a moment then smiles and nods at your idea</div></li><li class="li1"><div class="de1">&gt;&quot;Well... technically Jasmine&#039;s bed is big enough for all of us. It&#039;s a nest bed, if you know what those are.&quot;</div></li><li class="li1"><div class="de1">&gt;The semi-sober Snow leopard lets out a gleeful cheer as Jasmine quickly interjects with a stipulation</div></li><li class="li1"><div class="de1">&gt;&quot;That is of course, as long as everyone behaves. I love you like a sister Clara, and I don&#039;t want anything to get between us.&quot;</div></li><li class="li1"><div class="de1">&gt;Clara agrees instantly, and Strong questions what a nest bed is as you walk up the stairs and into Jasmine&#039;s room</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Jasmine&#039;s room is an AC chilled  time capsule of her youth, with stuffed animals of all sorts scattered around the place</div></li><li class="li1"><div class="de1">&gt;The walls have various posters for a bunch of rock bands and pop bands you&#039;ve heard her talk about a few times before</div></li><li class="li1"><div class="de1">&gt;But the most striking feature was the massive &quot;nest&quot; in the corner of her room</div></li><li class="li1"><div class="de1">&gt;A large circular almost pet bed styled foam and cotton stuffed &quot;mattress&quot; that became very popular in Russia due to how cheap they were to make and maintain</div></li><li class="li1"><div class="de1">&gt;A king sized bed cost a lot to get your hands on and sheets were only available in shops usually</div></li><li class="li1"><div class="de1">&gt;Nest beds were bigger, could fit a bunch of people, and anyone could make covers big enough to sleep under as a group, or you could have a bunch of single blankets on it</div></li><li class="li1"><div class="de1">&gt;Clara happily leaps onto the bed, sinking into the soft fabrics and crawling under the giant covers while telling strong to join them</div></li><li class="li1"><div class="de1">&gt;Jasmine strips down to just her underwear, telling everyone to follow suit</div></li><li class="li1"><div class="de1">&gt;When everyone is in their underwear you crawl between Clara and Jasmine, Strong taking up the slot next to you which blocks Clara from Jasmine by one more body</div></li><li class="li1"><div class="de1">&gt;Things are a bit chillier than Strong must have guessed, so Clara covers him in as much fluff as possible, putting one of her legs over his and locking them together</div></li><li class="li1"><div class="de1">&gt;Jasmine does the same with you and not long after all of your recent escapades begin to catch up with you, sleeping tugging at you and gently asking to take you to dreamland</div></li><li class="li1"><div class="de1">&gt;You resist the calls for a while though, closing your eyes and slowing down your breathing so you could fake sleep and see if Jasmine was going to be properly comfortable doing this </div></li><li class="li1"><div class="de1">&gt;After a while you hear Clara shuffle a bit, whispering Jasmine&#039;s name and extending her paw out to the tigress</div></li><li class="li1"><div class="de1">&gt;Jasmine reaches out over your chest, gripping Clara&#039;s paw softly as Strong dozes and you pretend to be asleep</div></li><li class="li1"><div class="de1">&gt;&quot;We&#039;ll always be friends no matter what... right Jas?&quot;</div></li><li class="li1"><div class="de1">&gt;You can feel Jasmine&#039;s smile light up her face as Clara returns the favor and gently grips her paw </div></li><li class="li1"><div class="de1">&gt;&quot;Of course Clara. I will always be there for you no matter what you do... Just like Chick is always there when I need him. Like how Anon is there for you. Chick told me before I left he hoped you guys would be around forever because he thinks of you all as family.&quot;</div></li><li class="li1"><div class="de1">&gt;The two cats purr softly and begin to properly relax, their arms linked around you and Strong</div></li><li class="li1"><div class="de1">&gt;&quot;He told me that you&#039;re stuck with relatives, but family are the people that always have your back. You&#039;re my sister as far as I&#039;m concerned Clara.&quot;</div></li><li class="li1"><div class="de1">&gt;The snow leopard sniffs a bit, obviously a bit overtaken by just how much the two of you cared for her and her husband</div></li><li class="li1"><div class="de1">&gt;Her voice trembles a bit with joy and relief as she speaks the final words of the night between the four of you</div></li><li class="li1"><div class="de1">&gt;&quot;I wouldn&#039;t have it any other way, sister.&quot;</div></li><li class="li1"><div class="de1">&gt;And so the night comes to a close as snow gently falls and blankets the city in a gentle chill</div></li><li class="li1"><div class="de1">&gt;Not that anyone in the cuddle nest would really care about laying together for some warmth and relaxation for a while</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;You are Anon &quot;Chick&quot; Mous, the Chickenman
+&gt;You&#039;re one of many anonymous humans that have been appearing in the anthro world, and a beacon of hope to many
+&gt;Most people who are close to you know how hard you&#039;ve fought for what you have and the mistakes you&#039;ve made...
+&gt;But right now isn&#039;t the time for that
+&gt;Right now you&#039;re on a flight headed to a Christmas party with the Millers and your closest friends
+&gt;Jasmine was already home with her family, so they were just waiting on your party of five to arrive
+&gt;Strong, Clara, Mechanic, and Lilith were sitting with you in the odd little first class seat enclosures
+&gt;You sat in the middle of the section, Clara and Strong to your immediate left while Lilith and her Anon sat to your right chatting towards you
+&gt;&quot;I can&#039;t believe we&#039;re flying in such a nice cabin! I never would have been able to do this before meeting all of you wonderful people. Gah. And these baby lobsters are so good too! You really didn&#039;t have to do this Chick!&quot;
+&gt;You laugh as the Mechanic does his best to explain that they weren&#039;t baby Lobsters when you cut in
+&gt;&quot;Actually, some planes do offer baby lobsters. That&#039;s just a bit silly for me though, and I got you guys the Royal Red shrimp. They do call them the mini lobsters of the shrimp world though.&quot;
+&gt;Lilith beams at you while poking her lover on the nose and quietly saying she knew she read the menu right, Mechanic just accepting it and giving up on arguing the point
+&gt;You take a glance over to Clara and Strong to find that they&#039;re chatting quietly under their breath about how they&#039;ll have to return the favor at some point for all of this luxury
+&gt;&quot;Why would I make you guys pay for a treat? It&#039;s Christmas. I&#039;m spending the money I normally just sit on a bit so we can have a good time with it. Don&#039;t worry about what the price tags all add up to. I don&#039;t put a price on friendship, so you shouldn&#039;t worry about doing so either.&quot;
+&gt;Clara sheepishly nods, sighing and looking at the menu in front of her and deciding to just got a hamburger and some fries
+&gt;A smile cracks your face as you remember meeting her parents, and how your dad so quickly adjusted to you
+&gt;At some point Clara told him about your rather dark secret and how you had taken someone&#039;s life
+&gt;When you arrived Clara blurted it out in the car to you, and you didn&#039;t know how to react as you approached their house
+&gt;As it turns out, he didn&#039;t care about you doing that at all, but he was rather impressed by the rest of your personal achievements
+&gt;Close to equal representation for anthros and humans in a thriving business, all but married to a very lovely and loving tiger, and covered in the kinds of scars only someone who has survived hardships could possibly bare
+&gt;He even took note of your eye-patch, and you tried to explain to him it was because of a recent accident but he didn&#039;t care
+&gt;He just patted you on the shoulder and told you that you had to be a good person to have endured so much and still came out like you have
+&gt;Clara&#039;s mother &quot;momo&quot; was a much different story with how she felt about you
+&gt;She was entranced by your various scars and marks, impressed by how dangerous your previous life had been, excited by the fact that you married an apex predator
+&gt;When she gave you a hug you could hear her purring heartily against you, and felt her tail wrap slightly around you as she asked you if you wanted to stay the night
+&gt;Clara angrily interjected that you all had to get to a party a few states away, and left her baby with them to watch over while looking in some kind of book in her purse and writing something down
+&gt;Though you were as puzzled by the book as Strong seemed to be, you were happy to head towards the airport and to the very flight you were on right now
+&gt;As you allow your mind to wander more and more, the gentle sound of your best friends talking around you lulls you into a deep sleep, being woken by Lilith just minutes before you were all set to land
+&gt;It looks like Clara got her hamburger and fries, but let Strong have the fries to go with a PBJ sandwhich from inside of his backpack
+&gt;Part of you wants to chide them about being so worried about you spending money, but you can understand why they care so much
+&gt;Lilith&#039;s anon is looking over a menu of various beers and trying to decide what he wants as the captain walks into the cabin to tell everyone that the menus are now closed because we&#039;ll be landing soon
+&gt;Mechanic scowls, Lilith smiles at you, and Clara and Strong are discussing meeting Jasmine&#039;s family for the first time as the plane slowly descends onto the runway
+&gt;A few minutes later and everyone is loading luggage into the rental truck you&#039;d be driving for the next few days
+&gt;With Clara, Strong, and Lilith in the back while Mechanic rides shotgun it&#039;s time to head out towards the Miller family house and get this party started
+
+&gt;Rolling through the streets around the &quot;Little Russia&quot; neighborhood make you feel like you&#039;re in a different country
+&gt;Brutalist soviet apartment complexes slowly taper off into normal housing that the community&#039;s best people seemed to live in
+&gt;Doctors that did &quot;house&quot; calls to the complexes, dentists that would do procedures on the cheap, importers that could get their hands on goods from other countries easily, etc.
+&gt;The Millers seemed out of place if you didn&#039;t know better, what with Olga&#039;s husband almost never leaving the house and Olga only ever leaving the house at random
+&gt;Pulling up into their driveway and unpacking your stuff you try to start to explain why they&#039;re so loved by the community when Jasmine comes running out to hug you
+&gt;&quot;CHICKY! Chicky chicky Chicky chicky! I&#039;m glad you guys got here! I&#039;m sorry about the rental car situation, I would have picked you guys up but some asshole stole my old Volkswagen.&quot;
+&gt;When she lets go of you she seems angry, but a quick hug from Clara and Lilith quickly get rid of her frown as they all cheer in the front yard at all being together for Christmas
+&gt;You whisper to the other guys to make sure everything about Jasmine&#039;s car was in order, knowing she couldn&#039;t hear you, and they both nod
+&gt;The trio of lovely ladies all quickly dash into the house to talk more as Olga&#039;s massive frame appears in the doorway, blocking Clara and picking her up for a hug
+&gt;You hear the telltale popping of Clara&#039;s back as Olga&#039;s special back breaking hug does it&#039;s magic on the smaller snow leopard, moving on to the raccoon who seems happy to get her back popped as Clara rubs her back and comments on how all of the stress on it seemingly melted away
+&gt;Lilith joins her a second later in talking about Olga&#039;s magic as she spots all of the anons bringing in luggage and goes to pop your back first
+&gt;She picks you up without any struggling, remembering the magical feeling of her strong arms popping all the disks in your back at once and somehow making it feel amazing
+&gt;When she puts you down she asks if Jasmine hurt you again, and you tell her it was just an accident which she takes to heart as she moves on to grab for the Mechanic
+&gt;Strong manages to duck around her and get into the house without having his back popped, Mechanic trying to understand how she could give such amazing bear hugs
+&gt;Olga responds with a smile while patting his head like he was only a child
+&gt;&quot;Olga is licensed Chiropractor. I am master at making backs pop. I learn how to give hug that makes back feel good, all visitors get magic hug before they enter house. It make everyone happy, yes?&quot;
+&gt;A chorus of happy yeses respond to her as she seems flustered, her fur poofing out with happiness
+&gt;Upon entering the house Grant&#039;s handiwork is more evident than ever
+&gt;Custom woodwork is everywhere, the dining room full of upscaled engraved wood furnishings, the stair railing detailed beautifully, the living room&#039;s normal coffee table having been replaced by one of Grant&#039;s custom works
+&gt;Judging by the noises coming from the kitchen he was back there doing his best to prepare enough food for everyone
+&gt;You&#039;re tempted to walk back there and help him cook when you hear someone yelling in a thick Slavic accent yelling to hold the door
+&gt;Jasmine&#039;s sister Natalia is following right behind a human dressed head to toe in Adidas gear
+&gt;Her white stripes and orange fur seem to match up with his bright clothes pretty well, and you assume that they must have done that on purpose
+&gt;Boris avoids coming inside after his tiger however, and says something about buying fireworks that catches the Mechanic&#039;s attention
+&gt;After a moment of short discussion Boris convinces him to join him in getting the fireworks for tonight, and they head off leaving everyone else behind to chat and talk while waiting on grant to finish making the food
+
+&gt;An few hours have passed and Grant is putting the finishing touches on setting up dinner while You, Strong, Clara, and Jasmine are all chatting with Olga in the living room
+&gt;You and Strong were both sober right now, with Jasmine holding anything even remotely alcoholic away from her in the hopes that she was carrying your child
+&gt;Clara however, has had an awful lot of the vodka and eggnog flavoring mix that Olga made for the party, and she&#039;s poofed out a bit while speaking with Jasmine about something
+&gt;After a while she begins to get closer and closer to Jasmine, seemingly happier and more drunk by the second
+&gt;Obviously very inebriated, she puts a hand on Jasmine&#039;s shoulder and speaks loudly to her
+&gt;&quot;Ya know Jas... I saw that vidyo you and Chick made. That was a gooooodd vee-day-oh. I watched it so many times...&quot;
+&gt;Jasmine appears flustered by her comment, but mutters a slightly stuttered thanks as Clara continues to go on, pulling herself closer to Jasmine
+&gt;&quot;I think you and Chicky need to do like Emi! Swwwwiiingin with us. You&#039;re so pretty Jasmine... You got a beautiful white fur pattern on you now. So much more stunning than plain old Emi.&quot; 
+&gt;Jasmine looks at you confused as Clara hugs her tightly, and it suddenly dawns on you that you never told Jasmine about what Strong and Clara had done with Emi
+&gt;You&#039;re about to say something about it when Jasmine suddenly lets out a confused &quot;huh&quot; as Clara&#039;s face slams into her chest
+&gt;&quot;OH! Clara. Maybe you should lay off the drinks for a while because you seem pretty-&quot;
+&gt;Jasmine&#039;s words are cut off by a very loud purr from Clara as she motorboats your wife, causing Jasmine to pull the snep off of her
+&gt;A less gentle person would have shoved her off but Jasmine had the control to just hold her at bay as she tried to dive into her cleavage again
+&gt;Strong moves in quickly to grab her by the arms and with Jasmine&#039;s help they pull the snep up the stairs towards the upper bathroom
+&gt;After a few moments you can hear a shower running, and a slightly damp tigress comes back down the stairs to inform you Strong is currently sobering Clara up and that he&#039;ll be busy for a second
+&gt;With Olga having gone to the Kitchen to help out her husband, only you and your lovely partner are in the living room now
+&gt;&quot;I want an explanation for what she meant by that comment later, but for now I just want to cuddle a bit.&quot;
+&gt;Jasmine carefully sits down beside you on the couch, sliding close to you and nuzzling you lovingly
+&gt;Her eyes close as she begins to fully relax beside you and a gentle purring escapes her chest
+&gt;You lean against her a bit and close your own eyes, enjoying the moment for however long it will last
+&gt;Almost a half hour later and Strong comes down the stairs with a seemingly grumpy Clara trailing behind him, just in time to hear Olga calling from the dining room that dinner is ready
+&gt;After Olga calls out loudly into the house that dinner is ready, and everyone comes out of hiding to participate in the start of tonight&#039;s festivities
+&gt;Lilith and Natalia come out of her bedroom with freshly painted nails, giggling like they&#039;d known each other for years
+&gt;The sound of roman candles and bottle-rockets firing off outside dies down a fair bit as Boris and the Mechanic come back inside, putting down large bags of unused fireworks by the door
+&gt;Clara abandons her grumpy mood as she jumps into the seat right beside you so she&#039;s as close to Jasmine as possible, but Strong seems to hesitate as he leans over the railing on the stairs and complains about throwing out his back trying to wash Clara
+&gt;Olga overhears him and walks towards him as fast as she can, ignoring his gentle pleas not to crack his back
+&gt;He almost yells out for her not to do it as she lifts him into the air and pressed hard into his back with her arms, causing very loud pops to emanate from his back
+&gt;Rather than stopping there however, Olga repositions him onto her shoulder for a moment and flexes her large muscular arms on his back again, causing more distinct cracking
+&gt;When Strong is finally out of her grasp and back on the floor he seems ready to complain about the pain being worse, but his grimace quickly turns into a look of pure confusion
+&gt;&quot;Olga tell you she knows what she is doing.&quot;
+&gt;He nods at her as he stretches his back out, amazed at how the simple hug fixed all of his pains in a single go
+&gt;With everyone taking a spot at the table, Grant opens up various dishes on the table to display the various dishes laid out before everyone
+&gt;&quot;Pelmeni, Pirozhki, Hamburgers, Fries... I think we have a good mix of all kinds of things from American and Russian culture for us all to eat. I wanted to make something everyone would like, so I hope you guys like it! Now dig in!&quot;
+
+&gt;The dinner was oddly quiet as the various sweets, pastries, and fried foods were passed around
+&gt;The Mechanic asked about Grant&#039;s fur and if it was a mutation or not, and Lily almost jumped on his neck for asking what she thought was such a very personal question
+&gt;Grant didn&#039;t seem to care as much though, explaining that it was in fact a mutation and most likely the reason Jasmine had her fur condition when she was young
+&gt;Clara at one point whispered with Olga about Grant&#039;s &quot;size&quot; and Olga purred loudly as she went into great detail about how &quot;he is big, and has bumps not spurs&quot; and so on
+&gt;Jasmine physically gagged at one point, but other than that the dinner was rather tame and quiet
+&gt;You and Strong helped Grant clean up the dishes, moving slower on account of all of the food you were stuffed with
+&gt;His small 5&#039;5 frame darts quickly around the kitchen as he excitedly speaks about how Christmas was normally just Olga&#039;s kids and Olga, and how this year everyone except Omar was here with their new lovers
+&gt;&quot;Shame that Omar can&#039;t be here Grant. I assume being a professional gridiron player keeps him too busy to come home when he wants to, or find a date.&quot;
+&gt;Grant nods to you from a step ladder in front of the sink, cleaning dishes rapidly with his small paws
+&gt;&quot;He&#039;ll find love one day. Speaking of things people love... you two boys did take Jasmine&#039;s old junk heap right? Seems a bit odd that the BHA said they were handling the theft case as a personal matter, and that someone would want that old bucket of bolts.&quot;
+&gt;Strong quickly checks that the females are all moving gifts from hiding spots to the living room, giving you the thumbs up
+&gt;&quot;That&#039;s right. Anon Davidson, my Mechanic, had some people he knows in town grab it in the night last week and they&#039;ve been doing the restoration as fast as they can since then. The only problem is that they can&#039;t find the rear seats for it, so they put Jasmine&#039;s junk back in place and even threw in a new pure foam mattress for her back there.&quot;
+&gt;Grant smiles at the two of you, cleaning the last dish and putting it away before throwing off his apron and walking towards the two of you
+&gt;&quot;Let&#039;s get to the gift opening then boys.&quot;
+&gt;Sounds good to you, and Strong doesn&#039;t seem to be arguing the point of waiting any longer
+
+&gt;The living room is full of various covered presents, and all of the ladies are smiling at you when you walk in
+&gt;The fireplace on the wall across from the couch is lit, making the room a bit more welcoming than usual
+&gt;Grant walks over to Olga and she lifts her massively over-sized sweater to let him crawl under it, fitting perfectly around the both of them
+&gt;&quot;Chick first gals. Then we pass out the others, since most of you already had your Christmas gifts.&quot;
+&gt;You plop down on the couch and the first gift is carefully handed to you by Strong
+&gt;You gently open a small envelope to find a letter of authenticity inside, detailing how it was proof for an antique Winchester 1895 in and a Dragunov Tigr in 7.62x54mmR 
+&gt;&quot;I would have brought them with me, but I&#039;m not like you and I can&#039;t just wave a badge and pack heat on a plane. Speaking of that, can you two get me a badge some day?&quot;
+&gt;You laugh and pat him on the shoulder, assuring him that you&#039;ll do your absolute best to get him a badge at some point
+&gt;The next gift is a much larger one, given to you by Lilith while her husband hands a similar package to Jasmine
+&gt;Opening up the packages you find a matching pair of hand knitted tiger striped sweaters 
+&gt;Jasmine&#039;s is a lovely shade of pink while yours is a dashing white
+&gt;Jasmine giggles at her color, but thanks Lilith all the same while you put on your sweater and remove your shirt underneath without taking it off
+&gt;When your abs show for a fleeting second as you pull your shirt out of the bottom of the sweater Jasmine playfully whistles, making you blush a bit
+&gt;Boris announces he has &quot;gift for all of peoples&quot; while opening up a box of various vodkas and passing them around while Natalia passes around small Tupperware containers of Blini
+&gt;Feeling like it&#039;s time for Jasmine&#039;s surprise, you&#039;re caught off guard when Grant slides out of Olga&#039;s sweater for a second and goes through the door off the side of the living room into their bedroom to get something
+&gt;He comes back after a moment with a very heavy crate in his arms, beautifully styled with tags on strings hanging out of the box marking it &quot;IMPORT&quot; and &quot;AWARDED ITEM&quot;
+&gt;He hands you a key for a very plane set of locks on the front, and you open it to see what appears to be the rough shape of an AK platform rifle under a silk sheet
+&gt;A plaque on the inside is beyond your comprehension for what it says, other than your name where you assume whomever was given such a rifle would have their name placed
+&gt;When you pull back the covering, sitting above a row of matching magazine is an AKM with unmistakable green bakelite furniture
+&gt;The exact furniture you only heard about being awarded to people who did amazing things for their country
+&gt;You check the fire selector and your eyes go wide in horror as you recognize that the full auto mode is marked and able to be selected
+&gt;Your gaze shoots to Olga and she beams at you, assuming you enjoyed your very unique gift
+&gt;&quot;How the hell did you get this Olga? I know that you did that thing for the government right before the union collapsed... but this is a full auto AK! These are illegal! Who the heck did you kill to get this?&quot;
+&gt;Olga looks confused, and Clara has a moment of clarity as she explain things to you with a calm tone
+&gt;&quot;Chick. This place is different than your home. Olga gave up whatever award they wanted to give up so you could get that. Plus, Russian guns aren&#039;t illegal. The &quot;Red scare&quot; your world went through never happened. The Cold war never escalated because the USSR collapsed way earlier because of trying to spread itself too thin. Vietnam only happened because the NVA were trying to seize power and influence with all of the soviet states that were going into chaos during the slow collapse. I mean... I could go on for hours... but you get the point, right?&quot;
+&gt;For a moment you feel the old sting of this world not being &quot;yours&quot; swirling in your head, but you push it aside and remember that this very much was your home now
+&gt;&quot;I&#039;ll read some books on the subject later Clara. For now I think we have a few more gifts, right?&quot;
+&gt;Olga nods, and Boris pulls out some packages from behind her chair and hands them to your closest friends
+&gt;Mechanic gets a massive blue adjustable wrench with soviet markings on it, also tagged as an import
+&gt;Clara opens a compact box with Strong and finds a Makarov inside, which she seems confused by until Olga explains
+&gt;&quot;Is special factory engraved pistol. Is for you. I know you are not like Strong in how much you like guns, but I think you will find is a good pistol to start out with. Grip also looks like tiny human pecker.&quot;
+&gt;Clara looks it over, and her drunk mind finally realizes what she said at the last part while she laughs
+&gt;With that out of the way you watch as Mechanic sends someone a text on his phone, a familiar honk coming from outside as Jasmine glances out the window with a confused look on her face
+&gt;The second she sees her yellow 1971 Volkswagen Deluxe sitting outside with a fresh coat of paint she tries to jump up and towards it
+&gt;You grab her by the hand and she slows down but still drags you out towards it as the Mechanic laughs and chatters on about how hard it was to actually take it without being caught
+&gt;He goes over how he replaced pretty much everything and even put in a new engine, but Jasmine is just happy to slide the door open and get into the back where her freshly claened stuffed animals and blankets are
+&gt;You crawl into the van beside her, and she confused as you fiddle with the buckle on something
+&gt;&quot;Really now Chick? Here? Now?&quot;
+&gt;A slight tremor in her chest of an excited purr she&#039;s trying to hide escapes her mouth as you slowly put a lovely leather collar around her neck
+&gt;You tighten it to your liking and she uses her phone to get a proper glimpse at it around her neck, purring loudly in approval
+&gt;&quot;I take it you like it?&quot;
+&gt;She responds with a gentle kiss on your cheek, sliding covers over you and cuddling closely to you
+&gt;The mechanic heads back inside while you and Jasmine take a moment to relax alone, Clara and Strong coming outside to see the collar that you told them about when you remember Jasmine still didn&#039;t know about their odd habits
+&gt;Sitting with your back against the inner wall of the Volkswagen, you invite the two of them inside and decide to have a chat about it with the four of you
+&gt;They agree, and a Strong begins to explain what exactly went down between him, Emi, and Clara
+
+&gt;At the end of the story Jasmine looks somewhat shocked at what they&#039;ve both said and done
+&gt;She holds your hand and you whisper back and forth about it before she concedes that it&#039;s their life, and they can do what they want
+&gt;&quot;But, and this is a big but... I don&#039;t want to swing with you Clara. I&#039;m highly flattered knowing that you loved the video I made with Chick, but I don&#039;t think I could ever be with anyone but Chick. He was the first person I trusted to even get close to me in that way in such a very long time, and I honestly don&#039;t think I can handle anyone besides him sharing a bed like that. I will say that IF, and this is also a big IF, I was ever to do that with anyone it would definitely be you guys. But... I don&#039;t think that will ever happen.&quot;
+&gt;Strong looks like he knew that answer all along, neither happy or sad at hearing it
+&gt;Clara seems a bit downtrodden, but understands that Jasmine didn&#039;t want to have a relationship like she did
+&gt;They have a short hug, and Jasmine nuzzles Clara with a tender affection before letting them crawl out of the back of her vehicle and back towards the house
+&gt;Feeling tired but not wanting to sleep in the van for the night, you follow them with Jasmine back into the house
+&gt;A pretty good amount of time has passed since you take note that Olga and Grant have retired to their bedroom, while Jasmine&#039;s sister and Lilith cuddle up and sleep soundly with their lovers in front of the fireplace
+&gt;Jasmine nudges Clara and asks if she wants to join them, but Clara rubs her neck and mumbles about how hot it would be with so many people right next to the fire
+&gt;&quot;As much as I would love to lay down with you guys I can&#039;t handle the fire so closely with so many people. I&#039;d love lay down with you guys, but we&#039;re sleeping in Omar&#039;s room because it&#039;s nice and cool in there.&quot;
+&gt;A moment of inspiration hits and you kiss Jasmine on the cheek softly saying the word &quot;nest&quot; in a questioning tone
+&gt;She thinks for a moment then smiles and nods at your idea
+&gt;&quot;Well... technically Jasmine&#039;s bed is big enough for all of us. It&#039;s a nest bed, if you know what those are.&quot;
+&gt;The semi-sober Snow leopard lets out a gleeful cheer as Jasmine quickly interjects with a stipulation
+&gt;&quot;That is of course, as long as everyone behaves. I love you like a sister Clara, and I don&#039;t want anything to get between us.&quot;
+&gt;Clara agrees instantly, and Strong questions what a nest bed is as you walk up the stairs and into Jasmine&#039;s room
+
+&gt;Jasmine&#039;s room is an AC chilled  time capsule of her youth, with stuffed animals of all sorts scattered around the place
+&gt;The walls have various posters for a bunch of rock bands and pop bands you&#039;ve heard her talk about a few times before
+&gt;But the most striking feature was the massive &quot;nest&quot; in the corner of her room
+&gt;A large circular almost pet bed styled foam and cotton stuffed &quot;mattress&quot; that became very popular in Russia due to how cheap they were to make and maintain
+&gt;A king sized bed cost a lot to get your hands on and sheets were only available in shops usually
+&gt;Nest beds were bigger, could fit a bunch of people, and anyone could make covers big enough to sleep under as a group, or you could have a bunch of single blankets on it
+&gt;Clara happily leaps onto the bed, sinking into the soft fabrics and crawling under the giant covers while telling strong to join them
+&gt;Jasmine strips down to just her underwear, telling everyone to follow suit
+&gt;When everyone is in their underwear you crawl between Clara and Jasmine, Strong taking up the slot next to you which blocks Clara from Jasmine by one more body
+&gt;Things are a bit chillier than Strong must have guessed, so Clara covers him in as much fluff as possible, putting one of her legs over his and locking them together
+&gt;Jasmine does the same with you and not long after all of your recent escapades begin to catch up with you, sleeping tugging at you and gently asking to take you to dreamland
+&gt;You resist the calls for a while though, closing your eyes and slowing down your breathing so you could fake sleep and see if Jasmine was going to be properly comfortable doing this 
+&gt;After a while you hear Clara shuffle a bit, whispering Jasmine&#039;s name and extending her paw out to the tigress
+&gt;Jasmine reaches out over your chest, gripping Clara&#039;s paw softly as Strong dozes and you pretend to be asleep
+&gt;&quot;We&#039;ll always be friends no matter what... right Jas?&quot;
+&gt;You can feel Jasmine&#039;s smile light up her face as Clara returns the favor and gently grips her paw 
+&gt;&quot;Of course Clara. I will always be there for you no matter what you do... Just like Chick is always there when I need him. Like how Anon is there for you. Chick told me before I left he hoped you guys would be around forever because he thinks of you all as family.&quot;
+&gt;The two cats purr softly and begin to properly relax, their arms linked around you and Strong
+&gt;&quot;He told me that you&#039;re stuck with relatives, but family are the people that always have your back. You&#039;re my sister as far as I&#039;m concerned Clara.&quot;
+&gt;The snow leopard sniffs a bit, obviously a bit overtaken by just how much the two of you cared for her and her husband
+&gt;Her voice trembles a bit with joy and relief as she speaks the final words of the night between the four of you
+&gt;&quot;I wouldn&#039;t have it any other way, sister.&quot;
+&gt;And so the night comes to a close as snow gently falls and blankets the city in a gentle chill
+&gt;Not that anyone in the cuddle nest would really care about laying together for some warmth and relaxation for a while</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/683W8Bet">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    3 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    30 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    58 min ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Qea9Uraw">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

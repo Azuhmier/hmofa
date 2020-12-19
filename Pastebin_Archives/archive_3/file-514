@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Anything for a (yew) - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Anything for a (yew) - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/Z75H52sb" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/Z75H52sb" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="TddVUXhdHmZMO4T847rZU9h3bZ_FPysO9MP8Z-CIvtQPnxk3HwlBVwgDyrSm8-w_7EQGy4JTZWuYhJgiv-XXtg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script> var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; </script>
+<script> var snhb = snhb || {}; snhb.queue = snhb.queue || []; </script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle=window.adsbygoogle||[]).pauseAdRequests=1;</script>
+
+<script src="//cdn.snigelweb.com/adconsent/adconsent.js" type="text/javascript"></script>
+
+<script>
+  window.__tcfapi('setLogo', null, function(result){}, '//pastebin.com/themes/pastebin/img/pastebin_logo_side_outline.png');
+  window.__tcfapi  ('setPrivacyPolicy', null, function(result){}, '//pastebin.com/doc_privacy_statement');
+  window.__tcfapi('enableBannerMode', null, function(result){}, true)
+</script>
+
+<style>
+    #snigel-cmp-framework .sn-b-def.sn-blue {color: #ffffff!important;background-color: #3440ca!important;border-color: #3440ca!important;}
+    #snigel-cmp-framework .sn-b-def { border-color: #3440ca!important;color: #3440ca!important;}
+    #snigel-cmp-framework .sn-selector ul li { color: #3440ca!important}
+    #snigel-cmp-framework .sn-selector ul li:after { background-color: #3440ca!important; } #snigel-cmp-framework .sn-footer-tab .sn-privacy a {color:#3440ca!important;}
+    #snigel-cmp-framework .sn-arrow:after, #snigel-cmp-framework .sn-arrow:before { background-color: #3440ca!important; }
+    #snigel-cmp-framework .sn-switch input:checked+span::before { background-color: #3440ca!important; }
+    #adconsent-usp-link {border: 1px solid #3440ca!important;color: #3440ca!important;}#adconsent-usp-banner-optout input:checked+.adconsent-usp-slider {background-color:#3440ca!important;}#adconsent-usp-banner-btn {color:#ffffff;border: solid 1px #3440ca!important;background-color: #3440ca!important;}
+    .snigel-cmp-framework .sn-header-tab { padding: 10px !important; } #snigel-cmp-framework #sn-back img { height: 60px; width: 60px; } .snigel-cmp-framework.sn-bm .sn-tabs { height: auto !important; }
+</style>
+
+<script async type="text/javascript" src="//cdn.snigelweb.com/pub/pastebin.com/20200826/snhb-pastebin.com.min.js"></script>
+<script src="//snigelweb-com.videoplayerhub.com/videoloader.js" async></script></head>
+<body class="">
+
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+                                    
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/Z75H52sb" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/Z75H52sb" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Ratman_Stan">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Anything for a (yew)</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Ratman_Stan">Ratman_Stan</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=Ratman_Stan" class="message" title="Send a private message to: Ratman_Stan"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 1st of January 2018 11:21:06 AM CDT">Jan 1st, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    2,259                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 35.08 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/Z75H52sb" class="btn -small">raw</a>
+                    <a href="/dl/Z75H52sb" class="btn -small">download</a>
+                    <a href="/clone/Z75H52sb" class="btn -small h_800">clone</a>
+                    <a href="/embed/Z75H52sb" class="btn -small h_800">embed</a>
+                    <a href="/print/Z75H52sb" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/Z75H52sb" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Anything for a (YEW)</div></li><li class="li1"><div class="de1">By ratman stan</div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">&gt;You can&#039;t tell which is worse. Both are horrible, but inevitable here. </div></li><li class="li1"><div class="de1">&gt;The freezing cold of the cement on your back, numbing you to the bone, or the smell of putrid sewage assaulting your nose.</div></li><li class="li1"><div class="de1">&gt;Sometimes a bad gust of rotten gas comes your way, the last one that did took the lunch right out of your stomach. </div></li><li class="li1"><div class="de1">&gt;But despite the smell, this place was safe, and safety meant anywhere could be considered &#039;home&#039;. Atleast for a little while. </div></li><li class="li1"><div class="de1">&gt;You had taken up residency with the rats, they had a rather sizeable community underground, fairly modern amenities as well. Lights, Fuel, electricity, food, water. </div></li><li class="li1"><div class="de1">&gt;Everything a man could need, if you could stand the smell, and the cold.</div></li><li class="li1"><div class="de1">&gt;The rats had fur, kept them warm, and they had grown used to the smell, so to them this place was perfect. </div></li><li class="li1"><div class="de1">&gt;They were much smaller than you, about roughly 3 feet, sometimes 4. Meaning you were twice their size for the most part. </div></li><li class="li1"><div class="de1">&gt;A little cumbersome to get around, but you always had work, and with work came food, a bit more clothes around you, </div></li><li class="li1"><div class="de1">&gt;and sometimes, a sense of purpose.</div></li><li class="li1"><div class="de1">&gt;Today however, was different, the small men and women of this village had been preparing for some form of celebration. A day of celebration meant no heavy lifting or work. </div></li><li class="li1"><div class="de1">&gt;So you had no place to be for today.</div></li><li class="li1"><div class="de1">&gt;Keeping your head ducked, you move through the somewhat crowded square towards the end of the village. In the case of this place however, the center of town was a large coming together of Four man sized tunnels formerly used as a connector, where the wider tunnels used to divert rainwater and floods connected to the general sewer system. A large circular Connector filled with small homes made of brick, corrugated metal, tarps, and old wood.</div></li><li class="li1"><div class="de1">&gt; Moving through the bustling &#039;streets&#039; of this Village, you feel a slight sensation in your heart. </div></li><li class="li1"><div class="de1">&gt;While these people treat you well enough, and you are never outright despised, you do feel a little Isolated, and lonely.</div></li><li class="li1"><div class="de1">&gt;You are the only human among them, and as such, you stand out like a wolf among sheep. Little mothers shuffle their even littler children away as you meander through the crowded streets, you are never unnoticed. Some people move aside when they hear you coming, your footfalls like thunder compared to the soft paps and chittering of their feet on the cold cement floors. </div></li><li class="li1"><div class="de1">&gt; You move through the long tunnels without much hindrance. The air fills with a new scent besides the pungent sickly sweet smell of rot.</div></li><li class="li1"><div class="de1">&gt;Baking</div></li><li class="li1"><div class="de1">&gt;One of them must be cooking something absolutely DELECTABLE. </div></li><li class="li1"><div class="de1">&gt;A smell delicious enough to muffle the ambient air. </div></li><li class="li1"><div class="de1">&gt;Pie crust</div></li><li class="li1"><div class="de1">&gt;Cream</div></li><li class="li1"><div class="de1">&gt;Tart Blueberry filling</div></li><li class="li1"><div class="de1">&gt;Oh Jesus</div></li><li class="li1"><div class="de1">&gt;You haven&#039;t so much as taken a whiff of anything that smelled this good since you came here weeks ago.</div></li><li class="li1"><div class="de1">&gt;You take a quick look around, you&#039;re in the rat equivalent of the suburbs now, the edge of the village. Rows of shacks devolving into single individual shacks surrounded makeshift fencing. </div></li><li class="li1"><div class="de1">&gt;The smell seems to plume from one house in particular, it is the furthest to the back, seemingly built into the side of the tunnel . &gt;Warm yellow light creeping through home made windows. </div></li><li class="li1"><div class="de1">&gt;You take a quick look around to see if anyone else is present.</div></li><li class="li1"><div class="de1">&gt;Not a soul, just the distant sounds of happy families and rat chatter. </div></li><li class="li1"><div class="de1">&gt;Moving close to the house, you take a peek inside. </div></li><li class="li1"><div class="de1">&gt;Inside, is something that has seemingly been plucked from your dreams. </div></li><li class="li1"><div class="de1">&gt;The source of the smell</div></li><li class="li1"><div class="de1">&gt;Fresh Blueberry pie. </div></li><li class="li1"><div class="de1">&gt;And a naked Rat woman</div></li><li class="li1"><div class="de1">&gt;&quot;Can I help you?&quot; She says, arms crossed. A look of scorn and displeasure plastered to her face. </div></li><li class="li1"><div class="de1">&gt;Uh oh</div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">&gt;&#039;Oh shit! I&#039;m so sorry! I didn&#039;t mean to peep. I just smelled something good &#039; </div></li><li class="li1"><div class="de1">&gt;you turn away, trying your best not to make things more embarrassing than they already are. </div></li><li class="li1"><div class="de1">&gt;&#039;What&#039;s the matter Sug? you hungry?&#039;.</div></li><li class="li1"><div class="de1">&gt; you nod silently, embarrassed, not just at the rats nudity and the awkwardness of the situation, but the fact that you have now resorted to pity to get food. </div></li><li class="li1"><div class="de1">&gt;the cold has even frozen your pride it seems. </div></li><li class="li1"><div class="de1">&gt;&#039;well listen hun, you let me get decent and I&#039;ll see if I can split you off a slice of that. How&#039;s that sound big man?&#039; </div></li><li class="li1"><div class="de1">She calls out to you through the window.</div></li><li class="li1"><div class="de1">&gt;nice again you nod, after a few moments she tells you to come inside </div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">&gt;It&#039;s a large home, built into the side of the cement walls, it is roomier on the inside. The outter structure giving it a sense of being smaller than it is. </div></li><li class="li1"><div class="de1">&gt;The front door was a bit of a squeeze, but inside you could actually move fairly freely. The walls seeming carved into the cement and the bedrock behind them. Small shelves were sanded and shaped into the stone. Like a natural building material. To your left a small wooden table and chairs form a rather homely kitchen. Separated from the rest by a archway of cement. The pieces of furniture seemed hand crafted, much like the rest of the home. </div></li><li class="li1"><div class="de1">&gt;&quot;So Sug, you gonna give me a name? Or am I just gonna call ya &#039;peeping ton&#039;?&quot; The rat woman spoke from further into the building, her southern drawl bouncing off the cement walls. </div></li><li class="li1"><div class="de1">&gt;&#039;Anon, my name&#039;s anon&#039;</div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">&gt;For a moment you&#039;re wondering to yourself how exactly this situation will play out. You&#039;ve had your fair share of struggle, you knew what life was like outside of the underground, outside of this little haven. Don&#039;t ruin this gift of a new life you&#039;ve been given.</div></li><li class="li1"><div class="de1">&gt;Despite the smells, despite the cramped conditions, the cold, the wet walls and floors.</div></li><li class="li1"><div class="de1">&gt;Despite all that, it was a thousand times better than what lay above. </div></li><li class="li1"><div class="de1">&gt;You chastise yourself for even thinking about it, thinking about the surface. How the sun shines , deceptively giving a hint of normality in that mad dying world. </div></li><li class="li1"><div class="de1">&gt;&quot;Anon? funny name for a human. I&#039;m...&quot;</div></li><li class="li1"><div class="de1">&gt;How the light reflects off their eyes, how they always seem to follow you, no matter where you hide. As long as the sun is shining they can find you, striding slowly and confidently, they never run, only keeping that long patient stride on distorted limbs. </div></li><li class="li1"><div class="de1">&gt;&quot;Anon, you okay?&quot; </div></li><li class="li1"><div class="de1">&gt;How many close calls have you had? Waking up to see them inches from you, their long spindly fingers like the roots of a tree, numerous, and always reaching. </div></li><li class="li1"><div class="de1">&gt;&quot;Anon, snap out of it&quot;</div></li><li class="li1"><div class="de1">&gt;How long do you think you can outrun them? Some day, it will rain, washing this place away, will you drown? Or will you return to the surface, to the sun, to their deadly waiting grasp?</div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">&gt;A strong hit to the hip wakes you from....whatever that was.</div></li><li class="li1"><div class="de1">&gt;You return back to reality to find the rat that had offered you to come inside was now fully dressed. Her arms were crossed, her expression a mixture of anger melting into concern. </div></li><li class="li1"><div class="de1">&gt;&quot;You okay there Hun?&quot; </div></li><li class="li1"><div class="de1">&gt;She was a taller rat than most, about 3 foot 5, plain grey brown with a long streak of white across her belly. Where It began was covered (barely) by a plaid short sleeve shirt, tied in a knot at the bottom button. Her country style shirt was paired with a pair of worn grayish blue jean shorts. </div></li><li class="li1"><div class="de1">&gt;&quot;well now, make yourself at home doll&quot;</div></li><li class="li1"><div class="de1">&gt;At the small woman&#039;s request, you begin to take your old ragged boots off, and a quick shrug takes care of your jacket. You feel a little warmer now that you have solid walls on all sides of you, but it&#039;s still not much. </div></li><li class="li1"><div class="de1">&gt;The air is still and fragrant here, the smell of tilled dirt, fresh baking, and something else. Familiar, yet not recognized. </div></li><li class="li1"><div class="de1">&gt;The small rat begins moving your jacket to a coat rack fashioned from what you assume to be a piece of drift wood or carved from a pallet.</div></li><li class="li1"><div class="de1">&gt;&quot;I must be getting better at baking if you managed to smell it all the way across town.&quot; She says suddenly, trying to roll the excess of your jacket off the floor.</div></li><li class="li1"><div class="de1">&gt;&quot;Across town?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, you&#039;re usually off in that little tunnel on the other side of town. Where you&#039;ve been since you&#039;ve arrived here.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m surprised you know that, since i don&#039;t believe we&#039;ve met.&quot; You say, slightly unnerved by this woman&#039;s knowledge of you.</div></li><li class="li1"><div class="de1">&gt;&quot;Of course I know, whole town knows of you, you&#039;re the only human to come this way in, well about 5 or so years. Not many of your around to begin with, no offense.&quot; She says</div></li><li class="li1"><div class="de1">&gt;She&#039;s moved to the pie now, cutting the pie down into 6th&#039;s. Using a blade that is in surprisingly good condition. You can&#039;t even remember the last time you saw a kitchen knife that wasn&#039;t being used as some form of weapon, or rusted to hell. </div></li><li class="li1"><div class="de1">&gt;&quot;Name&#039;s Sally by the way Sally Lee Allen&quot; She says, breaking the silence. You briefly wonder if that&#039;s a name she gave to herself or if it is one given by-</div></li><li class="li1"><div class="de1">&gt;&quot;Apparently my father was named after some Scientist&#039;s son. When I was born my dad gave me the name Sally, and I took the rest of his.&quot; She says, answering your question before you could ask it.</div></li><li class="li1"><div class="de1">&gt;The rats were born from laboratories, when things started to fall apart, they were given sentience. Taught language and somewhat spliced with human DNA. Many species have taken on these traits.</div></li><li class="li1"><div class="de1">&gt;&quot;Well sug, lets talk more over supper&quot;</div></li><li class="li1"><div class="de1">&gt;Sally moves about in her small homey little kitchen and motions for you to join her inside.</div></li><li class="li1"><div class="de1">&gt;her stove consisting of a Toaster Oven with a hotplate on top. </div></li><li class="li1"><div class="de1">&gt;The refrigerator is basically just camping cooler with some form of jury rigged system strapped to the back. </div></li><li class="li1"><div class="de1">&gt;Other than the two glaringly obvious differences, it looks just like a standard human kitchen, only shrunk down. </div></li><li class="li1"><div class="de1">&gt;You take a knee and decide to join her at the table. She has already prepared a plate for you. </div></li><li class="li1"><div class="de1">&gt;wasting no time, you begin to dig into the one thing that brought you here. It is as delicious as you expect it to be.</div></li><li class="li1"><div class="de1">&gt;&quot;Woah now hun, it ain&#039;t a race. Don&#039;t eat too fast, I can&#039;t exactly help you if you start choking&quot; Sally says, looking rather stupefied at the speed of your eating. </div></li><li class="li1"><div class="de1">&gt;You can&#039;t help it really, you haven&#039;t had something to eat this good since..well, you&#039;d rather not think about it right now. </div></li><li class="li1"><div class="de1">&gt;You make short work of the first slice of pie, you even lick the crumbs from the plate. </div></li><li class="li1"><div class="de1">&gt;&quot;So Anon, you seem like you&#039;re pretty hungry. You don&#039;t eat much at home?&quot; </div></li><li class="li1"><div class="de1">&gt;She&#039;s begun to work into her own piece, careful and proper, fork and knife in hand. Much more civilized compared to your ravenous shoveling by hand. </div></li><li class="li1"><div class="de1">&gt;&quot;No food, no real home, not when there is no work&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Ahh, I can imagine it&#039;s hard to get Yews this time of the year, with the celebrations, all those days without anybody doing anything.&quot; </div></li><li class="li1"><div class="de1">&gt;Yews were the currency that the rats used, based around some form of old coin or trinket that was commonly found, it consisted of a copper colored coin the size of a fifty cent piece, on it was a engraving of a Yew tree, Thus the name &#039;Yews&#039;.</div></li><li class="li1"><div class="de1">&gt;You only had a handful of them, a few you needed to ration out. </div></li><li class="li1"><div class="de1">&gt;She seems to have noticed your saddened expression, hard to hide it when you think of the few coins you have left. </div></li><li class="li1"><div class="de1">&gt;&quot;Listen anon, I know we barely know each other, but you seem like a good young man, have a yew&quot;</div></li><li class="li1"><div class="de1">End of Chapter 1</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 2</div></li><li class="li1"><div class="de1">&gt;The meal soon comes to a close, much to your dismay, this pie is not of the unending variety. </div></li><li class="li1"><div class="de1">&gt;You decide to help Sally with the dishes, to help repay her sudden but warmly received hospitality. </div></li><li class="li1"><div class="de1">&gt;Speaking of your small rodent host, her voice calls for you from an adjacent room. </div></li><li class="li1"><div class="de1">&gt;&quot;So anon, do you have a place to stay?&quot; She asks </div></li><li class="li1"><div class="de1">&gt;&quot;No, but I&#039;ll live, don&#039;t wor-&quot; You try to politely refuse her offer, but she isn&#039;t having any of it. </div></li><li class="li1"><div class="de1">&gt;&quot;Well I&#039;m not about to let you go back out on the street, you can spend the night here. Unless you&#039;d prefer the ice and cold, don&#039;t worry, you aren&#039;t going to be a burden.&quot; She says, walking back into the kitchen, seemingly reading your mind. </div></li><li class="li1"><div class="de1">&gt;You want to argue, but your body seems to interject with an opinion of it&#039;s own, taking the form of a sudden outburst of pain in your sore muscles.</div></li><li class="li1"><div class="de1">&gt;You try to hide the soreness and pain, but it&#039;s no use, her eyes are glued to your face, reading your expression. As you wince, you can still make out her face, she&#039;s concerned. You don&#039;t want her to worry about you, she&#039;s a stranger. </div></li><li class="li1"><div class="de1">&gt;You&#039;ve spent so long being alone, wandering, scavenging, fighting, surviving. For so long, you&#039;ve come to learn to take care of yourself. To do things for yourself, by yourself. Now here&#039;s this woman that not even 6 hours ago you didn&#039;t even know her name. Offering you to stay, feeding you, giving you a home for the night. </div></li><li class="li1"><div class="de1">&gt;The Cynical parts of your mind tell you that she has an agenda, she&#039;d never invite you in unless she had some sort of ulterior motive.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;d offer painkillers, but they aren&#039;t exactly made for humans....I got aspirin.&quot; She says, rooting through a small cupboard next to her &#039;stove&#039;. It isn&#039;t til now that you take a closer look at her. </div></li><li class="li1"><div class="de1">&gt;You wouldn&#039;t say that Sally is entirely fat, but while she has a bit of pudge, you can clearly see a light outline of hard muscle on her thighs. Her hips meet them in a lovely and shapely curve, were her clothes always this tight? </div></li><li class="li1"><div class="de1">&gt;Her tail seems to somewhat shaved, not a hair is visible on it&#039;s long serpentine length. It looks quite smooth for a rat tail. When she bends over, her tail seems to dance in the air, like a blade of grass being pushed by the breeze. It also seems a little on the long side compared to the other rats you&#039;ve seen. </div></li><li class="li1"><div class="de1">&gt;The long appendage tapers down into a rather thick base, connected to her rather &#039;sizeable&#039; hips. </div></li><li class="li1"><div class="de1">&gt;She&#039;s got a body shaped like a pear, with a strong but soft physique. </div></li><li class="li1"><div class="de1">&gt;As your eyes move up her back, they catch something that halts your lecherous gaze flat, her eyes staring back at you. </div></li><li class="li1"><div class="de1">&gt;You want to make an excuse, but she&#039;s just smiling at you. Her lids lowered as she focuses right at you, she knows what you&#039;ve been looking at. </div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m afraid I&#039;m all out Sug&quot; She says, turning to face you.</div></li><li class="li1"><div class="de1">&gt;What do you say we get you settled in? I hope you don&#039;t mind sharing a bed. My couch isn&#039;t big enough.&quot; </div></li><li class="li1"><div class="de1">&gt;Her words trail behind her, dripping with a tone of intent.</div></li><li class="li1"><div class="de1">&gt;As she leaves, her hips seem to sway rather &#039;purposefully&#039; </div></li><li class="li1"><div class="de1">&gt;Perhaps she has an agenda after all.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You follow the small rodent woman into the next room, taking a moment to take in the change in scenery. </div></li><li class="li1"><div class="de1">&gt;It&#039;s much larger than the kitchen, looking like a mix between a living room, a workshop, and a study. </div></li><li class="li1"><div class="de1">&gt;a large bookshelf completely covers one of the walls, it&#039;s wood stained a dark walnut brown, row after row of instruction manuals, woodworking books, and general DIY books fill the shelves. </div></li><li class="li1"><div class="de1">&gt;The whole room has been carved and sanded down from granite bedrock, giving the walls a somewhat curved appearance. </div></li><li class="li1"><div class="de1">&gt;On of the walls has a &#039;mantle&#039; of sorts, a large metal canister forming a home made fireplace of sorts. Two large Copper pipes go into it on either side, with a third pipe coming out of the top of the fireplace, into the ceiling above. You assume it must be some form of Chimney, where it goes you do not know. </div></li><li class="li1"><div class="de1">&gt;Opening the fireplace briefly, you see that the copper pipe on the left side of the fireplace forms a large coil in the center, before curving down and exiting through another pipe that goes into the back wall. The right side pipe connects to some form of nozzle. Blue flames emanate from the nozzle below, heating the coil. </div></li><li class="li1"><div class="de1">&gt;A water heater, and fireplace, all in one. </div></li><li class="li1"><div class="de1">&gt;Sally must be quite the builder. </div></li><li class="li1"><div class="de1">&gt;Everything in the room has a professional but hand made feeling to it, worked over by diligent and skilled hands...er, paws? </div></li><li class="li1"><div class="de1">&gt;Semantics.</div></li><li class="li1"><div class="de1">&gt;Next to her book shelf on a adjacent wall is a fairly large (for a rat) workbench, it seems quite messy. Various materials and contraptions seem to be placed on the bench, forming some kind of chaotic order only known to Sally. </div></li><li class="li1"><div class="de1">&gt;Locked into a vise, is a double barreled shotgun, the trigger, firing pins, and other components have been changed. Looking around, you see that a a set of smaller rifles have been stripped apart, one of which has a long split down the barrel, the other has a torn apart stock</div></li><li class="li1"><div class="de1">&gt;a large split in the wood seems to be darkened with a dark brown mud. </div></li><li class="li1"><div class="de1">&gt;Or dried blood.</div></li><li class="li1"><div class="de1">&gt;Several small boxes of .410 and 12 gauge shotgun rounds are scattered across the table, as well as a small bowl of powder. </div></li><li class="li1"><div class="de1">&gt;&quot;The big rounds are too much for little ol me, unfortunately. I used to have two .410&#039;s, but as you can see they are no longer in working order.&quot; Sally says from behind you, her eyes flicker  with the fireplaces mild blue light. A faint smile across her face. </div></li><li class="li1"><div class="de1">&gt;&quot;I only had a double barrel kicking around, but it was built strictly for 12 gauge. I&#039;ve been trying to modify it to take smaller rounds. No luck so far.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You seem to pretty skilled at this, but how comes none of the other rats carry guns?&quot; You say, still looking over the old world piece of metal and wood. You remember the day you first arrived in this place. The guards at the gate waved you in with machetes, pole arms, and cross bows. But no guns to be seen.</div></li><li class="li1"><div class="de1">&gt;&quot;The others who sit on guard duty are all men, men are not allowed firearms here.&quot; </div></li><li class="li1"><div class="de1">&gt;You look back at her and see that she is leaning on the back of her couch. Her gaze fixed to the floor, her smile replaced with a look of contemplation, and maybe, sadness?</div></li><li class="li1"><div class="de1">&gt;&quot;The matriarch&#039;s do not allow men to carry guns, that is a right only given to interior officers, not border guards or any men in the village. I get away with it because without me nobody would be able to fix em. The men don&#039;t get to use them ever.&quot; </div></li><li class="li1"><div class="de1">&gt;She lets out a long sigh and turns her head to look you in the eye. </div></li><li class="li1"><div class="de1">&gt;&quot;Be glad you weren&#039;t born a rat, anon&quot;</div></li><li class="li1"><div class="de1">&gt;You look back at the gun in the vise, then back to her. Her face seems to be locked on you. Her eyes scanning your face. </div></li><li class="li1"><div class="de1">&gt;&quot;These matriarch&#039;s they run things around here?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Run? Ha! They sit on their asses, popping out kids, and bossing everyone around. They don&#039;t work, they don&#039;t do much of anything but tell everyone how to work and reap all the rewards. If they aren&#039;t looking down at you, they are trying to exploit you.&quot; </div></li><li class="li1"><div class="de1">&gt;She&#039;s fired up now, her hands seem to come alive with expressive gestures. Her teeth show every time she mentions &#039;they, or &#039;them&#039;. One of her hands is tightly closed around the top of the sofa. Lord only knows what she&#039;d do if she had one of these women in front of her. </div></li><li class="li1"><div class="de1">&gt; When she&#039;s done speaking her piece, the fire that was suddenly lit in her, dies. She sighs deeply and the previous energy and passion are gone. All that remains is a look of annoyance, her eyes half lidded and tired. </div></li><li class="li1"><div class="de1">&gt;&quot;So, you seem to be quite skilled with your hands.&quot; You say, trying to steer her out of her current mood. </div></li><li class="li1"><div class="de1">&gt;&quot;yeah, I&#039;ve always had a knack for putting things back together. My dad was rather old when I was born. So he could never fix things himself. So my dad taught me how to do things myself. &#039;Sally you can&#039;t always find a replacement for what it is you need, so you need to fix it&#039; he&#039;d say, then he&#039;d send me off to go fix something for him. I always used to hate it, but in hindsight, I am glad he did. When he passed, I had all the skills I needed to make a living for myself.&quot; The blue light of the fireplace shines off her eyes, and her large front teeth, illuminating the nostalgia in her expression. Her eyes gazing into a time long since passed. </div></li><li class="li1"><div class="de1">&gt;&quot;What about you Anon?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Me? Not much to say, I was born topside. But I can&#039;t particularly remember my mom or dad. I&#039;ve just been living day to day. Wandering the wastes. Eventually I got tired of being on the surface and came here, willing to do anything to get a Yew or two. Been working for the guys who do construction and  moving, near the edge of town for a week or two, Finn and what&#039;s his name.&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Finn and Vinnie?&quot; She says, raised a brow. </div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, those two, good guys. First people to offer me work here, everyone else here avoids me like the plague, except you of course. But I can&#039;t say I blame them.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah they are good guys, wish other people would be as open minded as them. They&#039;re some of the better residents of Underfoot&quot; She says.</div></li><li class="li1"><div class="de1">&gt;You remember when you first met them, you were being questioned by the border guards, pikes in hand when they came around. They must&#039;ve seen something in you because they offered you work on the spot. </div></li><li class="li1"><div class="de1">&gt;Finn with his almost comedically sized Cigars, and Vinnie with his equally oversized newspaper boy hat. They had a chat in private with one of the heads of the border guard, then brought you in for work, one of the few human visitors of Underfoot. </div></li><li class="li1"><div class="de1">&gt;They had even offered to house you at one point, but you were too large to fit in any of the spare space they had in their rat sized &#039;warehouse&#039;. </div></li><li class="li1"><div class="de1">&gt;If you could even call it a warehouse, it was a small offset room that must&#039;ve been used as a room for checking various instruments, valves, and other read out materials for the sewer, as it had a hermetically sealed door with large drained floors. </div></li><li class="li1"><div class="de1">&gt;Various piles of odds and ends piled onto neatly rowed palettes, electronics, old machines, wood, metal, etc. All kinds of things to be picked apart and used for things that would never be covered by a warranty. </div></li><li class="li1"><div class="de1">&gt;&quot;So Anon, are you seeing anyone?&quot;</div></li><li class="li1"><div class="de1">&gt;The sudden personal question drags you rapidly back to reality.</div></li><li class="li1"><div class="de1">&gt;&quot;Uh, nah n-not really. Why?&quot; You stammer, the room seemingly getting hotter as you  rub the back of your head. The sudden and forward question throwing you off your game. </div></li><li class="li1"><div class="de1">&gt;&quot;Because I have a proposition for you, if you&#039;re interested.&quot; Sally says, swaying her hips in a very purposeful manner, leaving a trail of words dripping with flirtation as she leaves the room. </div></li><li class="li1"><div class="de1">&gt;&quot;That depends on the proposition, I mean. You did just meet me&quot; You say, trying not to get ahead of yourself, she may have something not sexual in mind you tell yourself. </div></li><li class="li1"><div class="de1">&gt;&quot;Well Sug, humans can&#039;t detect pheromones, and I have never been a fan of being overly subtle.&quot; </div></li><li class="li1"><div class="de1">&gt;With that said, she returns to the room. Leaning up against the door frame between her workshop and another room. </div></li><li class="li1"><div class="de1">&gt;You try your best not to drop your jaw as she sits fully in the nude, her breasts released from her short shirt, now sitting open and perky in the air. The Fireplace illuminating her full frame, </div></li><li class="li1"><div class="de1">&gt;&quot;Ummm uh...&quot; You try your best not to spill your spaghetti as she begins to take her turn at eyeing you up. Smiling with interest at what she sees. </div></li><li class="li1"><div class="de1">&gt;&quot;My proposition is this. I haven&#039;t gotten any in years, and I can assume that neither have you. So how about you come over here and fuck me til I can&#039;t walk anymore?&quot; She says, confidently striding towards you til she is staring almost straight up at you. Her eyes seemingly made for bedrooms. </div></li><li class="li1"><div class="de1">&gt;You try your best to avoid popping a boner straight into her face as she wraps her small nimble hand around your belt. </div></li><li class="li1"><div class="de1">&gt;She opens one of her hands to reveal a handful of copper yew&#039;s, slowly putting them into your pocket. </div></li><li class="li1"><div class="de1">&gt;&quot;I can even pay you, and you can be as rough as you want.&quot; She says. If you didn&#039;t know any better, you&#039;d say she was treating you like an escort. You&#039;d be willing to protest that, had her hands not found their way to the bulge in your pants.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh my, I bet you&#039;re gonna feel huge...&quot; Her snout opening wide as she runs a long rat tongue along the front of your bulge, then clamping her teeth shut on the zipper of your fly. </div></li><li class="li1"><div class="de1">&gt;&quot;Sally I don&#039;t know about this, I mean we did just meet. This is a little sudden&quot;You try to protest, not sure whether to give in or refuse her. Lord knows you wouldn&#039;t be against it, but someone being so...forward. Was off putting to say the least.</div></li><li class="li1"><div class="de1">&gt;&quot;Look anon, you don&#039;t have to if you don&#039;t want to. You can say no.&quot; She says, moving your fly down with her mouth., her hands reach into your pants and her hands begin to run along your balls. </div></li><li class="li1"><div class="de1">&gt;&quot;Or you can say yes. And judging by how FULL these boys feel, I&#039;d say you are leaning towards the later Anon.&quot; </div></li><li class="li1"><div class="de1">&gt;You reach down, and place a hand on her head, and she seemingly melts into your palm. Nuzzling it with the side of her head. It seems that she is more touch starved then you thought. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It is sudden, sudden enough to startle both of you from your activities as the piercing screech of an alarm rings though the entire town. The loud klaxon blaring with an almost ear splitting howl as the sound of a speaker comes into focus. </div></li><li class="li1"><div class="de1">&gt;&quot;RESIDENTS OF UNDERFOOT, THIS IS AN EMERGENCY, ALL MALES ARE TO PROCEED TO THE NORTHERN GATE IMMEDIATELY, WOMEN AND CHILDREN ARE TO SEEK SHELTER IMMEDIATELY! WE ARE UNDER ATTACK, I REPEAT, WE ARE UNDER ATTACK. THIS IS NOT A DRILL.&quot;</div></li><li class="li1"><div class="de1">&gt;With the sudden outburst, Sally&#039;s demeanor immediately changes, she runs to the room she had previously emerged from, looking inside, you see that she is throwing on clothing as fast as she can. &gt;You take this time to pull up your fly. Somewhat annoyed at getting blue balled. </div></li><li class="li1"><div class="de1">&gt;Sally quickly reemerges fully clothed. Now sporting a olive green vest under her shirt, with full leg jeans and combat boots. You feel a little under prepared as she begins loading a small Mauser pistol. Her face was focused with a almost murderous intent. If you didn&#039;t know better, you&#039;d say she was ready for war.  Her previous sexiness now replace with a air of dead seriousness. </div></li><li class="li1"><div class="de1">&gt; &quot;Anon, bring me my shotgun.&quot;</div></li><li class="li1"><div class="de1">&gt;She didn&#039;t need to tell you twice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 3</div></li><li class="li1"><div class="de1"> [Gore present beyond this point]</div></li><li class="li1"><div class="de1">&gt;You are a little shocked at the chain of events that have happened this evening.</div></li><li class="li1"><div class="de1">&gt;First, you accidentally become a peeping tom, then you get taken in, then hit on, then paid, then outright proposed for sex, then an attack happens.</div></li><li class="li1"><div class="de1">&gt;You want to joke about something implausible happening next, but that may just happen at this rate.</div></li><li class="li1"><div class="de1">&gt;&quot;Here anon, take this. It&#039;s got supplies in it, hold onto it, we may get hurt.&quot; Sally says, her demeanor now stone-like compared to her previous sultry and seductive. Her eyes moving about the room, body a flurry of movement as she quickly gathers gear and weapons.</div></li><li class="li1"><div class="de1">&gt;&quot;Grab a weapon if you can find one, and get ready, we don&#039;t know whats out there&quot;</div></li><li class="li1"><div class="de1">&gt;You take a look around the workshop, there isn&#039;t much that can be effectively used to defend yourself. A rat sized sledgehammer and pick axe catch your eye, perched in the corner almost out of sight, you grab the hammer and lift it, it&#039;s small handle is lightweight, but still gives you enough length to wield it two handed if you so wish.</div></li><li class="li1"><div class="de1">&gt;&quot;Got one, hope you&#039;re not attached to it&quot; You yell out, turning to the busy body rat.</div></li><li class="li1"><div class="de1">&gt;&quot;Good, now get out here, there&#039;s some ground to cover between here and the north ga-&quot; The sentence is cut off with a deafening blast of sound, your ears ring a little with the sudden boom. Sally has already started using the shotgun.</div></li><li class="li1"><div class="de1">&gt;You quickly get your bearings and run through the small home, exiting her front door, you plunge into  a town in chaos.</div></li><li class="li1"><div class="de1">&gt;Sally is in the middle of the street, sending rounds down the middle of the street. Her eyes and actions showing a trained and experienced efficiency as she fires  and reloads in quick, fluid movements.</div></li><li class="li1"><div class="de1">&gt;You turn to take a look at what exactly she is aiming at, several large creatures lay on the far side of the tunnel, near where it turns onto a large street, their large bodies piled in a makeshift heap as a flurry of movement creeps over the top of the mound. A pair of predatory eyes reflect the light of the street with two large green gleams. Like shining a light at a animal at night.</div></li><li class="li1"><div class="de1">&gt;With little haste, the creature knocks down the mound of it&#039;s former comrades, and moves over them, entering the tunnel. Flashes of green behind it show that it is not alone.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;They are tall, around 5 to 6 feet tall, they stand hunched under the roof of the tunnel, however they are rather thin, with a forward leaning body. Large hairless tails trail behind them like large worms, skin brown with mud and the sewers natural filth.</div></li><li class="li1"><div class="de1">&gt;They look like the cross between a Cassowary and a crocodile. Their forearms are rather short, covered in small scales that are a salmon pink hue. Each hand curling into a small hand, two small claws sit on either side to a much larger middle claw.</div></li><li class="li1"><div class="de1">&gt;Similar can also be said of their digit-grad legs, which are longer and thicker compared to it&#039;s forearms.  Each foot adorned with a similar array of hook like claws. It&#039;s legs look like that of a chicken, as though it&#039;s maker could not decide whether to keep the scales or not.</div></li><li class="li1"><div class="de1">&gt;It&#039;s head, neck, back, shoulders, stomach, and behind are all covered in a thick plumage of dirtied white feathers. The thickest part of it&#039;s plumage is around it&#039;s shoulders, where it&#039;s long slender neck connects to it&#039;s shoulders.</div></li><li class="li1"><div class="de1">&gt;It&#039;s head is long and flat like a croc, with two large forward facing green eyes. However it possesses a large beak instead of a snout, it&#039;s mouth adorned with two large sets of canines, with a long row of back teeth reminding you of a large saw. It&#039;s vibrant green eyes sit fixated on you as it moves it&#039;s head to the side with a curious look, unsure what to make of you. As it looks to Sally however, it&#039;s demeanor changes, it&#039;s mouth opens wide in and an audible hissing sound emanates from the creatures throat. The others behind it begin to mimic the action as the first one charges through the mound of it&#039;s dead companions, the others following close behind.</div></li><li class="li1"><div class="de1">&gt;Food...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Sally fires into the bottleneck, the first round of buckshot takes the rightmost creature down in a burst of feathers, collapsing into the dirt.</div></li><li class="li1"><div class="de1">&gt;As she loads in a new round, one of the creatures begins to close the gap between them. Rushing forward, fast and low, the raptor-like beast builds up speed and leaps forward, and moves upright like a kangaroo, it&#039;s body pushing back onto it&#039;s tail like a spring, it&#039;s large legs come up, it&#039;s claws scrape the ceiling hard as they come down, moving to gore into your rat friend like a meat hook.</div></li><li class="li1"><div class="de1">&gt;The hooks come down from their vicious descent....right into your shoulder.</div></li><li class="li1"><div class="de1">&gt;Fucking. OW.</div></li><li class="li1"><div class="de1">&gt;You weren&#039;t going to let her take on the group by herself. That&#039;s for damn sure.</div></li><li class="li1"><div class="de1">&gt;Your thick clothes stopped the claws from piercing very far, but you can still feel them hooking into the muscle. The creature moves back, not expecting you to be as sturdy as you look, it starts to fall backwards, trying to get you to the ground. With your unhindered arm, you swing the hammer into the creatures side, a sickening pop and a screech are the result as the pushes in the creatures ribs.</div></li><li class="li1"><div class="de1">&gt;The creature moves it&#039;s claws out of your shoulder and falls to the ground, kicking wildly into the air at you as it struggles to gain some footing.</div></li><li class="li1"><div class="de1">&gt;Sally catches you off guard with another blast from her shotgun, a large red ball the size of a softball appears in the creatures chest. It&#039;s struggling ceases quickly.</div></li><li class="li1"><div class="de1">&gt;The other creatures begin to mimic the others motion, while a handful of other hang back, waiting for an opportunity, or their turn...</div></li><li class="li1"><div class="de1">&gt;The first creature tries to lean back onto it&#039;s tail to strike, but you beat it to the punch.</div></li><li class="li1"><div class="de1">&gt;The hammer connects with creatures breast and sends it ground bound. For what they have in speed and claws, they lack in robustness as a second strike of the hammer hits it square in the guts, bits of organ and blood shoot out of what you assume to be it&#039;s colon.</div></li><li class="li1"><div class="de1">&gt;You look for the next creature to deal with as Sally loads lets loose another couple shots of lead into the crowd. A circle of bodies now your bulwark against the group of raptor-like animals.</div></li><li class="li1"><div class="de1">&gt;One of them changes strategy, ramming head first into you, the sudden headbutt causes you to stumble. It grabs hold of your jacket and uses that to get a hold of you, you kick at it to try and force it off when a second one follows it&#039;s lead, ramming headlong into you. Your already uneasy stance buckles and sends the three of you to the floor.</div></li><li class="li1"><div class="de1">&gt;Not letting yourself get picked apart, you push the second creature off just enough to get your hammer holding hand free, sending the hardened steel right into the first ones neck. As you struggle to hit it, your vision is obscured by the feathery mass that rammed you, now laying across your face.</div></li><li class="li1"><div class="de1">&gt;You keep swinging at the one with a hold on you, it&#039;s legs try yo reach up and tear into you, but can&#039;t get solid footing. You kick and try to lift your hips in a desperate bid to get it off you. The beast covering your face sends a red hot slash across your chest with on of it&#039;s clawed hind legs.</div></li><li class="li1"><div class="de1">&gt;You scream into the feathered heap and bite down hard, illiciting a scream from your feathered assailant.</div></li><li class="li1"><div class="de1">&gt;In a fury of adrenaline and pain, you elbow check the second beast off, trying to avoid the flurry of leg kicks as you get a chance to bring the hammer down again, onto the first beasts neck. You wince and yell out in pain as some of the momentum causes the neck to get shoved hard into your balls. Feeling absolutely furious, you push the now limp creature off your tattered chest and grab the second one by the tail.</div></li><li class="li1"><div class="de1">&gt;Pinning it onto it&#039;s stomach, you mount the creatures backside and hold it&#039;s neck with your free hand. Your shoulder feels numb at this point.</div></li><li class="li1"><div class="de1">&gt;The creatures legs thrashes as it struggles, arms pinned into it&#039;s body. You hold it&#039;s neck as you prepare to swing, but get taken off guard as it moves it&#039;s head just far back enough to grab a hold of your bicep in it&#039;s jaw. It&#039;s teeth are like red hot knives running along your skin.</div></li><li class="li1"><div class="de1">&gt;You swing the hammer down into it&#039;s neck, the creature immediately let&#039;s go and begins a loud drawn out yell. With a renewed vigor, you grab the beast just behind the head and bring the hammer down for a second swing, meeting it&#039;s mark at the top of the beasts head.</div></li><li class="li1"><div class="de1">&gt;It&#039;s head, being crushed between the cement floor and a 10lb piece of steel, splatters outwards. Eyes pop from their sockets, it&#039;s beak breaks and buckles out of position from the force.</div></li><li class="li1"><div class="de1">&gt;The creature let&#039;s out a series of instinctual kicks before twitching into stillness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You hurt, alot. More then you remember having ever hurt before.</div></li><li class="li1"><div class="de1">&gt;Giving a look to Sally, she seems to share your pain, in more ways than one.</div></li><li class="li1"><div class="de1">&gt;A large gash is present on  her right ear, and her tail seems to have lost about 3 inches of length to it.</div></li><li class="li1"><div class="de1">&gt;The front of her outfit is in pieces, burlap and cotton torn away to reveal a steel plate inside her chest rig.</div></li><li class="li1"><div class="de1">&gt;Quickly you look to the tunnel, the rest of the creatures have their exit, by foot or by bullet.</div></li><li class="li1"><div class="de1">&gt;&quot;Are you hurt?&quot; You ask her, pulling her out of her combat fog.</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, I&#039;m fine sug... Jesus you&#039;re hurt bad!&quot; Sally exclaims, rushing to your side, she reaches under one of the dead creatures and takes out the bag. It must&#039;ve come off during the fighting.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m fine, just need to stop the bleeding.&quot; You say, trying to assuage her worry.</div></li><li class="li1"><div class="de1">&gt;As she pulls medical supplies from the bag, you begin to assess your damage.</div></li><li class="li1"><div class="de1">&gt;Your left arm has a punctured shoulder, the bicep has a large circle of holes in it, with  dark red blood seeping out of it. The sleeve has been almost entirely torn away. Your chest has been torn into, with fabric dangling around your waist, exposing you to the cold sewer air.</div></li><li class="li1"><div class="de1">&gt;With a surprising speed, Sally pours rubbing alcohol over the wounds, illiciting a hiss, but before you know it, your wounds are bandaged.</div></li><li class="li1"><div class="de1">&gt;&quot;I hope you were right about being okay. There&#039;s still fighting going on elsewhere.&quot; She says, putting the leftover supplies back in the bag. Briefly, a bright silver object falls from the bag, catching your eye.</div></li><li class="li1"><div class="de1">&gt;It&#039;s a long tapered cylinder, brushed stainless steel, polished. A black cap sits on the untapered end with two buttons. You look to sally and she quickly blushes.</div></li><li class="li1"><div class="de1">&gt;&quot; I must&#039;ve had it in there from another time, I-I don&#039;t know how it got in there!&quot; She stammers, she looks adorable when she&#039;s embarrassed, shielding her face with her hand while pulling it out of your hand with the other. You have zero idea what it is.</div></li><li class="li1"><div class="de1">&gt;&quot;What is it?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;ve never seen one of these?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nothing that I remember, what does it do?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Sweetie, wait til all this is over and I&#039;ll show you.&quot; She says, a smirk growing on her blushing face.</div></li></ol>        </div>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Anything for a (YEW)
+By ratman stan
+ 
+&gt;You can&#039;t tell which is worse. Both are horrible, but inevitable here. 
+&gt;The freezing cold of the cement on your back, numbing you to the bone, or the smell of putrid sewage assaulting your nose.
+&gt;Sometimes a bad gust of rotten gas comes your way, the last one that did took the lunch right out of your stomach. 
+&gt;But despite the smell, this place was safe, and safety meant anywhere could be considered &#039;home&#039;. Atleast for a little while. 
+&gt;You had taken up residency with the rats, they had a rather sizeable community underground, fairly modern amenities as well. Lights, Fuel, electricity, food, water. 
+&gt;Everything a man could need, if you could stand the smell, and the cold.
+&gt;The rats had fur, kept them warm, and they had grown used to the smell, so to them this place was perfect. 
+&gt;They were much smaller than you, about roughly 3 feet, sometimes 4. Meaning you were twice their size for the most part. 
+&gt;A little cumbersome to get around, but you always had work, and with work came food, a bit more clothes around you, 
+&gt;and sometimes, a sense of purpose.
+&gt;Today however, was different, the small men and women of this village had been preparing for some form of celebration. A day of celebration meant no heavy lifting or work. 
+&gt;So you had no place to be for today.
+&gt;Keeping your head ducked, you move through the somewhat crowded square towards the end of the village. In the case of this place however, the center of town was a large coming together of Four man sized tunnels formerly used as a connector, where the wider tunnels used to divert rainwater and floods connected to the general sewer system. A large circular Connector filled with small homes made of brick, corrugated metal, tarps, and old wood.
+&gt; Moving through the bustling &#039;streets&#039; of this Village, you feel a slight sensation in your heart. 
+&gt;While these people treat you well enough, and you are never outright despised, you do feel a little Isolated, and lonely.
+&gt;You are the only human among them, and as such, you stand out like a wolf among sheep. Little mothers shuffle their even littler children away as you meander through the crowded streets, you are never unnoticed. Some people move aside when they hear you coming, your footfalls like thunder compared to the soft paps and chittering of their feet on the cold cement floors. 
+&gt; You move through the long tunnels without much hindrance. The air fills with a new scent besides the pungent sickly sweet smell of rot.
+&gt;Baking
+&gt;One of them must be cooking something absolutely DELECTABLE. 
+&gt;A smell delicious enough to muffle the ambient air. 
+&gt;Pie crust
+&gt;Cream
+&gt;Tart Blueberry filling
+&gt;Oh Jesus
+&gt;You haven&#039;t so much as taken a whiff of anything that smelled this good since you came here weeks ago.
+&gt;You take a quick look around, you&#039;re in the rat equivalent of the suburbs now, the edge of the village. Rows of shacks devolving into single individual shacks surrounded makeshift fencing. 
+&gt;The smell seems to plume from one house in particular, it is the furthest to the back, seemingly built into the side of the tunnel . &gt;Warm yellow light creeping through home made windows. 
+&gt;You take a quick look around to see if anyone else is present.
+&gt;Not a soul, just the distant sounds of happy families and rat chatter. 
+&gt;Moving close to the house, you take a peek inside. 
+&gt;Inside, is something that has seemingly been plucked from your dreams. 
+&gt;The source of the smell
+&gt;Fresh Blueberry pie. 
+&gt;And a naked Rat woman
+&gt;&quot;Can I help you?&quot; She says, arms crossed. A look of scorn and displeasure plastered to her face. 
+&gt;Uh oh
+ 
+&gt;&#039;Oh shit! I&#039;m so sorry! I didn&#039;t mean to peep. I just smelled something good &#039; 
+&gt;you turn away, trying your best not to make things more embarrassing than they already are. 
+&gt;&#039;What&#039;s the matter Sug? you hungry?&#039;.
+&gt; you nod silently, embarrassed, not just at the rats nudity and the awkwardness of the situation, but the fact that you have now resorted to pity to get food. 
+&gt;the cold has even frozen your pride it seems. 
+&gt;&#039;well listen hun, you let me get decent and I&#039;ll see if I can split you off a slice of that. How&#039;s that sound big man?&#039; 
+She calls out to you through the window.
+&gt;nice again you nod, after a few moments she tells you to come inside 
+ 
+&gt;It&#039;s a large home, built into the side of the cement walls, it is roomier on the inside. The outter structure giving it a sense of being smaller than it is. 
+&gt;The front door was a bit of a squeeze, but inside you could actually move fairly freely. The walls seeming carved into the cement and the bedrock behind them. Small shelves were sanded and shaped into the stone. Like a natural building material. To your left a small wooden table and chairs form a rather homely kitchen. Separated from the rest by a archway of cement. The pieces of furniture seemed hand crafted, much like the rest of the home. 
+&gt;&quot;So Sug, you gonna give me a name? Or am I just gonna call ya &#039;peeping ton&#039;?&quot; The rat woman spoke from further into the building, her southern drawl bouncing off the cement walls. 
+&gt;&#039;Anon, my name&#039;s anon&#039;
+ 
+&gt;For a moment you&#039;re wondering to yourself how exactly this situation will play out. You&#039;ve had your fair share of struggle, you knew what life was like outside of the underground, outside of this little haven. Don&#039;t ruin this gift of a new life you&#039;ve been given.
+&gt;Despite the smells, despite the cramped conditions, the cold, the wet walls and floors.
+&gt;Despite all that, it was a thousand times better than what lay above. 
+&gt;You chastise yourself for even thinking about it, thinking about the surface. How the sun shines , deceptively giving a hint of normality in that mad dying world. 
+&gt;&quot;Anon? funny name for a human. I&#039;m...&quot;
+&gt;How the light reflects off their eyes, how they always seem to follow you, no matter where you hide. As long as the sun is shining they can find you, striding slowly and confidently, they never run, only keeping that long patient stride on distorted limbs. 
+&gt;&quot;Anon, you okay?&quot; 
+&gt;How many close calls have you had? Waking up to see them inches from you, their long spindly fingers like the roots of a tree, numerous, and always reaching. 
+&gt;&quot;Anon, snap out of it&quot;
+&gt;How long do you think you can outrun them? Some day, it will rain, washing this place away, will you drown? Or will you return to the surface, to the sun, to their deadly waiting grasp?
+ 
+&gt;A strong hit to the hip wakes you from....whatever that was.
+&gt;You return back to reality to find the rat that had offered you to come inside was now fully dressed. Her arms were crossed, her expression a mixture of anger melting into concern. 
+&gt;&quot;You okay there Hun?&quot; 
+&gt;She was a taller rat than most, about 3 foot 5, plain grey brown with a long streak of white across her belly. Where It began was covered (barely) by a plaid short sleeve shirt, tied in a knot at the bottom button. Her country style shirt was paired with a pair of worn grayish blue jean shorts. 
+&gt;&quot;well now, make yourself at home doll&quot;
+&gt;At the small woman&#039;s request, you begin to take your old ragged boots off, and a quick shrug takes care of your jacket. You feel a little warmer now that you have solid walls on all sides of you, but it&#039;s still not much. 
+&gt;The air is still and fragrant here, the smell of tilled dirt, fresh baking, and something else. Familiar, yet not recognized. 
+&gt;The small rat begins moving your jacket to a coat rack fashioned from what you assume to be a piece of drift wood or carved from a pallet.
+&gt;&quot;I must be getting better at baking if you managed to smell it all the way across town.&quot; She says suddenly, trying to roll the excess of your jacket off the floor.
+&gt;&quot;Across town?&quot; 
+&gt;&quot;Yeah, you&#039;re usually off in that little tunnel on the other side of town. Where you&#039;ve been since you&#039;ve arrived here.&quot;
+&gt;&quot;I&#039;m surprised you know that, since i don&#039;t believe we&#039;ve met.&quot; You say, slightly unnerved by this woman&#039;s knowledge of you.
+&gt;&quot;Of course I know, whole town knows of you, you&#039;re the only human to come this way in, well about 5 or so years. Not many of your around to begin with, no offense.&quot; She says
+&gt;She&#039;s moved to the pie now, cutting the pie down into 6th&#039;s. Using a blade that is in surprisingly good condition. You can&#039;t even remember the last time you saw a kitchen knife that wasn&#039;t being used as some form of weapon, or rusted to hell. 
+&gt;&quot;Name&#039;s Sally by the way Sally Lee Allen&quot; She says, breaking the silence. You briefly wonder if that&#039;s a name she gave to herself or if it is one given by-
+&gt;&quot;Apparently my father was named after some Scientist&#039;s son. When I was born my dad gave me the name Sally, and I took the rest of his.&quot; She says, answering your question before you could ask it.
+&gt;The rats were born from laboratories, when things started to fall apart, they were given sentience. Taught language and somewhat spliced with human DNA. Many species have taken on these traits.
+&gt;&quot;Well sug, lets talk more over supper&quot;
+&gt;Sally moves about in her small homey little kitchen and motions for you to join her inside.
+&gt;her stove consisting of a Toaster Oven with a hotplate on top. 
+&gt;The refrigerator is basically just camping cooler with some form of jury rigged system strapped to the back. 
+&gt;Other than the two glaringly obvious differences, it looks just like a standard human kitchen, only shrunk down. 
+&gt;You take a knee and decide to join her at the table. She has already prepared a plate for you. 
+&gt;wasting no time, you begin to dig into the one thing that brought you here. It is as delicious as you expect it to be.
+&gt;&quot;Woah now hun, it ain&#039;t a race. Don&#039;t eat too fast, I can&#039;t exactly help you if you start choking&quot; Sally says, looking rather stupefied at the speed of your eating. 
+&gt;You can&#039;t help it really, you haven&#039;t had something to eat this good since..well, you&#039;d rather not think about it right now. 
+&gt;You make short work of the first slice of pie, you even lick the crumbs from the plate. 
+&gt;&quot;So Anon, you seem like you&#039;re pretty hungry. You don&#039;t eat much at home?&quot; 
+&gt;She&#039;s begun to work into her own piece, careful and proper, fork and knife in hand. Much more civilized compared to your ravenous shoveling by hand. 
+&gt;&quot;No food, no real home, not when there is no work&quot;
+&gt;&quot;Ahh, I can imagine it&#039;s hard to get Yews this time of the year, with the celebrations, all those days without anybody doing anything.&quot; 
+&gt;Yews were the currency that the rats used, based around some form of old coin or trinket that was commonly found, it consisted of a copper colored coin the size of a fifty cent piece, on it was a engraving of a Yew tree, Thus the name &#039;Yews&#039;.
+&gt;You only had a handful of them, a few you needed to ration out. 
+&gt;She seems to have noticed your saddened expression, hard to hide it when you think of the few coins you have left. 
+&gt;&quot;Listen anon, I know we barely know each other, but you seem like a good young man, have a yew&quot;
+End of Chapter 1
+
+Chapter 2
+&gt;The meal soon comes to a close, much to your dismay, this pie is not of the unending variety. 
+&gt;You decide to help Sally with the dishes, to help repay her sudden but warmly received hospitality. 
+&gt;Speaking of your small rodent host, her voice calls for you from an adjacent room. 
+&gt;&quot;So anon, do you have a place to stay?&quot; She asks 
+&gt;&quot;No, but I&#039;ll live, don&#039;t wor-&quot; You try to politely refuse her offer, but she isn&#039;t having any of it. 
+&gt;&quot;Well I&#039;m not about to let you go back out on the street, you can spend the night here. Unless you&#039;d prefer the ice and cold, don&#039;t worry, you aren&#039;t going to be a burden.&quot; She says, walking back into the kitchen, seemingly reading your mind. 
+&gt;You want to argue, but your body seems to interject with an opinion of it&#039;s own, taking the form of a sudden outburst of pain in your sore muscles.
+&gt;You try to hide the soreness and pain, but it&#039;s no use, her eyes are glued to your face, reading your expression. As you wince, you can still make out her face, she&#039;s concerned. You don&#039;t want her to worry about you, she&#039;s a stranger. 
+&gt;You&#039;ve spent so long being alone, wandering, scavenging, fighting, surviving. For so long, you&#039;ve come to learn to take care of yourself. To do things for yourself, by yourself. Now here&#039;s this woman that not even 6 hours ago you didn&#039;t even know her name. Offering you to stay, feeding you, giving you a home for the night. 
+&gt;The Cynical parts of your mind tell you that she has an agenda, she&#039;d never invite you in unless she had some sort of ulterior motive.
+&gt;&quot;I&#039;d offer painkillers, but they aren&#039;t exactly made for humans....I got aspirin.&quot; She says, rooting through a small cupboard next to her &#039;stove&#039;. It isn&#039;t til now that you take a closer look at her. 
+&gt;You wouldn&#039;t say that Sally is entirely fat, but while she has a bit of pudge, you can clearly see a light outline of hard muscle on her thighs. Her hips meet them in a lovely and shapely curve, were her clothes always this tight? 
+&gt;Her tail seems to somewhat shaved, not a hair is visible on it&#039;s long serpentine length. It looks quite smooth for a rat tail. When she bends over, her tail seems to dance in the air, like a blade of grass being pushed by the breeze. It also seems a little on the long side compared to the other rats you&#039;ve seen. 
+&gt;The long appendage tapers down into a rather thick base, connected to her rather &#039;sizeable&#039; hips. 
+&gt;She&#039;s got a body shaped like a pear, with a strong but soft physique. 
+&gt;As your eyes move up her back, they catch something that halts your lecherous gaze flat, her eyes staring back at you. 
+&gt;You want to make an excuse, but she&#039;s just smiling at you. Her lids lowered as she focuses right at you, she knows what you&#039;ve been looking at. 
+&gt;&quot;I&#039;m afraid I&#039;m all out Sug&quot; She says, turning to face you.
+&gt;What do you say we get you settled in? I hope you don&#039;t mind sharing a bed. My couch isn&#039;t big enough.&quot; 
+&gt;Her words trail behind her, dripping with a tone of intent.
+&gt;As she leaves, her hips seem to sway rather &#039;purposefully&#039; 
+&gt;Perhaps she has an agenda after all.
+
+&gt;You follow the small rodent woman into the next room, taking a moment to take in the change in scenery. 
+&gt;It&#039;s much larger than the kitchen, looking like a mix between a living room, a workshop, and a study. 
+&gt;a large bookshelf completely covers one of the walls, it&#039;s wood stained a dark walnut brown, row after row of instruction manuals, woodworking books, and general DIY books fill the shelves. 
+&gt;The whole room has been carved and sanded down from granite bedrock, giving the walls a somewhat curved appearance. 
+&gt;On of the walls has a &#039;mantle&#039; of sorts, a large metal canister forming a home made fireplace of sorts. Two large Copper pipes go into it on either side, with a third pipe coming out of the top of the fireplace, into the ceiling above. You assume it must be some form of Chimney, where it goes you do not know. 
+&gt;Opening the fireplace briefly, you see that the copper pipe on the left side of the fireplace forms a large coil in the center, before curving down and exiting through another pipe that goes into the back wall. The right side pipe connects to some form of nozzle. Blue flames emanate from the nozzle below, heating the coil. 
+&gt;A water heater, and fireplace, all in one. 
+&gt;Sally must be quite the builder. 
+&gt;Everything in the room has a professional but hand made feeling to it, worked over by diligent and skilled hands...er, paws? 
+&gt;Semantics.
+&gt;Next to her book shelf on a adjacent wall is a fairly large (for a rat) workbench, it seems quite messy. Various materials and contraptions seem to be placed on the bench, forming some kind of chaotic order only known to Sally. 
+&gt;Locked into a vise, is a double barreled shotgun, the trigger, firing pins, and other components have been changed. Looking around, you see that a a set of smaller rifles have been stripped apart, one of which has a long split down the barrel, the other has a torn apart stock
+&gt;a large split in the wood seems to be darkened with a dark brown mud. 
+&gt;Or dried blood.
+&gt;Several small boxes of .410 and 12 gauge shotgun rounds are scattered across the table, as well as a small bowl of powder. 
+&gt;&quot;The big rounds are too much for little ol me, unfortunately. I used to have two .410&#039;s, but as you can see they are no longer in working order.&quot; Sally says from behind you, her eyes flicker  with the fireplaces mild blue light. A faint smile across her face. 
+&gt;&quot;I only had a double barrel kicking around, but it was built strictly for 12 gauge. I&#039;ve been trying to modify it to take smaller rounds. No luck so far.&quot;
+&gt;&quot;You seem to pretty skilled at this, but how comes none of the other rats carry guns?&quot; You say, still looking over the old world piece of metal and wood. You remember the day you first arrived in this place. The guards at the gate waved you in with machetes, pole arms, and cross bows. But no guns to be seen.
+&gt;&quot;The others who sit on guard duty are all men, men are not allowed firearms here.&quot; 
+&gt;You look back at her and see that she is leaning on the back of her couch. Her gaze fixed to the floor, her smile replaced with a look of contemplation, and maybe, sadness?
+&gt;&quot;The matriarch&#039;s do not allow men to carry guns, that is a right only given to interior officers, not border guards or any men in the village. I get away with it because without me nobody would be able to fix em. The men don&#039;t get to use them ever.&quot; 
+&gt;She lets out a long sigh and turns her head to look you in the eye. 
+&gt;&quot;Be glad you weren&#039;t born a rat, anon&quot;
+&gt;You look back at the gun in the vise, then back to her. Her face seems to be locked on you. Her eyes scanning your face. 
+&gt;&quot;These matriarch&#039;s they run things around here?&quot; 
+&gt;&quot;Run? Ha! They sit on their asses, popping out kids, and bossing everyone around. They don&#039;t work, they don&#039;t do much of anything but tell everyone how to work and reap all the rewards. If they aren&#039;t looking down at you, they are trying to exploit you.&quot; 
+&gt;She&#039;s fired up now, her hands seem to come alive with expressive gestures. Her teeth show every time she mentions &#039;they, or &#039;them&#039;. One of her hands is tightly closed around the top of the sofa. Lord only knows what she&#039;d do if she had one of these women in front of her. 
+&gt; When she&#039;s done speaking her piece, the fire that was suddenly lit in her, dies. She sighs deeply and the previous energy and passion are gone. All that remains is a look of annoyance, her eyes half lidded and tired. 
+&gt;&quot;So, you seem to be quite skilled with your hands.&quot; You say, trying to steer her out of her current mood. 
+&gt;&quot;yeah, I&#039;ve always had a knack for putting things back together. My dad was rather old when I was born. So he could never fix things himself. So my dad taught me how to do things myself. &#039;Sally you can&#039;t always find a replacement for what it is you need, so you need to fix it&#039; he&#039;d say, then he&#039;d send me off to go fix something for him. I always used to hate it, but in hindsight, I am glad he did. When he passed, I had all the skills I needed to make a living for myself.&quot; The blue light of the fireplace shines off her eyes, and her large front teeth, illuminating the nostalgia in her expression. Her eyes gazing into a time long since passed. 
+&gt;&quot;What about you Anon?&quot;
+&gt;&quot;Me? Not much to say, I was born topside. But I can&#039;t particularly remember my mom or dad. I&#039;ve just been living day to day. Wandering the wastes. Eventually I got tired of being on the surface and came here, willing to do anything to get a Yew or two. Been working for the guys who do construction and  moving, near the edge of town for a week or two, Finn and what&#039;s his name.&quot; 
+&gt;&quot;Finn and Vinnie?&quot; She says, raised a brow. 
+&gt;&quot;Yeah, those two, good guys. First people to offer me work here, everyone else here avoids me like the plague, except you of course. But I can&#039;t say I blame them.&quot;
+&gt;&quot;Yeah they are good guys, wish other people would be as open minded as them. They&#039;re some of the better residents of Underfoot&quot; She says.
+&gt;You remember when you first met them, you were being questioned by the border guards, pikes in hand when they came around. They must&#039;ve seen something in you because they offered you work on the spot. 
+&gt;Finn with his almost comedically sized Cigars, and Vinnie with his equally oversized newspaper boy hat. They had a chat in private with one of the heads of the border guard, then brought you in for work, one of the few human visitors of Underfoot. 
+&gt;They had even offered to house you at one point, but you were too large to fit in any of the spare space they had in their rat sized &#039;warehouse&#039;. 
+&gt;If you could even call it a warehouse, it was a small offset room that must&#039;ve been used as a room for checking various instruments, valves, and other read out materials for the sewer, as it had a hermetically sealed door with large drained floors. 
+&gt;Various piles of odds and ends piled onto neatly rowed palettes, electronics, old machines, wood, metal, etc. All kinds of things to be picked apart and used for things that would never be covered by a warranty. 
+&gt;&quot;So Anon, are you seeing anyone?&quot;
+&gt;The sudden personal question drags you rapidly back to reality.
+&gt;&quot;Uh, nah n-not really. Why?&quot; You stammer, the room seemingly getting hotter as you  rub the back of your head. The sudden and forward question throwing you off your game. 
+&gt;&quot;Because I have a proposition for you, if you&#039;re interested.&quot; Sally says, swaying her hips in a very purposeful manner, leaving a trail of words dripping with flirtation as she leaves the room. 
+&gt;&quot;That depends on the proposition, I mean. You did just meet me&quot; You say, trying not to get ahead of yourself, she may have something not sexual in mind you tell yourself. 
+&gt;&quot;Well Sug, humans can&#039;t detect pheromones, and I have never been a fan of being overly subtle.&quot; 
+&gt;With that said, she returns to the room. Leaning up against the door frame between her workshop and another room. 
+&gt;You try your best not to drop your jaw as she sits fully in the nude, her breasts released from her short shirt, now sitting open and perky in the air. The Fireplace illuminating her full frame, 
+&gt;&quot;Ummm uh...&quot; You try your best not to spill your spaghetti as she begins to take her turn at eyeing you up. Smiling with interest at what she sees. 
+&gt;&quot;My proposition is this. I haven&#039;t gotten any in years, and I can assume that neither have you. So how about you come over here and fuck me til I can&#039;t walk anymore?&quot; She says, confidently striding towards you til she is staring almost straight up at you. Her eyes seemingly made for bedrooms. 
+&gt;You try your best to avoid popping a boner straight into her face as she wraps her small nimble hand around your belt. 
+&gt;She opens one of her hands to reveal a handful of copper yew&#039;s, slowly putting them into your pocket. 
+&gt;&quot;I can even pay you, and you can be as rough as you want.&quot; She says. If you didn&#039;t know any better, you&#039;d say she was treating you like an escort. You&#039;d be willing to protest that, had her hands not found their way to the bulge in your pants.
+&gt;&quot;Oh my, I bet you&#039;re gonna feel huge...&quot; Her snout opening wide as she runs a long rat tongue along the front of your bulge, then clamping her teeth shut on the zipper of your fly. 
+&gt;&quot;Sally I don&#039;t know about this, I mean we did just meet. This is a little sudden&quot;You try to protest, not sure whether to give in or refuse her. Lord knows you wouldn&#039;t be against it, but someone being so...forward. Was off putting to say the least.
+&gt;&quot;Look anon, you don&#039;t have to if you don&#039;t want to. You can say no.&quot; She says, moving your fly down with her mouth., her hands reach into your pants and her hands begin to run along your balls. 
+&gt;&quot;Or you can say yes. And judging by how FULL these boys feel, I&#039;d say you are leaning towards the later Anon.&quot; 
+&gt;You reach down, and place a hand on her head, and she seemingly melts into your palm. Nuzzling it with the side of her head. It seems that she is more touch starved then you thought. 
+
+
+&gt;It is sudden, sudden enough to startle both of you from your activities as the piercing screech of an alarm rings though the entire town. The loud klaxon blaring with an almost ear splitting howl as the sound of a speaker comes into focus. 
+&gt;&quot;RESIDENTS OF UNDERFOOT, THIS IS AN EMERGENCY, ALL MALES ARE TO PROCEED TO THE NORTHERN GATE IMMEDIATELY, WOMEN AND CHILDREN ARE TO SEEK SHELTER IMMEDIATELY! WE ARE UNDER ATTACK, I REPEAT, WE ARE UNDER ATTACK. THIS IS NOT A DRILL.&quot;
+&gt;With the sudden outburst, Sally&#039;s demeanor immediately changes, she runs to the room she had previously emerged from, looking inside, you see that she is throwing on clothing as fast as she can. &gt;You take this time to pull up your fly. Somewhat annoyed at getting blue balled. 
+&gt;Sally quickly reemerges fully clothed. Now sporting a olive green vest under her shirt, with full leg jeans and combat boots. You feel a little under prepared as she begins loading a small Mauser pistol. Her face was focused with a almost murderous intent. If you didn&#039;t know better, you&#039;d say she was ready for war.  Her previous sexiness now replace with a air of dead seriousness. 
+&gt; &quot;Anon, bring me my shotgun.&quot;
+&gt;She didn&#039;t need to tell you twice.
+
+Chapter 3
+ [Gore present beyond this point]
+&gt;You are a little shocked at the chain of events that have happened this evening.
+&gt;First, you accidentally become a peeping tom, then you get taken in, then hit on, then paid, then outright proposed for sex, then an attack happens.
+&gt;You want to joke about something implausible happening next, but that may just happen at this rate.
+&gt;&quot;Here anon, take this. It&#039;s got supplies in it, hold onto it, we may get hurt.&quot; Sally says, her demeanor now stone-like compared to her previous sultry and seductive. Her eyes moving about the room, body a flurry of movement as she quickly gathers gear and weapons.
+&gt;&quot;Grab a weapon if you can find one, and get ready, we don&#039;t know whats out there&quot;
+&gt;You take a look around the workshop, there isn&#039;t much that can be effectively used to defend yourself. A rat sized sledgehammer and pick axe catch your eye, perched in the corner almost out of sight, you grab the hammer and lift it, it&#039;s small handle is lightweight, but still gives you enough length to wield it two handed if you so wish.
+&gt;&quot;Got one, hope you&#039;re not attached to it&quot; You yell out, turning to the busy body rat.
+&gt;&quot;Good, now get out here, there&#039;s some ground to cover between here and the north ga-&quot; The sentence is cut off with a deafening blast of sound, your ears ring a little with the sudden boom. Sally has already started using the shotgun.
+&gt;You quickly get your bearings and run through the small home, exiting her front door, you plunge into  a town in chaos.
+&gt;Sally is in the middle of the street, sending rounds down the middle of the street. Her eyes and actions showing a trained and experienced efficiency as she fires  and reloads in quick, fluid movements.
+&gt;You turn to take a look at what exactly she is aiming at, several large creatures lay on the far side of the tunnel, near where it turns onto a large street, their large bodies piled in a makeshift heap as a flurry of movement creeps over the top of the mound. A pair of predatory eyes reflect the light of the street with two large green gleams. Like shining a light at a animal at night.
+&gt;With little haste, the creature knocks down the mound of it&#039;s former comrades, and moves over them, entering the tunnel. Flashes of green behind it show that it is not alone.
+ 
+&gt;They are tall, around 5 to 6 feet tall, they stand hunched under the roof of the tunnel, however they are rather thin, with a forward leaning body. Large hairless tails trail behind them like large worms, skin brown with mud and the sewers natural filth.
+&gt;They look like the cross between a Cassowary and a crocodile. Their forearms are rather short, covered in small scales that are a salmon pink hue. Each hand curling into a small hand, two small claws sit on either side to a much larger middle claw.
+&gt;Similar can also be said of their digit-grad legs, which are longer and thicker compared to it&#039;s forearms.  Each foot adorned with a similar array of hook like claws. It&#039;s legs look like that of a chicken, as though it&#039;s maker could not decide whether to keep the scales or not.
+&gt;It&#039;s head, neck, back, shoulders, stomach, and behind are all covered in a thick plumage of dirtied white feathers. The thickest part of it&#039;s plumage is around it&#039;s shoulders, where it&#039;s long slender neck connects to it&#039;s shoulders.
+&gt;It&#039;s head is long and flat like a croc, with two large forward facing green eyes. However it possesses a large beak instead of a snout, it&#039;s mouth adorned with two large sets of canines, with a long row of back teeth reminding you of a large saw. It&#039;s vibrant green eyes sit fixated on you as it moves it&#039;s head to the side with a curious look, unsure what to make of you. As it looks to Sally however, it&#039;s demeanor changes, it&#039;s mouth opens wide in and an audible hissing sound emanates from the creatures throat. The others behind it begin to mimic the action as the first one charges through the mound of it&#039;s dead companions, the others following close behind.
+&gt;Food...
+ 
+&gt;Sally fires into the bottleneck, the first round of buckshot takes the rightmost creature down in a burst of feathers, collapsing into the dirt.
+&gt;As she loads in a new round, one of the creatures begins to close the gap between them. Rushing forward, fast and low, the raptor-like beast builds up speed and leaps forward, and moves upright like a kangaroo, it&#039;s body pushing back onto it&#039;s tail like a spring, it&#039;s large legs come up, it&#039;s claws scrape the ceiling hard as they come down, moving to gore into your rat friend like a meat hook.
+&gt;The hooks come down from their vicious descent....right into your shoulder.
+&gt;Fucking. OW.
+&gt;You weren&#039;t going to let her take on the group by herself. That&#039;s for damn sure.
+&gt;Your thick clothes stopped the claws from piercing very far, but you can still feel them hooking into the muscle. The creature moves back, not expecting you to be as sturdy as you look, it starts to fall backwards, trying to get you to the ground. With your unhindered arm, you swing the hammer into the creatures side, a sickening pop and a screech are the result as the pushes in the creatures ribs.
+&gt;The creature moves it&#039;s claws out of your shoulder and falls to the ground, kicking wildly into the air at you as it struggles to gain some footing.
+&gt;Sally catches you off guard with another blast from her shotgun, a large red ball the size of a softball appears in the creatures chest. It&#039;s struggling ceases quickly.
+&gt;The other creatures begin to mimic the others motion, while a handful of other hang back, waiting for an opportunity, or their turn...
+&gt;The first creature tries to lean back onto it&#039;s tail to strike, but you beat it to the punch.
+&gt;The hammer connects with creatures breast and sends it ground bound. For what they have in speed and claws, they lack in robustness as a second strike of the hammer hits it square in the guts, bits of organ and blood shoot out of what you assume to be it&#039;s colon.
+&gt;You look for the next creature to deal with as Sally loads lets loose another couple shots of lead into the crowd. A circle of bodies now your bulwark against the group of raptor-like animals.
+&gt;One of them changes strategy, ramming head first into you, the sudden headbutt causes you to stumble. It grabs hold of your jacket and uses that to get a hold of you, you kick at it to try and force it off when a second one follows it&#039;s lead, ramming headlong into you. Your already uneasy stance buckles and sends the three of you to the floor.
+&gt;Not letting yourself get picked apart, you push the second creature off just enough to get your hammer holding hand free, sending the hardened steel right into the first ones neck. As you struggle to hit it, your vision is obscured by the feathery mass that rammed you, now laying across your face.
+&gt;You keep swinging at the one with a hold on you, it&#039;s legs try yo reach up and tear into you, but can&#039;t get solid footing. You kick and try to lift your hips in a desperate bid to get it off you. The beast covering your face sends a red hot slash across your chest with on of it&#039;s clawed hind legs.
+&gt;You scream into the feathered heap and bite down hard, illiciting a scream from your feathered assailant.
+&gt;In a fury of adrenaline and pain, you elbow check the second beast off, trying to avoid the flurry of leg kicks as you get a chance to bring the hammer down again, onto the first beasts neck. You wince and yell out in pain as some of the momentum causes the neck to get shoved hard into your balls. Feeling absolutely furious, you push the now limp creature off your tattered chest and grab the second one by the tail.
+&gt;Pinning it onto it&#039;s stomach, you mount the creatures backside and hold it&#039;s neck with your free hand. Your shoulder feels numb at this point.
+&gt;The creatures legs thrashes as it struggles, arms pinned into it&#039;s body. You hold it&#039;s neck as you prepare to swing, but get taken off guard as it moves it&#039;s head just far back enough to grab a hold of your bicep in it&#039;s jaw. It&#039;s teeth are like red hot knives running along your skin.
+&gt;You swing the hammer down into it&#039;s neck, the creature immediately let&#039;s go and begins a loud drawn out yell. With a renewed vigor, you grab the beast just behind the head and bring the hammer down for a second swing, meeting it&#039;s mark at the top of the beasts head.
+&gt;It&#039;s head, being crushed between the cement floor and a 10lb piece of steel, splatters outwards. Eyes pop from their sockets, it&#039;s beak breaks and buckles out of position from the force.
+&gt;The creature let&#039;s out a series of instinctual kicks before twitching into stillness.
+ 
+&gt;You hurt, alot. More then you remember having ever hurt before.
+&gt;Giving a look to Sally, she seems to share your pain, in more ways than one.
+&gt;A large gash is present on  her right ear, and her tail seems to have lost about 3 inches of length to it.
+&gt;The front of her outfit is in pieces, burlap and cotton torn away to reveal a steel plate inside her chest rig.
+&gt;Quickly you look to the tunnel, the rest of the creatures have their exit, by foot or by bullet.
+&gt;&quot;Are you hurt?&quot; You ask her, pulling her out of her combat fog.
+&gt;&quot;Yeah, I&#039;m fine sug... Jesus you&#039;re hurt bad!&quot; Sally exclaims, rushing to your side, she reaches under one of the dead creatures and takes out the bag. It must&#039;ve come off during the fighting.
+&gt;&quot;I&#039;m fine, just need to stop the bleeding.&quot; You say, trying to assuage her worry.
+&gt;As she pulls medical supplies from the bag, you begin to assess your damage.
+&gt;Your left arm has a punctured shoulder, the bicep has a large circle of holes in it, with  dark red blood seeping out of it. The sleeve has been almost entirely torn away. Your chest has been torn into, with fabric dangling around your waist, exposing you to the cold sewer air.
+&gt;With a surprising speed, Sally pours rubbing alcohol over the wounds, illiciting a hiss, but before you know it, your wounds are bandaged.
+&gt;&quot;I hope you were right about being okay. There&#039;s still fighting going on elsewhere.&quot; She says, putting the leftover supplies back in the bag. Briefly, a bright silver object falls from the bag, catching your eye.
+&gt;It&#039;s a long tapered cylinder, brushed stainless steel, polished. A black cap sits on the untapered end with two buttons. You look to sally and she quickly blushes.
+&gt;&quot; I must&#039;ve had it in there from another time, I-I don&#039;t know how it got in there!&quot; She stammers, she looks adorable when she&#039;s embarrassed, shielding her face with her hand while pulling it out of your hand with the other. You have zero idea what it is.
+&gt;&quot;What is it?&quot;
+&gt;&quot;You&#039;ve never seen one of these?&quot;
+&gt;&quot;Nothing that I remember, what does it do?&quot;
+&gt;&quot;Sweetie, wait til all this is over and I&#039;ll show you.&quot; She says, a smirk growing on her blushing face.</textarea>
+    
+        <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/cBbWma3n">Calcular e média de um aluno</a>
+                <div class="details">
+                                            Python |
+                    
+                    9 min ago                </div>
+            </li>
+                    <li>
+                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
+                <div class="details">
+                                            Python |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
+                <div class="details">
+                                            HTML 5 |
+                    
+                    29 min ago                </div>
+            </li>
+                    <li>
+                <a href="/btQEV0ET">Programming - practice</a>
+                <div class="details">
+                                            Java |
+                    
+                    60 min ago                </div>
+            </li>
+                    <li>
+                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/puJtA4QV">views.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/XgV1xT3P">forms.py</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/uxEpBHki">K1_as</a>
+                <div class="details">
+                                            C# |
+                    
+                    1 hour ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+        
+        
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
+<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
+</body>
+</html>

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Missing In Action - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Missing In Action - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/buZNVdjG" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/buZNVdjG" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="hIzY6rVaRXNaoQucfCquKs_nEsH_g6YMxV5OggFhxWLd1qKYwWwIBR3nRdUYQO1t9oVD7Ma70U2KOA_RcwPxAA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+        
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+                        <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+                        <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+                        
+                                    
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    
+    <div class="details">
+                    <div class="share h_800">
+                <div data-url="https://pastebin.com/buZNVdjG" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+                <div data-url="https://pastebin.com/buZNVdjG" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+            </div>
+                <div class="user-icon">
+                            <img src="/cache/img/18/5/23/3472825.jpg" alt="mac10_and_cheese">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Missing In Action</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/mac10_and_cheese">mac10_and_cheese</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=mac10_and_cheese" class="message" title="Send a private message to: mac10_and_cheese"></a>
+                                    
+                <div class="date">
+                    <span title="Tuesday 17th of April 2018 03:27:17 PM CDT">Apr 17th, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,377                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 18.09 KB            </div>
+
+            <div class="right">
+                                    <a href="/raw/buZNVdjG" class="btn -small">raw</a>
+                    <a href="/dl/buZNVdjG" class="btn -small">download</a>
+                    <a href="/clone/buZNVdjG" class="btn -small h_800">clone</a>
+                    <a href="/embed/buZNVdjG" class="btn -small h_800">embed</a>
+                    <a href="/print/buZNVdjG" class="btn -small h_800">print</a>
+                
+                                    <a href="/report/buZNVdjG" class="btn -small">report</a>
+                
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">themed music for faggot LARPers: https://youtu.be/beFSTGAh4lY</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Be Anon</div></li><li class="li1"><div class="de1">&gt;PFC Anon, actually</div></li><li class="li1"><div class="de1">&gt;PFC Anon, 25th Infantry Division</div></li><li class="li1"><div class="de1">&gt;You were just another grunt in the hot Vietnam jungle</div></li><li class="li1"><div class="de1">&gt;it ain&#039;t me starts playing</div></li><li class="li1"><div class="de1">&gt;When draft time came around you pulled the short straw, and now here you were</div></li><li class="li1"><div class="de1">&gt;It fucking sucked and you miss your family</div></li><li class="li1"><div class="de1">&gt;Everything is extremely hot and humid, like Satan&#039;s version of Florida</div></li><li class="li1"><div class="de1">&gt;You are a member of a &quot;tunnel rat&quot; unit</div></li><li class="li1"><div class="de1">&gt;You and your battle buddies get stuffed down dark holes full of angry VC and traps with just a pistol and a flashlighthy </div></li><li class="li1"><div class="de1">&gt;It&#039;s real dangerous work</div></li><li class="li1"><div class="de1">&gt;Just last week you lost a man to a pit full of shit covered punji sticks</div></li><li class="li1"><div class="de1">&gt;Last you heard of him he was getting pumped full of antibiotics after getting his leg amputated</div></li><li class="li1"><div class="de1">&gt;You got some time off after that, which was nice</div></li><li class="li1"><div class="de1">&gt;it&#039;s hard to care when you&#039;ve become so jaded</div></li><li class="li1"><div class="de1">&gt;Now you&#039;re sitting in the back of a helicopter with your comrades</div></li><li class="li1"><div class="de1">&gt;sympathy for the devil starts playing</div></li><li class="li1"><div class="de1">&gt;Some other unit reported some tunnels in an area they had secured</div></li><li class="li1"><div class="de1">&gt;Fucking pussies wouldn&#039;t clear it themselves so they radioed home and now it&#039;s your problem</div></li><li class="li1"><div class="de1">&gt;The helicopter sets down in a clearing, and your fireteam leader yells over the noise of the spinning blades for you to disembark</div></li><li class="li1"><div class="de1">&gt;The team spreads out around the helicopter as it takes off</div></li><li class="li1"><div class="de1">&gt;&quot;Alright, get over here you all&quot; your leader shouts</div></li><li class="li1"><div class="de1">&gt;Your comrades were everything BUT gentle</div></li><li class="li1"><div class="de1">&gt;&quot;We&#039;ve got a short hike to the tunnels, so keep your boots on&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Seven miles west, through enemy territory&quot;</div></li><li class="li1"><div class="de1">&gt;What was the fucking helicopter for, then?</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, and you&#039;re taking point, Anon&quot;</div></li><li class="li1"><div class="de1">&gt;Triplefuckzingshittits</div></li><li class="li1"><div class="de1">&gt;Pointmen were always the first to step on the traps</div></li><li class="li1"><div class="de1">&gt;fucking gay</div></li><li class="li1"><div class="de1">&gt;You take your first few steps into the heavy green bush</div></li><li class="li1"><div class="de1">&gt;Fortunately, the hike is uneventful, although you almost shat yourself and squealed like a girl when you stepped on a snake</div></li><li class="li1"><div class="de1">&gt;More fuel for the guys to tease you about, great</div></li><li class="li1"><div class="de1">&gt;You would have missed the other unit entirely if it wasn&#039;t for the fat boxy APC they had with them</div></li><li class="li1"><div class="de1">&gt;After exchanging unenthusiastic greetings with them, you are your team are grouped around a small hole in the ground</div></li><li class="li1"><div class="de1">&gt;&quot;You check this one, Anon. We got a few more over here&quot;</div></li><li class="li1"><div class="de1">&gt;Time to get messy</div></li><li class="li1"><div class="de1">&gt;You lay your rifle on the ground and take off your shirt</div></li><li class="li1"><div class="de1">&gt;No need for modesty, it gets super hot out here</div></li><li class="li1"><div class="de1">&gt;With your revolver in your right hand and a flashlight in your left, you descend into the cramped tunnel</div></li><li class="li1"><div class="de1">&gt;You wiggle through the tunnel, stopping to check every inch of tunnel before you</div></li><li class="li1"><div class="de1">&gt;You brain chooses this moment remember how some VC release venomous snakes into their tunnels</div></li><li class="li1"><div class="de1">&gt;Best not to think about it</div></li><li class="li1"><div class="de1">&gt;Not much later, and without any more snakes, you reach a large chamber you can squat down in</div></li><li class="li1"><div class="de1">&gt;The room is stacked full of crates, and a quick peek through the a lid reveals the regular assortmenr of rusty weapons</div></li><li class="li1"><div class="de1">&gt;Gonna need to crawl back and report it</div></li><li class="li1"><div class="de1">&gt;Before you can take a single step, you hear all hell break loose outside</div></li><li class="li1"><div class="de1">&gt;Some big explosions rock the tunnel, threatening to collapse</div></li><li class="li1"><div class="de1">&gt;A machine gun opens up, firing for a good few seconds before there&#039;s a break</div></li><li class="li1"><div class="de1">&gt;&quot;Anon! Get your ass back out here!&quot; someone shouts down</div></li><li class="li1"><div class="de1">&gt;Don&#039;t need to hear it twice, you&#039;re out of there</div></li><li class="li1"><div class="de1">&gt;Despite crawling as fast as you can, it still takes you a minute to reach the opening</div></li><li class="li1"><div class="de1">&gt;As you poke your head out of the hole, you see things are not looking good</div></li><li class="li1"><div class="de1">&gt;The APC was now a burning husk, and the last few green uniformed men you could see were retreating into the brush</div></li><li class="li1"><div class="de1">&gt;In between you and them was a wall of very angry farmers</div></li><li class="li1"><div class="de1">&gt;With guns</div></li><li class="li1"><div class="de1">&gt;One of them turns their head, and your heart stops</div></li><li class="li1"><div class="de1">&gt;&quot;Lính kẻ thù!&quot;</div></li><li class="li1"><div class="de1">&gt;You&#039;ve heard enough escaped POW stories to know what they would do to you</div></li><li class="li1"><div class="de1">&gt;No need to think, you leap out of the hole and sprint at thr closest treeline</div></li><li class="li1"><div class="de1">&gt;You can hear some men in hot pursuit, but a healthy diet of C rations has kept your body in tip top shape, and the malnourished VC in the dust</div></li><li class="li1"><div class="de1">&gt;Nah not really, you&#039;re panting like a dog</div></li><li class="li1"><div class="de1">&gt;After what feels like years of lung burning sprinting you realize you&#039;ve lost them, and fall over against a tree, utterly spent</div></li><li class="li1"><div class="de1">&gt;Popping open your canteen, you take stock of your surroundings</div></li><li class="li1"><div class="de1">&gt;This is a swamplike area, with a murky, wide river</div></li><li class="li1"><div class="de1">&gt;Time to take inventory</div></li><li class="li1"><div class="de1">&gt;Water, check</div></li><li class="li1"><div class="de1">&gt;Rations, check</div></li><li class="li1"><div class="de1">&gt;Gun, ch- wait. Where&#039;s your gun?</div></li><li class="li1"><div class="de1">&gt;Fuck, somehow you managed to lose your only firearm, and now you are knee deep in enemy territory</div></li><li class="li1"><div class="de1">&gt;Worst of all, your socks are getting kind of wet</div></li><li class="li1"><div class="de1">&gt;Sighing, you remove your socks</div></li><li class="li1"><div class="de1">&gt;With absolutely no idea where you are, and the rapidly approaching night combined with your severe exhaustion, you can&#039;t help but drift off to sleep...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You feel something isn&#039;t right</div></li><li class="li1"><div class="de1">&gt;And not just because you are hiding from crazy commie rice farmers</div></li><li class="li1"><div class="de1">&gt;Like... something else is there</div></li><li class="li1"><div class="de1">&gt;It&#039;s hard to describe, but you are awake now and you can&#039;t fall asleep again</div></li><li class="li1"><div class="de1">&gt;You sit still, listening to the bugs ask each other to fuck or whatever those noises mean</div></li><li class="li1"><div class="de1">&gt;The moonlight gleams off of the black river surface, giving you a nice look at the otherworldly pale disc</div></li><li class="li1"><div class="de1">&gt;Then it breaks</div></li><li class="li1"><div class="de1">&gt;Something... is standing up in the water</div></li><li class="li1"><div class="de1">&gt;Is that a man? It&#039;s shaped like a human</div></li><li class="li1"><div class="de1">&gt;No, it&#039;s much too large</div></li><li class="li1"><div class="de1">&gt;The shape could easily dwarf any man in your company</div></li><li class="li1"><div class="de1">&gt;Maybe you&#039;re hallucinating. That thing can&#039;t be real</div></li><li class="li1"><div class="de1">&gt;You decide to hold completely still, and pray it hadn&#039;t noticed you</div></li><li class="li1"><div class="de1">&gt;No luck</div></li><li class="li1"><div class="de1">&gt;The creature has apparently reaced full height, and is now lumbering slowly towards you</div></li><li class="li1"><div class="de1">&gt;A good estimate would be somewhere around 7 feet tall</div></li><li class="li1"><div class="de1">&gt;You begin to panic</div></li><li class="li1"><div class="de1">&gt;Being torn apart by a supernatural monster in the backcountry of a warzone was NOT your idea of an end to a life well lived</div></li><li class="li1"><div class="de1">&gt;Stay calm, Anon! You&#039;re a soldier! Think back to your training!</div></li><li class="li1"><div class="de1">&gt;The monster is about a car&#039;s length away from you now, and it stopped, as if to stare at you</div></li><li class="li1"><div class="de1">&gt;Try to remember some of the basics of CQC</div></li><li class="li1"><div class="de1">&gt;fail</div></li><li class="li1"><div class="de1">&gt;Frantic with fear, you grab the largest stick in reach, and charge the thing, yelling and swinging like a coked up baseball player</div></li><li class="li1"><div class="de1">&gt;With a single swipe, you&#039;re off your feet, and sail though the air right back into the tree you were leaning against</div></li><li class="li1"><div class="de1">&gt;Was that crack your stick or your spine?</div></li><li class="li1"><div class="de1">&gt;Ow, you kinda feel it now</div></li><li class="li1"><div class="de1">&gt;Everything goes black</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Slowly, your eyelids open</div></li><li class="li1"><div class="de1">&gt;You are in a hut, made out of a mixture of clay and earth</div></li><li class="li1"><div class="de1">&gt;Thankfully, the beast is nowhere in sight</div></li><li class="li1"><div class="de1">&gt;You definitely have broken something, but not your spine</div></li><li class="li1"><div class="de1">&gt;Moving to get up from your position on the floor zaps you with pain, but its better than waiting for that thing to come back</div></li><li class="li1"><div class="de1">&gt;Biting your lip, you pull your self up to your feet</div></li><li class="li1"><div class="de1">&gt;The hut is quite modest, with a sleeping bag, stool, and some boxes</div></li><li class="li1"><div class="de1">&gt;Mounted above the doorway a Kalashnikov rifle is displayed</div></li><li class="li1"><div class="de1">&gt;Tugging at it only succeeds in reigniting your pain, so you stop and step out of the hut</div></li><li class="li1"><div class="de1">&gt;You nearly piss yourself</div></li><li class="li1"><div class="de1">&gt;The monster, more clearly visible in the daylight, facing away from you</div></li><li class="li1"><div class="de1">&gt;And... it&#039;s a female?</div></li><li class="li1"><div class="de1">&gt;She was at least eight feet tall, and very muscular</div></li><li class="li1"><div class="de1">&gt;She had a nice set of hips and thighs too</div></li><li class="li1"><div class="de1">&gt;But, most noticeably, her body is covered by thick, shiny scales, creating an impressive layer of biological armor, although it seems to get a bit softer around her ass and</div></li><li class="li1"><div class="de1">&gt;Her large head has the long and powerful face of an alligator</div></li><li class="li1"><div class="de1">&gt;Wait, alligators only live back in the States, right? She must be a crocodile</div></li><li class="li1"><div class="de1">&gt;The croc woman still hasn&#039;t noticed you, preoccupied with what looks like your equipment</div></li><li class="li1"><div class="de1">&gt;She is trying to fit your combat helmet over her head, with no success</div></li><li class="li1"><div class="de1">&gt;The poor helmet is simply too small for her, after a few moments she grunts and tosses it away in frustration</div></li><li class="li1"><div class="de1">&gt;OK, that&#039;s it, time to go</div></li><li class="li1"><div class="de1">&gt;Maybe you will be able to mark this place on a map so someone can drop napalm on this place</div></li><li class="li1"><div class="de1">&gt;You turn to leave</div></li><li class="li1"><div class="de1">&gt;&quot;Human!&quot;</div></li><li class="li1"><div class="de1">&gt;You think your heart stopped beating</div></li><li class="li1"><div class="de1">&gt;Turning around, you can see SHE IS LOOKING RIGHT AT YOU</div></li><li class="li1"><div class="de1">&gt;She has nice tits but it&#039;s hard to get a boner when all your blood has turned cold with fear</div></li><li class="li1"><div class="de1">&gt;&quot;You attacked me?&quot; she hisses</div></li><li class="li1"><div class="de1">&gt;&quot;Uh, look I&#039;m sorry! I was just uh trying to get away from some people&quot; you whimper</div></li><li class="li1"><div class="de1">&gt;&quot;I know what you are, soldier&quot;</div></li><li class="li1"><div class="de1">&gt;Fucking great, the VC have a giant lizard on their team</div></li><li class="li1"><div class="de1">&gt;Her face looks pretty angry, or maybe it&#039;s just the shape of her head?</div></li><li class="li1"><div class="de1">&gt;Luckily, she calms herself after a moment</div></li><li class="li1"><div class="de1">&gt;She sighs</div></li><li class="li1"><div class="de1">&gt;&quot;I have not had company in a very long time&quot; she says</div></li><li class="li1"><div class="de1">&gt;&quot;I forgave you for attacking me. You owe me&quot;</div></li><li class="li1"><div class="de1">&gt;It&#039;s probably not a good time to point out how she broke a bone or two of yours</div></li><li class="li1"><div class="de1">&gt;&quot;Alright, but I have to leave after&quot; you answer</div></li><li class="li1"><div class="de1">&gt;She gestures back inside</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;What have you gotten yourself into?</div></li><li class="li1"><div class="de1">&gt;Only like a day ago you were playing cards and shooting the piss at an army base</div></li><li class="li1"><div class="de1">&gt;Now you&#039;re having tea time with a fucking lizard woman?</div></li><li class="li1"><div class="de1">&gt;She offered you the stool, and sits crosslegged on the ground</div></li><li class="li1"><div class="de1">&gt;She made you a hot drink of some sort in a firepit outside, and then just sat there staring at you</div></li><li class="li1"><div class="de1">&gt;After a minute of this, you decide to break the ice</div></li><li class="li1"><div class="de1">&gt;&quot;So, uh, what&#039;s your name?&quot; you stammer, spaghetti rations pouring out of your pockets</div></li><li class="li1"><div class="de1">&gt;&quot;I have never had a name before. The locals call me thằn lằn với bộ ngực to. A bit too long for my taste.&quot;</div></li><li class="li1"><div class="de1">&gt;She gives you a terrifying smile, with rows and rows of daggerlike teeth</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, well I&#039;m PFC Anon&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nice to meet you Anon. Care to tell me what you are up to all the way out here?&quot;</div></li><li class="li1"><div class="de1">&gt;Is it a good idea to tell a hermit lizard lady about military operations? Is she actually with the VC?</div></li><li class="li1"><div class="de1">&gt;&quot;I, uh, got lost in the heat of the moment. What do you think about the war?&quot; you inquire</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m not a fighter, I don&#039;t interact with the natives. Whatever battles they are fighting are not my own&quot;</div></li><li class="li1"><div class="de1">&gt;You raise an eyebrow and gesture to the gun on the wall</div></li><li class="li1"><div class="de1">&gt;&quot;Oh that? That&#039;s just decoration. A trophy from some of the last people that attacked me. Aside from you of course. I&#039;m not even sure it still works, besides I have no idea how to use it.&quot;</div></li><li class="li1"><div class="de1">&gt;You take a sip of the drink</div></li><li class="li1"><div class="de1">&gt;Tastes pretty good for swamp water. Very herbal</div></li><li class="li1"><div class="de1">&gt;&quot;Are there many of your kind around here?&quot; you ask</div></li><li class="li1"><div class="de1">&gt;&quot;Nope. Just me. I like having the strongest overbite around, too&quot;</div></li><li class="li1"><div class="de1">&gt;To prove her point, she opens her large jaws, and suddenly shuts them with a loud crack</div></li><li class="li1"><div class="de1">&gt;You wince</div></li><li class="li1"><div class="de1">&gt;&quot;Well uh, I should probably leave now. I&#039;ll be reported missing&quot; you say</div></li><li class="li1"><div class="de1">&gt;The croc just huffs</div></li><li class="li1"><div class="de1">&gt;&quot;Alright, but you&#039;re 13 kilometers from the nearest military camp I know of. Plus you got your brains rattled around a bit, and you have no weapons, you don&#039;t even have a shirt&quot;</div></li><li class="li1"><div class="de1">&gt;Suddenly you feel very self conscious about some amazonian animal monster looking at you half naked</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t seem to mind, and she leans forward, grinning savagely at you</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s alright Anon, you can stay for a bit, if you help me with something</div></li><li class="li1"><div class="de1">&gt;Is this the part where she fucks you and then eats your head?</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;re a soldier. I want you to show me how to use the gun. You do that for me, and I&#039;l show you the way back&quot; she states</div></li><li class="li1"><div class="de1">&gt;Whew</div></li><li class="li1"><div class="de1">&gt;&quot;Sure. It&#039;s not to hard, I&#039;ll just-&quot;</div></li><li class="li1"><div class="de1">&gt;As you stand up, another splitting headache strikes, and you topple over, clutching your head</div></li><li class="li1"><div class="de1">&gt;She kneels over you, but makes no move to touch you</div></li><li class="li1"><div class="de1">&gt;&quot;I guess that is my fault, isn&#039;t it?&quot; she grumbles</div></li><li class="li1"><div class="de1">&gt;She grabs you by the wrist and pulls you onto your feet, and leads you to the sleeping bag</div></li><li class="li1"><div class="de1">&gt;&quot;Anon, you&#039;ve got enough on your plate for now. Rest&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;But...&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Stay&quot; she commands, and walks right out of the tent</div></li><li class="li1"><div class="de1">&gt;Well that&#039;s great</div></li><li class="li1"><div class="de1">&gt;You&#039;ve been away from your unit for almost a day now, you were probably marked M.I.A.</div></li><li class="li1"><div class="de1">&gt;Your fireteam leader must be pissed</div></li><li class="li1"><div class="de1">&gt;Your headache is at full blast now, thinking is practically impossible</div></li><li class="li1"><div class="de1">&gt;Aaaaauughhhh you would kill for some motrin</div></li><li class="li1"><div class="de1">&gt;Your body finally takes pity on you, and you fall into darkness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Waking up, you shake your head and realize it&#039;s the middle of the night</div></li><li class="li1"><div class="de1">&gt;You must have been really out of it</div></li><li class="li1"><div class="de1">&gt;It&#039;s super dark, can&#039;t see shit</div></li><li class="li1"><div class="de1">&gt;You fish out your trusty lighter from your pants pocket and light it</div></li><li class="li1"><div class="de1">&gt;Croc lady is fast asleep in the corner</div></li><li class="li1"><div class="de1">&gt;She&#039;s curled up, almost like a dog, with her long meaty tail wrapped around her face</div></li><li class="li1"><div class="de1">&gt;A bit of fresh air would probably help make you feel better, it&#039;s not like you would be able to fall back asleep again anyway</div></li><li class="li1"><div class="de1">&gt;You step out of the hut, footsteps muffled by the sound of cicadas</div></li><li class="li1"><div class="de1">&gt;The little gear you still had on you when you got lost was lying in a pile, right where she had left it</div></li><li class="li1"><div class="de1">&gt;You spark your lighter and take a look</div></li><li class="li1"><div class="de1">&gt;Your helmet, a cigarette carton, a few revolver speedloaders, grenades, spade, survival handbook, etc</div></li><li class="li1"><div class="de1">&gt;Everything as it was, aside from your helmet, bent completely out of shape from her forceful attempt at wearing it earlier</div></li><li class="li1"><div class="de1">&gt;That guide would probably be a good read right about now</div></li><li class="li1"><div class="de1">&gt;You take it back inside to your sleeping bag and lie down</div></li><li class="li1"><div class="de1">&gt;You idly page through the guide, not really paying attention to it</div></li><li class="li1"><div class="de1">&gt;Most of the stuff you had already memorized</div></li><li class="li1"><div class="de1">&gt;You just keep stealing glances at the exotic humanoid asleep a feet away from you</div></li><li class="li1"><div class="de1">&gt;She&#039;s kind of cute actually, when she&#039;s not a large shape in the dark</div></li><li class="li1"><div class="de1">&gt;Even if her jaw could crack your skull wide open</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You wake up to the sound of gunshots</div></li><li class="li1"><div class="de1">&gt;Shit! You had dozed off again and now you&#039;re being attacked</div></li><li class="li1"><div class="de1">&gt;You scramble to your feet, and look around in a panic</div></li><li class="li1"><div class="de1">&gt;Croc lady is nowhere to be seen</div></li><li class="li1"><div class="de1">&gt;You sprint out the door, making a breal for it, to get stopped dead in your tracks</div></li><li class="li1"><div class="de1">&gt;She&#039;s got her old rife out, and struggling to hold it correctly</div></li><li class="li1"><div class="de1">&gt;In front of her is a crudely made wodden dummy, made of logs, with your heavilly dented helmet perched right on top</div></li><li class="li1"><div class="de1">&gt;&quot;Morning Anon&quot; she says, noticing</div></li><li class="li1"><div class="de1">&gt;&quot;I decided to get an early start. These things are quite unweildly for someone of my, ah, stature&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You know, if I&#039;m going to teach you, I&#039;m going to need a name&quot; you say</div></li><li class="li1"><div class="de1">&gt;&quot;Hmm, you come up with something. I don&#039;t mind&quot;</div></li><li class="li1"><div class="de1">&gt;A quick thought flashes through your mind</div></li><li class="li1"><div class="de1">&gt;&quot;How about Sierra?&quot;</div></li><li class="li1"><div class="de1">&gt;Really? That&#039;s part of your fireteam&#039;s callsign, and she&#039;s not your fucking mascot</div></li><li class="li1"><div class="de1">&gt;She gives you a very toothy grin</div></li><li class="li1"><div class="de1">&gt;&quot;That will be adequate&quot;</div></li><li class="li1"><div class="de1">&gt;Okay then</div></li><li class="li1"><div class="de1">&gt;Sierra then shoves the rifle into your arms</div></li><li class="li1"><div class="de1">&gt;&quot;Show me how it&#039;s done, Anon&quot;</div></li><li class="li1"><div class="de1">&gt;Okay then</div></li><li class="li1"><div class="de1">&gt;You&#039;re not the worst shot in the company, but you&#039;re no marksman, and this gun is quite unfamiliar to you</div></li><li class="li1"><div class="de1">&gt;You&#039;ve gotta show her you&#039;re not completely useless, though</div></li><li class="li1"><div class="de1">&gt;You lie down on your stomach, and line up the posts</div></li><li class="li1"><div class="de1">&gt;You take a breath and hold it</div></li><li class="li1"><div class="de1">&gt;BAM!</div></li><li class="li1"><div class="de1">&gt;You missed completely</div></li><li class="li1"><div class="de1">&gt;Way to go</div></li><li class="li1"><div class="de1">&gt;As Sierra squints to if your shot landed on the dummy&#039;s body, you let out a few bursts, hitting the target straight on</div></li><li class="li1"><div class="de1">&gt;Your old beaten helmet goes flying off and rolls down the bank and into the water</div></li><li class="li1"><div class="de1">&gt;&quot;Burst fire. More shots down range means more chances of hitting your target, and controlled bursts allow you to maintain accuracy while firing. You don&#039;t need the precision of a sniper being an infantryman like me&quot; you lecture</div></li><li class="li1"><div class="de1">&gt;Just some stuff you came up with on the fly</div></li><li class="li1"><div class="de1">&gt;Sierra eats it up though, nodding and considering every word</div></li><li class="li1"><div class="de1">&gt;You spend a few more minutes explaining basic marksmanship, alligning the sights, weapon operation, sight dialing to compensate for range</div></li><li class="li1"><div class="de1">&gt;Eventually, you think it&#039;s time to give her another shot, literally</div></li><li class="li1"><div class="de1">&gt;A quick search turns up your mangled mess of a helmet, and you put it back up top of the dummy</div></li><li class="li1"><div class="de1">&gt;You hand her the gun, and instruct her to aim and fire</div></li><li class="li1"><div class="de1">&gt;Sierra gingerly feeds her long clawed finger through the trigger guard, turns the safety off, and takes aim</div></li><li class="li1"><div class="de1">&gt;CRACK!</div></li><li class="li1"><div class="de1">&gt;That was not the sound of the gun firing, but the sound of the abused metal helmet exploding into shrapnel, scattering in all directions</div></li><li class="li1"><div class="de1">&gt;Neither of you have time to duck, and a large sharp chunk goes straight into Sierra&#039;s stomach, knocking her flat</div></li><li class="li1"><div class="de1">&gt;Oh FUCK</div></li><li class="li1"><div class="de1">&gt;You race to her side and drop to your knees, expecting to see her in pain, or angry at the very least</div></li><li class="li1"><div class="de1">&gt;Instead she is laughing like a madman</div></li><li class="li1"><div class="de1">&gt;It&#039;s a bit concerning, as you could have very well been hurt too</div></li><li class="li1"><div class="de1">&gt;There is no wound, that can&#039;t be</div></li><li class="li1"><div class="de1">&gt;Are her scales really that hard?</div></li><li class="li1"><div class="de1">&gt;&quot;These scales aren&#039;t just for show ya know&quot; she giggles</div></li><li class="li1"><div class="de1">&gt;She playfully cracks her fist on her rock hard belly</div></li><li class="li1"><div class="de1">&gt;&quot;A-are you really fucking buleltproof?&quot; you ask</div></li><li class="li1"><div class="de1">&gt;&quot;Well I won&#039;t just sit there are let you shoot me, but it hurts a lot less to me than it would for you&quot; she says</div></li><li class="li1"><div class="de1">&gt;Fair enough</div></li><li class="li1"><div class="de1">&gt;&quot;How about we get you some food?&quot; she says</div></li><li class="li1"><div class="de1">&gt;Come to think of it, you haven&#039;t eaten in long time</div></li><li class="li1"><div class="de1">&gt;She gestures for you to wait, and carries the gun inside before returning with a crude looking spear and a net</div></li><li class="li1"><div class="de1">&gt;She tosses the net to you, and leads you deeper into the swamp</div></li><li class="li1"><div class="de1">&gt;After a while of uneventful wading through murky swamp water, you ask her what you&#039;re hunting for</div></li><li class="li1"><div class="de1">&gt;&quot;Crocs, silly&quot;</div></li><li class="li1"><div class="de1">&gt;But SHES a croc</div></li><li class="li1"><div class="de1">&gt;Isn&#039;t that cannibalism?</div></li><li class="li1"><div class="de1">&gt;This gets a heavy laugh from her</div></li><li class="li1"><div class="de1">&gt;&quot;Not things like me, idiot. Proper chompy lizards. Would you eat a monkey if you had too?&quot;</div></li><li class="li1"><div class="de1">&gt;Not really, no, but you keep that thought to yourself</div></li><li class="li1"><div class="de1">&gt;Sierra stops abruptly, and looks around</div></li><li class="li1"><div class="de1">&gt;&quot;Yes, this is a good spot&quot;she says</div></li><li class="li1"><div class="de1">&gt;&quot;Now it&#039;s my turn to teach you something&quot;</div></li><li class="li1"><div class="de1">&gt;Sierra lowers herself down into the water, until she is completely submerged and hidden</div></li><li class="li1"><div class="de1">&gt;You feel a bit nervous, as she left you all alone in some swamp</div></li><li class="li1"><div class="de1">&gt;There are mangroves sprouted all around you, offering many places for fish to hide</div></li><li class="li1"><div class="de1">&gt;You still have the net, maybe you can use it</div></li><li class="li1"><div class="de1">&gt;Before you can act, however, the water to your right explodes like someome threw a grenade in</div></li><li class="li1"><div class="de1">&gt;Sierra threw an actual crocodile ten feet in the air wtf</div></li><li class="li1"><div class="de1">&gt;She proceeds to tackle it while it is still stunned, and like a professional, she quickly sits on top and wraps her arms around it&#039;s jaws, preventing it from opening with her inhuman strength</div></li><li class="li1"><div class="de1">&gt;The poor thing doesn&#039;t stand a chance, Sierra&#039;s full bodyweight pins it to the ground</div></li><li class="li1"><div class="de1">&gt;She gives you a strained look</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t just stand there, Anon! Do something!&quot;</div></li><li class="li1"><div class="de1">&gt;You pull your survival knife, and she lifts the actual croc&#039;s head up, exposing it&#039;s throat</div></li><li class="li1"><div class="de1">&gt;A quick swipe, and a few moments later the crocodile stops moving, letting out it&#039;s last death spasms</div></li><li class="li1"><div class="de1">&gt;Sierra rolls off the dead beast, and looks at you with pride</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m the apex predator around here, so don&#039;t get on my bad side!&quot; she smirks</div></li><li class="li1"><div class="de1">&gt;You roll your eyes and start field dressing the dead croc</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">tbh its been a billion years since i last updated this and probably wont, since i dont really like how its turned out.</div></li><li class="li1"><div class="de1">if you wanna continue it, go right ahead. i encourage it.</div></li></ol>        </div>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">themed music for faggot LARPers: https://youtu.be/beFSTGAh4lY
+
+&gt;Be Anon
+&gt;PFC Anon, actually
+&gt;PFC Anon, 25th Infantry Division
+&gt;You were just another grunt in the hot Vietnam jungle
+&gt;it ain&#039;t me starts playing
+&gt;When draft time came around you pulled the short straw, and now here you were
+&gt;It fucking sucked and you miss your family
+&gt;Everything is extremely hot and humid, like Satan&#039;s version of Florida
+&gt;You are a member of a &quot;tunnel rat&quot; unit
+&gt;You and your battle buddies get stuffed down dark holes full of angry VC and traps with just a pistol and a flashlighthy 
+&gt;It&#039;s real dangerous work
+&gt;Just last week you lost a man to a pit full of shit covered punji sticks
+&gt;Last you heard of him he was getting pumped full of antibiotics after getting his leg amputated
+&gt;You got some time off after that, which was nice
+&gt;it&#039;s hard to care when you&#039;ve become so jaded
+&gt;Now you&#039;re sitting in the back of a helicopter with your comrades
+&gt;sympathy for the devil starts playing
+&gt;Some other unit reported some tunnels in an area they had secured
+&gt;Fucking pussies wouldn&#039;t clear it themselves so they radioed home and now it&#039;s your problem
+&gt;The helicopter sets down in a clearing, and your fireteam leader yells over the noise of the spinning blades for you to disembark
+&gt;The team spreads out around the helicopter as it takes off
+&gt;&quot;Alright, get over here you all&quot; your leader shouts
+&gt;Your comrades were everything BUT gentle
+&gt;&quot;We&#039;ve got a short hike to the tunnels, so keep your boots on&quot;
+&gt;&quot;Seven miles west, through enemy territory&quot;
+&gt;What was the fucking helicopter for, then?
+&gt;&quot;Oh, and you&#039;re taking point, Anon&quot;
+&gt;Triplefuckzingshittits
+&gt;Pointmen were always the first to step on the traps
+&gt;fucking gay
+&gt;You take your first few steps into the heavy green bush
+&gt;Fortunately, the hike is uneventful, although you almost shat yourself and squealed like a girl when you stepped on a snake
+&gt;More fuel for the guys to tease you about, great
+&gt;You would have missed the other unit entirely if it wasn&#039;t for the fat boxy APC they had with them
+&gt;After exchanging unenthusiastic greetings with them, you are your team are grouped around a small hole in the ground
+&gt;&quot;You check this one, Anon. We got a few more over here&quot;
+&gt;Time to get messy
+&gt;You lay your rifle on the ground and take off your shirt
+&gt;No need for modesty, it gets super hot out here
+&gt;With your revolver in your right hand and a flashlight in your left, you descend into the cramped tunnel
+&gt;You wiggle through the tunnel, stopping to check every inch of tunnel before you
+&gt;You brain chooses this moment remember how some VC release venomous snakes into their tunnels
+&gt;Best not to think about it
+&gt;Not much later, and without any more snakes, you reach a large chamber you can squat down in
+&gt;The room is stacked full of crates, and a quick peek through the a lid reveals the regular assortmenr of rusty weapons
+&gt;Gonna need to crawl back and report it
+&gt;Before you can take a single step, you hear all hell break loose outside
+&gt;Some big explosions rock the tunnel, threatening to collapse
+&gt;A machine gun opens up, firing for a good few seconds before there&#039;s a break
+&gt;&quot;Anon! Get your ass back out here!&quot; someone shouts down
+&gt;Don&#039;t need to hear it twice, you&#039;re out of there
+&gt;Despite crawling as fast as you can, it still takes you a minute to reach the opening
+&gt;As you poke your head out of the hole, you see things are not looking good
+&gt;The APC was now a burning husk, and the last few green uniformed men you could see were retreating into the brush
+&gt;In between you and them was a wall of very angry farmers
+&gt;With guns
+&gt;One of them turns their head, and your heart stops
+&gt;&quot;Lính kẻ thù!&quot;
+&gt;You&#039;ve heard enough escaped POW stories to know what they would do to you
+&gt;No need to think, you leap out of the hole and sprint at thr closest treeline
+&gt;You can hear some men in hot pursuit, but a healthy diet of C rations has kept your body in tip top shape, and the malnourished VC in the dust
+&gt;Nah not really, you&#039;re panting like a dog
+&gt;After what feels like years of lung burning sprinting you realize you&#039;ve lost them, and fall over against a tree, utterly spent
+&gt;Popping open your canteen, you take stock of your surroundings
+&gt;This is a swamplike area, with a murky, wide river
+&gt;Time to take inventory
+&gt;Water, check
+&gt;Rations, check
+&gt;Gun, ch- wait. Where&#039;s your gun?
+&gt;Fuck, somehow you managed to lose your only firearm, and now you are knee deep in enemy territory
+&gt;Worst of all, your socks are getting kind of wet
+&gt;Sighing, you remove your socks
+&gt;With absolutely no idea where you are, and the rapidly approaching night combined with your severe exhaustion, you can&#039;t help but drift off to sleep...
+
+
+
+&gt;You feel something isn&#039;t right
+&gt;And not just because you are hiding from crazy commie rice farmers
+&gt;Like... something else is there
+&gt;It&#039;s hard to describe, but you are awake now and you can&#039;t fall asleep again
+&gt;You sit still, listening to the bugs ask each other to fuck or whatever those noises mean
+&gt;The moonlight gleams off of the black river surface, giving you a nice look at the otherworldly pale disc
+&gt;Then it breaks
+&gt;Something... is standing up in the water
+&gt;Is that a man? It&#039;s shaped like a human
+&gt;No, it&#039;s much too large
+&gt;The shape could easily dwarf any man in your company
+&gt;Maybe you&#039;re hallucinating. That thing can&#039;t be real
+&gt;You decide to hold completely still, and pray it hadn&#039;t noticed you
+&gt;No luck
+&gt;The creature has apparently reaced full height, and is now lumbering slowly towards you
+&gt;A good estimate would be somewhere around 7 feet tall
+&gt;You begin to panic
+&gt;Being torn apart by a supernatural monster in the backcountry of a warzone was NOT your idea of an end to a life well lived
+&gt;Stay calm, Anon! You&#039;re a soldier! Think back to your training!
+&gt;The monster is about a car&#039;s length away from you now, and it stopped, as if to stare at you
+&gt;Try to remember some of the basics of CQC
+&gt;fail
+&gt;Frantic with fear, you grab the largest stick in reach, and charge the thing, yelling and swinging like a coked up baseball player
+&gt;With a single swipe, you&#039;re off your feet, and sail though the air right back into the tree you were leaning against
+&gt;Was that crack your stick or your spine?
+&gt;Ow, you kinda feel it now
+&gt;Everything goes black
+
+
+
+&gt;Slowly, your eyelids open
+&gt;You are in a hut, made out of a mixture of clay and earth
+&gt;Thankfully, the beast is nowhere in sight
+&gt;You definitely have broken something, but not your spine
+&gt;Moving to get up from your position on the floor zaps you with pain, but its better than waiting for that thing to come back
+&gt;Biting your lip, you pull your self up to your feet
+&gt;The hut is quite modest, with a sleeping bag, stool, and some boxes
+&gt;Mounted above the doorway a Kalashnikov rifle is displayed
+&gt;Tugging at it only succeeds in reigniting your pain, so you stop and step out of the hut
+&gt;You nearly piss yourself
+&gt;The monster, more clearly visible in the daylight, facing away from you
+&gt;And... it&#039;s a female?
+&gt;She was at least eight feet tall, and very muscular
+&gt;She had a nice set of hips and thighs too
+&gt;But, most noticeably, her body is covered by thick, shiny scales, creating an impressive layer of biological armor, although it seems to get a bit softer around her ass and
+&gt;Her large head has the long and powerful face of an alligator
+&gt;Wait, alligators only live back in the States, right? She must be a crocodile
+&gt;The croc woman still hasn&#039;t noticed you, preoccupied with what looks like your equipment
+&gt;She is trying to fit your combat helmet over her head, with no success
+&gt;The poor helmet is simply too small for her, after a few moments she grunts and tosses it away in frustration
+&gt;OK, that&#039;s it, time to go
+&gt;Maybe you will be able to mark this place on a map so someone can drop napalm on this place
+&gt;You turn to leave
+&gt;&quot;Human!&quot;
+&gt;You think your heart stopped beating
+&gt;Turning around, you can see SHE IS LOOKING RIGHT AT YOU
+&gt;She has nice tits but it&#039;s hard to get a boner when all your blood has turned cold with fear
+&gt;&quot;You attacked me?&quot; she hisses
+&gt;&quot;Uh, look I&#039;m sorry! I was just uh trying to get away from some people&quot; you whimper
+&gt;&quot;I know what you are, soldier&quot;
+&gt;Fucking great, the VC have a giant lizard on their team
+&gt;Her face looks pretty angry, or maybe it&#039;s just the shape of her head?
+&gt;Luckily, she calms herself after a moment
+&gt;She sighs
+&gt;&quot;I have not had company in a very long time&quot; she says
+&gt;&quot;I forgave you for attacking me. You owe me&quot;
+&gt;It&#039;s probably not a good time to point out how she broke a bone or two of yours
+&gt;&quot;Alright, but I have to leave after&quot; you answer
+&gt;She gestures back inside
+
+&gt;What have you gotten yourself into?
+&gt;Only like a day ago you were playing cards and shooting the piss at an army base
+&gt;Now you&#039;re having tea time with a fucking lizard woman?
+&gt;She offered you the stool, and sits crosslegged on the ground
+&gt;She made you a hot drink of some sort in a firepit outside, and then just sat there staring at you
+&gt;After a minute of this, you decide to break the ice
+&gt;&quot;So, uh, what&#039;s your name?&quot; you stammer, spaghetti rations pouring out of your pockets
+&gt;&quot;I have never had a name before. The locals call me thằn lằn với bộ ngực to. A bit too long for my taste.&quot;
+&gt;She gives you a terrifying smile, with rows and rows of daggerlike teeth
+&gt;&quot;Oh, well I&#039;m PFC Anon&quot;
+&gt;&quot;Nice to meet you Anon. Care to tell me what you are up to all the way out here?&quot;
+&gt;Is it a good idea to tell a hermit lizard lady about military operations? Is she actually with the VC?
+&gt;&quot;I, uh, got lost in the heat of the moment. What do you think about the war?&quot; you inquire
+&gt;&quot;I&#039;m not a fighter, I don&#039;t interact with the natives. Whatever battles they are fighting are not my own&quot;
+&gt;You raise an eyebrow and gesture to the gun on the wall
+&gt;&quot;Oh that? That&#039;s just decoration. A trophy from some of the last people that attacked me. Aside from you of course. I&#039;m not even sure it still works, besides I have no idea how to use it.&quot;
+&gt;You take a sip of the drink
+&gt;Tastes pretty good for swamp water. Very herbal
+&gt;&quot;Are there many of your kind around here?&quot; you ask
+&gt;&quot;Nope. Just me. I like having the strongest overbite around, too&quot;
+&gt;To prove her point, she opens her large jaws, and suddenly shuts them with a loud crack
+&gt;You wince
+&gt;&quot;Well uh, I should probably leave now. I&#039;ll be reported missing&quot; you say
+&gt;The croc just huffs
+&gt;&quot;Alright, but you&#039;re 13 kilometers from the nearest military camp I know of. Plus you got your brains rattled around a bit, and you have no weapons, you don&#039;t even have a shirt&quot;
+&gt;Suddenly you feel very self conscious about some amazonian animal monster looking at you half naked
+&gt;She doesn&#039;t seem to mind, and she leans forward, grinning savagely at you
+&gt;&quot;It&#039;s alright Anon, you can stay for a bit, if you help me with something
+&gt;Is this the part where she fucks you and then eats your head?
+&gt;&quot;You&#039;re a soldier. I want you to show me how to use the gun. You do that for me, and I&#039;l show you the way back&quot; she states
+&gt;Whew
+&gt;&quot;Sure. It&#039;s not to hard, I&#039;ll just-&quot;
+&gt;As you stand up, another splitting headache strikes, and you topple over, clutching your head
+&gt;She kneels over you, but makes no move to touch you
+&gt;&quot;I guess that is my fault, isn&#039;t it?&quot; she grumbles
+&gt;She grabs you by the wrist and pulls you onto your feet, and leads you to the sleeping bag
+&gt;&quot;Anon, you&#039;ve got enough on your plate for now. Rest&quot;
+&gt;&quot;But...&quot;
+&gt;&quot;Stay&quot; she commands, and walks right out of the tent
+&gt;Well that&#039;s great
+&gt;You&#039;ve been away from your unit for almost a day now, you were probably marked M.I.A.
+&gt;Your fireteam leader must be pissed
+&gt;Your headache is at full blast now, thinking is practically impossible
+&gt;Aaaaauughhhh you would kill for some motrin
+&gt;Your body finally takes pity on you, and you fall into darkness.
+
+&gt;Waking up, you shake your head and realize it&#039;s the middle of the night
+&gt;You must have been really out of it
+&gt;It&#039;s super dark, can&#039;t see shit
+&gt;You fish out your trusty lighter from your pants pocket and light it
+&gt;Croc lady is fast asleep in the corner
+&gt;She&#039;s curled up, almost like a dog, with her long meaty tail wrapped around her face
+&gt;A bit of fresh air would probably help make you feel better, it&#039;s not like you would be able to fall back asleep again anyway
+&gt;You step out of the hut, footsteps muffled by the sound of cicadas
+&gt;The little gear you still had on you when you got lost was lying in a pile, right where she had left it
+&gt;You spark your lighter and take a look
+&gt;Your helmet, a cigarette carton, a few revolver speedloaders, grenades, spade, survival handbook, etc
+&gt;Everything as it was, aside from your helmet, bent completely out of shape from her forceful attempt at wearing it earlier
+&gt;That guide would probably be a good read right about now
+&gt;You take it back inside to your sleeping bag and lie down
+&gt;You idly page through the guide, not really paying attention to it
+&gt;Most of the stuff you had already memorized
+&gt;You just keep stealing glances at the exotic humanoid asleep a feet away from you
+&gt;She&#039;s kind of cute actually, when she&#039;s not a large shape in the dark
+&gt;Even if her jaw could crack your skull wide open
+
+&gt;You wake up to the sound of gunshots
+&gt;Shit! You had dozed off again and now you&#039;re being attacked
+&gt;You scramble to your feet, and look around in a panic
+&gt;Croc lady is nowhere to be seen
+&gt;You sprint out the door, making a breal for it, to get stopped dead in your tracks
+&gt;She&#039;s got her old rife out, and struggling to hold it correctly
+&gt;In front of her is a crudely made wodden dummy, made of logs, with your heavilly dented helmet perched right on top
+&gt;&quot;Morning Anon&quot; she says, noticing
+&gt;&quot;I decided to get an early start. These things are quite unweildly for someone of my, ah, stature&quot;
+&gt;&quot;You know, if I&#039;m going to teach you, I&#039;m going to need a name&quot; you say
+&gt;&quot;Hmm, you come up with something. I don&#039;t mind&quot;
+&gt;A quick thought flashes through your mind
+&gt;&quot;How about Sierra?&quot;
+&gt;Really? That&#039;s part of your fireteam&#039;s callsign, and she&#039;s not your fucking mascot
+&gt;She gives you a very toothy grin
+&gt;&quot;That will be adequate&quot;
+&gt;Okay then
+&gt;Sierra then shoves the rifle into your arms
+&gt;&quot;Show me how it&#039;s done, Anon&quot;
+&gt;Okay then
+&gt;You&#039;re not the worst shot in the company, but you&#039;re no marksman, and this gun is quite unfamiliar to you
+&gt;You&#039;ve gotta show her you&#039;re not completely useless, though
+&gt;You lie down on your stomach, and line up the posts
+&gt;You take a breath and hold it
+&gt;BAM!
+&gt;You missed completely
+&gt;Way to go
+&gt;As Sierra squints to if your shot landed on the dummy&#039;s body, you let out a few bursts, hitting the target straight on
+&gt;Your old beaten helmet goes flying off and rolls down the bank and into the water
+&gt;&quot;Burst fire. More shots down range means more chances of hitting your target, and controlled bursts allow you to maintain accuracy while firing. You don&#039;t need the precision of a sniper being an infantryman like me&quot; you lecture
+&gt;Just some stuff you came up with on the fly
+&gt;Sierra eats it up though, nodding and considering every word
+&gt;You spend a few more minutes explaining basic marksmanship, alligning the sights, weapon operation, sight dialing to compensate for range
+&gt;Eventually, you think it&#039;s time to give her another shot, literally
+&gt;A quick search turns up your mangled mess of a helmet, and you put it back up top of the dummy
+&gt;You hand her the gun, and instruct her to aim and fire
+&gt;Sierra gingerly feeds her long clawed finger through the trigger guard, turns the safety off, and takes aim
+&gt;CRACK!
+&gt;That was not the sound of the gun firing, but the sound of the abused metal helmet exploding into shrapnel, scattering in all directions
+&gt;Neither of you have time to duck, and a large sharp chunk goes straight into Sierra&#039;s stomach, knocking her flat
+&gt;Oh FUCK
+&gt;You race to her side and drop to your knees, expecting to see her in pain, or angry at the very least
+&gt;Instead she is laughing like a madman
+&gt;It&#039;s a bit concerning, as you could have very well been hurt too
+&gt;There is no wound, that can&#039;t be
+&gt;Are her scales really that hard?
+&gt;&quot;These scales aren&#039;t just for show ya know&quot; she giggles
+&gt;She playfully cracks her fist on her rock hard belly
+&gt;&quot;A-are you really fucking buleltproof?&quot; you ask
+&gt;&quot;Well I won&#039;t just sit there are let you shoot me, but it hurts a lot less to me than it would for you&quot; she says
+&gt;Fair enough
+&gt;&quot;How about we get you some food?&quot; she says
+&gt;Come to think of it, you haven&#039;t eaten in long time
+&gt;She gestures for you to wait, and carries the gun inside before returning with a crude looking spear and a net
+&gt;She tosses the net to you, and leads you deeper into the swamp
+&gt;After a while of uneventful wading through murky swamp water, you ask her what you&#039;re hunting for
+&gt;&quot;Crocs, silly&quot;
+&gt;But SHES a croc
+&gt;Isn&#039;t that cannibalism?
+&gt;This gets a heavy laugh from her
+&gt;&quot;Not things like me, idiot. Proper chompy lizards. Would you eat a monkey if you had too?&quot;
+&gt;Not really, no, but you keep that thought to yourself
+&gt;Sierra stops abruptly, and looks around
+&gt;&quot;Yes, this is a good spot&quot;she says
+&gt;&quot;Now it&#039;s my turn to teach you something&quot;
+&gt;Sierra lowers herself down into the water, until she is completely submerged and hidden
+&gt;You feel a bit nervous, as she left you all alone in some swamp
+&gt;There are mangroves sprouted all around you, offering many places for fish to hide
+&gt;You still have the net, maybe you can use it
+&gt;Before you can act, however, the water to your right explodes like someome threw a grenade in
+&gt;Sierra threw an actual crocodile ten feet in the air wtf
+&gt;She proceeds to tackle it while it is still stunned, and like a professional, she quickly sits on top and wraps her arms around it&#039;s jaws, preventing it from opening with her inhuman strength
+&gt;The poor thing doesn&#039;t stand a chance, Sierra&#039;s full bodyweight pins it to the ground
+&gt;She gives you a strained look
+&gt;&quot;Don&#039;t just stand there, Anon! Do something!&quot;
+&gt;You pull your survival knife, and she lifts the actual croc&#039;s head up, exposing it&#039;s throat
+&gt;A quick swipe, and a few moments later the crocodile stops moving, letting out it&#039;s last death spasms
+&gt;Sierra rolls off the dead beast, and looks at you with pride
+&gt;&quot;I&#039;m the apex predator around here, so don&#039;t get on my bad side!&quot; she smirks
+&gt;You roll your eyes and start field dressing the dead croc
+
+tbh its been a billion years since i last updated this and probably wont, since i dont really like how its turned out.
+if you wanna continue it, go right ahead. i encourage it.</textarea>
+    
+        
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/GadZn3yc">Untitled</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/3JySHr8S">direction</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JSeLPU8C">Домашнее задание к уроку #18</a>
+                <div class="details">
+                                            SQL |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/dzygzECF">MPPPC</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/wSwuSy74">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/gUSEuAKG">Rimworld: Empire of Madness Mod List</a>
+                <div class="details">
+                                            XML |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/hqeTuARc">Propery maps</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/SHqJN8na">3x3 Autocraft Up</a>
+                <div class="details">
+                                            Lua |
+                    
+                    1 hour ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+                
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+
+    
+<div class="popup-container">
+
+                <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+                <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+        
+        
+</div>
+    
+
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script>
+    const POST_EXPIRATION_NEVER = 'N';
+    const POST_EXPIRATION_BURN = 'B';
+    const POST_STATUS_PUBLIC = '0';
+    const POST_STATUS_UNLISTED = '1';
+</script>
+<script src="/themes/pastebin/js/vendors.bundle.js?a10fa59a05e325e3bfc7"></script>
+<script src="/themes/pastebin/js/app.bundle.js?a10fa59a05e325e3bfc7"></script>
+</body>
+</html>

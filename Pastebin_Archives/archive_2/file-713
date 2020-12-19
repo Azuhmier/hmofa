@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dimitri&#039;s Roundabout - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Dimitri&#039;s Roundabout - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/jM0YSfzx" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/jM0YSfzx" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="oBq5xviyxt0dWG0Z6p47IOcAgI7QGW__iuwHMWBCnmeRK_D-p4Gf6nVsAWid80txhHnwyoR4XZnLn2lHVzXnNA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/jM0YSfzx" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/jM0YSfzx" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/24/11/14/6598391.jpg" alt="HerrKaluen">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Dimitri&#039;s Roundabout</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/HerrKaluen">HerrKaluen</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=HerrKaluen" class="message" title="Send a private message to: HerrKaluen"></a>
+                                    
+                <div class="date">
+                    <span title="Thursday 30th of July 2020 03:59:34 PM CDT">Jul 30th, 2020</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    226                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 6.04 KB            </div>
+
+            <div class="right">
+                <a href="/raw/jM0YSfzx" class="btn -small">raw</a>
+                <a href="/dl/jM0YSfzx" class="btn -small">download</a>
+                <a href="/clone/jM0YSfzx" class="btn -small h_800">clone</a>
+                <a href="/embed/jM0YSfzx" class="btn -small h_800">embed</a>
+                <a href="/report/jM0YSfzx" class="btn -small">report</a>
+                <a href="/print/jM0YSfzx" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Dimitri’s Roundabout-</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Walking away from your car, you are heading on foot towards your destination. Your nerves are steeled, and you feel confident. Nothing in the world could stop you from making your job a complete success. After a few minutes, you are near where you need to be.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was an apartment block, not too far from an elementary school. Kicking the door open, you walk out with your precious package, a suitcase with a single handgun. It was a PL-15, some prototype shit. Mikhail sent you over here, to Kazan. You hated the place, everyone here seemed to be an asshole. Stepping up to the entrance doors, some hoodlums walk up to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&lt;Who the fuck are you?&gt;&quot; You flash them a smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&lt;I work for Mikhail, now fuck off.&gt;&quot; They slowly back off, and one point to the door, inviting you in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&lt;The boss is on the third floor, farthest from the stairs.&quot;&gt; Nodding, you walk inside. The building is disgusting. Trash lies everywhere, windows are broken and boarded up. If the law were able to get here, you would be entirely convinced that they would close this down. Taking the steps up, you that the walls are covered in graffiti and the lights are flickering. The fact that the dumbasses here haven’t broken the lights yet surprises you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">When you reach the third floor, the thugs guarding the boss nod, and invite you inside. Walking through the door, you notice the improvement in quality. It isn’t so musty in here, an AC provides both a good temperature and proper airflow. The walls are clean and in good condition. Walking into another room, two armed crooks are guarding a man in a suit. He’s sitting at a desk and invites you in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;Ah, Dimitri, it is good to see you. Please, take a seat.&gt;” You do exactly that, with the suitcase on your lap. “&lt;Now, let’s get to business.&gt;” A smile breaks onto your face. This was a big deal. Hector had come all the way across the world to meet you here, and if the deal went well, Mikhail would be proud of you. You open the suitcase and put it on Hector’s desk.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;A gift, from Mikhail himself. He agrees that the offer you gave us last week would be greatly beneficial to us both. Some ‘hardware’ will be shipped to your warehouse in Colombia, and we are waiting for the product you are providing.&gt;” Saying that felt good, like a PR person giving a successful speech. Hector smiles and stands, reaching his hand out.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;An alliance with what is the World’s most powerful underground organization? How could I say no?&gt;” You stand, and shake his hand.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;Thank you, Mr. Moreno. I will tell Mikhail that your offer has been accepted.&gt;” You turn around and start to walk away. You hear Hector call out to you before you leave.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;I have one more request, Mr. Dimitri.&gt;” You turn back towards Hector. Next to him stands an anthro. It looks feminine. She’s some type of feline, but you can’t make it out. She’s wearing shoes, sweatpants, and a large hoodie. “&lt;This is my adoptive daughter, Sofia. I won’t be able to bring her home to Colombia right now, some feds are out looking for me. Would Mikhail be able to look after her in the time being?&gt;” Hector has his hand on Sofia, who is looking at the ground. You didn’t plan on this at all, but the last thing you wanted was to damage Hector and Mikhail’s relationship.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“&lt;Of course, It would be a dishonor not to.&gt;” Hector smiles and gives his daughter a hug.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Adiós, hija” Sofia hugs her father back, then walks over to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s nice to meet you, Dimitri.” English? Well, you could work with that.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Likewise, Sofia. May I accompany you to my car?” Sofia nods, and you both leave the room. Pulling out a phone, you dial Mikhail’s number, but he doesn’t pick up. Damnit. At least you could leave a message. “&lt;Hey, Mikhail, it’s Dimitri. The deal with Hector was a complete success, but I have a problem. We have to look after his adoptive daughter. I’m going to take her to the hideout near Estonia. I hope your contract is going well. See you soon.&gt;” Hanging up, you look at the feline to your side.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, is there anything that I should know, or anything that I should do to make your stay more comforting?” Sofia shakes her head.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No… I’m fine, thank you.” She was very meek, despite her large size and threatening appearance. Walking to your car, a customized UAZ Hunter. Your two comrades who just arrived, Shen and Karik open the doors. They seem surprised by the presence of the anthro. Shen quickly gets into the driver’s seat and starts the car, with Karik taking the front passenger’s seat. They’ve hidden their guns, most likely to make the new guest feel more welcome.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You offer the best seat to Sofia, who takes it. Closing the door, you walk around the car, and take the only seat left. Karik moves a hand over and presses a button on the dashboard, starting some good tunes. [https://www.youtube.com/watch?v=eAGXQLim75w]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The car starts off, taking a road that led to a nearby hideout. You’d be able to buy some things for everybody there and get some good lodging. Mid ride, Shen starts to talk.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Excuse me miss, I don’t intend to be rude, but what type of felid are you?” You are about to slap him for making such an offensive question, but Sofia soon answers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, I don’t think that there is an official name for me, I am a Liger.” Shen thanks her and returns to driving. You turn to look at her with an apologetic stare, but Sofia looks at you and smiles, which relieves you. Karik has fallen asleep, probably from the fact that he spent all of last night binge-watching some stupid television show. He wanted to ‘distract’ himself from the civil war, but considering your jobs, you never seemed to encounter it up close. You can’t say the same for Mikhail. St. Petersburg was pretty close to the frontlines. Hopefully, he’d be safe.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Taking in your situation, everything seemed well so far. A kind woman to your side, good friends with you, and a stable position in the most powerful criminal syndicate to ever exist. You felt like nothing could go wrong.</div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Dimitri’s Roundabout-
+
+---------------
+
+Walking away from your car, you are heading on foot towards your destination. Your nerves are steeled, and you feel confident. Nothing in the world could stop you from making your job a complete success. After a few minutes, you are near where you need to be.
+
+It was an apartment block, not too far from an elementary school. Kicking the door open, you walk out with your precious package, a suitcase with a single handgun. It was a PL-15, some prototype shit. Mikhail sent you over here, to Kazan. You hated the place, everyone here seemed to be an asshole. Stepping up to the entrance doors, some hoodlums walk up to you.
+
+&quot;&lt;Who the fuck are you?&gt;&quot; You flash them a smile.
+
+&quot;&lt;I work for Mikhail, now fuck off.&gt;&quot; They slowly back off, and one point to the door, inviting you in.
+
+&quot;&lt;The boss is on the third floor, farthest from the stairs.&quot;&gt; Nodding, you walk inside. The building is disgusting. Trash lies everywhere, windows are broken and boarded up. If the law were able to get here, you would be entirely convinced that they would close this down. Taking the steps up, you that the walls are covered in graffiti and the lights are flickering. The fact that the dumbasses here haven’t broken the lights yet surprises you.
+
+When you reach the third floor, the thugs guarding the boss nod, and invite you inside. Walking through the door, you notice the improvement in quality. It isn’t so musty in here, an AC provides both a good temperature and proper airflow. The walls are clean and in good condition. Walking into another room, two armed crooks are guarding a man in a suit. He’s sitting at a desk and invites you in.
+
+“&lt;Ah, Dimitri, it is good to see you. Please, take a seat.&gt;” You do exactly that, with the suitcase on your lap. “&lt;Now, let’s get to business.&gt;” A smile breaks onto your face. This was a big deal. Hector had come all the way across the world to meet you here, and if the deal went well, Mikhail would be proud of you. You open the suitcase and put it on Hector’s desk.
+
+“&lt;A gift, from Mikhail himself. He agrees that the offer you gave us last week would be greatly beneficial to us both. Some ‘hardware’ will be shipped to your warehouse in Colombia, and we are waiting for the product you are providing.&gt;” Saying that felt good, like a PR person giving a successful speech. Hector smiles and stands, reaching his hand out.
+
+“&lt;An alliance with what is the World’s most powerful underground organization? How could I say no?&gt;” You stand, and shake his hand.
+
+“&lt;Thank you, Mr. Moreno. I will tell Mikhail that your offer has been accepted.&gt;” You turn around and start to walk away. You hear Hector call out to you before you leave.
+
+“&lt;I have one more request, Mr. Dimitri.&gt;” You turn back towards Hector. Next to him stands an anthro. It looks feminine. She’s some type of feline, but you can’t make it out. She’s wearing shoes, sweatpants, and a large hoodie. “&lt;This is my adoptive daughter, Sofia. I won’t be able to bring her home to Colombia right now, some feds are out looking for me. Would Mikhail be able to look after her in the time being?&gt;” Hector has his hand on Sofia, who is looking at the ground. You didn’t plan on this at all, but the last thing you wanted was to damage Hector and Mikhail’s relationship.
+
+“&lt;Of course, It would be a dishonor not to.&gt;” Hector smiles and gives his daughter a hug.
+
+“Adiós, hija” Sofia hugs her father back, then walks over to you.
+
+“It’s nice to meet you, Dimitri.” English? Well, you could work with that.
+
+“Likewise, Sofia. May I accompany you to my car?” Sofia nods, and you both leave the room. Pulling out a phone, you dial Mikhail’s number, but he doesn’t pick up. Damnit. At least you could leave a message. “&lt;Hey, Mikhail, it’s Dimitri. The deal with Hector was a complete success, but I have a problem. We have to look after his adoptive daughter. I’m going to take her to the hideout near Estonia. I hope your contract is going well. See you soon.&gt;” Hanging up, you look at the feline to your side.
+
+“Well, is there anything that I should know, or anything that I should do to make your stay more comforting?” Sofia shakes her head.
+
+“No… I’m fine, thank you.” She was very meek, despite her large size and threatening appearance. Walking to your car, a customized UAZ Hunter. Your two comrades who just arrived, Shen and Karik open the doors. They seem surprised by the presence of the anthro. Shen quickly gets into the driver’s seat and starts the car, with Karik taking the front passenger’s seat. They’ve hidden their guns, most likely to make the new guest feel more welcome.
+
+You offer the best seat to Sofia, who takes it. Closing the door, you walk around the car, and take the only seat left. Karik moves a hand over and presses a button on the dashboard, starting some good tunes. [https://www.youtube.com/watch?v=eAGXQLim75w]
+
+The car starts off, taking a road that led to a nearby hideout. You’d be able to buy some things for everybody there and get some good lodging. Mid ride, Shen starts to talk.
+
+“Excuse me miss, I don’t intend to be rude, but what type of felid are you?” You are about to slap him for making such an offensive question, but Sofia soon answers.
+
+“Well, I don’t think that there is an official name for me, I am a Liger.” Shen thanks her and returns to driving. You turn to look at her with an apologetic stare, but Sofia looks at you and smiles, which relieves you. Karik has fallen asleep, probably from the fact that he spent all of last night binge-watching some stupid television show. He wanted to ‘distract’ himself from the civil war, but considering your jobs, you never seemed to encounter it up close. You can’t say the same for Mikhail. St. Petersburg was pretty close to the frontlines. Hopefully, he’d be safe.
+
+Taking in your situation, everything seemed well so far. A kind woman to your side, good friends with you, and a stable position in the most powerful criminal syndicate to ever exist. You felt like nothing could go wrong.
+</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    20 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    31 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

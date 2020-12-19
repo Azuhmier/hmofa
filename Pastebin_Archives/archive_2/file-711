@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>A Sudden Rush - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="A Sudden Rush - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/UiYC7H69" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/UiYC7H69" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="EjfjdeCbEw8zhZlNiu-N6D0Fu6magbrYqVeHgLZsWRBmQoUjlN1bYlC92je4pf6fTyjcnKvz1p7MZOOz4FlvTw==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/UiYC7H69" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/UiYC7H69" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/24/11/14/6598391.jpg" alt="HerrKaluen">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>A Sudden Rush</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/HerrKaluen">HerrKaluen</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=HerrKaluen" class="message" title="Send a private message to: HerrKaluen"></a>
+                                    
+                <div class="date">
+                    <span title="Saturday 8th of August 2020 09:54:17 PM CDT">Aug 8th, 2020</span>
+
+                                            (<span title="Last edit on: Wednesday 26th of August 2020 03:10:00 PM CDT">edited</span>)
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    2,320                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 30.78 KB            </div>
+
+            <div class="right">
+                <a href="/raw/UiYC7H69" class="btn -small">raw</a>
+                <a href="/dl/UiYC7H69" class="btn -small">download</a>
+                <a href="/clone/UiYC7H69" class="btn -small h_800">clone</a>
+                <a href="/embed/UiYC7H69" class="btn -small h_800">embed</a>
+                <a href="/report/UiYC7H69" class="btn -small">report</a>
+                <a href="/print/UiYC7H69" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Streaming. Never thought too much of it, but you got into it. At first, it wasn&#039;t much, just to dick around with some friends. Now, you usually have a decent-sized audience. Despite this, you still have a different job, as a Doctor. It&#039;s nice work, but exhausting. As you take a seat in the chair, you set up your stream. Everything seems to be going well. Eventually, you start up the game that you&#039;d be playing. It was a S.T.A.L.K.E.R. mod, Anomaly to be exact. With one mouse click, you start up the stream.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What&#039;s up amigos? I&#039;m finally back from work, and I feel like shooting some Monolith pricks.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The chat is booming, which gets your attention. Normally it wasn&#039;t this fast. Suddenly, a huge wave of donations and subscriptions flow in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Damn, I have no clue what&#039;s going on, but it&#039;s good.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You make it through the sudden influx of viewers and get to playing. You&#039;re on a Merc save, and your situation is pretty good. Plenty of cash, ammo, and supplies. Your armor is in good quality, and you managed to find an Ak-74m in decent condition. Leaving Dead City, you make your way through Army Warehouses. As you make your way through the area, you hear some sudden movement that gets your attention.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I swear is some Dut-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Gunshots soon start off, and bullets fly by you. Fuck, it was a Duty patrol. Luckily, you had some good cover and better aim. With just a few shots, you easily dispatch the patrol. You weren&#039;t even shot once.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Fucking Duty pricks. Can&#039;t leave a Merc alone.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Looting the bodies, you find some supplies that you could sell, and a good amount of ammo. Just as you pick up a fallen pistol to take the rounds from, a donation gets your attention.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey Humie, you shouldn&#039;t be somewhere so dangerous, you could get hurt.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Fucking damnit, that&#039;s why the viewership was so high. Godddamn anthros were obsessed with humans. You don&#039;t know why, but for some reason, humanity got put all the way up on the world&#039;s attractiveness hierarchy. Because of this wonderful hierarchy, there&#039;s always some anthros donating you in the hopes that you&#039;d acknowledge them. The donations from them alone almost paid as well as your job. With the text to speech donations comes a few videos. One half is some Slavic music, and the other is anthros simping. What the fuck.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, this patrol had some decent shit, I&#039;m fucking off.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Turning around, you start to run back to the Merc camp. In the path back, you have to run through Bloodsucker Village. No problem, some freedom fuckers already cleared it out, right? As you walk through the ruins, you see no bodies. No dead freedom members, and no dead mutants. I guess it was a quiet day. A sudden roar immediately crushes your thoughts.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Fuck.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You sprint into a house, jumping onto a table. If the fucker was gonna try to get you, he&#039;d get shot to bits. You start to get a bit fearful. A roar, but no movement? Shit, it had to be either a Bloodsucker or a Psysucker. Fuck this. Waiting for movement, a sudden sound makes you jump. IT&#039;S RIGHT IN FRONT OF YOU.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;SHITSHITSHIT!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You spray as much lead as possible, but you still get cut. You aren&#039;t dead, but not in the best condition either. As your piece stops spitting bullets, you notice a Bloodsucker lying at your feet. Okay, thank god. Opening up your inventory, you apply a first aid kit and patch up your armor. You don&#039;t carry the base knife, but rather the hunting one, allowing you to cut off parts of the invisi-freak.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, that could have gone worse.&quot; The adrenaline is still pumping through your blood, the jumpscares effect not yet gone. As you go back to Dead City, the donations and messages get even worse.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Poor little human, you need something fluffy to relax on...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Oh, fucking wonderful. They were clipping you freaking out. If you turn out to be a fucking anthro meme because of this, you&#039;re going to lose your shit. Nonetheless, you make it back, selling Dushman your newfound gear, making a decent profit. The donations were slowly dying down, and the videos weren&#039;t just you in a panic anymore. You decide that going risky was the best move, and you run over to Limansk. Not much happens, but you bring some Merc allies. Eventually, you see some Monolith fuckers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;About goddamn time, I wanna take some cultists out.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You line up one in your sights, ready to start blasting. A worrisome sound breaks your concentration.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;W-Was that a gauss rifle?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Shit, not good. You were playing ironman, you were not going to deal with this shit. One of your followers gets dome&#039;d by a slug, and you sprint the fuck outta there.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;fuckishouldhavenevercomeherewhydidithinkthatthiswasagoodideadshitfuckfuckfuck&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This was not good. You could hear the fuckers chasing you down. Downing an energy drink, you sprint all the way back to Dead City. Fuck Limansk, fuck the Monolith, and fuck gauss rifles. When you make it back to the hideout, you pause the game and lean back in your chair.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Holy shit, that went horribly wrong. But, at least I&#039;m not dead.&quot; As you lay back, you close your eyes and chill. &quot;I&#039;ll need some vodka for this.&quot; You get up and leave the room, walking to find a bottle. You find it, and walk back into the room. Looking at the screen, you see something that shocks you. Somebody donated a video of the two clips of you freaking out, with several anthro streamers reacting to it. And they were really high up streamers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, I guess they now know what it&#039;s like to play Anomaly on ironman.&quot; Sitting onto the chair, you take a swig from the bottle. &quot;Damn, this is good shit. Russians know what&#039;s up when it comes to alcohol, but I still prefer whiskey.&quot; As you get ready to start playing again, a discord message pops up. A friend is telling you that those two clips just went viral in the anthro community. Fuck. Me.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Alrighty, this is odd... let&#039;s take a break, and just chill for awhile. I can answer QnA if you want through text to speech, and I guess I&#039;ll watch some videos too.” As you lean further into the chair, you mentally prepare yourself for the deluge of shit to come. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey Chase, what’s your thoughts on anthro-human relations?” Oh great, a fucking politically charged question. Time to go full PR mode.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, I don’t care what others do, as long as it isn’t harmful. If one person loves another, so be it.” Damn, that was something a politician would say. It felt good doing that, like a silver-tongued devil in his natural habitat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Are you going to get back into ArmA anytime soon? Also, I like the new chair, where’d you get it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, yeah, I do plan on it. As for the chair, a friend of mine didn’t want it and just gave it to me. A free chair is a free chair, so I’m happy with it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Chase, are you planning on getting romantically involved?” Oh shit. If you fucked this up, all of those obsessive anthros would go. But if you played it right, you could wring in the cash.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, I guess I am searching for a girl I like, but I’ve had no luck. I guess one day I’ll find her.” Boom, you nailed it. The chat is going absolutely wild. You decide to kick back, drinking some more of the good stuff, and relax. Today should be very profitable.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">----------------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After some videos and questions, you go back to playing Anomaly. As you go to leave Dead City, two different things occur. Firstly, a Duty patrol made it in. Secondly, somebody donated the entirety of &#039;Bungle in the Jungle&#039; by Jethro Tull. These combine in your brain, and you go on instinct. Running up, you are the living manifestation of the Garda Panteri, spraying 5.45x39 in the direction of the black and red bastards. The patrol is caught off guard, but they quickly start to react. Two out of the four are dead, and the survivors are trying to put as much distance between you and them as possible.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As they back away, some enterprising bandits are able to take them out. Mercs and bandits weren&#039;t hostile right now, so you let them have their two bodies of loot. &quot;Fucking Duty needs to be taught a lesson. If it isn&#039;t perfectly human and not graced by the zone, they just have to try and fuck it up. Dickheads.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Slipping the human comment wasn&#039;t a mistake. After that line, donations flood in at an alarming rate. &quot;Holy shit, with this cash, I&#039;ll think that I&#039;m gonna take off from work tomorrow.&quot; Thanks, guys, and of course, girls. Winking at the face cam, you are smug with the fact that countless women around the world were enamored with you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Playing through the night, shit goes well. Your amount of wonderful roubles goes up, and the gear just gets better. A Type-63 for your 7.62x39, and a busted up FAL that you found. Feeling confident, you decide to start an offensive. Getting the help of some Merc comrades, you make your way through the Army Warehouses. Absolutely nothing happens but walking. Soon, you start the descent on Rostok.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With a throw of an F-1, and one helpful viewer playing some Kino, you rush the Duty checkpoint next to Wild Territory. The F-1 had already wiped out a sizeable portion of the defense, leaving wounded and dazed fools to fight you. With the might of your soldiers, you easily clear out the checkpoint. After the short skirmish, you immediately ransack what you can, and start to run back to base. As you move with your followers, a voice to text message gets your attention.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I like watching you play games Chase, but watching all of these poor humies die is really bumming me out.&quot; Shit, that was a problem, wasn&#039;t it? Still, you had an itching to play some Slavic goodness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I know you girls don&#039;t like it, but the feeling is like no other. Once you go in the zone, you don&#039;t leave.&quot; Taking another swig of vodka, you are marching triumphantly through Army Warehouses, your confidence boosted by the fact that Panteri by Roki was playing. You felt untouchable. A leader of Mercs and a slayer of cultists. Walking to Dead City, you do your usual shtick of selling the unneeded gear and storing away the rest. &quot;Damn, I am a fucking menace.&quot; Pausing the game, you save and exit. &quot;Well, now we can have a more relaxing time, I wan-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Chase, what is up my human?&quot; What? Who the fuck is talking to you?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yo what, who is this?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s the big cat herself, GraveS!&quot; Ah, GraveS. A big streamer, both in literal size, and the size of her viewership. She must have snuck her way into your discord session with Joey.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Ah, What&#039;s good?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, some friends and I wanted to see if you were able to play some ArmA tomorrow?&quot; ArmA? Sounded nice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, What is it? A Zeus op, WW2, RHS?&quot; Almost immediately She responds, excitedly so.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sweet! It&#039;s a Zeus op, we&#039;re running RHS, and we&#039;ve got a special treat...&quot; That sounded... odd.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What would that be?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;The fucking U.S. Military is sending some soldiers to play, they want to test tactics out.&quot; Holy shit. That sounded fucking awesome.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Deal, done, I&#039;m in.&quot; GraveS squeals in delight.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Awesome, we&#039;ve got a group session ready for you. Any plans?&quot; You lean into your chair and smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, set up a discord group with our team, we need to discuss planning, I have my ideas.&quot; You were known for your tactics. They were radical, unexpected, and decisive. The Military better have had studied you, or they&#039;ll have one hell of a surprise waiting for them.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Actually, we got an IRL meetup. It&#039;s in Kingston, New York. You aren&#039;t far from there from what I remember, right?&quot; Far? You fucking lived there.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I live in Kingston. Just tell me where and I&#039;ll meet up.&quot; You don&#039;t get a response for a while, which is worrying. A sudden yell makes you jump.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;YOU LIVE HERE TOO?&quot; Fuck, that hurt your ears. &quot;Shit, sorry.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, yeah, but don&#039;t make me deaf. I&#039;m a doctor, but I can&#039;t do shit about ears.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Okay, I&#039;ll send you the place, but it&#039;s &#039;confidential&#039;. No viewers can know.&quot; Ooo, how secret.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Aight. I&#039;m gonna chill in the meantime, I&#039;ll see you at the meetup.&quot; Taking a sip of the good stuff, you leave the session. Chat is divided into two separate groups. The lads are fucking ecstatic that you were going to play some ArmA, while the girls freaking out over the fact that you&#039;d be with a group of ladies. Christ, this was one hell of a stream. Tomorrow was going to be nice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Leaving your house, you wear an oversized sweatshirt. It should hide who you are, and that’s good enough for you. Walking down a street, you aren’t far from the café you were heading to. Your Mask and sunglasses combination does a good job of hiding your face. Nobody has a clue about who you are.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Walking into the café, you find it to be empty except for some employees. Buying a drink and some breakfast, you make your way to a table and relax. A buzzing from your phone makes you jump.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, Me and some friends are running late, sorry. We’ll be there in a minute or two!” Alright. Pulling some paper and a pen you brought with you, you started to write out several ideas and plans. Most were basic stuff, but you always made one of your signature masterstrokes. Three wonderful ideas had come to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Number one was a BDRM rush. Combining the versions with ATGM’s and KPV’s could be remarkably effective. The second idea was to supply literally the entire force with RPGs. Your favorite, however, was the third. Literal fucking Taliban tactics. Disguise as civilians, plant IEDs, and cause havoc on supply lines.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Looking over the plans, you don’t notice the group of anthro women that enters the store. As you are editing one of your masterworks, a booming laugh from behind you makes you jump.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Goddamn Chase, you’ve already planned it out, huh?” Turning around, you see the giant tigress herself, GraveS, along with some fellow streamers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, I’ve got everything set up, I’m just working out the finer details.” GraveS face turns from joy to shock as she notices your work.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Christ! I know some strats, but damn! You’ve got this laid fucking out man!” A smile breaks out onto your face. You were known for being the fucking Sun Tzu of ArmA, and you’d never let that down.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, I think the military is gonna have one hell of a gaffe after this!” The massive tigress chuckles and takes a seat, her friends doing the same. She’s got a variety of anthros with her. A shark, a bear, a wolf, and a rabbit. They were all pretty big, which was quite odd. Nonetheless, you discuss with them plans to win. “So, if we all just get RPG-26’s and distribute them, we’ll be able to stop all armor pushes, have an effective anti-cover weapon, and if shit goes south, we can take out helis and planes.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The wolf speaks up. “Yeah, but with the encumbrance, how will we be able to effectively wage a guerilla campaign? Movement is key, and carrying rocket launchers isn’t traveling light.” The Shark backs her up, but you swiftly move to stop the idea.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“ATV’s. They aren’t too pricey, and they can move well cross country. They’ll be our fast supply bringers.” The bunny agrees with you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah! If we use the ATV’s correctly, we could wage a really good harassment war on their logistics!” GraveS steps into the fray and looks over at you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“This sounds good but supplying our entire forces with rocket launcher seems to be expensive.” You laugh.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“These aren’t Javelins or Smaws, they’re RPG-26s! They’re old soviet shit, real cheap!” GraveS gives you a death stare, and slumps back into her seat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright then, it’s a plan.” As you put plan two away, you start the debate on plans one and three. With the power of alcohol, it gets pretty intense. It’s not long before GraveS and the other girls are arguing over positions of power and chain of command. It sucks for you, because they don’t even consider you an ‘officer’ fuck this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Standing up, you go full Endsieg, slamming your fist down on the table. “I AM THE SUPREME COMMANDER, I CREATED THE BATTLE PLANS, I WILL LEAD.” The girls are taken aback by the fact that Hitler himself channeled into your being. Pointing at the girls, you list roles. “You, Commander of the Armored Forces. You, Guerilla and unconventional warfare is under your command.” It goes on until you reach GraveS. “GraveS, you will take control of the Leg and Motorized Infantry. I will hold my command onto Mechanized Infantry, and the BDRMs.” The girls seem to be rather meek to your demands, largely falling in, but GraveS protests.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Bullshit! If I am to be with infantry, the Mechanized will fall under my grasp!” She walks up to you, a death stare in her face. Jesus Christ, if she wasn’t a streamer, she should be a bouncer. Absolutely horrifying.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright. But I remain in charge of the BDRMs. I will also take control of Militia forces that are not irregular, but also not regulars.” She puts a paw on your shoulder, and bares her teeth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Good. Now, let’s get back to planning.” With the power crisis resolved, you all were busy discussing how to disrupt your opponents, the U.S. The scenario was so: The U.S. is fighting a radical communist faction in an unnamed eastern-European country. You were supposed to raise a fighting force, and remove the U.S. forces, while they were supposed to put down your revolution. It seemed nigh impossible, but you were confident that this would become the European Vietnam-War.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With the night approaching, you all started to pack up and head out. Just as you got up, GraveS walked over to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So, which car is yours?” Looking over at her confused, she stares right at you. “Well?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t have one. I walk.” GraveS is immensely surprised and pulls you close to her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Fuck that. I’ll drive you home.” Uh, thanks lady, but I don’t know you that well.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thanks for the offer, but i-“ She immediately interrupts you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Nah man, come on, let’s go!” The tigress is pulling you along, and due to her size, pretty much tosses you into her car. It was unorthodox, but it worked. “So, where do you live?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Not too far from here, it’s by the Chinese place not too far from the Mall.” She suddenly turns her head towards you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do… Do you live in the Tennenbaum Complex?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, why?” She smirks.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I do too bro!” Oh, fuck me. This is not what you wanted. “You wanna meet up for a stream at my place?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I d-“</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Awesome!” Fuck. Today went from good to bad, real fast. You could only imagine what the anthro simps would do when they see you on the stream with GraveS. Well, at least being a doctor paid well, so nothing too bad could happen, right?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As the car pulls into the parking lot, you look over a GraveS as she drives. Her paw grasps the steering wheel tightly, and you are surprised that her claws haven’t sliced through it. You imagine that many anthros must have things in their lives reinforced, so they don’t damage them.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The doors pop open, and you jump out of the car. The complex stands strong, and you start to walk home. The wind starts to blow hard, and the air makes you feel chilly. GraveS suddenly runs up to you and wraps her tail and an arm around your side.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s getting cold, and I don’t want you sick.” It felt weird, like an invasion of personal space, but all anthros were oddly protective of humans, so you just went along with it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright, but I have a question for you.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Go ahead.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What’s your real name?” GraveS doesn’t answer. “You good?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, I’m just taken a bit back.” What?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“How so?” She stops, and turns away from the complex, heading down a different path. “Uh, where are we going?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I want to have a private chat, aight?” This didn’t sound good.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure…” You really don’t like how this was looking out, going by yourself on a path with someone you only just recently met in person.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright, nobody can hear us from here.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You worried about something?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s more of a precaution, I don’t want my viewer base to find out my name.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright, so spill it out already.” She moves closer, putter her muzzle up against my left ear.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s Johanna.” You smile at the name, it sounds good.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That’s a nice name.” Johanna looks away, flustered.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Eh, thanks…” Oh shit, that did sound a bit flirtatious.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Uh… do you want to go stream now?” She grabs your arm and starts to walk back to the complex. You’ll take that as a yes. As you both walk into the complex, she drags you into an elevator, pressing the button for the third floor. That was the same as yours. “Huh, same floor, cool.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit, really?” Nodding to Johanna, she chuckles. “Damn, and yet we never saw each other before. Odd.” She was right, that was weird. Nonetheless, you follow the tigress to her apartment. “Welcome to my humble adobe.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“How gracious of you.” Stifling a snicker, you enter her housing. “This place ain’t bad.” It’s pretty nice, with fancy furniture and expensive appliances. It must of cost quite a bit to get all of this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thanks. It took some time to make it like this, but I’m at the top!” Giving her a thumbs up, you fall down on her couch, it’s comfy as fuck. “You enjoying yourself?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, I just wish I had something to drink.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Like, something alcoholic?” Yes, what the fuck else would I want, some water?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Wait a sec.” She runs off into a room, and you hear her fumble around. Waiting for her to come back, you look at the photos on the wall. The first one seems to be a family picture, Johanna standing next to what seems to be her parents, but a human man stands next to her, the second is just her and this man, and the third is one of her with some streaming medal. “You like wine?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With your attention back to Johanna, you speak. “Yeah, wine is good.” With Johanna coming back, she hands you an entire bottle, with her also having one. “Thanks, that was really kind of you.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, I should treat a guest well, shouldn’t I?” Well, if it were you, you’d be an asshole about it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, you’ve got me there.” Taking a swig of the wine, you continue to lie down. “You wanna stream?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah! Follow me!” Getting up, you walk behind Johanna as she walks into her bedroom. Her streaming equipment is all set up, with an impressive gaming rig, it looked expensive as fuck. “Just take a seat on the bed, I’ll get everything going. Laying down on the bed, I start to really drink the wine, not just have a bit of it. “Okay, in thirty seconds, we’ll be live.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sweet. What’re we gonna do this stream?” Johanna is in her chair, spinning in place.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Probably chat and watch videos.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Low effort, I like it.” Johanna snickers and turns to the webcam.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey everybody, the big cat is here, with a special guest!” She swivels at extends an arm at you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hola.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yup, it’s Chase. We met up about the upcoming ArmA session and decided to do a co-stream! Send any questions, videos, donations, anything you want! Now let’s have a good time!” She turns to you and her face is molded by the shock of her discovery. You were halfway through the wine bottle.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What, this wine is real good.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Dude, you never got drunk before on stream, at worst you were a bit tipsy, you sure about this?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That’s it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yup.” You lie on the bed, content with your drink, but a sudden text to speech message gets your attention. ‘I come here to ignore that I’m humieless, and Chase is here.’ You can’t help but chuckle. “There’s no escaping from me, I am everywhere.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Jesus, what are you, a slasher villain?” She tosses you a controller. “It’s already paired with the PC. We’re gonna play some modded DooM, deathmatch to 25 frags.” The sudden switch from doing nothing to now having to play the game is abrupt to say the least, but you were confident.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You sure about getting your ass kicked on stream?” Johanna only laughs.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Dutch courage, huh?” Bitch please.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“If you wanna be humiliated, go ahead.” This was going to be a clean victory, drunk or not, you’d win.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Zandronum, and on some random deathmatch maps. It wasn’t the most complex idea, but the drink has really affected your mental capacity. Despite the fact that thinking was completely out of the question, your instincts and muscle memory allows you to do incredibly well.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Christ, how the fuck are you doing this shit?” Johanna is definitely miffed, huffing, and puffing when she gets gibbed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Skill, biatch!” A lucky railgun shot immediately takes Johanna out, bringing the score to 17-10. You were crushing it. “I’m fucking unstoppable!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You cocky little, shit, I’ll show you…” Getting owned on stream, that’s bad. Getting destroyed by a drunk guy? That would be fucking humiliating. “Goddamn drunk.” Johanna must really want to save her reputation, as she starts to catch up. Using some cheeky tactics, and plain unsportsmanlike behavior, she brings the score to 20-19. “What’s wrong, I thought you said you were unstoppable?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That fucking does it. With the power of pure drunken unpredictability, you pull off some nice kills. An SSG blast ends the match. 25-21. You had won. It seemed close, but you were drunk. She wasn’t. “You know, I did say that. Now, remember who the deathmatch king is, mothafucker!” You were riding off the rush of victory. “Yo, everybody in chat, tell me, who’s the fucking man? Me!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Johanna spins on her chair, giving you a cold stare. “You are a dickhead.” You laugh.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shouldn’t have given me the wine.” Johanna only sighs.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Fucking hell, you are a mess.” Huh?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Whaddya mean?” Johanna gets up and grabs you. She then turns around, sitting on her chair once more, but with you on her lap.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You were just about to fall off the bed. Now I have to fucking supervise you, or you’ll get hurt.” Naw, you’d be fine.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m fine, I’m perfectly fine, look at me.” Flashing a smile to the facecam, you want to get up, but you felt too damn tired. “See, one-hundred percent A-Okay.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“HehehAHAHAH!” That was not encouraging.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The fuck you laughing about?” Johanna needs to take a good minute to recompose herself.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Listen, you Humans are adorable in the first place, but when you’re drunk as shit and trying to pretend that you’re sober, it’s so fucking cute.” Oh, fuck off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Listen, I am not drunk I’m absol-“</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh my fucking god, you are so goddamn adorable, stop, I might OD from it.” What a jackass.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Damnit.” You lie back and stare at the screen. Johanna is just watching mediashare videos, most of them consisting of you drunkenly being a confident madman, but also having your failed attempts at looking sober.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit, I gotta share these.” Goddamnit, you were going to be an anthro meme. Again. This shit isn’t fair.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I need to sleep, I’m fucking tired.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alright there bud, I’ll get the couch set up.” Johanna leaves the room, and you have your chance. Going to her keyboard, you start furiously typing. It was a link to your own streaming channel. A dick move, but it was hilarious. “Kay’, it’s ready, lemme bring ya there. Oh, you fucker.” You break out in drunken laughter as Johanna grabs you, lifting you out of the room.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Just before you both exit, you decide to have a little fun. Reaching an arm out to the camera, you call out. “Help me…” Johanna sighs as you cry out in fake fear. “She’s gonna kill meeeee!” Once you exit the room, you flop onto her shoulder, bringing your weight onto her. “That was fun.” Johanna chuckles.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You are insufferable. You sound like Adam when you’re drunk, you know that?” Who’s Adam?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“And who would Adam be?” Johanna smiles, but it feels forced.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“He was a good man. That’s all that you need to know.” You want to know more, but it’d be incredibly stupid to push the issue. You nod. Johanna lets you down on the couch, a blanket, and a pillow waiting for you. It’s comfy, so you feel fine with it all.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> “Imma go to sleep. G’night. You slam face-first into a pillow and start to sleep. Johanna can only laugh as you fall into a drunken slumber.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Fucking humies.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chase was dead asleep. The little dude was absolutely shitfaced, but you had respect for how much he had drunk. Despite the differences in body weight and size, you’d be just as drunk as him. Walking back into your streaming room, you close the door. “He’s out of it. I mean, damn, he’s gonna sleep well. Now, everybody, we’re gonna chat a bit.” The chat is still a bit crazy, especially after Chase’s drunken escapades.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So, I’ve been thinking a lot about this ArmA Op, the fact that actual U.S. Soldiers are going to be playing in this is awesome, they’ll give us a good run for our money. I don’t know what they’ll do, but I know that Chase is going to pull the rug under all of us. He’s gonna do some crazy stuff, as usual.” A chat message pops up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">‘How do you expect Chase to get a victory? From what I’ve heard, he just sounds like a dude with odd plans.’ A lot of people said that about Chase. He never seemed like a threat until his ideas went into effect.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Chase is several things. Unpredictable, skilled, and daring. You never know what he has planned out, and if you do figure it out, he’ll change it out to something else, without any loss in efficiency. It’s insane. Doubt him, and he’ll take you out.” A wild card in its purest form, that was Chase. “Now, I expect that the Military people will prepare for that, and set up a flexible strategy, but that won’t change a thing. Chase is insanity in an optimal form.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">‘The scenario looks almost impossible. You have some old Russian weaponry, against the best of the west. How in the world are you going to win?’ You smirk.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’ll set up a proper insurgency, and make sure that the invasion will be too costly to continue. Of course, we couldn’t forget our good friend Chase. He’ll cripple the attack easily. Besides that, we’ll have to wait for the Op to see what will happen.” The chat is calming down, now fixated on the event instead of the inebriated Chase. It was about fucking time, reining in all the donations was nice, but watching the same things over and over was annoying.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With the chat calming down, you start to chill. Relaxing back, your will to keep playing games fades away. You needed to rest, especially after all of today. “Today’s been long, so I think I’m going to be signing off. This is your big tiger girl GraveS, letting you know that you’ll make it to the top.” You press down some keys and the cameras along with the stream stop. Sighing in relief, you get up from the chair walk over to the kitchen.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You grab some soda, and as you back to the room, you take a look at Chase. He’s in a deep slumber. He kinda reminded you of Adam. The way he acted, so carefree, it brought back good memories. But that careless demeanor took the best thing you had away from you. You needed to bring him down, make the man relax. You wouldn’t let it happen again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Streaming. Never thought too much of it, but you got into it. At first, it wasn&#039;t much, just to dick around with some friends. Now, you usually have a decent-sized audience. Despite this, you still have a different job, as a Doctor. It&#039;s nice work, but exhausting. As you take a seat in the chair, you set up your stream. Everything seems to be going well. Eventually, you start up the game that you&#039;d be playing. It was a S.T.A.L.K.E.R. mod, Anomaly to be exact. With one mouse click, you start up the stream.
+
+&quot;What&#039;s up amigos? I&#039;m finally back from work, and I feel like shooting some Monolith pricks.&quot;
+
+The chat is booming, which gets your attention. Normally it wasn&#039;t this fast. Suddenly, a huge wave of donations and subscriptions flow in.
+
+&quot;Damn, I have no clue what&#039;s going on, but it&#039;s good.&quot;
+
+You make it through the sudden influx of viewers and get to playing. You&#039;re on a Merc save, and your situation is pretty good. Plenty of cash, ammo, and supplies. Your armor is in good quality, and you managed to find an Ak-74m in decent condition. Leaving Dead City, you make your way through Army Warehouses. As you make your way through the area, you hear some sudden movement that gets your attention.
+
+&quot;I swear is some Dut-&quot;
+
+Gunshots soon start off, and bullets fly by you. Fuck, it was a Duty patrol. Luckily, you had some good cover and better aim. With just a few shots, you easily dispatch the patrol. You weren&#039;t even shot once.
+
+&quot;Fucking Duty pricks. Can&#039;t leave a Merc alone.&quot;
+
+Looting the bodies, you find some supplies that you could sell, and a good amount of ammo. Just as you pick up a fallen pistol to take the rounds from, a donation gets your attention.
+
+&quot;Hey Humie, you shouldn&#039;t be somewhere so dangerous, you could get hurt.&quot;
+
+Fucking damnit, that&#039;s why the viewership was so high. Godddamn anthros were obsessed with humans. You don&#039;t know why, but for some reason, humanity got put all the way up on the world&#039;s attractiveness hierarchy. Because of this wonderful hierarchy, there&#039;s always some anthros donating you in the hopes that you&#039;d acknowledge them. The donations from them alone almost paid as well as your job. With the text to speech donations comes a few videos. One half is some Slavic music, and the other is anthros simping. What the fuck.
+
+&quot;Well, this patrol had some decent shit, I&#039;m fucking off.&quot;
+
+Turning around, you start to run back to the Merc camp. In the path back, you have to run through Bloodsucker Village. No problem, some freedom fuckers already cleared it out, right? As you walk through the ruins, you see no bodies. No dead freedom members, and no dead mutants. I guess it was a quiet day. A sudden roar immediately crushes your thoughts.
+
+&quot;Fuck.&quot;
+
+You sprint into a house, jumping onto a table. If the fucker was gonna try to get you, he&#039;d get shot to bits. You start to get a bit fearful. A roar, but no movement? Shit, it had to be either a Bloodsucker or a Psysucker. Fuck this. Waiting for movement, a sudden sound makes you jump. IT&#039;S RIGHT IN FRONT OF YOU.
+
+&quot;SHITSHITSHIT!&quot;
+
+You spray as much lead as possible, but you still get cut. You aren&#039;t dead, but not in the best condition either. As your piece stops spitting bullets, you notice a Bloodsucker lying at your feet. Okay, thank god. Opening up your inventory, you apply a first aid kit and patch up your armor. You don&#039;t carry the base knife, but rather the hunting one, allowing you to cut off parts of the invisi-freak.
+
+&quot;Well, that could have gone worse.&quot; The adrenaline is still pumping through your blood, the jumpscares effect not yet gone. As you go back to Dead City, the donations and messages get even worse.
+
+&quot;Poor little human, you need something fluffy to relax on...&quot;
+
+Oh, fucking wonderful. They were clipping you freaking out. If you turn out to be a fucking anthro meme because of this, you&#039;re going to lose your shit. Nonetheless, you make it back, selling Dushman your newfound gear, making a decent profit. The donations were slowly dying down, and the videos weren&#039;t just you in a panic anymore. You decide that going risky was the best move, and you run over to Limansk. Not much happens, but you bring some Merc allies. Eventually, you see some Monolith fuckers.
+
+&quot;About goddamn time, I wanna take some cultists out.&quot;
+
+You line up one in your sights, ready to start blasting. A worrisome sound breaks your concentration.
+
+&quot;W-Was that a gauss rifle?&quot;
+
+Shit, not good. You were playing ironman, you were not going to deal with this shit. One of your followers gets dome&#039;d by a slug, and you sprint the fuck outta there.
+
+&quot;fuckishouldhavenevercomeherewhydidithinkthatthiswasagoodideadshitfuckfuckfuck&quot;
+
+This was not good. You could hear the fuckers chasing you down. Downing an energy drink, you sprint all the way back to Dead City. Fuck Limansk, fuck the Monolith, and fuck gauss rifles. When you make it back to the hideout, you pause the game and lean back in your chair.
+
+&quot;Holy shit, that went horribly wrong. But, at least I&#039;m not dead.&quot; As you lay back, you close your eyes and chill. &quot;I&#039;ll need some vodka for this.&quot; You get up and leave the room, walking to find a bottle. You find it, and walk back into the room. Looking at the screen, you see something that shocks you. Somebody donated a video of the two clips of you freaking out, with several anthro streamers reacting to it. And they were really high up streamers.
+
+&quot;Well, I guess they now know what it&#039;s like to play Anomaly on ironman.&quot; Sitting onto the chair, you take a swig from the bottle. &quot;Damn, this is good shit. Russians know what&#039;s up when it comes to alcohol, but I still prefer whiskey.&quot; As you get ready to start playing again, a discord message pops up. A friend is telling you that those two clips just went viral in the anthro community. Fuck. Me.
+
+&quot;Alrighty, this is odd... let&#039;s take a break, and just chill for awhile. I can answer QnA if you want through text to speech, and I guess I&#039;ll watch some videos too.” As you lean further into the chair, you mentally prepare yourself for the deluge of shit to come. 
+
+“Hey Chase, what’s your thoughts on anthro-human relations?” Oh great, a fucking politically charged question. Time to go full PR mode.
+
+“Hey, I don’t care what others do, as long as it isn’t harmful. If one person loves another, so be it.” Damn, that was something a politician would say. It felt good doing that, like a silver-tongued devil in his natural habitat.
+
+“Are you going to get back into ArmA anytime soon? Also, I like the new chair, where’d you get it?”
+
+“Well, yeah, I do plan on it. As for the chair, a friend of mine didn’t want it and just gave it to me. A free chair is a free chair, so I’m happy with it.”
+
+“Chase, are you planning on getting romantically involved?” Oh shit. If you fucked this up, all of those obsessive anthros would go. But if you played it right, you could wring in the cash.
+
+“Yeah, I guess I am searching for a girl I like, but I’ve had no luck. I guess one day I’ll find her.” Boom, you nailed it. The chat is going absolutely wild. You decide to kick back, drinking some more of the good stuff, and relax. Today should be very profitable.
+
+----------------------
+
+After some videos and questions, you go back to playing Anomaly. As you go to leave Dead City, two different things occur. Firstly, a Duty patrol made it in. Secondly, somebody donated the entirety of &#039;Bungle in the Jungle&#039; by Jethro Tull. These combine in your brain, and you go on instinct. Running up, you are the living manifestation of the Garda Panteri, spraying 5.45x39 in the direction of the black and red bastards. The patrol is caught off guard, but they quickly start to react. Two out of the four are dead, and the survivors are trying to put as much distance between you and them as possible.
+
+As they back away, some enterprising bandits are able to take them out. Mercs and bandits weren&#039;t hostile right now, so you let them have their two bodies of loot. &quot;Fucking Duty needs to be taught a lesson. If it isn&#039;t perfectly human and not graced by the zone, they just have to try and fuck it up. Dickheads.&quot;
+
+Slipping the human comment wasn&#039;t a mistake. After that line, donations flood in at an alarming rate. &quot;Holy shit, with this cash, I&#039;ll think that I&#039;m gonna take off from work tomorrow.&quot; Thanks, guys, and of course, girls. Winking at the face cam, you are smug with the fact that countless women around the world were enamored with you.
+
+Playing through the night, shit goes well. Your amount of wonderful roubles goes up, and the gear just gets better. A Type-63 for your 7.62x39, and a busted up FAL that you found. Feeling confident, you decide to start an offensive. Getting the help of some Merc comrades, you make your way through the Army Warehouses. Absolutely nothing happens but walking. Soon, you start the descent on Rostok.
+
+With a throw of an F-1, and one helpful viewer playing some Kino, you rush the Duty checkpoint next to Wild Territory. The F-1 had already wiped out a sizeable portion of the defense, leaving wounded and dazed fools to fight you. With the might of your soldiers, you easily clear out the checkpoint. After the short skirmish, you immediately ransack what you can, and start to run back to base. As you move with your followers, a voice to text message gets your attention.
+
+&quot;I like watching you play games Chase, but watching all of these poor humies die is really bumming me out.&quot; Shit, that was a problem, wasn&#039;t it? Still, you had an itching to play some Slavic goodness.
+
+&quot;I know you girls don&#039;t like it, but the feeling is like no other. Once you go in the zone, you don&#039;t leave.&quot; Taking another swig of vodka, you are marching triumphantly through Army Warehouses, your confidence boosted by the fact that Panteri by Roki was playing. You felt untouchable. A leader of Mercs and a slayer of cultists. Walking to Dead City, you do your usual shtick of selling the unneeded gear and storing away the rest. &quot;Damn, I am a fucking menace.&quot; Pausing the game, you save and exit. &quot;Well, now we can have a more relaxing time, I wan-&quot;
+
+&quot;Chase, what is up my human?&quot; What? Who the fuck is talking to you?
+
+&quot;Yo what, who is this?&quot;
+
+&quot;It&#039;s the big cat herself, GraveS!&quot; Ah, GraveS. A big streamer, both in literal size, and the size of her viewership. She must have snuck her way into your discord session with Joey.
+
+&quot;Ah, What&#039;s good?&quot;
+
+&quot;Well, some friends and I wanted to see if you were able to play some ArmA tomorrow?&quot; ArmA? Sounded nice.
+
+&quot;Yeah, What is it? A Zeus op, WW2, RHS?&quot; Almost immediately She responds, excitedly so.
+
+&quot;Sweet! It&#039;s a Zeus op, we&#039;re running RHS, and we&#039;ve got a special treat...&quot; That sounded... odd.
+
+&quot;What would that be?&quot;
+
+&quot;The fucking U.S. Military is sending some soldiers to play, they want to test tactics out.&quot; Holy shit. That sounded fucking awesome.
+
+&quot;Deal, done, I&#039;m in.&quot; GraveS squeals in delight.
+
+&quot;Awesome, we&#039;ve got a group session ready for you. Any plans?&quot; You lean into your chair and smile.
+
+&quot;Yeah, set up a discord group with our team, we need to discuss planning, I have my ideas.&quot; You were known for your tactics. They were radical, unexpected, and decisive. The Military better have had studied you, or they&#039;ll have one hell of a surprise waiting for them.
+
+&quot;Actually, we got an IRL meetup. It&#039;s in Kingston, New York. You aren&#039;t far from there from what I remember, right?&quot; Far? You fucking lived there.
+
+&quot;I live in Kingston. Just tell me where and I&#039;ll meet up.&quot; You don&#039;t get a response for a while, which is worrying. A sudden yell makes you jump.
+
+&quot;YOU LIVE HERE TOO?&quot; Fuck, that hurt your ears. &quot;Shit, sorry.&quot;
+
+&quot;Yeah, yeah, but don&#039;t make me deaf. I&#039;m a doctor, but I can&#039;t do shit about ears.&quot;
+
+&quot;Okay, I&#039;ll send you the place, but it&#039;s &#039;confidential&#039;. No viewers can know.&quot; Ooo, how secret.
+
+&quot;Aight. I&#039;m gonna chill in the meantime, I&#039;ll see you at the meetup.&quot; Taking a sip of the good stuff, you leave the session. Chat is divided into two separate groups. The lads are fucking ecstatic that you were going to play some ArmA, while the girls freaking out over the fact that you&#039;d be with a group of ladies. Christ, this was one hell of a stream. Tomorrow was going to be nice.
+
+-----------
+
+Leaving your house, you wear an oversized sweatshirt. It should hide who you are, and that’s good enough for you. Walking down a street, you aren’t far from the café you were heading to. Your Mask and sunglasses combination does a good job of hiding your face. Nobody has a clue about who you are.
+
+Walking into the café, you find it to be empty except for some employees. Buying a drink and some breakfast, you make your way to a table and relax. A buzzing from your phone makes you jump.
+
+“Hey, Me and some friends are running late, sorry. We’ll be there in a minute or two!” Alright. Pulling some paper and a pen you brought with you, you started to write out several ideas and plans. Most were basic stuff, but you always made one of your signature masterstrokes. Three wonderful ideas had come to you.
+
+Number one was a BDRM rush. Combining the versions with ATGM’s and KPV’s could be remarkably effective. The second idea was to supply literally the entire force with RPGs. Your favorite, however, was the third. Literal fucking Taliban tactics. Disguise as civilians, plant IEDs, and cause havoc on supply lines.
+
+Looking over the plans, you don’t notice the group of anthro women that enters the store. As you are editing one of your masterworks, a booming laugh from behind you makes you jump.
+
+“Goddamn Chase, you’ve already planned it out, huh?” Turning around, you see the giant tigress herself, GraveS, along with some fellow streamers.
+
+“Yeah, I’ve got everything set up, I’m just working out the finer details.” GraveS face turns from joy to shock as she notices your work.
+
+“Christ! I know some strats, but damn! You’ve got this laid fucking out man!” A smile breaks out onto your face. You were known for being the fucking Sun Tzu of ArmA, and you’d never let that down.
+
+“Yeah, I think the military is gonna have one hell of a gaffe after this!” The massive tigress chuckles and takes a seat, her friends doing the same. She’s got a variety of anthros with her. A shark, a bear, a wolf, and a rabbit. They were all pretty big, which was quite odd. Nonetheless, you discuss with them plans to win. “So, if we all just get RPG-26’s and distribute them, we’ll be able to stop all armor pushes, have an effective anti-cover weapon, and if shit goes south, we can take out helis and planes.”
+
+The wolf speaks up. “Yeah, but with the encumbrance, how will we be able to effectively wage a guerilla campaign? Movement is key, and carrying rocket launchers isn’t traveling light.” The Shark backs her up, but you swiftly move to stop the idea.
+
+“ATV’s. They aren’t too pricey, and they can move well cross country. They’ll be our fast supply bringers.” The bunny agrees with you.
+
+“Yeah! If we use the ATV’s correctly, we could wage a really good harassment war on their logistics!” GraveS steps into the fray and looks over at you.
+
+“This sounds good but supplying our entire forces with rocket launcher seems to be expensive.” You laugh.
+
+“These aren’t Javelins or Smaws, they’re RPG-26s! They’re old soviet shit, real cheap!” GraveS gives you a death stare, and slumps back into her seat.
+
+“Alright then, it’s a plan.” As you put plan two away, you start the debate on plans one and three. With the power of alcohol, it gets pretty intense. It’s not long before GraveS and the other girls are arguing over positions of power and chain of command. It sucks for you, because they don’t even consider you an ‘officer’ fuck this.
+
+Standing up, you go full Endsieg, slamming your fist down on the table. “I AM THE SUPREME COMMANDER, I CREATED THE BATTLE PLANS, I WILL LEAD.” The girls are taken aback by the fact that Hitler himself channeled into your being. Pointing at the girls, you list roles. “You, Commander of the Armored Forces. You, Guerilla and unconventional warfare is under your command.” It goes on until you reach GraveS. “GraveS, you will take control of the Leg and Motorized Infantry. I will hold my command onto Mechanized Infantry, and the BDRMs.” The girls seem to be rather meek to your demands, largely falling in, but GraveS protests.
+
+“Bullshit! If I am to be with infantry, the Mechanized will fall under my grasp!” She walks up to you, a death stare in her face. Jesus Christ, if she wasn’t a streamer, she should be a bouncer. Absolutely horrifying.
+
+“Alright. But I remain in charge of the BDRMs. I will also take control of Militia forces that are not irregular, but also not regulars.” She puts a paw on your shoulder, and bares her teeth.
+
+“Good. Now, let’s get back to planning.” With the power crisis resolved, you all were busy discussing how to disrupt your opponents, the U.S. The scenario was so: The U.S. is fighting a radical communist faction in an unnamed eastern-European country. You were supposed to raise a fighting force, and remove the U.S. forces, while they were supposed to put down your revolution. It seemed nigh impossible, but you were confident that this would become the European Vietnam-War.
+
+With the night approaching, you all started to pack up and head out. Just as you got up, GraveS walked over to you.
+
+“So, which car is yours?” Looking over at her confused, she stares right at you. “Well?”
+
+“I don’t have one. I walk.” GraveS is immensely surprised and pulls you close to her.
+
+“Fuck that. I’ll drive you home.” Uh, thanks lady, but I don’t know you that well.
+
+“Thanks for the offer, but i-“ She immediately interrupts you.
+
+“Nah man, come on, let’s go!” The tigress is pulling you along, and due to her size, pretty much tosses you into her car. It was unorthodox, but it worked. “So, where do you live?”
+
+“Not too far from here, it’s by the Chinese place not too far from the Mall.” She suddenly turns her head towards you.
+
+“Do… Do you live in the Tennenbaum Complex?” 
+
+“Yeah, why?” She smirks.
+
+“I do too bro!” Oh, fuck me. This is not what you wanted. “You wanna meet up for a stream at my place?”
+
+“I d-“
+
+“Awesome!” Fuck. Today went from good to bad, real fast. You could only imagine what the anthro simps would do when they see you on the stream with GraveS. Well, at least being a doctor paid well, so nothing too bad could happen, right?
+
+-----
+
+As the car pulls into the parking lot, you look over a GraveS as she drives. Her paw grasps the steering wheel tightly, and you are surprised that her claws haven’t sliced through it. You imagine that many anthros must have things in their lives reinforced, so they don’t damage them.
+
+The doors pop open, and you jump out of the car. The complex stands strong, and you start to walk home. The wind starts to blow hard, and the air makes you feel chilly. GraveS suddenly runs up to you and wraps her tail and an arm around your side.
+
+“It’s getting cold, and I don’t want you sick.” It felt weird, like an invasion of personal space, but all anthros were oddly protective of humans, so you just went along with it.
+
+“Alright, but I have a question for you.”
+
+“Go ahead.”
+
+“What’s your real name?” GraveS doesn’t answer. “You good?”
+
+“Yeah, I’m just taken a bit back.” What?
+
+“How so?” She stops, and turns away from the complex, heading down a different path. “Uh, where are we going?”
+
+“I want to have a private chat, aight?” This didn’t sound good.
+
+“Sure…” You really don’t like how this was looking out, going by yourself on a path with someone you only just recently met in person.
+
+“Alright, nobody can hear us from here.”
+
+“You worried about something?”
+
+“It’s more of a precaution, I don’t want my viewer base to find out my name.”
+
+“Alright, so spill it out already.” She moves closer, putter her muzzle up against my left ear.
+
+“It’s Johanna.” You smile at the name, it sounds good.
+
+“That’s a nice name.” Johanna looks away, flustered.
+
+“Eh, thanks…” Oh shit, that did sound a bit flirtatious.
+
+“Uh… do you want to go stream now?” She grabs your arm and starts to walk back to the complex. You’ll take that as a yes. As you both walk into the complex, she drags you into an elevator, pressing the button for the third floor. That was the same as yours. “Huh, same floor, cool.”
+
+“Shit, really?” Nodding to Johanna, she chuckles. “Damn, and yet we never saw each other before. Odd.” She was right, that was weird. Nonetheless, you follow the tigress to her apartment. “Welcome to my humble adobe.”
+
+“How gracious of you.” Stifling a snicker, you enter her housing. “This place ain’t bad.” It’s pretty nice, with fancy furniture and expensive appliances. It must of cost quite a bit to get all of this.
+
+“Thanks. It took some time to make it like this, but I’m at the top!” Giving her a thumbs up, you fall down on her couch, it’s comfy as fuck. “You enjoying yourself?”
+
+“Yeah, I just wish I had something to drink.”
+
+“Like, something alcoholic?” Yes, what the fuck else would I want, some water?
+
+“Yeah.”
+
+“Wait a sec.” She runs off into a room, and you hear her fumble around. Waiting for her to come back, you look at the photos on the wall. The first one seems to be a family picture, Johanna standing next to what seems to be her parents, but a human man stands next to her, the second is just her and this man, and the third is one of her with some streaming medal. “You like wine?”
+
+With your attention back to Johanna, you speak. “Yeah, wine is good.” With Johanna coming back, she hands you an entire bottle, with her also having one. “Thanks, that was really kind of you.”
+
+“Well, I should treat a guest well, shouldn’t I?” Well, if it were you, you’d be an asshole about it.
+
+“Yeah, you’ve got me there.” Taking a swig of the wine, you continue to lie down. “You wanna stream?”
+
+“Yeah! Follow me!” Getting up, you walk behind Johanna as she walks into her bedroom. Her streaming equipment is all set up, with an impressive gaming rig, it looked expensive as fuck. “Just take a seat on the bed, I’ll get everything going. Laying down on the bed, I start to really drink the wine, not just have a bit of it. “Okay, in thirty seconds, we’ll be live.”
+
+“Sweet. What’re we gonna do this stream?” Johanna is in her chair, spinning in place.
+
+“Probably chat and watch videos.”
+
+“Low effort, I like it.” Johanna snickers and turns to the webcam.
+
+“Hey everybody, the big cat is here, with a special guest!” She swivels at extends an arm at you.
+
+“Hola.”
+
+“Yup, it’s Chase. We met up about the upcoming ArmA session and decided to do a co-stream! Send any questions, videos, donations, anything you want! Now let’s have a good time!” She turns to you and her face is molded by the shock of her discovery. You were halfway through the wine bottle.
+
+“What, this wine is real good.”
+
+“Dude, you never got drunk before on stream, at worst you were a bit tipsy, you sure about this?”
+
+“Yeah.”
+
+“That’s it?”
+
+“Yup.” You lie on the bed, content with your drink, but a sudden text to speech message gets your attention. ‘I come here to ignore that I’m humieless, and Chase is here.’ You can’t help but chuckle. “There’s no escaping from me, I am everywhere.”
+
+“Jesus, what are you, a slasher villain?” She tosses you a controller. “It’s already paired with the PC. We’re gonna play some modded DooM, deathmatch to 25 frags.” The sudden switch from doing nothing to now having to play the game is abrupt to say the least, but you were confident.
+
+“You sure about getting your ass kicked on stream?” Johanna only laughs.
+
+“Dutch courage, huh?” Bitch please.
+
+“If you wanna be humiliated, go ahead.” This was going to be a clean victory, drunk or not, you’d win.
+
+-
+
+Zandronum, and on some random deathmatch maps. It wasn’t the most complex idea, but the drink has really affected your mental capacity. Despite the fact that thinking was completely out of the question, your instincts and muscle memory allows you to do incredibly well.
+
+“Christ, how the fuck are you doing this shit?” Johanna is definitely miffed, huffing, and puffing when she gets gibbed.
+
+“Skill, biatch!” A lucky railgun shot immediately takes Johanna out, bringing the score to 17-10. You were crushing it. “I’m fucking unstoppable!”
+
+“You cocky little, shit, I’ll show you…” Getting owned on stream, that’s bad. Getting destroyed by a drunk guy? That would be fucking humiliating. “Goddamn drunk.” Johanna must really want to save her reputation, as she starts to catch up. Using some cheeky tactics, and plain unsportsmanlike behavior, she brings the score to 20-19. “What’s wrong, I thought you said you were unstoppable?”
+
+That fucking does it. With the power of pure drunken unpredictability, you pull off some nice kills. An SSG blast ends the match. 25-21. You had won. It seemed close, but you were drunk. She wasn’t. “You know, I did say that. Now, remember who the deathmatch king is, mothafucker!” You were riding off the rush of victory. “Yo, everybody in chat, tell me, who’s the fucking man? Me!”
+
+Johanna spins on her chair, giving you a cold stare. “You are a dickhead.” You laugh.
+
+“Shouldn’t have given me the wine.” Johanna only sighs.
+
+“Fucking hell, you are a mess.” Huh?
+
+“Whaddya mean?” Johanna gets up and grabs you. She then turns around, sitting on her chair once more, but with you on her lap.
+
+“You were just about to fall off the bed. Now I have to fucking supervise you, or you’ll get hurt.” Naw, you’d be fine.
+
+“I’m fine, I’m perfectly fine, look at me.” Flashing a smile to the facecam, you want to get up, but you felt too damn tired. “See, one-hundred percent A-Okay.”
+
+“HehehAHAHAH!” That was not encouraging.
+
+“The fuck you laughing about?” Johanna needs to take a good minute to recompose herself.
+
+“Listen, you Humans are adorable in the first place, but when you’re drunk as shit and trying to pretend that you’re sober, it’s so fucking cute.” Oh, fuck off.
+
+“Listen, I am not drunk I’m absol-“
+
+“Oh my fucking god, you are so goddamn adorable, stop, I might OD from it.” What a jackass.
+
+“Damnit.” You lie back and stare at the screen. Johanna is just watching mediashare videos, most of them consisting of you drunkenly being a confident madman, but also having your failed attempts at looking sober.
+
+“Shit, I gotta share these.” Goddamnit, you were going to be an anthro meme. Again. This shit isn’t fair.
+
+“I need to sleep, I’m fucking tired.”
+
+“Alright there bud, I’ll get the couch set up.” Johanna leaves the room, and you have your chance. Going to her keyboard, you start furiously typing. It was a link to your own streaming channel. A dick move, but it was hilarious. “Kay’, it’s ready, lemme bring ya there. Oh, you fucker.” You break out in drunken laughter as Johanna grabs you, lifting you out of the room.
+
+Just before you both exit, you decide to have a little fun. Reaching an arm out to the camera, you call out. “Help me…” Johanna sighs as you cry out in fake fear. “She’s gonna kill meeeee!” Once you exit the room, you flop onto her shoulder, bringing your weight onto her. “That was fun.” Johanna chuckles.
+
+“You are insufferable. You sound like Adam when you’re drunk, you know that?” Who’s Adam?
+
+“And who would Adam be?” Johanna smiles, but it feels forced.
+
+“He was a good man. That’s all that you need to know.” You want to know more, but it’d be incredibly stupid to push the issue. You nod. Johanna lets you down on the couch, a blanket, and a pillow waiting for you. It’s comfy, so you feel fine with it all.
+
+ “Imma go to sleep. G’night. You slam face-first into a pillow and start to sleep. Johanna can only laugh as you fall into a drunken slumber.
+
+“Fucking humies.”
+
+---
+
+Chase was dead asleep. The little dude was absolutely shitfaced, but you had respect for how much he had drunk. Despite the differences in body weight and size, you’d be just as drunk as him. Walking back into your streaming room, you close the door. “He’s out of it. I mean, damn, he’s gonna sleep well. Now, everybody, we’re gonna chat a bit.” The chat is still a bit crazy, especially after Chase’s drunken escapades.
+
+“So, I’ve been thinking a lot about this ArmA Op, the fact that actual U.S. Soldiers are going to be playing in this is awesome, they’ll give us a good run for our money. I don’t know what they’ll do, but I know that Chase is going to pull the rug under all of us. He’s gonna do some crazy stuff, as usual.” A chat message pops up.
+
+‘How do you expect Chase to get a victory? From what I’ve heard, he just sounds like a dude with odd plans.’ A lot of people said that about Chase. He never seemed like a threat until his ideas went into effect.
+
+“Chase is several things. Unpredictable, skilled, and daring. You never know what he has planned out, and if you do figure it out, he’ll change it out to something else, without any loss in efficiency. It’s insane. Doubt him, and he’ll take you out.” A wild card in its purest form, that was Chase. “Now, I expect that the Military people will prepare for that, and set up a flexible strategy, but that won’t change a thing. Chase is insanity in an optimal form.”
+
+‘The scenario looks almost impossible. You have some old Russian weaponry, against the best of the west. How in the world are you going to win?’ You smirk.
+
+“We’ll set up a proper insurgency, and make sure that the invasion will be too costly to continue. Of course, we couldn’t forget our good friend Chase. He’ll cripple the attack easily. Besides that, we’ll have to wait for the Op to see what will happen.” The chat is calming down, now fixated on the event instead of the inebriated Chase. It was about fucking time, reining in all the donations was nice, but watching the same things over and over was annoying.
+
+With the chat calming down, you start to chill. Relaxing back, your will to keep playing games fades away. You needed to rest, especially after all of today. “Today’s been long, so I think I’m going to be signing off. This is your big tiger girl GraveS, letting you know that you’ll make it to the top.” You press down some keys and the cameras along with the stream stop. Sighing in relief, you get up from the chair walk over to the kitchen.
+
+You grab some soda, and as you back to the room, you take a look at Chase. He’s in a deep slumber. He kinda reminded you of Adam. The way he acted, so carefree, it brought back good memories. But that careless demeanor took the best thing you had away from you. You needed to bring him down, make the man relax. You wouldn’t let it happen again.
+
+</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    20 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    26 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    32 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>A Visitor - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="A Visitor - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/Nd088vx9" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/Nd088vx9" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="QcXSCcT0zwPp80G7OED3xdjht_L3lyiEmkgw_2r7cBd3oOJ-iKONYr-VbNBWEo61ibbgxpPbZNDbCmWUJaM9XA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/Nd088vx9" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/Nd088vx9" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/15/9/9/3189575.jpg" alt="Suunlight">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>A Visitor</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Suunlight">Suunlight</a>
+                                            </div>
+
+                                            <a href="/pro" class="pro" title="PRO User!"></a>
+                    
+                                             <a href="/message/compose?to=Suunlight" class="message" title="Send a private message to: Suunlight"></a>
+                                    
+                <div class="date">
+                    <span title="Wednesday 21st of November 2018 07:43:42 PM CDT">Nov 21st, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,303                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 8.16 KB            </div>
+
+            <div class="right">
+                <a href="/raw/Nd088vx9" class="btn -small">raw</a>
+                <a href="/dl/Nd088vx9" class="btn -small">download</a>
+                <a href="/clone/Nd088vx9" class="btn -small h_800">clone</a>
+                <a href="/embed/Nd088vx9" class="btn -small h_800">embed</a>
+                <a href="/report/Nd088vx9" class="btn -small">report</a>
+                <a href="/print/Nd088vx9" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;It’s a cold winter day.</div></li><li class="li1"><div class="de1">&gt;Lots of snow and ice, a seemingly cozy and beautiful sight.</div></li><li class="li1"><div class="de1">&gt;&quot;A nice little observation&quot; you thought to yourself while laying wrapped up in a comfy and warm little sushi roll made of blankets.</div></li><li class="li1"><div class="de1">&gt;Today is one of those lazy days where you just feel like doing absolutely nothing but lay down and listen to some calm music.</div></li><li class="li1"><div class="de1">&gt;Its a relaxing night with the only thing you notice is the the calm little wind pushing snowflakes around.</div></li><li class="li1"><div class="de1">&gt;That is until in the background you hear a feint sound of… someone trying to open a door?</div></li><li class="li1"><div class="de1">&gt;Strange, you never planned visitors… not like anyone would want to visit you.</div></li><li class="li1"><div class="de1">&gt;The louder moving of the door handle is replaced by a more feint sound of a… lockpick?</div></li><li class="li1"><div class="de1">&gt;Now that is not the sound you wanted to hear today.</div></li><li class="li1"><div class="de1">&gt;Your heartbeat seems to be rising, as nearly all sound except that clicking sound seem to vanish.</div></li><li class="li1"><div class="de1">&gt;You never were one for conflict, you would rather just sit back and do nothing hoping it would all go away, but you had your fair share of problems.</div></li><li class="li1"><div class="de1">&gt;Time seems to slow down as things quiet down for just a moment followed by a final click.</div></li><li class="li1"><div class="de1">&gt;Now is the time to panic, is this real? Are you dreaming?</div></li><li class="li1"><div class="de1">&gt;You faintly remember having nightmares similar to this, you quickly remember a little test to see if you are dreaming or if this is all real.</div></li><li class="li1"><div class="de1">&gt;In your head you remember the line you read somewhere on the internet ”Just pinch your nose with your fingers and try to breathe through it” </div></li><li class="li1"><div class="de1">&gt;You try just that……… And you are unable to do so.</div></li><li class="li1"><div class="de1">&gt;A thousand scenarios from all the horror movies and internet articles come swarming into your head. </div></li><li class="li1"><div class="de1">&gt;Could this be it? Is this how it ends? What did you do to deserve this?</div></li><li class="li1"><div class="de1">&gt;You give yourself a mental slap over the face, you are overreacting.</div></li><li class="li1"><div class="de1">&gt;Sure, there is an intruder in your house but that doesn’t mean your life is over right?</div></li><li class="li1"><div class="de1">&gt;A quick plan of action is needed, there are only 2 coming to you right now.</div></li><li class="li1"><div class="de1">&gt;Fight of run, both seems stupid in their own way.</div></li><li class="li1"><div class="de1">&gt;The outside sure is beautiful but that is only because you are not actually there.</div></li><li class="li1"><div class="de1">&gt;In fact, there have been numerous news reports about how dangerous it is.</div></li><li class="li1"><div class="de1">&gt;On the other hand, fighting whoever it was that is here with you might end even worse.</div></li><li class="li1"><div class="de1">&gt;There was no way you would go outside without the proper clothes and your room was too far away, the kitchen was much closer.</div></li><li class="li1"><div class="de1">&gt;Fight it must be then.</div></li><li class="li1"><div class="de1">&gt;Painfully slowly and absolutely silently you make your way to the kitchen and grab the biggest and sharpest knife you have in your arsenal of vegetable killing weapons.</div></li><li class="li1"><div class="de1">&gt;One thing you notice is that not only have you not made any sound, but neither did the intruder.</div></li><li class="li1"><div class="de1">&gt;You feel like you are stuck in a horror movie, determined not to die like you are in one, you grab the hold of your knife even tighter getting ready to strike whoever comes even close.</div></li><li class="li1"><div class="de1">&gt;You check the hallway and notice that the main door is exactly like you left it and free of snow.</div></li><li class="li1"><div class="de1">&gt;There was no way anyone would get in without leaving a trail so the only option left was the backdoor that lead to the basement.</div></li><li class="li1"><div class="de1">&gt;As with every horror movie cliché, the path to the basement was by narrow and dark stairs.</div></li><li class="li1"><div class="de1">&gt;Determined to not make any noise; every move you made from the opening of the door to every single step was painfully slow.</div></li><li class="li1"><div class="de1">&gt;During the first few steps you took, your own mind seemed to give you another huge slap.</div></li><li class="li1"><div class="de1">&gt;”Hey dumbass, you know what’s the most optimal way to survive an intruder? Do nothing and if he finds you, listen to him.”</div></li><li class="li1"><div class="de1">&gt;”Good going brain” you thought “Excellent timing”.</div></li><li class="li1"><div class="de1">&gt;What part your brain didn’t tell you is that your body casted a considerable shadow as you went down.</div></li><li class="li1"><div class="de1">&gt;This seems to spook the intruder and you hear a loud crash.</div></li><li class="li1"><div class="de1">&gt;A wave of adrenaline injected itself into you and you rushed down the stairs, knife in hand ready to strike.</div></li><li class="li1"><div class="de1">&gt;You quickly find a switch to turn on the light and observe what you see.</div></li><li class="li1"><div class="de1">&gt;There is no doubt that the door was lockpicked, there is a trail of snow coming from it mixed with a considerable cold breeze that came from outside.</div></li><li class="li1"><div class="de1">&gt;Another quick look confirmed that nothing seems to be missing or broken, minus a bucket that looked like it was kicked over, no doubt that was what caused the sound.</div></li><li class="li1"><div class="de1">&gt;It also seems like there is some kind of… bag next to the bucket, it looks absolutely coated in snow and seems to be in awful condition.</div></li><li class="li1"><div class="de1">&gt;As your adrenaline filled breathing calms down you begin hearing a sound of someone trying desperately to breath silently.</div></li><li class="li1"><div class="de1">&gt;It was to no avail, you heard it clearly, seems like the cold weather had its toll on whoever decided to come here.</div></li><li class="li1"><div class="de1">&gt;It was coming from behind a stack of wood you had there for burning.</div></li><li class="li1"><div class="de1">&gt;Determined not to get surprised, you raised your knife high in the air Michael myers style, and kicked the wood out of the way with your foot.</div></li><li class="li1"><div class="de1">&gt;Before your brain even had the time to process what or who it was behind it you loudly shouted with the most intimidating voice you could come up with.</div></li><li class="li1"><div class="de1">&gt;”What the fuck are you doing here?</div></li><li class="li1"><div class="de1">&gt;The creature seemed to recoil heavily by the sound of your voice not even daring to look at you directly.</div></li><li class="li1"><div class="de1">&gt;IT was sitting as close to the wall as possible curled up into a fetal position.</div></li><li class="li1"><div class="de1">&gt;It had two clear wings wrapped around itself like a sort of blanket. They looked in terrible state, with most of them being nearly frozen and with lots of holes and tears.</div></li><li class="li1"><div class="de1">&gt;Under it It was wearing what you could only describe as discarded blanket that was chewed on by sharks.</div></li><li class="li1"><div class="de1">&gt;The blanket also seemed to cover its head forming a sort of makeshift hoodie.</div></li><li class="li1"><div class="de1">&gt;Confused you shout again. “What the fuck are you?”</div></li><li class="li1"><div class="de1">&gt;The creature already shaking, no doubt from the freezing cold outside, slowly turns towards you.</div></li><li class="li1"><div class="de1">&gt;It looks directly into your eyes with its own.</div></li><li class="li1"><div class="de1">&gt;They were the strangest eyes you have ever seen, and not in a bad way. They weren’t too different to most you have seen, but they had this strange sort of effect that you saw on some paint. It had this pearlescent sort of color. Even from the quick turn of its head you saw it subtly change from shades of greens to shades of purple.</div></li><li class="li1"><div class="de1">&gt;They also seem to be filled with tears dropping down slowly to the ground.</div></li><li class="li1"><div class="de1">&gt;The head was this strange mix of brown, black and white. There were a few streaks of frozen black hair blocking half of its face. &gt;Along with that you noticed two antennae nearly covered in the makeshift hoodie.</div></li><li class="li1"><div class="de1">&gt;Instead of mouth or a muzzle it had this long black sort of… needle, except a lot less… sharp and frankly not very scary looking.</div></li><li class="li1"><div class="de1">&gt;You have seen and heard this creature many times before, a mosquito.</div></li><li class="li1"><div class="de1">“P-Please don’ttt h-hurt meee! III am sssso ssssorry for bbbreakkking in, p-please…. Please…”</div></li><li class="li1"><div class="de1">&gt;A low-pitched feminine voice said. It was a bit hard to understand what it… well… she said, thanks to the shivering.</div></li><li class="li1"><div class="de1">&gt;She noticed the giant knife you are holding and immediately turned her head to whimper.</div></li><li class="li1"><div class="de1">&gt;She spoke again although this time it was more muffled thanks to her trying to cover herself up as much as she could.</div></li><li class="li1"><div class="de1">“I…I know, you all hhh-ate us….. me.” She then started audibly crying.</div></li><li class="li1"><div class="de1">“Me and my s-sisters, tried to find some shelter… somewhere to go.. to work… to… not die. We were cast out from everywhere we went to, s-some of us being killed for even daring to… show up anywhere close.” She slowly put her shaking hands towards her face.</div></li><li class="li1"><div class="de1">“They all said we are nothing more but annoying insects that deserve t … d-die…. That all we do is spread malaria and kill thousands.” She put her hands down and started looking directly at them like she never saw them before.</div></li><li class="li1"><div class="de1">“Me and my sisters, we were never liked that, my mother always said that good things come to good people no matter who we are.” She tried to slowly move her wing only for it to painfully snap creating another hole in it</div></li><li class="li1"><div class="de1">“I never hurt anyone, and never will… I just…. I just want to live a normal life.” </div></li><li class="li1"><div class="de1">&gt;Her breathing and words seem to slow down.</div></li><li class="li1"><div class="de1">&gt;She slowly turns to you one more time.</div></li><li class="li1"><div class="de1">“Please sir…. Please…. I just… want to…..to…. be happy… and make others… happy…. Even more.” </div></li><li class="li1"><div class="de1">&gt;As the last words leave her, she seems to collapse on the ground, with only the faintest sound of her breathing being left in the air.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">What would you do?</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;It’s a cold winter day.
+&gt;Lots of snow and ice, a seemingly cozy and beautiful sight.
+&gt;&quot;A nice little observation&quot; you thought to yourself while laying wrapped up in a comfy and warm little sushi roll made of blankets.
+&gt;Today is one of those lazy days where you just feel like doing absolutely nothing but lay down and listen to some calm music.
+&gt;Its a relaxing night with the only thing you notice is the the calm little wind pushing snowflakes around.
+&gt;That is until in the background you hear a feint sound of… someone trying to open a door?
+&gt;Strange, you never planned visitors… not like anyone would want to visit you.
+&gt;The louder moving of the door handle is replaced by a more feint sound of a… lockpick?
+&gt;Now that is not the sound you wanted to hear today.
+&gt;Your heartbeat seems to be rising, as nearly all sound except that clicking sound seem to vanish.
+&gt;You never were one for conflict, you would rather just sit back and do nothing hoping it would all go away, but you had your fair share of problems.
+&gt;Time seems to slow down as things quiet down for just a moment followed by a final click.
+&gt;Now is the time to panic, is this real? Are you dreaming?
+&gt;You faintly remember having nightmares similar to this, you quickly remember a little test to see if you are dreaming or if this is all real.
+&gt;In your head you remember the line you read somewhere on the internet ”Just pinch your nose with your fingers and try to breathe through it” 
+&gt;You try just that……… And you are unable to do so.
+&gt;A thousand scenarios from all the horror movies and internet articles come swarming into your head. 
+&gt;Could this be it? Is this how it ends? What did you do to deserve this?
+&gt;You give yourself a mental slap over the face, you are overreacting.
+&gt;Sure, there is an intruder in your house but that doesn’t mean your life is over right?
+&gt;A quick plan of action is needed, there are only 2 coming to you right now.
+&gt;Fight of run, both seems stupid in their own way.
+&gt;The outside sure is beautiful but that is only because you are not actually there.
+&gt;In fact, there have been numerous news reports about how dangerous it is.
+&gt;On the other hand, fighting whoever it was that is here with you might end even worse.
+&gt;There was no way you would go outside without the proper clothes and your room was too far away, the kitchen was much closer.
+&gt;Fight it must be then.
+&gt;Painfully slowly and absolutely silently you make your way to the kitchen and grab the biggest and sharpest knife you have in your arsenal of vegetable killing weapons.
+&gt;One thing you notice is that not only have you not made any sound, but neither did the intruder.
+&gt;You feel like you are stuck in a horror movie, determined not to die like you are in one, you grab the hold of your knife even tighter getting ready to strike whoever comes even close.
+&gt;You check the hallway and notice that the main door is exactly like you left it and free of snow.
+&gt;There was no way anyone would get in without leaving a trail so the only option left was the backdoor that lead to the basement.
+&gt;As with every horror movie cliché, the path to the basement was by narrow and dark stairs.
+&gt;Determined to not make any noise; every move you made from the opening of the door to every single step was painfully slow.
+&gt;During the first few steps you took, your own mind seemed to give you another huge slap.
+&gt;”Hey dumbass, you know what’s the most optimal way to survive an intruder? Do nothing and if he finds you, listen to him.”
+&gt;”Good going brain” you thought “Excellent timing”.
+&gt;What part your brain didn’t tell you is that your body casted a considerable shadow as you went down.
+&gt;This seems to spook the intruder and you hear a loud crash.
+&gt;A wave of adrenaline injected itself into you and you rushed down the stairs, knife in hand ready to strike.
+&gt;You quickly find a switch to turn on the light and observe what you see.
+&gt;There is no doubt that the door was lockpicked, there is a trail of snow coming from it mixed with a considerable cold breeze that came from outside.
+&gt;Another quick look confirmed that nothing seems to be missing or broken, minus a bucket that looked like it was kicked over, no doubt that was what caused the sound.
+&gt;It also seems like there is some kind of… bag next to the bucket, it looks absolutely coated in snow and seems to be in awful condition.
+&gt;As your adrenaline filled breathing calms down you begin hearing a sound of someone trying desperately to breath silently.
+&gt;It was to no avail, you heard it clearly, seems like the cold weather had its toll on whoever decided to come here.
+&gt;It was coming from behind a stack of wood you had there for burning.
+&gt;Determined not to get surprised, you raised your knife high in the air Michael myers style, and kicked the wood out of the way with your foot.
+&gt;Before your brain even had the time to process what or who it was behind it you loudly shouted with the most intimidating voice you could come up with.
+&gt;”What the fuck are you doing here?
+&gt;The creature seemed to recoil heavily by the sound of your voice not even daring to look at you directly.
+&gt;IT was sitting as close to the wall as possible curled up into a fetal position.
+&gt;It had two clear wings wrapped around itself like a sort of blanket. They looked in terrible state, with most of them being nearly frozen and with lots of holes and tears.
+&gt;Under it It was wearing what you could only describe as discarded blanket that was chewed on by sharks.
+&gt;The blanket also seemed to cover its head forming a sort of makeshift hoodie.
+&gt;Confused you shout again. “What the fuck are you?”
+&gt;The creature already shaking, no doubt from the freezing cold outside, slowly turns towards you.
+&gt;It looks directly into your eyes with its own.
+&gt;They were the strangest eyes you have ever seen, and not in a bad way. They weren’t too different to most you have seen, but they had this strange sort of effect that you saw on some paint. It had this pearlescent sort of color. Even from the quick turn of its head you saw it subtly change from shades of greens to shades of purple.
+&gt;They also seem to be filled with tears dropping down slowly to the ground.
+&gt;The head was this strange mix of brown, black and white. There were a few streaks of frozen black hair blocking half of its face. &gt;Along with that you noticed two antennae nearly covered in the makeshift hoodie.
+&gt;Instead of mouth or a muzzle it had this long black sort of… needle, except a lot less… sharp and frankly not very scary looking.
+&gt;You have seen and heard this creature many times before, a mosquito.
+“P-Please don’ttt h-hurt meee! III am sssso ssssorry for bbbreakkking in, p-please…. Please…”
+&gt;A low-pitched feminine voice said. It was a bit hard to understand what it… well… she said, thanks to the shivering.
+&gt;She noticed the giant knife you are holding and immediately turned her head to whimper.
+&gt;She spoke again although this time it was more muffled thanks to her trying to cover herself up as much as she could.
+“I…I know, you all hhh-ate us….. me.” She then started audibly crying.
+“Me and my s-sisters, tried to find some shelter… somewhere to go.. to work… to… not die. We were cast out from everywhere we went to, s-some of us being killed for even daring to… show up anywhere close.” She slowly put her shaking hands towards her face.
+“They all said we are nothing more but annoying insects that deserve t … d-die…. That all we do is spread malaria and kill thousands.” She put her hands down and started looking directly at them like she never saw them before.
+“Me and my sisters, we were never liked that, my mother always said that good things come to good people no matter who we are.” She tried to slowly move her wing only for it to painfully snap creating another hole in it
+“I never hurt anyone, and never will… I just…. I just want to live a normal life.” 
+&gt;Her breathing and words seem to slow down.
+&gt;She slowly turns to you one more time.
+“Please sir…. Please…. I just… want to…..to…. be happy… and make others… happy…. Even more.” 
+&gt;As the last words leave her, she seems to collapse on the ground, with only the faintest sound of her breathing being left in the air.
+
+What would you do?</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    11 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    12 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    15 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    16 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

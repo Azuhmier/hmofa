@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Slow and steady - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Slow and steady - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/NzkNHd1P" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/NzkNHd1P" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="fMGnSA8jCZsgMVztYaJhdzx0cKiWMp3wvsvnjYBsKSwlm-MwfnxKyGxHGKE5xzMlbiwI4aVHsKGNodXr51h2FA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/NzkNHd1P" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/NzkNHd1P" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Cheetah_anon">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Slow and steady</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Cheetah_anon">Cheetah_anon</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=Cheetah_anon" class="message" title="Send a private message to: Cheetah_anon"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 24th of April 2017 12:52:47 PM CDT">Apr 24th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,731                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 11.65 KB            </div>
+
+            <div class="right">
+                <a href="/raw/NzkNHd1P" class="btn -small">raw</a>
+                <a href="/dl/NzkNHd1P" class="btn -small">download</a>
+                <a href="/clone/NzkNHd1P" class="btn -small h_800">clone</a>
+                <a href="/embed/NzkNHd1P" class="btn -small h_800">embed</a>
+                <a href="/report/NzkNHd1P" class="btn -small">report</a>
+                <a href="/print/NzkNHd1P" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Chapter 1: Slow and steady</div></li><li class="li1"><div class="de1">&gt;You are Anon</div></li><li class="li1"><div class="de1">&gt;Hiking through the woods and to the top of mountains has always been a passion of you</div></li><li class="li1"><div class="de1">&gt;You love the feel of fresh air in your hair and the sounds of nature in your ears</div></li><li class="li1"><div class="de1">&gt;Trading the noise of cars for the relaxing chirping of birds is your version of a spa treatment</div></li><li class="li1"><div class="de1">&gt;You can feel the weight of your backpack, stuffed with rations, water, a survival kit and your tent</div></li><li class="li1"><div class="de1">&gt;With a big step you arrive on top of the first small hill and look upwards to the mountains just waiting for you</div></li><li class="li1"><div class="de1">&gt;Of course you don&#039;t take this hike alone</div></li><li class="li1"><div class="de1">&gt;There always is a big group of like-minded people around you</div></li><li class="li1"><div class="de1">&gt;Together no mountain is to big and no forest to dark</div></li><li class="li1"><div class="de1">&gt;Normally you would be in the front of the group, pulling them with you, until you arrive at a campground to pitch your tents for the night</div></li><li class="li1"><div class="de1">&gt;Normally...but not this time</div></li><li class="li1"><div class="de1">&gt;This time you drew the short straw and have to accompany Grace</div></li><li class="li1"><div class="de1">&gt;She is a really nice girl, always friendly and with her knowledge about plants a indispensable help</div></li><li class="li1"><div class="de1">&gt;You stop and turn around to wait for her again</div></li><li class="li1"><div class="de1">&gt;Grace is currently nearly 200 meters behind you, staring into the valley below</div></li><li class="li1"><div class="de1">&gt;&quot;Grace, come on. The others are nearly on the campground and we still have to travel nearly 5 Kilometers&quot;</div></li><li class="li1"><div class="de1">&gt;Her head is slowly starting to turn towards you while she slowly raises a hand with the big claws to wave in your direction</div></li><li class="li1"><div class="de1">&gt;It takes her nearly a minute to do so and start walking again</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah.....sorry.......Anon&quot;</div></li><li class="li1"><div class="de1">&gt;Grace is a sloth</div></li><li class="li1"><div class="de1">&gt;Literally</div></li><li class="li1"><div class="de1">&gt;You are not angry at her, she can&#039;t change who she is</div></li><li class="li1"><div class="de1">&gt;You are, however, starting to get frustrated with her</div></li><li class="li1"><div class="de1">&gt;Why did this girl, that takes nearly twice as long as all other species, choose to take a hike into the mountains ?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">2 hours later</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You managed it to travel nearly half the way to the camp when you suddenly get a message on your phone</div></li><li class="li1"><div class="de1">&gt;There is a thunderstorm alert from the mountain rescue service</div></li><li class="li1"><div class="de1">&gt;Dammit</div></li><li class="li1"><div class="de1">&gt;&quot;Hey Grace, we have to camp right here, there is a storm coming&quot;</div></li><li class="li1"><div class="de1">&gt;You quickly send a text to the rest of your group and look for a suitable place for the tent</div></li><li class="li1"><div class="de1">&gt;There is a small cavity in the mountainside, only 3 meters in depth</div></li><li class="li1"><div class="de1">&gt;Not perfect, but there is no way you can place your tent in a way that trees could fall on top of it</div></li><li class="li1"><div class="de1">&gt;It will also protect you from falling rocks</div></li><li class="li1"><div class="de1">&gt;With practiced hand you place the tent inside of the cavity and prepare everything for the storm</div></li><li class="li1"><div class="de1">&gt;At this height in the mountains there is always the danger of a cold snap and sudden snowfall</div></li><li class="li1"><div class="de1">&gt;Combined with strong winds and lightning it can get dangerous really fast</div></li><li class="li1"><div class="de1">&gt;You stand in front of your tent and store the canned food inside as the first snowflakes come down</div></li><li class="li1"><div class="de1">&gt;Danger aside, you really love these situations</div></li><li class="li1"><div class="de1">&gt;Sitting in your tent, wrapped in a warm blanket while it&#039;s snowing outside</div></li><li class="li1"><div class="de1">&gt;Ahhh....wonderful</div></li><li class="li1"><div class="de1">&gt;The temperature takes a sudden plunge as the snowfall picks up</div></li><li class="li1"><div class="de1">&gt;You take a look to the free space in the cavity and nearly get a heart attack as you spot Grace still walking towards you, snow starting to pile on top of her</div></li><li class="li1"><div class="de1">&gt;You quickly run towards her, grab her arm and drag her into your tent</div></li><li class="li1"><div class="de1">&gt;As you drag the zipper up and close the flap to your tent there is already nothing but snow outside</div></li><li class="li1"><div class="de1">&gt;Looks like the two of you will spend a night together in your one-man-tent</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">End of Chapter 1</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Slow and Steady: Chapter 2</div></li><li class="li1"><div class="de1">&gt;The storm outside the tent has picked up in intensity and is now howling like crazy</div></li><li class="li1"><div class="de1">&gt;The thin walls are waving back and forth, the coldness is creeping through the zipper</div></li><li class="li1"><div class="de1">&gt;Besides the fact, that this is one of the worst situations you ever found yourself in you are not upset</div></li><li class="li1"><div class="de1">&gt;Grace is just finishing her sentence she started three minutes ago about her university and why she choose plant biology as her major</div></li><li class="li1"><div class="de1">&gt;”And...my...mother...used...to...grow...these...berries...in...our...garden. I...liked...them. They...never...ran...away.”</div></li><li class="li1"><div class="de1">&gt;You never spend much time with Grace, something you regret now.</div></li><li class="li1"><div class="de1">&gt;She is very self-aware about her speed and likes to make fun of her slowness</div></li><li class="li1"><div class="de1">&gt;By now you are even used to her speech pattern</div></li><li class="li1"><div class="de1">&gt;You check your backpack again and pull out a big pack of instant food, something soja based and self heating</div></li><li class="li1"><div class="de1">&gt;You pull the little flap on the package and fell how it starts to heat up</div></li><li class="li1"><div class="de1">&gt;After a few seconds you offer the strips to Grace who slowly bows over</div></li><li class="li1"><div class="de1">&gt;Soon her long claws, which you now notice are polished, reach into the bag</div></li><li class="li1"><div class="de1">&gt;Grace is using them almost like chopstick to pull out some strips and slowly starts chewing on them</div></li><li class="li1"><div class="de1">&gt;”So, your mother was a florist in the city. Sounds nice”</div></li><li class="li1"><div class="de1">&gt;”It...was. She...sometimes...even...grew...them...on...her...back”</div></li><li class="li1"><div class="de1">&gt;You look up from the bag and swallow, the soja tastes like strawberries</div></li><li class="li1"><div class="de1">&gt;Who thought that was a good idea ?</div></li><li class="li1"><div class="de1">&gt;”Yeah...our...fur...is...so...dense...that...plants...can...grow...in...it”</div></li><li class="li1"><div class="de1">&gt;”You too ?”</div></li><li class="li1"><div class="de1">&gt;She is slowly shaking her head</div></li><li class="li1"><div class="de1">&gt;”No...too...much...work...and...it&#039;s....dirty”</div></li><li class="li1"><div class="de1">&gt;Yeah, thats what you thought</div></li><li class="li1"><div class="de1">&gt;You take s look at your phone and once again check the weather forecast</div></li><li class="li1"><div class="de1">&gt;Snow, snow and snow</div></li><li class="li1"><div class="de1">&gt;”Well Grace, looks like we will be stuck here for some time. How about we turn in for the night ?”</div></li><li class="li1"><div class="de1">&gt;While she is slowly nodding you prepare the electric thermometer and set the hypothermia alert</div></li><li class="li1"><div class="de1">&gt;Having two sleeping backs in your tent is a little cramped but it&#039;s not as bad as you expected</div></li><li class="li1"><div class="de1">&gt;With the taste of soja and strawberry and the thought of flowers you drift of to sleep</div></li><li class="li1"><div class="de1">…...</div></li><li class="li1"><div class="de1">&gt;A loud beeping is tearing you from your dreams and you immediately notice how cold it is in the tent</div></li><li class="li1"><div class="de1">&gt;The thermometer is showing – 10°C inside of the tent, a cold wave must have hit you</div></li><li class="li1"><div class="de1">&gt;You have to prepare for this, without a heat source this will not end well</div></li><li class="li1"><div class="de1">&gt;Your hand finds Grace and you try to shake her awake</div></li><li class="li1"><div class="de1">&gt;No effect, she is not responding</div></li><li class="li1"><div class="de1">&gt;You take a look at her and notice how her body is rigid, her breaths are even slower than normal</div></li><li class="li1"><div class="de1">&gt;With horror you remember your biology class again, sloths can not shiver, they do not have enough muscle mass for that</div></li><li class="li1"><div class="de1">&gt;If you don’t act fast Grace could freeze</div></li><li class="li1"><div class="de1">&gt;You immediately start the small electric heater and set it to maximal temperature before you lift Grace from her bedroll</div></li><li class="li1"><div class="de1">&gt;She is stiff as a piece of wood</div></li><li class="li1"><div class="de1">&gt;You stuff her into your own sleeping back and grab every self heating pack you can find</div></li><li class="li1"><div class="de1">&gt;Your survival instincts take over and before you can stop yourself you stripped down</div></li><li class="li1"><div class="de1">&gt;Soon Grace clothes are gone too and the both of you are stuffed inside the bedroll, covered in warm instant food</div></li><li class="li1"><div class="de1">&gt;This is not how you imagined this trip</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">End of Chapter 2</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 3: Too fast</div></li><li class="li1"><div class="de1">&gt;You once again run your fingers through Grace fur and try to ignore the warmth spreading through your body</div></li><li class="li1"><div class="de1">&gt;It started as a simple way to make sure that she is still breathing but now, nearly two hours later, you can&#039;t get enough of the softness</div></li><li class="li1"><div class="de1">&gt;The instant food and your own body were enough to prevent Grace from freezing</div></li><li class="li1"><div class="de1">&gt;While your thoughts wander your hand does to</div></li><li class="li1"><div class="de1">&gt;Your fingers close around Grace ass and you give her fluffy cheek a good squeeze</div></li><li class="li1"><div class="de1">&gt;Seems like your dry spell has effected you more than you thought</div></li><li class="li1"><div class="de1">&gt;You don&#039;t want to be this needy but you simply can&#039;t stop</div></li><li class="li1"><div class="de1">&gt;Fur is running through your fingers as you continue your assault</div></li><li class="li1"><div class="de1">&gt;Your finger slips closer to her nether region and you can feel how the thick fur makes way for sensitive skin</div></li><li class="li1"><div class="de1">&gt;Dammit, this is wrong</div></li><li class="li1"><div class="de1">&gt;You swallow hard and position your fingers again</div></li><li class="li1"><div class="de1">&gt;The fingertips part her folds and you slowly slip into her</div></li><li class="li1"><div class="de1">&gt;Wonderful Anon, only 6 months without a female touch and you start raping the first girl you find</div></li><li class="li1"><div class="de1">&gt;Your fingers slowly circle inside of her, your thumb is searching for her clit</div></li><li class="li1"><div class="de1">&gt;She is not wet, which means you have to slow down, her insides are wonderful warm</div></li><li class="li1"><div class="de1">&gt;You find the small marble of concentrated pleasure and give it a small pinch</div></li><li class="li1"><div class="de1">&gt;While you explore the sleeping sloth you can feel her breast rubbing against your chest, her nipples start to harden</div></li><li class="li1"><div class="de1">&gt;As you notice this change you withdraw your fingers from her, dragging her outer labia a small distance with you</div></li><li class="li1"><div class="de1">&gt;The lack of lubrication makes them stick to you</div></li><li class="li1"><div class="de1">&gt;Grace slowly starts to open her eyes and you place your hands next to your sides</div></li><li class="li1"><div class="de1">&gt;Her eyes focus on you and the shy smile on your face</div></li><li class="li1"><div class="de1">&gt;”Hey Grace.....sorry about this but you were kind of hypothermic and I had to warm you up”</div></li><li class="li1"><div class="de1">&gt;Grace eyes “dart” through the tent, from the thermometer to the warm food all around you</div></li><li class="li1"><div class="de1">&gt;”Yeahhh....tha..anks.....for....that”</div></li><li class="li1"><div class="de1">&gt;Her speech is both slower and a little more shaky than normal</div></li><li class="li1"><div class="de1">&gt;”Well since you are now awake how about we both try to sleep again ? Hehe..”</div></li><li class="li1"><div class="de1">&gt;You desperately try to cover up your own tension and hope that the sudden change is distracting her enough so that she does not notice your erection</div></li><li class="li1"><div class="de1">&gt;Anon little is rising directly between Grace legs and does not show any indices for a quick shrinkage</div></li><li class="li1"><div class="de1">&gt;You quickly close your eyes and mimic sleeping sounds</div></li><li class="li1"><div class="de1">&gt;Any other living being would not be fooled by this but thanks to the slow nerve system of sloths it works on Grace</div></li><li class="li1"><div class="de1">&gt;While you concentrate on your breathing to make it sound like you are sleeping Grace is shifting atop of you</div></li><li class="li1"><div class="de1">&gt;Her claws slide over your belly, down to your hips and scratch your skin</div></li><li class="li1"><div class="de1">&gt;Soon she has reached your....ohh</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Grace POV</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You were torn from your slumber by a strange feeling in your nethers</div></li><li class="li1"><div class="de1">&gt;You are lying naked on Anon, covered by warm packages of food</div></li><li class="li1"><div class="de1">&gt;”HeyGracesorryaboutthisbutyouwerekindofhypothermicandIhadtowarmyouup”</div></li><li class="li1"><div class="de1">&gt;And he is asleep again</div></li><li class="li1"><div class="de1">&gt;You have no idea how all other species can act this fast</div></li><li class="li1"><div class="de1">&gt;You let your eyes wander around the tent and over to the thermometer</div></li><li class="li1"><div class="de1">&gt;This hike really was a mistake</div></li><li class="li1"><div class="de1">&gt;Not only did you once again slow everyone down and now you nearly froze</div></li><li class="li1"><div class="de1">&gt;Sometimes you wonder if you should simply stop</div></li><li class="li1"><div class="de1">&gt;At least you can get a good look at Anon now</div></li><li class="li1"><div class="de1">&gt;The thought of being stripped by him is really arousing, even though it would be a little to fast for you</div></li><li class="li1"><div class="de1">&gt;You enjoy the slow and steady peeling away of clothing, while his eyes would wander over your body and...</div></li><li class="li1"><div class="de1">&gt;What is wrong with you ?</div></li><li class="li1"><div class="de1">&gt;The burning in your pussy is growing stronger, you have to act</div></li><li class="li1"><div class="de1">&gt;You slide your hand down your body, your claws slide between your and Anons body</div></li><li class="li1"><div class="de1">&gt;The heat is unbelievable strong now, your breathing is accelerating</div></li><li class="li1"><div class="de1">&gt;Before your fingers can reach your burning nethers a sudden jolt of pleasure is running through your body</div></li><li class="li1"><div class="de1">&gt;Your clit feels like something is pressing down on it, sending pleasure down your spine, directly into your brain</div></li><li class="li1"><div class="de1">&gt;You try to stop it but can&#039;t help yourself</div></li><li class="li1"><div class="de1">&gt;Squirming and squeaking you orgasm on top of Anon</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon POV</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your hold your breath as Grace claws nudge your erection</div></li><li class="li1"><div class="de1">&gt;This is the end, she found out and is now going to geld you</div></li><li class="li1"><div class="de1">&gt;Suddenly Grace is starting to squirm on top of you, slowly rolling on top of you</div></li><li class="li1"><div class="de1">&gt;You open your eyes and stare directly into hers</div></li><li class="li1"><div class="de1">&gt;Her eyes have rolled back into her skull, her mouth is hanging open</div></li><li class="li1"><div class="de1">&gt;Warm breaths are hitting your face and something warm starts to flow down your leg</div></li><li class="li1"><div class="de1">&gt;Grace is holding this position for nearly 3 minutes before she starts to respond to you again</div></li><li class="li1"><div class="de1">&gt;For a few moments both of you simply stare at each other</div></li><li class="li1"><div class="de1">&gt;Grace is breaking the silence by screaming a high pitched screech directly in your face</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">20 minutes later</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Ohh...god....Anon....slow....down...pleaahahaaaseee”</div></li><li class="li1"><div class="de1">&gt;You did not touch her for nearly 5 minute now</div></li><li class="li1"><div class="de1">&gt;Before that however you got a good feel of her body</div></li><li class="li1"><div class="de1">&gt;Squeezing her ample breasts and rubbing her clit, faster and harder than any sloth ever could</div></li><li class="li1"><div class="de1">&gt;This is now her fifth climax</div></li><li class="li1"><div class="de1">&gt;”Anon....stop....thats....the....wrong....holeeeaaaa”</div></li><li class="li1"><div class="de1">&gt;Wow, she has just reached the start of your anal fingering</div></li><li class="li1"><div class="de1">&gt;That was ten minutes ago</div></li><li class="li1"><div class="de1">&gt;The next time you will by some energy drinks for her</div></li><li class="li1"><div class="de1">End of Slow and Steady</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Chapter 1: Slow and steady
+&gt;You are Anon
+&gt;Hiking through the woods and to the top of mountains has always been a passion of you
+&gt;You love the feel of fresh air in your hair and the sounds of nature in your ears
+&gt;Trading the noise of cars for the relaxing chirping of birds is your version of a spa treatment
+&gt;You can feel the weight of your backpack, stuffed with rations, water, a survival kit and your tent
+&gt;With a big step you arrive on top of the first small hill and look upwards to the mountains just waiting for you
+&gt;Of course you don&#039;t take this hike alone
+&gt;There always is a big group of like-minded people around you
+&gt;Together no mountain is to big and no forest to dark
+&gt;Normally you would be in the front of the group, pulling them with you, until you arrive at a campground to pitch your tents for the night
+&gt;Normally...but not this time
+&gt;This time you drew the short straw and have to accompany Grace
+&gt;She is a really nice girl, always friendly and with her knowledge about plants a indispensable help
+&gt;You stop and turn around to wait for her again
+&gt;Grace is currently nearly 200 meters behind you, staring into the valley below
+&gt;&quot;Grace, come on. The others are nearly on the campground and we still have to travel nearly 5 Kilometers&quot;
+&gt;Her head is slowly starting to turn towards you while she slowly raises a hand with the big claws to wave in your direction
+&gt;It takes her nearly a minute to do so and start walking again
+&gt;&quot;Yeah.....sorry.......Anon&quot;
+&gt;Grace is a sloth
+&gt;Literally
+&gt;You are not angry at her, she can&#039;t change who she is
+&gt;You are, however, starting to get frustrated with her
+&gt;Why did this girl, that takes nearly twice as long as all other species, choose to take a hike into the mountains ?
+
+2 hours later
+
+&gt;You managed it to travel nearly half the way to the camp when you suddenly get a message on your phone
+&gt;There is a thunderstorm alert from the mountain rescue service
+&gt;Dammit
+&gt;&quot;Hey Grace, we have to camp right here, there is a storm coming&quot;
+&gt;You quickly send a text to the rest of your group and look for a suitable place for the tent
+&gt;There is a small cavity in the mountainside, only 3 meters in depth
+&gt;Not perfect, but there is no way you can place your tent in a way that trees could fall on top of it
+&gt;It will also protect you from falling rocks
+&gt;With practiced hand you place the tent inside of the cavity and prepare everything for the storm
+&gt;At this height in the mountains there is always the danger of a cold snap and sudden snowfall
+&gt;Combined with strong winds and lightning it can get dangerous really fast
+&gt;You stand in front of your tent and store the canned food inside as the first snowflakes come down
+&gt;Danger aside, you really love these situations
+&gt;Sitting in your tent, wrapped in a warm blanket while it&#039;s snowing outside
+&gt;Ahhh....wonderful
+&gt;The temperature takes a sudden plunge as the snowfall picks up
+&gt;You take a look to the free space in the cavity and nearly get a heart attack as you spot Grace still walking towards you, snow starting to pile on top of her
+&gt;You quickly run towards her, grab her arm and drag her into your tent
+&gt;As you drag the zipper up and close the flap to your tent there is already nothing but snow outside
+&gt;Looks like the two of you will spend a night together in your one-man-tent
+
+End of Chapter 1
+
+Slow and Steady: Chapter 2
+&gt;The storm outside the tent has picked up in intensity and is now howling like crazy
+&gt;The thin walls are waving back and forth, the coldness is creeping through the zipper
+&gt;Besides the fact, that this is one of the worst situations you ever found yourself in you are not upset
+&gt;Grace is just finishing her sentence she started three minutes ago about her university and why she choose plant biology as her major
+&gt;”And...my...mother...used...to...grow...these...berries...in...our...garden. I...liked...them. They...never...ran...away.”
+&gt;You never spend much time with Grace, something you regret now.
+&gt;She is very self-aware about her speed and likes to make fun of her slowness
+&gt;By now you are even used to her speech pattern
+&gt;You check your backpack again and pull out a big pack of instant food, something soja based and self heating
+&gt;You pull the little flap on the package and fell how it starts to heat up
+&gt;After a few seconds you offer the strips to Grace who slowly bows over
+&gt;Soon her long claws, which you now notice are polished, reach into the bag
+&gt;Grace is using them almost like chopstick to pull out some strips and slowly starts chewing on them
+&gt;”So, your mother was a florist in the city. Sounds nice”
+&gt;”It...was. She...sometimes...even...grew...them...on...her...back”
+&gt;You look up from the bag and swallow, the soja tastes like strawberries
+&gt;Who thought that was a good idea ?
+&gt;”Yeah...our...fur...is...so...dense...that...plants...can...grow...in...it”
+&gt;”You too ?”
+&gt;She is slowly shaking her head
+&gt;”No...too...much...work...and...it&#039;s....dirty”
+&gt;Yeah, thats what you thought
+&gt;You take s look at your phone and once again check the weather forecast
+&gt;Snow, snow and snow
+&gt;”Well Grace, looks like we will be stuck here for some time. How about we turn in for the night ?”
+&gt;While she is slowly nodding you prepare the electric thermometer and set the hypothermia alert
+&gt;Having two sleeping backs in your tent is a little cramped but it&#039;s not as bad as you expected
+&gt;With the taste of soja and strawberry and the thought of flowers you drift of to sleep
+…...
+&gt;A loud beeping is tearing you from your dreams and you immediately notice how cold it is in the tent
+&gt;The thermometer is showing – 10°C inside of the tent, a cold wave must have hit you
+&gt;You have to prepare for this, without a heat source this will not end well
+&gt;Your hand finds Grace and you try to shake her awake
+&gt;No effect, she is not responding
+&gt;You take a look at her and notice how her body is rigid, her breaths are even slower than normal
+&gt;With horror you remember your biology class again, sloths can not shiver, they do not have enough muscle mass for that
+&gt;If you don’t act fast Grace could freeze
+&gt;You immediately start the small electric heater and set it to maximal temperature before you lift Grace from her bedroll
+&gt;She is stiff as a piece of wood
+&gt;You stuff her into your own sleeping back and grab every self heating pack you can find
+&gt;Your survival instincts take over and before you can stop yourself you stripped down
+&gt;Soon Grace clothes are gone too and the both of you are stuffed inside the bedroll, covered in warm instant food
+&gt;This is not how you imagined this trip
+
+End of Chapter 2
+
+Chapter 3: Too fast
+&gt;You once again run your fingers through Grace fur and try to ignore the warmth spreading through your body
+&gt;It started as a simple way to make sure that she is still breathing but now, nearly two hours later, you can&#039;t get enough of the softness
+&gt;The instant food and your own body were enough to prevent Grace from freezing
+&gt;While your thoughts wander your hand does to
+&gt;Your fingers close around Grace ass and you give her fluffy cheek a good squeeze
+&gt;Seems like your dry spell has effected you more than you thought
+&gt;You don&#039;t want to be this needy but you simply can&#039;t stop
+&gt;Fur is running through your fingers as you continue your assault
+&gt;Your finger slips closer to her nether region and you can feel how the thick fur makes way for sensitive skin
+&gt;Dammit, this is wrong
+&gt;You swallow hard and position your fingers again
+&gt;The fingertips part her folds and you slowly slip into her
+&gt;Wonderful Anon, only 6 months without a female touch and you start raping the first girl you find
+&gt;Your fingers slowly circle inside of her, your thumb is searching for her clit
+&gt;She is not wet, which means you have to slow down, her insides are wonderful warm
+&gt;You find the small marble of concentrated pleasure and give it a small pinch
+&gt;While you explore the sleeping sloth you can feel her breast rubbing against your chest, her nipples start to harden
+&gt;As you notice this change you withdraw your fingers from her, dragging her outer labia a small distance with you
+&gt;The lack of lubrication makes them stick to you
+&gt;Grace slowly starts to open her eyes and you place your hands next to your sides
+&gt;Her eyes focus on you and the shy smile on your face
+&gt;”Hey Grace.....sorry about this but you were kind of hypothermic and I had to warm you up”
+&gt;Grace eyes “dart” through the tent, from the thermometer to the warm food all around you
+&gt;”Yeahhh....tha..anks.....for....that”
+&gt;Her speech is both slower and a little more shaky than normal
+&gt;”Well since you are now awake how about we both try to sleep again ? Hehe..”
+&gt;You desperately try to cover up your own tension and hope that the sudden change is distracting her enough so that she does not notice your erection
+&gt;Anon little is rising directly between Grace legs and does not show any indices for a quick shrinkage
+&gt;You quickly close your eyes and mimic sleeping sounds
+&gt;Any other living being would not be fooled by this but thanks to the slow nerve system of sloths it works on Grace
+&gt;While you concentrate on your breathing to make it sound like you are sleeping Grace is shifting atop of you
+&gt;Her claws slide over your belly, down to your hips and scratch your skin
+&gt;Soon she has reached your....ohh
+
+Grace POV
+
+&gt;You were torn from your slumber by a strange feeling in your nethers
+&gt;You are lying naked on Anon, covered by warm packages of food
+&gt;”HeyGracesorryaboutthisbutyouwerekindofhypothermicandIhadtowarmyouup”
+&gt;And he is asleep again
+&gt;You have no idea how all other species can act this fast
+&gt;You let your eyes wander around the tent and over to the thermometer
+&gt;This hike really was a mistake
+&gt;Not only did you once again slow everyone down and now you nearly froze
+&gt;Sometimes you wonder if you should simply stop
+&gt;At least you can get a good look at Anon now
+&gt;The thought of being stripped by him is really arousing, even though it would be a little to fast for you
+&gt;You enjoy the slow and steady peeling away of clothing, while his eyes would wander over your body and...
+&gt;What is wrong with you ?
+&gt;The burning in your pussy is growing stronger, you have to act
+&gt;You slide your hand down your body, your claws slide between your and Anons body
+&gt;The heat is unbelievable strong now, your breathing is accelerating
+&gt;Before your fingers can reach your burning nethers a sudden jolt of pleasure is running through your body
+&gt;Your clit feels like something is pressing down on it, sending pleasure down your spine, directly into your brain
+&gt;You try to stop it but can&#039;t help yourself
+&gt;Squirming and squeaking you orgasm on top of Anon
+
+Anon POV
+
+&gt;Your hold your breath as Grace claws nudge your erection
+&gt;This is the end, she found out and is now going to geld you
+&gt;Suddenly Grace is starting to squirm on top of you, slowly rolling on top of you
+&gt;You open your eyes and stare directly into hers
+&gt;Her eyes have rolled back into her skull, her mouth is hanging open
+&gt;Warm breaths are hitting your face and something warm starts to flow down your leg
+&gt;Grace is holding this position for nearly 3 minutes before she starts to respond to you again
+&gt;For a few moments both of you simply stare at each other
+&gt;Grace is breaking the silence by screaming a high pitched screech directly in your face
+
+20 minutes later
+
+&gt;”Ohh...god....Anon....slow....down...pleaahahaaaseee”
+&gt;You did not touch her for nearly 5 minute now
+&gt;Before that however you got a good feel of her body
+&gt;Squeezing her ample breasts and rubbing her clit, faster and harder than any sloth ever could
+&gt;This is now her fifth climax
+&gt;”Anon....stop....thats....the....wrong....holeeeaaaa”
+&gt;Wow, she has just reached the start of your anal fingering
+&gt;That was ten minutes ago
+&gt;The next time you will by some energy drinks for her
+End of Slow and Steady</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/683W8Bet">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    2 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    28 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    57 min ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Qea9Uraw">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

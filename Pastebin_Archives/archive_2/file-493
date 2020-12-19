@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Beyond the Cogs: Chapter 1 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Beyond the Cogs: Chapter 1 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/MV10mMqD" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/MV10mMqD" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="6uZsbVmBLtjmcqBwn8ZUUcEamkorlGX6fPff3lS7GdSmjSIhNuwbs6M41TzejywkuE_tBhLzDbQauLLrP8gtkQ==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/MV10mMqD" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/MV10mMqD" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="EarLickingGood">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Beyond the Cogs: Chapter 1</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/EarLickingGood">EarLickingGood</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=EarLickingGood" class="message" title="Send a private message to: EarLickingGood"></a>
+                                    
+                <div class="date">
+                    <span title="Sunday 13th of January 2019 04:48:56 PM CDT">Jan 13th, 2019</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    810                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 15.67 KB            </div>
+
+            <div class="right">
+                <a href="/raw/MV10mMqD" class="btn -small">raw</a>
+                <a href="/dl/MV10mMqD" class="btn -small">download</a>
+                <a href="/clone/MV10mMqD" class="btn -small h_800">clone</a>
+                <a href="/embed/MV10mMqD" class="btn -small h_800">embed</a>
+                <a href="/report/MV10mMqD" class="btn -small">report</a>
+                <a href="/print/MV10mMqD" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Final edit. Hope you like it. Feel free to give me feed back in the thread or DM. And special thanks to that one Anon who took his time to correct my shit. I hope I improved it. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The year is 2119. No one knew what would have become of the world and it&#039;s population 100 years ago. Everyone expected new technological advancements, barriers being broken in the medical fields and science leading the planet to a new age. And it did, but at a cost. All of the achievements that we were able to reach wasn&#039;t for the benefit of man or fur. But for pleasing shareholders and investors. Capitalism, the idea of a free market slowly turned into Corporatism as CEOs and their businesses grew ever more powerful and influential. Politicians were cheap to bribe, while citizens became easily manipulated. Public services turned into government contracts taken by corpos, no longer with the mindset of helping communities but profiting from them.</div></li><li class="li1"><div class="de1">&gt;Advancements in technology and engineering led to amazing things that made the first commercial computer equivalent to cave man drawings. Self Driving hover cars, cybernetic enhancements, drones to follow your every order, Holographic Televisions that made your favorite shows more life like then ever before, Even nanites that combated simple diseases.</div></li><li class="li1"><div class="de1">&gt;All sorts of cool shit! Cool shit that you can&#039;t financially afford. You&#039;re having a hard time as it is to pay for rent or buying food.</div></li><li class="li1"><div class="de1">&gt;Heck, you wished you had at least some extra cash to store in your savings.</div></li><li class="li1"><div class="de1">&gt;But living in city was costly.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t even know how you can survive when you&#039;re stuck living paycheck to pay check.</div></li><li class="li1"><div class="de1">&gt;At least it was pretty city, right?</div></li><li class="li1"><div class="de1">&gt;Skyscrapers packed densely together.</div></li><li class="li1"><div class="de1">&gt;Covered in neon lights and virtual ads...</div></li><li class="li1"><div class="de1">&gt;Hover cars speeding across all over the place.</div></li><li class="li1"><div class="de1">&gt;Leaving clouds of smogs and fumes...</div></li><li class="li1"><div class="de1">&gt;With Neglected streets running between the buildings on the surface...</div></li><li class="li1"><div class="de1">&gt;Filled with humans and anthros alike that didn&#039;t have the time for a social life...</div></li><li class="li1"><div class="de1">&gt;Next to what you were told was once a lake!</div></li><li class="li1"><div class="de1">&gt;Now more like a puddle a green sludge...</div></li><li class="li1"><div class="de1">&gt;Surrounded by barren wastes...</div></li><li class="li1"><div class="de1">&gt;Alright, it was a shitty city.</div></li><li class="li1"><div class="de1">&gt;But the job made it worth it! You were lucky to get it after finishing your X-ducation™.</div></li><li class="li1"><div class="de1">&gt;Supplied by XCorp© nonetheless! One of the city&#039;s most trusted brands that supplied it&#039;s services through govermental contracts.</div></li><li class="li1"><div class="de1">&gt;It taught you all the basics of computing, electrical engineering, and a bit of robotics too. And made you into the ideal handyman at the XCorp© standard. Which made total sense for you apply and work in mientience devision at XCorp© too.</div></li><li class="li1"><div class="de1">&gt;Sure they garnished your pay a bit to slowly pay back the loan you had taken from them for their classes, but you had hope, hope that you&#039;ll climb the corporate ladder and move up in life.</div></li><li class="li1"><div class="de1">&gt;You put a lot of emphasis when you said had hope. Because Gary, your manager, just handed you the pink slip.</div></li><li class="li1"><div class="de1">&gt;&quot;Sorry Anonymous, but we&#039;ve decided to let you go.&quot; He said calmly behind his desk, giving you a feign look of sorrow. &quot;XCorp© thanks you appreciates your years dedication and hard work, and hopes that leave us on good terms. I have some logistics to go over with you. Afterward, I can answer your questions.&quot;</div></li><li class="li1"><div class="de1">&gt;You were slack jawed. For two years you&#039;ve been working for XCorp©. Two years of sacrificing weekends, doing overtime and staying in late, busting your ass with maintenance for  the building, it&#039;s electronics and helping out fellow coworkers. You couldn&#039;t believe it.</div></li><li class="li1"><div class="de1">&gt;Your eyes started to dart around the room, eyeballing all of your manager&#039;s rewards given from Upper Management. His sleek steel desk, with built in holo computer. And his salmon pink dress shirt and navy blue tie. This was supposed to be you in the future. You were sure of it with all your hard work.</div></li><li class="li1"><div class="de1">&gt;You thought you were doing everything right. You got to work on time, followed the employee hand book, and even covered your boss a few times. Hell you were trained for this position and loved working it too.</div></li><li class="li1"><div class="de1">&gt;&quot;But why?&quot; You asked slacked jawed and confused. Clearly there had to a be a mistake for you to be in this postion.</div></li><li class="li1"><div class="de1">&gt;&quot;Unfortunately due to budget cuts made by upper management, we wont be able to afford to keep here with us any longer.&quot; Gary said as he if recited it from a script.</div></li><li class="li1"><div class="de1">&gt;Your confusion only grew, you had to take a moment to reflect what your manager just said before even responding. &quot;But XCorp©&#039;s stock is at it&#039;s highest. Where did these budget cuts come from?&quot;</div></li><li class="li1"><div class="de1">&gt;Gary smiled, nodding along as he listened on to his now former employee. &quot;That&#039;s true, XCorp© is doing great right now, thanks to those budget cuts. It&#039;s was a hard time to crunch the numbers, but we were able to find away to cut cost and improve profit!&quot; He stated proudly as if it was /his/ idea.</div></li><li class="li1"><div class="de1">&gt;It probably was.</div></li><li class="li1"><div class="de1">&gt;But why now? Why would your faithful corpo do this to you? &quot;So wait, this was planned ahead of time. And only now you&#039;re telling me this?&quot; You pressed for an answer.</div></li><li class="li1"><div class="de1">&gt;&quot;Mhmm, exactly Anon. I&#039;m glad you understand. Why poor Marie from accounting, the poor thing, couldn&#039;t understand the genius of this move after I told her of the news.&quot;</div></li><li class="li1"><div class="de1">&gt;Both of your palms quickly met with your forehead, slowly zoning out and drowning out the sound of your former boss&#039;s blabbering, refusing to give a straight answer, as the realization of losing your job just settling in.</div></li><li class="li1"><div class="de1">&gt;Fuck, how were you going to pay for your rent now? Especially since it was due today.</div></li><li class="li1"><div class="de1">&gt;The pit of your stomach started to turn.</div></li><li class="li1"><div class="de1">&gt;You really hope your the building&#039;s super would understand and give you a few.</div></li><li class="li1"><div class="de1">&gt;You always paid on time, hopefully he&#039;ll be reasonable if you explained your situation.</div></li><li class="li1"><div class="de1">&gt;You just needed some time to find a new job, yeah. It&#039;ll be okay. Everything is gonna be okay.</div></li><li class="li1"><div class="de1">&gt;You just need to look at the bright side of things, and realize everything is going to be okay.</div></li><li class="li1"><div class="de1">&gt;Just look at the Bright Side™</div></li><li class="li1"><div class="de1">&gt;&quot;Anon? Are you even listening?&quot; Gary was leaning over the table, snapping his finger in front of your face, trying to get your attention.&quot;I still have to go over the logistics with you.&quot;</div></li><li class="li1"><div class="de1">Huh? Oh, uh yeah. Um I got to go.</div></li><li class="li1"><div class="de1">You pushed your seat back and got up from the plastic seat.</div></li><li class="li1"><div class="de1">&gt;&quot;Well then I wont take up your time, I understand.&quot; He stood up and outstretched is palm.</div></li><li class="li1"><div class="de1">&gt;You stared at it for a moment, contemplating either to shake, leave it or even going as far as spitting at it.</div></li><li class="li1"><div class="de1">&gt;But you had to leave in good terms. Who know&#039;s XCorp© might realize they made a mistake and hire you back.</div></li><li class="li1"><div class="de1">&gt;You grabbed the hand, giving a firm handshake like you were taught, only to get a weak flimsy shake in return.</div></li><li class="li1"><div class="de1">Thanks Gary.</div></li><li class="li1"><div class="de1">&gt;&quot;No Anon, thank you.&quot;</div></li><li class="li1"><div class="de1">&gt;You turned to take your leave, walking through the automated metal door. You handn&#039;t noticed it before but it seemed like half of the office seemed empty with only a few figures at their desks tapping away on their terminals with stacks of paper looming over them.</div></li><li class="li1"><div class="de1">&gt;Seemed like half the employees in the office got the boot while the other half are put into overdrive with work.  </div></li><li class="li1"><div class="de1">&gt;But you didn&#039;t care. You just wanted to get your things and go home.</div></li><li class="li1"><div class="de1">&gt;You headed towards the elevators to get a ride down the the subterranean section of the building where your office was at.</div></li><li class="li1"><div class="de1">&gt;If you could consider a boiler room to be an office.</div></li><li class="li1"><div class="de1">&gt;In reality it was just a place filled with Gauges and terminals informing you whats working and whats not on your wing of the building, and a desk with a computer that informed you your task you had for the day.</div></li><li class="li1"><div class="de1">&gt;And a compartment to hold your tools.</div></li><li class="li1"><div class="de1">&gt;Well, it was the company&#039;s tools. The only few things that were yours was in there was just spare olive green jumpsuit with a grey XCorp© logo on the back,  that&#039;s issued to maintenance team. Just in case your current one was to get damaged or too dirty. And your diploma from the school X-ducation™ that you hanged above your desk so proudly.</div></li><li class="li1"><div class="de1">&gt;Both of which you threw into your backpack, along with some pens, paper and an old flashlight.</div></li><li class="li1"><div class="de1">&gt;If you took anything of value, XCorp© will more then likely have the police chase you down and press charges.</div></li><li class="li1"><div class="de1">&gt;And that is the last thing you need right now.</div></li><li class="li1"><div class="de1">&gt;After collecting your things, you headed to the HR Department to leave your staff ID, key-card and get transferred your final paycheck.</div></li><li class="li1"><div class="de1">&gt;An old Hippo behind the desk seemed like she was obliviously smiling as she greeted you handed you a form to sign before you could collect your pay.</div></li><li class="li1"><div class="de1">&gt;And you, of course, happily smiled back</div></li><li class="li1"><div class="de1">&gt;Keeping up appearance and being happy was a big rule in the Company&#039;s Employee Handbook.</div></li><li class="li1"><div class="de1">&gt;You followed it to a tee. Even if you were fired.</div></li><li class="li1"><div class="de1">&gt;They might hire you back.</div></li><li class="li1"><div class="de1">&gt;With the form signed and both your ID and Key-card handed to the Hippo, she confirmed your final pay was transfered and gave a final thanks from XCorp©.</div></li><li class="li1"><div class="de1">&gt;You thanked her in return and made your leave.</div></li><li class="li1"><div class="de1">&gt;You wanted to head back to your apartment.</div></li><li class="li1"><div class="de1">&gt;Lay down and take a small nap before you make your next move.</div></li><li class="li1"><div class="de1">&gt;And apply to as many jobs as possible.</div></li><li class="li1"><div class="de1">&gt;As you exited the huge skyscraper, you turned to look at the building on last time, admiring the blue neon XCorp© logo one last time.</div></li><li class="li1"><div class="de1">&gt;Well it wouldn&#039;t really be your last time to see it. XCorp© had dozens of buildings just like this one all over the city. Their logo was plastered on all sorts of things too. Vending machines, TVs, ads, posters.</div></li><li class="li1"><div class="de1">&gt;Heck even your apartment complex was owned by XCorp©.</div></li><li class="li1"><div class="de1">&gt;And its not like you had any special memories there either.</div></li><li class="li1"><div class="de1">&gt;You didn&#039;t have any friends there either, you never had enough time to make small talk. Not even with your fellow coworkers in maintenance.</div></li><li class="li1"><div class="de1">&gt;You were all to busy keeping the place running. Either it would be faulty door or a computer that couldn&#039;t connect to the network.</div></li><li class="li1"><div class="de1">&gt;Non the less, you gave it one last look before heading to the metro station.</div></li><li class="li1"><div class="de1">&gt;They&#039;ll hire you back, you know it for sure.</div></li><li class="li1"><div class="de1">&gt;You made a bee line to the station, walking through the crowded streets, trying your best to keep to yourself.</div></li><li class="li1"><div class="de1">&gt;But you&#039;d always bump into someone, shuffling through groups and avoiding the common beggar.</div></li><li class="li1"><div class="de1">&gt;And as much as you wanted to zone out, you couldn&#039;t with all the music and ads that were playing from the billboards.</div></li><li class="li1"><div class="de1">&gt;Along with the sound of Hover cars zooming above your head.</div></li><li class="li1"><div class="de1">&gt;With police sirens going of in the distance.</div></li><li class="li1"><div class="de1">&gt;Yeah you really needed some peace and quiet, followed by a quick power nap too.</div></li><li class="li1"><div class="de1">&gt;Fortunately the station wasn&#039;t too far. And the tram came often too.</div></li><li class="li1"><div class="de1">&gt;You pressed your e-wallet™ up against the turnstile&#039;s scanner, getting a bleep in response as you pushed through the revolving bars, rushing towards your Tram that just arrived.</div></li><li class="li1"><div class="de1">&gt;You and so many dozen other people squeezed into the already overfilled tram, not willing to wait any long for the next one to arrive.</div></li><li class="li1"><div class="de1">&gt;It was a tight squeeze,but you settled in between the mass of people, ending up stuck between two group of suits.</div></li><li class="li1"><div class="de1">&gt;You were packed in like a can of tuna. Fortunately the trip down to your district where you lived at wasn&#039;t too long, but you wanted to kill time as you waited and decided to pull out your phone.Besides, you haven&#039;t checked your bank account in a while, it couldn&#039;t hurt to check, even now after getting paid.</div></li><li class="li1"><div class="de1">&gt;You might even have enough to pay your rent and get some take out!</div></li><li class="li1"><div class="de1">&gt;¥439.74</div></li><li class="li1"><div class="de1">&gt;Uh oh. That isn&#039;t enough for rent.</div></li><li class="li1"><div class="de1">&gt;What the hell happened to your pay?</div></li><li class="li1"><div class="de1">&gt;Your thumb briskly tapped over your phone, going through your financial history.</div></li><li class="li1"><div class="de1">&gt;Well you did get paid.</div></li><li class="li1"><div class="de1">&gt;After XCorp© garnished it to pay for their loan</div></li><li class="li1"><div class="de1">&gt;Then another chunk of your pay got eaten by taxes</div></li><li class="li1"><div class="de1">&gt;Along with new bank fees.</div></li><li class="li1"><div class="de1">&gt;Shit.</div></li><li class="li1"><div class="de1">&gt;You pulled away from your phone when you heard your sector being called out from the tram&#039;s speaker system.</div></li><li class="li1"><div class="de1">&gt;No time to gloom over your bank account now, you&#039;ll have to deal with it later.</div></li><li class="li1"><div class="de1">&gt;As soon as your tram arrived at the station, you yet again squeezed through the crowd, exiting the tram just before the doors shut behind your back before taking off.</div></li><li class="li1"><div class="de1">&gt;Exiting the station, you were glad to see a the streets were a bit more open and more accessible.</div></li><li class="li1"><div class="de1">&gt;As much as you wanted to deny it, you lived in the poorer side of the city. These streets scene crimes daily, and you had to be careful. Either with a mugger with a knife or a pick pocketing teen. You wouldn&#039;t want to risk staying outside for long, prefering the safety and comfort of your home.</div></li><li class="li1"><div class="de1">&gt;The old buildings and apartment complexes that surround the streets were pressed up together. With thick wires running all over from building to lamppost to building. With a transformer on every corner. From the era they were built, no one expected the high electricity demands of future. Or the over population.</div></li><li class="li1"><div class="de1">&gt;Plenty of the old structures had quick renovations and construction, adding more floors to the buildings to meet the high demand for apartments and living quarters. You could visually see the added floors that were stacked with cheap materials ontop of the brick and cement buildings. A lot of them barely meeting the city&#039;s safety standard. And that was a low standard.</div></li><li class="li1"><div class="de1">Despite the dodgy construction, getting a space to live in the city was pricey,  that included your tiny one room apartment. The fact that you lived near the station though made it worth the price, especially if it meant arriving to work at time.</div></li><li class="li1"><div class="de1">&gt;You marched up the steps to your complex and pushed through the hold wooden door, that lead to the stale white empty lobby with a front desk where the building&#039;s super usually sat at.</div></li><li class="li1"><div class="de1">&gt;The building wasn&#039;t any skyscraper, just a small complex, so there never was need to add an elevator. Just some simple stairs that were behind metal bars and a key card reader.</div></li><li class="li1"><div class="de1">&gt;There has been cases of break-ins and squatters though, so those were necessary.</div></li><li class="li1"><div class="de1">&gt;You pulled out your trusty e-wallet once again, having the key-card embedded with it and pressed against the keypad expecting the lock to release.</div></li><li class="li1"><div class="de1">&gt;BEEP BEEP ACCESS DENIED</div></li><li class="li1"><div class="de1">&gt;what?</div></li><li class="li1"><div class="de1">&gt;You tried again</div></li><li class="li1"><div class="de1">&gt;BEEP BEEP ACCESS DENIED</div></li><li class="li1"><div class="de1">&gt;Aw fuck, not now!</div></li><li class="li1"><div class="de1">&gt;BEEP BEEP ACCESS DENIED</div></li><li class="li1"><div class="de1">&gt;BEEP BEEP ACCESS DENIED</div></li><li class="li1"><div class="de1">&gt;BEEP BEEP ACCESS DENIED</div></li><li class="li1"><div class="de1">&gt;&quot;The transfer didn&#039;t go through Anon.&quot; You turned to see the building superintendent. An old Pig leaning on the heavy side, wearing an old wifebeater and grey slacks that held up thanks to a pair of suspenders. He had his arms crossed, giving you a disappointing look. &quot;And you of all people know the rules Anon. You don&#039;t pay, you don&#039;t go in.&quot;</div></li><li class="li1"><div class="de1">&quot;Aww c&#039;mon Fred.&quot; You plead the pig, gesturing towards the door. &quot;I always pay on time. I just need a few days and I&#039;ll pay in full. I promise.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You know I can&#039;t do that Anon, it&#039;s against the building&#039;s policy. Either you pay up or you leave.&quot;</div></li><li class="li1"><div class="de1">&gt;You let out a groan as your palms once again slap against your forehead.</div></li><li class="li1"><div class="de1">&quot;What about my stuff? My things? Can&#039;t I get those?&quot;</div></li><li class="li1"><div class="de1">&gt;Fred shook his head.&quot;Nope. According to the contract you agreed upon, if you fail to pay for the month&#039;s rent, all belongings in the apartment will be taken in the exchange for the financial damages you caused.&quot;</div></li><li class="li1"><div class="de1">&quot;Financial Damages? I&#039;m just late for one month worth of rent!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t make the rules Anon. You&#039;re free to write up a complaint at the front desk.&quot; The old pig pointed towards a small with a stack of papers next to it by front desk.&quot;But other then that, I&#039;m going have to ask you to leave.&quot;</div></li><li class="li1"><div class="de1">&gt;As much as you wanted to stay and argue with the old pig, Fred was a pretty tough guy for his age and you didn&#039;t want risk getting a broken nose.</div></li><li class="li1"><div class="de1">&gt;You slouched your shoulders, giving up hope ever reasoning with the pig. But you might as well leave a complaint. Maybe you&#039;ll be lucky to get your stuff back.</div></li><li class="li1"><div class="de1">&gt;You walked over to the front desk, grabbing one of the forms and started to fill it out, leaving your contact details and writing a brief letter about how it was unreasonable that you aren&#039;t allowed to collect your items. It didn&#039;t help that you were distracted by the blue logo at the top of the form: X-Living Properties™ a partner of XCorp©</div></li><li class="li1"><div class="de1">&gt;Man, you really hope they&#039;ll hire you back.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Final edit. Hope you like it. Feel free to give me feed back in the thread or DM. And special thanks to that one Anon who took his time to correct my shit. I hope I improved it. 
+
+&gt;The year is 2119. No one knew what would have become of the world and it&#039;s population 100 years ago. Everyone expected new technological advancements, barriers being broken in the medical fields and science leading the planet to a new age. And it did, but at a cost. All of the achievements that we were able to reach wasn&#039;t for the benefit of man or fur. But for pleasing shareholders and investors. Capitalism, the idea of a free market slowly turned into Corporatism as CEOs and their businesses grew ever more powerful and influential. Politicians were cheap to bribe, while citizens became easily manipulated. Public services turned into government contracts taken by corpos, no longer with the mindset of helping communities but profiting from them.
+&gt;Advancements in technology and engineering led to amazing things that made the first commercial computer equivalent to cave man drawings. Self Driving hover cars, cybernetic enhancements, drones to follow your every order, Holographic Televisions that made your favorite shows more life like then ever before, Even nanites that combated simple diseases.
+&gt;All sorts of cool shit! Cool shit that you can&#039;t financially afford. You&#039;re having a hard time as it is to pay for rent or buying food.
+&gt;Heck, you wished you had at least some extra cash to store in your savings.
+&gt;But living in city was costly.
+&gt;You don&#039;t even know how you can survive when you&#039;re stuck living paycheck to pay check.
+&gt;At least it was pretty city, right?
+&gt;Skyscrapers packed densely together.
+&gt;Covered in neon lights and virtual ads...
+&gt;Hover cars speeding across all over the place.
+&gt;Leaving clouds of smogs and fumes...
+&gt;With Neglected streets running between the buildings on the surface...
+&gt;Filled with humans and anthros alike that didn&#039;t have the time for a social life...
+&gt;Next to what you were told was once a lake!
+&gt;Now more like a puddle a green sludge...
+&gt;Surrounded by barren wastes...
+&gt;Alright, it was a shitty city.
+&gt;But the job made it worth it! You were lucky to get it after finishing your X-ducation™.
+&gt;Supplied by XCorp© nonetheless! One of the city&#039;s most trusted brands that supplied it&#039;s services through govermental contracts.
+&gt;It taught you all the basics of computing, electrical engineering, and a bit of robotics too. And made you into the ideal handyman at the XCorp© standard. Which made total sense for you apply and work in mientience devision at XCorp© too.
+&gt;Sure they garnished your pay a bit to slowly pay back the loan you had taken from them for their classes, but you had hope, hope that you&#039;ll climb the corporate ladder and move up in life.
+&gt;You put a lot of emphasis when you said had hope. Because Gary, your manager, just handed you the pink slip.
+&gt;&quot;Sorry Anonymous, but we&#039;ve decided to let you go.&quot; He said calmly behind his desk, giving you a feign look of sorrow. &quot;XCorp© thanks you appreciates your years dedication and hard work, and hopes that leave us on good terms. I have some logistics to go over with you. Afterward, I can answer your questions.&quot;
+&gt;You were slack jawed. For two years you&#039;ve been working for XCorp©. Two years of sacrificing weekends, doing overtime and staying in late, busting your ass with maintenance for  the building, it&#039;s electronics and helping out fellow coworkers. You couldn&#039;t believe it.
+&gt;Your eyes started to dart around the room, eyeballing all of your manager&#039;s rewards given from Upper Management. His sleek steel desk, with built in holo computer. And his salmon pink dress shirt and navy blue tie. This was supposed to be you in the future. You were sure of it with all your hard work.
+&gt;You thought you were doing everything right. You got to work on time, followed the employee hand book, and even covered your boss a few times. Hell you were trained for this position and loved working it too.
+&gt;&quot;But why?&quot; You asked slacked jawed and confused. Clearly there had to a be a mistake for you to be in this postion.
+&gt;&quot;Unfortunately due to budget cuts made by upper management, we wont be able to afford to keep here with us any longer.&quot; Gary said as he if recited it from a script.
+&gt;Your confusion only grew, you had to take a moment to reflect what your manager just said before even responding. &quot;But XCorp©&#039;s stock is at it&#039;s highest. Where did these budget cuts come from?&quot;
+&gt;Gary smiled, nodding along as he listened on to his now former employee. &quot;That&#039;s true, XCorp© is doing great right now, thanks to those budget cuts. It&#039;s was a hard time to crunch the numbers, but we were able to find away to cut cost and improve profit!&quot; He stated proudly as if it was /his/ idea.
+&gt;It probably was.
+&gt;But why now? Why would your faithful corpo do this to you? &quot;So wait, this was planned ahead of time. And only now you&#039;re telling me this?&quot; You pressed for an answer.
+&gt;&quot;Mhmm, exactly Anon. I&#039;m glad you understand. Why poor Marie from accounting, the poor thing, couldn&#039;t understand the genius of this move after I told her of the news.&quot;
+&gt;Both of your palms quickly met with your forehead, slowly zoning out and drowning out the sound of your former boss&#039;s blabbering, refusing to give a straight answer, as the realization of losing your job just settling in.
+&gt;Fuck, how were you going to pay for your rent now? Especially since it was due today.
+&gt;The pit of your stomach started to turn.
+&gt;You really hope your the building&#039;s super would understand and give you a few.
+&gt;You always paid on time, hopefully he&#039;ll be reasonable if you explained your situation.
+&gt;You just needed some time to find a new job, yeah. It&#039;ll be okay. Everything is gonna be okay.
+&gt;You just need to look at the bright side of things, and realize everything is going to be okay.
+&gt;Just look at the Bright Side™
+&gt;&quot;Anon? Are you even listening?&quot; Gary was leaning over the table, snapping his finger in front of your face, trying to get your attention.&quot;I still have to go over the logistics with you.&quot;
+Huh? Oh, uh yeah. Um I got to go.
+You pushed your seat back and got up from the plastic seat.
+&gt;&quot;Well then I wont take up your time, I understand.&quot; He stood up and outstretched is palm.
+&gt;You stared at it for a moment, contemplating either to shake, leave it or even going as far as spitting at it.
+&gt;But you had to leave in good terms. Who know&#039;s XCorp© might realize they made a mistake and hire you back.
+&gt;You grabbed the hand, giving a firm handshake like you were taught, only to get a weak flimsy shake in return.
+Thanks Gary.
+&gt;&quot;No Anon, thank you.&quot;
+&gt;You turned to take your leave, walking through the automated metal door. You handn&#039;t noticed it before but it seemed like half of the office seemed empty with only a few figures at their desks tapping away on their terminals with stacks of paper looming over them.
+&gt;Seemed like half the employees in the office got the boot while the other half are put into overdrive with work.  
+&gt;But you didn&#039;t care. You just wanted to get your things and go home.
+&gt;You headed towards the elevators to get a ride down the the subterranean section of the building where your office was at.
+&gt;If you could consider a boiler room to be an office.
+&gt;In reality it was just a place filled with Gauges and terminals informing you whats working and whats not on your wing of the building, and a desk with a computer that informed you your task you had for the day.
+&gt;And a compartment to hold your tools.
+&gt;Well, it was the company&#039;s tools. The only few things that were yours was in there was just spare olive green jumpsuit with a grey XCorp© logo on the back,  that&#039;s issued to maintenance team. Just in case your current one was to get damaged or too dirty. And your diploma from the school X-ducation™ that you hanged above your desk so proudly.
+&gt;Both of which you threw into your backpack, along with some pens, paper and an old flashlight.
+&gt;If you took anything of value, XCorp© will more then likely have the police chase you down and press charges.
+&gt;And that is the last thing you need right now.
+&gt;After collecting your things, you headed to the HR Department to leave your staff ID, key-card and get transferred your final paycheck.
+&gt;An old Hippo behind the desk seemed like she was obliviously smiling as she greeted you handed you a form to sign before you could collect your pay.
+&gt;And you, of course, happily smiled back
+&gt;Keeping up appearance and being happy was a big rule in the Company&#039;s Employee Handbook.
+&gt;You followed it to a tee. Even if you were fired.
+&gt;They might hire you back.
+&gt;With the form signed and both your ID and Key-card handed to the Hippo, she confirmed your final pay was transfered and gave a final thanks from XCorp©.
+&gt;You thanked her in return and made your leave.
+&gt;You wanted to head back to your apartment.
+&gt;Lay down and take a small nap before you make your next move.
+&gt;And apply to as many jobs as possible.
+&gt;As you exited the huge skyscraper, you turned to look at the building on last time, admiring the blue neon XCorp© logo one last time.
+&gt;Well it wouldn&#039;t really be your last time to see it. XCorp© had dozens of buildings just like this one all over the city. Their logo was plastered on all sorts of things too. Vending machines, TVs, ads, posters.
+&gt;Heck even your apartment complex was owned by XCorp©.
+&gt;And its not like you had any special memories there either.
+&gt;You didn&#039;t have any friends there either, you never had enough time to make small talk. Not even with your fellow coworkers in maintenance.
+&gt;You were all to busy keeping the place running. Either it would be faulty door or a computer that couldn&#039;t connect to the network.
+&gt;Non the less, you gave it one last look before heading to the metro station.
+&gt;They&#039;ll hire you back, you know it for sure.
+&gt;You made a bee line to the station, walking through the crowded streets, trying your best to keep to yourself.
+&gt;But you&#039;d always bump into someone, shuffling through groups and avoiding the common beggar.
+&gt;And as much as you wanted to zone out, you couldn&#039;t with all the music and ads that were playing from the billboards.
+&gt;Along with the sound of Hover cars zooming above your head.
+&gt;With police sirens going of in the distance.
+&gt;Yeah you really needed some peace and quiet, followed by a quick power nap too.
+&gt;Fortunately the station wasn&#039;t too far. And the tram came often too.
+&gt;You pressed your e-wallet™ up against the turnstile&#039;s scanner, getting a bleep in response as you pushed through the revolving bars, rushing towards your Tram that just arrived.
+&gt;You and so many dozen other people squeezed into the already overfilled tram, not willing to wait any long for the next one to arrive.
+&gt;It was a tight squeeze,but you settled in between the mass of people, ending up stuck between two group of suits.
+&gt;You were packed in like a can of tuna. Fortunately the trip down to your district where you lived at wasn&#039;t too long, but you wanted to kill time as you waited and decided to pull out your phone.Besides, you haven&#039;t checked your bank account in a while, it couldn&#039;t hurt to check, even now after getting paid.
+&gt;You might even have enough to pay your rent and get some take out!
+&gt;¥439.74
+&gt;Uh oh. That isn&#039;t enough for rent.
+&gt;What the hell happened to your pay?
+&gt;Your thumb briskly tapped over your phone, going through your financial history.
+&gt;Well you did get paid.
+&gt;After XCorp© garnished it to pay for their loan
+&gt;Then another chunk of your pay got eaten by taxes
+&gt;Along with new bank fees.
+&gt;Shit.
+&gt;You pulled away from your phone when you heard your sector being called out from the tram&#039;s speaker system.
+&gt;No time to gloom over your bank account now, you&#039;ll have to deal with it later.
+&gt;As soon as your tram arrived at the station, you yet again squeezed through the crowd, exiting the tram just before the doors shut behind your back before taking off.
+&gt;Exiting the station, you were glad to see a the streets were a bit more open and more accessible.
+&gt;As much as you wanted to deny it, you lived in the poorer side of the city. These streets scene crimes daily, and you had to be careful. Either with a mugger with a knife or a pick pocketing teen. You wouldn&#039;t want to risk staying outside for long, prefering the safety and comfort of your home.
+&gt;The old buildings and apartment complexes that surround the streets were pressed up together. With thick wires running all over from building to lamppost to building. With a transformer on every corner. From the era they were built, no one expected the high electricity demands of future. Or the over population.
+&gt;Plenty of the old structures had quick renovations and construction, adding more floors to the buildings to meet the high demand for apartments and living quarters. You could visually see the added floors that were stacked with cheap materials ontop of the brick and cement buildings. A lot of them barely meeting the city&#039;s safety standard. And that was a low standard.
+Despite the dodgy construction, getting a space to live in the city was pricey,  that included your tiny one room apartment. The fact that you lived near the station though made it worth the price, especially if it meant arriving to work at time.
+&gt;You marched up the steps to your complex and pushed through the hold wooden door, that lead to the stale white empty lobby with a front desk where the building&#039;s super usually sat at.
+&gt;The building wasn&#039;t any skyscraper, just a small complex, so there never was need to add an elevator. Just some simple stairs that were behind metal bars and a key card reader.
+&gt;There has been cases of break-ins and squatters though, so those were necessary.
+&gt;You pulled out your trusty e-wallet once again, having the key-card embedded with it and pressed against the keypad expecting the lock to release.
+&gt;BEEP BEEP ACCESS DENIED
+&gt;what?
+&gt;You tried again
+&gt;BEEP BEEP ACCESS DENIED
+&gt;Aw fuck, not now!
+&gt;BEEP BEEP ACCESS DENIED
+&gt;BEEP BEEP ACCESS DENIED
+&gt;BEEP BEEP ACCESS DENIED
+&gt;&quot;The transfer didn&#039;t go through Anon.&quot; You turned to see the building superintendent. An old Pig leaning on the heavy side, wearing an old wifebeater and grey slacks that held up thanks to a pair of suspenders. He had his arms crossed, giving you a disappointing look. &quot;And you of all people know the rules Anon. You don&#039;t pay, you don&#039;t go in.&quot;
+&quot;Aww c&#039;mon Fred.&quot; You plead the pig, gesturing towards the door. &quot;I always pay on time. I just need a few days and I&#039;ll pay in full. I promise.&quot;
+&gt;&quot;You know I can&#039;t do that Anon, it&#039;s against the building&#039;s policy. Either you pay up or you leave.&quot;
+&gt;You let out a groan as your palms once again slap against your forehead.
+&quot;What about my stuff? My things? Can&#039;t I get those?&quot;
+&gt;Fred shook his head.&quot;Nope. According to the contract you agreed upon, if you fail to pay for the month&#039;s rent, all belongings in the apartment will be taken in the exchange for the financial damages you caused.&quot;
+&quot;Financial Damages? I&#039;m just late for one month worth of rent!&quot;
+&gt;&quot;I don&#039;t make the rules Anon. You&#039;re free to write up a complaint at the front desk.&quot; The old pig pointed towards a small with a stack of papers next to it by front desk.&quot;But other then that, I&#039;m going have to ask you to leave.&quot;
+&gt;As much as you wanted to stay and argue with the old pig, Fred was a pretty tough guy for his age and you didn&#039;t want risk getting a broken nose.
+&gt;You slouched your shoulders, giving up hope ever reasoning with the pig. But you might as well leave a complaint. Maybe you&#039;ll be lucky to get your stuff back.
+&gt;You walked over to the front desk, grabbing one of the forms and started to fill it out, leaving your contact details and writing a brief letter about how it was unreasonable that you aren&#039;t allowed to collect your items. It didn&#039;t help that you were distracted by the blue logo at the top of the form: X-Living Properties™ a partner of XCorp©
+&gt;Man, you really hope they&#039;ll hire you back.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    13 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    14 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    17 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    18 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

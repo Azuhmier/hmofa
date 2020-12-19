@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Unexpected Consequences - Loka - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Unexpected Consequences - Loka - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/ekvRv7eX" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/ekvRv7eX" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="pbTTNANTcqnFrJfDZDTDtOfrFEpswe3DZ_pUt3KW5VP_0qlTQD4kzbT9x4gRV6fw39siDBz5pa4FgxLFMaPROQ==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/ekvRv7eX" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/ekvRv7eX" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="P-lucky">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Unexpected Consequences - Loka</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/P-lucky">P-lucky</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=P-lucky" class="message" title="Send a private message to: P-lucky"></a>
+                                    
+                <div class="date">
+                    <span title="Friday 20th of January 2017 01:37:18 PM CDT">Jan 20th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,157                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 14.07 KB            </div>
+
+            <div class="right">
+                <a href="/raw/ekvRv7eX" class="btn -small">raw</a>
+                <a href="/dl/ekvRv7eX" class="btn -small">download</a>
+                <a href="/clone/ekvRv7eX" class="btn -small h_800">clone</a>
+                <a href="/embed/ekvRv7eX" class="btn -small h_800">embed</a>
+                <a href="/report/ekvRv7eX" class="btn -small">report</a>
+                <a href="/print/ekvRv7eX" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Be Loka Iscennah</div></li><li class="li1"><div class="de1">&gt;College freshman at MU</div></li><li class="li1"><div class="de1">&gt;In a gateway engineering class as an elective this semester</div></li><li class="li1"><div class="de1">&gt;The class had been working on a doorway, something you took a great interest in</div></li><li class="li1"><div class="de1">&gt;And on a particular night, it was left unoccupied by the engineering students</div></li><li class="li1"><div class="de1">&gt;They left in a hurry for some autumn fear festival</div></li><li class="li1"><div class="de1">&gt;October 31st, a sacred night for scaring</div></li><li class="li1"><div class="de1">&gt;You&#039;d never been to the human side, this could be valuable career experience</div></li><li class="li1"><div class="de1">&gt;You unlocked the door and slipped into the room</div></li><li class="li1"><div class="de1">&gt;Like a monolith of opportunity, the doorway stood completed on the far end of the room</div></li><li class="li1"><div class="de1">&gt;You locked the door and stepped over to the control panel</div></li><li class="li1"><div class="de1">&gt;Activating it wasn&#039;t hard, you set it to a random doorway on Earth and watched as the doorway hummed to life</div></li><li class="li1"><div class="de1">&gt;The light on top flickered on, indicating a successful connection</div></li><li class="li1"><div class="de1">&gt;You stepped over to the door, standing before it</div></li><li class="li1"><div class="de1">&gt;You were slightly intimidated by it</div></li><li class="li1"><div class="de1">&gt;This wasn&#039;t the sims, this was the real deal</div></li><li class="li1"><div class="de1">&gt;A real kid and real danger</div></li><li class="li1"><div class="de1">&gt;M-maybe this wasn&#039;t such a good idea</div></li><li class="li1"><div class="de1">&gt;You reach for the handle, wrapping your claws around the knob</div></li><li class="li1"><div class="de1">&gt;Twist it ever so gently</div></li><li class="li1"><div class="de1">&gt;Push the door open and peek into the room</div></li><li class="li1"><div class="de1">&gt;It looks empty</div></li><li class="li1"><div class="de1">&gt;You step in</div></li><li class="li1"><div class="de1">&gt;It looks like a guest bedroom</div></li><li class="li1"><div class="de1">&gt;You leave the door cracked and sneak into the hallway</div></li><li class="li1"><div class="de1">&gt;Down at the end there is a dim light coming from a cracked open door</div></li><li class="li1"><div class="de1">&gt;You crouch down, disappearing into the shadows and slip into the room</div></li><li class="li1"><div class="de1">&gt;A game is paused on the big-screen tv</div></li><li class="li1"><div class="de1">&gt;The controller is left on the couch</div></li><li class="li1"><div class="de1">&gt;You hear a door click shut in another room and hide</div></li><li class="li1"><div class="de1">&gt;No footsteps came to your room</div></li><li class="li1"><div class="de1">&gt;You head back into the hallway</div></li><li class="li1"><div class="de1">&gt;Enough, time to go back</div></li><li class="li1"><div class="de1">&gt;You go back to the guest bedroom and find the closet door shut</div></li><li class="li1"><div class="de1">&gt;Your heart skips a beat</div></li><li class="li1"><div class="de1">&gt;What if you were trapped here?</div></li><li class="li1"><div class="de1">&gt;You grab the handle and yank it open</div></li><li class="li1"><div class="de1">&gt;Thankfully you were greeted with the sight of your classroom</div></li><li class="li1"><div class="de1">&gt;You hop through the doorway before anything could go wrong</div></li><li class="li1"><div class="de1">&gt;As you were about to shut the door, the light fizzled out and the gateway collapsed</div></li><li class="li1"><div class="de1">&gt;You watched as the portal to the guest bedroom dissolved, giving way to the other side of the doorframe</div></li><li class="li1"><div class="de1">&gt;On the other side of the door stood a human</div></li><li class="li1"><div class="de1">&gt;He came through the closet when you were in the other room</div></li><li class="li1"><div class="de1">&gt;&quot;Wh-what?&quot; he stuttered, backing away from you</div></li><li class="li1"><div class="de1">&gt;Fuck</div></li><li class="li1"><div class="de1">&quot;Wait wait wait, stay calm.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;What&#039;s going on?!&quot; he clasped his head</div></li><li class="li1"><div class="de1">&quot;Buddy stay calm, I&#039;m gonna find a way to get you back home.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;What the hell are you?!&quot;</div></li><li class="li1"><div class="de1">&quot;Just sit down or something.&quot; you go to open the doorway&#039;s maintenance panel</div></li><li class="li1"><div class="de1">&gt;It looks like the central power core was fried</div></li><li class="li1"><div class="de1">&gt;You shouldn&#039;t have left the door open so long</div></li><li class="li1"><div class="de1">&gt;The human slowly scoots away from you</div></li><li class="li1"><div class="de1">&quot;Just chill, can you do that?&quot;</div></li><li class="li1"><div class="de1">&gt;He stays quiet and backs against the wall</div></li><li class="li1"><div class="de1">&gt;It&#039;d take two months to get a new core in</div></li><li class="li1"><div class="de1">&gt;Fuck</div></li><li class="li1"><div class="de1">&gt;If the school found him it&#039;d get traced to you and you&#039;d be expelled</div></li><li class="li1"><div class="de1">&gt;You go to the control panel and shut everything down</div></li><li class="li1"><div class="de1">&gt;You go over to the human, fiddling with something in his hands</div></li><li class="li1"><div class="de1">&gt;He notices you and tenses up</div></li><li class="li1"><div class="de1">&quot;Hey there.&quot;</div></li><li class="li1"><div class="de1">&gt;No reaponse</div></li><li class="li1"><div class="de1">&quot;Listen, I need you to come with me and be real calm. Just act like everything is normal.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Oh god... What the fuck are you?&quot;</div></li><li class="li1"><div class="de1">&quot;J-just calm down or we&#039;ll both be in hot water, okay?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Please don&#039;t kill me, wh-what do you want?&quot; he moves into a corner to get away from you</div></li><li class="li1"><div class="de1">&quot;Listen to me, I&#039;m not gonna hurt you. Okay?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Okay. Where am I?&quot;</div></li><li class="li1"><div class="de1">&quot;It&#039;s really complicated, but I can explain it all later.&quot;</div></li><li class="li1"><div class="de1">&gt;You close in on him slowly</div></li><li class="li1"><div class="de1">&gt;The human that stood taller than you balls up in the corner</div></li><li class="li1"><div class="de1">&quot;I need you to come with me. You can&#039;t stay here, can you do that?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Wh-where are you taking me?&quot;</div></li><li class="li1"><div class="de1">&quot;Uhh, back to my place. Come on, stand up.&quot; you grab his hands and help him to his feet</div></li><li class="li1"><div class="de1">&gt;&quot;You promise you&#039;re not gonna kill me?&quot;</div></li><li class="li1"><div class="de1">&quot;I promise, but we gotta go, like now.&quot;</div></li><li class="li1"><div class="de1">&gt;You grab his hand and pull him to the door and unlock it</div></li><li class="li1"><div class="de1">&gt;You peek out into the hallways before making your way out of the building to the parking lot</div></li><li class="li1"><div class="de1">&gt;Nearly home free, you pull on the human&#039;s hand and lead him out of the side door of the engineering building</div></li><li class="li1"><div class="de1">&gt;&quot;Ms. Loka, just what are you doing in the engineering building at this hour?&quot; a familiar voice sent chills down your spine</div></li><li class="li1"><div class="de1">&gt;You turn to face an approaching Dean Hardscrabble</div></li><li class="li1"><div class="de1">&gt;The human stands behind you</div></li><li class="li1"><div class="de1">&gt;&quot;And who is this?&quot; she asks, inspecting him with an unimpressed look</div></li><li class="li1"><div class="de1">&quot;This... Is, uhm, my friend from off-campus. He had to use the bathroom so I brought him to the bathrooms in this building.&quot;</div></li><li class="li1"><div class="de1">&gt;She stares intensely at him</div></li><li class="li1"><div class="de1">&gt;&quot;And can you explain why he appears to be human?&quot;</div></li><li class="li1"><div class="de1">&quot;Costume party, we were invited to a costume party and he&#039;s going as a human.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yes, it is Halloween tonight isn&#039;t it? I assume you two are going as a couple?&quot; she smirks</div></li><li class="li1"><div class="de1">&gt;&quot;Just friends.&quot; the human blurts</div></li><li class="li1"><div class="de1">&gt;Dean Hardscrabble seemingly lights up</div></li><li class="li1"><div class="de1">&gt;&quot;Then perhaps I might accompany him? There&#039;s something I quite like about that cologne you&#039;re wearing, what is it?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Fear.&quot;</div></li><li class="li1"><div class="de1">&gt;You laugh nervously, messing with a time bomb that could destroy your life and career</div></li><li class="li1"><div class="de1">&gt;You grab the human by the arm and yank him closer defensively</div></li><li class="li1"><div class="de1">&quot;We are going as a couple, actually. My boyfriend is such a tease.&quot;</div></li><li class="li1"><div class="de1">&gt;Dean Hardscrabble tightens up again</div></li><li class="li1"><div class="de1">&gt;&quot;Well then, what was your name?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You would do best to call me if you feel like handling a real monster. Maybe keep the costume on for me.&quot; she winked and turned to leave</div></li><li class="li1"><div class="de1">&gt;Too damn close</div></li><li class="li1"><div class="de1">&gt;You keep Anon shoulder-to-shoulder as you get him to the parking lot</div></li><li class="li1"><div class="de1">&quot;What the hell was that?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t know, who was that?&quot;</div></li><li class="li1"><div class="de1">&quot;Dean Hardscrabble, you almost got me expelled.&quot; you hiss</div></li><li class="li1"><div class="de1">&gt;&quot;Dean? Am I at a fucking college?&quot;</div></li><li class="li1"><div class="de1">&quot;Yes! We&#039;re almost to my car, just follow the story.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m your boyfriend, we&#039;re going to a costume party and I&#039;m dressed as a human.&quot;</div></li><li class="li1"><div class="de1">&quot;Yes.&quot; You open the car door and usher him in before getting in yourself</div></li><li class="li1"><div class="de1">&gt;&quot;How far are we driving?&quot;</div></li><li class="li1"><div class="de1">&quot;About fifteen minutes.&quot;</div></li><li class="li1"><div class="de1">&gt;You pull out and enter into traffic</div></li><li class="li1"><div class="de1">&gt;The ride is silent</div></li><li class="li1"><div class="de1">&gt;The human makes no attempt to communicate and is just watching things go by</div></li><li class="li1"><div class="de1">&quot;My name is Loka, you&#039;re Anon right?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Y-yeah.&quot;</div></li><li class="li1"><div class="de1">&gt;He still seems shaken by this</div></li><li class="li1"><div class="de1">&gt;You don&#039;t blame him for it</div></li><li class="li1"><div class="de1">&gt;He looks over at you occasionally</div></li><li class="li1"><div class="de1">&quot;I know you must be scared, but I&#039;m going to fix this.&quot;</div></li><li class="li1"><div class="de1">&gt;As you pull into the lot in front of your complex, you see your neighbor is partying</div></li><li class="li1"><div class="de1">&gt;Monsters would be in the halls</div></li><li class="li1"><div class="de1">&gt;Your neighbor was one of those too-friendly types</div></li><li class="li1"><div class="de1">&gt;You and Anon got out of the car went up to the second floor</div></li><li class="li1"><div class="de1">&gt;Just as you thought, the halls were filled with drunken party monsters</div></li><li class="li1"><div class="de1">&gt;Anon clung to your side as you unlocked your apartment door</div></li><li class="li1"><div class="de1">&gt;The pounding bass went right through the walls</div></li><li class="li1"><div class="de1">&gt;Anon calmed down just a little, at least he was sort of trusting you</div></li><li class="li1"><div class="de1">&gt;&quot;You said you&#039;d explain this later. Start talking, Loka.&quot; he frowned at you</div></li><li class="li1"><div class="de1">&gt;After about a half hour explaining how screams are a legitimate power source, he still didn&#039;t get it</div></li><li class="li1"><div class="de1">&quot;It&#039;s economics, scaring kids makes energy and there&#039;s a lot of money in scaring.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;But what&#039;s with all the doors? Why is an economy around it?&quot;</div></li><li class="li1"><div class="de1">&gt;He gives up, but seems to understand</div></li><li class="li1"><div class="de1">&gt;He lays down on the couch and closes his eyes</div></li><li class="li1"><div class="de1">&quot;You tired?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Very.&quot;</div></li><li class="li1"><div class="de1">&quot;Wanna sleep in my bed?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Where would you be?&quot;</div></li><li class="li1"><div class="de1">&quot;Maybe in there too.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ll pass.&quot;</div></li><li class="li1"><div class="de1">&quot;It gets pretty cold at night.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I said I&#039;m fine.&quot;</div></li><li class="li1"><div class="de1">&gt;You give him a blanket and go to bed</div></li><li class="li1"><div class="de1">&gt;At 2AM, an ice-cold body pulls back your covers and slides into bed behind you</div></li><li class="li1"><div class="de1">&gt;You wake up the next morning to Anon&#039;s arms wrapped around you</div></li><li class="li1"><div class="de1">&gt;He didn&#039;t seem to want to get up yet</div></li><li class="li1"><div class="de1">&gt;You slipped out of his grasp and rolled out of bed</div></li><li class="li1"><div class="de1">&gt;You go to the bathroom and undress, pulling off the undies and shirt you wore, and got into the shower</div></li><li class="li1"><div class="de1">&gt;The hot water helped you clear your mind</div></li><li class="li1"><div class="de1">&gt;You try to wrap your head around the situation</div></li><li class="li1"><div class="de1">&gt;You had a human living in your apartment and wouldn&#039;t be able to get him back for at least two months</div></li><li class="li1"><div class="de1">&gt;And if anyone found out, you&#039;d be in more trouble than you could imagine</div></li><li class="li1"><div class="de1">&gt;You sit down in the tub, letting the water rain on your belly</div></li><li class="li1"><div class="de1">&gt;You were forgetting something...</div></li><li class="li1"><div class="de1">&gt;Something important...</div></li><li class="li1"><div class="de1">&gt;You start to nod off before snapping back</div></li><li class="li1"><div class="de1">&gt;Your roommate!</div></li><li class="li1"><div class="de1">&gt;She was at a party last night, she&#039;d be back any minute</div></li><li class="li1"><div class="de1">&gt;You shut off the water and dried off as quickly as you could</div></li><li class="li1"><div class="de1">&gt;You bedroom was right across the main room</div></li><li class="li1"><div class="de1">&gt;Your door was open, meaning there was a clear line of sight to your bed</div></li><li class="li1"><div class="de1">&gt;You check the countertop</div></li><li class="li1"><div class="de1">&gt;You forgot to grab clean clothes</div></li><li class="li1"><div class="de1">&gt;Your ear flicked, the lock on the front door was being opened</div></li><li class="li1"><div class="de1">&gt;You rush out of the bathroom and slam your door shut as the front door opened</div></li><li class="li1"><div class="de1">&gt;&quot;Loka! You&#039;ll never guess who I met last night!&quot; she called out</div></li><li class="li1"><div class="de1">&gt;Anon startled awake</div></li><li class="li1"><div class="de1">&gt;&quot;Loka? What&#039;s happeni- Oh god!&quot;</div></li><li class="li1"><div class="de1">&gt;You covered yourself with your hands as he turned away</div></li><li class="li1"><div class="de1">&gt;&quot;Loka? Who&#039;s in there with you?&quot; your roommate asked through the thin door</div></li><li class="li1"><div class="de1">&quot;A friend, let me get dressed, okay?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, a friend. I wanna see.&quot; she sounded annoying and needy</div></li><li class="li1"><div class="de1">&gt;You just needed some space right now</div></li><li class="li1"><div class="de1">&quot;In a minute, Jannette!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t let her in here!&quot; Anon said quietly</div></li><li class="li1"><div class="de1">&gt;&quot;Come on Loka, I heard you met a hot guy last night from Hardscrabble&#039;s assistant.&quot;</div></li><li class="li1"><div class="de1">&quot;Give me a minute! Let me get dressed!&quot; you shouted</div></li><li class="li1"><div class="de1">&gt;Jannette stood right outside the door</div></li><li class="li1"><div class="de1">&gt;You stepped around to get to your closet and grabbed a big sweater and some panties from the dresser</div></li><li class="li1"><div class="de1">&gt;You hurriedly got them on and pulled Anon out of bed</div></li><li class="li1"><div class="de1">&quot;Come on, you need to meet my roommate.&quot;</div></li><li class="li1"><div class="de1">&gt;You open the door just a crack and look at Jennette</div></li><li class="li1"><div class="de1">&gt;&quot;What are you waiting for, let me in Loka.&quot; she says</div></li><li class="li1"><div class="de1">&quot;Okay, but don&#039;t freak out.&quot;</div></li><li class="li1"><div class="de1">&gt;You open the door enough to let Jennette in</div></li><li class="li1"><div class="de1">&gt;She hurries in and looks at Anon</div></li><li class="li1"><div class="de1">&gt;&quot;What exactly is he?&quot; Jennette was a little shorter than you and hadn&#039;t seen humans except for the cartoony depictions on tv</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m a hu-&quot;</div></li><li class="li1"><div class="de1">&gt;You try to put your hand on Anon&#039;s mouth but accidentally go in too hard and smack him</div></li><li class="li1"><div class="de1">&gt;&quot;Motherfucker!&quot;</div></li><li class="li1"><div class="de1">&quot;A huge sasquatch, he shaved his fur off for charity last night.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Why&#039;d you slap me?&quot;</div></li><li class="li1"><div class="de1">&gt;Jennette smiles, sinking into her turtleneck slightly like some kind of comfy turtle</div></li><li class="li1"><div class="de1">&gt;&quot;Will he be staying around often?&quot;</div></li><li class="li1"><div class="de1">&quot;He&#039;ll be staying with me for a month or two.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Hi, I&#039;m Jennette.&quot; she extends her clawed hand to Anon</div></li><li class="li1"><div class="de1">&gt;He shakes it, &quot;Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;Jennette jumps onto Anon and does some full-body hug</div></li><li class="li1"><div class="de1">&gt;&quot;Nice to meet you, Anon! Welcome!&quot;</div></li><li class="li1"><div class="de1">&gt;You have to pry her off of him</div></li><li class="li1"><div class="de1">&quot;Hey, it&#039;s saturday, do you want to order take-out and just watch a movie or something?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Why don&#039;t you ask your boyfriend?&quot; Jennette lightheartedly sneered</div></li><li class="li1"><div class="de1">&gt;&quot;That sounds good.&quot; Anon leaned close to you and rested his chin on your head</div></li><li class="li1"><div class="de1">&gt;It almost felt real...</div></li><li class="li1"><div class="de1">&gt;You do your best to not let yourself get caught up in the embrace</div></li><li class="li1"><div class="de1">&gt;Anon wraps his arms around you</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, a movie sounds good.&quot; he says</div></li><li class="li1"><div class="de1">&gt;Jennette heads back to the main room and turns on the tv</div></li><li class="li1"><div class="de1">&gt;You lead Anon to the couch and he slumps on it, pulling you onto him</div></li><li class="li1"><div class="de1">&gt;Jennette starts some old comedy movie</div></li><li class="li1"><div class="de1">&gt;You vaguely remember it being about a hilarious anchorman</div></li><li class="li1"><div class="de1">&gt;Jennette sits on the other side of the couch</div></li><li class="li1"><div class="de1">&gt;&quot;So how long have I been out of the loop?&quot; she asks</div></li><li class="li1"><div class="de1">&quot;Uh, y&#039;know, not too long. I just wanted to make sure-&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;That ya found yourself a keeper?&quot;</div></li><li class="li1"><div class="de1">&quot;Uh, y-yeah.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s been about six months.&quot; Anon chimes in, locking his hands around your belly</div></li><li class="li1"><div class="de1">&gt;This was officially couch-snuggling</div></li><li class="li1"><div class="de1">&gt;First base...</div></li><li class="li1"><div class="de1">&gt;You suddenly realize something</div></li><li class="li1"><div class="de1">&gt;You weren&#039;t too familiar with human courting ceremonies</div></li><li class="li1"><div class="de1">&gt;Did Anon think this was real?</div></li><li class="li1"><div class="de1">&gt;Your face heated up at that thought</div></li><li class="li1"><div class="de1">&gt;Your first boyfriend</div></li><li class="li1"><div class="de1">&quot;H-hey Anon, can we talk in the next room for a moment.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Sure thing.&quot; he helps you up and walks with you back to your room</div></li><li class="li1"><div class="de1">&gt;Jennette was still digging around for the remote</div></li><li class="li1"><div class="de1">&gt;You turn to face Anon</div></li><li class="li1"><div class="de1">&quot;You know this is just fake, right?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t think so, you seemed to like it, Loka.&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah, but us as a thing can&#039;t happen.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s a shame, a sweet girl like you is a rare find where I&#039;m from.&quot;</div></li><li class="li1"><div class="de1">&gt;You turn away</div></li><li class="li1"><div class="de1">&quot;It&#039;s just until I can find a way to get you back to your side of the door.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon pats your head with a sigh and walks back out to the main room</div></li><li class="li1"><div class="de1">&gt;He&#039;s talking with Jennette right now</div></li><li class="li1"><div class="de1">&gt;You sit on the side of the bed, conflicted</div></li><li class="li1"><div class="de1">&gt;He seems to actually like you, and if he weren&#039;t human you&#039;d be really into him</div></li><li class="li1"><div class="de1">&gt;But on the other hand, you&#039;d heard about monsters and humans but that only happened in books</div></li><li class="li1"><div class="de1">&gt;Damnit Loka, why were you like this?</div></li><li class="li1"><div class="de1">&gt;You head back out and sit with Anon</div></li><li class="li1"><div class="de1">&gt;The movie played quietly, Anon let out a deep laugh periodically when he got the humor</div></li><li class="li1"><div class="de1">&gt;No matter how much you tried to move away, you kept finding yourself cuddled up to Anon</div></li><li class="li1"><div class="de1">&gt;You&#039;d never noticed it before, but your four-clawed hand fit perfectly with his five-fingered hand</div></li><li class="li1"><div class="de1">&gt;The evening burned away with several movies, by the time the sun had set you were leaning across his lap</div></li><li class="li1"><div class="de1">&gt;He somehow managed to rest his chin on your head</div></li><li class="li1"><div class="de1">&gt;Jennette had fallen asleep on the couch</div></li><li class="li1"><div class="de1">&quot;Maybe we should wake her up?&quot; you asked quietly</div></li><li class="li1"><div class="de1">&gt;&quot;I could just pick her up.&quot;</div></li><li class="li1"><div class="de1">&quot;If you want to.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon moved out from under you and stood up, stretching</div></li><li class="li1"><div class="de1">&gt;You leaned over and picked up Jennette, cradling her in his arms</div></li><li class="li1"><div class="de1">&gt;Jennette stirred slightly and mumbled something</div></li><li class="li1"><div class="de1">&gt;Anon walked her off to her bedroom and laid her in her bed</div></li><li class="li1"><div class="de1">&gt;That looked pretty comfortable</div></li><li class="li1"><div class="de1">&gt;You kind of wanted to be held too</div></li><li class="li1"><div class="de1">&gt;Anon sat down next to you on the couch and stared blankly at the dvd menu on repeat on the tv</div></li><li class="li1"><div class="de1">&quot;Hey, how heavy was she? She won&#039;t say what she weighs.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Not too heavy, why?&quot;</div></li><li class="li1"><div class="de1">&quot;You think you could hold me like that too?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Normally I&#039;d charge for that, but you get the girlfriend discount.&quot; he grinned and lifted you off of the couch</div></li><li class="li1"><div class="de1">&quot;Jennette&#039;s asleep, you don&#039;t need to keep pretending.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Who says I was pretending?&quot;</div></li><li class="li1"><div class="de1">&gt;Anon lays you in bed and climbs in next to you</div></li><li class="li1"><div class="de1">&quot;That&#039;s not okay, I need to get you back to Earth before anyone finds out.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Jennette already knows.&quot;</div></li><li class="li1"><div class="de1">&quot;She thinks you&#039;re a shaved sasquatch.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon pulls you in close, his nose is against yours</div></li><li class="li1"><div class="de1">&gt;&quot;Loka, it&#039;s all good. In a month or so we can part ways forever and you can always wonder if we would have made a great couple.&quot;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t be like that. I just don&#039;t want to get attached if you&#039;ll be leaving.&quot; you roll over</div></li><li class="li1"><div class="de1">&gt;Anon scoots closer to you and wraps his arms around you</div></li><li class="li1"><div class="de1">&gt;&quot;We can cross that bridge when we get there.&quot; he leans over and kisses your cheek</div></li><li class="li1"><div class="de1">&gt;&quot;Night, Loka.&quot; he says</div></li><li class="li1"><div class="de1">&quot;N-night.&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Be Loka Iscennah
+&gt;College freshman at MU
+&gt;In a gateway engineering class as an elective this semester
+&gt;The class had been working on a doorway, something you took a great interest in
+&gt;And on a particular night, it was left unoccupied by the engineering students
+&gt;They left in a hurry for some autumn fear festival
+&gt;October 31st, a sacred night for scaring
+&gt;You&#039;d never been to the human side, this could be valuable career experience
+&gt;You unlocked the door and slipped into the room
+&gt;Like a monolith of opportunity, the doorway stood completed on the far end of the room
+&gt;You locked the door and stepped over to the control panel
+&gt;Activating it wasn&#039;t hard, you set it to a random doorway on Earth and watched as the doorway hummed to life
+&gt;The light on top flickered on, indicating a successful connection
+&gt;You stepped over to the door, standing before it
+&gt;You were slightly intimidated by it
+&gt;This wasn&#039;t the sims, this was the real deal
+&gt;A real kid and real danger
+&gt;M-maybe this wasn&#039;t such a good idea
+&gt;You reach for the handle, wrapping your claws around the knob
+&gt;Twist it ever so gently
+&gt;Push the door open and peek into the room
+&gt;It looks empty
+&gt;You step in
+&gt;It looks like a guest bedroom
+&gt;You leave the door cracked and sneak into the hallway
+&gt;Down at the end there is a dim light coming from a cracked open door
+&gt;You crouch down, disappearing into the shadows and slip into the room
+&gt;A game is paused on the big-screen tv
+&gt;The controller is left on the couch
+&gt;You hear a door click shut in another room and hide
+&gt;No footsteps came to your room
+&gt;You head back into the hallway
+&gt;Enough, time to go back
+&gt;You go back to the guest bedroom and find the closet door shut
+&gt;Your heart skips a beat
+&gt;What if you were trapped here?
+&gt;You grab the handle and yank it open
+&gt;Thankfully you were greeted with the sight of your classroom
+&gt;You hop through the doorway before anything could go wrong
+&gt;As you were about to shut the door, the light fizzled out and the gateway collapsed
+&gt;You watched as the portal to the guest bedroom dissolved, giving way to the other side of the doorframe
+&gt;On the other side of the door stood a human
+&gt;He came through the closet when you were in the other room
+&gt;&quot;Wh-what?&quot; he stuttered, backing away from you
+&gt;Fuck
+&quot;Wait wait wait, stay calm.&quot;
+&gt;&quot;What&#039;s going on?!&quot; he clasped his head
+&quot;Buddy stay calm, I&#039;m gonna find a way to get you back home.&quot;
+&gt;&quot;What the hell are you?!&quot;
+&quot;Just sit down or something.&quot; you go to open the doorway&#039;s maintenance panel
+&gt;It looks like the central power core was fried
+&gt;You shouldn&#039;t have left the door open so long
+&gt;The human slowly scoots away from you
+&quot;Just chill, can you do that?&quot;
+&gt;He stays quiet and backs against the wall
+&gt;It&#039;d take two months to get a new core in
+&gt;Fuck
+&gt;If the school found him it&#039;d get traced to you and you&#039;d be expelled
+&gt;You go to the control panel and shut everything down
+&gt;You go over to the human, fiddling with something in his hands
+&gt;He notices you and tenses up
+&quot;Hey there.&quot;
+&gt;No reaponse
+&quot;Listen, I need you to come with me and be real calm. Just act like everything is normal.&quot;
+&gt;&quot;Oh god... What the fuck are you?&quot;
+&quot;J-just calm down or we&#039;ll both be in hot water, okay?&quot;
+&gt;&quot;Please don&#039;t kill me, wh-what do you want?&quot; he moves into a corner to get away from you
+&quot;Listen to me, I&#039;m not gonna hurt you. Okay?&quot;
+&gt;&quot;Okay. Where am I?&quot;
+&quot;It&#039;s really complicated, but I can explain it all later.&quot;
+&gt;You close in on him slowly
+&gt;The human that stood taller than you balls up in the corner
+&quot;I need you to come with me. You can&#039;t stay here, can you do that?&quot;
+&gt;&quot;Wh-where are you taking me?&quot;
+&quot;Uhh, back to my place. Come on, stand up.&quot; you grab his hands and help him to his feet
+&gt;&quot;You promise you&#039;re not gonna kill me?&quot;
+&quot;I promise, but we gotta go, like now.&quot;
+&gt;You grab his hand and pull him to the door and unlock it
+&gt;You peek out into the hallways before making your way out of the building to the parking lot
+&gt;Nearly home free, you pull on the human&#039;s hand and lead him out of the side door of the engineering building
+&gt;&quot;Ms. Loka, just what are you doing in the engineering building at this hour?&quot; a familiar voice sent chills down your spine
+&gt;You turn to face an approaching Dean Hardscrabble
+&gt;The human stands behind you
+&gt;&quot;And who is this?&quot; she asks, inspecting him with an unimpressed look
+&quot;This... Is, uhm, my friend from off-campus. He had to use the bathroom so I brought him to the bathrooms in this building.&quot;
+&gt;She stares intensely at him
+&gt;&quot;And can you explain why he appears to be human?&quot;
+&quot;Costume party, we were invited to a costume party and he&#039;s going as a human.&quot;
+&gt;&quot;Yes, it is Halloween tonight isn&#039;t it? I assume you two are going as a couple?&quot; she smirks
+&gt;&quot;Just friends.&quot; the human blurts
+&gt;Dean Hardscrabble seemingly lights up
+&gt;&quot;Then perhaps I might accompany him? There&#039;s something I quite like about that cologne you&#039;re wearing, what is it?&quot;
+&gt;&quot;Fear.&quot;
+&gt;You laugh nervously, messing with a time bomb that could destroy your life and career
+&gt;You grab the human by the arm and yank him closer defensively
+&quot;We are going as a couple, actually. My boyfriend is such a tease.&quot;
+&gt;Dean Hardscrabble tightens up again
+&gt;&quot;Well then, what was your name?&quot;
+&gt;&quot;Anon.&quot;
+&gt;&quot;You would do best to call me if you feel like handling a real monster. Maybe keep the costume on for me.&quot; she winked and turned to leave
+&gt;Too damn close
+&gt;You keep Anon shoulder-to-shoulder as you get him to the parking lot
+&quot;What the hell was that?&quot;
+&gt;&quot;I don&#039;t know, who was that?&quot;
+&quot;Dean Hardscrabble, you almost got me expelled.&quot; you hiss
+&gt;&quot;Dean? Am I at a fucking college?&quot;
+&quot;Yes! We&#039;re almost to my car, just follow the story.&quot;
+&gt;&quot;I&#039;m your boyfriend, we&#039;re going to a costume party and I&#039;m dressed as a human.&quot;
+&quot;Yes.&quot; You open the car door and usher him in before getting in yourself
+&gt;&quot;How far are we driving?&quot;
+&quot;About fifteen minutes.&quot;
+&gt;You pull out and enter into traffic
+&gt;The ride is silent
+&gt;The human makes no attempt to communicate and is just watching things go by
+&quot;My name is Loka, you&#039;re Anon right?&quot;
+&gt;&quot;Y-yeah.&quot;
+&gt;He still seems shaken by this
+&gt;You don&#039;t blame him for it
+&gt;He looks over at you occasionally
+&quot;I know you must be scared, but I&#039;m going to fix this.&quot;
+&gt;As you pull into the lot in front of your complex, you see your neighbor is partying
+&gt;Monsters would be in the halls
+&gt;Your neighbor was one of those too-friendly types
+&gt;You and Anon got out of the car went up to the second floor
+&gt;Just as you thought, the halls were filled with drunken party monsters
+&gt;Anon clung to your side as you unlocked your apartment door
+&gt;The pounding bass went right through the walls
+&gt;Anon calmed down just a little, at least he was sort of trusting you
+&gt;&quot;You said you&#039;d explain this later. Start talking, Loka.&quot; he frowned at you
+&gt;After about a half hour explaining how screams are a legitimate power source, he still didn&#039;t get it
+&quot;It&#039;s economics, scaring kids makes energy and there&#039;s a lot of money in scaring.&quot;
+&gt;&quot;But what&#039;s with all the doors? Why is an economy around it?&quot;
+&gt;He gives up, but seems to understand
+&gt;He lays down on the couch and closes his eyes
+&quot;You tired?&quot;
+&gt;&quot;Very.&quot;
+&quot;Wanna sleep in my bed?&quot;
+&gt;&quot;Where would you be?&quot;
+&quot;Maybe in there too.&quot;
+&gt;&quot;I&#039;ll pass.&quot;
+&quot;It gets pretty cold at night.&quot;
+&gt;&quot;I said I&#039;m fine.&quot;
+&gt;You give him a blanket and go to bed
+&gt;At 2AM, an ice-cold body pulls back your covers and slides into bed behind you
+&gt;You wake up the next morning to Anon&#039;s arms wrapped around you
+&gt;He didn&#039;t seem to want to get up yet
+&gt;You slipped out of his grasp and rolled out of bed
+&gt;You go to the bathroom and undress, pulling off the undies and shirt you wore, and got into the shower
+&gt;The hot water helped you clear your mind
+&gt;You try to wrap your head around the situation
+&gt;You had a human living in your apartment and wouldn&#039;t be able to get him back for at least two months
+&gt;And if anyone found out, you&#039;d be in more trouble than you could imagine
+&gt;You sit down in the tub, letting the water rain on your belly
+&gt;You were forgetting something...
+&gt;Something important...
+&gt;You start to nod off before snapping back
+&gt;Your roommate!
+&gt;She was at a party last night, she&#039;d be back any minute
+&gt;You shut off the water and dried off as quickly as you could
+&gt;You bedroom was right across the main room
+&gt;Your door was open, meaning there was a clear line of sight to your bed
+&gt;You check the countertop
+&gt;You forgot to grab clean clothes
+&gt;Your ear flicked, the lock on the front door was being opened
+&gt;You rush out of the bathroom and slam your door shut as the front door opened
+&gt;&quot;Loka! You&#039;ll never guess who I met last night!&quot; she called out
+&gt;Anon startled awake
+&gt;&quot;Loka? What&#039;s happeni- Oh god!&quot;
+&gt;You covered yourself with your hands as he turned away
+&gt;&quot;Loka? Who&#039;s in there with you?&quot; your roommate asked through the thin door
+&quot;A friend, let me get dressed, okay?&quot;
+&gt;&quot;Yeah, a friend. I wanna see.&quot; she sounded annoying and needy
+&gt;You just needed some space right now
+&quot;In a minute, Jannette!&quot;
+&gt;&quot;Don&#039;t let her in here!&quot; Anon said quietly
+&gt;&quot;Come on Loka, I heard you met a hot guy last night from Hardscrabble&#039;s assistant.&quot;
+&quot;Give me a minute! Let me get dressed!&quot; you shouted
+&gt;Jannette stood right outside the door
+&gt;You stepped around to get to your closet and grabbed a big sweater and some panties from the dresser
+&gt;You hurriedly got them on and pulled Anon out of bed
+&quot;Come on, you need to meet my roommate.&quot;
+&gt;You open the door just a crack and look at Jennette
+&gt;&quot;What are you waiting for, let me in Loka.&quot; she says
+&quot;Okay, but don&#039;t freak out.&quot;
+&gt;You open the door enough to let Jennette in
+&gt;She hurries in and looks at Anon
+&gt;&quot;What exactly is he?&quot; Jennette was a little shorter than you and hadn&#039;t seen humans except for the cartoony depictions on tv
+&gt;&quot;I&#039;m a hu-&quot;
+&gt;You try to put your hand on Anon&#039;s mouth but accidentally go in too hard and smack him
+&gt;&quot;Motherfucker!&quot;
+&quot;A huge sasquatch, he shaved his fur off for charity last night.&quot;
+&gt;&quot;Why&#039;d you slap me?&quot;
+&gt;Jennette smiles, sinking into her turtleneck slightly like some kind of comfy turtle
+&gt;&quot;Will he be staying around often?&quot;
+&quot;He&#039;ll be staying with me for a month or two.&quot;
+&gt;&quot;Hi, I&#039;m Jennette.&quot; she extends her clawed hand to Anon
+&gt;He shakes it, &quot;Anon.&quot;
+&gt;Jennette jumps onto Anon and does some full-body hug
+&gt;&quot;Nice to meet you, Anon! Welcome!&quot;
+&gt;You have to pry her off of him
+&quot;Hey, it&#039;s saturday, do you want to order take-out and just watch a movie or something?&quot;
+&gt;&quot;Why don&#039;t you ask your boyfriend?&quot; Jennette lightheartedly sneered
+&gt;&quot;That sounds good.&quot; Anon leaned close to you and rested his chin on your head
+&gt;It almost felt real...
+&gt;You do your best to not let yourself get caught up in the embrace
+&gt;Anon wraps his arms around you
+&gt;&quot;Yeah, a movie sounds good.&quot; he says
+&gt;Jennette heads back to the main room and turns on the tv
+&gt;You lead Anon to the couch and he slumps on it, pulling you onto him
+&gt;Jennette starts some old comedy movie
+&gt;You vaguely remember it being about a hilarious anchorman
+&gt;Jennette sits on the other side of the couch
+&gt;&quot;So how long have I been out of the loop?&quot; she asks
+&quot;Uh, y&#039;know, not too long. I just wanted to make sure-&quot;
+&gt;&quot;That ya found yourself a keeper?&quot;
+&quot;Uh, y-yeah.&quot;
+&gt;&quot;It&#039;s been about six months.&quot; Anon chimes in, locking his hands around your belly
+&gt;This was officially couch-snuggling
+&gt;First base...
+&gt;You suddenly realize something
+&gt;You weren&#039;t too familiar with human courting ceremonies
+&gt;Did Anon think this was real?
+&gt;Your face heated up at that thought
+&gt;Your first boyfriend
+&quot;H-hey Anon, can we talk in the next room for a moment.&quot;
+&gt;&quot;Sure thing.&quot; he helps you up and walks with you back to your room
+&gt;Jennette was still digging around for the remote
+&gt;You turn to face Anon
+&quot;You know this is just fake, right?&quot;
+&gt;&quot;I don&#039;t think so, you seemed to like it, Loka.&quot;
+&quot;Yeah, but us as a thing can&#039;t happen.&quot;
+&gt;&quot;It&#039;s a shame, a sweet girl like you is a rare find where I&#039;m from.&quot;
+&gt;You turn away
+&quot;It&#039;s just until I can find a way to get you back to your side of the door.&quot;
+&gt;Anon pats your head with a sigh and walks back out to the main room
+&gt;He&#039;s talking with Jennette right now
+&gt;You sit on the side of the bed, conflicted
+&gt;He seems to actually like you, and if he weren&#039;t human you&#039;d be really into him
+&gt;But on the other hand, you&#039;d heard about monsters and humans but that only happened in books
+&gt;Damnit Loka, why were you like this?
+&gt;You head back out and sit with Anon
+&gt;The movie played quietly, Anon let out a deep laugh periodically when he got the humor
+&gt;No matter how much you tried to move away, you kept finding yourself cuddled up to Anon
+&gt;You&#039;d never noticed it before, but your four-clawed hand fit perfectly with his five-fingered hand
+&gt;The evening burned away with several movies, by the time the sun had set you were leaning across his lap
+&gt;He somehow managed to rest his chin on your head
+&gt;Jennette had fallen asleep on the couch
+&quot;Maybe we should wake her up?&quot; you asked quietly
+&gt;&quot;I could just pick her up.&quot;
+&quot;If you want to.&quot;
+&gt;Anon moved out from under you and stood up, stretching
+&gt;You leaned over and picked up Jennette, cradling her in his arms
+&gt;Jennette stirred slightly and mumbled something
+&gt;Anon walked her off to her bedroom and laid her in her bed
+&gt;That looked pretty comfortable
+&gt;You kind of wanted to be held too
+&gt;Anon sat down next to you on the couch and stared blankly at the dvd menu on repeat on the tv
+&quot;Hey, how heavy was she? She won&#039;t say what she weighs.&quot;
+&gt;&quot;Not too heavy, why?&quot;
+&quot;You think you could hold me like that too?&quot;
+&gt;&quot;Normally I&#039;d charge for that, but you get the girlfriend discount.&quot; he grinned and lifted you off of the couch
+&quot;Jennette&#039;s asleep, you don&#039;t need to keep pretending.&quot;
+&gt;&quot;Who says I was pretending?&quot;
+&gt;Anon lays you in bed and climbs in next to you
+&quot;That&#039;s not okay, I need to get you back to Earth before anyone finds out.&quot;
+&gt;&quot;Jennette already knows.&quot;
+&quot;She thinks you&#039;re a shaved sasquatch.&quot;
+&gt;Anon pulls you in close, his nose is against yours
+&gt;&quot;Loka, it&#039;s all good. In a month or so we can part ways forever and you can always wonder if we would have made a great couple.&quot;
+&quot;Don&#039;t be like that. I just don&#039;t want to get attached if you&#039;ll be leaving.&quot; you roll over
+&gt;Anon scoots closer to you and wraps his arms around you
+&gt;&quot;We can cross that bridge when we get there.&quot; he leans over and kisses your cheek
+&gt;&quot;Night, Loka.&quot; he says
+&quot;N-night.&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/xwAjZLQ3">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    3 min ago                </div>
+            </li>
+                    <li>
+                <a href="/dqGkThKL">Linear array rotation</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    9 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    47 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

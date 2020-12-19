@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hyenas and Co-Workers - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Hyenas and Co-Workers - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/wdNi5jKQ" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/wdNi5jKQ" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="Fm3LssWip5YuNvFzlWVBUhFBpjg69pfPiSqr9wwlNm47D_nnjfXM4GsOpBehByIbdir1cmLG-vyxG97FT1UbFA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/wdNi5jKQ" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/wdNi5jKQ" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/19/7/8/2940720.jpg" alt="Zig-Zag-specialist">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Hyenas and Co-Workers</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Zig-Zag-specialist">Zig-Zag-specialist</a>
+                                            </div>
+
+                                            <a href="/pro" class="pro" title="PRO User!"></a>
+                    
+                                             <a href="/message/compose?to=Zig-Zag-specialist" class="message" title="Send a private message to: Zig-Zag-specialist"></a>
+                                    
+                <div class="date">
+                    <span title="Tuesday 15th of August 2017 09:14:19 PM CDT">Aug 15th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    4,283                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 28.64 KB            </div>
+
+            <div class="right">
+                <a href="/raw/wdNi5jKQ" class="btn -small">raw</a>
+                <a href="/dl/wdNi5jKQ" class="btn -small">download</a>
+                <a href="/clone/wdNi5jKQ" class="btn -small h_800">clone</a>
+                <a href="/embed/wdNi5jKQ" class="btn -small h_800">embed</a>
+                <a href="/report/wdNi5jKQ" class="btn -small">report</a>
+                <a href="/print/wdNi5jKQ" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Anon, the security guard</div></li><li class="li1"><div class="de1">&gt;particularly the only human guard besides your manager</div></li><li class="li1"><div class="de1">&gt;you weren&#039;t quite expecting to be surrounded by hyenas and jackals...but it makes a sad kind of sense</div></li><li class="li1"><div class="de1">&gt;they&#039;re nice and friendly enough, some were a bit cold at first but you&#039;re not into butting heads so they warmed up to you quickly</div></li><li class="li1"><div class="de1">&gt;&quot;I am just here to work, get a paycheck, ya know?&quot; It became a sort of mantra whenever the hyenas started gossiping or trying to get your negative opinion on the others</div></li><li class="li1"><div class="de1">&gt;petty work passive aggression </div></li><li class="li1"><div class="de1">&gt;The older ladies just seemed fed up with it and preferred talking about their crazy nights at the club</div></li><li class="li1"><div class="de1">&gt;you end up liking your co-workers</div></li><li class="li1"><div class="de1">&gt;hell they were at least semi nice and understanding to you anyway</div></li><li class="li1"><div class="de1">&gt;better than your last job</div></li><li class="li1"><div class="de1">&gt;well...all except for one. Bast, another hyena who came in just before you </div></li><li class="li1"><div class="de1">&gt;a bit stockier than the others she just seemed to have a chip on her shoulder for everybody.</div></li><li class="li1"><div class="de1">&gt;even you seemed to get off on a bad start when you worked together</div></li><li class="li1"><div class="de1">&gt;you literally couldn&#039;t fill out the reports, she couldn&#039;t, or didn&#039;t want to and thought you were just pushing them off on her</div></li><li class="li1"><div class="de1">&gt;you still apologized which you think she took as insincere but you thanking her for her patience really threw her off</div></li><li class="li1"><div class="de1">&gt;You decided to give her in particular a wide berth whenever working</div></li><li class="li1"><div class="de1">&gt;best not to give her rumor mill any fuel to fire</div></li><li class="li1"><div class="de1">&gt;Hyena women were damn hard to read though, was it a domination thing or like any other girl was she flirting? Impossible to tell</div></li><li class="li1"><div class="de1">&gt;Bast started coming over to your side of the desk whenever she could</div></li><li class="li1"><div class="de1">&gt;reaching over you to grab shit she needed, staring you down whenever she came in, leaning against your chair to look over you while waiting for you to leave the office.</div></li><li class="li1"><div class="de1">&gt;you couldn&#039;t help but notice the tear in her work pants, a rather sizable hole that even sometimes exposed not just her thick thighs but her panties</div></li><li class="li1"><div class="de1">&gt;naturally you wanted to tell her, but you couldn&#039;t be sure how she would take it</div></li><li class="li1"><div class="de1">&gt;can&#039;t be sure of anything really when hyenas were involved</div></li><li class="li1"><div class="de1">&gt;was that racist? Fuck.</div></li><li class="li1"><div class="de1">&gt;one day, handing out badges and reports, you fumble with a difficult customer</div></li><li class="li1"><div class="de1">&gt;He&#039;s lost his badge, mad he&#039;s late and mad at you for following protocol</div></li><li class="li1"><div class="de1">&gt;&quot;NONE of the other officers gave me this much trouble, just give me a badge and let me in! I work here damn it!&quot; Goddamn jaguar think they own everything. </div></li><li class="li1"><div class="de1">&gt;both you and he jump as Bast snarls a warning</div></li><li class="li1"><div class="de1">&gt;&quot;he&#039;s doing the best he can sir, we have to fill out these reports, if you don&#039;t want to wait next time don&#039;t lose your badge! You can go sit down in the lobby we will call you when it&#039;s done&quot;</div></li><li class="li1"><div class="de1">&gt;The jaguar blustered before stalking away to the large lounge couches</div></li><li class="li1"><div class="de1">&gt;&quot;god, so sick of him whining&quot; okay, she was just being a polite bitch then</div></li><li class="li1"><div class="de1">&gt;&quot; you okay Anon? Can&#039;t let em get to You&quot; and back into weird flirting category you think.</div></li><li class="li1"><div class="de1">&gt;&quot;uhm..yeah, thanks Bast&quot; she insisted you use her first name. Didn&#039;t like her last name she said.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon&quot; &quot;yeah?&quot; &quot;You wear cologne?&quot;</div></li><li class="li1"><div class="de1">&gt;not today &quot;sometimes yeah, why is it too strong, I can stop&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;no, no, it&#039;s fine, just wanted to know&quot;</div></li><li class="li1"><div class="de1">&gt;she&#039;s staring again you can feel her eyes on you while you try to finish stupid paperwork</div></li><li class="li1"><div class="de1">&gt;once again your mind wanders: what would a hyena romance be like? </div></li><li class="li1"><div class="de1">&gt;you quickly remind your brain: Hyena = Crazy, and Workplace dating = No</div></li><li class="li1"><div class="de1">&gt;But what if?</div></li><li class="li1"><div class="de1">&gt;fortunately or not, you get a lot of downtime during you particular shifts</div></li><li class="li1"><div class="de1">&gt;Bast has slowly started becoming a regular coworker </div></li><li class="li1"><div class="de1">&gt;she watches horror movies on her laptop in her side where the camera can&#039;t see her</div></li><li class="li1"><div class="de1">&gt;her laptop lock screen made you do a double take, Bast herself, open mouth and silly faced with people you guess are her friends at some club rave</div></li><li class="li1"><div class="de1">&gt;she had multiple neon tongue studs in</div></li><li class="li1"><div class="de1">&gt;obviously never had those in during work.</div></li><li class="li1"><div class="de1">&gt;one slow night, she&#039;s giggling at whatever horror or comedy she&#039;s put on</div></li><li class="li1"><div class="de1">&gt;she stretches out very slowly</div></li><li class="li1"><div class="de1">&gt;you swear you see a bulge...her panties are red today</div></li><li class="li1"><div class="de1">&gt;no bad Anon! You quickly look away as she glances over at you</div></li><li class="li1"><div class="de1">&gt;you couldn&#039;t be sure but it looked like she was smirking </div></li><li class="li1"><div class="de1">&gt;like she wanted you to look, dared you to</div></li><li class="li1"><div class="de1">&gt;it was hard not to</div></li><li class="li1"><div class="de1">&gt;time to go on patrol...and walk off this stupidly hard boner </div></li><li class="li1"><div class="de1">&gt;She almost sounded disappointed as you walked out of the booth</div></li><li class="li1"><div class="de1">&gt;probably just your imagination though</div></li><li class="li1"><div class="de1">&gt;as you come back from patrolling she gets up and hurries past you</div></li><li class="li1"><div class="de1">&gt;goddamn your lunch can wait you Hog.</div></li><li class="li1"><div class="de1">&gt;no, fuck that was mean to think...</div></li><li class="li1"><div class="de1">&gt;why does the office smell like some Chinese take out?</div></li><li class="li1"><div class="de1">&gt;come to think of it, was she smiling or panting as she left?</div></li><li class="li1"><div class="de1">&gt;shake it off anon, even Bast wouldn&#039;t be THAT crazy</div></li><li class="li1"><div class="de1">&gt;damn hyenas.</div></li><li class="li1"><div class="de1">&gt;damn job.</div></li><li class="li1"><div class="de1">&gt;still the pay is good.</div></li><li class="li1"><div class="de1">&gt;or would be if the work office didn&#039;t piss their twisted panties every time someone got even close to overtime</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Bast came back, breathing husky and deep</div></li><li class="li1"><div class="de1">&gt;&quot;you forgot your radio, I don&#039;t mind you taking a long lunch when nobodies here but at least take a radio dude&quot; you scold her</div></li><li class="li1"><div class="de1">&gt;she jumps a little and nods breathlessly, sitting in her chair</div></li><li class="li1"><div class="de1">&gt;curious, you look over &quot;damn, you okay? Looks like you ran all the way back</div></li><li class="li1"><div class="de1">&gt;Bast quickly clenched her thighs together and squirms &quot;Huh? Y..eah, yeah, sorry whatever, lost track of time</div></li><li class="li1"><div class="de1">&gt;you know she wasn&#039;t running. She wouldn&#039;t run to this job if her ass was on fire</div></li><li class="li1"><div class="de1">&gt;a bit of mental cringing mixed with a morbid curiosity boner</div></li><li class="li1"><div class="de1">&gt;did she have one of those...weird things? She was spotted</div></li><li class="li1"><div class="de1">&gt;not your problem, head down, work harder</div></li><li class="li1"><div class="de1">&gt;But occasionally you could feel her staring, see her biting her soft looking dark lips as she watched you</div></li><li class="li1"><div class="de1">&gt;you never thought you were anything remarkable but...part of you wondered if she thought about you during her long break in the bathroom</div></li><li class="li1"><div class="de1">&gt;the rest of the shift passed by uneventfully, until the end</div></li><li class="li1"><div class="de1">&gt;&quot;Hey Anon&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;what&#039;s up?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You a big party guy?&quot;</div></li><li class="li1"><div class="de1">&gt;Last party you went to: Dinner party</div></li><li class="li1"><div class="de1">&gt;just say no &quot;Eh, I haven&#039;t been to a big party in a long time&quot; fuck</div></li><li class="li1"><div class="de1">&gt;her spade ears flick a little, disappointment? Or annoyance?</div></li><li class="li1"><div class="de1">&gt;&quot;well I can&#039;t wait to get out of here, there&#039;s a party going on nearby at Syrus street&quot;</div></li><li class="li1"><div class="de1">&gt;you lived nearby, wasn&#039;t Syrus just office buildings? Curiosity piqued &quot;Really? On Syrus?&quot;</div></li><li class="li1"><div class="de1">&gt;her look of casual talk broke for a moment, her excitement showing as she tried to play it off as a stretch</div></li><li class="li1"><div class="de1">&gt;&quot;yup! New place, pretty bloody&quot;</div></li><li class="li1"><div class="de1">&gt;you&#039;ve been around Hyenas long enough to know Bloody was slang for Fucking awesome...or something similar</div></li><li class="li1"><div class="de1">&gt;you nod &quot;neat&quot; hoping to end the conversation there</div></li><li class="li1"><div class="de1">&gt;&quot;s o what are you doing after this A-non?&quot; </div></li><li class="li1"><div class="de1">&gt;damn her and that irritating way she said people&#039;s names</div></li><li class="li1"><div class="de1">&gt;&quot;um probably..&quot; &quot;And don&#039;t say sleep!&quot; Fuck.</div></li><li class="li1"><div class="de1">&gt;pause, cue card #2: &quot;probably get something to eat, drive around a bit..&quot;</div></li><li class="li1"><div class="de1">&gt;she smiles as if satisfied with your answer &quot;if you pass by come check it out&quot;</div></li><li class="li1"><div class="de1">&gt;You won&#039;t, but you were mildly curious enough to see how and office building became a club good enough for a hyena to call it &quot;bloody&quot;</div></li><li class="li1"><div class="de1">&gt;as you leave, she waves at you, you politely wave back</div></li><li class="li1"><div class="de1">&gt;your curiosity got the better of you, so you go to a nice sit down restaurant and mull over at least going to see it</div></li><li class="li1"><div class="de1">&gt;it&#039;s not like she would be waiting there for you, that&#039;d be stupid</div></li><li class="li1"><div class="de1">&gt;You manage to kill an hour before driving over</div></li><li class="li1"><div class="de1">&gt;Yup, just boring shitty offices...</div></li><li class="li1"><div class="de1">&gt;except for the GIGANTIC fuck off spotlights waving behind the building and cars lining the road</div></li><li class="li1"><div class="de1">&gt;pulling around back you see why</div></li><li class="li1"><div class="de1">&gt;anthros, neon and big signs</div></li><li class="li1"><div class="de1">&gt;Definitely not for you, but hey, it&#039;s cool it&#039;s there.</div></li><li class="li1"><div class="de1">&gt;as you attempt to maneuver around the parking lot, a thud on your window shocks you</div></li><li class="li1"><div class="de1">&gt;&quot;Anon!&quot; Oh fuck why</div></li><li class="li1"><div class="de1">&gt;OH FUCK WHAT?</div></li><li class="li1"><div class="de1">&gt;you turn and see Bast, glowing mouth and hair completely different from how she wore it and in...a leather looking skirt? </div></li><li class="li1"><div class="de1">&gt;her huge teeth glowing drew your attention way too much to focus on anything else</div></li><li class="li1"><div class="de1">&gt;you roll down your window &quot;uh, hey Bast, what&#039;s shaking?&quot;</div></li><li class="li1"><div class="de1">&gt;she snorted but smiled again &quot;you came! You coming in? Find a place to park, I&#039;ll be by the door!&quot;</div></li><li class="li1"><div class="de1">No wait stop.</div></li><li class="li1"><div class="de1">&gt;and she&#039;s gone.</div></li><li class="li1"><div class="de1">&gt;You get a shitty parking spot and shuffle your way to the door like a zombie.</div></li><li class="li1"><div class="de1">&gt;this was going to be so much fun...</div></li><li class="li1"><div class="de1">&gt;sarcasm.</div></li><li class="li1"><div class="de1">&gt;Bast stood with a few other hyenas and a goat, laughing</div></li><li class="li1"><div class="de1">&gt;you could see why her mouth was glowing before, those neon studs in her massive maw from the picture in her tongue</div></li><li class="li1"><div class="de1">&gt;&quot;Heya&quot; you wave yourself over</div></li><li class="li1"><div class="de1">&gt;Bast grabbed you and pulled you close</div></li><li class="li1"><div class="de1">&gt;&quot;Guys! This is Anon, my coworker!&quot;</div></li><li class="li1"><div class="de1">&gt;Introductions were made, cooing and flirting comments of &quot;he&#039;s so cute!&quot;</div></li><li class="li1"><div class="de1">&gt;You feel rather awkward being the only human outside</div></li><li class="li1"><div class="de1">&gt;&quot;lets go inside?&quot; The faster it got awkward, you sooner you could leave</div></li><li class="li1"><div class="de1">&gt;so you figured</div></li><li class="li1"><div class="de1">&gt;The big bull clad in leather stops you at the door</div></li><li class="li1"><div class="de1">&gt;&quot;ID?&quot; Fuck you&#039;re tall</div></li><li class="li1"><div class="de1">&gt;Bast snorts &quot;he&#039;s with me&quot;</div></li><li class="li1"><div class="de1">&gt;the bull shakes his massive head &quot;All these smoothskins look alike to me, ID&quot; fuck you tall prick</div></li><li class="li1"><div class="de1">&gt;you normally would use this excuse to duck out but you happen to take species racism seriously</div></li><li class="li1"><div class="de1">&gt;&quot;it&#039;s fine, I&#039;m not half your height or anything, you probably couldn&#039;t handle me&quot; as you hold up your ID </div></li><li class="li1"><div class="de1">&gt;the bull growls and takes a prolonged time looking at you before shoving it back in your chest</div></li><li class="li1"><div class="de1">&gt;&quot;don&#039;t cause trouble&quot; fuck you too horse dick length motherfucker</div></li><li class="li1"><div class="de1">&gt;Bast waited impatiently, pulling you along as you got past the door.</div></li><li class="li1"><div class="de1">&gt;&quot;fuckin dick sucking moose&quot; &quot;tell me how you really feel Bast&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;sorry, racist assholes just make me want to throw down and rearrange some faces&quot; </div></li><li class="li1"><div class="de1">&gt;the club was even bigger on the inside...and you were the only human in sight</div></li><li class="li1"><div class="de1">Fuck</div></li><li class="li1"><div class="de1">&gt;with Bast pulling your arm, there really wasn&#039;t an escape possible, just a mash of fur, fluff and scales occasionally </div></li><li class="li1"><div class="de1">&gt;A grind pit out on the dance floor wasn&#039;t exactly your idea of a good time</div></li><li class="li1"><div class="de1">&gt;But that&#039;s exactly what you got</div></li><li class="li1"><div class="de1">&gt;after what felt like forever you were on the other side near the bar</div></li><li class="li1"><div class="de1">&gt;fuck, you need a drink and a shower after that!</div></li><li class="li1"><div class="de1">&gt;Bast does the drink ordering, probably for the best considering the warm reception at the front door</div></li><li class="li1"><div class="de1">&gt;she comes back with water and some shots</div></li><li class="li1"><div class="de1">&gt;you are distinctly aware of her pressed against you as her hot, wet breath passes over you neck</div></li><li class="li1"><div class="de1">&gt;her tongue was practically in your ear!</div></li><li class="li1"><div class="de1">&gt;what she said reached your ears 10 seconds later: &quot;drink up, have fun!&quot;</div></li><li class="li1"><div class="de1">&gt;you didn&#039;t realize what you downed wasn&#039;t just water until much later</div></li><li class="li1"><div class="de1">&gt;music, lights, people</div></li><li class="li1"><div class="de1">&gt;everything ran together</div></li><li class="li1"><div class="de1">&gt;the club turned into a drool inducing haze of lights and sounds and feelings</div></li><li class="li1"><div class="de1">&gt;the bass thumping making your hair and brain tingle</div></li><li class="li1"><div class="de1">&gt;the lights became pure mesmerising color</div></li><li class="li1"><div class="de1">&gt;even your own skin felt good as you rubbed along yourself...at least you thought it was you</div></li><li class="li1"><div class="de1">&gt;have you always had fur? Or so many hands to touch yourself with?</div></li><li class="li1"><div class="de1">&gt;your heartbeat pounding in time with the music caught your attention until you had to breathe and stumble out into a hallway</div></li><li class="li1"><div class="de1">&gt;Bast or another hyena who looked like her curled her arms around your waist and pressed herself against you</div></li><li class="li1"><div class="de1">&gt;&quot;having fun yet Anon?&quot;</div></li><li class="li1"><div class="de1">&gt;your body shivered as ice rolled down your chest, no wait that was your sweat</div></li><li class="li1"><div class="de1">&gt;Bast and her growling giggling voice became the new music in your ears, her tongue slowly dragging over your shoulders and up your neck</div></li><li class="li1"><div class="de1">What did she say?</div></li><li class="li1"><div class="de1">&gt;suddenly a force pulled you away, you were distinctly aware of your shoes hitting pavement, then cold air, then soft leather</div></li><li class="li1"><div class="de1">Or was that her pulling you outside?</div></li><li class="li1"><div class="de1">&gt;in a blink, you were on your back, naked and coated in dried fun juice</div></li><li class="li1"><div class="de1">&gt;someone&#039;s cum and not yours</div></li><li class="li1"><div class="de1">Focus.</div></li><li class="li1"><div class="de1">&gt;you were in an apartment, not yours definitely</div></li><li class="li1"><div class="de1">&gt;how the fuck did we get here?</div></li><li class="li1"><div class="de1">&gt;A few things were immediately clear</div></li><li class="li1"><div class="de1">&gt;your head throbbed, your mouth was full of dry and someone had a death grip on your precious</div></li><li class="li1"><div class="de1">&gt;as she pulled you closer and then onto her, you realized Bast had taken you home as a prize and was now clutching your handle like it was made of gold</div></li><li class="li1"><div class="de1">&gt;you needed water, and more time to think and piss.</div></li><li class="li1"><div class="de1">&gt;Bast growled and gave a gentle squeeze as you pulled away</div></li><li class="li1"><div class="de1">&gt;you logically deduced the living room and kitchen were not the bathroom as you stumbled blindly through them</div></li><li class="li1"><div class="de1">&gt;once reaching your destination you consulted the toilet</div></li><li class="li1"><div class="de1">&gt;after an orgasmic piss, you turned to the mirror</div></li><li class="li1"><div class="de1">&gt;and winced at your own reflection </div></li><li class="li1"><div class="de1">&gt;claw marks, bruises, just a few hickeys and bites</div></li><li class="li1"><div class="de1">&gt;your body was slowly losing its numbness as if realizing you were awake now</div></li><li class="li1"><div class="de1">&gt;fuck it hurt being alive</div></li><li class="li1"><div class="de1">&gt;as you stood in front of the mirror admiring your new battle scars from the night</div></li><li class="li1"><div class="de1">&gt;&quot;You left the bed cold baby...&quot; </div></li><li class="li1"><div class="de1">&gt;the skittish noise you made was particularly humanly</div></li><li class="li1"><div class="de1">&gt;Bast giggled and slid over to you, moving to slide her arms around your hips, softly licking your wounds with her thick tongue</div></li><li class="li1"><div class="de1">&gt;you could tell her studs were still in from how they pressed into you</div></li><li class="li1"><div class="de1">&gt;&quot; Even if you had whiskey dick, you still TASTE even more delicious than I dreamt of&quot; </div></li><li class="li1"><div class="de1">&gt;somehow that didn&#039;t make you feel any better</div></li><li class="li1"><div class="de1">&gt;you try to push her back, really only pushing yourself into the sink behind you</div></li><li class="li1"><div class="de1">&gt;&quot;wait, fuck i...when do we get here? What did you do to me?!&quot;</div></li><li class="li1"><div class="de1">&gt;Bast leaned forward and gave a deep predatory growl/hyena giggle before snapping her jaws next to your ear</div></li><li class="li1"><div class="de1">&gt;&quot;relax sweetie, just a little something to take your edge off, don&#039;t tell me you&#039;ve never had Hyena Drool before?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Hyena What?!&quot; </div></li><li class="li1"><div class="de1">&gt;Bast laughed so hard her breasts shook</div></li><li class="li1"><div class="de1">&gt;&quot;oh MAN! You really ARE a stiff white human boy. It&#039;s a mixed drink...with a bit of something extra mixed in&quot;</div></li><li class="li1"><div class="de1">&gt;&quot; You ROOFIED ME?!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;psh! You were so uptight, I just wanted to relax you a little...and you relaxed baby...&quot; You tried to push her away as she slid herself against you as her hot body slid against yours</div></li><li class="li1"><div class="de1">&gt;&quot; Your dick relaxed too...but you seemed pretty into it when I used your body to get off...wanta do it again while you&#039;re all awake?&quot; </div></li><li class="li1"><div class="de1">&gt;she tugged on your earlobe with her front teeth, sucking gently</div></li><li class="li1"><div class="de1">&gt;&quot; get off me Bast! I&#039;m not into hyenas like that! And you&#039;re my coworker! We can get fired!&quot;</div></li><li class="li1"><div class="de1">&gt;she snapped her jaws by your ears again, this time tugging you hair with her jaws and clenching your throat with her massive paw</div></li><li class="li1"><div class="de1">&gt;&quot;geez Anon, you might kill what&#039;s left of my buzz if you keep this up...and is work really what you want to be thinking about right now?&quot;</div></li><li class="li1"><div class="de1">&gt;you struggled to see past her huge head and fist but as she grinds into you, you feel a thick, gently throbbing shaft sliding up your thighs</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;i could do things to you that you&#039;ve only seen in pornos Anon&quot;</div></li><li class="li1"><div class="de1">&gt;the terror aroused you, the reek of alcohol on her breath shot you back down</div></li><li class="li1"><div class="de1">&gt;&quot;still got performance issues? Don&#039;t worry, I can fix that...&quot;</div></li><li class="li1"><div class="de1">&gt;and she slid down your body, kissing and lapping her way down, claws sliding after</div></li><li class="li1"><div class="de1">&gt;more angry red lines appearing on your chest</div></li><li class="li1"><div class="de1">&gt;come on Anon, think fast</div></li><li class="li1"><div class="de1">&gt;you can&#039;t overpower her...gotta outwit her</div></li><li class="li1"><div class="de1">&gt;the hungry lip smacking she did as she opened her huge mouth REALLY didnt help!</div></li><li class="li1"><div class="de1">&gt;But when she engulfed your whole crotch, it was like another drug hit</div></li><li class="li1"><div class="de1">&gt;if it wasn&#039;t for her holding you up, you would have folded like a stack of cards </div></li><li class="li1"><div class="de1">&gt;her tongue swirling and squeezing your bits just right with a hard suction</div></li><li class="li1"><div class="de1">&gt;her studs seemed to hit every nerve in your dick, especially as she swirled them around your head</div></li><li class="li1"><div class="de1">&gt;she pulled away with a loud slurp, thick chains of drool connecting her mouth and your dick </div></li><li class="li1"><div class="de1">&gt;&quot;GOD! Stop being so tasty you prick..&quot; she moaned, nipping your thighs before swallowing loudly</div></li><li class="li1"><div class="de1">&gt;as she moved to suck you back down, you acted</div></li><li class="li1"><div class="de1">&gt;probably not the best idea ever though</div></li><li class="li1"><div class="de1">&gt;you slam a drawer in her head</div></li><li class="li1"><div class="de1">&gt;she&#039;s stunned but not completely down</div></li><li class="li1"><div class="de1">&gt;A moment&#039;s distraction was enough to bolt from the bathroom</div></li><li class="li1"><div class="de1">&gt;you lock as many doors behind you as you could, grabbing your phone</div></li><li class="li1"><div class="de1">&gt;she was, understandably, pissed.</div></li><li class="li1"><div class="de1">&gt;you could barely hear the operator as she yelled and screamed the worst shit at you</div></li><li class="li1"><div class="de1">&gt;you swore the door would come off any moment</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the police arrived moments later, with replacement pants and shirt for you to sit in</div></li><li class="li1"><div class="de1">&gt;they were more rough with her than you would like, but she understood why you called the police</div></li><li class="li1"><div class="de1">&gt;she cried. Big ugly tears too.</div></li><li class="li1"><div class="de1">&gt;both of the officers seemed tired from just seeing it</div></li><li class="li1"><div class="de1">&gt;&quot;Listen man, do you want to press charges? We get hyena calls all the time and lemme tell you, if that&#039;s all she did, she must really like you to be so gentle&quot;</div></li><li class="li1"><div class="de1">&gt;Gentle?! She was being gentle?!</div></li><li class="li1"><div class="de1">&gt;but...hyenas, you reminded yourself </div></li><li class="li1"><div class="de1">&gt;you groaned and scratched your head &quot;no, I don&#039;t want to press charges, I just want a new short and pants..&quot;</div></li><li class="li1"><div class="de1">&gt;the officers nodded and returned to Bast who sniffled a few feet away from the squad car</div></li><li class="li1"><div class="de1">&gt;they both had to stop her from rushing over to you when they told her that you wouldn&#039;t press charges</div></li><li class="li1"><div class="de1">&gt;the cops drive you home and send a tow to pick up your car from the club</div></li><li class="li1"><div class="de1">&gt;they recommend therapy or switching jobs</div></li><li class="li1"><div class="de1">&gt;it wasn&#039;t that bad, but you definitely feel violated</div></li><li class="li1"><div class="de1">&gt;it&#039;ll just take some time to get over the shock </div></li><li class="li1"><div class="de1">&gt;over the next few weeks you&#039;re surprised again as Bast herself requests a shift change any time you two would even remotely work together</div></li><li class="li1"><div class="de1">&gt;occasionally you passed each other while swapping shifts</div></li><li class="li1"><div class="de1">&gt;she always avoided looking your way and said nothing</div></li><li class="li1"><div class="de1">&gt;the ugly scowl on her face seemed plastered on</div></li><li class="li1"><div class="de1">&gt;you learn from a few other officers she&#039;s acting completely different </div></li><li class="li1"><div class="de1">&gt;less talkative but quicker to snap to aggression </div></li><li class="li1"><div class="de1">&gt;they know of course, why wouldn&#039;t they know</div></li><li class="li1"><div class="de1">&gt;damn office rumor mill</div></li><li class="li1"><div class="de1">&gt;finally on a night shift, you two get forced together after another officer calls out sick</div></li><li class="li1"><div class="de1">Fuck</div></li><li class="li1"><div class="de1">&gt;the first few hours pass in relative silence</div></li><li class="li1"><div class="de1">&gt;it&#039;s pretty fucking awful</div></li><li class="li1"><div class="de1">&gt;the rhythmic scratching sound? That&#039;s her, dragging her big ass claws under the desk</div></li><li class="li1"><div class="de1">&gt;the small piles of woodshavings made it more obvious </div></li><li class="li1"><div class="de1">&gt;and her scowl was almost a snarl now, frozen on her face</div></li><li class="li1"><div class="de1">&gt;fuck this was so fucking painful </div></li><li class="li1"><div class="de1">&gt;&quot;Bast..&quot; she jumps at her name, growling and giggling with a warning grin</div></li><li class="li1"><div class="de1">&gt;fuck, well now you know the difference!</div></li><li class="li1"><div class="de1">&gt;she quickly looks away but stays turned towards you</div></li><li class="li1"><div class="de1">&gt;&quot;why didn&#039;t you do it?&quot; She stifles her manic laughing by clenching her jaw with her fist</div></li><li class="li1"><div class="de1">&gt;&quot;do...what?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot; why didn&#039;t you press charges, or get mad, or tell or..oor&quot; she breaks down into a laughing giggling sob</div></li><li class="li1"><div class="de1">&gt;if she was a human, you&#039;d swear she was a fucking insane serial killer</div></li><li class="li1"><div class="de1">&gt;But you could read past that, she was hurting</div></li><li class="li1"><div class="de1">&gt;&quot;i could take the abuse...the drawer..but then you ran and I got confused and...god Why?! Why didn&#039;t you just get angry or smack me around?! Throw more drawers and shit at me! But not this! Goddamn it!&quot;</div></li><li class="li1"><div class="de1">&gt;she punched her face, clawing her ears, you got up to stop her but she froze as you moved</div></li><li class="li1"><div class="de1">&gt;she still sobbed, pulling her fur</div></li><li class="li1"><div class="de1">&gt;Human, not sure how to react</div></li><li class="li1"><div class="de1">&gt;Hyena, completely destroyed </div></li><li class="li1"><div class="de1">A shitshow all around</div></li><li class="li1"><div class="de1">&gt;&quot;I understand if you hate me Anon, I know it&#039;s normal..just please say so, I can&#039;t tell otherwise</div></li><li class="li1"><div class="de1">&gt;your turn, deep breaths </div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t hate you Bast, I hate what you did, got it? I&#039;m not the type to go slapping around women who make me mad&quot;</div></li><li class="li1"><div class="de1">&gt;she lets out a shuddering sigh and wipes her massive nose</div></li><li class="li1"><div class="de1">&gt;&quot;i did some research, you really were being gentle compared to some of these girls. Domestic abuse, rape, attempted murder you just drugged me pretty much..&quot;</div></li><li class="li1"><div class="de1">&gt;she growls &quot;But I did rape you..&quot;</div></li><li class="li1"><div class="de1">&gt;you scratch your head and groan &quot;Yeah technically, sexual assault...but no penetration so I&#039;m the one who gets to decide whether or not you raped me and I don&#039;t see it like that&quot;</div></li><li class="li1"><div class="de1">&gt;she shook her head slowly and chuckled &quot;that&#039;s why I wanted you Anon...you were so different, understanding and calm&quot;</div></li><li class="li1"><div class="de1">&gt;You cough and shirt, it was still weird in human terms she would be a monster, but in hyena terms she just wanted to show affection the only way she knew how</div></li><li class="li1"><div class="de1">&gt;violence and force</div></li><li class="li1"><div class="de1">&gt;fucked up but that&#039;s what you get with other species</div></li><li class="li1"><div class="de1">&gt;you rub your head and face</div></li><li class="li1"><div class="de1">&gt;you could definitely use a drink and some Advil or something </div></li><li class="li1"><div class="de1">&gt;&quot;listen, let&#039;s just finish this shift and talk afterwards, we&#039;re going to be here awhile</div></li><li class="li1"><div class="de1">&gt;Bast nods slowly, blowing her nose </div></li><li class="li1"><div class="de1">&gt;at least she stopped hitting herself.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the shift passed, mess cleaned up, officers swapped</div></li><li class="li1"><div class="de1">&gt;Bast only got more and more antsy as time passed, finally meeting you outside</div></li><li class="li1"><div class="de1">&gt;&quot;..so&quot; she whined.</div></li><li class="li1"><div class="de1">&gt;you groan at the awkward nature. You hate awkward</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m not forgiving you, not yet anyway, I need...time, to process and heal&quot;</div></li><li class="li1"><div class="de1">&gt;Bast visibly slumped and her fists clenched at her side&#039;s &quot;right..&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;But...maybe, after I&#039;ve...recovered, we can talk about going on an actual date, like humans would&quot; you&#039;re not sure if you would even be into her, but she deserved a second chance</div></li><li class="li1"><div class="de1">&gt;Your schedule goes back to normal with Bast</div></li><li class="li1"><div class="de1">&gt;Your gossipy co-workers finally go quiet about complaining about the changes you two made</div></li><li class="li1"><div class="de1">&gt;Bast keeps her distance at first, still trying to be respectful</div></li><li class="li1"><div class="de1">&gt;But you can still catch her glances, now unhidden longing behind them before she looks away</div></li><li class="li1"><div class="de1">&gt;She returns to her regular snarky self, doing her best to keep her mind off you </div></li><li class="li1"><div class="de1">&gt;You do your best to relax again, though you probably wont ever drink anything she offers again without asking what it is first</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Eventually you work up enough courage to stop her after work</div></li><li class="li1"><div class="de1">&gt;&quot;Hey BAST&quot; she turns as you jog over to her after another long dull night shift together</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, Anon, uh, did i forget something?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You forgot this&quot; You hand her a folded notesheet</div></li><li class="li1"><div class="de1">&gt;&quot;Uhm, what? I didn&#039;t...HEY WHERE YOU GOIN?!&quot; she growled as you ran off</div></li><li class="li1"><div class="de1">&gt;You dont think you could handle her reaction up close</div></li><li class="li1"><div class="de1">&gt;She opened the note, because who wouldnt? &quot;Thursday night, we&#039;re both off, 6pm for dinner?&quot;</div></li><li class="li1"><div class="de1">&gt;At the bottom you scrawled your number &quot;Text for Yes&quot;</div></li><li class="li1"><div class="de1">&gt; As you drove away, your phone buzzed loudly &quot;YESYESYESYES&quot;</div></li><li class="li1"><div class="de1">&gt;And about a billion yes&#039;es</div></li><li class="li1"><div class="de1">&gt;Well there was the plan.</div></li><li class="li1"><div class="de1">&gt;You remembered where her apartment was from the day the cops came to pick you up</div></li><li class="li1"><div class="de1">&gt;You felt bad for the pretty big fine she got from the cops coming out, if nothing really came from the date, at least you could pay her back a small bit for the money lost</div></li><li class="li1"><div class="de1">&gt;Not that you should feel bad for the girl who almost raped you...or anything.</div></li><li class="li1"><div class="de1">&gt;The Pre-date jitters hit you hard as you got ready</div></li><li class="li1"><div class="de1">&gt;Not that you weren&#039;t absolutely sure you looked great</div></li><li class="li1"><div class="de1">&gt;You had a bit of pride and vanity for yourself to know how to dress nice</div></li><li class="li1"><div class="de1">&gt;But it was Bast who was the unknown card in everything</div></li><li class="li1"><div class="de1">&gt;Would she try anything again?</div></li><li class="li1"><div class="de1">&gt;Did you want her to?</div></li><li class="li1"><div class="de1">&gt;You weren&#039;t as stiff as Bast thought when it came to &#039;Having Fun&#039; but your idea of fun and her idea of fun well...</div></li><li class="li1"><div class="de1">&gt;Lets just say they might mix too well, like a burning Christmas tree</div></li><li class="li1"><div class="de1">&gt;The fucked tree, in this case, would be your relationship and potentially, your ass.</div></li><li class="li1"><div class="de1">&gt;You werent sure even where to take this next beyond this stupid dinner date!</div></li><li class="li1"><div class="de1">&gt;But you weren&#039;t some victim, and she showed honest desire for you</div></li><li class="li1"><div class="de1">&gt;Maybe it was just the confused lust talking but maybe you two had a shot together?</div></li><li class="li1"><div class="de1">&gt;As you drove to pick her up you managed to calm yourself slowly</div></li><li class="li1"><div class="de1">&gt;Bast herself was hard to miss</div></li><li class="li1"><div class="de1">&gt;And you had to admit she was stunning</div></li><li class="li1"><div class="de1">&gt;Everything from her hairstyle to her dress was different</div></li><li class="li1"><div class="de1">&gt;But from the faint light behind her teeth as she smiled...those studs were back again</div></li><li class="li1"><div class="de1">&gt;You pull up, getting out to greet her</div></li><li class="li1"><div class="de1">&gt;Honestly you werent quite sure how to...but she solved that problem by crushing you into a bear hug</div></li><li class="li1"><div class="de1">&gt;She gave your cheek a quick kiss as she let you down</div></li><li class="li1"><div class="de1">&gt;&quot;Anon, no matter what happens tonight, i just wanted to say...thanks for trying...not many humans would&quot;</div></li><li class="li1"><div class="de1">&gt;You blush automatically, stupid cheeks!</div></li><li class="li1"><div class="de1">&gt;&quot;Ah, yeah Bast, i mean, like we talked about you tried..so uhm, how do you want to do this?&quot;</div></li><li class="li1"><div class="de1">Wait.</div></li><li class="li1"><div class="de1">&gt;She was already climbing in your car, giggling softly &quot;Come on Anon! we&#039;re gonna be late!&quot;</div></li><li class="li1"><div class="de1">&gt;WELL Fuck. Scratch the idea she might want to leave without you</div></li><li class="li1"><div class="de1">&gt;You drive away with her </div></li><li class="li1"><div class="de1">&gt;She strokes your arm where a thick scratch she made was</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t say anything but you can tell she feels horrible. Or scars get her hot.</div></li><li class="li1"><div class="de1">&gt;Knowing her now, probably bit of both.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The ride was quiet, uneventful</div></li><li class="li1"><div class="de1">&gt;Terribly awkward in other words</div></li><li class="li1"><div class="de1">&gt;It took a long while before Bast actually managed to look at you with something other than guilt.</div></li><li class="li1"><div class="de1">&gt;The diner was nice, Bast insisted you not take her anywhere fancy</div></li><li class="li1"><div class="de1">&gt;and luckily so.</div></li><li class="li1"><div class="de1">&gt;Bast and her idea of dinner conversation wasn&#039;t exactly high class but she was charming in a roguish way</div></li><li class="li1"><div class="de1">&gt;&quot;..and this one time, one of my girlfriends tried it out with another hyena, a male, and the stupid fuck ate so much beforehand she could barely get to his dick! Ha ha! So much for being well hung!&#039;</div></li><li class="li1"><div class="de1">&gt;&quot;so...you&#039;ve never been with a male Yeen?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot; What? Oh, no I have, kinda, they act all big and tough cause they&#039;re yeens but any show of force in the bedroom and they completely shut down, turn into submitting little bitches&quot; she snorted, shaking her head, earrings jingling from her spadelike ears</div></li><li class="li1"><div class="de1">&gt;You pause, hearing another side to that story from her tone.</div></li><li class="li1"><div class="de1">&gt;&quot;Have you been with any Females then?&quot;</div></li><li class="li1"><div class="de1">&gt;Bast paused and swallowed what was in her mouth this time</div></li><li class="li1"><div class="de1">&gt;definitely something different as she let out a dismissive laugh &quot;Oh yeah! I mean, who hasn&#039;t?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Well xenophobes for one...me..so?&quot;</div></li><li class="li1"><div class="de1">&gt;she sort of deflates as she realizes that answer wouldnt fly with you</div></li><li class="li1"><div class="de1">&gt;Bast sighs and shrugs</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah...I mean I&#039;ve been with a few girls..&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;a rough time I&#039;m guessing?&quot;</div></li><li class="li1"><div class="de1">&gt;Bast stared at you for a moment, then smiled and rubbed her eyes slowly</div></li><li class="li1"><div class="de1">&gt;&quot;Nah, I had tons of fun with my girlfriends growing up, but...this last time, shit...3 years ago?..has it been that long?&quot;</div></li><li class="li1"><div class="de1">&gt;You stay silent and watch her, her entire body language shifted in moments.</div></li><li class="li1"><div class="de1">&gt;&quot;Yeens are...known for being violent, aggressive, yeah? So it&#039;s not really a surprise when I say my last girlfriend was abusive huh?&quot; </div></li><li class="li1"><div class="de1">&gt;She giggles, stress and sadness in her voice as she covers her eyes from you</div></li><li class="li1"><div class="de1">&gt;&quot;She ran with...some gang...sold drugs, everything was alright at first...at first...Ya know i thought it was cool, exciting, like some rough movie&quot;</div></li><li class="li1"><div class="de1">&gt;You grimace at the thought of a Yeen drug dealer in real life, not that she could see it</div></li><li class="li1"><div class="de1">&gt;&quot;Then I wanted to help out, earn my own money...things got worse&quot;</div></li><li class="li1"><div class="de1">&gt;You can only imagine how</div></li><li class="li1"><div class="de1">&gt;&quot;Then one night a few of her banger friends decided they wanted a peice of me, I said no...tried to go to her for help...and she called me an embarrassing slut&quot;</div></li><li class="li1"><div class="de1">&gt;From the tone, you can conclude that wasn&#039;t all her &quot;girlfriend&quot; said...or maybe did.</div></li><li class="li1"><div class="de1">&gt;When Bast looked back at you, her hollow eyes took a moment before focusing on you again and she gasped, as if surprised you were still there</div></li><li class="li1"><div class="de1">&gt;She laughed hard and ran her fingers through her hair &quot;Oh fuck! Why am i telling you all this? Ha! I&#039;m so fucked..&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I guess I just have that kind of way with people&quot; you mumble before reaching over and gently squeezing her massive paw</div></li><li class="li1"><div class="de1">&gt;She jumps, then blushes under her fur</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you for telling me&quot; you smile</div></li><li class="li1"><div class="de1">&gt;Bast bites her lip and giggles a little, stress again before suddenly standing &quot;I&#039;ll be right back!&quot;</div></li><li class="li1"><div class="de1">&gt;That heyna really could move when she wanted to</div></li><li class="li1"><div class="de1">&gt;...yet she always dragged her feet on patrols and paperwork.</div></li><li class="li1"><div class="de1">&gt;You frown and check your phone</div></li><li class="li1"><div class="de1">&gt;Not the worst &#039;first&#039; date you&#039;ve ever been on, but this wasn&#039;t about her</div></li><li class="li1"><div class="de1">&gt;This was about you getting over Your fear of her</div></li><li class="li1"><div class="de1">&gt;Well humanizing...hyena-izing? Having Empathy would have to be a good first step</div></li><li class="li1"><div class="de1">&gt;Her fucked up relationships were why she wanted you so badly</div></li><li class="li1"><div class="de1">&gt;Someone...semi-stable and healthy</div></li><li class="li1"><div class="de1">&gt;She just couldnt show it.</div></li><li class="li1"><div class="de1">&gt;It wouldnt surprise you if you were the first person who actually didnt just slap her around and call it love.</div></li><li class="li1"><div class="de1">&gt;Bast came back to the table, eyes red and slightly swollen</div></li><li class="li1"><div class="de1">&gt;She didnt look at you too often</div></li><li class="li1"><div class="de1">&gt;&quot;So...worst date ever yea?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nah, awkward, sure, but worst? Not by a long shot, in fact just the other day, there was this crazy girl who tried to drug me and the police got involved, it was pretty crazy lemme tell ya&quot;</div></li><li class="li1"><div class="de1">&gt;Bast eyes widened, before your smile let her know you were joking</div></li><li class="li1"><div class="de1">&gt;She broke into genuine laughter and shook her head &quot;You just aren&#039;t familiar with mating rituals, full of drugs and stuff, softskin like you wouldn&#039;t survive a real Hyena mating&quot;</div></li><li class="li1"><div class="de1">&gt;You smirk and cross your arms, Bast flinches a little but relaxes quickly, smiling</div></li><li class="li1"><div class="de1">&gt;Maybe you really could be friends...or more.</div></li><li class="li1"><div class="de1">&gt;The rest of the night passed quickly before you had to head home, The glorious life of security</div></li><li class="li1"><div class="de1">&gt;It didnt help Bast lived so damn far</div></li><li class="li1"><div class="de1">&gt;Once at her place, you both freeze and fidget, Bast waiting for your approval, you, gathering what you wanted to say properly</div></li><li class="li1"><div class="de1">&gt;&quot;I...it was just one date, but I...would like to see you again&quot;</div></li><li class="li1"><div class="de1">&gt;Bast&#039;s fur stood on end as she took a sharp breath in</div></li><li class="li1"><div class="de1">&gt;&quot;However!...it&#039;s going to take some time to...build up trust, you get me?&quot;</div></li><li class="li1"><div class="de1">&gt;Bast deflates a little before taking another confident breath &quot;Yes&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Okay then...Ms. Bast&quot;</div></li><li class="li1"><div class="de1">&gt;She jumps a little, confused by the tone shift &quot;Y-yea?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...I look forward to seeing you soon&quot; and with that, you leaned over and kissed her cheek and squeezed her hands</div></li><li class="li1"><div class="de1">&gt;Bast froze, paralyzed in processing until she realized you were getting back in your car</div></li><li class="li1"><div class="de1">&gt;&quot;OH! Uh! RIGHT! B-bye Anon! See you at work!&quot;</div></li><li class="li1"><div class="de1">&gt;You smile to yourself at the effect you had on the Yeen, like a giddy schoolgirl, not some older, love-starved hyena with issues.</div></li><li class="li1"><div class="de1">&gt;She practically glowed as you watched her go back into her apartment</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Anon, the security guard
+&gt;particularly the only human guard besides your manager
+&gt;you weren&#039;t quite expecting to be surrounded by hyenas and jackals...but it makes a sad kind of sense
+&gt;they&#039;re nice and friendly enough, some were a bit cold at first but you&#039;re not into butting heads so they warmed up to you quickly
+&gt;&quot;I am just here to work, get a paycheck, ya know?&quot; It became a sort of mantra whenever the hyenas started gossiping or trying to get your negative opinion on the others
+&gt;petty work passive aggression 
+&gt;The older ladies just seemed fed up with it and preferred talking about their crazy nights at the club
+&gt;you end up liking your co-workers
+&gt;hell they were at least semi nice and understanding to you anyway
+&gt;better than your last job
+&gt;well...all except for one. Bast, another hyena who came in just before you 
+&gt;a bit stockier than the others she just seemed to have a chip on her shoulder for everybody.
+&gt;even you seemed to get off on a bad start when you worked together
+&gt;you literally couldn&#039;t fill out the reports, she couldn&#039;t, or didn&#039;t want to and thought you were just pushing them off on her
+&gt;you still apologized which you think she took as insincere but you thanking her for her patience really threw her off
+&gt;You decided to give her in particular a wide berth whenever working
+&gt;best not to give her rumor mill any fuel to fire
+&gt;Hyena women were damn hard to read though, was it a domination thing or like any other girl was she flirting? Impossible to tell
+&gt;Bast started coming over to your side of the desk whenever she could
+&gt;reaching over you to grab shit she needed, staring you down whenever she came in, leaning against your chair to look over you while waiting for you to leave the office.
+&gt;you couldn&#039;t help but notice the tear in her work pants, a rather sizable hole that even sometimes exposed not just her thick thighs but her panties
+&gt;naturally you wanted to tell her, but you couldn&#039;t be sure how she would take it
+&gt;can&#039;t be sure of anything really when hyenas were involved
+&gt;was that racist? Fuck.
+&gt;one day, handing out badges and reports, you fumble with a difficult customer
+&gt;He&#039;s lost his badge, mad he&#039;s late and mad at you for following protocol
+&gt;&quot;NONE of the other officers gave me this much trouble, just give me a badge and let me in! I work here damn it!&quot; Goddamn jaguar think they own everything. 
+&gt;both you and he jump as Bast snarls a warning
+&gt;&quot;he&#039;s doing the best he can sir, we have to fill out these reports, if you don&#039;t want to wait next time don&#039;t lose your badge! You can go sit down in the lobby we will call you when it&#039;s done&quot;
+&gt;The jaguar blustered before stalking away to the large lounge couches
+&gt;&quot;god, so sick of him whining&quot; okay, she was just being a polite bitch then
+&gt;&quot; you okay Anon? Can&#039;t let em get to You&quot; and back into weird flirting category you think.
+&gt;&quot;uhm..yeah, thanks Bast&quot; she insisted you use her first name. Didn&#039;t like her last name she said.
+&gt;&quot;Anon&quot; &quot;yeah?&quot; &quot;You wear cologne?&quot;
+&gt;not today &quot;sometimes yeah, why is it too strong, I can stop&quot; 
+&gt;&quot;no, no, it&#039;s fine, just wanted to know&quot;
+&gt;she&#039;s staring again you can feel her eyes on you while you try to finish stupid paperwork
+&gt;once again your mind wanders: what would a hyena romance be like? 
+&gt;you quickly remind your brain: Hyena = Crazy, and Workplace dating = No
+&gt;But what if?
+&gt;fortunately or not, you get a lot of downtime during you particular shifts
+&gt;Bast has slowly started becoming a regular coworker 
+&gt;she watches horror movies on her laptop in her side where the camera can&#039;t see her
+&gt;her laptop lock screen made you do a double take, Bast herself, open mouth and silly faced with people you guess are her friends at some club rave
+&gt;she had multiple neon tongue studs in
+&gt;obviously never had those in during work.
+&gt;one slow night, she&#039;s giggling at whatever horror or comedy she&#039;s put on
+&gt;she stretches out very slowly
+&gt;you swear you see a bulge...her panties are red today
+&gt;no bad Anon! You quickly look away as she glances over at you
+&gt;you couldn&#039;t be sure but it looked like she was smirking 
+&gt;like she wanted you to look, dared you to
+&gt;it was hard not to
+&gt;time to go on patrol...and walk off this stupidly hard boner 
+&gt;She almost sounded disappointed as you walked out of the booth
+&gt;probably just your imagination though
+&gt;as you come back from patrolling she gets up and hurries past you
+&gt;goddamn your lunch can wait you Hog.
+&gt;no, fuck that was mean to think...
+&gt;why does the office smell like some Chinese take out?
+&gt;come to think of it, was she smiling or panting as she left?
+&gt;shake it off anon, even Bast wouldn&#039;t be THAT crazy
+&gt;damn hyenas.
+&gt;damn job.
+&gt;still the pay is good.
+&gt;or would be if the work office didn&#039;t piss their twisted panties every time someone got even close to overtime
+
+&gt;Bast came back, breathing husky and deep
+&gt;&quot;you forgot your radio, I don&#039;t mind you taking a long lunch when nobodies here but at least take a radio dude&quot; you scold her
+&gt;she jumps a little and nods breathlessly, sitting in her chair
+&gt;curious, you look over &quot;damn, you okay? Looks like you ran all the way back
+&gt;Bast quickly clenched her thighs together and squirms &quot;Huh? Y..eah, yeah, sorry whatever, lost track of time
+&gt;you know she wasn&#039;t running. She wouldn&#039;t run to this job if her ass was on fire
+&gt;a bit of mental cringing mixed with a morbid curiosity boner
+&gt;did she have one of those...weird things? She was spotted
+&gt;not your problem, head down, work harder
+&gt;But occasionally you could feel her staring, see her biting her soft looking dark lips as she watched you
+&gt;you never thought you were anything remarkable but...part of you wondered if she thought about you during her long break in the bathroom
+&gt;the rest of the shift passed by uneventfully, until the end
+&gt;&quot;Hey Anon&quot; 
+&gt;&quot;what&#039;s up?&quot;
+&gt;&quot;You a big party guy?&quot;
+&gt;Last party you went to: Dinner party
+&gt;just say no &quot;Eh, I haven&#039;t been to a big party in a long time&quot; fuck
+&gt;her spade ears flick a little, disappointment? Or annoyance?
+&gt;&quot;well I can&#039;t wait to get out of here, there&#039;s a party going on nearby at Syrus street&quot;
+&gt;you lived nearby, wasn&#039;t Syrus just office buildings? Curiosity piqued &quot;Really? On Syrus?&quot;
+&gt;her look of casual talk broke for a moment, her excitement showing as she tried to play it off as a stretch
+&gt;&quot;yup! New place, pretty bloody&quot;
+&gt;you&#039;ve been around Hyenas long enough to know Bloody was slang for Fucking awesome...or something similar
+&gt;you nod &quot;neat&quot; hoping to end the conversation there
+&gt;&quot;s o what are you doing after this A-non?&quot; 
+&gt;damn her and that irritating way she said people&#039;s names
+&gt;&quot;um probably..&quot; &quot;And don&#039;t say sleep!&quot; Fuck.
+&gt;pause, cue card #2: &quot;probably get something to eat, drive around a bit..&quot;
+&gt;she smiles as if satisfied with your answer &quot;if you pass by come check it out&quot;
+&gt;You won&#039;t, but you were mildly curious enough to see how and office building became a club good enough for a hyena to call it &quot;bloody&quot;
+&gt;as you leave, she waves at you, you politely wave back
+&gt;your curiosity got the better of you, so you go to a nice sit down restaurant and mull over at least going to see it
+&gt;it&#039;s not like she would be waiting there for you, that&#039;d be stupid
+&gt;You manage to kill an hour before driving over
+&gt;Yup, just boring shitty offices...
+&gt;except for the GIGANTIC fuck off spotlights waving behind the building and cars lining the road
+&gt;pulling around back you see why
+&gt;anthros, neon and big signs
+&gt;Definitely not for you, but hey, it&#039;s cool it&#039;s there.
+&gt;as you attempt to maneuver around the parking lot, a thud on your window shocks you
+&gt;&quot;Anon!&quot; Oh fuck why
+&gt;OH FUCK WHAT?
+&gt;you turn and see Bast, glowing mouth and hair completely different from how she wore it and in...a leather looking skirt? 
+&gt;her huge teeth glowing drew your attention way too much to focus on anything else
+&gt;you roll down your window &quot;uh, hey Bast, what&#039;s shaking?&quot;
+&gt;she snorted but smiled again &quot;you came! You coming in? Find a place to park, I&#039;ll be by the door!&quot;
+No wait stop.
+&gt;and she&#039;s gone.
+&gt;You get a shitty parking spot and shuffle your way to the door like a zombie.
+&gt;this was going to be so much fun...
+&gt;sarcasm.
+&gt;Bast stood with a few other hyenas and a goat, laughing
+&gt;you could see why her mouth was glowing before, those neon studs in her massive maw from the picture in her tongue
+&gt;&quot;Heya&quot; you wave yourself over
+&gt;Bast grabbed you and pulled you close
+&gt;&quot;Guys! This is Anon, my coworker!&quot;
+&gt;Introductions were made, cooing and flirting comments of &quot;he&#039;s so cute!&quot;
+&gt;You feel rather awkward being the only human outside
+&gt;&quot;lets go inside?&quot; The faster it got awkward, you sooner you could leave
+&gt;so you figured
+&gt;The big bull clad in leather stops you at the door
+&gt;&quot;ID?&quot; Fuck you&#039;re tall
+&gt;Bast snorts &quot;he&#039;s with me&quot;
+&gt;the bull shakes his massive head &quot;All these smoothskins look alike to me, ID&quot; fuck you tall prick
+&gt;you normally would use this excuse to duck out but you happen to take species racism seriously
+&gt;&quot;it&#039;s fine, I&#039;m not half your height or anything, you probably couldn&#039;t handle me&quot; as you hold up your ID 
+&gt;the bull growls and takes a prolonged time looking at you before shoving it back in your chest
+&gt;&quot;don&#039;t cause trouble&quot; fuck you too horse dick length motherfucker
+&gt;Bast waited impatiently, pulling you along as you got past the door.
+&gt;&quot;fuckin dick sucking moose&quot; &quot;tell me how you really feel Bast&quot;
+&gt;&quot;sorry, racist assholes just make me want to throw down and rearrange some faces&quot; 
+&gt;the club was even bigger on the inside...and you were the only human in sight
+Fuck
+&gt;with Bast pulling your arm, there really wasn&#039;t an escape possible, just a mash of fur, fluff and scales occasionally 
+&gt;A grind pit out on the dance floor wasn&#039;t exactly your idea of a good time
+&gt;But that&#039;s exactly what you got
+&gt;after what felt like forever you were on the other side near the bar
+&gt;fuck, you need a drink and a shower after that!
+&gt;Bast does the drink ordering, probably for the best considering the warm reception at the front door
+&gt;she comes back with water and some shots
+&gt;you are distinctly aware of her pressed against you as her hot, wet breath passes over you neck
+&gt;her tongue was practically in your ear!
+&gt;what she said reached your ears 10 seconds later: &quot;drink up, have fun!&quot;
+&gt;you didn&#039;t realize what you downed wasn&#039;t just water until much later
+&gt;music, lights, people
+&gt;everything ran together
+&gt;the club turned into a drool inducing haze of lights and sounds and feelings
+&gt;the bass thumping making your hair and brain tingle
+&gt;the lights became pure mesmerising color
+&gt;even your own skin felt good as you rubbed along yourself...at least you thought it was you
+&gt;have you always had fur? Or so many hands to touch yourself with?
+&gt;your heartbeat pounding in time with the music caught your attention until you had to breathe and stumble out into a hallway
+&gt;Bast or another hyena who looked like her curled her arms around your waist and pressed herself against you
+&gt;&quot;having fun yet Anon?&quot;
+&gt;your body shivered as ice rolled down your chest, no wait that was your sweat
+&gt;Bast and her growling giggling voice became the new music in your ears, her tongue slowly dragging over your shoulders and up your neck
+What did she say?
+&gt;suddenly a force pulled you away, you were distinctly aware of your shoes hitting pavement, then cold air, then soft leather
+Or was that her pulling you outside?
+&gt;in a blink, you were on your back, naked and coated in dried fun juice
+&gt;someone&#039;s cum and not yours
+Focus.
+&gt;you were in an apartment, not yours definitely
+&gt;how the fuck did we get here?
+&gt;A few things were immediately clear
+&gt;your head throbbed, your mouth was full of dry and someone had a death grip on your precious
+&gt;as she pulled you closer and then onto her, you realized Bast had taken you home as a prize and was now clutching your handle like it was made of gold
+&gt;you needed water, and more time to think and piss.
+&gt;Bast growled and gave a gentle squeeze as you pulled away
+&gt;you logically deduced the living room and kitchen were not the bathroom as you stumbled blindly through them
+&gt;once reaching your destination you consulted the toilet
+&gt;after an orgasmic piss, you turned to the mirror
+&gt;and winced at your own reflection 
+&gt;claw marks, bruises, just a few hickeys and bites
+&gt;your body was slowly losing its numbness as if realizing you were awake now
+&gt;fuck it hurt being alive
+&gt;as you stood in front of the mirror admiring your new battle scars from the night
+&gt;&quot;You left the bed cold baby...&quot; 
+&gt;the skittish noise you made was particularly humanly
+&gt;Bast giggled and slid over to you, moving to slide her arms around your hips, softly licking your wounds with her thick tongue
+&gt;you could tell her studs were still in from how they pressed into you
+&gt;&quot; Even if you had whiskey dick, you still TASTE even more delicious than I dreamt of&quot; 
+&gt;somehow that didn&#039;t make you feel any better
+&gt;you try to push her back, really only pushing yourself into the sink behind you
+&gt;&quot;wait, fuck i...when do we get here? What did you do to me?!&quot;
+&gt;Bast leaned forward and gave a deep predatory growl/hyena giggle before snapping her jaws next to your ear
+&gt;&quot;relax sweetie, just a little something to take your edge off, don&#039;t tell me you&#039;ve never had Hyena Drool before?&quot;
+&gt;&quot;Hyena What?!&quot; 
+&gt;Bast laughed so hard her breasts shook
+&gt;&quot;oh MAN! You really ARE a stiff white human boy. It&#039;s a mixed drink...with a bit of something extra mixed in&quot;
+&gt;&quot; You ROOFIED ME?!&quot;
+&gt;&quot;psh! You were so uptight, I just wanted to relax you a little...and you relaxed baby...&quot; You tried to push her away as she slid herself against you as her hot body slid against yours
+&gt;&quot; Your dick relaxed too...but you seemed pretty into it when I used your body to get off...wanta do it again while you&#039;re all awake?&quot; 
+&gt;she tugged on your earlobe with her front teeth, sucking gently
+&gt;&quot; get off me Bast! I&#039;m not into hyenas like that! And you&#039;re my coworker! We can get fired!&quot;
+&gt;she snapped her jaws by your ears again, this time tugging you hair with her jaws and clenching your throat with her massive paw
+&gt;&quot;geez Anon, you might kill what&#039;s left of my buzz if you keep this up...and is work really what you want to be thinking about right now?&quot;
+&gt;you struggled to see past her huge head and fist but as she grinds into you, you feel a thick, gently throbbing shaft sliding up your thighs
+
+&gt;&quot;i could do things to you that you&#039;ve only seen in pornos Anon&quot;
+&gt;the terror aroused you, the reek of alcohol on her breath shot you back down
+&gt;&quot;still got performance issues? Don&#039;t worry, I can fix that...&quot;
+&gt;and she slid down your body, kissing and lapping her way down, claws sliding after
+&gt;more angry red lines appearing on your chest
+&gt;come on Anon, think fast
+&gt;you can&#039;t overpower her...gotta outwit her
+&gt;the hungry lip smacking she did as she opened her huge mouth REALLY didnt help!
+&gt;But when she engulfed your whole crotch, it was like another drug hit
+&gt;if it wasn&#039;t for her holding you up, you would have folded like a stack of cards 
+&gt;her tongue swirling and squeezing your bits just right with a hard suction
+&gt;her studs seemed to hit every nerve in your dick, especially as she swirled them around your head
+&gt;she pulled away with a loud slurp, thick chains of drool connecting her mouth and your dick 
+&gt;&quot;GOD! Stop being so tasty you prick..&quot; she moaned, nipping your thighs before swallowing loudly
+&gt;as she moved to suck you back down, you acted
+&gt;probably not the best idea ever though
+&gt;you slam a drawer in her head
+&gt;she&#039;s stunned but not completely down
+&gt;A moment&#039;s distraction was enough to bolt from the bathroom
+&gt;you lock as many doors behind you as you could, grabbing your phone
+&gt;she was, understandably, pissed.
+&gt;you could barely hear the operator as she yelled and screamed the worst shit at you
+&gt;you swore the door would come off any moment
+
+&gt;the police arrived moments later, with replacement pants and shirt for you to sit in
+&gt;they were more rough with her than you would like, but she understood why you called the police
+&gt;she cried. Big ugly tears too.
+&gt;both of the officers seemed tired from just seeing it
+&gt;&quot;Listen man, do you want to press charges? We get hyena calls all the time and lemme tell you, if that&#039;s all she did, she must really like you to be so gentle&quot;
+&gt;Gentle?! She was being gentle?!
+&gt;but...hyenas, you reminded yourself 
+&gt;you groaned and scratched your head &quot;no, I don&#039;t want to press charges, I just want a new short and pants..&quot;
+&gt;the officers nodded and returned to Bast who sniffled a few feet away from the squad car
+&gt;they both had to stop her from rushing over to you when they told her that you wouldn&#039;t press charges
+&gt;the cops drive you home and send a tow to pick up your car from the club
+&gt;they recommend therapy or switching jobs
+&gt;it wasn&#039;t that bad, but you definitely feel violated
+&gt;it&#039;ll just take some time to get over the shock 
+&gt;over the next few weeks you&#039;re surprised again as Bast herself requests a shift change any time you two would even remotely work together
+&gt;occasionally you passed each other while swapping shifts
+&gt;she always avoided looking your way and said nothing
+&gt;the ugly scowl on her face seemed plastered on
+&gt;you learn from a few other officers she&#039;s acting completely different 
+&gt;less talkative but quicker to snap to aggression 
+&gt;they know of course, why wouldn&#039;t they know
+&gt;damn office rumor mill
+&gt;finally on a night shift, you two get forced together after another officer calls out sick
+Fuck
+&gt;the first few hours pass in relative silence
+&gt;it&#039;s pretty fucking awful
+&gt;the rhythmic scratching sound? That&#039;s her, dragging her big ass claws under the desk
+&gt;the small piles of woodshavings made it more obvious 
+&gt;and her scowl was almost a snarl now, frozen on her face
+&gt;fuck this was so fucking painful 
+&gt;&quot;Bast..&quot; she jumps at her name, growling and giggling with a warning grin
+&gt;fuck, well now you know the difference!
+&gt;she quickly looks away but stays turned towards you
+&gt;&quot;why didn&#039;t you do it?&quot; She stifles her manic laughing by clenching her jaw with her fist
+&gt;&quot;do...what?&quot;
+&gt;&quot; why didn&#039;t you press charges, or get mad, or tell or..oor&quot; she breaks down into a laughing giggling sob
+&gt;if she was a human, you&#039;d swear she was a fucking insane serial killer
+&gt;But you could read past that, she was hurting
+&gt;&quot;i could take the abuse...the drawer..but then you ran and I got confused and...god Why?! Why didn&#039;t you just get angry or smack me around?! Throw more drawers and shit at me! But not this! Goddamn it!&quot;
+&gt;she punched her face, clawing her ears, you got up to stop her but she froze as you moved
+&gt;she still sobbed, pulling her fur
+&gt;Human, not sure how to react
+&gt;Hyena, completely destroyed 
+A shitshow all around
+&gt;&quot;I understand if you hate me Anon, I know it&#039;s normal..just please say so, I can&#039;t tell otherwise
+&gt;your turn, deep breaths 
+&gt;&quot;I don&#039;t hate you Bast, I hate what you did, got it? I&#039;m not the type to go slapping around women who make me mad&quot;
+&gt;she lets out a shuddering sigh and wipes her massive nose
+&gt;&quot;i did some research, you really were being gentle compared to some of these girls. Domestic abuse, rape, attempted murder you just drugged me pretty much..&quot;
+&gt;she growls &quot;But I did rape you..&quot;
+&gt;you scratch your head and groan &quot;Yeah technically, sexual assault...but no penetration so I&#039;m the one who gets to decide whether or not you raped me and I don&#039;t see it like that&quot;
+&gt;she shook her head slowly and chuckled &quot;that&#039;s why I wanted you Anon...you were so different, understanding and calm&quot;
+&gt;You cough and shirt, it was still weird in human terms she would be a monster, but in hyena terms she just wanted to show affection the only way she knew how
+&gt;violence and force
+&gt;fucked up but that&#039;s what you get with other species
+&gt;you rub your head and face
+&gt;you could definitely use a drink and some Advil or something 
+&gt;&quot;listen, let&#039;s just finish this shift and talk afterwards, we&#039;re going to be here awhile
+&gt;Bast nods slowly, blowing her nose 
+&gt;at least she stopped hitting herself.
+
+&gt;the shift passed, mess cleaned up, officers swapped
+&gt;Bast only got more and more antsy as time passed, finally meeting you outside
+&gt;&quot;..so&quot; she whined.
+&gt;you groan at the awkward nature. You hate awkward
+&gt;&quot;I&#039;m not forgiving you, not yet anyway, I need...time, to process and heal&quot;
+&gt;Bast visibly slumped and her fists clenched at her side&#039;s &quot;right..&quot;
+&gt;&quot;But...maybe, after I&#039;ve...recovered, we can talk about going on an actual date, like humans would&quot; you&#039;re not sure if you would even be into her, but she deserved a second chance
+&gt;Your schedule goes back to normal with Bast
+&gt;Your gossipy co-workers finally go quiet about complaining about the changes you two made
+&gt;Bast keeps her distance at first, still trying to be respectful
+&gt;But you can still catch her glances, now unhidden longing behind them before she looks away
+&gt;She returns to her regular snarky self, doing her best to keep her mind off you 
+&gt;You do your best to relax again, though you probably wont ever drink anything she offers again without asking what it is first
+
+&gt;Eventually you work up enough courage to stop her after work
+&gt;&quot;Hey BAST&quot; she turns as you jog over to her after another long dull night shift together
+&gt;&quot;Oh, Anon, uh, did i forget something?&quot;
+&gt;&quot;You forgot this&quot; You hand her a folded notesheet
+&gt;&quot;Uhm, what? I didn&#039;t...HEY WHERE YOU GOIN?!&quot; she growled as you ran off
+&gt;You dont think you could handle her reaction up close
+&gt;She opened the note, because who wouldnt? &quot;Thursday night, we&#039;re both off, 6pm for dinner?&quot;
+&gt;At the bottom you scrawled your number &quot;Text for Yes&quot;
+&gt; As you drove away, your phone buzzed loudly &quot;YESYESYESYES&quot;
+&gt;And about a billion yes&#039;es
+&gt;Well there was the plan.
+&gt;You remembered where her apartment was from the day the cops came to pick you up
+&gt;You felt bad for the pretty big fine she got from the cops coming out, if nothing really came from the date, at least you could pay her back a small bit for the money lost
+&gt;Not that you should feel bad for the girl who almost raped you...or anything.
+&gt;The Pre-date jitters hit you hard as you got ready
+&gt;Not that you weren&#039;t absolutely sure you looked great
+&gt;You had a bit of pride and vanity for yourself to know how to dress nice
+&gt;But it was Bast who was the unknown card in everything
+&gt;Would she try anything again?
+&gt;Did you want her to?
+&gt;You weren&#039;t as stiff as Bast thought when it came to &#039;Having Fun&#039; but your idea of fun and her idea of fun well...
+&gt;Lets just say they might mix too well, like a burning Christmas tree
+&gt;The fucked tree, in this case, would be your relationship and potentially, your ass.
+&gt;You werent sure even where to take this next beyond this stupid dinner date!
+&gt;But you weren&#039;t some victim, and she showed honest desire for you
+&gt;Maybe it was just the confused lust talking but maybe you two had a shot together?
+&gt;As you drove to pick her up you managed to calm yourself slowly
+&gt;Bast herself was hard to miss
+&gt;And you had to admit she was stunning
+&gt;Everything from her hairstyle to her dress was different
+&gt;But from the faint light behind her teeth as she smiled...those studs were back again
+&gt;You pull up, getting out to greet her
+&gt;Honestly you werent quite sure how to...but she solved that problem by crushing you into a bear hug
+&gt;She gave your cheek a quick kiss as she let you down
+&gt;&quot;Anon, no matter what happens tonight, i just wanted to say...thanks for trying...not many humans would&quot;
+&gt;You blush automatically, stupid cheeks!
+&gt;&quot;Ah, yeah Bast, i mean, like we talked about you tried..so uhm, how do you want to do this?&quot;
+Wait.
+&gt;She was already climbing in your car, giggling softly &quot;Come on Anon! we&#039;re gonna be late!&quot;
+&gt;WELL Fuck. Scratch the idea she might want to leave without you
+&gt;You drive away with her 
+&gt;She strokes your arm where a thick scratch she made was
+&gt;She doesn&#039;t say anything but you can tell she feels horrible. Or scars get her hot.
+&gt;Knowing her now, probably bit of both.
+
+&gt;The ride was quiet, uneventful
+&gt;Terribly awkward in other words
+&gt;It took a long while before Bast actually managed to look at you with something other than guilt.
+&gt;The diner was nice, Bast insisted you not take her anywhere fancy
+&gt;and luckily so.
+&gt;Bast and her idea of dinner conversation wasn&#039;t exactly high class but she was charming in a roguish way
+&gt;&quot;..and this one time, one of my girlfriends tried it out with another hyena, a male, and the stupid fuck ate so much beforehand she could barely get to his dick! Ha ha! So much for being well hung!&#039;
+&gt;&quot;so...you&#039;ve never been with a male Yeen?&quot;
+&gt;&quot; What? Oh, no I have, kinda, they act all big and tough cause they&#039;re yeens but any show of force in the bedroom and they completely shut down, turn into submitting little bitches&quot; she snorted, shaking her head, earrings jingling from her spadelike ears
+&gt;You pause, hearing another side to that story from her tone.
+&gt;&quot;Have you been with any Females then?&quot;
+&gt;Bast paused and swallowed what was in her mouth this time
+&gt;definitely something different as she let out a dismissive laugh &quot;Oh yeah! I mean, who hasn&#039;t?&quot;
+&gt;&quot;Well xenophobes for one...me..so?&quot;
+&gt;she sort of deflates as she realizes that answer wouldnt fly with you
+&gt;Bast sighs and shrugs
+&gt;&quot;Yeah...I mean I&#039;ve been with a few girls..&quot;
+&gt;&quot;a rough time I&#039;m guessing?&quot;
+&gt;Bast stared at you for a moment, then smiled and rubbed her eyes slowly
+&gt;&quot;Nah, I had tons of fun with my girlfriends growing up, but...this last time, shit...3 years ago?..has it been that long?&quot;
+&gt;You stay silent and watch her, her entire body language shifted in moments.
+&gt;&quot;Yeens are...known for being violent, aggressive, yeah? So it&#039;s not really a surprise when I say my last girlfriend was abusive huh?&quot; 
+&gt;She giggles, stress and sadness in her voice as she covers her eyes from you
+&gt;&quot;She ran with...some gang...sold drugs, everything was alright at first...at first...Ya know i thought it was cool, exciting, like some rough movie&quot;
+&gt;You grimace at the thought of a Yeen drug dealer in real life, not that she could see it
+&gt;&quot;Then I wanted to help out, earn my own money...things got worse&quot;
+&gt;You can only imagine how
+&gt;&quot;Then one night a few of her banger friends decided they wanted a peice of me, I said no...tried to go to her for help...and she called me an embarrassing slut&quot;
+&gt;From the tone, you can conclude that wasn&#039;t all her &quot;girlfriend&quot; said...or maybe did.
+&gt;When Bast looked back at you, her hollow eyes took a moment before focusing on you again and she gasped, as if surprised you were still there
+&gt;She laughed hard and ran her fingers through her hair &quot;Oh fuck! Why am i telling you all this? Ha! I&#039;m so fucked..&quot;
+&gt;&quot;I guess I just have that kind of way with people&quot; you mumble before reaching over and gently squeezing her massive paw
+&gt;She jumps, then blushes under her fur
+&gt;&quot;Thank you for telling me&quot; you smile
+&gt;Bast bites her lip and giggles a little, stress again before suddenly standing &quot;I&#039;ll be right back!&quot;
+&gt;That heyna really could move when she wanted to
+&gt;...yet she always dragged her feet on patrols and paperwork.
+&gt;You frown and check your phone
+&gt;Not the worst &#039;first&#039; date you&#039;ve ever been on, but this wasn&#039;t about her
+&gt;This was about you getting over Your fear of her
+&gt;Well humanizing...hyena-izing? Having Empathy would have to be a good first step
+&gt;Her fucked up relationships were why she wanted you so badly
+&gt;Someone...semi-stable and healthy
+&gt;She just couldnt show it.
+&gt;It wouldnt surprise you if you were the first person who actually didnt just slap her around and call it love.
+&gt;Bast came back to the table, eyes red and slightly swollen
+&gt;She didnt look at you too often
+&gt;&quot;So...worst date ever yea?&quot;
+&gt;&quot;Nah, awkward, sure, but worst? Not by a long shot, in fact just the other day, there was this crazy girl who tried to drug me and the police got involved, it was pretty crazy lemme tell ya&quot;
+&gt;Bast eyes widened, before your smile let her know you were joking
+&gt;She broke into genuine laughter and shook her head &quot;You just aren&#039;t familiar with mating rituals, full of drugs and stuff, softskin like you wouldn&#039;t survive a real Hyena mating&quot;
+&gt;You smirk and cross your arms, Bast flinches a little but relaxes quickly, smiling
+&gt;Maybe you really could be friends...or more.
+&gt;The rest of the night passed quickly before you had to head home, The glorious life of security
+&gt;It didnt help Bast lived so damn far
+&gt;Once at her place, you both freeze and fidget, Bast waiting for your approval, you, gathering what you wanted to say properly
+&gt;&quot;I...it was just one date, but I...would like to see you again&quot;
+&gt;Bast&#039;s fur stood on end as she took a sharp breath in
+&gt;&quot;However!...it&#039;s going to take some time to...build up trust, you get me?&quot;
+&gt;Bast deflates a little before taking another confident breath &quot;Yes&quot;
+&gt;&quot;Okay then...Ms. Bast&quot;
+&gt;She jumps a little, confused by the tone shift &quot;Y-yea?&quot;
+&gt;&quot;...I look forward to seeing you soon&quot; and with that, you leaned over and kissed her cheek and squeezed her hands
+&gt;Bast froze, paralyzed in processing until she realized you were getting back in your car
+&gt;&quot;OH! Uh! RIGHT! B-bye Anon! See you at work!&quot;
+&gt;You smile to yourself at the effect you had on the Yeen, like a giddy schoolgirl, not some older, love-starved hyena with issues.
+&gt;She practically glowed as you watched her go back into her apartment</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/683W8Bet">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    5 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    32 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    60 min ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Qea9Uraw">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

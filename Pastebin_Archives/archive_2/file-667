@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Arrested - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Arrested - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/aJJdZgpZ" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/aJJdZgpZ" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="yNuRhQUnOndF35avx_1hduYZWs7RNEk3BZIO2e0D_UOZuMDqakpJGnCa-Pf1kgknsksYguB7IV9B0EGtlHq_Jg==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/aJJdZgpZ" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/aJJdZgpZ" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="sub_anon">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Arrested</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/sub_anon">sub_anon</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=sub_anon" class="message" title="Send a private message to: sub_anon"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 30th of December 2019 02:34:27 PM CDT">Dec 30th, 2019</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    2,135                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 39.34 KB            </div>
+
+            <div class="right">
+                <a href="/raw/aJJdZgpZ" class="btn -small">raw</a>
+                <a href="/dl/aJJdZgpZ" class="btn -small">download</a>
+                <a href="/clone/aJJdZgpZ" class="btn -small h_800">clone</a>
+                <a href="/embed/aJJdZgpZ" class="btn -small h_800">embed</a>
+                <a href="/report/aJJdZgpZ" class="btn -small">report</a>
+                <a href="/print/aJJdZgpZ" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">The scotch burned Anon&#039;s throat ever so slightly as it went down, making him cough a little before he regained his composure. His carelessness in downing it indicated to him that it was time for him to stop before he coughed up his next drink in front of the many bar patrons. That wouldn&#039;t exactly be the impression he wanted to make on the locals, after all.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He noticed the bartender - a young cat woman that looked like she was tired of everything - giving him an annoyed look. He fired a reassuring smile back in her direction, as if to say &quot;yeah, I&#039;m all right.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Turning away from her, he surveyed the rest of the bar for the fifth time that night. The patrons were still mostly guys, and those that weren&#039;t male still looked like they could tear him limb from limb. He supposed he shouldn&#039;t have expected to see a nice looking bunny or fox girl here, but he felt it would have been a waste not to try.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Like most tourists that came through this predominantly anthro town, he had been looking for a fling or something more with a cute furry woman, preferably one that wouldn&#039;t break any of his bones in the process.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Suddenly, a tap on his shoulder broke him out of his musing. He quickly turned around in his seat to see a tall, athletic looking wolf girl sitting down in the seat beside him. Her well groomed, fluffy looking fur was a dark silver, and yet wasn&#039;t thick enough to hide her well definer musculature. She was dressed in a plain white tanktop that made no effort to hide her chest, as well as a pair of tight jeans. As his eyes wandered upward to her dark green eyes, Anon noticed a large scar running across her left cheek.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Guy like you shouldn&#039;t be all alone in a place like this.&quot; She growled in a sultry tone. &quot;Might run into someone dangerous.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;ve heard this place isn&#039;t too dangerous, actually.&quot; Anon replied, managing to keep his composure despite the intimidating aura the woman gave off. She was definitely one of the types that could pick him up with little to no trouble if she felt like it, a fact that was made frightening by the knowledge that she was probably operating on some amount of alcohol.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Of course that&#039;s what you heard.&quot; She snarked. &quot;Believe me, this place is as dangerous as any other big city. Lot less so though if you&#039;ve got someone like me to keep all the scary things away.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What are you saying, exactly?&quot; Anon asked with trepidation. He was fairly sure he knew what she was getting at, but wanted to hear her say it anyway.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The canine responded with a sly looking grin, showing off her sharp teeth. &quot;I&#039;m suggesting you spend some time with me tonight. I promise I&#039;ll show you a good time, cute stuff.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The offer was tempting, but she wasn&#039;t exactly Anon&#039;s type. Not that he didn&#039;t appreciate a fit girl, he just didn&#039;t want to be afraid of his partner, and he was definitely scared of this woman.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sorry to dissapoint.&quot; told her. &quot;But I&#039;m not looking for that tonight.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That was a lie, of course, but he felt it was the gentlest way to reject her advances.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The woman let out a long annoyed sigh before replying. &quot;Look, maybe I didn&#039;t make myself clear.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With that, she quickly and roughly leaned closer to him, her maw next to his ear and one of her hands clutching his shirt to prevent him from wiggling away.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I meant that I wanna fuck you. In case there was some kind of confusion.&quot; She whispered harshly. &quot;As hard and rough as you can handle.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With that, she released him, leaning back and smiling as she awaited his response.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I know what you meant.&quot; He managed to say, still recovering from being grabbed so suddenly. &quot;I&#039;m just not interested.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The canine huffed loudly, sounding indignant at his reply. &quot;Guess there&#039;s no accounting for bad taste.&quot; She gumbled as she got up from her seat. &quot;I&#039;ll probably be around here again tomorrow night if you change your mind.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Before anon could think of an appropriate reply, the woman had seemingly vanished into the crowd. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Asking the bartender for another drink to shake off the odd encounter, Anon resolved to not let it disturb his otherwise pleasent evening.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The rest of the night was a bit of a blur, but he was sure that nothing particurally interesting had happened by the time he regained all his senses. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Though still drunk to some extent, he was aware enough to realize that the bar was closing soon and head out before he got into any trouble.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Now the only trouble might be getting back to his hotel, but he was 99% sure that he remembered the way back. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-------------------------------------------------------------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was well past midnight when Anon finally accepted that he might be lost. The once crowded city streets all looked the same to him at this point, and the few drinks he had had probably weren&#039;t helping much.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He knew he should have just taken the cab, but that raccoon had seemed too shady and the alcohol had made him overconfident in his navigation skills. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Still, he mused, the city wasn&#039;t too dangerous at night judging by what he had read about it. Even so, the dark streets and shadowy alleyways put him a little on edge. The idea of being mugged was unpleasant enough without the potential muggers having claws and teeth that could bite through bones. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He seemed to be in luck though, as the the city seemed entirely empty at night except for a few cars here and there. He was just considering knocking on the door of a building that still had it&#039;s lights on when he noticed the blue and red lights of a police car approaching from behind him. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Turning to look at the car, he saw the driver motioning for him to come closer as they brought the car to a stop. The request made his already jumpy nerves flare up as he wondered whether the officer was there to arrest him or merely help him find his hotel.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> Taking a deep breath, he did as the driver asked and approched the now stopped car. As he did, the driver opened the door, revealing herself to be a very tall doberman-looking woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> She was definitely the type that drew a large portion of curious tourists to the city. Her wide hips and generous curves were accentuated by her tight uniform, while her ample bust filled out her top quite well. Anon noted with some disbelief that her short little tail was actually sticking out of the back of her pants, and did his best so supress a snicker at the sight as she closed the door of the car.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Well now. What&#039;s a guy like you doing out all by his lonesome at this hour?&quot; the officer asked in a sultry tone, tinged with a slight southern accent that Anon couldn&#039;t fathom how she would have picked up. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;I just got a little turned around on my way back to my hotel, that&#039;s all.&quot; He replied after making sure his jaw wasn&#039;t hanging open. &quot;I don&#039;t suppose you&#039;d mind helping me out since you&#039;re here anyway?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> The officer shook her head slowly, a slight smirk on her canine features as she clicked her tongue. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Only place I&#039;m taking you is the station, humie. You&#039;re out past curfew, y&#039;know?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> Anon couldn&#039;t recall reading about the city having a curfew, but it certainly would explain why the streets were so empty. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;B-but there&#039;s still cars out!&quot; Anon stammered quickly. &quot;And I didn&#039;t know there was a curfew.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Ignorance of the law ain&#039;t an excuse, darlin&#039;.&quot; The officer replied smugly. &quot;Now I&#039;m gonna need to see some ID before I bring you in.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> Anon sighed quietly as he wordlessly handed his driver&#039;s license over to the Officer, who hummed pleasantly to herself as she looked it over.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Nice to meetcha, Anon.&quot; She said with a chuckle as she handed him his license back. &quot;I&#039;m officer Belle, and I&#039;d be very pleased if you&#039;d get in the car. I&#039;ll even let ya ride in front if you&#039;d like.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Look...it&#039;s really late, and I bet we&#039;re both pretty tired. Don&#039;t you think you could let me off the hook this once?&quot; Anon pleaded. He really didn&#039;t want his vacation marred by a run in with the law, no matter how...appealing the law might be.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> &quot;Sorry hun.&quot; Belle replied, her tone still friendly and warm and yet seeming quite serious at the same time. &quot;Chief&#039;d be real pissed at me if I let ya off the hook. Don&#039;t worry your cute little head about this though, you won&#039;t be in much trouble unless you make the chief angry at ya somehow.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;All right.&quot; Anon groaned. &quot;Guess I don&#039;t have much choice.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Now there&#039;s a good boy.&quot; Belle crooned, placing one of her paw-like hands on his shoulder and gently but firmly guiding him into the passenger seat of the car. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon spent the drive in silence, pondering the officer&#039;s odd behavior and wondering if he was actually in any sort of real trouble. After all, Belle didn&#039;t seem to be treating this case very seriously. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Almost before he knew it, the car was parked out in front of the city&#039;s large police station. Belle roused him from his worried musings with a gentle nudge before getting out of the car. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The first thing anon thought upon entering the station was that it seemed awfully quiet. Even at this late hour he had expected there to be quite a few people manning the place, and yet the building seemed almost empty as he followed Belle through the entrance. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Welp, &#039;bout time for you to see the chief.&quot; Belle told him, ignoring the odd glances from the few other people they passed in the hall as she lead him through the station. &quot;Just don&#039;t go pissing her off and you&#039;ll be out of here in no time, all right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Does she have a temper?&quot; Anon asked, thinking the warning a bit curious. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;She&#039;s just had a real crappy day is all.&quot; Belle replied pleasantly. &quot;Pro&#039;lly lookin for an excuse to take it out on someone. I wouldn&#039;t worry about too much though.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After a brief pause she smiled warmly and added: &quot;You&#039;re cute, so that alone oughta put her in a better mood. Just don&#039;t go mouthing off or anything.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The compliment was nice, but still felt odd coming from someone who was supposed to be professional. Nevertheless, Anon took it in stride and assured her he&#039;d watch his mouth as he followed her to the doors of the chief&#039;s office. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Oddly enough, the door had no identifying name on it. Simply a metal plaque with &quot;Chief&quot; on it on bold lettering. Anon briefly considered asking Belle about the oddity, but was given no time before she opened the door with a perky sounding: &quot;Howdy, chief!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon had to retrain himself from letting out a groan as the painfully familiar woman from the bar earlier that night came into view, spinning around in her chair to face the door. Her initially grouchy looking face quickly turned to a wolfish grin, one very clearly directed toward anon.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle seemed to catch on to this as well, and cast an odd look toward anon. It took her a few moments of confusion before she perked back up, seemingly realizing something. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, is this that guy you told me about, chief?&quot; She asked. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Damn right it is.&quot; The chief growled, her eyes not leaving Anon for a moment. She then slowly stood up from her seat, her muscular figure well accentuated by her tight uniform as she approached Anon. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Cuff him.&quot; She suddenly ordered, briefly moving her eyes from anon to Belle as she gave the command. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At that moment, Anon felt Belle roughly force his wrists together with surprising speed. Naturally he attempted to wrench his hands free of her grip, but was quickly met by the feeling of her muzzle clamping down around his neck, wordlessly threatening to bite down if he kept it up. The threat of her sharp canines sinking into his exposed neck was enough to get him to stop struggling, allowing her to slip the cuffs on with ease as the chief watched with a smirk.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;And here I thought I was just bringing him in so you could ogle him a bit, or get his number if you were lucky. Didn&#039;t think it&#039;d be the same guy that got you in such a grouchy mood, chief.&quot; Belle said cheerily as she pocketed the key to the cuffs. &quot;So, which cell&#039;s he spendin&#039; the night in?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon was about to try to explain that they could hardly throw him in a cell for turning down someone&#039;s advances, but the Chief&#039;s slowly widening grin gave him pause.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Who says he&#039;s gotta spend a night in the cell?&quot; The Chief gave Belle a look that made Anon shudder. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What&#039;re you lookin&#039; at me for, chief?&quot; Belle had a quizzical expression, apprently not getting whatever the chief was hinting at. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t you remember that little conversation we had a week ago?&quot; The Chief rolled her eyes in annoyance. &quot;The night we all decided that you shouldn&#039;t drink ever again?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A flash of realization appeared in Belle&#039;s eyes, followed by a slightly embarrassed look. &quot;Oh, THAT time! But Chief, what does that gotta do with anything?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At this the chief gave an exasperated groan. &quot;Look, Belle, I want this guy punished. Not in the usual way, mind you, since I&#039;ll admit I might just be every so slightly petty. I could do it myself, but I&#039;d probably just leave him with bruised hips and zero sense of being actually punished.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon was throughly confused by this point. Belle seemed musch nicer than the Chief, at least from what he knew of her. this talk of &quot;punishment&quot; was also sounding less and less professional by the moment. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle still looked like she didn&#039;t quite understand what the Chief was getting at, a fact with clearly annoyed the large wolf. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, humie.&quot; The chief grunted, turning to address Anon. &quot;Belle&#039;s your type, right? I know I scare the crap out of you, but she doesn&#039;t look like she could hurt a fly.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I don&#039;t see how that-&quot; anon started to object, but was cut off by a snarl from the Chief.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Just answer the question!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She was clearly in no mood to hear questions, so Anon decided it was better for him to simply oblige. Instead of vocally admit what he thought of the busty doberman&#039;s figure, he instead simply nodded in reply. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Right. So you wouldn&#039;t complain if I chose to punish you by sending you home with Belle for a week or so? Not that I particularly care, but it&#039;d be easier if you didn&#039;t mind.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon took another look at Belle. She had been as sweet as one could be while arresting him, and he definitely wouldn&#039;t mind spending a few days with her just to see if they clicked. Still, he felt there was some kind of catch to the whole thing. It was just too suspicious that the chief was going to just send him home with one of her subordinates.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Come on, humie.&quot; The Chief said in a sing-song voice, apparently sensing his hesitation. &quot;You telling me you wouldn&#039;t want to be able to ogle her for a whole week? Hell, with how obsessed with humans she is she&#039;d probably letcha touch her a bit too.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;C-chief! What&#039;re you on about now?&quot; Belle stammered, a bit red in the face.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The chief only winked at her before continuing to fill Anon&#039;s head with indecent thoughts. &quot;Don&#039;t you want the chance to run your hands around those nice birthing hips of hers? Maybe even get your hands on her sweet bouncy ass too.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Startin&#039; to sound a little queer there, Chief...&quot; Belle grumbled, despite the fact that she didn&#039;t look all too upset. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Come on, Belle. You went on and on about how you were saving yourself for a humie that one night and now that I&#039;m trying to butter him up for you, you go and get cold feet.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;all right, all right!&quot; Anon interjected. &quot;I get the idea. If it gets me out of here without trouble then sure, I&#039;ll go home with her since you&#039;re so dead set on that for some reason.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The chief gave him a wide, ear to ear grin that would have said &quot;Gotcha.&quot; if looks could speak. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Great! He&#039;s all yours, Belle. I&#039;ll have Sasha cover your shift for a while so you can...show him all those wonderful things you&#039;ve been saving for just such an occasion.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">If Belle hadn&#039;t been blushing before, she definitely was now. Leaving Anon&#039;s handcuffs on, she walked around him to whisper to the chief, though Anon could still hear it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m not exactly complainin&#039;, chief, but did ya have to say all that right in front of him? I don&#039;t want him to think I&#039;m that kind of gal.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It got the job done, didn&#039;t it?&quot; The Chief chuckled. &quot;Now bring him home and do your worst. I&#039;ll come by in a few days to see him when he&#039;s all broken in.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t say it like that!&quot; She hissed. &quot;You know I&#039;m not gonna break anything. Nothin&#039; physical, at least.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Enjoy yourself, Belle.&quot;The Chief snickered, patting the Doberman on the back. &quot;You&#039;ve earned it.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle gave the chief a nervous looking nod before turning around and putting a hand on Anon&#039;s shoulder, guiding him out of room with the handcuffs still on. Belle used the time to collect herself, staying relatively silent while she guided Anon out of the nearly empty station and into her own personal car, occasionally apologizing for the Chief along the way. Anon was still processing the whole conversation in the office, trying to figure out exactly what Belle had in mind for when they got to her place. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle certainly didn&#039;t give any indication of having anything particularly scary in mind, only pleasantly humming to herself throughout the car ride, seemingly lost in thought. Anon did notice that she now sported a wide smile, though it was warmer and more friendly than the chief&#039;s was, it still made it seem like she was planning something. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Welp, here we are.&quot; She finally said in a chippy tone as she stopped the car. &quot;Home sweet home.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Home sweet home&quot; was a homely looking one floor building that stood by itself along an otherwise empty road just outside the official city limits. Belle took only a few seconds to help Anon out of the car before finally taking off his handcuffs and ushering him up to the front porch. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m real sorry &#039;bout the Chief makin&#039; you come all the way out here with me, but in this town what she says goes.&quot; Belle explained as she unlocked the front door. &quot;They don&#039;t mention this in the tourist pamphlets, but she and her pals practically run the city. When you&#039;re in a position like that you can get real petty, especially when you fancy yerself the hottest thing this side of the equator.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I feel like I got off easy.&quot; Anon replied, stretching his arms to get rid of the stiffness after so long in the cuffs. &quot;You seem pretty pleasant and I didn&#039;t have any plans that are more appealing than staying with you for a while.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s mighty sweet of you, Anon. I like the idea of having some company &#039;round here. I like the location but it gets a bit lonely from time to time.&quot; The Doberman smiled, opening the door to her home and letting Anon inside. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The door led into a hallway with a kitchen that doubled as a dining room at the end. Attached to the kitchen was a living room where Belle had installed a television and couch. the hallway had a few room on the side of it, but for the moment the doors to these were closed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Netflix password&#039;s on a sticky note that I put on the remote.&quot; Belle chirped, heading into what Anon assumed to be her bedroom. &quot;I&#039;ll fix up something to eat after I change, so you just get good and comfy now, all right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I could make something, you know!&quot; Anon called to her as he headed into the kitchen. He felt it would somehow be rude to not even offer, seeing as she&#039;d been the most attractive girl he&#039;d seen all night. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;ve been through too much tonight to have to make dinner, darlin&#039;!&quot; She shouted back, sounding somewhat amused. &quot;Just get yourself comfortable and relax, will ya?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon decided that she had a point, and so he settled in to watch TV on Belle&#039;s couch. The situation got even better when Belle entered the kitchen wearing a tight fitting police uniform top with the sleeves rolled up and an even tighter pair of shiny black shorts. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You cook in your uniform top?&quot; Anon asked in an attempt to distract her from the fact that his eyes were glued to her short shorts and the way they accentuated her hips. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;This one isn&#039;t official.&quot; She gave him a sly grin, obviously having noticed his gaze. &quot;I&#039;m wearin&#039; this for your sake, darlin&#039;. Don&#039;t think I didn&#039;t notice you stealing looks back when I first picked you up. I do like how it feels on me. though.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon decided that there was no harm in speaking his mind if she was going to be like that. &quot;It looks good on you. then again I&#039;m having a hard time imagining something that doesn&#039;t.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Shame those charms of yours couldn&#039;t calm the chief down.&quot; Belle giggled as she started getting pans out and firing up the stove. &quot;You&#039;re okay with hamburgers, right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After confirming that yes, he was on board with hamburgers for dinner, Anon attempted to return his focus to the television so as to not make himself feel like a creep for eyeing Belle up while she cooked. However, he found it very difficult to tear his eyes away from the Doberman. Her breasts, which must have been an E cup at least, were made very prominent by the tightness of her shirt and proved difficult to wrench his eyes away from; especially with how she would purposely move in such a way as to make them noticeably jiggle when she knew he was looking. In addition, it had suddenly come to his attention that the shorts she was wearing were giving her massive cameltoe. It wasn&#039;t a slight view of the pussy like your average cameltoe would be, instead it was like the entirety of her puffy vulva was on display, covered only by a thin layer of the material. These features combined to make it nearly impossible for him to actually watch the television, not that he was complaining about having a vastly superior show.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Once Belle was finished making dinner, she situated herself on the couch with her plate resting on the arm of the sofa.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Want a better seat too, darlin&#039;?&quot; She gestured towards her lap, an offer that Anon was all too eager to accept. Sitting on her lap with his head resting right against her breasts certainly made for an interesting dining experience, and comfortable too. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">What Anon felt was the icing on the cake came after they had finished eating and the dishes were cleaned up. They had returned to their position on the couch, and after a long while of gently stroking Anon&#039;s head while they watched TV, she leaned her head down to whisper in his ear.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Ready for the main event, sweet stuff?&quot; She slipped a hand into his shirt from the bottom and moved it up to feel his chest, pulling him against her as she did so. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Absolutely.&quot; Anon replied softly, giving her a kiss on the bottom of her maw. &quot;To the bedroom, then?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Not yet, darlin.&#039;&quot; Belle gently lifting him off her lap and sat him down on the couch. &quot;Let me get some things, will you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon smiled and nodded at her as he watched her rise from the couch with an eager smile on her canine features, firmly believing at this point that she was just going to return with some lingerie or at most some handcuffs. She seemed like a relatively vanilla kind of girl who Anon couldn&#039;t imagine as having much more in mind than some lovemaking on the couch.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He was thus slightly surprised when Belle came back with two pairs of padded handcuffs, a soft looking blindfold, and a cushioned office chair. It was all a little odd, but it still didn&#039;t seem too out there.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What&#039;s the chair for?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;For you to sit in, darlin&#039;&quot; Belle replied with a laugh as she beckoned Anon to sit in it with one finger. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was now that Anon noticed the dampness of Belle&#039;s form hugging shorts. It was clear that she wanted this, and didn&#039;t want to make her wait any longer by questioning whatever eccentricies she might be indulging in. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">No sooner did he sit down in the comfortable office chair than he felt Belle pin his left wrist against the armrest and handcuff him to it. She quickly did the same with his other wrist before tying the blindfold around his eyes. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;this is a bit kinkier than I expected. Not that I&#039;m exactly complaining.&quot; Anon commented, briefly testing the handcuffs to find out that he definitely wasn&#039;t going to be able to get them off on his own.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle must have leaned closer to him, because he could suddenly feel her warm breath on his face. &quot;I DID tell the chief i&#039;d be punishin&#039; you, darlin,&#039; and I intend to do exactly that. Don&#039;t worry though, I&#039;ll try and make sure you enjoy it as much as I will.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What do you mean by...punish?&quot; Anon&#039;s reply was quieter than he would have liked, as Belle&#039;s words had sent a shiver down his spine. It was so unexpected coming from her, yet it sounded too sincere to play off as a joke.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It won&#039;t be as effective if I tell you before I do it. Now just be a sweetheart and wait a bit. I need to get some more stuff.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon quickly heard the sound of Belle walking back to what he assumed was her bedroom, though he was now no longer certain he knew what she had planned. It took longer for her to get back this time, and the sound of her approaching footsteps and pleased humming made Anon slightly anxious on account of not knowing what she had brought with her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, dammit!&quot; He heard Belle groan, accompanied by what sounded like her slapping her own forehead. &quot;I went and forgot to get yer shirt off before I cuffed ya. Lemme fix that real quick.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He then felt the handcuffs get unlocked in short order, giving him the only chance to escape that he thought he was likely to get at this rate. He was pretty convinced that Belle wasn&#039;t about to hurt him though, so he elected not to take it. Instead he helped her get his shirt off before obediently placing his arms back on the armrests so she could re-cuff him. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;There. Now that I&#039;ve properly arrested you, we can get to the fun stuff.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon soon felt Belle&#039;s hands grasp at his pants, undoing his belt before pulling both them and his underwear down in a single motion. He had to admit that the feeling of being helpless and unable to know what Belle was going to do was rather exciting. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He expected to feel her tongue or pussy against his cock, which was already almost fully erect, but to his surprise he felt a plastic ring that had some kind of weight on top being slid onto his cock. Once it reached the base, he was treated to a sudden vibrating sensation that made him squirm in his seat and yelp in surprise.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh good! It works!&quot; Belle chirped happily. &quot;Let me just set up the camera and we can get started !&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Started with what, exactly? And why the camera?&quot; The toy was a surprise, to be sure, but the camera made him slightly worried. Was she going to record this for the chief or something like that?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I gotta getcha softened up good and proper if I wantcha to beg for things, Anon. And the camera&#039;s just so I can watch this again if you decide not to stick around. You don&#039;t mind that, do ya? I wouldn&#039;t share it with anyone. naturally.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon pondered for a moment whether he trusted that or not, but decided not to argue about it. He was about to ask what she was going to do next when Belle suddenly removed the blindfold, allowing him to see the vibrator attached to his cock as well as oggle her form again. He opened his mouth to thank her, but as soon as he did so Belle took the opportunity to shove the blindfold into his mouth and wrap a second piece of cloth around his mouth and head instead, making it into a gag.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sorry, hun, but I need peace and quiet while I read.&quot; Belle flashed Anon a smug look as she sat down on the couch with a book. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was once she started intermittently turning the vibrator on that Anon understood what she was doing. The sensations were bearable at first, but she soon began to make the bursts more and more intense, making Anon unable to contain his moans, which despite being muffled by the gag were quite audible nonetheless. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Even though Belle was really doing her best to pretend to be focused on her book, she soon wound up staring more at Anon and his now frequent squirming than she did the pages of her novel. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After about twenty minutes of being assaulted by waves of pleasure from the contraption, Anon was just starting to think he might be able to get used to it. He made the mistake of meeting Belle&#039;s eyes with a look that must have conveyed some form of confidence, because her smile widened into a smug grin and she dialed up the vibrator to a much higher setting than she had used before. The sudden and intense sensation forced a sound more akin to a whine than a moan out of his gagged mouth, and the strong vibrations made his cock leak a drop of pre that Belle eyed with hungry looking eyes and a lick of her lips.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon was further surprised when she didn&#039;t turn off the vibrator after a few seconds, instead leaving it on and subjecting his now sensitive member to a constant stimulation. Belle left it on long enough that he could feel what had been a gentle pressure in his crotch intensify to the point where he thought she might be about to make him cum from the vibrator alone. Belle must have seen this in his eyes, because she turned off the vibrator before he reached orgasm, leaving his hard, throbbing dick without any stimulation to finish it off. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Did ya think you were gettin&#039; off that easy, darlin&#039;? Wouldn&#039;t be a proper punishment if I letcha finish so soon.&quot; Belle was clearly enjoying this immensely, which did gratify Anon somewhat despite his frustration at being teased. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t worry, there&#039;s only about...half an hour more till I take the gag off and see how you&#039;re doin&#039;. I think you deserve a better view while you squirm though.&quot; With that last comment, she unbuttoned her top enough for Anon to get a generous view of her cleavage, though her nipples remained covered for now.   </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The vibrator &quot;torture&quot; went on so long that Anon lost track of time. The pure sustained state of arousal he was being kept in was addling his mind, his energy was mostly spent squirming and struggling against the handcuffs while the vibrator made him moan like he had never thought he could before. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Finally, when the teasing was becoming unbearable for lack of a better word, Belle rose from the couch and removed the toy from his shaft. The feeling of relief was welcome, but he still felt an aching sense of need for release.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You must feel really needy by now, huh?&quot; She asked with a smile, a question which Anon quickly nodded in reply to.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Let&#039;s see just how needy you are, then.&quot; Belle reached over to the couch, behind a well placed pillow, and pulled out a collar. It was made of black leather, with an attachment for a leash on one side and the words &quot;Belle&#039;s bitch&quot; on the other in gold looking lettering. The sight made Anon swallow nervously. Belle intended to have him wear this on camera most likely, and he was horny enough to consider it at this point. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t be scared of it, Anon.&quot; She hummed as she removed his gag, &quot;Only ones who&#039;ll know about it are you an me, unless you tell me you want me to share, of course.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon took the opportunity to take some deep breaths in through his mouth, trying to calm himself down and stop the slight trembling in his body from all the teasing he had been subjected to. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I...really underestimated you.&quot; He panted out, much to Belle&#039;s amusement. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;ve liked your type in a very special way for a long time now, darlin&#039;. Always wanted to have a humie on a leash for me, they are a dog&#039;s best friend after all.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She then fully unbuttoned her top, making Anon&#039;s mouth hang slightly open as his gaze became fixed on her now bared breasts. Had his hands been free, he wasn&#039;t sure if he could have restrained himself from trying to touch them even if he had wanted to. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Now then.&quot; Belle sat down on Anon&#039;s lap and started grinding her pussy against his cock. Despite the fact that she was still clothed he could feel some of her juices leaking through the shorts and onto his throbbing member. Just how long had she been dripping for, exactly?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Beg me to put the collar on ya and I&#039;ll let you out of the cuffs.&quot; She whispered into his ear, making the hair on the back of his neck stand up. &quot;I&#039;ll even letcha drain those aching balls of yours.&quot; She punctuated her offer with a gentle squeeze of Anon&#039;s nuts.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">If he had any doubts about saying yes before, they were now erased. He needed to get off badly, and more specifically, he needed her. She&#039;d been teasing him all night and his pent up urges weren&#039;t going to let him do anything that would lengthen the time until he could embrace her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Please...&quot; he took a moment to catch another breath, while also figuring out how to word his request. &quot;Please put the collar on, Belle. Especially if the alternative is more of the vibrator.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Mmm...could be better as far as begging goes but I&#039;ll take it!&quot; She leaned in and kissed him while she attached the collar, slipping her tongue into his mouth to intertwine with his right as Anon heard the collar click shut around his neck. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Still keeping her mouth against his, she finally undid his handcuffs and allowed him to stretch his stiff arms out. More specifically, to stretch them out by wrapping them around Belle&#039;s wonderfully furry body, plunging his face right between her generous breasts. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Their embrace lasted for a few long, blissful moments until Belle broke the kiss and got off of Anon&#039;s lap, beckoning him to follow her over to the couch. To the delight of the more lustful part of his mind, Belle took off her tight shorts while Anon got the stiffens out of his legs; the wetness of her puffy, canine pussy was such that they were probably going to need to take a towel to the floor afterwards. For now though, Anon&#039;s arousal was only heightened by the sight of Belle dripping like a leaky faucet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">By the time he had got over to the couch, Belle had picked up a leash that she had left on cushions. &quot;I&#039;ve just got one more little chore for you before I let you unload, but I think you&#039;ll enjoy this one much more than vibrator.&quot; She attached the leash to Anon&#039;s collar and gave it an experimental tug, once again pressing his face into her cleavage and his hard cock against her toned chest. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What is it this time?&quot; He groaned without even trying to remove his head from between her breasts, meaning that his words were mostly muffled by her tits. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Still holding his leash, Belle got up on the couch with her knees on the cushions and bent over the back of it, giving Anon a clear view of both her holes. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;My pussy&#039;s wet enough already, but since I&#039;m not exactly the kinda gal to take a load in my cunt on the first date, I think my ass could use a little tongue lovin&#039;. If you&#039;re into that kinda thing, at least. Otherwise, I think y&#039;know what to do.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her ass definitely looked good enough to eat, and the fact that he was horny as hell definitely contribiuted to his decision to get on both knees and put his mouth mere inches from the tight little hole in between her asscheeks. He could tell that she had already washed it, which got rid of any hesitation he had, and the next thing he knew he was gently lapping at her rear. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His efforts earned a shudder and moan out of belle, as well as a yanking on his leash that pulled his whole face against her ass. &quot;Ooooh, fuck~ That&#039;s better than I thought it&#039;d be...&quot; Belle crooned, pushing her rear against Anon&#039;s head intently. &quot;Don&#039;t be afraid to get that tongue inside, darlin&#039;, really make out with my rear and get it nice and wet.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon quickly obliged, pushing his tongue into her ass while he sucked on the outer ring. This really got her going, as he heard her start moaning louder and louder, her thighs squeezing around his head as she started to pant. Despite his eyes being obscured by her stubby tail and plump rear, he was fairly sure that her tongue was hanging out of her mouth now. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s the stuff, darlin&#039;!&quot; She cried out excitedly, moving her hips to gently hump his face with her butt. &quot;Keep that up and you&#039;re gonna make me cum. Not that I&#039;d letcha stop at this point.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Spurred on her her wanton vocalizations of pleasure, he didn&#039;t even think about withdrawing his face from its position. Putting one hand on each side of her rear, he stepped up his sucking on her sensitive butthole. He lost track of time during the act, enjoying the warm feeling of her soft, furry thighs and ass against his face and the sides of his head along with the fulfilling feeling of pleasing the doberman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Just when he thought she was about to reach orgasm, judging by her pleasured sounding growls, snarls, and moans, she pulled her ass away from her face and turned herself around to sit down on the couch.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Phew...that was way more intense than I expected.&quot; She breathed heavily as she recovered from Anon&#039;s ministrations, still leaking onto the couch from her needy looking pussy. &quot;You&#039;re really damn good at that, y&#039;know? I oughta just use your face as a seat one of these days.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The idea sounded pretty nice, especially considering her surprising level of hygiene down there. &quot;Didn&#039;t want to get off quite yet?&quot; He asked with a smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Only fair that I denied myself for a little bit after what I putcha through, right? Besides, it&#039;s time for the main event.&quot; She wrapped one of her hands around Anon&#039;s cock, which hadn&#039;t gone soft throughout the whole experience, and guided the tip against her soft, puffy pussy. &quot;You can go wild now, Anon, I know you must be itchin&#039; for it something bad. But if you finish in there instead of my ass, I&#039;m gonna have to REALLY punish you, and you don&#039;t wanna find out what that&#039;s like.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">the warning gave Anon pause. His cock had been teased and rile dup by the vibrator enough that he wasn&#039;t sure how good his control was. Instead, he moved the tip of his dick down to the hole he had just so lovingly been making out with moments ago and pushed it inside, slowly stretching out her incredibly tight rear entrance. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Mnnnnnn...just what I wanted to feel.&quot; She leaned her head back and sighed with pleasure as her tongue lolled out of her mouth. &quot;It feels sooooo much better than the human dildos they make for gals like me.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Anon felt himself approaching orgasm already. With how wet and tight her ass was it felt almost like putting it in a pussy, though unique in its own special way.   </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Belle suddenly yanked on his leash again, making him fall right on top of her with his face in her cleavage. From this new position he picked up the pace of his thrusting and held onto her breasts, the pressure in his crotch rapidly approaching the point of release. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His balls smacked against the base of her stubby tail with each thrust now, their combined moans along with Belle&#039;s more animalistic and aggressive growling making the room echo with the chourus of their lovemaking. right as Anon felt himself about to release, he felt Belle&#039;s strong legs wrap around him as she apparently reached her own peak as well.  Trapped with now way to pull out of her ass, he simply let himself cum inside her, filling her rear with the signs of his long awaited release. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His orgasm took a lot out of him, especially with how backed up he had been made by the vibrator treatment earlier, and he felt he could do little but let his body go limp in Belle&#039;s tight, loving embrace, only moving his hips slightly to pull out of her after she released her leglock.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Good boy.&quot; Belle crooned, gently petting Anon&#039;s head and pressing his face gently into her chest. &quot;It&#039;s a lot warmer than I expected, not that I&#039;m about to complain about that.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;This doesn&#039;t feel like punishment.&quot; Anon mumbled into her chest. &quot;Not that I&#039;m suggesting you should be rougher or anything.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Anon, this is just day one. And you&#039;ve got another thing comin&#039; if you think that collar&#039;s ever coming off so long as you&#039;re in my house. By the end of the week I&#039;ll have myself a well behaved little human pet.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Wanna bet?&quot; He managed to left his head to give her a confident looking smirk as he replied. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I do. In fact, tell you what. If I don&#039;t &quot;break you in&quot; by the end of the week, I&#039;ll take a turn wearin&#039; that collar instead.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;re on.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After Anon&#039;s reply, a wide, almost wolfish grin came over Belle&#039;s face, leaving him slightly worried as to what she had in mind. For now though, he just enjoyed the afterglow and the cuddling. Leash or not, Belle had made his evening go much better than he had expected, and he was looking forward to what the week would bring.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">The scotch burned Anon&#039;s throat ever so slightly as it went down, making him cough a little before he regained his composure. His carelessness in downing it indicated to him that it was time for him to stop before he coughed up his next drink in front of the many bar patrons. That wouldn&#039;t exactly be the impression he wanted to make on the locals, after all.
+
+He noticed the bartender - a young cat woman that looked like she was tired of everything - giving him an annoyed look. He fired a reassuring smile back in her direction, as if to say &quot;yeah, I&#039;m all right.&quot;
+
+Turning away from her, he surveyed the rest of the bar for the fifth time that night. The patrons were still mostly guys, and those that weren&#039;t male still looked like they could tear him limb from limb. He supposed he shouldn&#039;t have expected to see a nice looking bunny or fox girl here, but he felt it would have been a waste not to try.
+
+Like most tourists that came through this predominantly anthro town, he had been looking for a fling or something more with a cute furry woman, preferably one that wouldn&#039;t break any of his bones in the process.
+
+Suddenly, a tap on his shoulder broke him out of his musing. He quickly turned around in his seat to see a tall, athletic looking wolf girl sitting down in the seat beside him. Her well groomed, fluffy looking fur was a dark silver, and yet wasn&#039;t thick enough to hide her well definer musculature. She was dressed in a plain white tanktop that made no effort to hide her chest, as well as a pair of tight jeans. As his eyes wandered upward to her dark green eyes, Anon noticed a large scar running across her left cheek.
+
+&quot;Guy like you shouldn&#039;t be all alone in a place like this.&quot; She growled in a sultry tone. &quot;Might run into someone dangerous.&quot;
+
+&quot;I&#039;ve heard this place isn&#039;t too dangerous, actually.&quot; Anon replied, managing to keep his composure despite the intimidating aura the woman gave off. She was definitely one of the types that could pick him up with little to no trouble if she felt like it, a fact that was made frightening by the knowledge that she was probably operating on some amount of alcohol.
+
+&quot;Of course that&#039;s what you heard.&quot; She snarked. &quot;Believe me, this place is as dangerous as any other big city. Lot less so though if you&#039;ve got someone like me to keep all the scary things away.&quot;
+
+&quot;What are you saying, exactly?&quot; Anon asked with trepidation. He was fairly sure he knew what she was getting at, but wanted to hear her say it anyway.
+
+The canine responded with a sly looking grin, showing off her sharp teeth. &quot;I&#039;m suggesting you spend some time with me tonight. I promise I&#039;ll show you a good time, cute stuff.&quot;
+
+The offer was tempting, but she wasn&#039;t exactly Anon&#039;s type. Not that he didn&#039;t appreciate a fit girl, he just didn&#039;t want to be afraid of his partner, and he was definitely scared of this woman.
+
+&quot;Sorry to dissapoint.&quot; told her. &quot;But I&#039;m not looking for that tonight.&quot; 
+
+That was a lie, of course, but he felt it was the gentlest way to reject her advances.
+
+The woman let out a long annoyed sigh before replying. &quot;Look, maybe I didn&#039;t make myself clear.&quot;
+
+With that, she quickly and roughly leaned closer to him, her maw next to his ear and one of her hands clutching his shirt to prevent him from wiggling away.
+
+&quot;I meant that I wanna fuck you. In case there was some kind of confusion.&quot; She whispered harshly. &quot;As hard and rough as you can handle.&quot;
+
+With that, she released him, leaning back and smiling as she awaited his response.
+
+&quot;I know what you meant.&quot; He managed to say, still recovering from being grabbed so suddenly. &quot;I&#039;m just not interested.&quot;
+
+The canine huffed loudly, sounding indignant at his reply. &quot;Guess there&#039;s no accounting for bad taste.&quot; She gumbled as she got up from her seat. &quot;I&#039;ll probably be around here again tomorrow night if you change your mind.&quot; 
+
+Before anon could think of an appropriate reply, the woman had seemingly vanished into the crowd. 
+
+Asking the bartender for another drink to shake off the odd encounter, Anon resolved to not let it disturb his otherwise pleasent evening.
+
+The rest of the night was a bit of a blur, but he was sure that nothing particurally interesting had happened by the time he regained all his senses. 
+
+Though still drunk to some extent, he was aware enough to realize that the bar was closing soon and head out before he got into any trouble.
+
+Now the only trouble might be getting back to his hotel, but he was 99% sure that he remembered the way back. 
+
+-------------------------------------------------------------------
+
+It was well past midnight when Anon finally accepted that he might be lost. The once crowded city streets all looked the same to him at this point, and the few drinks he had had probably weren&#039;t helping much.
+
+He knew he should have just taken the cab, but that raccoon had seemed too shady and the alcohol had made him overconfident in his navigation skills. 
+
+Still, he mused, the city wasn&#039;t too dangerous at night judging by what he had read about it. Even so, the dark streets and shadowy alleyways put him a little on edge. The idea of being mugged was unpleasant enough without the potential muggers having claws and teeth that could bite through bones. 
+
+He seemed to be in luck though, as the the city seemed entirely empty at night except for a few cars here and there. He was just considering knocking on the door of a building that still had it&#039;s lights on when he noticed the blue and red lights of a police car approaching from behind him. 
+
+Turning to look at the car, he saw the driver motioning for him to come closer as they brought the car to a stop. The request made his already jumpy nerves flare up as he wondered whether the officer was there to arrest him or merely help him find his hotel.
+
+ Taking a deep breath, he did as the driver asked and approched the now stopped car. As he did, the driver opened the door, revealing herself to be a very tall doberman-looking woman. 
+ 
+ She was definitely the type that drew a large portion of curious tourists to the city. Her wide hips and generous curves were accentuated by her tight uniform, while her ample bust filled out her top quite well. Anon noted with some disbelief that her short little tail was actually sticking out of the back of her pants, and did his best so supress a snicker at the sight as she closed the door of the car.
+ 
+ &quot;Well now. What&#039;s a guy like you doing out all by his lonesome at this hour?&quot; the officer asked in a sultry tone, tinged with a slight southern accent that Anon couldn&#039;t fathom how she would have picked up. 
+ 
+ &quot;I just got a little turned around on my way back to my hotel, that&#039;s all.&quot; He replied after making sure his jaw wasn&#039;t hanging open. &quot;I don&#039;t suppose you&#039;d mind helping me out since you&#039;re here anyway?&quot;
+ 
+ The officer shook her head slowly, a slight smirk on her canine features as she clicked her tongue. 
+ 
+ &quot;Only place I&#039;m taking you is the station, humie. You&#039;re out past curfew, y&#039;know?&quot;
+ 
+ Anon couldn&#039;t recall reading about the city having a curfew, but it certainly would explain why the streets were so empty. 
+ 
+ &quot;B-but there&#039;s still cars out!&quot; Anon stammered quickly. &quot;And I didn&#039;t know there was a curfew.&quot;
+ 
+ &quot;Ignorance of the law ain&#039;t an excuse, darlin&#039;.&quot; The officer replied smugly. &quot;Now I&#039;m gonna need to see some ID before I bring you in.&quot;
+ 
+ Anon sighed quietly as he wordlessly handed his driver&#039;s license over to the Officer, who hummed pleasantly to herself as she looked it over.
+ 
+ &quot;Nice to meetcha, Anon.&quot; She said with a chuckle as she handed him his license back. &quot;I&#039;m officer Belle, and I&#039;d be very pleased if you&#039;d get in the car. I&#039;ll even let ya ride in front if you&#039;d like.&quot;
+ 
+ &quot;Look...it&#039;s really late, and I bet we&#039;re both pretty tired. Don&#039;t you think you could let me off the hook this once?&quot; Anon pleaded. He really didn&#039;t want his vacation marred by a run in with the law, no matter how...appealing the law might be.
+ 
+ &quot;Sorry hun.&quot; Belle replied, her tone still friendly and warm and yet seeming quite serious at the same time. &quot;Chief&#039;d be real pissed at me if I let ya off the hook. Don&#039;t worry your cute little head about this though, you won&#039;t be in much trouble unless you make the chief angry at ya somehow.&quot;
+ 
+&quot;All right.&quot; Anon groaned. &quot;Guess I don&#039;t have much choice.&quot;
+
+&quot;Now there&#039;s a good boy.&quot; Belle crooned, placing one of her paw-like hands on his shoulder and gently but firmly guiding him into the passenger seat of the car. 
+
+Anon spent the drive in silence, pondering the officer&#039;s odd behavior and wondering if he was actually in any sort of real trouble. After all, Belle didn&#039;t seem to be treating this case very seriously. 
+
+Almost before he knew it, the car was parked out in front of the city&#039;s large police station. Belle roused him from his worried musings with a gentle nudge before getting out of the car. 
+
+The first thing anon thought upon entering the station was that it seemed awfully quiet. Even at this late hour he had expected there to be quite a few people manning the place, and yet the building seemed almost empty as he followed Belle through the entrance. 
+ 
+&quot;Welp, &#039;bout time for you to see the chief.&quot; Belle told him, ignoring the odd glances from the few other people they passed in the hall as she lead him through the station. &quot;Just don&#039;t go pissing her off and you&#039;ll be out of here in no time, all right?&quot;
+
+&quot;Does she have a temper?&quot; Anon asked, thinking the warning a bit curious. 
+
+&quot;She&#039;s just had a real crappy day is all.&quot; Belle replied pleasantly. &quot;Pro&#039;lly lookin for an excuse to take it out on someone. I wouldn&#039;t worry about too much though.&quot; 
+
+After a brief pause she smiled warmly and added: &quot;You&#039;re cute, so that alone oughta put her in a better mood. Just don&#039;t go mouthing off or anything.&quot;
+
+The compliment was nice, but still felt odd coming from someone who was supposed to be professional. Nevertheless, Anon took it in stride and assured her he&#039;d watch his mouth as he followed her to the doors of the chief&#039;s office. 
+
+Oddly enough, the door had no identifying name on it. Simply a metal plaque with &quot;Chief&quot; on it on bold lettering. Anon briefly considered asking Belle about the oddity, but was given no time before she opened the door with a perky sounding: &quot;Howdy, chief!&quot;
+
+Anon had to retrain himself from letting out a groan as the painfully familiar woman from the bar earlier that night came into view, spinning around in her chair to face the door. Her initially grouchy looking face quickly turned to a wolfish grin, one very clearly directed toward anon.
+
+Belle seemed to catch on to this as well, and cast an odd look toward anon. It took her a few moments of confusion before she perked back up, seemingly realizing something. 
+
+&quot;Oh, is this that guy you told me about, chief?&quot; She asked. 
+
+&quot;Damn right it is.&quot; The chief growled, her eyes not leaving Anon for a moment. She then slowly stood up from her seat, her muscular figure well accentuated by her tight uniform as she approached Anon. 
+
+&quot;Cuff him.&quot; She suddenly ordered, briefly moving her eyes from anon to Belle as she gave the command. 
+
+At that moment, Anon felt Belle roughly force his wrists together with surprising speed. Naturally he attempted to wrench his hands free of her grip, but was quickly met by the feeling of her muzzle clamping down around his neck, wordlessly threatening to bite down if he kept it up. The threat of her sharp canines sinking into his exposed neck was enough to get him to stop struggling, allowing her to slip the cuffs on with ease as the chief watched with a smirk.
+
+&quot;And here I thought I was just bringing him in so you could ogle him a bit, or get his number if you were lucky. Didn&#039;t think it&#039;d be the same guy that got you in such a grouchy mood, chief.&quot; Belle said cheerily as she pocketed the key to the cuffs. &quot;So, which cell&#039;s he spendin&#039; the night in?&quot;
+
+Anon was about to try to explain that they could hardly throw him in a cell for turning down someone&#039;s advances, but the Chief&#039;s slowly widening grin gave him pause.
+
+&quot;Who says he&#039;s gotta spend a night in the cell?&quot; The Chief gave Belle a look that made Anon shudder. 
+
+&quot;What&#039;re you lookin&#039; at me for, chief?&quot; Belle had a quizzical expression, apprently not getting whatever the chief was hinting at. 
+
+&quot;Don&#039;t you remember that little conversation we had a week ago?&quot; The Chief rolled her eyes in annoyance. &quot;The night we all decided that you shouldn&#039;t drink ever again?&quot;
+
+A flash of realization appeared in Belle&#039;s eyes, followed by a slightly embarrassed look. &quot;Oh, THAT time! But Chief, what does that gotta do with anything?&quot;
+
+At this the chief gave an exasperated groan. &quot;Look, Belle, I want this guy punished. Not in the usual way, mind you, since I&#039;ll admit I might just be every so slightly petty. I could do it myself, but I&#039;d probably just leave him with bruised hips and zero sense of being actually punished.&quot;
+
+Anon was throughly confused by this point. Belle seemed musch nicer than the Chief, at least from what he knew of her. this talk of &quot;punishment&quot; was also sounding less and less professional by the moment. 
+
+Belle still looked like she didn&#039;t quite understand what the Chief was getting at, a fact with clearly annoyed the large wolf. 
+
+&quot;Hey, humie.&quot; The chief grunted, turning to address Anon. &quot;Belle&#039;s your type, right? I know I scare the crap out of you, but she doesn&#039;t look like she could hurt a fly.&quot;
+
+&quot;I don&#039;t see how that-&quot; anon started to object, but was cut off by a snarl from the Chief.
+
+&quot;Just answer the question!&quot;
+
+She was clearly in no mood to hear questions, so Anon decided it was better for him to simply oblige. Instead of vocally admit what he thought of the busty doberman&#039;s figure, he instead simply nodded in reply. 
+
+&quot;Right. So you wouldn&#039;t complain if I chose to punish you by sending you home with Belle for a week or so? Not that I particularly care, but it&#039;d be easier if you didn&#039;t mind.&quot;
+
+Anon took another look at Belle. She had been as sweet as one could be while arresting him, and he definitely wouldn&#039;t mind spending a few days with her just to see if they clicked. Still, he felt there was some kind of catch to the whole thing. It was just too suspicious that the chief was going to just send him home with one of her subordinates.
+
+&quot;Come on, humie.&quot; The Chief said in a sing-song voice, apparently sensing his hesitation. &quot;You telling me you wouldn&#039;t want to be able to ogle her for a whole week? Hell, with how obsessed with humans she is she&#039;d probably letcha touch her a bit too.&quot;
+
+&quot;C-chief! What&#039;re you on about now?&quot; Belle stammered, a bit red in the face.
+
+The chief only winked at her before continuing to fill Anon&#039;s head with indecent thoughts. &quot;Don&#039;t you want the chance to run your hands around those nice birthing hips of hers? Maybe even get your hands on her sweet bouncy ass too.&quot;
+
+&quot;Startin&#039; to sound a little queer there, Chief...&quot; Belle grumbled, despite the fact that she didn&#039;t look all too upset. 
+
+&quot;Come on, Belle. You went on and on about how you were saving yourself for a humie that one night and now that I&#039;m trying to butter him up for you, you go and get cold feet.&quot;
+
+&quot;all right, all right!&quot; Anon interjected. &quot;I get the idea. If it gets me out of here without trouble then sure, I&#039;ll go home with her since you&#039;re so dead set on that for some reason.&quot;
+
+The chief gave him a wide, ear to ear grin that would have said &quot;Gotcha.&quot; if looks could speak. 
+
+&quot;Great! He&#039;s all yours, Belle. I&#039;ll have Sasha cover your shift for a while so you can...show him all those wonderful things you&#039;ve been saving for just such an occasion.&quot;
+
+If Belle hadn&#039;t been blushing before, she definitely was now. Leaving Anon&#039;s handcuffs on, she walked around him to whisper to the chief, though Anon could still hear it.
+
+&quot;I&#039;m not exactly complainin&#039;, chief, but did ya have to say all that right in front of him? I don&#039;t want him to think I&#039;m that kind of gal.&quot;
+
+&quot;It got the job done, didn&#039;t it?&quot; The Chief chuckled. &quot;Now bring him home and do your worst. I&#039;ll come by in a few days to see him when he&#039;s all broken in.&quot;
+
+&quot;Don&#039;t say it like that!&quot; She hissed. &quot;You know I&#039;m not gonna break anything. Nothin&#039; physical, at least.&quot;
+
+&quot;Enjoy yourself, Belle.&quot;The Chief snickered, patting the Doberman on the back. &quot;You&#039;ve earned it.&quot;
+
+Belle gave the chief a nervous looking nod before turning around and putting a hand on Anon&#039;s shoulder, guiding him out of room with the handcuffs still on. Belle used the time to collect herself, staying relatively silent while she guided Anon out of the nearly empty station and into her own personal car, occasionally apologizing for the Chief along the way. Anon was still processing the whole conversation in the office, trying to figure out exactly what Belle had in mind for when they got to her place. 
+
+Belle certainly didn&#039;t give any indication of having anything particularly scary in mind, only pleasantly humming to herself throughout the car ride, seemingly lost in thought. Anon did notice that she now sported a wide smile, though it was warmer and more friendly than the chief&#039;s was, it still made it seem like she was planning something. 
+
+&quot;Welp, here we are.&quot; She finally said in a chippy tone as she stopped the car. &quot;Home sweet home.&quot;
+
+&quot;Home sweet home&quot; was a homely looking one floor building that stood by itself along an otherwise empty road just outside the official city limits. Belle took only a few seconds to help Anon out of the car before finally taking off his handcuffs and ushering him up to the front porch. 
+
+&quot;I&#039;m real sorry &#039;bout the Chief makin&#039; you come all the way out here with me, but in this town what she says goes.&quot; Belle explained as she unlocked the front door. &quot;They don&#039;t mention this in the tourist pamphlets, but she and her pals practically run the city. When you&#039;re in a position like that you can get real petty, especially when you fancy yerself the hottest thing this side of the equator.&quot;
+
+&quot;I feel like I got off easy.&quot; Anon replied, stretching his arms to get rid of the stiffness after so long in the cuffs. &quot;You seem pretty pleasant and I didn&#039;t have any plans that are more appealing than staying with you for a while.&quot;
+
+&quot;That&#039;s mighty sweet of you, Anon. I like the idea of having some company &#039;round here. I like the location but it gets a bit lonely from time to time.&quot; The Doberman smiled, opening the door to her home and letting Anon inside. 
+
+The door led into a hallway with a kitchen that doubled as a dining room at the end. Attached to the kitchen was a living room where Belle had installed a television and couch. the hallway had a few room on the side of it, but for the moment the doors to these were closed.
+
+&quot;Netflix password&#039;s on a sticky note that I put on the remote.&quot; Belle chirped, heading into what Anon assumed to be her bedroom. &quot;I&#039;ll fix up something to eat after I change, so you just get good and comfy now, all right?&quot;
+
+&quot;I could make something, you know!&quot; Anon called to her as he headed into the kitchen. He felt it would somehow be rude to not even offer, seeing as she&#039;d been the most attractive girl he&#039;d seen all night. 
+
+&quot;You&#039;ve been through too much tonight to have to make dinner, darlin&#039;!&quot; She shouted back, sounding somewhat amused. &quot;Just get yourself comfortable and relax, will ya?&quot;
+
+Anon decided that she had a point, and so he settled in to watch TV on Belle&#039;s couch. The situation got even better when Belle entered the kitchen wearing a tight fitting police uniform top with the sleeves rolled up and an even tighter pair of shiny black shorts. 
+
+&quot;You cook in your uniform top?&quot; Anon asked in an attempt to distract her from the fact that his eyes were glued to her short shorts and the way they accentuated her hips. 
+
+&quot;This one isn&#039;t official.&quot; She gave him a sly grin, obviously having noticed his gaze. &quot;I&#039;m wearin&#039; this for your sake, darlin&#039;. Don&#039;t think I didn&#039;t notice you stealing looks back when I first picked you up. I do like how it feels on me. though.&quot;
+
+Anon decided that there was no harm in speaking his mind if she was going to be like that. &quot;It looks good on you. then again I&#039;m having a hard time imagining something that doesn&#039;t.&quot;
+
+&quot;Shame those charms of yours couldn&#039;t calm the chief down.&quot; Belle giggled as she started getting pans out and firing up the stove. &quot;You&#039;re okay with hamburgers, right?&quot;
+
+After confirming that yes, he was on board with hamburgers for dinner, Anon attempted to return his focus to the television so as to not make himself feel like a creep for eyeing Belle up while she cooked. However, he found it very difficult to tear his eyes away from the Doberman. Her breasts, which must have been an E cup at least, were made very prominent by the tightness of her shirt and proved difficult to wrench his eyes away from; especially with how she would purposely move in such a way as to make them noticeably jiggle when she knew he was looking. In addition, it had suddenly come to his attention that the shorts she was wearing were giving her massive cameltoe. It wasn&#039;t a slight view of the pussy like your average cameltoe would be, instead it was like the entirety of her puffy vulva was on display, covered only by a thin layer of the material. These features combined to make it nearly impossible for him to actually watch the television, not that he was complaining about having a vastly superior show.
+
+Once Belle was finished making dinner, she situated herself on the couch with her plate resting on the arm of the sofa.
+
+&quot;Want a better seat too, darlin&#039;?&quot; She gestured towards her lap, an offer that Anon was all too eager to accept. Sitting on her lap with his head resting right against her breasts certainly made for an interesting dining experience, and comfortable too. 
+
+What Anon felt was the icing on the cake came after they had finished eating and the dishes were cleaned up. They had returned to their position on the couch, and after a long while of gently stroking Anon&#039;s head while they watched TV, she leaned her head down to whisper in his ear.
+
+&quot;Ready for the main event, sweet stuff?&quot; She slipped a hand into his shirt from the bottom and moved it up to feel his chest, pulling him against her as she did so. 
+
+&quot;Absolutely.&quot; Anon replied softly, giving her a kiss on the bottom of her maw. &quot;To the bedroom, then?&quot;
+
+&quot;Not yet, darlin.&#039;&quot; Belle gently lifting him off her lap and sat him down on the couch. &quot;Let me get some things, will you?&quot;
+
+Anon smiled and nodded at her as he watched her rise from the couch with an eager smile on her canine features, firmly believing at this point that she was just going to return with some lingerie or at most some handcuffs. She seemed like a relatively vanilla kind of girl who Anon couldn&#039;t imagine as having much more in mind than some lovemaking on the couch.
+
+He was thus slightly surprised when Belle came back with two pairs of padded handcuffs, a soft looking blindfold, and a cushioned office chair. It was all a little odd, but it still didn&#039;t seem too out there.
+
+&quot;What&#039;s the chair for?&quot;
+
+&quot;For you to sit in, darlin&#039;&quot; Belle replied with a laugh as she beckoned Anon to sit in it with one finger. 
+
+It was now that Anon noticed the dampness of Belle&#039;s form hugging shorts. It was clear that she wanted this, and didn&#039;t want to make her wait any longer by questioning whatever eccentricies she might be indulging in. 
+
+No sooner did he sit down in the comfortable office chair than he felt Belle pin his left wrist against the armrest and handcuff him to it. She quickly did the same with his other wrist before tying the blindfold around his eyes. 
+
+&quot;this is a bit kinkier than I expected. Not that I&#039;m exactly complaining.&quot; Anon commented, briefly testing the handcuffs to find out that he definitely wasn&#039;t going to be able to get them off on his own.
+
+Belle must have leaned closer to him, because he could suddenly feel her warm breath on his face. &quot;I DID tell the chief i&#039;d be punishin&#039; you, darlin,&#039; and I intend to do exactly that. Don&#039;t worry though, I&#039;ll try and make sure you enjoy it as much as I will.&quot;
+
+&quot;What do you mean by...punish?&quot; Anon&#039;s reply was quieter than he would have liked, as Belle&#039;s words had sent a shiver down his spine. It was so unexpected coming from her, yet it sounded too sincere to play off as a joke.
+
+&quot;It won&#039;t be as effective if I tell you before I do it. Now just be a sweetheart and wait a bit. I need to get some more stuff.&quot;
+
+Anon quickly heard the sound of Belle walking back to what he assumed was her bedroom, though he was now no longer certain he knew what she had planned. It took longer for her to get back this time, and the sound of her approaching footsteps and pleased humming made Anon slightly anxious on account of not knowing what she had brought with her.
+
+&quot;Oh, dammit!&quot; He heard Belle groan, accompanied by what sounded like her slapping her own forehead. &quot;I went and forgot to get yer shirt off before I cuffed ya. Lemme fix that real quick.&quot; 
+
+He then felt the handcuffs get unlocked in short order, giving him the only chance to escape that he thought he was likely to get at this rate. He was pretty convinced that Belle wasn&#039;t about to hurt him though, so he elected not to take it. Instead he helped her get his shirt off before obediently placing his arms back on the armrests so she could re-cuff him. 
+
+&quot;There. Now that I&#039;ve properly arrested you, we can get to the fun stuff.&quot; 
+
+Anon soon felt Belle&#039;s hands grasp at his pants, undoing his belt before pulling both them and his underwear down in a single motion. He had to admit that the feeling of being helpless and unable to know what Belle was going to do was rather exciting. 
+
+He expected to feel her tongue or pussy against his cock, which was already almost fully erect, but to his surprise he felt a plastic ring that had some kind of weight on top being slid onto his cock. Once it reached the base, he was treated to a sudden vibrating sensation that made him squirm in his seat and yelp in surprise.
+
+&quot;Oh good! It works!&quot; Belle chirped happily. &quot;Let me just set up the camera and we can get started !&quot; 
+
+&quot;Started with what, exactly? And why the camera?&quot; The toy was a surprise, to be sure, but the camera made him slightly worried. Was she going to record this for the chief or something like that?
+
+&quot;I gotta getcha softened up good and proper if I wantcha to beg for things, Anon. And the camera&#039;s just so I can watch this again if you decide not to stick around. You don&#039;t mind that, do ya? I wouldn&#039;t share it with anyone. naturally.&quot;
+
+Anon pondered for a moment whether he trusted that or not, but decided not to argue about it. He was about to ask what she was going to do next when Belle suddenly removed the blindfold, allowing him to see the vibrator attached to his cock as well as oggle her form again. He opened his mouth to thank her, but as soon as he did so Belle took the opportunity to shove the blindfold into his mouth and wrap a second piece of cloth around his mouth and head instead, making it into a gag.
+
+&quot;Sorry, hun, but I need peace and quiet while I read.&quot; Belle flashed Anon a smug look as she sat down on the couch with a book. 
+
+It was once she started intermittently turning the vibrator on that Anon understood what she was doing. The sensations were bearable at first, but she soon began to make the bursts more and more intense, making Anon unable to contain his moans, which despite being muffled by the gag were quite audible nonetheless. 
+
+Even though Belle was really doing her best to pretend to be focused on her book, she soon wound up staring more at Anon and his now frequent squirming than she did the pages of her novel. 
+
+After about twenty minutes of being assaulted by waves of pleasure from the contraption, Anon was just starting to think he might be able to get used to it. He made the mistake of meeting Belle&#039;s eyes with a look that must have conveyed some form of confidence, because her smile widened into a smug grin and she dialed up the vibrator to a much higher setting than she had used before. The sudden and intense sensation forced a sound more akin to a whine than a moan out of his gagged mouth, and the strong vibrations made his cock leak a drop of pre that Belle eyed with hungry looking eyes and a lick of her lips.
+
+Anon was further surprised when she didn&#039;t turn off the vibrator after a few seconds, instead leaving it on and subjecting his now sensitive member to a constant stimulation. Belle left it on long enough that he could feel what had been a gentle pressure in his crotch intensify to the point where he thought she might be about to make him cum from the vibrator alone. Belle must have seen this in his eyes, because she turned off the vibrator before he reached orgasm, leaving his hard, throbbing dick without any stimulation to finish it off. 
+
+&quot;Did ya think you were gettin&#039; off that easy, darlin&#039;? Wouldn&#039;t be a proper punishment if I letcha finish so soon.&quot; Belle was clearly enjoying this immensely, which did gratify Anon somewhat despite his frustration at being teased. 
+
+&quot;Don&#039;t worry, there&#039;s only about...half an hour more till I take the gag off and see how you&#039;re doin&#039;. I think you deserve a better view while you squirm though.&quot; With that last comment, she unbuttoned her top enough for Anon to get a generous view of her cleavage, though her nipples remained covered for now.   
+
+The vibrator &quot;torture&quot; went on so long that Anon lost track of time. The pure sustained state of arousal he was being kept in was addling his mind, his energy was mostly spent squirming and struggling against the handcuffs while the vibrator made him moan like he had never thought he could before. 
+
+Finally, when the teasing was becoming unbearable for lack of a better word, Belle rose from the couch and removed the toy from his shaft. The feeling of relief was welcome, but he still felt an aching sense of need for release.
+
+&quot;You must feel really needy by now, huh?&quot; She asked with a smile, a question which Anon quickly nodded in reply to.
+
+&quot;Let&#039;s see just how needy you are, then.&quot; Belle reached over to the couch, behind a well placed pillow, and pulled out a collar. It was made of black leather, with an attachment for a leash on one side and the words &quot;Belle&#039;s bitch&quot; on the other in gold looking lettering. The sight made Anon swallow nervously. Belle intended to have him wear this on camera most likely, and he was horny enough to consider it at this point. 
+
+&quot;Don&#039;t be scared of it, Anon.&quot; She hummed as she removed his gag, &quot;Only ones who&#039;ll know about it are you an me, unless you tell me you want me to share, of course.&quot;
+
+Anon took the opportunity to take some deep breaths in through his mouth, trying to calm himself down and stop the slight trembling in his body from all the teasing he had been subjected to. 
+
+&quot;I...really underestimated you.&quot; He panted out, much to Belle&#039;s amusement. 
+
+&quot;I&#039;ve liked your type in a very special way for a long time now, darlin&#039;. Always wanted to have a humie on a leash for me, they are a dog&#039;s best friend after all.&quot;
+
+She then fully unbuttoned her top, making Anon&#039;s mouth hang slightly open as his gaze became fixed on her now bared breasts. Had his hands been free, he wasn&#039;t sure if he could have restrained himself from trying to touch them even if he had wanted to. 
+
+&quot;Now then.&quot; Belle sat down on Anon&#039;s lap and started grinding her pussy against his cock. Despite the fact that she was still clothed he could feel some of her juices leaking through the shorts and onto his throbbing member. Just how long had she been dripping for, exactly?
+
+&quot;Beg me to put the collar on ya and I&#039;ll let you out of the cuffs.&quot; She whispered into his ear, making the hair on the back of his neck stand up. &quot;I&#039;ll even letcha drain those aching balls of yours.&quot; She punctuated her offer with a gentle squeeze of Anon&#039;s nuts.
+
+If he had any doubts about saying yes before, they were now erased. He needed to get off badly, and more specifically, he needed her. She&#039;d been teasing him all night and his pent up urges weren&#039;t going to let him do anything that would lengthen the time until he could embrace her.
+
+&quot;Please...&quot; he took a moment to catch another breath, while also figuring out how to word his request. &quot;Please put the collar on, Belle. Especially if the alternative is more of the vibrator.&quot;
+
+&quot;Mmm...could be better as far as begging goes but I&#039;ll take it!&quot; She leaned in and kissed him while she attached the collar, slipping her tongue into his mouth to intertwine with his right as Anon heard the collar click shut around his neck. 
+
+Still keeping her mouth against his, she finally undid his handcuffs and allowed him to stretch his stiff arms out. More specifically, to stretch them out by wrapping them around Belle&#039;s wonderfully furry body, plunging his face right between her generous breasts. 
+
+Their embrace lasted for a few long, blissful moments until Belle broke the kiss and got off of Anon&#039;s lap, beckoning him to follow her over to the couch. To the delight of the more lustful part of his mind, Belle took off her tight shorts while Anon got the stiffens out of his legs; the wetness of her puffy, canine pussy was such that they were probably going to need to take a towel to the floor afterwards. For now though, Anon&#039;s arousal was only heightened by the sight of Belle dripping like a leaky faucet.
+
+By the time he had got over to the couch, Belle had picked up a leash that she had left on cushions. &quot;I&#039;ve just got one more little chore for you before I let you unload, but I think you&#039;ll enjoy this one much more than vibrator.&quot; She attached the leash to Anon&#039;s collar and gave it an experimental tug, once again pressing his face into her cleavage and his hard cock against her toned chest. 
+
+&quot;What is it this time?&quot; He groaned without even trying to remove his head from between her breasts, meaning that his words were mostly muffled by her tits. 
+
+Still holding his leash, Belle got up on the couch with her knees on the cushions and bent over the back of it, giving Anon a clear view of both her holes. 
+
+&quot;My pussy&#039;s wet enough already, but since I&#039;m not exactly the kinda gal to take a load in my cunt on the first date, I think my ass could use a little tongue lovin&#039;. If you&#039;re into that kinda thing, at least. Otherwise, I think y&#039;know what to do.&quot;
+
+Her ass definitely looked good enough to eat, and the fact that he was horny as hell definitely contribiuted to his decision to get on both knees and put his mouth mere inches from the tight little hole in between her asscheeks. He could tell that she had already washed it, which got rid of any hesitation he had, and the next thing he knew he was gently lapping at her rear. 
+
+His efforts earned a shudder and moan out of belle, as well as a yanking on his leash that pulled his whole face against her ass. &quot;Ooooh, fuck~ That&#039;s better than I thought it&#039;d be...&quot; Belle crooned, pushing her rear against Anon&#039;s head intently. &quot;Don&#039;t be afraid to get that tongue inside, darlin&#039;, really make out with my rear and get it nice and wet.&quot;
+
+Anon quickly obliged, pushing his tongue into her ass while he sucked on the outer ring. This really got her going, as he heard her start moaning louder and louder, her thighs squeezing around his head as she started to pant. Despite his eyes being obscured by her stubby tail and plump rear, he was fairly sure that her tongue was hanging out of her mouth now. 
+
+&quot;That&#039;s the stuff, darlin&#039;!&quot; She cried out excitedly, moving her hips to gently hump his face with her butt. &quot;Keep that up and you&#039;re gonna make me cum. Not that I&#039;d letcha stop at this point.&quot; 
+
+Spurred on her her wanton vocalizations of pleasure, he didn&#039;t even think about withdrawing his face from its position. Putting one hand on each side of her rear, he stepped up his sucking on her sensitive butthole. He lost track of time during the act, enjoying the warm feeling of her soft, furry thighs and ass against his face and the sides of his head along with the fulfilling feeling of pleasing the doberman. 
+
+Just when he thought she was about to reach orgasm, judging by her pleasured sounding growls, snarls, and moans, she pulled her ass away from her face and turned herself around to sit down on the couch.
+
+&quot;Phew...that was way more intense than I expected.&quot; She breathed heavily as she recovered from Anon&#039;s ministrations, still leaking onto the couch from her needy looking pussy. &quot;You&#039;re really damn good at that, y&#039;know? I oughta just use your face as a seat one of these days.&quot;
+
+The idea sounded pretty nice, especially considering her surprising level of hygiene down there. &quot;Didn&#039;t want to get off quite yet?&quot; He asked with a smile.
+
+&quot;Only fair that I denied myself for a little bit after what I putcha through, right? Besides, it&#039;s time for the main event.&quot; She wrapped one of her hands around Anon&#039;s cock, which hadn&#039;t gone soft throughout the whole experience, and guided the tip against her soft, puffy pussy. &quot;You can go wild now, Anon, I know you must be itchin&#039; for it something bad. But if you finish in there instead of my ass, I&#039;m gonna have to REALLY punish you, and you don&#039;t wanna find out what that&#039;s like.&quot;
+
+the warning gave Anon pause. His cock had been teased and rile dup by the vibrator enough that he wasn&#039;t sure how good his control was. Instead, he moved the tip of his dick down to the hole he had just so lovingly been making out with moments ago and pushed it inside, slowly stretching out her incredibly tight rear entrance. 
+
+&quot;Mnnnnnn...just what I wanted to feel.&quot; She leaned her head back and sighed with pleasure as her tongue lolled out of her mouth. &quot;It feels sooooo much better than the human dildos they make for gals like me.&quot;
+
+Anon felt himself approaching orgasm already. With how wet and tight her ass was it felt almost like putting it in a pussy, though unique in its own special way.   
+
+Belle suddenly yanked on his leash again, making him fall right on top of her with his face in her cleavage. From this new position he picked up the pace of his thrusting and held onto her breasts, the pressure in his crotch rapidly approaching the point of release. 
+
+His balls smacked against the base of her stubby tail with each thrust now, their combined moans along with Belle&#039;s more animalistic and aggressive growling making the room echo with the chourus of their lovemaking. right as Anon felt himself about to release, he felt Belle&#039;s strong legs wrap around him as she apparently reached her own peak as well.  Trapped with now way to pull out of her ass, he simply let himself cum inside her, filling her rear with the signs of his long awaited release. 
+
+His orgasm took a lot out of him, especially with how backed up he had been made by the vibrator treatment earlier, and he felt he could do little but let his body go limp in Belle&#039;s tight, loving embrace, only moving his hips slightly to pull out of her after she released her leglock.
+
+&quot;Good boy.&quot; Belle crooned, gently petting Anon&#039;s head and pressing his face gently into her chest. &quot;It&#039;s a lot warmer than I expected, not that I&#039;m about to complain about that.&quot;
+
+&quot;This doesn&#039;t feel like punishment.&quot; Anon mumbled into her chest. &quot;Not that I&#039;m suggesting you should be rougher or anything.&quot;
+
+&quot;Anon, this is just day one. And you&#039;ve got another thing comin&#039; if you think that collar&#039;s ever coming off so long as you&#039;re in my house. By the end of the week I&#039;ll have myself a well behaved little human pet.&quot;
+
+&quot;Wanna bet?&quot; He managed to left his head to give her a confident looking smirk as he replied. 
+
+&quot;I do. In fact, tell you what. If I don&#039;t &quot;break you in&quot; by the end of the week, I&#039;ll take a turn wearin&#039; that collar instead.&quot;
+
+&quot;You&#039;re on.&quot; 
+
+After Anon&#039;s reply, a wide, almost wolfish grin came over Belle&#039;s face, leaving him slightly worried as to what she had in mind. For now though, he just enjoyed the afterglow and the cuddling. Leash or not, Belle had made his evening go much better than he had expected, and he was looking forward to what the week would bring.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    19 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    20 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    31 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

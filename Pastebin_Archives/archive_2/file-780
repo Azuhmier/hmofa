@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chapter 0 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Chapter 0 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/Tc8VxqSW" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/Tc8VxqSW" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="rSdfaZpmyvT9C-9i44eAGHYIQyG5BIKpzfJyfOjf7hfsYBE6ryWOn4xmhwTVyMkpA2kobfVj9Nm6uiYkg62KJA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/Tc8VxqSW" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/Tc8VxqSW" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Chapter 0</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                        a guest                    </div>
+                
+                <div class="date">
+                    <span title="Friday 14th of April 2017 02:46:46 AM CDT">Apr 14th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    952                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 4.68 KB            </div>
+
+            <div class="right">
+                <a href="/raw/Tc8VxqSW" class="btn -small">raw</a>
+                <a href="/dl/Tc8VxqSW" class="btn -small">download</a>
+                <a href="/clone/Tc8VxqSW" class="btn -small h_800">clone</a>
+                <a href="/embed/Tc8VxqSW" class="btn -small h_800">embed</a>
+                <a href="/report/Tc8VxqSW" class="btn -small">report</a>
+                <a href="/print/Tc8VxqSW" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;you are anon and you may have just made of the worst mistake of your life</div></li><li class="li1"><div class="de1">&gt;as you drive home you remember how it was that this fate befell you</div></li><li class="li1"><div class="de1">&gt;you heard one of the local anthro shelters was going bust and was shutting down</div></li><li class="li1"><div class="de1">&gt;normally you wouldn&#039;t consider this any of your business but many of the other shelters they could&#039;ve sent their anthros to were already overcrowded</div></li><li class="li1"><div class="de1">&gt;the sad fact being that many of the anthros would have to be put down</div></li><li class="li1"><div class="de1">&gt;apparently many other people also considered it sad because when you went over there to save an anthro or 2 the place was already crawling with adopters</div></li><li class="li1"><div class="de1">&gt;of course since you were late to the party all the even mildly interesting anthros had already been adopted</div></li><li class="li1"><div class="de1">&gt;that still left plenty of cats and dogs still looking for a home tho</div></li><li class="li1"><div class="de1">&gt;you realized when you were told how much the adoption process cost that it would probably be smart to only adopt one pet</div></li><li class="li1"><div class="de1">&gt;then the decision only came down to whether to save a cat or a dog</div></li><li class="li1"><div class="de1">&gt;the fact that both a cat and a dog currently sat in the backseat of your car showed how much of an indecisive faggot you are</div></li><li class="li1"><div class="de1">&gt;directly behind you sat a very energetic and happy dog girl named coco while opposite of her sat a cat girl named bailey desperately trying to keep her cool</div></li><li class="li1"><div class="de1">&gt;you were constantly glancing in you rear-view mirror to make sure your poor bailey was okay</div></li><li class="li1"><div class="de1">&gt;most of her fur was hodgepodge of greys, browns and blacks haphazardly strewn about except for her belly and paws which were a solid creamy white</div></li><li class="li1"><div class="de1">&gt;she had the face of a kitten with big green cat eyes and a cute button nose and perky alert ears</div></li><li class="li1"><div class="de1">&gt;her hair was cut short and the same hodgepodge color scheme as her fur</div></li><li class="li1"><div class="de1">&gt;she had a relaxed demeanor about her, legs spread out, back slouched and her head tilted to watch the scenery outside her window go by</div></li><li class="li1"><div class="de1">&gt;but you could easily it was all an act by how tightly she held her armrests and how many claw-marks she had put into them from the tiny bumps along the road</div></li><li class="li1"><div class="de1">&gt;she hardly spoke a word the entire trip</div></li><li class="li1"><div class="de1">&gt;coco on the other hand couldn&#039;t be happier taking a ride in the car and you constantly had to tell her to sit still in her seat</div></li><li class="li1"><div class="de1">&gt;she was some sort of border collie mix but they weren&#039;t sure what she had been mixed with</div></li><li class="li1"><div class="de1">&gt;her fur was a solid dark brown in the back and a solid white in the front continuing along her underarms and inner thighs</div></li><li class="li1"><div class="de1">&gt;she had a short muzzle with big droopy ears and big brown puppy dog eyes</div></li><li class="li1"><div class="de1">&gt;her hair was long, down to her shoulder, and the same dark brown as her back</div></li><li class="li1"><div class="de1">&gt;she could barely contain her energy, when she was making an attempt to behave she sat with her legs pressed tightly together and her back straight nearly vibrating in her seat</div></li><li class="li1"><div class="de1">&gt;but when she wasn&#039;t she was either trying to hug or lick you around the front seat or sticking her head out the window </div></li><li class="li1"><div class="de1">&gt;and always there was the incessant thumping of her wagging tail against the seat and her commentary about the all the sights she was seeing</div></li><li class="li1"><div class="de1">&gt;you tell yourself the reason you just ruined your finances and threw away 90% of your free time was because saving lives is the right thing to do</div></li><li class="li1"><div class="de1">&gt;but the truth is that you have an ulterior motive you refuse to admit even to yourself</div></li><li class="li1"><div class="de1">&gt;as you look over the bodies of your new pets your ulterior motive makes itself known</div></li><li class="li1"><div class="de1">&gt;with how much coco is bouncing around back there you couldn&#039;t help but notice her huge bouncy tits</div></li><li class="li1"><div class="de1">&gt;all 8 of them</div></li><li class="li1"><div class="de1">&gt;well the biggest pair were also the highest, you&#039;d say they measured around a D or maybe an E, with each lower pair smaller than the the one above it</div></li><li class="li1"><div class="de1">&gt;C, B and her lowest being A&#039;s just above her crotch</div></li><li class="li1"><div class="de1">&gt;as your eyes trail there you thank god she kept her legs closed or else you might have a problem on your hands</div></li><li class="li1"><div class="de1">&gt;you eyes continue down to her thick thighs and back up to her sizable ass</div></li><li class="li1"><div class="de1">&gt;it&#039;s only now you realize how buxom she is</div></li><li class="li1"><div class="de1">&gt;you look over to baileys breasts and find them much less impressive</div></li><li class="li1"><div class="de1">&gt;she only has 6 and her top pair are only A&#039;s </div></li><li class="li1"><div class="de1">&gt;her lower 4 are completely flat against her stomach </div></li><li class="li1"><div class="de1">&gt;speaking of her stomach you are impressed by how trim and athletic is </div></li><li class="li1"><div class="de1">&gt;as your eyes continue down between her legs you nearly slam on your brakes at what you see there</div></li><li class="li1"><div class="de1">&gt;but then you realize it&#039;s just her tail</div></li><li class="li1"><div class="de1">&gt;it&#039;s a good thing she has her tail between her legs or else you&#039;d be able to see everything since she has them spread wide</div></li><li class="li1"><div class="de1">&gt;and oh boy her legs are definitely her best feature</div></li><li class="li1"><div class="de1">&gt;long and luxurious, her legs have just the right amount of tight muscle and fat to make you want to worship every inch of them  </div></li><li class="li1"><div class="de1">&gt;her ass has the same quality to it, trim and athletic</div></li><li class="li1"><div class="de1">&gt;you tear your eyes away from them as your problem begins to show itself</div></li><li class="li1"><div class="de1">&gt;as coco begins to put her arms around the seat again you sigh and say to yourself</div></li><li class="li1"><div class="de1">&quot;It&#039;s gonna be a long drive home.&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;you are anon and you may have just made of the worst mistake of your life
+&gt;as you drive home you remember how it was that this fate befell you
+&gt;you heard one of the local anthro shelters was going bust and was shutting down
+&gt;normally you wouldn&#039;t consider this any of your business but many of the other shelters they could&#039;ve sent their anthros to were already overcrowded
+&gt;the sad fact being that many of the anthros would have to be put down
+&gt;apparently many other people also considered it sad because when you went over there to save an anthro or 2 the place was already crawling with adopters
+&gt;of course since you were late to the party all the even mildly interesting anthros had already been adopted
+&gt;that still left plenty of cats and dogs still looking for a home tho
+&gt;you realized when you were told how much the adoption process cost that it would probably be smart to only adopt one pet
+&gt;then the decision only came down to whether to save a cat or a dog
+&gt;the fact that both a cat and a dog currently sat in the backseat of your car showed how much of an indecisive faggot you are
+&gt;directly behind you sat a very energetic and happy dog girl named coco while opposite of her sat a cat girl named bailey desperately trying to keep her cool
+&gt;you were constantly glancing in you rear-view mirror to make sure your poor bailey was okay
+&gt;most of her fur was hodgepodge of greys, browns and blacks haphazardly strewn about except for her belly and paws which were a solid creamy white
+&gt;she had the face of a kitten with big green cat eyes and a cute button nose and perky alert ears
+&gt;her hair was cut short and the same hodgepodge color scheme as her fur
+&gt;she had a relaxed demeanor about her, legs spread out, back slouched and her head tilted to watch the scenery outside her window go by
+&gt;but you could easily it was all an act by how tightly she held her armrests and how many claw-marks she had put into them from the tiny bumps along the road
+&gt;she hardly spoke a word the entire trip
+&gt;coco on the other hand couldn&#039;t be happier taking a ride in the car and you constantly had to tell her to sit still in her seat
+&gt;she was some sort of border collie mix but they weren&#039;t sure what she had been mixed with
+&gt;her fur was a solid dark brown in the back and a solid white in the front continuing along her underarms and inner thighs
+&gt;she had a short muzzle with big droopy ears and big brown puppy dog eyes
+&gt;her hair was long, down to her shoulder, and the same dark brown as her back
+&gt;she could barely contain her energy, when she was making an attempt to behave she sat with her legs pressed tightly together and her back straight nearly vibrating in her seat
+&gt;but when she wasn&#039;t she was either trying to hug or lick you around the front seat or sticking her head out the window 
+&gt;and always there was the incessant thumping of her wagging tail against the seat and her commentary about the all the sights she was seeing
+&gt;you tell yourself the reason you just ruined your finances and threw away 90% of your free time was because saving lives is the right thing to do
+&gt;but the truth is that you have an ulterior motive you refuse to admit even to yourself
+&gt;as you look over the bodies of your new pets your ulterior motive makes itself known
+&gt;with how much coco is bouncing around back there you couldn&#039;t help but notice her huge bouncy tits
+&gt;all 8 of them
+&gt;well the biggest pair were also the highest, you&#039;d say they measured around a D or maybe an E, with each lower pair smaller than the the one above it
+&gt;C, B and her lowest being A&#039;s just above her crotch
+&gt;as your eyes trail there you thank god she kept her legs closed or else you might have a problem on your hands
+&gt;you eyes continue down to her thick thighs and back up to her sizable ass
+&gt;it&#039;s only now you realize how buxom she is
+&gt;you look over to baileys breasts and find them much less impressive
+&gt;she only has 6 and her top pair are only A&#039;s 
+&gt;her lower 4 are completely flat against her stomach 
+&gt;speaking of her stomach you are impressed by how trim and athletic is 
+&gt;as your eyes continue down between her legs you nearly slam on your brakes at what you see there
+&gt;but then you realize it&#039;s just her tail
+&gt;it&#039;s a good thing she has her tail between her legs or else you&#039;d be able to see everything since she has them spread wide
+&gt;and oh boy her legs are definitely her best feature
+&gt;long and luxurious, her legs have just the right amount of tight muscle and fat to make you want to worship every inch of them  
+&gt;her ass has the same quality to it, trim and athletic
+&gt;you tear your eyes away from them as your problem begins to show itself
+&gt;as coco begins to put her arms around the seat again you sigh and say to yourself
+&quot;It&#039;s gonna be a long drive home.&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    24 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    27 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    28 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    35 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Genkits - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Genkits - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/nqWbfA0W" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/nqWbfA0W" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="i3xvQvKeWSqxrb07nO0VLkseUctxljcDZamPlwTYJFbqBF07l_oxTef70HrWr1BcB3RkvCvbQ2pc-76mY5tiZA==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
+    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    googletag.cmd.push(function() {
+        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
+        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
+        // googletag.pubads().enableSingleRequest();
+        googletag.pubads().disableInitialLoad();
+        googletag.enableServices();
+    });
+</script>
+<script type='text/javascript'>
+    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
+    apstag.init({
+        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
+        adServer: 'googletag',
+        bidTimeout: 2e3
+    });
+    // request the bids for the four googletag slots
+    apstag.fetchBids({
+        slots: [
+            {
+                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
+                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
+            },
+            {
+                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
+                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
+                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
+            },
+            // {
+            //   slotID: 'enter your slotID',
+            //   slotName: 'enter your DFP ad unit path',
+            //   sizes: [[width, height], [width, height]]
+            // }
+        ]
+    }, function (bids) {
+        // set apstag bids, then trigger the first request to DFP
+        googletag.cmd.push(function () {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+</script>
+</head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id="gpt-passback">
+        <script>
+            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
+        </script>
+    </div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/nqWbfA0W" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/nqWbfA0W" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Genkits</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                        a guest                    </div>
+                
+                <div class="date">
+                    <span title="Wednesday 3rd of July 2019 01:31:24 AM CDT">Jul 3rd, 2019</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,578                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 21.35 KB            </div>
+
+            <div class="right">
+                <a href="/raw/nqWbfA0W" class="btn -small">raw</a>
+                <a href="/dl/nqWbfA0W" class="btn -small">download</a>
+                <a href="/clone/nqWbfA0W" class="btn -small h_800">clone</a>
+                <a href="/embed/nqWbfA0W" class="btn -small h_800">embed</a>
+                <a href="/report/nqWbfA0W" class="btn -small">report</a>
+                <a href="/print/nqWbfA0W" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Be the son of human diplomat</div></li><li class="li1"><div class="de1">&gt;It&#039;s not bad, you&#039;re from the American Empire and that&#039;s a pretty decent country all things considered.</div></li><li class="li1"><div class="de1">&gt;Your dad just got assigned as the diplomat to the consulate for the A.E. in City Zero though, the anthro city-state built underneath Antarctica.</div></li><li class="li1"><div class="de1">&gt;The Genkits don&#039;t really have a lot of reason to love Americans, what with the whole.. trying to genocide them a century ago.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not BAD per se, but a lot of Purists come from America, and it kind of paints everyone in a bad light.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The apartment you get is in the residential district, one of several large underground districts the city is divided into.</div></li><li class="li1"><div class="de1">&gt;It&#039;s pretty nice. The district isn&#039;t hard to navigate, with lifts going to the various levels. Uppers are nicer apartments, bigger, more expensive. Lowers are cheaper housing.</div></li><li class="li1"><div class="de1">&gt;Though you have to admit, even the shitty parts of the city look pretty good.</div></li><li class="li1"><div class="de1">&gt;The apartments are no exception but you&#039;re getting restless, your family has been cooped up for three days getting unpacked and if you don&#039;t get out of here soon you&#039;re going to detonate, or something.</div></li><li class="li1"><div class="de1">&gt;So when your parents aren&#039;t looking you quietly disappear out of the apartment and hit the lifts, vanishing to another floor of the district, where you can get to the transportation system that runs throughout the city.</div></li><li class="li1"><div class="de1">&gt;FREEDOM</div></li><li class="li1"><div class="de1">&gt;When you arrived in the city you fell asleep on the way into the residential district, so you didn&#039;t really see a lot. That&#039;s changing now.</div></li><li class="li1"><div class="de1">&gt;The first thing you&#039;re discovering is that Genkits like nudity. Like, a lot.</div></li><li class="li1"><div class="de1">&gt;Not too surprising, even with everywhere in the city being climate controlled. They ARE anthros, after all.</div></li><li class="li1"><div class="de1">&gt;Genetically engineered and designed to be nice to look at but covered in fur nonetheless.</div></li><li class="li1"><div class="de1">&gt;Goddammit, PETA. You just HAD to start all this over animal rights, didn&#039;t you?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your thoughts nearly betray you as you run headfirst into a red panda who&#039;s running to the lift platform, both of you bowling over and eating shit next to the transport car doors.</div></li><li class="li1"><div class="de1">&gt;The first thing you&#039;re aware of is being on your back, and most of you hurting.</div></li><li class="li1"><div class="de1">&gt;The second thing is her tits in your face.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m so sorry!&quot; She&#039;s standing up, pulling you to your feet. &quot;I totally didn&#039;t see you there, are you okay?&quot;</div></li><li class="li1"><div class="de1">&gt;You&#039;re okay, it&#039;s cool. No harm done. Plus, you know, titties. Does a boy some good.</div></li><li class="li1"><div class="de1">&gt;&quot;Hah! Humans aren&#039;t usually that forward. I&#039;m Rose, who&#039;re you?&quot; She&#039;s talking and opening the car at the same time, climbing in.</div></li><li class="li1"><div class="de1">&gt;You take some time, explain your circumstances. Anon, delver of the anthro vaults and newly made immigrant to the city.</div></li><li class="li1"><div class="de1">&gt;&quot;Wow, no kidding, you&#039;re living here? That&#039;s pretty unheard of.&quot; Gods, this girl is distracting. Naked as the day she was born, hourglass figure. You can tell she&#039;s at least a C cup, the flesh of her nipples a dark black.</div></li><li class="li1"><div class="de1">&gt;&quot;Hellooo?&quot; She&#039;s laughing, snapping her fingers in your face. &quot;Hi, up here.&quot; Well, she doesn&#039;t SEEM to be mad, anyways. &quot;Let me guess, not used to the nudity?&quot;</div></li><li class="li1"><div class="de1">&gt;REALLY not used to the nudity, no.</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s adorable. It&#039;s okay, Genkit attitudes towards sex are pretty relaxed. I don&#039;t mind being looked at.&quot; She actually shimmies a little for you, jiggling her tits and grinning wryly. </div></li><li class="li1"><div class="de1">&gt;Good gods, you could get used to this place.</div></li><li class="li1"><div class="de1">&gt;Just how old is Rose, anyways?</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, don&#039;t worry.&quot; She pffts. &quot;Age of consent is a pretty complicated issue here. Generally if you&#039;re old enough to be interested in sex, you&#039;re old enough to hit the red light district and learn about it. I&#039;ve been fucking since I was having my first period, it&#039;s no big deal. Never a human though. Is it different for you?&quot;</div></li><li class="li1"><div class="de1">&gt;Well it&#039;s not like you&#039;re gonna know, you&#039;re a fuckin&#039; virgin. You&#039;re still in highschool!</div></li><li class="li1"><div class="de1">&gt;Online courses, yeah, but... still.</div></li><li class="li1"><div class="de1">&gt;Uh oh. She&#039;s got a gleam in her eye. &quot;Oh you are, are you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re not sure if you should answer that or not.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s okay! I&#039;ve heard humans make a pretty big deal out of sex.&quot; She shrugs, leaning back and grinning, letting her legs part a little.</div></li><li class="li1"><div class="de1">&gt;You can see her slit, framed in light red fur but it thins our around her lips, showing light black skin.</div></li><li class="li1"><div class="de1">&gt;Which is glistening.</div></li><li class="li1"><div class="de1">&gt;Oh fuck, she&#039;s wet.</div></li><li class="li1"><div class="de1">&gt;&quot;You ever fooled around with anyone?&quot; She keys the car, the controls beeping as it slows to a stop then thumps off the track halfway down the tunnel, parking temporarily.</div></li><li class="li1"><div class="de1">&gt;Uh, what?</div></li><li class="li1"><div class="de1">&gt;&quot;No, seriously.&quot; She gestures at you. &quot;Tell me. C&#039;mon. I&#039;m seriously thinking of fucking you here, now. You&#039;re cute and I&#039;ve never had the chance with a human, AND you&#039;re a virgin. No way I&#039;m letting you get away.&quot; She&#039;s laughing.</div></li><li class="li1"><div class="de1">&gt;Uh, what if I want to?</div></li><li class="li1"><div class="de1">&gt;&quot;Well, I&#039;m not gonna force you. But...&quot; She parts her thighs, fingers sliding down as she spreads the lips of her pussy. She&#039;s so wet it&#039;s dribbling down her ass, her finger smearing it across her clit as she traces a light circle around it.</div></li><li class="li1"><div class="de1">&gt;&quot;..If you want, I&#039;ll let you have your way any way you want. Your first girl will be an anthro and you&#039;ll never want human pussy again, trust me.&quot;</div></li><li class="li1"><div class="de1">&gt;Jesus, the smirk when she says it.</div></li><li class="li1"><div class="de1">&gt;She almost moans it, sliding her fingers into herself at the same time, gasping. </div></li><li class="li1"><div class="de1">&gt;You can smell how wet she is, it&#039;s filling the tiny cabin and your cock is rock hard.</div></li><li class="li1"><div class="de1">&gt;Why is this even a debate?</div></li><li class="li1"><div class="de1">&gt;Oh, right. It&#039;s really not.</div></li><li class="li1"><div class="de1">&gt;You get up, pulling your shirt off and throwing it at her face, making her giggle as you kick off your pants.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh wow, it&#039;s so smooth! It&#039;s shaped differently, too.&quot; She&#039;s up immediately, moving between your knees as you sit back in the cars seat, moving your legs apart for her. &quot;Wow.&quot;</div></li><li class="li1"><div class="de1">&gt;She&#039;s running her fingertips back and forth across your cock, her finger fingers smearing girlcum under the head as her other hand wraps around your shaft, stroking slowly.</div></li><li class="li1"><div class="de1">&gt;&quot;Can I do buttstuff with you?&quot;</div></li><li class="li1"><div class="de1">&gt;Can you what now?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Butt stuff. My fingers, my tongue.&quot; She&#039;s grinning, leaning in and sliding her tongue from the base of your cock to the head, then wrapping her lips around it and working her tongue in circles inside her mouth against the glans under the head of your cock.</div></li><li class="li1"><div class="de1">&gt;You&#039;re REALLY beginning to like this goddamned city.</div></li><li class="li1"><div class="de1">&gt;Frankly, you don&#039;t give a shit what she does as long as it feels as good as this. </div></li><li class="li1"><div class="de1">&gt;&quot;Oooh! Good.&quot; She almost purrs the word, moving your legs apart and stroking your cock overhand before her tongue presses against your asshole and for a few seconds, time stops.</div></li><li class="li1"><div class="de1">&gt;You&#039;ve never felt anything like it.</div></li><li class="li1"><div class="de1">&gt;Your cock throbs hard in her hand, her tongue moving away as she squeezes your cock lightly, stroking upward while her tongue works its way to your balls</div></li><li class="li1"><div class="de1">&gt;Oh gods, she&#039;s sucking on them, you can feel her tongue darting against them while she strokes you off.</div></li><li class="li1"><div class="de1">&gt;Your cock is throbbing pretty hard in her hand when she stops and you&#039;re left panting, looking at her like &#039;why&#039;d you stop?&#039;.</div></li><li class="li1"><div class="de1">&gt;She smirks and answers you by taking your whole cock down her throat.</div></li><li class="li1"><div class="de1">&gt;At once.</div></li><li class="li1"><div class="de1">&gt;In a single smooth motion.</div></li><li class="li1"><div class="de1">&gt;She holds herself at the base and looks up at you, working her tongue back and forth as she slowly draws her lips back.</div></li><li class="li1"><div class="de1">&gt;Your cock pulses one more time, and then that&#039;s it</div></li><li class="li1"><div class="de1">&gt;You blow your load in her mouth, your cock pulsing as hot, thick cum paints her tongue.</div></li><li class="li1"><div class="de1">&gt;You can see her eyes roll up a little as she laps at your cock, coaxing your jizz out of you, stroking you off into her mouth</div></li><li class="li1"><div class="de1">&gt;She never spills a drop</div></li><li class="li1"><div class="de1">&gt;When your cock slides out of her mouth, she sticks her jizz-smeared tongue out at you to show you the huge load you just nutted in her mouth, then makes a show of swallowing it down and licking her lips.</div></li><li class="li1"><div class="de1">&gt;&quot;Human cum tastes REALLY good. Where are you staying again?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Two weeks later</div></li><li class="li1"><div class="de1">&gt;You&#039;ve settled in nicely. You have had absolutely no complaints since your official welcome to the city by Rose.</div></li><li class="li1"><div class="de1">&gt;Shame you never saw her again after that.</div></li><li class="li1"><div class="de1">&gt;Gods, that tongue.</div></li><li class="li1"><div class="de1">&gt;Your day has mostly consisted of doing school work and working at a small electronics ship over in the market district, a job which basically involves you pretending you&#039;re Han Solo all day.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t know what half of this shit even is but your manager does and that&#039;s all that matters.</div></li><li class="li1"><div class="de1">&gt;The fact he doesn&#039;t give a shit if you smoke pot ion the job helps too</div></li><li class="li1"><div class="de1">&gt;Mostly because he&#039;s a fucking chimney himself</div></li><li class="li1"><div class="de1">&gt;You never knew rhino anthros had a thing for smoking, but you&#039;re learning new things every day at this point</div></li><li class="li1"><div class="de1">&gt;The casual nudity has grown on you. You&#039;ve even partaken a couple times yourself when you were confident no one you would know was around.</div></li><li class="li1"><div class="de1">&gt;Mostly you&#039;ve gotten curious looks, compliments and questions about the lack of scars.</div></li><li class="li1"><div class="de1">&gt;No idea what that last one is about, but whatever.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re sitting in the food court one day just after work, pecking at some nacho fries and thinking about what you&#039;ll do when you get home.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not that you don&#039;t like your family, you do. They&#039;re your family. Just, you&#039;re tired of sharing a room with your step sister and not having your own space and literally EVERYTHING in this city is about personal space and lack of boundaries.</div></li><li class="li1"><div class="de1">&gt;It&#039;s a constant reminder of the things you don&#039;t have.</div></li><li class="li1"><div class="de1">&gt;Consequently, you&#039;ve learned to meander and take your time and generally fuck around on your way home from work. </div></li><li class="li1"><div class="de1">&gt;Hence, the food court.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Nacho fries aren&#039;t half bad, actually.</div></li><li class="li1"><div class="de1">&gt;You&#039;ve been meandering around the entertainment district, a huge vertical shaft nearly a mile deep with platforms hung at various levels above and below bridges going back and forth between the walls. </div></li><li class="li1"><div class="de1">&gt;It&#039;s very Star Wars</div></li><li class="li1"><div class="de1">&gt;It&#039;s also very easy to get lost in.</div></li><li class="li1"><div class="de1">&gt;That happened two days ago and it took awhile to get home, unfortunately.</div></li><li class="li1"><div class="de1">&gt;It&#039;s while you&#039;re pondering on that when the mouse sits down in front of you.</div></li><li class="li1"><div class="de1">&gt;&quot;Hi! Sorry, all the tables are taken.&quot; She looks apologetic. At least she has clothes on, though. You can tell she isn&#039;t wearing a bra.</div></li><li class="li1"><div class="de1">&gt;Goddammit brain, you&#039;re distracting.</div></li><li class="li1"><div class="de1">&gt;Brain: I regret nothing.</div></li><li class="li1"><div class="de1">&gt;You tell her it&#039;s fine, you were lost in thought anyways. She&#039;s no bother. </div></li><li class="li1"><div class="de1">&gt;&quot;Thanks, you&#039;re sweet. Not a lot of humans hang out here. What brings you to Zero?&quot; </div></li><li class="li1"><div class="de1">&gt;She&#039;s eating what looks like...</div></li><li class="li1"><div class="de1">&gt;Wait a minute, this fucking girl got nacho fries.</div></li><li class="li1"><div class="de1">&gt;Great minds think alike.</div></li><li class="li1"><div class="de1">&gt;&quot;Hah, yeah. I dunno, just had a craving for them. Funny that you got them too. Hey, don&#039;t think I didn&#039;t notice you dodging my question.&quot; She&#039;s wiggling her fork at you, smiling. </div></li><li class="li1"><div class="de1">&gt;Ah, you moved to the city. Your dads in politics but you try to stay out of all of that, so mostly it just leaves you in an unfamiliar place with a completely different culture.</div></li><li class="li1"><div class="de1">&gt;&quot;Ooh, that must be rough. Culture shock, huh?&quot; She&#039;s eating, nodding thoughtfully. It&#039;s making her ears bob while her head moves.</div></li><li class="li1"><div class="de1">&gt;Why do they all have to have adorable mannerisms and body language?</div></li><li class="li1"><div class="de1">&gt;Oh, right. Genetically engineered to be cute.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not so bad though, really. The people are, ah, friendly and the entire city is pretty sci-fi.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, I know what you mean. Everyone is super touchy-feely. I love the holo-walls too. You know I didn&#039;t grow up here?&quot;</div></li><li class="li1"><div class="de1">&gt;Really?</div></li><li class="li1"><div class="de1">&gt;&quot;Really. I&#039;m from Canada. I only moved here two years ago, for work.&quot;</div></li><li class="li1"><div class="de1">&gt;That&#039;s pretty cool. You&#039;ve been to Canada, everyone was really polite.</div></li><li class="li1"><div class="de1">&gt;&quot;Why thank you~&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;So she&#039;s not the touchy-feely type then?</div></li><li class="li1"><div class="de1">&gt;&quot;Well, I mean... all of us Genkits are, a little. We like physical contact. The way humans do, but it&#039;s kind of amped up. We&#039;d probably drive each other crazy if not for the social bonding we have.&quot;</div></li><li class="li1"><div class="de1">&gt;Huh?</div></li><li class="li1"><div class="de1">&gt;&quot;Okay, so... humans form social bonds through school, work, that kinda thing right?&quot;</div></li><li class="li1"><div class="de1">&gt;Right, yeah. You&#039;ve made friends that way, sure.</div></li><li class="li1"><div class="de1">&gt;&quot;But humans also got there through evolution, and that&#039;s messy. We didn&#039;t. Six, seven generations ago we were made to be... I dunno, race-loyal, I guess? The idea of attacking another Genkit, it&#039;s just not something that occurs to us. Exploitation of each other that way. For humans, that was a necessary, even a beneficial evolutionary trait. For us, it was a drawback, so it was removed.&quot;</div></li><li class="li1"><div class="de1">&gt;You just kind of stare at her across from your empty plate and blink.</div></li><li class="li1"><div class="de1">&gt;What.</div></li><li class="li1"><div class="de1">&gt;&quot;What?&quot;</div></li><li class="li1"><div class="de1">&gt;She sounds like a science lecturer or something.</div></li><li class="li1"><div class="de1">&gt;&quot;Pfft, no. Just good education. Hey, I never caught your name, what is it?&quot;</div></li><li class="li1"><div class="de1">&gt;You&#039;re Anon. Nonny to your friends.</div></li><li class="li1"><div class="de1">&gt;&quot;Cool. Nice to meet you, I&#039;m Mimi.&quot;</div></li><li class="li1"><div class="de1">&gt;That smile.</div></li><li class="li1"><div class="de1">&gt;That damned smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your phone begins beeping at you.</div></li><li class="li1"><div class="de1">&gt;Oh damnit. If you don&#039;t get moving you won&#039;t be home in time to help your mom set up that stupid bookshelf like you promised.</div></li><li class="li1"><div class="de1">&gt;Uuuuggghhh.</div></li><li class="li1"><div class="de1">&gt;&quot;No, it&#039;s cool. I get it.&quot; She&#039;s smiling at you. &quot;Taking care of your priorities shows a good head on your shoulders, you should do that. Maybe I&#039;ll see you around, yeah? I usually get off work right about now.&quot;</div></li><li class="li1"><div class="de1">&gt;Oh shit, you got off work only 20 minutes ago.</div></li><li class="li1"><div class="de1">&gt;You really might run into her again.</div></li><li class="li1"><div class="de1">&gt;Not that you have time to contemplate it. With some goodbyes, you wave to her and take off towards the lifts to the level with the transport cars so you can get to the residential district.</div></li><li class="li1"><div class="de1">&gt;You&#039;re probably gonna be late.</div></li><li class="li1"><div class="de1">&gt;Oh well, mom can deal.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You were late.</div></li><li class="li1"><div class="de1">&gt;Mom is not dealing.</div></li><li class="li1"><div class="de1">&gt;She&#039;s pretty mad at your ass actually, mostly because of the breaking of the commitment without sending any word. You didn&#039;t call ahead.</div></li><li class="li1"><div class="de1">&gt;Okay, fair enough. The circumstances around your tardiness come to light.</div></li><li class="li1"><div class="de1">&gt;She&#039;s a little wary about that.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon, you have to be careful, you know. These anthro girls, they&#039;re not like us. They don&#039;t get attached. You get all lovey-dovey about one and you&#039;ll get your heart broken a week later. It&#039;s just for a year, dear. Then we&#039;ll head back to America and you can find a real girl to date.&quot;</div></li><li class="li1"><div class="de1">&gt;A real girl</div></li><li class="li1"><div class="de1">&gt;That kind of casual bigotry is part of why you&#039;re at odd with them a lot.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t like hearing it from her, but it&#039;ll cause a fight if you say anything, so you let it go for now.</div></li><li class="li1"><div class="de1">&gt;Get the bookshelf done so you can fuck off and go smoke some of what Sam, your boss, gave you.</div></li><li class="li1"><div class="de1">&gt;You&#039;d swear he&#039;s a rastafari or something but you&#039;ve never heard of a rasta rhino.</div></li><li class="li1"><div class="de1">&gt;Yet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The next day</div></li><li class="li1"><div class="de1">&gt;You&#039;re just finishing work, you&#039;ve just punched out, Sam&#039;s thanked you with a pat on the back and a couple of grams of the good stuff</div></li><li class="li1"><div class="de1">&gt;You&#039;re beginning to think he has a grow operation someplace but since it&#039;s legal in Zero, you can&#039;t really complain about the free smoke</div></li><li class="li1"><div class="de1">&gt;Not that you would</div></li><li class="li1"><div class="de1">&gt;Sam is a fuckin&#039; solid guy. You&#039;ve seen him cut deals for people who could almost afford things, work out payment plans for people who needed things, take losses on a buy because someone needed the money desperately.</div></li><li class="li1"><div class="de1">&gt;Sam has a heart, you&#039;ll give him that much.</div></li><li class="li1"><div class="de1">&gt;You&#039;re just arriving at the food cart you usually go to, you have NO idea what this guys name is but holy shit he makes the best nachos, burritos, tacos and shawarma you have ever had in your entire life.</div></li><li class="li1"><div class="de1">&gt;The guys a gecko, you think. Maybe a chameleon. You don&#039;t know lizards too well.</div></li><li class="li1"><div class="de1">&gt;Actually, come to think of it, it could be several lizard-guys all related to each other and you would have no idea.</div></li><li class="li1"><div class="de1">&gt;Shit. Genkits all kind of look the same to you.</div></li><li class="li1"><div class="de1">&gt;Is that racist?</div></li><li class="li1"><div class="de1">&gt;Time has run out to contemplate this riveting train of thought because your turn has come up. </div></li><li class="li1"><div class="de1">&gt;Bomb burrito for days, baby.</div></li><li class="li1"><div class="de1">&gt;Biggest goddamned thing you&#039;ve ever seen. You were amazed it didn&#039;t fall apart the first time you saw it.</div></li><li class="li1"><div class="de1">&gt;Proper American food, in other words.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re standing there waiting for your grub when you feel a tap on your shoulder.</div></li><li class="li1"><div class="de1">&gt;You turn to look but no one is there, so you look the other side, and then down.</div></li><li class="li1"><div class="de1">&gt;Oh, it&#039;s the mouse from the other day. </div></li><li class="li1"><div class="de1">&gt;&quot;Hi again!&quot; She&#039;s only about as tall as your chest. You didn&#039;t notice she was a shortstack yesterday. &quot;Told you I&#039;d see you again. Whatcha getting?&quot;</div></li><li class="li1"><div class="de1">&gt;The Bomb.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, gods. Really? Do you think you can eat it all?&quot;</div></li><li class="li1"><div class="de1">&gt;Proooobably not, but you need to make this sacrifice and make the attempt anyways.</div></li><li class="li1"><div class="de1">&gt;For science.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That makes her giggle. &quot;Okay, well, tell you what. I&#039;ll get something small, and if you can&#039;t finish it, I will. I don&#039;t think you&#039;ll get even halfway though, and if you do, I&#039;ll totally pay for it.&quot;</div></li><li class="li1"><div class="de1">&gt;What, get a free lunch? Why aren&#039;t you worried about human cooties or something?</div></li><li class="li1"><div class="de1">&gt;She just rolls her eyes at you. &quot;Nonny, we can&#039;t get 90% of the diseases you get. You won&#039;t make me sick.&quot; She hugs your arm, leaning into you casually.</div></li><li class="li1"><div class="de1">&gt;She&#039;s even wagging her tail.</div></li><li class="li1"><div class="de1">&gt;Holy shit, she&#039;s wagging her tail.</div></li><li class="li1"><div class="de1">&gt;Your brain is about to explode from the cute, fuck.</div></li><li class="li1"><div class="de1">&gt;Your food comes up and she oohs, mostly because hers does at the same time. The gecko-meleons are nice enough to put it all one one large tray and she grabs it before you can stop her.</div></li><li class="li1"><div class="de1">&gt;Guess you&#039;re eating together, but it&#039;s fine.</div></li><li class="li1"><div class="de1">&gt;Getting hugged felt kind of nice, like having a really soft blanket thrown on you.</div></li><li class="li1"><div class="de1">&gt;And she IS pretty cute in a mousey sort of way.</div></li><li class="li1"><div class="de1">&gt;&quot;Hey, ground control to Anon. You alive?&quot;</div></li><li class="li1"><div class="de1">&gt;Huh?</div></li><li class="li1"><div class="de1">&gt;She&#039;s sitting down with the tray. &quot;You gonna sit down, dude? You&#039;re just kind of staring off into space.&quot;</div></li><li class="li1"><div class="de1">&gt;Oh, right, you should probably do that.</div></li><li class="li1"><div class="de1">&gt;&quot;What&#039;s on your mind? You kinda did that yesterday too.&quot;</div></li><li class="li1"><div class="de1">&gt;You&#039;re busy unwrapping the Bomb.</div></li><li class="li1"><div class="de1">&gt;She wasn&#039;t joking. The fucking burrito is the size of a small loaf of french bread.</div></li><li class="li1"><div class="de1">&gt;HOW THE HELL DID THEY EVEN DO THAT?</div></li><li class="li1"><div class="de1">&gt;To answer her though, you know... not much. Life in the city, mulling over the coincidence of meeting her again, contemplating your life choices now that you&#039;ve seen what you&#039;ve managed to sign yourself up for.</div></li><li class="li1"><div class="de1">&gt;May the gods watch over your anus.</div></li><li class="li1"><div class="de1">&gt;&quot;Haaaaah. Okay, well, I&#039;ll admit it. I was kind of looking for you.&quot;</div></li><li class="li1"><div class="de1">&gt;Aaaaaa?</div></li><li class="li1"><div class="de1">&gt;&quot;Oh don&#039;t gimme that look. Also, swallow before you do that.&quot; She&#039;s laughing as she says it though. &quot;Okay, look. Remember when I said I grew up in Canada? I grew up mostly around humans.&quot; She gestures around at the food stands, the holo walls with their colorful ads and moving videos and faux environmental conditions.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Look, this city... I lived outdoors my whole life, and everything is enclosed here. The holo walls do a good job of pretending to be windows, and they even make the air smell like places but... it&#039;s not the same, you know? There&#039;s no humans. I&#039;m used to human society, where I&#039;m super touchy and it bothers people. Here, people constantly invade my personal space more than even I&#039;m used to.&quot; She levels a finger at me. &quot;But not you.&quot;</div></li><li class="li1"><div class="de1">&gt;Aaaaaaaaaa?</div></li><li class="li1"><div class="de1">&gt;&quot;You talk to my face, not my tits. And when I hugged your arm a few minutes ago you were cool about it. So yeah.&quot; She looks a little embarrassed. &quot;You remind me of home, and you have no friends here, and I have only a few friends here, so... lets be friends.&quot;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t really argue the logic.</div></li><li class="li1"><div class="de1">&gt;You wonder aloud if she always finishes work the same time.</div></li><li class="li1"><div class="de1">&gt;&quot;Yep, every day. Why, when do you finish?&quot;</div></li><li class="li1"><div class="de1">&gt;You tell her, and let her know where Sams is.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh hey, I know that place! They got some prime shit in there sometimes. I&#039;ve found a lot of my retro video games in there.&quot;</div></li><li class="li1"><div class="de1">&gt;Oh shit</div></li><li class="li1"><div class="de1">&gt;You didn&#039;t think your metaphorical erection could get any harder</div></li><li class="li1"><div class="de1">&gt;Or the literal one</div></li><li class="li1"><div class="de1">&gt;You were wrong</div></li><li class="li1"><div class="de1">&gt;&quot;Do you smoke weed?&quot;</div></li><li class="li1"><div class="de1">&gt;So, so wrong.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;About an hour later you&#039;re both in one of the seasonal parks,massive rooms meant to simulate outdoor conditions in different seasons. Summer, winter, spring, fall.</div></li><li class="li1"><div class="de1">&gt;You came to the autumn one with her, all the leaves golden colored on birch trees, the park grass let grown to knee-height with logs instead of benches and small hidden niches where one can have a small bonfire, provided you have wood for it anyways.</div></li><li class="li1"><div class="de1">&gt;You&#039;re at one of these niches - minus the fire - with Mimi, both of you sitting on the ground, smoking a large blunt between you. </div></li><li class="li1"><div class="de1">&gt;&quot;Man, that sucks.&quot; She&#039;s speaking quietly, puffing and handing it to you after. &quot;Controlling parents, mildly creepy stepsister and you get moved around constantly to boot? No wonder you&#039;re wound up so tight.&quot;</div></li><li class="li1"><div class="de1">&gt;Huh?</div></li><li class="li1"><div class="de1">&gt;&quot;Dude I can literally smell how stressed out you are.&quot;</div></li><li class="li1"><div class="de1">&gt;Oh.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s alright. We have sensitive noses, I can&#039;t really blame you for that.&quot; She grins &quot;Easier to ignore when I&#039;m smoking some prime bud. Where&#039;d you get this?&quot;</div></li><li class="li1"><div class="de1">&gt;From your boss.</div></li><li class="li1"><div class="de1">&gt;&quot;Your boss is the Rasta Rhino? Seriously?&quot;</div></li><li class="li1"><div class="de1">&gt;Fucking seriously?</div></li><li class="li1"><div class="de1">&gt;That&#039;s actually what people call him?</div></li><li class="li1"><div class="de1">&gt;HAHAHAHHAAHAHAHAHAHAA</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Okay, you&#039;ve recovered. You think.</div></li><li class="li1"><div class="de1">&gt;The laughing got pretty intense there for a few minutes.</div></li><li class="li1"><div class="de1">&gt;She joined in halfway through you trying to explain what was so funny, giggling the entire time.</div></li><li class="li1"><div class="de1">&gt;Both of you are leaning on each other, laughing and passing the blunt between you.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh man. Anon, how old are you, seriously?&quot;</div></li><li class="li1"><div class="de1">&gt;Aw. You&#039;re eighteen, but-</div></li><li class="li1"><div class="de1">&gt;&quot;No, no. Eighteen is good. Nice and legal. I&#039;m twenty but I have a hard time telling ages with humans, you all kind of look same-ish sometimes.&quot;</div></li><li class="li1"><div class="de1">&gt;Okay, you&#039;re feeling a little less bad about that now.</div></li><li class="li1"><div class="de1">&gt;It&#039;s a good thing you&#039;re about the same age though, because you can&#039;t really tell with genkits either. Fuckers grow up quick.</div></li><li class="li1"><div class="de1">&gt;&quot;This is the most fun I&#039;ve had in like, months. I mean, I know we didn&#039;t do anything, but still...&quot; She shrugs, grinning at you and passing the joint. &quot;I&#039;ve had a blast. Aren&#039;t your parents gonna wonder where you went?&quot; </div></li><li class="li1"><div class="de1">&gt;Fuck no, you told them you&#039;re staying at Sam&#039;s for a morning job.</div></li><li class="li1"><div class="de1">&gt;&quot;Excellent! I get you to myself all night.&quot;</div></li><li class="li1"><div class="de1">&gt;You give her a look that makes her realize what she just said, laughing and...</div></li><li class="li1"><div class="de1">&gt;Oh my god you didn&#039;t know anthros could blush.</div></li><li class="li1"><div class="de1">&gt;Turns out the fur on her face is very fine, and she totally can, and it&#039;s goddamned adorable.</div></li><li class="li1"><div class="de1">&gt;&quot;Sorry. I wasn&#039;t thinking about what I was saying, I don&#039;t mean... you know.&quot; She rubs the back of her neck. &quot;Just, if you wanna hang out, I&#039;d love to. Hang out. Platonically.&quot;</div></li><li class="li1"><div class="de1">&gt;Her awkwardness is just ramping the cuteness up.</div></li><li class="li1"><div class="de1">&gt;LaForge to bridge, I think we&#039;re in trouble, Captain.</div></li><li class="li1"><div class="de1">&gt;That sounds great though. You haven&#039;t had the chance to see much of the city.</div></li><li class="li1"><div class="de1">&gt;She lights up when she hears that. &quot;Oooh, I am totally gonna show you around!&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  TEST ADS SCRIPT  -->
+    <div style="max-width: 420px; margin: 10px auto;">
+        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+    </div>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Be the son of human diplomat
+&gt;It&#039;s not bad, you&#039;re from the American Empire and that&#039;s a pretty decent country all things considered.
+&gt;Your dad just got assigned as the diplomat to the consulate for the A.E. in City Zero though, the anthro city-state built underneath Antarctica.
+&gt;The Genkits don&#039;t really have a lot of reason to love Americans, what with the whole.. trying to genocide them a century ago.
+&gt;It&#039;s not BAD per se, but a lot of Purists come from America, and it kind of paints everyone in a bad light.
+
+&gt;The apartment you get is in the residential district, one of several large underground districts the city is divided into.
+&gt;It&#039;s pretty nice. The district isn&#039;t hard to navigate, with lifts going to the various levels. Uppers are nicer apartments, bigger, more expensive. Lowers are cheaper housing.
+&gt;Though you have to admit, even the shitty parts of the city look pretty good.
+&gt;The apartments are no exception but you&#039;re getting restless, your family has been cooped up for three days getting unpacked and if you don&#039;t get out of here soon you&#039;re going to detonate, or something.
+&gt;So when your parents aren&#039;t looking you quietly disappear out of the apartment and hit the lifts, vanishing to another floor of the district, where you can get to the transportation system that runs throughout the city.
+&gt;FREEDOM
+&gt;When you arrived in the city you fell asleep on the way into the residential district, so you didn&#039;t really see a lot. That&#039;s changing now.
+&gt;The first thing you&#039;re discovering is that Genkits like nudity. Like, a lot.
+&gt;Not too surprising, even with everywhere in the city being climate controlled. They ARE anthros, after all.
+&gt;Genetically engineered and designed to be nice to look at but covered in fur nonetheless.
+&gt;Goddammit, PETA. You just HAD to start all this over animal rights, didn&#039;t you?
+
+&gt;Your thoughts nearly betray you as you run headfirst into a red panda who&#039;s running to the lift platform, both of you bowling over and eating shit next to the transport car doors.
+&gt;The first thing you&#039;re aware of is being on your back, and most of you hurting.
+&gt;The second thing is her tits in your face.
+&gt;&quot;I&#039;m so sorry!&quot; She&#039;s standing up, pulling you to your feet. &quot;I totally didn&#039;t see you there, are you okay?&quot;
+&gt;You&#039;re okay, it&#039;s cool. No harm done. Plus, you know, titties. Does a boy some good.
+&gt;&quot;Hah! Humans aren&#039;t usually that forward. I&#039;m Rose, who&#039;re you?&quot; She&#039;s talking and opening the car at the same time, climbing in.
+&gt;You take some time, explain your circumstances. Anon, delver of the anthro vaults and newly made immigrant to the city.
+&gt;&quot;Wow, no kidding, you&#039;re living here? That&#039;s pretty unheard of.&quot; Gods, this girl is distracting. Naked as the day she was born, hourglass figure. You can tell she&#039;s at least a C cup, the flesh of her nipples a dark black.
+&gt;&quot;Hellooo?&quot; She&#039;s laughing, snapping her fingers in your face. &quot;Hi, up here.&quot; Well, she doesn&#039;t SEEM to be mad, anyways. &quot;Let me guess, not used to the nudity?&quot;
+&gt;REALLY not used to the nudity, no.
+&gt;&quot;That&#039;s adorable. It&#039;s okay, Genkit attitudes towards sex are pretty relaxed. I don&#039;t mind being looked at.&quot; She actually shimmies a little for you, jiggling her tits and grinning wryly. 
+&gt;Good gods, you could get used to this place.
+&gt;Just how old is Rose, anyways?
+&gt;&quot;Oh, don&#039;t worry.&quot; She pffts. &quot;Age of consent is a pretty complicated issue here. Generally if you&#039;re old enough to be interested in sex, you&#039;re old enough to hit the red light district and learn about it. I&#039;ve been fucking since I was having my first period, it&#039;s no big deal. Never a human though. Is it different for you?&quot;
+&gt;Well it&#039;s not like you&#039;re gonna know, you&#039;re a fuckin&#039; virgin. You&#039;re still in highschool!
+&gt;Online courses, yeah, but... still.
+&gt;Uh oh. She&#039;s got a gleam in her eye. &quot;Oh you are, are you?&quot;
+
+&gt;You&#039;re not sure if you should answer that or not.
+&gt;&quot;It&#039;s okay! I&#039;ve heard humans make a pretty big deal out of sex.&quot; She shrugs, leaning back and grinning, letting her legs part a little.
+&gt;You can see her slit, framed in light red fur but it thins our around her lips, showing light black skin.
+&gt;Which is glistening.
+&gt;Oh fuck, she&#039;s wet.
+&gt;&quot;You ever fooled around with anyone?&quot; She keys the car, the controls beeping as it slows to a stop then thumps off the track halfway down the tunnel, parking temporarily.
+&gt;Uh, what?
+&gt;&quot;No, seriously.&quot; She gestures at you. &quot;Tell me. C&#039;mon. I&#039;m seriously thinking of fucking you here, now. You&#039;re cute and I&#039;ve never had the chance with a human, AND you&#039;re a virgin. No way I&#039;m letting you get away.&quot; She&#039;s laughing.
+&gt;Uh, what if I want to?
+&gt;&quot;Well, I&#039;m not gonna force you. But...&quot; She parts her thighs, fingers sliding down as she spreads the lips of her pussy. She&#039;s so wet it&#039;s dribbling down her ass, her finger smearing it across her clit as she traces a light circle around it.
+&gt;&quot;..If you want, I&#039;ll let you have your way any way you want. Your first girl will be an anthro and you&#039;ll never want human pussy again, trust me.&quot;
+&gt;Jesus, the smirk when she says it.
+&gt;She almost moans it, sliding her fingers into herself at the same time, gasping. 
+&gt;You can smell how wet she is, it&#039;s filling the tiny cabin and your cock is rock hard.
+&gt;Why is this even a debate?
+&gt;Oh, right. It&#039;s really not.
+&gt;You get up, pulling your shirt off and throwing it at her face, making her giggle as you kick off your pants.
+&gt;&quot;Oh wow, it&#039;s so smooth! It&#039;s shaped differently, too.&quot; She&#039;s up immediately, moving between your knees as you sit back in the cars seat, moving your legs apart for her. &quot;Wow.&quot;
+&gt;She&#039;s running her fingertips back and forth across your cock, her finger fingers smearing girlcum under the head as her other hand wraps around your shaft, stroking slowly.
+&gt;&quot;Can I do buttstuff with you?&quot;
+&gt;Can you what now?
+
+&gt;&quot;Butt stuff. My fingers, my tongue.&quot; She&#039;s grinning, leaning in and sliding her tongue from the base of your cock to the head, then wrapping her lips around it and working her tongue in circles inside her mouth against the glans under the head of your cock.
+&gt;You&#039;re REALLY beginning to like this goddamned city.
+&gt;Frankly, you don&#039;t give a shit what she does as long as it feels as good as this. 
+&gt;&quot;Oooh! Good.&quot; She almost purrs the word, moving your legs apart and stroking your cock overhand before her tongue presses against your asshole and for a few seconds, time stops.
+&gt;You&#039;ve never felt anything like it.
+&gt;Your cock throbs hard in her hand, her tongue moving away as she squeezes your cock lightly, stroking upward while her tongue works its way to your balls
+&gt;Oh gods, she&#039;s sucking on them, you can feel her tongue darting against them while she strokes you off.
+&gt;Your cock is throbbing pretty hard in her hand when she stops and you&#039;re left panting, looking at her like &#039;why&#039;d you stop?&#039;.
+&gt;She smirks and answers you by taking your whole cock down her throat.
+&gt;At once.
+&gt;In a single smooth motion.
+&gt;She holds herself at the base and looks up at you, working her tongue back and forth as she slowly draws her lips back.
+&gt;Your cock pulses one more time, and then that&#039;s it
+&gt;You blow your load in her mouth, your cock pulsing as hot, thick cum paints her tongue.
+&gt;You can see her eyes roll up a little as she laps at your cock, coaxing your jizz out of you, stroking you off into her mouth
+&gt;She never spills a drop
+&gt;When your cock slides out of her mouth, she sticks her jizz-smeared tongue out at you to show you the huge load you just nutted in her mouth, then makes a show of swallowing it down and licking her lips.
+&gt;&quot;Human cum tastes REALLY good. Where are you staying again?&quot;
+
+&gt;Two weeks later
+&gt;You&#039;ve settled in nicely. You have had absolutely no complaints since your official welcome to the city by Rose.
+&gt;Shame you never saw her again after that.
+&gt;Gods, that tongue.
+&gt;Your day has mostly consisted of doing school work and working at a small electronics ship over in the market district, a job which basically involves you pretending you&#039;re Han Solo all day.
+&gt;You don&#039;t know what half of this shit even is but your manager does and that&#039;s all that matters.
+&gt;The fact he doesn&#039;t give a shit if you smoke pot ion the job helps too
+&gt;Mostly because he&#039;s a fucking chimney himself
+&gt;You never knew rhino anthros had a thing for smoking, but you&#039;re learning new things every day at this point
+&gt;The casual nudity has grown on you. You&#039;ve even partaken a couple times yourself when you were confident no one you would know was around.
+&gt;Mostly you&#039;ve gotten curious looks, compliments and questions about the lack of scars.
+&gt;No idea what that last one is about, but whatever.
+
+&gt;You&#039;re sitting in the food court one day just after work, pecking at some nacho fries and thinking about what you&#039;ll do when you get home.
+&gt;It&#039;s not that you don&#039;t like your family, you do. They&#039;re your family. Just, you&#039;re tired of sharing a room with your step sister and not having your own space and literally EVERYTHING in this city is about personal space and lack of boundaries.
+&gt;It&#039;s a constant reminder of the things you don&#039;t have.
+&gt;Consequently, you&#039;ve learned to meander and take your time and generally fuck around on your way home from work. 
+&gt;Hence, the food court.
+
+&gt;Nacho fries aren&#039;t half bad, actually.
+&gt;You&#039;ve been meandering around the entertainment district, a huge vertical shaft nearly a mile deep with platforms hung at various levels above and below bridges going back and forth between the walls. 
+&gt;It&#039;s very Star Wars
+&gt;It&#039;s also very easy to get lost in.
+&gt;That happened two days ago and it took awhile to get home, unfortunately.
+&gt;It&#039;s while you&#039;re pondering on that when the mouse sits down in front of you.
+&gt;&quot;Hi! Sorry, all the tables are taken.&quot; She looks apologetic. At least she has clothes on, though. You can tell she isn&#039;t wearing a bra.
+&gt;Goddammit brain, you&#039;re distracting.
+&gt;Brain: I regret nothing.
+&gt;You tell her it&#039;s fine, you were lost in thought anyways. She&#039;s no bother. 
+&gt;&quot;Thanks, you&#039;re sweet. Not a lot of humans hang out here. What brings you to Zero?&quot; 
+&gt;She&#039;s eating what looks like...
+&gt;Wait a minute, this fucking girl got nacho fries.
+&gt;Great minds think alike.
+&gt;&quot;Hah, yeah. I dunno, just had a craving for them. Funny that you got them too. Hey, don&#039;t think I didn&#039;t notice you dodging my question.&quot; She&#039;s wiggling her fork at you, smiling. 
+&gt;Ah, you moved to the city. Your dads in politics but you try to stay out of all of that, so mostly it just leaves you in an unfamiliar place with a completely different culture.
+&gt;&quot;Ooh, that must be rough. Culture shock, huh?&quot; She&#039;s eating, nodding thoughtfully. It&#039;s making her ears bob while her head moves.
+&gt;Why do they all have to have adorable mannerisms and body language?
+&gt;Oh, right. Genetically engineered to be cute.
+&gt;It&#039;s not so bad though, really. The people are, ah, friendly and the entire city is pretty sci-fi.
+&gt;&quot;Oh, I know what you mean. Everyone is super touchy-feely. I love the holo-walls too. You know I didn&#039;t grow up here?&quot;
+&gt;Really?
+&gt;&quot;Really. I&#039;m from Canada. I only moved here two years ago, for work.&quot;
+&gt;That&#039;s pretty cool. You&#039;ve been to Canada, everyone was really polite.
+&gt;&quot;Why thank you~&quot;
+
+&gt;So she&#039;s not the touchy-feely type then?
+&gt;&quot;Well, I mean... all of us Genkits are, a little. We like physical contact. The way humans do, but it&#039;s kind of amped up. We&#039;d probably drive each other crazy if not for the social bonding we have.&quot;
+&gt;Huh?
+&gt;&quot;Okay, so... humans form social bonds through school, work, that kinda thing right?&quot;
+&gt;Right, yeah. You&#039;ve made friends that way, sure.
+&gt;&quot;But humans also got there through evolution, and that&#039;s messy. We didn&#039;t. Six, seven generations ago we were made to be... I dunno, race-loyal, I guess? The idea of attacking another Genkit, it&#039;s just not something that occurs to us. Exploitation of each other that way. For humans, that was a necessary, even a beneficial evolutionary trait. For us, it was a drawback, so it was removed.&quot;
+&gt;You just kind of stare at her across from your empty plate and blink.
+&gt;What.
+&gt;&quot;What?&quot;
+&gt;She sounds like a science lecturer or something.
+&gt;&quot;Pfft, no. Just good education. Hey, I never caught your name, what is it?&quot;
+&gt;You&#039;re Anon. Nonny to your friends.
+&gt;&quot;Cool. Nice to meet you, I&#039;m Mimi.&quot;
+&gt;That smile.
+&gt;That damned smile.
+
+&gt;Your phone begins beeping at you.
+&gt;Oh damnit. If you don&#039;t get moving you won&#039;t be home in time to help your mom set up that stupid bookshelf like you promised.
+&gt;Uuuuggghhh.
+&gt;&quot;No, it&#039;s cool. I get it.&quot; She&#039;s smiling at you. &quot;Taking care of your priorities shows a good head on your shoulders, you should do that. Maybe I&#039;ll see you around, yeah? I usually get off work right about now.&quot;
+&gt;Oh shit, you got off work only 20 minutes ago.
+&gt;You really might run into her again.
+&gt;Not that you have time to contemplate it. With some goodbyes, you wave to her and take off towards the lifts to the level with the transport cars so you can get to the residential district.
+&gt;You&#039;re probably gonna be late.
+&gt;Oh well, mom can deal.
+
+&gt;You were late.
+&gt;Mom is not dealing.
+&gt;She&#039;s pretty mad at your ass actually, mostly because of the breaking of the commitment without sending any word. You didn&#039;t call ahead.
+&gt;Okay, fair enough. The circumstances around your tardiness come to light.
+&gt;She&#039;s a little wary about that.
+&gt;&quot;Anon, you have to be careful, you know. These anthro girls, they&#039;re not like us. They don&#039;t get attached. You get all lovey-dovey about one and you&#039;ll get your heart broken a week later. It&#039;s just for a year, dear. Then we&#039;ll head back to America and you can find a real girl to date.&quot;
+&gt;A real girl
+&gt;That kind of casual bigotry is part of why you&#039;re at odd with them a lot.
+&gt;You don&#039;t like hearing it from her, but it&#039;ll cause a fight if you say anything, so you let it go for now.
+&gt;Get the bookshelf done so you can fuck off and go smoke some of what Sam, your boss, gave you.
+&gt;You&#039;d swear he&#039;s a rastafari or something but you&#039;ve never heard of a rasta rhino.
+&gt;Yet.
+
+&gt;The next day
+&gt;You&#039;re just finishing work, you&#039;ve just punched out, Sam&#039;s thanked you with a pat on the back and a couple of grams of the good stuff
+&gt;You&#039;re beginning to think he has a grow operation someplace but since it&#039;s legal in Zero, you can&#039;t really complain about the free smoke
+&gt;Not that you would
+&gt;Sam is a fuckin&#039; solid guy. You&#039;ve seen him cut deals for people who could almost afford things, work out payment plans for people who needed things, take losses on a buy because someone needed the money desperately.
+&gt;Sam has a heart, you&#039;ll give him that much.
+&gt;You&#039;re just arriving at the food cart you usually go to, you have NO idea what this guys name is but holy shit he makes the best nachos, burritos, tacos and shawarma you have ever had in your entire life.
+&gt;The guys a gecko, you think. Maybe a chameleon. You don&#039;t know lizards too well.
+&gt;Actually, come to think of it, it could be several lizard-guys all related to each other and you would have no idea.
+&gt;Shit. Genkits all kind of look the same to you.
+&gt;Is that racist?
+&gt;Time has run out to contemplate this riveting train of thought because your turn has come up. 
+&gt;Bomb burrito for days, baby.
+&gt;Biggest goddamned thing you&#039;ve ever seen. You were amazed it didn&#039;t fall apart the first time you saw it.
+&gt;Proper American food, in other words.
+
+&gt;You&#039;re standing there waiting for your grub when you feel a tap on your shoulder.
+&gt;You turn to look but no one is there, so you look the other side, and then down.
+&gt;Oh, it&#039;s the mouse from the other day. 
+&gt;&quot;Hi again!&quot; She&#039;s only about as tall as your chest. You didn&#039;t notice she was a shortstack yesterday. &quot;Told you I&#039;d see you again. Whatcha getting?&quot;
+&gt;The Bomb.
+&gt;&quot;Oh, gods. Really? Do you think you can eat it all?&quot;
+&gt;Proooobably not, but you need to make this sacrifice and make the attempt anyways.
+&gt;For science.
+
+&gt;That makes her giggle. &quot;Okay, well, tell you what. I&#039;ll get something small, and if you can&#039;t finish it, I will. I don&#039;t think you&#039;ll get even halfway though, and if you do, I&#039;ll totally pay for it.&quot;
+&gt;What, get a free lunch? Why aren&#039;t you worried about human cooties or something?
+&gt;She just rolls her eyes at you. &quot;Nonny, we can&#039;t get 90% of the diseases you get. You won&#039;t make me sick.&quot; She hugs your arm, leaning into you casually.
+&gt;She&#039;s even wagging her tail.
+&gt;Holy shit, she&#039;s wagging her tail.
+&gt;Your brain is about to explode from the cute, fuck.
+&gt;Your food comes up and she oohs, mostly because hers does at the same time. The gecko-meleons are nice enough to put it all one one large tray and she grabs it before you can stop her.
+&gt;Guess you&#039;re eating together, but it&#039;s fine.
+&gt;Getting hugged felt kind of nice, like having a really soft blanket thrown on you.
+&gt;And she IS pretty cute in a mousey sort of way.
+&gt;&quot;Hey, ground control to Anon. You alive?&quot;
+&gt;Huh?
+&gt;She&#039;s sitting down with the tray. &quot;You gonna sit down, dude? You&#039;re just kind of staring off into space.&quot;
+&gt;Oh, right, you should probably do that.
+&gt;&quot;What&#039;s on your mind? You kinda did that yesterday too.&quot;
+&gt;You&#039;re busy unwrapping the Bomb.
+&gt;She wasn&#039;t joking. The fucking burrito is the size of a small loaf of french bread.
+&gt;HOW THE HELL DID THEY EVEN DO THAT?
+&gt;To answer her though, you know... not much. Life in the city, mulling over the coincidence of meeting her again, contemplating your life choices now that you&#039;ve seen what you&#039;ve managed to sign yourself up for.
+&gt;May the gods watch over your anus.
+&gt;&quot;Haaaaah. Okay, well, I&#039;ll admit it. I was kind of looking for you.&quot;
+&gt;Aaaaaa?
+&gt;&quot;Oh don&#039;t gimme that look. Also, swallow before you do that.&quot; She&#039;s laughing as she says it though. &quot;Okay, look. Remember when I said I grew up in Canada? I grew up mostly around humans.&quot; She gestures around at the food stands, the holo walls with their colorful ads and moving videos and faux environmental conditions.
+
+&gt;&quot;Look, this city... I lived outdoors my whole life, and everything is enclosed here. The holo walls do a good job of pretending to be windows, and they even make the air smell like places but... it&#039;s not the same, you know? There&#039;s no humans. I&#039;m used to human society, where I&#039;m super touchy and it bothers people. Here, people constantly invade my personal space more than even I&#039;m used to.&quot; She levels a finger at me. &quot;But not you.&quot;
+&gt;Aaaaaaaaaa?
+&gt;&quot;You talk to my face, not my tits. And when I hugged your arm a few minutes ago you were cool about it. So yeah.&quot; She looks a little embarrassed. &quot;You remind me of home, and you have no friends here, and I have only a few friends here, so... lets be friends.&quot;
+&gt;You can&#039;t really argue the logic.
+&gt;You wonder aloud if she always finishes work the same time.
+&gt;&quot;Yep, every day. Why, when do you finish?&quot;
+&gt;You tell her, and let her know where Sams is.
+&gt;&quot;Oh hey, I know that place! They got some prime shit in there sometimes. I&#039;ve found a lot of my retro video games in there.&quot;
+&gt;Oh shit
+&gt;You didn&#039;t think your metaphorical erection could get any harder
+&gt;Or the literal one
+&gt;You were wrong
+&gt;&quot;Do you smoke weed?&quot;
+&gt;So, so wrong.
+
+&gt;About an hour later you&#039;re both in one of the seasonal parks,massive rooms meant to simulate outdoor conditions in different seasons. Summer, winter, spring, fall.
+&gt;You came to the autumn one with her, all the leaves golden colored on birch trees, the park grass let grown to knee-height with logs instead of benches and small hidden niches where one can have a small bonfire, provided you have wood for it anyways.
+&gt;You&#039;re at one of these niches - minus the fire - with Mimi, both of you sitting on the ground, smoking a large blunt between you. 
+&gt;&quot;Man, that sucks.&quot; She&#039;s speaking quietly, puffing and handing it to you after. &quot;Controlling parents, mildly creepy stepsister and you get moved around constantly to boot? No wonder you&#039;re wound up so tight.&quot;
+&gt;Huh?
+&gt;&quot;Dude I can literally smell how stressed out you are.&quot;
+&gt;Oh.
+
+&gt;&quot;It&#039;s alright. We have sensitive noses, I can&#039;t really blame you for that.&quot; She grins &quot;Easier to ignore when I&#039;m smoking some prime bud. Where&#039;d you get this?&quot;
+&gt;From your boss.
+&gt;&quot;Your boss is the Rasta Rhino? Seriously?&quot;
+&gt;Fucking seriously?
+&gt;That&#039;s actually what people call him?
+&gt;HAHAHAHHAAHAHAHAHAHAA
+
+&gt;Okay, you&#039;ve recovered. You think.
+&gt;The laughing got pretty intense there for a few minutes.
+&gt;She joined in halfway through you trying to explain what was so funny, giggling the entire time.
+&gt;Both of you are leaning on each other, laughing and passing the blunt between you.
+&gt;&quot;Oh man. Anon, how old are you, seriously?&quot;
+&gt;Aw. You&#039;re eighteen, but-
+&gt;&quot;No, no. Eighteen is good. Nice and legal. I&#039;m twenty but I have a hard time telling ages with humans, you all kind of look same-ish sometimes.&quot;
+&gt;Okay, you&#039;re feeling a little less bad about that now.
+&gt;It&#039;s a good thing you&#039;re about the same age though, because you can&#039;t really tell with genkits either. Fuckers grow up quick.
+&gt;&quot;This is the most fun I&#039;ve had in like, months. I mean, I know we didn&#039;t do anything, but still...&quot; She shrugs, grinning at you and passing the joint. &quot;I&#039;ve had a blast. Aren&#039;t your parents gonna wonder where you went?&quot; 
+&gt;Fuck no, you told them you&#039;re staying at Sam&#039;s for a morning job.
+&gt;&quot;Excellent! I get you to myself all night.&quot;
+&gt;You give her a look that makes her realize what she just said, laughing and...
+&gt;Oh my god you didn&#039;t know anthros could blush.
+&gt;Turns out the fur on her face is very fine, and she totally can, and it&#039;s goddamned adorable.
+&gt;&quot;Sorry. I wasn&#039;t thinking about what I was saying, I don&#039;t mean... you know.&quot; She rubs the back of her neck. &quot;Just, if you wanna hang out, I&#039;d love to. Hang out. Platonically.&quot;
+&gt;Her awkwardness is just ramping the cuteness up.
+&gt;LaForge to bridge, I think we&#039;re in trouble, Captain.
+&gt;That sounds great though. You haven&#039;t had the chance to see much of the city.
+&gt;She lights up when she hears that. &quot;Oooh, I am totally gonna show you around!&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <!-- /21892923737/pb_footer_728x90 -->
+    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
+        </script>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/dqGkThKL">Linear array rotation</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    4 min ago                </div>
+            </li>
+                    <li>
+                <a href="/QZAHqgBF">input.gml</a>
+                <div class="details">
+                                            Game Maker |
+                    
+                    42 min ago                </div>
+            </li>
+                    <li>
+                <a href="/HJprFwNN">Treinamento</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/udB5F1X2">Slot</a>
+                <div class="details">
+                                            JSON |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
+                <div class="details">
+                                            HTML |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/WzEceHRa">Cram-o-Matic</a>
+                <div class="details">
+                                            Ruby |
+                    
+                    3 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/6y6k1Jmm">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/Qea9Uraw">Untitled</a>
+                <div class="details">
+                                            C++ |
+                    
+                    4 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <!-- /21892923737/pb_sidebar_120x600 -->
+    <div id="div-gpt-ad-1593095572267-0">
+        <script>
+            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
+        </script>
+    </div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+                <br><br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
+<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
+</body>
+</html>

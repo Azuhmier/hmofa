@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pactbearer Pt. 1 - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Pactbearer Pt. 1 - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/d2NawY3v" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/d2NawY3v" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="9MuvRcnNaW9GIyNeRxxFUG5adnoflIQz8pPuNPRbTdKfrZt3r-AFJXJIWgcxb2g5FAhFGXv44nKg5qJA2SIskQ==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/d2NawY3v" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/d2NawY3v" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Pixelated_Hobo">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Pactbearer Pt. 1</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Pixelated_Hobo">Pixelated_Hobo</a>
+                                            </div>
+
+                                            <a href="/pro" class="pro" title="PRO User!"></a>
+                    
+                                             <a href="/message/compose?to=Pixelated_Hobo" class="message" title="Send a private message to: Pixelated_Hobo"></a>
+                                    
+                <div class="date">
+                    <span title="Wednesday 7th of June 2017 06:43:17 AM CDT">Jun 7th, 2017</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,718                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 15.21 KB            </div>
+
+            <div class="right">
+                <a href="/raw/d2NawY3v" class="btn -small">raw</a>
+                <a href="/dl/d2NawY3v" class="btn -small">download</a>
+                <a href="/clone/d2NawY3v" class="btn -small h_800">clone</a>
+                <a href="/embed/d2NawY3v" class="btn -small h_800">embed</a>
+                <a href="/report/d2NawY3v" class="btn -small">report</a>
+                <a href="/print/d2NawY3v" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Be faithful knight, pray to God 100 times a day, swing my sword 100 times a day, ride my horse for 10 miles every day</div></li><li class="li1"><div class="de1">&gt;Do a pretty good job at it being a knight</div></li><li class="li1"><div class="de1">&gt;One day, while in battle, everything goes to shit when the enemy gets surprise reinforcements</div></li><li class="li1"><div class="de1">&gt;Get forced back into the keep, stopping every ten feet to defend myself and my comrades</div></li><li class="li1"><div class="de1">&gt;Losing men one by one</div></li><li class="li1"><div class="de1">&gt;Last one alive</div></li><li class="li1"><div class="de1">&gt;Get chased into the dining hall</div></li><li class="li1"><div class="de1">&gt;Countless foes behind me, barricade myself in the kitchen to buy myself time to steel myself, and pray to God for protection</div></li><li class="li1"><div class="de1">&gt;Suddenly shouting from the other side of the door</div></li><li class="li1"><div class="de1">&gt;Lots of shouting</div></li><li class="li1"><div class="de1">&gt;I&#039;m pretty sure I hear a couple people yelling &quot;DEMON!&quot; and &quot;BEAST!&quot; out there</div></li><li class="li1"><div class="de1">&gt;Gradually it becomes less shouting and more screams of terror over the din of metal, bones, and the wooden furniture of the dining hall being crunched and crushed</div></li><li class="li1"><div class="de1">&gt;Eventually the screams go still and the dining hall beyond the barricaded door go silent</div></li><li class="li1"><div class="de1">&gt;Then footsteps. Heavy footsteps, approaching the door.</div></li><li class="li1"><div class="de1">&gt;I ready my blade; no doubt whatever is on the other side slaughtered my pursuers. It is likely not satisfied with such an act.</div></li><li class="li1"><div class="de1">&gt;The heavy door shatters with terrifying ease, chunks of wood flying into the room before a very bored and even tired looking...beast walks into the room.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;She the size of a man and a half, and has just as much muscle as even the strongest warriors I&#039;ve ever seen. Blood soaks her hands, up to the elbow on one of her arms even.</div></li><li class="li1"><div class="de1">&gt;Once I&#039;ve recovered from the shock of her sheer size, I was assaulted by her unholy form.</div></li><li class="li1"><div class="de1">&gt;She looks at me, her body bare save for the occasional jeweled trinket adorning her limbs.</div></li><li class="li1"><div class="de1">&gt;Praying to my lord to protect me from her unholy temptations, no doubt caused by some wicked spell, I ready myself for what comes next.</div></li><li class="li1"><div class="de1">&gt;&quot;You...you&#039;re no witch. Or at least, you&#039;re fairly armored for one. Where is the witch named Gwyndil?&quot;</div></li><li class="li1"><div class="de1">&gt;Her words somehow hover in the air, hazy sounding and slow creeping into my ears. It takes an uncomfortable amount of time to parse her odd voice before I understand what she has said.</div></li><li class="li1"><div class="de1">&gt;I&#039;m racking my brain for a Gwyndil, and all that comes to mind is my soft speaking grandmother, who had long past when I was a child. Surely, she was no witch. The paladins would have detected her back when father was knighted himself, as they were mere feet from our family during the ceremony.</div></li><li class="li1"><div class="de1">&gt;&quot;Speak, human. I seek the witch Gwyndil. Does she still live?&quot; Once again, her clouded words fill the air, hanging as my ears as I struggle to brush away the haze of her voice.</div></li><li class="li1"><div class="de1">&gt;Finding my own voice, I become keenly aware of how dry my throat as become. &quot;Gwyndil Rackor died many years ago,&quot; I finally speak up. Realizing that if I stop here, I may falter, so I take a step forward, pointing the tip of my blade at the demon, &quot;And she was no witch, demon! In the name of the Lord and for sullying my family name, fall by my blade!&quot;</div></li><li class="li1"><div class="de1">&gt;I rush the blood covered she-demon, only for her to almost casually slap at my sword. Rather than simply redirect the attack, she shatters my weapon, rendering it useless in my hand. Before I can adjust, her soaked palm comes forward, and as the air in my lungs leave me, my back finds the stone wall behind me.</div></li><li class="li1"><div class="de1">--</div></li><li class="li1"><div class="de1">&gt;While I&#039;m keeled over stunned, I can see the demon&#039;s hand perched at her chin as she considers whatever dark thoughts go through the mind of such a beast.</div></li><li class="li1"><div class="de1">&gt;Grabbing my broken weapon, I manage to pull myself up slightly, still coughing as I use my free hand to push myself off of ground. When I look back up to the demon, she&#039;s stepping towards me. I can&#039;t read the expression on her cursed face.</div></li><li class="li1"><div class="de1">&gt;Still, I try to get into a fighting stance. Doing my best to stand up straight, she ignores it as once again I feel a heavy palm on my chest. Instead of slamming me back, she&#039;s lifting me up.</div></li><li class="li1"><div class="de1">&gt;Back to the wall once more, but this time she&#039;s holding me there. It gives me a chance to find my legs again, at least.</div></li><li class="li1"><div class="de1">&gt;I have to look up. Both to avert my gaze from her naked chest, and to make eye contact with her pointed face. There is a grin on her face, and her lips open to speak, &quot;Who is Gwyndil the witch to you, knight?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I have nothing to say to abominations. Kill me and be done with it!&quot; It sounded full of bravado in my head, but I can hear the shaking in my voice. She reeks of sulfur and the metallic tinge of blood.</div></li><li class="li1"><div class="de1">&gt;&quot;You have the witch&#039;s hair, knight. Are you her child, perhaps?&quot; She pays no mind to what I&#039;ve said, but relents her grip. Despite standing on my own again, I&#039;m still trapped against the wall.</div></li><li class="li1"><div class="de1">&gt;The kitchen oven blocks me to one side, and the beast&#039;s arm is propped against the wall on the other. She&#039;s waiting for an answer, but I&#039;m not sure what to tell her. I expected death, and she only asks questions.</div></li><li class="li1"><div class="de1">&gt;&quot;Gwyndil Rackor is my grandmother. What of it?&quot; It&#039;s hard to breath with her looming over me, and only slightly easier to speak. I try not to inhale through my nose, but she&#039;s so close her tainted scent creeps in regardless.</div></li><li class="li1"><div class="de1">&gt;My question goes ignored as she leans back, once again thinking to herself as she stares into the stone wall above me, as if looking past it.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;&quot;The witch&#039;s first born. How did they die, knight?&quot; Her attention snaps back to me, red eyes intense as she stares. It was if the answer to her question was written on my skin with how focused she was on me.</div></li><li class="li1"><div class="de1">&gt;Parsing her words takes even longer this time, as I&#039;m trying to listen for noise of the continuing battle. If our forces rallied, then surely someone would come rescue me. Otherwise, if we were routed, it would only be a matter of time before another group of men would find this demon and I in the middle of their looting. That also means I&#039;m the last of our battalion still inside the keep.</div></li><li class="li1"><div class="de1">&gt;Either fate would no doubt end in bloodshed; this demon casually cut her way through at least two dozen men, and looked none the worse for wear. I doubt her interest in me would extend to anyone who found us here.</div></li><li class="li1"><div class="de1">&gt;There is a crunch next to my ear before the dull clattering of stone hitting the floor. Looking to my side, her claws have dug into the wall, and when I look to her face I can see her growing impatient from the time I wasted thinking.</div></li><li class="li1"><div class="de1">&gt;&quot;My father...my father died of disease three years ago. The illness took him in his sleep.&quot; Once I&#039;ve said my piece, I become tight lipped. Once again she looks away, deep in her own thoughts while idly keeping me trapped.</div></li><li class="li1"><div class="de1">&gt;It&#039;s hard to keep track of time. Between how her voice distorts itself in my ears, and the lack of any candles or ways to see the open skies, I&#039;m having trouble telling how long she has been silent.</div></li><li class="li1"><div class="de1">&gt;&quot;So,&quot; the demon finally speaks up, &quot;The witch passed peacefully, and so does her child.&quot; I grit my teeth as she once again accuses my grandmother of witchcraft, but swallow my pointless anger instead. I am at her complete mercy. To struggle and fight would only ensure a pointless death.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;Crimson eyes find mine once again. There is a smirk on her lips. &quot;First born of a first born,&quot; she speaks, and somehow her voice is different. It&#039;s not hazy, and it&#039;s almost as if her words as passing my ears and stepping directly into my mind. Yet I can see her jagged teeth as her lips move with each syllable.</div></li><li class="li1"><div class="de1">&gt;&quot;Descendant of the witch Gwyndil.&quot; Not once have I ever referred to myself or been referred to as my grandmother&#039;s descendant, but as she speaks it, it feels as if she is using a title that could only describe me. </div></li><li class="li1"><div class="de1">&gt;&quot;By the pact sown with your ancestor&#039;s deeds, I have been summoned in your hour of need. With Hell&#039;s fire, your enemies shall suffer. With Hell&#039;s fury, they shall be broken. With Hell&#039;s might, they will fall.&quot; There is no cloudiness in her words as they ring into my head. It&#039;s hard to tell, and it might just be the ache in my skull playing with my vision, but her lips aren&#039;t moving in sync with the words she is speaking. </div></li><li class="li1"><div class="de1">&gt;The whole of my body shakes. Deep within, I feel what can only be my soul shudder. My stomach turns, and I need to vomit. Yet my mouth is dry, and I can&#039;t summon even a drop of spit to change that.</div></li><li class="li1"><div class="de1">&gt;Within moments I feel hot, worse than day&#039;s hard labor in the sun. It&#039;s inescapable, and under my armor. Even if I stripped, I wouldn&#039;t find relief. It&#039;s under my skin, and in my lungs. I can&#039;t breath, and my body is tensing up. I fall forward as a bloody hand catches me, my shattered sword falls to the floor with a clatter.</div></li><li class="li1"><div class="de1">&gt;I passed out. I know I did. It&#039;s the same sensation as when I took a heavy blow to the head during swordfighting instruction. That tangible, if momentary, blink of lost time.</div></li><li class="li1"><div class="de1">&gt;I&#039;m on the floor of the kitchen, clawing and crawling like a child as I try to find my coordination. The warmth is still in my chest; nowhere near as bad as what felt like mere moments ago, but too hot to ever ignore. &quot;You awaken.&quot; The demon. Still very much real as she looms in the broken door.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;Another thing that is real is the fresh stench of blood. Looking over her again, her hands have a brighter coat of red, droplets dancing off her fingertips and landing on the floor.</div></li><li class="li1"><div class="de1">&gt;The new addition is what look like crossbow bolts adoring her back, shoulders and chest. She doesn&#039;t seem to be bleeding though, and just appears to be stuck like a horned pin cushion.</div></li><li class="li1"><div class="de1">&gt;A second party must have arrived, and then was promptly cut down. Whether they were my allies or not isn&#039;t something I tell from the floor of the kitchen. With a grunt, I find my hands and arms before working out how to push myself up to a seated position.</div></li><li class="li1"><div class="de1">&gt;&quot;Honestly, I thought you were lost. You faded in and out a few times. But you stuck through it. Good; it would have been boring if you died from the bonding ceremony.&quot; Her voice still has a hiss to it, but the haziness and surreal delay that made it difficult to listen to is gone. In fact, her words came through crystal clear.</div></li><li class="li1"><div class="de1">&gt;&quot;What, what did you do?&quot; I pant, exhausted just from getting off of the ground. I lean back against the wall, and the smell of damp stone reminds me that this lingering scent of sulfur isn&#039;t normal.</div></li><li class="li1"><div class="de1">&gt;&quot;I initiated the bond between us, pact holder.&quot; She says it so matter-of-factly, as if I should understand the workings of demon. I roll my head to the side, staring at the broken pieces of my weapon before back at her.</div></li><li class="li1"><div class="de1">&gt;My exhaustion and confusion must be painted on my face, as I could swear I saw the she-beast roll her eyes in annoyance. &quot;The witch Gwyndil made a pact with the burning depths for protection. In case of danger and her life was threatened, I would be summoned to aid and protect her, before bonding to complete the ritual. Why, I do not know, and she has taken the reason to the grave.&quot;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;I&#039;m honestly too drained to argue about the idea of my quiet grandmother working with dark forces. It didn&#039;t help at the moment it seemed like this demon had a better idea of what was going on than I did. &quot;So why ask of my father?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;The pact Gwyndil made was thorough. If she didn&#039;t use it, someone else would. So the ownership was passed to her first born when she died.&quot; She taps her chin with a bloody finger, crossing her arms slightly while paying no mind to the crossbow bolts decorating her body. I could swear I was detecting feelings of disappoint, but I&#039;m certain it&#039;s just the...pain or whatever this ache is in my chest.</div></li><li class="li1"><div class="de1">&gt;&quot;Except her first born died in a way that my assistance would have helped. He was in no danger, so the pact did not call for me in his last moments.&quot; I suppose she is right; father was an instructor in the last years of his life. He lived rather safely, even if succumbing to his illness was tragic.</div></li><li class="li1"><div class="de1">&gt;&quot;So...&quot; As I speak up, she looks down at me almost expectantly, &quot;Since I&#039;m my father&#039;s first born, I get the pact. And...earlier, I was running for my life from certain death. Which means...&quot; There is a grin on her fanged face as she steps down into the kitchen, closer to me.</div></li><li class="li1"><div class="de1">&gt;&quot;I have been called. Through me, Hell&#039;s strength is yours.&quot; She coolly explains, as if that had been obvious from the start. Every foot step brings her closer, and the hair on the back of my neck is standing up. My body screams its desire to move, but it lacks the ability to do so.</div></li><li class="li1"><div class="de1">&gt;Anxiously swallowing as she closes in, I kick my feet and press back against the wall in some pointless attempt to create space. &quot;If I have Hell&#039;s strength, then the paladins will kill me. And they&#039;ll purify my family.&quot; Two days ago, I thought nothing of purifying the families of heretics and cultists. Now, I am filled with terror at the thought of my mother&#039;s screams filling the dungeons of a church.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;As if sensing my worry, she bends down to look me in the eyes, face to face. A crimson stained finger is pressed under my chin to keep my attention, &quot;Then we shall kill the paladins. And when more enemies rise against you, we will crush them as well. Such is our might.&quot;</div></li><li class="li1"><div class="de1">&gt;Her eyes drilled into me, but I could tell she wasn&#039;t attempting to deceive. If the paladins did come after me, then we could cut them down. Wait, where is this &#039;we&#039; coming from? Why is she acting as if we were a pair?</div></li><li class="li1"><div class="de1">&gt;&quot;What do you mean, &#039;our&#039; might? You&#039;re the demon, not me. I&#039;m just a man.&quot; She huffed in my face, the side of her lips turning to a grin. At the same time, the heat in my chest intensified, causing me to cough in some vain attempt to breath and let out the heat.</div></li><li class="li1"><div class="de1">&gt;&quot;Pactbearer, we are connected. To say my strength is yours is no exaggeration. My magic can be cast by your own hand, my might wielded by your own fist.&quot; Her finger drags down under my chin, painting it with a line of blood before drawing it back up. </div></li><li class="li1"><div class="de1">&gt;She went tight lipped, and as she continued, I realized she wasn&#039;t actually speaking. &quot;Our minds will forever know the other. With your call, I will appear. With my vigilance, none shall surprise us.&quot; Like with earlier, she was talking directly to me.</div></li><li class="li1"><div class="de1">&gt;In that instant, I immediately felt an odd ache in the back of my head, like a formless weight was pushed into my skull that made it difficult to look around. &quot;My eyes are yours, and yours, mine to see with.&quot; She continued, but not before standing up just slightly enough to put her chest in my face.</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&gt;I had seen the breasts of whores, and they could not compare to this demon. If they were on a human woman, then he could see the sisters of fertility inducting such a person with haste. Massive, yet when on a frame as large as hers, they merely seemed to fit. If she was scaled down, I would call them average. Yet she was anything but average as she displayed herself.</div></li><li class="li1"><div class="de1">&gt;There was a multitude of thoughts in my head, none of them holy except the reflex to immediately pray for purity in the face of such a lewd showing. Muttering to myself in whispers, I heard a laugh. Not from above me, but in my mind. Why was I amused? This isn&#039;t funny. This is Hell&#039;s sweetest temptation.</div></li><li class="li1"><div class="de1">&gt;&quot;Our hearts are one. What you feel, so shall I. What I burn for will ache within you.&quot; Then she knew of the lurid emotions that were testing me, that she forced upon me. &quot;Pactbearer, none shall know you as I know you. We are strangers no longer, but of one soul.&quot;</div></li><li class="li1"><div class="de1">&gt;Reaching down, her hand grabbed the chest piece of my armor, and I was effortlessly brought up to my feet. The weight of her in my mind eased, and she once again stood with crossed arms in front of me, as if giving me one last look over.</div></li><li class="li1"><div class="de1">&gt;&quot;I am your blade. Through me, armies will fall at your hand. You are my wings. Through you, I travel this realm. My name is Sha&#039;var&#039;o the Insatiable. I am your demon, Pactbearer. And you, you are my human.&quot;</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Be faithful knight, pray to God 100 times a day, swing my sword 100 times a day, ride my horse for 10 miles every day
+&gt;Do a pretty good job at it being a knight
+&gt;One day, while in battle, everything goes to shit when the enemy gets surprise reinforcements
+&gt;Get forced back into the keep, stopping every ten feet to defend myself and my comrades
+&gt;Losing men one by one
+&gt;Last one alive
+&gt;Get chased into the dining hall
+&gt;Countless foes behind me, barricade myself in the kitchen to buy myself time to steel myself, and pray to God for protection
+&gt;Suddenly shouting from the other side of the door
+&gt;Lots of shouting
+&gt;I&#039;m pretty sure I hear a couple people yelling &quot;DEMON!&quot; and &quot;BEAST!&quot; out there
+&gt;Gradually it becomes less shouting and more screams of terror over the din of metal, bones, and the wooden furniture of the dining hall being crunched and crushed
+&gt;Eventually the screams go still and the dining hall beyond the barricaded door go silent
+&gt;Then footsteps. Heavy footsteps, approaching the door.
+&gt;I ready my blade; no doubt whatever is on the other side slaughtered my pursuers. It is likely not satisfied with such an act.
+&gt;The heavy door shatters with terrifying ease, chunks of wood flying into the room before a very bored and even tired looking...beast walks into the room.
+---
+&gt;She the size of a man and a half, and has just as much muscle as even the strongest warriors I&#039;ve ever seen. Blood soaks her hands, up to the elbow on one of her arms even.
+&gt;Once I&#039;ve recovered from the shock of her sheer size, I was assaulted by her unholy form.
+&gt;She looks at me, her body bare save for the occasional jeweled trinket adorning her limbs.
+&gt;Praying to my lord to protect me from her unholy temptations, no doubt caused by some wicked spell, I ready myself for what comes next.
+&gt;&quot;You...you&#039;re no witch. Or at least, you&#039;re fairly armored for one. Where is the witch named Gwyndil?&quot;
+&gt;Her words somehow hover in the air, hazy sounding and slow creeping into my ears. It takes an uncomfortable amount of time to parse her odd voice before I understand what she has said.
+&gt;I&#039;m racking my brain for a Gwyndil, and all that comes to mind is my soft speaking grandmother, who had long past when I was a child. Surely, she was no witch. The paladins would have detected her back when father was knighted himself, as they were mere feet from our family during the ceremony.
+&gt;&quot;Speak, human. I seek the witch Gwyndil. Does she still live?&quot; Once again, her clouded words fill the air, hanging as my ears as I struggle to brush away the haze of her voice.
+&gt;Finding my own voice, I become keenly aware of how dry my throat as become. &quot;Gwyndil Rackor died many years ago,&quot; I finally speak up. Realizing that if I stop here, I may falter, so I take a step forward, pointing the tip of my blade at the demon, &quot;And she was no witch, demon! In the name of the Lord and for sullying my family name, fall by my blade!&quot;
+&gt;I rush the blood covered she-demon, only for her to almost casually slap at my sword. Rather than simply redirect the attack, she shatters my weapon, rendering it useless in my hand. Before I can adjust, her soaked palm comes forward, and as the air in my lungs leave me, my back finds the stone wall behind me.
+--
+&gt;While I&#039;m keeled over stunned, I can see the demon&#039;s hand perched at her chin as she considers whatever dark thoughts go through the mind of such a beast.
+&gt;Grabbing my broken weapon, I manage to pull myself up slightly, still coughing as I use my free hand to push myself off of ground. When I look back up to the demon, she&#039;s stepping towards me. I can&#039;t read the expression on her cursed face.
+&gt;Still, I try to get into a fighting stance. Doing my best to stand up straight, she ignores it as once again I feel a heavy palm on my chest. Instead of slamming me back, she&#039;s lifting me up.
+&gt;Back to the wall once more, but this time she&#039;s holding me there. It gives me a chance to find my legs again, at least.
+&gt;I have to look up. Both to avert my gaze from her naked chest, and to make eye contact with her pointed face. There is a grin on her face, and her lips open to speak, &quot;Who is Gwyndil the witch to you, knight?&quot;
+&gt;&quot;I have nothing to say to abominations. Kill me and be done with it!&quot; It sounded full of bravado in my head, but I can hear the shaking in my voice. She reeks of sulfur and the metallic tinge of blood.
+&gt;&quot;You have the witch&#039;s hair, knight. Are you her child, perhaps?&quot; She pays no mind to what I&#039;ve said, but relents her grip. Despite standing on my own again, I&#039;m still trapped against the wall.
+&gt;The kitchen oven blocks me to one side, and the beast&#039;s arm is propped against the wall on the other. She&#039;s waiting for an answer, but I&#039;m not sure what to tell her. I expected death, and she only asks questions.
+&gt;&quot;Gwyndil Rackor is my grandmother. What of it?&quot; It&#039;s hard to breath with her looming over me, and only slightly easier to speak. I try not to inhale through my nose, but she&#039;s so close her tainted scent creeps in regardless.
+&gt;My question goes ignored as she leans back, once again thinking to herself as she stares into the stone wall above me, as if looking past it.
+---
+&gt;&quot;The witch&#039;s first born. How did they die, knight?&quot; Her attention snaps back to me, red eyes intense as she stares. It was if the answer to her question was written on my skin with how focused she was on me.
+&gt;Parsing her words takes even longer this time, as I&#039;m trying to listen for noise of the continuing battle. If our forces rallied, then surely someone would come rescue me. Otherwise, if we were routed, it would only be a matter of time before another group of men would find this demon and I in the middle of their looting. That also means I&#039;m the last of our battalion still inside the keep.
+&gt;Either fate would no doubt end in bloodshed; this demon casually cut her way through at least two dozen men, and looked none the worse for wear. I doubt her interest in me would extend to anyone who found us here.
+&gt;There is a crunch next to my ear before the dull clattering of stone hitting the floor. Looking to my side, her claws have dug into the wall, and when I look to her face I can see her growing impatient from the time I wasted thinking.
+&gt;&quot;My father...my father died of disease three years ago. The illness took him in his sleep.&quot; Once I&#039;ve said my piece, I become tight lipped. Once again she looks away, deep in her own thoughts while idly keeping me trapped.
+&gt;It&#039;s hard to keep track of time. Between how her voice distorts itself in my ears, and the lack of any candles or ways to see the open skies, I&#039;m having trouble telling how long she has been silent.
+&gt;&quot;So,&quot; the demon finally speaks up, &quot;The witch passed peacefully, and so does her child.&quot; I grit my teeth as she once again accuses my grandmother of witchcraft, but swallow my pointless anger instead. I am at her complete mercy. To struggle and fight would only ensure a pointless death.
+---
+&gt;Crimson eyes find mine once again. There is a smirk on her lips. &quot;First born of a first born,&quot; she speaks, and somehow her voice is different. It&#039;s not hazy, and it&#039;s almost as if her words as passing my ears and stepping directly into my mind. Yet I can see her jagged teeth as her lips move with each syllable.
+&gt;&quot;Descendant of the witch Gwyndil.&quot; Not once have I ever referred to myself or been referred to as my grandmother&#039;s descendant, but as she speaks it, it feels as if she is using a title that could only describe me. 
+&gt;&quot;By the pact sown with your ancestor&#039;s deeds, I have been summoned in your hour of need. With Hell&#039;s fire, your enemies shall suffer. With Hell&#039;s fury, they shall be broken. With Hell&#039;s might, they will fall.&quot; There is no cloudiness in her words as they ring into my head. It&#039;s hard to tell, and it might just be the ache in my skull playing with my vision, but her lips aren&#039;t moving in sync with the words she is speaking. 
+&gt;The whole of my body shakes. Deep within, I feel what can only be my soul shudder. My stomach turns, and I need to vomit. Yet my mouth is dry, and I can&#039;t summon even a drop of spit to change that.
+&gt;Within moments I feel hot, worse than day&#039;s hard labor in the sun. It&#039;s inescapable, and under my armor. Even if I stripped, I wouldn&#039;t find relief. It&#039;s under my skin, and in my lungs. I can&#039;t breath, and my body is tensing up. I fall forward as a bloody hand catches me, my shattered sword falls to the floor with a clatter.
+&gt;I passed out. I know I did. It&#039;s the same sensation as when I took a heavy blow to the head during swordfighting instruction. That tangible, if momentary, blink of lost time.
+&gt;I&#039;m on the floor of the kitchen, clawing and crawling like a child as I try to find my coordination. The warmth is still in my chest; nowhere near as bad as what felt like mere moments ago, but too hot to ever ignore. &quot;You awaken.&quot; The demon. Still very much real as she looms in the broken door.
+---
+&gt;Another thing that is real is the fresh stench of blood. Looking over her again, her hands have a brighter coat of red, droplets dancing off her fingertips and landing on the floor.
+&gt;The new addition is what look like crossbow bolts adoring her back, shoulders and chest. She doesn&#039;t seem to be bleeding though, and just appears to be stuck like a horned pin cushion.
+&gt;A second party must have arrived, and then was promptly cut down. Whether they were my allies or not isn&#039;t something I tell from the floor of the kitchen. With a grunt, I find my hands and arms before working out how to push myself up to a seated position.
+&gt;&quot;Honestly, I thought you were lost. You faded in and out a few times. But you stuck through it. Good; it would have been boring if you died from the bonding ceremony.&quot; Her voice still has a hiss to it, but the haziness and surreal delay that made it difficult to listen to is gone. In fact, her words came through crystal clear.
+&gt;&quot;What, what did you do?&quot; I pant, exhausted just from getting off of the ground. I lean back against the wall, and the smell of damp stone reminds me that this lingering scent of sulfur isn&#039;t normal.
+&gt;&quot;I initiated the bond between us, pact holder.&quot; She says it so matter-of-factly, as if I should understand the workings of demon. I roll my head to the side, staring at the broken pieces of my weapon before back at her.
+&gt;My exhaustion and confusion must be painted on my face, as I could swear I saw the she-beast roll her eyes in annoyance. &quot;The witch Gwyndil made a pact with the burning depths for protection. In case of danger and her life was threatened, I would be summoned to aid and protect her, before bonding to complete the ritual. Why, I do not know, and she has taken the reason to the grave.&quot;
+---
+&gt;I&#039;m honestly too drained to argue about the idea of my quiet grandmother working with dark forces. It didn&#039;t help at the moment it seemed like this demon had a better idea of what was going on than I did. &quot;So why ask of my father?&quot;
+&gt;&quot;The pact Gwyndil made was thorough. If she didn&#039;t use it, someone else would. So the ownership was passed to her first born when she died.&quot; She taps her chin with a bloody finger, crossing her arms slightly while paying no mind to the crossbow bolts decorating her body. I could swear I was detecting feelings of disappoint, but I&#039;m certain it&#039;s just the...pain or whatever this ache is in my chest.
+&gt;&quot;Except her first born died in a way that my assistance would have helped. He was in no danger, so the pact did not call for me in his last moments.&quot; I suppose she is right; father was an instructor in the last years of his life. He lived rather safely, even if succumbing to his illness was tragic.
+&gt;&quot;So...&quot; As I speak up, she looks down at me almost expectantly, &quot;Since I&#039;m my father&#039;s first born, I get the pact. And...earlier, I was running for my life from certain death. Which means...&quot; There is a grin on her fanged face as she steps down into the kitchen, closer to me.
+&gt;&quot;I have been called. Through me, Hell&#039;s strength is yours.&quot; She coolly explains, as if that had been obvious from the start. Every foot step brings her closer, and the hair on the back of my neck is standing up. My body screams its desire to move, but it lacks the ability to do so.
+&gt;Anxiously swallowing as she closes in, I kick my feet and press back against the wall in some pointless attempt to create space. &quot;If I have Hell&#039;s strength, then the paladins will kill me. And they&#039;ll purify my family.&quot; Two days ago, I thought nothing of purifying the families of heretics and cultists. Now, I am filled with terror at the thought of my mother&#039;s screams filling the dungeons of a church.
+---
+&gt;As if sensing my worry, she bends down to look me in the eyes, face to face. A crimson stained finger is pressed under my chin to keep my attention, &quot;Then we shall kill the paladins. And when more enemies rise against you, we will crush them as well. Such is our might.&quot;
+&gt;Her eyes drilled into me, but I could tell she wasn&#039;t attempting to deceive. If the paladins did come after me, then we could cut them down. Wait, where is this &#039;we&#039; coming from? Why is she acting as if we were a pair?
+&gt;&quot;What do you mean, &#039;our&#039; might? You&#039;re the demon, not me. I&#039;m just a man.&quot; She huffed in my face, the side of her lips turning to a grin. At the same time, the heat in my chest intensified, causing me to cough in some vain attempt to breath and let out the heat.
+&gt;&quot;Pactbearer, we are connected. To say my strength is yours is no exaggeration. My magic can be cast by your own hand, my might wielded by your own fist.&quot; Her finger drags down under my chin, painting it with a line of blood before drawing it back up. 
+&gt;She went tight lipped, and as she continued, I realized she wasn&#039;t actually speaking. &quot;Our minds will forever know the other. With your call, I will appear. With my vigilance, none shall surprise us.&quot; Like with earlier, she was talking directly to me.
+&gt;In that instant, I immediately felt an odd ache in the back of my head, like a formless weight was pushed into my skull that made it difficult to look around. &quot;My eyes are yours, and yours, mine to see with.&quot; She continued, but not before standing up just slightly enough to put her chest in my face.
+---
+&gt;I had seen the breasts of whores, and they could not compare to this demon. If they were on a human woman, then he could see the sisters of fertility inducting such a person with haste. Massive, yet when on a frame as large as hers, they merely seemed to fit. If she was scaled down, I would call them average. Yet she was anything but average as she displayed herself.
+&gt;There was a multitude of thoughts in my head, none of them holy except the reflex to immediately pray for purity in the face of such a lewd showing. Muttering to myself in whispers, I heard a laugh. Not from above me, but in my mind. Why was I amused? This isn&#039;t funny. This is Hell&#039;s sweetest temptation.
+&gt;&quot;Our hearts are one. What you feel, so shall I. What I burn for will ache within you.&quot; Then she knew of the lurid emotions that were testing me, that she forced upon me. &quot;Pactbearer, none shall know you as I know you. We are strangers no longer, but of one soul.&quot;
+&gt;Reaching down, her hand grabbed the chest piece of my armor, and I was effortlessly brought up to my feet. The weight of her in my mind eased, and she once again stood with crossed arms in front of me, as if giving me one last look over.
+&gt;&quot;I am your blade. Through me, armies will fall at your hand. You are my wings. Through you, I travel this realm. My name is Sha&#039;var&#039;o the Insatiable. I am your demon, Pactbearer. And you, you are my human.&quot;</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    2 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    3 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    6 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    13 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/PM4V3wTN">script or module</a>
+                <div class="details">
+                                            Perl |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Circuit Breaker [HMOFA] - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Circuit Breaker [HMOFA] - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/vybjdxYt" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/vybjdxYt" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="1MmP-h9txl4O90_-GH0-7JqNblxb0XK5ggeowWGjMKy-u_uec1mUCka-fI57B1Wawr5YN2qeN9XLRfmQCOpz1A==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/vybjdxYt" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/vybjdxYt" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/cache/img/16/10/8/3556088.jpg" alt="siddharta_anon">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
+                
+                
+                <h1>Circuit Breaker [HMOFA]</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/siddharta_anon">siddharta_anon</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=siddharta_anon" class="message" title="Send a private message to: siddharta_anon"></a>
+                                    
+                <div class="date">
+                    <span title="Wednesday 6th of June 2018 10:11:09 PM CDT">Jun 6th, 2018</span>
+
+                                            (<span title="Last edit on: Friday 4th of September 2020 02:39:50 PM CDT">edited</span>)
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,847                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 25.85 KB            </div>
+
+            <div class="right">
+                <a href="/raw/vybjdxYt" class="btn -small">raw</a>
+                <a href="/dl/vybjdxYt" class="btn -small">download</a>
+                <a href="/clone/vybjdxYt" class="btn -small h_800">clone</a>
+                <a href="/embed/vybjdxYt" class="btn -small h_800">embed</a>
+                <a href="/report/vybjdxYt" class="btn -small">report</a>
+                <a href="/print/vybjdxYt" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">Circuit Breaker</div></li><li class="li1"><div class="de1">by siddharta_anon</div></li><li class="li1"><div class="de1">Cyberpunk, Technomancy, Anthro Cobra, Action/Story-Oriented</div></li><li class="li1"><div class="de1">------------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">It&#039;s ten past eleven o&#039;clock, PM. You&#039;re sitting alone in a net cafe somewhere in the lower resident districts of Kowloon City, Hong Kong. There&#039;s no other place you&#039;d rather be to spend some time and have a decent meal, despite it being in the shadows casted by the burgeoning corporate complexes. The soykafe they offer is tasteless, but it keeps you warm inside for cold winter nights, which is why you had a steaming mug of it in your hand at the moment. You&#039;d much rather be drinking actual coffee but it&#039;s more expensive and harder to obtain. The shop may be run-down and trashed, with its neon sign outside flickering and flashing, its hardwood flooring slowly coming apart and revealing the dull, mossy and grey concrete underneath; wires hanging from the ceiling, most of the fans out of order and piling dust on their plastic blades and the electrical lighting being mismatched all over, and a permanent musty old smell in the air mixed with the scent of burnt oil, but at least the people that ran the place were trustworthy enough and their NET connection was decent and cheap. It was enough for you to go on the 4.01CHAN boards and shitpost.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Everyone knew you as Anonymous, or just Anon. Without a System Identification Number you were practically inexistent to the modern world, just like most if not all of the people around you right now. You adopted the name that fit you best as a kid, after all you were always &#039;anonymous&#039; on your favorite uzbekistani goat grooming bulletin board and you figured you&#039;d stick with it in real life. Your friends thought it was dumb but it&#039;s not like you had parents to name you anyways, so everyone rolled with it. By now everyone was used to it; ironically the noun had all but lost its meaning when it became your name. You never really stopped to think about it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With a shrug you lifted the mug of basedkaf to your lips, sipping the warm drink and letting the phytoestrogens spread through your body. Honestly you could do without it, and should probably switch over to something like oolong tea, at least that didn&#039;t have a ton of estrogen in it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You felt ready to go look for another job from your fixer, Ma Choi. You weren&#039;t sure if that was really his name but you knew the guy personally and he had helped set you up as a shadowrunner in order to get out from the 12 Blue Lanterns gang that owned the south-western part of the city. He was in there himself but he knew you didn&#039;t want to spend the rest of your life being told what to do. So running in the shadows it was for you. Most people avoided that sort of work, and with good reason. Shadowrunners fall outside the structured corporate world. Many are outcasts, having risen from the streets or fallen from corporate or government ranks. Their ranks include idealists and pragmatists, professionals and amateurs, disillusioned ex-corp/government/military personnel who have thrown off the shackles of corp society to achieve freedom, and those who have never known any life outside the shadows. The one thing they have in common is that through necessity or by choice, they work in the shadows cast by the gigantic corporate buildings. Thus they&#039;re known as shadowrunners, deniable specialists.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You sat in the outcast category, a kid left and abandoned in the streets of Kowloon City by a heartless foreigner who didn&#039;t think twice about losing his kid. But you survived, having been picked up by the local triad gangs like so many other children, orphans or not.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Shaking your head from unpleasant thoughts, you focused on the task before you: getting another job, and maybe look for news in the RunnerHUB, the local shadowrunners&#039; BBS.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As it turned out there&#039;s been some shit going on in Kowloon. Word was that major japanese private security corps were starting to muscle into the american private security corps&#039; territory. For all you knew, it was about to get really damn violent out in the streets. Stuff like that wasn&#039;t really a problem for you personally, except that, this was probably going to make getting into any jobs that entailed getting into corporate buildings a hell of a lot more difficult if the contracted security is getting jumpy. You hoped that wasn&#039;t the case. Last thing you wanted was to run into a bunch of Global American Security goons.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As you continued to scroll through the listings your fixer sent and browse the ShadowNET, you heard the door of the dingy net cafe open with an electronic chirping from the doorbell. Looking upwards you saw a tall snake anthro come through it, and by the looks of her natural hood she was a cobra. She was about six feet tall(183cm), clad in a tight lycra skirt that hugged her wide hips and hinted towards her thick, albeit toned and firm thighs and tail; she also wore combat boots, a tube top that struggled to contain what seemed to be DD, or perhaps even E-cup breasts, and a biker&#039;s leather jacket on top, under it all a fishnet bodysuit. One or two suggestive thoughts came to mind given her clothing preferences and the bombshell body of the cobra. Her skin was as dark as the night outside, the dim lighting of the room glinting off her smooth scales and her neon pink slitted eyes. The latter was a dead giveaway to cybernetic implants. She wasn&#039;t from around, that much was clear, and not only that but the way she dressed in weather like this was certainly odd. She was hugging herself pretty hard, she was probably cold and it didn&#039;t help that snake anthros were poikilotherms like their original counterparts.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You managed to look away and back to your portable terminal quickly enough before she noticed you staring, distracting yourself lest you be caught peeping; but with a body like that, not staring would be criminal anyways.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Just as you deferred your attention to the blue holographic screen, the cobra girl turned her head towards you, sizing you up while you drank your soykek. It was a little unsettling, you could feel her piercing gaze on you, but you figured it wasn&#039;t a good idea to ignore her, so you looked back up. Then you realized she looked sort of... scared perhaps? No, it was more so anxiety and confusion. You stared awkwardly at each other for several seconds before she looked sideways a couple of times and, rubbing her arms a couple of times, walked over to you, her eyes cast downward at the dirty floor.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Uh... Ah...&quot; Keep it cool Anon. &quot;Neih hou ma?&quot;</div></li><li class="li1"><div class="de1">The cobra&#039;s lips suddenly began to quiver, her eyes tearing up. She looked like she was about to break down.&quot;Oh god, you don&#039;t speak english either!&quot;</div></li><li class="li1"><div class="de1">She probably thought you would&#039;ve spoken it since you were the only guy in the place who didn&#039;t look chinese. Well she&#039;s right, but in your defense, you thought she spoke cantonese. Everyone in Hong Kong does. Still it&#039;s probably better not to cause a scene in the net cafe.</div></li><li class="li1"><div class="de1">&gt;&quot;Calm down I speak it! I speak english!&quot;</div></li><li class="li1"><div class="de1">&quot;Oh god, really?! I&#039;m so sorry, it&#039;s just- I haven&#039;t- Oh god!&quot;</div></li><li class="li1"><div class="de1">The cobra sat down across the table in your booth, putting the palms of her hands to her face as she start shaking and sobbing, breaking down in front of you in the middle of the store. The rest of the patrons either looked away or stared at you with suspicion. You didn&#039;t really know how to respond at a stranger that had simply sat down in front of you and started bawling her eyes off. Well maybe not bawling but certainly shed some tears and seemed to be in her own little world. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You looked around the store nervously for a couple of seconds before you decided to lean over the table and put your hand on her cold shoulder, gently shaking her to grab her attention. And it did, the cobra girl sniffed a couple times, rubbing her large, expressive cyber-eyes with the heels of her hands and drying them. You grabbed some of the cleaner napkins on the table and offered them to her. She gave you a crooked smile and took them, blowing her snout and crumpling the napkins in her hands afterwards. At least that was settled, for now, but you had questions and you&#039;re sure she had some too.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;So uh... what&#039;s the deal?&quot; Not the smoothest way to go about it but you were never one to beat around the bush. Also autism.</div></li><li class="li1"><div class="de1">&quot;Well- um, I...&quot; She rubbed her arms, now she seemed to have an issue with speaking. &quot;Oh gosh I don&#039;t even know if I can tell you this... I mean we&#039;re total strangers but... You&#039;re the only guy I&#039;ve met in the past week that speaks english!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You simply stared at her. It was hard to get a word in, mostly because what she said rang true. She&#039;s a complete stranger to you and this wasn&#039;t the best way to meet someone, specially in this part of town. You shut off your terminal and folded it, setting it aside as you coughed and cleared your throat. That seemed to snap her out of it.</div></li><li class="li1"><div class="de1">&quot;I&#039;m sorry, that was a little bit rude of me... My... My name&#039;s Ashley and I&#039;m... well I&#039;m stranded here in Kowloon.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-------------------------------------------------------------------[Update1]--------------------------------------------------------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After Ashley had introduced herself she had gone on to explain her situation, taking a modest time to do so. You had to take some mental notes along the way to keep track but… you had to make sure anyhow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">”Alright, lemme get this straight,” You idly pressed your palms together while you looked at the cobra gal in front.</div></li><li class="li1"><div class="de1">”Your ‘guardian’, supposedly hired by your corporate daddy, was taking you out on a trip around Hong Kong while pops was off in a conference meeting in the mainland, is that right?”</div></li><li class="li1"><div class="de1">“Yes, but-”</div></li><li class="li1"><div class="de1">You silence her by raising your hand.</div></li><li class="li1"><div class="de1">”And then, without an apparent reason, during one of your stays at a hotel, he pulls a gun on you and then he takes your SIN chip from you and burns it, but not only that, he also gets you kicked off of the hotel.”</div></li><li class="li1"><div class="de1">“Yes, and he took my money and stuff too! He just- I- Hmmn!” </div></li><li class="li1"><div class="de1">She grumbles towards the end, her snout cutely wrinkling up as she frowns, angry as she crosses her arms over her chest.</div></li><li class="li1"><div class="de1">“Look I need your help, I tried calling dad with a public phone but he won&#039;t pick up and I couldn&#039;t go anywhere since I don&#039;t have money! I&#039;ve been staying at a homeless shelter for almost a week eating just this tasteless nutrient paste….”</div></li><li class="li1"><div class="de1">”And just why would I do that? What do I get out of it?” </div></li><li class="li1"><div class="de1">You raise an eyebrow at her. Time was nuyen after all.</div></li><li class="li1"><div class="de1">“W-well, I&#039;m- um, my dad will pay you for sure, I- I mean he’s got a lot of money he&#039;ll pay you! I&#039;m his little girl after all.”</div></li><li class="li1"><div class="de1">She composed herself and smiling a bit, almost smugly, but the corners of her lips quivered subtly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You crossed your arms while leaning back on the booth and looking to the side, towards the rest of the establishment. Dealing with corps was almost never a good idea without a fixer to mediate between you and the client, things tended to go south quick, either because they ordered you dead or they simply skimped on the payment in order to save face since they didn&#039;t want to be seen dealing with a Runner. But, in this case nobody would know you were a runner in the first place. You&#039;re just some guy helping a girl, he wouldn&#039;t know. Someone would just hand you some credsticks and that&#039;d be that. A milk run if you&#039;ve ever heard of one.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After stewing it over for a couple of minutes in silence as the cobra girl looked at you with her head down, her hands still rubbing her arms in the cold, you nodded, accepting her little request.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">”Alright, I&#039;ll do it.”</div></li><li class="li1"><div class="de1">“REALLY?!”</div></li><li class="li1"><div class="de1">She jumps from her seat with a look of joy on her face, her eyes twinkling and her tail waving all over the place. Well as much as it could move within the cramped confines of the booth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ooooh~ I could just hug yoouuu!” she cried out excitedly.</div></li><li class="li1"><div class="de1">”Don&#039;t get so excited yet, we&#039;re doing this tomorrow.”</div></li><li class="li1"><div class="de1">“Oh.”</div></li><li class="li1"><div class="de1">She sat back down with a dull thump on the old velvet seat, her grin now only a small smile, her tail now still, though its tip still shook about a little bit.</div></li><li class="li1"><div class="de1">“Well, um, thanks Anon. Guess I&#039;ll just go back to the shelter for tonight…”</div></li><li class="li1"><div class="de1">”It’s better if you just come with me, streets aren’t safe, much less at this hour.”</div></li><li class="li1"><div class="de1">Hell now that you thought about it, you had spent a fair amount of time in the cafe, most of the customers were already gone, there were only a couple left and they had plugged themselves into the matrix network through their cyberdecks. Chipheads, all you needed was in the real world already.</div></li><li class="li1"><div class="de1">&quot;Huh?&quot; She perked up at your suggestion.</div></li><li class="li1"><div class="de1">&quot;Yeah I mean, I&#039;m already a bit surprised how long you&#039;ve managed to stay out of trouble for the past week in this part of Kowloon but that&#039;s no reason to keep pushing your luck. If I need to deliver you to ol&#039; snake daddy I don&#039;t think he&#039;d be happy if anything happened to you while it was my job to do so. I got enough room where I crash at, and a heater too.&quot;</div></li><li class="li1"><div class="de1">&quot;Well, okay, beats having to stay at the shelter I guess. Do you have a shower too?&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah, everything.&quot; You start getting off of your seat, standing up while you grabbed your tablet terminal and slid it into your open backpack, then zipped it up.</div></li><li class="li1"><div class="de1">&quot;C&#039;mon let&#039;s go, I want to catch some sleep before we start working on finding your dad.&quot;</div></li><li class="li1"><div class="de1">&quot;Alright... Thanks again by the way Anon- er, you don&#039;t mind if I just call you Anon right? I mean I&#039;ve been doing it this whole time but Anonymous is a bit of a mouthful and I hadn&#039;t really asked if I could.&quot; She chuckles nervously, rubbing her arms yet again as she looked away. It still didn&#039;t fit into your head how a poikilotherm would dress so skimpily in this time of the year in Kowloon. Fuck&#039;s sake you&#039;re right near the sea, the wind’s as chilly as a penguin’s anus.</div></li><li class="li1"><div class="de1">&quot;Anon&#039;s fine, yeah.&quot; </div></li><li class="li1"><div class="de1">“Thanks.”</div></li><li class="li1"><div class="de1">“Mhm.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You both left the booth in the cafe, and made your way out into the streets to head out to your apartment. The streetlamps were so busted they barely shone at all, in fact most of the street was lit up by the neon signs that the stores lining up along the sidewalks had. Her current state bothered you a little, you knew she was cold by the way she was shivering and moving rather stiffly but she didn&#039;t complain once. To be honest when you first saw her, you thought she was a naïve wagie’s kid looking for fun in the wrong parts of town. It&#039;s happened before, and like you noted before she was dressed a lot like a clubber. You hated clubs and the people in it, spoiled brats for the most part. Ashley was surprisingly meek though, the way she acted didn&#039;t match the way she looked or dressed. It might&#039;ve been a front for all you knew, but somehow she seemed genuine. Shame you wouldn&#039;t get to know her better, she was pretty cute. And had a banging body.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Aren&#039;t you cold showing off that much skin? I know you snake anthros can&#039;t control your body temperature.” A bit blunt but it got the point across, if her embarrassed expression was anything to go by.</div></li><li class="li1"><div class="de1">“Oh-uhm, a li-little… I didn&#039;t have anything else to wear and… W-well my friends told me this was the most popular fashion lately among g-girls so I w-went with it.”</div></li><li class="li1"><div class="de1">You shook your head as you zipped down your jacket and took it off to drape it around her shoulders. Despite her being fairly tall it still dwarfed her curvaceous body. Youre no gentleman, but you weren&#039;t a douche either. This much was only natural. Besides you were used to the cold.</div></li><li class="li1"><div class="de1">“I live close by so it won&#039;t be long until we&#039;re home.”</div></li><li class="li1"><div class="de1">“Thanks anon.” She grasped the jacket that hung around her shoulders, hugging herself and pressing it tighter against her cold, scaly skin.</div></li><li class="li1"><div class="de1">“It&#039;s warm…”</div></li><li class="li1"><div class="de1">She hunched her shoulders over, making the furred neck of the jacket press against her own and cover most of her hood and face With her snout poking out, her forked tongue probed out several times, as if tasting the winter air. You swore you could hear something about a “good smell” coming from her but you couldn&#039;t make out the exact words. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Goddamn she was cute.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Eventually you reached the old apartment complex where you lived at. It was dainty, stacked against other similarly structured buildings. They were all clearly built to house low-income citizens. The floors and living spaces were cramped and the concrete was stained with mosses, filth and graffiti. One look at Ashley&#039;s face told you everything you needed to know how she felt about it.</div></li><li class="li1"><div class="de1">“Y-you live in there?”</div></li><li class="li1"><div class="de1">“We&#039;re not all lucky enough to have been born into a corporate’s household.”</div></li><li class="li1"><div class="de1">“But this…” She looked at the building, her neon pink eyes focusing on the dilapidated apartments. To be fair it was her own fault for expecting anything else other than what she had seen so far in the lower residential districts of Kowloon.</div></li><li class="li1"><div class="de1">“Would you rather go back to the shelter?”</div></li><li class="li1"><div class="de1">“Wh- No! I&#039;m sorry it&#039;s just… Nevermind.”</div></li><li class="li1"><div class="de1">You looked at her for a couple of seconds before patting her on the back and opening the door leading to the inside of the complex.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After stepping inside and up the stairs to the topmost floor of the building, you stopped in front of the only door that didn&#039;t have a flimsy wooden door and a cheap keypad as their only security measures. The door to your apartment was built into the concrete itself, a steel gate with retinal and digital fingerprint scanners as well as a key card slot. While some people might&#039;ve called that overkill, most knew that shadowrunner safehouses tended to heavily emphasize the &#039;safe’ part of the word, and while expensive, your job paid enough to afford it. And though some may question the fact that you lived in the slums was likely to prove the contrary, it was also, in fact, a security measure in its own right, since you attracted much less attention living in the slums. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As soon as Ashley stepped inside her eyes lit up at the amount of electronic equipment inside, not to mention the stacks of papers and walls racked with different sorts of weapons. Very little inside of your room wasn’t organized or had a utilitarian purpose. Thick cables ran all along the floor connecting electronic equipment to power feeds and your terminal, among other things that practically occupied half the room. The scent of ozone permeated it, completely sterile as opposed to what it looked like from outside, or the rest of the building. The only indication that someone lived in there was the fact that in one corner of the room you had a decently sized bed right against the walls, clothes everywhere and a pile of pillows. Yeah you liked having a comfy space to relax in, even if it got messy. You didn&#039;t really get much company in your little home anyways so you didn&#039;t bother to clean up often.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Woah, it&#039;s… Not what I thought what it&#039;d look like at all.. What&#039;s with all the blinky lights and the hardware? You&#039;ve even got guns in here…” She quipped nervously as she moved through the room, holding tightly to your jacket.</div></li><li class="li1"><div class="de1">“It&#039;s part of my day-to-day job.”</div></li><li class="li1"><div class="de1">“Job? What d’you do that you need all this stuff?”</div></li><li class="li1"><div class="de1">“Don&#039;t worry about it. Just put your stuff somewhere. There&#039;s some prepackaged instant meals in the cupboards over in the kitchen somewhere. I&#039;ll get the electric heater running.” You quickly kicked your boots off and moved on over to turn on the electric heater beside your bed while Ashley nodded and went off to the kitchen. The central heating in chinese economy units was notoriously terrible and faulty. You had to survive with electric heaters since biofuel operated ones could spell trouble due to the fumes and the possibility of explosions.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You could hear rummaging around the cupboards in the kitchen as she looked for something more tasty than nutrient paste to eat. Even if most of your food wasn&#039;t made by hand and came in a box it was enough for you to survive with and have no health issues. The sodium problems in these kinds of foods had been solved a long time ago. You shrugged as you rearranged the room a little to have Ashley’s sofa bed fit in your tiny room while she had an OK meal back in the kitchen. It had been a long day and quite frankly you were ready to hit the sack and sleep. You didn&#039;t really feel too troubled over having a stranger sleep over, you knew you could handle yourself if it came down to it, and if she tried to steal anything then tough titties, everything important is either bolted or locked behind a safe.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Five minutes or so after you rearranged the room a little, Ashley emerged from the kitchen with a smile on her face.</div></li><li class="li1"><div class="de1">“Thanks again for letting me stay the night Anon, and for giving me some of your food.”</div></li><li class="li1"><div class="de1">“Mhm, no problem. I&#039;m gonna go take a shower and hit the hay. I set up the couch for you to sleep on, by the way.”</div></li><li class="li1"><div class="de1">“Aw, and right next to the heater too. Y&#039;know you look a bit rough but you&#039;re really thoughtful aren&#039;t you?” She brought her slender hand over her maw as she giggled.</div></li><li class="li1"><div class="de1">“I was just cold.” You huffed, turning around and grabbing a bunch of clean clothes from the pile on your bed and heading into your bathroom to shower. By the time you were done you were so tired and spent you didn&#039;t even notice when you fell asleep or even crashed on your bed, Morpheus took you far too quickly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-------------------------------------------------------------------[Update 2]----------------------------------------------------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You awoke the next morning as the first streaks of sunlight speared through the blinders of your window. With a lazy groan you stirred about in the messy bed as you sat up on the mattress, back resting against a pile of pillows. It took you nearly a minute to get your bearings, head feeling like a bucket full of mud and heavy, as if someone had stirred up your brain into mush. Shouldn&#039;t have stayed up so late at the café.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A quick shake of your head to dispel any leftover grogginess left you with your head towards a sleeping cobra on your couch. The heater had appropriately turned itself off a few minutes after you went into your shower, which explained her deep slumber. There was a chill in the air of your apartment. Winter in Kowloon was pretty unforgiving, the cold and freezing winds of the northern pacific ocean flowing into the mainland. Your apartment was fairly close to the sea.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Seeing Ashley shivering prompted you to get up, then grab one of your own bed covers to throw it over her cold body before turning the electric heater back on. Her stirrings stopped after a while as the heater warmed up her side a little, but you swear you could see a hint of a smile form on her mouth as her snout poked out of the covers cutely. Something about her made you feel slightly warm as well, though on the inside, curiously enough.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shrugged and got up to leave her on the couch sleeping while you went to your small kitchen to try and cook up a little something to start the day off. Maybe something filled with protein. Eggs and sausages should do, it&#039;s simple enough. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">By the time you finished making breakfast, your cobra friend had gotten up. She slid off the sofa, raising her arm to set aside the covers and turn off the heater with the other one. She yawned and stretched, uncharacteristically feline, and rubbed her eyes. She didn&#039;t have any clothes on her person other than her racy black underwear; lacy panties and her bra. It didn&#039;t take long for either one of you to notice you were intently staring with at her. She crossed her arms to cover her large breasts and coiled her thick tail around her hips to hide her near-visible delta. She didn&#039;t realize her toned ass was visible and her arms pressed hard enough against her chest, making the soft mounds look like they were about to spill. The same streaks of sunlight that had nearly blinded you when you woke up now stroked the scaly skin of her delicate back, giving off a purplish-red sheen. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Breakfast is ready.” You flatly announced, holding onto a steaming pan.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It took a while before Ashley came out of your apartment and down to the streets. She had breakfast and changed to some of your more loose clothes she could wear, while you waited outside the building. You brought up your wrist, looking at your cheap chinese knockoff watch. 10:12 AM. Still on time to make it to the Jiao Yun Towers. A quick search on the net before you had stepped out into the cold  streets and little asking here and there on the ShadowNET about a certain “Ingram Darkwood”-- Ashley&#039;s father--  led you to that place. Apparently he was some big shot corporate leading talks about AI developments in his company and somesuch. Probably trying to rope other corporates into financing his R&amp;D. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">When she finally came out she was wearing one of your plain black tees, one of your jackets with a furred collar, and a pair of old jeans you had. Somehow she managed to fill them out, with her shapely legs. The only problem was her tail, it made wearing the pants somewhat difficult, and she had to keep pulling them up every so often so as to avoid them slipping off and showing her ass. You swear you could still spot the strings of her black panties hiked up around her thick tail and wide hips with every step she took, though.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Walking over to your motorbike and mounting it,you gestured at the snake girl get on behind you. She mounted up as well, her hands snaking around your sides, tightly gripping your chest and her tail coiling around your waist. Her scales were cold to the touch but not at all rough. The same could be said about her soft, full rack pressed against your back as she leaned forward against you. Sweet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You won&#039;t go too fast right?”</div></li><li class="li1"><div class="de1">“We&#039;ll take it slow princess. Would you like to take the scenic route too?” You responded, joking and half-mocking as you turned to look at her over your shoulder</div></li><li class="li1"><div class="de1">“You&#039;d do that?” Her eyes widened, a cute smile forming on her snout.</div></li><li class="li1"><div class="de1">“I was joking.” </div></li><li class="li1"><div class="de1">“Oh..” And just like that, the magic was gone along with her smile.</div></li><li class="li1"><div class="de1">“..But it&#039;s not like we&#039;re on a tight schedule here. Your old man is staying at the Jiao Yun Towers. We can take a little detour around the city I suppose.”</div></li><li class="li1"><div class="de1">“Mm. Okay. I&#039;d like that.” She smiled a little again.</div></li><li class="li1"><div class="de1">Well, maybe it won&#039;t be so bad to give her her a little tour of Kowloon.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">Circuit Breaker
+by siddharta_anon
+Cyberpunk, Technomancy, Anthro Cobra, Action/Story-Oriented
+------------------------------------------------------------------------------------------------------------------------------------------
+It&#039;s ten past eleven o&#039;clock, PM. You&#039;re sitting alone in a net cafe somewhere in the lower resident districts of Kowloon City, Hong Kong. There&#039;s no other place you&#039;d rather be to spend some time and have a decent meal, despite it being in the shadows casted by the burgeoning corporate complexes. The soykafe they offer is tasteless, but it keeps you warm inside for cold winter nights, which is why you had a steaming mug of it in your hand at the moment. You&#039;d much rather be drinking actual coffee but it&#039;s more expensive and harder to obtain. The shop may be run-down and trashed, with its neon sign outside flickering and flashing, its hardwood flooring slowly coming apart and revealing the dull, mossy and grey concrete underneath; wires hanging from the ceiling, most of the fans out of order and piling dust on their plastic blades and the electrical lighting being mismatched all over, and a permanent musty old smell in the air mixed with the scent of burnt oil, but at least the people that ran the place were trustworthy enough and their NET connection was decent and cheap. It was enough for you to go on the 4.01CHAN boards and shitpost.
+
+Everyone knew you as Anonymous, or just Anon. Without a System Identification Number you were practically inexistent to the modern world, just like most if not all of the people around you right now. You adopted the name that fit you best as a kid, after all you were always &#039;anonymous&#039; on your favorite uzbekistani goat grooming bulletin board and you figured you&#039;d stick with it in real life. Your friends thought it was dumb but it&#039;s not like you had parents to name you anyways, so everyone rolled with it. By now everyone was used to it; ironically the noun had all but lost its meaning when it became your name. You never really stopped to think about it.
+
+With a shrug you lifted the mug of basedkaf to your lips, sipping the warm drink and letting the phytoestrogens spread through your body. Honestly you could do without it, and should probably switch over to something like oolong tea, at least that didn&#039;t have a ton of estrogen in it.
+
+You felt ready to go look for another job from your fixer, Ma Choi. You weren&#039;t sure if that was really his name but you knew the guy personally and he had helped set you up as a shadowrunner in order to get out from the 12 Blue Lanterns gang that owned the south-western part of the city. He was in there himself but he knew you didn&#039;t want to spend the rest of your life being told what to do. So running in the shadows it was for you. Most people avoided that sort of work, and with good reason. Shadowrunners fall outside the structured corporate world. Many are outcasts, having risen from the streets or fallen from corporate or government ranks. Their ranks include idealists and pragmatists, professionals and amateurs, disillusioned ex-corp/government/military personnel who have thrown off the shackles of corp society to achieve freedom, and those who have never known any life outside the shadows. The one thing they have in common is that through necessity or by choice, they work in the shadows cast by the gigantic corporate buildings. Thus they&#039;re known as shadowrunners, deniable specialists.
+
+You sat in the outcast category, a kid left and abandoned in the streets of Kowloon City by a heartless foreigner who didn&#039;t think twice about losing his kid. But you survived, having been picked up by the local triad gangs like so many other children, orphans or not.
+
+Shaking your head from unpleasant thoughts, you focused on the task before you: getting another job, and maybe look for news in the RunnerHUB, the local shadowrunners&#039; BBS.
+
+As it turned out there&#039;s been some shit going on in Kowloon. Word was that major japanese private security corps were starting to muscle into the american private security corps&#039; territory. For all you knew, it was about to get really damn violent out in the streets. Stuff like that wasn&#039;t really a problem for you personally, except that, this was probably going to make getting into any jobs that entailed getting into corporate buildings a hell of a lot more difficult if the contracted security is getting jumpy. You hoped that wasn&#039;t the case. Last thing you wanted was to run into a bunch of Global American Security goons.
+
+As you continued to scroll through the listings your fixer sent and browse the ShadowNET, you heard the door of the dingy net cafe open with an electronic chirping from the doorbell. Looking upwards you saw a tall snake anthro come through it, and by the looks of her natural hood she was a cobra. She was about six feet tall(183cm), clad in a tight lycra skirt that hugged her wide hips and hinted towards her thick, albeit toned and firm thighs and tail; she also wore combat boots, a tube top that struggled to contain what seemed to be DD, or perhaps even E-cup breasts, and a biker&#039;s leather jacket on top, under it all a fishnet bodysuit. One or two suggestive thoughts came to mind given her clothing preferences and the bombshell body of the cobra. Her skin was as dark as the night outside, the dim lighting of the room glinting off her smooth scales and her neon pink slitted eyes. The latter was a dead giveaway to cybernetic implants. She wasn&#039;t from around, that much was clear, and not only that but the way she dressed in weather like this was certainly odd. She was hugging herself pretty hard, she was probably cold and it didn&#039;t help that snake anthros were poikilotherms like their original counterparts.
+
+You managed to look away and back to your portable terminal quickly enough before she noticed you staring, distracting yourself lest you be caught peeping; but with a body like that, not staring would be criminal anyways.
+
+Just as you deferred your attention to the blue holographic screen, the cobra girl turned her head towards you, sizing you up while you drank your soykek. It was a little unsettling, you could feel her piercing gaze on you, but you figured it wasn&#039;t a good idea to ignore her, so you looked back up. Then you realized she looked sort of... scared perhaps? No, it was more so anxiety and confusion. You stared awkwardly at each other for several seconds before she looked sideways a couple of times and, rubbing her arms a couple of times, walked over to you, her eyes cast downward at the dirty floor.
+
+&gt;&quot;Uh... Ah...&quot; Keep it cool Anon. &quot;Neih hou ma?&quot;
+The cobra&#039;s lips suddenly began to quiver, her eyes tearing up. She looked like she was about to break down.&quot;Oh god, you don&#039;t speak english either!&quot;
+She probably thought you would&#039;ve spoken it since you were the only guy in the place who didn&#039;t look chinese. Well she&#039;s right, but in your defense, you thought she spoke cantonese. Everyone in Hong Kong does. Still it&#039;s probably better not to cause a scene in the net cafe.
+&gt;&quot;Calm down I speak it! I speak english!&quot;
+&quot;Oh god, really?! I&#039;m so sorry, it&#039;s just- I haven&#039;t- Oh god!&quot;
+The cobra sat down across the table in your booth, putting the palms of her hands to her face as she start shaking and sobbing, breaking down in front of you in the middle of the store. The rest of the patrons either looked away or stared at you with suspicion. You didn&#039;t really know how to respond at a stranger that had simply sat down in front of you and started bawling her eyes off. Well maybe not bawling but certainly shed some tears and seemed to be in her own little world. 
+
+You looked around the store nervously for a couple of seconds before you decided to lean over the table and put your hand on her cold shoulder, gently shaking her to grab her attention. And it did, the cobra girl sniffed a couple times, rubbing her large, expressive cyber-eyes with the heels of her hands and drying them. You grabbed some of the cleaner napkins on the table and offered them to her. She gave you a crooked smile and took them, blowing her snout and crumpling the napkins in her hands afterwards. At least that was settled, for now, but you had questions and you&#039;re sure she had some too.
+
+&gt;&quot;So uh... what&#039;s the deal?&quot; Not the smoothest way to go about it but you were never one to beat around the bush. Also autism.
+&quot;Well- um, I...&quot; She rubbed her arms, now she seemed to have an issue with speaking. &quot;Oh gosh I don&#039;t even know if I can tell you this... I mean we&#039;re total strangers but... You&#039;re the only guy I&#039;ve met in the past week that speaks english!&quot;
+
+You simply stared at her. It was hard to get a word in, mostly because what she said rang true. She&#039;s a complete stranger to you and this wasn&#039;t the best way to meet someone, specially in this part of town. You shut off your terminal and folded it, setting it aside as you coughed and cleared your throat. That seemed to snap her out of it.
+&quot;I&#039;m sorry, that was a little bit rude of me... My... My name&#039;s Ashley and I&#039;m... well I&#039;m stranded here in Kowloon.&quot;
+
+-------------------------------------------------------------------[Update1]--------------------------------------------------------------
+
+After Ashley had introduced herself she had gone on to explain her situation, taking a modest time to do so. You had to take some mental notes along the way to keep track but… you had to make sure anyhow.
+
+”Alright, lemme get this straight,” You idly pressed your palms together while you looked at the cobra gal in front.
+”Your ‘guardian’, supposedly hired by your corporate daddy, was taking you out on a trip around Hong Kong while pops was off in a conference meeting in the mainland, is that right?”
+“Yes, but-”
+You silence her by raising your hand.
+”And then, without an apparent reason, during one of your stays at a hotel, he pulls a gun on you and then he takes your SIN chip from you and burns it, but not only that, he also gets you kicked off of the hotel.”
+“Yes, and he took my money and stuff too! He just- I- Hmmn!” 
+She grumbles towards the end, her snout cutely wrinkling up as she frowns, angry as she crosses her arms over her chest.
+“Look I need your help, I tried calling dad with a public phone but he won&#039;t pick up and I couldn&#039;t go anywhere since I don&#039;t have money! I&#039;ve been staying at a homeless shelter for almost a week eating just this tasteless nutrient paste….”
+”And just why would I do that? What do I get out of it?” 
+You raise an eyebrow at her. Time was nuyen after all.
+“W-well, I&#039;m- um, my dad will pay you for sure, I- I mean he’s got a lot of money he&#039;ll pay you! I&#039;m his little girl after all.”
+She composed herself and smiling a bit, almost smugly, but the corners of her lips quivered subtly.
+
+You crossed your arms while leaning back on the booth and looking to the side, towards the rest of the establishment. Dealing with corps was almost never a good idea without a fixer to mediate between you and the client, things tended to go south quick, either because they ordered you dead or they simply skimped on the payment in order to save face since they didn&#039;t want to be seen dealing with a Runner. But, in this case nobody would know you were a runner in the first place. You&#039;re just some guy helping a girl, he wouldn&#039;t know. Someone would just hand you some credsticks and that&#039;d be that. A milk run if you&#039;ve ever heard of one.
+
+After stewing it over for a couple of minutes in silence as the cobra girl looked at you with her head down, her hands still rubbing her arms in the cold, you nodded, accepting her little request.
+
+”Alright, I&#039;ll do it.”
+“REALLY?!”
+She jumps from her seat with a look of joy on her face, her eyes twinkling and her tail waving all over the place. Well as much as it could move within the cramped confines of the booth.
+
+“Ooooh~ I could just hug yoouuu!” she cried out excitedly.
+”Don&#039;t get so excited yet, we&#039;re doing this tomorrow.”
+“Oh.”
+She sat back down with a dull thump on the old velvet seat, her grin now only a small smile, her tail now still, though its tip still shook about a little bit.
+“Well, um, thanks Anon. Guess I&#039;ll just go back to the shelter for tonight…”
+”It’s better if you just come with me, streets aren’t safe, much less at this hour.”
+Hell now that you thought about it, you had spent a fair amount of time in the cafe, most of the customers were already gone, there were only a couple left and they had plugged themselves into the matrix network through their cyberdecks. Chipheads, all you needed was in the real world already.
+&quot;Huh?&quot; She perked up at your suggestion.
+&quot;Yeah I mean, I&#039;m already a bit surprised how long you&#039;ve managed to stay out of trouble for the past week in this part of Kowloon but that&#039;s no reason to keep pushing your luck. If I need to deliver you to ol&#039; snake daddy I don&#039;t think he&#039;d be happy if anything happened to you while it was my job to do so. I got enough room where I crash at, and a heater too.&quot;
+&quot;Well, okay, beats having to stay at the shelter I guess. Do you have a shower too?&quot;
+&quot;Yeah, everything.&quot; You start getting off of your seat, standing up while you grabbed your tablet terminal and slid it into your open backpack, then zipped it up.
+&quot;C&#039;mon let&#039;s go, I want to catch some sleep before we start working on finding your dad.&quot;
+&quot;Alright... Thanks again by the way Anon- er, you don&#039;t mind if I just call you Anon right? I mean I&#039;ve been doing it this whole time but Anonymous is a bit of a mouthful and I hadn&#039;t really asked if I could.&quot; She chuckles nervously, rubbing her arms yet again as she looked away. It still didn&#039;t fit into your head how a poikilotherm would dress so skimpily in this time of the year in Kowloon. Fuck&#039;s sake you&#039;re right near the sea, the wind’s as chilly as a penguin’s anus.
+&quot;Anon&#039;s fine, yeah.&quot; 
+“Thanks.”
+“Mhm.”
+
+You both left the booth in the cafe, and made your way out into the streets to head out to your apartment. The streetlamps were so busted they barely shone at all, in fact most of the street was lit up by the neon signs that the stores lining up along the sidewalks had. Her current state bothered you a little, you knew she was cold by the way she was shivering and moving rather stiffly but she didn&#039;t complain once. To be honest when you first saw her, you thought she was a naïve wagie’s kid looking for fun in the wrong parts of town. It&#039;s happened before, and like you noted before she was dressed a lot like a clubber. You hated clubs and the people in it, spoiled brats for the most part. Ashley was surprisingly meek though, the way she acted didn&#039;t match the way she looked or dressed. It might&#039;ve been a front for all you knew, but somehow she seemed genuine. Shame you wouldn&#039;t get to know her better, she was pretty cute. And had a banging body.
+
+“Aren&#039;t you cold showing off that much skin? I know you snake anthros can&#039;t control your body temperature.” A bit blunt but it got the point across, if her embarrassed expression was anything to go by.
+“Oh-uhm, a li-little… I didn&#039;t have anything else to wear and… W-well my friends told me this was the most popular fashion lately among g-girls so I w-went with it.”
+You shook your head as you zipped down your jacket and took it off to drape it around her shoulders. Despite her being fairly tall it still dwarfed her curvaceous body. Youre no gentleman, but you weren&#039;t a douche either. This much was only natural. Besides you were used to the cold.
+“I live close by so it won&#039;t be long until we&#039;re home.”
+“Thanks anon.” She grasped the jacket that hung around her shoulders, hugging herself and pressing it tighter against her cold, scaly skin.
+“It&#039;s warm…”
+She hunched her shoulders over, making the furred neck of the jacket press against her own and cover most of her hood and face With her snout poking out, her forked tongue probed out several times, as if tasting the winter air. You swore you could hear something about a “good smell” coming from her but you couldn&#039;t make out the exact words. 
+
+Goddamn she was cute.
+
+Eventually you reached the old apartment complex where you lived at. It was dainty, stacked against other similarly structured buildings. They were all clearly built to house low-income citizens. The floors and living spaces were cramped and the concrete was stained with mosses, filth and graffiti. One look at Ashley&#039;s face told you everything you needed to know how she felt about it.
+“Y-you live in there?”
+“We&#039;re not all lucky enough to have been born into a corporate’s household.”
+“But this…” She looked at the building, her neon pink eyes focusing on the dilapidated apartments. To be fair it was her own fault for expecting anything else other than what she had seen so far in the lower residential districts of Kowloon.
+“Would you rather go back to the shelter?”
+“Wh- No! I&#039;m sorry it&#039;s just… Nevermind.”
+You looked at her for a couple of seconds before patting her on the back and opening the door leading to the inside of the complex.
+
+After stepping inside and up the stairs to the topmost floor of the building, you stopped in front of the only door that didn&#039;t have a flimsy wooden door and a cheap keypad as their only security measures. The door to your apartment was built into the concrete itself, a steel gate with retinal and digital fingerprint scanners as well as a key card slot. While some people might&#039;ve called that overkill, most knew that shadowrunner safehouses tended to heavily emphasize the &#039;safe’ part of the word, and while expensive, your job paid enough to afford it. And though some may question the fact that you lived in the slums was likely to prove the contrary, it was also, in fact, a security measure in its own right, since you attracted much less attention living in the slums. 
+
+As soon as Ashley stepped inside her eyes lit up at the amount of electronic equipment inside, not to mention the stacks of papers and walls racked with different sorts of weapons. Very little inside of your room wasn’t organized or had a utilitarian purpose. Thick cables ran all along the floor connecting electronic equipment to power feeds and your terminal, among other things that practically occupied half the room. The scent of ozone permeated it, completely sterile as opposed to what it looked like from outside, or the rest of the building. The only indication that someone lived in there was the fact that in one corner of the room you had a decently sized bed right against the walls, clothes everywhere and a pile of pillows. Yeah you liked having a comfy space to relax in, even if it got messy. You didn&#039;t really get much company in your little home anyways so you didn&#039;t bother to clean up often.
+
+“Woah, it&#039;s… Not what I thought what it&#039;d look like at all.. What&#039;s with all the blinky lights and the hardware? You&#039;ve even got guns in here…” She quipped nervously as she moved through the room, holding tightly to your jacket.
+“It&#039;s part of my day-to-day job.”
+“Job? What d’you do that you need all this stuff?”
+“Don&#039;t worry about it. Just put your stuff somewhere. There&#039;s some prepackaged instant meals in the cupboards over in the kitchen somewhere. I&#039;ll get the electric heater running.” You quickly kicked your boots off and moved on over to turn on the electric heater beside your bed while Ashley nodded and went off to the kitchen. The central heating in chinese economy units was notoriously terrible and faulty. You had to survive with electric heaters since biofuel operated ones could spell trouble due to the fumes and the possibility of explosions.
+
+You could hear rummaging around the cupboards in the kitchen as she looked for something more tasty than nutrient paste to eat. Even if most of your food wasn&#039;t made by hand and came in a box it was enough for you to survive with and have no health issues. The sodium problems in these kinds of foods had been solved a long time ago. You shrugged as you rearranged the room a little to have Ashley’s sofa bed fit in your tiny room while she had an OK meal back in the kitchen. It had been a long day and quite frankly you were ready to hit the sack and sleep. You didn&#039;t really feel too troubled over having a stranger sleep over, you knew you could handle yourself if it came down to it, and if she tried to steal anything then tough titties, everything important is either bolted or locked behind a safe.
+
+Five minutes or so after you rearranged the room a little, Ashley emerged from the kitchen with a smile on her face.
+“Thanks again for letting me stay the night Anon, and for giving me some of your food.”
+“Mhm, no problem. I&#039;m gonna go take a shower and hit the hay. I set up the couch for you to sleep on, by the way.”
+“Aw, and right next to the heater too. Y&#039;know you look a bit rough but you&#039;re really thoughtful aren&#039;t you?” She brought her slender hand over her maw as she giggled.
+“I was just cold.” You huffed, turning around and grabbing a bunch of clean clothes from the pile on your bed and heading into your bathroom to shower. By the time you were done you were so tired and spent you didn&#039;t even notice when you fell asleep or even crashed on your bed, Morpheus took you far too quickly.
+
+-------------------------------------------------------------------[Update 2]----------------------------------------------------------
+
+You awoke the next morning as the first streaks of sunlight speared through the blinders of your window. With a lazy groan you stirred about in the messy bed as you sat up on the mattress, back resting against a pile of pillows. It took you nearly a minute to get your bearings, head feeling like a bucket full of mud and heavy, as if someone had stirred up your brain into mush. Shouldn&#039;t have stayed up so late at the café.
+
+A quick shake of your head to dispel any leftover grogginess left you with your head towards a sleeping cobra on your couch. The heater had appropriately turned itself off a few minutes after you went into your shower, which explained her deep slumber. There was a chill in the air of your apartment. Winter in Kowloon was pretty unforgiving, the cold and freezing winds of the northern pacific ocean flowing into the mainland. Your apartment was fairly close to the sea.
+
+Seeing Ashley shivering prompted you to get up, then grab one of your own bed covers to throw it over her cold body before turning the electric heater back on. Her stirrings stopped after a while as the heater warmed up her side a little, but you swear you could see a hint of a smile form on her mouth as her snout poked out of the covers cutely. Something about her made you feel slightly warm as well, though on the inside, curiously enough.
+
+You shrugged and got up to leave her on the couch sleeping while you went to your small kitchen to try and cook up a little something to start the day off. Maybe something filled with protein. Eggs and sausages should do, it&#039;s simple enough. 
+
+By the time you finished making breakfast, your cobra friend had gotten up. She slid off the sofa, raising her arm to set aside the covers and turn off the heater with the other one. She yawned and stretched, uncharacteristically feline, and rubbed her eyes. She didn&#039;t have any clothes on her person other than her racy black underwear; lacy panties and her bra. It didn&#039;t take long for either one of you to notice you were intently staring with at her. She crossed her arms to cover her large breasts and coiled her thick tail around her hips to hide her near-visible delta. She didn&#039;t realize her toned ass was visible and her arms pressed hard enough against her chest, making the soft mounds look like they were about to spill. The same streaks of sunlight that had nearly blinded you when you woke up now stroked the scaly skin of her delicate back, giving off a purplish-red sheen. 
+
+“Breakfast is ready.” You flatly announced, holding onto a steaming pan.
+
+---
+
+It took a while before Ashley came out of your apartment and down to the streets. She had breakfast and changed to some of your more loose clothes she could wear, while you waited outside the building. You brought up your wrist, looking at your cheap chinese knockoff watch. 10:12 AM. Still on time to make it to the Jiao Yun Towers. A quick search on the net before you had stepped out into the cold  streets and little asking here and there on the ShadowNET about a certain “Ingram Darkwood”-- Ashley&#039;s father--  led you to that place. Apparently he was some big shot corporate leading talks about AI developments in his company and somesuch. Probably trying to rope other corporates into financing his R&amp;D. 
+
+When she finally came out she was wearing one of your plain black tees, one of your jackets with a furred collar, and a pair of old jeans you had. Somehow she managed to fill them out, with her shapely legs. The only problem was her tail, it made wearing the pants somewhat difficult, and she had to keep pulling them up every so often so as to avoid them slipping off and showing her ass. You swear you could still spot the strings of her black panties hiked up around her thick tail and wide hips with every step she took, though.
+
+Walking over to your motorbike and mounting it,you gestured at the snake girl get on behind you. She mounted up as well, her hands snaking around your sides, tightly gripping your chest and her tail coiling around your waist. Her scales were cold to the touch but not at all rough. The same could be said about her soft, full rack pressed against your back as she leaned forward against you. Sweet.
+
+“You won&#039;t go too fast right?”
+“We&#039;ll take it slow princess. Would you like to take the scenic route too?” You responded, joking and half-mocking as you turned to look at her over your shoulder
+“You&#039;d do that?” Her eyes widened, a cute smile forming on her snout.
+“I was joking.” 
+“Oh..” And just like that, the magic was gone along with her smile.
+“..But it&#039;s not like we&#039;re on a tight schedule here. Your old man is staying at the Jiao Yun Towers. We can take a little detour around the city I suppose.”
+“Mm. Okay. I&#039;d like that.” She smiled a little again.
+Well, maybe it won&#039;t be so bad to give her her a little tour of Kowloon.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    13 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    14 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    17 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    18 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

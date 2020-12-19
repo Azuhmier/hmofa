@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>White Knighting - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+        <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="White Knighting - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/8YR7ycJz" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/8YR7ycJz" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="mYKpw1_JAd_V-bst4BorIFZtPkkiVb3aMnLMrceYhYCg-8qHbYd28oOg3kiIQBJabiUMMXoP0ogGQbmdvdPouQ==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/8YR7ycJz" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/8YR7ycJz" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Metamorphone">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>White Knighting</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Metamorphone">Metamorphone</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=Metamorphone" class="message" title="Send a private message to: Metamorphone"></a>
+                                    
+                <div class="date">
+                    <span title="Wednesday 21st of February 2018 09:31:03 PM CDT">Feb 21st, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,760                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 9.33 KB            </div>
+
+            <div class="right">
+                <a href="/raw/8YR7ycJz" class="btn -small">raw</a>
+                <a href="/dl/8YR7ycJz" class="btn -small">download</a>
+                <a href="/clone/8YR7ycJz" class="btn -small h_800">clone</a>
+                <a href="/embed/8YR7ycJz" class="btn -small h_800">embed</a>
+                <a href="/report/8YR7ycJz" class="btn -small">report</a>
+                <a href="/print/8YR7ycJz" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;Be Anon. </div></li><li class="li1"><div class="de1">&gt;It was the middle of the school day and you were tired as hell. The previous night you’d been up late studying for your math midterm. </div></li><li class="li1"><div class="de1">&gt;Well, “studying.” Mostly it consisted of you trying to do a few problems from the book, not getting a single word of it, getting mad and tearing up your paper, browsing your favorite image board, rinse and repeat. </div></li><li class="li1"><div class="de1">&gt;You thought you passed though. Most likely by a hair, but what was it your dad always said? “C’s get degrees?” </div></li><li class="li1"><div class="de1">&gt;Now you were just waiting for history to get out, so you could head off campus and grab something to eat. </div></li><li class="li1"><div class="de1">&gt;After what felt like an eternity, the bell rang. You grabbed your bag and headed for the door. After fighting your way out of the crowd of furry bodies to get through the doorway, you made for the parking lot. </div></li><li class="li1"><div class="de1">&gt;Outside the air was nice and cool, with a calm breeze rustling the trees. </div></li><li class="li1"><div class="de1">&gt;You dug your phone from your pocket and began walking down the sidewalk. There was a McDaniel’s not far from the high school and you could go for a shitty dollar burger. </div></li><li class="li1"><div class="de1">&gt;You’re in the middle of trying to untangle your earbuds when a girl’s voice from the right get’s your attention. </div></li><li class="li1"><div class="de1">&gt;”H-hey, quit it! That’s all I have!” The girl cried</div></li><li class="li1"><div class="de1">&gt;You look over to see a cheetah at one of the benches students could eat at trying her hardest to snag a sandwich back from some bitch of a Hyena. The hyena had about a foot in height on the cheetah and had more muscle than you…not that you were some standard of male strength or anything. But it was always odd to see on a woman. </div></li><li class="li1"><div class="de1">&gt;You slowed your pace, then stopped all together when the hyena easily pushed the cheetah down into the mulch. She teared up almost immediately while hyena tore into the sub. It was gone in an instant, and having accomplished her goal, she snarled at the girl. “See you tomorrow, runt.” </div></li><li class="li1"><div class="de1">&gt;Like that, the hyena walked off, leaving the cheetah there. She hugged her knee that looked scraped up and cried softly, trying her best to keep her sobs to a minimum. </div></li><li class="li1"><div class="de1">&gt;Usually you tried not to get involved with this sort of thing. It was rather common at this school and being human, you really couldn’t do much. Aside from call the cops if you were torn a new one. </div></li><li class="li1"><div class="de1">&gt;But you weren’t dark enough for that so that wasn’t an option anyways. </div></li><li class="li1"><div class="de1">&gt;It took a few more seconds of watching the crying cheetah from a distance before you looked down at yourself. </div></li><li class="li1"><div class="de1">&gt;’Good thing the hyena’s gone, you forgot your shield you fucking white night.’ You scolded yourself momentarily before heading over to her. </div></li><li class="li1"><div class="de1">&gt;Once you knelt beside her she looked up to you, her hazel eyes all red from her crying. </div></li><li class="li1"><div class="de1">&gt;You extended a hand down to help her up. </div></li><li class="li1"><div class="de1">&gt;“That looked like a pretty nasty fall. You alright?” </div></li><li class="li1"><div class="de1">&gt;She sniffled and wiped at her eyes before taking your hand and letting you help her to her feet.</div></li><li class="li1"><div class="de1">&gt;”Y-yeah, I’m okay…she was just a little rougher than usual,” the cheetah says.</div></li><li class="li1"><div class="de1">&gt;“Than usual? Don’t tell me this is a common thing…” </div></li><li class="li1"><div class="de1">&gt;She looked down and dropped your hand, nodding slowly. </div></li><li class="li1"><div class="de1">&gt;Well, that was depressing. </div></li><li class="li1"><div class="de1">&gt;But it was kind of easy to see why. While cheetahs could be fierce if they needed to be, not only was she rather short but she didn’t exactly look too strong either. If anything, she just had a rather timid vibe coming off of her. </div></li><li class="li1"><div class="de1">&gt;You give a soft sigh before looking at the table. That was all she had to eat it seemed. </div></li><li class="li1"><div class="de1">&gt;Well, you could fix that at least. </div></li><li class="li1"><div class="de1">&gt;“C’mon.” </div></li><li class="li1"><div class="de1">&gt;”W-what?” </div></li><li class="li1"><div class="de1">&gt;“I said c’mon. I’m on my way to grab some food anyways, I’ll get you something too. It’d be kind of a dick move to watch that happen and just say ‘Welp, sucks to be you, see ya!’, wouldn’t it?” </div></li><li class="li1"><div class="de1">&gt;That got her to smile a little, but she wouldn’t hold your eyes for more than a moment or two. </div></li><li class="li1"><div class="de1">&gt;”I guess…are you sure though? I-I don’t have any money to repay you, not on me.” </div></li><li class="li1"><div class="de1">&gt;As she asked that she began following you however, so you knew she wasn’t going to turn down the offer. </div></li><li class="li1"><div class="de1">&gt;“I’m not gonna ask you to repay me for a dollar menu sandwich,” you say with a yawn. “What’s your name anyways?” </div></li><li class="li1"><div class="de1">&gt;”Mihari..b-but, um, you can just call me Mia, if you’d like. Most of my friends do.” As she speaks she fidgets with her hands a bit. You noticed it was a nervous habit of hers to retract and relax her claws over and over. That was kind of cute. </div></li><li class="li1"><div class="de1">&gt;“Mia works then. I’m Anon.” </div></li><li class="li1"><div class="de1">&gt;You continue walking for a moment as silence falls between you two before she asks quietly, “W-why did you help me though?...” </div></li><li class="li1"><div class="de1">&gt;You glance over at her and shrug. “I mean, what was I supposed to do? Leave you there in the dirt?” </div></li><li class="li1"><div class="de1">&gt;”I just…I don’t want Ezra to come after you too, you know?” </div></li><li class="li1"><div class="de1">&gt;“I can handle myself Mia, trust me. She wouldn’t be the first person I’ve fought.” </div></li><li class="li1"><div class="de1">&gt;Okay, that wasn’t a lie, but in every one of the scuffles you’ve been in you got your ass handed too you. However, that omission and the false confidence in your voice did seem to put her at ease. </div></li><li class="li1"><div class="de1">&gt;Hopefully you wouldn’t have to hold up the expectation of victory though.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The McDaniels was probably the shitties one in your town, but damn if they didn&#039;t have a dollar menu burger. </div></li><li class="li1"><div class="de1">&gt;Your fat ass ordered three of them along with a chicken sandwich for Mia. She insisted on not getting more than that. </div></li><li class="li1"><div class="de1">&gt;Even so, on the walk back she pretty happily tore into the thing while you ate what food you had. </div></li><li class="li1"><div class="de1">&gt;By the time you got back to school the bell signaling the end of lunch was ringing. </div></li><li class="li1"><div class="de1">&gt;You tossed your wrappers and to-go bag in the garbage, and the two of you had to part ways. </div></li><li class="li1"><div class="de1">&gt;&quot;I-I&#039;ll see you later, right?..&quot; Mia asked you quietly. </div></li><li class="li1"><div class="de1">&gt;You gave her a smile and nodded. &quot;Yeah, if not this afternoon then tomorrow. Try and find me before going to eat anywhere, just in case that bitch shows up.&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Okay..&quot; She says softly, looking down before glancing up at you. </div></li><li class="li1"><div class="de1">&gt;She extended her arms out to you, her adorable eyes asking for a hug. </div></li><li class="li1"><div class="de1">&gt;You hugged her of course. She squeezed you nighty, nuzzling your face a bit. Her fur was so soft, it tickled your skin. Plus she smelled nice. Her perfume was pleasant but not overpowering. You picked up on her soft purring that was coming from her throat. After holding it for a moment she let go. </div></li><li class="li1"><div class="de1">&gt;&quot;B-bye Anon.&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Bye Mia. Be safe.&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;I-I will..&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You split off at that point. The rest of the day dragged on rather dully. </div></li><li class="li1"><div class="de1">&gt;A few of the other anthros in your classes did cast some glances your way. Though you didn&#039;t know it at the time they had been able to pick up Mia&#039;s scent on your clothes. Given that you weren&#039;t exactly the smoothest with girls it was a tad surprising to them. </div></li><li class="li1"><div class="de1">&gt;Eventually you were allowed to leave. Most of your class headed to their cars, but you lived rather close to campus, so you just rode your old bike to and from school. The thing was rusty in the gears and the chain was likely to fall off any day now, but as long as it did it&#039;s job you&#039;d keep using it. </div></li><li class="li1"><div class="de1">&gt;Outside of school your life wasn&#039;t very eventful. You got home. Ate. Showered. Beat your meat. Ate again. Played some Vidya. Slept. </div></li><li class="li1"><div class="de1">&gt;And the following morning you were on your way back to that shitpot of a school. </div></li><li class="li1"><div class="de1">&gt;However, this time you didn&#039;t have to walk to your homeroom alone. Mia was waiting for you at the bikelock. </div></li><li class="li1"><div class="de1">&gt;&quot;H-hi Anon..&quot; The cheetah said quietly. You noticed in her left hand she had a little brown wax bag, her other folded over her chest. She was doing the nervous claw thing again. </div></li><li class="li1"><div class="de1">&gt;&quot;Hey Mia, what&#039;s up?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;I-I just wanted to thank you for yesterday...here..&quot; She said, handing you the bag. </div></li><li class="li1"><div class="de1">&gt;You took it from her and opened it. </div></li><li class="li1"><div class="de1">&gt;Inside was a slice of lemon pound cake from the local café. You loved that stuff. </div></li><li class="li1"><div class="de1">&gt;&quot;I-I hope you like it, they didn&#039;t have a lot else this morning..&quot; She says while you plopped a piece into your mouth. </div></li><li class="li1"><div class="de1">&gt;&quot;I do, believe me. It&#039;s one of my favorite things from that place,&quot; you say after you swallow. As you plopped another piece in your mouth you motioned for her to follow, and she did. </div></li><li class="li1"><div class="de1">&gt;You had a few minutes before homeroom so you weren&#039;t in a rush to get anywhere. </div></li><li class="li1"><div class="de1">&gt;&quot;That hyena give you any trouble before I got here?&quot; you ask her once you finish the breakfast she brought you. </div></li><li class="li1"><div class="de1">&gt;&quot;N-no, she usually shows up late..&quot; she answered. She brushed some of her long blonde hair out of her face as she looked up at you. &quot;I just figured I&#039;d meet you...I noticed you usually don&#039;t hang out with people in the morning anyways...heh..&quot; She gave a small, nervous laugh as her voice trailed off. </div></li><li class="li1"><div class="de1">&gt;You smiled. This little cheetah really was adorable. &quot;Wait, so you&#039;ve been watching me?&quot; You ask. </div></li><li class="li1"><div class="de1">&gt;Even under her coat her the blush that grew on her cheeks was visible. Once more she looked down. &quot;I-I mean...k-kinda? N-Not for long! I-I j-just..&quot; </div></li><li class="li1"><div class="de1">&gt;You weren&#039;t going to give her shit for it, obviously. But the way her stutter became more prominent as she spoke was absolutely adorable. </div></li><li class="li1"><div class="de1">&gt;The bell rang before you could respond however. </div></li><li class="li1"><div class="de1">&gt;She looked disappointed. You were too, talking to her was fun. </div></li><li class="li1"><div class="de1">&gt;&quot;Guess we&#039;ll have to catch up later. I&#039;ll see you at lunch Mia.&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;R-right..&quot; She said softly. &quot;B-bye Nonny..&quot; She whispered before heading off, rather quickly too. </div></li><li class="li1"><div class="de1">&gt;You smiled as you watched her head to class, then made for your own. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Alright, the fight scene is gonna be next. I&#039;m signing off for the night soon. Is the format better guys?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As for the inevitable lewds, I&#039;m torn between soft, loving sex or some gentle(ish) BDSM. Or both.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;Be Anon. 
+&gt;It was the middle of the school day and you were tired as hell. The previous night you’d been up late studying for your math midterm. 
+&gt;Well, “studying.” Mostly it consisted of you trying to do a few problems from the book, not getting a single word of it, getting mad and tearing up your paper, browsing your favorite image board, rinse and repeat. 
+&gt;You thought you passed though. Most likely by a hair, but what was it your dad always said? “C’s get degrees?” 
+&gt;Now you were just waiting for history to get out, so you could head off campus and grab something to eat. 
+&gt;After what felt like an eternity, the bell rang. You grabbed your bag and headed for the door. After fighting your way out of the crowd of furry bodies to get through the doorway, you made for the parking lot. 
+&gt;Outside the air was nice and cool, with a calm breeze rustling the trees. 
+&gt;You dug your phone from your pocket and began walking down the sidewalk. There was a McDaniel’s not far from the high school and you could go for a shitty dollar burger. 
+&gt;You’re in the middle of trying to untangle your earbuds when a girl’s voice from the right get’s your attention. 
+&gt;”H-hey, quit it! That’s all I have!” The girl cried
+&gt;You look over to see a cheetah at one of the benches students could eat at trying her hardest to snag a sandwich back from some bitch of a Hyena. The hyena had about a foot in height on the cheetah and had more muscle than you…not that you were some standard of male strength or anything. But it was always odd to see on a woman. 
+&gt;You slowed your pace, then stopped all together when the hyena easily pushed the cheetah down into the mulch. She teared up almost immediately while hyena tore into the sub. It was gone in an instant, and having accomplished her goal, she snarled at the girl. “See you tomorrow, runt.” 
+&gt;Like that, the hyena walked off, leaving the cheetah there. She hugged her knee that looked scraped up and cried softly, trying her best to keep her sobs to a minimum. 
+&gt;Usually you tried not to get involved with this sort of thing. It was rather common at this school and being human, you really couldn’t do much. Aside from call the cops if you were torn a new one. 
+&gt;But you weren’t dark enough for that so that wasn’t an option anyways. 
+&gt;It took a few more seconds of watching the crying cheetah from a distance before you looked down at yourself. 
+&gt;’Good thing the hyena’s gone, you forgot your shield you fucking white night.’ You scolded yourself momentarily before heading over to her. 
+&gt;Once you knelt beside her she looked up to you, her hazel eyes all red from her crying. 
+&gt;You extended a hand down to help her up. 
+&gt;“That looked like a pretty nasty fall. You alright?” 
+&gt;She sniffled and wiped at her eyes before taking your hand and letting you help her to her feet.
+&gt;”Y-yeah, I’m okay…she was just a little rougher than usual,” the cheetah says.
+&gt;“Than usual? Don’t tell me this is a common thing…” 
+&gt;She looked down and dropped your hand, nodding slowly. 
+&gt;Well, that was depressing. 
+&gt;But it was kind of easy to see why. While cheetahs could be fierce if they needed to be, not only was she rather short but she didn’t exactly look too strong either. If anything, she just had a rather timid vibe coming off of her. 
+&gt;You give a soft sigh before looking at the table. That was all she had to eat it seemed. 
+&gt;Well, you could fix that at least. 
+&gt;“C’mon.” 
+&gt;”W-what?” 
+&gt;“I said c’mon. I’m on my way to grab some food anyways, I’ll get you something too. It’d be kind of a dick move to watch that happen and just say ‘Welp, sucks to be you, see ya!’, wouldn’t it?” 
+&gt;That got her to smile a little, but she wouldn’t hold your eyes for more than a moment or two. 
+&gt;”I guess…are you sure though? I-I don’t have any money to repay you, not on me.” 
+&gt;As she asked that she began following you however, so you knew she wasn’t going to turn down the offer. 
+&gt;“I’m not gonna ask you to repay me for a dollar menu sandwich,” you say with a yawn. “What’s your name anyways?” 
+&gt;”Mihari..b-but, um, you can just call me Mia, if you’d like. Most of my friends do.” As she speaks she fidgets with her hands a bit. You noticed it was a nervous habit of hers to retract and relax her claws over and over. That was kind of cute. 
+&gt;“Mia works then. I’m Anon.” 
+&gt;You continue walking for a moment as silence falls between you two before she asks quietly, “W-why did you help me though?...” 
+&gt;You glance over at her and shrug. “I mean, what was I supposed to do? Leave you there in the dirt?” 
+&gt;”I just…I don’t want Ezra to come after you too, you know?” 
+&gt;“I can handle myself Mia, trust me. She wouldn’t be the first person I’ve fought.” 
+&gt;Okay, that wasn’t a lie, but in every one of the scuffles you’ve been in you got your ass handed too you. However, that omission and the false confidence in your voice did seem to put her at ease. 
+&gt;Hopefully you wouldn’t have to hold up the expectation of victory though.
+
+&gt;The McDaniels was probably the shitties one in your town, but damn if they didn&#039;t have a dollar menu burger. 
+&gt;Your fat ass ordered three of them along with a chicken sandwich for Mia. She insisted on not getting more than that. 
+&gt;Even so, on the walk back she pretty happily tore into the thing while you ate what food you had. 
+&gt;By the time you got back to school the bell signaling the end of lunch was ringing. 
+&gt;You tossed your wrappers and to-go bag in the garbage, and the two of you had to part ways. 
+&gt;&quot;I-I&#039;ll see you later, right?..&quot; Mia asked you quietly. 
+&gt;You gave her a smile and nodded. &quot;Yeah, if not this afternoon then tomorrow. Try and find me before going to eat anywhere, just in case that bitch shows up.&quot; 
+&gt;&quot;Okay..&quot; She says softly, looking down before glancing up at you. 
+&gt;She extended her arms out to you, her adorable eyes asking for a hug. 
+&gt;You hugged her of course. She squeezed you nighty, nuzzling your face a bit. Her fur was so soft, it tickled your skin. Plus she smelled nice. Her perfume was pleasant but not overpowering. You picked up on her soft purring that was coming from her throat. After holding it for a moment she let go. 
+&gt;&quot;B-bye Anon.&quot; 
+&gt;&quot;Bye Mia. Be safe.&quot; 
+&gt;&quot;I-I will..&quot; 
+
+&gt;You split off at that point. The rest of the day dragged on rather dully. 
+&gt;A few of the other anthros in your classes did cast some glances your way. Though you didn&#039;t know it at the time they had been able to pick up Mia&#039;s scent on your clothes. Given that you weren&#039;t exactly the smoothest with girls it was a tad surprising to them. 
+&gt;Eventually you were allowed to leave. Most of your class headed to their cars, but you lived rather close to campus, so you just rode your old bike to and from school. The thing was rusty in the gears and the chain was likely to fall off any day now, but as long as it did it&#039;s job you&#039;d keep using it. 
+&gt;Outside of school your life wasn&#039;t very eventful. You got home. Ate. Showered. Beat your meat. Ate again. Played some Vidya. Slept. 
+&gt;And the following morning you were on your way back to that shitpot of a school. 
+&gt;However, this time you didn&#039;t have to walk to your homeroom alone. Mia was waiting for you at the bikelock. 
+&gt;&quot;H-hi Anon..&quot; The cheetah said quietly. You noticed in her left hand she had a little brown wax bag, her other folded over her chest. She was doing the nervous claw thing again. 
+&gt;&quot;Hey Mia, what&#039;s up?&quot; 
+&gt;&quot;I-I just wanted to thank you for yesterday...here..&quot; She said, handing you the bag. 
+&gt;You took it from her and opened it. 
+&gt;Inside was a slice of lemon pound cake from the local café. You loved that stuff. 
+&gt;&quot;I-I hope you like it, they didn&#039;t have a lot else this morning..&quot; She says while you plopped a piece into your mouth. 
+&gt;&quot;I do, believe me. It&#039;s one of my favorite things from that place,&quot; you say after you swallow. As you plopped another piece in your mouth you motioned for her to follow, and she did. 
+&gt;You had a few minutes before homeroom so you weren&#039;t in a rush to get anywhere. 
+&gt;&quot;That hyena give you any trouble before I got here?&quot; you ask her once you finish the breakfast she brought you. 
+&gt;&quot;N-no, she usually shows up late..&quot; she answered. She brushed some of her long blonde hair out of her face as she looked up at you. &quot;I just figured I&#039;d meet you...I noticed you usually don&#039;t hang out with people in the morning anyways...heh..&quot; She gave a small, nervous laugh as her voice trailed off. 
+&gt;You smiled. This little cheetah really was adorable. &quot;Wait, so you&#039;ve been watching me?&quot; You ask. 
+&gt;Even under her coat her the blush that grew on her cheeks was visible. Once more she looked down. &quot;I-I mean...k-kinda? N-Not for long! I-I j-just..&quot; 
+&gt;You weren&#039;t going to give her shit for it, obviously. But the way her stutter became more prominent as she spoke was absolutely adorable. 
+&gt;The bell rang before you could respond however. 
+&gt;She looked disappointed. You were too, talking to her was fun. 
+&gt;&quot;Guess we&#039;ll have to catch up later. I&#039;ll see you at lunch Mia.&quot; 
+&gt;&quot;R-right..&quot; She said softly. &quot;B-bye Nonny..&quot; She whispered before heading off, rather quickly too. 
+&gt;You smiled as you watched her head to class, then made for your own. 
+
+Alright, the fight scene is gonna be next. I&#039;m signing off for the night soon. Is the format better guys?
+
+As for the inevitable lewds, I&#039;m torn between soft, loving sex or some gentle(ish) BDSM. Or both.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    17 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    18 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    21 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    23 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    29 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

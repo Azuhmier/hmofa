@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bones to Pick - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="Bones to Pick - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/xjXNtrN2" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/xjXNtrN2" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="4GqrsKIUon_joFSnFFN9HViIUWAIdp2GwWFKUd5IjM66GOXS7l32GIvlI9QkHjhMNv8LP2A1rO-HMDlgmyb9ug==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/xjXNtrN2" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/xjXNtrN2" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="Retconned">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>Bones to Pick</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/Retconned">Retconned</a>
+                                            </div>
+
+                                            <a href="/pro" class="pro" title="PRO User!"></a>
+                    
+                                             <a href="/message/compose?to=Retconned" class="message" title="Send a private message to: Retconned"></a>
+                                    
+                <div class="date">
+                    <span title="Sunday 22nd of April 2018 03:58:38 AM CDT">Apr 22nd, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,526                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 15.43 KB            </div>
+
+            <div class="right">
+                <a href="/raw/xjXNtrN2" class="btn -small">raw</a>
+                <a href="/dl/xjXNtrN2" class="btn -small">download</a>
+                <a href="/clone/xjXNtrN2" class="btn -small h_800">clone</a>
+                <a href="/embed/xjXNtrN2" class="btn -small h_800">embed</a>
+                <a href="/report/xjXNtrN2" class="btn -small">report</a>
+                <a href="/print/xjXNtrN2" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">&gt;As you dial the handwritten number, you try to think back on the party last night.</div></li><li class="li1"><div class="de1">&gt;Unfortunately, you ended up drinking enough to entirely wipe the events from your mind.  But... you did find a phone number in your pocket.</div></li><li class="li1"><div class="de1">&gt;The handwriting is pretty good?  But that doesn&#039;t really matter, does it.</div></li><li class="li1"><div class="de1">&gt;No, what matters is figuring out who this is.  Figuring out who writes their &quot;l&quot;s as little bones, with skulls dotting the exclamation points in &quot;Call Me!!&quot;</div></li><li class="li1"><div class="de1">&gt;The phone rings... and rings...</div></li><li class="li1"><div class="de1">&gt;Just as you&#039;re ready to hang up, there&#039;s a click, then a woman&#039;s voice.</div></li><li class="li1"><div class="de1">&gt;&quot;...hello?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Uh, hey.  I was at this party last night, and someone gave me this number?&quot;</div></li><li class="li1"><div class="de1">&gt;There&#039;s a squeal of delight on the other end.</div></li><li class="li1"><div class="de1">&gt;&quot;Sweet!  Alright, alright, listen: meet me in the graveyard on the outskirts of town in 20 minutes, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...who is this?  And why?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...did I not write my name down?  Shit.  Well, I&#039;ll introduce myself when you get here.  As for why... well, lemme ask you something, numbskull: why do people usually hand out their number at a party~?&quot;</div></li><li class="li1"><div class="de1">&gt;Fair point.  At least she sounds attractive enough.</div></li><li class="li1"><div class="de1">&gt;&quot;...you&#039;re not gonna stab me when I get there, right?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Why would I do that?  Got a dead or alive bounty on your head?  Eh, even if you did, I wouldn&#039;t make any bones about it, heh.  See you in a bit!&quot;</div></li><li class="li1"><div class="de1">&gt;The woman hangs up, leaving you to shrug and make your way to the meeting spot.</div></li><li class="li1"><div class="de1">&gt;Why not?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;By the time you make it there, the 20 minutes has passed.  It&#039;s starting to get dark out... ah well.</div></li><li class="li1"><div class="de1">&gt;As you walk between the graves with purpose, you look around for your rendezvous point.</div></li><li class="li1"><div class="de1">&gt;Suddenly, you hear that voice again.</div></li><li class="li1"><div class="de1">&gt;&quot;Over here, bonehead!&quot;</div></li><li class="li1"><div class="de1">&gt;You follow her voice... to a concrete, above ground coffin.</div></li><li class="li1"><div class="de1">&gt;...</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t just stand there, open it up!&quot;</div></li><li class="li1"><div class="de1">&gt;...........</div></li><li class="li1"><div class="de1">&gt;The hell with it.  You open up the coffin, the lid of which is already askew anyway...</div></li><li class="li1"><div class="de1">&gt;And let out a shout when something grabs your hand.</div></li><li class="li1"><div class="de1">&gt;You feel your blood run cold when you realize it&#039;s a skeletal hand, with not a scrap of flesh on the bones.  Despite the lack of muscle, the bony hand grips your wrist firmly.</div></li><li class="li1"><div class="de1">&gt;The lid is suddenly thrown off the coffin with a loud snarl, and you feel the blood leave your face.</div></li><li class="li1"><div class="de1">&gt;Another bony hand grabs your shoulder as the creature within the coffin lets off a sound somewhere between a growl and a death rattle.  You close your eyes, fully expecting to be dead in seconds...</div></li><li class="li1"><div class="de1">&gt;...you soon feel the hands&#039; grip loosen as the growl gives way to... laughter?</div></li><li class="li1"><div class="de1">&gt;You open your eyes, and shock hits you.</div></li><li class="li1"><div class="de1">&gt;The woman continues to laugh for a while, then catches her breath.</div></li><li class="li1"><div class="de1">&gt;&quot;I love doing that!  Heh heh heh!  Anyway, you&#039;re that Anon guy, huh?  Name&#039;s Marris!  Marris Femur.&quot;</div></li><li class="li1"><div class="de1">&gt;She extends a bony hand as you blink a few times, taking in her appearance.</div></li><li class="li1"><div class="de1">&gt;While her hands seem to be more or less those of a skeleton... the rest of her seems more off.</div></li><li class="li1"><div class="de1">&gt;Long, slender leg bones seem to be in the shape of normal, non-skeletal legs.  A nonsensical bone tail waves happily behind her.</div></li><li class="li1"><div class="de1">&gt;Her forearm bones seem more or less what you expect from a skeleton, but her lower arms are almost cartoonish in appearance, looking very much like the stereotypical dog bone.</div></li><li class="li1"><div class="de1">&gt;Her skull is doglike in shape, with an actual snout... and a nose and ears, both surreally made of bone.</div></li><li class="li1"><div class="de1">&gt;Black, white-pupiled eyes glint with mischief as the woman smiles toothily.</div></li><li class="li1"><div class="de1">&gt;...but most striking is her torso.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Despite everything else on her body being nothing but bare bone, her torso still seems to have flesh... and black fur.</div></li><li class="li1"><div class="de1">&gt;It&#039;s as if she&#039;s wearing skin and fur like some sort of macabre costume.</div></li><li class="li1"><div class="de1">&gt;A tight, tattered gray shirt and dangerously short denim shorts cover her body, with her fur playfully peeking through rips in both.</div></li><li class="li1"><div class="de1">&gt;The woman, Marris apparently, laughs, a loud, rattling sound that wouldn&#039;t be out of place in a Halloween store.</div></li><li class="li1"><div class="de1">&gt;&quot;Whatsa matter with you?  Spooked?&quot;</div></li><li class="li1"><div class="de1">&gt;You stammer out a nonresponse as she sinks into another spell of bony laughter, stepping out of the coffin and approaching you.</div></li><li class="li1"><div class="de1">&gt;&quot;I figured, heh.  Most folks are when they see me!  But, whatever, yeah?  Part of being me.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;W-who... WHAT are you?&quot;</div></li><li class="li1"><div class="de1">&gt;She narrows her eyes and grins... though given her skull, it seems a skeletal grin is almost a permanent fixture on her face.</div></li><li class="li1"><div class="de1">&gt;&quot;I already told you my name... but as for WHAT I am, well, I&#039;m a skeleton, funnybone!  Sheesh, I figured that much was obvious, but I guess you humans ain&#039;t got much going on in here.&quot;</div></li><li class="li1"><div class="de1">&gt;She knocks on her own skull, a loud CLONK echoing across the graveyard.</div></li><li class="li1"><div class="de1">&gt;&quot;W-why...?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Why... what?  Meet you here?  I sleep here, marrowhead!  ...sometimes, anyway.  &#039;S like a vacation home, yeah?  My own little slice of the human world!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You vacation in this graveyard?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, it&#039;s pretty rad, huh?  I fit riiight in; just had to evict the bony guy who was already in this coffin!&quot;</div></li><li class="li1"><div class="de1">&gt;Marris cackles again at your horrified expression.</div></li><li class="li1"><div class="de1">&gt;&quot;Nah, I&#039;m just screwing with you!  I brought this from home; it was always vacant.&quot;</div></li><li class="li1"><div class="de1">&gt;That&#039;s a relief... but she didn&#039;t answer your question.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s great and all, but why did you invite me here?&quot;</div></li><li class="li1"><div class="de1">&gt;She rolls her eyes, her tail waving with a quiet rattle.</div></li><li class="li1"><div class="de1">&gt;&quot;Geez you&#039;re dense.  You sure you ain&#039;t dead too?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;DEAD?&quot;</div></li><li class="li1"><div class="de1">&gt;Another eye roll.</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah, dead!  What, you figured the woman with a skull for a head, bones for arms and legs, and a coffin bed was alive and well?  No offense, but you really are a numbskull, heh heh!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;But... you&#039;re alive?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Undead, bonehead, I&#039;m undead!  Died and came back, easy as that.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...&quot;</div></li><li class="li1"><div class="de1">&gt;She grins again.</div></li><li class="li1"><div class="de1">&gt;&quot;Anyway, I&#039;m getting off track here.  I invited you over for a little fun; you interested?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...what kind of fun?&quot;</div></li><li class="li1"><div class="de1">&gt;Her jaw drops...</div></li><li class="li1"><div class="de1">&gt;...off.  It hits the ground, and she picks it up before roughly reattaching it.</div></li><li class="li1"><div class="de1">&gt;&quot;...yeah, I&#039;m pretty sure you&#039;re a deadhead.  Or waaay too innocent to be getting blackout drunk.&quot;</div></li><li class="li1"><div class="de1">&gt;...no, no; you got her drift earlier.</div></li><li class="li1"><div class="de1">&gt;It&#039;s just...</div></li><li class="li1"><div class="de1">&gt;...she&#039;s a skeleton!  Mostly!</div></li><li class="li1"><div class="de1">&gt;Marris steps forward again, her bones quietly rattling.</div></li><li class="li1"><div class="de1">&gt;&quot;C&#039;mon, man, throw me a bone here!  I&#039;m laying down all kinds of hints; I just need you to pick em up!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, uh, okay then... let&#039;s just, uh...&quot;</div></li><li class="li1"><div class="de1">&gt;With another bony laugh and a grin, Marris begins fumbling with her shirt, trying to pull it off over her skull and revealing her furry midriff.</div></li><li class="li1"><div class="de1">&gt;...you can&#039;t help yourself.</div></li><li class="li1"><div class="de1">&gt;&quot;...can I ask you something first?&quot;</div></li><li class="li1"><div class="de1">&gt;Her expression softens a bit.</div></li><li class="li1"><div class="de1">&gt;&quot;Huh?  Yeah, sure, fire away.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;How did you die?&quot;</div></li><li class="li1"><div class="de1">&gt;Marris lets her shirt drop back into place.  Her pupils shrink to almost nothing.  Her tail droops.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her once-confident voice takes on a more anxious tone.</div></li><li class="li1"><div class="de1">&gt;&quot;Nah, you don&#039;t wanna hear me ramble.  It&#039;d just blow the mood, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Well, how long have you been dead?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Err, l-let&#039;s just get to the fun, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;She quickly yanks her shirt up and off, letting two huge, black-furred breasts flop free with a skeletal giggle.</div></li><li class="li1"><div class="de1">&gt;You can&#039;t help but stare, and she grins, her original, jovial tone reemerging.</div></li><li class="li1"><div class="de1">&gt;&quot;Before you ask, yeah, they&#039;re real.  ...now, granted, they&#039;re PRESERVED... but they&#039;re still real, yeah?  Grab em and feel if you don&#039;t believe me!&quot;</div></li><li class="li1"><div class="de1">&gt;...well, there&#039;s no better way to be sure, right?</div></li><li class="li1"><div class="de1">&gt;You hesitantly grab her chest, with the skeleton letting out a hissing moan of appreciation.</div></li><li class="li1"><div class="de1">&gt;&quot;Mm!  You got a strong grip, huh?  Looks like I picked a good candidate to bring to the ol&#039; bone zone, heh heh!&quot;</div></li><li class="li1"><div class="de1">&gt;...this is too weird.</div></li><li class="li1"><div class="de1">&gt;You gently squeeze her tits once more, then let your hands fall back to your sides with a sigh.</div></li><li class="li1"><div class="de1">&gt;&quot;Look, Marris, I&#039;m sorry, but this is just too-&quot;</div></li><li class="li1"><div class="de1">&gt;She takes a rattling breath, then sighs.</div></li><li class="li1"><div class="de1">&gt;&quot;Too weird, yeah?  I&#039;ve heard that one before.  I ain&#039;t new to this skeleton dance.  Lemme go ahead and just...&quot;</div></li><li class="li1"><div class="de1">&gt;She pulls her shirt back on, covering up her impressive chest with some difficulty.</div></li><li class="li1"><div class="de1">&gt;&quot;There.  Alright then, have a good one, Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;She turns and walks back to her coffin, hanging her head a bit.</div></li><li class="li1"><div class="de1">&gt;&quot;Why&#039;re you leaving?&quot;</div></li><li class="li1"><div class="de1">&gt;She stops and turns towards you again.</div></li><li class="li1"><div class="de1">&gt;&quot;Heh, I&#039;m not a bonehead.  I know where this is going.  I&#039;m going back to bed.  You&#039;re not interested in having a little fun, and I don&#039;t want to just talk.  Sorry, skully.&quot;</div></li><li class="li1"><div class="de1">&gt;She climbs into the coffin and gently shuts the lid with a huff.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Without even turning to leave, you walk back to Marris&#039;s coffin, then gently open the lid.</div></li><li class="li1"><div class="de1">&gt;She&#039;s laying inside, arms folded across her chest as if she were just laid to rest.  A frown crosses her skull.</div></li><li class="li1"><div class="de1">&gt;&quot;What?  Forget the way home?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;No.  I just want to talk to you.&quot;</div></li><li class="li1"><div class="de1">&gt;Her eyes search your face for a moment.</div></li><li class="li1"><div class="de1">&gt;&quot;...why?&quot;</div></li><li class="li1"><div class="de1">&gt;You shrug.</div></li><li class="li1"><div class="de1">&gt;&quot;I feel like you need to talk about something.&quot;</div></li><li class="li1"><div class="de1">&gt;She snarls a bit.</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s pretty presumptuous, yeah?  You think I&#039;ve got some kinda problem, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;Marris hops from her coffin, landing with a clatter, then looms over you, growling.</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;ve got quite a spine, coming in here and trying to play armchair shrink with me!  Even if I did want to talk about how I died, I wouldn&#039;t spill my lack-of-guts for some no-name numbskull.&quot;</div></li><li class="li1"><div class="de1">&gt;Terror floods your mind, and you flinch, shutting your eyes.  She blinks a few times, still snarling...</div></li><li class="li1"><div class="de1">&gt;Then sighs as she returns to her previous slouching stance.</div></li><li class="li1"><div class="de1">&gt;&quot;...alright, yeah.  I wanna talk about it.  You mind listening?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Go ahead.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...see, I&#039;ve been dead for a while now, yeah?  And it&#039;s been great; I love being a skeleton!  But, uh... there&#039;s... there&#039;s downsides.  Downsides I ain&#039;t gonna burden you with.  Nah, I just wanna level with you.&quot;</div></li><li class="li1"><div class="de1">&gt;She wraps a bony arm around you, leaning her surprisingly slight weight on your shoulder.</div></li><li class="li1"><div class="de1">&gt;&quot;...it ain&#039;t always easy, being like this.  But I make the best of it, yeah?  That&#039;s why I invited you here.  I just wanted to have some good, not-at-all clean fun.  Just wanted to have a good bone, yeah?  You feel me?&quot;</div></li><li class="li1"><div class="de1">&gt;You nod, and can&#039;t help but slipping in a gag.</div></li><li class="li1"><div class="de1">&gt;&quot;I already felt you, remember?&quot;</div></li><li class="li1"><div class="de1">&gt;She lets out a long PFFFT, then doubles over in clattering laughter.</div></li><li class="li1"><div class="de1">&gt;&quot;Heh heh heh!  I&#039;m a sucker for a good pun, and you just hit my funnybone, Anon.  You&#039;re a pretty humerus guy!&quot;</div></li><li class="li1"><div class="de1">&gt;She nudges you with a bony elbow, her tone practically urging you to laugh.  You chuckle politely, and she beams.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;...okay, fine.</div></li><li class="li1"><div class="de1">&gt;You gulp nervously, adjusting your shirt collar.</div></li><li class="li1"><div class="de1">&gt;&quot;...alright, I&#039;ll do it.&quot;</div></li><li class="li1"><div class="de1">&gt;Marris tilts her head unnaturally far.</div></li><li class="li1"><div class="de1">&gt;&quot;Do what, bonehead?&quot;</div></li><li class="li1"><div class="de1">&gt;You shrug, the laziest possible answer coming to your lips.</div></li><li class="li1"><div class="de1">&gt;&quot;You.&quot;</div></li><li class="li1"><div class="de1">&gt;Marris blinks, mouthing your answer...</div></li><li class="li1"><div class="de1">&gt;Then gets a wicked grin as her pupils widen.</div></li><li class="li1"><div class="de1">&gt;&quot;Ooh, really?  You&#039;re gonna take me to the bone zone after all, yeah?  Awesome.  Gimme like, two minutes.&quot;</div></li><li class="li1"><div class="de1">&gt;She once again yanks off her shirt, her tits again bouncing free.  Somehow, a blush comes to her bony face as the cool night air hits her bare fur.</div></li><li class="li1"><div class="de1">&gt;Giving you a seductive wink, Marris slowly removes her shorts, tossing them into her coffin with a kick.</div></li><li class="li1"><div class="de1">&gt;Now fully exposed, the skeleton grins at you expectantly.</div></li><li class="li1"><div class="de1">&gt;&quot;Whatcha think?  I&#039;m pretty hot for someone stone cold dead, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;...yeah.  You nod as you undress, Marris eyeing you with anticipation.</div></li><li class="li1"><div class="de1">&gt;Once you&#039;re fully nude, the wind blows, cold air chilling your bare skin.</div></li><li class="li1"><div class="de1">&gt;You start to shiver, and her seductive smile fades in favor of something else...</div></li><li class="li1"><div class="de1">&gt;Concern.</div></li><li class="li1"><div class="de1">&gt;&quot;...you cold, barebones?&quot;</div></li><li class="li1"><div class="de1">&gt;You nod, shaking, as your teeth begin to chatter.  She maintains her concerned frown as she steps closer to you.</div></li><li class="li1"><div class="de1">&gt;&quot;Aww.  Sorry, man.  C&#039;mere, c&#039;mere.&quot;</div></li><li class="li1"><div class="de1">&gt;She throws an arm around you, then leads you to her coffin.  It now occurs to you that it&#039;s velvet-lined...</div></li><li class="li1"><div class="de1">&gt;Marris shocks you by lifting you up and gently laying you down in the coffin.</div></li><li class="li1"><div class="de1">&gt;It&#039;s longer and wider than you...</div></li><li class="li1"><div class="de1">&gt;And surprisingly comfy.</div></li><li class="li1"><div class="de1">&gt;She climbs into the box with you, lying down atop you.</div></li><li class="li1"><div class="de1">&gt;Her fur is comfortably warm compared to the night air.</div></li><li class="li1"><div class="de1">&gt;She gently wraps her skeletal arms around you, pulling you close.</div></li><li class="li1"><div class="de1">&gt;&quot;I know I&#039;m not all that warm, but I&#039;m better than nothing, yeah?  Get cozy, man; I&#039;m more concerned with you staying warm than anything.&quot;</div></li><li class="li1"><div class="de1">&gt;Teeth still chattering, you respond.</div></li><li class="li1"><div class="de1">&gt;&quot;W-what about the b-b-bone-&quot;</div></li><li class="li1"><div class="de1">&gt;She cuts you off.</div></li><li class="li1"><div class="de1">&gt;&quot;Nuh-uh.  You&#039;re just getting warm cuddles, yeah?  Or as warm as a walking boneyard like me can give, yeah?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Despite the faint chill of fear still resonating in your spine, you can&#039;t deny that Marris is keeping you warm.</div></li><li class="li1"><div class="de1">&gt;...you know... you actually feel a little bad for being afraid of her.</div></li><li class="li1"><div class="de1">&gt;The skeleton raises up a little, looking down at you with a smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Still comfy, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah... thank you.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;No problem.  Sometimes I forget other folks ain&#039;t immune to the cold like me.  Just sit back, relax, and let these ol&#039; bones keep you warm, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;She cuddles up close again, her black fur gently rubbing against your bare chest.</div></li><li class="li1"><div class="de1">&gt;Her breasts gently rest atop you, but she makes no sexual moves.</div></li><li class="li1"><div class="de1">&gt;Marris seems legitimately concerned with your keeping warm more than anything.</div></li><li class="li1"><div class="de1">&gt;As she keeps hugging you, your earlier questions bubble up in your mind again.</div></li><li class="li1"><div class="de1">&gt;&quot;Old bones, huh?  How long have you-&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;About 10... maybe 20 years?  Wild, yeah?  At least a decade of being a rad skeleton, heh.  Time sure flies.&quot;</div></li><li class="li1"><div class="de1">&gt;She sighs and repositions a bit, her fur tickling you a little as she does.</div></li><li class="li1"><div class="de1">&gt;&quot;As for how I died... sorry, I still don&#039;t wanna talk about that.  You feel me?&quot;</div></li><li class="li1"><div class="de1">&gt;You nod.</div></li><li class="li1"><div class="de1">&gt;&quot;Thanks.  You know something?  You&#039;re an alright guy, bonehead.  You had a chance to walk away from this chatty bonespur, but you didn&#039;t.  You stuck around just to hear me out, yeah?  Thanks for that.&quot;</div></li><li class="li1"><div class="de1">&gt;She smiles...</div></li><li class="li1"><div class="de1">&gt;And gently plants a bony kiss on your forehead.</div></li><li class="li1"><div class="de1">&gt;&quot;You lay here and stay comfy.  I ain&#039;t gonna let you catch a chill, yeah?  Morning&#039;s coming later.&quot;</div></li><li class="li1"><div class="de1">&gt;She cuddles up close again, and you smile.</div></li><li class="li1"><div class="de1">&gt;&quot;You know... there&#039;s something we could do that&#039;d keep me warm and kill some time...&quot;</div></li><li class="li1"><div class="de1">&gt;You snake a hand up and cup one of her tits, with her again letting off a hissing moan.</div></li><li class="li1"><div class="de1">&gt;&quot;...nah, nah.  It&#039;s too cold for you here.  Lemme just-&quot;</div></li><li class="li1"><div class="de1">&gt;She scoots down a little, her breasts dragging across your chest.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Once satisfied with her position, Marris wraps her arms around you again, now being face to face with you.</div></li><li class="li1"><div class="de1">&gt;She smiles warmly, black eyes staring into yours.</div></li><li class="li1"><div class="de1">&gt;&quot;Comfy still?&quot;</div></li><li class="li1"><div class="de1">&gt;You nod once more as her eyes narrow.</div></li><li class="li1"><div class="de1">&gt;&quot;Great.  Watch this.&quot;</div></li><li class="li1"><div class="de1">&gt;She kisses your forehead again as she suddenly sits up...</div></li><li class="li1"><div class="de1">&gt;Leaving her arms around you.</div></li><li class="li1"><div class="de1">&gt;The now disarmed Marris sits upright, scoots back, then falls back forward, landing so that her crotch is even with yours.</div></li><li class="li1"><div class="de1">&gt;She grins as her arms slowly begin pushing you back and forth, grinding your rod against her.  Marris lets off a bony chuckle as you feel yourself steadily growing more and more... excited.</div></li><li class="li1"><div class="de1">&gt;She continues to tease you this way, occasionally winking or throwing in a pun here and there.  Eventually, she sits back up, reclaiming her arms and grinning.</div></li><li class="li1"><div class="de1">&gt;You&#039;re on the razor&#039;s edge when she cackles again.</div></li><li class="li1"><div class="de1">&gt;&quot;Guess it&#039;s time to bury this bone, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;She plunges down into your length, taking you in fully just as you hit your limits.</div></li><li class="li1"><div class="de1">&gt;However...</div></li><li class="li1"><div class="de1">&gt;Despite you having already came, Marris continues to rhythmically slam herself up and down your shaft with a grin.</div></li><li class="li1"><div class="de1">&gt;&quot;Uh...&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;What?  Done?  I know, I know... but guess what?  The ride never ends with me, numbskull!&quot;</div></li><li class="li1"><div class="de1">&gt;Marris laughs as she rides you well on into the morning.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;...you awaken to the sound of crows cawing.</div></li><li class="li1"><div class="de1">&gt;You try to rise out of bed... then reality hits you like a truck.</div></li><li class="li1"><div class="de1">&gt;You&#039;re still in the coffin... and Marris is laying atop you, sleeping quietly with her head on your chest.</div></li><li class="li1"><div class="de1">&gt;Despite being naked and in an open coffin, you&#039;re warm and comfortable.</div></li><li class="li1"><div class="de1">&gt;...comfortable enough to shrug and fall back asleep, hugging the skeleton closer and enjoying the warmth of what fur she has left.</div></li><li class="li1"><div class="de1">&gt;Guess you can only say...</div></li><li class="li1"><div class="de1">&gt;You had a skele-ton of fun.</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">&gt;As you dial the handwritten number, you try to think back on the party last night.
+&gt;Unfortunately, you ended up drinking enough to entirely wipe the events from your mind.  But... you did find a phone number in your pocket.
+&gt;The handwriting is pretty good?  But that doesn&#039;t really matter, does it.
+&gt;No, what matters is figuring out who this is.  Figuring out who writes their &quot;l&quot;s as little bones, with skulls dotting the exclamation points in &quot;Call Me!!&quot;
+&gt;The phone rings... and rings...
+&gt;Just as you&#039;re ready to hang up, there&#039;s a click, then a woman&#039;s voice.
+&gt;&quot;...hello?&quot;
+&gt;&quot;Uh, hey.  I was at this party last night, and someone gave me this number?&quot;
+&gt;There&#039;s a squeal of delight on the other end.
+&gt;&quot;Sweet!  Alright, alright, listen: meet me in the graveyard on the outskirts of town in 20 minutes, yeah?&quot;
+&gt;&quot;...who is this?  And why?&quot;
+&gt;&quot;...did I not write my name down?  Shit.  Well, I&#039;ll introduce myself when you get here.  As for why... well, lemme ask you something, numbskull: why do people usually hand out their number at a party~?&quot;
+&gt;Fair point.  At least she sounds attractive enough.
+&gt;&quot;...you&#039;re not gonna stab me when I get there, right?&quot;
+&gt;&quot;Why would I do that?  Got a dead or alive bounty on your head?  Eh, even if you did, I wouldn&#039;t make any bones about it, heh.  See you in a bit!&quot;
+&gt;The woman hangs up, leaving you to shrug and make your way to the meeting spot.
+&gt;Why not?
+
+&gt;By the time you make it there, the 20 minutes has passed.  It&#039;s starting to get dark out... ah well.
+&gt;As you walk between the graves with purpose, you look around for your rendezvous point.
+&gt;Suddenly, you hear that voice again.
+&gt;&quot;Over here, bonehead!&quot;
+&gt;You follow her voice... to a concrete, above ground coffin.
+&gt;...
+&gt;&quot;Don&#039;t just stand there, open it up!&quot;
+&gt;...........
+&gt;The hell with it.  You open up the coffin, the lid of which is already askew anyway...
+&gt;And let out a shout when something grabs your hand.
+&gt;You feel your blood run cold when you realize it&#039;s a skeletal hand, with not a scrap of flesh on the bones.  Despite the lack of muscle, the bony hand grips your wrist firmly.
+&gt;The lid is suddenly thrown off the coffin with a loud snarl, and you feel the blood leave your face.
+&gt;Another bony hand grabs your shoulder as the creature within the coffin lets off a sound somewhere between a growl and a death rattle.  You close your eyes, fully expecting to be dead in seconds...
+&gt;...you soon feel the hands&#039; grip loosen as the growl gives way to... laughter?
+&gt;You open your eyes, and shock hits you.
+&gt;The woman continues to laugh for a while, then catches her breath.
+&gt;&quot;I love doing that!  Heh heh heh!  Anyway, you&#039;re that Anon guy, huh?  Name&#039;s Marris!  Marris Femur.&quot;
+&gt;She extends a bony hand as you blink a few times, taking in her appearance.
+&gt;While her hands seem to be more or less those of a skeleton... the rest of her seems more off.
+&gt;Long, slender leg bones seem to be in the shape of normal, non-skeletal legs.  A nonsensical bone tail waves happily behind her.
+&gt;Her forearm bones seem more or less what you expect from a skeleton, but her lower arms are almost cartoonish in appearance, looking very much like the stereotypical dog bone.
+&gt;Her skull is doglike in shape, with an actual snout... and a nose and ears, both surreally made of bone.
+&gt;Black, white-pupiled eyes glint with mischief as the woman smiles toothily.
+&gt;...but most striking is her torso.
+
+&gt;Despite everything else on her body being nothing but bare bone, her torso still seems to have flesh... and black fur.
+&gt;It&#039;s as if she&#039;s wearing skin and fur like some sort of macabre costume.
+&gt;A tight, tattered gray shirt and dangerously short denim shorts cover her body, with her fur playfully peeking through rips in both.
+&gt;The woman, Marris apparently, laughs, a loud, rattling sound that wouldn&#039;t be out of place in a Halloween store.
+&gt;&quot;Whatsa matter with you?  Spooked?&quot;
+&gt;You stammer out a nonresponse as she sinks into another spell of bony laughter, stepping out of the coffin and approaching you.
+&gt;&quot;I figured, heh.  Most folks are when they see me!  But, whatever, yeah?  Part of being me.&quot;
+&gt;&quot;W-who... WHAT are you?&quot;
+&gt;She narrows her eyes and grins... though given her skull, it seems a skeletal grin is almost a permanent fixture on her face.
+&gt;&quot;I already told you my name... but as for WHAT I am, well, I&#039;m a skeleton, funnybone!  Sheesh, I figured that much was obvious, but I guess you humans ain&#039;t got much going on in here.&quot;
+&gt;She knocks on her own skull, a loud CLONK echoing across the graveyard.
+&gt;&quot;W-why...?&quot;
+&gt;&quot;Why... what?  Meet you here?  I sleep here, marrowhead!  ...sometimes, anyway.  &#039;S like a vacation home, yeah?  My own little slice of the human world!&quot;
+&gt;&quot;You vacation in this graveyard?&quot;
+&gt;&quot;Yeah, it&#039;s pretty rad, huh?  I fit riiight in; just had to evict the bony guy who was already in this coffin!&quot;
+&gt;Marris cackles again at your horrified expression.
+&gt;&quot;Nah, I&#039;m just screwing with you!  I brought this from home; it was always vacant.&quot;
+&gt;That&#039;s a relief... but she didn&#039;t answer your question.
+
+&gt;&quot;That&#039;s great and all, but why did you invite me here?&quot;
+&gt;She rolls her eyes, her tail waving with a quiet rattle.
+&gt;&quot;Geez you&#039;re dense.  You sure you ain&#039;t dead too?&quot;
+&gt;&quot;DEAD?&quot;
+&gt;Another eye roll.
+&gt;&quot;Yeah, dead!  What, you figured the woman with a skull for a head, bones for arms and legs, and a coffin bed was alive and well?  No offense, but you really are a numbskull, heh heh!&quot;
+&gt;&quot;But... you&#039;re alive?&quot;
+&gt;&quot;Undead, bonehead, I&#039;m undead!  Died and came back, easy as that.&quot;
+&gt;&quot;...&quot;
+&gt;She grins again.
+&gt;&quot;Anyway, I&#039;m getting off track here.  I invited you over for a little fun; you interested?&quot;
+&gt;&quot;...what kind of fun?&quot;
+&gt;Her jaw drops...
+&gt;...off.  It hits the ground, and she picks it up before roughly reattaching it.
+&gt;&quot;...yeah, I&#039;m pretty sure you&#039;re a deadhead.  Or waaay too innocent to be getting blackout drunk.&quot;
+&gt;...no, no; you got her drift earlier.
+&gt;It&#039;s just...
+&gt;...she&#039;s a skeleton!  Mostly!
+&gt;Marris steps forward again, her bones quietly rattling.
+&gt;&quot;C&#039;mon, man, throw me a bone here!  I&#039;m laying down all kinds of hints; I just need you to pick em up!&quot;
+&gt;&quot;Oh, uh, okay then... let&#039;s just, uh...&quot;
+&gt;With another bony laugh and a grin, Marris begins fumbling with her shirt, trying to pull it off over her skull and revealing her furry midriff.
+&gt;...you can&#039;t help yourself.
+&gt;&quot;...can I ask you something first?&quot;
+&gt;Her expression softens a bit.
+&gt;&quot;Huh?  Yeah, sure, fire away.&quot;
+&gt;&quot;How did you die?&quot;
+&gt;Marris lets her shirt drop back into place.  Her pupils shrink to almost nothing.  Her tail droops.
+
+&gt;Her once-confident voice takes on a more anxious tone.
+&gt;&quot;Nah, you don&#039;t wanna hear me ramble.  It&#039;d just blow the mood, yeah?&quot;
+&gt;&quot;Well, how long have you been dead?&quot;
+&gt;&quot;Err, l-let&#039;s just get to the fun, yeah?&quot;
+&gt;She quickly yanks her shirt up and off, letting two huge, black-furred breasts flop free with a skeletal giggle.
+&gt;You can&#039;t help but stare, and she grins, her original, jovial tone reemerging.
+&gt;&quot;Before you ask, yeah, they&#039;re real.  ...now, granted, they&#039;re PRESERVED... but they&#039;re still real, yeah?  Grab em and feel if you don&#039;t believe me!&quot;
+&gt;...well, there&#039;s no better way to be sure, right?
+&gt;You hesitantly grab her chest, with the skeleton letting out a hissing moan of appreciation.
+&gt;&quot;Mm!  You got a strong grip, huh?  Looks like I picked a good candidate to bring to the ol&#039; bone zone, heh heh!&quot;
+&gt;...this is too weird.
+&gt;You gently squeeze her tits once more, then let your hands fall back to your sides with a sigh.
+&gt;&quot;Look, Marris, I&#039;m sorry, but this is just too-&quot;
+&gt;She takes a rattling breath, then sighs.
+&gt;&quot;Too weird, yeah?  I&#039;ve heard that one before.  I ain&#039;t new to this skeleton dance.  Lemme go ahead and just...&quot;
+&gt;She pulls her shirt back on, covering up her impressive chest with some difficulty.
+&gt;&quot;There.  Alright then, have a good one, Anon.&quot;
+&gt;She turns and walks back to her coffin, hanging her head a bit.
+&gt;&quot;Why&#039;re you leaving?&quot;
+&gt;She stops and turns towards you again.
+&gt;&quot;Heh, I&#039;m not a bonehead.  I know where this is going.  I&#039;m going back to bed.  You&#039;re not interested in having a little fun, and I don&#039;t want to just talk.  Sorry, skully.&quot;
+&gt;She climbs into the coffin and gently shuts the lid with a huff.
+
+&gt;Without even turning to leave, you walk back to Marris&#039;s coffin, then gently open the lid.
+&gt;She&#039;s laying inside, arms folded across her chest as if she were just laid to rest.  A frown crosses her skull.
+&gt;&quot;What?  Forget the way home?&quot;
+&gt;&quot;No.  I just want to talk to you.&quot;
+&gt;Her eyes search your face for a moment.
+&gt;&quot;...why?&quot;
+&gt;You shrug.
+&gt;&quot;I feel like you need to talk about something.&quot;
+&gt;She snarls a bit.
+&gt;&quot;That&#039;s pretty presumptuous, yeah?  You think I&#039;ve got some kinda problem, yeah?&quot;
+&gt;Marris hops from her coffin, landing with a clatter, then looms over you, growling.
+&gt;&quot;You&#039;ve got quite a spine, coming in here and trying to play armchair shrink with me!  Even if I did want to talk about how I died, I wouldn&#039;t spill my lack-of-guts for some no-name numbskull.&quot;
+&gt;Terror floods your mind, and you flinch, shutting your eyes.  She blinks a few times, still snarling...
+&gt;Then sighs as she returns to her previous slouching stance.
+&gt;&quot;...alright, yeah.  I wanna talk about it.  You mind listening?&quot;
+&gt;&quot;Go ahead.&quot;
+&gt;&quot;...see, I&#039;ve been dead for a while now, yeah?  And it&#039;s been great; I love being a skeleton!  But, uh... there&#039;s... there&#039;s downsides.  Downsides I ain&#039;t gonna burden you with.  Nah, I just wanna level with you.&quot;
+&gt;She wraps a bony arm around you, leaning her surprisingly slight weight on your shoulder.
+&gt;&quot;...it ain&#039;t always easy, being like this.  But I make the best of it, yeah?  That&#039;s why I invited you here.  I just wanted to have some good, not-at-all clean fun.  Just wanted to have a good bone, yeah?  You feel me?&quot;
+&gt;You nod, and can&#039;t help but slipping in a gag.
+&gt;&quot;I already felt you, remember?&quot;
+&gt;She lets out a long PFFFT, then doubles over in clattering laughter.
+&gt;&quot;Heh heh heh!  I&#039;m a sucker for a good pun, and you just hit my funnybone, Anon.  You&#039;re a pretty humerus guy!&quot;
+&gt;She nudges you with a bony elbow, her tone practically urging you to laugh.  You chuckle politely, and she beams.
+
+&gt;...okay, fine.
+&gt;You gulp nervously, adjusting your shirt collar.
+&gt;&quot;...alright, I&#039;ll do it.&quot;
+&gt;Marris tilts her head unnaturally far.
+&gt;&quot;Do what, bonehead?&quot;
+&gt;You shrug, the laziest possible answer coming to your lips.
+&gt;&quot;You.&quot;
+&gt;Marris blinks, mouthing your answer...
+&gt;Then gets a wicked grin as her pupils widen.
+&gt;&quot;Ooh, really?  You&#039;re gonna take me to the bone zone after all, yeah?  Awesome.  Gimme like, two minutes.&quot;
+&gt;She once again yanks off her shirt, her tits again bouncing free.  Somehow, a blush comes to her bony face as the cool night air hits her bare fur.
+&gt;Giving you a seductive wink, Marris slowly removes her shorts, tossing them into her coffin with a kick.
+&gt;Now fully exposed, the skeleton grins at you expectantly.
+&gt;&quot;Whatcha think?  I&#039;m pretty hot for someone stone cold dead, yeah?&quot;
+&gt;...yeah.  You nod as you undress, Marris eyeing you with anticipation.
+&gt;Once you&#039;re fully nude, the wind blows, cold air chilling your bare skin.
+&gt;You start to shiver, and her seductive smile fades in favor of something else...
+&gt;Concern.
+&gt;&quot;...you cold, barebones?&quot;
+&gt;You nod, shaking, as your teeth begin to chatter.  She maintains her concerned frown as she steps closer to you.
+&gt;&quot;Aww.  Sorry, man.  C&#039;mere, c&#039;mere.&quot;
+&gt;She throws an arm around you, then leads you to her coffin.  It now occurs to you that it&#039;s velvet-lined...
+&gt;Marris shocks you by lifting you up and gently laying you down in the coffin.
+&gt;It&#039;s longer and wider than you...
+&gt;And surprisingly comfy.
+&gt;She climbs into the box with you, lying down atop you.
+&gt;Her fur is comfortably warm compared to the night air.
+&gt;She gently wraps her skeletal arms around you, pulling you close.
+&gt;&quot;I know I&#039;m not all that warm, but I&#039;m better than nothing, yeah?  Get cozy, man; I&#039;m more concerned with you staying warm than anything.&quot;
+&gt;Teeth still chattering, you respond.
+&gt;&quot;W-what about the b-b-bone-&quot;
+&gt;She cuts you off.
+&gt;&quot;Nuh-uh.  You&#039;re just getting warm cuddles, yeah?  Or as warm as a walking boneyard like me can give, yeah?&quot;
+
+&gt;Despite the faint chill of fear still resonating in your spine, you can&#039;t deny that Marris is keeping you warm.
+&gt;...you know... you actually feel a little bad for being afraid of her.
+&gt;The skeleton raises up a little, looking down at you with a smile.
+&gt;&quot;Still comfy, yeah?&quot;
+&gt;&quot;Yeah... thank you.&quot;
+&gt;&quot;No problem.  Sometimes I forget other folks ain&#039;t immune to the cold like me.  Just sit back, relax, and let these ol&#039; bones keep you warm, yeah?&quot;
+&gt;She cuddles up close again, her black fur gently rubbing against your bare chest.
+&gt;Her breasts gently rest atop you, but she makes no sexual moves.
+&gt;Marris seems legitimately concerned with your keeping warm more than anything.
+&gt;As she keeps hugging you, your earlier questions bubble up in your mind again.
+&gt;&quot;Old bones, huh?  How long have you-&quot;
+&gt;&quot;About 10... maybe 20 years?  Wild, yeah?  At least a decade of being a rad skeleton, heh.  Time sure flies.&quot;
+&gt;She sighs and repositions a bit, her fur tickling you a little as she does.
+&gt;&quot;As for how I died... sorry, I still don&#039;t wanna talk about that.  You feel me?&quot;
+&gt;You nod.
+&gt;&quot;Thanks.  You know something?  You&#039;re an alright guy, bonehead.  You had a chance to walk away from this chatty bonespur, but you didn&#039;t.  You stuck around just to hear me out, yeah?  Thanks for that.&quot;
+&gt;She smiles...
+&gt;And gently plants a bony kiss on your forehead.
+&gt;&quot;You lay here and stay comfy.  I ain&#039;t gonna let you catch a chill, yeah?  Morning&#039;s coming later.&quot;
+&gt;She cuddles up close again, and you smile.
+&gt;&quot;You know... there&#039;s something we could do that&#039;d keep me warm and kill some time...&quot;
+&gt;You snake a hand up and cup one of her tits, with her again letting off a hissing moan.
+&gt;&quot;...nah, nah.  It&#039;s too cold for you here.  Lemme just-&quot;
+&gt;She scoots down a little, her breasts dragging across your chest.
+
+&gt;Once satisfied with her position, Marris wraps her arms around you again, now being face to face with you.
+&gt;She smiles warmly, black eyes staring into yours.
+&gt;&quot;Comfy still?&quot;
+&gt;You nod once more as her eyes narrow.
+&gt;&quot;Great.  Watch this.&quot;
+&gt;She kisses your forehead again as she suddenly sits up...
+&gt;Leaving her arms around you.
+&gt;The now disarmed Marris sits upright, scoots back, then falls back forward, landing so that her crotch is even with yours.
+&gt;She grins as her arms slowly begin pushing you back and forth, grinding your rod against her.  Marris lets off a bony chuckle as you feel yourself steadily growing more and more... excited.
+&gt;She continues to tease you this way, occasionally winking or throwing in a pun here and there.  Eventually, she sits back up, reclaiming her arms and grinning.
+&gt;You&#039;re on the razor&#039;s edge when she cackles again.
+&gt;&quot;Guess it&#039;s time to bury this bone, yeah?&quot;
+&gt;She plunges down into your length, taking you in fully just as you hit your limits.
+&gt;However...
+&gt;Despite you having already came, Marris continues to rhythmically slam herself up and down your shaft with a grin.
+&gt;&quot;Uh...&quot;
+&gt;&quot;What?  Done?  I know, I know... but guess what?  The ride never ends with me, numbskull!&quot;
+&gt;Marris laughs as she rides you well on into the morning.
+
+&gt;...you awaken to the sound of crows cawing.
+&gt;You try to rise out of bed... then reality hits you like a truck.
+&gt;You&#039;re still in the coffin... and Marris is laying atop you, sleeping quietly with her head on your chest.
+&gt;Despite being naked and in an open coffin, you&#039;re warm and comfortable.
+&gt;...comfortable enough to shrug and fall back asleep, hugging the skeleton closer and enjoying the warmth of what fur she has left.
+&gt;Guess you can only say...
+&gt;You had a skele-ton of fun.</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    12 sec ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    1 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    4 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    11 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    60 min ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+                    <li>
+                <a href="/PM4V3wTN">script or module</a>
+                <div class="details">
+                                            Perl |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>

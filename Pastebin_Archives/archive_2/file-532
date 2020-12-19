@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "UA-58643-34");
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BE PREPARED - Pastebin.com</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
+    <meta name="robots" content="noindex" />
+    <meta property="fb:app_id" content="231493360234820" />
+    <meta property="og:title" content="BE PREPARED - Pastebin.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://pastebin.com/8bZDRTj0" />
+    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
+    <meta property="og:site_name" content="Pastebin" />
+    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
+    <link rel="canonical" href="https://pastebin.com/8bZDRTj0" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
+        <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="kQVELUdch0lBtbuu9m0zOE5lScI3EmC8tIWOOX4wRuv8STVGDRHrPgvFwf2CKGV3JRQukw4rK_7itNxJCH8fkQ==">
+
+<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
+<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
+    </head>
+<body class="">
+
+
+
+<div class="wrap">
+
+    <!-- Header -->
+    
+        
+<div class="header">
+    <div class="container">
+        <div class="header__container">
+
+            <!-- left -->
+            <div class="header__left">
+                <a class="header__logo" href="/">
+                    Pastebin                </a>
+
+                <div class="header__links h_1024">
+                                            <a href="/pro" class="pro">GO</a>
+                    
+                    <a href="/doc_api">API</a>
+                    <a href="/tools">tools</a>
+                    <a href="/faq">faq</a>
+                                    </div>
+
+                
+                <a class="header__btn" href="/">
+                    paste                </a>
+            </div>
+
+            <!-- right -->
+            <div class="header__right">
+
+                                    <div class="header_sign">
+                        <a href="/login" class="btn-sign sign-in">Sign in</a>
+                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</div>
+        
+
+    <div class="container">
+        <div class="content">
+
+            <!-- Leaderboard Below Header -->
+            <div class="special__header">
+    <div id='snhb-pastebin_headerleader-0'></div>
+</div>
+            <!-- Content -->
+                        
+            
+            
+<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
+
+<div class="post-view">
+
+    <div class="details">
+        <div class="share h_800">
+            <div data-url="https://pastebin.com/8bZDRTj0" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
+            <div data-url="https://pastebin.com/8bZDRTj0" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
+        </div>
+        <div class="user-icon">
+                            <img src="/themes/pastebin/img/guest.png" alt="TheShotgunScout">                    </div>
+        <div class="info-bar">
+            <div class="info-top">
+
+                
+                
+                <h1>BE PREPARED</h1>
+            </div>
+            <div class="info-bottom">
+
+                                    <div class="username">
+                                                    <a href="/u/TheShotgunScout">TheShotgunScout</a>
+                                            </div>
+
+                    
+                                             <a href="/message/compose?to=TheShotgunScout" class="message" title="Send a private message to: TheShotgunScout"></a>
+                                    
+                <div class="date">
+                    <span title="Monday 21st of May 2018 08:27:01 PM CDT">May 21st, 2018</span>
+
+                                    </div>
+
+                <div class="visits" title="Unique visits to this paste">
+                    1,495                </div>
+
+                <div class="expire" title="When this paste gets automatically deleted">
+                    Never                </div>
+            </div>
+        </div>
+    </div>
+
+                        <div class="page">
+                <div class="content__text -no-padding">
+                    <div class="notice -post-view">
+                        <b>Not a member of Pastebin yet?</b>
+                        <a href="/signup"><b><u>Sign Up</u></b></a>,
+                        it unlocks many cool features!                    </div>
+                </div>
+            </div>
+        
+    
+    <div class="highlighted-code">
+        <div class="top-buttons">
+            <div class="left">
+                <a href="/archive/text" class="btn -small h_800">text</a> 23.01 KB            </div>
+
+            <div class="right">
+                <a href="/raw/8bZDRTj0" class="btn -small">raw</a>
+                <a href="/dl/8bZDRTj0" class="btn -small">download</a>
+                <a href="/clone/8bZDRTj0" class="btn -small h_800">clone</a>
+                <a href="/embed/8bZDRTj0" class="btn -small h_800">embed</a>
+                <a href="/report/8bZDRTj0" class="btn -small">report</a>
+                <a href="/print/8bZDRTj0" class="btn -small h_800">print</a>
+
+                
+                            </div>
+        </div>
+        <div class="source" style=" ">
+            <ol class="text"><li class="li1"><div class="de1">BE PREPARED </div></li><li class="li1"><div class="de1">&gt;Be Prepared, its the motto of a good scout</div></li><li class="li1"><div class="de1">&gt;But you don&#039;t know how you could have prepared for this</div></li><li class="li1"><div class="de1">&gt;your girlfriend just left you three days before your big trip together to the mountains </div></li><li class="li1"><div class="de1">&gt;you&#039;ve been planing this thing for months! you got time off work, researched your routes and even the flora and fauna of the area, you had everything planned out.</div></li><li class="li1"><div class="de1">&gt;you got a whole week off work, EVERYTHING, everything was planed out even the ring that was still stashed deep in your pack so she wouldn&#039;t find it by accident. </div></li><li class="li1"><div class="de1">you        had          everything        planed         out. </div></li><li class="li1"><div class="de1">&gt;just not this.</div></li><li class="li1"><div class="de1">but you are a scout, and outdoors man! you love the untamed wilderness, so you stuck to your plan and headed out alone. thinking maybe a week in the mountains without human contact could do you a lot of good. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you were on the tail end of your trek instead of at peas or connected with nature you just felt lonely couldn&#039;t help but think about Samantha crying yourself to sleep in your self imposed isolation</div></li><li class="li1"><div class="de1">&gt;Things had taken a turn for the worst, whilst descending from náshdóítsoh mountain you rolled your ankle the splint only doing so much to ease the pain. </div></li><li class="li1"><div class="de1">&gt;you are miles from the closest suitable campsite, its getting dark and to make matters worse it appears your being stocked by a large predictor as all the birds have gone silent and its been a heck of a long time seance you&#039;ve seen one of those mountain varmints. </div></li><li class="li1"><div class="de1">&gt;you are limping your way across the long mountain ridge its mostly shale rock up here </div></li><li class="li1"><div class="de1">&gt;you don&#039;t know what it is that is stocking you are quite a few large predators that live in this region, you go through the list</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">get ready your gonna learn today! </div></li><li class="li1"><div class="de1">	(all information presented in this section is factual to the best of the writers extensive knowledge of the subject)</div></li><li class="li1"><div class="de1">&gt;brown bear, black bear, cougars, and the gray wolf as you remember was recently reintroduced into this area, all for are known to stalk people  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;brown/grizzly bear are huge and your not sure even a .357 would put one down for sure and the claws will just tare you apart</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;black bear are just more common and responsible for most human attacks, that is your most likely culprit</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;cougars are ambush predictors if one is stocking you, you wont know it till its too late, if you see a cougar your probably safe, its the one you don&#039;t see that will rip your thought out when you least expect it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;the gray wolf are pack hunters the pack will encircle the pray. one will draw the attention of the pray animal. 2 other pack members attack from its blind spots, bringing it to the ground and clamp the neck suffocating the pray</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you also recall that the best cores of action in the unlikely event you encounter a cassowary or mob of emu is to pray at least according to your Australian friend and you don&#039;t think he was kidding. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">all don&#039;t seem like a good thing to run into on this ridge with the night swiftly approaching</div></li><li class="li1"><div class="de1">in the failing light you pull out your head lamp to guide your way through the night, and continue on towards a stand of trees.</div></li><li class="li1"><div class="de1">you turn when you hear some rocks shifting behind you to see two small yellow orbs staring back at you from just beyond the reach of your flashlights, then there gone. at least you know what it is now.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you begin to back away from where you saw the eyes appear, and continue to limp towards the stand of trees hoping to find some refuge in the woods. </div></li><li class="li1"><div class="de1">&gt;that&#039;s when you hear the shale shift behind you closer this time you turn to see the same yellow reflective eyes from before much closer this time and you see the outline of the big cat that had been stocking you all this time</div></li><li class="li1"><div class="de1">&gt;remembering your Australian friend, you offer quick prayer to whatever God will listen and you spring into action.</div></li><li class="li1"><div class="de1">1. stand your ground</div></li><li class="li1"><div class="de1">2. look big: you pull your pack, and arms up over your head trying to look as big and intimidating as possible </div></li><li class="li1"><div class="de1">3. make sure it knows you see it, you lock eyes with the beast and bear your teeth in the hopes you can look like more trouble then your worth to the big cat.</div></li><li class="li1"><div class="de1">you watch in wonder and amazement as the eyes start to rise, up and up well past your own height...</div></li><li class="li1"><div class="de1">you hear from the dark a deep but feminine voice </div></li><li class="li1"><div class="de1">&gt;&quot;your a big guy&quot;</div></li><li class="li1"><div class="de1">your not, well not particularity standing at just under 6ft and stand nearly one foot below her</div></li><li class="li1"><div class="de1">it steps forward more fully into your lamp&#039;s light you can now see all of her? </div></li><li class="li1"><div class="de1">your still not sure what you are looking at, the first thing you see are her large almond shaped eyes a brilliant golden color, a large flat feline muzzle and rounded triangular ears, whit fur around the lower jaw the rest a sandy brown two large but perky breast lie on her chest. her arms end in large paws just a little smaller then your head, looking closely you can see her large mitts do indeed have thumbs</div></li><li class="li1"><div class="de1">she has a slim whist and hips shes standing on two digitigrade hind paws.</div></li><li class="li1"><div class="de1">she was most definitively a mountain lion but no cougar having the appearance of a woman maybe in her 20s and 7 foot tall</div></li><li class="li1"><div class="de1">you blush slightly seeing the naked &quot;woman&quot; adverting your eyes from her ore privet areas</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;i can see you like my eyes,you know your eyes are quite entrancing as well and your teeth are just adorable, most people have run by now she says with a smile &quot;its good that you&#039;ve managed to stay put, I&#039;d hate to have to HUNT you down&quot; a devilish feral smile crosses her face &quot;not that it would be too hard judging by your limp&quot; she continues  chuckling at the end taking another step towards you</div></li><li class="li1"><div class="de1">&quot;if your hungry Ive got plenty of food in my pack why don&#039;t i just cook som...&quot; you begin but are cut off by a change in her determiner as </div></li><li class="li1"><div class="de1">you say cook </div></li><li class="li1"><div class="de1">that&#039;s a lie, your on the tail end of your hike only meals for three days remanding</div></li><li class="li1"><div class="de1">&quot;come on food&quot; she interrupts</div></li><li class="li1"><div class="de1">&gt;she scoops you up into an over-the-shoulder carry not even bothering to let you remove your pack</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;i would let you walk but that limp makes you look too tasty&quot; she teases... you hope</div></li><li class="li1"><div class="de1">cant argue with that and allow yourself to being carried </div></li><li class="li1"><div class="de1">she soon deposited you on the ground in a clearing near a small overhang that contains some bedding, a pile of bones is also present </div></li><li class="li1"><div class="de1">she stares at you expectantly &quot;well cook&quot; she adds intentionally</div></li><li class="li1"><div class="de1">a meal of freeze dried spaghetti seemed the most appropriate, also its super easy... and you set about preparing the meal starting with your rocket stove roars to life once lit bringing your water to a boil in minutes </div></li><li class="li1"><div class="de1">Nash is starring inquisitively at your cooking</div></li><li class="li1"><div class="de1">making idle conversation whale you cook</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">thinking your not quite sure what to call the big cat </div></li><li class="li1"><div class="de1">&quot;so you got a name, something i can call you?&quot;</div></li><li class="li1"><div class="de1">no response but she looks thoughtful? </div></li><li class="li1"><div class="de1">&quot;im anonymous, but you can call me anon for short&quot; </div></li><li class="li1"><div class="de1">&quot;I&#039;d prefer that to food&quot; you continue</div></li><li class="li1"><div class="de1">she smiles slightly at the jab,</div></li><li class="li1"><div class="de1">&quot;Náshdóítsoh- uh you can call me Nash&quot;  </div></li><li class="li1"><div class="de1">the name vaguely rings a bell in your mind</div></li><li class="li1"><div class="de1">you ask a question that&#039;s been bugging you</div></li><li class="li1"><div class="de1">&quot;so how did you lean to talk?&quot;</div></li><li class="li1"><div class="de1">Náshdóítsoh looks back at you with confusion and defensively responds &quot;dose it mater?&quot;</div></li><li class="li1"><div class="de1">&quot;guess not&#039;&#039; you think your mind wonders briefly but you decide not to press the issue, maybe later</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">idly returning to your task you pore the now boiling water into the pasta bags and set them aside</div></li><li class="li1"><div class="de1">your new friend makes her way over to you, smelling the re-hydrating pasta and eyeing it hungry then to you with a disturbingly slimier gaze. she takes a seat just behind you</div></li><li class="li1"><div class="de1">absent mind-idly kneading her big for-paw/hands along your back stretching her fingers and claws out </div></li><li class="li1"><div class="de1">your alarmed at first but she doesn&#039;t seem to be harming you and it actually feels quite nice aside the occasional scratch, your also in no position to protest </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">eventually the noodles soften and are ready to eat, the back rubbing however has done quite the opposite to your noodle.</div></li><li class="li1"><div class="de1">ensuring the Nash is satisfied you give her 3 servings, leaving one for yourself, after briefly demonstrating how to use a spoon she plunges the utensil into the hot bag of pasta then into her mouth. her eyes go glassy for a split second and she lets off a quiet moan </div></li><li class="li1"><div class="de1">&quot;mmmm, your cooking is good, food, i should keep you around&quot; Nash murmurs between bites</div></li><li class="li1"><div class="de1">&quot;has anyone cooked for you before?&quot; you ask ignoring her refuels to use your name</div></li><li class="li1"><div class="de1">&quot;no, first time&quot; she responds stuffing her face with more pasta</div></li><li class="li1"><div class="de1">you and her finish your meals in relative silence her stomach slightly dissented from the meal</div></li><li class="li1"><div class="de1">she gets up abruptly and drags you into the small cave, your just able to snatch your sleeping bag as you pass your pack she pushes you into the back of the small overhang lying across the entrance blocking your escape</div></li><li class="li1"><div class="de1">who are you kidding with your ankle the way it is your not going anywhere fast</div></li><li class="li1"><div class="de1">she cutlets up agents you </div></li><li class="li1"><div class="de1">you reach your hand out towards the big cats head, bruising agents one of her ears she initially pull away from the touch but soon renters leaning into your hand allowing you to pet her large soft ears </div></li><li class="li1"><div class="de1">as you pet her head the purring returns, at least you think its purring, sounding closer to a lawnmower starting up then a cat</div></li><li class="li1"><div class="de1">the purring cat lulls you to sleep at some point in the night you removed the splint you had on your ankle and covered the two of you in your open sleeping bag</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">you awaken alone burred in your sleeping bag, hiding from the cool morning air, in the in the lions den its still early the sun just peaking out over the mountains. </div></li><li class="li1"><div class="de1">you start getting up,  tentatively putting some of your weight on your foot, nope! a wave of pain washes over you waking you up better then that cup of instant coffee you were about to make would</div></li><li class="li1"><div class="de1">crawling instated you make your way out of the den over to your the improvised kitchen you made the night before your camp stove and kettle still set up start warming up a pot of water... Samantha always needed coffee to wake up...</div></li><li class="li1"><div class="de1">you sit there while the water begins to boil feeling sorry for your self when Nash returns three large varmints hanging from her large teeth she deposits them in-front of you</div></li><li class="li1"><div class="de1">&quot;cook food!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">All the prompting you need and begin to &quot;cook food&quot; cleaning, gutting and skinning the roadies and preparing a small cooking fire </div></li><li class="li1"><div class="de1">Nash is enthralled by your cooking of the rodents </div></li><li class="li1"><div class="de1">&quot;whats that for?&quot; Nash ask gesturing to the now boiling pot of water </div></li><li class="li1"><div class="de1">&quot;uh.. you&quot; is all you say poring the hot liquid into a cup you briefly consider your options for the big cat, you have packets of instant coffee, hot chocoholic and apple cider in your bag, remembering an discussion you had on an Mongolian basket weaving forum , you pull a packet of cider out of your bag and dump the continence into the cup of water, thinking it least likely to kill a cat</div></li><li class="li1"><div class="de1">she takes the cup and laps up the warm liquid with her long tongue tentatively at first then more eagerly, eventually liking the cup clean</div></li><li class="li1"><div class="de1">the rodents are ready and you give two to the hungry cat keeping one as to not seem rude </div></li><li class="li1"><div class="de1">you take a bite, and are surprised by how good it actually is the spices from your kit paring well on the fire roasted rodent meat</div></li><li class="li1"><div class="de1">Nash, clearly satisfied by the meal you&#039;ve created, she scooches over to you lying down with her head in your lap</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;could you do the thing anon&quot; she prompts once conferrable</div></li><li class="li1"><div class="de1">racking your brain for the &quot;thing&quot; you begin petting her head with one hand </div></li><li class="li1"><div class="de1">Nash leans in and closes her eyes clearly this is the &quot;thing&quot;</div></li><li class="li1"><div class="de1">your other hand finds itself guided by a meaty paw along her midsection</div></li><li class="li1"><div class="de1">&quot;like this?&quot; you ask just as she begins purring responding with a simple node </div></li><li class="li1"><div class="de1">your hand explores her tone stomach, finding four unexpected nubs hidden under white fur, it takes you a few seconds before the realization of your discovery dawns on you.</div></li><li class="li1"><div class="de1">nipples, this theory is confirmed by a Nash&#039;s face taking on a distinctive red hue as she blushes under her fur</div></li><li class="li1"><div class="de1">shit your hard as a rock luckily it appears she hasn&#039;t notice</div></li><li class="li1"><div class="de1">she seams incapable of speech when purring so you just sit and pet the cat in your lap enjoying your small fire slowly die down and are lulled to sleep by the purring cat. </div></li><li class="li1"><div class="de1">you wake up with a start, the sun now on your back, on the opposite side of your little valley</div></li><li class="li1"><div class="de1">you must have sleeping here all day with the cat.</div></li><li class="li1"><div class="de1">sudden realization hits you as you reach for the back of your neck feeling the all too familiar heat of a sunburn</div></li><li class="li1"><div class="de1">worth it</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">your movement seems to have woken the Nash who is now sitting up </div></li><li class="li1"><div class="de1">taking this opportunity to stand and rummage through your pack</div></li><li class="li1"><div class="de1">Nash stretches looks to you seeing your slight limp she licks her lips hungry</div></li><li class="li1"><div class="de1">a small bottle of Aloe Vera fished from your bag, applying the cool jell the your neck. </div></li><li class="li1"><div class="de1">you adjust your gate hiding the limp and Nash frowns slightly getting up and walking to you</div></li><li class="li1"><div class="de1">&quot;so whats for dinner?&quot; </div></li><li class="li1"><div class="de1">&quot;not sure you going to bring back some more rodents?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">your stomach rumbles but not with hunger... </div></li><li class="li1"><div class="de1">&quot;excuse me&quot;</div></li><li class="li1"><div class="de1">garbing the trowel and toiletry kit from your pack before heeding for a thicket of trees</div></li><li class="li1"><div class="de1">Nash moves to follow you out </div></li><li class="li1"><div class="de1">&quot;i need some alone time&quot;</div></li><li class="li1"><div class="de1">worry washes over Nash&#039;s furred face</div></li><li class="li1"><div class="de1">&quot;to do some...business&quot;</div></li><li class="li1"><div class="de1">&quot;I&#039;ll be back soon&quot;</div></li><li class="li1"><div class="de1">understanding washes over her face </div></li><li class="li1"><div class="de1">she lets you go, leaving the camp in the opposite direction </div></li><li class="li1"><div class="de1">you walk off finding a thicket of trees, dig and filling a small cat hole... this took, much longer then you anticipated and </div></li><li class="li1"><div class="de1">its gone from twilight to dark  </div></li><li class="li1"><div class="de1">something feels off as you pull out a flashlight making your way back to the den</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">you enter a small clearing</div></li><li class="li1"><div class="de1">and something seams vary off, you realize you cant hear any birds</div></li><li class="li1"><div class="de1">Predictor in the area </div></li><li class="li1"><div class="de1">must be Nash... </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">aaaaaaaaaaahhhhhwwwwwwoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo!</div></li><li class="li1"><div class="de1">														(NOT NASH!)</div></li><li class="li1"><div class="de1">				awwoooooooooooooooooooooooooooooooao									awoooooooo</div></li><li class="li1"><div class="de1">		awwwwwooooooooooooooooooooooo					aaaawwooooooooooooooooooo</div></li><li class="li1"><div class="de1">						awwwoooooooooooooooooooooooooo</div></li><li class="li1"><div class="de1">	awooooooooooooooo  ahhhho ahhhho ahhhwwwoooooooooooo</div></li><li class="li1"><div class="de1">FOUND HIM!             found him? 		smell him		where is he?			something else!									</div></li><li class="li1"><div class="de1">	where?	 	something else? 	over here!	 	i smell cat!				found him?        cat?                found him!</div></li><li class="li1"><div class="de1">	our prize!		where? 		here!		i see him	over here				here!		there</div></li><li class="li1"><div class="de1">i see him! 					here?				cat?		i see him 	no cat!								there</div></li><li class="li1"><div class="de1">no cat!			i see him	our prize!		i see him</div></li><li class="li1"><div class="de1">shush! 	 quiet		shush.   	 i see him!				 quiet, shhoosh!</div></li><li class="li1"><div class="de1">(rustling)</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">whispered words erupting from all around you the dense foliage and hard to pick out a single voice or detection instead the voices seem to be coming from everywhere and nowhere at once</div></li><li class="li1"><div class="de1">then silence </div></li><li class="li1"><div class="de1">you probe your surroundings  with your flashlight green orbs appearing out of the darkness as you move the beam of light, one set, two, another, its hard to count them, thy are many	</div></li><li class="li1"><div class="de1">one steps out of the foliage a gray wolf standing at 5&#039;5&#039;&#039; her eyes glowing brightly in your flashlights beam. </div></li><li class="li1"><div class="de1">lean and completely nude (like Nash) covered in gray fur a confident smile adorning her muzzle. </div></li><li class="li1"><div class="de1">she slowly approaches her eyes locked on you her head and tail high and dominant shes about to say something</div></li><li class="li1"><div class="de1">your struck by two furry body taking you to the florist floor </div></li><li class="li1"><div class="de1">more wolves emerge slowly from the underbrush as the two on top position them selves </div></li><li class="li1"><div class="de1">straddling you one on your whist the other sitting across your chest, back to back pinning you to the ground</div></li><li class="li1"><div class="de1">your light passes across her assets she makes no effort to hide anything her small breast and a fortune cookie in full view</div></li><li class="li1"><div class="de1">the pack gets riled up once more </div></li><li class="li1"><div class="de1">me first 	no me		i smelled him first!	 im going first 	</div></li><li class="li1"><div class="de1">i saw him first!	seed!	waiting yur tern! 	well we caught him! </div></li><li class="li1"><div class="de1">alpha first! 		need him!	you&#039;ll get the scraps! 		alpha first!</div></li><li class="li1"><div class="de1">		alpha! 			alpha speak!</div></li><li class="li1"><div class="de1">it takes &quot;alpha&quot; a considerably more time to calm the rest of the bickering pack</div></li><li class="li1"><div class="de1">&quot;don&#039;t worry we don&#039;t intend to harm you&quot;</div></li><li class="li1"><div class="de1">she begins to monologue</div></li><li class="li1"><div class="de1">&quot;oh no far from it! you may actually enjoy, it i know we will&quot;</div></li><li class="li1"><div class="de1">the she-wolf moves closer standing directly over you giving you a better view of her nether regions as she began to lower her self down onto your face</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">the three gray wolves that pin you the the ground are taken out by a blur of tan fur shooting down from a nearby tree</div></li><li class="li1"><div class="de1">Nash stands head and shoulders over the other wolves feral rage emanating from her eyes her ears flat to her head, </div></li><li class="li1"><div class="de1">fierce, claws out her large teeth bared she was crouched low but still taller then the tallest of them </div></li><li class="li1"><div class="de1">&quot;MINE!&quot; she roars </div></li><li class="li1"><div class="de1">its all she says</div></li><li class="li1"><div class="de1">its all she has to</div></li><li class="li1"><div class="de1">the wolves back off running off into the surrounding woods Nash almost follows with murderous intent </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Instead she rushes to your side the intelligence sparkle returning to her eyes, then concern</div></li><li class="li1"><div class="de1">&quot;ohmygod are you ok?&quot;</div></li><li class="li1"><div class="de1">&quot;i think so... thanks for the save, im not sure what thy... actuality i have a pretty good idea&quot;</div></li><li class="li1"><div class="de1">she grabs your hands with her own hosting you to your feet</div></li><li class="li1"><div class="de1">&quot;icameover as soon as i herd the howling-&quot;</div></li><li class="li1"><div class="de1">you kiss her on the lips</div></li><li class="li1"><div class="de1">&quot;Mine&quot; you wispier</div></li><li class="li1"><div class="de1">rotating your hand in hers interlocking your fingers in her meaty mitts</div></li><li class="li1"><div class="de1">her face going red in your lamp light </div></li><li class="li1"><div class="de1">warping you in her tail, she kisses you back, this time her tongue pushes into your mouth the sandpaper like texture invading your smooth mouth, you of course return in kind sliding your own tongue past her alarmingly sharp teeth.</div></li><li class="li1"><div class="de1">the two of you stand there in the clearing for what feels forever exploring the oral cavity of the other</div></li><li class="li1"><div class="de1">Nash&#039;s tongue retreats back within her own muzzle braking off the kiss</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;first time?&quot; you ask awkwardly filling the dead air with a question</div></li><li class="li1"><div class="de1">&quot;yes, first time&quot; she responds but there is more you just have to push a little harder...</div></li><li class="li1"><div class="de1">&quot;kissing?&quot; you press</div></li><li class="li1"><div class="de1">she looks away before returning her eyes to you</div></li><li class="li1"><div class="de1">&quot;yes, kissing but everything else too, first time, i saw you, first time i stand on two legs, first time I think, I knew words, could speak, eat cooked food, been petted, felt good, everything is new and exiting now...&quot; she trails off &quot;now, I&#039;ve met you Anon&quot;</div></li><li class="li1"><div class="de1">&quot;before we meet i was just hungry, and boy did you look good, i saw you fall you know&quot; </div></li><li class="li1"><div class="de1">you somehow did</div></li><li class="li1"><div class="de1">&quot;that limp, your injury... made you look so good, tasty, easy, too easy so i followed, stocked until night fall hunger, instinct drove me close until i saw you looked into your eyes, determined, injured, but still standing your ground, tall and prod! then something changed i felt different hunger for you not for your flesh, but a deeper hunger&quot; she trails off </div></li><li class="li1"><div class="de1">&quot;well I&#039;m glad you didn&#039;t eat me&quot;</div></li><li class="li1"><div class="de1">&quot;i still could&quot; Nash adds with a smile showing off her teeth</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">the two of you return to the den, where most of a durr is waiting for you</div></li><li class="li1"><div class="de1">&quot;i got hungry waiting for you so i thought I&#039;d pick up dinner&quot;</div></li><li class="li1"><div class="de1">you stare at the bites taken out of the round</div></li><li class="li1"><div class="de1">&quot;i got hungry&quot; she repeats flatly</div></li><li class="li1"><div class="de1">figures, you chuckle getting our your Mora knife once again and begin to dress the deer cutting out different cuts of meet paying special attention to the back strap</div></li><li class="li1"><div class="de1">you also send Nash off to collect fire wood, you&#039;ll need a much bigger fire to cook this</div></li><li class="li1"><div class="de1">as difficult as spit roasting an entire deer is, you have excellent help</div></li><li class="li1"><div class="de1">its late by the time the food is ready but its well worth it you eared meany eager complements from Nash who eats until her stomach is visibly distended and clearly satisfied</div></li><li class="li1"><div class="de1">despite that it still looks like you&#039;ll have enough for breakfast, and still some after that, Nash stores the hide and meet in a tree for safe keeping</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">the two of you sit, cuddling next to the fire letting it burn down as Nash first cleans the remains of the meal from her paws</div></li><li class="li1"><div class="de1">then she begins cleaning you, having a little grease on your face, she goes to lick it clean</div></li><li class="li1"><div class="de1">from your face to your hair, down your neck, you have to remove your shirt and she licks down your back and around to your chest</div></li><li class="li1"><div class="de1">you must taste really good you think to yourself.</div></li><li class="li1"><div class="de1">you also note that whatever it is has got her motor running as she purrs quietly</div></li><li class="li1"><div class="de1">once she begins on your chest you begin petting her large head paying special attention to her ears and muzzle whale she continues to clean you</div></li><li class="li1"><div class="de1">Nash purrs approvingly</div></li><li class="li1"><div class="de1">her ruff tong works its way down until it is denied by your pants, </div></li><li class="li1"><div class="de1">not for long you think removing both layers of cloths leaving you fully exposed in the cool night air</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">she pushes you onto your back </div></li><li class="li1"><div class="de1">she starts licking your balls, then working her way up your shaft until shes reached the tip, she then takes your full length into her wide muzzle raking the length with her large teeth while she works your shaft with her rough tongue, soon bringing you past your limits unloading into her mouth</div></li><li class="li1"><div class="de1">working her own hole/slit with one large pawed hand the other supporting herself </div></li><li class="li1"><div class="de1">continuing to pet her with your other hand</div></li><li class="li1"><div class="de1">after your release Nash switches position, scooting forward until the two of you are face to face</div></li><li class="li1"><div class="de1">you grab the support hand intermingling her large fingers helping to support the large cat </div></li><li class="li1"><div class="de1">you sit up from the ground pulling the big cat into a kiss, taking a bit of her lip within your mouth you guide her head back down with you as you renter to the ground </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Nash sits above you on her knees, her sex dripping slightly from the anticipation and her own efforts</div></li><li class="li1"><div class="de1">you use one hand to help guide as she lowers herself onto your member </div></li><li class="li1"><div class="de1">she gasp as the two of you make contact, you buck your hips thrusting yourself into her surprisingly tight sex</div></li><li class="li1"><div class="de1">an inhuman cry escaping her as you thrust, she lowers herself further onto your shaft</div></li><li class="li1"><div class="de1">as the two of you fall into a rhythm you could swear your name is on her lips, but its hard to tell her inhuman screams are so strange</div></li><li class="li1"><div class="de1">you don&#039;t know how long the two of you go at it... </div></li><li class="li1"><div class="de1">you put everything you have into one last push her insides spasm milking your dick as you erupts </div></li><li class="li1"><div class="de1">Nash lets out a loud inhuman cry that both terrifies you to the bone and fills your hart with pride</div></li><li class="li1"><div class="de1">she falls over dismounting you </div></li><li class="li1"><div class="de1">the two of you just lie there in the afterglow of your actions</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">once you&#039;ve calmed down a little you look to her her large golden eyes staring back at you </div></li><li class="li1"><div class="de1">&quot;I. think I.. love you&quot; you stammer</div></li><li class="li1"><div class="de1">&quot;yes...&quot; she looks at you confused the words impacting like waves on a beach retaliation spreading across her face </div></li><li class="li1"><div class="de1">&quot;I love you Anon&quot; the words slowly spilling out of Nash&#039;s mouth her eyes unfocused and distant  </div></li><li class="li1"><div class="de1">you leave it at that the two of you confessed, needing nothing more then each others company </div></li><li class="li1"><div class="de1">eventually the night terns cold you begin shivering despite Nash&#039;s fur and warmth</div></li><li class="li1"><div class="de1"> Nash drags you over to the den, cuddling your still naked form you lie next to here holding her for warmth you deploy your sleeping bag over the two of you and fall asleep in each others arms.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">you slip into a pleasant dream, a fantastic you and Nash live in a big cave with a white picket fence and a manicured lawn</div></li><li class="li1"><div class="de1">you invite the neighbors over for a barbecue, and you have a massive smoker with two large deer slowly cooking within, </div></li><li class="li1"><div class="de1">as afternoon comes around the wolves you ran into earlier arrive fully clothed this time and acting much more civil</div></li><li class="li1"><div class="de1">Nash is your wife, shes wearing a beautiful flower print sun dress, a bow tied midway down her tail</div></li><li class="li1"><div class="de1">another figure shows up, a blue Coyote, looking more like a cave painting come to life, then flesh and blood</div></li><li class="li1"><div class="de1">you&#039;ve never seen her before but she seems oddly familiar</div></li><li class="li1"><div class="de1">she smiles and waves </div></li><li class="li1"><div class="de1">&quot;gah-hah!&quot; the entity entity laughs </div></li><li class="li1"><div class="de1">before the fantasy fades into dreamless sleep</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">you wake up lying next to Nash who this time she is still sleeping soundly next to you</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">to be continued</div></li></ol>        </div>
+    </div>
+
+    <!--  VIEWDEOS SCRIPT  -->
+    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
+
+            <div class="content__title -no-border">
+            RAW Paste Data        </div>
+
+        <textarea class="textarea">BE PREPARED 
+&gt;Be Prepared, its the motto of a good scout
+&gt;But you don&#039;t know how you could have prepared for this
+&gt;your girlfriend just left you three days before your big trip together to the mountains 
+&gt;you&#039;ve been planing this thing for months! you got time off work, researched your routes and even the flora and fauna of the area, you had everything planned out.
+&gt;you got a whole week off work, EVERYTHING, everything was planed out even the ring that was still stashed deep in your pack so she wouldn&#039;t find it by accident. 
+you        had          everything        planed         out. 
+&gt;just not this.
+but you are a scout, and outdoors man! you love the untamed wilderness, so you stuck to your plan and headed out alone. thinking maybe a week in the mountains without human contact could do you a lot of good. 
+
+&gt;you were on the tail end of your trek instead of at peas or connected with nature you just felt lonely couldn&#039;t help but think about Samantha crying yourself to sleep in your self imposed isolation
+&gt;Things had taken a turn for the worst, whilst descending from náshdóítsoh mountain you rolled your ankle the splint only doing so much to ease the pain. 
+&gt;you are miles from the closest suitable campsite, its getting dark and to make matters worse it appears your being stocked by a large predictor as all the birds have gone silent and its been a heck of a long time seance you&#039;ve seen one of those mountain varmints. 
+&gt;you are limping your way across the long mountain ridge its mostly shale rock up here 
+&gt;you don&#039;t know what it is that is stocking you are quite a few large predators that live in this region, you go through the list
+
+get ready your gonna learn today! 
+	(all information presented in this section is factual to the best of the writers extensive knowledge of the subject)
+&gt;brown bear, black bear, cougars, and the gray wolf as you remember was recently reintroduced into this area, all for are known to stalk people  
+
+
+&gt;brown/grizzly bear are huge and your not sure even a .357 would put one down for sure and the claws will just tare you apart
+
+&gt;black bear are just more common and responsible for most human attacks, that is your most likely culprit
+
+&gt;cougars are ambush predictors if one is stocking you, you wont know it till its too late, if you see a cougar your probably safe, its the one you don&#039;t see that will rip your thought out when you least expect it.
+
+&gt;the gray wolf are pack hunters the pack will encircle the pray. one will draw the attention of the pray animal. 2 other pack members attack from its blind spots, bringing it to the ground and clamp the neck suffocating the pray
+
+&gt;you also recall that the best cores of action in the unlikely event you encounter a cassowary or mob of emu is to pray at least according to your Australian friend and you don&#039;t think he was kidding. 
+
+
+all don&#039;t seem like a good thing to run into on this ridge with the night swiftly approaching
+in the failing light you pull out your head lamp to guide your way through the night, and continue on towards a stand of trees.
+you turn when you hear some rocks shifting behind you to see two small yellow orbs staring back at you from just beyond the reach of your flashlights, then there gone. at least you know what it is now.
+
+&gt;you begin to back away from where you saw the eyes appear, and continue to limp towards the stand of trees hoping to find some refuge in the woods. 
+&gt;that&#039;s when you hear the shale shift behind you closer this time you turn to see the same yellow reflective eyes from before much closer this time and you see the outline of the big cat that had been stocking you all this time
+&gt;remembering your Australian friend, you offer quick prayer to whatever God will listen and you spring into action.
+1. stand your ground
+2. look big: you pull your pack, and arms up over your head trying to look as big and intimidating as possible 
+3. make sure it knows you see it, you lock eyes with the beast and bear your teeth in the hopes you can look like more trouble then your worth to the big cat.
+you watch in wonder and amazement as the eyes start to rise, up and up well past your own height...
+you hear from the dark a deep but feminine voice 
+&gt;&quot;your a big guy&quot;
+your not, well not particularity standing at just under 6ft and stand nearly one foot below her
+it steps forward more fully into your lamp&#039;s light you can now see all of her? 
+your still not sure what you are looking at, the first thing you see are her large almond shaped eyes a brilliant golden color, a large flat feline muzzle and rounded triangular ears, whit fur around the lower jaw the rest a sandy brown two large but perky breast lie on her chest. her arms end in large paws just a little smaller then your head, looking closely you can see her large mitts do indeed have thumbs
+she has a slim whist and hips shes standing on two digitigrade hind paws.
+she was most definitively a mountain lion but no cougar having the appearance of a woman maybe in her 20s and 7 foot tall
+you blush slightly seeing the naked &quot;woman&quot; adverting your eyes from her ore privet areas
+
+&quot;i can see you like my eyes,you know your eyes are quite entrancing as well and your teeth are just adorable, most people have run by now she says with a smile &quot;its good that you&#039;ve managed to stay put, I&#039;d hate to have to HUNT you down&quot; a devilish feral smile crosses her face &quot;not that it would be too hard judging by your limp&quot; she continues  chuckling at the end taking another step towards you
+&quot;if your hungry Ive got plenty of food in my pack why don&#039;t i just cook som...&quot; you begin but are cut off by a change in her determiner as 
+you say cook 
+that&#039;s a lie, your on the tail end of your hike only meals for three days remanding
+&quot;come on food&quot; she interrupts
+&gt;she scoops you up into an over-the-shoulder carry not even bothering to let you remove your pack
+
+&quot;i would let you walk but that limp makes you look too tasty&quot; she teases... you hope
+cant argue with that and allow yourself to being carried 
+she soon deposited you on the ground in a clearing near a small overhang that contains some bedding, a pile of bones is also present 
+she stares at you expectantly &quot;well cook&quot; she adds intentionally
+a meal of freeze dried spaghetti seemed the most appropriate, also its super easy... and you set about preparing the meal starting with your rocket stove roars to life once lit bringing your water to a boil in minutes 
+Nash is starring inquisitively at your cooking
+making idle conversation whale you cook
+
+thinking your not quite sure what to call the big cat 
+&quot;so you got a name, something i can call you?&quot;
+no response but she looks thoughtful? 
+&quot;im anonymous, but you can call me anon for short&quot; 
+&quot;I&#039;d prefer that to food&quot; you continue
+she smiles slightly at the jab,
+&quot;Náshdóítsoh- uh you can call me Nash&quot;  
+the name vaguely rings a bell in your mind
+you ask a question that&#039;s been bugging you
+&quot;so how did you lean to talk?&quot;
+Náshdóítsoh looks back at you with confusion and defensively responds &quot;dose it mater?&quot;
+&quot;guess not&#039;&#039; you think your mind wonders briefly but you decide not to press the issue, maybe later
+
+idly returning to your task you pore the now boiling water into the pasta bags and set them aside
+your new friend makes her way over to you, smelling the re-hydrating pasta and eyeing it hungry then to you with a disturbingly slimier gaze. she takes a seat just behind you
+absent mind-idly kneading her big for-paw/hands along your back stretching her fingers and claws out 
+your alarmed at first but she doesn&#039;t seem to be harming you and it actually feels quite nice aside the occasional scratch, your also in no position to protest 
+
+eventually the noodles soften and are ready to eat, the back rubbing however has done quite the opposite to your noodle.
+ensuring the Nash is satisfied you give her 3 servings, leaving one for yourself, after briefly demonstrating how to use a spoon she plunges the utensil into the hot bag of pasta then into her mouth. her eyes go glassy for a split second and she lets off a quiet moan 
+&quot;mmmm, your cooking is good, food, i should keep you around&quot; Nash murmurs between bites
+&quot;has anyone cooked for you before?&quot; you ask ignoring her refuels to use your name
+&quot;no, first time&quot; she responds stuffing her face with more pasta
+you and her finish your meals in relative silence her stomach slightly dissented from the meal
+she gets up abruptly and drags you into the small cave, your just able to snatch your sleeping bag as you pass your pack she pushes you into the back of the small overhang lying across the entrance blocking your escape
+who are you kidding with your ankle the way it is your not going anywhere fast
+she cutlets up agents you 
+you reach your hand out towards the big cats head, bruising agents one of her ears she initially pull away from the touch but soon renters leaning into your hand allowing you to pet her large soft ears 
+as you pet her head the purring returns, at least you think its purring, sounding closer to a lawnmower starting up then a cat
+the purring cat lulls you to sleep at some point in the night you removed the splint you had on your ankle and covered the two of you in your open sleeping bag
+
+you awaken alone burred in your sleeping bag, hiding from the cool morning air, in the in the lions den its still early the sun just peaking out over the mountains. 
+you start getting up,  tentatively putting some of your weight on your foot, nope! a wave of pain washes over you waking you up better then that cup of instant coffee you were about to make would
+crawling instated you make your way out of the den over to your the improvised kitchen you made the night before your camp stove and kettle still set up start warming up a pot of water... Samantha always needed coffee to wake up...
+you sit there while the water begins to boil feeling sorry for your self when Nash returns three large varmints hanging from her large teeth she deposits them in-front of you
+&quot;cook food!&quot;
+
+All the prompting you need and begin to &quot;cook food&quot; cleaning, gutting and skinning the roadies and preparing a small cooking fire 
+Nash is enthralled by your cooking of the rodents 
+&quot;whats that for?&quot; Nash ask gesturing to the now boiling pot of water 
+&quot;uh.. you&quot; is all you say poring the hot liquid into a cup you briefly consider your options for the big cat, you have packets of instant coffee, hot chocoholic and apple cider in your bag, remembering an discussion you had on an Mongolian basket weaving forum , you pull a packet of cider out of your bag and dump the continence into the cup of water, thinking it least likely to kill a cat
+she takes the cup and laps up the warm liquid with her long tongue tentatively at first then more eagerly, eventually liking the cup clean
+the rodents are ready and you give two to the hungry cat keeping one as to not seem rude 
+you take a bite, and are surprised by how good it actually is the spices from your kit paring well on the fire roasted rodent meat
+Nash, clearly satisfied by the meal you&#039;ve created, she scooches over to you lying down with her head in your lap
+
+&quot;could you do the thing anon&quot; she prompts once conferrable
+racking your brain for the &quot;thing&quot; you begin petting her head with one hand 
+Nash leans in and closes her eyes clearly this is the &quot;thing&quot;
+your other hand finds itself guided by a meaty paw along her midsection
+&quot;like this?&quot; you ask just as she begins purring responding with a simple node 
+your hand explores her tone stomach, finding four unexpected nubs hidden under white fur, it takes you a few seconds before the realization of your discovery dawns on you.
+nipples, this theory is confirmed by a Nash&#039;s face taking on a distinctive red hue as she blushes under her fur
+shit your hard as a rock luckily it appears she hasn&#039;t notice
+she seams incapable of speech when purring so you just sit and pet the cat in your lap enjoying your small fire slowly die down and are lulled to sleep by the purring cat. 
+you wake up with a start, the sun now on your back, on the opposite side of your little valley
+you must have sleeping here all day with the cat.
+sudden realization hits you as you reach for the back of your neck feeling the all too familiar heat of a sunburn
+worth it
+
+
+your movement seems to have woken the Nash who is now sitting up 
+taking this opportunity to stand and rummage through your pack
+Nash stretches looks to you seeing your slight limp she licks her lips hungry
+a small bottle of Aloe Vera fished from your bag, applying the cool jell the your neck. 
+you adjust your gate hiding the limp and Nash frowns slightly getting up and walking to you
+&quot;so whats for dinner?&quot; 
+&quot;not sure you going to bring back some more rodents?&quot;
+
+your stomach rumbles but not with hunger... 
+&quot;excuse me&quot;
+garbing the trowel and toiletry kit from your pack before heeding for a thicket of trees
+Nash moves to follow you out 
+&quot;i need some alone time&quot;
+worry washes over Nash&#039;s furred face
+&quot;to do some...business&quot;
+&quot;I&#039;ll be back soon&quot;
+understanding washes over her face 
+she lets you go, leaving the camp in the opposite direction 
+you walk off finding a thicket of trees, dig and filling a small cat hole... this took, much longer then you anticipated and 
+its gone from twilight to dark  
+something feels off as you pull out a flashlight making your way back to the den
+
+you enter a small clearing
+and something seams vary off, you realize you cant hear any birds
+Predictor in the area 
+must be Nash... 
+
+aaaaaaaaaaahhhhhwwwwwwoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo!
+														(NOT NASH!)
+				awwoooooooooooooooooooooooooooooooao									awoooooooo
+		awwwwwooooooooooooooooooooooo					aaaawwooooooooooooooooooo
+						awwwoooooooooooooooooooooooooo
+	awooooooooooooooo  ahhhho ahhhho ahhhwwwoooooooooooo
+FOUND HIM!             found him? 		smell him		where is he?			something else!									
+	where?	 	something else? 	over here!	 	i smell cat!				found him?        cat?                found him!
+	our prize!		where? 		here!		i see him	over here				here!		there
+i see him! 					here?				cat?		i see him 	no cat!								there
+no cat!			i see him	our prize!		i see him
+shush! 	 quiet		shush.   	 i see him!				 quiet, shhoosh!
+(rustling)
+
+whispered words erupting from all around you the dense foliage and hard to pick out a single voice or detection instead the voices seem to be coming from everywhere and nowhere at once
+then silence 
+you probe your surroundings  with your flashlight green orbs appearing out of the darkness as you move the beam of light, one set, two, another, its hard to count them, thy are many	
+one steps out of the foliage a gray wolf standing at 5&#039;5&#039;&#039; her eyes glowing brightly in your flashlights beam. 
+lean and completely nude (like Nash) covered in gray fur a confident smile adorning her muzzle. 
+she slowly approaches her eyes locked on you her head and tail high and dominant shes about to say something
+your struck by two furry body taking you to the florist floor 
+more wolves emerge slowly from the underbrush as the two on top position them selves 
+straddling you one on your whist the other sitting across your chest, back to back pinning you to the ground
+your light passes across her assets she makes no effort to hide anything her small breast and a fortune cookie in full view
+the pack gets riled up once more 
+me first 	no me		i smelled him first!	 im going first 	
+i saw him first!	seed!	waiting yur tern! 	well we caught him! 
+alpha first! 		need him!	you&#039;ll get the scraps! 		alpha first!
+		alpha! 			alpha speak!
+it takes &quot;alpha&quot; a considerably more time to calm the rest of the bickering pack
+&quot;don&#039;t worry we don&#039;t intend to harm you&quot;
+she begins to monologue
+&quot;oh no far from it! you may actually enjoy, it i know we will&quot;
+the she-wolf moves closer standing directly over you giving you a better view of her nether regions as she began to lower her self down onto your face
+
+the three gray wolves that pin you the the ground are taken out by a blur of tan fur shooting down from a nearby tree
+Nash stands head and shoulders over the other wolves feral rage emanating from her eyes her ears flat to her head, 
+fierce, claws out her large teeth bared she was crouched low but still taller then the tallest of them 
+&quot;MINE!&quot; she roars 
+its all she says
+its all she has to
+the wolves back off running off into the surrounding woods Nash almost follows with murderous intent 
+
+Instead she rushes to your side the intelligence sparkle returning to her eyes, then concern
+&quot;ohmygod are you ok?&quot;
+&quot;i think so... thanks for the save, im not sure what thy... actuality i have a pretty good idea&quot;
+she grabs your hands with her own hosting you to your feet
+&quot;icameover as soon as i herd the howling-&quot;
+you kiss her on the lips
+&quot;Mine&quot; you wispier
+rotating your hand in hers interlocking your fingers in her meaty mitts
+her face going red in your lamp light 
+warping you in her tail, she kisses you back, this time her tongue pushes into your mouth the sandpaper like texture invading your smooth mouth, you of course return in kind sliding your own tongue past her alarmingly sharp teeth.
+the two of you stand there in the clearing for what feels forever exploring the oral cavity of the other
+Nash&#039;s tongue retreats back within her own muzzle braking off the kiss
+
+&quot;first time?&quot; you ask awkwardly filling the dead air with a question
+&quot;yes, first time&quot; she responds but there is more you just have to push a little harder...
+&quot;kissing?&quot; you press
+she looks away before returning her eyes to you
+&quot;yes, kissing but everything else too, first time, i saw you, first time i stand on two legs, first time I think, I knew words, could speak, eat cooked food, been petted, felt good, everything is new and exiting now...&quot; she trails off &quot;now, I&#039;ve met you Anon&quot;
+&quot;before we meet i was just hungry, and boy did you look good, i saw you fall you know&quot; 
+you somehow did
+&quot;that limp, your injury... made you look so good, tasty, easy, too easy so i followed, stocked until night fall hunger, instinct drove me close until i saw you looked into your eyes, determined, injured, but still standing your ground, tall and prod! then something changed i felt different hunger for you not for your flesh, but a deeper hunger&quot; she trails off 
+&quot;well I&#039;m glad you didn&#039;t eat me&quot;
+&quot;i still could&quot; Nash adds with a smile showing off her teeth
+
+the two of you return to the den, where most of a durr is waiting for you
+&quot;i got hungry waiting for you so i thought I&#039;d pick up dinner&quot;
+you stare at the bites taken out of the round
+&quot;i got hungry&quot; she repeats flatly
+figures, you chuckle getting our your Mora knife once again and begin to dress the deer cutting out different cuts of meet paying special attention to the back strap
+you also send Nash off to collect fire wood, you&#039;ll need a much bigger fire to cook this
+as difficult as spit roasting an entire deer is, you have excellent help
+its late by the time the food is ready but its well worth it you eared meany eager complements from Nash who eats until her stomach is visibly distended and clearly satisfied
+despite that it still looks like you&#039;ll have enough for breakfast, and still some after that, Nash stores the hide and meet in a tree for safe keeping
+
+the two of you sit, cuddling next to the fire letting it burn down as Nash first cleans the remains of the meal from her paws
+then she begins cleaning you, having a little grease on your face, she goes to lick it clean
+from your face to your hair, down your neck, you have to remove your shirt and she licks down your back and around to your chest
+you must taste really good you think to yourself.
+you also note that whatever it is has got her motor running as she purrs quietly
+once she begins on your chest you begin petting her large head paying special attention to her ears and muzzle whale she continues to clean you
+Nash purrs approvingly
+her ruff tong works its way down until it is denied by your pants, 
+not for long you think removing both layers of cloths leaving you fully exposed in the cool night air
+
+she pushes you onto your back 
+she starts licking your balls, then working her way up your shaft until shes reached the tip, she then takes your full length into her wide muzzle raking the length with her large teeth while she works your shaft with her rough tongue, soon bringing you past your limits unloading into her mouth
+working her own hole/slit with one large pawed hand the other supporting herself 
+continuing to pet her with your other hand
+after your release Nash switches position, scooting forward until the two of you are face to face
+you grab the support hand intermingling her large fingers helping to support the large cat 
+you sit up from the ground pulling the big cat into a kiss, taking a bit of her lip within your mouth you guide her head back down with you as you renter to the ground 
+
+Nash sits above you on her knees, her sex dripping slightly from the anticipation and her own efforts
+you use one hand to help guide as she lowers herself onto your member 
+she gasp as the two of you make contact, you buck your hips thrusting yourself into her surprisingly tight sex
+an inhuman cry escaping her as you thrust, she lowers herself further onto your shaft
+as the two of you fall into a rhythm you could swear your name is on her lips, but its hard to tell her inhuman screams are so strange
+you don&#039;t know how long the two of you go at it... 
+you put everything you have into one last push her insides spasm milking your dick as you erupts 
+Nash lets out a loud inhuman cry that both terrifies you to the bone and fills your hart with pride
+she falls over dismounting you 
+the two of you just lie there in the afterglow of your actions
+
+once you&#039;ve calmed down a little you look to her her large golden eyes staring back at you 
+&quot;I. think I.. love you&quot; you stammer
+&quot;yes...&quot; she looks at you confused the words impacting like waves on a beach retaliation spreading across her face 
+&quot;I love you Anon&quot; the words slowly spilling out of Nash&#039;s mouth her eyes unfocused and distant  
+you leave it at that the two of you confessed, needing nothing more then each others company 
+eventually the night terns cold you begin shivering despite Nash&#039;s fur and warmth
+ Nash drags you over to the den, cuddling your still naked form you lie next to here holding her for warmth you deploy your sleeping bag over the two of you and fall asleep in each others arms.
+
+you slip into a pleasant dream, a fantastic you and Nash live in a big cave with a white picket fence and a manicured lawn
+you invite the neighbors over for a barbecue, and you have a massive smoker with two large deer slowly cooking within, 
+as afternoon comes around the wolves you ran into earlier arrive fully clothed this time and acting much more civil
+Nash is your wife, shes wearing a beautiful flower print sun dress, a bow tied midway down her tail
+another figure shows up, a blue Coyote, looking more like a cave painting come to life, then flesh and blood
+you&#039;ve never seen her before but she seems oddly familiar
+she smiles and waves 
+&quot;gah-hah!&quot; the entity entity laughs 
+before the fantasy fades into dreamless sleep
+
+you wake up lying next to Nash who this time she is still sleeping soundly next to you
+
+to be continued</textarea>
+    
+    <!-- Leaderboard Mid Footer -->
+    <div class="special__footer">
+    <div id='snhb-pastebin_bottomleader-0'></div>
+</div>
+</div>
+        </div>
+        <div class="sidebar h_1024">
+            
+<!-- Private Posts -->
+
+<!-- Public Posts -->
+
+                
+    <div class="sidebar__title">
+        <a href="/archive">Public Pastes</a>
+    </div>
+    <ul class="sidebar__menu">
+
+                    <li>
+                <a href="/mjisLWsT">Múltiplos</a>
+                <div class="details">
+                                            C++ |
+                    
+                    14 min ago                </div>
+            </li>
+                    <li>
+                <a href="/zw9exS76">Maior Idade</a>
+                <div class="details">
+                                            C++ |
+                    
+                    15 min ago                </div>
+            </li>
+                    <li>
+                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
+                <div class="details">
+                                            JavaScript |
+                    
+                    18 min ago                </div>
+            </li>
+                    <li>
+                <a href="/JxHVVf1V">Chromium issue</a>
+                <div class="details">
+                                            Bash |
+                    
+                    19 min ago                </div>
+            </li>
+                    <li>
+                <a href="/KhZberi9">Harley</a>
+                <div class="details">
+                                            C++ |
+                    
+                    25 min ago                </div>
+            </li>
+                    <li>
+                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
+                <div class="details">
+                                            Python |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/At1K3Ubi">Untitled</a>
+                <div class="details">
+                                            Java |
+                    
+                    1 hour ago                </div>
+            </li>
+                    <li>
+                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
+                <div class="details">
+                                            T-SQL |
+                    
+                    2 hours ago                </div>
+            </li>
+        
+    </ul>
+            
+
+
+<!-- Skyscraper Right -->
+<div class="special__sidebar">
+    <div id='snhb-pastebin_sidebar-0'></div>
+</div>        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+
+    
+<div class="top-footer">
+    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
+    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
+    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
+    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
+    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
+    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
+    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
+    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_scraping_api">scraping api</a>
+                <br>
+                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
+                <a href="/contact">contact</a>
+
+                <br>
+
+<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
+                    <script>
+                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
+                    </script>
+                -->
+                <br>
+
+                
+<span class="footer__bottom h_800">
+    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
+    <br>
+    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
+</span>
+            </div>
+
+            <div class="footer__right h_1024">
+                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
+                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
+                            </div>
+
+        </div>
+    </div>
+</footer>
+    
+
+<!-- Popup messages -->
+
+    
+<div class="popup-container">
+
+    <!-- Cookies Policy -->
+            <div class="popup-box -cookies" data-name="l2c_1">
+            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
+        </div>
+    
+    <!-- Signup -->
+            <div class="popup-box -pro" data-name="l2c_2_pg">
+            <div class="pro-promo-img">
+                <a href="/signup">
+                    <img src="/themes/pastebin/img/hello.png" alt=""/>
+                </a>
+            </div>
+            <div class="pro-promo-text">
+                Not a member of Pastebin yet?<br/>
+                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
+            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
+        </div>
+    
+    <!-- PRO -->
+    
+    <!-- Dark theme -->
+    
+</div>
+    
+
+<!-- Button for scroll page to top -->
+<span class="cd-top"></span>
+
+<script src="/assets/ae9b8d97/jquery.min.js"></script>
+<script src="/assets/1745bc3b/yii.js"></script>
+<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
+<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
+</body>
+</html>
