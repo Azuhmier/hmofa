@@ -20,7 +20,7 @@ use autodie;
 use Storable qw(dclone);
 use Data::Dumper;
 use List::MoreUtils 'uniq';
-use lib ($ENV{HOME}.'/hmofa/pastebin/code_examples/lib');
+use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
 use hmofa_dspt ':all';
 #use XML::Hash::XS qw();
 no warnings 'utf8';
@@ -29,15 +29,12 @@ no warnings 'utf8';
 # DIRECTORIES #{{{
 
 my $MASTER      = glob('~/hmofa/');
-my $output_dir  = glob('~/hmofa/pastebin/code_examples/goto_files/');
-my $output_dir2 = glob('~/hmofa/pastebin/code_examples/goto_files2/');
-my $target      = glob('~/hmofa/pastebin/code_examples/txt_files/');
+my $output_dir  = glob('~/hmofa/hmofa/code/goto_files/');
 
 #}}}
 # FILE PATHS #{{{
-my $Catalog        = glob('~/hmofa/pastebin/Library.txt'); # Library
-my $Copy_Catalog   = glob('~/hmofa/pastebin/code_examples/txt_files/lib_copy.txt'); #relative pathname to lib-copy
-my $Kosher_Catalog = glob('~/hmofa/pastebin/Lib_Kosher.txt');
+my $Catalog        = glob('~/hmofa/hmofa/Library.txt'); # Library
+my $Kosher_Catalog = glob('~/hmofa/hmofa/Lib_Kosher.txt');
 
 # goto_files/
 my $tag_file        = 'tag_bin.txt';
@@ -55,83 +52,21 @@ my @fixed;
 # FORWARD DECLARATIONS #{{{
 sub Lib_analy;
 sub get_tags;
-sub libfix;
 
 #}}}
 
 {
   #-----| Catalog Modification |------{{{
-
     # Analysis of Catalog 
     open my $fh_Catalog, '<', $Catalog
       or die "Cannot open '$Catalog' in read-write mode: $!";
-
-      ( my $dspt_Catalog, 
-        my $original ) =  Lib_analy($fh_Catalog, $output_dir);
-
+      ( my $dspt_Catalog, my $original ) =  Lib_analy($fh_Catalog, $output_dir);
     close $fh_Catalog
       or die "Cannot close $Catalog: $!";
-
     # Get Tags
-    $dspt_Catalog =
-      get_tags($dspt_Catalog, $tag_file, $name_file, 1, $output_dir);
-
+    $dspt_Catalog = get_tags($dspt_Catalog, $tag_file, $name_file, 1, $output_dir);
     # Formating the Catalog
     lib_fmt($original);
-
-  #}}}
-  #-----| Catalog Copy Modification |------{{{
-    # Clean up the Library
-    @fixed = libfix($fh, $Copy_Catalog, $dspt_Catalog, $Catalog);
-
-    # Analysis of Catalog Copy
-    open my $fh_Copy_Catalog, '<', $Copy_Catalog
-      or die "Cannot open '$Copy_Catalog' in read-write mode: $!";
-
-      ( my $dspt_Copy_Catalog,
-        my $modified ) =  Lib_analy($fh_Copy_Catalog, $output_dir2);
-
-    close $fh_Copy_Catalog
-      or die "Cannot close $Copy_Catalog: $!";
-
-    $dspt_Copy_Catalog =
-      get_tags($dspt_Copy_Catalog, $tag_file, $name_file, 1, $output_dir2);
-
-  #}}}
-  #-----| Check |-----{{{
-  #  my @a = @{${$dspt->{tags}{analy}{tag_bin}}[0]};
-  #  my @b = @{${$dspt2->{tags}{analy}{tag_bin}}[0]};
-
-  #  my @mine;
-  #  NUM: for my $fuck (@b)
-  #  {
-  #    for my $TAG (@a)
-  #    {
-  #      if ($fuck eq $TAG)
-  #      {
-  #        shift @a;
-  #        next NUM;
-  #      }
-  #    }
-  #      push @mine, $fuck;
-  #  }
-  #  print "$_\n" for @mine;
-  #  print "*******************\n";
-
-  #  my @mine2;
-  #  NUM: for my $fuck (@a)
-  #  {
-  #    for my $TAG (@b)
-  #    {
-  #      if ($fuck eq $TAG)
-  #      {
-  #        shift @b;
-  #        next NUM;
-  #      }
-  #    }
-  #      push @mine2, $fuck;
-  #  }
-  #  print "$_\n" for @mine2;
   #}}}
   #-----| STDOUT |-----{{{
   #  my $hreff = $dspt_Catalog;
@@ -148,19 +83,11 @@ sub libfix;
         $ub = length $key
       }
     }
-  my $ub2 = 0;
-    for my $key (keys %$dspt_Copy_Catalog) {
-      if (length scalar @{$dspt_Copy_Catalog->{$key}{LN}} > $ub2) {
-        $ub2 = length scalar @{$dspt_Copy_Catalog->{$key}{LN}}
-      }
-  }
 
   # print element number of each key
   for my $key (sort keys %$dspt_Catalog) {
     my $bin =  scalar @{$dspt_Catalog->{$key}{LN}};
-    my $bin2 =  scalar @{$dspt_Copy_Catalog->{$key}{LN}};
-    printf "$key"." " x ( 2 + ($ub - length $key))."%s\n", '| '.$bin.' '.
-           " " x ( $ub2 - length $bin2 ).'| '.$bin2;
+    printf "$key"." " x ( 2 + ($ub - length $key))."%s\n", '| '.$bin
   }
   #}}}
 }
@@ -752,7 +679,17 @@ sub lib_fmt {
     elsif ($line =~ /^By/) {
       $line =~ s/By(.*)/by$1/;
     }
-
+    if ( $line =~ /^\[/ ) {
+      $line =~ s/(post.*)*virgin\?*, |(post.*)*virgin\?*|, (post.*)*virgin\?*|experienced\?*, |experienced\?*|, experienced\?*//gi;
+      $line =~ s/,\s/,/g;
+      $line =~ s/((?<!\])[^\]\[,]+)/;$1;/g;
+      $line =~ s/,/ /g;
+      $line =~ s/;$//g;
+      $line =~ s/(\]\[.*\])(.*)/$1/g;
+      my $ops = $2;
+      $ops =~ s/;//g;
+      $line =~ s/(\]$)/$1$ops/g;
+    }
     push @fmt_lib, $line;
   }
 
@@ -762,8 +699,5 @@ sub lib_fmt {
     print $fh @fmt_lib;
   }
   close $fh;
-
 }
-
-
 #}}}
