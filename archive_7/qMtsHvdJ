@@ -1,0 +1,128 @@
+Reverse Searching Basics and High Resolution Image Saving
+Jun 9th, 2019
+
+Reverse Searching Basics and High Resolution Image Saving for /trash/men (and other fine Anonymous)
+
+This was originally written for /scaly/ but I've put it into a separate paste. The intent of this paste is threefold:
+
+-To assist others in trying to finding the source of where an image orginated from, and how to get there as soon as you can.
+-To teach readers in how to go saving the original image's full resolution when possible, to maintain high image quality when monitor resolutions larger than 1920x1080 are becoming more common.
+-To improvise one's overall browsing experience on 4chan.
+
+If you're linked here then someone has probably wanted to help. That's all.
+
+---
+Tools
+---
+
+Userscripts, browser addons, other programs, etc. Generally makes finding sauce easier.
+
+---
+
+4chanX
+>https://www.4chan-x.net/
+-Requires Violentmonkey/Tampermonkey or just Chrome
+
+The inline extension for 4chan itself has actually shaped up quite well over the years, but 4chanX adds in functionality it won't dare to add, including integration of third-party archives and image queuing for dumps! Its relevance here is that you can use links near an image to help find your source, or use the drop-down on posts to easily search the archives for things such as the image's MD5 hash or filename. Other features include the gallery view, the option to hide all posts with text, and much more powerful filtering capabilities. Highly recommended for any 4chan regular, the userscript version is recommended over the browser extension.
+
+Contrary to past beliefs, 4chanX should rarely ever break unless Hiromoot fucks something up on purpose.
+
+---
+
+Image Search Options
+>https://saucenao.com/tools/
+
+This browser extension for both Firefox and Chrome provides readily available a reverse search option in the context menu. You can customize it to add more websites.
+
+---
+
+e621 Image Search
+>http://iqdb.harry.lu/
+
+This is a reverse image search tool to find images specifically on e621, especially if you feel that you've got or found a smaller version of a particular image. Though not particularly useful for cropped porn, you may still find use for it.
+You can use this with the above extension with the URL "http://iqdb.harry.lu/?url=" under Image Search Options's own, well, options.
+
+---
+
+VisiPics
+>http://www.visipics.info/index.php?title=Main_Page
+
+This program can help check for duplicate images in your folders pretty well. There are reportedly many other duplicate image finders which might be better alternatives, but you're on your own for that.
+
+--------
+Filename Identification
+--------
+
+Provided somebody hasn't made their own witty filenames or renamed for sorting, if interested you can grab some further information from the place they were saved from, and also possibly find the source. 4chanX automatically recognizes the formatting of filenames from places including DeviantArt, Flickr, Pixiv, Imgur, and Facebook by default, providing direct links to the source image close to the thumbnail. It can also do this for other websites with common filenames if you know the syntax.
+
+>4chan
+Come on, you should know this. The thirteen numbers are a plain timestamp in Unix time. Obviously, filenames with lower numbers will become a rarer sight as time goes on.
+-https://en.wikipedia.org/wiki/Unix_time
+
+>e621 / Booru
+A filename that appears to be a random mess of numbers and letters can turn out to be its MD5 hash, which is what boorus automatically do. It can be useful as e621 allows you to search that same MD5 hash, too.
+
+>Pixiv: XXXXXXXX_p0
+The first series of numbers represents the database ID and the part past that is its page number, starting at 0. If an image is from Pixiv, SauceNao is very good at finding the source.
+
+>FurAffinity: XXXXXXXXXX.artist_imagename
+A unix timestamp followed by the artist's name and then the image's name. You'll likely need to search FA manually, but the source is effectively spelled out for you.
+
+>DeviantArt: imagename_by_artist-XXXXXXX
+The image's ID is just at the back instead.
+
+>Newgrounds: XXXXXX_artistname_image-name
+Actually very similar to FurAffinity filenames. Only that for the image's name, dashes are used in place of spaces.
+
+>Imgur
+A short string of mixed-case letters and numericals. An '/a/' in a URL is an album. 4chanX recognizes these filenames.
+
+>Tumblr
+Shit out of luck. It's made pretty obvious on where it's from, but there's no additional data to help identify which part of Tumblr it's from exactly.
+
+>Twitter
+Gaining popularity with Japanese artists, you're also fucked until somebody writes an image search for it.
+
+For the latter two, source-begging is generally a given for those websites, but it doesn't hurt to actually check to see if it's available elsewhere.
+
+As a disclaimer, it's also entirely possible that some cheeky cunts may change the filenames according to redirect to something else for trolling reasons, knowing that people will reverse look-up using 4chanX. Doesn't seem to happen often though.
+
+
+---
+Saving Full Image Sizes
+---
+
+Many tend to prefer the highest quality version of an image when available. There are definitely steps you can take to make sure you are getting full-sized images.
+
+This here is an old infographic that's only really relevant for Twitter and Pixiv, and even then both websites have changed since.
+-https://imgur.com/a/q44kY
+
+>e621
+As of late 2018, downsampled images from this booru have became very apparent, they'll at least they still have the MD5 hash in the filename. When viewing an image on e621, a message at the top may state that it is a % of its original size, with a 'view original' nearby to enlarge it. 'Full Size' below does the same thing, while 'Download' displays the raw image alone.
+
+>Twitter
+If you have the older layout, 'jpg:large' should changed into 'jpg:orig', easy as pie. PNG images on Twitter are rare, but they follow the same logic.
+If you have the newer layout, the links are suffixed differently with the resolution on the end such '?format=jpg&name=900x900'. Simply change the res to 'orig' so it looks like '?format=jpg&name=orig'.
+
+Of note, Twitter does support PNG images so it's not that much different. While most browsers will be using Twitter's newer layout, middle-clicking a Twitter image from Discord uses the older format.
+
+>Pixiv
+Essentially, you don't want 'master' in a Pixiv filename - that represents a smaller version of what you're wanting to save. Be sure to enlarge the image to get the full size.
+
+>Tumblr
+It should be noted that Tumblr completely blocked access to raw images from the user's end, although it still technically saves the raw images for the artist. Not that it matters much at this point because Tumblr made efforts to nuke porn from their burning shitheap of a platform, so there's not much reason to bother now.
+
+If you have to downsize an image for the sake of 4chan's size limit, it is good form to link back to the original. On the other hand, the downsized image may also see reposting.
+
+>exhentai / e-hentai
+There is a credits system, but sometimes different content will have a torrent download available for the original size. There is a userscript you can use to try and get a full-size image download of a gallery.
+-https://dnsev-h.github.io/eze/
+
+
+---
+Anything else?
+---
+
+Should you find an image larger in size than the original, it may have been upscaled with waifu2x, a tool that does just that designed with neural networking trained on anime-style images. It's generally less offensive than what alternative upscaling solutions provide, but it's not necessarily perfect either.
+
+Imgur albums may have a 'download all' option that packs all the images into a ZIP folder for you. 7-Zip is a recommended archiving tool to open these.
