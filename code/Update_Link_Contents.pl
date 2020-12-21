@@ -25,9 +25,9 @@ my @scrapes=GetPasteKeys($RecentScrapes."/archive");
 #for my $file (@scrapes) {
 #  ReturnValidPastes($RecentScrapes."/archive/".$file);
 #}
-ReturnValidPastes($RecentScrapes."/archive",\@scrapes);
+ReturnInvalidPastes($RecentScrapes."/archive",\@scrapes);
   print "\n";
-ReturnValidPastes($archive,\@pastes);
+ReturnInvalidPastes($archive,\@pastes);
 
 sub finfo_display {
   my $cwd = shift @_;
@@ -53,7 +53,7 @@ sub GetPasteKeys {
   return @PasteKeys;
 }
 
-sub ReturnValidPastes {
+sub ReturnInvalidPastes {
   my $dir = shift;
   my $PasteKeys = shift;
   my @PasteKeys =@$PasteKeys;
@@ -63,7 +63,6 @@ sub ReturnValidPastes {
     open my $fh, '<', $file or die "$0: $file: No such file\n";
       while (my $line = <$fh>) {
           if ($line =~ /<h1>.*\(#40[34]\)<\/h1>/) { 
-            print "$pastekey\n";
           }
       }
    }
