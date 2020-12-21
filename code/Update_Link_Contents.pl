@@ -21,22 +21,8 @@ my $archive = $head."/archive_7";
 my $RecentScrapes = $head."/Recent_Scrapes";
 my @pastes=GetPasteKeys($archive);
 my @scrapes=GetPasteKeys($RecentScrapes."/archive");
-#my ($filename, $dirs, $suffix) = finfo_display($cwd."/ll.iuo");
-#for my $file (@scrapes) {
-#  ReturnValidPastes($RecentScrapes."/archive/".$file);
-#}
 ReturnInvalidPastes($RecentScrapes."/archive",\@scrapes);
-  print "\n";
 ReturnInvalidPastes($archive,\@pastes);
-
-sub finfo_display {
-  my $cwd = shift @_;
-  my ($filename, $dirs, $suffix) = fileparse($cwd);
-  print "fname: $filename\n";
-  print "dir: $dirs\n";
-  print "suffix: $suffix\n";
-  return [$filename, $dirs, $suffix];
-}
 
 sub GetPasteKeys {
   my $dirname = shift @_;
