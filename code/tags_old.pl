@@ -33,7 +33,7 @@ my $output_dir  = glob('~/hmofa/hmofa/code/goto_files/');
 
 #}}}
 # FILE PATHS #{{{
-my $Catalog        = glob('~/hmofa/hmofa/Library.txt'); # Library
+my $Catalog        = glob('~/hmofa/hmofa/masterbin.txt'); # Library
 my $Kosher_Catalog = glob('~/hmofa/hmofa/Lib_Kosher.txt');
 
 # goto_files/
