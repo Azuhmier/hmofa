@@ -1,516 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Nightly Routine - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The Nightly Routine - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/wFQuskVb" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/wFQuskVb" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="Kj4ej3RkT9aUfBMM-54t0GpHI2o_0xgTc3hVtKK_ftVuD3X2BQscnsQ2dXi29RSZHAl5JwyLISc3FDPC6d47mg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/wFQuskVb" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/wFQuskVb" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Retconned">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>The Nightly Routine</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Retconned">Retconned</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Retconned" class="message" title="Send a private message to: Retconned"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 1st of May 2018 07:09:25 PM CDT">May 1st, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,544                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 9.34 KB            </div>
-
-            <div class="right">
-                <a href="/raw/wFQuskVb" class="btn -small">raw</a>
-                <a href="/dl/wFQuskVb" class="btn -small">download</a>
-                <a href="/clone/wFQuskVb" class="btn -small h_800">clone</a>
-                <a href="/embed/wFQuskVb" class="btn -small h_800">embed</a>
-                <a href="/report/wFQuskVb" class="btn -small">report</a>
-                <a href="/print/wFQuskVb" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;&quot;...our time is up for tonight, my friends, but we&#039;ll speak again tomorrow. Farewell.&quot;</div></li><li class="li1"><div class="de1">&gt;Your favorite nightly horror podcast comes to its usual end, leaving you lying awake in bed, tense and paranoid.</div></li><li class="li1"><div class="de1">&gt;Why the hell do you keep listening to this stuff? Every single &quot;strange but true&quot; story these guys tell leaves you creeped out all night.</div></li><li class="li1"><div class="de1">&gt;Tonight&#039;s was about a serial killer who drowned all his victims. Your childhood fear of drowning of course means that you&#039;re even more on edge than usual.</div></li><li class="li1"><div class="de1">&gt;Shit. You&#039;ll never get to sleep now, and you&#039;ve got work tomorrow morning.</div></li><li class="li1"><div class="de1">&gt;You keep wondering why you torture yourself this way. You KNOW you scare easily.</div></li><li class="li1"><div class="de1">&gt;A loud tap on the window spurs you into sitting bolt upright in bed. You squint in the darkness...</div></li><li class="li1"><div class="de1">&gt;And sigh in relief. It was just a branch.</div></li><li class="li1"><div class="de1">&gt;You shake your head and start to stand up, hoping that grabbing a glass of water will help you sleep...</div></li><li class="li1"><div class="de1">&gt;When suddenly you&#039;re tackled and forcefully shoved onto your bed.</div></li><li class="li1"><div class="de1">&gt;A guttural hiss strikes your ears as your vision fills with dull, green-gray scales. A massive weight pins you down on your mattress, setting your heart to pounding.</div></li><li class="li1"><div class="de1">&gt;However, despite your visceral terror...</div></li><li class="li1"><div class="de1">&gt;You smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your enormous captor laughs, a deep, raspy sound that sends a chill down your spine.</div></li><li class="li1"><div class="de1">&gt;Your phone suddenly starts replaying the podcast, conveniently starting right at the point where the host went into a chilling description of what drowning must feel like.</div></li><li class="li1"><div class="de1">&gt;You feel an involuntary shudder come on, and you&#039;re rewarded with another long, low hiss.</div></li><li class="li1"><div class="de1">&gt;Rough scales rasp against your arms as the incredible weight is slowly lifted off your heaving chest. You look up with a mixture of excitement and horror.</div></li><li class="li1"><div class="de1">&gt;Towering over you, her knees straddling your midsection, is a scaly beast of a woman unlike any other.</div></li><li class="li1"><div class="de1">&gt;Massive, black horns sharp enough to gore an elephant spiral out from her head, points practically glinting in the moonlight from your window.</div></li><li class="li1"><div class="de1">&gt;Pure white eyes stare down at you with hints of both malice and... hunger.</div></li><li class="li1"><div class="de1">&gt;Jagged fangs line a smirking maw, looking as if they could tear your throat out at any moment. A forked black tongue flicks out from between two teeth, tasting your terror.</div></li><li class="li1"><div class="de1">&gt;Huge claws, big enough to pulp a watermelon, jut from hands strong enough to wring your neck effortlessly.</div></li><li class="li1"><div class="de1">&gt;Needless to say, you&#039;re faced with a veritable killing machine. But...</div></li><li class="li1"><div class="de1">&gt;Her bulky, muscular form bears an unmistakably feminine shape.</div></li><li class="li1"><div class="de1">&gt;Wide hips compliment a pair of sizable (albeit lacking in nipples) breasts. Her chest wobbles from her fluid rising movement, bouncing enticingly as she grins down, licking her ragged lips.</div></li><li class="li1"><div class="de1">&gt;Her dull scales flake off in places, exposing pale skin and calling to mind some sort of undead monster. Not helping this are the numerous, worryingly-fresh-looking scars decorating her body.</div></li><li class="li1"><div class="de1">&gt;Though she terrifies you, a warm sense of familiarity washes over the back of your mind.</div></li><li class="li1"><div class="de1">&gt;After all, she comes back every night.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;At first, it was just for a meal.</div></li><li class="li1"><div class="de1">&gt;Your nightly invader is what is known as a Phobivore, a Fear Eater. Her kind subsist purely on the terror and panic of others, especially humans.</div></li><li class="li1"><div class="de1">&gt;Since you&#039;re an easily frightened horror podcast addict, it was only natural she&#039;d take an interest in you.</div></li><li class="li1"><div class="de1">&gt;After your podcast ended for the night, she would always appear in your room, menacing you and savoring your racing heartbeat and rushing adrenaline.</div></li><li class="li1"><div class="de1">&gt;Yes, it started as a nightly snack...</div></li><li class="li1"><div class="de1">&gt;...but things quickly took a turn for the more intimate.</div></li><li class="li1"><div class="de1">&gt;Obviously it took you only a visit or two to realize she was a woman; it took her the same to realize you were a man, and single at that.</div></li><li class="li1"><div class="de1">&gt;One night, when her usual show of flashing her teeth and brandishing her claws failed to get the response she wanted, she lashed out, shredding your bedclothes and leaving scratches on your skin.</div></li><li class="li1"><div class="de1">&gt;Your reaction seemed to satisfy her, but she wasn&#039;t done.</div></li><li class="li1"><div class="de1">&gt;The beast roughly shoved you onto your back and climbed atop you.</div></li><li class="li1"><div class="de1">&gt;Before you could do anything, the massive lizard speared herself on your conflicted boner, then proceeded to rut you into the floor. Her bulk and weight rendered you all but immobile, only affording you the ability to watch...</div></li><li class="li1"><div class="de1">&gt;...and enjoy yourself.</div></li><li class="li1"><div class="de1">&gt;Though she still terrified you, you couldn&#039;t deny how deftly she worked your shaft, bringing you to heights of ecstasy you&#039;ve never had before.</div></li><li class="li1"><div class="de1">&gt;And so, an unspoken agreement blossomed. You feed her your fear, she provides you with earthshaking sex.</div></li><li class="li1"><div class="de1">&gt;...it&#039;s always sounded fair to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Tonight is no different from the usual.</div></li><li class="li1"><div class="de1">&gt;Your partner, still licking her lips hungrily, stares down at you with a smirk. You grin nervously, still shuddering slightly at the sight of her.</div></li><li class="li1"><div class="de1">&gt;You manage to stutter out a question, having never been able to work up the nerve to speak to her.</div></li><li class="li1"><div class="de1">&gt;&quot;W-what&#039;s your n-n-name?&quot;</div></li><li class="li1"><div class="de1">&gt;She lets off another raspy laugh, then roughly digs her claws into the wall beside your bed. She then places her hand under your chin and turns you towards her handiwork.</div></li><li class="li1"><div class="de1">&gt;The name &quot;FERA&quot; is carved messily in your wall.</div></li><li class="li1"><div class="de1">&gt;You start to speak again, only for Fera to roughly turn your head back towards her.</div></li><li class="li1"><div class="de1">&gt;With another deep hiss, she cups a breast in one of her massive hands, squeezing herself with a wicked grin.</div></li><li class="li1"><div class="de1">&gt;The other hand savagely shreds off your clothes. This is why you&#039;ve taken to buying sleepwear in bulk lately. Sure, you could just sleep nude, but it seems like she enjoys tearing the fabric to shreds...</div></li><li class="li1"><div class="de1">&gt;And despite your terror of her, you have a strange desire to make her happy.</div></li><li class="li1"><div class="de1">&gt;Fera places a hand firmly on your shoulder, claws digging into your skin slightly, and laughs again.</div></li><li class="li1"><div class="de1">&gt;She takes a deep breath, then immediately plunges herself into your awaiting rod, muscular tail slamming against your bed with a THUD.</div></li><li class="li1"><div class="de1">&gt;She squeezes your shoulder tighter, with her claws getting dangerously close to piercing your skin. Rough scales rasp your bare skin as she begins relentlessly pounding your dick, riding you roughly with hissing breaths.</div></li><li class="li1"><div class="de1">&gt;Each slam of her body against yours prompts an indignant creak from your suffering bed. Her tail batters the mattress into submission as she maintains a harsh, yet oddly tender rhythm.</div></li><li class="li1"><div class="de1">&gt;The warmth and tightness of her body, and sheer force behind her moves, has you reeling from sheer pleasure.</div></li><li class="li1"><div class="de1">&gt;And yet, the feel of her sharp claws pressing closer and closer to your neck fills you with a hazy sense of terror.</div></li><li class="li1"><div class="de1">&gt;Even now, it seems Fera wants nothing more than to milk every last bit of fear from you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That&#039;s not all she&#039;s milking from you either.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not long before her brutal riding has you aching for release, a fact that isn&#039;t at all lost on your beastly partner.  She grins wickedly and runs a claw under your chin.</div></li><li class="li1"><div class="de1">&gt;You shakily reach a hand up, and she snatches your wrist, roughly placing your hand on one of her massive tits.</div></li><li class="li1"><div class="de1">&gt;You give it a tentative squeeze, enjoying the surprising softness masked by her coarse scales.</div></li><li class="li1"><div class="de1">&gt;Fera lets off a hiss of enjoyment, her white eyes fixated on you intently.</div></li><li class="li1"><div class="de1">&gt;You carefully massage her breast, prompting her to yank your other hand up to her chest as well.  </div></li><li class="li1"><div class="de1">&gt;No matter how many times she comes around, seeing her enjoy herself always surprises you.  Her black tongue rolls out of her mouth, a deep, raspy sigh escaping her throat.</div></li><li class="li1"><div class="de1">&gt;She allows you to keep kneading and rubbing her breasts for a few minutes, then finally puts you out of your misery.</div></li><li class="li1"><div class="de1">&gt;With one last savage slam, she takes your entire length into her.  She lets out one more hiss of pleasure as you unload within her warm slit.</div></li><li class="li1"><div class="de1">&gt;Once you&#039;ve finished, she raises herself off of your member, then roughly falls forward, letting her boobs land directly on your face.</div></li><li class="li1"><div class="de1">&gt;You swear if she fell any harder, your nose would&#039;ve broke.</div></li><li class="li1"><div class="de1">&gt;As if on cue, the legs of your bed give way with one last creak of pain.</div></li><li class="li1"><div class="de1">&gt;Your bed collapses, dumping you, Fera, and your mattress onto the floor.</div></li><li class="li1"><div class="de1">&gt;The weight of her landing atop you knocks all the air out of your lungs.  You cough and hack...</div></li><li class="li1"><div class="de1">&gt;And notice a fleeting look of concern on her face.</div></li><li class="li1"><div class="de1">&gt;You catch your breath, and her fanged smirk returns.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Fera lies atop you, simply enjoying the afterglow of your nightly routine.</div></li><li class="li1"><div class="de1">&gt;Your phone plays the last line of the podcast once more. As the host signs off, Fera grins at the device.</div></li><li class="li1"><div class="de1">&gt;The podcast once again restarts as she chuckles deeply.</div></li><li class="li1"><div class="de1">&gt;She reaches over to one side and yanks the blankets off your ruined bed.</div></li><li class="li1"><div class="de1">&gt;Fera throws the blankets over the two of you, cuddling up close. Despite her massive size and strength, she gently wraps a muscular arm around you.</div></li><li class="li1"><div class="de1">&gt;You begin to feel drowsy, and lay your head atop her pillowy chest.  Her scales gently scrape your cheek.</div></li><li class="li1"><div class="de1">&gt;Her huge tail winds itself around your body carefully, and she sighs in contentment.</div></li><li class="li1"><div class="de1">&gt;Just before you fall asleep, Fera looks around the room cautiously...</div></li><li class="li1"><div class="de1">&gt;Then kisses you lovingly.  With a smile on your face and a lingering chill running down your spine, you slip off into unconsciousness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You awaken, as always, feeling incredibly well rested.  This despite only getting two hours of sleep at the most.</div></li><li class="li1"><div class="de1">&gt;You gently run a hand over the tiny gashes in your shoulder as you roll over.  Fera is gone, as usual.</div></li><li class="li1"><div class="de1">&gt;The bed is roughly repaired, a tiny F carved into the headboard.  Your blankets are carefully tucked in around you.</div></li><li class="li1"><div class="de1">&gt;You&#039;re clad in a fresh set of sleepwear.</div></li><li class="li1"><div class="de1">&gt;Yep, another great morning, just like all of them since you started this arrangement.</div></li><li class="li1"><div class="de1">&gt;Hopefully, tonight&#039;s podcast will be a real case of nightmare fuel.</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;&quot;...our time is up for tonight, my friends, but we&#039;ll speak again tomorrow. Farewell.&quot;
-&gt;Your favorite nightly horror podcast comes to its usual end, leaving you lying awake in bed, tense and paranoid.
-&gt;Why the hell do you keep listening to this stuff? Every single &quot;strange but true&quot; story these guys tell leaves you creeped out all night.
-&gt;Tonight&#039;s was about a serial killer who drowned all his victims. Your childhood fear of drowning of course means that you&#039;re even more on edge than usual.
-&gt;Shit. You&#039;ll never get to sleep now, and you&#039;ve got work tomorrow morning.
-&gt;You keep wondering why you torture yourself this way. You KNOW you scare easily.
-&gt;A loud tap on the window spurs you into sitting bolt upright in bed. You squint in the darkness...
-&gt;And sigh in relief. It was just a branch.
-&gt;You shake your head and start to stand up, hoping that grabbing a glass of water will help you sleep...
-&gt;When suddenly you&#039;re tackled and forcefully shoved onto your bed.
-&gt;A guttural hiss strikes your ears as your vision fills with dull, green-gray scales. A massive weight pins you down on your mattress, setting your heart to pounding.
-&gt;However, despite your visceral terror...
-&gt;You smile.
-
-&gt;Your enormous captor laughs, a deep, raspy sound that sends a chill down your spine.
-&gt;Your phone suddenly starts replaying the podcast, conveniently starting right at the point where the host went into a chilling description of what drowning must feel like.
-&gt;You feel an involuntary shudder come on, and you&#039;re rewarded with another long, low hiss.
-&gt;Rough scales rasp against your arms as the incredible weight is slowly lifted off your heaving chest. You look up with a mixture of excitement and horror.
-&gt;Towering over you, her knees straddling your midsection, is a scaly beast of a woman unlike any other.
-&gt;Massive, black horns sharp enough to gore an elephant spiral out from her head, points practically glinting in the moonlight from your window.
-&gt;Pure white eyes stare down at you with hints of both malice and... hunger.
-&gt;Jagged fangs line a smirking maw, looking as if they could tear your throat out at any moment. A forked black tongue flicks out from between two teeth, tasting your terror.
-&gt;Huge claws, big enough to pulp a watermelon, jut from hands strong enough to wring your neck effortlessly.
-&gt;Needless to say, you&#039;re faced with a veritable killing machine. But...
-&gt;Her bulky, muscular form bears an unmistakably feminine shape.
-&gt;Wide hips compliment a pair of sizable (albeit lacking in nipples) breasts. Her chest wobbles from her fluid rising movement, bouncing enticingly as she grins down, licking her ragged lips.
-&gt;Her dull scales flake off in places, exposing pale skin and calling to mind some sort of undead monster. Not helping this are the numerous, worryingly-fresh-looking scars decorating her body.
-&gt;Though she terrifies you, a warm sense of familiarity washes over the back of your mind.
-&gt;After all, she comes back every night.
-
-&gt;At first, it was just for a meal.
-&gt;Your nightly invader is what is known as a Phobivore, a Fear Eater. Her kind subsist purely on the terror and panic of others, especially humans.
-&gt;Since you&#039;re an easily frightened horror podcast addict, it was only natural she&#039;d take an interest in you.
-&gt;After your podcast ended for the night, she would always appear in your room, menacing you and savoring your racing heartbeat and rushing adrenaline.
-&gt;Yes, it started as a nightly snack...
-&gt;...but things quickly took a turn for the more intimate.
-&gt;Obviously it took you only a visit or two to realize she was a woman; it took her the same to realize you were a man, and single at that.
-&gt;One night, when her usual show of flashing her teeth and brandishing her claws failed to get the response she wanted, she lashed out, shredding your bedclothes and leaving scratches on your skin.
-&gt;Your reaction seemed to satisfy her, but she wasn&#039;t done.
-&gt;The beast roughly shoved you onto your back and climbed atop you.
-&gt;Before you could do anything, the massive lizard speared herself on your conflicted boner, then proceeded to rut you into the floor. Her bulk and weight rendered you all but immobile, only affording you the ability to watch...
-&gt;...and enjoy yourself.
-&gt;Though she still terrified you, you couldn&#039;t deny how deftly she worked your shaft, bringing you to heights of ecstasy you&#039;ve never had before.
-&gt;And so, an unspoken agreement blossomed. You feed her your fear, she provides you with earthshaking sex.
-&gt;...it&#039;s always sounded fair to you.
-
-&gt;Tonight is no different from the usual.
-&gt;Your partner, still licking her lips hungrily, stares down at you with a smirk. You grin nervously, still shuddering slightly at the sight of her.
-&gt;You manage to stutter out a question, having never been able to work up the nerve to speak to her.
-&gt;&quot;W-what&#039;s your n-n-name?&quot;
-&gt;She lets off another raspy laugh, then roughly digs her claws into the wall beside your bed. She then places her hand under your chin and turns you towards her handiwork.
-&gt;The name &quot;FERA&quot; is carved messily in your wall.
-&gt;You start to speak again, only for Fera to roughly turn your head back towards her.
-&gt;With another deep hiss, she cups a breast in one of her massive hands, squeezing herself with a wicked grin.
-&gt;The other hand savagely shreds off your clothes. This is why you&#039;ve taken to buying sleepwear in bulk lately. Sure, you could just sleep nude, but it seems like she enjoys tearing the fabric to shreds...
-&gt;And despite your terror of her, you have a strange desire to make her happy.
-&gt;Fera places a hand firmly on your shoulder, claws digging into your skin slightly, and laughs again.
-&gt;She takes a deep breath, then immediately plunges herself into your awaiting rod, muscular tail slamming against your bed with a THUD.
-&gt;She squeezes your shoulder tighter, with her claws getting dangerously close to piercing your skin. Rough scales rasp your bare skin as she begins relentlessly pounding your dick, riding you roughly with hissing breaths.
-&gt;Each slam of her body against yours prompts an indignant creak from your suffering bed. Her tail batters the mattress into submission as she maintains a harsh, yet oddly tender rhythm.
-&gt;The warmth and tightness of her body, and sheer force behind her moves, has you reeling from sheer pleasure.
-&gt;And yet, the feel of her sharp claws pressing closer and closer to your neck fills you with a hazy sense of terror.
-&gt;Even now, it seems Fera wants nothing more than to milk every last bit of fear from you.
-
-&gt;That&#039;s not all she&#039;s milking from you either.
-&gt;It&#039;s not long before her brutal riding has you aching for release, a fact that isn&#039;t at all lost on your beastly partner.  She grins wickedly and runs a claw under your chin.
-&gt;You shakily reach a hand up, and she snatches your wrist, roughly placing your hand on one of her massive tits.
-&gt;You give it a tentative squeeze, enjoying the surprising softness masked by her coarse scales.
-&gt;Fera lets off a hiss of enjoyment, her white eyes fixated on you intently.
-&gt;You carefully massage her breast, prompting her to yank your other hand up to her chest as well.  
-&gt;No matter how many times she comes around, seeing her enjoy herself always surprises you.  Her black tongue rolls out of her mouth, a deep, raspy sigh escaping her throat.
-&gt;She allows you to keep kneading and rubbing her breasts for a few minutes, then finally puts you out of your misery.
-&gt;With one last savage slam, she takes your entire length into her.  She lets out one more hiss of pleasure as you unload within her warm slit.
-&gt;Once you&#039;ve finished, she raises herself off of your member, then roughly falls forward, letting her boobs land directly on your face.
-&gt;You swear if she fell any harder, your nose would&#039;ve broke.
-&gt;As if on cue, the legs of your bed give way with one last creak of pain.
-&gt;Your bed collapses, dumping you, Fera, and your mattress onto the floor.
-&gt;The weight of her landing atop you knocks all the air out of your lungs.  You cough and hack...
-&gt;And notice a fleeting look of concern on her face.
-&gt;You catch your breath, and her fanged smirk returns.
-
-&gt;Fera lies atop you, simply enjoying the afterglow of your nightly routine.
-&gt;Your phone plays the last line of the podcast once more. As the host signs off, Fera grins at the device.
-&gt;The podcast once again restarts as she chuckles deeply.
-&gt;She reaches over to one side and yanks the blankets off your ruined bed.
-&gt;Fera throws the blankets over the two of you, cuddling up close. Despite her massive size and strength, she gently wraps a muscular arm around you.
-&gt;You begin to feel drowsy, and lay your head atop her pillowy chest.  Her scales gently scrape your cheek.
-&gt;Her huge tail winds itself around your body carefully, and she sighs in contentment.
-&gt;Just before you fall asleep, Fera looks around the room cautiously...
-&gt;Then kisses you lovingly.  With a smile on your face and a lingering chill running down your spine, you slip off into unconsciousness.
-
-&gt;You awaken, as always, feeling incredibly well rested.  This despite only getting two hours of sleep at the most.
-&gt;You gently run a hand over the tiny gashes in your shoulder as you roll over.  Fera is gone, as usual.
-&gt;The bed is roughly repaired, a tiny F carved into the headboard.  Your blankets are carefully tucked in around you.
-&gt;You&#039;re clad in a fresh set of sleepwear.
-&gt;Yep, another great morning, just like all of them since you started this arrangement.
-&gt;Hopefully, tonight&#039;s podcast will be a real case of nightmare fuel.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    43 sec ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    55 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

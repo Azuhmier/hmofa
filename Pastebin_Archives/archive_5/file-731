@@ -1,640 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Hickitsune (Finished) - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Hickitsune (Finished) - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/Cb8Cx6Nv" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/Cb8Cx6Nv" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="leSj43VFh0XKPTInC19Gnl4vYUkhG4FmHYb2Utaq0bDHsNOAPRLjdrsQB35sbyTkFE4mJxQt5iAtzYUmh9uEhw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/Cb8Cx6Nv" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/Cb8Cx6Nv" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Phi_Fi">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Hickitsune (Finished)</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Phi_Fi">Phi_Fi</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Phi_Fi" class="message" title="Send a private message to: Phi_Fi"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 25th of July 2020 02:01:56 PM CDT">Jul 25th, 2020</span>
-
-                                            (<span title="Last edit on: Thursday 13th of August 2020 05:57:41 AM CDT">edited</span>)
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    903                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 19.11 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/Cb8Cx6Nv" class="btn -small">raw</a>
-                    <a href="/dl/Cb8Cx6Nv" class="btn -small">download</a>
-                    <a href="/clone/Cb8Cx6Nv" class="btn -small h_800">clone</a>
-                    <a href="/embed/Cb8Cx6Nv" class="btn -small h_800">embed</a>
-                    <a href="/print/Cb8Cx6Nv" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/Cb8Cx6Nv" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">/hmofa/ kitsune, multiple stories</div></li><li class="li1"><div class="de1">Green texts inspired by the following exchange, though I went with a slightly more magical and less explosive variant.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">&gt;&gt;31704270</div></li><li class="li1"><div class="de1">Why go after the foreign kitsune when you can go after the local variety? The spoken of in rumor american Hickitsune. Similar tricks, similar sneaky nature at times, but generally less magical. Save for their own fox fire which is a good bit stronger... ask the vietsune about that.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&gt;31704392</div></li><li class="li1"><div class="de1">That&#039;s... kinda too good a concept for a silly post on 4chan. That should become a thing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&gt;31704461</div></li><li class="li1"><div class="de1">American Kitsunes using a special brand of fox fire to flush out Charlie from his dirt hole? I&#039;d fund it. Fire solves many problems.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&gt;31704543</div></li><li class="li1"><div class="de1">I&#039;m getting art of it at some point. Hickitaune does incredibly redneck things like fishing with an M1 garand when the fish aren&#039;t biting good. Being able to summon explosives ranging from snappers to tnt. And of course</div></li><li class="li1"><div class="de1">&gt;&quot;apocalypse now&quot; napalm strike style fox fire</div></li><li class="li1"><div class="de1">Socks even did a meme edit for her already.</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">Hickitsune</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">&gt;be Anon on hiking trail in Appalachia.</div></li><li class="li1"><div class="de1">&gt;start hearing loud pops in the distance. </div></li><li class="li1"><div class="de1">&gt;reach a weird fork in the trail</div></li><li class="li1"><div class="de1">&gt;the nicer path is headed downhill and you take it</div></li><li class="li1"><div class="de1">&gt;pops get louder and louder as you descend and the trail approaches the bank of large river</div></li><li class="li1"><div class="de1">&gt;someone short is standing there with a broad straw hat</div></li><li class="li1"><div class="de1">&gt;...and three fox tails sticking out the back of their overalls?</div></li><li class="li1"><div class="de1">&gt;as they turn you can tell its not a person at all</div></li><li class="li1"><div class="de1">&gt;the fox girl doesn&#039;t notice you as she claps her hands</div></li><li class="li1"><div class="de1">&gt;when she opens them up a lit M-80 appears and she quickly chucks it up river</div></li><li class="li1"><div class="de1">&gt;a moment later there&#039;s that familiar pop and a few fish float to the surface</div></li><li class="li1"><div class="de1">&gt;shes ready with her net and scoops them out</div></li><li class="li1"><div class="de1">&gt;she turns down river to scoop the last one and sees you</div></li><li class="li1"><div class="de1">&gt;&quot;Hey stranger!&quot; she yells out with a wave</div></li><li class="li1"><div class="de1">&gt;&quot;what are you?&quot; is all you can stammer out </div></li><li class="li1"><div class="de1">&gt;shes stabbing the fish, gill through mouth, with a rope that has a dozen other fish mounted similarly</div></li><li class="li1"><div class="de1">&gt;&quot;we got lots of names from your folk&quot; she says &quot;I&#039;m partial to Hickitsune, myself&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Hic-kitsune?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;yep&quot;</div></li><li class="li1"><div class="de1">&gt;she takes her fishing net and and taps the end of it on the ground</div></li><li class="li1"><div class="de1">&gt;it flies in the air and shrinks down to the size of pen before sticking itself in her straw hat</div></li><li class="li1"><div class="de1">&gt;&quot;we&#039;re the forest folk, makers of the mountain dew, keepers of flame and fulmination, guides to the lost&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m not lost, I followed this trail...&quot;</div></li><li class="li1"><div class="de1">&gt;you turn around to find no trail at all, just bare forest. </div></li><li class="li1"><div class="de1">&gt;&quot;you came down my wandering path and got yourself lost&quot; she said grinning</div></li><li class="li1"><div class="de1">&gt;she walks up to you and hands you the coil of fish</div></li><li class="li1"><div class="de1">&gt;&quot;tell you what, come up to my den and we&#039;ll eat up some of these fish&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;then I can put you back on the path that gets you home before sundown&quot;</div></li><li class="li1"><div class="de1">&gt;you were getting hungry and this experience seemed too surreal to pass up</div></li><li class="li1"><div class="de1">&gt;you take the fish from her and give her a nod</div></li><li class="li1"><div class="de1">&gt;she turns around and with a wave of her hand something like a breeze went up the mountain</div></li><li class="li1"><div class="de1">&gt;it blew away leaves</div></li><li class="li1"><div class="de1">&gt;roots and stones formed stairs</div></li><li class="li1"><div class="de1">&gt;a path cleared itself from the woods</div></li><li class="li1"><div class="de1">&gt;&quot;we make our own way through these woods&quot; she said with a wink and a skip. </div></li><li class="li1"><div class="de1">&gt;you followed her up the mountain</div></li><li class="li1"><div class="de1">&gt;but ascending was much harder than descending and you were starting to get winded</div></li><li class="li1"><div class="de1">&gt;she turned around to look at you with a smirk</div></li><li class="li1"><div class="de1">&gt;she pulled a bottle from her hip, which quickly grew into a comically sized mason jar</div></li><li class="li1"><div class="de1">&gt;despite it&#039;s heft she carried it to you like it was nothing</div></li><li class="li1"><div class="de1">&gt;&quot;take a swig of this. it&#039;ll put a little pep in your step&quot;</div></li><li class="li1"><div class="de1">&gt;before you could object the jar was to your lips</div></li><li class="li1"><div class="de1">&gt;pure liquid fire poured into your mouth</div></li><li class="li1"><div class="de1">&gt;the pain instantly gave way to a miraculous warmth that spread through your whole body once you swallowed</div></li><li class="li1"><div class="de1">&gt;you stood up straight, comfortably drunk from one mouthful</div></li><li class="li1"><div class="de1">&gt;the forest seemed magnified</div></li><li class="li1"><div class="de1">&gt;the colors and sounds now had sharper contrast</div></li><li class="li1"><div class="de1">&gt;the beauty of this place was enhanced almost to the point of being overwhelming </div></li><li class="li1"><div class="de1">&gt;you look up at your host with a wide grin</div></li><li class="li1"><div class="de1">&gt;shes laughing &quot;you take to that a little too well!&quot; </div></li><li class="li1"><div class="de1">&gt;she slapped her knee and the jar disappeared</div></li><li class="li1"><div class="de1">&gt;you&#039;re following her up the path effortlessly now</div></li><li class="li1"><div class="de1">&gt;her &quot;den&quot; revealed itself to be a small cabin resting on a curiously flat part of the mountainside</div></li><li class="li1"><div class="de1">&gt;a stream of clear fresh water flowed behind it</div></li><li class="li1"><div class="de1">&gt;an ancient looking moonshine still sat nearby</div></li><li class="li1"><div class="de1">&gt;you set down your pack against the cabin and the two of you cleaned the fish in the stream.</div></li><li class="li1"><div class="de1">&gt;at a large circle of stones she waved her hands and smoke began to billow forth</div></li><li class="li1"><div class="de1">&gt;the fish were laid out over the stones and started to cook </div></li><li class="li1"><div class="de1">&gt;she produced her jug again, taking a drink herself before offering it to you as well</div></li><li class="li1"><div class="de1">&gt;you had to sit down after that</div></li><li class="li1"><div class="de1">&gt;you watched the hypnotizing vapors of the fire pit until the fish were done</div></li><li class="li1"><div class="de1">&gt;after eating you were still unable to stand</div></li><li class="li1"><div class="de1">&gt;she produced a banjo and started gently strumming</div></li><li class="li1"><div class="de1">&gt;belly full and dew drunk you listened to her play for what felt like hours</div></li><li class="li1"><div class="de1">&gt;she sung songs in English and in a tongue you never heard as the night went on</div></li><li class="li1"><div class="de1">&gt;firefly&#039;s, larger than you had ever seen before, flashed and shined around the cabin</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m sorry stranger, I promised to get you back on home before sundown and got carried away&quot; </div></li><li class="li1"><div class="de1">&gt;the sun was down and you drunkenly looked up</div></li><li class="li1"><div class="de1">&gt;you stared into the abyss of stars above that sparkled and danced like they were alive</div></li><li class="li1"><div class="de1">&gt;&quot;Is&#039;s Ohkay&quot; you slurred &quot;I&#039;m havin fun&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;you can stay the night with me and I&#039;ll set you right by morning&quot;</div></li><li class="li1"><div class="de1">&gt;she took your hand and you could walk again</div></li><li class="li1"><div class="de1">&gt;the cabin was cozy and more spacious than it appeared from outside</div></li><li class="li1"><div class="de1">&gt;you had to sit on the bed once she let go of your hand</div></li><li class="li1"><div class="de1">&gt;the door shut behind her and kerosene lanterns turned on by themselves</div></li><li class="li1"><div class="de1">&gt;she tossed her hat to a hook on the wall and removed her overalls</div></li><li class="li1"><div class="de1">&gt;she gently helped you take off your clothes and kissed your body as she went</div></li><li class="li1"><div class="de1">&gt;you laid back onto the bed and she followed you </div></li><li class="li1"><div class="de1">&gt;you couldn&#039;t tell if it was the dew effecting your senses but her body felt like nothing you had experienced before</div></li><li class="li1"><div class="de1">&gt;her fur felt like cool water that decided to stop flowing around your fingers </div></li><li class="li1"><div class="de1">&gt;her lithe frame was heavy as if made of stone</div></li><li class="li1"><div class="de1">&gt;there was no discomfort but you knew that you moved or didn&#039;t move by her permission alone</div></li><li class="li1"><div class="de1">&gt;her scent was the intoxicating combination of every wildflower you could remember smelling</div></li><li class="li1"><div class="de1">&gt;and many more you weren&#039;t sure existed</div></li><li class="li1"><div class="de1">&gt;she ceased her kissing and rose up to mount you</div></li><li class="li1"><div class="de1">&gt;the supernatural creature gyrated her hips and you felt like you could move again</div></li><li class="li1"><div class="de1">&gt;you rolled her over and started thrusting</div></li><li class="li1"><div class="de1">&gt;her moans came to your ears like those alien songs from earlier</div></li><li class="li1"><div class="de1">&gt;her tails wrapped around your legs and waist and seemed to grow to reach wherever she wanted them to</div></li><li class="li1"><div class="de1">&gt;you caressed every bewitching inch of her</div></li><li class="li1"><div class="de1">&gt;for hours you made love to her, never tiring in spirit nor in flesh</div></li><li class="li1"><div class="de1">&gt;she forced your face into her chest as she came</div></li><li class="li1"><div class="de1">&gt;and she sang her final rapturous song for the evening </div></li><li class="li1"><div class="de1">&gt;you laid together and she hummed a tune</div></li><li class="li1"><div class="de1">&gt;it filled the entire cabin but never rose in volume</div></li><li class="li1"><div class="de1">&gt;she played with your hair until you fell asleep.</div></li><li class="li1"><div class="de1">&gt;you woke up suddenly</div></li><li class="li1"><div class="de1">&gt;it was morning and you were sitting on the trail propped up against a tree</div></li><li class="li1"><div class="de1">&gt;across from you was your hiking pack</div></li><li class="li1"><div class="de1">&gt;you asked yourself if it was all a dream as you stood up</div></li><li class="li1"><div class="de1">&gt;grabbing your pack you noticed something new, a small jar sitting on top of it</div></li><li class="li1"><div class="de1">&gt;you popped the cork and that magical scent came back to you</div></li><li class="li1"><div class="de1">&gt;you took the tinniest of sips and suddenly recognized the trail</div></li><li class="li1"><div class="de1">&gt;to the west would take you back to your car and on to civilization</div></li><li class="li1"><div class="de1">&gt;and to the east, to the east you heard faint popping sounds in the distance</div></li><li class="li1"><div class="de1">&gt;you stood for a long time before deciding which direction to go</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">Origin story in response to:</div></li><li class="li1"><div class="de1">Well that was a nice little story. Just enough to be complete, with a little extra to wonder just how a Japanese spirit made it&#039;s way to Appalachia.</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">&gt;late 1600&#039;s, early 1700&#039;s Tokugawa shogunate is oppressing Christians</div></li><li class="li1"><div class="de1">&gt;whole families are kicked out (including non-believers who are just related to Christians) </div></li><li class="li1"><div class="de1">&gt;the head of a large family is executed after his recent conversion</div></li><li class="li1"><div class="de1">&gt;the rest of the family find way onto a ship with Portuguese merchants</div></li><li class="li1"><div class="de1">&gt;comedy of errors puts them through a number of ships and ports</div></li><li class="li1"><div class="de1">&gt;British merchants finally drop them off in colonial America</div></li><li class="li1"><div class="de1">&gt;they move out to the mountains inland and away from the foreign cities</div></li><li class="li1"><div class="de1">&gt;it weirdly reminds them of their own lost lands back in the heart of Japan</div></li><li class="li1"><div class="de1">&gt;they reject Christianity and build their shrines for their own worship</div></li><li class="li1"><div class="de1">&gt;life in the new land is hard</div></li><li class="li1"><div class="de1">&gt;they get caught between the expansion of the whites and the Indian tribes</div></li><li class="li1"><div class="de1">&gt;the family dwindles and quickly dies off</div></li><li class="li1"><div class="de1">&gt;but not before a little guardian fox spirit is born in the shrine</div></li><li class="li1"><div class="de1">&gt;she learns what she can from the native spirits though they too are on the run</div></li><li class="li1"><div class="de1">&gt;she watches over the new residents and helps those who would let her</div></li><li class="li1"><div class="de1">&gt;a little fox fire to guide the lost is all she can muster though</div></li><li class="li1"><div class="de1">&gt;in time new kinds of fire comes to the forest</div></li><li class="li1"><div class="de1">&gt;men make water that burns and sticks that crack like thunder</div></li><li class="li1"><div class="de1">&gt;they love the mountains as much as she does</div></li><li class="li1"><div class="de1">&gt;she learns their ways and their songs and guards over them</div></li><li class="li1"><div class="de1">&gt;she distracts and misguides the other men that seek out their hidden holds</div></li><li class="li1"><div class="de1">&gt;they notice enough of her work to thank her even though they don&#039;t know her name</div></li><li class="li1"><div class="de1">&gt;when they drink too much of their spirits she even pays them a visit</div></li><li class="li1"><div class="de1">&gt;they don&#039;t seem to mind a fox on two legs with two tails when they&#039;ve been drinking their dew</div></li><li class="li1"><div class="de1">&gt;time passes by and they go away too</div></li><li class="li1"><div class="de1">&gt;she wishes there were more humans but they only seem to walk through now</div></li><li class="li1"><div class="de1">&gt;their passing reverence of the mountains sustains her</div></li><li class="li1"><div class="de1">&gt;she&#039;s grown stronger with age, much more so with her third tail</div></li><li class="li1"><div class="de1">&gt;she wishes one human could see her, she wishes one would stay</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">Hickitsunes themselves could have been much more of a myth until prohibition hit and a large number of the fluffy gals and guys ended up sharing beds and homes with people against the law making hooch. A shiner with a fast car might be able to evade the police, but a shiner with a fox gal by his would vanish on a beam of moonlight and never be found.</div></li><li class="li1"><div class="de1">=============================================================================</div></li><li class="li1"><div class="de1">&gt;be Anon running hootch in 1927</div></li><li class="li1"><div class="de1">&gt;going solo tonight, your partner got arrested in a raid last week</div></li><li class="li1"><div class="de1">&gt;you&#039;re down in the Ozarks</div></li><li class="li1"><div class="de1">&gt;a good ole boy is loading up the car and you&#039;re nervous</div></li><li class="li1"><div class="de1">&gt;you&#039;re always nervous on the return run to Chicago, but going solo is making it worse</div></li><li class="li1"><div class="de1">&gt;good ole boy tells you it&#039;s a night for the mountain spirits as your paying him</div></li><li class="li1"><div class="de1">&gt;the man&#039;s been drinking too much of his product in your opinion</div></li><li class="li1"><div class="de1">&gt;you start down the road just before midnight</div></li><li class="li1"><div class="de1">&gt;the souped up shocks make the bumpy country highway relatively smooth</div></li><li class="li1"><div class="de1">&gt;passing by an open field showered in moonlight</div></li><li class="li1"><div class="de1">&gt;you&#039;re distracted at the view for a moment too long</div></li><li class="li1"><div class="de1">&gt;turning back to the road and find that you&#039;re about to run over a girl standing in the road</div></li><li class="li1"><div class="de1">&gt;you hit the brakes and pray the hootch doesn&#039;t dislodged itself</div></li><li class="li1"><div class="de1">&gt;you jump out of the stopped car and look around</div></li><li class="li1"><div class="de1">&gt;there&#039;s nothing there, damn redneck spooked you with all that talking about spirits is all</div></li><li class="li1"><div class="de1">&gt;you light a cigarette and get back in the boiler</div></li><li class="li1"><div class="de1">&gt;an hour goes by, its going to be a long night sticking to back roads like this</div></li><li class="li1"><div class="de1">&gt;you barrel through an intersection with a closed gas station</div></li><li class="li1"><div class="de1">&gt;a copper pulls out from behind the billboard and hits a siren</div></li><li class="li1"><div class="de1">&gt;you hit the gas and look in your rear view </div></li><li class="li1"><div class="de1">&gt;you don&#039;t see the cop or the road though</div></li><li class="li1"><div class="de1">&gt;all you see is a pair of eyes shining like the moon </div></li><li class="li1"><div class="de1">&gt;you turn around and there&#039;s nothing there but the copper</div></li><li class="li1"><div class="de1">&gt;you can go crazy later now&#039;s the time to make a getaway </div></li><li class="li1"><div class="de1">&gt;you turn back and there&#039;s a girl in the passenger seat</div></li><li class="li1"><div class="de1">&gt;&quot;what the hell?&quot; you scream and almost swerve off the road</div></li><li class="li1"><div class="de1">&gt;shes not really a girl, shes a silver fox in the shape of a girl with too many tails</div></li><li class="li1"><div class="de1">&gt;her white dress sparkles like star shine </div></li><li class="li1"><div class="de1">&gt;&quot;you better speed up or hes going to get you&quot; she grins</div></li><li class="li1"><div class="de1">&gt;ok the fox girl talks</div></li><li class="li1"><div class="de1">&gt;even if you are going crazy you&#039;d rather be crazy on the outside of the pen and hit the gas</div></li><li class="li1"><div class="de1">&gt;the fox girl screams in excitement as you pull away from the cop</div></li><li class="li1"><div class="de1">&gt;hes vanishing in the dust</div></li><li class="li1"><div class="de1">&gt;you pass through an intersection and he drops off entirely</div></li><li class="li1"><div class="de1">&gt;&quot;aww, that&#039;s it?&quot; the fox girl says disappointed</div></li><li class="li1"><div class="de1">&gt;yeah that was too easy, but you got to deal with her right now</div></li><li class="li1"><div class="de1">&gt;&quot;what, what are you? am I going nuts?&quot;</div></li><li class="li1"><div class="de1">&gt;she leans over and reaches into your jacket to pullout your cigarettes</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m a hic-kitsune and I&#039;ve been watching you drive these roads for months&quot; </div></li><li class="li1"><div class="de1">&gt;she puts a cigarette in your mouth</div></li><li class="li1"><div class="de1">&gt;one of her tails wraps around your neck like living smoke</div></li><li class="li1"><div class="de1">&gt;another one weaves through your arms</div></li><li class="li1"><div class="de1">&gt;she puts her index finger, claw, to the cigarette and a little flame appears to give you a light</div></li><li class="li1"><div class="de1">&gt;&quot;seemed like it would be fun to come along since you&#039;re on your own tonight&quot; </div></li><li class="li1"><div class="de1">&gt;she lights her own cigarette off of yours</div></li><li class="li1"><div class="de1">&gt;&quot;but your chaser gave up so quickly...&quot; she put her legs up on the dash and sunk into the seat</div></li><li class="li1"><div class="de1">&gt;yeah that was bothering you</div></li><li class="li1"><div class="de1">&gt;this stretch of highway was going on for a ways, no turns offs, no intersections</div></li><li class="li1"><div class="de1">&gt;you figured out why after another mile</div></li><li class="li1"><div class="de1">&gt;up ahead, an intersection with a half a dozen cars on it</div></li><li class="li1"><div class="de1">&gt;these guys were feds and the local boy chased you right to them</div></li><li class="li1"><div class="de1">&gt;&quot;oh this is much better!&quot; the fox said happily</div></li><li class="li1"><div class="de1">&gt;you look over to see a maniacal grin on her face</div></li><li class="li1"><div class="de1">&gt;luckily these feds were amateurs</div></li><li class="li1"><div class="de1">&gt;they blocked off the roads, but in the middle of empty farmland</div></li><li class="li1"><div class="de1">&gt;you hit the ditch at the right angle and fly across the dusty field</div></li><li class="li1"><div class="de1">&gt;they&#039;re scrambling to get back in their cars as you cut back onto the highway</div></li><li class="li1"><div class="de1">&gt;you quickly pull away and wonder how they knew</div></li><li class="li1"><div class="de1">&gt;did your partner spill the beans about the run?</div></li><li class="li1"><div class="de1">&gt;&quot;they&#039;re catching up!&quot; the fox girl says leaning out the window</div></li><li class="li1"><div class="de1">&gt;what? you look back quickly and they&#039;re gaining</div></li><li class="li1"><div class="de1">&gt;they must have gotten wise and built their own cars</div></li><li class="li1"><div class="de1">&gt;this is the part where your partner would normally get out the chopper and give em a reason to back off</div></li><li class="li1"><div class="de1">&gt;you look in the back at the case but you can&#039;t drive and shoot</div></li><li class="li1"><div class="de1">&gt;&quot;you want to help me out here?&quot; you ask the fox girl</div></li><li class="li1"><div class="de1">&gt;that toothy grin tells you all you need to know</div></li><li class="li1"><div class="de1">&gt;you&#039;re sweating bullets trying to think about how to talk her through this</div></li><li class="li1"><div class="de1">&gt;you hear a click, she&#039;s already opening the case</div></li><li class="li1"><div class="de1">&gt;she pops the drum of the tommy gun in and pulls back the bolt like shes done it a thousand times</div></li><li class="li1"><div class="de1">&gt;she whips open the door and hangs out of it, her tails acting like extra limbs</div></li><li class="li1"><div class="de1">&gt;one tail holding open the door, two more holding onto the seat</div></li><li class="li1"><div class="de1">&gt;shes spraying bullets at the coppers and laughing like mad</div></li><li class="li1"><div class="de1">&gt;one of the coppers goes into a ditch and the others hit the brakes</div></li><li class="li1"><div class="de1">&gt;but she keeps shooting </div></li><li class="li1"><div class="de1">&gt;&quot;you won&#039;t hit them from this far!&quot; you yell</div></li><li class="li1"><div class="de1">&gt;she&#039;s still firing</div></li><li class="li1"><div class="de1">&gt;she should have run out of bullets by now...</div></li><li class="li1"><div class="de1">&gt;a bottomless magazine isn&#039;t exactly the weirdest thing about tonight </div></li><li class="li1"><div class="de1">&gt;you see another copper hit the ditch, looked like a popped tire</div></li><li class="li1"><div class="de1">&gt;she comes back into the car </div></li><li class="li1"><div class="de1">&gt;the gun is smoking and the barrel glowing when she tosses it on floorboards</div></li><li class="li1"><div class="de1">&gt;&quot;get ready for some real speed&quot; she says</div></li><li class="li1"><div class="de1">&gt;she steps onto the roof of the car and you&#039;re sticking your head out the window to see what shes doing.</div></li><li class="li1"><div class="de1">&gt;she pulls out a silver flask as her tail removes your gas cap</div></li><li class="li1"><div class="de1">&gt;she upends the flask and a clear liquid pours out, but it doesn&#039;t fall to the ground</div></li><li class="li1"><div class="de1">&gt;the strange substance snaked its way into the tank like it had a mind of its own</div></li><li class="li1"><div class="de1">&gt;the flask seemed to be as bottomless as her bullets</div></li><li class="li1"><div class="de1">&gt;she stopped pouring and reset the gas cap</div></li><li class="li1"><div class="de1">&gt;she pulled herself into your lap and wrapped her arms around your neck &quot;get ready!&quot; she yelled</div></li><li class="li1"><div class="de1">&gt;the engine started to roar and you were pressed into the seat by the acceleration</div></li><li class="li1"><div class="de1">&gt;fire was spitting out under the hood and the speedometer had already topped out</div></li><li class="li1"><div class="de1">&gt;the ground was flying away under your headlights</div></li><li class="li1"><div class="de1">&gt;you weren&#039;t even thinking about the coppers while trying to control the demon your car had become</div></li><li class="li1"><div class="de1">&gt;it didn&#039;t help that she was laughing and hollering in your ear the whole time</div></li><li class="li1"><div class="de1">&gt;you&#039;re terrified the engine is going to blow but it holds together somehow or another</div></li><li class="li1"><div class="de1">&gt;you&#039;re back down to a normal speed but you are way off course</div></li><li class="li1"><div class="de1">&gt;&quot;turn right up here&quot; she whispers into your ear</div></li><li class="li1"><div class="de1">&gt;she&#039;s kissing your neck and you&#039;re too keyed up to object</div></li><li class="li1"><div class="de1">&gt;its a dirt road and you&#039;re going slower</div></li><li class="li1"><div class="de1">&gt;you slam on your breaks as you approach an old wooden bridge</div></li><li class="li1"><div class="de1">&gt;&quot;keep going&quot; she says as her hand wanders under your shirt to rub your chest</div></li><li class="li1"><div class="de1">&gt;the shaky bridge holds up and you cross the broad shallow creek to the other side</div></li><li class="li1"><div class="de1">&gt;she whistles a tune and you hear the bridge collapse in the distance</div></li><li class="li1"><div class="de1">&gt;a few more miles of dirt road puts you out to another highway</div></li><li class="li1"><div class="de1">&gt;you recognize a silo in the distance, this is one of your back up routes</div></li><li class="li1"><div class="de1">&gt;without that bridge it would take anyone else an hour to get to this detour</div></li><li class="li1"><div class="de1">&gt;you back up the car and turn it off</div></li><li class="li1"><div class="de1">&gt;&quot;don&#039;t worry you can go and I&#039;ll keep their eyes from finding you&quot;</div></li><li class="li1"><div class="de1">&gt;she took off your hat and put it on herself with a grin</div></li><li class="li1"><div class="de1">&gt;&quot;I need a breather first&quot; you say opening the door</div></li><li class="li1"><div class="de1">&gt;she hops out and you follow</div></li><li class="li1"><div class="de1">&gt;she&#039;s taller than you imagined and she has that flask out again</div></li><li class="li1"><div class="de1">&gt;she takes a swig and hands it to you</div></li><li class="li1"><div class="de1">&gt;&quot;I.. I don&#039;t drink when I&#039;m running&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;just a sip for your nerves&quot; she hands it to you</div></li><li class="li1"><div class="de1">&gt;you take it an and she adds &quot;only a sip&quot;</div></li><li class="li1"><div class="de1">&gt;you&#039;ve tasted a lot of hootch in your life and never had anything like this</div></li><li class="li1"><div class="de1">&gt;if moonlight had a flavor this would be it </div></li><li class="li1"><div class="de1">&gt;you lean against the car and a calm washes over you</div></li><li class="li1"><div class="de1">&gt;you open your eyes and her silver fur shines</div></li><li class="li1"><div class="de1">&gt;she slips out of her dress and presses herself against you</div></li><li class="li1"><div class="de1">&gt;your belt and pants fall to the ground through some magic of hers </div></li><li class="li1"><div class="de1">&gt;you enter her and she she leans against you and the car</div></li><li class="li1"><div class="de1">&gt;shes so light that you can move her however you want</div></li><li class="li1"><div class="de1">&gt;her claws delicately cup your face as she kisses you deeply</div></li><li class="li1"><div class="de1">&gt;as your pace picks up she breaks away to lustily pant</div></li><li class="li1"><div class="de1">&gt;you bury your face in her ample blossom </div></li><li class="li1"><div class="de1">&gt;the clouds part and you are bathed in moonlight as you both reach climax</div></li><li class="li1"><div class="de1">&gt;you dress yourselves and get back in the car</div></li><li class="li1"><div class="de1">&gt;shes lying with her head in your lap and her feet out the window as you share a cigarette </div></li><li class="li1"><div class="de1">&gt;&quot;you know I&#039;m going all the way to Chicago, right?&quot; you ask</div></li><li class="li1"><div class="de1">&gt;&quot;I think it&#039;s time for me to see a city&quot; she said</div></li><li class="li1"><div class="de1">&gt;with that you started the car and took off</div></li><li class="li1"><div class="de1">&gt;the hours lost by the chase must have been mitigated by your passenger because you arrive on time at the drop</div></li><li class="li1"><div class="de1">&gt;you didn&#039;t expect anyone to be there but your boss is waiting for you</div></li><li class="li1"><div class="de1">&gt;you look at your passenger to find that she has turned into an actual silver fox</div></li><li class="li1"><div class="de1">&gt;the boss comes to your passenger window and tells you he needs to have a talk about your former partner</div></li><li class="li1"><div class="de1">&gt;as he walks away you quietly ask the fox if other people can see her</div></li><li class="li1"><div class="de1">&gt;she slowly closes her eyes and a slight shake of the head lets you know they can&#039;t</div></li><li class="li1"><div class="de1">&gt;you leave the car and she follows you out to the warehouse</div></li><li class="li1"><div class="de1">&gt;its hard not to feel a bit safer with her by your side</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">/hmofa/ kitsune, multiple stories
-Green texts inspired by the following exchange, though I went with a slightly more magical and less explosive variant.
-
-=============================================================================
-&gt;&gt;31704270
-Why go after the foreign kitsune when you can go after the local variety? The spoken of in rumor american Hickitsune. Similar tricks, similar sneaky nature at times, but generally less magical. Save for their own fox fire which is a good bit stronger... ask the vietsune about that.
-
-&gt;&gt;31704392
-That&#039;s... kinda too good a concept for a silly post on 4chan. That should become a thing.
-
-&gt;&gt;31704461
-American Kitsunes using a special brand of fox fire to flush out Charlie from his dirt hole? I&#039;d fund it. Fire solves many problems.
-
-&gt;&gt;31704543
-I&#039;m getting art of it at some point. Hickitaune does incredibly redneck things like fishing with an M1 garand when the fish aren&#039;t biting good. Being able to summon explosives ranging from snappers to tnt. And of course
-&gt;&quot;apocalypse now&quot; napalm strike style fox fire
-Socks even did a meme edit for her already.
-=============================================================================
-Hickitsune
-=============================================================================
-&gt;be Anon on hiking trail in Appalachia.
-&gt;start hearing loud pops in the distance. 
-&gt;reach a weird fork in the trail
-&gt;the nicer path is headed downhill and you take it
-&gt;pops get louder and louder as you descend and the trail approaches the bank of large river
-&gt;someone short is standing there with a broad straw hat
-&gt;...and three fox tails sticking out the back of their overalls?
-&gt;as they turn you can tell its not a person at all
-&gt;the fox girl doesn&#039;t notice you as she claps her hands
-&gt;when she opens them up a lit M-80 appears and she quickly chucks it up river
-&gt;a moment later there&#039;s that familiar pop and a few fish float to the surface
-&gt;shes ready with her net and scoops them out
-&gt;she turns down river to scoop the last one and sees you
-&gt;&quot;Hey stranger!&quot; she yells out with a wave
-&gt;&quot;what are you?&quot; is all you can stammer out 
-&gt;shes stabbing the fish, gill through mouth, with a rope that has a dozen other fish mounted similarly
-&gt;&quot;we got lots of names from your folk&quot; she says &quot;I&#039;m partial to Hickitsune, myself&quot; 
-&gt;&quot;Hic-kitsune?&quot; 
-&gt;&quot;yep&quot;
-&gt;she takes her fishing net and and taps the end of it on the ground
-&gt;it flies in the air and shrinks down to the size of pen before sticking itself in her straw hat
-&gt;&quot;we&#039;re the forest folk, makers of the mountain dew, keepers of flame and fulmination, guides to the lost&quot;
-&gt;&quot;I&#039;m not lost, I followed this trail...&quot;
-&gt;you turn around to find no trail at all, just bare forest. 
-&gt;&quot;you came down my wandering path and got yourself lost&quot; she said grinning
-&gt;she walks up to you and hands you the coil of fish
-&gt;&quot;tell you what, come up to my den and we&#039;ll eat up some of these fish&quot; 
-&gt;&quot;then I can put you back on the path that gets you home before sundown&quot;
-&gt;you were getting hungry and this experience seemed too surreal to pass up
-&gt;you take the fish from her and give her a nod
-&gt;she turns around and with a wave of her hand something like a breeze went up the mountain
-&gt;it blew away leaves
-&gt;roots and stones formed stairs
-&gt;a path cleared itself from the woods
-&gt;&quot;we make our own way through these woods&quot; she said with a wink and a skip. 
-&gt;you followed her up the mountain
-&gt;but ascending was much harder than descending and you were starting to get winded
-&gt;she turned around to look at you with a smirk
-&gt;she pulled a bottle from her hip, which quickly grew into a comically sized mason jar
-&gt;despite it&#039;s heft she carried it to you like it was nothing
-&gt;&quot;take a swig of this. it&#039;ll put a little pep in your step&quot;
-&gt;before you could object the jar was to your lips
-&gt;pure liquid fire poured into your mouth
-&gt;the pain instantly gave way to a miraculous warmth that spread through your whole body once you swallowed
-&gt;you stood up straight, comfortably drunk from one mouthful
-&gt;the forest seemed magnified
-&gt;the colors and sounds now had sharper contrast
-&gt;the beauty of this place was enhanced almost to the point of being overwhelming 
-&gt;you look up at your host with a wide grin
-&gt;shes laughing &quot;you take to that a little too well!&quot; 
-&gt;she slapped her knee and the jar disappeared
-&gt;you&#039;re following her up the path effortlessly now
-&gt;her &quot;den&quot; revealed itself to be a small cabin resting on a curiously flat part of the mountainside
-&gt;a stream of clear fresh water flowed behind it
-&gt;an ancient looking moonshine still sat nearby
-&gt;you set down your pack against the cabin and the two of you cleaned the fish in the stream.
-&gt;at a large circle of stones she waved her hands and smoke began to billow forth
-&gt;the fish were laid out over the stones and started to cook 
-&gt;she produced her jug again, taking a drink herself before offering it to you as well
-&gt;you had to sit down after that
-&gt;you watched the hypnotizing vapors of the fire pit until the fish were done
-&gt;after eating you were still unable to stand
-&gt;she produced a banjo and started gently strumming
-&gt;belly full and dew drunk you listened to her play for what felt like hours
-&gt;she sung songs in English and in a tongue you never heard as the night went on
-&gt;firefly&#039;s, larger than you had ever seen before, flashed and shined around the cabin
-&gt;&quot;I&#039;m sorry stranger, I promised to get you back on home before sundown and got carried away&quot; 
-&gt;the sun was down and you drunkenly looked up
-&gt;you stared into the abyss of stars above that sparkled and danced like they were alive
-&gt;&quot;Is&#039;s Ohkay&quot; you slurred &quot;I&#039;m havin fun&quot;
-&gt;&quot;you can stay the night with me and I&#039;ll set you right by morning&quot;
-&gt;she took your hand and you could walk again
-&gt;the cabin was cozy and more spacious than it appeared from outside
-&gt;you had to sit on the bed once she let go of your hand
-&gt;the door shut behind her and kerosene lanterns turned on by themselves
-&gt;she tossed her hat to a hook on the wall and removed her overalls
-&gt;she gently helped you take off your clothes and kissed your body as she went
-&gt;you laid back onto the bed and she followed you 
-&gt;you couldn&#039;t tell if it was the dew effecting your senses but her body felt like nothing you had experienced before
-&gt;her fur felt like cool water that decided to stop flowing around your fingers 
-&gt;her lithe frame was heavy as if made of stone
-&gt;there was no discomfort but you knew that you moved or didn&#039;t move by her permission alone
-&gt;her scent was the intoxicating combination of every wildflower you could remember smelling
-&gt;and many more you weren&#039;t sure existed
-&gt;she ceased her kissing and rose up to mount you
-&gt;the supernatural creature gyrated her hips and you felt like you could move again
-&gt;you rolled her over and started thrusting
-&gt;her moans came to your ears like those alien songs from earlier
-&gt;her tails wrapped around your legs and waist and seemed to grow to reach wherever she wanted them to
-&gt;you caressed every bewitching inch of her
-&gt;for hours you made love to her, never tiring in spirit nor in flesh
-&gt;she forced your face into her chest as she came
-&gt;and she sang her final rapturous song for the evening 
-&gt;you laid together and she hummed a tune
-&gt;it filled the entire cabin but never rose in volume
-&gt;she played with your hair until you fell asleep.
-&gt;you woke up suddenly
-&gt;it was morning and you were sitting on the trail propped up against a tree
-&gt;across from you was your hiking pack
-&gt;you asked yourself if it was all a dream as you stood up
-&gt;grabbing your pack you noticed something new, a small jar sitting on top of it
-&gt;you popped the cork and that magical scent came back to you
-&gt;you took the tinniest of sips and suddenly recognized the trail
-&gt;to the west would take you back to your car and on to civilization
-&gt;and to the east, to the east you heard faint popping sounds in the distance
-&gt;you stood for a long time before deciding which direction to go
-
-=============================================================================
-Origin story in response to:
-Well that was a nice little story. Just enough to be complete, with a little extra to wonder just how a Japanese spirit made it&#039;s way to Appalachia.
-=============================================================================
-&gt;late 1600&#039;s, early 1700&#039;s Tokugawa shogunate is oppressing Christians
-&gt;whole families are kicked out (including non-believers who are just related to Christians) 
-&gt;the head of a large family is executed after his recent conversion
-&gt;the rest of the family find way onto a ship with Portuguese merchants
-&gt;comedy of errors puts them through a number of ships and ports
-&gt;British merchants finally drop them off in colonial America
-&gt;they move out to the mountains inland and away from the foreign cities
-&gt;it weirdly reminds them of their own lost lands back in the heart of Japan
-&gt;they reject Christianity and build their shrines for their own worship
-&gt;life in the new land is hard
-&gt;they get caught between the expansion of the whites and the Indian tribes
-&gt;the family dwindles and quickly dies off
-&gt;but not before a little guardian fox spirit is born in the shrine
-&gt;she learns what she can from the native spirits though they too are on the run
-&gt;she watches over the new residents and helps those who would let her
-&gt;a little fox fire to guide the lost is all she can muster though
-&gt;in time new kinds of fire comes to the forest
-&gt;men make water that burns and sticks that crack like thunder
-&gt;they love the mountains as much as she does
-&gt;she learns their ways and their songs and guards over them
-&gt;she distracts and misguides the other men that seek out their hidden holds
-&gt;they notice enough of her work to thank her even though they don&#039;t know her name
-&gt;when they drink too much of their spirits she even pays them a visit
-&gt;they don&#039;t seem to mind a fox on two legs with two tails when they&#039;ve been drinking their dew
-&gt;time passes by and they go away too
-&gt;she wishes there were more humans but they only seem to walk through now
-&gt;their passing reverence of the mountains sustains her
-&gt;she&#039;s grown stronger with age, much more so with her third tail
-&gt;she wishes one human could see her, she wishes one would stay
-
-=============================================================================
-Hickitsunes themselves could have been much more of a myth until prohibition hit and a large number of the fluffy gals and guys ended up sharing beds and homes with people against the law making hooch. A shiner with a fast car might be able to evade the police, but a shiner with a fox gal by his would vanish on a beam of moonlight and never be found.
-=============================================================================
-&gt;be Anon running hootch in 1927
-&gt;going solo tonight, your partner got arrested in a raid last week
-&gt;you&#039;re down in the Ozarks
-&gt;a good ole boy is loading up the car and you&#039;re nervous
-&gt;you&#039;re always nervous on the return run to Chicago, but going solo is making it worse
-&gt;good ole boy tells you it&#039;s a night for the mountain spirits as your paying him
-&gt;the man&#039;s been drinking too much of his product in your opinion
-&gt;you start down the road just before midnight
-&gt;the souped up shocks make the bumpy country highway relatively smooth
-&gt;passing by an open field showered in moonlight
-&gt;you&#039;re distracted at the view for a moment too long
-&gt;turning back to the road and find that you&#039;re about to run over a girl standing in the road
-&gt;you hit the brakes and pray the hootch doesn&#039;t dislodged itself
-&gt;you jump out of the stopped car and look around
-&gt;there&#039;s nothing there, damn redneck spooked you with all that talking about spirits is all
-&gt;you light a cigarette and get back in the boiler
-&gt;an hour goes by, its going to be a long night sticking to back roads like this
-&gt;you barrel through an intersection with a closed gas station
-&gt;a copper pulls out from behind the billboard and hits a siren
-&gt;you hit the gas and look in your rear view 
-&gt;you don&#039;t see the cop or the road though
-&gt;all you see is a pair of eyes shining like the moon 
-&gt;you turn around and there&#039;s nothing there but the copper
-&gt;you can go crazy later now&#039;s the time to make a getaway 
-&gt;you turn back and there&#039;s a girl in the passenger seat
-&gt;&quot;what the hell?&quot; you scream and almost swerve off the road
-&gt;shes not really a girl, shes a silver fox in the shape of a girl with too many tails
-&gt;her white dress sparkles like star shine 
-&gt;&quot;you better speed up or hes going to get you&quot; she grins
-&gt;ok the fox girl talks
-&gt;even if you are going crazy you&#039;d rather be crazy on the outside of the pen and hit the gas
-&gt;the fox girl screams in excitement as you pull away from the cop
-&gt;hes vanishing in the dust
-&gt;you pass through an intersection and he drops off entirely
-&gt;&quot;aww, that&#039;s it?&quot; the fox girl says disappointed
-&gt;yeah that was too easy, but you got to deal with her right now
-&gt;&quot;what, what are you? am I going nuts?&quot;
-&gt;she leans over and reaches into your jacket to pullout your cigarettes
-&gt;&quot;I&#039;m a hic-kitsune and I&#039;ve been watching you drive these roads for months&quot; 
-&gt;she puts a cigarette in your mouth
-&gt;one of her tails wraps around your neck like living smoke
-&gt;another one weaves through your arms
-&gt;she puts her index finger, claw, to the cigarette and a little flame appears to give you a light
-&gt;&quot;seemed like it would be fun to come along since you&#039;re on your own tonight&quot; 
-&gt;she lights her own cigarette off of yours
-&gt;&quot;but your chaser gave up so quickly...&quot; she put her legs up on the dash and sunk into the seat
-&gt;yeah that was bothering you
-&gt;this stretch of highway was going on for a ways, no turns offs, no intersections
-&gt;you figured out why after another mile
-&gt;up ahead, an intersection with a half a dozen cars on it
-&gt;these guys were feds and the local boy chased you right to them
-&gt;&quot;oh this is much better!&quot; the fox said happily
-&gt;you look over to see a maniacal grin on her face
-&gt;luckily these feds were amateurs
-&gt;they blocked off the roads, but in the middle of empty farmland
-&gt;you hit the ditch at the right angle and fly across the dusty field
-&gt;they&#039;re scrambling to get back in their cars as you cut back onto the highway
-&gt;you quickly pull away and wonder how they knew
-&gt;did your partner spill the beans about the run?
-&gt;&quot;they&#039;re catching up!&quot; the fox girl says leaning out the window
-&gt;what? you look back quickly and they&#039;re gaining
-&gt;they must have gotten wise and built their own cars
-&gt;this is the part where your partner would normally get out the chopper and give em a reason to back off
-&gt;you look in the back at the case but you can&#039;t drive and shoot
-&gt;&quot;you want to help me out here?&quot; you ask the fox girl
-&gt;that toothy grin tells you all you need to know
-&gt;you&#039;re sweating bullets trying to think about how to talk her through this
-&gt;you hear a click, she&#039;s already opening the case
-&gt;she pops the drum of the tommy gun in and pulls back the bolt like shes done it a thousand times
-&gt;she whips open the door and hangs out of it, her tails acting like extra limbs
-&gt;one tail holding open the door, two more holding onto the seat
-&gt;shes spraying bullets at the coppers and laughing like mad
-&gt;one of the coppers goes into a ditch and the others hit the brakes
-&gt;but she keeps shooting 
-&gt;&quot;you won&#039;t hit them from this far!&quot; you yell
-&gt;she&#039;s still firing
-&gt;she should have run out of bullets by now...
-&gt;a bottomless magazine isn&#039;t exactly the weirdest thing about tonight 
-&gt;you see another copper hit the ditch, looked like a popped tire
-&gt;she comes back into the car 
-&gt;the gun is smoking and the barrel glowing when she tosses it on floorboards
-&gt;&quot;get ready for some real speed&quot; she says
-&gt;she steps onto the roof of the car and you&#039;re sticking your head out the window to see what shes doing.
-&gt;she pulls out a silver flask as her tail removes your gas cap
-&gt;she upends the flask and a clear liquid pours out, but it doesn&#039;t fall to the ground
-&gt;the strange substance snaked its way into the tank like it had a mind of its own
-&gt;the flask seemed to be as bottomless as her bullets
-&gt;she stopped pouring and reset the gas cap
-&gt;she pulled herself into your lap and wrapped her arms around your neck &quot;get ready!&quot; she yelled
-&gt;the engine started to roar and you were pressed into the seat by the acceleration
-&gt;fire was spitting out under the hood and the speedometer had already topped out
-&gt;the ground was flying away under your headlights
-&gt;you weren&#039;t even thinking about the coppers while trying to control the demon your car had become
-&gt;it didn&#039;t help that she was laughing and hollering in your ear the whole time
-&gt;you&#039;re terrified the engine is going to blow but it holds together somehow or another
-&gt;you&#039;re back down to a normal speed but you are way off course
-&gt;&quot;turn right up here&quot; she whispers into your ear
-&gt;she&#039;s kissing your neck and you&#039;re too keyed up to object
-&gt;its a dirt road and you&#039;re going slower
-&gt;you slam on your breaks as you approach an old wooden bridge
-&gt;&quot;keep going&quot; she says as her hand wanders under your shirt to rub your chest
-&gt;the shaky bridge holds up and you cross the broad shallow creek to the other side
-&gt;she whistles a tune and you hear the bridge collapse in the distance
-&gt;a few more miles of dirt road puts you out to another highway
-&gt;you recognize a silo in the distance, this is one of your back up routes
-&gt;without that bridge it would take anyone else an hour to get to this detour
-&gt;you back up the car and turn it off
-&gt;&quot;don&#039;t worry you can go and I&#039;ll keep their eyes from finding you&quot;
-&gt;she took off your hat and put it on herself with a grin
-&gt;&quot;I need a breather first&quot; you say opening the door
-&gt;she hops out and you follow
-&gt;she&#039;s taller than you imagined and she has that flask out again
-&gt;she takes a swig and hands it to you
-&gt;&quot;I.. I don&#039;t drink when I&#039;m running&quot;
-&gt;&quot;just a sip for your nerves&quot; she hands it to you
-&gt;you take it an and she adds &quot;only a sip&quot;
-&gt;you&#039;ve tasted a lot of hootch in your life and never had anything like this
-&gt;if moonlight had a flavor this would be it 
-&gt;you lean against the car and a calm washes over you
-&gt;you open your eyes and her silver fur shines
-&gt;she slips out of her dress and presses herself against you
-&gt;your belt and pants fall to the ground through some magic of hers 
-&gt;you enter her and she she leans against you and the car
-&gt;shes so light that you can move her however you want
-&gt;her claws delicately cup your face as she kisses you deeply
-&gt;as your pace picks up she breaks away to lustily pant
-&gt;you bury your face in her ample blossom 
-&gt;the clouds part and you are bathed in moonlight as you both reach climax
-&gt;you dress yourselves and get back in the car
-&gt;shes lying with her head in your lap and her feet out the window as you share a cigarette 
-&gt;&quot;you know I&#039;m going all the way to Chicago, right?&quot; you ask
-&gt;&quot;I think it&#039;s time for me to see a city&quot; she said
-&gt;with that you started the car and took off
-&gt;the hours lost by the chase must have been mitigated by your passenger because you arrive on time at the drop
-&gt;you didn&#039;t expect anyone to be there but your boss is waiting for you
-&gt;you look at your passenger to find that she has turned into an actual silver fox
-&gt;the boss comes to your passenger window and tells you he needs to have a talk about your former partner
-&gt;as he walks away you quietly ask the fox if other people can see her
-&gt;she slowly closes her eyes and a slight shake of the head lets you know they can&#039;t
-&gt;you leave the car and she follows you out to the warehouse
-&gt;its hard not to feel a bit safer with her by your side</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/xx3i6K6P">Домашнее задание к уроку #19</a>
-                <div class="details">
-                                            SQL |
-                    
-                    3 min ago                </div>
-            </li>
-                    <li>
-                <a href="/PwREFvE4">Tanks Minecraft modded World</a>
-                <div class="details">
-                                            Lua |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/0nMrZ23y">06. Building</a>
-                <div class="details">
-                                            Python |
-                    
-                    23 min ago                </div>
-            </li>
-                    <li>
-                <a href="/YDrKxFrs">05. Travelling</a>
-                <div class="details">
-                                            Python |
-                    
-                    25 min ago                </div>
-            </li>
-                    <li>
-                <a href="/RgaHRnL9">04. Sum of Two Numbers</a>
-                <div class="details">
-                                            Python |
-                    
-                    27 min ago                </div>
-            </li>
-                    <li>
-                <a href="/yeEjEggQ">03. Combinations</a>
-                <div class="details">
-                                            Python |
-                    
-                    28 min ago                </div>
-            </li>
-                    <li>
-                <a href="/jTCNzcqr">02. Multiplication Table</a>
-                <div class="details">
-                                            Python |
-                    
-                    28 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HM222Ve6">01. Clock</a>
-                <div class="details">
-                                            Python |
-                    
-                    29 min ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?a10fa59a05e325e3bfc7"></script>
-<script src="/themes/pastebin/js/app.bundle.js?a10fa59a05e325e3bfc7"></script>
-</body>
-</html>

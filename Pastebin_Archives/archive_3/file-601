@@ -1,550 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>For What It&#039;s Worth - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="For What It&#039;s Worth - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/n3YLF2xb" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/n3YLF2xb" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="Qp4e1MSnUIVgOhIMEySa8PCKqygkth-cBelCsuuNStUlzmSWr_ci3T9UalRRUu_JtsDkb3b6Uc1Bjirrr755hg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/n3YLF2xb" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/n3YLF2xb" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/cache/img/0/0/10/2905361.jpg" alt="SabreDance">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>For What It&#039;s Worth</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/SabreDance">SabreDance</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=SabreDance" class="message" title="Send a private message to: SabreDance"></a>
-                                    
-                <div class="date">
-                    <span title="Friday 13th of April 2018 03:19:46 AM CDT">Apr 13th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,093                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 24.51 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/n3YLF2xb" class="btn -small">raw</a>
-                    <a href="/dl/n3YLF2xb" class="btn -small">download</a>
-                    <a href="/clone/n3YLF2xb" class="btn -small h_800">clone</a>
-                    <a href="/embed/n3YLF2xb" class="btn -small h_800">embed</a>
-                    <a href="/print/n3YLF2xb" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/n3YLF2xb" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">For What It’s Worth</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I.</div></li><li class="li1"><div class="de1">&gt;&#039;nam, &#039;69</div></li><li class="li1"><div class="de1">&gt;The Huey&#039;s jet turbine whined like a fridge condenser, seeping through the &#039;whoomp, whoomp, whoomp&#039; of the rotor blades and driving you very slowly insane.</div></li><li class="li1"><div class="de1">&gt;Your ear protectors, so thoughtfully provided by Army Aviation, only did so much to muffle it.</div></li><li class="li1"><div class="de1">&gt;It echos in your mind as you watch the treetops flash by through the open doors in the dawn light.</div></li><li class="li1"><div class="de1">&gt;What feels like a lifetime ago, you made the mistake of enlisting in the Army to escape your dead-end hometown, foolishly believing you would end up in Europe, like Dad did so long ago.</div></li><li class="li1"><div class="de1">&gt;Checking out the cute German girls during maneuvers.</div></li><li class="li1"><div class="de1">&gt;Enjoying the English countryside with a two day pass.</div></li><li class="li1"><div class="de1">&gt;Exploring Rome, inside the Colosseum: being the American gladiator against Communism.</div></li><li class="li1"><div class="de1">&gt;Ready to bloody the Reds at the Fulda Gap.</div></li><li class="li1"><div class="de1">&gt;Instead, you&#039;ve ended up deploying with an Infantry company for an extended rotation in good ol&#039; South East Asia.</div></li><li class="li1"><div class="de1">&gt;If you had wanted to see the S.E.A, you would have been a sailor.</div></li><li class="li1"><div class="de1">&gt;Now getting the privilege to learn firsthand how the oppressive heat and thick, dark rainforest conspired with your insidious foe, whom only lurked where you didn&#039;t look for him.&quot;</div></li><li class="li1"><div class="de1">&gt;Nothing like how you had been trained to take on the Russians: dealing with a frontal assault with anti-tank missiles, mortars and rifle fire, with the objective of mowing down the endless hordes of advancing Reds.</div></li><li class="li1"><div class="de1">&gt;But you’re old hat at this now.</div></li><li class="li1"><div class="de1">&gt;You’re three months in-country and a part of an Air Cavalry division: your unit is helicoptered in to search villages, secure threatened communities, confiscate weapons, see the sights, explore the countryside, and partake in the occasional firefight.</div></li><li class="li1"><div class="de1">&gt;Today was supposed to be simple, as far as operations went.</div></li><li class="li1"><div class="de1">&gt;Clear a Charlie-held village in a hotly-contested region, capture survivors, remove arms, win hearts and minds. </div></li><li class="li1"><div class="de1">&gt;Straightforward.</div></li><li class="li1"><div class="de1">&gt;The flight wears on, and you occupy yourself watching the ground under the helicopter as it skims the treeline, minimizing its effective time in engagement envelope for any positioned anti-aircraft guns.</div></li><li class="li1"><div class="de1">&gt;The Crew Chief finally stands from his rearward-facing position immediately behind the pilots, pointing down grandly and miming the cycling of an M16 action before tapping the shoulders of the two door gunners to prepare them.</div></li><li class="li1"><div class="de1">&gt;Taking the hint, you double check your gear, remove your ear protection, and do what you always do.</div></li><li class="li1"><div class="de1">&gt;These days it&#039;s almost like brushing your teeth in the morning.</div></li><li class="li1"><div class="de1">&gt;Check your gear, chamber a round, flick the safety and train the weapon.</div></li><li class="li1"><div class="de1">&gt;Just like yesterday, and probably tomorrow.</div></li><li class="li1"><div class="de1">&gt;The Huey pitches back, turbine roar growing substantially as altitude and airspeed decreases rapidly.</div></li><li class="li1"><div class="de1">&gt;The Huey settles into a hover directly above a clearing.</div></li><li class="li1"><div class="de1">&gt;Your squad rushes forth from the hovering helicopter and takes a kneel in a protective semi-circle around the aircraft as personnel and supplies offload.</div></li><li class="li1"><div class="de1">&gt;You watch a dozen other choppers land in formation about you, offloading their troops.</div></li><li class="li1"><div class="de1">&gt;This was always the most terrifying part of the mission, even with the gunner’s M60 machine gun trained on the not-so-distant treeline: it only took a single well-placed mortar on the chopper to KO your squad - or worse, maroon you deep inside the combat zone with the Viet Cong about.</div></li><li class="li1"><div class="de1">&gt;Fortunately, the Huey squadron manages to apply power in unison and tilt forward to depart totally unmolested.</div></li><li class="li1"><div class="de1">&gt;The stillness of the jungle returns, with birds crying sporadically and insects buzzing about like little vultures as your company assembles into platoons for a pincer move on the village several kilometres away.</div></li><li class="li1"><div class="de1">&gt;Being the platoon scout, you carry less gear - but get the unenviable duty of picking your way through the jungle ahead of your unit, following no trail to maximize the likelihood of avoiding traps and landmines.</div></li><li class="li1"><div class="de1">&gt;Coincidently, your path is largely free of the shitty dense overgrowth that makes marching most anywhere in Vietnam an absolute misery.</div></li><li class="li1"><div class="de1">&gt;You were appreciative of the early morning too, the sun only just starting to crest over the hills.</div></li><li class="li1"><div class="de1">&gt;It was going to be absolute hell in a few hours, with temperatures of nearly 100 fahrenheit at 90% humidity.</div></li><li class="li1"><div class="de1">&gt;Tracking your position roughly on your topo map, you estimate that the platoon is covering ground in good time.</div></li><li class="li1"><div class="de1">&gt;It was only an an hour and a half trek, but you arrive at the assault point with a good twenty minutes to spare.</div></li><li class="li1"><div class="de1">&gt;Not bad work, you figure.</div></li><li class="li1"><div class="de1">&gt;You safe your rifle, drop your helmet from your head and pop the buttons on your canteen cover, then fetch the plastic bottle and take a greedy gulp.</div></li><li class="li1"><div class="de1">&gt;You are eager to rest a few minutes as you were already drenched in sweat from the march in the steadily increasing heat, and move to pop a squat - but end up doing so in front of the Lieutenant, who is busy studying the map and whispering into the radioman’s PRC-77 portable radio on his rucksack.</div></li><li class="li1"><div class="de1">&gt;Hanging up the handset and scowling at the map, he turns to you.</div></li><li class="li1"><div class="de1">“PFC Anon, good work getting us here quick. I need you to grab your rifle and scout the treeline to the north, following to the edge of the village. Count troops and any gun emplacements. Do not engage and do not be seen. I need you back in fifteen minutes.”</div></li><li class="li1"><div class="de1">&gt;Yessir.</div></li><li class="li1"><div class="de1">&gt;You grab your rifle and re-seat your helmet, wondering if perhaps you ought to have dawdled a bit.</div></li><li class="li1"><div class="de1">&gt;You pick your way along the treeline and take a kneel against the trunk of a tree.</div></li><li class="li1"><div class="de1">&gt;Your position is atop a small hill about 700 feet away from the objective, giving you an excellent vantage.</div></li><li class="li1"><div class="de1">&gt;You peer through the binoculars, ensuring you cup your fingers around the outside edge of the lens to stop it glinting.</div></li><li class="li1"><div class="de1">&gt;Your first scan of the village reveals nothing, just a standard ramshackle rural village in hilly terrain, complete with a creek running through the centre with several bamboo-planked bridges erected to allow passage over it.</div></li><li class="li1"><div class="de1">&gt;It looked about the size to be home for a few hundred people, who had either fled or perished to the VC.</div></li><li class="li1"><div class="de1">&gt;There were consequences for villages not actively supporting the North or essentially not defying US and ARVN forces, supplying arms or caching arms - it was not unheard of for whole villages to vanish.</div></li><li class="li1"><div class="de1">&gt;Initiating a slow and more detailed second scan of the area nets a number of AK-47 armed Viet Cong (you could tell by the sandals) - and a handful of North Vietnam Army regulars strewn into the mix.</div></li><li class="li1"><div class="de1">&gt;As you determine enemy force disposition, your binoculars begin to move further to the flanks to search for hidden gun pits when you come across a curiosity.</div></li><li class="li1"><div class="de1">&gt;Heavily camouflaged figures slowly crawling towards the village, only a hundred feet or so from the outermost shanty.</div></li><li class="li1"><div class="de1">&gt;Puzzled, you focus on this group, following their progress: there was no mention of a Force Recon team involved during the briefing back at Da Nang?</div></li><li class="li1"><div class="de1">&gt;At least you had to assume that: wouldn’t make much sense for North Vietnamese troops to sneak into the village they controlled, even if they knew that an attack was imminent.</div></li><li class="li1"><div class="de1">&gt;Your tactical analysis was interrupted by marauding duo of Viet Cong on patrol appear in your range of vision and seem to be on an intercept course with the infiltrators.</div></li><li class="li1"><div class="de1">&gt;You hiss in frustration, ripping the binoculars away from your face, eyeing up the M16 you have sitting in front of you.</div></li><li class="li1"><div class="de1">&gt;They&#039;re in range. You could kill them, and kill them easy, but you can&#039;t risk your unit.</div></li><li class="li1"><div class="de1">&gt;Didn’t you have your orders to only reconnoiter?</div></li><li class="li1"><div class="de1">&gt;You don’t even know who they are.</div></li><li class="li1"><div class="de1">&gt;Raising the binoculars once more to reevaluate the situation, you discover that two of the camouflaged troops you were watching had ceased moving and were training what were most certainly M16 rifles with long slender protrusions at the ends of the barrel.</div></li><li class="li1"><div class="de1">&gt;There was nary a crack of discharge from the rifles, and the two VC fell to the ground.</div></li><li class="li1"><div class="de1">&gt;the four camouflaged troops took to their feet, providing you a very clear view of what you&#039;re pretty sure were tails before moving at a hustle to clear the open ground.</div></li><li class="li1"><div class="de1">&gt;Two paused only to grab the bodies and guns of the fallen VC to drag inside the closest shanty.</div></li><li class="li1"><div class="de1">&gt;Watching them vanish, you ponder the politics involved: Johnson and Nixon must have lied after all.</div></li><li class="li1"><div class="de1">&gt;It was not the first time you had seen anthros: you’d been to an Indian casino a year or so back, run by coyotes and foxes, back just after Native American tribal sovereignty hit the Supreme Court.</div></li><li class="li1"><div class="de1">&gt;But American anthro troops were supposed to only be based in the continental United States or flying with the Navy/Air Force.</div></li><li class="li1"><div class="de1">&gt;All volunteers, with no legislatively-imposed draft and all that.</div></li><li class="li1"><div class="de1">&gt;As to why was part-politics, part-anyone&#039;s guess and hence a contentious topic, especially based on lack of official comment from the Department of Defense and the brewing racial turmoils back in the ‘States.</div></li><li class="li1"><div class="de1">&gt;So, Force Reconnaissance operating unsupported this far behind the line, and being anthros at that?</div></li><li class="li1"><div class="de1">&gt;Must be more to this op than meets the eye.</div></li><li class="li1"><div class="de1">&gt;You do a hurried scan and count of the remaining (and fortunately, still unaware) VC still mulling about, and beat feet back to report to the Lieutenant.</div></li><li class="li1"><div class="de1">&gt;The return journey was swift and uneventful, leaving you to formulate how to report disposition and ponder how to bring up the anthro oddity.</div></li><li class="li1"><div class="de1">&gt;The Lieutenant, bless his soul, was wise enough to avoid the ‘fragging’ phenomenon by remembering to confer with his senior enlisted troops on matters beyond that of combat and efficiency, and you caught the tail end of this upon your arrival at the assault briefing.</div></li><li class="li1"><div class="de1">“Welcome back, Anon. What did you see?”</div></li><li class="li1"><div class="de1">&gt;You mentally toss up reporting what you saw, but… you don’t know what you saw, really. </div></li><li class="li1"><div class="de1">&gt;Was it relevant to the mission?</div></li><li class="li1"><div class="de1">&gt;You are cognisant of six tenses faces staring at you, waiting for your report.</div></li><li class="li1"><div class="de1">At least twenty-seven irregulars, supplemented by twelve regulars. Competent patrols around perimeter. No visible Standard CHICOM AK/SKS, no visible emplaced weapons. No overwatch or defensible fortifications visible.</div></li><li class="li1"><div class="de1">&gt;The Lieutenant praises your success and then dismisses you to finish your briefing, having completed your role; leaving you free move away from the leadership to sit in the grass.</div></li><li class="li1"><div class="de1">You glance up at the sky, mostly concealed by the jungle canopy.</div></li><li class="li1"><div class="de1">&gt;Grey cloud moving in.</div></li><li class="li1"><div class="de1">&gt;Of course it was going to rain, this is Vietnam.</div></li><li class="li1"><div class="de1">&gt;You lean back into the moderately tall grass and close your eyes for a few minutes to rest up, glad you remembered to liberally coat your fatigues with bug juice to keep the little fuckers the hell away from you.</div></li><li class="li1"><div class="de1">&gt;Several restful minutes later, the sergeant delivers a well placed kick to rouse you, and reluctantly you take to your feet.</div></li><li class="li1"><div class="de1">&gt;Showtime, you supposed.</div></li><li class="li1"><div class="de1">&gt;The platoon split into squads and you moved out with the first</div></li><li class="li1"><div class="de1">&gt;It was not a long walk, but long enough for the brewing clouds overhead to unleash their payload.</div></li><li class="li1"><div class="de1">&gt;You&#039;re drenched in the space of a minute, but it&#039;s sure as hell better than being hot and sweaty&quot;</div></li><li class="li1"><div class="de1">&gt;As you move out of the depths of the jungle, the tranquility cuts out and is replaced with something darker.</div></li><li class="li1"><div class="de1">&gt;There’s gunfire in the distance, and you haven’t even cleared the treeline.</div></li><li class="li1"><div class="de1">&gt;You glance to the right, watching a concerned Lieutenant looking at his watch and talking into the handset of his radioman’s ruckpack radio.</div></li><li class="li1"><div class="de1">&gt;As a unit, you advance slowly forward in a staggered line abreast up to the edge of the jungle, every eye up and alert for movement.</div></li><li class="li1"><div class="de1">&gt;In the distance, the throaty roar of 7.62mm armaments echoes over the sharp barks of 5.56mm weaponry.</div></li><li class="li1"><div class="de1">&gt;You note no bellowing M60 machine gun fire.</div></li><li class="li1"><div class="de1">&gt;Sierra Foxtrot, this didn’t bode well for you.</div></li><li class="li1"><div class="de1">&gt;Your platoon presses forward, but no bullets bear down.</div></li><li class="li1"><div class="de1">&gt;A surprise, but a welcome one.</div></li><li class="li1"><div class="de1">&gt;The distant gunfire tapers off before the platoon reaches the outermost section of the village.</div></li><li class="li1"><div class="de1">&gt;The platoon splits apart and takes cover against a number of shanties, taking positions peeking about the corners and training weapons towards where gunfire had been originating from.</div></li><li class="li1"><div class="de1">&gt;Occasional pot shots told you that there were still Charlie occupying your objective.</div></li><li class="li1"><div class="de1">&gt;Your squad leader rallies you and the other eight soldiers, and advances slowly down the street, textbook overwatch tactics all the way along.</div></li><li class="li1"><div class="de1">&gt;You’re starting to encounter bodies strewn about.</div></li><li class="li1"><div class="de1">&gt;Not friendlies, and riddled with centre mass wounds.</div></li><li class="li1"><div class="de1">&gt;But this one… the throat is ripped right out?</div></li><li class="li1"><div class="de1">&gt;You bend down to inspect the body.</div></li><li class="li1"><div class="de1">&gt;The wound is ragged and bloodied, with no immediate way of telling what--.</div></li><li class="li1"><div class="de1">&gt;You are sprayed with shards of bamboo, a number of holes appearing on the wood of the hovel where you just standing and a deep, booming staccato of gunfire piercing the stillness of the air.</div></li><li class="li1"><div class="de1">&gt;One of your squadmates on overwatch delivered a burst through the chest of VC guerilla atop the roof. </div></li><li class="li1"><div class="de1">&gt;He drops his Kalashnikov as he falls.</div></li><li class="li1"><div class="de1">&gt;As if they were right out of the woodworks, communist troops crawl from every corner and open fire. </div></li><li class="li1"><div class="de1">&gt;You dive for cover in the mud, one of your squad-mates dropping beside you with a hollow slap.</div></li><li class="li1"><div class="de1">&gt;Your heart pounds, spike of adrenaline coursing through your veins as you crawl out of the line of fire into a narrow alleyway running between the side of two hovels.</div></li><li class="li1"><div class="de1">&gt;You hated to leave your squad, but your concern was finding a safe spot to return fire from.</div></li><li class="li1"><div class="de1">&gt;As you turn the corner at a sprint, you blunder into a NVA regular.</div></li><li class="li1"><div class="de1">&gt;Turning to face you, with a levelled AKM in his hands.</div></li><li class="li1"><div class="de1">&gt;With your gun already cradled in your arms with a better engagement angle, you reflexively point and shoot from the hip.</div></li><li class="li1"><div class="de1">&gt;You feel the muzzle climb as the gun judders eight or nine times before releasing the trigger, and your opponent drops to the dirt profoundly dead.</div></li><li class="li1"><div class="de1">&gt;Dropping the magazine, you fish a full twenty-rounder from your ammunition pouch, slot it in, and stash the partially expended magazine away.</div></li><li class="li1"><div class="de1">&gt;You catch hushed Vietnamese from inside a shack to the your right.</div></li><li class="li1"><div class="de1">&gt;You move further away from the voices and the ongoing firefight, pointedly ignoring the man you just killed.</div></li><li class="li1"><div class="de1">&gt; He wasn’t your first and you doubted he would be your last.</div></li><li class="li1"><div class="de1">&gt;Several minutes of brief rushes from cover to cover has you taking shelter against an outhouse and peering about cautiously.</div></li><li class="li1"><div class="de1">&gt;With a sickening sense of dread, you came to realise that your squad was tactically withdrawing without you.</div></li><li class="li1"><div class="de1">&gt;Probably didn’t have much for a choice, based on the overpowering sound of AKs.</div></li><li class="li1"><div class="de1">&gt;You just need to lie low, wait for the whole company assault.</div></li><li class="li1"><div class="de1">&gt;Glancing about, you may as well find an unoccupied building to take cover in and get out of the rain, plus staying out in the open will only get you shot.</div></li><li class="li1"><div class="de1">&gt;Cautiously creeping along to an adjacent house, you leaned back against against the door, you look around cautiously and consider if this is a good place.</div></li><li class="li1"><div class="de1">&gt;You pause too long, hear a creak on a floorboard behind the door too late, and find the door is flung inward suddenly, leaving you off balance and falling backwards.</div></li><li class="li1"><div class="de1">&gt;And then you&#039;re in a chokehold and being lowered to the ground, quite unable to call out, and rifle clattering to the ground away from your scrambling hands.</div></li><li class="li1"><div class="de1">&gt;Head held immobile in the firm grasp and knowing you were not going to be able to reach the Smith &amp; Wesson pressing into the small of your back, your hands instead move to grab at the arm, struggling to breathe and look at the face of your attacker.</div></li><li class="li1"><div class="de1">&gt;Your efforts only result in you knocking your helmet off, but are rewarded with the glimpse of a a canine face staring impassively down at you.</div></li><li class="li1"><div class="de1">&gt;You would probably start thinking something right about now, if not for your vision seeming to start constricting.</div></li><li class="li1"><div class="de1">&gt;You hear a voice exclaim something in a surprised tone, and you find yourself immediately released and allowed to lay back on the floor, greedily sucking in air.</div></li><li class="li1"><div class="de1">&gt;You gently caress your neck with a hand, breath and heart rate slowly regulating, before turning your attention to your would-be assailant; who was standing off to the side and talking quietly in an indecipherable tongue to three others semi-obscured in shadow, not immediately concerned about you.</div></li><li class="li1"><div class="de1">&gt;Moving to sit up, the conversation comes to a sudden halt, and you find yourself looking up at an apologetic-looking wolf, with -her!- paw held down in an offer to help you up from the floor.</div></li><li class="li1"><div class="de1">&gt;Appreciating the gesture as an olive branch, you graciously take the paw in hand, noticing the feel of her soft and textured pads against your palm and the soft fur under your thumb.</div></li><li class="li1"><div class="de1">&gt;You cannot help but appreciate the vigour of her grasp, as you are hoisted to your feet.</div></li><li class="li1"><div class="de1">&gt;After adjusting your belt and load carrying equipment, you take the opportunity to study the wolf before you. </div></li><li class="li1"><div class="de1">&gt;She’s built sturdily and blanketed with thick, tan fur, colouration growing darker around the top of her head and up her thickly-furred pointed ears, and sandier down the sides of and under her long, sharp muzzle.</div></li><li class="li1"><div class="de1">&gt;Deep blue eyes.</div></li><li class="li1"><div class="de1">&gt;Your eyes drop to her flak jacket-covered olive fatigues, strikingly similar to your current attire, and honed in on the insignia on the shoulder.</div></li><li class="li1"><div class="de1">&gt;Gold and black patch with a red centre, embossed with an eagle, anchor, and star.</div></li><li class="li1"><div class="de1">&gt;Was that the Republic of Korea Marine Corps?</div></li><li class="li1"><div class="de1">&gt;You were not aware they had anthro units in theatre.</div></li><li class="li1"><div class="de1">&gt;But you distinctly remembered the briefing the CIA had done as part of in-processing, and the phrasing they had used.</div></li><li class="li1"><div class="de1">&gt;”The enemy fears the Koreans both for their tactical innovations and for the soldiers&#039; tenacity and ferocity.“</div></li><li class="li1"><div class="de1">&gt;The wolf had studied your fatigues and unit markings, no doubt making her own assessments on you, catching your eye and was visibly and awkwardly attempting to figure out what to say.</div></li><li class="li1"><div class="de1">&gt;“My name is Sowi Sujin, Republic of Korea Marine Corps Reconnaissance. I’m in charge here. I am sorry to have attacked you; I did not know Americans were here, and was hasty in assuming the Viet Cong had started searching the abandoned huts after discovering their dead. Who are you and what are you doing here?”</div></li><li class="li1"><div class="de1">&gt;Her English is excellent, a slight accent detectable.</div></li><li class="li1"><div class="de1">&gt;All things considered, it&#039;s not a totally illogical thing to assume.</div></li><li class="li1"><div class="de1">&gt;You introduce yourself to Sujin as PFC Anon and explain that your unit came under fire entering the village, that you had seen their ingress from a hilltop earlier, but had not been sure they were friendlies - that their suppressed M16s worked a treat on the patrol.</div></li><li class="li1"><div class="de1">&gt;You pause, collecting your line of questioning before continuing, asking why they were here, as they were not supposed to be a part of the order of battle.</div></li><li class="li1"><div class="de1">&gt;She tilts her head in a very dog-like way for a second, studying you.</div></li><li class="li1"><div class="de1">&gt;“We were not informed of any American operations in this area, which is why we were deployed at a remote landing zone yesterday and hiked ten kilometres here to crawl in.”</div></li><li class="li1"><div class="de1">&gt;Sujin gestures to her small unit, a large floofy Samoyed chatting with a short aviator-wearing Shiba Inu who looked more suited to be a tunnel rat, and a remarkably unamused and disinterested Lynx who was cleaning his fieldstripped M16.</div></li><li class="li1"><div class="de1">&gt;You also note the discarded camouflage gear, stashed a few feet away from a neatly-stacked pile of VC corpses.</div></li><li class="li1"><div class="de1">&gt;“We are here because your NRO and CIA think this village is of tactical significance, due to the Viet Cong digging out a large tunnel network underneath containing large quantities of arms and supplies.”</div></li><li class="li1"><div class="de1">&gt;Well shit.</div></li><li class="li1"><div class="de1">&gt;You can’t help but wonder aloud why were you here then, if this is already tasked to another unit? </div></li><li class="li1"><div class="de1">&gt;On a separate note, weren’t there supposed to be more than four troops in a squad?</div></li><li class="li1"><div class="de1">&gt;Based on the grimace, you had asked a question she didn&#039;t want to answer</div></li><li class="li1"><div class="de1">&gt;“We lost a chopper to enemy fire over a ridge coming into the LZ - broke apart, all confirmed KIA. The second chopper got us down okay, but took fire departing on the alternate egress route, going down in the jungle. Fuel tank went, burned to the ground. So, we’re all that&#039;s left.”</div></li><li class="li1"><div class="de1">&gt;She paused, visibly pained based on the grimace and flayed back ears.</div></li><li class="li1"><div class="de1">&gt;It was a stupid instinct, but you really wanted to ruffle her head fluff and attempt to reassure her - but that would be wildly inappropriate to do to someone you just met.</div></li><li class="li1"><div class="de1">&gt;Plus she might throttle you again if you tried.</div></li><li class="li1"><div class="de1">&gt;“Unlucky placement of a ZPU-2 triple-A emplacement, aerial reconnaissance could have never caught it.”</div></li><li class="li1"><div class="de1">&gt;A dark look crossed into her face, with something telling you that the gun emplacement crew would never do that again.</div></li><li class="li1"><div class="de1">&gt;“We pushed on to here because we still had a mission to preform, and we also have vague hopes of an American unit being deployed here to provide us a ride home. Otherwise, we were walking: our radioman was in the second chopper.”</div></li><li class="li1"><div class="de1">&gt;She’s earnest, and pretty likable.</div></li><li class="li1"><div class="de1">&gt;Hell, maybe even cute.</div></li><li class="li1"><div class="de1">&gt;You inquire about how many anthro units in Vietnam and why they were here.</div></li><li class="li1"><div class="de1">&gt;A deep male voice to your left answers you.</div></li><li class="li1"><div class="de1">&gt;“You’re looking at a detachment from the only company in Vietnam. I’m Hansa Dae-Jung,” </div></li><li class="li1"><div class="de1">&gt;He offers a large paw for you to shake, which you accept graciously.</div></li><li class="li1"><div class="de1">&gt;American accent too.</div></li><li class="li1"><div class="de1">&gt;The mud-coated white and thickly-furred Samoyed towered over you at about six foot two, an easy grin on his face as he answers.</div></li><li class="li1"><div class="de1">&gt;Poor fella must be absolutely miserable in the tropical heat.</div></li><li class="li1"><div class="de1">&gt;“Our country had no problems sending a division of Marines over support your war, prefering to instead keep a division of your troops on the border with the Communists. We’ve been deployed as a section in Vietnam on and off again for about a year and a half.”</div></li><li class="li1"><div class="de1">&gt;Curious, you ask what got them in the military, knowing they were going to have to see combat in a foreign country.</div></li><li class="li1"><div class="de1">&gt;Dae-Jung pointed at the Shiba Inu, meandering over to join you, offering his paw to shake.</div></li><li class="li1"><div class="de1">&gt;“Ibyeong Seok here was conscripted out of school, and has to finish two years before allowed to start his studies. Same with Ilbyeong Young, over in the corner, who studied French instead of english and is a bit on the shy side anyway. As for me, I’m supporting my wife back home.”</div></li><li class="li1"><div class="de1">&gt;Sujin speaks up with her own story.</div></li><li class="li1"><div class="de1">&gt;“I joined to see some of the world beyond Korea, and to earn my way to success.”</div></li><li class="li1"><div class="de1">&gt;Loftier ideals than yours, you explain, telling the tale of you wanting to escape abuse, intolerance, alcoholism and your family in Smalltown, USA.</div></li><li class="li1"><div class="de1">&gt;You confide that you don’t know where you want to go after this or what you want to do, receiving sympathetic nods.</div></li><li class="li1"><div class="de1">&gt;Sujin’s attention turns appears distracted, ears flicking, momentary contemplation clear before coming to a decision.</div></li><li class="li1"><div class="de1">“Gunfire from the edge of the village is consistent. Grab your kit, we’re moving out. We need to find an entrance to the tunnel system.</div></li><li class="li1"><div class="de1">&gt;Her attention turns to you, passing you your rifle and helmet whilst the group scatters to collect armaments and packs.</div></li><li class="li1"><div class="de1">&gt;“Anon, do you want to come along? You’re not my subordinate, but we can definitely use the help.”</div></li><li class="li1"><div class="de1">&gt;You mentally weigh up waiting in relative safety of the inside of this shanty, but there was probably greater safety in numbers right now.</div></li><li class="li1"><div class="de1">&gt;Yeah, you will - how can you help?</div></li><li class="li1"><div class="de1">&gt;You almost regret the question, as Seok throws a satchel at you to carry.</div></li><li class="li1"><div class="de1">&gt;Peeking inside, you note a dozen blocks of C4 plastic explosive.</div></li><li class="li1"><div class="de1">&gt;Sealing tunnels, indeed.</div></li><li class="li1"><div class="de1">&gt;You cast a gaze over the anthro troops grabbing the last of their things, unable to prevent yourself grinning at the amusing way their various-coloured ears stuck out atop their jungle green boonie hats.</div></li><li class="li1"><div class="de1">&gt;Now geared up, Sujin opens the door cautiously, searching for lurking VC.</div></li><li class="li1"><div class="de1">&gt;Satisfied, she pulls the door fully ajar and leads the section out into the rain.</div></li><li class="li1"><div class="de1">&gt;Moving from building to building cautiously, you find yourself in the middle of the formation of anthos with the shorter Seok taking the lead.</div></li><li class="li1"><div class="de1">&gt;You wouldn’t be shooting first, because your M16 was not suppressed like everyone else.</div></li><li class="li1"><div class="de1">&gt;Progress was slow, searching for distant gunfire still present, with the infrequent patrol of VC passing by.</div></li><li class="li1"><div class="de1">&gt;Your companion’s ears twitch, looking about and trying to locate something.</div></li><li class="li1"><div class="de1">&gt;Only a second or two later, you hear it too: a gradually building rumble.</div></li><li class="li1"><div class="de1">&gt;Your eyes widen, the idea in your head matching the roar of jets approaching.</div></li><li class="li1"><div class="de1">&gt;Fast movers.</div></li><li class="li1"><div class="de1">&gt;Your eyes track to the east, spotting a flight of Air Force F-105 Thunderchiefs heading towards you, less than a half mile out.</div></li><li class="li1"><div class="de1">&gt;Likely ordered in for Close Air Support by the platoon Lieutenant.</div></li><li class="li1"><div class="de1">&gt;Realizing concurrently your element is in the middle of an enemy occupied village that US forces just withdrew from.</div></li><li class="li1"><div class="de1">&gt;As you are watching, long and slender silver canisters drop from the wings of the aircraft, tumbling erratically earthward.</div></li><li class="li1"><div class="de1">&gt;Faster than you could react, Sujin is airborne, tackling to you the ground and pulling you tight against her, her cold wet nose pressing against your neck as the F-105s streak overhead, pitching back to a 45 degree climb.</div></li><li class="li1"><div class="de1">&gt;Momentarily, the other three troops join you prone in the mud, anxiously waiting for impact.</div></li><li class="li1"><div class="de1">&gt;A wall of flame erupts to either side of you.</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">For What It’s Worth
-
-I.
-&gt;&#039;nam, &#039;69
-&gt;The Huey&#039;s jet turbine whined like a fridge condenser, seeping through the &#039;whoomp, whoomp, whoomp&#039; of the rotor blades and driving you very slowly insane.
-&gt;Your ear protectors, so thoughtfully provided by Army Aviation, only did so much to muffle it.
-&gt;It echos in your mind as you watch the treetops flash by through the open doors in the dawn light.
-&gt;What feels like a lifetime ago, you made the mistake of enlisting in the Army to escape your dead-end hometown, foolishly believing you would end up in Europe, like Dad did so long ago.
-&gt;Checking out the cute German girls during maneuvers.
-&gt;Enjoying the English countryside with a two day pass.
-&gt;Exploring Rome, inside the Colosseum: being the American gladiator against Communism.
-&gt;Ready to bloody the Reds at the Fulda Gap.
-&gt;Instead, you&#039;ve ended up deploying with an Infantry company for an extended rotation in good ol&#039; South East Asia.
-&gt;If you had wanted to see the S.E.A, you would have been a sailor.
-&gt;Now getting the privilege to learn firsthand how the oppressive heat and thick, dark rainforest conspired with your insidious foe, whom only lurked where you didn&#039;t look for him.&quot;
-&gt;Nothing like how you had been trained to take on the Russians: dealing with a frontal assault with anti-tank missiles, mortars and rifle fire, with the objective of mowing down the endless hordes of advancing Reds.
-&gt;But you’re old hat at this now.
-&gt;You’re three months in-country and a part of an Air Cavalry division: your unit is helicoptered in to search villages, secure threatened communities, confiscate weapons, see the sights, explore the countryside, and partake in the occasional firefight.
-&gt;Today was supposed to be simple, as far as operations went.
-&gt;Clear a Charlie-held village in a hotly-contested region, capture survivors, remove arms, win hearts and minds. 
-&gt;Straightforward.
-&gt;The flight wears on, and you occupy yourself watching the ground under the helicopter as it skims the treeline, minimizing its effective time in engagement envelope for any positioned anti-aircraft guns.
-&gt;The Crew Chief finally stands from his rearward-facing position immediately behind the pilots, pointing down grandly and miming the cycling of an M16 action before tapping the shoulders of the two door gunners to prepare them.
-&gt;Taking the hint, you double check your gear, remove your ear protection, and do what you always do.
-&gt;These days it&#039;s almost like brushing your teeth in the morning.
-&gt;Check your gear, chamber a round, flick the safety and train the weapon.
-&gt;Just like yesterday, and probably tomorrow.
-&gt;The Huey pitches back, turbine roar growing substantially as altitude and airspeed decreases rapidly.
-&gt;The Huey settles into a hover directly above a clearing.
-&gt;Your squad rushes forth from the hovering helicopter and takes a kneel in a protective semi-circle around the aircraft as personnel and supplies offload.
-&gt;You watch a dozen other choppers land in formation about you, offloading their troops.
-&gt;This was always the most terrifying part of the mission, even with the gunner’s M60 machine gun trained on the not-so-distant treeline: it only took a single well-placed mortar on the chopper to KO your squad - or worse, maroon you deep inside the combat zone with the Viet Cong about.
-&gt;Fortunately, the Huey squadron manages to apply power in unison and tilt forward to depart totally unmolested.
-&gt;The stillness of the jungle returns, with birds crying sporadically and insects buzzing about like little vultures as your company assembles into platoons for a pincer move on the village several kilometres away.
-&gt;Being the platoon scout, you carry less gear - but get the unenviable duty of picking your way through the jungle ahead of your unit, following no trail to maximize the likelihood of avoiding traps and landmines.
-&gt;Coincidently, your path is largely free of the shitty dense overgrowth that makes marching most anywhere in Vietnam an absolute misery.
-&gt;You were appreciative of the early morning too, the sun only just starting to crest over the hills.
-&gt;It was going to be absolute hell in a few hours, with temperatures of nearly 100 fahrenheit at 90% humidity.
-&gt;Tracking your position roughly on your topo map, you estimate that the platoon is covering ground in good time.
-&gt;It was only an an hour and a half trek, but you arrive at the assault point with a good twenty minutes to spare.
-&gt;Not bad work, you figure.
-&gt;You safe your rifle, drop your helmet from your head and pop the buttons on your canteen cover, then fetch the plastic bottle and take a greedy gulp.
-&gt;You are eager to rest a few minutes as you were already drenched in sweat from the march in the steadily increasing heat, and move to pop a squat - but end up doing so in front of the Lieutenant, who is busy studying the map and whispering into the radioman’s PRC-77 portable radio on his rucksack.
-&gt;Hanging up the handset and scowling at the map, he turns to you.
-“PFC Anon, good work getting us here quick. I need you to grab your rifle and scout the treeline to the north, following to the edge of the village. Count troops and any gun emplacements. Do not engage and do not be seen. I need you back in fifteen minutes.”
-&gt;Yessir.
-&gt;You grab your rifle and re-seat your helmet, wondering if perhaps you ought to have dawdled a bit.
-&gt;You pick your way along the treeline and take a kneel against the trunk of a tree.
-&gt;Your position is atop a small hill about 700 feet away from the objective, giving you an excellent vantage.
-&gt;You peer through the binoculars, ensuring you cup your fingers around the outside edge of the lens to stop it glinting.
-&gt;Your first scan of the village reveals nothing, just a standard ramshackle rural village in hilly terrain, complete with a creek running through the centre with several bamboo-planked bridges erected to allow passage over it.
-&gt;It looked about the size to be home for a few hundred people, who had either fled or perished to the VC.
-&gt;There were consequences for villages not actively supporting the North or essentially not defying US and ARVN forces, supplying arms or caching arms - it was not unheard of for whole villages to vanish.
-&gt;Initiating a slow and more detailed second scan of the area nets a number of AK-47 armed Viet Cong (you could tell by the sandals) - and a handful of North Vietnam Army regulars strewn into the mix.
-&gt;As you determine enemy force disposition, your binoculars begin to move further to the flanks to search for hidden gun pits when you come across a curiosity.
-&gt;Heavily camouflaged figures slowly crawling towards the village, only a hundred feet or so from the outermost shanty.
-&gt;Puzzled, you focus on this group, following their progress: there was no mention of a Force Recon team involved during the briefing back at Da Nang?
-&gt;At least you had to assume that: wouldn’t make much sense for North Vietnamese troops to sneak into the village they controlled, even if they knew that an attack was imminent.
-&gt;Your tactical analysis was interrupted by marauding duo of Viet Cong on patrol appear in your range of vision and seem to be on an intercept course with the infiltrators.
-&gt;You hiss in frustration, ripping the binoculars away from your face, eyeing up the M16 you have sitting in front of you.
-&gt;They&#039;re in range. You could kill them, and kill them easy, but you can&#039;t risk your unit.
-&gt;Didn’t you have your orders to only reconnoiter?
-&gt;You don’t even know who they are.
-&gt;Raising the binoculars once more to reevaluate the situation, you discover that two of the camouflaged troops you were watching had ceased moving and were training what were most certainly M16 rifles with long slender protrusions at the ends of the barrel.
-&gt;There was nary a crack of discharge from the rifles, and the two VC fell to the ground.
-&gt;the four camouflaged troops took to their feet, providing you a very clear view of what you&#039;re pretty sure were tails before moving at a hustle to clear the open ground.
-&gt;Two paused only to grab the bodies and guns of the fallen VC to drag inside the closest shanty.
-&gt;Watching them vanish, you ponder the politics involved: Johnson and Nixon must have lied after all.
-&gt;It was not the first time you had seen anthros: you’d been to an Indian casino a year or so back, run by coyotes and foxes, back just after Native American tribal sovereignty hit the Supreme Court.
-&gt;But American anthro troops were supposed to only be based in the continental United States or flying with the Navy/Air Force.
-&gt;All volunteers, with no legislatively-imposed draft and all that.
-&gt;As to why was part-politics, part-anyone&#039;s guess and hence a contentious topic, especially based on lack of official comment from the Department of Defense and the brewing racial turmoils back in the ‘States.
-&gt;So, Force Reconnaissance operating unsupported this far behind the line, and being anthros at that?
-&gt;Must be more to this op than meets the eye.
-&gt;You do a hurried scan and count of the remaining (and fortunately, still unaware) VC still mulling about, and beat feet back to report to the Lieutenant.
-&gt;The return journey was swift and uneventful, leaving you to formulate how to report disposition and ponder how to bring up the anthro oddity.
-&gt;The Lieutenant, bless his soul, was wise enough to avoid the ‘fragging’ phenomenon by remembering to confer with his senior enlisted troops on matters beyond that of combat and efficiency, and you caught the tail end of this upon your arrival at the assault briefing.
-“Welcome back, Anon. What did you see?”
-&gt;You mentally toss up reporting what you saw, but… you don’t know what you saw, really. 
-&gt;Was it relevant to the mission?
-&gt;You are cognisant of six tenses faces staring at you, waiting for your report.
-At least twenty-seven irregulars, supplemented by twelve regulars. Competent patrols around perimeter. No visible Standard CHICOM AK/SKS, no visible emplaced weapons. No overwatch or defensible fortifications visible.
-&gt;The Lieutenant praises your success and then dismisses you to finish your briefing, having completed your role; leaving you free move away from the leadership to sit in the grass.
-You glance up at the sky, mostly concealed by the jungle canopy.
-&gt;Grey cloud moving in.
-&gt;Of course it was going to rain, this is Vietnam.
-&gt;You lean back into the moderately tall grass and close your eyes for a few minutes to rest up, glad you remembered to liberally coat your fatigues with bug juice to keep the little fuckers the hell away from you.
-&gt;Several restful minutes later, the sergeant delivers a well placed kick to rouse you, and reluctantly you take to your feet.
-&gt;Showtime, you supposed.
-&gt;The platoon split into squads and you moved out with the first
-&gt;It was not a long walk, but long enough for the brewing clouds overhead to unleash their payload.
-&gt;You&#039;re drenched in the space of a minute, but it&#039;s sure as hell better than being hot and sweaty&quot;
-&gt;As you move out of the depths of the jungle, the tranquility cuts out and is replaced with something darker.
-&gt;There’s gunfire in the distance, and you haven’t even cleared the treeline.
-&gt;You glance to the right, watching a concerned Lieutenant looking at his watch and talking into the handset of his radioman’s ruckpack radio.
-&gt;As a unit, you advance slowly forward in a staggered line abreast up to the edge of the jungle, every eye up and alert for movement.
-&gt;In the distance, the throaty roar of 7.62mm armaments echoes over the sharp barks of 5.56mm weaponry.
-&gt;You note no bellowing M60 machine gun fire.
-&gt;Sierra Foxtrot, this didn’t bode well for you.
-&gt;Your platoon presses forward, but no bullets bear down.
-&gt;A surprise, but a welcome one.
-&gt;The distant gunfire tapers off before the platoon reaches the outermost section of the village.
-&gt;The platoon splits apart and takes cover against a number of shanties, taking positions peeking about the corners and training weapons towards where gunfire had been originating from.
-&gt;Occasional pot shots told you that there were still Charlie occupying your objective.
-&gt;Your squad leader rallies you and the other eight soldiers, and advances slowly down the street, textbook overwatch tactics all the way along.
-&gt;You’re starting to encounter bodies strewn about.
-&gt;Not friendlies, and riddled with centre mass wounds.
-&gt;But this one… the throat is ripped right out?
-&gt;You bend down to inspect the body.
-&gt;The wound is ragged and bloodied, with no immediate way of telling what--.
-&gt;You are sprayed with shards of bamboo, a number of holes appearing on the wood of the hovel where you just standing and a deep, booming staccato of gunfire piercing the stillness of the air.
-&gt;One of your squadmates on overwatch delivered a burst through the chest of VC guerilla atop the roof. 
-&gt;He drops his Kalashnikov as he falls.
-&gt;As if they were right out of the woodworks, communist troops crawl from every corner and open fire. 
-&gt;You dive for cover in the mud, one of your squad-mates dropping beside you with a hollow slap.
-&gt;Your heart pounds, spike of adrenaline coursing through your veins as you crawl out of the line of fire into a narrow alleyway running between the side of two hovels.
-&gt;You hated to leave your squad, but your concern was finding a safe spot to return fire from.
-&gt;As you turn the corner at a sprint, you blunder into a NVA regular.
-&gt;Turning to face you, with a levelled AKM in his hands.
-&gt;With your gun already cradled in your arms with a better engagement angle, you reflexively point and shoot from the hip.
-&gt;You feel the muzzle climb as the gun judders eight or nine times before releasing the trigger, and your opponent drops to the dirt profoundly dead.
-&gt;Dropping the magazine, you fish a full twenty-rounder from your ammunition pouch, slot it in, and stash the partially expended magazine away.
-&gt;You catch hushed Vietnamese from inside a shack to the your right.
-&gt;You move further away from the voices and the ongoing firefight, pointedly ignoring the man you just killed.
-&gt; He wasn’t your first and you doubted he would be your last.
-&gt;Several minutes of brief rushes from cover to cover has you taking shelter against an outhouse and peering about cautiously.
-&gt;With a sickening sense of dread, you came to realise that your squad was tactically withdrawing without you.
-&gt;Probably didn’t have much for a choice, based on the overpowering sound of AKs.
-&gt;You just need to lie low, wait for the whole company assault.
-&gt;Glancing about, you may as well find an unoccupied building to take cover in and get out of the rain, plus staying out in the open will only get you shot.
-&gt;Cautiously creeping along to an adjacent house, you leaned back against against the door, you look around cautiously and consider if this is a good place.
-&gt;You pause too long, hear a creak on a floorboard behind the door too late, and find the door is flung inward suddenly, leaving you off balance and falling backwards.
-&gt;And then you&#039;re in a chokehold and being lowered to the ground, quite unable to call out, and rifle clattering to the ground away from your scrambling hands.
-&gt;Head held immobile in the firm grasp and knowing you were not going to be able to reach the Smith &amp; Wesson pressing into the small of your back, your hands instead move to grab at the arm, struggling to breathe and look at the face of your attacker.
-&gt;Your efforts only result in you knocking your helmet off, but are rewarded with the glimpse of a a canine face staring impassively down at you.
-&gt;You would probably start thinking something right about now, if not for your vision seeming to start constricting.
-&gt;You hear a voice exclaim something in a surprised tone, and you find yourself immediately released and allowed to lay back on the floor, greedily sucking in air.
-&gt;You gently caress your neck with a hand, breath and heart rate slowly regulating, before turning your attention to your would-be assailant; who was standing off to the side and talking quietly in an indecipherable tongue to three others semi-obscured in shadow, not immediately concerned about you.
-&gt;Moving to sit up, the conversation comes to a sudden halt, and you find yourself looking up at an apologetic-looking wolf, with -her!- paw held down in an offer to help you up from the floor.
-&gt;Appreciating the gesture as an olive branch, you graciously take the paw in hand, noticing the feel of her soft and textured pads against your palm and the soft fur under your thumb.
-&gt;You cannot help but appreciate the vigour of her grasp, as you are hoisted to your feet.
-&gt;After adjusting your belt and load carrying equipment, you take the opportunity to study the wolf before you. 
-&gt;She’s built sturdily and blanketed with thick, tan fur, colouration growing darker around the top of her head and up her thickly-furred pointed ears, and sandier down the sides of and under her long, sharp muzzle.
-&gt;Deep blue eyes.
-&gt;Your eyes drop to her flak jacket-covered olive fatigues, strikingly similar to your current attire, and honed in on the insignia on the shoulder.
-&gt;Gold and black patch with a red centre, embossed with an eagle, anchor, and star.
-&gt;Was that the Republic of Korea Marine Corps?
-&gt;You were not aware they had anthro units in theatre.
-&gt;But you distinctly remembered the briefing the CIA had done as part of in-processing, and the phrasing they had used.
-&gt;”The enemy fears the Koreans both for their tactical innovations and for the soldiers&#039; tenacity and ferocity.“
-&gt;The wolf had studied your fatigues and unit markings, no doubt making her own assessments on you, catching your eye and was visibly and awkwardly attempting to figure out what to say.
-&gt;“My name is Sowi Sujin, Republic of Korea Marine Corps Reconnaissance. I’m in charge here. I am sorry to have attacked you; I did not know Americans were here, and was hasty in assuming the Viet Cong had started searching the abandoned huts after discovering their dead. Who are you and what are you doing here?”
-&gt;Her English is excellent, a slight accent detectable.
-&gt;All things considered, it&#039;s not a totally illogical thing to assume.
-&gt;You introduce yourself to Sujin as PFC Anon and explain that your unit came under fire entering the village, that you had seen their ingress from a hilltop earlier, but had not been sure they were friendlies - that their suppressed M16s worked a treat on the patrol.
-&gt;You pause, collecting your line of questioning before continuing, asking why they were here, as they were not supposed to be a part of the order of battle.
-&gt;She tilts her head in a very dog-like way for a second, studying you.
-&gt;“We were not informed of any American operations in this area, which is why we were deployed at a remote landing zone yesterday and hiked ten kilometres here to crawl in.”
-&gt;Sujin gestures to her small unit, a large floofy Samoyed chatting with a short aviator-wearing Shiba Inu who looked more suited to be a tunnel rat, and a remarkably unamused and disinterested Lynx who was cleaning his fieldstripped M16.
-&gt;You also note the discarded camouflage gear, stashed a few feet away from a neatly-stacked pile of VC corpses.
-&gt;“We are here because your NRO and CIA think this village is of tactical significance, due to the Viet Cong digging out a large tunnel network underneath containing large quantities of arms and supplies.”
-&gt;Well shit.
-&gt;You can’t help but wonder aloud why were you here then, if this is already tasked to another unit? 
-&gt;On a separate note, weren’t there supposed to be more than four troops in a squad?
-&gt;Based on the grimace, you had asked a question she didn&#039;t want to answer
-&gt;“We lost a chopper to enemy fire over a ridge coming into the LZ - broke apart, all confirmed KIA. The second chopper got us down okay, but took fire departing on the alternate egress route, going down in the jungle. Fuel tank went, burned to the ground. So, we’re all that&#039;s left.”
-&gt;She paused, visibly pained based on the grimace and flayed back ears.
-&gt;It was a stupid instinct, but you really wanted to ruffle her head fluff and attempt to reassure her - but that would be wildly inappropriate to do to someone you just met.
-&gt;Plus she might throttle you again if you tried.
-&gt;“Unlucky placement of a ZPU-2 triple-A emplacement, aerial reconnaissance could have never caught it.”
-&gt;A dark look crossed into her face, with something telling you that the gun emplacement crew would never do that again.
-&gt;“We pushed on to here because we still had a mission to preform, and we also have vague hopes of an American unit being deployed here to provide us a ride home. Otherwise, we were walking: our radioman was in the second chopper.”
-&gt;She’s earnest, and pretty likable.
-&gt;Hell, maybe even cute.
-&gt;You inquire about how many anthro units in Vietnam and why they were here.
-&gt;A deep male voice to your left answers you.
-&gt;“You’re looking at a detachment from the only company in Vietnam. I’m Hansa Dae-Jung,” 
-&gt;He offers a large paw for you to shake, which you accept graciously.
-&gt;American accent too.
-&gt;The mud-coated white and thickly-furred Samoyed towered over you at about six foot two, an easy grin on his face as he answers.
-&gt;Poor fella must be absolutely miserable in the tropical heat.
-&gt;“Our country had no problems sending a division of Marines over support your war, prefering to instead keep a division of your troops on the border with the Communists. We’ve been deployed as a section in Vietnam on and off again for about a year and a half.”
-&gt;Curious, you ask what got them in the military, knowing they were going to have to see combat in a foreign country.
-&gt;Dae-Jung pointed at the Shiba Inu, meandering over to join you, offering his paw to shake.
-&gt;“Ibyeong Seok here was conscripted out of school, and has to finish two years before allowed to start his studies. Same with Ilbyeong Young, over in the corner, who studied French instead of english and is a bit on the shy side anyway. As for me, I’m supporting my wife back home.”
-&gt;Sujin speaks up with her own story.
-&gt;“I joined to see some of the world beyond Korea, and to earn my way to success.”
-&gt;Loftier ideals than yours, you explain, telling the tale of you wanting to escape abuse, intolerance, alcoholism and your family in Smalltown, USA.
-&gt;You confide that you don’t know where you want to go after this or what you want to do, receiving sympathetic nods.
-&gt;Sujin’s attention turns appears distracted, ears flicking, momentary contemplation clear before coming to a decision.
-“Gunfire from the edge of the village is consistent. Grab your kit, we’re moving out. We need to find an entrance to the tunnel system.
-&gt;Her attention turns to you, passing you your rifle and helmet whilst the group scatters to collect armaments and packs.
-&gt;“Anon, do you want to come along? You’re not my subordinate, but we can definitely use the help.”
-&gt;You mentally weigh up waiting in relative safety of the inside of this shanty, but there was probably greater safety in numbers right now.
-&gt;Yeah, you will - how can you help?
-&gt;You almost regret the question, as Seok throws a satchel at you to carry.
-&gt;Peeking inside, you note a dozen blocks of C4 plastic explosive.
-&gt;Sealing tunnels, indeed.
-&gt;You cast a gaze over the anthro troops grabbing the last of their things, unable to prevent yourself grinning at the amusing way their various-coloured ears stuck out atop their jungle green boonie hats.
-&gt;Now geared up, Sujin opens the door cautiously, searching for lurking VC.
-&gt;Satisfied, she pulls the door fully ajar and leads the section out into the rain.
-&gt;Moving from building to building cautiously, you find yourself in the middle of the formation of anthos with the shorter Seok taking the lead.
-&gt;You wouldn’t be shooting first, because your M16 was not suppressed like everyone else.
-&gt;Progress was slow, searching for distant gunfire still present, with the infrequent patrol of VC passing by.
-&gt;Your companion’s ears twitch, looking about and trying to locate something.
-&gt;Only a second or two later, you hear it too: a gradually building rumble.
-&gt;Your eyes widen, the idea in your head matching the roar of jets approaching.
-&gt;Fast movers.
-&gt;Your eyes track to the east, spotting a flight of Air Force F-105 Thunderchiefs heading towards you, less than a half mile out.
-&gt;Likely ordered in for Close Air Support by the platoon Lieutenant.
-&gt;Realizing concurrently your element is in the middle of an enemy occupied village that US forces just withdrew from.
-&gt;As you are watching, long and slender silver canisters drop from the wings of the aircraft, tumbling erratically earthward.
-&gt;Faster than you could react, Sujin is airborne, tackling to you the ground and pulling you tight against her, her cold wet nose pressing against your neck as the F-105s streak overhead, pitching back to a 45 degree climb.
-&gt;Momentarily, the other three troops join you prone in the mud, anxiously waiting for impact.
-&gt;A wall of flame erupts to either side of you.</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/cBbWma3n">Calcular e média de um aluno</a>
-                <div class="details">
-                                            Python |
-                    
-                    12 min ago                </div>
-            </li>
-                    <li>
-                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
-                <div class="details">
-                                            Python |
-                    
-                    27 min ago                </div>
-            </li>
-                    <li>
-                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
-                <div class="details">
-                                            HTML 5 |
-                    
-                    32 min ago                </div>
-            </li>
-                    <li>
-                <a href="/btQEV0ET">Programming - practice</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/puJtA4QV">views.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/XgV1xT3P">forms.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/uxEpBHki">K1_as</a>
-                <div class="details">
-                                            C# |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
-<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
-</body>
-</html>

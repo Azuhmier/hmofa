@@ -1,660 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>High Octane - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="High Octane - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/qhjzcbnW" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/qhjzcbnW" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="Ozw4_0L0LtCWUdmsF7zVW6jP-Etl-oIDeXkQI8NmJi9vY1K2e6BEieF8r8h9jLsTwL6oDyKo0DBOPkMbsgljbQ==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/qhjzcbnW" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/qhjzcbnW" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>High Octane</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Friday 8th of November 2019 11:35:00 AM CDT">Nov 8th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    62                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 16.57 KB            </div>
-
-            <div class="right">
-                <a href="/raw/qhjzcbnW" class="btn -small">raw</a>
-                <a href="/dl/qhjzcbnW" class="btn -small">download</a>
-                <a href="/clone/qhjzcbnW" class="btn -small h_800">clone</a>
-                <a href="/embed/qhjzcbnW" class="btn -small h_800">embed</a>
-                <a href="/report/qhjzcbnW" class="btn -small">report</a>
-                <a href="/print/qhjzcbnW" class="btn -small h_800">print</a>
-
-                                    <a href="/diff/qhjzcbnW" class="btn -small" title="This paste has a previous version. Click to view the difference.">
-                        diff                    </a>
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">High Octane</div></li><li class="li1"><div class="de1">&gt;You sighed, brushing your feathers the right way with a smile</div></li><li class="li1"><div class="de1">“This is it, D… one good win.”</div></li><li class="li1"><div class="de1">&gt;This was a race you needed, even third would be golden.</div></li><li class="li1"><div class="de1">&gt;Money for the car or a better one, make it even better, win more races.</div></li><li class="li1"><div class="de1">&gt;You were behind the wheel of a Nissan Sentra, budget car, but it was better then keeping with the low pay hatch-back races.</div></li><li class="li1"><div class="de1">&gt;You were a street racer, one of three girls, the only bird.</div></li><li class="li1"><div class="de1">&gt;It was a good paying “job”. Not legal… but regulated internally.</div></li><li class="li1"><div class="de1">&gt;Classes and tiers, basic rules, straight up cash.</div></li><li class="li1"><div class="de1">&gt;You finally got bumped up into the common-advanced class, so a better car was needed, but this one would do.</div></li><li class="li1"><div class="de1">&gt;Not like you were the only one too, another guy had a super beat to shit Subaru. One girl, a Honda.</div></li><li class="li1"><div class="de1">&gt;The three you had to watch out for were that old ass muscle car, the Supped up Dodge, and… The Panther.</div></li><li class="li1"><div class="de1">&gt;It was a Camaro, 2005, but the driver… the Panther…</div></li><li class="li1"><div class="de1">&gt;Jake was his name, but his reputation was well known in this class. He could talk shit and take better then he could dish out.</div></li><li class="li1"><div class="de1">&gt;Never flinched, never got mad or annoyed, had a come back for almost everything, and not a single driver or watcher fucked with him.</div></li><li class="li1"><div class="de1">&gt;He was basically the football jock with a gun, and a chipper attitude.</div></li><li class="li1"><div class="de1">&gt;He was also a bigger dick then anyone in the country.</div></li><li class="li1"><div class="de1">&gt;Would be beat you? Not without a fight. You needed this, wanted this.</div></li><li class="li1"><div class="de1">&gt;Sure, you were on a budget, but you still went out and customized some of the car.</div></li><li class="li1"><div class="de1">&gt;Looking up at a flash, you grinned, seeing the starting girl.</div></li><li class="li1"><div class="de1">&gt;Fuck… top with a cut like that, the rack says enough.</div></li><li class="li1"><div class="de1">&gt;”WOOOO!”</div></li><li class="li1"><div class="de1">&gt;The crowd at the side of the start cheered with her, though probably at her bouncing tits as she jumped up and down.</div></li><li class="li1"><div class="de1">&gt;3…2…1…</div></li><li class="li1"><div class="de1">&gt;Shft-gas-go!</div></li><li class="li1"><div class="de1">&gt;You Huffed, the slow start putting you in third as you rounded the corner.</div></li><li class="li1"><div class="de1">“Come on D.”</div></li><li class="li1"><div class="de1">&gt;Shift… Good. Good. Slow. Good.</div></li><li class="li1"><div class="de1">&gt;Up the ramp and onto the highway.</div></li><li class="li1"><div class="de1">&gt;Now you were in forth, that muscle car showing it’s strength on the open road.</div></li><li class="li1"><div class="de1">&gt;You might sill have a chance though!</div></li><li class="li1"><div class="de1">“Time to shine.~”</div></li><li class="li1"><div class="de1">&gt;Heal-toe-down</div></li><li class="li1"><div class="de1">&gt;Cranking the wheel slightly, you glided into a drift, peeling past the cars on a tight turn.</div></li><li class="li1"><div class="de1">&gt;Third… second…</div></li><li class="li1"><div class="de1">&gt;FIRST!</div></li><li class="li1"><div class="de1">&gt;Getting your car straight, you went forward, smiling.</div></li><li class="li1"><div class="de1">&gt;BANG!</div></li><li class="li1"><div class="de1">&gt;You gasped, gripping the wheel tighter.</div></li><li class="li1"><div class="de1">&gt;Not a tire! Then what…</div></li><li class="li1"><div class="de1">&gt;You could see the smoke or steam pouring from the hood, feeling your feathers puff up.</div></li><li class="li1"><div class="de1">“No… No, NO!”</div></li><li class="li1"><div class="de1">&gt;One by one, the others pass you.</div></li><li class="li1"><div class="de1">&gt;…This is what you get for going budget on the next class too soon…</div></li><li class="li1"><div class="de1">&gt;You’re done for.</div></li><li class="li1"><div class="de1">&gt;Breaking, you come to a stop, getting out.</div></li><li class="li1"><div class="de1">&gt;Damnit.</div></li><li class="li1"><div class="de1">&gt;You raise your fist, pausing and sighing as you touch the car gently, your wings twitching.</div></li><li class="li1"><div class="de1">&gt;A car comes back, making you groan.</div></li><li class="li1"><div class="de1">&gt;Jake spins around, the smell of burnt rubber filling your nose.</div></li><li class="li1"><div class="de1">&gt;The panther grins, his teeth showing brightly as the girl in his car smirks.</div></li><li class="li1"><div class="de1">&gt;”Ayy! Not bad! But you should really go back to the nest and learn how to fly before you try to baby bird! Maybe not buy your car on the cheep cheep either? Get it?”</div></li><li class="li1"><div class="de1">&gt;He laughs, driving off and leaving you with your car.</div></li><li class="li1"><div class="de1">“Dick.”</div></li><li class="li1"><div class="de1">&gt;After calling a tow, you got back to your place, sighing.</div></li><li class="li1"><div class="de1">&gt;Now you might be fucked…</div></li><li class="li1"><div class="de1">&gt;You sold your other car and reserve to get enough for this one, and now you need to get the money to fix it.</div></li><li class="li1"><div class="de1">&gt;There is no way you can drop a class now, this is where the money started to flow!</div></li><li class="li1"><div class="de1">&gt;Not to mention, you needed better things for the car…</div></li><li class="li1"><div class="de1">&gt;Smiling, you turn to your old friend…</div></li><li class="li1"><div class="de1">&gt;/o/ Auto.</div></li><li class="li1"><div class="de1">&gt;Alright, an imageboard for cars might not be the best place, but it had everything you needed at times.</div></li><li class="li1"><div class="de1">&gt;Making a quick post and listing what you have, you turn and strip.</div></li><li class="li1"><div class="de1">&gt;You needed sleep… this was going to be a headache…</div></li><li class="li1"><div class="de1">&gt;You could get into an easier race in two or three days… but…</div></li><li class="li1"><div class="de1">&gt;Giving a shake, you put your thoughts aside, looking down at your Falcon body.</div></li><li class="li1"><div class="de1">&gt;Your white chest feathers stood up still, making you brush them down.</div></li><li class="li1"><div class="de1">&gt;Preening should be done soon… ish.</div></li><li class="li1"><div class="de1">&gt;You toss your leather jacket aside, crawling into bed</div></li><li class="li1"><div class="de1">&gt;Your bring your wings around yourself, making a self blanket and pulling another one over you as you get into bed.</div></li><li class="li1"><div class="de1">&gt;…Tomorrow is going to be busy.</div></li><li class="li1"><div class="de1">----------</div></li><li class="li1"><div class="de1">&gt;You yawned, waiting in line.</div></li><li class="li1"><div class="de1">&gt;Hurry the fuck up… fucking pig cop… just get your stupid treat and go…</div></li><li class="li1"><div class="de1">&gt;This is what you get for not buying coffee… a wait in line to get your own fix.</div></li><li class="li1"><div class="de1">&gt;Oh yeah! Your thread!</div></li><li class="li1"><div class="de1">&gt;You get your phone out, checking the replies.</div></li><li class="li1"><div class="de1">&gt;A bunch of japes and useful tips, just like you expected.</div></li><li class="li1"><div class="de1">&gt;too much… bad idea… you have no idea on how to do that to a car…</div></li><li class="li1"><div class="de1">&gt;One reply gets you, a fucking huge amount of people responding to another poster</div></li><li class="li1"><div class="de1">&gt;’Stop buying cheep ass and useless aftermarket parts’</div></li><li class="li1"><div class="de1">&gt;Fuck. He was replying to you and the entire thread became a war after his post.</div></li><li class="li1"><div class="de1">&gt;It kind of pissed you off, you didn’t fuck around with parts.</div></li><li class="li1"><div class="de1">&gt;When did you pay for the coffee? …oh right.</div></li><li class="li1"><div class="de1">&gt;Fuck, you are tired…</div></li><li class="li1"><div class="de1">&gt;You must be, because you just knocked someone down</div></li><li class="li1"><div class="de1">&gt;”Shit!”</div></li><li class="li1"><div class="de1">“Ahh!”</div></li><li class="li1"><div class="de1">&gt;You look down, seeing the human on his ass.</div></li><li class="li1"><div class="de1">“Sorry.”</div></li><li class="li1"><div class="de1">&gt;He huffs, rolling and pushing up before fixing his glasses.</div></li><li class="li1"><div class="de1">&gt;”It’s fine.”</div></li><li class="li1"><div class="de1">&gt;You walk along, looking back at the guy.</div></li><li class="li1"><div class="de1">&gt;ehh… he’s fine.</div></li><li class="li1"><div class="de1">&gt;Looking down, you see a black object on the ground.</div></li><li class="li1"><div class="de1">&gt;His phone…</div></li><li class="li1"><div class="de1">&gt;Might as well be nice.</div></li><li class="li1"><div class="de1">&gt;Picking it up, you smile, seeing it was left open and on /o/ of all things.</div></li><li class="li1"><div class="de1">&gt;Your smile fades as you see he’s on your own thread…</div></li><li class="li1"><div class="de1">&gt;Mother fucker! He’s the guy who called you out! Look at all those (you)’s!</div></li><li class="li1"><div class="de1">“Hey! You!”</div></li><li class="li1"><div class="de1">&gt;You run up to him, holding out his phone as he turns.</div></li><li class="li1"><div class="de1">&gt;”Oh… th-“</div></li><li class="li1"><div class="de1">“The hell do you mean? Useless aftermarket parts?”</div></li><li class="li1"><div class="de1">&gt;”…Lady… what the hell? …oh.”</div></li><li class="li1"><div class="de1">“Yeah, oh! I’m the one who made the damn thread!”</div></li><li class="li1"><div class="de1">&gt;”oh…well… I’m right.”</div></li><li class="li1"><div class="de1">“Bull shit!”</div></li><li class="li1"><div class="de1">&gt;”I am though, those are shit parts.”</div></li><li class="li1"><div class="de1">“How?!”</div></li><li class="li1"><div class="de1">&gt;”Because they are overpriced for what they are, and don’t even perform properly. Now, if you will excuse me.”</div></li><li class="li1"><div class="de1">“Wait! What ones?”</div></li><li class="li1"><div class="de1">&gt;”all of them.”</div></li><li class="li1"><div class="de1">“What do you mean, all?!</div></li><li class="li1"><div class="de1">&gt;You both talk back and forth, most of it being you just trying to get information of him.</div></li><li class="li1"><div class="de1">&gt;Turns out… he’s right. Way too right!</div></li><li class="li1"><div class="de1">&gt;This nerd knows way more about car parts then you, better yet, shows you good and better prices!</div></li><li class="li1"><div class="de1">&gt;God… what in the fuck have you been doing all along?</div></li><li class="li1"><div class="de1">&gt;”NOW! I’m done and going.”</div></li><li class="li1"><div class="de1">&gt;You watched him go, actually feeling worried.</div></li><li class="li1"><div class="de1">&gt;He knows so much, much more then you, and this golden chance is walking away.</div></li><li class="li1"><div class="de1">&gt;You can’t let this slip!</div></li><li class="li1"><div class="de1">“WAIT!”</div></li><li class="li1"><div class="de1">&gt;You chase after him, hearing him groan.</div></li><li class="li1"><div class="de1">“What will it take to get you to help me with my car?”</div></li><li class="li1"><div class="de1">&gt;”Money and a good time! Leave me alone!”</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;Deb… are you really willing to sell your own body for your own gain?</div></li><li class="li1"><div class="de1">&gt;You watch him walk away again, whoever he is.</div></li><li class="li1"><div class="de1">&gt;Yep.</div></li><li class="li1"><div class="de1">“DEAL!”</div></li><li class="li1"><div class="de1">---------</div></li><li class="li1"><div class="de1">&gt;”DEAL!”</div></li><li class="li1"><div class="de1">&gt;You gasp, the falcon grabbing you by your arm and pulling you along</div></li><li class="li1"><div class="de1">“Hey!”</div></li><li class="li1"><div class="de1">&gt;Pulling, you get her to stop.</div></li><li class="li1"><div class="de1">&gt;You were being sarcastic, what Is she doing?</div></li><li class="li1"><div class="de1">&gt;Her golden eyes burn with hope as she moves the bit of pink on her head to the side and looks at you.</div></li><li class="li1"><div class="de1">&gt;She kisses you, her beak being surprisingly smooth.</div></li><li class="li1"><div class="de1">&gt;You are a little stunned, the falcon looking at you when she pulls back.</div></li><li class="li1"><div class="de1">&gt;”I’ll fuck you, then you help me. Come on!”</div></li><li class="li1"><div class="de1">&gt;Anonymous, what have you gotten yourself into?</div></li><li class="li1"><div class="de1">“Look, i-“</div></li><li class="li1"><div class="de1">&gt;”My place is not far! Whatever you want!”</div></li><li class="li1"><div class="de1">&gt;She looks at you almost pleadingly, desperate to get you to help her.</div></li><li class="li1"><div class="de1">&gt;Damnit… now you feel like a dick.</div></li><li class="li1"><div class="de1">“Look… I’ll do it. But I don-“</div></li><li class="li1"><div class="de1">&gt;”Not going to cheep you out, sex now, then work on the car!”</div></li><li class="li1"><div class="de1">“That’s not!”</div></li><li class="li1"><div class="de1">&gt;Again you get pulled along, making you grunt and sigh.</div></li><li class="li1"><div class="de1">&gt;Damn it all.</div></li><li class="li1"><div class="de1">&gt;You fixed your glasses, just following the unknown Falcon.</div></li><li class="li1"><div class="de1">&gt;More like get dragged by…</div></li><li class="li1"><div class="de1">&gt;You eventually come to a small house, the Falcon unlocking it and pulling you inside.</div></li><li class="li1"><div class="de1">&gt;She keeps pulling you, bringing you down a hall and into a bedroom.</div></li><li class="li1"><div class="de1">&gt;She can’t be…</div></li><li class="li1"><div class="de1">&gt;You watch as she pulls her T-shirt off, grabbing onto you and kissing you again.</div></li><li class="li1"><div class="de1">&gt;She also brings your hands to her feathered breasts, the C cup bra separating your hands from them.</div></li><li class="li1"><div class="de1">&gt;…Alright. She is serious.</div></li><li class="li1"><div class="de1">&gt;You feel a tug at your own shirt, your own chest being exposed before she tosses you to the bed.</div></li><li class="li1"><div class="de1">&gt;The Falcon climbs onto you, groping your crotch.</div></li><li class="li1"><div class="de1">&gt;”Come on.~”</div></li><li class="li1"><div class="de1">&gt;Whelp…</div></li><li class="li1"><div class="de1">&gt;You nod, sighing slightly again.</div></li><li class="li1"><div class="de1">&gt;It was a tiny bit of a turn on, the sex part.</div></li><li class="li1"><div class="de1">&gt;You put your gasses on a table next to the bed, feeling the Falcon pull at your pants with her claws.</div></li><li class="li1"><div class="de1">&gt;She gets you naked, doing the same before she starts touching you, careful not to hurt or prick you.</div></li><li class="li1"><div class="de1">&gt;It doesn’t take much for her to get you hard, your erect member standing up as she moves and hovers over you.</div></li><li class="li1"><div class="de1">&gt;Your hands go to her hips as you enter her, her feathers being soft and a little ticklish on your bare skin.</div></li><li class="li1"><div class="de1">&gt;She bounces, her wings flapping slightly.</div></li><li class="li1"><div class="de1">&gt;”Ahh!”</div></li><li class="li1"><div class="de1">“Nnnh!”</div></li><li class="li1"><div class="de1">&gt;Everything just goes so quickly, the falcon wasting no time to make sure the deal is sealed.</div></li><li class="li1"><div class="de1">&gt;A gasp escapes you as you cum, your unknown sex partner doing the same and shaking above you when she pulls up.</div></li><li class="li1"><div class="de1">&gt;You look down, being able to make out the cum you got on her feathers.</div></li><li class="li1"><div class="de1">&gt;She sighs, laying on you after a bit.</div></li><li class="li1"><div class="de1">&gt;”Deb.”</div></li><li class="li1"><div class="de1">“…What?”</div></li><li class="li1"><div class="de1">&gt;”My name… yours?”</div></li><li class="li1"><div class="de1">”Anon…”</div></li><li class="li1"><div class="de1">&gt;She hums.</div></li><li class="li1"><div class="de1">&gt;”Good to be working with you, Anon.”</div></li><li class="li1"><div class="de1">----------</div></li><li class="li1"><div class="de1">&gt;You grinned, cleaning yourself from the mess</div></li><li class="li1"><div class="de1">&gt;Worth it.~</div></li><li class="li1"><div class="de1">&gt;Even if you need to go to a clinic and get some pills, this is worth it.</div></li><li class="li1"><div class="de1">&gt;You sighed, letting the water wash over your feathers as you thought back to what Anon said.</div></li><li class="li1"><div class="de1">&gt;Apparently you weren’t as much of an idiot as he thought. Your set up and car made sense on paper, just not in practice.</div></li><li class="li1"><div class="de1">&gt;Your parts choice is what was poor, and how they were working with how you pushed the car apparently.</div></li><li class="li1"><div class="de1">&gt;He knows parts, tolerances, ratios, pressures… all the limits of the parts.</div></li><li class="li1"><div class="de1">&gt;He gets the technical stuff, you get the driving and mechanical stuff.</div></li><li class="li1"><div class="de1">&gt;This was the perfect partnership.</div></li><li class="li1"><div class="de1">&gt;Shutting off the water, you stepped out, drying off quickly.</div></li><li class="li1"><div class="de1">&gt;You went to the garage after, smiling.</div></li><li class="li1"><div class="de1">&gt;Anon was back already, having brought his laptop and already looking over your car.</div></li><li class="li1"><div class="de1">&gt;You had let him get cleaned first, taking your time to get clean as he got his things.</div></li><li class="li1"><div class="de1">&gt;Better yet, he was closer then you thought.</div></li><li class="li1"><div class="de1">&gt;”Alright… good news. We can get up and running for Monday.”</div></li><li class="li1"><div class="de1">&gt;You moved to him, looking at the laptop.</div></li><li class="li1"><div class="de1">“Really?”</div></li><li class="li1"><div class="de1">&gt;”Yes. It’s just all parts… how much money do you have?”</div></li><li class="li1"><div class="de1">&gt;…shit.</div></li><li class="li1"><div class="de1">“uhh… good question.”</div></li><li class="li1"><div class="de1">&gt;He sighs, adjusting his glasses as he looks at you.</div></li><li class="li1"><div class="de1">&gt;”You better have something, or I can’t get you what you need.”</div></li><li class="li1"><div class="de1">&gt;You had money, but… that was meant to keep a roof over your head.</div></li><li class="li1"><div class="de1">&gt;This could mean much more money though, breaking even now could mean thousands down the road.</div></li><li class="li1"><div class="de1">&gt;You nod, keeping a straight face.</div></li><li class="li1"><div class="de1">“4k…”</div></li><li class="li1"><div class="de1">&gt;Anon smiles, nodding.</div></li><li class="li1"><div class="de1">&gt;”We are set then.”</div></li><li class="li1"><div class="de1">&gt;You had better be… not only have you sold your body, you basically sold your house if this fails.</div></li><li class="li1"><div class="de1">&gt;Anon gets up, stretching.</div></li><li class="li1"><div class="de1">&gt;”Okay… well then. Give it to me and I’ll order everything. We can be up and running for Monday. Got a monster?”</div></li><li class="li1"><div class="de1">“Oh… yeah, I can get some, I’ll need one.”</div></li><li class="li1"><div class="de1">&gt;Anon looks at you, shaking his head.</div></li><li class="li1"><div class="de1">&gt;”If you ask me, you should sleep. You honestly look jet lagged, and by that, I mean you look like shit.”</div></li><li class="li1"><div class="de1">&gt;You sigh, looking up.</div></li><li class="li1"><div class="de1">&gt;Maybe you didn’t sleep as well as you thought… you did feel tired, and the quick sex didn’t help.</div></li><li class="li1"><div class="de1">“You’ll need me.”</div></li><li class="li1"><div class="de1">&gt;”No I won’t. I’ve done fabrication things before, and played mechanic for a few friends on gas RC cars. This is just bigger.”</div></li><li class="li1"><div class="de1">“I’m not going to be sleeping if you are using my tools. This place isn’t sound proof.”</div></li><li class="li1"><div class="de1">&gt;He sighs, grabbing a backpack and pulling out a bottle of pills.</div></li><li class="li1"><div class="de1">&gt;”Take two. It’s a sleep aid.”</div></li><li class="li1"><div class="de1">&gt;You take the bottle, looking at it.</div></li><li class="li1"><div class="de1">“Uhh…”</div></li><li class="li1"><div class="de1">&gt;”I have insomnia. Just take them! Why would I poison you now? It’s not like I have a reason to end this if I get half and free sex.”</div></li><li class="li1"><div class="de1">&gt;…point taken.</div></li><li class="li1"><div class="de1">&gt;You nodded, setting the bottle down and doing a quick run to the corner store before getting back and going to sleep.</div></li><li class="li1"><div class="de1">----------</div></li><li class="li1"><div class="de1">&gt;You give a big yawn as you open your eyes, groaning and rolling over.</div></li><li class="li1"><div class="de1">&gt;Your eyes go wide, seeing that you slept for 16 hours.</div></li><li class="li1"><div class="de1">“What in the fucking fuck.”</div></li><li class="li1"><div class="de1">&gt;You sit up, groaning and giving a stretch.</div></li><li class="li1"><div class="de1">&gt;Wow… you feel great!</div></li><li class="li1"><div class="de1">&gt;Smiling, you spread out and take the time to preen.</div></li><li class="li1"><div class="de1">&gt;When that is done, you get dressed and walk into the kitchen, your brain catching up to you.</div></li><li class="li1"><div class="de1">&gt;You left Anon alone with your car for 16 hours~</div></li><li class="li1"><div class="de1">&gt;Turning on the spot, you go out and open up the door to the garage.</div></li><li class="li1"><div class="de1">&gt;The hood is on the floor, door off the driver’s side, Anon sleeping in the seat.</div></li><li class="li1"><div class="de1">&gt;There’s a beeping as you approach, metal shavings on the ground.</div></li><li class="li1"><div class="de1">&gt;What did he even do?</div></li><li class="li1"><div class="de1">&gt;Looking inside, you see his laptop beeping away.</div></li><li class="li1"><div class="de1">“Pressure check: OK?”</div></li><li class="li1"><div class="de1">&gt;Anon jumps, grabbing onto the arm rest and the door jam.</div></li><li class="li1"><div class="de1">&gt;You laugh, seeing him get his bearings.</div></li><li class="li1"><div class="de1">“You okay there champ?”</div></li><li class="li1"><div class="de1">&gt;”Yes… damnit, I fell asleep.”</div></li><li class="li1"><div class="de1">&gt;You shrugged, he obviously had been working.</div></li><li class="li1"><div class="de1">“What’s this pressure thing?”</div></li><li class="li1"><div class="de1">&gt;Anon smirks, his glasses giving a flash from the light as he adjusts them.</div></li><li class="li1"><div class="de1">&gt;”Nitrous.”</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">“HOLY SHIT! You put a rig in my car?!”</div></li><li class="li1"><div class="de1">&gt;He gestures to the back, making you go to the open trunk.</div></li><li class="li1"><div class="de1">&gt;Lo and behold, two big tanks sit in your trunk, a hole drilled and sealed properly into the body to feed it to the engine.</div></li><li class="li1"><div class="de1">&gt;”The only issue is that we don’t have the money to get the proper computer set up, so it needs to be done manually.” Anon says, walking next to you. “We can also take it out if need be.”</div></li><li class="li1"><div class="de1">&gt;You grab onto the Human, giving him a kiss before diving head first into the trunk.</div></li><li class="li1"><div class="de1">&gt;”Uuh…”</div></li><li class="li1"><div class="de1">“So! Can we drive it now?”</div></li><li class="li1"><div class="de1">&gt;Anon nods as you look back at him, fixing his glasses again.</div></li><li class="li1"><div class="de1">&gt;”We need to, actually. I need to see how your car runs so I can set things properly. If I’m stuck riding shotgun with you, I better get good at it.”</div></li><li class="li1"><div class="de1">“Done deal! Let’s go!”</div></li><li class="li1"><div class="de1">&gt;You help Anon put everything back together, starting up the car and getting on the road.</div></li><li class="li1"><div class="de1">&gt;Driving along, you get to the open back roads and country area an hour away, Anon working away the entire time.</div></li><li class="li1"><div class="de1">He has you go through every gear and speed that you can manage or do on average, now just driving on an open road.</div></li><li class="li1"><div class="de1">&gt;”…Good.”</div></li><li class="li1"><div class="de1">“We good?”</div></li><li class="li1"><div class="de1">&gt;Anon nods, looking over his computer.</div></li><li class="li1"><div class="de1">&gt;You can see a truck ahead, listening to him talk.</div></li><li class="li1"><div class="de1">&gt;”Yes, I think we are. All the data is recorded, so I can really open it up and look at the specifics. Tomorrow we will need to go through some basic checks and uses of the tanks, but I should be able to set the regulators and pressures to deliver when needed.</div></li><li class="li1"><div class="de1">&gt;You sigh, the old country truck driver going under the limit.</div></li><li class="li1"><div class="de1">“Alright pal.”</div></li><li class="li1"><div class="de1">&gt;You drop from fifth to third, pulling past the truck and shifting back up.</div></li><li class="li1"><div class="de1">&gt;No Sunday driving today.</div></li><li class="li1"><div class="de1">&gt;”That was fast…”</div></li><li class="li1"><div class="de1">&gt;Anonymous looked confused, making you smile.</div></li><li class="li1"><div class="de1">“What’s wrong?”</div></li><li class="li1"><div class="de1">&gt;”How did you do that? and why?”</div></li><li class="li1"><div class="de1">“Do what?”</div></li><li class="li1"><div class="de1">&gt;”Shift like that, we kicked up pretty smoothly and quickly.”</div></li><li class="li1"><div class="de1">&gt;…Wait.</div></li><li class="li1"><div class="de1">&gt;You smirk, looking to him.</div></li><li class="li1"><div class="de1">“Do you seriously not know what a double clutch is?”</div></li><li class="li1"><div class="de1">&gt;”No.”</div></li><li class="li1"><div class="de1">“…Rev matching, what is it?”</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;You look to the four-eyed nerd, laughing as he just looks at you.</div></li><li class="li1"><div class="de1">&gt;”I’m the technical brains, you’re the driving brains. Just tell me.”</div></li><li class="li1"><div class="de1">&gt;You sigh, laughing still.</div></li><li class="li1"><div class="de1">“Okay okay… you know what gears are, right?”</div></li><li class="li1"><div class="de1">&gt;”Seriously?”</div></li><li class="li1"><div class="de1">&gt;You laugh even harder, shaking your head now.</div></li><li class="li1"><div class="de1">“Yes! I’m not actually trying to make fun of you, I’m taking you to honest to god driving school.”</div></li><li class="li1"><div class="de1">&gt;”…Alright. Yes, different gears result in different top speeds and acceleration. Lower has more torque and so on.”</div></li><li class="li1"><div class="de1">“Yes, and it effects the RPM. Rev matching brings the clutch disk and the pressure plate, connected to the fly wheel, to the same-ish speed. Less wear and tear. Basic downshift stuff. NOW, double clutching.”</div></li><li class="li1"><div class="de1">&gt;You drop to third again, taking off quickly.</div></li><li class="li1"><div class="de1">“Is basically the exact same thing, but it turns your downshift into an upshift. We switch into a better acceleration instead of pushing the car in the same gear. We over-rev in neutral and dump the clutch, and get to a better speed quicker. Fifth and six just end up making noise without delivering as fast.”</div></li><li class="li1"><div class="de1">&gt;”Show me.”</div></li><li class="li1"><div class="de1">&gt;You open up your legs a little, Anon watching your footwork as you shift again.</div></li><li class="li1"><div class="de1">&gt;”…huh… cool.”</div></li><li class="li1"><div class="de1">&gt;You laugh, shaking him by the shoulder.</div></li><li class="li1"><div class="de1">&gt;This is going to be a good partnership.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">High Octane
-&gt;You sighed, brushing your feathers the right way with a smile
-“This is it, D… one good win.”
-&gt;This was a race you needed, even third would be golden.
-&gt;Money for the car or a better one, make it even better, win more races.
-&gt;You were behind the wheel of a Nissan Sentra, budget car, but it was better then keeping with the low pay hatch-back races.
-&gt;You were a street racer, one of three girls, the only bird.
-&gt;It was a good paying “job”. Not legal… but regulated internally.
-&gt;Classes and tiers, basic rules, straight up cash.
-&gt;You finally got bumped up into the common-advanced class, so a better car was needed, but this one would do.
-&gt;Not like you were the only one too, another guy had a super beat to shit Subaru. One girl, a Honda.
-&gt;The three you had to watch out for were that old ass muscle car, the Supped up Dodge, and… The Panther.
-&gt;It was a Camaro, 2005, but the driver… the Panther…
-&gt;Jake was his name, but his reputation was well known in this class. He could talk shit and take better then he could dish out.
-&gt;Never flinched, never got mad or annoyed, had a come back for almost everything, and not a single driver or watcher fucked with him.
-&gt;He was basically the football jock with a gun, and a chipper attitude.
-&gt;He was also a bigger dick then anyone in the country.
-&gt;Would be beat you? Not without a fight. You needed this, wanted this.
-&gt;Sure, you were on a budget, but you still went out and customized some of the car.
-&gt;Looking up at a flash, you grinned, seeing the starting girl.
-&gt;Fuck… top with a cut like that, the rack says enough.
-&gt;”WOOOO!”
-&gt;The crowd at the side of the start cheered with her, though probably at her bouncing tits as she jumped up and down.
-&gt;3…2…1…
-&gt;Shft-gas-go!
-&gt;You Huffed, the slow start putting you in third as you rounded the corner.
-“Come on D.”
-&gt;Shift… Good. Good. Slow. Good.
-&gt;Up the ramp and onto the highway.
-&gt;Now you were in forth, that muscle car showing it’s strength on the open road.
-&gt;You might sill have a chance though!
-“Time to shine.~”
-&gt;Heal-toe-down
-&gt;Cranking the wheel slightly, you glided into a drift, peeling past the cars on a tight turn.
-&gt;Third… second…
-&gt;FIRST!
-&gt;Getting your car straight, you went forward, smiling.
-&gt;BANG!
-&gt;You gasped, gripping the wheel tighter.
-&gt;Not a tire! Then what…
-&gt;You could see the smoke or steam pouring from the hood, feeling your feathers puff up.
-“No… No, NO!”
-&gt;One by one, the others pass you.
-&gt;…This is what you get for going budget on the next class too soon…
-&gt;You’re done for.
-&gt;Breaking, you come to a stop, getting out.
-&gt;Damnit.
-&gt;You raise your fist, pausing and sighing as you touch the car gently, your wings twitching.
-&gt;A car comes back, making you groan.
-&gt;Jake spins around, the smell of burnt rubber filling your nose.
-&gt;The panther grins, his teeth showing brightly as the girl in his car smirks.
-&gt;”Ayy! Not bad! But you should really go back to the nest and learn how to fly before you try to baby bird! Maybe not buy your car on the cheep cheep either? Get it?”
-&gt;He laughs, driving off and leaving you with your car.
-“Dick.”
-&gt;After calling a tow, you got back to your place, sighing.
-&gt;Now you might be fucked…
-&gt;You sold your other car and reserve to get enough for this one, and now you need to get the money to fix it.
-&gt;There is no way you can drop a class now, this is where the money started to flow!
-&gt;Not to mention, you needed better things for the car…
-&gt;Smiling, you turn to your old friend…
-&gt;/o/ Auto.
-&gt;Alright, an imageboard for cars might not be the best place, but it had everything you needed at times.
-&gt;Making a quick post and listing what you have, you turn and strip.
-&gt;You needed sleep… this was going to be a headache…
-&gt;You could get into an easier race in two or three days… but…
-&gt;Giving a shake, you put your thoughts aside, looking down at your Falcon body.
-&gt;Your white chest feathers stood up still, making you brush them down.
-&gt;Preening should be done soon… ish.
-&gt;You toss your leather jacket aside, crawling into bed
-&gt;Your bring your wings around yourself, making a self blanket and pulling another one over you as you get into bed.
-&gt;…Tomorrow is going to be busy.
-----------
-&gt;You yawned, waiting in line.
-&gt;Hurry the fuck up… fucking pig cop… just get your stupid treat and go…
-&gt;This is what you get for not buying coffee… a wait in line to get your own fix.
-&gt;Oh yeah! Your thread!
-&gt;You get your phone out, checking the replies.
-&gt;A bunch of japes and useful tips, just like you expected.
-&gt;too much… bad idea… you have no idea on how to do that to a car…
-&gt;One reply gets you, a fucking huge amount of people responding to another poster
-&gt;’Stop buying cheep ass and useless aftermarket parts’
-&gt;Fuck. He was replying to you and the entire thread became a war after his post.
-&gt;It kind of pissed you off, you didn’t fuck around with parts.
-&gt;When did you pay for the coffee? …oh right.
-&gt;Fuck, you are tired…
-&gt;You must be, because you just knocked someone down
-&gt;”Shit!”
-“Ahh!”
-&gt;You look down, seeing the human on his ass.
-“Sorry.”
-&gt;He huffs, rolling and pushing up before fixing his glasses.
-&gt;”It’s fine.”
-&gt;You walk along, looking back at the guy.
-&gt;ehh… he’s fine.
-&gt;Looking down, you see a black object on the ground.
-&gt;His phone…
-&gt;Might as well be nice.
-&gt;Picking it up, you smile, seeing it was left open and on /o/ of all things.
-&gt;Your smile fades as you see he’s on your own thread…
-&gt;Mother fucker! He’s the guy who called you out! Look at all those (you)’s!
-“Hey! You!”
-&gt;You run up to him, holding out his phone as he turns.
-&gt;”Oh… th-“
-“The hell do you mean? Useless aftermarket parts?”
-&gt;”…Lady… what the hell? …oh.”
-“Yeah, oh! I’m the one who made the damn thread!”
-&gt;”oh…well… I’m right.”
-“Bull shit!”
-&gt;”I am though, those are shit parts.”
-“How?!”
-&gt;”Because they are overpriced for what they are, and don’t even perform properly. Now, if you will excuse me.”
-“Wait! What ones?”
-&gt;”all of them.”
-“What do you mean, all?!
-&gt;You both talk back and forth, most of it being you just trying to get information of him.
-&gt;Turns out… he’s right. Way too right!
-&gt;This nerd knows way more about car parts then you, better yet, shows you good and better prices!
-&gt;God… what in the fuck have you been doing all along?
-&gt;”NOW! I’m done and going.”
-&gt;You watched him go, actually feeling worried.
-&gt;He knows so much, much more then you, and this golden chance is walking away.
-&gt;You can’t let this slip!
-“WAIT!”
-&gt;You chase after him, hearing him groan.
-“What will it take to get you to help me with my car?”
-&gt;”Money and a good time! Leave me alone!”
-&gt;…
-&gt;Deb… are you really willing to sell your own body for your own gain?
-&gt;You watch him walk away again, whoever he is.
-&gt;Yep.
-“DEAL!”
----------
-&gt;”DEAL!”
-&gt;You gasp, the falcon grabbing you by your arm and pulling you along
-“Hey!”
-&gt;Pulling, you get her to stop.
-&gt;You were being sarcastic, what Is she doing?
-&gt;Her golden eyes burn with hope as she moves the bit of pink on her head to the side and looks at you.
-&gt;She kisses you, her beak being surprisingly smooth.
-&gt;You are a little stunned, the falcon looking at you when she pulls back.
-&gt;”I’ll fuck you, then you help me. Come on!”
-&gt;Anonymous, what have you gotten yourself into?
-“Look, i-“
-&gt;”My place is not far! Whatever you want!”
-&gt;She looks at you almost pleadingly, desperate to get you to help her.
-&gt;Damnit… now you feel like a dick.
-“Look… I’ll do it. But I don-“
-&gt;”Not going to cheep you out, sex now, then work on the car!”
-“That’s not!”
-&gt;Again you get pulled along, making you grunt and sigh.
-&gt;Damn it all.
-&gt;You fixed your glasses, just following the unknown Falcon.
-&gt;More like get dragged by…
-&gt;You eventually come to a small house, the Falcon unlocking it and pulling you inside.
-&gt;She keeps pulling you, bringing you down a hall and into a bedroom.
-&gt;She can’t be…
-&gt;You watch as she pulls her T-shirt off, grabbing onto you and kissing you again.
-&gt;She also brings your hands to her feathered breasts, the C cup bra separating your hands from them.
-&gt;…Alright. She is serious.
-&gt;You feel a tug at your own shirt, your own chest being exposed before she tosses you to the bed.
-&gt;The Falcon climbs onto you, groping your crotch.
-&gt;”Come on.~”
-&gt;Whelp…
-&gt;You nod, sighing slightly again.
-&gt;It was a tiny bit of a turn on, the sex part.
-&gt;You put your gasses on a table next to the bed, feeling the Falcon pull at your pants with her claws.
-&gt;She gets you naked, doing the same before she starts touching you, careful not to hurt or prick you.
-&gt;It doesn’t take much for her to get you hard, your erect member standing up as she moves and hovers over you.
-&gt;Your hands go to her hips as you enter her, her feathers being soft and a little ticklish on your bare skin.
-&gt;She bounces, her wings flapping slightly.
-&gt;”Ahh!”
-“Nnnh!”
-&gt;Everything just goes so quickly, the falcon wasting no time to make sure the deal is sealed.
-&gt;A gasp escapes you as you cum, your unknown sex partner doing the same and shaking above you when she pulls up.
-&gt;You look down, being able to make out the cum you got on her feathers.
-&gt;She sighs, laying on you after a bit.
-&gt;”Deb.”
-“…What?”
-&gt;”My name… yours?”
-”Anon…”
-&gt;She hums.
-&gt;”Good to be working with you, Anon.”
-----------
-&gt;You grinned, cleaning yourself from the mess
-&gt;Worth it.~
-&gt;Even if you need to go to a clinic and get some pills, this is worth it.
-&gt;You sighed, letting the water wash over your feathers as you thought back to what Anon said.
-&gt;Apparently you weren’t as much of an idiot as he thought. Your set up and car made sense on paper, just not in practice.
-&gt;Your parts choice is what was poor, and how they were working with how you pushed the car apparently.
-&gt;He knows parts, tolerances, ratios, pressures… all the limits of the parts.
-&gt;He gets the technical stuff, you get the driving and mechanical stuff.
-&gt;This was the perfect partnership.
-&gt;Shutting off the water, you stepped out, drying off quickly.
-&gt;You went to the garage after, smiling.
-&gt;Anon was back already, having brought his laptop and already looking over your car.
-&gt;You had let him get cleaned first, taking your time to get clean as he got his things.
-&gt;Better yet, he was closer then you thought.
-&gt;”Alright… good news. We can get up and running for Monday.”
-&gt;You moved to him, looking at the laptop.
-“Really?”
-&gt;”Yes. It’s just all parts… how much money do you have?”
-&gt;…shit.
-“uhh… good question.”
-&gt;He sighs, adjusting his glasses as he looks at you.
-&gt;”You better have something, or I can’t get you what you need.”
-&gt;You had money, but… that was meant to keep a roof over your head.
-&gt;This could mean much more money though, breaking even now could mean thousands down the road.
-&gt;You nod, keeping a straight face.
-“4k…”
-&gt;Anon smiles, nodding.
-&gt;”We are set then.”
-&gt;You had better be… not only have you sold your body, you basically sold your house if this fails.
-&gt;Anon gets up, stretching.
-&gt;”Okay… well then. Give it to me and I’ll order everything. We can be up and running for Monday. Got a monster?”
-“Oh… yeah, I can get some, I’ll need one.”
-&gt;Anon looks at you, shaking his head.
-&gt;”If you ask me, you should sleep. You honestly look jet lagged, and by that, I mean you look like shit.”
-&gt;You sigh, looking up.
-&gt;Maybe you didn’t sleep as well as you thought… you did feel tired, and the quick sex didn’t help.
-“You’ll need me.”
-&gt;”No I won’t. I’ve done fabrication things before, and played mechanic for a few friends on gas RC cars. This is just bigger.”
-“I’m not going to be sleeping if you are using my tools. This place isn’t sound proof.”
-&gt;He sighs, grabbing a backpack and pulling out a bottle of pills.
-&gt;”Take two. It’s a sleep aid.”
-&gt;You take the bottle, looking at it.
-“Uhh…”
-&gt;”I have insomnia. Just take them! Why would I poison you now? It’s not like I have a reason to end this if I get half and free sex.”
-&gt;…point taken.
-&gt;You nodded, setting the bottle down and doing a quick run to the corner store before getting back and going to sleep.
-----------
-&gt;You give a big yawn as you open your eyes, groaning and rolling over.
-&gt;Your eyes go wide, seeing that you slept for 16 hours.
-“What in the fucking fuck.”
-&gt;You sit up, groaning and giving a stretch.
-&gt;Wow… you feel great!
-&gt;Smiling, you spread out and take the time to preen.
-&gt;When that is done, you get dressed and walk into the kitchen, your brain catching up to you.
-&gt;You left Anon alone with your car for 16 hours~
-&gt;Turning on the spot, you go out and open up the door to the garage.
-&gt;The hood is on the floor, door off the driver’s side, Anon sleeping in the seat.
-&gt;There’s a beeping as you approach, metal shavings on the ground.
-&gt;What did he even do?
-&gt;Looking inside, you see his laptop beeping away.
-“Pressure check: OK?”
-&gt;Anon jumps, grabbing onto the arm rest and the door jam.
-&gt;You laugh, seeing him get his bearings.
-“You okay there champ?”
-&gt;”Yes… damnit, I fell asleep.”
-&gt;You shrugged, he obviously had been working.
-“What’s this pressure thing?”
-&gt;Anon smirks, his glasses giving a flash from the light as he adjusts them.
-&gt;”Nitrous.”
-&gt;…
-&gt;…
-&gt;…
-“HOLY SHIT! You put a rig in my car?!”
-&gt;He gestures to the back, making you go to the open trunk.
-&gt;Lo and behold, two big tanks sit in your trunk, a hole drilled and sealed properly into the body to feed it to the engine.
-&gt;”The only issue is that we don’t have the money to get the proper computer set up, so it needs to be done manually.” Anon says, walking next to you. “We can also take it out if need be.”
-&gt;You grab onto the Human, giving him a kiss before diving head first into the trunk.
-&gt;”Uuh…”
-“So! Can we drive it now?”
-&gt;Anon nods as you look back at him, fixing his glasses again.
-&gt;”We need to, actually. I need to see how your car runs so I can set things properly. If I’m stuck riding shotgun with you, I better get good at it.”
-“Done deal! Let’s go!”
-&gt;You help Anon put everything back together, starting up the car and getting on the road.
-&gt;Driving along, you get to the open back roads and country area an hour away, Anon working away the entire time.
-He has you go through every gear and speed that you can manage or do on average, now just driving on an open road.
-&gt;”…Good.”
-“We good?”
-&gt;Anon nods, looking over his computer.
-&gt;You can see a truck ahead, listening to him talk.
-&gt;”Yes, I think we are. All the data is recorded, so I can really open it up and look at the specifics. Tomorrow we will need to go through some basic checks and uses of the tanks, but I should be able to set the regulators and pressures to deliver when needed.
-&gt;You sigh, the old country truck driver going under the limit.
-“Alright pal.”
-&gt;You drop from fifth to third, pulling past the truck and shifting back up.
-&gt;No Sunday driving today.
-&gt;”That was fast…”
-&gt;Anonymous looked confused, making you smile.
-“What’s wrong?”
-&gt;”How did you do that? and why?”
-“Do what?”
-&gt;”Shift like that, we kicked up pretty smoothly and quickly.”
-&gt;…Wait.
-&gt;You smirk, looking to him.
-“Do you seriously not know what a double clutch is?”
-&gt;”No.”
-“…Rev matching, what is it?”
-&gt;…
-&gt;You look to the four-eyed nerd, laughing as he just looks at you.
-&gt;”I’m the technical brains, you’re the driving brains. Just tell me.”
-&gt;You sigh, laughing still.
-“Okay okay… you know what gears are, right?”
-&gt;”Seriously?”
-&gt;You laugh even harder, shaking your head now.
-“Yes! I’m not actually trying to make fun of you, I’m taking you to honest to god driving school.”
-&gt;”…Alright. Yes, different gears result in different top speeds and acceleration. Lower has more torque and so on.”
-“Yes, and it effects the RPM. Rev matching brings the clutch disk and the pressure plate, connected to the fly wheel, to the same-ish speed. Less wear and tear. Basic downshift stuff. NOW, double clutching.”
-&gt;You drop to third again, taking off quickly.
-“Is basically the exact same thing, but it turns your downshift into an upshift. We switch into a better acceleration instead of pushing the car in the same gear. We over-rev in neutral and dump the clutch, and get to a better speed quicker. Fifth and six just end up making noise without delivering as fast.”
-&gt;”Show me.”
-&gt;You open up your legs a little, Anon watching your footwork as you shift again.
-&gt;”…huh… cool.”
-&gt;You laugh, shaking him by the shoulder.
-&gt;This is going to be a good partnership.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    8 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    11 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    12 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

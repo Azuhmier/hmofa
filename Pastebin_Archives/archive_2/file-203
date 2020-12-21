@@ -1,530 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>True heroics - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="True heroics - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/dktCsKae" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/dktCsKae" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="IG7sciax7PIAIJ0Xhke6hg4oEQgRC0-9TkHjCXvavCFDDaMjC9imhXRG33n-L-PpYRtwPmdiOYkHKrVNS6-Pfg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/dktCsKae" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/dktCsKae" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/24/23/5/2985205.jpg" alt="Mousguy">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>True heroics</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Mousguy">Mousguy</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Mousguy" class="message" title="Send a private message to: Mousguy"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 24th of August 2017 07:50:31 AM CDT">Aug 24th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,143                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 15.55 KB            </div>
-
-            <div class="right">
-                <a href="/raw/dktCsKae" class="btn -small">raw</a>
-                <a href="/dl/dktCsKae" class="btn -small">download</a>
-                <a href="/clone/dktCsKae" class="btn -small h_800">clone</a>
-                <a href="/embed/dktCsKae" class="btn -small h_800">embed</a>
-                <a href="/report/dktCsKae" class="btn -small">report</a>
-                <a href="/print/dktCsKae" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;you were laughed at before being picked up by the guild of adventurers to take back a town from the clutches of evil</div></li><li class="li1"><div class="de1">&gt;a queen had made pact with a daemon, and once the town was completely dead, or a valiant hero gave his life in challenge, she would give herself to become a full on daemon lordess</div></li><li class="li1"><div class="de1">&gt;the hero may prevail in the challenge, but if he fell he would doom the entire kingdom to damnation</div></li><li class="li1"><div class="de1">&gt;you had fought through many dungeons and lairs to finally reach the town she held power over</div></li><li class="li1"><div class="de1">&gt;with but hours until her swarm would cut the throats of all of the people inside and seal the pact, a hero would have to be sent in to fight her</div></li><li class="li1"><div class="de1">&gt;with your strongest paladin unable to fight, your two swordsmen with no weapons they were skilled in, and the archer blinded, you had few options</div></li><li class="li1"><div class="de1">&gt;the bard would be but a distraction</div></li><li class="li1"><div class="de1">&gt;the tinkerer would have no metal to use as a catalyst</div></li><li class="li1"><div class="de1">&gt;and thus it was left with you</div></li><li class="li1"><div class="de1">&gt;a man they knew only as a librarian</div></li><li class="li1"><div class="de1">&gt;you had spent your life delving into lost tome, becoming a master of the all but forgotten</div></li><li class="li1"><div class="de1">&gt;you had a charisma that even a bard would find hard to argue against</div></li><li class="li1"><div class="de1">&gt;but you were no wizard. Wizards spent their lives becoming vessels of the tomes</div></li><li class="li1"><div class="de1">&gt;you merely forced your endurance to the point of being able to cast spells via raw might</div></li><li class="li1"><div class="de1">&gt;if you had decades more time, you could be a sorcerer beyond all, no equal in sight</div></li><li class="li1"><div class="de1">&gt;but you had only minutes to enter and challenge her</div></li><li class="li1"><div class="de1">&gt;you argued heavily you could do it, and when the paladin cried out that you had doomed them all, you angrily walked through the portal into town</div></li><li class="li1"><div class="de1">&gt;it was festering with her familiars, shadow rats and horrors swarming the town and building power for her to use</div></li><li class="li1"><div class="de1">&gt;you walked into an open spot, and as they rushed you announced your business</div></li><li class="li1"><div class="de1">&gt;&quot;I have come to challenge the dark queen!&quot;</div></li><li class="li1"><div class="de1">&gt;a rat with fur like charcoal with eyes like embers walks from the swarm towards you</div></li><li class="li1"><div class="de1">&gt;&quot;who might you be, supposed hero?&quot;</div></li><li class="li1"><div class="de1">&gt;you tip your hat to her, and bend the knee</div></li><li class="li1"><div class="de1">&gt;&quot;I am but a humble librarian, come to free this town, and your body of the dark.&quot;</div></li><li class="li1"><div class="de1">&gt;she lets out a laugh that strikes her hostages into a frenzy of cries, but your charisma mutes the siren&#039;s wail</div></li><li class="li1"><div class="de1">&gt;&quot;I am no joke, and I demand you allow me to challenge you.&quot;</div></li><li class="li1"><div class="de1">&gt;she strides up to you, a black peach in her hand</div></li><li class="li1"><div class="de1">&gt;&quot;you are foolish one to challenge me, but I must accept the challenge of anyone who would think themselves a hero.&quot;</div></li><li class="li1"><div class="de1">&gt;she holds it out for you to have take</div></li><li class="li1"><div class="de1">&gt;&quot;Eat this fruit, and you seal your soul into this very challenge. You have only once chance to leave now, fool.&quot;</div></li><li class="li1"><div class="de1">&gt;you heartily tear into her peach with what could only be seen as the fervor of a madman</div></li><li class="li1"><div class="de1">&gt;swallowing the last of the tasty fruit, a cloud approaches, engulfing her as it darkens and pulses</div></li><li class="li1"><div class="de1">&gt;she laughs, thinking to have outsmarted you as the smoke on her body darkens her black fur into an endless void of pitch</div></li><li class="li1"><div class="de1">&gt;&quot;you hath given me your life in challenge. I am now at the full strength of a daemon lordess!&quot;</div></li><li class="li1"><div class="de1">&gt;she floats over to you, summoning a pact dagger to slice into your neck with</div></li><li class="li1"><div class="de1">&gt;&quot;But I will admit, you are brave and noble, librarian. So, I shall let you have your challenges. Best all 3, and you succeed. I shall pick two, and you shall decide the one between.&quot;</div></li><li class="li1"><div class="de1">&gt;You smile &quot;The first shall be yours, sweet creature.&quot;</div></li><li class="li1"><div class="de1">&gt;she attempts to charm you with a peck on your cheek &quot;but of course, dearest bookworm.&quot;</div></li><li class="li1"><div class="de1">&gt;you nod, a puff of smoke floating harmlessly off of your skin.</div></li><li class="li1"><div class="de1">&gt;She is surprised, but nods in acknowledgement. &quot;As I assumed, you cannot be charmed, even by a daemon.&quot;</div></li><li class="li1"><div class="de1">&gt;She notes your victory, and lets you have you second challenge.</div></li><li class="li1"><div class="de1">&gt;&quot;I challenge you to tell me the power of a spell I shall cast.&quot;</div></li><li class="li1"><div class="de1">&gt;her eyes glare at you with a malice only reserved for those who would attempt tricking her</div></li><li class="li1"><div class="de1">&gt;&quot;It is forfeit, should I be wounded! You may not attempt to do anything that is not of my will, tome reader!&quot;</div></li><li class="li1"><div class="de1">&gt;you nod &quot;I wouldn&#039;t dream of it.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you focus deep into your heart, and produce a silver string</div></li><li class="li1"><div class="de1">&gt;it burns when drawn taunt, and the flames glitter brightly as the sparks dance around, then away from the rat queen</div></li><li class="li1"><div class="de1">&gt;&quot;I have gifted you the strength of malgor&#039;s fire. What does it grant unto you?&quot;</div></li><li class="li1"><div class="de1">&gt;she is confused. only a suicidal man would offer to help her after she tried to harm their chances of victory</div></li><li class="li1"><div class="de1">&gt;&quot;It matters not, sweet, noble bookworm. I grant you a win out of the kindness of my heart.&quot;</div></li><li class="li1"><div class="de1">&gt;her breath tightens slightly, and she begins to stare at you with a smile</div></li><li class="li1"><div class="de1">&gt;she goes from floating above you, to standing on her feet before you</div></li><li class="li1"><div class="de1">&gt;the dagger floats in her hand, and she walks you into an alley between two buildings</div></li><li class="li1"><div class="de1">&gt;your back is against a wall, and she is very clearly getting excited</div></li><li class="li1"><div class="de1">&gt;she gave you a victory, and failed in charming you, but now she shall take her only needed win</div></li><li class="li1"><div class="de1">&gt;her hand points the dagger towards you, and she smiles, closing in</div></li><li class="li1"><div class="de1">&gt;&quot;I-I... I challenge you...&quot;</div></li><li class="li1"><div class="de1">&gt;she feels the weight of her armor keeping her down, and dispels them</div></li><li class="li1"><div class="de1">&gt;she has no need for them now! You are so close, delectable mortal, she can taste your defeat</div></li><li class="li1"><div class="de1">&gt;she still feels hot though, closing in on you, and rips her robes to ribbons</div></li><li class="li1"><div class="de1">&gt;&quot;Draw your weapon, book keeper! Give me your best.&quot;</div></li><li class="li1"><div class="de1">&gt;you followed orders, and unrobed completely, standing before her, growing slowly rigid, plying your only weapon required in hand</div></li><li class="li1"><div class="de1">&gt;she is highly enchanted by the sight of you, so foolishly taking yourself out for her pleasure</div></li><li class="li1"><div class="de1">&gt;she slides her panties to the side to return the favor, and has a sudden realization as to what you&#039;ve done</div></li><li class="li1"><div class="de1">&gt;She angrily marches toward you, hand charging a spell to smite you</div></li><li class="li1"><div class="de1">&gt;&quot;uh uh uh! What is my challenge, queen of the night!?&quot;</div></li><li class="li1"><div class="de1">&gt;she glares at you &quot;You have no right to one! You hath changed my mind and attempted to seduce me!&quot;</div></li><li class="li1"><div class="de1">&gt;you laugh &quot;I have done no such thing. The fire does not change anything about you. It merely makes desires stronger!&quot;</div></li><li class="li1"><div class="de1">&gt;she growls at you, a drip of wetness falling from her exposed lips, she calls you a liar as she charges forth with claws out</div></li><li class="li1"><div class="de1">&gt;with a gentle nudge you knock her hand open and down, so that it closes and grasps on your manhood</div></li><li class="li1"><div class="de1">&gt;her breath is hot and heavy on your body, unable to stop herself from stroking at you viciously with her hand </div></li><li class="li1"><div class="de1">&gt;&quot;I want you, to go and bend over those crates over there, so you may issue your challenge.&quot;</div></li><li class="li1"><div class="de1">&gt;she attempts to growl, but you pluck at her enlarged nipples, and her body moves over to them for you</div></li><li class="li1"><div class="de1">&gt;she is losing control, staring under her body, legs wide, as you masturbate behind her, teasing her with the occasional prod or rub</div></li><li class="li1"><div class="de1">&gt;she can&#039;t stand it, and begins to rub her pearl vigorously while her fingers dip into her hot messy box</div></li><li class="li1"><div class="de1">&gt;you smile, enjoying your show for a few moments before warning her you are about to cum</div></li><li class="li1"><div class="de1">&gt;she pulls her fingers out of her wet box to taste them as you cum against her partially parted lips</div></li><li class="li1"><div class="de1">&gt;you allow for it all to pour between you, exciting her even more</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t believe you told me what the challenge is, lovely creature.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;you a stroke yourself steadily, a strand of white love bridging her from your tip to her lips and swollen pearl</div></li><li class="li1"><div class="de1">&gt;she sits there, simply lapping her own juices on her finger, barely able to think</div></li><li class="li1"><div class="de1">&gt;&quot;I command you to give me your final challenge!&quot;</div></li><li class="li1"><div class="de1">&gt;she suckles her wet fingers, and when she finally gets the taste of her own hot body free of them, spreads her lips wide, braces her hips, and screams it to the wind</div></li><li class="li1"><div class="de1">&gt;&quot;BREED ME, MAKE YOU MY LORD!&quot;</div></li><li class="li1"><div class="de1">&gt;you rub up and down her hot lips, watching as she trembles for your answer</div></li><li class="li1"><div class="de1">&gt;&quot;You act as if I wasn&#039;t going to do so regardless of your challenge.&quot;</div></li><li class="li1"><div class="de1">&gt;You let yourself slip completely into her, smashing into the far depths of her hot, wet chambers</div></li><li class="li1"><div class="de1">&gt;she musters a hot moan at your half-length thrust, her legs shaking as she knows with a wet head you are about to go all the way</div></li><li class="li1"><div class="de1">&gt;&quot;brace, my queen&quot;</div></li><li class="li1"><div class="de1">&gt;you glide deep into her, smashing roughly into her waiting cervix</div></li><li class="li1"><div class="de1">&gt;she lets out a fearsome cry, her tail wrapping around your waist, refusing to let loose from her the challenge she desired</div></li><li class="li1"><div class="de1">&gt;she glows with a white light as you begin your harsh and most unrelenting assault</div></li><li class="li1"><div class="de1">&gt;the hellishly black fur lets way to her natural tones, pink flesh peeking from behind soft grey fur</div></li><li class="li1"><div class="de1">&gt;she moves her dark indigo hair aside to take a glance at the havoc you are letting loose on her, only to lose her will and bite into the crates</div></li><li class="li1"><div class="de1">&gt;your lance was burning hot, acrid smoke trailing gently off her body as her very demonic contract lifted free of her body</div></li><li class="li1"><div class="de1">&gt;aside that her insides were being churned to a level she couldn&#039;t even fathom of you, her dark mind had seen you as weak</div></li><li class="li1"><div class="de1">&gt;her true form trembled for you, pulsing and latching to every move you made</div></li><li class="li1"><div class="de1">&gt;she manages to choke out a confession of love as you watch the last smoke twirl from her body</div></li><li class="li1"><div class="de1">&gt;your mission was complete, and the daemonic presence was now cleared and the town free</div></li><li class="li1"><div class="de1">&gt;but you were no man to turn down such a delicious challenge, and she had not desire for you to stop</div></li><li class="li1"><div class="de1">&gt;Gripping her waist tightly you begin to ram her with all of your might</div></li><li class="li1"><div class="de1">&gt;you may have been a weakling in combat, but your intense thrusts carried all of the power she needed</div></li><li class="li1"><div class="de1">&gt;your endurance was higher than she could realize, nor even suspect</div></li><li class="li1"><div class="de1">&gt;you clamp more harshly on her hips and pound with more authority, savoring the feeling</div></li><li class="li1"><div class="de1">&gt;yet another fearsome howl is emitted by the now cleansed servant to your every whim</div></li><li class="li1"><div class="de1">&gt;she is yelling out in the throes of an ecstasy that can only be truthfully called holy</div></li><li class="li1"><div class="de1">&gt;every twitch along the rigid lance you are impaling her with is pushing her further into delirium</div></li><li class="li1"><div class="de1">&gt;every thrust is sapping her endurance and time between the next vicious orgasm</div></li><li class="li1"><div class="de1">&gt;you thrust until she cannot but whimper and spasm against your mighty indestructible manhood</div></li><li class="li1"><div class="de1">&gt;every single second to her now is an explosion so powerful that you hold the fate of her sanity by the hips</div></li><li class="li1"><div class="de1">&gt;whispering into her ear that she has served her master well in her sensual inauguration, you release a final thrust and torrent of white hot flashes in her</div></li><li class="li1"><div class="de1">&gt;her tail is like a fastening belt on armor across your own hips, drawing you in as close as she can to take your final gift</div></li><li class="li1"><div class="de1">&gt;every minor twitch is met with a wave of spams and rhythmic pulsing from the furnace of her inner folds</div></li><li class="li1"><div class="de1">&gt;even if you have enough endurance for one or two more rounds, you are running out of the mana that supplies the reward</div></li><li class="li1"><div class="de1">&gt;you order her to slowly move onto the crates and remove herself to clean you</div></li><li class="li1"><div class="de1">&gt;she spends a near hour tenderly licking and sucking on you in an afterglow she hath earned</div></li><li class="li1"><div class="de1">&gt;there is no rush in bringing you to climax, so she cherishes every moment like it was her first and last alone with you</div></li><li class="li1"><div class="de1">&gt;the swarms of once demonic minions have long since faded into the shadows</div></li><li class="li1"><div class="de1">&gt;the only sound in the veiled city to be heard is the wet slopping of her mouth on your body</div></li><li class="li1"><div class="de1">&gt;forcing her head down, unable if she wouldn&#039;t be completely unwilling to resist otherwise, she takes the penultimate shot into her throat</div></li><li class="li1"><div class="de1">&gt;she is using all the strength she can pull with to try to make her lips and mouth pull the final drops from your spent body</div></li><li class="li1"><div class="de1">&gt;laughing softly, you ask her to gift you the strength of one more, and she happily grips your weapon and back</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;a burst of intense mana runs from your spine into your all but spent supply, and you can feel it fill to the brim</div></li><li class="li1"><div class="de1">&gt;she dutifully has her hands in front of her mouth, waiting to be given a delicious load unto her tongue and palms</div></li><li class="li1"><div class="de1">&gt;you brush them aside and ask her to press her beasts against you for a final treat</div></li><li class="li1"><div class="de1">&gt;she happily wraps them around your hard rod, licking the tip gently in swirls while moving her breasts back and forth</div></li><li class="li1"><div class="de1">&gt;she can sense the shifting tide, and she slaps your stroking hand aside so that she may milk her reward personally</div></li><li class="li1"><div class="de1">&gt;you paint her face and breasts with one final coat of steaming love, her hand making a torrent fly freely outwards</div></li><li class="li1"><div class="de1">&gt;as she slows down her frantic beating to a gentle rub you tell her to not clean it off of her fur</div></li><li class="li1"><div class="de1">&gt;she is not to don her armor either, but only tidy your clothing and put a long coat over her nearly bare body</div></li><li class="li1"><div class="de1">&gt;as your obedient servant pampers your appearance into a noble state once more, she follows with anticipation towards the exit portal</div></li><li class="li1"><div class="de1">&gt;your party watches you come out first, in shock</div></li><li class="li1"><div class="de1">&gt;they then feel as if an eldritch horror seized them when the chaos magus follows behind you with a haughty smile</div></li><li class="li1"><div class="de1">&gt;You smile, and address her rather than them &quot;What hath befallen you, wicked temptress?&quot;</div></li><li class="li1"><div class="de1">&gt;she bites her lip, lavishly rubbing herself under the coat and prancing near you</div></li><li class="li1"><div class="de1">&gt;&quot;I lost 3 tests of my own choosing to the most noble, courageous, and powerful man in the land~&quot;</div></li><li class="li1"><div class="de1">&gt;her tail wraps around the front of the coat, teasing the buttons with excitement</div></li><li class="li1"><div class="de1">&gt;&quot;What hath become of your armies? Your demonic pledge?&quot;</div></li><li class="li1"><div class="de1">&gt;she can barely control her excitement, her tail snapping a button off the bottom, and sliding between her wet lips</div></li><li class="li1"><div class="de1">&gt;&quot;We were cleansed in a most righteous manner by you, and we hath no lord to serve but our new beloved master&quot;</div></li><li class="li1"><div class="de1">&gt;your entire group looks as if they are witnessing the death of a god, and all color is gone of their many faces</div></li><li class="li1"><div class="de1">&gt;the cleansed magus clings to your arm, whimpering to answer the question she knows you have last</div></li><li class="li1"><div class="de1">&gt;&quot;What, dearest servant, is your favorite and most cherished task to perform for your lord!?!?&quot;</div></li><li class="li1"><div class="de1">&gt;magic burns through the air as the cloak is burned away and ripped asunder by her tail</div></li><li class="li1"><div class="de1">&gt;her love stained fur and the thick coating of love are let loose into the cold air as she tweaks her cold chest savagely</div></li><li class="li1"><div class="de1">&gt;&quot;I am bred by my master! I will breed with my master as he sees it! Please master, cleanser of daemons, take me before these fools&quot;</div></li><li class="li1"><div class="de1">&gt;she is kneeling now, one had feverishly rubbing herself as the she stares into your eyes</div></li><li class="li1"><div class="de1">&gt;&quot;these hapless mortals haven&#039;t earned the right to watch&quot;</div></li><li class="li1"><div class="de1">&gt;she cackles at your response, and her once torn armor and underclothes reform over her body</div></li><li class="li1"><div class="de1">&gt;her dagger floats inches from your former group leader&#039;s neck as she awaits your order</div></li><li class="li1"><div class="de1">&gt;&quot;don&#039;t waste your time with them. they may keep the paltry silver scraps your horde did not take back into the shadows.&quot;</div></li><li class="li1"><div class="de1">&gt;a puff of green smoke engulfs the dagger as it disappears, and she struts back to your side</div></li><li class="li1"><div class="de1">&gt;&quot;They shall never know a gift of such splendor as you.&quot;</div></li><li class="li1"><div class="de1">&gt;she coos happily, an orb of light whisking the both of you away to the lair she was once the queen of</div></li><li class="li1"><div class="de1">&gt;her armor melts away, fine white robes sprouting from her once dark night clothes</div></li><li class="li1"><div class="de1">&gt;&quot;what would be your first wish, my loving lord?&quot;</div></li><li class="li1"><div class="de1">&gt;a wicked smile cracks your face, and you look into her clear deep hazel eyes</div></li><li class="li1"><div class="de1">&gt;they glow only for you now, with the intensity of molten steel</div></li><li class="li1"><div class="de1">&gt;&quot;we should obviously consummate this bond in a proper bed.&quot;</div></li><li class="li1"><div class="de1">&gt;her claws tap lightly one stone over to the fine silk bed of her chamber, and she beckons you with a claw tipped finger</div></li><li class="li1"><div class="de1">&gt;you crawl into the sheets beside her, noticing she is even more excited than before now that the taint is free of her body</div></li><li class="li1"><div class="de1">&gt;she pulls you in for a kiss that threatens to rob the very air of your lungs, but breaks in enough time to nearly faint on her own</div></li><li class="li1"><div class="de1">&gt;as she falls back onto the sheets she can muster an almost inaudible task to you</div></li><li class="li1"><div class="de1">&gt;&quot;feed my sexual desires again, master. Let us be one with no smoke or taint to cloud our minds&quot;</div></li><li class="li1"><div class="de1">&gt;you kiss the nape of her neck gently, and her outer demeanor of a commanding warlord melts for you</div></li><li class="li1"><div class="de1">&gt;&quot;I shall not feed your lust, deer lover. Let us instead make passion in this cold, dark place.&quot;</div></li><li class="li1"><div class="de1">&gt;you shroud her in sheets, and begin your laborious assault on her freed body and mind</div></li><li class="li1"><div class="de1">&gt;this is a battle which she shan’t forget for her lifetime, one you shall cherish for eternity</div></li><li class="li1"><div class="de1">&gt;the foolish guild which hired you would warn many men and women to not seek the throne of the queen of shades</div></li><li class="li1"><div class="de1">&gt;lest the sorcerer supreme turn your most powerful tools into weapons of his own arsenal</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;you were laughed at before being picked up by the guild of adventurers to take back a town from the clutches of evil
-&gt;a queen had made pact with a daemon, and once the town was completely dead, or a valiant hero gave his life in challenge, she would give herself to become a full on daemon lordess
-&gt;the hero may prevail in the challenge, but if he fell he would doom the entire kingdom to damnation
-&gt;you had fought through many dungeons and lairs to finally reach the town she held power over
-&gt;with but hours until her swarm would cut the throats of all of the people inside and seal the pact, a hero would have to be sent in to fight her
-&gt;with your strongest paladin unable to fight, your two swordsmen with no weapons they were skilled in, and the archer blinded, you had few options
-&gt;the bard would be but a distraction
-&gt;the tinkerer would have no metal to use as a catalyst
-&gt;and thus it was left with you
-&gt;a man they knew only as a librarian
-&gt;you had spent your life delving into lost tome, becoming a master of the all but forgotten
-&gt;you had a charisma that even a bard would find hard to argue against
-&gt;but you were no wizard. Wizards spent their lives becoming vessels of the tomes
-&gt;you merely forced your endurance to the point of being able to cast spells via raw might
-&gt;if you had decades more time, you could be a sorcerer beyond all, no equal in sight
-&gt;but you had only minutes to enter and challenge her
-&gt;you argued heavily you could do it, and when the paladin cried out that you had doomed them all, you angrily walked through the portal into town
-&gt;it was festering with her familiars, shadow rats and horrors swarming the town and building power for her to use
-&gt;you walked into an open spot, and as they rushed you announced your business
-&gt;&quot;I have come to challenge the dark queen!&quot;
-&gt;a rat with fur like charcoal with eyes like embers walks from the swarm towards you
-&gt;&quot;who might you be, supposed hero?&quot;
-&gt;you tip your hat to her, and bend the knee
-&gt;&quot;I am but a humble librarian, come to free this town, and your body of the dark.&quot;
-&gt;she lets out a laugh that strikes her hostages into a frenzy of cries, but your charisma mutes the siren&#039;s wail
-&gt;&quot;I am no joke, and I demand you allow me to challenge you.&quot;
-&gt;she strides up to you, a black peach in her hand
-&gt;&quot;you are foolish one to challenge me, but I must accept the challenge of anyone who would think themselves a hero.&quot;
-&gt;she holds it out for you to have take
-&gt;&quot;Eat this fruit, and you seal your soul into this very challenge. You have only once chance to leave now, fool.&quot;
-&gt;you heartily tear into her peach with what could only be seen as the fervor of a madman
-&gt;swallowing the last of the tasty fruit, a cloud approaches, engulfing her as it darkens and pulses
-&gt;she laughs, thinking to have outsmarted you as the smoke on her body darkens her black fur into an endless void of pitch
-&gt;&quot;you hath given me your life in challenge. I am now at the full strength of a daemon lordess!&quot;
-&gt;she floats over to you, summoning a pact dagger to slice into your neck with
-&gt;&quot;But I will admit, you are brave and noble, librarian. So, I shall let you have your challenges. Best all 3, and you succeed. I shall pick two, and you shall decide the one between.&quot;
-&gt;You smile &quot;The first shall be yours, sweet creature.&quot;
-&gt;she attempts to charm you with a peck on your cheek &quot;but of course, dearest bookworm.&quot;
-&gt;you nod, a puff of smoke floating harmlessly off of your skin.
-&gt;She is surprised, but nods in acknowledgement. &quot;As I assumed, you cannot be charmed, even by a daemon.&quot;
-&gt;She notes your victory, and lets you have you second challenge.
-&gt;&quot;I challenge you to tell me the power of a spell I shall cast.&quot;
-&gt;her eyes glare at you with a malice only reserved for those who would attempt tricking her
-&gt;&quot;It is forfeit, should I be wounded! You may not attempt to do anything that is not of my will, tome reader!&quot;
-&gt;you nod &quot;I wouldn&#039;t dream of it.&quot;
-
-&gt;you focus deep into your heart, and produce a silver string
-&gt;it burns when drawn taunt, and the flames glitter brightly as the sparks dance around, then away from the rat queen
-&gt;&quot;I have gifted you the strength of malgor&#039;s fire. What does it grant unto you?&quot;
-&gt;she is confused. only a suicidal man would offer to help her after she tried to harm their chances of victory
-&gt;&quot;It matters not, sweet, noble bookworm. I grant you a win out of the kindness of my heart.&quot;
-&gt;her breath tightens slightly, and she begins to stare at you with a smile
-&gt;she goes from floating above you, to standing on her feet before you
-&gt;the dagger floats in her hand, and she walks you into an alley between two buildings
-&gt;your back is against a wall, and she is very clearly getting excited
-&gt;she gave you a victory, and failed in charming you, but now she shall take her only needed win
-&gt;her hand points the dagger towards you, and she smiles, closing in
-&gt;&quot;I-I... I challenge you...&quot;
-&gt;she feels the weight of her armor keeping her down, and dispels them
-&gt;she has no need for them now! You are so close, delectable mortal, she can taste your defeat
-&gt;she still feels hot though, closing in on you, and rips her robes to ribbons
-&gt;&quot;Draw your weapon, book keeper! Give me your best.&quot;
-&gt;you followed orders, and unrobed completely, standing before her, growing slowly rigid, plying your only weapon required in hand
-&gt;she is highly enchanted by the sight of you, so foolishly taking yourself out for her pleasure
-&gt;she slides her panties to the side to return the favor, and has a sudden realization as to what you&#039;ve done
-&gt;She angrily marches toward you, hand charging a spell to smite you
-&gt;&quot;uh uh uh! What is my challenge, queen of the night!?&quot;
-&gt;she glares at you &quot;You have no right to one! You hath changed my mind and attempted to seduce me!&quot;
-&gt;you laugh &quot;I have done no such thing. The fire does not change anything about you. It merely makes desires stronger!&quot;
-&gt;she growls at you, a drip of wetness falling from her exposed lips, she calls you a liar as she charges forth with claws out
-&gt;with a gentle nudge you knock her hand open and down, so that it closes and grasps on your manhood
-&gt;her breath is hot and heavy on your body, unable to stop herself from stroking at you viciously with her hand 
-&gt;&quot;I want you, to go and bend over those crates over there, so you may issue your challenge.&quot;
-&gt;she attempts to growl, but you pluck at her enlarged nipples, and her body moves over to them for you
-&gt;she is losing control, staring under her body, legs wide, as you masturbate behind her, teasing her with the occasional prod or rub
-&gt;she can&#039;t stand it, and begins to rub her pearl vigorously while her fingers dip into her hot messy box
-&gt;you smile, enjoying your show for a few moments before warning her you are about to cum
-&gt;she pulls her fingers out of her wet box to taste them as you cum against her partially parted lips
-&gt;you allow for it all to pour between you, exciting her even more
-&gt;&quot;I don&#039;t believe you told me what the challenge is, lovely creature.&quot;
-
-&gt;you a stroke yourself steadily, a strand of white love bridging her from your tip to her lips and swollen pearl
-&gt;she sits there, simply lapping her own juices on her finger, barely able to think
-&gt;&quot;I command you to give me your final challenge!&quot;
-&gt;she suckles her wet fingers, and when she finally gets the taste of her own hot body free of them, spreads her lips wide, braces her hips, and screams it to the wind
-&gt;&quot;BREED ME, MAKE YOU MY LORD!&quot;
-&gt;you rub up and down her hot lips, watching as she trembles for your answer
-&gt;&quot;You act as if I wasn&#039;t going to do so regardless of your challenge.&quot;
-&gt;You let yourself slip completely into her, smashing into the far depths of her hot, wet chambers
-&gt;she musters a hot moan at your half-length thrust, her legs shaking as she knows with a wet head you are about to go all the way
-&gt;&quot;brace, my queen&quot;
-&gt;you glide deep into her, smashing roughly into her waiting cervix
-&gt;she lets out a fearsome cry, her tail wrapping around your waist, refusing to let loose from her the challenge she desired
-&gt;she glows with a white light as you begin your harsh and most unrelenting assault
-&gt;the hellishly black fur lets way to her natural tones, pink flesh peeking from behind soft grey fur
-&gt;she moves her dark indigo hair aside to take a glance at the havoc you are letting loose on her, only to lose her will and bite into the crates
-&gt;your lance was burning hot, acrid smoke trailing gently off her body as her very demonic contract lifted free of her body
-&gt;aside that her insides were being churned to a level she couldn&#039;t even fathom of you, her dark mind had seen you as weak
-&gt;her true form trembled for you, pulsing and latching to every move you made
-&gt;she manages to choke out a confession of love as you watch the last smoke twirl from her body
-&gt;your mission was complete, and the daemonic presence was now cleared and the town free
-&gt;but you were no man to turn down such a delicious challenge, and she had not desire for you to stop
-&gt;Gripping her waist tightly you begin to ram her with all of your might
-&gt;you may have been a weakling in combat, but your intense thrusts carried all of the power she needed
-&gt;your endurance was higher than she could realize, nor even suspect
-&gt;you clamp more harshly on her hips and pound with more authority, savoring the feeling
-&gt;yet another fearsome howl is emitted by the now cleansed servant to your every whim
-&gt;she is yelling out in the throes of an ecstasy that can only be truthfully called holy
-&gt;every twitch along the rigid lance you are impaling her with is pushing her further into delirium
-&gt;every thrust is sapping her endurance and time between the next vicious orgasm
-&gt;you thrust until she cannot but whimper and spasm against your mighty indestructible manhood
-&gt;every single second to her now is an explosion so powerful that you hold the fate of her sanity by the hips
-&gt;whispering into her ear that she has served her master well in her sensual inauguration, you release a final thrust and torrent of white hot flashes in her
-&gt;her tail is like a fastening belt on armor across your own hips, drawing you in as close as she can to take your final gift
-&gt;every minor twitch is met with a wave of spams and rhythmic pulsing from the furnace of her inner folds
-&gt;even if you have enough endurance for one or two more rounds, you are running out of the mana that supplies the reward
-&gt;you order her to slowly move onto the crates and remove herself to clean you
-&gt;she spends a near hour tenderly licking and sucking on you in an afterglow she hath earned
-&gt;there is no rush in bringing you to climax, so she cherishes every moment like it was her first and last alone with you
-&gt;the swarms of once demonic minions have long since faded into the shadows
-&gt;the only sound in the veiled city to be heard is the wet slopping of her mouth on your body
-&gt;forcing her head down, unable if she wouldn&#039;t be completely unwilling to resist otherwise, she takes the penultimate shot into her throat
-&gt;she is using all the strength she can pull with to try to make her lips and mouth pull the final drops from your spent body
-&gt;laughing softly, you ask her to gift you the strength of one more, and she happily grips your weapon and back
-
-&gt;a burst of intense mana runs from your spine into your all but spent supply, and you can feel it fill to the brim
-&gt;she dutifully has her hands in front of her mouth, waiting to be given a delicious load unto her tongue and palms
-&gt;you brush them aside and ask her to press her beasts against you for a final treat
-&gt;she happily wraps them around your hard rod, licking the tip gently in swirls while moving her breasts back and forth
-&gt;she can sense the shifting tide, and she slaps your stroking hand aside so that she may milk her reward personally
-&gt;you paint her face and breasts with one final coat of steaming love, her hand making a torrent fly freely outwards
-&gt;as she slows down her frantic beating to a gentle rub you tell her to not clean it off of her fur
-&gt;she is not to don her armor either, but only tidy your clothing and put a long coat over her nearly bare body
-&gt;as your obedient servant pampers your appearance into a noble state once more, she follows with anticipation towards the exit portal
-&gt;your party watches you come out first, in shock
-&gt;they then feel as if an eldritch horror seized them when the chaos magus follows behind you with a haughty smile
-&gt;You smile, and address her rather than them &quot;What hath befallen you, wicked temptress?&quot;
-&gt;she bites her lip, lavishly rubbing herself under the coat and prancing near you
-&gt;&quot;I lost 3 tests of my own choosing to the most noble, courageous, and powerful man in the land~&quot;
-&gt;her tail wraps around the front of the coat, teasing the buttons with excitement
-&gt;&quot;What hath become of your armies? Your demonic pledge?&quot;
-&gt;she can barely control her excitement, her tail snapping a button off the bottom, and sliding between her wet lips
-&gt;&quot;We were cleansed in a most righteous manner by you, and we hath no lord to serve but our new beloved master&quot;
-&gt;your entire group looks as if they are witnessing the death of a god, and all color is gone of their many faces
-&gt;the cleansed magus clings to your arm, whimpering to answer the question she knows you have last
-&gt;&quot;What, dearest servant, is your favorite and most cherished task to perform for your lord!?!?&quot;
-&gt;magic burns through the air as the cloak is burned away and ripped asunder by her tail
-&gt;her love stained fur and the thick coating of love are let loose into the cold air as she tweaks her cold chest savagely
-&gt;&quot;I am bred by my master! I will breed with my master as he sees it! Please master, cleanser of daemons, take me before these fools&quot;
-&gt;she is kneeling now, one had feverishly rubbing herself as the she stares into your eyes
-&gt;&quot;these hapless mortals haven&#039;t earned the right to watch&quot;
-&gt;she cackles at your response, and her once torn armor and underclothes reform over her body
-&gt;her dagger floats inches from your former group leader&#039;s neck as she awaits your order
-&gt;&quot;don&#039;t waste your time with them. they may keep the paltry silver scraps your horde did not take back into the shadows.&quot;
-&gt;a puff of green smoke engulfs the dagger as it disappears, and she struts back to your side
-&gt;&quot;They shall never know a gift of such splendor as you.&quot;
-&gt;she coos happily, an orb of light whisking the both of you away to the lair she was once the queen of
-&gt;her armor melts away, fine white robes sprouting from her once dark night clothes
-&gt;&quot;what would be your first wish, my loving lord?&quot;
-&gt;a wicked smile cracks your face, and you look into her clear deep hazel eyes
-&gt;they glow only for you now, with the intensity of molten steel
-&gt;&quot;we should obviously consummate this bond in a proper bed.&quot;
-&gt;her claws tap lightly one stone over to the fine silk bed of her chamber, and she beckons you with a claw tipped finger
-&gt;you crawl into the sheets beside her, noticing she is even more excited than before now that the taint is free of her body
-&gt;she pulls you in for a kiss that threatens to rob the very air of your lungs, but breaks in enough time to nearly faint on her own
-&gt;as she falls back onto the sheets she can muster an almost inaudible task to you
-&gt;&quot;feed my sexual desires again, master. Let us be one with no smoke or taint to cloud our minds&quot;
-&gt;you kiss the nape of her neck gently, and her outer demeanor of a commanding warlord melts for you
-&gt;&quot;I shall not feed your lust, deer lover. Let us instead make passion in this cold, dark place.&quot;
-&gt;you shroud her in sheets, and begin your laborious assault on her freed body and mind
-&gt;this is a battle which she shan’t forget for her lifetime, one you shall cherish for eternity
-&gt;the foolish guild which hired you would warn many men and women to not seek the throne of the queen of shades
-&gt;lest the sorcerer supreme turn your most powerful tools into weapons of his own arsenal</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    3 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    14 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/PM4V3wTN">script or module</a>
-                <div class="details">
-                                            Perl |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

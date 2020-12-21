@@ -1,814 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Prey - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Prey - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/TJPg1Qes" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/TJPg1Qes" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="3gaNQno9_WgGY_DmBCPsYWbY2qKb_HAMtCbkikupH8OJSsZ6LHa3XzUAvZRead5YEoeb1NiRSV_nbLzbLsUq9Q==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/TJPg1Qes" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/TJPg1Qes" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="spaceface">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Prey</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/spaceface">spaceface</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=spaceface" class="message" title="Send a private message to: spaceface"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 25th of January 2018 08:28:33 PM CDT">Jan 25th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    6,991                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 58.59 KB            </div>
-
-            <div class="right">
-                <a href="/raw/TJPg1Qes" class="btn -small">raw</a>
-                <a href="/dl/TJPg1Qes" class="btn -small">download</a>
-                <a href="/clone/TJPg1Qes" class="btn -small h_800">clone</a>
-                <a href="/embed/TJPg1Qes" class="btn -small h_800">embed</a>
-                <a href="/report/TJPg1Qes" class="btn -small">report</a>
-                <a href="/print/TJPg1Qes" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">It&#039;s a big galaxy out there. Some one-hundred million light-years across, home to trillions upon trillions of sentients. You&#039;re one of them, a lonely human. Humans aren&#039;t good for much out there. They&#039;re not good fighters, too small and weak. Not good leaders, not clever or smart enough. They don&#039;t even have the advantage of numbers once Earth died. No, humans were good at two things. Flying and lying. Humans had a certain mixture of traits that made them more likely to be exceptional pilots: smaller bodies to withstand the G-force, an advanced sense of spatial awareness, and an odd human invention they&#039;d mastered over anyone else, the joystick. The deceit however, was just human nature.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">Chapter 1</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Smuggling came natural to a lot of humans, as it did to you. You&#039;d been at it since birth, like your parents had before you. You even inherited their ship before it went down over a battlefield you were supplying two sides of. Now you&#039;re on ship three. It&#039;s small, cramped even, with all its space dedicated to either engines or cargo, but it&#039;s home. The cockpit is the only place you&#039;ve ever felt truly safe. Even now, dodging anti-air fire from ground-based cannons, you aren&#039;t worried. You&#039;re faster than any targeting computer. You swoop over a scorched city, leaving the sound of wasted flak behind. The defenders owed you big. The ship settles on a makeshift airfield in the heart of the city, and the cargo doors swing open. You&#039;re content to let these bug folk do all the unloading. Wasn&#039;t your war anyhow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The console in front of you blinks, a screen opening up to show one of the bugs. It spoke, and your console&#039;s auto-translation kicked in. &quot;Captain. The hive extends its gratitude for your service.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You nod. &quot;Anything for a good cause, as long as the money keeps flowing.&quot; While the bugs had little in the way of currency, for every load of munitions or supplies you brought, they were sure to replace them with precious metals or other trade goods.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;For your service, the queen herself would like to speak to you.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s not necessary, I just need to--&quot; You start making up excuses, but it&#039;s too late. The bug twitches, and its voice changes. It lets out a series of clicks and buzzes that the console fails to translate. After a few more seconds, the bug changes dialect.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sincerest apologies, outsider. We have not used common language for some time, as queens do not speak to your kind often. Once again we must extend our gratitude for your assistance in this war. It has been bitter, and your contributions have made a difference, but we fear this battle, and soon the war will be lost. Your services will no longer be needed, and it would be prudent for you to leave Tlillek space as soon as possible.&quot; With that, the feed cut. You check your ship cameras, to assure your cargo bay had been emptied, and your payment secured. It sits in the middle of you now near empty cargo hold. Larger than the last dozen shipments, it should last you quite a while.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With your next few months pay in the hold, you waste no time sealing up the ship and taking off. You don&#039;t want to be here when the battle ends, and they start looking for traitors and conspirators. Civil wars are good for business while they last, but they tend to breed grudges.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Once you dodge the blockade over planet, the trip to the edge of Tlillek space is uneventful. Once there it&#039;s just a short jaunt through Federal controlled territory, and then you&#039;re home free. Wild space. Spanning half of the galaxy, wild space is your playground. Warlords, fledgling empires, criminals, and colonists all trying to survive. If this bug job hadn&#039;t been so lucrative, you never would have left. You settle into your seat as Federal space approaches. No one watches the Tlillek border. The bugs hardly let anyone in anyways.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The moment you&#039;re in Federal space however, alarms begin to beep on the console. You jump up to see you&#039;re being targeted by a pair of cruisers that had been waiting for you. A message pops up on your screen. &#039;Attention Captain of freighter designated &quot;The Anon&quot;, you are in violation of Federation law. Power down your ship and prepare to be boarded.&#039;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Fat fucking chance. You start to work on the console, revving up your ship&#039;s pursuit engines. The alarms became louder as the federation cruisers locked on. You&#039;re gone before they can pull the trigger. Your ship is fast, faster than these sluggish patrols could be, and you swing beneath them, nimbly dodging point defense guns. You&#039;re around the ships and gone before they can turn around to pursue.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You don&#039;t ease off the throttle until you&#039;re out of Federal space, and even then you keep flying. The Feds had little qualms about extending their reach to deal with big enough problems. Not like they&#039;d ever give enough of a shit to go after a human like you, but it doesn&#039;t hurt to be careful. Once you&#039;re sure nothing&#039;s pursued you, you set a course for Halcyon station. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Approaching the tiny mining-station turned outpost, you already have a plan to sell your cargo to its owner, Bozch. He treated you like shit, and he never trusted you, so you both knew the other felt the same. A channel opens up, the console screen lighting up to reveal Bozch&#039;s piggy face. &quot;My favorite captain in the galaxy!&quot; He grins. You cut the feed immediately, and turn the ship around. Confirming your suspicions, a gunship shoots from Halcyon station&#039;s landing bay. A Federal Marshal&#039;s gunship. The moment you saw it, you knew you were well and truly fucked. The ships were state of the art, fast and deadly. The marshals piloting them more so. You were light years from safe haven, and even with your piloting skills, you simply couldn&#039;t outrun a ship like that. You still had to try.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The chase ended sooner than you hoped. Despite weaving around Halcyon station, desperately searching for a vector to escape, the marshal kept up through sheer engine power. Desperate, you take a moment where you lose sight of the gunship and turn out into open space. You don&#039;t get the opportunity to gun the engines and soar away. A single shot rips through your ship, crippling The Anon. You struggle, diverting power to anything that may still be working. It&#039;s no use. That single shot left you adrift. You spring from the chair, swinging open the locker by the door to the cockpit. Inside was a jacket, a size too big, and a revolver. You slip on the jacket, and aim your weapon at the door. Then, you wait.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The clunk of ship-to-ship docking came some fifteen minutes later. They&#039;d have to get through the airlock first, then from the main room to the cockpit. You&#039;d had both doors reinforced not long after you acquired the ship, but by the blasting sounds coming from the outside they&#039;re hardly enough. Once the ship stops shuddering from the sound of airlock doors being blown off hinges, you hear the heavy thump of steel boots on metal floor. You edge away from the door, expecting another explosion. Instead, the access button blinks for a second, spits out sparks, and goes out. The door slides open, and you empty the revolver.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The gunfire near deafens you in the confinements of the cockpit, and when you open your eyes, you see the doorway is empty. &quot;Oh shi--&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You&#039;re on your back in a split second, a clawed boot planted firmly on your chest. The marshal leers down at you. &quot;Hello, my prey.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">Chapter 2</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The moment you catch your breath, the lies come out. “Marshal, listen, I have no idea who you think I am, but I you’ve got the wrong guy.” You struggle beneath her steel boot, to no avail. “Bozch set me up right? For money or something? He’ll do anything and say anything for a payday.” You laugh, trying to hide the nervous edge to your words.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The marshal narrows her orange eyes, tasting the air with her forked tongue. “They said humans were good liars.” She scoffs, and lifts the boot from your chest, replacing it with a fist as she grabs you by the lapel of your coat and hauls you to your feet. Once on even footing, you get a better look at the marshal. A reptile. She’s tall, and would be even taller if she didn’t have to crouch to fit in your human sized berth. She’s also strong, powerful legs leading to wide hips and muscled arms running to a heavy chest. The skintight armor-weave of her jumpsuit blends in with the jet black of her scales, making it hard to tell where the uniform ends and she begins. If you were one for clichés, you’d call her Amazonian. “Arms out, human.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m telling you, it’s not even my ship.” You continue your protests, but the marshal simply rolls her eyes and grabs your hands to cuff them.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Let’s go.” She puts a hand around the back of your neck, and guides you out the door, through the airlock, onto her gunship. You look around the spacious cabin she’s led you to. Communication systems, weapon lockers, and a view screen populate the room. All of it state-of-the-art. All of it average galactic sized; too big for you, and a little too small for the marshal. You peer left towards the front of the ship, down a short hallway, but the marshal pushes you the opposite direction, towards a plain metal door in the back of the cabin. She presses her hand against the panel set in the wall, and the door slides open. “In.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Once again she doesn’t wait for you to comply, pushing you into the cell, and shutting the door behind you. You look around the room. It’s actually larger than the bedroom on your old freighter, but the single cot mounted on the wall, just like everything else on the gunship, is too big. You climb onto it, legs dangling just short of the ground, and sweep your gaze over the room. It’s all dull grey metal, without even a viewport, and only a thin outline marking where the door is. Escape proof. You still have to try though.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You must have spent two hours, poring over everything inch of the cell, sliding your fingers over the doorway over and back again. You find no seams, no cracks, and no weaknesses. “Fuck! Fucking fuck!” You slam your fists against the door in a final pointless effort before stepping back and returning to the bed. Resignation doesn’t come easy, but it seems you’re stuck for the long haul back to federation space. Your mind wanders to planning to lie your way out of a trial, and eventually you start to doze.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The second your eyes close, the whole ship gives a wrenching shudder that tosses you to the edge of the oversized cot. “Shit!” You swing your legs out and try to stand as the gunship takes evasive maneuvers. The heavy thud of the gunship’s cannons start to echo through the metal floors. Whatever the marshal is shooting, she isn’t showing nearly the restraint she did with The Anon. The marshal&#039;s apparent ferocity, however, is not enough, as you feel more and more hits scored. Your stomach turns, fearing that each one is the one with your name on it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Suddenly, the cannons stop. The ship no longer weaves and rolls beneath your feet. You’re adrift. Pressing against the door, you listen for whatever you can. The familiar sound of clawed metal boots can be heard in the cabin, and you bang on the door. “Marshal! What’s going on?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shut up and stay put!” Something metal clangs against the door as she shouts at you, causing you to flinch and stumble back. Things go silent, and you lean against the door once again. You feel the unfortunately familiar sensation of an airlock to airlock docking. You close your eyes and wait for the gunfire. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You don’t have to wait long, a blast echoes through the gunship, followed shortly by the sounds of gunfire, then shouts and struggle. Snarls and roars of close combat, that eventually grow quiet. You strain your ears, trying to listen in. The door slides open, and the marshal is there. She’s bloody, but none of it seems to be hers. “Come on. Not much time.” She yanks you out of the cell, and pushes you toward the airlock. A half dozen of the pig-faced people, like Bozch, litter the cabin floor, all of them dead. Each one is clad in combat armor, bearing a sigil you recognize. Pirates.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The marshal only lets you have one moment to stare at the butchered pigs. “No time, human. Still a battleship out there.” She pulls you through the airlock, dragging you by the cuffs. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“A battleship?!” You look out the front windshield of the dropship, and sure enough there’s one hanging above a green and blue planet, festooned with weaponry. “What’s your plan then? Gonna turn yourself in?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’re going down to that planet. I activated my ship’s distress beacon. We wait for rescue.” She settled into the pilot’s seat at the front of the ship, indicating the seat just behind for you. “Buckle in.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Like hell! You couldn’t escape that thing in a brand-new gunship, let alone this piece of shit. Let me fly.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You? You&#039;re not flying. You’re a criminal. You’re prey! A human!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You nod. “Exactly. Best pilot in the galaxy.” You stick out your cuffed hands for her to unlock them. “If we live, I promise I’ll come back to Federation space with you.” She stares at you, tasting the air once again before grabbing your hands and unlocking the cuffs. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“There. If this is a trick, I’ll make you regret it.” She stands and pushes you down into the seat. You’re going to have to get used to too-big furniture for a while. You scoot to the edge of the seat to reach the controls, while the marshal buckles into a crash seat behind you. With the flick of a button, you’re unhooked from the gunship, and taking off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At first you make straight for the battleship, hoping to close some distance with it before arousing suspicion. As you near it, the console lights up, and a voice sounds through tinny speakers. “Gulm! Took you long enough, is the marshal dead?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Thankfully it’s not equipped with a video screen, else your charade would be broken immediately. You clear your throat, lowering your voice a few pitches to imitate one of the pigs. “Yes sir. She put up a fight.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The voice on the other end cackles. “Ha! Good work! Show those federal fucks what they get. Gotta pay Bozch for the tip…” The link cuts, and you let out a sigh of relief.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Okay. Just gotta make it past the battleship now.” You decide to gloss over mention of your former associate. He sold you out, he’d sell a marshal out just as fast. The battleship quickly fills your view on the approach. At the last second you turn, gunning the engine to swing beneath the battleship. You’re around it and headed toward the planet by the time anyone on the battleship seems to notice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Gulm!” The voice comes back in. “Where are you going?!” You don’t bother to respond, shutting off the communications. You can practically feel the battleship’s guns turn to aim at you, and you ease off the throttle enough to let you take evasive maneuvers. Boom! The first shot rockets past, and you dive hard. The dropship is clunky, and far less responsive than your old ship, but you manage to avoid the full brunt of the battleship’s barrage, taking only light damage as you approach the planet atmosphere. You think you’re scot free when a final missile hits home, destroying one of your two thrusters.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Three fucking times!” You hiss at your recent bad luck while struggling to maintain control. You’re hurtling towards the ground now, well out of reach of the battleship, but now in danger of a crash landing. You angle towards a stretch of grasslands, pulling the dropship’s nose up as much as you can. The tail hits the ground first, slinging you forward into the console. Too late to buckle in. Then the ship starts to tumble. You manage to hang on for half a second before momentum slings you away. You’re sure you’re about to become a smear on the bulkhead when you feel a wrenching tug on your arm. The marshal’s got you. She yanks you close, wrapping her arms around you as the ship plows through the earth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’ve got you!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">Chapter 3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">When ship finally came to rest, you and the marshal didn’t move for several seconds. You were waiting for the world to stop spinning while her grip kept you firmly in her lap. Finally, you manage to remember which way is up, and start to pull at the marshal’s arm. “Let me up.” Despite your survival, there was still work to be done.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The marshal glances down at you, flicking her tongue out. “Do not leave the ship.” She lets you go, and you pull yourself off her lap, trying to avoid pushing against her for leverage. You drop onto the floor of the battered ship, and start down toward the rear of cabin. You nearly fall over on your shaky legs, but you manage to reach what you’re looking for: a maintenance hatch. “What are you doing?” The marshal asks after you as you haul it open.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Looking for fuel.” You pull yourself up into the hatch. “We have to torch the ship.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You hear a soft hiss, and the sound of her boots on the grating. The marshal’s hand grabs your leg to haul you out of the crawlspace. “You will not.” Before you can argue you’re in cuffs again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You struggle, swearing. “Fuck’s sake, do you want to die?” She stares you down, her pupils narrowing to thin slits. You go still.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Was that a threat, human?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No! No, not a threat. I’m just trying to help. Those pirates are still up there, and if they come looking, they’ll find we’re still alive. If they find a burning ship instead…” The marshal loosens her grip, realizing your plan.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“They will think we perished in the crash.” For the first time you see something other than anger on her face as she cracks a small grin. “You have done this before.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Just once.” You can’t help but chuckle. “So, can you let me get back to work?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her face goes stern again. “No. I will burn the ship. You will wait outside.” She pulls you along, through a hole in the ship’s hull, and out onto the grassy field you’ve landed on. “Stay here.” She leaves you a good fifty meters from the ship and returns to the ship. You sit down on the grass, enjoying the sunlight. You’re not often out in the sun, so you take a little time to relish it. It’d be nicer if you weren’t handcuffed on an unknown planet. The marshal appears from the ship, a small bag slung over her shoulder. “It’s ready,” She approaches you. “Time to go.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You nod. “Better now than when they come searching.” You reach your cuffed hands up and the marshal hauls you up on your feet. In the same motion, the cuffs come off your hands, and she slips them back on her belt. “Thanks, marshal.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Let’s go, human.” She turns, walking toward the nearest cover, a small copse of trees. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I have a name, you know.” You jog to catch up to her, but stay a couple steps behind.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You have several.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My line of work, you have to. Pick one you like and stick with it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The marshal looks over her shoulder at you, seeming to consider her options. “Anon. It fits.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shrug. “Fair enough.” You reach the trees, and you stop a minute to look back at the dropship. It’s already engulfed in a pillar of flames. “No one could have survived that.” You grin, looking over at the marshal, who scoffs at your joke. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The pirates will think so.” She turns back into the trees, and keeps walking. You stay and watch the ship burn a moment, before turning to follow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The small forest gave way to grasslands, which gave way to a larger wood. You march on, the marshal setting a harsh pace. The outside was a novelty while it lasted, but now it was beginning to grate. Your legs started to ache, bugs buzzed about your face, and the sun that you thought was pleasant, was now beating down on you as it dipped lower in the sky. You consider voicing complaint, but you know the kind of response you’ll get. The sun had finally started to set when the marshal stopped marching. “Do you hear that?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Cocking your head, you stop. “No. Hear what?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Running water.” She grabs your wrist and drags you off toward the source of the water. The pair of you reach it in short order, a small, but fast-flowing stream. “Fresh water.” She leans down to dip her hand in the stream.  “We can follow it, find shelter.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shelter? How long are we going to be here?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Rescue should arrive in three to four days.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You’re flummoxed. “Three to four days? Are they walking?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My signal is received, they have to authorize rescue, deploy appropriate forces, and they have to move the entirety here, through unregulated space. Yes, three to four days.” She stands, looking back the way you came. “The plains will offer a better field of view, but the forest offers concealment.” She looks at you, expecting a response.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Forest. Definitely.” The answer is obvious to you, and she seems to accept it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Very good. Get a drink if you have to. You look like you need it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You take the offer gratefully, kneeling next to the stream and cupping your hands to drink down a few mouthfuls of water. You then splash some on your face, hoping to wash the sweat from your brow. “Stupid outdoors…” You stand to see the marshal’s already on the move. You jump to keep up with the marshal. The trek isn’t long this time, and you come to a clearing just off the stream. The marshal is already settling down, having left her bag hanging up from a tree branch, and curling up beneath it. You pick a tree, and sit up against it, bringing your legs against your chest for warmth. It’s dark now, the last drops of sunlight disappearing over the horizon. You sigh, dreading sleep. “Hey, marshal?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You chew your tongue, considering your next question. “You’ve got my name. What’s yours?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You hear a rustle, and you can see the glow of the marshal’s eyes staring at you from across the clearing. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My name is Karissa.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">Chapter 4</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You barely sleep a wink the entire night. Everything is too wide open for you. All you have is sturdiness of a tree at your back; the rest of the world stretches out around you, with no steel doors or reinforced bulkheads between you and it. You feel immeasurably small and totally exposed. The marshal, Karissa, had no such reservations, unmoving from her position opposite you in the clearing. Lucky her. You stare up into the sky, the pinpoints of starlight making you yearn to be back out there.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As time drags on, you can’t stop your head from drooping, and your eyes from lowering. Sheer exhaustion is taking its toll. Shaking your head, you look back up at the marshal to envy her rest, but when you do, you see something in the woods behind her. A pair of blue orbs, glinting in the meager starlight as they stare back at you. Shifting on the ground, you try to get your legs under you without any sudden moves. “Marshal.” You call out softly. The eyes bob as they draw closer. A flicker of movement on your right reveals another pair. “Marshal!” You call to her louder, but she doesn’t react. The owner of the glowing blue eyes step into the clearing. A beast. You can make out an angular face, and long, sinewy legs. It looks impossibly big for a predator, near four feet to the shoulder. It bares its teeth, padding closer. “Karissa!” You scramble to your feet as the beast lunges. You’re barely faster, jumping aside as it flies toward you. It catches the back of your coat, wicked claws sheering through the material with ease. The beast runs into the tree, but its only stunned for a moment, and it turns to stalk toward you. You see it crouch to pounce again, but it never gets the chance. The beast is picked up by a dark mass of muscle and scale.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My prey!” The marshal hurls the beast aside, sending it crashing into a tree. It yelps in pain and skitters off into the dark. Karissa turns to you, her pupils dilating from predatory slits to their normal size. “Anon. Are you hurt?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You see a flash of movement behind her: the second beast. “Karissa!” You point, too late. The marshal follows your pointing just in time for the beast to leap on her. The pair struggle for a few moments, the beast trying to claw and bite through her armor-weave jumpsuit. The marshal throws the beast off herself, drawing her sidearm and firing it into the ground. The beast lets out a howl before fleeing. “There might be more.” You swing your gaze, unable to make any more out in the sparse light. Karissa too looks around for more predators. Nothing comes over the next few minutes, save the first creeping hints of twilight. You sigh, tired but relieved. “I think that’s it. Are you alright?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa looks at you, and you can make out the glimmer of blood on her face. “It is nothing.” She holsters her sidearm.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit. You’re bleeding.” You run up to her, trying to get a better look. “Let me see your head.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa scoffs. “I am fine. Did it get you?” She grabs your shoulders, looking you over. “Your back?” She turns you to look at your shredded jacket.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It didn’t get me; would you just lean down so I can take a look?” You push her arm away and shed your destroyed jacket. Karissa huffs and drops to a knee, giving you a clear view of her head. A neat row of claw marks scores down the side of her face. It only just missed her right eye. “Well, it’s not too deep.” You tear off a patch from your jacket, and start wiping the blood away. “Let’s wash it out at the stream.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa leads the way once again, though you walk beside her this time, watching dark red ichor ooze from her wound. You wince every time she wipes at it with the bloody scrap of clothing. When you reach the stream, you sit down and start tearing strips off your former jacket. When you have a few, you wave Karissa down to sit next to you. Taking the first strip, you roll it up and dip it in the stream, washing the blood from her face again. Karissa hisses as you do so, and you try to hurry. “Sorry, sorry. Just gotta get all of it…” You manage to clean it reasonably well, so you move on to grab another scrap, folding it into a makeshift pad to soak up blood. You clean off the blood one last time, and place the pad down. “There, hold that down.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa complies, holding the dressing down. You grab the last strips of cloth, and start wrapping them around her head to hold the dressing. She considers you while you work. “You have done this before as well.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shrug. “Dangerous galaxy out there. A human does what I do, that human’s gonna get the shit kicked out of him from time to time.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Then why do you do it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Why are you a marshal? Why is Bozch a piggy-faced, backstabbing sonofabitch? Cause it’s all I’m good at. All I’m good for.” You finish tying off the bandage. “There. That should hold until it doesn’t.” It’s not your best work, but it would serve for at least a day or two; then it wasn’t your problem anymore.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa runs her hand over the bandage. “It is well done. You have had to this so often?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Only a dozen times or so. This one,” You roll up the sleeve of your jumpsuit to show off a long scar running up your forearm. “came from a pig who felt I ripped him off. Couple broken ribs from my first crashed ship.” You duck your head, pulling back your shaggy hair to reveal a half-inch bald spot. “Got my dome cracked in a bar fight on Naxin three. Oh, and I got this,” You unzip the front of your jumpsuit, pulling it open to reveal a splotchy purple and blue bruise. “from a federal marshal who near put her foot through my chest.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That earns a genuine laugh from Karissa. You’re a little shocked to hear it. “I do not have so many scars. I do not often lose fights.” She cocks her head, before sitting down fully to stretch out a leg in front of you. “This leg I broke in my youth, fighting with my brother at home. And I suppose I have this.” She turns her bandaged side to you. “I was clawed by a beast on a wild planet, defending a little human smuggler.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shoulda just let him get eaten. Sounds like a hassle.” You get another small laugh from Karissa.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No, I could not do that. What huntress would I be if I gave up my prey to another?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You keep calling me that. Prey. That a sex thing?” You start to laugh, but quickly trail off when you see the death glare Karissa is giving you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It is not. My people are hunters. We pride ourselves on it.” She stands, turning away from you. “I am going to get some food. Stay here.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure thing.” You sit and watch the stream flow by, mentally chastising yourself. This was still the marshal that was going to put you in a federal prison. You weren’t making friends with her. “Stupid goddamn middle of nowhere. Should be neck deep in cash and liquor by now.” Despite your quiet anger, you can’t help but yawn, the lack of sleep was still there.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The few more muttered swears do little for the soured mood, and the sound of the marshal returning so soon does little to help. “Human.” You turn, and see she has the bag she hung up at the clearing. “Catch.” She tosses something at you, and you only bring your hand up in time to block it from hitting you square in the face. You look down at it. A vacuum sealed package labelled ‘emergency rations’.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thank you, marshal.” You tear the package open, and dig in. The meal is simple, hard bread and dried mystery meat, but it’s filling, and doesn’t taste too bad. Karissa has her own package, which she quickly tears into, setting the bag down to rip her food apart. She eats much faster than you. “Hey, you want the rest?” You hold up your half-finished meal. “I’m full.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re not hungry?” Karissa takes your food, and makes short work of it. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Not anymore. Humans don’t eat much, y’know, compared to the bigger races.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa accepts your answer, nodding politely. Food seems to have lifted her mood. “You are quite small.” She folds up the remains of the food, placing them back in the bag. “Do humans sleep less, as well? You were awake very early.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, no, we need eight to ten hours. I just, didn’t sleep. Not used to all…” You wave your hands vaguely. “This outside stuff. I like sleeping on a ship where I’m safe.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Of course. You humans and your ships. I felt similar, my first time away from home. I adjusted soon enough.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Home huh? You’re planet-born then?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa nods. “From the homeworld.” She scowls for a moment, but it’s quickly replaced by her usual taciturn expression.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You cock your head. “Homeworld. I never had one of those. Just a ship.” You consider probing for more. It’s not like there was anything else to do out here. “Was it nice?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It was…” Karissa hesitates. “I miss it, but I cannot return.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit, that sucks. I had to burn my home. That was that first time I mentioned.” You try to laugh, but it’s not nearly as funny as you thought it would be. You miss that ship. “What is it like? Your home?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The planet is hot. Most of it desert. My home was a--” Clamping her mouth shut, Karissa glares at you. “Stop that.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Stop what?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You are trying to trick me. Make me trust you. Then you run. I am not a fool, Anon.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You hold your hands up, half shrugging, half surrendering. “Hey, neither of us is going anywhere. Besides, I promised not to.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She rolls her eyes. “You promised. My mistake.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, come on, I said that in earnest. I’m really not trying to get an edge over you.” That was half true. You still planned on taking whatever chance you could to run, but you had no designs on using this conversation against Karissa.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It doesn’t matter. You won’t get away.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Come on, I saved your life. Least you can do is trust me a little.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You saved my life? You are confused, Anon. I have saved yours twice.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well yeah, one to two. I saved yours when I got us down here in that shuttle.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We crashed.” Karissa scoffs.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You frown, a little hurt. “I got us past a battleship in a two-engine lander. No one else could have done that.” You push up off the ground to stand. “I should get a medal.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You were saving yourself.” Karissa flicks her tongue out, watching you rise.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, I coulda taken us straight to those pirates. They would have paid me for it.” That gets a reaction. Karissa pushes off the tree, glowering at you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You would not have survived.” She seems a bit surprised when you laugh in response.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I know. Pirates are scum. I wouldn’t work with those fucks for all the money in the galaxy.” You nod in affirmation of your contempt.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“At least you are smart. For a human.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“For a human.” You agree, laughing with her a moment. The sun has climbed by now, at least past midday. Despite this, you can’t help but yawn again, exhaustion taking over you. “Marshal, I think I’m gonna try to get some rest. Mind sticking around so nothing eats me?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa watches as you settle against a nearby tree, and responds as you close your eyes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I will figure something out.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------------------------------------------------------------------------------------------------------------------</div></li><li class="li1"><div class="de1">Chapter 5</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Exhausted as you are, sleep remains a struggle. You constantly shift and grumble, dozing in and out of consciousness. At some point you keel over onto your side, which seems to help a little, but you still wake up occasionally. Finally, you open your eyes with a grunt. “How long has it been?” When no response comes, you look over to where Karissa had been standing, and find the spot empty. You pick yourself up off the ground, your body protesting the poor conditions as every joint and muscle of yours aches.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The light has shifted, sun setting behind the tree line. You’ve slept a few hours, but not nearly enough. You still need to find the marshal, before something else finds you. “Marshal!” You start calling out. “Karissa?” You don’t get a response. “Karissa? Hello?” You call a couple more times and finally get a response.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon! You’re awake?” Karissa’s voice carries from further up the creek. You start off toward it. It doesn’t take long for you to find the marshal. Just around a bend you find her, standing on a rock, out of her jumpsuit. You get an eyeful and a half of black scales. When you thought the jumpsuit left little to the imagination, you were wrong. Karissa’s heavy chest is much more obvious now that it’s not held down by her confining uniform. You’re surprised to find her nipples are a soft shade of pink, clashing with her dark scales. The only thing protecting the last of her modesty is a simple pair of black shorts serving as underwear.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa stares at you. You stare at her. This goes on for several seconds, not a word spoken between you before Karissa shakes off her surprise and covers herself. “Go!” She barks the command and you scramble, turning and fleeing back into the forest. Still, the image of her is burned into your mind as you run back to the clearing where you had spent the night. Taking a few breaths, you plant yourself against the tree where you tried to sleep last night, and prepare yourself for the worst. You have a few minutes of imagining the myriad ways the marshal could tear you to bits.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You manage to calm yourself by the time you hear her stomping footsteps. She won’t just kill you. It was an accident. All this self-assurance does little to help when Karissa enters the clearing and fixes you with the evil eye. She’s back in regular dress now, but you can’t help but picture her without for a couple seconds. When she speaks, you snap out of it. “You lied to me, human.” She steps up to you, grabbing you by the back of your neck, apply just enough pressure to make her point. “Eight to ten hours, you said.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What are you—You mean how long I slept?! That’s just—Not every time! Why were you even—” You consider your next words carefully. “Why were you…doing that in the first place?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I was sunning. Do you know what that means?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You were sitting in the sun?” You hazard a guess, obviously wrong, but the best you can come up with. Karissa huffs through her nose, releasing you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I am not a mammal. My body cannot handle cold like yours.” You still don’t totally understand, but you accept the explanation. Not like you knew a thing about biology. “I took the time to warm myself before nightfall.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“And you needed to do it without clothes?” You find the whole scenario a little ridiculous.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My jumpsuit is insulated.” That explanation makes enough sense. Insulation would keep the cold and the warm out equally. “I should be fine for the night, now.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Now? Was last night—”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Freezing. Miserably so. You are lucky you were able to wake me.” Karissa crosses to the other side of the clearing, obviously done with the conversation. You don’t mind. You get cozy against your usual tree and watch as Karissa produces the bag of food. She tosses you another package of bland meat and hard bread, before quickly consuming her own. You look over the meal with distaste. Two more days of this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“This was all the pirates had, huh?” You start picking at the food. “I mean, I shouldn’t be complaining. We’re lucky to have food at all, but I’d kill for something good.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes. It is all so tasteless. I could find something to eat, in the morning.” Karissa catches your half-empty ration as you toss it back to her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Long as you aren’t too cold.” You grin a little as Karissa rolls her eyes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I slept more than you. The world is not going to collapse without your ship, you know.” Her comment strikes a nerve.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ships are all I’ve got. You’re the one who blew mine to bits.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re a criminal and a human. It was going to happen eventually.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well yeah, that’s how things go, but you’re still the one who did it. I mean, you just left it floating too. Bozch probably stole it, and my last payday. You know how hard it is to get a ship that fits my size? One that I can actually use?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It doesn’t matter. You won’t be flying anymore.” Karissa shrugs off your concerns. “Stand up. We can’t stay here.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What? It’s getting dark already.” You try to push further into the crook at the bottom of your tree, defiant.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes, it is. We need better shelter. From the local predators.” She grabs you by the arm, yanking you to your feet. You pull away, but her grip lingers a moment on your bare skin. “Hmm…” Karissa seems to have lost herself in thought, running a thumb over your forearm, but you tug again and she lets go. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You give her a look. “What the hell was that about?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa shakes her head and starts off into the forest by light of sunset.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Nothing. Let’s move.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The march isn’t as bad as you expected, as Karissa leads you upstream along the creek. The ground gets rockier, but with the sun setting, the little extra exertion isn’t nearly as bad. You can also stop for a drink whenever you need. As daylight slips away, you look up to see the first of the stars, however, you’re disappointed to find the sky is now filling up with dark clouds. Had they been there before?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The clouds continue to worry you, occluding the sky, and rumbling terribly. You start walking closer to Karissa, eyes stuck on the sky. She notices, glancing back. “Are you well Anon?” You nod quickly, but give no response. You shudder at the thought of the uncontrollable weather. Another misery of life outside your own ship. Your eyes remain fixed on the sky, the world getting darker and darker.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey Karissa, what exactly are we looking for here? Are we gonna be there soon?” You finally speak up when the first droplets of rain start falling. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa raises a hand to feel the rain. “We will find shelter soon. This rain will not be good for us.” The pair of you march on, rain growing heavier with every step. The ground too grows more treacherous, rockier and steeper. Several times you slip, and fall to a knee, and every time Karissa pulls you to your feet. The fourth time she keeps her hand on your arm, holding you up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The rain was reaching a downpour when Karissa raised her hand to point into the distance. “There. That will do.” You followed her pointing finger to see a small, rocky overhang. Not big enough to be called a cave, but enough to provide shelter from the rain and hide the pair of you from prying, predatory eyes. Karissa practically drags you along as she speeds up, pulling you into shelter. You’re soaked to the bone, as is she, and you sit there shivering. Karissa quickly curls up, as far back away from the rain as possible. You mimic her sentiment, and set yourself away from outside as well. You’re hunched over, arms wrapped around yourself as you nurse the small flare of warmth left in your core. You’re lucky the ground is soft dirt, instead of cold hard stone.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“God, I miss my ship.” You mutter to yourself. “Stupid fucking weather.” You spare a moment to glance over at Karissa. She’s lying there with eyes clenched shut, pointed teeth bared in a grimace. “Karissa? You feeling okay…?” Leaning over, you try to get a better look to make she’s not keeled over and died. Karissa’s arm snaps out when you do so, grabbing your arm and pulling you closer.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon.” Her voice is strained; her hand is wet and cold. “Jumpsuit off.” One eye of hers opens, staring you down. You start to babble out a surprised question but a harsh squeeze on your arm shuts you up. “Need warmth.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You stare at her for several seconds. It’s not like you had much of a choice, especially with her death grip on your arm. You comply with her order, unzipping your jumpsuit, and pulling it off. Karissa lets you go as she begins to do the same, though she only pulls off the top half, letting it fold over her legs. The moment you’re in your boxers, Karissa grabs you again, and yanks you into place against her chest.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your back is pressed against her stomach, your legs stuck in her lap, and your head lays on her chest, nuzzled between Karissa’s breasts. You’re sure your face is burning red. Karissa wraps her arms around you, holding you close to her as she spoons you. Her skin is cold to the touch, but her scales are smooth and surprisingly soft. You expect another sleepless night, for a variety of reasons. You close your eyes as Karissa settles into a comfortable position. She takes a deep breath.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thank you, Anon.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The next thing you know, you’re waking up in the morning, sunlight filtering through a cloudy sky. Still raining. You’ve slept through the whole night, in a deep, dreamless sleep. You’re still wrapped up in a bear hug from Karissa, though her grip on you has gone loose in her sleep. The moment you start to shift, however, Karissa tightens her hug, drawing you back in. You struggle for a second before giving up. Despite last night’s discomfort, Karissa’s body is now surprisingly warm, reflecting your own body heat back to you like a blanket. You’re still embarrassed to be treated like something between a stuffed animal and a space heater.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Karissa. Karissa it’s morning.” You struggle more, trying to wake the marshal from her sleep. “Karissa!” This earns you a crushing squeeze. It’s almost worse than the boot to your chest was, but you manage to stir her from sleep when you raise your voice. The hug stops, and you feel Karissa shift. Looking up, you meet her eyes. At first shock registers on her face, mouth hanging open at the sight of you cuddled up to her chest. Shock turns to anger, which quickly shifts to recognition as she looks away a moment.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon. You’re awake.” Karissa frees you from her arms, and pushes you away to quickly stand. “Dress yourself.” You roll over and push off the ground, grabbing your jumpsuit as you do so. You get dressed quickly, and see that Karissa has done the same. She doesn’t quite seem embarrassed, but perhaps uncomfortable, as she continues to avoid looking directly at you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This isn’t going to work. “Hey marshal?” Karissa looks up at you. “Listen, I know last night was weird. I’m a human and you’re…well, I’m a human and you’ve had a thing about that, but we’re still stuck here for two more days and it’s still raining.” You both glance out at the rain. It’s not storming like last night, but it’s still an oppressive mist that fills the air. “Can we just pretend we aren’t on opposite sides of your law until rescue?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa frowns. “I am Slithin.” Her expression softens after she corrects you. “But I will oblige your request. Until rescue arrives, I will stop treating you as a criminal.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thank you, Karissa.” You nod, and step closer. “That’s out of the way, now, let me look at your face. Gotta make sure that scratch isn’t infected.” Karissa complies, dropping down to sit in front of you. You gingerly pull off the homemade dressing, now crusted with dried blood, and look at the wound. It’s already sealed up, and doesn’t look infected. “Well, I have good news. You’re not going to die of infection.” You undo the bandage, wadding it up and wiping some of the dried blood away. You stop a moment as you look Karissa in the eye. They really do glow, even in the dim light of a stormy morning.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon, Is something wrong with my eye?” Karissa shifts, breaking eye contact with you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No, no, just looking. At your scratch.” You return your focus to Karissa’s healing wound. “You know, this will probably scar up in the next couple days. Not bad for a first.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You believe so?” Karissa runs a claw over the wound, wincing slightly as she does so.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh yeah, scar like that’s gonna be intimidating as all hell. You’ll be even more of a terror.” You nod approvingly and step back. “It’ll add to your whole hunter thing too. Nothing says ‘I kill angry beasts’ like a giant claw mark.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That’s very…kind of you to say, Anon.” Karissa stands and looks over you into the woods. “It is raining still. I see little reason to leave our shelter unless the need arises.” You nod in assent.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sounds like a plan.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The next couple hours are spent lazily. You split another bland meal with Karissa as you wait for the rain to lessen, but to no avail, it remains depressingly overcast. The rain dodges between a downpour to a fine mist as time passes. All this time your throat grows drier, and nearby pools of water from the rain are muddy and brown, not fit for drinking. Once the precipitation turns to mist you could stand to be in, you stand. “Okay, I’m going to get some fresh water, I’ll be back in a bit.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa warns you not to go far, and you reassure her you are just walking to the stream. After the terrible deluge of last night, the walk to the stream is hardly any trouble, and you can easily shake the cold of a soft rain. Once you’ve reached it, you can hardly feel the rain, and as you kneel alongside the water and start drinking, you glance up to see the sun starting to peek through the clouds. You grin at the sight. Finally, something good. You’re about to stand when the hairs on your neck stand on end. You’re being watched.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Across the stream, one of those same beasts that had attacked your first night on planet. You stare at it, and it stares at you, both of you still for several seconds. But you know it’s not alone. It has a partner nearby, it must, and the moment you move, the unseen beast will surely pounce. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You’re fucked. You could call for help, but you’d be lucky if you survived long enough for Karissa to see you bleed to death. You could run, but with no idea where the other is, you’d be blindsided. You could fight, but you’re only a human. You decide to try all three.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">First you move slowly, fishing a stone from the creek in front of you, all the while keeping your eyes on the beast in front of you. You find a stone, oblong, and small enough to fit in your fist, it’s the best you can do. A few seconds later, you catch the rustle of movement up the stream, to your right. The beast’s partner. This is when you jump, springing from your spot by the stream, turning in midair and breaking away from the unseen predator. You run on a diagonal, away from your pursuer, and marginally toward the outcropping you’d slept last night. The moment you get a full breath, you cry out the marshal’s name.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Karissa!” You can feel it behind you, even as you dodge and weave between trees. The beast is faster on foot, and you don’t stand a chance. At the last second to spin about. It’s already in mid-air, leaping for you. Your mind races, and time seems to slow down as you feel your arm swing on its own, in a wide arc. There’s a sharp crack, and you find yourself on the forest floor, struggling with the beast. It’s disoriented, you seem to have caught it on the head with the rock. You don’t even think, swinging again and again, until the thing rolls over and stops moving.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The stone, and your hand, are painted red.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There’s no time to celebrate your victory over the beast. Its partner is already on you, standing just a scant few feet away, ready to leap at you. Seated on the ground as you are, you doubt you’ll be able to get off another lucking swing before this one can tear your throat out. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Come on.” The words hang in the air, you invite your own mauling as you tighten your grip on the bloodied stone. “Come on! Bring it!” Your shouting seems to startle the beast and it skitters back a few steps, going on the defensive. Emboldened, you push up to a kneeling position, then stand. “Gonna eat me or not?!” One step toward the thing, and the beast bolts, fleeing back toward the stream. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You can’t believe it! You scared the thing off. “That’s right!” You holler after it. “Fuck off or I’ll bash your head in too!” Your nervous, sharp laugh echoes through the trees for a couple seconds. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon.” Karissa’s voice startles you out of your celebration, and you whirl about to face the lizard.</div></li><li class="li1"><div class="de1">“Karissa! You—You didn’t—How long were you standing there?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa laughs softly. “Long enough to see you scare off the beast. You were quite fearsome.” In a couple large strides she’s next to you. “And you killed this one. Did it hurt you?” She gives you a look over, checking you for injuries.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No, I—I got lucky, and it…I just, with the rock…” Now that you weren’t in immediate mortal danger, the world was starting to get hazy. The comedown from adrenaline was worse than any you’d had before, and you were trying to put together exactly what happened in the moment. “It just happened. I’ve never killed anything before.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa gently pries the stone from your shaking hand, letting it drop on the ground. “It is alright Anon. Your first kill is never what you expect. You did well.” She puts an arm around your shoulders, turning you away from the grisly sight of the beast’s remains. “You should clean up. You are covered in its blood.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa leads you to the stream, acting startlingly out of character as she reassures you. “Wash yourself now. I will keep watch from the shore.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure thing marshal…” You step out into the water, neglecting to pull off your blood-stained jumpsuit. The water runs red as you set yourself on a rock ledge, submerging up to your chest. After a few minutes, you start to scrub your hand, washing off what was left of the ichor that hadn’t come free in the flow of the water. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">By the time you come out of the stream, it’s started to get dark out, and the temperature has started to drop. You shiver slightly as you rejoin Karissa, who was relaxing against a tree near the water. “I don’t think the jumpsuit will wash clean.” She simply nods, and turns back towards shelter.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Once back, you settle in for the night, sitting down and staring out into the dark. Even with solid stone at your back, your thoughts keep turning to the beast’s partner. It could still be out there. Waiting for the moment you turn your back, or close your eyes, or Karissa leaves you alone. You wouldn’t get lucky twice, you knew. You shiver again, a mixture of fear and growing cold. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon,” Karissa breaks you from your thoughts, making you jump a little. “You are shaking. Is something wrong?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Nope. I’m good. Just cold.” You shake your head, giving her a quick glance before staring out into the woods again. You hear a soft sigh and movement, and then Karissa is there next to you, sidled up against the wall.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My first kill was messy as well.” She speaks softly, staring out into the woods as you do. “I was on the cusp of adulthood, the time had come for my first hunt alone. A rite of passage. They gave me a knife, a small canteen, and enough food for a few nights and they sent me off into the wilderness. I was not to come back until I brought home an animal worth killing.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa continues with her story, describing how she wandered through the wilds of her home planet, and how she had tracked a predator through the scrub. As you listen to her story, you find it easier to calm down, and you even start to lean into her a little bit. It made you feel a bit safer, though you’d never admit to it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“When I came to the Auzakh’s lair, the ground was so trampled I lost the tracks. I did not know if it had come or gone, and before I could react, it pounced upon me. It had never occurred to me that I too might be stalked by a predator. I struggled with the auzakh on the ground. I could not reach my knife without giving it an opening…” Karissa shifts, pulling away from you. “I had no choice. I bit its throat out, like an animal.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit, that’s…” You’re not quite sure how to respond, though it feels like you got off easy with your own ‘hunt’ now. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It was unpleasant, yes. But because I fought with all I had, I survived. And more, when I brought home the auzakh’s remains, I was celebrated. It was a terrible thing killing it, but because I did it, things were better, you see?” Karissa places a hand on your shoulder, and when you look, she has a genuine smile on her face.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You fought well, Anon. And you too are better for it.” She nods, and releases your shoulder, going back to her original position.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thanks, Karissa…” You smile for a moment, but then you remember reality. “Not like it’ll do me much good in federal lockup.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes. When the time comes, you will face the consequences. But right now, you are victorious. You have survived your first hunt.” Karissa nudges you, but it doesn’t cheer you very much to have your victory. You sit in silence for a couple minutes, and even started to fall asleep when Karissa pushes against the ground and stands. “I know what you need, Anon. When one completes their first hunt, there is a feast.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa retrieves the small bag of survival supplies, and roots around in it. “I did not think we would need this, but it will do nicely for the occasion.” From the recesses of the bag, she pulls out an unmarked bottle, filled with a brown liquid. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You had booze?” You start to stand. “Why didn’t you say so? Break out the mystery meat, let’s have a feast!” Karissa laughs—you’re starting to enjoy the sound of that hissing snicker--and tosses the bottle toward you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do not drink it all, Anon.” She warns you as she pulls out a ration pack. “Let us both enjoy ourselves, for the night.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“And here I thought you was always on about that justice and hunting stuff.” You uncork the bottle, taking a swig. It burns on the way down, making you cough. Of course pirate liquor would be the strongest you ever had.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do not choke on it!” Once again Karissa’s hissing laughter escapes her. “Perhaps give me the bottle.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You exchange, the bottle for a pack of food, and you tear it open to start eating. You were starving after today. “Mmh, not much for a feast. What kinda stuff did you eat after your first hunt?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mine?” Karissa takes a drink and hands off the bottle. “It was wonderful. We made a stew of the auzakh and sweet roots and we had spiced wine. We drank and sang until early in the morning.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sounds like one hell of a party. Bet that wine tasted better than this kerosene.” You take another mouthful and grimace through it. “And killing things make you grown up, huh?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa starts eating her own meal, taking the time to speak and eat. “It does for some of my people. Before we were uplifted, we were still primitive. Hunters and gatherers, and so the traditions lived on through generations.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Taking another drink, you nod and go back to eating. You’re practically inhaling the food now, you may even finish the whole thing. Karissa grabs the bottle from where you set it down and sips from it as she watches you eat. Finally you take a break to catch your breath and she speaks up. “What about humans? Do they have any traditions?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The question catches you off guard, and it takes you a moment to actually answer. “I…have no idea. I didn’t grow up around any humans other than my folks. My parents. And all the other humans I met out there I could count on one and a half hands.” You hold up seven fingers to demonstrate. “If there was any human traditions, they’re long gone now. Gimme another drink.” You reach for the bottle, but Karissa keeps hold of it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I think we have both had enough. It is half gone.” You grumble while she corks the bottle and stows it, but quiet down when she drops down next to you again. “You know, the Federation has re-settled displaced species before. If there were enough humans…”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Save it. I got along fine with no Federation or nothing. I don’t need anyone.” You mumble your words a bit, the alcohol taking hold of you. “I’m just another nobody human gonna die all alone.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Karissa takes you off guard by putting a heavy arm around you. “Anon…” She sounds genuinely sad, and it makes your stomach turn. You start to push free from her hug.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Get offa me. Don’t need your fucking pity.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon, you aren’t—“</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Who fucking asked you?!” You shove away from her, breaking free. “To give a shit about me? I don’t need no goddamn federal marshal crying cause I’m so sad!” You stand up and stumble to the far side of the shelter, dropping back and curling up on the cold ground. “Fucking goddamn federation…”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The camp goes quiet, and eventually you pass out into a cold, restless sleep.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">It&#039;s a big galaxy out there. Some one-hundred million light-years across, home to trillions upon trillions of sentients. You&#039;re one of them, a lonely human. Humans aren&#039;t good for much out there. They&#039;re not good fighters, too small and weak. Not good leaders, not clever or smart enough. They don&#039;t even have the advantage of numbers once Earth died. No, humans were good at two things. Flying and lying. Humans had a certain mixture of traits that made them more likely to be exceptional pilots: smaller bodies to withstand the G-force, an advanced sense of spatial awareness, and an odd human invention they&#039;d mastered over anyone else, the joystick. The deceit however, was just human nature.
-
----------------------------------------------------------------------------------------------------------------------------------------
-Chapter 1
-
-Smuggling came natural to a lot of humans, as it did to you. You&#039;d been at it since birth, like your parents had before you. You even inherited their ship before it went down over a battlefield you were supplying two sides of. Now you&#039;re on ship three. It&#039;s small, cramped even, with all its space dedicated to either engines or cargo, but it&#039;s home. The cockpit is the only place you&#039;ve ever felt truly safe. Even now, dodging anti-air fire from ground-based cannons, you aren&#039;t worried. You&#039;re faster than any targeting computer. You swoop over a scorched city, leaving the sound of wasted flak behind. The defenders owed you big. The ship settles on a makeshift airfield in the heart of the city, and the cargo doors swing open. You&#039;re content to let these bug folk do all the unloading. Wasn&#039;t your war anyhow.
-
-The console in front of you blinks, a screen opening up to show one of the bugs. It spoke, and your console&#039;s auto-translation kicked in. &quot;Captain. The hive extends its gratitude for your service.&quot; 
-
-You nod. &quot;Anything for a good cause, as long as the money keeps flowing.&quot; While the bugs had little in the way of currency, for every load of munitions or supplies you brought, they were sure to replace them with precious metals or other trade goods.
-
-&quot;For your service, the queen herself would like to speak to you.&quot;
-
-&quot;That&#039;s not necessary, I just need to--&quot; You start making up excuses, but it&#039;s too late. The bug twitches, and its voice changes. It lets out a series of clicks and buzzes that the console fails to translate. After a few more seconds, the bug changes dialect.
-
-&quot;Sincerest apologies, outsider. We have not used common language for some time, as queens do not speak to your kind often. Once again we must extend our gratitude for your assistance in this war. It has been bitter, and your contributions have made a difference, but we fear this battle, and soon the war will be lost. Your services will no longer be needed, and it would be prudent for you to leave Tlillek space as soon as possible.&quot; With that, the feed cut. You check your ship cameras, to assure your cargo bay had been emptied, and your payment secured. It sits in the middle of you now near empty cargo hold. Larger than the last dozen shipments, it should last you quite a while.
-
-With your next few months pay in the hold, you waste no time sealing up the ship and taking off. You don&#039;t want to be here when the battle ends, and they start looking for traitors and conspirators. Civil wars are good for business while they last, but they tend to breed grudges.
-
-Once you dodge the blockade over planet, the trip to the edge of Tlillek space is uneventful. Once there it&#039;s just a short jaunt through Federal controlled territory, and then you&#039;re home free. Wild space. Spanning half of the galaxy, wild space is your playground. Warlords, fledgling empires, criminals, and colonists all trying to survive. If this bug job hadn&#039;t been so lucrative, you never would have left. You settle into your seat as Federal space approaches. No one watches the Tlillek border. The bugs hardly let anyone in anyways.
-
-The moment you&#039;re in Federal space however, alarms begin to beep on the console. You jump up to see you&#039;re being targeted by a pair of cruisers that had been waiting for you. A message pops up on your screen. &#039;Attention Captain of freighter designated &quot;The Anon&quot;, you are in violation of Federation law. Power down your ship and prepare to be boarded.&#039;
-
-Fat fucking chance. You start to work on the console, revving up your ship&#039;s pursuit engines. The alarms became louder as the federation cruisers locked on. You&#039;re gone before they can pull the trigger. Your ship is fast, faster than these sluggish patrols could be, and you swing beneath them, nimbly dodging point defense guns. You&#039;re around the ships and gone before they can turn around to pursue.
-
-You don&#039;t ease off the throttle until you&#039;re out of Federal space, and even then you keep flying. The Feds had little qualms about extending their reach to deal with big enough problems. Not like they&#039;d ever give enough of a shit to go after a human like you, but it doesn&#039;t hurt to be careful. Once you&#039;re sure nothing&#039;s pursued you, you set a course for Halcyon station. 
-
-Approaching the tiny mining-station turned outpost, you already have a plan to sell your cargo to its owner, Bozch. He treated you like shit, and he never trusted you, so you both knew the other felt the same. A channel opens up, the console screen lighting up to reveal Bozch&#039;s piggy face. &quot;My favorite captain in the galaxy!&quot; He grins. You cut the feed immediately, and turn the ship around. Confirming your suspicions, a gunship shoots from Halcyon station&#039;s landing bay. A Federal Marshal&#039;s gunship. The moment you saw it, you knew you were well and truly fucked. The ships were state of the art, fast and deadly. The marshals piloting them more so. You were light years from safe haven, and even with your piloting skills, you simply couldn&#039;t outrun a ship like that. You still had to try.
-
-The chase ended sooner than you hoped. Despite weaving around Halcyon station, desperately searching for a vector to escape, the marshal kept up through sheer engine power. Desperate, you take a moment where you lose sight of the gunship and turn out into open space. You don&#039;t get the opportunity to gun the engines and soar away. A single shot rips through your ship, crippling The Anon. You struggle, diverting power to anything that may still be working. It&#039;s no use. That single shot left you adrift. You spring from the chair, swinging open the locker by the door to the cockpit. Inside was a jacket, a size too big, and a revolver. You slip on the jacket, and aim your weapon at the door. Then, you wait.
-
-The clunk of ship-to-ship docking came some fifteen minutes later. They&#039;d have to get through the airlock first, then from the main room to the cockpit. You&#039;d had both doors reinforced not long after you acquired the ship, but by the blasting sounds coming from the outside they&#039;re hardly enough. Once the ship stops shuddering from the sound of airlock doors being blown off hinges, you hear the heavy thump of steel boots on metal floor. You edge away from the door, expecting another explosion. Instead, the access button blinks for a second, spits out sparks, and goes out. The door slides open, and you empty the revolver.
-
-The gunfire near deafens you in the confinements of the cockpit, and when you open your eyes, you see the doorway is empty. &quot;Oh shi--&quot;
-
-You&#039;re on your back in a split second, a clawed boot planted firmly on your chest. The marshal leers down at you. &quot;Hello, my prey.&quot;
-
----------------------------------------------------------------------------------------------------------------------------------------
-Chapter 2
-
-The moment you catch your breath, the lies come out. “Marshal, listen, I have no idea who you think I am, but I you’ve got the wrong guy.” You struggle beneath her steel boot, to no avail. “Bozch set me up right? For money or something? He’ll do anything and say anything for a payday.” You laugh, trying to hide the nervous edge to your words.
-
-The marshal narrows her orange eyes, tasting the air with her forked tongue. “They said humans were good liars.” She scoffs, and lifts the boot from your chest, replacing it with a fist as she grabs you by the lapel of your coat and hauls you to your feet. Once on even footing, you get a better look at the marshal. A reptile. She’s tall, and would be even taller if she didn’t have to crouch to fit in your human sized berth. She’s also strong, powerful legs leading to wide hips and muscled arms running to a heavy chest. The skintight armor-weave of her jumpsuit blends in with the jet black of her scales, making it hard to tell where the uniform ends and she begins. If you were one for clichés, you’d call her Amazonian. “Arms out, human.”
-
-“I’m telling you, it’s not even my ship.” You continue your protests, but the marshal simply rolls her eyes and grabs your hands to cuff them.
-
-“Let’s go.” She puts a hand around the back of your neck, and guides you out the door, through the airlock, onto her gunship. You look around the spacious cabin she’s led you to. Communication systems, weapon lockers, and a view screen populate the room. All of it state-of-the-art. All of it average galactic sized; too big for you, and a little too small for the marshal. You peer left towards the front of the ship, down a short hallway, but the marshal pushes you the opposite direction, towards a plain metal door in the back of the cabin. She presses her hand against the panel set in the wall, and the door slides open. “In.”
-
-Once again she doesn’t wait for you to comply, pushing you into the cell, and shutting the door behind you. You look around the room. It’s actually larger than the bedroom on your old freighter, but the single cot mounted on the wall, just like everything else on the gunship, is too big. You climb onto it, legs dangling just short of the ground, and sweep your gaze over the room. It’s all dull grey metal, without even a viewport, and only a thin outline marking where the door is. Escape proof. You still have to try though.
-
-You must have spent two hours, poring over everything inch of the cell, sliding your fingers over the doorway over and back again. You find no seams, no cracks, and no weaknesses. “Fuck! Fucking fuck!” You slam your fists against the door in a final pointless effort before stepping back and returning to the bed. Resignation doesn’t come easy, but it seems you’re stuck for the long haul back to federation space. Your mind wanders to planning to lie your way out of a trial, and eventually you start to doze.
-
-The second your eyes close, the whole ship gives a wrenching shudder that tosses you to the edge of the oversized cot. “Shit!” You swing your legs out and try to stand as the gunship takes evasive maneuvers. The heavy thud of the gunship’s cannons start to echo through the metal floors. Whatever the marshal is shooting, she isn’t showing nearly the restraint she did with The Anon. The marshal&#039;s apparent ferocity, however, is not enough, as you feel more and more hits scored. Your stomach turns, fearing that each one is the one with your name on it.
-
-Suddenly, the cannons stop. The ship no longer weaves and rolls beneath your feet. You’re adrift. Pressing against the door, you listen for whatever you can. The familiar sound of clawed metal boots can be heard in the cabin, and you bang on the door. “Marshal! What’s going on?”
-
-“Shut up and stay put!” Something metal clangs against the door as she shouts at you, causing you to flinch and stumble back. Things go silent, and you lean against the door once again. You feel the unfortunately familiar sensation of an airlock to airlock docking. You close your eyes and wait for the gunfire. 
-
-You don’t have to wait long, a blast echoes through the gunship, followed shortly by the sounds of gunfire, then shouts and struggle. Snarls and roars of close combat, that eventually grow quiet. You strain your ears, trying to listen in. The door slides open, and the marshal is there. She’s bloody, but none of it seems to be hers. “Come on. Not much time.” She yanks you out of the cell, and pushes you toward the airlock. A half dozen of the pig-faced people, like Bozch, litter the cabin floor, all of them dead. Each one is clad in combat armor, bearing a sigil you recognize. Pirates.
-
-The marshal only lets you have one moment to stare at the butchered pigs. “No time, human. Still a battleship out there.” She pulls you through the airlock, dragging you by the cuffs. 
-
-“A battleship?!” You look out the front windshield of the dropship, and sure enough there’s one hanging above a green and blue planet, festooned with weaponry. “What’s your plan then? Gonna turn yourself in?”
-
-“We’re going down to that planet. I activated my ship’s distress beacon. We wait for rescue.” She settled into the pilot’s seat at the front of the ship, indicating the seat just behind for you. “Buckle in.”
-
-“Like hell! You couldn’t escape that thing in a brand-new gunship, let alone this piece of shit. Let me fly.”
-
-“You? You&#039;re not flying. You’re a criminal. You’re prey! A human!”
-
-You nod. “Exactly. Best pilot in the galaxy.” You stick out your cuffed hands for her to unlock them. “If we live, I promise I’ll come back to Federation space with you.” She stares at you, tasting the air once again before grabbing your hands and unlocking the cuffs. 
-
-“There. If this is a trick, I’ll make you regret it.” She stands and pushes you down into the seat. You’re going to have to get used to too-big furniture for a while. You scoot to the edge of the seat to reach the controls, while the marshal buckles into a crash seat behind you. With the flick of a button, you’re unhooked from the gunship, and taking off.
-
-At first you make straight for the battleship, hoping to close some distance with it before arousing suspicion. As you near it, the console lights up, and a voice sounds through tinny speakers. “Gulm! Took you long enough, is the marshal dead?”
-
-Thankfully it’s not equipped with a video screen, else your charade would be broken immediately. You clear your throat, lowering your voice a few pitches to imitate one of the pigs. “Yes sir. She put up a fight.”
-
-The voice on the other end cackles. “Ha! Good work! Show those federal fucks what they get. Gotta pay Bozch for the tip…” The link cuts, and you let out a sigh of relief.
-
-“Okay. Just gotta make it past the battleship now.” You decide to gloss over mention of your former associate. He sold you out, he’d sell a marshal out just as fast. The battleship quickly fills your view on the approach. At the last second you turn, gunning the engine to swing beneath the battleship. You’re around it and headed toward the planet by the time anyone on the battleship seems to notice.
-
-“Gulm!” The voice comes back in. “Where are you going?!” You don’t bother to respond, shutting off the communications. You can practically feel the battleship’s guns turn to aim at you, and you ease off the throttle enough to let you take evasive maneuvers. Boom! The first shot rockets past, and you dive hard. The dropship is clunky, and far less responsive than your old ship, but you manage to avoid the full brunt of the battleship’s barrage, taking only light damage as you approach the planet atmosphere. You think you’re scot free when a final missile hits home, destroying one of your two thrusters.
-
-“Three fucking times!” You hiss at your recent bad luck while struggling to maintain control. You’re hurtling towards the ground now, well out of reach of the battleship, but now in danger of a crash landing. You angle towards a stretch of grasslands, pulling the dropship’s nose up as much as you can. The tail hits the ground first, slinging you forward into the console. Too late to buckle in. Then the ship starts to tumble. You manage to hang on for half a second before momentum slings you away. You’re sure you’re about to become a smear on the bulkhead when you feel a wrenching tug on your arm. The marshal’s got you. She yanks you close, wrapping her arms around you as the ship plows through the earth.
-
-“I’ve got you!”
-
----------------------------------------------------------------------------------------------------------------------------------------
-Chapter 3
-
-When ship finally came to rest, you and the marshal didn’t move for several seconds. You were waiting for the world to stop spinning while her grip kept you firmly in her lap. Finally, you manage to remember which way is up, and start to pull at the marshal’s arm. “Let me up.” Despite your survival, there was still work to be done.
-
-The marshal glances down at you, flicking her tongue out. “Do not leave the ship.” She lets you go, and you pull yourself off her lap, trying to avoid pushing against her for leverage. You drop onto the floor of the battered ship, and start down toward the rear of cabin. You nearly fall over on your shaky legs, but you manage to reach what you’re looking for: a maintenance hatch. “What are you doing?” The marshal asks after you as you haul it open.
-
-“Looking for fuel.” You pull yourself up into the hatch. “We have to torch the ship.”
-
-You hear a soft hiss, and the sound of her boots on the grating. The marshal’s hand grabs your leg to haul you out of the crawlspace. “You will not.” Before you can argue you’re in cuffs again.
-
-You struggle, swearing. “Fuck’s sake, do you want to die?” She stares you down, her pupils narrowing to thin slits. You go still.
-
-“Was that a threat, human?”
-
-“No! No, not a threat. I’m just trying to help. Those pirates are still up there, and if they come looking, they’ll find we’re still alive. If they find a burning ship instead…” The marshal loosens her grip, realizing your plan.
-
-“They will think we perished in the crash.” For the first time you see something other than anger on her face as she cracks a small grin. “You have done this before.”
-
-“Just once.” You can’t help but chuckle. “So, can you let me get back to work?”
-
-Her face goes stern again. “No. I will burn the ship. You will wait outside.” She pulls you along, through a hole in the ship’s hull, and out onto the grassy field you’ve landed on. “Stay here.” She leaves you a good fifty meters from the ship and returns to the ship. You sit down on the grass, enjoying the sunlight. You’re not often out in the sun, so you take a little time to relish it. It’d be nicer if you weren’t handcuffed on an unknown planet. The marshal appears from the ship, a small bag slung over her shoulder. “It’s ready,” She approaches you. “Time to go.”
-
-You nod. “Better now than when they come searching.” You reach your cuffed hands up and the marshal hauls you up on your feet. In the same motion, the cuffs come off your hands, and she slips them back on her belt. “Thanks, marshal.”
-
-“Let’s go, human.” She turns, walking toward the nearest cover, a small copse of trees. 
-
-“I have a name, you know.” You jog to catch up to her, but stay a couple steps behind.
-
-“You have several.” 
-
-“My line of work, you have to. Pick one you like and stick with it.”
-
-The marshal looks over her shoulder at you, seeming to consider her options. “Anon. It fits.”
-
-You shrug. “Fair enough.” You reach the trees, and you stop a minute to look back at the dropship. It’s already engulfed in a pillar of flames. “No one could have survived that.” You grin, looking over at the marshal, who scoffs at your joke. 
-
-“The pirates will think so.” She turns back into the trees, and keeps walking. You stay and watch the ship burn a moment, before turning to follow.
-
-The small forest gave way to grasslands, which gave way to a larger wood. You march on, the marshal setting a harsh pace. The outside was a novelty while it lasted, but now it was beginning to grate. Your legs started to ache, bugs buzzed about your face, and the sun that you thought was pleasant, was now beating down on you as it dipped lower in the sky. You consider voicing complaint, but you know the kind of response you’ll get. The sun had finally started to set when the marshal stopped marching. “Do you hear that?”
-
-Cocking your head, you stop. “No. Hear what?”
-
-“Running water.” She grabs your wrist and drags you off toward the source of the water. The pair of you reach it in short order, a small, but fast-flowing stream. “Fresh water.” She leans down to dip her hand in the stream.  “We can follow it, find shelter.”
-
-“Shelter? How long are we going to be here?”
-
-“Rescue should arrive in three to four days.”
-
-You’re flummoxed. “Three to four days? Are they walking?”
-
-“My signal is received, they have to authorize rescue, deploy appropriate forces, and they have to move the entirety here, through unregulated space. Yes, three to four days.” She stands, looking back the way you came. “The plains will offer a better field of view, but the forest offers concealment.” She looks at you, expecting a response.
-
-“Forest. Definitely.” The answer is obvious to you, and she seems to accept it.
-
-“Very good. Get a drink if you have to. You look like you need it.”
-
-You take the offer gratefully, kneeling next to the stream and cupping your hands to drink down a few mouthfuls of water. You then splash some on your face, hoping to wash the sweat from your brow. “Stupid outdoors…” You stand to see the marshal’s already on the move. You jump to keep up with the marshal. The trek isn’t long this time, and you come to a clearing just off the stream. The marshal is already settling down, having left her bag hanging up from a tree branch, and curling up beneath it. You pick a tree, and sit up against it, bringing your legs against your chest for warmth. It’s dark now, the last drops of sunlight disappearing over the horizon. You sigh, dreading sleep. “Hey, marshal?”
-
-“Yes?”
-
-You chew your tongue, considering your next question. “You’ve got my name. What’s yours?”
-
-You hear a rustle, and you can see the glow of the marshal’s eyes staring at you from across the clearing. 
-
-“My name is Karissa.”
-
----------------------------------------------------------------------------------------------------------------------------------------
-Chapter 4
-
-You barely sleep a wink the entire night. Everything is too wide open for you. All you have is sturdiness of a tree at your back; the rest of the world stretches out around you, with no steel doors or reinforced bulkheads between you and it. You feel immeasurably small and totally exposed. The marshal, Karissa, had no such reservations, unmoving from her position opposite you in the clearing. Lucky her. You stare up into the sky, the pinpoints of starlight making you yearn to be back out there.
-
-As time drags on, you can’t stop your head from drooping, and your eyes from lowering. Sheer exhaustion is taking its toll. Shaking your head, you look back up at the marshal to envy her rest, but when you do, you see something in the woods behind her. A pair of blue orbs, glinting in the meager starlight as they stare back at you. Shifting on the ground, you try to get your legs under you without any sudden moves. “Marshal.” You call out softly. The eyes bob as they draw closer. A flicker of movement on your right reveals another pair. “Marshal!” You call to her louder, but she doesn’t react. The owner of the glowing blue eyes step into the clearing. A beast. You can make out an angular face, and long, sinewy legs. It looks impossibly big for a predator, near four feet to the shoulder. It bares its teeth, padding closer. “Karissa!” You scramble to your feet as the beast lunges. You’re barely faster, jumping aside as it flies toward you. It catches the back of your coat, wicked claws sheering through the material with ease. The beast runs into the tree, but its only stunned for a moment, and it turns to stalk toward you. You see it crouch to pounce again, but it never gets the chance. The beast is picked up by a dark mass of muscle and scale.
-
-“My prey!” The marshal hurls the beast aside, sending it crashing into a tree. It yelps in pain and skitters off into the dark. Karissa turns to you, her pupils dilating from predatory slits to their normal size. “Anon. Are you hurt?”
-
-You see a flash of movement behind her: the second beast. “Karissa!” You point, too late. The marshal follows your pointing just in time for the beast to leap on her. The pair struggle for a few moments, the beast trying to claw and bite through her armor-weave jumpsuit. The marshal throws the beast off herself, drawing her sidearm and firing it into the ground. The beast lets out a howl before fleeing. “There might be more.” You swing your gaze, unable to make any more out in the sparse light. Karissa too looks around for more predators. Nothing comes over the next few minutes, save the first creeping hints of twilight. You sigh, tired but relieved. “I think that’s it. Are you alright?”
-
-Karissa looks at you, and you can make out the glimmer of blood on her face. “It is nothing.” She holsters her sidearm.
-
-“Shit. You’re bleeding.” You run up to her, trying to get a better look. “Let me see your head.”
-
-Karissa scoffs. “I am fine. Did it get you?” She grabs your shoulders, looking you over. “Your back?” She turns you to look at your shredded jacket.
-
-“It didn’t get me; would you just lean down so I can take a look?” You push her arm away and shed your destroyed jacket. Karissa huffs and drops to a knee, giving you a clear view of her head. A neat row of claw marks scores down the side of her face. It only just missed her right eye. “Well, it’s not too deep.” You tear off a patch from your jacket, and start wiping the blood away. “Let’s wash it out at the stream.” 
-
-Karissa leads the way once again, though you walk beside her this time, watching dark red ichor ooze from her wound. You wince every time she wipes at it with the bloody scrap of clothing. When you reach the stream, you sit down and start tearing strips off your former jacket. When you have a few, you wave Karissa down to sit next to you. Taking the first strip, you roll it up and dip it in the stream, washing the blood from her face again. Karissa hisses as you do so, and you try to hurry. “Sorry, sorry. Just gotta get all of it…” You manage to clean it reasonably well, so you move on to grab another scrap, folding it into a makeshift pad to soak up blood. You clean off the blood one last time, and place the pad down. “There, hold that down.”
-
-Karissa complies, holding the dressing down. You grab the last strips of cloth, and start wrapping them around her head to hold the dressing. She considers you while you work. “You have done this before as well.”
-
-You shrug. “Dangerous galaxy out there. A human does what I do, that human’s gonna get the shit kicked out of him from time to time.” 
-
-“Then why do you do it?”
-
-“Why are you a marshal? Why is Bozch a piggy-faced, backstabbing sonofabitch? Cause it’s all I’m good at. All I’m good for.” You finish tying off the bandage. “There. That should hold until it doesn’t.” It’s not your best work, but it would serve for at least a day or two; then it wasn’t your problem anymore.
-
-Karissa runs her hand over the bandage. “It is well done. You have had to this so often?”
-
-“Only a dozen times or so. This one,” You roll up the sleeve of your jumpsuit to show off a long scar running up your forearm. “came from a pig who felt I ripped him off. Couple broken ribs from my first crashed ship.” You duck your head, pulling back your shaggy hair to reveal a half-inch bald spot. “Got my dome cracked in a bar fight on Naxin three. Oh, and I got this,” You unzip the front of your jumpsuit, pulling it open to reveal a splotchy purple and blue bruise. “from a federal marshal who near put her foot through my chest.”
-
-That earns a genuine laugh from Karissa. You’re a little shocked to hear it. “I do not have so many scars. I do not often lose fights.” She cocks her head, before sitting down fully to stretch out a leg in front of you. “This leg I broke in my youth, fighting with my brother at home. And I suppose I have this.” She turns her bandaged side to you. “I was clawed by a beast on a wild planet, defending a little human smuggler.”
-
-“Shoulda just let him get eaten. Sounds like a hassle.” You get another small laugh from Karissa.
-
-“No, I could not do that. What huntress would I be if I gave up my prey to another?”
-
-“You keep calling me that. Prey. That a sex thing?” You start to laugh, but quickly trail off when you see the death glare Karissa is giving you.
-
-“It is not. My people are hunters. We pride ourselves on it.” She stands, turning away from you. “I am going to get some food. Stay here.”
-
-“Sure thing.” You sit and watch the stream flow by, mentally chastising yourself. This was still the marshal that was going to put you in a federal prison. You weren’t making friends with her. “Stupid goddamn middle of nowhere. Should be neck deep in cash and liquor by now.” Despite your quiet anger, you can’t help but yawn, the lack of sleep was still there.
-
-The few more muttered swears do little for the soured mood, and the sound of the marshal returning so soon does little to help. “Human.” You turn, and see she has the bag she hung up at the clearing. “Catch.” She tosses something at you, and you only bring your hand up in time to block it from hitting you square in the face. You look down at it. A vacuum sealed package labelled ‘emergency rations’.
-
-“Thank you, marshal.” You tear the package open, and dig in. The meal is simple, hard bread and dried mystery meat, but it’s filling, and doesn’t taste too bad. Karissa has her own package, which she quickly tears into, setting the bag down to rip her food apart. She eats much faster than you. “Hey, you want the rest?” You hold up your half-finished meal. “I’m full.”
-
-“You’re not hungry?” Karissa takes your food, and makes short work of it. 
-
-“Not anymore. Humans don’t eat much, y’know, compared to the bigger races.”
-
-Karissa accepts your answer, nodding politely. Food seems to have lifted her mood. “You are quite small.” She folds up the remains of the food, placing them back in the bag. “Do humans sleep less, as well? You were awake very early.”
-
-“Oh, no, we need eight to ten hours. I just, didn’t sleep. Not used to all…” You wave your hands vaguely. “This outside stuff. I like sleeping on a ship where I’m safe.”
-
-“Of course. You humans and your ships. I felt similar, my first time away from home. I adjusted soon enough.”
-
-“Home huh? You’re planet-born then?”
-
-Karissa nods. “From the homeworld.” She scowls for a moment, but it’s quickly replaced by her usual taciturn expression.
-
-You cock your head. “Homeworld. I never had one of those. Just a ship.” You consider probing for more. It’s not like there was anything else to do out here. “Was it nice?”
-
-“It was…” Karissa hesitates. “I miss it, but I cannot return.”
-
-“Shit, that sucks. I had to burn my home. That was that first time I mentioned.” You try to laugh, but it’s not nearly as funny as you thought it would be. You miss that ship. “What is it like? Your home?”
-
-“The planet is hot. Most of it desert. My home was a--” Clamping her mouth shut, Karissa glares at you. “Stop that.”
-
-“Stop what?”
-
-“You are trying to trick me. Make me trust you. Then you run. I am not a fool, Anon.”
-
-You hold your hands up, half shrugging, half surrendering. “Hey, neither of us is going anywhere. Besides, I promised not to.”
-
-She rolls her eyes. “You promised. My mistake.”
-
-“Hey, come on, I said that in earnest. I’m really not trying to get an edge over you.” That was half true. You still planned on taking whatever chance you could to run, but you had no designs on using this conversation against Karissa.
-
-“It doesn’t matter. You won’t get away.”
-
-“Come on, I saved your life. Least you can do is trust me a little.”
-
-“You saved my life? You are confused, Anon. I have saved yours twice.”
-
-“Well yeah, one to two. I saved yours when I got us down here in that shuttle.”
-
-“We crashed.” Karissa scoffs.
-
-You frown, a little hurt. “I got us past a battleship in a two-engine lander. No one else could have done that.” You push up off the ground to stand. “I should get a medal.”
-
-“You were saving yourself.” Karissa flicks her tongue out, watching you rise.
-
-“Hey, I coulda taken us straight to those pirates. They would have paid me for it.” That gets a reaction. Karissa pushes off the tree, glowering at you.
-
-“You would not have survived.” She seems a bit surprised when you laugh in response.
-
-“I know. Pirates are scum. I wouldn’t work with those fucks for all the money in the galaxy.” You nod in affirmation of your contempt.
-
-“At least you are smart. For a human.”
-
-“For a human.” You agree, laughing with her a moment. The sun has climbed by now, at least past midday. Despite this, you can’t help but yawn again, exhaustion taking over you. “Marshal, I think I’m gonna try to get some rest. Mind sticking around so nothing eats me?”
-
-Karissa watches as you settle against a nearby tree, and responds as you close your eyes.
-
-“I will figure something out.”
-
----------------------------------------------------------------------------------------------------------------------------------------
-Chapter 5
-
-Exhausted as you are, sleep remains a struggle. You constantly shift and grumble, dozing in and out of consciousness. At some point you keel over onto your side, which seems to help a little, but you still wake up occasionally. Finally, you open your eyes with a grunt. “How long has it been?” When no response comes, you look over to where Karissa had been standing, and find the spot empty. You pick yourself up off the ground, your body protesting the poor conditions as every joint and muscle of yours aches.
-
-The light has shifted, sun setting behind the tree line. You’ve slept a few hours, but not nearly enough. You still need to find the marshal, before something else finds you. “Marshal!” You start calling out. “Karissa?” You don’t get a response. “Karissa? Hello?” You call a couple more times and finally get a response.
-
-“Anon! You’re awake?” Karissa’s voice carries from further up the creek. You start off toward it. It doesn’t take long for you to find the marshal. Just around a bend you find her, standing on a rock, out of her jumpsuit. You get an eyeful and a half of black scales. When you thought the jumpsuit left little to the imagination, you were wrong. Karissa’s heavy chest is much more obvious now that it’s not held down by her confining uniform. You’re surprised to find her nipples are a soft shade of pink, clashing with her dark scales. The only thing protecting the last of her modesty is a simple pair of black shorts serving as underwear.
-
-Karissa stares at you. You stare at her. This goes on for several seconds, not a word spoken between you before Karissa shakes off her surprise and covers herself. “Go!” She barks the command and you scramble, turning and fleeing back into the forest. Still, the image of her is burned into your mind as you run back to the clearing where you had spent the night. Taking a few breaths, you plant yourself against the tree where you tried to sleep last night, and prepare yourself for the worst. You have a few minutes of imagining the myriad ways the marshal could tear you to bits.
-
-You manage to calm yourself by the time you hear her stomping footsteps. She won’t just kill you. It was an accident. All this self-assurance does little to help when Karissa enters the clearing and fixes you with the evil eye. She’s back in regular dress now, but you can’t help but picture her without for a couple seconds. When she speaks, you snap out of it. “You lied to me, human.” She steps up to you, grabbing you by the back of your neck, apply just enough pressure to make her point. “Eight to ten hours, you said.”
-
-“What are you—You mean how long I slept?! That’s just—Not every time! Why were you even—” You consider your next words carefully. “Why were you…doing that in the first place?”
-
-“I was sunning. Do you know what that means?”
-
-“You were sitting in the sun?” You hazard a guess, obviously wrong, but the best you can come up with. Karissa huffs through her nose, releasing you.
-
-“I am not a mammal. My body cannot handle cold like yours.” You still don’t totally understand, but you accept the explanation. Not like you knew a thing about biology. “I took the time to warm myself before nightfall.”
-
-“And you needed to do it without clothes?” You find the whole scenario a little ridiculous.
-
-“My jumpsuit is insulated.” That explanation makes enough sense. Insulation would keep the cold and the warm out equally. “I should be fine for the night, now.”
-
-“Now? Was last night—”
-
-“Freezing. Miserably so. You are lucky you were able to wake me.” Karissa crosses to the other side of the clearing, obviously done with the conversation. You don’t mind. You get cozy against your usual tree and watch as Karissa produces the bag of food. She tosses you another package of bland meat and hard bread, before quickly consuming her own. You look over the meal with distaste. Two more days of this.
-
-“This was all the pirates had, huh?” You start picking at the food. “I mean, I shouldn’t be complaining. We’re lucky to have food at all, but I’d kill for something good.”
-
-“Yes. It is all so tasteless. I could find something to eat, in the morning.” Karissa catches your half-empty ration as you toss it back to her.
-
-“Long as you aren’t too cold.” You grin a little as Karissa rolls her eyes.
-
-“I slept more than you. The world is not going to collapse without your ship, you know.” Her comment strikes a nerve.
-
-“Ships are all I’ve got. You’re the one who blew mine to bits.”
-
-“You’re a criminal and a human. It was going to happen eventually.”
-
-“Well yeah, that’s how things go, but you’re still the one who did it. I mean, you just left it floating too. Bozch probably stole it, and my last payday. You know how hard it is to get a ship that fits my size? One that I can actually use?”
-
-“It doesn’t matter. You won’t be flying anymore.” Karissa shrugs off your concerns. “Stand up. We can’t stay here.”
-
-“What? It’s getting dark already.” You try to push further into the crook at the bottom of your tree, defiant.
-
-“Yes, it is. We need better shelter. From the local predators.” She grabs you by the arm, yanking you to your feet. You pull away, but her grip lingers a moment on your bare skin. “Hmm…” Karissa seems to have lost herself in thought, running a thumb over your forearm, but you tug again and she lets go. 
-
-You give her a look. “What the hell was that about?”
-
-Karissa shakes her head and starts off into the forest by light of sunset.
-
-“Nothing. Let’s move.”
-
-The march isn’t as bad as you expected, as Karissa leads you upstream along the creek. The ground gets rockier, but with the sun setting, the little extra exertion isn’t nearly as bad. You can also stop for a drink whenever you need. As daylight slips away, you look up to see the first of the stars, however, you’re disappointed to find the sky is now filling up with dark clouds. Had they been there before?
-
-The clouds continue to worry you, occluding the sky, and rumbling terribly. You start walking closer to Karissa, eyes stuck on the sky. She notices, glancing back. “Are you well Anon?” You nod quickly, but give no response. You shudder at the thought of the uncontrollable weather. Another misery of life outside your own ship. Your eyes remain fixed on the sky, the world getting darker and darker.
-
-“Hey Karissa, what exactly are we looking for here? Are we gonna be there soon?” You finally speak up when the first droplets of rain start falling. 
-
-Karissa raises a hand to feel the rain. “We will find shelter soon. This rain will not be good for us.” The pair of you march on, rain growing heavier with every step. The ground too grows more treacherous, rockier and steeper. Several times you slip, and fall to a knee, and every time Karissa pulls you to your feet. The fourth time she keeps her hand on your arm, holding you up.
-
-The rain was reaching a downpour when Karissa raised her hand to point into the distance. “There. That will do.” You followed her pointing finger to see a small, rocky overhang. Not big enough to be called a cave, but enough to provide shelter from the rain and hide the pair of you from prying, predatory eyes. Karissa practically drags you along as she speeds up, pulling you into shelter. You’re soaked to the bone, as is she, and you sit there shivering. Karissa quickly curls up, as far back away from the rain as possible. You mimic her sentiment, and set yourself away from outside as well. You’re hunched over, arms wrapped around yourself as you nurse the small flare of warmth left in your core. You’re lucky the ground is soft dirt, instead of cold hard stone.
-
-“God, I miss my ship.” You mutter to yourself. “Stupid fucking weather.” You spare a moment to glance over at Karissa. She’s lying there with eyes clenched shut, pointed teeth bared in a grimace. “Karissa? You feeling okay…?” Leaning over, you try to get a better look to make she’s not keeled over and died. Karissa’s arm snaps out when you do so, grabbing your arm and pulling you closer.
-
-“Anon.” Her voice is strained; her hand is wet and cold. “Jumpsuit off.” One eye of hers opens, staring you down. You start to babble out a surprised question but a harsh squeeze on your arm shuts you up. “Need warmth.”
-
-You stare at her for several seconds. It’s not like you had much of a choice, especially with her death grip on your arm. You comply with her order, unzipping your jumpsuit, and pulling it off. Karissa lets you go as she begins to do the same, though she only pulls off the top half, letting it fold over her legs. The moment you’re in your boxers, Karissa grabs you again, and yanks you into place against her chest.
-
-Your back is pressed against her stomach, your legs stuck in her lap, and your head lays on her chest, nuzzled between Karissa’s breasts. You’re sure your face is burning red. Karissa wraps her arms around you, holding you close to her as she spoons you. Her skin is cold to the touch, but her scales are smooth and surprisingly soft. You expect another sleepless night, for a variety of reasons. You close your eyes as Karissa settles into a comfortable position. She takes a deep breath.
-
-“Thank you, Anon.”
-
-
-The next thing you know, you’re waking up in the morning, sunlight filtering through a cloudy sky. Still raining. You’ve slept through the whole night, in a deep, dreamless sleep. You’re still wrapped up in a bear hug from Karissa, though her grip on you has gone loose in her sleep. The moment you start to shift, however, Karissa tightens her hug, drawing you back in. You struggle for a second before giving up. Despite last night’s discomfort, Karissa’s body is now surprisingly warm, reflecting your own body heat back to you like a blanket. You’re still embarrassed to be treated like something between a stuffed animal and a space heater.
-
-“Karissa. Karissa it’s morning.” You struggle more, trying to wake the marshal from her sleep. “Karissa!” This earns you a crushing squeeze. It’s almost worse than the boot to your chest was, but you manage to stir her from sleep when you raise your voice. The hug stops, and you feel Karissa shift. Looking up, you meet her eyes. At first shock registers on her face, mouth hanging open at the sight of you cuddled up to her chest. Shock turns to anger, which quickly shifts to recognition as she looks away a moment.
-
-“Anon. You’re awake.” Karissa frees you from her arms, and pushes you away to quickly stand. “Dress yourself.” You roll over and push off the ground, grabbing your jumpsuit as you do so. You get dressed quickly, and see that Karissa has done the same. She doesn’t quite seem embarrassed, but perhaps uncomfortable, as she continues to avoid looking directly at you.
-
-This isn’t going to work. “Hey marshal?” Karissa looks up at you. “Listen, I know last night was weird. I’m a human and you’re…well, I’m a human and you’ve had a thing about that, but we’re still stuck here for two more days and it’s still raining.” You both glance out at the rain. It’s not storming like last night, but it’s still an oppressive mist that fills the air. “Can we just pretend we aren’t on opposite sides of your law until rescue?”
-
-Karissa frowns. “I am Slithin.” Her expression softens after she corrects you. “But I will oblige your request. Until rescue arrives, I will stop treating you as a criminal.”
-
-“Thank you, Karissa.” You nod, and step closer. “That’s out of the way, now, let me look at your face. Gotta make sure that scratch isn’t infected.” Karissa complies, dropping down to sit in front of you. You gingerly pull off the homemade dressing, now crusted with dried blood, and look at the wound. It’s already sealed up, and doesn’t look infected. “Well, I have good news. You’re not going to die of infection.” You undo the bandage, wadding it up and wiping some of the dried blood away. You stop a moment as you look Karissa in the eye. They really do glow, even in the dim light of a stormy morning.
-
-“Anon, Is something wrong with my eye?” Karissa shifts, breaking eye contact with you.
-
-“No, no, just looking. At your scratch.” You return your focus to Karissa’s healing wound. “You know, this will probably scar up in the next couple days. Not bad for a first.”
-
-“You believe so?” Karissa runs a claw over the wound, wincing slightly as she does so.
-
-“Oh yeah, scar like that’s gonna be intimidating as all hell. You’ll be even more of a terror.” You nod approvingly and step back. “It’ll add to your whole hunter thing too. Nothing says ‘I kill angry beasts’ like a giant claw mark.”
-
-“That’s very…kind of you to say, Anon.” Karissa stands and looks over you into the woods. “It is raining still. I see little reason to leave our shelter unless the need arises.” You nod in assent.
-
-“Sounds like a plan.”
-
-The next couple hours are spent lazily. You split another bland meal with Karissa as you wait for the rain to lessen, but to no avail, it remains depressingly overcast. The rain dodges between a downpour to a fine mist as time passes. All this time your throat grows drier, and nearby pools of water from the rain are muddy and brown, not fit for drinking. Once the precipitation turns to mist you could stand to be in, you stand. “Okay, I’m going to get some fresh water, I’ll be back in a bit.”
-
-Karissa warns you not to go far, and you reassure her you are just walking to the stream. After the terrible deluge of last night, the walk to the stream is hardly any trouble, and you can easily shake the cold of a soft rain. Once you’ve reached it, you can hardly feel the rain, and as you kneel alongside the water and start drinking, you glance up to see the sun starting to peek through the clouds. You grin at the sight. Finally, something good. You’re about to stand when the hairs on your neck stand on end. You’re being watched.
-
-Across the stream, one of those same beasts that had attacked your first night on planet. You stare at it, and it stares at you, both of you still for several seconds. But you know it’s not alone. It has a partner nearby, it must, and the moment you move, the unseen beast will surely pounce. 
-
-You’re fucked. You could call for help, but you’d be lucky if you survived long enough for Karissa to see you bleed to death. You could run, but with no idea where the other is, you’d be blindsided. You could fight, but you’re only a human. You decide to try all three.
-
-First you move slowly, fishing a stone from the creek in front of you, all the while keeping your eyes on the beast in front of you. You find a stone, oblong, and small enough to fit in your fist, it’s the best you can do. A few seconds later, you catch the rustle of movement up the stream, to your right. The beast’s partner. This is when you jump, springing from your spot by the stream, turning in midair and breaking away from the unseen predator. You run on a diagonal, away from your pursuer, and marginally toward the outcropping you’d slept last night. The moment you get a full breath, you cry out the marshal’s name.
-
-“Karissa!” You can feel it behind you, even as you dodge and weave between trees. The beast is faster on foot, and you don’t stand a chance. At the last second to spin about. It’s already in mid-air, leaping for you. Your mind races, and time seems to slow down as you feel your arm swing on its own, in a wide arc. There’s a sharp crack, and you find yourself on the forest floor, struggling with the beast. It’s disoriented, you seem to have caught it on the head with the rock. You don’t even think, swinging again and again, until the thing rolls over and stops moving.
-
-The stone, and your hand, are painted red.
-
-
-There’s no time to celebrate your victory over the beast. Its partner is already on you, standing just a scant few feet away, ready to leap at you. Seated on the ground as you are, you doubt you’ll be able to get off another lucking swing before this one can tear your throat out. 
-
-“Come on.” The words hang in the air, you invite your own mauling as you tighten your grip on the bloodied stone. “Come on! Bring it!” Your shouting seems to startle the beast and it skitters back a few steps, going on the defensive. Emboldened, you push up to a kneeling position, then stand. “Gonna eat me or not?!” One step toward the thing, and the beast bolts, fleeing back toward the stream. 
-
-You can’t believe it! You scared the thing off. “That’s right!” You holler after it. “Fuck off or I’ll bash your head in too!” Your nervous, sharp laugh echoes through the trees for a couple seconds. 
-
-“Anon.” Karissa’s voice startles you out of your celebration, and you whirl about to face the lizard.
-“Karissa! You—You didn’t—How long were you standing there?”
-
-Karissa laughs softly. “Long enough to see you scare off the beast. You were quite fearsome.” In a couple large strides she’s next to you. “And you killed this one. Did it hurt you?” She gives you a look over, checking you for injuries.
-
-“No, I—I got lucky, and it…I just, with the rock…” Now that you weren’t in immediate mortal danger, the world was starting to get hazy. The comedown from adrenaline was worse than any you’d had before, and you were trying to put together exactly what happened in the moment. “It just happened. I’ve never killed anything before.”
-
-Karissa gently pries the stone from your shaking hand, letting it drop on the ground. “It is alright Anon. Your first kill is never what you expect. You did well.” She puts an arm around your shoulders, turning you away from the grisly sight of the beast’s remains. “You should clean up. You are covered in its blood.” 
-
-Karissa leads you to the stream, acting startlingly out of character as she reassures you. “Wash yourself now. I will keep watch from the shore.” 
-
-“Sure thing marshal…” You step out into the water, neglecting to pull off your blood-stained jumpsuit. The water runs red as you set yourself on a rock ledge, submerging up to your chest. After a few minutes, you start to scrub your hand, washing off what was left of the ichor that hadn’t come free in the flow of the water. 
-
-By the time you come out of the stream, it’s started to get dark out, and the temperature has started to drop. You shiver slightly as you rejoin Karissa, who was relaxing against a tree near the water. “I don’t think the jumpsuit will wash clean.” She simply nods, and turns back towards shelter.
-
-Once back, you settle in for the night, sitting down and staring out into the dark. Even with solid stone at your back, your thoughts keep turning to the beast’s partner. It could still be out there. Waiting for the moment you turn your back, or close your eyes, or Karissa leaves you alone. You wouldn’t get lucky twice, you knew. You shiver again, a mixture of fear and growing cold. 
-
-“Anon,” Karissa breaks you from your thoughts, making you jump a little. “You are shaking. Is something wrong?”
-
-“Nope. I’m good. Just cold.” You shake your head, giving her a quick glance before staring out into the woods again. You hear a soft sigh and movement, and then Karissa is there next to you, sidled up against the wall.
-
-“My first kill was messy as well.” She speaks softly, staring out into the woods as you do. “I was on the cusp of adulthood, the time had come for my first hunt alone. A rite of passage. They gave me a knife, a small canteen, and enough food for a few nights and they sent me off into the wilderness. I was not to come back until I brought home an animal worth killing.” 
-
-Karissa continues with her story, describing how she wandered through the wilds of her home planet, and how she had tracked a predator through the scrub. As you listen to her story, you find it easier to calm down, and you even start to lean into her a little bit. It made you feel a bit safer, though you’d never admit to it.
-
-“When I came to the Auzakh’s lair, the ground was so trampled I lost the tracks. I did not know if it had come or gone, and before I could react, it pounced upon me. It had never occurred to me that I too might be stalked by a predator. I struggled with the auzakh on the ground. I could not reach my knife without giving it an opening…” Karissa shifts, pulling away from you. “I had no choice. I bit its throat out, like an animal.”
-
-“Shit, that’s…” You’re not quite sure how to respond, though it feels like you got off easy with your own ‘hunt’ now. 
-
-“It was unpleasant, yes. But because I fought with all I had, I survived. And more, when I brought home the auzakh’s remains, I was celebrated. It was a terrible thing killing it, but because I did it, things were better, you see?” Karissa places a hand on your shoulder, and when you look, she has a genuine smile on her face.
-
-“You fought well, Anon. And you too are better for it.” She nods, and releases your shoulder, going back to her original position.
-
-“Thanks, Karissa…” You smile for a moment, but then you remember reality. “Not like it’ll do me much good in federal lockup.”
-
-“Yes. When the time comes, you will face the consequences. But right now, you are victorious. You have survived your first hunt.” Karissa nudges you, but it doesn’t cheer you very much to have your victory. You sit in silence for a couple minutes, and even started to fall asleep when Karissa pushes against the ground and stands. “I know what you need, Anon. When one completes their first hunt, there is a feast.” 
-
-Karissa retrieves the small bag of survival supplies, and roots around in it. “I did not think we would need this, but it will do nicely for the occasion.” From the recesses of the bag, she pulls out an unmarked bottle, filled with a brown liquid. 
-
-“You had booze?” You start to stand. “Why didn’t you say so? Break out the mystery meat, let’s have a feast!” Karissa laughs—you’re starting to enjoy the sound of that hissing snicker--and tosses the bottle toward you.
-
-“Do not drink it all, Anon.” She warns you as she pulls out a ration pack. “Let us both enjoy ourselves, for the night.”
-
-“And here I thought you was always on about that justice and hunting stuff.” You uncork the bottle, taking a swig. It burns on the way down, making you cough. Of course pirate liquor would be the strongest you ever had.
-
-“Do not choke on it!” Once again Karissa’s hissing laughter escapes her. “Perhaps give me the bottle.”
-
-You exchange, the bottle for a pack of food, and you tear it open to start eating. You were starving after today. “Mmh, not much for a feast. What kinda stuff did you eat after your first hunt?”
-
-“Mine?” Karissa takes a drink and hands off the bottle. “It was wonderful. We made a stew of the auzakh and sweet roots and we had spiced wine. We drank and sang until early in the morning.”
-
-“Sounds like one hell of a party. Bet that wine tasted better than this kerosene.” You take another mouthful and grimace through it. “And killing things make you grown up, huh?”
-
-Karissa starts eating her own meal, taking the time to speak and eat. “It does for some of my people. Before we were uplifted, we were still primitive. Hunters and gatherers, and so the traditions lived on through generations.”
-
-Taking another drink, you nod and go back to eating. You’re practically inhaling the food now, you may even finish the whole thing. Karissa grabs the bottle from where you set it down and sips from it as she watches you eat. Finally you take a break to catch your breath and she speaks up. “What about humans? Do they have any traditions?”
-
-The question catches you off guard, and it takes you a moment to actually answer. “I…have no idea. I didn’t grow up around any humans other than my folks. My parents. And all the other humans I met out there I could count on one and a half hands.” You hold up seven fingers to demonstrate. “If there was any human traditions, they’re long gone now. Gimme another drink.” You reach for the bottle, but Karissa keeps hold of it.
-
-“I think we have both had enough. It is half gone.” You grumble while she corks the bottle and stows it, but quiet down when she drops down next to you again. “You know, the Federation has re-settled displaced species before. If there were enough humans…”
-
-“Save it. I got along fine with no Federation or nothing. I don’t need anyone.” You mumble your words a bit, the alcohol taking hold of you. “I’m just another nobody human gonna die all alone.”
-
-Karissa takes you off guard by putting a heavy arm around you. “Anon…” She sounds genuinely sad, and it makes your stomach turn. You start to push free from her hug.
-
-“Get offa me. Don’t need your fucking pity.”
-
-“Anon, you aren’t—“
-
-“Who fucking asked you?!” You shove away from her, breaking free. “To give a shit about me? I don’t need no goddamn federal marshal crying cause I’m so sad!” You stand up and stumble to the far side of the shelter, dropping back and curling up on the cold ground. “Fucking goddamn federation…”
-
-The camp goes quiet, and eventually you pass out into a cold, restless sleep.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    10 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    11 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    14 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    15 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

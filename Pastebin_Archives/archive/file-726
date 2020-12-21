@@ -1,619 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Florica - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The Florica - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/uyhxrCJ8" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/uyhxrCJ8" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="YnGTBDiprYi1UiPSzKNxatsME1m2FiiWiS4uQjS1FPAlEv5xStHeuNYbGoqCwj41lnVGHsdBfq_WH2grUu9_qA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/uyhxrCJ8" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/uyhxrCJ8" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Vani11aS33d">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>The Florica</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Vani11aS33d">Vani11aS33d</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Vani11aS33d" class="message" title="Send a private message to: Vani11aS33d"></a>
-                                    
-                <div class="date">
-                    <span title="Monday 17th of August 2020 03:05:56 AM CDT">Aug 17th, 2020</span>
-
-                                            (<span title="Last edit on: Wednesday 19th of August 2020 01:02:52 AM CDT">edited</span>)
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    423                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 32.65 KB            </div>
-
-            <div class="right">
-                <a href="/raw/uyhxrCJ8" class="btn -small">raw</a>
-                <a href="/dl/uyhxrCJ8" class="btn -small">download</a>
-                <a href="/clone/uyhxrCJ8" class="btn -small h_800">clone</a>
-                <a href="/embed/uyhxrCJ8" class="btn -small h_800">embed</a>
-                <a href="/report/uyhxrCJ8" class="btn -small">report</a>
-                <a href="/print/uyhxrCJ8" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">The Florica</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Blurb: Odela Bairr, a boar anthro bounty hunter was given a simple offer. Find the pig, and live a free woman. But on the frontiers of Earth colonisation are a wild void of danger, death and anarchy. With the threat of death looming over her and a happy-go-lucky human pilot to help her, she strides out in a job that leads her down a long and deadly road. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A furry x human romance sci-fi story with a female lead. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 1: The Has Been</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As she groggily opened her eyes to the brightly lit room, the first thing she saw was a distorted boar anthro staring back at her. Her broad shoulders were slumped while her muscles were relaxed beneath her once white shirt. It wasn’t a reflection she enjoyed, her face slumped against a cold metal table staring against the reflective stainless steel. Her brown fur across her stocky and well-built body was stained with a mixture of liquids and dirt she failed to remember. From the smell, she didn’t want to know. Her grey shirt was covered in a thin layer of grime. The black colour of her pants hid any trace of dirt, but even she could feel it. She roughly groaned, suddenly feeling like a bass drum was being beaten right next to her ear. Complimented with the feeling a clamp was pressing down on her skull, drowning out any memory she tried to recover. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She had some hangovers, then there was this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her snout twitched at another scent in the air other than vomit and cheap alcohol, something more bitter. Seeing it in the reflection, a styrofoam cup rested by her head. By the smell, she knew it was coffee. Cheap, machine-made coffee. She grunted as she tried to sit up, feeling the individual vertebra of her back click one by one as she lifted herself from the cold metal. Her hazy eyes took in the room as she twisted herself with her joints audibly popping. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She turned her attention to the single door. It was thick enough to stop a large angry anthro from charging through it. It had a keycard scanner backed up with a normal lock. In the corner of the room was a camera staring directly at her. The flashing light atop it stated it was on. Her disgruntled snarl revealed several replacement metal teeth as she wondered if anyone was staring back at her. She had been inside a police questioning room before to know where she was. Dropping her head to the floor she sighed before grumbling. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Fucking shit.” Her voice was raspy, a mixture of past yelling compounded with a mouth that thirsted for a drink. Her eyes slowly focused on the Styrofoam cup, the only thing apart from her that wasn’t cold and metal. Reaching over she stopped at the jingling of chains, finding her hands to be handcuffed and threaded through a hook in the table’s edge. After pausing to take in the development she took ahold of the cup. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was lukewarm with no steam emitting from the dark brown liquid. With a deep inhale of the bitter smell, she stuck out her tongue out ready to lap at the beverage. That was until a buzz echoed through the cell and the door slid open. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Standing in the doorway was a tall canine dressed in a blue uniform with a cap accompanying his standing ears. The golden badge on his right pectoral indicated his status as a Cilver Station police officer while his three epaulettes indicated his rank as a sergeant. In his paws was a cheap, and chunky Earth made laptop. The officer quietly strode in, placing the laptop on the table and opening it to reveal a face.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The figure staring back at her was dressed in a pristine black suit with a silk blue tie and crisp white shirt. On his left lapel was a silver pearl embedded in a golden pin. His species was an elephant with an all-too-knowing smile on his face while his eyes held a gentle cockiness. The wall in the background appeared to be several monitors, bookcases and a large flag. A silver circle in the centre of a black backdrop. She recognised it as the station’s flag. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her attention was brought back to the sergeant with a jingling of metal, noticing a key on the ground just beyond the table. The canine anthro coldly turned tail, promptly leaving the room with no words exchanged. As soon as the door clicked the elephant anthro opened his mouth. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Odela Bairr. First of all, nice to meet your acquaintance I am a big fan of your work. Do you know who I am?” His voice was suave and cool with a slipperiness that even she could feel in her hung over state. A person who liked the sound of his own voice and found any excuse to present it. Odela stayed silent, her eyes glazed over as the elephant’s smile wavered. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Um...my portrait is hung up on the exit to the docks and I know you’re not from this Station Cilver. Surely you would have seen it?” He gestured to himself with one of his large grey hands with a smile hidden behind his trunk. His eyes flashed with a sense of dismay stemming from a lack of response. One that Odela continued to refuse to give as she groggily blinked towards the monitor. He nervously chuckled as he readjusted his large frame within his office chair. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anyway, let me reintroduce myself. My name is Sector Governor Cornelius Ovan. Do you know why you’re here?” Odela reached up, taking ahold of her forehead before tiredly sliding her hand down her furry head and muzzle. Finishing with a sickly coughing fit which tested the borders of regurgitation. Ovan furled his lips, turning away at the hacking gasps from the boar-woman. His smile returned as Odela’s eyes raised back to him. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well Miss Bairr, you have been charged with the murder of three young men found dead in an alleyway yesterday afternoon outside the Trembling Hold pub. Does this...resonate anything with you?” His voice tried to sound comforting but held a condescending tone that didn’t go deaf on Odela. With a slow nod, Cornelius continued. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ok so just to be clear the detectives found three men, all of which had high blood alcohol levels in an alleyway behind the Trembling Hold. All of them had their flies down and holes in their chests matching a laser pistol. You were found drunkenly passed out a couple blocks away with a Venus Pattern Heavy Laser pistol type XXII found on your person. Now with their tiny dicks out they were either pissing on you or about to rape you. From the fact you had no urine soaked into your fur, we can assume the latter.” Despite the thumping coming from within her skull Odela’s eyes drifted around as she roughly cranked through her memories. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“In a usual case, you would be given an apology and you’d be let go. But this isn’t that-.” Odela’s eyes shot open, holding her hands to her mouth with urgency. She turned to her side, opening her snout to a torrent of her bubbly stomach contents. Ovan’s brow screwed up in disgust as he watched the scene unfold from the other side of the monitor. Being a boar, she had a strong stomach. But even she had her limits. Once all of it was out she resumed her slumped posture as she lazily focused on the well-dressed elephant. After a pause, Cornelius broke out of his flabbergasted state resuming his calm collected tone with a resumed smile. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“One of the dead men is a name by the name of Sullivan Key. Now Sullivan Key was a nasty piece of work with a violent trail a mile wide and even longer in length. He would beat homeless and prostitutes, started fights, alleged rape and such. Honestly, you did a public service killing the piece of shit.” Reaching off camera the elephant lifted a portrait that Odela didn’t recognise, only that it was a human woman wearing a suit with a face of contempt. After seeing no reaction, Ovan snorted and lowered the frame. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“But his mother is the chief judge of this station and friends with the chief of police. You have been charged with three counts of murder. They are both going to kangaroo your case straight to a guilty verdict. At best you’re getting sent to a convict colony and worst they’ll take you behind the back of the court and put a few lasers in you. Or you could see death as a better outcome than hard manual labour on some blasted backwater shit h-.” Enough of the elephant’s smooth voice Odela cut in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Why are you talking to me?” Ovan mouth stood agape, taken aback by the boar-woman’s sudden and rough interruption. Resuming with a smug chortle Ovan leaned closer to the screen, raising a single authoritative finger. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m here because as the Sector Governor, I can write you a pardon for these crimes and send you on your merry way. But I need something in return.” His ears perked up, gazing over the area quickly before whispering an answer to the boar-woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I need you to find someone by the name of Tao Lim. He was my chief clerk who’s run off and I want you to bring him to me alive.” Odela slowly raised an eyebrow, her gaze shifting in thought as the rusty gears of her hungover mind turned over. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re a sector governor why don’t you just get the Rangers to do it?” Settling comfortably back into his office chair, Ovan connected his large hands with a clap and tilt of his smooth head. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Because Miss Bairr, he’s not a fugitive. On top of that if I send rangers or other law enforcement that’s going to lead a paper trail. If someone gets wind of what I order, they could follow the reports and citations all the way back to me.” The elephant finished by pointing towards himself, the flow of words led to a trickle of questions presenting itself to Odela. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“And why do you not want this to be associated with you?” Ovan’s smile faded to a smirk with a complacent snort from his trunk. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You don’t need to know.” He answered softly with a subtle shake of the head. Remembering where she was, Odela asked another slow and dry inquiry for the governor. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Why don’t you just get a regular bounty hunter? Plenty of them around this station.” The elephant reached off-camera, presenting an electronic tablet displaying a picture. One that brought a deeply furrowed brow and bared teeth upon Odela. It was a portrait of a female boar anthro wearing a pressed grey suit with a striped blue tie. An embroiled golden badge hung from her right breast while a large selection of bright medals hung from her left. He lowered the tablet, flashing a smile as he placed it off-screen. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You have one of the best records of any Ranger, it’s no wonder you went into bounty hunting. If I was to go around and ask any shady individual who says he can hunt a person down across systems for the right price. A good amount of them will probably take the money and run. So why trawl through all that risk of charlatans and incompetents when I have an ex-Ranger who now depends on me to get her life back.” She felt her stomach toss and turn, threatening another round of regurgitation. But it wasn’t caused from the aftermath of excess from a late-night binge. That picture made her feel dizzy with a sense of disgust excessive drinking couldn’t achieve. She ignored the elephant as he continued.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So there’s my proposition, you bring me Tao Lim and I wipe away the murder charges. For an added bonus, one million on top. How does that sound?” Even with the knot tightening in her stomach she rolled the words around in her fuzzy mind. She huffed as she kept coming back to the same conclusion. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t have a choice do I?” Ovan nodded at the response, turning to reveal his upturned lips as he reached off-screen. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My favourite kind of deal. I will grant you a sum of one-hundred thousand for your expenses and I’ll return your affects. You’ll be given twelve hours to get off the station. Once that twelve hours are up, you’ll be recorded as escaped and a warrant will be issued for your arrest. I will give you all I can about Tao Lim’s recent movements and information including financial history and phone call records. Does this all make sense to you?” The clattering of a keyboard joined the elephant anthros’ voice as he continued to focus on the camera. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Does he know I’m coming after him?” Odela snarled with a determined grit, her rough fingers tightening while squirming in the handcuffs. The rapid sound of keys being pushed didn’t cease as Ovan responded with a widening grin.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“He knows someone is.” With both hands busy the elephant’s trunk shifting a phone to his large right ear. His tone was hushed as he spoke into the receiver, out of earshot of the woozy boar-woman. After a few minutes of whispers, typing and hungover groans the elephant lowered his phone. Turning his attention back to Odela. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It so just happens that the cameras are faulty and the desk sergeant is on his lunch break. Doesn’t it seem lazy that they’ve left the door open and the key to your handcuffs must have fallen off the officer’s belt?” Odela’s eyebrows perked up as she leaned to view the small key still on the ground where it fell. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Must be very irresponsible to have the backdoor left open located on the second right after leaving your cell and going three doors down?” Odela’s eyes lazily roved back to the screen while Ovan raised his phone once more. Speaking to Odela with it still held to his ear. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It also happens that an officer moving evidence had to attend to something, leaving a box of evidence on a trolly near the backdoor. On that trolly is also a misplaced briefcase with the details of the Sector Governor’s Chief Clark and one-hundred thousand Interstellar Dollars. Within that evidence is the confiscated equipment held by the suspected murderer who is currently under interrogation. Whoever left that must have had to go to the bathroom real bad.” Cornelius flashed a bold smile as he nonchalantly shrugged. Lowering his phone to stare Odela directly in the eye. He tapped his silver watch. Odela continued to respond with a blank stare.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You know, with all these circumstances, someone might escape...Oh almost forgot, before you think about running off I had a friend of mine install a bracelet on your ankle to track your movement. Try tamper with it and it’ll shock you. You try destroy it and it’ll kill you.” His voice turned serious, showing an authoritative tone beyond the smugness Odela had to put up with. Even so, a smirk returned as he waved to the camera.   </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Good luck and have fun.” With that the laptop screen snapped to black, leaving Odela with a dull reflection of herself in the darkness. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">If she was thinking straight she would move immediately. But she wasn’t thinking straight. Instead, she took ahold of the Styrofoam cup and shakily raised it to her maw. The feeling of the rough and slightly chemically taste on her tongue made her sigh in relief. The feeling of the liquid soothing down her throat as she poured its contents. She didn’t mind even if the condensation at the bottom fell on her tongue. She lapped it up regardless. Even if she was still thirsty the drink felt uplifting. The warmth of it alone was a break away from the cloudiness that lingered in her mind. She enjoyed the bitter taste, letting the coffee flow through her pudgy body as she leaned back in her chair. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Then it hit her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Everything hit her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her ears perked up with her eyes losing the haziness they once held. The empty cup fell from her hand as her wide eyes stared towards the blank laptop. The murders, the charges, the proposition and that she agreed to it. Her mouth fell open to deep exhales while she could hear her heart thump against her chest. She looked down, rolling up her pants to see a small metal ring above her trotters. She knew the design well, but this one seemed more high tech than the ones used for high-risk criminals. She focused on the key, standing up only to feel her knees collapse under her. With both alcohol and adrenaline numbing the pain she shakily fiddled with the key against her cuffs until a click was heard. As she stood up, letting the cuffs fall she steadied herself against the table. Letting her stumbling brain catch up to her befuddled mind. Once her legs felt less like noodles she slowly pushed the door open. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Odela squinted as she looked into the brightly lit stainless steel halls of the police station. Despite the assault on the retinas she pushed forward, following the directions given by the Sector Governor. It went by in a blur for her, even if she was moving at a snails pace. She swiped a box on a trolly filled with belongings she recognised with a briefcase to top it all off. Following the exit signs led her to the unguarded backdoor. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As she stepped out she felt the air that lacked breeze and the light that lacked warmth. Staring up to see a glass sky showing a white sun shining rays past the towering buildings. This was one of the few satellite cities she’d been to that used natural lighting. She didn’t stop for long, following the sound of noise coming from the alleys to find a bustling street. The number of people out and about gave away that it was about lunchtime. Not risking being seen with a box of police evidence she retreated. Going down a maze of alleys to find a secluded spot away from prying eyes.  Kneeling in the dirt wasn’t a new feeling for her, she had gotten used to the pavement of back alleys over the past few years. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The first priority was her belongings which she was glad the officers hadn’t been too rough on. </div></li><li class="li1"><div class="de1">-Venus Pattern Laser pistol type XXII with a taser underside attachment, it went snuggly into a waistband holster. </div></li><li class="li1"><div class="de1">-Martian Pattern Light laser pistol, a small weapon that found a home in an ankle holster, the one that didn’t have a tracking device cuffed to it. </div></li><li class="li1"><div class="de1">-Handcuffs that could be adjusted for almost any size wrist. </div></li><li class="li1"><div class="de1">-A camera that could fit in the palm of her meaty hand. </div></li><li class="li1"><div class="de1">-Phone, one that was adopted for her hands.</div></li><li class="li1"><div class="de1">-Small tablet, fit easily into the lower pocket of her cargo pants.  -Notepad and pen, never need to load and doesn’t need a recharge. </div></li><li class="li1"><div class="de1">-Bugs and tracking devices, the size of pinheads that could be pinned to clothing.</div></li><li class="li1"><div class="de1">-Wallet, it was a bit chunky, she was glad nothing had been taken from it. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Finally, she lifted out a faded red jacket. It was slightly padded with multiple hidden and overt pockets with contrasts revealing where patches were once sown in. One was distinctively over her right breast pocket. Sliding it on brought a calming sense to her, followed as she holstered and hid the rest of her tools of the trade. That’s when she turned her attention to the briefcase. She ignored the stacks of bound cash and instead took out a folder, opening it to reveal papers and pictures. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Even with the hangover constricting her mind her eyes darted along the lines with her pen in hand. Names, locations, her blurry eyes absorbed the details as they flowed through her clearing mind. After the lightning-fast skim she closed the folder and briefcase before turning to the sound of traffic. With a deep breath, she stretched her neck and strode forth. She had an idea and she would need more time. But for now, her stomach begged for food and her throat cried out for moisture.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After finding an eatery a good distance from the police station she broke out her notepad, pen, tablet and got to work. She took notes, locations and spending between bights of powdered scrambled egg and dry toast. The tablet went off with internet searches and databases. In the meantime, she took in the portrait of her bounty. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Name: Tao Lim  </div></li><li class="li1"><div class="de1">Age: 46 </div></li><li class="li1"><div class="de1">Gender: Male </div></li><li class="li1"><div class="de1">Race: Pig </div></li><li class="li1"><div class="de1">Occupation: Chief Clerk of the Cilver Station Government Physical Archives. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">From his description he fit the usual office drone who was beyond his prime, he wasn’t much older than her. He was fat and slightly bellow average human height with no clear defining features aside from brown patch under his chin and a cybernetic port into his temple. Pigs tended to lean towards office jobs, they were smart and focused on their work. Sharing much pig DNA  Odela knew whatever Lim was doing it was a move he had not made on impulse. Unlike many species, pigs tend to think before they act. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The file included notes on Lim’s residence. He left without warning, leaving behind his wife and three kids. However, he planned on leaving, seeming to have clothes missing from his apartment along with a sizeable withdrawal of cash. He bought a ticket for a small space ferry heading towards Hermes Station 01. A small fuel depot on the fringes of the Hermes System. What caught her is for a port only used as a docking hub, Lim didn’t have a layover ticket. He couldn’t have been unprepared. He was trying to cover his tracks. The ferry trip was five days, she’d have to be there in four seeing he only left yesterday. With no time to lose and a location in mind, she paid for her cold breakfast, even with four cups of instant coffee in her stomach last night’s decisions dragged with her like a ball and chain wrapped around her skull. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She stayed off the temptations to go wash it away at the nearest bottle shop.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The streets of Cilver City were filled with a variety of individuals broken up by cleaning robots and electric-powered vehicles. The streets were fairly clean, for a station city but that was expected when the air was recycled. There was a taste of stale metal that never went away. It didn’t take her long to find a train line to the docks. The pedestrians she passed were mostly in business attire, suits and variations of office clothing. Their upturned noses and screwed up lips providing an insight into how she smelt. When she found herself on a packed train car they turned their noses and snouts away from her. Her less than uptight clothes also drawing attention. The further away she got from the Station’s centre the air became less clear and cool. The metal buildings and walkways began to show signs of neglect with rust and warping. Soon the suits and ties were replaced with overalls and boiler suits with her smell appearing to draw less ire. The air had a slight haze to it while the silver sun’s glare grew dimmer yet harsher. Upon exiting into the grime and rust she found her destination down several rubbish-filled back roads. A pub that was only a stroll away from the station’s docks meant for smaller space-faring vessels. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The pub was surprisingly clean with most dirt being hidden beyond the dim lighting of the few globes. The tables, stools and chairs didn’t match, indicating they were second hand or salvaged. Many of them looked to be torn from bulkheads, matching the general aesthetic of the room. Ship parts hung from the roof alongside the open lights and star system dioramas. Odela’s snout was assaulted with a mix of alcohol, oil, vomit and engine fumes. She looked to see bagged eyes shoot her glances before returning to their conversations over opaque cups. The people varied but many of them shared the same look. Rugged and sleepless with oil and grit marked skin, fur, feathers or scales. Bulky cybernetics awkwardly jutted from heads and arms ranging from clamp-like hands to spinal ports. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Striding past the hunched figures she reached the bar to stare down at the short hairy figure. He was a rat. Dark brown fur with a thin layer of oil with cracked and yellowing incisors. He ignored the boar’s presence, using a dirty rag to wipe down metal cups. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Who’s the best smuggler here?” The bartender slowly looked up, sliding on a pair of glasses from his waistcoat before hardening his glare to the boar-woman. Slamming the metal cup down before leaning as far as he could over the bar. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I think you’ve got the wron-.” His harsh tone was silenced with the presenting of a banknote. His eyes fell from Odela as he greedily focused on the money being slid towards him. The barman’s face softened as he gestured to the dingy establishment with a smile. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well ma’am most smugglers I can think of are off doing their bit for the unrest in the Hermes System. But we have a couple ex merchants, a couple part-timers and an ex galactic navy pilot in this merry afternoon.” Odela turned away from the smiling rat, noticing the bits of metal jutting from the base of their necks. It was obvious many of them were spacers. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Which one’s the ex-navy pilot?” The rat hauled himself over the bar, holding up a single finger and pointing it to the far back of the room.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The human with a cybernetic eye. Half his face looks like a melted barbie doll, you can’t miss him.” With her eyes squinting the boar-woman managed to spot her target, she tiredly nodded as she let go of the money in her possession and began her approach. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thanks, give me a Kronian please.” The rat-man quickly placed down a cup before pouring out an amber drink. As she took a sip from the burning drink she spied her target. He was dressed in a faded blue flight suit with patchworks and oil stains. His navy blue uniform flight jacket and black boots were slightly ripped at the edges with small tears. His half-metallic gaze was focused on another spacer, a Labrador anthro aggressively growling in a drunken and spit filled yell. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The Blue Sun Twenty-One Lighter is an outdated vessel with an outdated design. Ozone does everything it can do better.” She wasn’t too surprised they were arguing about ship designs and specifics. She got a good look at her target as he turned to face the growling dog. He responded with a raised a cybernetic finger and a voice that held a harsh yet commanding tone that suited his authoritative visage. His voice sounded too opulent for a low-end spacer. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You take an Ozone near a star it will warp to a metal comet. A Blue Sun can lose two of its engines and pilot fine.” The human pilot’s face was a very light pale broken up with thick, black stubble that went past his jaw to cover his crown. The deep wrinkles showed him to be in his late thirties or early forties but it was hard to judge without hair. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ozone’s jumper means you won’t even get close to a star and the shields will keep it safe.” As the Labrador shouted back the human turned even further to show the rest of his face. He fit the description of the bartender, harbouring severe acid burns on the right side of his head while his right eye was entirely replaced. A camera like lens embedded within his eye socket. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shields overload and Jumpers need to be calculated. If the hull of an Ozone could withstand a solar flare let alone a welding torch it wouldn’t need high tech crap” The scarred human mockingly yelled as he took another gulp from a dark liquid in a foggy glass held in metal fingers. The Labrador scoffed as he turned his back on the smug human. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t have time for this, and you say you’re a good pilot with those fingers?” The melted human darkly chuckled as he shouted after the canine. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Good luck leaving the station without your ship melting.” He laughed at his own joke, as he relaxed back into his chair. After sculling the last of her drink with a rough gargle Odela made her approach. As the human finished his laugh with a content sigh he noticed the shadow of the boar-woman standing over him. He turned to face the ex-ranger, a smug grin revealing his strangely clean and straight teeth. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“May I help you?” Odela sat opposite him, placing the briefcase on the table before tiredly giving a question as an answer. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You familiar with the Hermes System?” She closely examined him, like many spacers he was gaunt with very little muscle or fat upon his bones. His neck sticking out of his flight suit like a sampling. He nodded as he rested his glass. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Been there a couple of times, know the routes around the blockades and tariff collectors. You could say I’m familiar.” He leaned forward and interlocked his metallic fingers, the smooth metal turning to flesh at the knuckles. She grimaced as she remembered the meaning of metal fingers, but didn’t comment. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I need to get to Station 01 in the Hermes System in four days. I think you can help me.” Odela returned her tired stare going between the human’s half metal eyes and fully artificial fingers. She was attempting to read the letters etched into the Spacer’s knuckles. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What are you moving?” The smugness in his voice subsided as his grin turned to a gentle smile. Odela rubbed her snout as she clenched her eyes, a headache still finding itself crawling back to her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Just myself and my things.” The metal fingered man nodded, roving his gaze about the bar before leaning in to whisper. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“How illegal are your dealings?” Odela paused before a smile nervously grew across her snout, cracking to a grin and a nervous chuckle.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m wanted for something that could lead to a life sentence or a death sentence.” The human relaxed in his chair, returning a grin to the boar’s smile.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Illicit dealings cost extra, I take this is a one-way trip?” Picking up his glass he continued to down the black liquid. Odela could tell it was a very hard alcohol, certainly not a high-quality one. Industry runoff had many uses. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Two ways if everything goes to plan.” He raised an eyebrow at her answer, slowly taking a sip as he ran over the possibilities in his head. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“May I ask why the return trip?” His camera like eye focused its gaze as the grin disappeared from his cracked lips. Odela cringed as she fought off the headache that returned. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’ll be bringing someone back with me. I wish for him to not be found by the authorities” The human raised his drink once more as his metallic eye blinked out of sink with his organic one. He smacked his lips as his eye moved in its socket while his brow furrowed in thought. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So in summary, one illicit passenger to Hermes Station 01 and two illicit passengers returning to Cilver City? I’ll do it for fifty-thousand Interstellar&#039;s, I want half of it upfront.” There was a short pause as the two stared off before Odela reached for the briefcase. Placing it on the table and peaking the lid open. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Bit of a hard price but I am fine with that.” The human’s eyes widened as he looked at the large amount of paper cash, a rarity in the midsts of space but all the more valuable. His grin returned as he enthusiastically nodded. Yet he kept a serious tone as he stared her down. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Good but before we shake hands I just want to lay out some rules. Number one is that while you’re a passenger you are still on my ship and you’ll respect the rules as a passenger on my lady. Number two is that you will not touch anything important and you’ll obey everything I say when it comes to interstellar travel and living. Also ma’am, I suggest you take a shower because it’s the last one you’ll have in four days. Does this all sound fine to you?” As he placed his hands flat on the table Odela finally managed to see the tattoos without obstruction. A letter etched on each knuckle that when placed together would read out ‘STAR BORN’.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes, it does.” The human energetically tapped the table as leaned back into his chair, pointing a metallic finger towards the boar-woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ok, when do you want to leave?” Odela’ eyes drifted to the ancient analogue clock over the spacer’s slanted shoulder. The hands read four in the afternoon, she would have liked to stay dockside as to ride out her hangover but time was not what she had. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Eighteen hundred hours.” Her eyes snapped back to the human as he thumped his empty glass against the metal table and held out his open palm as he stood. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sounds good. My girl is docked in bay thirty-one, may I know who I’m letting aboard?” Odela chuckled at the man’s smile as she stood to return his handshake. Her coarse furry hands engulfing the metal joints. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Odela Bairr.” She tensed at his harsh grip, as his sleeve rolled up to reveal his almost see-through skin and jutting bones. Even behind the body hair and freckles. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My name’s Servac Frano, nice to meet you Miss Bairr.” They mutually let go as Odela retrieved the briefcase and nodded with a smile. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Just call me Odela.” The smile fell away as she turned her back on the cheery human as he stared after her. Servac picked up his glass and approached the barkeep, groaning as he leaned against the metal. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Give me another one friend I still have a headache from that dog’s conversation.” As the rat-man barkeep stood up on a stool to fiddle with a dark bottle he stared after the boar as her tail disappeared out the door. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“She’s trouble, I don’t know what your dealings are with that woman are but I don’t think they’ll end well with you. No one walks into a bar filled with low life entrepreneurs with boozed-up eyes with a heater and a smell of vomit and walks away with a happy ending.” The rat ranted as he focused on pouring out more foul looking spirits to the empty glass. Swirling the cup in his metallic fingers, Servac focused his gaze on the rat. The human’s melted face shimmering in the artificial glow while his lens focused hard against the rat’s glare. His voice was lifelessly happy as he emptily smiled. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do I look like a man of happy endings to you?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">The Florica
-
-Blurb: Odela Bairr, a boar anthro bounty hunter was given a simple offer. Find the pig, and live a free woman. But on the frontiers of Earth colonisation are a wild void of danger, death and anarchy. With the threat of death looming over her and a happy-go-lucky human pilot to help her, she strides out in a job that leads her down a long and deadly road. 
-
-A furry x human romance sci-fi story with a female lead. 
-
-Chapter 1: The Has Been
-
-As she groggily opened her eyes to the brightly lit room, the first thing she saw was a distorted boar anthro staring back at her. Her broad shoulders were slumped while her muscles were relaxed beneath her once white shirt. It wasn’t a reflection she enjoyed, her face slumped against a cold metal table staring against the reflective stainless steel. Her brown fur across her stocky and well-built body was stained with a mixture of liquids and dirt she failed to remember. From the smell, she didn’t want to know. Her grey shirt was covered in a thin layer of grime. The black colour of her pants hid any trace of dirt, but even she could feel it. She roughly groaned, suddenly feeling like a bass drum was being beaten right next to her ear. Complimented with the feeling a clamp was pressing down on her skull, drowning out any memory she tried to recover. 
-
-She had some hangovers, then there was this.
-
-Her snout twitched at another scent in the air other than vomit and cheap alcohol, something more bitter. Seeing it in the reflection, a styrofoam cup rested by her head. By the smell, she knew it was coffee. Cheap, machine-made coffee. She grunted as she tried to sit up, feeling the individual vertebra of her back click one by one as she lifted herself from the cold metal. Her hazy eyes took in the room as she twisted herself with her joints audibly popping. 
-
-She turned her attention to the single door. It was thick enough to stop a large angry anthro from charging through it. It had a keycard scanner backed up with a normal lock. In the corner of the room was a camera staring directly at her. The flashing light atop it stated it was on. Her disgruntled snarl revealed several replacement metal teeth as she wondered if anyone was staring back at her. She had been inside a police questioning room before to know where she was. Dropping her head to the floor she sighed before grumbling. 
-
-“Fucking shit.” Her voice was raspy, a mixture of past yelling compounded with a mouth that thirsted for a drink. Her eyes slowly focused on the Styrofoam cup, the only thing apart from her that wasn’t cold and metal. Reaching over she stopped at the jingling of chains, finding her hands to be handcuffed and threaded through a hook in the table’s edge. After pausing to take in the development she took ahold of the cup. 
-
-It was lukewarm with no steam emitting from the dark brown liquid. With a deep inhale of the bitter smell, she stuck out her tongue out ready to lap at the beverage. That was until a buzz echoed through the cell and the door slid open. 
-
-Standing in the doorway was a tall canine dressed in a blue uniform with a cap accompanying his standing ears. The golden badge on his right pectoral indicated his status as a Cilver Station police officer while his three epaulettes indicated his rank as a sergeant. In his paws was a cheap, and chunky Earth made laptop. The officer quietly strode in, placing the laptop on the table and opening it to reveal a face.
-
-The figure staring back at her was dressed in a pristine black suit with a silk blue tie and crisp white shirt. On his left lapel was a silver pearl embedded in a golden pin. His species was an elephant with an all-too-knowing smile on his face while his eyes held a gentle cockiness. The wall in the background appeared to be several monitors, bookcases and a large flag. A silver circle in the centre of a black backdrop. She recognised it as the station’s flag. 
-
-Her attention was brought back to the sergeant with a jingling of metal, noticing a key on the ground just beyond the table. The canine anthro coldly turned tail, promptly leaving the room with no words exchanged. As soon as the door clicked the elephant anthro opened his mouth. 
-
-“Odela Bairr. First of all, nice to meet your acquaintance I am a big fan of your work. Do you know who I am?” His voice was suave and cool with a slipperiness that even she could feel in her hung over state. A person who liked the sound of his own voice and found any excuse to present it. Odela stayed silent, her eyes glazed over as the elephant’s smile wavered. 
-
-“Um...my portrait is hung up on the exit to the docks and I know you’re not from this Station Cilver. Surely you would have seen it?” He gestured to himself with one of his large grey hands with a smile hidden behind his trunk. His eyes flashed with a sense of dismay stemming from a lack of response. One that Odela continued to refuse to give as she groggily blinked towards the monitor. He nervously chuckled as he readjusted his large frame within his office chair. 
-
-“Anyway, let me reintroduce myself. My name is Sector Governor Cornelius Ovan. Do you know why you’re here?” Odela reached up, taking ahold of her forehead before tiredly sliding her hand down her furry head and muzzle. Finishing with a sickly coughing fit which tested the borders of regurgitation. Ovan furled his lips, turning away at the hacking gasps from the boar-woman. His smile returned as Odela’s eyes raised back to him. 
-
-“Well Miss Bairr, you have been charged with the murder of three young men found dead in an alleyway yesterday afternoon outside the Trembling Hold pub. Does this...resonate anything with you?” His voice tried to sound comforting but held a condescending tone that didn’t go deaf on Odela. With a slow nod, Cornelius continued. 
-
-“Ok so just to be clear the detectives found three men, all of which had high blood alcohol levels in an alleyway behind the Trembling Hold. All of them had their flies down and holes in their chests matching a laser pistol. You were found drunkenly passed out a couple blocks away with a Venus Pattern Heavy Laser pistol type XXII found on your person. Now with their tiny dicks out they were either pissing on you or about to rape you. From the fact you had no urine soaked into your fur, we can assume the latter.” Despite the thumping coming from within her skull Odela’s eyes drifted around as she roughly cranked through her memories. 
-
-“In a usual case, you would be given an apology and you’d be let go. But this isn’t that-.” Odela’s eyes shot open, holding her hands to her mouth with urgency. She turned to her side, opening her snout to a torrent of her bubbly stomach contents. Ovan’s brow screwed up in disgust as he watched the scene unfold from the other side of the monitor. Being a boar, she had a strong stomach. But even she had her limits. Once all of it was out she resumed her slumped posture as she lazily focused on the well-dressed elephant. After a pause, Cornelius broke out of his flabbergasted state resuming his calm collected tone with a resumed smile. 
-
-“One of the dead men is a name by the name of Sullivan Key. Now Sullivan Key was a nasty piece of work with a violent trail a mile wide and even longer in length. He would beat homeless and prostitutes, started fights, alleged rape and such. Honestly, you did a public service killing the piece of shit.” Reaching off camera the elephant lifted a portrait that Odela didn’t recognise, only that it was a human woman wearing a suit with a face of contempt. After seeing no reaction, Ovan snorted and lowered the frame. 
-
-“But his mother is the chief judge of this station and friends with the chief of police. You have been charged with three counts of murder. They are both going to kangaroo your case straight to a guilty verdict. At best you’re getting sent to a convict colony and worst they’ll take you behind the back of the court and put a few lasers in you. Or you could see death as a better outcome than hard manual labour on some blasted backwater shit h-.” Enough of the elephant’s smooth voice Odela cut in.
-
-“Why are you talking to me?” Ovan mouth stood agape, taken aback by the boar-woman’s sudden and rough interruption. Resuming with a smug chortle Ovan leaned closer to the screen, raising a single authoritative finger. 
-
-“I’m here because as the Sector Governor, I can write you a pardon for these crimes and send you on your merry way. But I need something in return.” His ears perked up, gazing over the area quickly before whispering an answer to the boar-woman. 
-
-“I need you to find someone by the name of Tao Lim. He was my chief clerk who’s run off and I want you to bring him to me alive.” Odela slowly raised an eyebrow, her gaze shifting in thought as the rusty gears of her hungover mind turned over. 
-
-“You’re a sector governor why don’t you just get the Rangers to do it?” Settling comfortably back into his office chair, Ovan connected his large hands with a clap and tilt of his smooth head. 
-
-“Because Miss Bairr, he’s not a fugitive. On top of that if I send rangers or other law enforcement that’s going to lead a paper trail. If someone gets wind of what I order, they could follow the reports and citations all the way back to me.” The elephant finished by pointing towards himself, the flow of words led to a trickle of questions presenting itself to Odela. 
-
-“And why do you not want this to be associated with you?” Ovan’s smile faded to a smirk with a complacent snort from his trunk. 
-
-“You don’t need to know.” He answered softly with a subtle shake of the head. Remembering where she was, Odela asked another slow and dry inquiry for the governor. 
-
-“Why don’t you just get a regular bounty hunter? Plenty of them around this station.” The elephant reached off-camera, presenting an electronic tablet displaying a picture. One that brought a deeply furrowed brow and bared teeth upon Odela. It was a portrait of a female boar anthro wearing a pressed grey suit with a striped blue tie. An embroiled golden badge hung from her right breast while a large selection of bright medals hung from her left. He lowered the tablet, flashing a smile as he placed it off-screen. 
-
-“You have one of the best records of any Ranger, it’s no wonder you went into bounty hunting. If I was to go around and ask any shady individual who says he can hunt a person down across systems for the right price. A good amount of them will probably take the money and run. So why trawl through all that risk of charlatans and incompetents when I have an ex-Ranger who now depends on me to get her life back.” She felt her stomach toss and turn, threatening another round of regurgitation. But it wasn’t caused from the aftermath of excess from a late-night binge. That picture made her feel dizzy with a sense of disgust excessive drinking couldn’t achieve. She ignored the elephant as he continued.
-
-“So there’s my proposition, you bring me Tao Lim and I wipe away the murder charges. For an added bonus, one million on top. How does that sound?” Even with the knot tightening in her stomach she rolled the words around in her fuzzy mind. She huffed as she kept coming back to the same conclusion. 
-
-“I don’t have a choice do I?” Ovan nodded at the response, turning to reveal his upturned lips as he reached off-screen. 
-
-“My favourite kind of deal. I will grant you a sum of one-hundred thousand for your expenses and I’ll return your affects. You’ll be given twelve hours to get off the station. Once that twelve hours are up, you’ll be recorded as escaped and a warrant will be issued for your arrest. I will give you all I can about Tao Lim’s recent movements and information including financial history and phone call records. Does this all make sense to you?” The clattering of a keyboard joined the elephant anthros’ voice as he continued to focus on the camera. 
-
-“Does he know I’m coming after him?” Odela snarled with a determined grit, her rough fingers tightening while squirming in the handcuffs. The rapid sound of keys being pushed didn’t cease as Ovan responded with a widening grin.
-
-“He knows someone is.” With both hands busy the elephant’s trunk shifting a phone to his large right ear. His tone was hushed as he spoke into the receiver, out of earshot of the woozy boar-woman. After a few minutes of whispers, typing and hungover groans the elephant lowered his phone. Turning his attention back to Odela. 
-
-“It so just happens that the cameras are faulty and the desk sergeant is on his lunch break. Doesn’t it seem lazy that they’ve left the door open and the key to your handcuffs must have fallen off the officer’s belt?” Odela’s eyebrows perked up as she leaned to view the small key still on the ground where it fell. 
-
-“Must be very irresponsible to have the backdoor left open located on the second right after leaving your cell and going three doors down?” Odela’s eyes lazily roved back to the screen while Ovan raised his phone once more. Speaking to Odela with it still held to his ear. 
-
-“It also happens that an officer moving evidence had to attend to something, leaving a box of evidence on a trolly near the backdoor. On that trolly is also a misplaced briefcase with the details of the Sector Governor’s Chief Clark and one-hundred thousand Interstellar Dollars. Within that evidence is the confiscated equipment held by the suspected murderer who is currently under interrogation. Whoever left that must have had to go to the bathroom real bad.” Cornelius flashed a bold smile as he nonchalantly shrugged. Lowering his phone to stare Odela directly in the eye. He tapped his silver watch. Odela continued to respond with a blank stare.
-
-“You know, with all these circumstances, someone might escape...Oh almost forgot, before you think about running off I had a friend of mine install a bracelet on your ankle to track your movement. Try tamper with it and it’ll shock you. You try destroy it and it’ll kill you.” His voice turned serious, showing an authoritative tone beyond the smugness Odela had to put up with. Even so, a smirk returned as he waved to the camera.   
-
-“Good luck and have fun.” With that the laptop screen snapped to black, leaving Odela with a dull reflection of herself in the darkness. 
-
-If she was thinking straight she would move immediately. But she wasn’t thinking straight. Instead, she took ahold of the Styrofoam cup and shakily raised it to her maw. The feeling of the rough and slightly chemically taste on her tongue made her sigh in relief. The feeling of the liquid soothing down her throat as she poured its contents. She didn’t mind even if the condensation at the bottom fell on her tongue. She lapped it up regardless. Even if she was still thirsty the drink felt uplifting. The warmth of it alone was a break away from the cloudiness that lingered in her mind. She enjoyed the bitter taste, letting the coffee flow through her pudgy body as she leaned back in her chair. 
-
-Then it hit her. 
-
-Everything hit her. 
-
-Her ears perked up with her eyes losing the haziness they once held. The empty cup fell from her hand as her wide eyes stared towards the blank laptop. The murders, the charges, the proposition and that she agreed to it. Her mouth fell open to deep exhales while she could hear her heart thump against her chest. She looked down, rolling up her pants to see a small metal ring above her trotters. She knew the design well, but this one seemed more high tech than the ones used for high-risk criminals. She focused on the key, standing up only to feel her knees collapse under her. With both alcohol and adrenaline numbing the pain she shakily fiddled with the key against her cuffs until a click was heard. As she stood up, letting the cuffs fall she steadied herself against the table. Letting her stumbling brain catch up to her befuddled mind. Once her legs felt less like noodles she slowly pushed the door open. 
-
-Odela squinted as she looked into the brightly lit stainless steel halls of the police station. Despite the assault on the retinas she pushed forward, following the directions given by the Sector Governor. It went by in a blur for her, even if she was moving at a snails pace. She swiped a box on a trolly filled with belongings she recognised with a briefcase to top it all off. Following the exit signs led her to the unguarded backdoor. 
-
-As she stepped out she felt the air that lacked breeze and the light that lacked warmth. Staring up to see a glass sky showing a white sun shining rays past the towering buildings. This was one of the few satellite cities she’d been to that used natural lighting. She didn’t stop for long, following the sound of noise coming from the alleys to find a bustling street. The number of people out and about gave away that it was about lunchtime. Not risking being seen with a box of police evidence she retreated. Going down a maze of alleys to find a secluded spot away from prying eyes.  Kneeling in the dirt wasn’t a new feeling for her, she had gotten used to the pavement of back alleys over the past few years. 
-
-The first priority was her belongings which she was glad the officers hadn’t been too rough on. 
--Venus Pattern Laser pistol type XXII with a taser underside attachment, it went snuggly into a waistband holster. 
--Martian Pattern Light laser pistol, a small weapon that found a home in an ankle holster, the one that didn’t have a tracking device cuffed to it. 
--Handcuffs that could be adjusted for almost any size wrist. 
--A camera that could fit in the palm of her meaty hand. 
--Phone, one that was adopted for her hands.
--Small tablet, fit easily into the lower pocket of her cargo pants.  -Notepad and pen, never need to load and doesn’t need a recharge. 
--Bugs and tracking devices, the size of pinheads that could be pinned to clothing.
--Wallet, it was a bit chunky, she was glad nothing had been taken from it. 
-
-Finally, she lifted out a faded red jacket. It was slightly padded with multiple hidden and overt pockets with contrasts revealing where patches were once sown in. One was distinctively over her right breast pocket. Sliding it on brought a calming sense to her, followed as she holstered and hid the rest of her tools of the trade. That’s when she turned her attention to the briefcase. She ignored the stacks of bound cash and instead took out a folder, opening it to reveal papers and pictures. 
-
-Even with the hangover constricting her mind her eyes darted along the lines with her pen in hand. Names, locations, her blurry eyes absorbed the details as they flowed through her clearing mind. After the lightning-fast skim she closed the folder and briefcase before turning to the sound of traffic. With a deep breath, she stretched her neck and strode forth. She had an idea and she would need more time. But for now, her stomach begged for food and her throat cried out for moisture.
-
-After finding an eatery a good distance from the police station she broke out her notepad, pen, tablet and got to work. She took notes, locations and spending between bights of powdered scrambled egg and dry toast. The tablet went off with internet searches and databases. In the meantime, she took in the portrait of her bounty. 
-
-Name: Tao Lim  
-Age: 46 
-Gender: Male 
-Race: Pig 
-Occupation: Chief Clerk of the Cilver Station Government Physical Archives. 
-
-From his description he fit the usual office drone who was beyond his prime, he wasn’t much older than her. He was fat and slightly bellow average human height with no clear defining features aside from brown patch under his chin and a cybernetic port into his temple. Pigs tended to lean towards office jobs, they were smart and focused on their work. Sharing much pig DNA  Odela knew whatever Lim was doing it was a move he had not made on impulse. Unlike many species, pigs tend to think before they act. 
-
-The file included notes on Lim’s residence. He left without warning, leaving behind his wife and three kids. However, he planned on leaving, seeming to have clothes missing from his apartment along with a sizeable withdrawal of cash. He bought a ticket for a small space ferry heading towards Hermes Station 01. A small fuel depot on the fringes of the Hermes System. What caught her is for a port only used as a docking hub, Lim didn’t have a layover ticket. He couldn’t have been unprepared. He was trying to cover his tracks. The ferry trip was five days, she’d have to be there in four seeing he only left yesterday. With no time to lose and a location in mind, she paid for her cold breakfast, even with four cups of instant coffee in her stomach last night’s decisions dragged with her like a ball and chain wrapped around her skull. 
-
-She stayed off the temptations to go wash it away at the nearest bottle shop.  
-
-The streets of Cilver City were filled with a variety of individuals broken up by cleaning robots and electric-powered vehicles. The streets were fairly clean, for a station city but that was expected when the air was recycled. There was a taste of stale metal that never went away. It didn’t take her long to find a train line to the docks. The pedestrians she passed were mostly in business attire, suits and variations of office clothing. Their upturned noses and screwed up lips providing an insight into how she smelt. When she found herself on a packed train car they turned their noses and snouts away from her. Her less than uptight clothes also drawing attention. The further away she got from the Station’s centre the air became less clear and cool. The metal buildings and walkways began to show signs of neglect with rust and warping. Soon the suits and ties were replaced with overalls and boiler suits with her smell appearing to draw less ire. The air had a slight haze to it while the silver sun’s glare grew dimmer yet harsher. Upon exiting into the grime and rust she found her destination down several rubbish-filled back roads. A pub that was only a stroll away from the station’s docks meant for smaller space-faring vessels. 
-
-The pub was surprisingly clean with most dirt being hidden beyond the dim lighting of the few globes. The tables, stools and chairs didn’t match, indicating they were second hand or salvaged. Many of them looked to be torn from bulkheads, matching the general aesthetic of the room. Ship parts hung from the roof alongside the open lights and star system dioramas. Odela’s snout was assaulted with a mix of alcohol, oil, vomit and engine fumes. She looked to see bagged eyes shoot her glances before returning to their conversations over opaque cups. The people varied but many of them shared the same look. Rugged and sleepless with oil and grit marked skin, fur, feathers or scales. Bulky cybernetics awkwardly jutted from heads and arms ranging from clamp-like hands to spinal ports. 
-
-Striding past the hunched figures she reached the bar to stare down at the short hairy figure. He was a rat. Dark brown fur with a thin layer of oil with cracked and yellowing incisors. He ignored the boar’s presence, using a dirty rag to wipe down metal cups. 
-
-“Who’s the best smuggler here?” The bartender slowly looked up, sliding on a pair of glasses from his waistcoat before hardening his glare to the boar-woman. Slamming the metal cup down before leaning as far as he could over the bar. 
-
-“I think you’ve got the wron-.” His harsh tone was silenced with the presenting of a banknote. His eyes fell from Odela as he greedily focused on the money being slid towards him. The barman’s face softened as he gestured to the dingy establishment with a smile. 
-
-“Well ma’am most smugglers I can think of are off doing their bit for the unrest in the Hermes System. But we have a couple ex merchants, a couple part-timers and an ex galactic navy pilot in this merry afternoon.” Odela turned away from the smiling rat, noticing the bits of metal jutting from the base of their necks. It was obvious many of them were spacers. 
-
-“Which one’s the ex-navy pilot?” The rat hauled himself over the bar, holding up a single finger and pointing it to the far back of the room.
-
-“The human with a cybernetic eye. Half his face looks like a melted barbie doll, you can’t miss him.” With her eyes squinting the boar-woman managed to spot her target, she tiredly nodded as she let go of the money in her possession and began her approach. 
-
-“Thanks, give me a Kronian please.” The rat-man quickly placed down a cup before pouring out an amber drink. As she took a sip from the burning drink she spied her target. He was dressed in a faded blue flight suit with patchworks and oil stains. His navy blue uniform flight jacket and black boots were slightly ripped at the edges with small tears. His half-metallic gaze was focused on another spacer, a Labrador anthro aggressively growling in a drunken and spit filled yell. 
-
-“The Blue Sun Twenty-One Lighter is an outdated vessel with an outdated design. Ozone does everything it can do better.” She wasn’t too surprised they were arguing about ship designs and specifics. She got a good look at her target as he turned to face the growling dog. He responded with a raised a cybernetic finger and a voice that held a harsh yet commanding tone that suited his authoritative visage. His voice sounded too opulent for a low-end spacer. 
-
-“You take an Ozone near a star it will warp to a metal comet. A Blue Sun can lose two of its engines and pilot fine.” The human pilot’s face was a very light pale broken up with thick, black stubble that went past his jaw to cover his crown. The deep wrinkles showed him to be in his late thirties or early forties but it was hard to judge without hair. 
-
-“Ozone’s jumper means you won’t even get close to a star and the shields will keep it safe.” As the Labrador shouted back the human turned even further to show the rest of his face. He fit the description of the bartender, harbouring severe acid burns on the right side of his head while his right eye was entirely replaced. A camera like lens embedded within his eye socket. 
-
-“Shields overload and Jumpers need to be calculated. If the hull of an Ozone could withstand a solar flare let alone a welding torch it wouldn’t need high tech crap” The scarred human mockingly yelled as he took another gulp from a dark liquid in a foggy glass held in metal fingers. The Labrador scoffed as he turned his back on the smug human. 
-
-“I don’t have time for this, and you say you’re a good pilot with those fingers?” The melted human darkly chuckled as he shouted after the canine. 
-
-“Good luck leaving the station without your ship melting.” He laughed at his own joke, as he relaxed back into his chair. After sculling the last of her drink with a rough gargle Odela made her approach. As the human finished his laugh with a content sigh he noticed the shadow of the boar-woman standing over him. He turned to face the ex-ranger, a smug grin revealing his strangely clean and straight teeth. 
-
-“May I help you?” Odela sat opposite him, placing the briefcase on the table before tiredly giving a question as an answer. 
-
-“You familiar with the Hermes System?” She closely examined him, like many spacers he was gaunt with very little muscle or fat upon his bones. His neck sticking out of his flight suit like a sampling. He nodded as he rested his glass. 
-
-“Been there a couple of times, know the routes around the blockades and tariff collectors. You could say I’m familiar.” He leaned forward and interlocked his metallic fingers, the smooth metal turning to flesh at the knuckles. She grimaced as she remembered the meaning of metal fingers, but didn’t comment. 
-
-“I need to get to Station 01 in the Hermes System in four days. I think you can help me.” Odela returned her tired stare going between the human’s half metal eyes and fully artificial fingers. She was attempting to read the letters etched into the Spacer’s knuckles. 
-
-“What are you moving?” The smugness in his voice subsided as his grin turned to a gentle smile. Odela rubbed her snout as she clenched her eyes, a headache still finding itself crawling back to her. 
-
-“Just myself and my things.” The metal fingered man nodded, roving his gaze about the bar before leaning in to whisper. 
-
-“How illegal are your dealings?” Odela paused before a smile nervously grew across her snout, cracking to a grin and a nervous chuckle.
-
-“I’m wanted for something that could lead to a life sentence or a death sentence.” The human relaxed in his chair, returning a grin to the boar’s smile.  
-
-“Illicit dealings cost extra, I take this is a one-way trip?” Picking up his glass he continued to down the black liquid. Odela could tell it was a very hard alcohol, certainly not a high-quality one. Industry runoff had many uses. 
-
-“Two ways if everything goes to plan.” He raised an eyebrow at her answer, slowly taking a sip as he ran over the possibilities in his head. 
-
-“May I ask why the return trip?” His camera like eye focused its gaze as the grin disappeared from his cracked lips. Odela cringed as she fought off the headache that returned. 
-
-“I’ll be bringing someone back with me. I wish for him to not be found by the authorities” The human raised his drink once more as his metallic eye blinked out of sink with his organic one. He smacked his lips as his eye moved in its socket while his brow furrowed in thought. 
-
-“So in summary, one illicit passenger to Hermes Station 01 and two illicit passengers returning to Cilver City? I’ll do it for fifty-thousand Interstellar&#039;s, I want half of it upfront.” There was a short pause as the two stared off before Odela reached for the briefcase. Placing it on the table and peaking the lid open. 
-
-“Bit of a hard price but I am fine with that.” The human’s eyes widened as he looked at the large amount of paper cash, a rarity in the midsts of space but all the more valuable. His grin returned as he enthusiastically nodded. Yet he kept a serious tone as he stared her down. 
-
-“Good but before we shake hands I just want to lay out some rules. Number one is that while you’re a passenger you are still on my ship and you’ll respect the rules as a passenger on my lady. Number two is that you will not touch anything important and you’ll obey everything I say when it comes to interstellar travel and living. Also ma’am, I suggest you take a shower because it’s the last one you’ll have in four days. Does this all sound fine to you?” As he placed his hands flat on the table Odela finally managed to see the tattoos without obstruction. A letter etched on each knuckle that when placed together would read out ‘STAR BORN’.
-
-“Yes, it does.” The human energetically tapped the table as leaned back into his chair, pointing a metallic finger towards the boar-woman. 
-
-“Ok, when do you want to leave?” Odela’ eyes drifted to the ancient analogue clock over the spacer’s slanted shoulder. The hands read four in the afternoon, she would have liked to stay dockside as to ride out her hangover but time was not what she had. 
-
-“Eighteen hundred hours.” Her eyes snapped back to the human as he thumped his empty glass against the metal table and held out his open palm as he stood. 
-
-“Sounds good. My girl is docked in bay thirty-one, may I know who I’m letting aboard?” Odela chuckled at the man’s smile as she stood to return his handshake. Her coarse furry hands engulfing the metal joints. 
-
-“Odela Bairr.” She tensed at his harsh grip, as his sleeve rolled up to reveal his almost see-through skin and jutting bones. Even behind the body hair and freckles. 
-
-“My name’s Servac Frano, nice to meet you Miss Bairr.” They mutually let go as Odela retrieved the briefcase and nodded with a smile. 
-
-“Just call me Odela.” The smile fell away as she turned her back on the cheery human as he stared after her. Servac picked up his glass and approached the barkeep, groaning as he leaned against the metal. 
-
-“Give me another one friend I still have a headache from that dog’s conversation.” As the rat-man barkeep stood up on a stool to fiddle with a dark bottle he stared after the boar as her tail disappeared out the door. 
-
-“She’s trouble, I don’t know what your dealings are with that woman are but I don’t think they’ll end well with you. No one walks into a bar filled with low life entrepreneurs with boozed-up eyes with a heater and a smell of vomit and walks away with a happy ending.” The rat ranted as he focused on pouring out more foul looking spirits to the empty glass. Swirling the cup in his metallic fingers, Servac focused his gaze on the rat. The human’s melted face shimmering in the artificial glow while his lens focused hard against the rat’s glare. His voice was lifelessly happy as he emptily smiled. 
-
-“Do I look like a man of happy endings to you?” 
-</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/xwAjZLQ3">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 min ago                </div>
-            </li>
-                    <li>
-                <a href="/dqGkThKL">Linear array rotation</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    10 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    48 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

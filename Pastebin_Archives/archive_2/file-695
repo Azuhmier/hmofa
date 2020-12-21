@@ -1,633 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>A Feline&#039;s Fancy - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="A Feline&#039;s Fancy - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/LRhZrCcM" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/LRhZrCcM" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="DJmKYrpc_ffhY4JBpZcht_QOMoxu83Re11GN7Ubqjboh7cVVzBG0uo0B5wyT3VP_kSN5wl2GBTOUFbSEfqy_-A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/LRhZrCcM" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/LRhZrCcM" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Bear_Anon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>A Feline&#039;s Fancy</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Bear_Anon">Bear_Anon</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Bear_Anon" class="message" title="Send a private message to: Bear_Anon"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 28th of January 2020 11:33:37 PM CDT">Jan 28th, 2020</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    712                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 0.07 KB            </div>
-
-            <div class="right">
-                <a href="/raw/LRhZrCcM" class="btn -small">raw</a>
-                <a href="/dl/LRhZrCcM" class="btn -small">download</a>
-                <a href="/clone/LRhZrCcM" class="btn -small h_800">clone</a>
-                <a href="/embed/LRhZrCcM" class="btn -small h_800">embed</a>
-                <a href="/report/LRhZrCcM" class="btn -small">report</a>
-                <a href="/print/LRhZrCcM" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">tags: Comfy, Third Person POV, chubby/overweight female, Ragdoll cat</div></li><li class="li1"><div class="de1">Note: This is a plaintext version, future chapters will contain illustrations and will be linked where appropriate.</div></li><li class="li1"><div class="de1">										==================================================</div></li><li class="li1"><div class="de1">										=========== Feline&#039;s Fancy: Chapter 1 =============</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The drive home was always the worst and best part of Daniel’s day. Hours of stress and soul-crushing work, made complete with a frustrating mess of noise, fumes and terrible drivers. There was one silver lining. At the end of it all, Daniel got to come home to Sarah.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At least, he normally did.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A certain smug prick of a boss and his demands for meeting quotas had forced Daniel to stay late every day for the past week. By the time Daniel was on the way home, Sarah was usually asleep. That wouldn’t happen this time. No, it was finally Friday, and he resolved in turning off his phone, leaving by five, and getting right to where he deserved to be—with her. He’d be the first to call it corny, but knowing she would be there gave Daniel a warm-and-fuzzy feeling, not unlike his sweet. Thoughts of home remedied the pains of the past week. He pictured his beautiful wife-to-be waiting for him, the gentle smile on her furry face; a nice, filling home-cooked meal to enjoy with her. He could almost smell the mouthwatering mix of spices and meats, maybe even. Riding high, Daniel didn’t even mind when a cougar in an oversized SUV cut him off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The next two cars to try it tested his patience...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel eyed the time on his dashboard. “Just another twenty minutes, just another twenty minutes…” he sighed and gripped the steering wheel tighter. The car in front of him hit the brakes for what felt like the sixteenth time in the past half hour. He gave the car in front of him the one-finger salute, in recognition for the driver’s dedication to brake-checking every mile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">==================================================</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was closer to six before Daniel finally got home. Pulling into the driveway and trudging up the stairs, he halfheartedly waved to the security guard who was too busy reading to notice him, and stepped into the elevator.</div></li><li class="li1"><div class="de1">The doors closed, and the lift took off with a lurch; the red digital display ticking upwards.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">1...2</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel took a calming breath and loosened his tie. In the haste to get home, he realized he never took it off. It was unlike him, he usually untied the annoying thing the minute he stood up from his desk. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">3...4</div></li><li class="li1"><div class="de1"> ...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The doors opened to the fifth floor with a quiet chime. He made his way down the hall to his apartment, punched in the door combination, and swung the door open with a smile. “I’m home, Sarah!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Welcome home, honey!” Came a surprised, cheerful reply from down the hallway.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He kicked off his shoes and passed through their modest living room. A mouthwatering aroma tickled Daniels’ nose, the mélange wafting from the kitchen. It smelled even better than he imagined: a mix of mirepoix and something savory; spicy and—he took another deep breath—sweet? Music faintly played; its melody lively and uplifting. His smile grew wider as he saw his fiancée, the ragdoll cat half-bent at the waist to pull something out from the oven. Her fluffy tail swished to the tempo of the big band song, hips cheerfully swaying in tow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She turned around and placed the bubbling pot onto some cork, positively beaming as she met Daniel’s eyes. The chipper feline wasted no time in sauntering over for a hug. He embraced her readily and nuzzled at her cheek, a gesture he’d picked up from her long ago. Sarah bounced atop her paws as he held her; that gleeful excitement part of why he loved her so. Her tongue gave the tip of his nose a darting lick, “you’re home so early!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He laughed, “I said I would, didn’t I?” Her furry arms around his waist gave him a loving squeeze.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“How was work, then?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel sighed softly and squeezed back, “Work was all right.” A familiar white mass coiled around his thigh, feather-duster tip tapping his hip.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The cat’s ears wilted; her head laid atop his chest. Furred hands brushed over his shoulders, settling along the middle of his back. “I missed you.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He pecked her cheek, brushing it back over with his thumb. The tufts of fur sticking out from her shirt collar tickled his knuckle. “Missed you too, Kitten.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was a quiet, humbling sort of closeness. Her touch conveyed more than words could hope to say. The relief of being in the other’s company once more washed over them both. His spirit soared as she clung to him, as if he’d slip away if she hadn’t. Knowing his darling had missed him so made the well of emotion almost overwhelming.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Never again would someone keep him from her. He loved Sarah far too dearly to hurt her that way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was only when a trilling timer went off that the ragdoll reluctantly broke away. She took the remaining pan off the stove, eyes always finding their way back to him, still glimmering with joy; he drank in those gorgeous blue jewels. How had he become so blessed that an angel like her had such fondness for him? </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re just in time really, everything’ll be right out of the oven…. or pan… stove,” she trailed off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel took a proper look around the room, blown away by all the food. He whistled. “Goodness, Sarah, you’ve been busy! There’s got to be three courses-worth just laying here.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Four, if you count dessert,” she grinned at the surprise written on his face. Soft lips pecked him on the check as she passed from the kitchen’s island to a nearby countertop, and Daniel fought the desire to swoon. It took a moment for his focus to return, still buzzing when Sarah’s voice took his attention once more, peering over from the kitchen table.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Don’t look so shocked, you know I love cooking.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I do, love,” he chuckled, watching that cute tush swing with every step. Gestures like this dinner made the heart grow fonder. “That strawberry I smell?” He asked, eyeing an uncovered pan, curious what else the talented woman had cooked up. A thick red sauce simmered inside, the steam carrying a decadently sweet taste to his nose.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The feline smiled wider when she caught him drooling over her cooking, twirling a lock of her hair with a claw. “That’s for the dessert, I wanted to try making panna cotta.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That settled it, he would spoil her rotten in thanks for all this, maybe he’d buy her a new tablet; that fancy one she was looking at a while ago. It was practically big enough to be a laptop. Yes, that should do nicely. Well, maybe some new paint brushes too.</div></li><li class="li1"><div class="de1">Sarah laid a paw on her chest, “I know, I know, it’s a lot—even for me. I just got super into it and couldn’t help myself.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“This is really something, honey, it smells fantastic too” he marveled, there was still more she was taking off the stove! He turned his attention away from what looked like a stew and back to her, butterflies in his stomach. Sarah’s ice-blue eyes glimmered with the most adorable mix of bashfulness and pride. God did he love those eyes, those beautifully pale gems were the light in his life. The feline’s pink button-nose wiggled, it made that sheepish twinkle of hers even more precious. Heartwarming, really. He couldn’t help but smile from her infectious excitement.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She waved him off sheepishly, “Well… it was just supposed to be roasted chicken, but then I realized we had a lot of vegetables leftover from when we made ratatouille. So, I figured I’d try making pisto and potatoes,” she said with a ‘you know how it is’ roll of her wrist and leaning over to take a burbling pot off the heat. Daniel listened intently; a goofy smile plastered across his lips. He could listen to her gush about cooking all day; the passion and joy in it all warmed him and staved off the jadedness that the office fermented. He’d have to record her doing this sometime, something to listen to at the office.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, then I thought ‘Hey, when was the last time I made a dessert?”  The cat paused, timidly tapping the countertop with her claws. A blush touched at her cheeks, the white of her face tinged a cute shade of pink, “I guess I got a little carried away?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel shook his head in good-natured disbelief, “You’re amazing, you know that?” He laughed, pecking his lover once more on the cheek before grabbing some cutlery to set the table. With that done, Sarah worked on setting the meal onto platters. It took a bit of time, by the end of it there was little room left on the modest table-top. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sat across from Sarah, that delightful aroma was even more intense. From the way the cat was licking her lips, she was just as excited about this as him; the day had left the both of them famished. Neither wasted a second, gladly digging in. Sarah held out her paw,“try the pisto first.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure,” he handed  his empty plate. She started piling liberal servings of the golden-reddish dish onto their plates and returned it to him. Daniel’s stomach growled as he took some savory-smelling vegetable stew onto his spoon. It tasted as good as it smelled, though he wouldn’t have ever doubted otherwise. Even without meat it held an umami twist that had him hooked. Somehow, even though the rest of the vegetables were like one would expect in a stew—softened—the potatoes were crisp and satisfying.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmm, Sarah,” Daniel said, swallowing some piping-hot stew, “how d&#039;you get the potatoes so crispy?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah glanced up from her bowl, “I added them later, pan fried them with fat from the roasted chicken,” she said proudly, delighted that he’d asked. That would explain the umami. “You like it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Absolutely, it’s delicious!” He replied, helping himself to another moutful. She giggled, ear flicking, it looked a tad more pink around the edge. Was she blushing? Next was the chicken, the bird’s skin crackling and golden. Masterfully seasoned, far from overpowering, and complimented the juicy, tender flesh. It was an interesting blend, onion, garlic, a strikingly hot spice, and then something smokey.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel sipped his water, the embarrassment of being beaten by hot sauce eased because Sarah also reached for her glass. “Mm, the smoke, is it paprika?” He asked idly, forking some fried asparagus. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The cat shook her head, “Nope, whiskey!” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Now that piqued his interest. “Oh? What gave you the idea?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s an old Portuguese recipe I found, from the colonial days. You mix whiskey with hot peppers and a few other herbs, they call it peri-peri. I tried using it as a diluted marinade. Rest of the seasoning was my usual mix with a bit less pepper and salt.”</div></li><li class="li1"><div class="de1">Daniel nodded, “The pisto is Spanish, right?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mhmm. Sometimes it&#039;s made with egg or ham, if you’d like this for breakfast one day.” She explained, and Daniel happily watched the woman eat, somehow keeping her white fur pristine despite the best attempts of the various sauces to ruin the clean pelt.</div></li><li class="li1"><div class="de1">Daniel pat his stomach, feeling stuffed beyond belief. He ate more tonight than he usually did at a buffet. He looked across the table and chuckled to himself, Sarah meanwhile seemed a second away from licking the plate. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She stood, collecting the empty plates, “Dessert, hun?” She called back, her gait a little slower than earlier in the evening. It wasn’t surprising given that she took a second helping, her shirt looked a little tighter too. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes, please!” He said, discreetly popping the button on his trousers. Even if he felt fit to pop, panna cotta sounded great right about now. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The table was a hodgepodge of cuisines, a privilege to the tastebuds, really: Spanish appetizers, African-Portuguese entrée, and an Italian dessert. Had she more time, Daniel could only imagine what Sarah would cook up. He admired the breadth of his fiancee’s worldly experience, Sarah always seemed so knowledgeable about art and culture. He was always more business and numbers sort of guy. Learning through osmosis, listening and cooking with her, was one thing. But truthfully, it could hardly match the education Sarah gleaned from backpacking in her teenage years. A quiet clink of a plate brought him back his daydreaming. Sarah placed a small portion of dessert before him, the rich cream drizzled with a light-pink strawberry sauce. “I know you said work was all right, but did you speak to Mack?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel momentarily soured upon hearing his bosses’ name, “Yeah... he was a prick about it, but I managed to convince him we would hit our deadline.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah brightened, “You mean—”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yep! No more late hours for the next little while,” he finished for her, pleasant mood back in spades.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her relief was palpable, “thank God for your silver tongue. I worried I was going to lose it if we carried on like this.”</div></li><li class="li1"><div class="de1">It would make two of them. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As they finished up dessert, the bliss of getting away from work faded, and instead Daniel mulled over his earlier thought on time. The woman could absolutely do amazing things with enough time, but that was exactly it—Time. Didn’t she have something to do today? Yes, yes she did he remembered. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The commission. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Curiosity gnawed at him, and Daniel grew troubled. “Sarah?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hmm?” the cat hummed, finishing a mouthful of dessert.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Where did you get the time for all this? I thought you said you would be stuck working on that big commission today?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There was a moment of uncomfortable silence, the cat tapping her fork onto her napkin. “Well...&quot; she started, a very particular look on her face.His remaining cheer ebbed, Daniel knew that look, pleasant news never followed it. He watched her with a gentle gaze and silently urged her to continue. “The client sort of... canceled,” she finally said, her voice shrinking to a whisper.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel’s heart sank. She’d been talking about that project a week! It was an enormous deal for her. “God... Kitten, I’m so sorry.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She let out a sigh, “It’s okay, there’ll be another—I just...” she wavered. He nodded slowly, scooping up her palm into his. The feline sniffled, her fluffy ears wilted against her head; Daniel gave her hand a gentle squeeze. He wanted to be angry—really, what sort of jerk did that to someone!?—but Daniel was more concerned with his crestfallen sweetheart.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He stood up and strayed to her side, “Hey, hey... don’t cry, honey. It’ll be okay.” He whispered, brushing the hair out from her eyes, wiping away tears with a consoling cup of her cheek. The ragdoll&#039;s head leaned on his shoulder with a hiccuping sniffle. </div></li><li class="li1"><div class="de1">It hurt to see Sarah so disheartened, “Just a bump in the road, right? There’ll be another, people love your work—you’ve heard what the last guys thought of it, remember?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Another sniffle, the wiry whiskers twitching, “Yeah... still really sucks though,” she replied, holding his hand to the dampened fur of her cheek a while longer.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The last commission had been a big one too, the clients loved it enough they sent the woman a thank-you card. But Sarah put her all into this one, and they threw it in her face. The sting wasn’t going to just go away, as much as Daniel wished it would. Luckily, he knew how to take her mind off of it. “Would you like some tea, darling?” She nodded, the feline’s tail swished; a hint of a smile on her pretty lips. The spiced, minty tea was a childhood favorite and never failed at cheering her up at least a little. Daniel made sure there was always a little box of it somewhere in the pantry.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">While the kettle boiled, he felt perhaps tonight would be a quiet movie night, and that the dishes could wait until tomorrow—Sarah felt the same.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">==================================================</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The movie they picked wound up being an old rom-com, a guilty pleasure they had both seen far too many times; perfect to zone out to, something lighthearted with which to enjoy the other’s company. Daniel hoped it would help cheer her up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Despite her timid demeanor, the ragdoll had a particular fondness for being the big spoon. Her desire to cuddle often ended the same way; Sarah cuddled up at Daniels’ back, her arms crossed over his stomach, and her tail curled along his leg. As they watched, she idly played with Daniel’s hair, delighting in her fiancé shivers at the touch of her paw pads against his scalp.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">On screen a smartly dressed Labrador argued with a squat honey badger. “Are you saying our love isn’t real?” the dog barked, pointing an accusatory finger at the scowling badger.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Are you asking me as your friend? Because as your taxidermist, I’m legally obligated to say ‘no’” Daniel read the line alongside the badger and earned a giggle from Sarah.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’ve seen this too many times, haven’t we?” she murmured, leaning over to nuzzle his cheek. A flutter ran through Daniel, the cat’s alluringly pouty lips brushed at his ear, hot breath rolling across his neck as she spoke.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmm, maybe~”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah scooped him closer into her arms. Her embrace was intoxicating; the rich sea of silky fur heavenly against his bare skin. It was tempting to feign being hot and take off his shirt, just to feel more of it—but the arm draped over his front stopped him. He reached over; fingers entwined with hers. His palm caressed the pink of her pads. He was so surprised the first time he ever got to touch them; they weren’t rough and leathery as he’d believed, rather they were like a mix of silicone and foam. Thick and smooth to the touch, yet unbelievably yielding and warm. He made it another thirty minutes before the mounting urge to be closer with Sarah trumped his will to wait for the movie’s end. Turning over, he faced his fiancee and cuddled closer against her chest. Sarah was more than happy to oblige, humming mirthfully as she settled her arms along his back in kind. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah was a naturally curvaceous woman, blessed with attractively wide hips, but she had also always been on the bigger side. In the past few months, she had been steadily gaining what Daniel affectionately called her winter coat—not that he was complaining. Far from it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Had Sarah been less confident about her own body, the cat might have called herself big-boned. There was no getting around it; Sarah was fat... delightfully fat in all the right ways. Her genetic lottery had come up aces, every ounce of adipose and cushion exactly where it looked best. Sure, her waist was sizable, but her hips and bust grew far larger. Her pillowy rear was ample, but maintained an element of roundness, its grandness accompanied by the supple padding of her shapely thighs. The woman’s once modest chest now filled out into two pendulous melons.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She was the fat girl that thick girls dreamed of being; a woman you could drown in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My, my... aren’t we a cuddlebug tonight?” She cooed. Daniel opened his mouth to reply, but the coquettish woman pounced and sealed their lips; quip cut short with a kiss. Sarah took no time in paralyzing him with the many more that followed. Losing himself beneath her spell, Daniel let out a throaty moan as those full lips showered his face with smooches. All the while, her hand caressed the back of his neck. He swallowed, stiffening as her lips sealed around his Adam&#039;s apple, helpless against the rough organ scouring it with arousing laps. Sarah roamed wherever she pleased across his jugular before nestling him right between the valley of her breasts.</div></li><li class="li1"><div class="de1">The woman bound him with her body, letting him stew in his kindling arousal, relentlessly teasing knowing full well he wouldn’t move.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The movie’s dialogue fell away, a backdrop to the gentle smack of her lips, and the comely sound of her laugh. The edges of Daniel’s vision filled instead with that of his love’s soft, white pelage; his head cradled by her sumptuous bosom. The twin globes squished and moulded around his face, practically pleading for a squeeze—so close yet so far from his reach. The paw around his back hugged him tightly, squeezing at him like a cherished plushie. She shifted subtly, and Daniel felt the weight of her thigh as it crossed over his hip. The complete change in demeanor was captivating; whereas earlier she was timid and unsure, now she slipped into a possessive flair like donning a familiar sweater. He slipped an arm beneath her shoulder, his other hand tracing along her thigh. She quivered at his touch; the adorable jitter coursed around Daniel in the form of a muffled coo slipping from her lips.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmm... my cute little monkey,” she crooned in a husky, honeyed timber, pressing him deeper into the valley of her bust. Daniel felt her shift as she playfully nestled his head against thick tufts of her covetous fur. The randy thing. He knew exactly what she was about to do. Anticipation blossomed into glee the second Sarah rolled atop of him and gradually eased her heavy body down against him, forcing an excited squeak from his lips as that creeping embrace drove the air from his lungs. Shrouded in darkness, sandwiched between her and the sofa, he could feel the amused, toothy grin peering down at him. It was thrilling. The weight built and built, his heart racing. Even if he wanted to, he could hardly move. The pale flesh of his cheeks glowed in a blush. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Long ago Sarah bashfully divulged how much she enjoyed seeing him sink into her coat, fascinated with testing how much of him her fur could swallow. He’d found it amusing, cute even. She was certainly fluffy enough.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He understood her fantasy and then some after the first time they tried it. Not that Daniel could ever forget that night: it was after a Valentine’s Day dinner; they had hardly made it to the bedroom. His love messily stripped him atop their bed, tearing his shirt in places with her claws before forcing him onto his back. Stark nude and at full attention, he stared bewitched as she joined him. Her eyes burned with feral hunger, rousing him in a way she’d never before, slowly coming closer on all fours. Desperate to take her, but somehow more excited by the prospect of letting her lead; everything just clicked into place.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Now he couldn’t live without the presence of her weight on his diaphragm; without the gentle way she crushed him. Gradual resistance to breathe fizzed in his chest and made his heart race like nothing else. It was thrilling, cruel almost, but so divinely intimate and loving. Domineering yet comforting. The combination made his head spin, a guilty pleasure they wantonly indulged. Whenever Daniel found himself in her arms, the opportunity was too tempting to pass up. In a way it transformed into something special.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel melted into that blissful hold, content to listen to her steady breathing. He’d read some time ago that smell tied to memory, and that such things triggered intense emotion. The lilac scent of the Rubenesque woman’s shampoo teased at his nose, mingling with the natural smell of clean fur. He took it all in and little by little an aethereal trickle of fondly shared moments graced him. Smiling into the mess of fluff, fingers sensually trailing along her back, he sifted through her white coat until he found that spot right between the woman’s shoulder blades.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“O-ooh, yea... r-right there” she moaned softly. He massaged at it in rolling circles, intent on turning her legs to jelly.</div></li><li class="li1"><div class="de1">He thought of the times they spent the week in Mexico. The beach and tropical sun, her voluptuous body in a bikini, and the cute way Sarah smiled when she caught him looking. He kneaded at that sensitive patch with a practiced ease, rewarded with a delightful purr that traveled right through him; that sound filled him with elation as it reverberated in his chest.</div></li><li class="li1"><div class="de1">Every other sound paled compared to the joy her purr brought him. The content, rumbling melody rose and fell like a wave lapping at the shore.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was so relaxing to listen to, the bassy sound deeply satisfying and tranquilizing. He took another deep breath, once more cherishing the subtle fragrance he could only call hers. His body all but disappeared beneath hers, the two becoming one. Her happy purring danced with his inaudible hums, the symphony in his ears tempered by her pendulous breasts.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Trapped beneath her, time lost all meaning. Daniel knew full well she was in control, free to keep him for as long as she wished. And, after the length they’d been apart, it surely would be awhile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Between the growing heat trapped between their bodies, the cozy bed of fur, and that lulling ambience the wear of the day creeped up him. His brain felt full of fog, eyelids heavy and drooping, before he knew it Daniel fell fast asleep.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">==================================================</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He later awoke in bed without the faintest clue when or how it had happened, but no doubt that Sarah had a hand in it.</div></li><li class="li1"><div class="de1">Whom, was snoozing peacefully beside him, curled up as the little spoon for once. Daniel peered at the clock from over the woman’s alabaster mane, surprised to see that it neared noon. He felt recharged, fantastic even, and clear of mind; the first time in weeks waking up without a headache. Sarah shifted softly under the sheets onto her side and Daniel realized something else.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He was harder than diamond.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With a concupiscent grin Daniel slid closer to his fiancée, pressing up against her back, heart beating faster as he trailed a hand across her wide hip. Sneaking beneath her loose tank top, he brushed the curve of her belly, drinking in the pockets of heat nestled within the messy tufts of her tummy fur. She stirred, mumbling something unheard into her pillow. He sensually kneaded at her middle, inches of buttery-dough yielded to his touch. His other hand slipped beneath her shoulder, roaming lower until it met the edge of her panties. The feline’s murmuring grew louder. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The cat wasn’t foolish; she knew what her husband-to-be was getting at from the hardness poking at her thigh. Two could play this game. </div></li><li class="li1"><div class="de1">“Nnnnhhh, morning,” She cooed, a coy smile on her lips. The curvaceous feline arched her spine, grinding into her amour’s lap.</div></li><li class="li1"><div class="de1"> “M-morning~” he shuddered, nuzzling against her cheek.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The haze of sleep slowly gave way to a lifting rush of desire welling within her bosom. The reversal of last night’s intimacy was driving her wild; the feline rubbing her plump thighs together in anticipation as those inquisitive hands hovered just above her loins. “Slept well last night?” she murmured.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel chewed his lip as Sarah’s ample backside rubbed against his manhood; he shimmied closer, his pulsing need grinding against her sizable backside as he slipped his hands into her silken garment. “Mmmrf, all thanks to you.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Good~” she mewled, closing her eyes and breathing harder, Daniel’s fingers were teasing at her nethers, rubbing slowly along its edge. To her consternation he didn’t delve inside. Tail smacking impotently against his calf, Sarah’s thighs rubbed together as he drew oh so close to where she wanted him. She could sense that smug grin behind her, but refused to give in just yet.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That was until he leaned over to nibble at her ear, “Something you wanna say, princess?” His hot breath sent shivers racing through her.</div></li><li class="li1"><div class="de1">“P-please... ” She whined, heart thrumming from her lover’s electrifying caress. Her resolve struggled to hold as that playful touch roamed towards her breasts.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Please, what~?”  he teased, attacking the meat of her palmable tits, rolling it in his hand and giving it a squeezing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah’s breath pitched, ears twitching, “Please put it inside?” She mewled, curling her toes at the electric crackles rolling up her back. Daniel obliged. The cat let out another shuddering moan of excitement when they finally glided across her slit, only to slide back and rub at her sensitive clit. “Ffffuck, yes, faster!” she begged, resting back against the wall of her lover’s chest. Eyes closed, riding his fingers as she worked herself up, Sarah’s lips trickled with honey as the pleasure mounted inside her. The cat’s orgasm approached like a rubber band being stretched; a great energy built and built, the cat oh so eager to let Daniel do his work until she snapped.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She’d hardly noticed his palm leave her breast until it came crashing down onto the pale moon of her rump. A brilliant burst of sharp, titillating, sensation coursed through her. Sarah’s eyes went wide as the shock rocked her to the core. Claws dug into the sheets, threatening to tear them, as another spank landed across her jiggling backside. The sensation came back in force and the band snapped, sending her over the edge as the wave of her first climax came crashing over her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hhahhhh, again!” she screamed, spasming within the human’s iron-grip. Her brain felt like it had filled with static as Daniel seemed determined to leave a red-print across her pale fur. The bliss of her afterglow heightened by the aftershocks of his spanking zapped inside her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She hadn’t noticed when he’d stopped, or when his fingers had even withdrawn, but it roused her from her stupor when he groped her sore cheek.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah panted, blinking as Daniel palmed over her hip, “Roll over.” He grinned, pulling down the sheets.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With a lurid smile she immediately obeyed, bubbling with excitement. “Like this?” She asked with feigned innocence, propped onto her hands and knees, and hugged a pillow to her chest to flaunt her callipygian ass.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmmhmm... exactly, good girl,” Daniel cooed, pulling down his boxers. His erection flopped free, pulsing in the open air as he saddled up behind her. He draped himself across her back, drinking in the woman’s needy moaning as he groped one of her hefty breasts. He leaned back, taking in the sight of the sumptuous backside oh-so-eagerly presented to him; a pair of lacy, black panties swallowed up by the twin globes of her ass. He didn’t even bother stripping them off her, instead pulling them down towards her thighs before turning his attention to her now exposed pussy. His cock yearned at the sight of her pink, steamy, folds that dripped with her raw desire, begging for him to spread her wide.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel slowly saddled up behind her, invigorated by the full-body shudder that crashed through Sarah as he planted his palms atop her hips. Clawed toes curled and dug into the sheets, his lover letting out a breathy coo as he cruelly teased her by rubbing the shaft of his cock against the drooling lips of her flower. Every slow rock drove her wild, stoking both of their aching desires for one another as her hot nectar coated his length. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She’d spent so long teasing him last night, it was only fair he returned the favor. </div></li><li class="li1"><div class="de1">The long, messy fur of her back met the smooth flesh of his chest as he bore down on her. Daniel seized at the tender flesh of her budding love handles, rolling that decadent adipose between his fingers, he fully intended to use them to their namesake. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“D-Daniel... ” Sarah mewed, huffing as his lubed cock slid between the white cushions of her rump.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yes, love?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The feline swallowed heavily, pausing a moment as if unsure of herself. Some part of Daniel had a feeling what was on the ragdoll’s mind, his hand left her hip to stroke her flank. “Is this it? Will she’s  finally ask?” He wondered, his entire body teeming with excitement. The cat&#039;s lips moved, but no sound came, like she was debating how to phrase something. It cemented his suspicion, his mind begging for Sarah to say what he’d waited so long to hear. He beamed bright enough to rival the sun when she finally swallowed her nerves.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It came out a whisper, like a stage-shy girl during a presentation, “baby...do you wanna try for kittens?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I thought you’d never ask,” Daniel replied, leaning in close to plant a tender smack of his lips against her cheek. The woman shuddered, positively radiating the rush of relief that came over her...the heat at her ears quickly replaced with a lustful aftershock.</div></li><li class="li1"><div class="de1">Holding her possessively, the weight of what they were about to do left his heart fluttering. A rush like no other coursed through his veins as he trailed his hands up from her hips, brushing the long fur of her belly. “You’ll make a beautiful momma...” He whispered, surprised by the powerful shiver that ran through his lover’s body at those words. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oohh... say that again...” Sarah quivered beneath him. The graceful dip of her back arching higher from his touch. Oh it was like that, was it?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mmh, what?” He teased, “How beautiful you’ll look carrying our litter, glowing with a belly full of our kits~?” Daniel rubbed at her middle, emphasizing full. Another elated quaver, his fiancee moaned with a breathy “Yess!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Say it, tell me you want me to breed you,&quot; he growled in her ear. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sarah’s ears perked up, raised tail curling around his chest, and glowed with a newfound longing she never knew could be, “Take me...”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The tip of his spire aligned with her nethers, Sarah let out a breathy cry as he resumed the grip on her sides and slowly pressed inward. It was a delicious twist, her body trapped beneath his, being ground into the pillow she clung to. Some ancient part of Daniel demanded he claim her, to make the woman who’d carry his children know she was his. And he was in the best position to do it. Daniel bit Sarah’s scruff as he entered her quivering honeypot, the move short circuited the cat. His member throbbed in agonizing need as she yowled blissfully, as they became one.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His teeth eased up the moment his lap met the rounded globes of her ass with a soft paft. “O-ooohhh, you big stud...” she gasped, thighs shaking as she gathered her wits. Spread wide atop his girthy cock, his pulsing member filled her as it speared deep into the tight, searing walls of her silken tunnel. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Daniel could feel the unadulterated ardour suffusing her as she rocked atop her knees, gliding along the first few inches of his tool. It took every bit of his will not to rut her right then and there, resolving instead to take things slow. Their love was no less passionate, but after everything that had happened, he’d wring every drop of ecstasy from her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He hooked an arm around her belly, sinking into the squishable paunch and squeezing tight. Fantasies of his beloved twirled in his mind&#039;s eye, he gave a testing thrust and his hips met her fat derriere, spurred on by the image of her heavy with his child. The cushy middle fondled in his hand growing into a taut, gravid swell, her chest filling out even beyond their lovely size. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Everything about her body already screamed fertility, and the thought of watching those features become even larger was enough to push him dangerously close to release. A mounting pressure sitting heavily in his lap, his balls almost painfully full. His tempo grew, each plunging rock of his head accompanied by a gratifying, meaty smack. The slick girth of his tool withdrew to the tip, only to slam back inside.  The ragdoll’s shuddering breaths pushed at his arm, “hhahhh, h-harder!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Blossoming ecstasy radiating from deep within, jaw slackened in bliss as her eyes shut to slits. Childbearing hips rolled back into Daniel’s groin, his fiancee meeting him halfway. Moans melted into the sounds of their lovemaking; her words dousing his lust for her with gasoline. She feverishly begged him to breed her until she could hardly walk straight. It was beastly, the resolve to go slow dissolved in the face of a primal desire to sow his seed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The room’s air turned to steam, with every breath came the cloying smell of sweat and sex. The voluptuous feline melted beneath the jackhammering of her lover&#039;s hips; the timbre of her voice rose in pitch until cracking with a hoarse yowl.  Panting in animalistic fervor, his woman reflexively rolling her hips in tune with his, lightning flashed across Daniel’s sight as Sarah climaxed once more. He bore down on her, clinging to her writhing body and making her come undone with rapid thrusts. The hot, honey-slicked walls spasmed over his cock, clenching and quivering with their wringing spasms, the sudden intensity pushed Daniel over the edge. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">His teeth clamped down on the fecund cat’s scruff, arms wrapped tightly along her stomach as he buried himself to the hilt inside of her, and came explosively. A choked, rapturous cry tumbled from Sarah’s lips, thighs shaking as another orgasm gripped her. Daniel too grew unraveled, rope after rope of his sticky essence shot within the confines of his darling’s depths. The writhing tangle of their bodies slowed, ebbing to erratic spurts of motion, the slightest of sensation sent crackling bursts of pleasure zapping across their bodies. Carefully, Daniel rolled off of Sarah, his softening member slipping out from her. A mess of honey and seed leaked from her lips, her rear still hiked in the air.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It took a moment of the chubby ragdoll panting into her pillow before she regained her wits, tail twitching gently as she fell onto her back. The spent lovers laid atop their bed, Sarah stared up at the ceiling from behind closed eyes as Daniel turned onto his side. He placed a hand atop her belly, and traced slow circles as they spooned. Both rode high atop the all encompassing cloud of their afterglow.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do you think it’ll take?” She asked lowly, throat rumbling in a peaceful purr.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He drew her into a hug, trailing kisses from her cheek, and finally to her pink nose. The sparkling jewels of her eyes looked up at him, he gazed lovingly back, “I hope so.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A paw curled around the back of his head, pulling him to her bosom, “I hope so too,” she giggled, “otherwise we might just break the bed trying.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The fresh memory of her plus-sized bottom raised high came to mind. “I’m good with that,” he whispered, scratching the fluff beneath her chin.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There was a subtle creaking of springs as Sarah shifted, a familiar weight easing itself onto his chest. Sarah’s purrs echoed in his ears, her pudgy frame spreading out atop of his. The world became nothing more than happy rumbles, warm fur, and an abundance of softness. He happily grew absorbed in her affection; holding her tenderly. His head slipped between her breasts.</div></li><li class="li1"><div class="de1">It’d be a few weeks before they knew; Daniel was more than willing to spend that time with her, especially if it was just like this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">======================================================================================================================================</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">tags: Comfy, Third Person POV, chubby/overweight female, Ragdoll cat
-Note: This is a plaintext version, future chapters will contain illustrations and will be linked where appropriate.
-										==================================================
-										=========== Feline&#039;s Fancy: Chapter 1 =============
-
-The drive home was always the worst and best part of Daniel’s day. Hours of stress and soul-crushing work, made complete with a frustrating mess of noise, fumes and terrible drivers. There was one silver lining. At the end of it all, Daniel got to come home to Sarah.
-
-At least, he normally did.
-
-A certain smug prick of a boss and his demands for meeting quotas had forced Daniel to stay late every day for the past week. By the time Daniel was on the way home, Sarah was usually asleep. That wouldn’t happen this time. No, it was finally Friday, and he resolved in turning off his phone, leaving by five, and getting right to where he deserved to be—with her. He’d be the first to call it corny, but knowing she would be there gave Daniel a warm-and-fuzzy feeling, not unlike his sweet. Thoughts of home remedied the pains of the past week. He pictured his beautiful wife-to-be waiting for him, the gentle smile on her furry face; a nice, filling home-cooked meal to enjoy with her. He could almost smell the mouthwatering mix of spices and meats, maybe even. Riding high, Daniel didn’t even mind when a cougar in an oversized SUV cut him off.
-
-The next two cars to try it tested his patience...
-
-Daniel eyed the time on his dashboard. “Just another twenty minutes, just another twenty minutes…” he sighed and gripped the steering wheel tighter. The car in front of him hit the brakes for what felt like the sixteenth time in the past half hour. He gave the car in front of him the one-finger salute, in recognition for the driver’s dedication to brake-checking every mile.
-
-==================================================
-
-It was closer to six before Daniel finally got home. Pulling into the driveway and trudging up the stairs, he halfheartedly waved to the security guard who was too busy reading to notice him, and stepped into the elevator.
-The doors closed, and the lift took off with a lurch; the red digital display ticking upwards.
-
-1...2
-
-Daniel took a calming breath and loosened his tie. In the haste to get home, he realized he never took it off. It was unlike him, he usually untied the annoying thing the minute he stood up from his desk. 
-
-3...4
- ...
-
-The doors opened to the fifth floor with a quiet chime. He made his way down the hall to his apartment, punched in the door combination, and swung the door open with a smile. “I’m home, Sarah!”
-
-“Welcome home, honey!” Came a surprised, cheerful reply from down the hallway.
-
-He kicked off his shoes and passed through their modest living room. A mouthwatering aroma tickled Daniels’ nose, the mélange wafting from the kitchen. It smelled even better than he imagined: a mix of mirepoix and something savory; spicy and—he took another deep breath—sweet? Music faintly played; its melody lively and uplifting. His smile grew wider as he saw his fiancée, the ragdoll cat half-bent at the waist to pull something out from the oven. Her fluffy tail swished to the tempo of the big band song, hips cheerfully swaying in tow.
-
-She turned around and placed the bubbling pot onto some cork, positively beaming as she met Daniel’s eyes. The chipper feline wasted no time in sauntering over for a hug. He embraced her readily and nuzzled at her cheek, a gesture he’d picked up from her long ago. Sarah bounced atop her paws as he held her; that gleeful excitement part of why he loved her so. Her tongue gave the tip of his nose a darting lick, “you’re home so early!”
-
-He laughed, “I said I would, didn’t I?” Her furry arms around his waist gave him a loving squeeze.
-
-“How was work, then?”
-
-Daniel sighed softly and squeezed back, “Work was all right.” A familiar white mass coiled around his thigh, feather-duster tip tapping his hip.
-
-The cat’s ears wilted; her head laid atop his chest. Furred hands brushed over his shoulders, settling along the middle of his back. “I missed you.”
-
-He pecked her cheek, brushing it back over with his thumb. The tufts of fur sticking out from her shirt collar tickled his knuckle. “Missed you too, Kitten.”
-
-It was a quiet, humbling sort of closeness. Her touch conveyed more than words could hope to say. The relief of being in the other’s company once more washed over them both. His spirit soared as she clung to him, as if he’d slip away if she hadn’t. Knowing his darling had missed him so made the well of emotion almost overwhelming.
-
-Never again would someone keep him from her. He loved Sarah far too dearly to hurt her that way.
-
-It was only when a trilling timer went off that the ragdoll reluctantly broke away. She took the remaining pan off the stove, eyes always finding their way back to him, still glimmering with joy; he drank in those gorgeous blue jewels. How had he become so blessed that an angel like her had such fondness for him? 
-
-“You’re just in time really, everything’ll be right out of the oven…. or pan… stove,” she trailed off.
-
-Daniel took a proper look around the room, blown away by all the food. He whistled. “Goodness, Sarah, you’ve been busy! There’s got to be three courses-worth just laying here.”
-
-“Four, if you count dessert,” she grinned at the surprise written on his face. Soft lips pecked him on the check as she passed from the kitchen’s island to a nearby countertop, and Daniel fought the desire to swoon. It took a moment for his focus to return, still buzzing when Sarah’s voice took his attention once more, peering over from the kitchen table.
-
-“Don’t look so shocked, you know I love cooking.”
-
-“I do, love,” he chuckled, watching that cute tush swing with every step. Gestures like this dinner made the heart grow fonder. “That strawberry I smell?” He asked, eyeing an uncovered pan, curious what else the talented woman had cooked up. A thick red sauce simmered inside, the steam carrying a decadently sweet taste to his nose.
-
-The feline smiled wider when she caught him drooling over her cooking, twirling a lock of her hair with a claw. “That’s for the dessert, I wanted to try making panna cotta.”
-
-That settled it, he would spoil her rotten in thanks for all this, maybe he’d buy her a new tablet; that fancy one she was looking at a while ago. It was practically big enough to be a laptop. Yes, that should do nicely. Well, maybe some new paint brushes too.
-Sarah laid a paw on her chest, “I know, I know, it’s a lot—even for me. I just got super into it and couldn’t help myself.” 
-
-“This is really something, honey, it smells fantastic too” he marveled, there was still more she was taking off the stove! He turned his attention away from what looked like a stew and back to her, butterflies in his stomach. Sarah’s ice-blue eyes glimmered with the most adorable mix of bashfulness and pride. God did he love those eyes, those beautifully pale gems were the light in his life. The feline’s pink button-nose wiggled, it made that sheepish twinkle of hers even more precious. Heartwarming, really. He couldn’t help but smile from her infectious excitement.
-
-She waved him off sheepishly, “Well… it was just supposed to be roasted chicken, but then I realized we had a lot of vegetables leftover from when we made ratatouille. So, I figured I’d try making pisto and potatoes,” she said with a ‘you know how it is’ roll of her wrist and leaning over to take a burbling pot off the heat. Daniel listened intently; a goofy smile plastered across his lips. He could listen to her gush about cooking all day; the passion and joy in it all warmed him and staved off the jadedness that the office fermented. He’d have to record her doing this sometime, something to listen to at the office.
-
-“Well, then I thought ‘Hey, when was the last time I made a dessert?”  The cat paused, timidly tapping the countertop with her claws. A blush touched at her cheeks, the white of her face tinged a cute shade of pink, “I guess I got a little carried away?”
-
-Daniel shook his head in good-natured disbelief, “You’re amazing, you know that?” He laughed, pecking his lover once more on the cheek before grabbing some cutlery to set the table. With that done, Sarah worked on setting the meal onto platters. It took a bit of time, by the end of it there was little room left on the modest table-top. 
-
-Sat across from Sarah, that delightful aroma was even more intense. From the way the cat was licking her lips, she was just as excited about this as him; the day had left the both of them famished. Neither wasted a second, gladly digging in. Sarah held out her paw,“try the pisto first.” 
-
-“Sure,” he handed  his empty plate. She started piling liberal servings of the golden-reddish dish onto their plates and returned it to him. Daniel’s stomach growled as he took some savory-smelling vegetable stew onto his spoon. It tasted as good as it smelled, though he wouldn’t have ever doubted otherwise. Even without meat it held an umami twist that had him hooked. Somehow, even though the rest of the vegetables were like one would expect in a stew—softened—the potatoes were crisp and satisfying.
-
-“Mmm, Sarah,” Daniel said, swallowing some piping-hot stew, “how d&#039;you get the potatoes so crispy?”
-
-Sarah glanced up from her bowl, “I added them later, pan fried them with fat from the roasted chicken,” she said proudly, delighted that he’d asked. That would explain the umami. “You like it?”
-
-“Absolutely, it’s delicious!” He replied, helping himself to another moutful. She giggled, ear flicking, it looked a tad more pink around the edge. Was she blushing? Next was the chicken, the bird’s skin crackling and golden. Masterfully seasoned, far from overpowering, and complimented the juicy, tender flesh. It was an interesting blend, onion, garlic, a strikingly hot spice, and then something smokey.
- 
-Daniel sipped his water, the embarrassment of being beaten by hot sauce eased because Sarah also reached for her glass. “Mm, the smoke, is it paprika?” He asked idly, forking some fried asparagus. 
-
-The cat shook her head, “Nope, whiskey!” 
-
-Now that piqued his interest. “Oh? What gave you the idea?”
-
-“It’s an old Portuguese recipe I found, from the colonial days. You mix whiskey with hot peppers and a few other herbs, they call it peri-peri. I tried using it as a diluted marinade. Rest of the seasoning was my usual mix with a bit less pepper and salt.”
-Daniel nodded, “The pisto is Spanish, right?”
-
-“Mhmm. Sometimes it&#039;s made with egg or ham, if you’d like this for breakfast one day.” She explained, and Daniel happily watched the woman eat, somehow keeping her white fur pristine despite the best attempts of the various sauces to ruin the clean pelt.
-Daniel pat his stomach, feeling stuffed beyond belief. He ate more tonight than he usually did at a buffet. He looked across the table and chuckled to himself, Sarah meanwhile seemed a second away from licking the plate. 
-
-She stood, collecting the empty plates, “Dessert, hun?” She called back, her gait a little slower than earlier in the evening. It wasn’t surprising given that she took a second helping, her shirt looked a little tighter too. 
-
-“Yes, please!” He said, discreetly popping the button on his trousers. Even if he felt fit to pop, panna cotta sounded great right about now. 
-
-The table was a hodgepodge of cuisines, a privilege to the tastebuds, really: Spanish appetizers, African-Portuguese entrée, and an Italian dessert. Had she more time, Daniel could only imagine what Sarah would cook up. He admired the breadth of his fiancee’s worldly experience, Sarah always seemed so knowledgeable about art and culture. He was always more business and numbers sort of guy. Learning through osmosis, listening and cooking with her, was one thing. But truthfully, it could hardly match the education Sarah gleaned from backpacking in her teenage years. A quiet clink of a plate brought him back his daydreaming. Sarah placed a small portion of dessert before him, the rich cream drizzled with a light-pink strawberry sauce. “I know you said work was all right, but did you speak to Mack?”
-
-Daniel momentarily soured upon hearing his bosses’ name, “Yeah... he was a prick about it, but I managed to convince him we would hit our deadline.”
-
-Sarah brightened, “You mean—”
-
-“Yep! No more late hours for the next little while,” he finished for her, pleasant mood back in spades.
-
-Her relief was palpable, “thank God for your silver tongue. I worried I was going to lose it if we carried on like this.”
-It would make two of them. 
-
-As they finished up dessert, the bliss of getting away from work faded, and instead Daniel mulled over his earlier thought on time. The woman could absolutely do amazing things with enough time, but that was exactly it—Time. Didn’t she have something to do today? Yes, yes she did he remembered. 
-
-The commission. 
-
-Curiosity gnawed at him, and Daniel grew troubled. “Sarah?”
-
-“Hmm?” the cat hummed, finishing a mouthful of dessert.
-
-“Where did you get the time for all this? I thought you said you would be stuck working on that big commission today?”
-
-There was a moment of uncomfortable silence, the cat tapping her fork onto her napkin. “Well...&quot; she started, a very particular look on her face.His remaining cheer ebbed, Daniel knew that look, pleasant news never followed it. He watched her with a gentle gaze and silently urged her to continue. “The client sort of... canceled,” she finally said, her voice shrinking to a whisper.
-
-Daniel’s heart sank. She’d been talking about that project a week! It was an enormous deal for her. “God... Kitten, I’m so sorry.”
-
-She let out a sigh, “It’s okay, there’ll be another—I just...” she wavered. He nodded slowly, scooping up her palm into his. The feline sniffled, her fluffy ears wilted against her head; Daniel gave her hand a gentle squeeze. He wanted to be angry—really, what sort of jerk did that to someone!?—but Daniel was more concerned with his crestfallen sweetheart.
-
-He stood up and strayed to her side, “Hey, hey... don’t cry, honey. It’ll be okay.” He whispered, brushing the hair out from her eyes, wiping away tears with a consoling cup of her cheek. The ragdoll&#039;s head leaned on his shoulder with a hiccuping sniffle. 
-It hurt to see Sarah so disheartened, “Just a bump in the road, right? There’ll be another, people love your work—you’ve heard what the last guys thought of it, remember?”
-
-Another sniffle, the wiry whiskers twitching, “Yeah... still really sucks though,” she replied, holding his hand to the dampened fur of her cheek a while longer.
-
-The last commission had been a big one too, the clients loved it enough they sent the woman a thank-you card. But Sarah put her all into this one, and they threw it in her face. The sting wasn’t going to just go away, as much as Daniel wished it would. Luckily, he knew how to take her mind off of it. “Would you like some tea, darling?” She nodded, the feline’s tail swished; a hint of a smile on her pretty lips. The spiced, minty tea was a childhood favorite and never failed at cheering her up at least a little. Daniel made sure there was always a little box of it somewhere in the pantry.
-
-While the kettle boiled, he felt perhaps tonight would be a quiet movie night, and that the dishes could wait until tomorrow—Sarah felt the same.
-
-==================================================
-
-The movie they picked wound up being an old rom-com, a guilty pleasure they had both seen far too many times; perfect to zone out to, something lighthearted with which to enjoy the other’s company. Daniel hoped it would help cheer her up.
-
-Despite her timid demeanor, the ragdoll had a particular fondness for being the big spoon. Her desire to cuddle often ended the same way; Sarah cuddled up at Daniels’ back, her arms crossed over his stomach, and her tail curled along his leg. As they watched, she idly played with Daniel’s hair, delighting in her fiancé shivers at the touch of her paw pads against his scalp.  
-
-On screen a smartly dressed Labrador argued with a squat honey badger. “Are you saying our love isn’t real?” the dog barked, pointing an accusatory finger at the scowling badger.
-
-“Are you asking me as your friend? Because as your taxidermist, I’m legally obligated to say ‘no’” Daniel read the line alongside the badger and earned a giggle from Sarah.
-
-“We’ve seen this too many times, haven’t we?” she murmured, leaning over to nuzzle his cheek. A flutter ran through Daniel, the cat’s alluringly pouty lips brushed at his ear, hot breath rolling across his neck as she spoke.
-
-“Mmm, maybe~”
-
-Sarah scooped him closer into her arms. Her embrace was intoxicating; the rich sea of silky fur heavenly against his bare skin. It was tempting to feign being hot and take off his shirt, just to feel more of it—but the arm draped over his front stopped him. He reached over; fingers entwined with hers. His palm caressed the pink of her pads. He was so surprised the first time he ever got to touch them; they weren’t rough and leathery as he’d believed, rather they were like a mix of silicone and foam. Thick and smooth to the touch, yet unbelievably yielding and warm. He made it another thirty minutes before the mounting urge to be closer with Sarah trumped his will to wait for the movie’s end. Turning over, he faced his fiancee and cuddled closer against her chest. Sarah was more than happy to oblige, humming mirthfully as she settled her arms along his back in kind. 
-
-Sarah was a naturally curvaceous woman, blessed with attractively wide hips, but she had also always been on the bigger side. In the past few months, she had been steadily gaining what Daniel affectionately called her winter coat—not that he was complaining. Far from it.
-
-Had Sarah been less confident about her own body, the cat might have called herself big-boned. There was no getting around it; Sarah was fat... delightfully fat in all the right ways. Her genetic lottery had come up aces, every ounce of adipose and cushion exactly where it looked best. Sure, her waist was sizable, but her hips and bust grew far larger. Her pillowy rear was ample, but maintained an element of roundness, its grandness accompanied by the supple padding of her shapely thighs. The woman’s once modest chest now filled out into two pendulous melons.
-
-She was the fat girl that thick girls dreamed of being; a woman you could drown in.
-
-“My, my... aren’t we a cuddlebug tonight?” She cooed. Daniel opened his mouth to reply, but the coquettish woman pounced and sealed their lips; quip cut short with a kiss. Sarah took no time in paralyzing him with the many more that followed. Losing himself beneath her spell, Daniel let out a throaty moan as those full lips showered his face with smooches. All the while, her hand caressed the back of his neck. He swallowed, stiffening as her lips sealed around his Adam&#039;s apple, helpless against the rough organ scouring it with arousing laps. Sarah roamed wherever she pleased across his jugular before nestling him right between the valley of her breasts.
-The woman bound him with her body, letting him stew in his kindling arousal, relentlessly teasing knowing full well he wouldn’t move.
-
-The movie’s dialogue fell away, a backdrop to the gentle smack of her lips, and the comely sound of her laugh. The edges of Daniel’s vision filled instead with that of his love’s soft, white pelage; his head cradled by her sumptuous bosom. The twin globes squished and moulded around his face, practically pleading for a squeeze—so close yet so far from his reach. The paw around his back hugged him tightly, squeezing at him like a cherished plushie. She shifted subtly, and Daniel felt the weight of her thigh as it crossed over his hip. The complete change in demeanor was captivating; whereas earlier she was timid and unsure, now she slipped into a possessive flair like donning a familiar sweater. He slipped an arm beneath her shoulder, his other hand tracing along her thigh. She quivered at his touch; the adorable jitter coursed around Daniel in the form of a muffled coo slipping from her lips.
-
-“Mmm... my cute little monkey,” she crooned in a husky, honeyed timber, pressing him deeper into the valley of her bust. Daniel felt her shift as she playfully nestled his head against thick tufts of her covetous fur. The randy thing. He knew exactly what she was about to do. Anticipation blossomed into glee the second Sarah rolled atop of him and gradually eased her heavy body down against him, forcing an excited squeak from his lips as that creeping embrace drove the air from his lungs. Shrouded in darkness, sandwiched between her and the sofa, he could feel the amused, toothy grin peering down at him. It was thrilling. The weight built and built, his heart racing. Even if he wanted to, he could hardly move. The pale flesh of his cheeks glowed in a blush. 
-
-Long ago Sarah bashfully divulged how much she enjoyed seeing him sink into her coat, fascinated with testing how much of him her fur could swallow. He’d found it amusing, cute even. She was certainly fluffy enough.
-
-He understood her fantasy and then some after the first time they tried it. Not that Daniel could ever forget that night: it was after a Valentine’s Day dinner; they had hardly made it to the bedroom. His love messily stripped him atop their bed, tearing his shirt in places with her claws before forcing him onto his back. Stark nude and at full attention, he stared bewitched as she joined him. Her eyes burned with feral hunger, rousing him in a way she’d never before, slowly coming closer on all fours. Desperate to take her, but somehow more excited by the prospect of letting her lead; everything just clicked into place.
-
-Now he couldn’t live without the presence of her weight on his diaphragm; without the gentle way she crushed him. Gradual resistance to breathe fizzed in his chest and made his heart race like nothing else. It was thrilling, cruel almost, but so divinely intimate and loving. Domineering yet comforting. The combination made his head spin, a guilty pleasure they wantonly indulged. Whenever Daniel found himself in her arms, the opportunity was too tempting to pass up. In a way it transformed into something special.
-
-Daniel melted into that blissful hold, content to listen to her steady breathing. He’d read some time ago that smell tied to memory, and that such things triggered intense emotion. The lilac scent of the Rubenesque woman’s shampoo teased at his nose, mingling with the natural smell of clean fur. He took it all in and little by little an aethereal trickle of fondly shared moments graced him. Smiling into the mess of fluff, fingers sensually trailing along her back, he sifted through her white coat until he found that spot right between the woman’s shoulder blades.
-
-“O-ooh, yea... r-right there” she moaned softly. He massaged at it in rolling circles, intent on turning her legs to jelly.
-He thought of the times they spent the week in Mexico. The beach and tropical sun, her voluptuous body in a bikini, and the cute way Sarah smiled when she caught him looking. He kneaded at that sensitive patch with a practiced ease, rewarded with a delightful purr that traveled right through him; that sound filled him with elation as it reverberated in his chest.
-Every other sound paled compared to the joy her purr brought him. The content, rumbling melody rose and fell like a wave lapping at the shore.
-
-It was so relaxing to listen to, the bassy sound deeply satisfying and tranquilizing. He took another deep breath, once more cherishing the subtle fragrance he could only call hers. His body all but disappeared beneath hers, the two becoming one. Her happy purring danced with his inaudible hums, the symphony in his ears tempered by her pendulous breasts.
-
-Trapped beneath her, time lost all meaning. Daniel knew full well she was in control, free to keep him for as long as she wished. And, after the length they’d been apart, it surely would be awhile.
-
-Between the growing heat trapped between their bodies, the cozy bed of fur, and that lulling ambience the wear of the day creeped up him. His brain felt full of fog, eyelids heavy and drooping, before he knew it Daniel fell fast asleep.
-
-==================================================
-
-
-He later awoke in bed without the faintest clue when or how it had happened, but no doubt that Sarah had a hand in it.
-Whom, was snoozing peacefully beside him, curled up as the little spoon for once. Daniel peered at the clock from over the woman’s alabaster mane, surprised to see that it neared noon. He felt recharged, fantastic even, and clear of mind; the first time in weeks waking up without a headache. Sarah shifted softly under the sheets onto her side and Daniel realized something else.
-
-He was harder than diamond.
-
-With a concupiscent grin Daniel slid closer to his fiancée, pressing up against her back, heart beating faster as he trailed a hand across her wide hip. Sneaking beneath her loose tank top, he brushed the curve of her belly, drinking in the pockets of heat nestled within the messy tufts of her tummy fur. She stirred, mumbling something unheard into her pillow. He sensually kneaded at her middle, inches of buttery-dough yielded to his touch. His other hand slipped beneath her shoulder, roaming lower until it met the edge of her panties. The feline’s murmuring grew louder. 
-
-The cat wasn’t foolish; she knew what her husband-to-be was getting at from the hardness poking at her thigh. Two could play this game. 
-“Nnnnhhh, morning,” She cooed, a coy smile on her lips. The curvaceous feline arched her spine, grinding into her amour’s lap.
- “M-morning~” he shuddered, nuzzling against her cheek.
-
-The haze of sleep slowly gave way to a lifting rush of desire welling within her bosom. The reversal of last night’s intimacy was driving her wild; the feline rubbing her plump thighs together in anticipation as those inquisitive hands hovered just above her loins. “Slept well last night?” she murmured.
-
-Daniel chewed his lip as Sarah’s ample backside rubbed against his manhood; he shimmied closer, his pulsing need grinding against her sizable backside as he slipped his hands into her silken garment. “Mmmrf, all thanks to you.”
-
-“Good~” she mewled, closing her eyes and breathing harder, Daniel’s fingers were teasing at her nethers, rubbing slowly along its edge. To her consternation he didn’t delve inside. Tail smacking impotently against his calf, Sarah’s thighs rubbed together as he drew oh so close to where she wanted him. She could sense that smug grin behind her, but refused to give in just yet.
-
-That was until he leaned over to nibble at her ear, “Something you wanna say, princess?” His hot breath sent shivers racing through her.
-“P-please... ” She whined, heart thrumming from her lover’s electrifying caress. Her resolve struggled to hold as that playful touch roamed towards her breasts.
-
-“Please, what~?”  he teased, attacking the meat of her palmable tits, rolling it in his hand and giving it a squeezing.
-
-Sarah’s breath pitched, ears twitching, “Please put it inside?” She mewled, curling her toes at the electric crackles rolling up her back. Daniel obliged. The cat let out another shuddering moan of excitement when they finally glided across her slit, only to slide back and rub at her sensitive clit. “Ffffuck, yes, faster!” she begged, resting back against the wall of her lover’s chest. Eyes closed, riding his fingers as she worked herself up, Sarah’s lips trickled with honey as the pleasure mounted inside her. The cat’s orgasm approached like a rubber band being stretched; a great energy built and built, the cat oh so eager to let Daniel do his work until she snapped.
-
-She’d hardly noticed his palm leave her breast until it came crashing down onto the pale moon of her rump. A brilliant burst of sharp, titillating, sensation coursed through her. Sarah’s eyes went wide as the shock rocked her to the core. Claws dug into the sheets, threatening to tear them, as another spank landed across her jiggling backside. The sensation came back in force and the band snapped, sending her over the edge as the wave of her first climax came crashing over her.
-
-“Hhahhhh, again!” she screamed, spasming within the human’s iron-grip. Her brain felt like it had filled with static as Daniel seemed determined to leave a red-print across her pale fur. The bliss of her afterglow heightened by the aftershocks of his spanking zapped inside her.
-
-She hadn’t noticed when he’d stopped, or when his fingers had even withdrawn, but it roused her from her stupor when he groped her sore cheek.
-
-Sarah panted, blinking as Daniel palmed over her hip, “Roll over.” He grinned, pulling down the sheets.
-
-With a lurid smile she immediately obeyed, bubbling with excitement. “Like this?” She asked with feigned innocence, propped onto her hands and knees, and hugged a pillow to her chest to flaunt her callipygian ass.  
-
-“Mmmhmm... exactly, good girl,” Daniel cooed, pulling down his boxers. His erection flopped free, pulsing in the open air as he saddled up behind her. He draped himself across her back, drinking in the woman’s needy moaning as he groped one of her hefty breasts. He leaned back, taking in the sight of the sumptuous backside oh-so-eagerly presented to him; a pair of lacy, black panties swallowed up by the twin globes of her ass. He didn’t even bother stripping them off her, instead pulling them down towards her thighs before turning his attention to her now exposed pussy. His cock yearned at the sight of her pink, steamy, folds that dripped with her raw desire, begging for him to spread her wide.
-
-Daniel slowly saddled up behind her, invigorated by the full-body shudder that crashed through Sarah as he planted his palms atop her hips. Clawed toes curled and dug into the sheets, his lover letting out a breathy coo as he cruelly teased her by rubbing the shaft of his cock against the drooling lips of her flower. Every slow rock drove her wild, stoking both of their aching desires for one another as her hot nectar coated his length. 
-
-She’d spent so long teasing him last night, it was only fair he returned the favor. 
-The long, messy fur of her back met the smooth flesh of his chest as he bore down on her. Daniel seized at the tender flesh of her budding love handles, rolling that decadent adipose between his fingers, he fully intended to use them to their namesake. 
-
-“D-Daniel... ” Sarah mewed, huffing as his lubed cock slid between the white cushions of her rump.
-
-“Yes, love?” 
-
-The feline swallowed heavily, pausing a moment as if unsure of herself. Some part of Daniel had a feeling what was on the ragdoll’s mind, his hand left her hip to stroke her flank. “Is this it? Will she’s  finally ask?” He wondered, his entire body teeming with excitement. The cat&#039;s lips moved, but no sound came, like she was debating how to phrase something. It cemented his suspicion, his mind begging for Sarah to say what he’d waited so long to hear. He beamed bright enough to rival the sun when she finally swallowed her nerves.
-
-It came out a whisper, like a stage-shy girl during a presentation, “baby...do you wanna try for kittens?”
-
-“I thought you’d never ask,” Daniel replied, leaning in close to plant a tender smack of his lips against her cheek. The woman shuddered, positively radiating the rush of relief that came over her...the heat at her ears quickly replaced with a lustful aftershock.
-Holding her possessively, the weight of what they were about to do left his heart fluttering. A rush like no other coursed through his veins as he trailed his hands up from her hips, brushing the long fur of her belly. “You’ll make a beautiful momma...” He whispered, surprised by the powerful shiver that ran through his lover’s body at those words. 
-
-“Oohh... say that again...” Sarah quivered beneath him. The graceful dip of her back arching higher from his touch. Oh it was like that, was it?
-
-“Mmh, what?” He teased, “How beautiful you’ll look carrying our litter, glowing with a belly full of our kits~?” Daniel rubbed at her middle, emphasizing full. Another elated quaver, his fiancee moaned with a breathy “Yess!”
-
-“Say it, tell me you want me to breed you,&quot; he growled in her ear. 
-
-Sarah’s ears perked up, raised tail curling around his chest, and glowed with a newfound longing she never knew could be, “Take me...”
-
-The tip of his spire aligned with her nethers, Sarah let out a breathy cry as he resumed the grip on her sides and slowly pressed inward. It was a delicious twist, her body trapped beneath his, being ground into the pillow she clung to. Some ancient part of Daniel demanded he claim her, to make the woman who’d carry his children know she was his. And he was in the best position to do it. Daniel bit Sarah’s scruff as he entered her quivering honeypot, the move short circuited the cat. His member throbbed in agonizing need as she yowled blissfully, as they became one.
-
-His teeth eased up the moment his lap met the rounded globes of her ass with a soft paft. “O-ooohhh, you big stud...” she gasped, thighs shaking as she gathered her wits. Spread wide atop his girthy cock, his pulsing member filled her as it speared deep into the tight, searing walls of her silken tunnel. 
-
-Daniel could feel the unadulterated ardour suffusing her as she rocked atop her knees, gliding along the first few inches of his tool. It took every bit of his will not to rut her right then and there, resolving instead to take things slow. Their love was no less passionate, but after everything that had happened, he’d wring every drop of ecstasy from her.
-
-He hooked an arm around her belly, sinking into the squishable paunch and squeezing tight. Fantasies of his beloved twirled in his mind&#039;s eye, he gave a testing thrust and his hips met her fat derriere, spurred on by the image of her heavy with his child. The cushy middle fondled in his hand growing into a taut, gravid swell, her chest filling out even beyond their lovely size. 
-
-Everything about her body already screamed fertility, and the thought of watching those features become even larger was enough to push him dangerously close to release. A mounting pressure sitting heavily in his lap, his balls almost painfully full. His tempo grew, each plunging rock of his head accompanied by a gratifying, meaty smack. The slick girth of his tool withdrew to the tip, only to slam back inside.  The ragdoll’s shuddering breaths pushed at his arm, “hhahhh, h-harder!”
-
-Blossoming ecstasy radiating from deep within, jaw slackened in bliss as her eyes shut to slits. Childbearing hips rolled back into Daniel’s groin, his fiancee meeting him halfway. Moans melted into the sounds of their lovemaking; her words dousing his lust for her with gasoline. She feverishly begged him to breed her until she could hardly walk straight. It was beastly, the resolve to go slow dissolved in the face of a primal desire to sow his seed.
-
-The room’s air turned to steam, with every breath came the cloying smell of sweat and sex. The voluptuous feline melted beneath the jackhammering of her lover&#039;s hips; the timbre of her voice rose in pitch until cracking with a hoarse yowl.  Panting in animalistic fervor, his woman reflexively rolling her hips in tune with his, lightning flashed across Daniel’s sight as Sarah climaxed once more. He bore down on her, clinging to her writhing body and making her come undone with rapid thrusts. The hot, honey-slicked walls spasmed over his cock, clenching and quivering with their wringing spasms, the sudden intensity pushed Daniel over the edge. 
-
-His teeth clamped down on the fecund cat’s scruff, arms wrapped tightly along her stomach as he buried himself to the hilt inside of her, and came explosively. A choked, rapturous cry tumbled from Sarah’s lips, thighs shaking as another orgasm gripped her. Daniel too grew unraveled, rope after rope of his sticky essence shot within the confines of his darling’s depths. The writhing tangle of their bodies slowed, ebbing to erratic spurts of motion, the slightest of sensation sent crackling bursts of pleasure zapping across their bodies. Carefully, Daniel rolled off of Sarah, his softening member slipping out from her. A mess of honey and seed leaked from her lips, her rear still hiked in the air.
-
-It took a moment of the chubby ragdoll panting into her pillow before she regained her wits, tail twitching gently as she fell onto her back. The spent lovers laid atop their bed, Sarah stared up at the ceiling from behind closed eyes as Daniel turned onto his side. He placed a hand atop her belly, and traced slow circles as they spooned. Both rode high atop the all encompassing cloud of their afterglow.  
-
-“Do you think it’ll take?” She asked lowly, throat rumbling in a peaceful purr.
-
-He drew her into a hug, trailing kisses from her cheek, and finally to her pink nose. The sparkling jewels of her eyes looked up at him, he gazed lovingly back, “I hope so.” 
-
-A paw curled around the back of his head, pulling him to her bosom, “I hope so too,” she giggled, “otherwise we might just break the bed trying.”
-
-The fresh memory of her plus-sized bottom raised high came to mind. “I’m good with that,” he whispered, scratching the fluff beneath her chin.
-
-There was a subtle creaking of springs as Sarah shifted, a familiar weight easing itself onto his chest. Sarah’s purrs echoed in his ears, her pudgy frame spreading out atop of his. The world became nothing more than happy rumbles, warm fur, and an abundance of softness. He happily grew absorbed in her affection; holding her tenderly. His head slipped between her breasts.
-It’d be a few weeks before they knew; Daniel was more than willing to spend that time with her, especially if it was just like this.
-
-======================================================================================================================================</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    24 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    25 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    31 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

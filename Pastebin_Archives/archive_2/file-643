@@ -1,700 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Eye on the FFI - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The Eye on the FFI - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/25UaaPH3" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/25UaaPH3" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="MzyFIoz7tGgESRZ2hl29Mv3WldgskaJ3IgVVi1s9OKZkcut7y8j2UUU_Jx_kb458n5HNs0b-8xIQQAP4Mm53yw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/25UaaPH3" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/25UaaPH3" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="The_FFI_Database">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>The Eye on the FFI</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/The_FFI_Database">The_FFI_Database</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=The_FFI_Database" class="message" title="Send a private message to: The_FFI_Database"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 21st of September 2019 08:51:22 PM CDT">Sep 21st, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    806                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 27.04 KB            </div>
-
-            <div class="right">
-                <a href="/raw/25UaaPH3" class="btn -small">raw</a>
-                <a href="/dl/25UaaPH3" class="btn -small">download</a>
-                <a href="/clone/25UaaPH3" class="btn -small h_800">clone</a>
-                <a href="/embed/25UaaPH3" class="btn -small h_800">embed</a>
-                <a href="/report/25UaaPH3" class="btn -small">report</a>
-                <a href="/print/25UaaPH3" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">===========================================================</div></li><li class="li1"><div class="de1">THE EYE ON THE FFI – Keeping watch on our shady government</div></li><li class="li1"><div class="de1">===========================================================</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">About “The Eye on the FFI”: We are a community dedicated to finding the TRUTH about what our so called “democracy” has been up to in the shadows. We have overwhelming suspicion that the United States government has been participating in nefarious deeds just behind our backs, under the guise of the Federal Fertility Initiative. We have more than a DOZEN stories about loved ones disappearing into the night, just to join the FFI? Well we don’t believe it. We will remain STRONG and refuse to bend to what the media has to say.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">FAQs</div></li><li class="li1"><div class="de1">Q: I’ve also heard about the wrongdoings of the FFI, where can I join?</div></li><li class="li1"><div class="de1">A: Right here pardner! Just hit the comment sections and talk with our brigade of truth-seekers.</div></li><li class="li1"><div class="de1">Q: What does The Eye on the FFI hope to accomplish??</div></li><li class="li1"><div class="de1">A: We hope to reveal the truth that the higher ups have hidden from us, and we will not rest until this scheme is exposed!</div></li><li class="li1"><div class="de1">Q: Who Runs The Eye on The FFI???</div></li><li class="li1"><div class="de1">A: Well, I’m just a southern gator looking for what they’ve been hiding. Name’s Cassandra but feel free to call me Cass. I’m headquartered in the heart of Georgia, and I’ve been fighting against the corruption ever since they took my poor Joshua away. Miss u Joshie!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Update #084: Wednesday</div></li><li class="li1"><div class="de1">	None of you fellow truth-hunters are going to believe me, but I have stumbled on genuine PROOF the FFI has been up to no good.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	It all began when I was hunting for a little extra supper off the land. A real girl’s gotta be able to make dinner from the wild game! But when I was rounding the creek, I knew something was off about the place. Fog was thick that morning. Thick enuff you couldn’t see your own hand in front of your face! So like I said, I was creeping through the thickets when I heard a strange noise. Nothing like anything I had ever heard ‘round these parts. I tilted my head to hear something just “CHUG CHUG CHUGGIN” away in the distance. Getting low to the ground I thought I knew what it was, some kind of engine, maybe even a truck. I thought to myself, “Those damn FFI bastards have finally stepped up their game, come to silence me (and all you lovely listeners) once and for all!” Well I wouldn’t go so easily, so I moved real quiet-like, as if I was sneaking up on a real finicky white-tail. As I moved closer, I parted the reeds and used my handy scope to get a better look at the trespassers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	Only I didn’t find no big black van like many of y’all have mentioned, instead I saw a rusted hunk of junk, twisting and turning against the thick mud. Well it wasn’t exactly what I expected, but I didn’t let my guard down, maybe they were sneaking around in vans like that just to get me by surprise. Only these government hit men had made a mistake, thinking a city-slicker tin box like that could handle real off-road riding. I took a real good look through my scope and by hell, even with the fog, I could see at least four shadows moving around inside that thing! They had brought a whole squad to take me down! I looked around the scene to see if anymore were lurking, and sure enuff I could see a little humie walking circles ‘round the stuck van. I was ready to take action, these trespassers were on MY property, and I had a right to defend myself. Only when I was lining the warning shot up, I must have moved too much. I reckon they heard me shifting around.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	Before I knew it, some crazy cat was jumping right at me, must have snuck up right behind me. She hollered something like, “Anon, move away!” before she started thrashing at me. Let me tell ya, she might have looked sickly thin, but those claws would have hurt plenty. Thank god my scaled behind is thicker than my head, otherwise I wouldn’tve had the time to hold her back and think about what she yelled. “Anon?” I thought. Well, that was the name of the suspect the FFI had been asking around about (thank u FeistyFlamingo89 for sharing details about that by the way). If I remembered right, she said the journal mentioned a beat-up van, a cat, and a whole lot of other runners. Pulling off the boney cat best as I could I shouted to the confused fella “You the one I heard about?” I never was a wordsmith though, and that probably wasn’t the best for introductions. At least it had that kitty confused enough to finally stop thrashing around. About then I remembered I was just pointing a gun a second ago, so I made sure to put it down real slow. “Did y’all really bust outta the FFI and write a journal about it?” He didn’t seem to get it at first, just echoing, “Journal?” like he’d been hit on the head.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> 	It took a couple of minutes, but we got things straight between the three of us. Big cat kept prowling around my back, but it looks like a stiff breeze coulda thrown her, so I wasn’t real worried. Anon says he completely forgot about the journal after his friend chucked it out the window. He didn’t seem too happy about that, especially the fact the authorities had been spreading it around. Before he could get all antsy again, I bragged a little, said I was part of the resistance against the FFI. That perked him right up, and he mellowed his friend behind me. If I remembered the story right, he had at least four more buddies trying to get that van moving, so I let him talk to them for me. Also told him I could give their muck stuck van a lift. Perks of having a massive truck like I do. Took me more than an hour to hike back home and find em in my ride, but I got em out of the pit without a problem. The gaggle inside the van seemed less excited, but after a bit of chatting they agreed to come back home with me. They probably wouldn’t a’ even came along if they hadn’t looked so run-down. Guess time on the run makes even a stranger like me appealing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	So right now as I type on my little machine, they’re unpacking what little they got in the next room. Wanna wrap this up quick so I can help them out. Their van needs a lot of work, the bigger ones really need some fitting clothes, and that lion is really in need of a home cooked meal. Luckily for them I got some spare clothes lyin’ around and I’ve been fixing to cook for someone other than myself for the first time in months.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	I’ll keep y’all updated, we’re on the verge of a breakthrough here folks. None of ‘em are really in the mood to talk yet, but I’ll tell ya what I hear.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #085: Thursday</div></li><li class="li1"><div class="de1">	Okay, seems like some good food and a hot shower was enough to get them feeling more friendly with me. I got talkin’ with the human one and he says I can upload something called “empeethrees” from my phone. Never knew much about these sorts of things, but it sounds like y’all be able to listen to the real deal and hear my conversations with them. Trust me, if I had to type it all out with my claws on this computer, it’d be a week before I could share any of this. Josh always said this damn keyboard wasn’t meant for a woman of my size. Same goes for the newfangled phone I kept from him. Anon here had to show me how to even work it. But I’ll put up with this damned tiny technology, it’s the only way I can share the BONAFIED truth with all of you, and we are on the brink of something BIG here ladies and gents.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">SANDRA INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Cass]: …Is it working? The little bar is moving so I think it’s started…</div></li><li class="li1"><div class="de1">[Sandra]: I still can’t thank you enough for the clothes, my fin was busting out of the othe-</div></li><li class="li1"><div class="de1">[Cass]: OH, it’s working! Let’s get this started, I’m sure all of us at “The Eye on The FFI” want to hear from someone who really was on the inside!</div></li><li class="li1"><div class="de1">[Sandra]: Are you sure this is a good idea? I still have to teach Anon a lesson for making that stupid lead you said the police found.</div></li><li class="li1"><div class="de1">[Cass]: We NEED the truth to get out there, and besides, ain’t nothing they can really use in there. They know y’all are gone, and far as I hear, the most they coulda got out of it was that you’ve been riding around in that beat-up van of yours.</div></li><li class="li1"><div class="de1">[Sandra]: You said something about helping us with that problem… it’s the only reason I agreed to this recording.</div></li><li class="li1"><div class="de1">[Cass]: YEAH, yeah, I got a lot of paint in the garage. Figure we could all work together and paint it up, make it look real different. I was thinking we should paint it in-</div></li><li class="li1"><div class="de1">[Sandra]: STOP! If you’re going to put this on the internet you can’t say what color it’s going to be… God, I knew this was a bad idea…</div></li><li class="li1"><div class="de1">[Cass]: Look, I’m real sorry, I’ll just get to the real questions.</div></li><li class="li1"><div class="de1">[Sandra]: How many people are you sharing this with anyway?</div></li><li class="li1"><div class="de1">[Cass]: Well… the Facebook group I made has over 34 members last time I checked…</div></li><li class="li1"><div class="de1">[Sandra]: This might not be a problem then…</div></li><li class="li1"><div class="de1">[Cass]: Wassat?</div></li><li class="li1"><div class="de1">[Sandra]: Just, give me the first question already.</div></li><li class="li1"><div class="de1">[Cass]: Okay, first question I think all of us would like to know. Why did the FFI take you away?</div></li><li class="li1"><div class="de1">[Sandra]: …</div></li><li class="li1"><div class="de1">[Sandra]: They never said why. I’m sure you’ve seen the wad of legal papers they mail. Apparently something to do with genetics.</div></li><li class="li1"><div class="de1">[Cass]: Yeah, I still got the letter they sent me.</div></li><li class="li1"><div class="de1">[Sandra]: You got one of those and you’re still here?</div></li><li class="li1"><div class="de1">[Cass]: Well no, it was meant for somebody else…</div></li><li class="li1"><div class="de1">[Sandra]: I’m sorry… was it someone you knew?</div></li><li class="li1"><div class="de1">[Cass]: You’re damn right, but that’s another story, and I don’t think anyone needs to hear it. So lemme get back to the questions. </div></li><li class="li1"><div class="de1">[Cass]: So what did you spend your time doing in there?</div></li><li class="li1"><div class="de1">[Sandra]: It was like a prison, it was rare we ever saw the outside of those damn cells.</div></li><li class="li1"><div class="de1">[Cass]: If they wanted ta’ just hold you captive they would have sent you straight to jail. Surely more goes on in there?</div></li><li class="li1"><div class="de1">[Sandra]: Yes, a lot more. They were always doing medical tests, creepy men in lab coats always chaining me down and poking, prodding…</div></li><li class="li1"><div class="de1">[Cass]: Do you have any idea what sorta tests they were doing? Any idea at all?</div></li><li class="li1"><div class="de1">[Sandra]: They did all sorts of stuff… measuring me like a piece of meat, force feeding me all kinds of pills, an array of syringes… and…</div></li><li class="li1"><div class="de1">[Cass]: And what?</div></li><li class="li1"><div class="de1">[Sandra]: ….</div></li><li class="li1"><div class="de1">[Sandra]: They did a lot of ultrasounds… almost every night.</div></li><li class="li1"><div class="de1">[Cass]: Now what in the hell were they giving you ultrasounds for? Makes it sound like you were pregnant.</div></li><li class="li1"><div class="de1">[Sandra]: …</div></li><li class="li1"><div class="de1">[Cass]: I’m joking, I know you don’t got a bun in the oven.</div></li><li class="li1"><div class="de1">[Sandra]: ….</div></li><li class="li1"><div class="de1">[Cass]: Oh, please don’t tell me…</div></li><li class="li1"><div class="de1">[INDISTINCT CLATTERING]</div></li><li class="li1"><div class="de1">[Sandra]: I’m done here!</div></li><li class="li1"><div class="de1">[Cass]: Now come on back, I-</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #086: Thursday</div></li><li class="li1"><div class="de1">	I’m sorry about the last one folks, that didn’t go quite as planned. But I’m sure most of you understand these people are real tense after what they’ve been through. They’ve also gotta understand the truth needs to be found, so I’ve kept asking my questions even after the incident.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">HEBA INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Heba]: Hey, I always wanted to get on a talk show! [LAUGHTER]</div></li><li class="li1"><div class="de1">[Cass]: I like you, you’re a lot more eager than your friend who stormed off.</div></li><li class="li1"><div class="de1">[Heba]: Don’t worry, she’s always that much fun.</div></li><li class="li1"><div class="de1">[Cass]: Well I don’t know… she only got that way when I asked about her, uh ultrasounds.</div></li><li class="li1"><div class="de1">[Heba]: Far as I can tell those assholes did that to all of us.</div></li><li class="li1"><div class="de1">[Cass]: All of you? I understand your shark friend, er Sandra, might’ve been taken away pregnant, but all of you?</div></li><li class="li1"><div class="de1">[Heba]: Oh no, none of us came that way honey.</div></li><li class="li1"><div class="de1">[Cass]: So… you’re saying you ALL got that way after coming in?</div></li><li class="li1"><div class="de1">[Heba]: Some of us later than others, explains why I still have my girlish figure. [STRAINED LAUGHTER]</div></li><li class="li1"><div class="de1">[Cass]: So you’re trying to say all of y’all were kidnapped justa have babies? I knew the place has “fertility” in the name but… it doesn’t gotta mean making babies.</div></li><li class="li1"><div class="de1">[Heba]: Yeah it’s a real riot, but can we change the subject, like how I make your old clothes great?</div></li><li class="li1"><div class="de1">[Cass]: Now waitta minute… If they’re getting everyone pregnant, why would they take a man like Jo- like Anon?</div></li><li class="li1"><div class="de1">[Heba]: Do I really have to explain the birds and the bees to you girl? You’re older than I am. [FORCED CHUCKLE]</div></li><li class="li1"><div class="de1">[Cass]: Let me get this straight, you were all made to… fornicate? In there? Am I hearing you right?</div></li><li class="li1"><div class="de1">[Heba]: “Fornicate,” is very generous, more like tied and gagged.</div></li><li class="li1"><div class="de1">[Cass]: Why… What would anyone get out of that?</div></li><li class="li1"><div class="de1">[Heba]: Well I sure as hell don’t know! Why the FUCK would anyone set up a fuck factory like that?</div></li><li class="li1"><div class="de1">[Cass]: I c-can’t tell you why, I’m just trying to getta bit of the bigger picture here, I-</div></li><li class="li1"><div class="de1">[Heba]: Well I don’t give a SHIT about the bigger picture here, I’m on the run while carrying some kid I never asked for, you think that’s fun?</div></li><li class="li1"><div class="de1">[Cass]: Okay, calm down now. I’m not tryin’ to make things worse here.</div></li><li class="li1"><div class="de1">[Heba]: Worse? It’s already pretty fucking terrible. I’ve been eating oranges in the back of a van with some tribal lion shit-talking me for the last week.</div></li><li class="li1"><div class="de1">[Cass]: …</div></li><li class="li1"><div class="de1">[Cass]: At least you won’t be getting scurvy anytime soon…</div></li><li class="li1"><div class="de1">[Heba]: [WEAK LAUGHTER]</div></li><li class="li1"><div class="de1">[Cass]: We can talk about something else… I’ll just shut this thing off.</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #087: Thursday</div></li><li class="li1"><div class="de1">	I must apologize people, I feel like I’m pushing these folks too hard for information. I’ll just try to take things easier. It sounds like they don’t know a lot about what happened to them anyway. So I’m taking it softer from now on.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">ELIZABETH INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Cass]: Do you wanna talk about your time with the FFI?</div></li><li class="li1"><div class="de1">[Elizabeth]: ᵘᵐᵐᵐ</div></li><li class="li1"><div class="de1">[Cass]: Please sweetie, ya gotta speak up a little.</div></li><li class="li1"><div class="de1">[Elizabeth]: I’d r-rather not…</div></li><li class="li1"><div class="de1">[Cass]: Well… you wanna tell me about things that have happened since then?</div></li><li class="li1"><div class="de1">[Elizabeth]: I can do t-that.</div></li><li class="li1"><div class="de1">[Cass]: Can ya start by telling me a smidge about your friends?</div></li><li class="li1"><div class="de1">[Elizabeth]: Um, well I’d like to think we’re friends… I’m not sure if that’s how the others see it.</div></li><li class="li1"><div class="de1">[Cass]: Don’t sweat it little one, just considering y’all are still moving together says something.</div></li><li class="li1"><div class="de1">[Elizabeth]: Thanks, I try to keep things c-civil.</div></li><li class="li1"><div class="de1">[Cass]: Is that a tough job?</div></li><li class="li1"><div class="de1">[Elizabeth]: N-not always. But Heba and Bonolo are always fighting… and Sandra is always pushing Anon around… a-and Skylar won’t stop making… insensitive comments… and-</div></li><li class="li1"><div class="de1">[Cass]: Okay that’s enough of that, anything good to say?</div></li><li class="li1"><div class="de1">[Elizabeth]: Um, Sandra is nice even if she doesn’t show it. She’s trying to watch out for everyone, wh-which can’t be easy.</div></li><li class="li1"><div class="de1">[Cass]: I can imagine it‘s hard. Don’t mind me asking, but any of you got a plan other than not being found?</div></li><li class="li1"><div class="de1">[Elizabeth]: …</div></li><li class="li1"><div class="de1">[Elizabeth]: I guess not.</div></li><li class="li1"><div class="de1">[Cass]: Well if you ask me, y’all should get out of the US, ASAP.</div></li><li class="li1"><div class="de1">[Elizabeth]: Go t-to Mexico?</div></li><li class="li1"><div class="de1">[Cass]: Oh no, they got that border tied down, if I were you I’d be headin’ north.</div></li><li class="li1"><div class="de1">[Elizabeth]: So Canada?</div></li><li class="li1"><div class="de1">[Cass]: Might as well try heading somewhere if you’re going to be running around the country.</div></li><li class="li1"><div class="de1">[Elizabeth]: I guess so, as long as I’m not going alone I’ll be okay.</div></li><li class="li1"><div class="de1">[Cass]: That’s true, things’re always better when you’ve got someone besides ya…</div></li><li class="li1"><div class="de1">[Elizabeth]: You don’t l-look happy about that, did I say something wron-wrong?</div></li><li class="li1"><div class="de1">[Cass]: No, it’s…it’s fine. It’s nothing.</div></li><li class="li1"><div class="de1">[Cass]: Ta’ change the subject… Have you had any run-ins with the authorities?</div></li><li class="li1"><div class="de1">[Elizabeth]: Oh! No we haven’t actually… w-we’re always talking about it, but we haven’t SEEN anyone coming after us.</div></li><li class="li1"><div class="de1">[Cass]: Well that’s strange, I coulda sworn I’ve heard a lotta stories about suspicious black vans comin’ around these parts.</div></li><li class="li1"><div class="de1">[Elizabeth]: Nothing l-like that happened… we did have a truck tailing us for a long time though.</div></li><li class="li1"><div class="de1">[Cass]: And what happened there?</div></li><li class="li1"><div class="de1">[Elizabeth]: I told her not to, but Heba rolled down the w-window and… Gave them the ᵇᶦʳᵈ.</div></li><li class="li1"><div class="de1">[Cass]: You don’t gotta censor yourself honey… I’m also lackin’ any feathers to feel offended by that.</div></li><li class="li1"><div class="de1">[Elizabeth]: Sorry…</div></li><li class="li1"><div class="de1">[Cass]: No it’s fine, what happened next?</div></li><li class="li1"><div class="de1">[Elizabeth]: Well, the driver was a crow…</div></li><li class="li1"><div class="de1">[LAUGHTER]</div></li><li class="li1"><div class="de1">[Cass]: Oh come on now, that’s funny!</div></li><li class="li1"><div class="de1">[Elizabeth]: He sure didn’t think it was.</div></li><li class="li1"><div class="de1">[Cass]: Well I’m sorry for laughing, did the crow do something?</div></li><li class="li1"><div class="de1">[Elizabeth]: No, they just got into a shouting match, and afterw-wards her and Bonolo got into a fight over it.</div></li><li class="li1"><div class="de1">[Cass]: It sure doesn’t sound like it’s ever quiet for y’all.</div></li><li class="li1"><div class="de1">[Elizabeth]: You’re right about that.</div></li><li class="li1"><div class="de1">[Cass]: Oh, I remember when this old place wasn’t so quiet… but now I’ve got all of you bringing a bit of life back.</div></li><li class="li1"><div class="de1">[Elizabeth]: I’m sure even Sandra would like to stay longer, e-even if she’s mad at you right now. It’s really too bad we have to leave soon.</div></li><li class="li1"><div class="de1">[Cass]: Well I wont keep ya waiting, I’ll talk to that feisty feline of yours next.</div></li><li class="li1"><div class="de1">[Elizabeth]: Okay.</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #088: Thursday</div></li><li class="li1"><div class="de1">	I think we’re starting to get a bit of the bigger picture here people. But understand, as much as I want to pour all yer questions on these folks, I just don’t think they could take it. Besides, they’re still on the run, I really shouldn’t be troubling them like this anyhow. I’m sure none of y’all could bear with making these people feel any worse, so I’m not going to go prying real hard.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">BONOLO INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Cass]: Now I’ve been waiting to talk to you, you’re a scrappy one.</div></li><li class="li1"><div class="de1">[Bonolo]: Is this a compliment?</div></li><li class="li1"><div class="de1">[Cass]: I’d like if you took it that way.</div></li><li class="li1"><div class="de1">[Bonolo]: You too are also, scrappy? </div></li><li class="li1"><div class="de1">[Cass]: Well thanks… It doesn’t sound like you’re from anyplace nearby, where’d you come from?</div></li><li class="li1"><div class="de1">[Bonolo]: Oh, I come from Floreedah, like the others.</div></li><li class="li1"><div class="de1">[Cass]: No, no, I mean from before the whole FFI business.</div></li><li class="li1"><div class="de1">[Bonolo]: Ah, the FFI. They trick me.</div></li><li class="li1"><div class="de1">[Cass]: Whaddya mean?</div></li><li class="li1"><div class="de1">[Bonolo]: I wished to go to America, my sisters praised it as a bountiful land.</div></li><li class="li1"><div class="de1">[Cass]: So you came from a whole ‘nother country? I thought they was only doing this in the US of A?</div></li><li class="li1"><div class="de1">[Bonolo]: You are not wrong, I come from the savanna, a land which held little for my family. I came in search of new start.</div></li><li class="li1"><div class="de1">[Cass]: What? Did they nab ya right off the boat here?</div></li><li class="li1"><div class="de1">[Bonolo]: No I was on no boat.</div></li><li class="li1"><div class="de1">[Cass]: So what happened to ya then?</div></li><li class="li1"><div class="de1">[Bonolo]: I was approached by a well dressed man. He offered me much. Said I could come to America without hassle of many papers. I need only sign a single paper.</div></li><li class="li1"><div class="de1">[Cass]: Where did this happen exactly?</div></li><li class="li1"><div class="de1">[Bonolo]: In my homeland, where I was taking medicinal tests to leave.</div></li><li class="li1"><div class="de1">[Cass]: So you’re tellin’ me they’ve been taking women from across the water? They probably got a hold of yer’ DNA tests, amiright?</div></li><li class="li1"><div class="de1">[Bonolo]: I do not know. I only know I was chosen for “special passage.” My family was so happy when they heard…</div></li><li class="li1"><div class="de1">[Cass]: …</div></li><li class="li1"><div class="de1">[Bonolo]: Instead I was shipped across the ocean, only to be restrained and brought into isolation.</div></li><li class="li1"><div class="de1">[Cass]: Did they starve all of you in there?</div></li><li class="li1"><div class="de1">[Bonolo]: No.</div></li><li class="li1"><div class="de1">[Cass]: Then how did you end up as a bag of bones? …no offense.</div></li><li class="li1"><div class="de1">[Bonolo]: I understand, but I became this way after the escape. In the rush I left with no plan, only a spotted sister from my homeland. We shared the same native tongue, so we fled.</div></li><li class="li1"><div class="de1">[Cass]: And where is she now?</div></li><li class="li1"><div class="de1">[Bonolo]: I would prefer not to talk about this…</div></li><li class="li1"><div class="de1">[Cass]: Okay, I’ve learned enough today about pushing too hard.</div></li><li class="li1"><div class="de1">[Cass]: You know it’s strange though, the way you seem to get along with anon I figured he had been with you since the breakout.</div></li><li class="li1"><div class="de1">[Bonolo]: Anon is very nice man, he was the one who accepted me first.</div></li><li class="li1"><div class="de1">[Cass]: Oh, well isn’t that sweet.</div></li><li class="li1"><div class="de1">[Bonolo]: He is very kind, I would not be able to walk if he hadn’t watched over me like he has. I’m confident he will make a good father.</div></li><li class="li1"><div class="de1">[Cass]: Father?</div></li><li class="li1"><div class="de1">[Bonolo]: Why yes, the others tell me he is also the father of their children.</div></li><li class="li1"><div class="de1">[Cass]: ALL OF YOU?</div></li><li class="li1"><div class="de1">[Bonolo]: Yes.</div></li><li class="li1"><div class="de1">[Cass]: Jesus Christ…</div></li><li class="li1"><div class="de1">[Bonolo]: I do not know this man.</div></li><li class="li1"><div class="de1">[Cass]: That’s not important… look, is he really the father? I know from experience a human ain’t getting any of y’all pregnant.</div></li><li class="li1"><div class="de1">[Bonolo]: From what I understand, that was the purpose of the place they kept us.</div></li><li class="li1"><div class="de1">[Cass]: Oh lord… I… I guess that was what the others were getting’ at this whole time. It also explains why so many stories are about missing women… </div></li><li class="li1"><div class="de1">[Cass]: I can see why the hyena didn’t want to talk about it.</div></li><li class="li1"><div class="de1">[Bonolo]: This shocks me, the hyena never ceases to speak.</div></li><li class="li1"><div class="de1">[Cass]: Are you two really fighting each other over species still? Don’tcha got kids to worry about?</div></li><li class="li1"><div class="de1">[Bonolo]: We cannot worry about the child yet if we are not safe, that must come first. And that sneaky dog is the most likely to bring us hardship.</div></li><li class="li1"><div class="de1">[Cass]: Look, I sure as hell can’t tell you your own business, but things’ll be a whole lot easier if ya’ work together.</div></li><li class="li1"><div class="de1">[Bonolo]: I understand this, it is why I tolerate her, even if mother told me to stay far away from her kind.</div></li><li class="li1"><div class="de1">[Cass]: Okay, I still gotta process what you said earlier, just… I don’t think any of ya’ can afford to be fighting like that.</div></li><li class="li1"><div class="de1">[Bonolo]: Bonolo understands… and thanks you for the hospitality you have shown us.</div></li><li class="li1"><div class="de1">[Cass]: Don’t worry about it, I’m sure all of ya’ needed it after so much time on the backroads.</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #089: Thursday</div></li><li class="li1"><div class="de1">	Oh my, I don’t think I’ve ever uploaded so darn much in one day. But this is real important truth coming out, and I’d hate for any of ya to miss it.  The connection ain’t too good here, so you’ll have to forgive me if too much time is going between these. We’re down to the last two so it shouldn’t be that much longer.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">SKYLAR INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Cass]: So I gather that y’all escaped from that place, right?</div></li><li class="li1"><div class="de1">[Skylar]: Right.</div></li><li class="li1"><div class="de1">[Cass]: I can’t believe I haven’t asked anybody this yet, but how?</div></li><li class="li1"><div class="de1">[Skylar]: Well, I can’t really give a good answer. One day, all the locks automatically opened, and the sirens started blaring.</div></li><li class="li1"><div class="de1">[Cass]: But, you’re saying it was a big break out?</div></li><li class="li1"><div class="de1">[Skylar]: I mean, a lot got out of their rooms, but I have no idea how many actually got out of the building.</div></li><li class="li1"><div class="de1">[Cass]: No idea? Though you are implyin’ more got out?</div></li><li class="li1"><div class="de1">[Skylar]: Probably, I couldn’t tell you.</div></li><li class="li1"><div class="de1">[Cass]: Oh, well that’s an important detail. Maybe some of us should be searchin’ out there…</div></li><li class="li1"><div class="de1">[Skylar]: Ah, I wouldn’t worry about it. It was mostly mammals in there, and I’m sure those that did get out were because of hairless benefactors like us, am I right?</div></li><li class="li1"><div class="de1">[Cass]: Come on now, hair isn’t so bad. I know that even if I don’t got any.</div></li><li class="li1"><div class="de1">[Skylar]: Oh yeah? What’s so good about it?</div></li><li class="li1"><div class="de1">[Cass]: Hm, well for starters the way it can smell all nice with the right shampoo…</div></li><li class="li1"><div class="de1">[Skylar]: Gross.</div></li><li class="li1"><div class="de1">[Cass]: Or maybe the way you can run your hands through it…</div></li><li class="li1"><div class="de1">[Skylar]: …yeah?</div></li><li class="li1"><div class="de1">[Cass]: Or the cute way it sticks up all kinds of funny angles when they get up outta bed…</div></li><li class="li1"><div class="de1">[Skylar]: …</div></li><li class="li1"><div class="de1">[Cass]: Hey now, if I didn’t know any better, I’d say the real fire in this ant was across her face!</div></li><li class="li1"><div class="de1">[Skylar]: Shut up you fuzzer lover!</div></li><li class="li1"><div class="de1">[Cass]: Now don’t go getting mad at me, I had a hornet for a roommate and I could read her like a book.</div></li><li class="li1"><div class="de1">[Skylar]: We’re done here!</div></li><li class="li1"><div class="de1">[Cass]: Oh, now don’t go running away!</div></li><li class="li1"><div class="de1">[Skylar]: ʸᵒᵘ&#039;ʳᵉ ʲᵘˢᵗ ᵃˢ ᵇᵃᵈ ᵃˢ ᵗʰᵉ ʳᵉˢᵗ ᵒᶠ ᵗʰᵉᵐ</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #090: Thursday</div></li><li class="li1"><div class="de1">	Okay folks, this is the last interview I got for ya’. It ain’t perfect but I’m uploading it anyway. Think maybe there was some kind of microphone problem or something on my end. Just uh, just ignore anything strange innit.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">ANON INTERVIEW.MP3</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">{AUDIO TRANSCRIPT OPTION SELECTED}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Anon]: So you got the phone working alright?</div></li><li class="li1"><div class="de1">[Cass]: Yessir, thankya for showing me.</div></li><li class="li1"><div class="de1">[Anon]: It’s no problem, what did you want to ask?</div></li><li class="li1"><div class="de1">[Cass]: Well I…</div></li><li class="li1"><div class="de1">[Cass]: …</div></li><li class="li1"><div class="de1">[Cass]: I just needed to ask this…</div></li><li class="li1"><div class="de1">[Anon]: Yeah?</div></li><li class="li1"><div class="de1">[Cass]: Did.. did you meet anyone named Joshua inside that place?</div></li><li class="li1"><div class="de1">[Anon]: Well I don’t thin-</div></li><li class="li1"><div class="de1">[Cass]: Or Josh, he sometimes goes by Josh? He’s a little human fella like you. Black hair?</div></li><li class="li1"><div class="de1">[Anon]: I’m sorry, the only people I saw were other women… and I really don’t want to talk about-</div></li><li class="li1"><div class="de1">[Cass]: Please, you must have seen him. He’s the sweetest guy you’ll ever meet. I’m sure if you met him you’d remember him!</div></li><li class="li1"><div class="de1">[Anon]: Look, I really don’t think I saw anyone like that. I didn’t even see another guy beyond the occasional creepy doctor or guard.</div></li><li class="li1"><div class="de1">[Cass]: Are you sure? Not even during the big breakout? You could’ve just missed ‘im in the rush!</div></li><li class="li1"><div class="de1">[Anon]: I-it’s possible. I mean the place was massive. I might have seen less than half the people there.</div></li><li class="li1"><div class="de1">[Cass]: …</div></li><li class="li1"><div class="de1">[Cass]: I’ve just been… thinking about all the stuff y’all have told me…</div></li><li class="li1"><div class="de1">[Anon]: …</div></li><li class="li1"><div class="de1">[Cass]: And I just have this thought of him…</div></li><li class="li1"><div class="de1">[Cass]: Just… ending up like your lion friend did running away…</div></li><li class="li1"><div class="de1">[Cass]: Lying in a ditch somewhere…</div></li><li class="li1"><div class="de1">[Cass]: Cold, and hungry, so lonely…</div></li><li class="li1"><div class="de1">[Anon]: I’m sure he’s fine wherever he-</div></li><li class="li1"><div class="de1">[Cass]: You don’t KNOW that!</div></li><li class="li1"><div class="de1">[Cass]: None of us know that…</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[MUFFLED SOBBING]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Anon]: Please I don-</div></li><li class="li1"><div class="de1">[Cass]: We were gonna have a life together…</div></li><li class="li1"><div class="de1">[Cass]: We talked about getting married…</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[CRYING CONTINUES]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Anon]: I’m sorry…</div></li><li class="li1"><div class="de1">[Anon]: I’ll uh, just shut this off…</div></li><li class="li1"><div class="de1">[Cass]: …</div></li><li class="li1"><div class="de1">[Cass]: …no, ya don’t have to do that.</div></li><li class="li1"><div class="de1">[Cass]: All these girls just got me thinking about when my bed wasn’t so empty.</div></li><li class="li1"><div class="de1">[Anon]: Oh… </div></li><li class="li1"><div class="de1">[Cass]: Just promise this girl one thing?</div></li><li class="li1"><div class="de1">[Anon]: What?</div></li><li class="li1"><div class="de1">[Cass]: Don’t leave none of these girls behind.</div></li><li class="li1"><div class="de1">[Cass]: They may not want to show it, but it’s obvious to a gal like me they need some like you alongside them.</div></li><li class="li1"><div class="de1">[Anon]: Thank you.</div></li><li class="li1"><div class="de1">[Anon]: I think I needed to hear that from someone.</div></li><li class="li1"><div class="de1">[Cass]: Well you better, otherwise I’ll treat all of y’all to a shotgun wedding.</div></li><li class="li1"><div class="de1">[Cass]: If I can’t get married you better damn well.</div></li><li class="li1"><div class="de1">[LAUGHTER]</div></li><li class="li1"><div class="de1">{END OF AUDIO TRANSCRIPT}</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #091: Friday</div></li><li class="li1"><div class="de1">	They left yesterday. I’m sad ta’ see them go, but I know I couldn’tve held them any longer. Waved ‘em off in their freshly painted van. And don’t go asking me what color it was (looking at you feistyflamingo89!!), my mouth is sealed! I gave ‘em all some “payment” for their troubles with what stuff I could scrounge up. One even asked for some writing stuff. Maybe this won’t be the last we hear of ‘em? But uh, might be for the best if we don’t. Either way I hope all you fellow truth seekers are listening to those interviews by yours truly, because this is some big discoveries. I’ll be setting up an event on the facebook group to see if we can find any escapees soon. Hope to see ya’ there!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">UPDATE #096: Monday</div></li><li class="li1"><div class="de1">	I’ve received some unexpected visitors today. They tell me I gotta delete “The Eye on the FFI”. But not before I have to say:</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I, Cassandra Brooks, admit ‘The Eye on the FFI’ is entirely a work of fiction and/or satire, and I officially apologize for impeding legal procedures.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	I’m sorry everyone, but y’all have to move onto to somewhere else. Looks like this gator won’t be typing anything out for a long while. In fact, with the way they talked, I’m starting to think staying anywhere but here will be a good idea.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">So damn it all.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Josh, if you’ve somehow managed to read this like I like to think sometimes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Ol’ Cass is coming for ya’</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">===========================================================
-THE EYE ON THE FFI – Keeping watch on our shady government
-===========================================================
-
-About “The Eye on the FFI”: We are a community dedicated to finding the TRUTH about what our so called “democracy” has been up to in the shadows. We have overwhelming suspicion that the United States government has been participating in nefarious deeds just behind our backs, under the guise of the Federal Fertility Initiative. We have more than a DOZEN stories about loved ones disappearing into the night, just to join the FFI? Well we don’t believe it. We will remain STRONG and refuse to bend to what the media has to say.
-
-FAQs
-Q: I’ve also heard about the wrongdoings of the FFI, where can I join?
-A: Right here pardner! Just hit the comment sections and talk with our brigade of truth-seekers.
-Q: What does The Eye on the FFI hope to accomplish??
-A: We hope to reveal the truth that the higher ups have hidden from us, and we will not rest until this scheme is exposed!
-Q: Who Runs The Eye on The FFI???
-A: Well, I’m just a southern gator looking for what they’ve been hiding. Name’s Cassandra but feel free to call me Cass. I’m headquartered in the heart of Georgia, and I’ve been fighting against the corruption ever since they took my poor Joshua away. Miss u Joshie!
-
-Update #084: Wednesday
-	None of you fellow truth-hunters are going to believe me, but I have stumbled on genuine PROOF the FFI has been up to no good.
-
-	It all began when I was hunting for a little extra supper off the land. A real girl’s gotta be able to make dinner from the wild game! But when I was rounding the creek, I knew something was off about the place. Fog was thick that morning. Thick enuff you couldn’t see your own hand in front of your face! So like I said, I was creeping through the thickets when I heard a strange noise. Nothing like anything I had ever heard ‘round these parts. I tilted my head to hear something just “CHUG CHUG CHUGGIN” away in the distance. Getting low to the ground I thought I knew what it was, some kind of engine, maybe even a truck. I thought to myself, “Those damn FFI bastards have finally stepped up their game, come to silence me (and all you lovely listeners) once and for all!” Well I wouldn’t go so easily, so I moved real quiet-like, as if I was sneaking up on a real finicky white-tail. As I moved closer, I parted the reeds and used my handy scope to get a better look at the trespassers.
-
-	Only I didn’t find no big black van like many of y’all have mentioned, instead I saw a rusted hunk of junk, twisting and turning against the thick mud. Well it wasn’t exactly what I expected, but I didn’t let my guard down, maybe they were sneaking around in vans like that just to get me by surprise. Only these government hit men had made a mistake, thinking a city-slicker tin box like that could handle real off-road riding. I took a real good look through my scope and by hell, even with the fog, I could see at least four shadows moving around inside that thing! They had brought a whole squad to take me down! I looked around the scene to see if anymore were lurking, and sure enuff I could see a little humie walking circles ‘round the stuck van. I was ready to take action, these trespassers were on MY property, and I had a right to defend myself. Only when I was lining the warning shot up, I must have moved too much. I reckon they heard me shifting around.
-
-	Before I knew it, some crazy cat was jumping right at me, must have snuck up right behind me. She hollered something like, “Anon, move away!” before she started thrashing at me. Let me tell ya, she might have looked sickly thin, but those claws would have hurt plenty. Thank god my scaled behind is thicker than my head, otherwise I wouldn’tve had the time to hold her back and think about what she yelled. “Anon?” I thought. Well, that was the name of the suspect the FFI had been asking around about (thank u FeistyFlamingo89 for sharing details about that by the way). If I remembered right, she said the journal mentioned a beat-up van, a cat, and a whole lot of other runners. Pulling off the boney cat best as I could I shouted to the confused fella “You the one I heard about?” I never was a wordsmith though, and that probably wasn’t the best for introductions. At least it had that kitty confused enough to finally stop thrashing around. About then I remembered I was just pointing a gun a second ago, so I made sure to put it down real slow. “Did y’all really bust outta the FFI and write a journal about it?” He didn’t seem to get it at first, just echoing, “Journal?” like he’d been hit on the head.
-
- 	It took a couple of minutes, but we got things straight between the three of us. Big cat kept prowling around my back, but it looks like a stiff breeze coulda thrown her, so I wasn’t real worried. Anon says he completely forgot about the journal after his friend chucked it out the window. He didn’t seem too happy about that, especially the fact the authorities had been spreading it around. Before he could get all antsy again, I bragged a little, said I was part of the resistance against the FFI. That perked him right up, and he mellowed his friend behind me. If I remembered the story right, he had at least four more buddies trying to get that van moving, so I let him talk to them for me. Also told him I could give their muck stuck van a lift. Perks of having a massive truck like I do. Took me more than an hour to hike back home and find em in my ride, but I got em out of the pit without a problem. The gaggle inside the van seemed less excited, but after a bit of chatting they agreed to come back home with me. They probably wouldn’t a’ even came along if they hadn’t looked so run-down. Guess time on the run makes even a stranger like me appealing.
-
-	So right now as I type on my little machine, they’re unpacking what little they got in the next room. Wanna wrap this up quick so I can help them out. Their van needs a lot of work, the bigger ones really need some fitting clothes, and that lion is really in need of a home cooked meal. Luckily for them I got some spare clothes lyin’ around and I’ve been fixing to cook for someone other than myself for the first time in months.
-
-	I’ll keep y’all updated, we’re on the verge of a breakthrough here folks. None of ‘em are really in the mood to talk yet, but I’ll tell ya what I hear.
-
-UPDATE #085: Thursday
-	Okay, seems like some good food and a hot shower was enough to get them feeling more friendly with me. I got talkin’ with the human one and he says I can upload something called “empeethrees” from my phone. Never knew much about these sorts of things, but it sounds like y’all be able to listen to the real deal and hear my conversations with them. Trust me, if I had to type it all out with my claws on this computer, it’d be a week before I could share any of this. Josh always said this damn keyboard wasn’t meant for a woman of my size. Same goes for the newfangled phone I kept from him. Anon here had to show me how to even work it. But I’ll put up with this damned tiny technology, it’s the only way I can share the BONAFIED truth with all of you, and we are on the brink of something BIG here ladies and gents.
-
-SANDRA INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Cass]: …Is it working? The little bar is moving so I think it’s started…
-[Sandra]: I still can’t thank you enough for the clothes, my fin was busting out of the othe-
-[Cass]: OH, it’s working! Let’s get this started, I’m sure all of us at “The Eye on The FFI” want to hear from someone who really was on the inside!
-[Sandra]: Are you sure this is a good idea? I still have to teach Anon a lesson for making that stupid lead you said the police found.
-[Cass]: We NEED the truth to get out there, and besides, ain’t nothing they can really use in there. They know y’all are gone, and far as I hear, the most they coulda got out of it was that you’ve been riding around in that beat-up van of yours.
-[Sandra]: You said something about helping us with that problem… it’s the only reason I agreed to this recording.
-[Cass]: YEAH, yeah, I got a lot of paint in the garage. Figure we could all work together and paint it up, make it look real different. I was thinking we should paint it in-
-[Sandra]: STOP! If you’re going to put this on the internet you can’t say what color it’s going to be… God, I knew this was a bad idea…
-[Cass]: Look, I’m real sorry, I’ll just get to the real questions.
-[Sandra]: How many people are you sharing this with anyway?
-[Cass]: Well… the Facebook group I made has over 34 members last time I checked…
-[Sandra]: This might not be a problem then…
-[Cass]: Wassat?
-[Sandra]: Just, give me the first question already.
-[Cass]: Okay, first question I think all of us would like to know. Why did the FFI take you away?
-[Sandra]: …
-[Sandra]: They never said why. I’m sure you’ve seen the wad of legal papers they mail. Apparently something to do with genetics.
-[Cass]: Yeah, I still got the letter they sent me.
-[Sandra]: You got one of those and you’re still here?
-[Cass]: Well no, it was meant for somebody else…
-[Sandra]: I’m sorry… was it someone you knew?
-[Cass]: You’re damn right, but that’s another story, and I don’t think anyone needs to hear it. So lemme get back to the questions. 
-[Cass]: So what did you spend your time doing in there?
-[Sandra]: It was like a prison, it was rare we ever saw the outside of those damn cells.
-[Cass]: If they wanted ta’ just hold you captive they would have sent you straight to jail. Surely more goes on in there?
-[Sandra]: Yes, a lot more. They were always doing medical tests, creepy men in lab coats always chaining me down and poking, prodding…
-[Cass]: Do you have any idea what sorta tests they were doing? Any idea at all?
-[Sandra]: They did all sorts of stuff… measuring me like a piece of meat, force feeding me all kinds of pills, an array of syringes… and…
-[Cass]: And what?
-[Sandra]: ….
-[Sandra]: They did a lot of ultrasounds… almost every night.
-[Cass]: Now what in the hell were they giving you ultrasounds for? Makes it sound like you were pregnant.
-[Sandra]: …
-[Cass]: I’m joking, I know you don’t got a bun in the oven.
-[Sandra]: ….
-[Cass]: Oh, please don’t tell me…
-[INDISTINCT CLATTERING]
-[Sandra]: I’m done here!
-[Cass]: Now come on back, I-
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #086: Thursday
-	I’m sorry about the last one folks, that didn’t go quite as planned. But I’m sure most of you understand these people are real tense after what they’ve been through. They’ve also gotta understand the truth needs to be found, so I’ve kept asking my questions even after the incident.
-
-HEBA INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Heba]: Hey, I always wanted to get on a talk show! [LAUGHTER]
-[Cass]: I like you, you’re a lot more eager than your friend who stormed off.
-[Heba]: Don’t worry, she’s always that much fun.
-[Cass]: Well I don’t know… she only got that way when I asked about her, uh ultrasounds.
-[Heba]: Far as I can tell those assholes did that to all of us.
-[Cass]: All of you? I understand your shark friend, er Sandra, might’ve been taken away pregnant, but all of you?
-[Heba]: Oh no, none of us came that way honey.
-[Cass]: So… you’re saying you ALL got that way after coming in?
-[Heba]: Some of us later than others, explains why I still have my girlish figure. [STRAINED LAUGHTER]
-[Cass]: So you’re trying to say all of y’all were kidnapped justa have babies? I knew the place has “fertility” in the name but… it doesn’t gotta mean making babies.
-[Heba]: Yeah it’s a real riot, but can we change the subject, like how I make your old clothes great?
-[Cass]: Now waitta minute… If they’re getting everyone pregnant, why would they take a man like Jo- like Anon?
-[Heba]: Do I really have to explain the birds and the bees to you girl? You’re older than I am. [FORCED CHUCKLE]
-[Cass]: Let me get this straight, you were all made to… fornicate? In there? Am I hearing you right?
-[Heba]: “Fornicate,” is very generous, more like tied and gagged.
-[Cass]: Why… What would anyone get out of that?
-[Heba]: Well I sure as hell don’t know! Why the FUCK would anyone set up a fuck factory like that?
-[Cass]: I c-can’t tell you why, I’m just trying to getta bit of the bigger picture here, I-
-[Heba]: Well I don’t give a SHIT about the bigger picture here, I’m on the run while carrying some kid I never asked for, you think that’s fun?
-[Cass]: Okay, calm down now. I’m not tryin’ to make things worse here.
-[Heba]: Worse? It’s already pretty fucking terrible. I’ve been eating oranges in the back of a van with some tribal lion shit-talking me for the last week.
-[Cass]: …
-[Cass]: At least you won’t be getting scurvy anytime soon…
-[Heba]: [WEAK LAUGHTER]
-[Cass]: We can talk about something else… I’ll just shut this thing off.
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #087: Thursday
-	I must apologize people, I feel like I’m pushing these folks too hard for information. I’ll just try to take things easier. It sounds like they don’t know a lot about what happened to them anyway. So I’m taking it softer from now on.
-
-ELIZABETH INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Cass]: Do you wanna talk about your time with the FFI?
-[Elizabeth]: ᵘᵐᵐᵐ
-[Cass]: Please sweetie, ya gotta speak up a little.
-[Elizabeth]: I’d r-rather not…
-[Cass]: Well… you wanna tell me about things that have happened since then?
-[Elizabeth]: I can do t-that.
-[Cass]: Can ya start by telling me a smidge about your friends?
-[Elizabeth]: Um, well I’d like to think we’re friends… I’m not sure if that’s how the others see it.
-[Cass]: Don’t sweat it little one, just considering y’all are still moving together says something.
-[Elizabeth]: Thanks, I try to keep things c-civil.
-[Cass]: Is that a tough job?
-[Elizabeth]: N-not always. But Heba and Bonolo are always fighting… and Sandra is always pushing Anon around… a-and Skylar won’t stop making… insensitive comments… and-
-[Cass]: Okay that’s enough of that, anything good to say?
-[Elizabeth]: Um, Sandra is nice even if she doesn’t show it. She’s trying to watch out for everyone, wh-which can’t be easy.
-[Cass]: I can imagine it‘s hard. Don’t mind me asking, but any of you got a plan other than not being found?
-[Elizabeth]: …
-[Elizabeth]: I guess not.
-[Cass]: Well if you ask me, y’all should get out of the US, ASAP.
-[Elizabeth]: Go t-to Mexico?
-[Cass]: Oh no, they got that border tied down, if I were you I’d be headin’ north.
-[Elizabeth]: So Canada?
-[Cass]: Might as well try heading somewhere if you’re going to be running around the country.
-[Elizabeth]: I guess so, as long as I’m not going alone I’ll be okay.
-[Cass]: That’s true, things’re always better when you’ve got someone besides ya…
-[Elizabeth]: You don’t l-look happy about that, did I say something wron-wrong?
-[Cass]: No, it’s…it’s fine. It’s nothing.
-[Cass]: Ta’ change the subject… Have you had any run-ins with the authorities?
-[Elizabeth]: Oh! No we haven’t actually… w-we’re always talking about it, but we haven’t SEEN anyone coming after us.
-[Cass]: Well that’s strange, I coulda sworn I’ve heard a lotta stories about suspicious black vans comin’ around these parts.
-[Elizabeth]: Nothing l-like that happened… we did have a truck tailing us for a long time though.
-[Cass]: And what happened there?
-[Elizabeth]: I told her not to, but Heba rolled down the w-window and… Gave them the ᵇᶦʳᵈ.
-[Cass]: You don’t gotta censor yourself honey… I’m also lackin’ any feathers to feel offended by that.
-[Elizabeth]: Sorry…
-[Cass]: No it’s fine, what happened next?
-[Elizabeth]: Well, the driver was a crow…
-[LAUGHTER]
-[Cass]: Oh come on now, that’s funny!
-[Elizabeth]: He sure didn’t think it was.
-[Cass]: Well I’m sorry for laughing, did the crow do something?
-[Elizabeth]: No, they just got into a shouting match, and afterw-wards her and Bonolo got into a fight over it.
-[Cass]: It sure doesn’t sound like it’s ever quiet for y’all.
-[Elizabeth]: You’re right about that.
-[Cass]: Oh, I remember when this old place wasn’t so quiet… but now I’ve got all of you bringing a bit of life back.
-[Elizabeth]: I’m sure even Sandra would like to stay longer, e-even if she’s mad at you right now. It’s really too bad we have to leave soon.
-[Cass]: Well I wont keep ya waiting, I’ll talk to that feisty feline of yours next.
-[Elizabeth]: Okay.
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #088: Thursday
-	I think we’re starting to get a bit of the bigger picture here people. But understand, as much as I want to pour all yer questions on these folks, I just don’t think they could take it. Besides, they’re still on the run, I really shouldn’t be troubling them like this anyhow. I’m sure none of y’all could bear with making these people feel any worse, so I’m not going to go prying real hard.
-
-BONOLO INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Cass]: Now I’ve been waiting to talk to you, you’re a scrappy one.
-[Bonolo]: Is this a compliment?
-[Cass]: I’d like if you took it that way.
-[Bonolo]: You too are also, scrappy? 
-[Cass]: Well thanks… It doesn’t sound like you’re from anyplace nearby, where’d you come from?
-[Bonolo]: Oh, I come from Floreedah, like the others.
-[Cass]: No, no, I mean from before the whole FFI business.
-[Bonolo]: Ah, the FFI. They trick me.
-[Cass]: Whaddya mean?
-[Bonolo]: I wished to go to America, my sisters praised it as a bountiful land.
-[Cass]: So you came from a whole ‘nother country? I thought they was only doing this in the US of A?
-[Bonolo]: You are not wrong, I come from the savanna, a land which held little for my family. I came in search of new start.
-[Cass]: What? Did they nab ya right off the boat here?
-[Bonolo]: No I was on no boat.
-[Cass]: So what happened to ya then?
-[Bonolo]: I was approached by a well dressed man. He offered me much. Said I could come to America without hassle of many papers. I need only sign a single paper.
-[Cass]: Where did this happen exactly?
-[Bonolo]: In my homeland, where I was taking medicinal tests to leave.
-[Cass]: So you’re tellin’ me they’ve been taking women from across the water? They probably got a hold of yer’ DNA tests, amiright?
-[Bonolo]: I do not know. I only know I was chosen for “special passage.” My family was so happy when they heard…
-[Cass]: …
-[Bonolo]: Instead I was shipped across the ocean, only to be restrained and brought into isolation.
-[Cass]: Did they starve all of you in there?
-[Bonolo]: No.
-[Cass]: Then how did you end up as a bag of bones? …no offense.
-[Bonolo]: I understand, but I became this way after the escape. In the rush I left with no plan, only a spotted sister from my homeland. We shared the same native tongue, so we fled.
-[Cass]: And where is she now?
-[Bonolo]: I would prefer not to talk about this…
-[Cass]: Okay, I’ve learned enough today about pushing too hard.
-[Cass]: You know it’s strange though, the way you seem to get along with anon I figured he had been with you since the breakout.
-[Bonolo]: Anon is very nice man, he was the one who accepted me first.
-[Cass]: Oh, well isn’t that sweet.
-[Bonolo]: He is very kind, I would not be able to walk if he hadn’t watched over me like he has. I’m confident he will make a good father.
-[Cass]: Father?
-[Bonolo]: Why yes, the others tell me he is also the father of their children.
-[Cass]: ALL OF YOU?
-[Bonolo]: Yes.
-[Cass]: Jesus Christ…
-[Bonolo]: I do not know this man.
-[Cass]: That’s not important… look, is he really the father? I know from experience a human ain’t getting any of y’all pregnant.
-[Bonolo]: From what I understand, that was the purpose of the place they kept us.
-[Cass]: Oh lord… I… I guess that was what the others were getting’ at this whole time. It also explains why so many stories are about missing women… 
-[Cass]: I can see why the hyena didn’t want to talk about it.
-[Bonolo]: This shocks me, the hyena never ceases to speak.
-[Cass]: Are you two really fighting each other over species still? Don’tcha got kids to worry about?
-[Bonolo]: We cannot worry about the child yet if we are not safe, that must come first. And that sneaky dog is the most likely to bring us hardship.
-[Cass]: Look, I sure as hell can’t tell you your own business, but things’ll be a whole lot easier if ya’ work together.
-[Bonolo]: I understand this, it is why I tolerate her, even if mother told me to stay far away from her kind.
-[Cass]: Okay, I still gotta process what you said earlier, just… I don’t think any of ya’ can afford to be fighting like that.
-[Bonolo]: Bonolo understands… and thanks you for the hospitality you have shown us.
-[Cass]: Don’t worry about it, I’m sure all of ya’ needed it after so much time on the backroads.
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #089: Thursday
-	Oh my, I don’t think I’ve ever uploaded so darn much in one day. But this is real important truth coming out, and I’d hate for any of ya to miss it.  The connection ain’t too good here, so you’ll have to forgive me if too much time is going between these. We’re down to the last two so it shouldn’t be that much longer.
-
-SKYLAR INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Cass]: So I gather that y’all escaped from that place, right?
-[Skylar]: Right.
-[Cass]: I can’t believe I haven’t asked anybody this yet, but how?
-[Skylar]: Well, I can’t really give a good answer. One day, all the locks automatically opened, and the sirens started blaring.
-[Cass]: But, you’re saying it was a big break out?
-[Skylar]: I mean, a lot got out of their rooms, but I have no idea how many actually got out of the building.
-[Cass]: No idea? Though you are implyin’ more got out?
-[Skylar]: Probably, I couldn’t tell you.
-[Cass]: Oh, well that’s an important detail. Maybe some of us should be searchin’ out there…
-[Skylar]: Ah, I wouldn’t worry about it. It was mostly mammals in there, and I’m sure those that did get out were because of hairless benefactors like us, am I right?
-[Cass]: Come on now, hair isn’t so bad. I know that even if I don’t got any.
-[Skylar]: Oh yeah? What’s so good about it?
-[Cass]: Hm, well for starters the way it can smell all nice with the right shampoo…
-[Skylar]: Gross.
-[Cass]: Or maybe the way you can run your hands through it…
-[Skylar]: …yeah?
-[Cass]: Or the cute way it sticks up all kinds of funny angles when they get up outta bed…
-[Skylar]: …
-[Cass]: Hey now, if I didn’t know any better, I’d say the real fire in this ant was across her face!
-[Skylar]: Shut up you fuzzer lover!
-[Cass]: Now don’t go getting mad at me, I had a hornet for a roommate and I could read her like a book.
-[Skylar]: We’re done here!
-[Cass]: Oh, now don’t go running away!
-[Skylar]: ʸᵒᵘ&#039;ʳᵉ ʲᵘˢᵗ ᵃˢ ᵇᵃᵈ ᵃˢ ᵗʰᵉ ʳᵉˢᵗ ᵒᶠ ᵗʰᵉᵐ
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #090: Thursday
-	Okay folks, this is the last interview I got for ya’. It ain’t perfect but I’m uploading it anyway. Think maybe there was some kind of microphone problem or something on my end. Just uh, just ignore anything strange innit.
-
-ANON INTERVIEW.MP3
-
-{AUDIO TRANSCRIPT OPTION SELECTED}
-
-[Anon]: So you got the phone working alright?
-[Cass]: Yessir, thankya for showing me.
-[Anon]: It’s no problem, what did you want to ask?
-[Cass]: Well I…
-[Cass]: …
-[Cass]: I just needed to ask this…
-[Anon]: Yeah?
-[Cass]: Did.. did you meet anyone named Joshua inside that place?
-[Anon]: Well I don’t thin-
-[Cass]: Or Josh, he sometimes goes by Josh? He’s a little human fella like you. Black hair?
-[Anon]: I’m sorry, the only people I saw were other women… and I really don’t want to talk about-
-[Cass]: Please, you must have seen him. He’s the sweetest guy you’ll ever meet. I’m sure if you met him you’d remember him!
-[Anon]: Look, I really don’t think I saw anyone like that. I didn’t even see another guy beyond the occasional creepy doctor or guard.
-[Cass]: Are you sure? Not even during the big breakout? You could’ve just missed ‘im in the rush!
-[Anon]: I-it’s possible. I mean the place was massive. I might have seen less than half the people there.
-[Cass]: …
-[Cass]: I’ve just been… thinking about all the stuff y’all have told me…
-[Anon]: …
-[Cass]: And I just have this thought of him…
-[Cass]: Just… ending up like your lion friend did running away…
-[Cass]: Lying in a ditch somewhere…
-[Cass]: Cold, and hungry, so lonely…
-[Anon]: I’m sure he’s fine wherever he-
-[Cass]: You don’t KNOW that!
-[Cass]: None of us know that…
-
-[MUFFLED SOBBING]
-
-[Anon]: Please I don-
-[Cass]: We were gonna have a life together…
-[Cass]: We talked about getting married…
-
-[CRYING CONTINUES]
-
-[Anon]: I’m sorry…
-[Anon]: I’ll uh, just shut this off…
-[Cass]: …
-[Cass]: …no, ya don’t have to do that.
-[Cass]: All these girls just got me thinking about when my bed wasn’t so empty.
-[Anon]: Oh… 
-[Cass]: Just promise this girl one thing?
-[Anon]: What?
-[Cass]: Don’t leave none of these girls behind.
-[Cass]: They may not want to show it, but it’s obvious to a gal like me they need some like you alongside them.
-[Anon]: Thank you.
-[Anon]: I think I needed to hear that from someone.
-[Cass]: Well you better, otherwise I’ll treat all of y’all to a shotgun wedding.
-[Cass]: If I can’t get married you better damn well.
-[LAUGHTER]
-{END OF AUDIO TRANSCRIPT}
-
-UPDATE #091: Friday
-	They left yesterday. I’m sad ta’ see them go, but I know I couldn’tve held them any longer. Waved ‘em off in their freshly painted van. And don’t go asking me what color it was (looking at you feistyflamingo89!!), my mouth is sealed! I gave ‘em all some “payment” for their troubles with what stuff I could scrounge up. One even asked for some writing stuff. Maybe this won’t be the last we hear of ‘em? But uh, might be for the best if we don’t. Either way I hope all you fellow truth seekers are listening to those interviews by yours truly, because this is some big discoveries. I’ll be setting up an event on the facebook group to see if we can find any escapees soon. Hope to see ya’ there!
-
-.
-.
-.
-.
-.
-
-
-UPDATE #096: Monday
-	I’ve received some unexpected visitors today. They tell me I gotta delete “The Eye on the FFI”. But not before I have to say:
- 
-“I, Cassandra Brooks, admit ‘The Eye on the FFI’ is entirely a work of fiction and/or satire, and I officially apologize for impeding legal procedures.”
-
-	I’m sorry everyone, but y’all have to move onto to somewhere else. Looks like this gator won’t be typing anything out for a long while. In fact, with the way they talked, I’m starting to think staying anywhere but here will be a good idea.
-
-
-So damn it all.
-
-
-Josh, if you’ve somehow managed to read this like I like to think sometimes.
-
-
-Ol’ Cass is coming for ya’</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    23 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    29 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

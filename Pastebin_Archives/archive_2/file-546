@@ -1,600 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Leela - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Leela - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/8ksmmSHE" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/8ksmmSHE" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="9eC2nFAnK7HU7DtQD08ANXZLDOmMExDK5FnW7H3gNdOEzfL1O3JG256uTgQ5J0ZAGX5qmfZJQp2mE7SWK5NRig==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/8ksmmSHE" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/8ksmmSHE" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Encased">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>Leela</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Encased">Encased</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Encased" class="message" title="Send a private message to: Encased"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 18th of July 2020 04:35:05 PM CDT">Jul 18th, 2020</span>
-
-                                            (<span title="Last edit on: Sunday 9th of August 2020 06:00:09 PM CDT">edited</span>)
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    400                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 25.59 KB            </div>
-
-            <div class="right">
-                <a href="/raw/8ksmmSHE" class="btn -small">raw</a>
-                <a href="/dl/8ksmmSHE" class="btn -small">download</a>
-                <a href="/clone/8ksmmSHE" class="btn -small h_800">clone</a>
-                <a href="/embed/8ksmmSHE" class="btn -small h_800">embed</a>
-                <a href="/report/8ksmmSHE" class="btn -small">report</a>
-                <a href="/print/8ksmmSHE" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">[Husky] [first time] [magic] [transformation] [hmofa]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Foreword: I wrote this story about 10 years ago, I do not have a dog, nor do I think feral is cool, ever. I was just inspired by a picture and was reading a lot of fantasy magic books at the time. \Foreword</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">We adopted Leela when Mom got accepted at a local company in a time-consuming  job. Mom and dad wouldn&#039;t be at home most of the time and they wanted to know that I was safe at home, therefore they would adopt a dog, they had said. I got to pick the name and the dog, but I would also have to walk her every day because mom and dad wouldn&#039;t be there to do it. They&#039;d pay for everything the dog would need, I only had to invest some time. Not that I saw it as an investment back then. More like fun time with a pet. I was 12. I didn&#039;t exactly know a lot about dogs, only that they were &quot;man&#039;s best friend&quot; as dad had put it. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">We drove out to an animal shelter somewhere outside of town ( I remember this quite clearly. It really was just a large warehouse in the middle of nowhere.) and went through quite a few rows of silver cages until we passed one with a husky in it. The lady from the shelter that had come with us told us that this female husky was found on a street three days ago. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That didn&#039;t really matter. I just wanted a husky. Huskies were cool. So I told my parents and even though they were wary after hearing how energetic and smart these dogs were, they upheld their promise. </div></li><li class="li1"><div class="de1">I christened her Leela. When we got home, I showed her that she&#039;d sleep right beside my bed and got her her first serving of dog food in our house. I don&#039;t think that I left her alone at all that day. I was all over her. We went to bed completely done for. During the night, she woke me up while trying to howl at the moon. In retrospect, it was really cute. Back then, it was kind of scary. Had I not known what she was doing, I would have ran straight for my parents bedroom. During the next night, after me and dad had gotten into the subject and bought a few books about huskies, I actually joined her. My reward was  facelicking, a bit of wrestling and after that, and a bit of cuddling. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">We were closer than any other human-dog relationship I had ever seen. Except for school, we did everything together. We ate together ( I always tried to sneak a little meat to her), we watched TV together, I told her about my day and she actually seemed to listen very intently. Then she&#039;d babble a little like huskies did and our conversation always ended with an embrace. She always tried to return the favor but her problem was that paws and forelegs don&#039;t work as good as arms and hands when it comes to hugs. What surprised my parents most was that unlike other huskies, who aspire to be escape artists, Leela always stuck close to me. Except for school, she never left my side. We were able to leave doors open and she walked around the house with me and even when I was gone, she stayed inside of our premises. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Then puberty hit me full on. Girls suddenly got a lot more interesting and my body asked for other things as well. The first time I wanted to touch myself in the middle of the night, Leela got up and just stared at me, which made me so uncomfortable that I couldn&#039;t do anything about my boner. </div></li><li class="li1"><div class="de1">In the morning, I decided I&#039;d need to get her to sleep somewhere else. So I moved her bed out of my room and into the kitchen. She gave me a very quizzical look and i felt so bad for her that I spent the rest of the day cuddling with Leela. My parents didn&#039;t comment. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">When I turned 16, I brought my first girlfriend with me. Nobody was going to be at home, or so I thought, until we turned the last corner and both mom and dad&#039;s car were parked in our driveway. I abandoned all hope of getting to have fun with her back then. I couldn&#039;t anticipate what happened next.</div></li><li class="li1"><div class="de1">When we walked in, nobody was at home except for Leela who, as usual, was very happy about me getting back. We had a little ritual for when I got back from school, she&#039;d jump at me, I would catch her, then we&#039;d bump our foreheads and from there on, she usually covered my face with her saliva. This time, she licked my face only twice before staring at my new girlfriend. They hadn&#039;t met before, but I had never thought that this could become a problem. </div></li><li class="li1"><div class="de1">I whispered into Leela&#039;s ear:&quot; hey, this is Jane. She is my girlfriend. Treat her nicely, would you?&quot;</div></li><li class="li1"><div class="de1"> A bad idea in retrospect. Leela jumped off of me and slowly approached Jane with bare fangs and a menacing growl. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Whoa. ... Hey, Jane? Go back outside the door for a sec. Leave it open though!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I stepped in front of Leela and tried to stop her from getting further to Jane who now stood in our driveway. I hadn&#039;t anticipated just how quick huskies can be when she weaseled past my legs and started barking at Jane. Her fangs bared, eyes only visible through slits, her fur upright and with her growl, she must&#039;ve been scaring someone new to dogs shi...speechless. I turned around and threw myself on to her before she could actually attack Jane and pinned her to the ground. She tried to fight me, but I already had my hands clamped around her snout before she could do any harm. I remembered from a movie that biting a huskies ear would stop aggressive behavior, so I asked Jane to do just that. </div></li><li class="li1"><div class="de1">&quot;Hey, get over here and bite into her ear!&quot;</div></li><li class="li1"><div class="de1">&quot;What?!&quot;</div></li><li class="li1"><div class="de1">&quot;It makes her accept you as superior in the hierarchy!&quot;</div></li><li class="li1"><div class="de1">&quot;Are you insane?!&quot;</div></li><li class="li1"><div class="de1">&quot;No, come on, just do it!&quot;</div></li><li class="li1"><div class="de1">&quot;No way! I&#039;m leaving. Don&#039;t talk to me again, freak!&quot;</div></li><li class="li1"><div class="de1"> She turned around and started to walk off. I was extremely frustrated. So I bit into her ear to make sure that she&#039;d stop when I tried to stop her. Unfortunately, she tried to wrestle her head free of my hands with a sudden jerk and slammed my head back, banging my teeth together and causing me to bite off the tip of her right ear. The little bit of bloody dog skin in my mouth felt weird. I spat it out, next to the now completely motionless Leela.</div></li><li class="li1"><div class="de1">I can&#039;t remember how often I apologized to her on that day. She tried to hide from me the next two days, but I found her anyway, in places she had never gone before, like underneath my mom and dads bed and other weird places. I cared only about her back then. I even let her sleep in my bed with me, which is something every dog trainer will tell you not to do because it makes your dog think leadership of your &quot;pack&quot; is up for discussion... It took her over a month to regain her composure.</div></li><li class="li1"><div class="de1">Jane quit the next time I saw her.</div></li><li class="li1"><div class="de1">She also spread the word that I had a very aggressive dog and that I was crazy. Good luck finding a girlfriend that way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Mom and dad didn&#039;t notice something was wrong with Leela&#039;s ear. They usually had little time for me, but they didn&#039;t give two sh... They didn&#039;t care about Leela apart from seeing that she was there and made me happy.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I think it was around that time that I bumped into furries on the Internet. Their art was... Different. But I liked it. And I started to amass a collection of images in a hidden folder on my PC. With time, my collection grew larger and larger, but I knew that I would never admit to anyone else that I was into this stuff, much less get some of the weird toys or other things their world had to offer.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Then, one night, Leela changed the way I saw her forever.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">During the holidays in autumn, my mum and dad were off to work and one day I spent a little longer with my collection than usual. Me and Leela had gotten back from our usual running trip with her still being full of energy (huskies were bred to RUN. They can run at full speed for hours without stopping for a breath. She was no exception.) and me being almost completely wasted. My legs hurt and I desperately wanted to take a shower and then get to bed.</div></li><li class="li1"><div class="de1">I usually ran in the dark, since I liked not meeting anyone in the streets.</div></li><li class="li1"><div class="de1">So I went to get a shower and jerked off to a picture I had just found on the Internet. It&#039;s still one of my all time favorites today, a well built dark zebra with blue hair and massive jugs impaled on a massive cock. Her look is doesn&#039;t show much passion for what she is doing right now, but more for the person that she rides.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">When I got back, my legs felt somewhat better. I had spent more than an hour in the bathroom, the clock was approaching midnight and it was dark outside. Even though the temperatures outside had already dropped quite a lot, below the point where snow usually fell, not a single snowflake had touched the ground this winter. I closed the door and dropped into my bed without switching the light on. Another boner was approaching. I considered wanking it off when something scratched at my door. On the other hand, I could cuddle with my dog.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I got up to open the door. Leela wagged her tail at me and wandered in to my room, jumping up into my bed before tilting her head in that special dog head tilting thing.</div></li><li class="li1"><div class="de1">I closed the door and everything was pitch black. I stumbled back into my bed and hugged her.</div></li><li class="li1"><div class="de1">&quot;Did you feel lonely down there?&quot; I asked her. I didn&#039;t like these goochie-goochie-voices some people used whenever they spoke with a dog. I talked to Leela like I would with any other human. However, even though I treated her that way, I never expected an actual response in verbal form.</div></li><li class="li1"><div class="de1">So her &quot;Yeah...&quot; baffled me. More as a reflex, I replied &quot;What?&quot; and she answered again. &quot;I said yeah. I did feel lonely. So I figured I&#039;d come up here.&quot; Her voice sounded... Odd. She seemed to have a problem with pronunciation, half of the letters of each word got mixed up. I pinched myself. She was still there.</div></li><li class="li1"><div class="de1">&quot;Whoa.&quot;</div></li><li class="li1"><div class="de1">&quot;Whoa??&quot;</div></li><li class="li1"><div class="de1">&quot;Whoa.... I... how... why...&quot;</div></li><li class="li1"><div class="de1">&quot;Okay...&quot;</div></li><li class="li1"><div class="de1">&quot;But... I mean...If you were able to speak, why didn&#039;t you say anything before?&quot;</div></li><li class="li1"><div class="de1">&quot;I didn&#039;t know how you would react. Maybe you&#039;d freak out and send me away, maybe you would actively try to kill me, maybe you would hate me for not telling you earlier that I understood everything you told me. And I didn&#039;t want to be killed, sent somewhere else or have anything bad happen to me. I only witnessed you in an extreme situation once, and I lost the tip of my ear back then.&quot;</div></li><li class="li1"><div class="de1">Thoughts raced through my head. I didn&#039;t know which question to ask first.</div></li><li class="li1"><div class="de1">&quot;How... Why didn&#039;t you...sorry. What made you think I was going to harm you?&quot;</div></li><li class="li1"><div class="de1">Instead of answering, she used a paw to direct my finger to her right ear.</div></li><li class="li1"><div class="de1">&quot;Ohhh...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah. I was almost ready to tell you back then. But instead, you brought that bitch and -&quot;</div></li><li class="li1"><div class="de1">&quot;Bitch?&quot;, I interrupted her. &quot;Why was she a bitch?&quot;</div></li><li class="li1"><div class="de1">&quot;She smelt like one. She was arrogant to the top. She would have put you on a leash, played with you and then dropped you as soon as someone else with more prestige came along. So I had to protect you from her.&quot;</div></li><li class="li1"><div class="de1">&quot;uh... thanks...&quot; </div></li><li class="li1"><div class="de1">A warm feeling flooded my chest. She had tried to protect me...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;re welcome. But you biting off my ear made me question just how attached to me you were. I thought that maybe I was just a toy to you, one that you would exchange for your first girlfriend. I didn&#039;t know whether my secret would be safe with you... And I didn&#039;t know... Well.. whether I was actually important to you...&quot;</div></li><li class="li1"><div class="de1">&quot; Of course not. You are stuck with me until one of us dies, remember?“</div></li><li class="li1"><div class="de1">&quot;thanks...&quot;</div></li><li class="li1"><div class="de1">&quot;Oh, uhm, and what... What made you change your opinion?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;time.... Even though I messed up your first date at home and probably cockblocked you back then, you caressed me and cuddled with me and did everything to make me comfortable around you for more than a week whenever you could. Back then, I thought that you were just getting back to me, but in retrospect I see that you were just sorry for what you did. Also, something much more profane... You left the folder with your collection on furry stuff open a few days ago. I figured that you wouldn&#039;t mind me talking if you were into that stuff... I slept over it for a few nights until the right opportunity presented itself to me and I had built up enough courage to take the step...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I felt blood rushing up into my cheeks. That was a very stupid thing to do. Leave the stuff you want no one to see in plain sight. Fuck.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, uh, well... It&#039;s...&quot;</div></li><li class="li1"><div class="de1">She made a very weird noise. It resembled quiet barking, but it also reminded me of... Laughing. She was laughing. Laughing at me. My cheeks felt like fields of lava.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you... Laughing... at me?&quot;</div></li><li class="li1"><div class="de1">She tried regaining her composure, and on her third try, she managed to calm down.</div></li><li class="li1"><div class="de1">&quot;Yeah, well, you should have smelled yourself right there... look, your secret is safe with me as long as mine are safe with you.&quot; </div></li><li class="li1"><div class="de1">Relief. Lots of it. Whole mountains.</div></li><li class="li1"><div class="de1">&quot;Trust me, no one will ever now about your secret. ... Wait, mine? What else?&quot;</div></li><li class="li1"><div class="de1">&quot; Well, this... And something else. I wasn&#039;t sure whether I should...&quot;</div></li><li class="li1"><div class="de1">&quot;What is it?&quot;</div></li><li class="li1"><div class="de1">&quot;It&#039;s... Different. &#039;Heavy stuff&#039;, your dad would say.&quot;</div></li><li class="li1"><div class="de1">&quot;Are you going to tell me?&quot;</div></li><li class="li1"><div class="de1">&quot;It&#039;s...&quot;</div></li><li class="li1"><div class="de1">She stopped. Her voice was very very quiet when she asked: &quot;Look, I... It&#039;s ... A lot more. And I... This is the part I&#039;m not prepared for...&quot;</div></li><li class="li1"><div class="de1">I replied just as quietly. My thoughts were still trying to break the sound barrier, but she sounded so lost... I felt the need to reassure her.</div></li><li class="li1"><div class="de1">&quot;Hey, if you can&#039;t tell me, that&#039;s fine. Take your time. I don&#039;t mind waiting.&quot;</div></li><li class="li1"><div class="de1">I bumped my forehead against hers.</div></li><li class="li1"><div class="de1">&quot;Mom always wondered why I didn&#039;t bring a lot of friends home. Did I ever tell you that? I don&#039;t think she understood that I had you... &quot;</div></li><li class="li1"><div class="de1">&quot;Thanks...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I could hear the relief in her voice. And a little shame, mixed with awkwardness.</div></li><li class="li1"><div class="de1">&quot;...Okay.&quot; </div></li><li class="li1"><div class="de1">I heard her breathe in.</div></li><li class="li1"><div class="de1">&quot;You don&#039;t have to if you don&#039;t want to...&quot;</div></li><li class="li1"><div class="de1">&quot;I want to. It&#039;s just...&quot; </div></li><li class="li1"><div class="de1">She paused, then started again. </div></li><li class="li1"><div class="de1">&quot;It&#039;s... easier to show you. Uh... Turn around and close your eyes. I&#039;ll tell you when you can turn back.&quot;</div></li><li class="li1"><div class="de1">I complied. Suddenly, soft, blueish light shone around me. It took her about a minute before she asked me to turn on the nightstand lamp and turn back. During that time, the smell of a dog was replaced with something different, something that still contained a slight note of dog, but it also had different elements to it... And it wasn&#039;t just different. I felt my dick getting interested into doing something.</div></li><li class="li1"><div class="de1">Her voice had changed and gotten a bit deeper, and her pronunciation had gotten a bit better. When I turned around, she was covered in the duvet, but the first thing I noticed was that she had long black hair lying around her head on the pillow. The individual strands were about a meter long, with the exception of two white strains that would have framed her face had her head been upright. Now, one of them was right across her face and she blew it away with a breath from her somewhat shorter snout. Her ears had gotten a little larger and protruded out of her hair. Her eyes had at least doubled in size. She struck me as looking... Humanoid.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A hand covered with short fur reached out of the duvet and threw it back behind her so that I could see all of her body.</div></li><li class="li1"><div class="de1">She looked just like I always imagined an anthro would look like in real life. Her body was covered in the same fur that she had when she was a dog. However, it was much shorter than what I was used to. She had a massive set of jugs, and I figured that they were at least DD. They looked firm and round, covered in white fur, slowly lifting up about half a hand&#039;s width below her collarbone, somewhat shaped like a teardrop, with a clear end at the underside where her skin almost turned 90 degrees to rest on her ribcage once more. The had almost no sag to  them, with small patches of skin, not much larger than a bottle cap, for the nipples. Those looked still soft. My eyes wandered further down her body. Her pussy was a thin black line between her legs and incredibly wide hips. I had never seen such hips... They were almost twice as wide as her waspish midsection. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She didn&#039;t have any kind of pubic hair apart from her fur. Her legs were weird, however, until I realized that they were essentially oversized and weirdly proportioned dog legs, packed with muscles. They ended in massive paws. And they were long...</div></li><li class="li1"><div class="de1">Gee, those legs... </div></li><li class="li1"><div class="de1">She looked at me, then stared at a point on the sheets between us and dropped the duvet. It bulged over her massive jugs. She seemed embarrassed. I turned off the light again to keep her from seeing my boner.</div></li><li class="li1"><div class="de1">&quot;Yesterday evening it seemed like a really good idea...&quot;</div></li><li class="li1"><div class="de1">&quot;Showing this to me?&quot;</div></li><li class="li1"><div class="de1">&quot;... Yeah... I mean... Look, I...&quot;</div></li><li class="li1"><div class="de1">I took her left hand off her boobs and squeezed it.</div></li><li class="li1"><div class="de1">&quot;Hmm??&quot;</div></li><li class="li1"><div class="de1">I don&#039;t think I ever felt so tense. It was like being a spring coiled up with nowhere to go. At the same time I was worried about her. She had just shown me her biggest secret and was having trouble saying something, however, I couldn&#039;t guess what she was trying to tell me. She took a deep breath.</div></li><li class="li1"><div class="de1">&quot;Okay, so... What do you think?&quot;</div></li><li class="li1"><div class="de1">She sounded more insecure than anyone I else I had ever met.</div></li><li class="li1"><div class="de1">&quot;You are one of the most beautiful things I have ever seen.&quot;</div></li><li class="li1"><div class="de1">She exhaled and I could hear relief in her voice.</div></li><li class="li1"><div class="de1">&quot;Thanks... You know, I clicked through your folder and couldn&#039;t find any huskies, so i was worried that maybe you thought huskies are not attractive or something...&quot;</div></li><li class="li1"><div class="de1">&quot;oh. Yes. Well. Uhm... I just thought it&#039;d be really creepy if I&#039;d have those...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There it was again. My collection. I felt uneasy again. Then I realized that I now knew an actual real life anthro and that a lot of furries would be insanely jealous.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh... Good.&quot;</div></li><li class="li1"><div class="de1">More relief in her voice. She squeezed my hand. Then she moved beneath the duvet and I could feel her getting closer. Her voice sounded uneasy as she almost whispered:</div></li><li class="li1"><div class="de1">&quot;uh, well, you know, since I like you a lot and you like me, and you are a virgin and i am a virgin and... You know, I figured that we... Well... Maybe we could, like... Uhm... Do... Something... about it?&quot;</div></li><li class="li1"><div class="de1">She had held my hand squeezed tightly while she spoke and now she seemed to be hell bent on trying to crush every single bone inside. I squeezed back.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;sorry, but I don&#039;t think I have any condoms around here... So... Would you be okay with just... Kissing and so on? Cos I imagine that I&#039;d have a hard time explaining how you got pregant...&quot;</div></li><li class="li1"><div class="de1">As much as i wanted to do this, as much as I, like any other male teenager had imagined this happening, when it did, it steamrollered right over me. Yes, I wanted to do it, but i felt insecure. Who doesn&#039;t?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot; Oh no, we won&#039;t need those, you can&#039;t get me pregnant, your parents got me castrated when you were in school one day. So... No?&quot;</div></li><li class="li1"><div class="de1">She sounded terrified.</div></li><li class="li1"><div class="de1">&quot; I mean... Look... Uhm...&quot;</div></li><li class="li1"><div class="de1">I really wanted to. but l felt that saying just that out loud would kill me due to embarrassment. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">„I.. Yeah.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Then her snout touched my lips. Much more quiet, I added</div></li><li class="li1"><div class="de1">&quot;also, I like you a lot. Not just a little.&quot; </div></li><li class="li1"><div class="de1">She snorted. It sounded happy.</div></li><li class="li1"><div class="de1">We fooled around a little with closed lips until I parted mine just a bit and touched her lips with my tongue. Our bodies stiffened for a blink of an eye. Then her lips opened and I pushed on further. She wrapped her arms around me and I slipped underneath the duvet.</div></li><li class="li1"><div class="de1">Her tongue felt weird. After merely touching it, I pushed my tongue all the way into her mouth. Her teeth were fairly pointy, and her tongue felt like sandpaper against mine. I explored her mouth a little further and our bodies stiffened again. When they relaxed, I retreated and she followed me into my mouth. She explored it for quite some time until she remarked </div></li><li class="li1"><div class="de1">&quot;Your mouth is weird.&quot;</div></li><li class="li1"><div class="de1"> through her teeth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You are weird.&quot;</div></li><li class="li1"><div class="de1">She chuckled. At least I was pretty sure that that&#039;s what she did. Then she pointedly exhaled and tightened her embrace, causing both of us stiffen up again. I lifted my right hand from our embrace and started to explore her body. More sudden stiffness  from her as I let a finger slide across her left tit and nipple. Her kiss became more passionate. I moved my hand further down down her body, through her thin fur and across her stomach and got slower and slower until I stopped half an inch over her pussy. I drew little circles around it with my index finger and felt us stiffen up again. Her body was weaving around, her embrace now pressing me against her tits.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You ready?&quot;</div></li><li class="li1"><div class="de1">I asked her as my fingers inched towards her pussy.</div></li><li class="li1"><div class="de1">&quot;Wait...&quot; </div></li><li class="li1"><div class="de1">Her tail wiggled in between my lower back and the duvet, holding me against her. </div></li><li class="li1"><div class="de1">&quot;Yes...&quot; </div></li><li class="li1"><div class="de1">As I started playing around with her slit, whose lips had definitely grown since i last saw it, she exhaled quietly and tensed shortly, before becoming much more still and then she stopped focusing on me. I saw her eyes on me, but her focus was definitely elsewhere.</div></li><li class="li1"><div class="de1">Then I slid my finger into her. It was tight. It was wet. She inhaled.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was an amazing feeling. This beautiful, beautiful creature was at the mercy of my fingertips, giving herself to me. I had read enough not to disappoint her, I thought. But the urge to finally do it was strong, and while i touched all the right buttons, it seemed so long to even get a single moan out of her that i quickly just gave upon this approach and figured we should go all out. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I withdrew my finger from her and carefully rolled on top of her, pulling my boxers down in the process and tossing them out. After another kiss, I threw my tshirt out of my bed, which made her smile. Then I kissed her again, felt her tits against my naked chest and squashed them underneath me. Finally, i rearranged the duvet. Our legs had sorted themselves almost automatically, her legs were on the outside, mine on the inside. Our bits touched, and we started making out again, heavier this time, then she stopped me and gave my a quizzical look. </div></li><li class="li1"><div class="de1">„What&#039;s up with the duvet?“ </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">„More cuddly.“</div></li><li class="li1"><div class="de1">She smiled at that, then gave me a quick peck. Then she frowned.</div></li><li class="li1"><div class="de1">“Are we really doing this?” </div></li><li class="li1"><div class="de1">“Don&#039;t you want to?”</div></li><li class="li1"><div class="de1">The outside of her pussy pretty much answered the question, as slick as it was, but i was too nervous to make that deduction. </div></li><li class="li1"><div class="de1">“I... Does it hurt?” </div></li><li class="li1"><div class="de1">I put a hand on her cheek, and caressed her with my thumb. </div></li><li class="li1"><div class="de1">“I don&#039;t know. I&#039;ve heard that the first time does, but that by the third time, you wouldn&#039;t want to stop anymore. “</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I could see by her look that she was worried. </div></li><li class="li1"><div class="de1">She looked me in the eye. Silently. </div></li><li class="li1"><div class="de1">“I think that the first push will hurt, because i will have to break your hymen.”</div></li><li class="li1"><div class="de1">“What&#039;s that?”</div></li><li class="li1"><div class="de1">“It&#039;s a tiny piece of skin that blocks my way in...” </div></li><li class="li1"><div class="de1">She gave me another long look, then pulled me a tiny bit closer. </div></li><li class="li1"><div class="de1">“Promise me that you&#039;ll go slow, okay?”</div></li><li class="li1"><div class="de1">“I promise.”</div></li><li class="li1"><div class="de1">She searched for my other hand, found it and held it very tight.</div></li><li class="li1"><div class="de1">“Do it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With her permission, I slid down her belly a little, let her cheek go and focused instead on maneuvering my dick to her entrance, which proved to be a bit more complicated than i thought – the hole was for more well hidden than I imagined. </div></li><li class="li1"><div class="de1">I didn&#039;t really fumble, though. I followed her slit with my tip, a little bit of pressure against it, until i felt it give way. I carefully shoved and despite the intense pressure against my member, it felt awesome. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her inside was slightly grainy, not as much as her tongue, but it definitely wasn&#039;t just smooth flesh. It was almost too hot to be comfortable, but that was okay, since my dick wasn&#039;t that much cooler. Everything inside of her felt not wet, but somewhat slimy with a dash of wet in it. By continuing on, i felt like i was widening her from pencil thickness to barely my dick&#039;s size. The remaining pressure was not as intense as the one that held everything together in front of me, but it was still more than enough to never wank again if i could have this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Then there was a barrier. I tried just putting on a little more force to get through, but nothing happened and Leela just grimaced. I quickly built upmore and more until I pushed against it for all I was worth, but I couldn&#039;t get through it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Stop...” </div></li><li class="li1"><div class="de1">It was very quiet, but nevertheless i did obey. </div></li><li class="li1"><div class="de1">“It hurts...”</div></li><li class="li1"><div class="de1">“I&#039;m sorry, but I have to get through there...”</div></li><li class="li1"><div class="de1">“Are you sure?”</div></li><li class="li1"><div class="de1">“Yeah.”</div></li><li class="li1"><div class="de1">“But...”</div></li><li class="li1"><div class="de1">I realized that she was getting absolutely last second doubts. </div></li><li class="li1"><div class="de1">“Hey... I promised I&#039;d be careful, right?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She gave me another, long, suffering look that seemed to say  she was torn apart as to what she should do, to which I only raised a hand and caressed her cheek again. I had to say something, something that would reinforce her trust in me. Something that would make her go ahead with me. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Look, if it hurts too much we&#039;ll just stop.”</div></li><li class="li1"><div class="de1">“Don&#039;t you want to do it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Only one possible answer. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Not if you don&#039;t want to.”</div></li><li class="li1"><div class="de1">“It hurts too much.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I was seriously disappointed, which was very hard to hide. I had so wanted to do it. All the sexual tension in the air was lost in a flash. But I didn&#039;t feel too bad about it, despite what Leela seemed to think. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I&#039;m sorry, i really wanted to and-”</div></li><li class="li1"><div class="de1">“It&#039;s okay.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I slipped out of her and fell to her side, my hand on her cheek and turned her head with me. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It&#039;s fine. If you ever want to try again, I&#039;ll be there for you.”</div></li><li class="li1"><div class="de1">I felt one of her hands sliding up to my cheek. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I should have never doubted you...”</div></li><li class="li1"><div class="de1">She kissed me again, so soft and slowly that i almost missed her hand down between our navels, touching my sloppy hard on. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I&#039;m going to make it up to you.”</div></li><li class="li1"><div class="de1">“Don&#039;t.”</div></li><li class="li1"><div class="de1">“But...” </div></li><li class="li1"><div class="de1">I simply grasped her hand in mine and kissed her, then pulled her against me once more and felt her wrap her arms around my neck. My dick felt far better being squeezed against her than being rubbed by anyones hand. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It&#039;s okay.”</div></li><li class="li1"><div class="de1">“Sure?”</div></li><li class="li1"><div class="de1">“Yeah.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You know I love you, right?”</div></li><li class="li1"><div class="de1">&quot;I love you too.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">We kissed a lot more, a lot less excited this time, with a whole lot more feeling. It went from nervous and jumpy to communicating a feeling this way, and I felt myself trying to hold as much of the body that now sank in to me in earnest. Instead of pushing myself on to her, we were holding each other side by side. Leela seemed to be insistent on covering every square inch of my skin with her fur and i would be damned if i wouldn&#039;t help. </div></li><li class="li1"><div class="de1">&nbsp;</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">[Husky] [first time] [magic] [transformation] [hmofa]
-
-Foreword: I wrote this story about 10 years ago, I do not have a dog, nor do I think feral is cool, ever. I was just inspired by a picture and was reading a lot of fantasy magic books at the time. \Foreword
-
-We adopted Leela when Mom got accepted at a local company in a time-consuming  job. Mom and dad wouldn&#039;t be at home most of the time and they wanted to know that I was safe at home, therefore they would adopt a dog, they had said. I got to pick the name and the dog, but I would also have to walk her every day because mom and dad wouldn&#039;t be there to do it. They&#039;d pay for everything the dog would need, I only had to invest some time. Not that I saw it as an investment back then. More like fun time with a pet. I was 12. I didn&#039;t exactly know a lot about dogs, only that they were &quot;man&#039;s best friend&quot; as dad had put it. 
-
-We drove out to an animal shelter somewhere outside of town ( I remember this quite clearly. It really was just a large warehouse in the middle of nowhere.) and went through quite a few rows of silver cages until we passed one with a husky in it. The lady from the shelter that had come with us told us that this female husky was found on a street three days ago. 
-
-That didn&#039;t really matter. I just wanted a husky. Huskies were cool. So I told my parents and even though they were wary after hearing how energetic and smart these dogs were, they upheld their promise. 
-I christened her Leela. When we got home, I showed her that she&#039;d sleep right beside my bed and got her her first serving of dog food in our house. I don&#039;t think that I left her alone at all that day. I was all over her. We went to bed completely done for. During the night, she woke me up while trying to howl at the moon. In retrospect, it was really cute. Back then, it was kind of scary. Had I not known what she was doing, I would have ran straight for my parents bedroom. During the next night, after me and dad had gotten into the subject and bought a few books about huskies, I actually joined her. My reward was  facelicking, a bit of wrestling and after that, and a bit of cuddling. 
-
-We were closer than any other human-dog relationship I had ever seen. Except for school, we did everything together. We ate together ( I always tried to sneak a little meat to her), we watched TV together, I told her about my day and she actually seemed to listen very intently. Then she&#039;d babble a little like huskies did and our conversation always ended with an embrace. She always tried to return the favor but her problem was that paws and forelegs don&#039;t work as good as arms and hands when it comes to hugs. What surprised my parents most was that unlike other huskies, who aspire to be escape artists, Leela always stuck close to me. Except for school, she never left my side. We were able to leave doors open and she walked around the house with me and even when I was gone, she stayed inside of our premises. 
-
-Then puberty hit me full on. Girls suddenly got a lot more interesting and my body asked for other things as well. The first time I wanted to touch myself in the middle of the night, Leela got up and just stared at me, which made me so uncomfortable that I couldn&#039;t do anything about my boner. 
-In the morning, I decided I&#039;d need to get her to sleep somewhere else. So I moved her bed out of my room and into the kitchen. She gave me a very quizzical look and i felt so bad for her that I spent the rest of the day cuddling with Leela. My parents didn&#039;t comment. 
-
-When I turned 16, I brought my first girlfriend with me. Nobody was going to be at home, or so I thought, until we turned the last corner and both mom and dad&#039;s car were parked in our driveway. I abandoned all hope of getting to have fun with her back then. I couldn&#039;t anticipate what happened next.
-When we walked in, nobody was at home except for Leela who, as usual, was very happy about me getting back. We had a little ritual for when I got back from school, she&#039;d jump at me, I would catch her, then we&#039;d bump our foreheads and from there on, she usually covered my face with her saliva. This time, she licked my face only twice before staring at my new girlfriend. They hadn&#039;t met before, but I had never thought that this could become a problem. 
-I whispered into Leela&#039;s ear:&quot; hey, this is Jane. She is my girlfriend. Treat her nicely, would you?&quot;
- A bad idea in retrospect. Leela jumped off of me and slowly approached Jane with bare fangs and a menacing growl. 
-
-&quot;Whoa. ... Hey, Jane? Go back outside the door for a sec. Leave it open though!&quot;
-
-I stepped in front of Leela and tried to stop her from getting further to Jane who now stood in our driveway. I hadn&#039;t anticipated just how quick huskies can be when she weaseled past my legs and started barking at Jane. Her fangs bared, eyes only visible through slits, her fur upright and with her growl, she must&#039;ve been scaring someone new to dogs shi...speechless. I turned around and threw myself on to her before she could actually attack Jane and pinned her to the ground. She tried to fight me, but I already had my hands clamped around her snout before she could do any harm. I remembered from a movie that biting a huskies ear would stop aggressive behavior, so I asked Jane to do just that. 
-&quot;Hey, get over here and bite into her ear!&quot;
-&quot;What?!&quot;
-&quot;It makes her accept you as superior in the hierarchy!&quot;
-&quot;Are you insane?!&quot;
-&quot;No, come on, just do it!&quot;
-&quot;No way! I&#039;m leaving. Don&#039;t talk to me again, freak!&quot;
- She turned around and started to walk off. I was extremely frustrated. So I bit into her ear to make sure that she&#039;d stop when I tried to stop her. Unfortunately, she tried to wrestle her head free of my hands with a sudden jerk and slammed my head back, banging my teeth together and causing me to bite off the tip of her right ear. The little bit of bloody dog skin in my mouth felt weird. I spat it out, next to the now completely motionless Leela.
-I can&#039;t remember how often I apologized to her on that day. She tried to hide from me the next two days, but I found her anyway, in places she had never gone before, like underneath my mom and dads bed and other weird places. I cared only about her back then. I even let her sleep in my bed with me, which is something every dog trainer will tell you not to do because it makes your dog think leadership of your &quot;pack&quot; is up for discussion... It took her over a month to regain her composure.
-Jane quit the next time I saw her.
-She also spread the word that I had a very aggressive dog and that I was crazy. Good luck finding a girlfriend that way.
-
-Mom and dad didn&#039;t notice something was wrong with Leela&#039;s ear. They usually had little time for me, but they didn&#039;t give two sh... They didn&#039;t care about Leela apart from seeing that she was there and made me happy.
-
-I think it was around that time that I bumped into furries on the Internet. Their art was... Different. But I liked it. And I started to amass a collection of images in a hidden folder on my PC. With time, my collection grew larger and larger, but I knew that I would never admit to anyone else that I was into this stuff, much less get some of the weird toys or other things their world had to offer.
-
-Then, one night, Leela changed the way I saw her forever.
-
-During the holidays in autumn, my mum and dad were off to work and one day I spent a little longer with my collection than usual. Me and Leela had gotten back from our usual running trip with her still being full of energy (huskies were bred to RUN. They can run at full speed for hours without stopping for a breath. She was no exception.) and me being almost completely wasted. My legs hurt and I desperately wanted to take a shower and then get to bed.
-I usually ran in the dark, since I liked not meeting anyone in the streets.
-So I went to get a shower and jerked off to a picture I had just found on the Internet. It&#039;s still one of my all time favorites today, a well built dark zebra with blue hair and massive jugs impaled on a massive cock. Her look is doesn&#039;t show much passion for what she is doing right now, but more for the person that she rides.
-
-When I got back, my legs felt somewhat better. I had spent more than an hour in the bathroom, the clock was approaching midnight and it was dark outside. Even though the temperatures outside had already dropped quite a lot, below the point where snow usually fell, not a single snowflake had touched the ground this winter. I closed the door and dropped into my bed without switching the light on. Another boner was approaching. I considered wanking it off when something scratched at my door. On the other hand, I could cuddle with my dog.
-
-I got up to open the door. Leela wagged her tail at me and wandered in to my room, jumping up into my bed before tilting her head in that special dog head tilting thing.
-I closed the door and everything was pitch black. I stumbled back into my bed and hugged her.
-&quot;Did you feel lonely down there?&quot; I asked her. I didn&#039;t like these goochie-goochie-voices some people used whenever they spoke with a dog. I talked to Leela like I would with any other human. However, even though I treated her that way, I never expected an actual response in verbal form.
-So her &quot;Yeah...&quot; baffled me. More as a reflex, I replied &quot;What?&quot; and she answered again. &quot;I said yeah. I did feel lonely. So I figured I&#039;d come up here.&quot; Her voice sounded... Odd. She seemed to have a problem with pronunciation, half of the letters of each word got mixed up. I pinched myself. She was still there.
-&quot;Whoa.&quot;
-&quot;Whoa??&quot;
-&quot;Whoa.... I... how... why...&quot;
-&quot;Okay...&quot;
-&quot;But... I mean...If you were able to speak, why didn&#039;t you say anything before?&quot;
-&quot;I didn&#039;t know how you would react. Maybe you&#039;d freak out and send me away, maybe you would actively try to kill me, maybe you would hate me for not telling you earlier that I understood everything you told me. And I didn&#039;t want to be killed, sent somewhere else or have anything bad happen to me. I only witnessed you in an extreme situation once, and I lost the tip of my ear back then.&quot;
-Thoughts raced through my head. I didn&#039;t know which question to ask first.
-&quot;How... Why didn&#039;t you...sorry. What made you think I was going to harm you?&quot;
-Instead of answering, she used a paw to direct my finger to her right ear.
-&quot;Ohhh...&quot;
-
-&quot;Yeah. I was almost ready to tell you back then. But instead, you brought that bitch and -&quot;
-&quot;Bitch?&quot;, I interrupted her. &quot;Why was she a bitch?&quot;
-&quot;She smelt like one. She was arrogant to the top. She would have put you on a leash, played with you and then dropped you as soon as someone else with more prestige came along. So I had to protect you from her.&quot;
-&quot;uh... thanks...&quot; 
-A warm feeling flooded my chest. She had tried to protect me...
-
-&quot;You&#039;re welcome. But you biting off my ear made me question just how attached to me you were. I thought that maybe I was just a toy to you, one that you would exchange for your first girlfriend. I didn&#039;t know whether my secret would be safe with you... And I didn&#039;t know... Well.. whether I was actually important to you...&quot;
-&quot; Of course not. You are stuck with me until one of us dies, remember?“
-&quot;thanks...&quot;
-&quot;Oh, uhm, and what... What made you change your opinion?&quot;
-
-&quot;time.... Even though I messed up your first date at home and probably cockblocked you back then, you caressed me and cuddled with me and did everything to make me comfortable around you for more than a week whenever you could. Back then, I thought that you were just getting back to me, but in retrospect I see that you were just sorry for what you did. Also, something much more profane... You left the folder with your collection on furry stuff open a few days ago. I figured that you wouldn&#039;t mind me talking if you were into that stuff... I slept over it for a few nights until the right opportunity presented itself to me and I had built up enough courage to take the step...&quot;
-
-I felt blood rushing up into my cheeks. That was a very stupid thing to do. Leave the stuff you want no one to see in plain sight. Fuck.
-
-&quot;Oh, uh, well... It&#039;s...&quot;
-She made a very weird noise. It resembled quiet barking, but it also reminded me of... Laughing. She was laughing. Laughing at me. My cheeks felt like fields of lava.
-
-&quot;Are you... Laughing... at me?&quot;
-She tried regaining her composure, and on her third try, she managed to calm down.
-&quot;Yeah, well, you should have smelled yourself right there... look, your secret is safe with me as long as mine are safe with you.&quot; 
-Relief. Lots of it. Whole mountains.
-&quot;Trust me, no one will ever now about your secret. ... Wait, mine? What else?&quot;
-&quot; Well, this... And something else. I wasn&#039;t sure whether I should...&quot;
-&quot;What is it?&quot;
-&quot;It&#039;s... Different. &#039;Heavy stuff&#039;, your dad would say.&quot;
-&quot;Are you going to tell me?&quot;
-&quot;It&#039;s...&quot;
-She stopped. Her voice was very very quiet when she asked: &quot;Look, I... It&#039;s ... A lot more. And I... This is the part I&#039;m not prepared for...&quot;
-I replied just as quietly. My thoughts were still trying to break the sound barrier, but she sounded so lost... I felt the need to reassure her.
-&quot;Hey, if you can&#039;t tell me, that&#039;s fine. Take your time. I don&#039;t mind waiting.&quot;
-I bumped my forehead against hers.
-&quot;Mom always wondered why I didn&#039;t bring a lot of friends home. Did I ever tell you that? I don&#039;t think she understood that I had you... &quot;
-&quot;Thanks...&quot;
-
-I could hear the relief in her voice. And a little shame, mixed with awkwardness.
-&quot;...Okay.&quot; 
-I heard her breathe in.
-&quot;You don&#039;t have to if you don&#039;t want to...&quot;
-&quot;I want to. It&#039;s just...&quot; 
-She paused, then started again. 
-&quot;It&#039;s... easier to show you. Uh... Turn around and close your eyes. I&#039;ll tell you when you can turn back.&quot;
-I complied. Suddenly, soft, blueish light shone around me. It took her about a minute before she asked me to turn on the nightstand lamp and turn back. During that time, the smell of a dog was replaced with something different, something that still contained a slight note of dog, but it also had different elements to it... And it wasn&#039;t just different. I felt my dick getting interested into doing something.
-Her voice had changed and gotten a bit deeper, and her pronunciation had gotten a bit better. When I turned around, she was covered in the duvet, but the first thing I noticed was that she had long black hair lying around her head on the pillow. The individual strands were about a meter long, with the exception of two white strains that would have framed her face had her head been upright. Now, one of them was right across her face and she blew it away with a breath from her somewhat shorter snout. Her ears had gotten a little larger and protruded out of her hair. Her eyes had at least doubled in size. She struck me as looking... Humanoid.
-
-A hand covered with short fur reached out of the duvet and threw it back behind her so that I could see all of her body.
-She looked just like I always imagined an anthro would look like in real life. Her body was covered in the same fur that she had when she was a dog. However, it was much shorter than what I was used to. She had a massive set of jugs, and I figured that they were at least DD. They looked firm and round, covered in white fur, slowly lifting up about half a hand&#039;s width below her collarbone, somewhat shaped like a teardrop, with a clear end at the underside where her skin almost turned 90 degrees to rest on her ribcage once more. The had almost no sag to  them, with small patches of skin, not much larger than a bottle cap, for the nipples. Those looked still soft. My eyes wandered further down her body. Her pussy was a thin black line between her legs and incredibly wide hips. I had never seen such hips... They were almost twice as wide as her waspish midsection. 
-
-She didn&#039;t have any kind of pubic hair apart from her fur. Her legs were weird, however, until I realized that they were essentially oversized and weirdly proportioned dog legs, packed with muscles. They ended in massive paws. And they were long...
-Gee, those legs... 
-She looked at me, then stared at a point on the sheets between us and dropped the duvet. It bulged over her massive jugs. She seemed embarrassed. I turned off the light again to keep her from seeing my boner.
-&quot;Yesterday evening it seemed like a really good idea...&quot;
-&quot;Showing this to me?&quot;
-&quot;... Yeah... I mean... Look, I...&quot;
-I took her left hand off her boobs and squeezed it.
-&quot;Hmm??&quot;
-I don&#039;t think I ever felt so tense. It was like being a spring coiled up with nowhere to go. At the same time I was worried about her. She had just shown me her biggest secret and was having trouble saying something, however, I couldn&#039;t guess what she was trying to tell me. She took a deep breath.
-&quot;Okay, so... What do you think?&quot;
-She sounded more insecure than anyone I else I had ever met.
-&quot;You are one of the most beautiful things I have ever seen.&quot;
-She exhaled and I could hear relief in her voice.
-&quot;Thanks... You know, I clicked through your folder and couldn&#039;t find any huskies, so i was worried that maybe you thought huskies are not attractive or something...&quot;
-&quot;oh. Yes. Well. Uhm... I just thought it&#039;d be really creepy if I&#039;d have those...&quot;
-
-There it was again. My collection. I felt uneasy again. Then I realized that I now knew an actual real life anthro and that a lot of furries would be insanely jealous.
-
-&quot;Oh... Good.&quot;
-More relief in her voice. She squeezed my hand. Then she moved beneath the duvet and I could feel her getting closer. Her voice sounded uneasy as she almost whispered:
-&quot;uh, well, you know, since I like you a lot and you like me, and you are a virgin and i am a virgin and... You know, I figured that we... Well... Maybe we could, like... Uhm... Do... Something... about it?&quot;
-She had held my hand squeezed tightly while she spoke and now she seemed to be hell bent on trying to crush every single bone inside. I squeezed back.
-
-&quot;sorry, but I don&#039;t think I have any condoms around here... So... Would you be okay with just... Kissing and so on? Cos I imagine that I&#039;d have a hard time explaining how you got pregant...&quot;
-As much as i wanted to do this, as much as I, like any other male teenager had imagined this happening, when it did, it steamrollered right over me. Yes, I wanted to do it, but i felt insecure. Who doesn&#039;t?
-
-&quot; Oh no, we won&#039;t need those, you can&#039;t get me pregnant, your parents got me castrated when you were in school one day. So... No?&quot;
-She sounded terrified.
-&quot; I mean... Look... Uhm...&quot;
-I really wanted to. but l felt that saying just that out loud would kill me due to embarrassment. 
-
-„I.. Yeah.&quot;
-
-Then her snout touched my lips. Much more quiet, I added
-&quot;also, I like you a lot. Not just a little.&quot; 
-She snorted. It sounded happy.
-We fooled around a little with closed lips until I parted mine just a bit and touched her lips with my tongue. Our bodies stiffened for a blink of an eye. Then her lips opened and I pushed on further. She wrapped her arms around me and I slipped underneath the duvet.
-Her tongue felt weird. After merely touching it, I pushed my tongue all the way into her mouth. Her teeth were fairly pointy, and her tongue felt like sandpaper against mine. I explored her mouth a little further and our bodies stiffened again. When they relaxed, I retreated and she followed me into my mouth. She explored it for quite some time until she remarked 
-&quot;Your mouth is weird.&quot;
- through her teeth.
-
-&quot;You are weird.&quot;
-She chuckled. At least I was pretty sure that that&#039;s what she did. Then she pointedly exhaled and tightened her embrace, causing both of us stiffen up again. I lifted my right hand from our embrace and started to explore her body. More sudden stiffness  from her as I let a finger slide across her left tit and nipple. Her kiss became more passionate. I moved my hand further down down her body, through her thin fur and across her stomach and got slower and slower until I stopped half an inch over her pussy. I drew little circles around it with my index finger and felt us stiffen up again. Her body was weaving around, her embrace now pressing me against her tits.
-
-&quot;You ready?&quot;
-I asked her as my fingers inched towards her pussy.
-&quot;Wait...&quot; 
-Her tail wiggled in between my lower back and the duvet, holding me against her. 
-&quot;Yes...&quot; 
-As I started playing around with her slit, whose lips had definitely grown since i last saw it, she exhaled quietly and tensed shortly, before becoming much more still and then she stopped focusing on me. I saw her eyes on me, but her focus was definitely elsewhere.
-Then I slid my finger into her. It was tight. It was wet. She inhaled.
-
-It was an amazing feeling. This beautiful, beautiful creature was at the mercy of my fingertips, giving herself to me. I had read enough not to disappoint her, I thought. But the urge to finally do it was strong, and while i touched all the right buttons, it seemed so long to even get a single moan out of her that i quickly just gave upon this approach and figured we should go all out. 
-
-I withdrew my finger from her and carefully rolled on top of her, pulling my boxers down in the process and tossing them out. After another kiss, I threw my tshirt out of my bed, which made her smile. Then I kissed her again, felt her tits against my naked chest and squashed them underneath me. Finally, i rearranged the duvet. Our legs had sorted themselves almost automatically, her legs were on the outside, mine on the inside. Our bits touched, and we started making out again, heavier this time, then she stopped me and gave my a quizzical look. 
-„What&#039;s up with the duvet?“ 
-
-„More cuddly.“
-She smiled at that, then gave me a quick peck. Then she frowned.
-“Are we really doing this?” 
-“Don&#039;t you want to?”
-The outside of her pussy pretty much answered the question, as slick as it was, but i was too nervous to make that deduction. 
-“I... Does it hurt?” 
-I put a hand on her cheek, and caressed her with my thumb. 
-“I don&#039;t know. I&#039;ve heard that the first time does, but that by the third time, you wouldn&#039;t want to stop anymore. “
-
-I could see by her look that she was worried. 
-She looked me in the eye. Silently. 
-“I think that the first push will hurt, because i will have to break your hymen.”
-“What&#039;s that?”
-“It&#039;s a tiny piece of skin that blocks my way in...” 
-She gave me another long look, then pulled me a tiny bit closer. 
-“Promise me that you&#039;ll go slow, okay?”
-“I promise.”
-She searched for my other hand, found it and held it very tight.
-“Do it.”
-
-With her permission, I slid down her belly a little, let her cheek go and focused instead on maneuvering my dick to her entrance, which proved to be a bit more complicated than i thought – the hole was for more well hidden than I imagined. 
-I didn&#039;t really fumble, though. I followed her slit with my tip, a little bit of pressure against it, until i felt it give way. I carefully shoved and despite the intense pressure against my member, it felt awesome. 
-
-Her inside was slightly grainy, not as much as her tongue, but it definitely wasn&#039;t just smooth flesh. It was almost too hot to be comfortable, but that was okay, since my dick wasn&#039;t that much cooler. Everything inside of her felt not wet, but somewhat slimy with a dash of wet in it. By continuing on, i felt like i was widening her from pencil thickness to barely my dick&#039;s size. The remaining pressure was not as intense as the one that held everything together in front of me, but it was still more than enough to never wank again if i could have this.
-
-Then there was a barrier. I tried just putting on a little more force to get through, but nothing happened and Leela just grimaced. I quickly built upmore and more until I pushed against it for all I was worth, but I couldn&#039;t get through it.
-
-“Stop...” 
-It was very quiet, but nevertheless i did obey. 
-“It hurts...”
-“I&#039;m sorry, but I have to get through there...”
-“Are you sure?”
-“Yeah.”
-“But...”
-I realized that she was getting absolutely last second doubts. 
-“Hey... I promised I&#039;d be careful, right?”
-
-She gave me another, long, suffering look that seemed to say  she was torn apart as to what she should do, to which I only raised a hand and caressed her cheek again. I had to say something, something that would reinforce her trust in me. Something that would make her go ahead with me. 
-
-“Look, if it hurts too much we&#039;ll just stop.”
-“Don&#039;t you want to do it?”
-
-Only one possible answer. 
-
-“Not if you don&#039;t want to.”
-“It hurts too much.”
-
-I was seriously disappointed, which was very hard to hide. I had so wanted to do it. All the sexual tension in the air was lost in a flash. But I didn&#039;t feel too bad about it, despite what Leela seemed to think. 
-
-“I&#039;m sorry, i really wanted to and-”
-“It&#039;s okay.”
-
-I slipped out of her and fell to her side, my hand on her cheek and turned her head with me. 
-
-“It&#039;s fine. If you ever want to try again, I&#039;ll be there for you.”
-I felt one of her hands sliding up to my cheek. 
-
-“I should have never doubted you...”
-She kissed me again, so soft and slowly that i almost missed her hand down between our navels, touching my sloppy hard on. 
-
-“I&#039;m going to make it up to you.”
-“Don&#039;t.”
-“But...” 
-I simply grasped her hand in mine and kissed her, then pulled her against me once more and felt her wrap her arms around my neck. My dick felt far better being squeezed against her than being rubbed by anyones hand. 
-
-“It&#039;s okay.”
-“Sure?”
-“Yeah.” 
-
-“You know I love you, right?”
-&quot;I love you too.&quot; 
-
-We kissed a lot more, a lot less excited this time, with a whole lot more feeling. It went from nervous and jumpy to communicating a feeling this way, and I felt myself trying to hold as much of the body that now sank in to me in earnest. Instead of pushing myself on to her, we were holding each other side by side. Leela seemed to be insistent on covering every square inch of my skin with her fur and i would be damned if i wouldn&#039;t help. 
-</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    14 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    15 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

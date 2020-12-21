@@ -1,576 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The New Hire - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The New Hire - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/EskKP2b7" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/EskKP2b7" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="muYB0mB9LyF1ynYFidj_nBzuLvo9UNSc0w8I7Fl5mq7vl2aGWAwZTQaoM3P77KXbZoIern4iufCMWF6EExze1w==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/EskKP2b7" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/EskKP2b7" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="LoudAccident">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>The New Hire</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/LoudAccident">LoudAccident</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=LoudAccident" class="message" title="Send a private message to: LoudAccident"></a>
-                                    
-                <div class="date">
-                    <span title="Friday 31st of August 2018 12:23:29 AM CDT">Aug 31st, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,359                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 18.27 KB            </div>
-
-            <div class="right">
-                <a href="/raw/EskKP2b7" class="btn -small">raw</a>
-                <a href="/dl/EskKP2b7" class="btn -small">download</a>
-                <a href="/clone/EskKP2b7" class="btn -small h_800">clone</a>
-                <a href="/embed/EskKP2b7" class="btn -small h_800">embed</a>
-                <a href="/report/EskKP2b7" class="btn -small">report</a>
-                <a href="/print/EskKP2b7" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;You are Anon. </div></li><li class="li1"><div class="de1">&gt;You work inside a server room inside a massive call center, in a small city, in the Midwest, where nothing really changes except where the road construction is this week. </div></li><li class="li1"><div class="de1">&gt;Your desks are collected on one side of the room, next to rows and rows of server stacks behind clear plastic strips that hang from the ceiling.</div></li><li class="li1"><div class="de1">&gt;They keep the AC running through the stacks and away from you, but it&#039;s still pretty cold in here.</div></li><li class="li1"><div class="de1">&gt;You were pretty proud of your work though, the cables were all in neat bunches on the grills hanging from the ceiling and heading outside to the rest of the office.</div></li><li class="li1"><div class="de1">&gt;Most of your time at work is helping people who don’t know how to fix petty computer problems. </div></li><li class="li1"><div class="de1">&gt;“Did you turn it off and on again,” despite being really annoying to the employees, works 99% of the time. </div></li><li class="li1"><div class="de1">&gt;Software updates, hardware replacements, and showing up during the wee hours of the morning count as excitement in a place like this. </div></li><li class="li1"><div class="de1">&gt;Well there was that time last week that you guys got new office chairs. </div></li><li class="li1"><div class="de1">&gt;There’s two other guys that work here, and they look exactly like you’d expect them to look. </div></li><li class="li1"><div class="de1">&gt;Jim, the head of the department, is a big fat fuck with glasses and a neckbeard worthy of his station.</div></li><li class="li1"><div class="de1">&gt;The front of his desk is pushed up against yours, but you hardly ever see his face because he&#039;s always leaned back in his chair, hiding behind his triple-monitor setup.</div></li><li class="li1"><div class="de1">&gt;He gets his kicks collecting and shooting guns. </div></li><li class="li1"><div class="de1">&gt;Gary, your colleague, is also a big fat fuck. </div></li><li class="li1"><div class="de1">&gt;You had no idea tortises could get to his size.</div></li><li class="li1"><div class="de1">&gt;Even though it was the stereotype for his species to be slow at everything, that only counted with locomotion. His brown stubby fingers could type faster than anyone else in the building.</div></li><li class="li1"><div class="de1">&gt;He’s also a weeb who spends his free time talking to other weebs online and doing weeb things.</div></li><li class="li1"><div class="de1">&gt;His desk faces away from Jim&#039;s, and his stubby legs don&#039;t even reach the floor from the lowest setting. </div></li><li class="li1"><div class="de1">&gt;Yours is pretty spartan, but still customized.</div></li><li class="li1"><div class="de1">&gt;You have a tiny Borderlands chest that holds your pens and things next to a mechanical keyboard, and your mousepad is a printed type with latest Bioshock game on it.</div></li><li class="li1"><div class="de1">&gt;You weren’t a fat fuck, but that didn’t mean you were thin, either. </div></li><li class="li1"><div class="de1">&gt;In between work and vidya, you went to the gym to work out. </div></li><li class="li1"><div class="de1">&gt;Lifting only.</div></li><li class="li1"><div class="de1">&gt;You gave up on being thin and attractive long ago. </div></li><li class="li1"><div class="de1">&gt;No matter how /fit/ you ever became, you couldn’t change your face.</div></li><li class="li1"><div class="de1">&gt;Your stupid, ugly face. </div></li><li class="li1"><div class="de1">&gt;And you didn’t have the discipline to stick to an ironclad diet. </div></li><li class="li1"><div class="de1">&gt;Aesthetic as fuck was an impossible fantasy. </div></li><li class="li1"><div class="de1">&gt;So you figured that you’d just become as big and strong as possible, and maybe someone might be into that. </div></li><li class="li1"><div class="de1">&gt;Just as long as your gut didn’t go out past your chest it would be fine, right?</div></li><li class="li1"><div class="de1">&gt;Even big ugly monsters could find love in the end, right?</div></li><li class="li1"><div class="de1">&gt;You kept telling yourself that, and tried hard to believe it, because you couldn’t accept the alternative.</div></li><li class="li1"><div class="de1">&gt;As the only one who worked out, that meant you were the one to always get pegged to do the heavy lifting. </div></li><li class="li1"><div class="de1">&gt;Sometimes people outside your office even called you over to help. </div></li><li class="li1"><div class="de1">&gt;Like today. </div></li><li class="li1"><div class="de1">&gt;“Anon,” Jim called you over the top of his model gun-covered desk, “they need your help over at C-Bay, moving desks.”</div></li><li class="li1"><div class="de1">“And?” You ask. </div></li><li class="li1"><div class="de1">&gt;&quot;And Ashley said she’d buy you lunch if you helped out.”</div></li><li class="li1"><div class="de1">“Alright, sounds good to me.” </div></li><li class="li1"><div class="de1">&gt;After the first few times you had managed to stonewall management enough with “concerns” about workplace safety, insurance coverage, and job descriptions that they now gave you favors in exchange for helping out. </div></li><li class="li1"><div class="de1">&gt;How would HR react if you injured your back or foot while doing something you technically weren’t hired to do?</div></li><li class="li1"><div class="de1">&gt;So now it was lunch, or parking spots, or beer (from the college kids that always filtered through here during the school year) in exchange for picking things up and putting them down. </div></li><li class="li1"><div class="de1">&gt;You get your fat hairy ass out of your chair and head over to C-Bay.</div></li><li class="li1"><div class="de1">&gt;You pass a couple of the bays, giant rooms with rows and rows of cubicles, the soft murmur of many different employees filling the big empty space between their desks and the ceiling.</div></li><li class="li1"><div class="de1">&gt;In the far distance you can see bland motivational posters and announcements stapled to pegboards on the light grey walls, in between fake office plants.</div></li><li class="li1"><div class="de1">&gt;There were several &quot;bays&quot; like this in the building.</div></li><li class="li1"><div class="de1">&gt;You can spot a few pairs of ears sticking up out of them, and one obnoxiously peppy giraffe has her head two feet over the short grey cubicle dividers.</div></li><li class="li1"><div class="de1">&gt;Your gears-of-war sillouhette takes up a solid half of the hallway, and the couple groups coming your way have to file onto one side.</div></li><li class="li1"><div class="de1">&gt;Two tall deer women in tight office clothing give you annoyed or incredulous looks as you pass.</div></li><li class="li1"><div class="de1">&gt;Whatever. Being IT, you had access to every single email to pass through the company&#039;s servers.</div></li><li class="li1"><div class="de1">&gt;It was pretty easy to setup a keyword search.</div></li><li class="li1"><div class="de1">&gt;And perhaps save a few here and there for &quot;insurance.&quot;</div></li><li class="li1"><div class="de1">&gt;Vicki, deer girl one, kept asking her boyfriend to send her nudes at work.</div></li><li class="li1"><div class="de1">&gt;Deborah, deer girl two, was in a relationship with a stag one bay over and they sent each other dirty emails every day.</div></li><li class="li1"><div class="de1">&gt;Zane, the giraffe girl, was just a sweetheart.</div></li><li class="li1"><div class="de1">&gt;She was going to college to become a kindergarten teacher.</div></li><li class="li1"><div class="de1">&gt;She was always the one to send encouraging emails to people she heard were going through tough times, or birthday wishes, and always let people down easy who asked her out.</div></li><li class="li1"><div class="de1">&gt;She only wanted to date someone who went to her church, only with the intention of marriage.</div></li><li class="li1"><div class="de1">&gt;In other words: prime wife material.</div></li><li class="li1"><div class="de1">&gt;You daydream about a life with a wife like her.</div></li><li class="li1"><div class="de1">&gt;A nice house in the suburbs...</div></li><li class="li1"><div class="de1">&gt;Three good kids...</div></li><li class="li1"><div class="de1">&gt;Coming home every day after work to a beautiful, happy wife and family...</div></li><li class="li1"><div class="de1">&gt;It was definitely possible, too.</div></li><li class="li1"><div class="de1">&gt;Part of the process they called &quot;plane transferrence,&quot; commonly called Drops, was getting what was basically racial abilities.</div></li><li class="li1"><div class="de1">&gt;People, anthros and humans alike, popped up so often there was a government agency dedicated to integrating them.</div></li><li class="li1"><div class="de1">&gt;Some people blamed the gods, some people blamed aliens, others tried to mash together as many scientific sounding words as possible to explain it away as something like &quot;multiverse-quasi-convergence incidents&quot; or somesuch.</div></li><li class="li1"><div class="de1">&gt;Either way, humans could have children with just about anything organic that could pass a Harkness test.</div></li><li class="li1"><div class="de1">&gt;Though it was frowned upon to be dating outside your species, most humans didn&#039;t give a fuck.</div></li><li class="li1"><div class="de1">&gt;We&#039;ve wanted to fuck everything since forever.</div></li><li class="li1"><div class="de1">&gt;Even the greeks talked about wanting to fuck the stars.</div></li><li class="li1"><div class="de1">&gt;Still, every man had his limits.</div></li><li class="li1"><div class="de1">&gt;You weren&#039;t so desperate enough that you&#039;d settle for just anyone.</div></li><li class="li1"><div class="de1">&gt;Case in point: the tiger woman you just passed sitting with her back to the open hallway between the bays.</div></li><li class="li1"><div class="de1">&gt;35. Divorced. Fat. Unkempt fur that smelled weird and three kinds of crazy.</div></li><li class="li1"><div class="de1">&gt;Or the weasel woman.</div></li><li class="li1"><div class="de1">&gt;28. Fat. Fivehead with that stupid hairdo that pulled all her hair together at the top of her head. Unhygenic. Severe case of unwarranted self-importance and delusional self-image. Sends creepy emails with way too specific details to men around the office.</div></li><li class="li1"><div class="de1">&gt;There&#039;s the owl woman, too.</div></li><li class="li1"><div class="de1">&gt;Used her work email to send desperate, threatening, or lovey-dovey emails to her boyfriend of the month, demanding gifts to prove they loved her, then breaking up with them because she saw them with another woman somewhere.</div></li><li class="li1"><div class="de1">&gt;You reasoned that you weren&#039;t much better, yourself, but the thought of getting caught up in a loveless marriage to an unattractive woman because you were both lonely enough to settle...</div></li><li class="li1"><div class="de1">&gt;It kept you up at night.</div></li><li class="li1"><div class="de1">&gt;Besides, you showered and shaved every day, wore good clothes, (&quot;presentable&quot; clothing wasn&#039;t made for people your size outside of tailored suits) and just generally tried to be nice.</div></li><li class="li1"><div class="de1">&gt;Not to mention the Drops, for some reason, seemed to disproportionately select strong, fit, charming men and incredibly hot women.</div></li><li class="li1"><div class="de1">&gt;Like the male tiger greeting you at the doors to C-Bay.</div></li><li class="li1"><div class="de1">&gt;He looked like he could easily be a male model, but here he was in business casual with his sleeves rolled up over his massive forearms.</div></li><li class="li1"><div class="de1">&gt;He was easily a head taller than you, and one of the few people here management went to for help with manual labor.</div></li><li class="li1"><div class="de1">&gt;You and a few others were the odd ones out, apparently.</div></li><li class="li1"><div class="de1">&gt;&quot;Sup Anon? Ready to help?&quot;</div></li><li class="li1"><div class="de1">&quot;Hey Vihaan, and yeah. Ashley said she was buying lunch?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You bet! Mongolian grill today, this stuff will definitely work up the appetite for it.&quot;</div></li><li class="li1"><div class="de1">&quot;Where is she, anyway?&quot;</div></li><li class="li1"><div class="de1">&gt;Vihaan pointed a fuzzy finger...paw...whatever, over his shoulder.</div></li><li class="li1"><div class="de1">&gt;&quot;She&#039;s micromanaging the guy with the moving dolly. Gotta flex her managerial muscles, if you know what I mean.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I heard that, Mr. Patel,&quot; an elegant voice chided.</div></li><li class="li1"><div class="de1">&gt;Around the corner, clipboard in hand, stepped Ashley.</div></li><li class="li1"><div class="de1">&gt;She was adjusting the frameless glasses on her face and you couldn&#039;t help but take a quick peek at the rest of her figure.</div></li><li class="li1"><div class="de1">&gt;A bombshell doberman pinscher; skinny waist, high heels to show off the taut thighs beneath a tight skirt, and a business suit barely containing a pare of dark orange breasts.</div></li><li class="li1"><div class="de1">&gt;She used the pen in her hand to tap Vihaan on the nose, which caused him to scrunch his face up far more than you thought should be possible.</div></li><li class="li1"><div class="de1">&gt;&quot;But it won&#039;t be me bossing you around this time. Mr. Mous, direct Mr. Patel as you assist him in setting up the new set of desks in C-Bay. You and your colleagues will need to wire the systems, so it would be best to minimize downtime and expedite the configuration phase of our new expansion.&quot;</div></li><li class="li1"><div class="de1">&quot;You got it, Ms. Kruger.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;The &#039;expansion meeting&#039; will take place at the local mongolian grill at noon, sharp. See that you accomplish this before then.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You can count on us, Ms. Kruger!&quot; Vihaan gave her a smile and a thumbs-up.</div></li><li class="li1"><div class="de1">&gt;She nodded and walked away, leaving you two to start moving desks. </div></li><li class="li1"><div class="de1">&gt;&quot;So Anon...&quot; Vihaan asked as you lifted the first one, &quot;see the new hires?&quot;</div></li><li class="li1"><div class="de1">&quot;Yup, had to make them all badges yesterday. Easy around this corner.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Well, any of them catch your eye?&quot; Vihaan had a knowing smirk despite the effort.</div></li><li class="li1"><div class="de1">&quot;Dude, half the girls here catch my eye. Even though it&#039;s a call center, it seems like being hot is one of the requirements to work here.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I hear that, bro. Best part is none of them are in my department.&quot;</div></li><li class="li1"><div class="de1">&quot;So they&#039;re all fair game, huh?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You got it. Couple of fine felines and one smoking-hot doe I&#039;d like to pounce on, if you know what I mean.&quot;</div></li><li class="li1"><div class="de1">&quot;Shouldn&#039;t be too difficult for the felines, I guess, being the same typing and all. Lift on three...&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;One, two, three! Yeah, just gotta figure out what they&#039;re into, ya know? Care to help me out, bro?&quot;</div></li><li class="li1"><div class="de1">&quot;Like they&#039;re gonna have that kinda conversation with me, dude. I&#039;m just the computer guy.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nah, I mean, you know, use your hacker skills to find out what they like.&quot;</div></li><li class="li1"><div class="de1">&quot;One, that&#039;s probably a violation of company policy somewhere, two that&#039;s creepy, and three, they just got here.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Your loss bro, don&#039;t know why you haven&#039;t picked up any of these girls yet either.&quot;</div></li><li class="li1"><div class="de1">&quot;Taxonomical distance, probably.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;What?&quot;</div></li><li class="li1"><div class="de1">&quot;I&#039;m nowhere close to their species.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;No way bro, SKIN is IN. Some of those girls got a special kink just for humans.&quot;</div></li><li class="li1"><div class="de1">&quot;Experience tells me otherwise.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Come on, bro, a big strong human like you? I can tell you lift bro, I bet half the girls watching you lift something this huge this easy are getting moist at their desks just thinking about it.&quot;</div></li><li class="li1"><div class="de1">&quot;Thanks, but I think I need about ten pounds more of lean mass before it really works out in my favor. Plus, what happens if she rejects me? I gotta work with them the rest of the time they&#039;re here.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Just gotta have confidence man, don&#039;t let it get to you. You get over it first, they just gotta deal.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The two of you finish faster than you thought, and arrive to the restaurant on-time.</div></li><li class="li1"><div class="de1">&gt;You ride with Vihaan in his sports car there.</div></li><li class="li1"><div class="de1">&gt;Some guys get all the breaks.</div></li><li class="li1"><div class="de1">&gt;Everyone else had got there earlier, though, and the lunch table was almost full.</div></li><li class="li1"><div class="de1">&gt;A few of them had invited their significant others.</div></li><li class="li1"><div class="de1">&gt;While most of them were in the same family of species, there were a couple human-anthro couples as well.</div></li><li class="li1"><div class="de1">&gt;They all sat at one end of the long table, since it made a few of the others uncomfortable, though they couldn&#039;t really complain out-loud.</div></li><li class="li1"><div class="de1">&gt;One guy brought his wolf of a wife.</div></li><li class="li1"><div class="de1">&gt;They sat next to a snow leopard and her absolutely jacked human boyfriend, who sat at the end with two full plates like a modern day Conan.</div></li><li class="li1"><div class="de1">&gt;Ms. Kruger sat at the other, talking with a rat and wolf. </div></li><li class="li1"><div class="de1">&gt;By the time you got to the table with your food, there was only one spot left.</div></li><li class="li1"><div class="de1">&gt;Near the middle, and across from the newest office hire.</div></li><li class="li1"><div class="de1">&gt;Sasha.</div></li><li class="li1"><div class="de1">&gt;The massive snake woman sat between the table and the wall, strategically placed to allow her coils to pile up behind her and still allowing everyone else to take either route around the table so they wouldn&#039;t step on it.</div></li><li class="li1"><div class="de1">&gt;She was dressed in a sharp business suit, &#039;sharp&#039; being the operative word here.</div></li><li class="li1"><div class="de1">&gt;Somehow she had managed to get it tailored so that it looked pointy.</div></li><li class="li1"><div class="de1">&gt;Her padded shoulders almost raised up in points, her collar was pressed into a knife&#039;s edge, and her chest had those seams that gave points to her massive breasts.</div></li><li class="li1"><div class="de1">&gt;You could see a v-shaped pattern of black, red, and brown spread across her splayed yellow hood as she bent over the table, flicking her tongue into the bowl of mostly meat.</div></li><li class="li1"><div class="de1">&gt;A spoon brought a bit of meat into her mouth and the raised her head up and back to swallow it whole.</div></li><li class="li1"><div class="de1">&gt;The slits of her dark-red eyes locked with yours as she swallowed.</div></li><li class="li1"><div class="de1">&gt;You noticed that she wore a makeup of sorts: dark brown lines on either sides of her eyes that enhanced their angular shapes.</div></li><li class="li1"><div class="de1">&gt;She stared at you for a moment, blinking only her clear eyelids.</div></li><li class="li1"><div class="de1">&gt;Even &#039;sitting down&#039; she was one of the tallest people at the table.</div></li><li class="li1"><div class="de1">&gt;Her lower torso was wide enough even you would have a hard time getting your arms all the way around it.</div></li><li class="li1"><div class="de1">&gt;Which meant that if she ever needed moved you&#039;d be the first ones they&#039;d call.</div></li><li class="li1"><div class="de1">&gt;She did the same thing when you set her up with an ID card.</div></li><li class="li1"><div class="de1">&quot;Uh, hello again, Ms. Szeirsi,&quot; you say, &quot;How goes it?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Greetingss, Mr. Mousss,&quot; she hissed at you, &quot;It goess. This restaurant doess not cater well to my kind, they do not sserve whole portionss of meat, much lesss live animalss.&quot;</div></li><li class="li1"><div class="de1">&quot;Heh, yeah, I imagine it might be a little off-putting to some people.&quot;</div></li><li class="li1"><div class="de1">&gt;One of her eyes narrowed at you while the other raised an...eyebrow? Eyeridge?</div></li><li class="li1"><div class="de1">&quot;N-not that I would really mind if they did, but, ya&#039;know, business and all.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Indeed, I would like to ssomeday visit an esstablishment that iss...what doess Misss Kruger call it? Inclussive, for lunch.&quot;</div></li><li class="li1"><div class="de1">&quot;Heh, that&#039;d be something, wouldn&#039;t it? I think it might be funny to watch Vihaan here faint from the sight.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Hey!&quot; Vihaan pointed a fork at you, &quot;I&#039;ll have you know I can eat anywhere, anytime, regardless of the circumstances.&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah whatever, I see how you look at other people in the lunch room.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;And who are you?&quot; she asks, almost glaring at Vihaan.</div></li><li class="li1"><div class="de1">&gt;&quot;Vihaan Patel, A-Bay,&quot; he takes it in stride, reaching a paw across the table, &quot;I&#039;m this guy&#039;s wingman.&quot;</div></li><li class="li1"><div class="de1">&gt;She stares and flicks her tongue out a few times.</div></li><li class="li1"><div class="de1">&gt;Geeze that thing is long.</div></li><li class="li1"><div class="de1">&gt;&quot;I ssaw you moving deskss eariler,&quot; Sasha brushes him off, instead eyeing you up and down, &quot;why doess management sselect a member of the IT department to do ssuch thingss?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s because he&#039;s one of the few people here that DOES even lift,&quot; Vihaan said with a smirk, &quot;Built like a bear, you know, without the fur...and single too.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Iss that sso...And are you hiss mother, to be playing matchmaker?&quot;</div></li><li class="li1"><div class="de1">&quot;Dude, ease up.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m just sayin&#039; bro, gotta put yourself out there if you ever wannna--&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Mr. Vihaan,&quot; Ms. Kruger called from across the table, &quot;control yourself, this is still an official business function.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Sorry ma&#039;am,&quot; Vihaan said and hunched over his plate.</div></li><li class="li1"><div class="de1">&quot;So, uh,&quot; you turn back to Sasha, &quot;where&#039;d they stick you?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I wass a sspecial hire,&quot; she said after swallowing a rather large portion of meat, &quot;I am the &#039;aggresssive cusstomer relationss&#039; sspecialist.&quot;</div></li><li class="li1"><div class="de1">&gt;That was a new bit of corporate jargon.</div></li><li class="li1"><div class="de1">&quot;What does that mean?&quot; You ask around your own bite, &quot;do you make calls?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nah bro,&quot; Vihaan interjects, &quot;that means she deals with difficult customers. If they call and get belligerent, instead of hanging up on them and losing business, she takes the call instead.&quot;</div></li><li class="li1"><div class="de1">&quot;Oof, that must be difficult.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I enjoy my work,&quot; she says, &quot;and it payss very well.&quot;</div></li><li class="li1"><div class="de1">&gt;Before you know it you&#039;ve cleared both of your bowls.</div></li><li class="li1"><div class="de1">&gt;Sure, you probably just ate like two thousand calories, but you&#039;re bulking!</div></li><li class="li1"><div class="de1">&gt;Year eight of bulking.</div></li><li class="li1"><div class="de1">&gt;At least it was low-carb.</div></li><li class="li1"><div class="de1">&gt;Ms. Kruger calls the &#039;meeting&#039; adjourned, and lunch break is over.</div></li><li class="li1"><div class="de1">&quot;Well, it was nice talking with you, Sasha. Guess I&#039;ll see you around the office?&quot;</div></li><li class="li1"><div class="de1">&gt;She narrows her red eyes at you.</div></li><li class="li1"><div class="de1">&gt;&quot;You will, Mr. Mouss, you will.&quot;</div></li><li class="li1"><div class="de1">&gt;okay</div></li><li class="li1"><div class="de1">&quot;Uh, okay.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I think she likes you, bro,&quot; Vihaan yells to you in the car on the way back.</div></li><li class="li1"><div class="de1">&gt;You can barely hear him over the club music blasting in the car.</div></li><li class="li1"><div class="de1">&quot;As a meal, maybe!&quot; you reply, &quot;She&#039;s huge! And she was eyeing me up like a predator!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Nah dude, that&#039;s just how reptiles are, well the predators anyway!&quot;</div></li><li class="li1"><div class="de1">&quot;How would you know?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ve hung out with reptile couples before dude, trust me. You should talk to her more!&quot;</div></li><li class="li1"><div class="de1">&quot;Does her species use poison or pressure to kill their prey?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Cobra or viper, so poison! You&#039;ll be fine, probably, you&#039;re human!&quot;</div></li><li class="li1"><div class="de1">&quot;Just because I can eat poisonous foods doesn&#039;t mean I can take her venom! She could probably drop the whole bay with what she&#039;s got!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Dude, live a little! What&#039;s the point of doing curls if you never get the girls?&quot;</div></li><li class="li1"><div class="de1">&quot;Fucking IMPLYING!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t write her off dude! Next time she needs some computer help, maybe stand a little closer, reach over her to fix it, maybe guide her hand on the mouse! Works every time!&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah, that&#039;d just be creepy if I did it! There&#039;s different rules for attractive guys!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Whatever man, gotta get over those insecurities if you don&#039;t wanna die alone!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The rest of the day is boring as usual.</div></li><li class="li1"><div class="de1">&gt;Schedule an update here.</div></li><li class="li1"><div class="de1">&gt;Restart a computer there.</div></li><li class="li1"><div class="de1">&gt;Squat day at the gym.</div></li><li class="li1"><div class="de1">&gt;Eat.</div></li><li class="li1"><div class="de1">&gt;Vidya.</div></li><li class="li1"><div class="de1">&gt;Sleep.</div></li><li class="li1"><div class="de1">&gt;You couldn&#039;t help but keep thinking about what Vihaan said.</div></li><li class="li1"><div class="de1">&gt;Even though a lot of his advice didn&#039;t really apply to you, he probably knew what he was talking about with reptile preds.</div></li><li class="li1"><div class="de1">&gt;And she wasn&#039;t openly hostile to you like she was to Vihaan.</div></li><li class="li1"><div class="de1">&gt;Maybe he was right...</div></li><li class="li1"><div class="de1">&gt;Nah, couldn&#039;t be.</div></li><li class="li1"><div class="de1">&gt;You only spoke over one lunch, and you missed part of it being late anyway.</div></li><li class="li1"><div class="de1">&gt;But maybe...</div></li><li class="li1"><div class="de1">&gt;Whatever, all this thinking would get you nowhere.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;You are Anon. 
-&gt;You work inside a server room inside a massive call center, in a small city, in the Midwest, where nothing really changes except where the road construction is this week. 
-&gt;Your desks are collected on one side of the room, next to rows and rows of server stacks behind clear plastic strips that hang from the ceiling.
-&gt;They keep the AC running through the stacks and away from you, but it&#039;s still pretty cold in here.
-&gt;You were pretty proud of your work though, the cables were all in neat bunches on the grills hanging from the ceiling and heading outside to the rest of the office.
-&gt;Most of your time at work is helping people who don’t know how to fix petty computer problems. 
-&gt;“Did you turn it off and on again,” despite being really annoying to the employees, works 99% of the time. 
-&gt;Software updates, hardware replacements, and showing up during the wee hours of the morning count as excitement in a place like this. 
-&gt;Well there was that time last week that you guys got new office chairs. 
-&gt;There’s two other guys that work here, and they look exactly like you’d expect them to look. 
-&gt;Jim, the head of the department, is a big fat fuck with glasses and a neckbeard worthy of his station.
-&gt;The front of his desk is pushed up against yours, but you hardly ever see his face because he&#039;s always leaned back in his chair, hiding behind his triple-monitor setup.
-&gt;He gets his kicks collecting and shooting guns. 
-&gt;Gary, your colleague, is also a big fat fuck. 
-&gt;You had no idea tortises could get to his size.
-&gt;Even though it was the stereotype for his species to be slow at everything, that only counted with locomotion. His brown stubby fingers could type faster than anyone else in the building.
-&gt;He’s also a weeb who spends his free time talking to other weebs online and doing weeb things.
-&gt;His desk faces away from Jim&#039;s, and his stubby legs don&#039;t even reach the floor from the lowest setting. 
-&gt;Yours is pretty spartan, but still customized.
-&gt;You have a tiny Borderlands chest that holds your pens and things next to a mechanical keyboard, and your mousepad is a printed type with latest Bioshock game on it.
-&gt;You weren’t a fat fuck, but that didn’t mean you were thin, either. 
-&gt;In between work and vidya, you went to the gym to work out. 
-&gt;Lifting only.
-&gt;You gave up on being thin and attractive long ago. 
-&gt;No matter how /fit/ you ever became, you couldn’t change your face.
-&gt;Your stupid, ugly face. 
-&gt;And you didn’t have the discipline to stick to an ironclad diet. 
-&gt;Aesthetic as fuck was an impossible fantasy. 
-&gt;So you figured that you’d just become as big and strong as possible, and maybe someone might be into that. 
-&gt;Just as long as your gut didn’t go out past your chest it would be fine, right?
-&gt;Even big ugly monsters could find love in the end, right?
-&gt;You kept telling yourself that, and tried hard to believe it, because you couldn’t accept the alternative.
-&gt;As the only one who worked out, that meant you were the one to always get pegged to do the heavy lifting. 
-&gt;Sometimes people outside your office even called you over to help. 
-&gt;Like today. 
-&gt;“Anon,” Jim called you over the top of his model gun-covered desk, “they need your help over at C-Bay, moving desks.”
-“And?” You ask. 
-&gt;&quot;And Ashley said she’d buy you lunch if you helped out.”
-“Alright, sounds good to me.” 
-&gt;After the first few times you had managed to stonewall management enough with “concerns” about workplace safety, insurance coverage, and job descriptions that they now gave you favors in exchange for helping out. 
-&gt;How would HR react if you injured your back or foot while doing something you technically weren’t hired to do?
-&gt;So now it was lunch, or parking spots, or beer (from the college kids that always filtered through here during the school year) in exchange for picking things up and putting them down. 
-&gt;You get your fat hairy ass out of your chair and head over to C-Bay.
-&gt;You pass a couple of the bays, giant rooms with rows and rows of cubicles, the soft murmur of many different employees filling the big empty space between their desks and the ceiling.
-&gt;In the far distance you can see bland motivational posters and announcements stapled to pegboards on the light grey walls, in between fake office plants.
-&gt;There were several &quot;bays&quot; like this in the building.
-&gt;You can spot a few pairs of ears sticking up out of them, and one obnoxiously peppy giraffe has her head two feet over the short grey cubicle dividers.
-&gt;Your gears-of-war sillouhette takes up a solid half of the hallway, and the couple groups coming your way have to file onto one side.
-&gt;Two tall deer women in tight office clothing give you annoyed or incredulous looks as you pass.
-&gt;Whatever. Being IT, you had access to every single email to pass through the company&#039;s servers.
-&gt;It was pretty easy to setup a keyword search.
-&gt;And perhaps save a few here and there for &quot;insurance.&quot;
-&gt;Vicki, deer girl one, kept asking her boyfriend to send her nudes at work.
-&gt;Deborah, deer girl two, was in a relationship with a stag one bay over and they sent each other dirty emails every day.
-&gt;Zane, the giraffe girl, was just a sweetheart.
-&gt;She was going to college to become a kindergarten teacher.
-&gt;She was always the one to send encouraging emails to people she heard were going through tough times, or birthday wishes, and always let people down easy who asked her out.
-&gt;She only wanted to date someone who went to her church, only with the intention of marriage.
-&gt;In other words: prime wife material.
-&gt;You daydream about a life with a wife like her.
-&gt;A nice house in the suburbs...
-&gt;Three good kids...
-&gt;Coming home every day after work to a beautiful, happy wife and family...
-&gt;It was definitely possible, too.
-&gt;Part of the process they called &quot;plane transferrence,&quot; commonly called Drops, was getting what was basically racial abilities.
-&gt;People, anthros and humans alike, popped up so often there was a government agency dedicated to integrating them.
-&gt;Some people blamed the gods, some people blamed aliens, others tried to mash together as many scientific sounding words as possible to explain it away as something like &quot;multiverse-quasi-convergence incidents&quot; or somesuch.
-&gt;Either way, humans could have children with just about anything organic that could pass a Harkness test.
-&gt;Though it was frowned upon to be dating outside your species, most humans didn&#039;t give a fuck.
-&gt;We&#039;ve wanted to fuck everything since forever.
-&gt;Even the greeks talked about wanting to fuck the stars.
-&gt;Still, every man had his limits.
-&gt;You weren&#039;t so desperate enough that you&#039;d settle for just anyone.
-&gt;Case in point: the tiger woman you just passed sitting with her back to the open hallway between the bays.
-&gt;35. Divorced. Fat. Unkempt fur that smelled weird and three kinds of crazy.
-&gt;Or the weasel woman.
-&gt;28. Fat. Fivehead with that stupid hairdo that pulled all her hair together at the top of her head. Unhygenic. Severe case of unwarranted self-importance and delusional self-image. Sends creepy emails with way too specific details to men around the office.
-&gt;There&#039;s the owl woman, too.
-&gt;Used her work email to send desperate, threatening, or lovey-dovey emails to her boyfriend of the month, demanding gifts to prove they loved her, then breaking up with them because she saw them with another woman somewhere.
-&gt;You reasoned that you weren&#039;t much better, yourself, but the thought of getting caught up in a loveless marriage to an unattractive woman because you were both lonely enough to settle...
-&gt;It kept you up at night.
-&gt;Besides, you showered and shaved every day, wore good clothes, (&quot;presentable&quot; clothing wasn&#039;t made for people your size outside of tailored suits) and just generally tried to be nice.
-&gt;Not to mention the Drops, for some reason, seemed to disproportionately select strong, fit, charming men and incredibly hot women.
-&gt;Like the male tiger greeting you at the doors to C-Bay.
-&gt;He looked like he could easily be a male model, but here he was in business casual with his sleeves rolled up over his massive forearms.
-&gt;He was easily a head taller than you, and one of the few people here management went to for help with manual labor.
-&gt;You and a few others were the odd ones out, apparently.
-&gt;&quot;Sup Anon? Ready to help?&quot;
-&quot;Hey Vihaan, and yeah. Ashley said she was buying lunch?&quot;
-&gt;&quot;You bet! Mongolian grill today, this stuff will definitely work up the appetite for it.&quot;
-&quot;Where is she, anyway?&quot;
-&gt;Vihaan pointed a fuzzy finger...paw...whatever, over his shoulder.
-&gt;&quot;She&#039;s micromanaging the guy with the moving dolly. Gotta flex her managerial muscles, if you know what I mean.&quot;
-&gt;&quot;I heard that, Mr. Patel,&quot; an elegant voice chided.
-&gt;Around the corner, clipboard in hand, stepped Ashley.
-&gt;She was adjusting the frameless glasses on her face and you couldn&#039;t help but take a quick peek at the rest of her figure.
-&gt;A bombshell doberman pinscher; skinny waist, high heels to show off the taut thighs beneath a tight skirt, and a business suit barely containing a pare of dark orange breasts.
-&gt;She used the pen in her hand to tap Vihaan on the nose, which caused him to scrunch his face up far more than you thought should be possible.
-&gt;&quot;But it won&#039;t be me bossing you around this time. Mr. Mous, direct Mr. Patel as you assist him in setting up the new set of desks in C-Bay. You and your colleagues will need to wire the systems, so it would be best to minimize downtime and expedite the configuration phase of our new expansion.&quot;
-&quot;You got it, Ms. Kruger.&quot;
-&gt;&quot;The &#039;expansion meeting&#039; will take place at the local mongolian grill at noon, sharp. See that you accomplish this before then.&quot;
-&gt;&quot;You can count on us, Ms. Kruger!&quot; Vihaan gave her a smile and a thumbs-up.
-&gt;She nodded and walked away, leaving you two to start moving desks. 
-&gt;&quot;So Anon...&quot; Vihaan asked as you lifted the first one, &quot;see the new hires?&quot;
-&quot;Yup, had to make them all badges yesterday. Easy around this corner.&quot;
-&gt;&quot;Well, any of them catch your eye?&quot; Vihaan had a knowing smirk despite the effort.
-&quot;Dude, half the girls here catch my eye. Even though it&#039;s a call center, it seems like being hot is one of the requirements to work here.&quot;
-&gt;&quot;I hear that, bro. Best part is none of them are in my department.&quot;
-&quot;So they&#039;re all fair game, huh?&quot;
-&gt;&quot;You got it. Couple of fine felines and one smoking-hot doe I&#039;d like to pounce on, if you know what I mean.&quot;
-&quot;Shouldn&#039;t be too difficult for the felines, I guess, being the same typing and all. Lift on three...&quot;
-&gt;&quot;One, two, three! Yeah, just gotta figure out what they&#039;re into, ya know? Care to help me out, bro?&quot;
-&quot;Like they&#039;re gonna have that kinda conversation with me, dude. I&#039;m just the computer guy.&quot;
-&gt;&quot;Nah, I mean, you know, use your hacker skills to find out what they like.&quot;
-&quot;One, that&#039;s probably a violation of company policy somewhere, two that&#039;s creepy, and three, they just got here.&quot;
-&gt;&quot;Your loss bro, don&#039;t know why you haven&#039;t picked up any of these girls yet either.&quot;
-&quot;Taxonomical distance, probably.&quot;
-&gt;&quot;What?&quot;
-&quot;I&#039;m nowhere close to their species.&quot;
-&gt;&quot;No way bro, SKIN is IN. Some of those girls got a special kink just for humans.&quot;
-&quot;Experience tells me otherwise.&quot;
-&gt;&quot;Come on, bro, a big strong human like you? I can tell you lift bro, I bet half the girls watching you lift something this huge this easy are getting moist at their desks just thinking about it.&quot;
-&quot;Thanks, but I think I need about ten pounds more of lean mass before it really works out in my favor. Plus, what happens if she rejects me? I gotta work with them the rest of the time they&#039;re here.&quot;
-&gt;&quot;Just gotta have confidence man, don&#039;t let it get to you. You get over it first, they just gotta deal.&quot;
-
-&gt;The two of you finish faster than you thought, and arrive to the restaurant on-time.
-&gt;You ride with Vihaan in his sports car there.
-&gt;Some guys get all the breaks.
-&gt;Everyone else had got there earlier, though, and the lunch table was almost full.
-&gt;A few of them had invited their significant others.
-&gt;While most of them were in the same family of species, there were a couple human-anthro couples as well.
-&gt;They all sat at one end of the long table, since it made a few of the others uncomfortable, though they couldn&#039;t really complain out-loud.
-&gt;One guy brought his wolf of a wife.
-&gt;They sat next to a snow leopard and her absolutely jacked human boyfriend, who sat at the end with two full plates like a modern day Conan.
-&gt;Ms. Kruger sat at the other, talking with a rat and wolf. 
-&gt;By the time you got to the table with your food, there was only one spot left.
-&gt;Near the middle, and across from the newest office hire.
-&gt;Sasha.
-&gt;The massive snake woman sat between the table and the wall, strategically placed to allow her coils to pile up behind her and still allowing everyone else to take either route around the table so they wouldn&#039;t step on it.
-&gt;She was dressed in a sharp business suit, &#039;sharp&#039; being the operative word here.
-&gt;Somehow she had managed to get it tailored so that it looked pointy.
-&gt;Her padded shoulders almost raised up in points, her collar was pressed into a knife&#039;s edge, and her chest had those seams that gave points to her massive breasts.
-&gt;You could see a v-shaped pattern of black, red, and brown spread across her splayed yellow hood as she bent over the table, flicking her tongue into the bowl of mostly meat.
-&gt;A spoon brought a bit of meat into her mouth and the raised her head up and back to swallow it whole.
-&gt;The slits of her dark-red eyes locked with yours as she swallowed.
-&gt;You noticed that she wore a makeup of sorts: dark brown lines on either sides of her eyes that enhanced their angular shapes.
-&gt;She stared at you for a moment, blinking only her clear eyelids.
-&gt;Even &#039;sitting down&#039; she was one of the tallest people at the table.
-&gt;Her lower torso was wide enough even you would have a hard time getting your arms all the way around it.
-&gt;Which meant that if she ever needed moved you&#039;d be the first ones they&#039;d call.
-&gt;She did the same thing when you set her up with an ID card.
-&quot;Uh, hello again, Ms. Szeirsi,&quot; you say, &quot;How goes it?&quot;
-&gt;&quot;Greetingss, Mr. Mousss,&quot; she hissed at you, &quot;It goess. This restaurant doess not cater well to my kind, they do not sserve whole portionss of meat, much lesss live animalss.&quot;
-&quot;Heh, yeah, I imagine it might be a little off-putting to some people.&quot;
-&gt;One of her eyes narrowed at you while the other raised an...eyebrow? Eyeridge?
-&quot;N-not that I would really mind if they did, but, ya&#039;know, business and all.&quot;
-&gt;&quot;Indeed, I would like to ssomeday visit an esstablishment that iss...what doess Misss Kruger call it? Inclussive, for lunch.&quot;
-&quot;Heh, that&#039;d be something, wouldn&#039;t it? I think it might be funny to watch Vihaan here faint from the sight.&quot;
-&gt;&quot;Hey!&quot; Vihaan pointed a fork at you, &quot;I&#039;ll have you know I can eat anywhere, anytime, regardless of the circumstances.&quot;
-&quot;Yeah whatever, I see how you look at other people in the lunch room.&quot;
-&gt;&quot;And who are you?&quot; she asks, almost glaring at Vihaan.
-&gt;&quot;Vihaan Patel, A-Bay,&quot; he takes it in stride, reaching a paw across the table, &quot;I&#039;m this guy&#039;s wingman.&quot;
-&gt;She stares and flicks her tongue out a few times.
-&gt;Geeze that thing is long.
-&gt;&quot;I ssaw you moving deskss eariler,&quot; Sasha brushes him off, instead eyeing you up and down, &quot;why doess management sselect a member of the IT department to do ssuch thingss?&quot;
-&gt;&quot;That&#039;s because he&#039;s one of the few people here that DOES even lift,&quot; Vihaan said with a smirk, &quot;Built like a bear, you know, without the fur...and single too.&quot;
-&gt;&quot;Iss that sso...And are you hiss mother, to be playing matchmaker?&quot;
-&quot;Dude, ease up.&quot;
-&gt;&quot;I&#039;m just sayin&#039; bro, gotta put yourself out there if you ever wannna--&quot;
-&gt;&quot;Mr. Vihaan,&quot; Ms. Kruger called from across the table, &quot;control yourself, this is still an official business function.&quot;
-&gt;&quot;Sorry ma&#039;am,&quot; Vihaan said and hunched over his plate.
-&quot;So, uh,&quot; you turn back to Sasha, &quot;where&#039;d they stick you?&quot;
-&gt;&quot;I wass a sspecial hire,&quot; she said after swallowing a rather large portion of meat, &quot;I am the &#039;aggresssive cusstomer relationss&#039; sspecialist.&quot;
-&gt;That was a new bit of corporate jargon.
-&quot;What does that mean?&quot; You ask around your own bite, &quot;do you make calls?&quot;
-&gt;&quot;Nah bro,&quot; Vihaan interjects, &quot;that means she deals with difficult customers. If they call and get belligerent, instead of hanging up on them and losing business, she takes the call instead.&quot;
-&quot;Oof, that must be difficult.&quot;
-&gt;&quot;I enjoy my work,&quot; she says, &quot;and it payss very well.&quot;
-&gt;Before you know it you&#039;ve cleared both of your bowls.
-&gt;Sure, you probably just ate like two thousand calories, but you&#039;re bulking!
-&gt;Year eight of bulking.
-&gt;At least it was low-carb.
-&gt;Ms. Kruger calls the &#039;meeting&#039; adjourned, and lunch break is over.
-&quot;Well, it was nice talking with you, Sasha. Guess I&#039;ll see you around the office?&quot;
-&gt;She narrows her red eyes at you.
-&gt;&quot;You will, Mr. Mouss, you will.&quot;
-&gt;okay
-&quot;Uh, okay.&quot;
-
-&gt;&quot;I think she likes you, bro,&quot; Vihaan yells to you in the car on the way back.
-&gt;You can barely hear him over the club music blasting in the car.
-&quot;As a meal, maybe!&quot; you reply, &quot;She&#039;s huge! And she was eyeing me up like a predator!&quot;
-&gt;&quot;Nah dude, that&#039;s just how reptiles are, well the predators anyway!&quot;
-&quot;How would you know?&quot;
-&gt;&quot;I&#039;ve hung out with reptile couples before dude, trust me. You should talk to her more!&quot;
-&quot;Does her species use poison or pressure to kill their prey?&quot;
-&gt;&quot;Cobra or viper, so poison! You&#039;ll be fine, probably, you&#039;re human!&quot;
-&quot;Just because I can eat poisonous foods doesn&#039;t mean I can take her venom! She could probably drop the whole bay with what she&#039;s got!&quot;
-&gt;&quot;Dude, live a little! What&#039;s the point of doing curls if you never get the girls?&quot;
-&quot;Fucking IMPLYING!&quot;
-&gt;&quot;Don&#039;t write her off dude! Next time she needs some computer help, maybe stand a little closer, reach over her to fix it, maybe guide her hand on the mouse! Works every time!&quot;
-&quot;Yeah, that&#039;d just be creepy if I did it! There&#039;s different rules for attractive guys!&quot;
-&gt;&quot;Whatever man, gotta get over those insecurities if you don&#039;t wanna die alone!&quot;
-
-&gt;The rest of the day is boring as usual.
-&gt;Schedule an update here.
-&gt;Restart a computer there.
-&gt;Squat day at the gym.
-&gt;Eat.
-&gt;Vidya.
-&gt;Sleep.
-&gt;You couldn&#039;t help but keep thinking about what Vihaan said.
-&gt;Even though a lot of his advice didn&#039;t really apply to you, he probably knew what he was talking about with reptile preds.
-&gt;And she wasn&#039;t openly hostile to you like she was to Vihaan.
-&gt;Maybe he was right...
-&gt;Nah, couldn&#039;t be.
-&gt;You only spoke over one lunch, and you missed part of it being late anyway.
-&gt;But maybe...
-&gt;Whatever, all this thinking would get you nowhere.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    23 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    29 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

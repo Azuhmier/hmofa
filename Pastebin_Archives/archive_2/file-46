@@ -1,914 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Here Comes The Sun - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Here Comes The Sun - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/Yx6rpd9K" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/Yx6rpd9K" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="7aZ8tQbxPVK_PxYMIp_OZjLA9uQEpZFmWC7_VyJbEQGJyTbUQKh7It1lT2oT26E3QKGugCn38AABYtJ6cDEjVQ==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/Yx6rpd9K" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/Yx6rpd9K" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/1/0/3/2978830.jpg" alt="Strong_Anon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Here Comes The Sun</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Strong_Anon">Strong_Anon</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Strong_Anon" class="message" title="Send a private message to: Strong_Anon"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 28th of May 2019 11:14:13 PM CDT">May 28th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,150                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 46.36 KB            </div>
-
-            <div class="right">
-                <a href="/raw/Yx6rpd9K" class="btn -small">raw</a>
-                <a href="/dl/Yx6rpd9K" class="btn -small">download</a>
-                <a href="/clone/Yx6rpd9K" class="btn -small h_800">clone</a>
-                <a href="/embed/Yx6rpd9K" class="btn -small h_800">embed</a>
-                <a href="/report/Yx6rpd9K" class="btn -small">report</a>
-                <a href="/print/Yx6rpd9K" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;You really, REALLY needed this.</div></li><li class="li1"><div class="de1">&gt;And by this, you meant this vacation.</div></li><li class="li1"><div class="de1">&gt;You had gone ahead and rented a room at one of those hot spring resorts, to get away from it all and relax.</div></li><li class="li1"><div class="de1">&gt;Work was interesting and paid well, but everyone needs a vacation once and awhile; so you saved up enough time and money to not have to worry about it.</div></li><li class="li1"><div class="de1">&gt;Presently, you sit in a booth at the Resort restaurant/bar, reading the 5th book of the Dresden files.</div></li><li class="li1"><div class="de1">&gt;Yes, you were reading a book in a bar like a nerd.</div></li><li class="li1"><div class="de1">&gt;Of course, you were alone, no girlfriend or significant other to share this with.</div></li><li class="li1"><div class="de1">&gt;As sad as it sounds, work and life had just gotten in the way of dating.</div></li><li class="li1"><div class="de1">&gt;Sure, you had had a few hookups now and then but they never went anywhere sadly.</div></li><li class="li1"><div class="de1">&gt;Right as you read about Dresden getting told his nemesis is there to kill in you feel someone slide into the seat opposite you.</div></li><li class="li1"><div class="de1">&gt;You look up calmly to see a Cow Anthro with a wide fake smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Honey! thanks for getting a booth for us!&quot; she says in an awkward happy tone.</div></li><li class="li1"><div class="de1">&gt;You are about to correct her when you notice a disappointed and frustrated bull anthro looking from you to her; double fisting glasses of some kind of beverage.</div></li><li class="li1"><div class="de1">&gt;His face goes through a range of emotions as you look at him.</div></li><li class="li1"><div class="de1">&gt;Confusion to annoyance to sheer anger all within a few moments.</div></li><li class="li1"><div class="de1">&gt;The cow looks at you with an almost pleading smile.</div></li><li class="li1"><div class="de1">&gt;You can&#039;t say no to the sad look.</div></li><li class="li1"><div class="de1">&gt;&quot;Ohhh there you are dear! what took so long?&quot; You ask in a fake happy tone, reaching a hand to her and grabbing one of her hands (Paws?) gently.</div></li><li class="li1"><div class="de1">&gt;The bull looks more annoyed than furious, to the point you think you can see a blood vessel under his fur; and you briefly think about what to do.</div></li><li class="li1"><div class="de1">&gt;Honestly, what did this (admittedly beautiful) Anthro think you would to do deter him?</div></li><li class="li1"><div class="de1">&gt;T-pose at him to assert dominance?</div></li><li class="li1"><div class="de1">&gt;he&#039;s built enough that he looks like he could yeet you into next Tuesday with no effort.</div></li><li class="li1"><div class="de1">&gt;Luckily, you don&#039;t have to do anything of the sort because he downs one of the drinks before stomping off angrily.</div></li><li class="li1"><div class="de1">&gt;You give a sigh of relief and look at the cow anthro for some kind of explanation.</div></li><li class="li1"><div class="de1">&gt;She gives a halfhearted smile as she pulls her hand (not paws or hooves so hand you decided) away from your weak grasp.</div></li><li class="li1"><div class="de1">&gt;&quot;S-sorry... that guy wouldn&#039;t take no for an answer&quot; she explains as you calmly look her over.</div></li><li class="li1"><div class="de1">&gt;She looks maybe in her late 30s to early 40s and is very.... curvaceous to say the least.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t linger on her form though for politeness sake.</div></li><li class="li1"><div class="de1">&gt;&quot;You were alone, so I figured I could.... use you to get him to leave me alone, I&#039;m sorry&quot; she explains.</div></li><li class="li1"><div class="de1">&gt;As you give her a warm smile, you set aside your book and push your appetizer of cheesy garlic bread towards her.</div></li><li class="li1"><div class="de1">&gt;&quot;No need to be sorry, nobody likes a creep&quot; you say with a smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Try some, it&#039;s good&quot;</div></li><li class="li1"><div class="de1">&gt;She gives an almost tearful laugh with a deep smile.</div></li><li class="li1"><div class="de1">&gt;&quot;T-thank you&quot; </div></li><li class="li1"><div class="de1">&gt;You grab a nibble of a piece of garlic bread yourself as you study her.</div></li><li class="li1"><div class="de1">&gt;God damn, no wonder that bull wouldn&#039;t leave her alone.</div></li><li class="li1"><div class="de1">&gt;As you noticed before, she&#039;s a cow anthro with light cream colored fur and deep auburn colored hair.</div></li><li class="li1"><div class="de1">&gt;She&#039;s got the biggest breasts you&#039;ve ever seen in person, the size that made models looks like boards.</div></li><li class="li1"><div class="de1">&gt;About the size the size of medium sized watermelons?</div></li><li class="li1"><div class="de1">&gt;The table limits your view but from what you&#039;ve seen she is just your type.</div></li><li class="li1"><div class="de1">&gt;But you don&#039;t push it.</div></li><li class="li1"><div class="de1">&gt;&quot;So what brings you out here...and uh...what&#039;s your name &quot;Dear&quot;&quot; you ask calmly.</div></li><li class="li1"><div class="de1">&gt;She nearly chokes on a piece of bread as she laughs at your question, then gives you a warm smile like nothing happened.</div></li><li class="li1"><div class="de1">&gt;&quot;Ha uh... My name is Flora... and I&#039;m here because my kid thought I needed a vacation.&quot; she answers with a sad smile.</div></li><li class="li1"><div class="de1">&gt;You sip your drink and lean towards her, elbows resting on the table.</div></li><li class="li1"><div class="de1">&gt;&quot;Nice to meet you Flora, call me Anon&quot; you respond, sliding your book aside.</div></li><li class="li1"><div class="de1">&gt;You calmly extend a hand to her over the table so it looks like you were trying to hold her hand gently.</div></li><li class="li1"><div class="de1">&gt;She takes your hand softly, giving you a reserved yet happy smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Hi Anon, nice to meet you&quot; She says with a pleasant smile.</div></li><li class="li1"><div class="de1">&gt;You&#039;re taken aback at her beauty for a moment; just a moment, but still.</div></li><li class="li1"><div class="de1">&gt;Her Auburn colored hair is well past her shoulders,a smile that could light up a room and...something... a warmth exuding from her.</div></li><li class="li1"><div class="de1">&gt;Like summer&#039;s warmth after springs last frost.</div></li><li class="li1"><div class="de1">&gt;You feel yourself drawn to her like a moth to a flame.</div></li><li class="li1"><div class="de1">&gt;Your waitress appears beyond the dim of the bar with a notepad.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, I didn&#039;t know you had company mr. Anon&quot; the wolfess waitress says blandly, looking annoyed, &quot;What would you and your.. guest like??&quot;</div></li><li class="li1"><div class="de1">&gt;This specific waitress had been hitting on you non stop since you started going to that restaurant.</div></li><li class="li1"><div class="de1">&gt;You flounder for a bit, looking desperately from your menu to Flora then back to the menu.</div></li><li class="li1"><div class="de1">&gt;You never were good at picking up ladies; and suddenly you&#039;re forced to somehow navigate between a Milf and a wanting server.</div></li><li class="li1"><div class="de1">&gt;Luckily, Flora is able to bail you out.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh thank you for the extra bread&quot; Flora states as the wolfess; whose name you never learned, sets a tray of bread and butter down.</div></li><li class="li1"><div class="de1">&gt;The wolfess seems surprised at the politeness and you give her a smile.</div></li><li class="li1"><div class="de1">&gt;&quot;We&#039;ll take a few extra minutes to order, thank you so much&quot; you say with what you hope is a pleasant smile.</div></li><li class="li1"><div class="de1">&gt;The wolfess seems taken aback for a moment, then smiles, albeit coldly, then takes her leave.</div></li><li class="li1"><div class="de1">&gt;&quot;So &quot;dear&quot; since we are having a nice meal together, why don&#039;t we get to know each other a bit?&quot; you ask before sipping some water.</div></li><li class="li1"><div class="de1">&gt;Flora eyes you warily for a moment before answering.</div></li><li class="li1"><div class="de1">&gt;&quot;Already trying to get in my pants?&quot; she huffs annoyed</div></li><li class="li1"><div class="de1">&gt;You raise your hands, and give a small frown.</div></li><li class="li1"><div class="de1">&gt;&quot;Not at all, but when a pretty lady sits down with me for dinner, I&#039;m gonna try to talk to her&quot; you say defensively.</div></li><li class="li1"><div class="de1">&gt;&quot;I mean, you sat down at my table and interrupted my reading&quot; you say, tapping the spine of your paper back against the table softly.</div></li><li class="li1"><div class="de1">&gt;Flora gives a small cringe looking at the book than back to you.</div></li><li class="li1"><div class="de1">&gt;&quot;Sorry...just... I get a lot of creeps like that bull&quot; she finally says with a frown.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m just a guy who wants to know about the lady who just plopped down in front of him&quot; you say, smooshing your book against the table when you say &quot;plopped&quot; so the book makes a similar sound.</div></li><li class="li1"><div class="de1">&gt;Flora gives a short chuckle at that then looks you in the eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;You mean it don&#039;t you? You&#039;re just curious about me?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Not everyday you get thrown into a relationship, besides, I&#039;m here alone on vacation; I could use some good conversation&quot; you answer with a smile, absentmindedly rubbing a thumb on your books pages.</div></li><li class="li1"><div class="de1">&gt;Flora ears perk a bit when you say that.</div></li><li class="li1"><div class="de1">&gt;&quot;Alone? No girlfriend or family?&quot; she says, leaning forward, resting her head in her hands with her elbows on the table.</div></li><li class="li1"><div class="de1">&gt;&quot;No family left, no girlfriend for a while; focused on work too much&quot; you answer reluctantly.</div></li><li class="li1"><div class="de1">&gt;What harm is there sharing with a stranger who you will never meet again?</div></li><li class="li1"><div class="de1">&gt;&quot;Ooooh; You&#039;re anonymous then? one of those people pulled from another world?&quot; Flora says with some amazement and pity in her voice.</div></li><li class="li1"><div class="de1">&gt;You nod and give a quick sad smile.</div></li><li class="li1"><div class="de1">&gt;One of her hands covers her mouth while the other reaches to you in a motherly sort of way.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh my god...I... I can&#039;t imagine what you went through trying to rebuild a whole life&quot; she says with pity in her voice.</div></li><li class="li1"><div class="de1">&gt;A pity you were used to.</div></li><li class="li1"><div class="de1">&gt;You shrug it away.</div></li><li class="li1"><div class="de1">&gt;&quot;I was a teenager when it happened, and to be honest&quot; </div></li><li class="li1"><div class="de1">&gt;You give her hand a gentle squeeze.</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t even remember what they looked like, so that&#039;s a plus&quot;</div></li><li class="li1"><div class="de1">&gt;Flora looks confused for a moment.</div></li><li class="li1"><div class="de1">&gt;&quot;They? who?&quot; </div></li><li class="li1"><div class="de1">&gt;My parents, my siblings, my...Everyone&quot; you answer.</div></li><li class="li1"><div class="de1">&gt;You can see tears welling in Floras eyes, so you quickly change the subject.</div></li><li class="li1"><div class="de1">&gt;&quot;SO! I&#039;ve told you about me! now it&#039;s your turn&quot; you state calmly, still holding Flora&#039;s fur covered hand.</div></li><li class="li1"><div class="de1">&gt;Before she answers, the wolfess returns bringing glasses of water.</div></li><li class="li1"><div class="de1">&gt;&quot;Have you decided on what you would like to eat?&quot; she asks pensively, eyeing your hand intertwined with Flora&#039;s.</div></li><li class="li1"><div class="de1">&gt;&quot;Uh...I&#039;ll have the seafood Alfredo and a pitcher of voodoo ranger IPA&quot; you respond, then look to Flora.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ll have the largest salad you have&quot; she answers, looking to the large canine with a smile.</div></li><li class="li1"><div class="de1">&gt;The wolfess (Emily, Based on her nametag) give a short nod then strides off.</div></li><li class="li1"><div class="de1">&gt;&quot;IPA? getting me all liquored up?” she says with a cute grin.</div></li><li class="li1"><div class="de1">&gt;&quot;Psssh, I doubt a pitcher could get you that drunk&quot; you answer before you can catch yourself.</div></li><li class="li1"><div class="de1">&gt;&quot;UHHH I mean, I doubt it strong enough to uh-&quot; you flounder helplessly. </div></li><li class="li1"><div class="de1">&gt;The rest of your explanation is drowned out by Flora&#039;s laughs.</div></li><li class="li1"><div class="de1">&gt;It&#039;s a deep motherly laugh that fills you with... something you had missed for a long time.</div></li><li class="li1"><div class="de1">&gt;That motherly warmth one would feel when they did something silly for thier mom.</div></li><li class="li1"><div class="de1">&gt;&quot;Ohh dear, you must be a hit with the ladies&quot; she chortels out with a wide grin, wiping a tear from one of her eyes.</div></li><li class="li1"><div class="de1">&gt;You shrug sheepishly, still embarrassed.</div></li><li class="li1"><div class="de1">&gt;&quot;Here alone&quot; you remind her.</div></li><li class="li1"><div class="de1">&gt;She nods a bit, still quaking a bit from laughter.</div></li><li class="li1"><div class="de1">&gt;Her fingers hold your hand a bit tighter, and she smiles at you once the laughs die down.</div></li><li class="li1"><div class="de1">&gt;&quot;Well since you shared AND made a fool of yourself, I guess I can tell you a bit about myself&quot; she says with laughter in her eyes.</div></li><li class="li1"><div class="de1">&gt;You smile at her at your own expense, but that smile quickly fades when Flora&#039;s happy expression turns to stone.</div></li><li class="li1"><div class="de1">&gt;&quot;I...I got pregnant when I was 17...my boyfriend; my highschool sweetheart, took responsibility and we got married while we were in high school&quot; she starts, looking at the table.</div></li><li class="li1"><div class="de1">&gt;Her hand closes tighter around yours.</div></li><li class="li1"><div class="de1">&gt;&quot;He joined the military to provide for me and my daughter, then he went overseas and....Never came back&quot; she whispers, just loud enough for you to hear over the other bar patrons.</div></li><li class="li1"><div class="de1">&gt;You feel your heart sink at that.</div></li><li class="li1"><div class="de1">&gt;To be so young...To have the one you love snatched away in an instant.</div></li><li class="li1"><div class="de1">&gt;Your clench your jaw shut for a moment as you look at her.</div></li><li class="li1"><div class="de1">&gt;She squeezes your hand once more.</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t feel bad for me, I only remember what he looks like because of pictures and besides, I still have our daughter&quot; she says with a sad smile.</div></li><li class="li1"><div class="de1">&gt;&quot;I know how it feels to lose everything&quot; you say with a sad smile holding her hand tight.</div></li><li class="li1"><div class="de1">&gt;She nods.</div></li><li class="li1"><div class="de1">&gt;&quot;You know better than anyone I&#039;ve ever met&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m sorry for your loss&quot; you whisper to her alone and her alone.</div></li><li class="li1"><div class="de1">&gt;She gives a smile and whispers back.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m sorry for yours&quot;</div></li><li class="li1"><div class="de1">&gt;You both sit in silence for a bit, just staring at each other.</div></li><li class="li1"><div class="de1">&gt;It&#039;s an odd connection with her.</div></li><li class="li1"><div class="de1">&gt;You lost everything by no one else&#039;s choice.</div></li><li class="li1"><div class="de1">&gt;She lost someone important to their own choice.</div></li><li class="li1"><div class="de1">&gt;For a moment, you try to recall the faces of everyone you left behind.</div></li><li class="li1"><div class="de1">&gt;Instead of a face, you get a generic human; a mock-up of who they were.</div></li><li class="li1"><div class="de1">&gt;More than a decade will do that.</div></li><li class="li1"><div class="de1">&gt;So instead of that, you focus on the woman in front of you.</div></li><li class="li1"><div class="de1">&gt;The only person who you had met who might have an idea of what you have gone through.</div></li><li class="li1"><div class="de1">&gt;Well the only female, the Anonymous forums were full of men who lost everything.</div></li><li class="li1"><div class="de1">&gt;As you think about it all, a human male appears carrying plates of food and a pitcher of beer.</div></li><li class="li1"><div class="de1">&gt;&quot;Your meals are here&quot; he says with a slight accent you can&#039;t quite place.</div></li><li class="li1"><div class="de1">&gt;Italian? french? one of those romance languages.</div></li><li class="li1"><div class="de1">&gt;You nod to him in thanks and Flora gives a full hearty smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you&quot; you say in response to the meal delivery.</div></li><li class="li1"><div class="de1">&gt;He gives a curt bow then disappears like magic, leaving you with Flora.</div></li><li class="li1"><div class="de1">&gt;The two of you eat silently, yet you feel your heels and calves intertwine with hers a few times.</div></li><li class="li1"><div class="de1">&gt;You didn&#039;t mean to suggest anything but she was just like you in a sense.</div></li><li class="li1"><div class="de1">&gt;For a full 20 minutes the two of you just eat and drink.</div></li><li class="li1"><div class="de1">&gt;Throughout the meal you are silently refilling her beer and her refilling yours.</div></li><li class="li1"><div class="de1">&gt;But the two of you are almost always in contact with each other.</div></li><li class="li1"><div class="de1">&gt;Even if it&#039;s just a fingertip or your shoe meeting her hooves.</div></li><li class="li1"><div class="de1">&gt;After you both finish eating you motion to the waitress and ask for the check.</div></li><li class="li1"><div class="de1">&gt;Flora looks at you in annoyance and protest.</div></li><li class="li1"><div class="de1">&gt;&quot;Let me pay for my part, well let my daughter&quot; she says as you hide the check away from her until the waiter can come by to take it away.</div></li><li class="li1"><div class="de1">&gt;You give her a stoic smile.</div></li><li class="li1"><div class="de1">&gt;&quot;What kind of gentleman would I be if I made a lady and a guest pay for a meal&quot; you say in defiance to her.</div></li><li class="li1"><div class="de1">&gt;She looks both impressed at you and annoyed.</div></li><li class="li1"><div class="de1">&gt;&quot;I...I&#039;ve never had someone do this for me&quot; she says awkwardly, looking at the table.</div></li><li class="li1"><div class="de1">&gt;You reach a hand to her and silently grasp her furred hand.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ve never had someone to do this with&quot; you respond with a stone face.</div></li><li class="li1"><div class="de1">&gt;Her look of shock and pity hurts a bit, but her response made it worth it.</div></li><li class="li1"><div class="de1">&gt;&quot;How about... How about we make the most of this? The hot springs are co-ed and I...I want to feel and see more of you&quot; she whispers, more to herself than to you.</div></li><li class="li1"><div class="de1">&gt;You smile and hold her lightly furred hand as the waiter takes your card along with the check.</div></li><li class="li1"><div class="de1">&gt;&quot;So...How about 20 minutes and we meet back in the resort lobby&quot; you say with a calm smile.</div></li><li class="li1"><div class="de1">&gt;She nods slightly and squeezes your hand slightly, then pulls away; leaving your hand feeling somewhat...Empty.</div></li><li class="li1"><div class="de1">&gt;Flora then stands and walks away quietly.</div></li><li class="li1"><div class="de1">&gt;You notice her for what seems like the first time, well this is the first time you&#039;ve been able to see her entire body.</div></li><li class="li1"><div class="de1">&gt;she&#039;s taller than you, probably nearly 7 ft tall, and her dark auburn hair is nearly down to her waist.</div></li><li class="li1"><div class="de1">&gt;She gives you a full smile, then moves away from your table; albeit somewhat reluctantly.</div></li><li class="li1"><div class="de1">&gt;You watch her go in utter amazement.</div></li><li class="li1"><div class="de1">&gt;Her body is....for lack of a better word; amazing.</div></li><li class="li1"><div class="de1">&gt;Wide hips and a bust that would leave most men (including you) drooling after her.</div></li><li class="li1"><div class="de1">&gt;You shake yourself out from the trance she leaves you in and depart from the table yourself after the waiter returns your card.</div></li><li class="li1"><div class="de1">&gt;Slowly, you walk out of the resort restaurant to the elevators.</div></li><li class="li1"><div class="de1">&gt;&quot;She is probably just going to go to bed&quot; you think to yourself as you ride the elevator to your floor.</div></li><li class="li1"><div class="de1">&gt;Regardless, you walk to your room and change into your bathing suit, keeping track of the time so you could meet Flora in the lobby.</div></li><li class="li1"><div class="de1">&gt;It shouldn&#039;t matter to you so much.</div></li><li class="li1"><div class="de1">&gt;But the feeling of being wanted for the first time in SO long; the allure was too much.</div></li><li class="li1"><div class="de1">&gt;As such you were ready quickly, leaving behind everything beyond your room key, dressed in a resort provided bath robe and a bathing suit.</div></li><li class="li1"><div class="de1">&gt;No need for a cell phone because no one was there to contact you anyways.</div></li><li class="li1"><div class="de1">&gt;The feeling of being a specter hits you hard as you wait for the elevator down to the hot springs</div></li><li class="li1"><div class="de1">&gt;You were literally no one, no family, no friends.</div></li><li class="li1"><div class="de1">&gt;Hoping to mean something to someone again.</div></li><li class="li1"><div class="de1">&gt;You sigh and disregard those feelings.</div></li><li class="li1"><div class="de1">&gt;The elevator rumbles then dings; letting you off into the lobby.</div></li><li class="li1"><div class="de1">&gt;Feeling somewhat awkward to be there in public in just a bathrobe, you try to maintain an air of confidence.</div></li><li class="li1"><div class="de1">&gt;After all other resort patrons are here doing the same.</div></li><li class="li1"><div class="de1">&gt;But no Fora.</div></li><li class="li1"><div class="de1">&gt;You wait apprehensively, earning odd looks from the staff as you sit on a bench, just waiting.</div></li><li class="li1"><div class="de1">&gt;Thirty five minutes pass and the idea finally sinks into your skull.</div></li><li class="li1"><div class="de1">&gt;She stood you up.</div></li><li class="li1"><div class="de1">&gt;You sigh in both disappointment at her not showing; but also at your eagerness to believe she would really take an interest in you.</div></li><li class="li1"><div class="de1">&gt;She probably went to bed....</div></li><li class="li1"><div class="de1">&gt;You stand and walk to the elevators once more, feeling lower than you had in awhile.</div></li><li class="li1"><div class="de1">&gt;This shouldn&#039;t be so disappointing...You barely know her...</div></li><li class="li1"><div class="de1">&gt;But it hurts regardless.</div></li><li class="li1"><div class="de1">&gt;The elevator doors open, and as you prepare to walk in; Flora stands before you, looking flustered and annoyed, wrapped tight in a bathrobe.</div></li><li class="li1"><div class="de1">&gt;Her foothooves click softly on the floor as she tries to hurry past you, only to stop and look at you.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon?.. OH Anon! You stuck around! I&#039;m So SO sorry I took so long!&quot; she says wrapping her arms around you in a tight hug, your face pressed against her chest right above those heavenly breasts.</div></li><li class="li1"><div class="de1">&gt;You&#039;re immobilized, feeling her body press against yours; but you still keep some presence of mind.</div></li><li class="li1"><div class="de1">&gt;&quot;I figured you just ran into something, not that you were standing me up or anything&quot; you respond to her shakily.</div></li><li class="li1"><div class="de1">&gt;Smooth dude.</div></li><li class="li1"><div class="de1">&gt;Totally convincing.</div></li><li class="li1"><div class="de1">&gt;Regardless she holds you tight and you respond in kind, wrapping your arms gently around her generous waist.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m glad you waited, my daughter packed a swimsuit that is.... well you&#039;ll see in a bit&quot; she says awkwardly, releasing you from the best hug you had ever received.</div></li><li class="li1"><div class="de1">&gt;She grabs your hand and almost drags you to the doors to the hot springs, her tail flitting and kicking up her bathrobe a bit.</div></li><li class="li1"><div class="de1">&gt;All you see from it is a little bit of smooth cream colored fur and shapely thighs.</div></li><li class="li1"><div class="de1">&gt;You let her take the lead and just follow her to the resort hot springs.</div></li><li class="li1"><div class="de1">&gt;The springs are divided, partially inside in an odd greenhouse, the other side exposed to the cold winter air as snow falls.</div></li><li class="li1"><div class="de1">&gt;Flora directs you to the outside portion, and as the door open you shiver slightly.</div></li><li class="li1"><div class="de1">&gt;Steam makes the air a cloudy mist and you can see only a few feet in front of you.</div></li><li class="li1"><div class="de1">&gt;But you can still see most patrons have left due to the lateness.</div></li><li class="li1"><div class="de1">&gt;Not that you mind the privacy.</div></li><li class="li1"><div class="de1">&gt;You strip down to your swimsuit, then wait for Flora to do the same.</div></li><li class="li1"><div class="de1">&gt;She looks away awkwardly for a moment or two, then looks directly at you.</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t tease me ok?&quot; she says finally.</div></li><li class="li1"><div class="de1">&gt;The bathrobe falls off at that exact moment, revealing Flora in a &quot;itty bitty teeny weeny yellow polka dot bikini&quot; that strains to hold her...tracts of land back.</div></li><li class="li1"><div class="de1">&gt;Your jaw nearly hits the floor from the spectacle of it.</div></li><li class="li1"><div class="de1">&gt;Seriously, you would have to thank her daughter later for the view...</div></li><li class="li1"><div class="de1">&gt;You don&#039;t have time to respond because within a second Flora disappears below the hot water,hiding her beautiful assets from view.</div></li><li class="li1"><div class="de1">&gt;She moves through the water with a feminine grace reserved for goddesses and other fictional characters</div></li><li class="li1"><div class="de1">&gt;&quot;I guess my daughter thought it would be funny to give me a...bad looking swimsuit&quot; she says as she slides onto a seat in the water, the bubbles obscuring her body just enough to let your mind wander.</div></li><li class="li1"><div class="de1">&gt;You sink into the water and wade over, looking her in the eyes with a placid smile</div></li><li class="li1"><div class="de1">&gt;&quot;Bad looking? According to who? You&#039;re absolutely gorgeous Flora.&quot; you say as you make your way over to her and sink into the water next to her.</div></li><li class="li1"><div class="de1">&gt;The warm water relaxes your worn muscles, telling you just how much you had needed a break from work.</div></li><li class="li1"><div class="de1">&gt;She looks at you with consternation for a few long moments; then looks away, her eyes closed.</div></li><li class="li1"><div class="de1">&gt;When they open again, she looks into your eyes with a somewhat pressured gaze.</div></li><li class="li1"><div class="de1">&gt;Her eyes are the color of faded american dollars, and there is a fire burning in them; plus a sadness.</div></li><li class="li1"><div class="de1">&gt;You only notice it because you&#039;ve felt it and seen it before.</div></li><li class="li1"><div class="de1">&gt;A lack of positive reinforcement over the years and now the inability to take it well.</div></li><li class="li1"><div class="de1">&gt;&quot;You don&#039;t get complimented often do you Flora?&quot; you ask calmly, sneaking your hand to hers under the hot water.</div></li><li class="li1"><div class="de1">&gt;Her fingers wrap around yours softly.</div></li><li class="li1"><div class="de1">&gt;&quot;I get them all the time but... Those are usually cat calls and creepy co-workers&quot; she says with a sad squeeze to your hand with hers.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s different when you meet someone genuine&quot; she mumbles just barely audible above the bubbling water around you both.</div></li><li class="li1"><div class="de1">&gt;You give her hand a squeeze and scoot a little closer to her.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m sorry for that&quot; you respond, looking away from her and at the bubbling water.</div></li><li class="li1"><div class="de1">&gt;&quot;All I want is for you to have a good time, weird coming from someone you just met, I know; but still&quot; you continue, not looking at her, but instead focusing on the steam in front of you.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s rare that I meet someone out of the blue that I get along with so well; not to mention one as gorgeous as you. I&#039;m not trying to be creepy but...&quot; you trail off softly.</div></li><li class="li1"><div class="de1">&gt;You look at her and find those gorgeous eyes focusing at you.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s just the truth&quot;</div></li><li class="li1"><div class="de1">&gt;Those beautiful eyes twinkle slightly as she looks down, meeting your gaze.</div></li><li class="li1"><div class="de1">&gt;The height difference is much more noticeable when she&#039;s right next to you.</div></li><li class="li1"><div class="de1">&gt;&quot;Such a romantic, making me feel like a beautiful young girl again&quot;</div></li><li class="li1"><div class="de1">&gt;Deadpanned, you stare into her eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;You are beautiful, age has nothing to do with it&quot;</div></li><li class="li1"><div class="de1">&gt;She looks stunned for a moment, then draws back a bit, her hand drawing away a bit.</div></li><li class="li1"><div class="de1">&gt;&quot;My body then?&quot;</div></li><li class="li1"><div class="de1">&gt;You shake your head at that.</div></li><li class="li1"><div class="de1">&gt;&quot;No one else has understood what it&#039;s like to lose everything in a moment like you. sure, some anonymous members have similar stories but...it&#039;s hard to connect with people who lost everything AFTER they grew up&quot; you say calmly as you look away and focus on the steam.</div></li><li class="li1"><div class="de1">&gt;&quot;But...&quot; she starts.</div></li><li class="li1"><div class="de1">&gt;&quot;You were 18 when you lost your husband, to you THAT was all that mattered, I lost everyone at 16&quot; you continue, ignoring her interruption.</div></li><li class="li1"><div class="de1">&gt;You look back to her, unwinding your hand from hers and putting it around her waist to pull her closer to you.</div></li><li class="li1"><div class="de1">&gt;&quot;No one understands like you, and that&#039;s what truly makes you beautiful; sure it might sound cheesy but...Someone who understands what it&#039;s like to lose everything as a teenager means a whole WHOLE lot&quot;</div></li><li class="li1"><div class="de1">&gt;Flora looks shocked for a moment, studying you for a moment before you look away.</div></li><li class="li1"><div class="de1">&gt;You can feel the alcohol affecting you as you focus back on the steam of the hot tub.</div></li><li class="li1"><div class="de1">&gt;However, Flora&#039;s hand wraps tighter around your waist in turn, as you focus on anything else.</div></li><li class="li1"><div class="de1">&quot;I understand&quot; She responds softly.</div></li><li class="li1"><div class="de1">&gt;Loss is something few truly understand.</div></li><li class="li1"><div class="de1">&gt;How can they?</div></li><li class="li1"><div class="de1">&gt;Most people have friends or family to fall back on.</div></li><li class="li1"><div class="de1">&gt;You had no one beyond the BHA, they in turn put you up for adoption.</div></li><li class="li1"><div class="de1">&gt;And Flora had no one because of her pregnancy.</div></li><li class="li1"><div class="de1">&gt;It&#039;s like a match made in dysfunctional heaven</div></li><li class="li1"><div class="de1">&gt;An orphan who by no one&#039;s choice matched with someone flung into single parenthood because &quot;fate&quot; and &quot;choice&quot;</div></li><li class="li1"><div class="de1">&gt;But you stopped believing in fate and all that a long time ago.</div></li><li class="li1"><div class="de1">&gt;Instead you focus on what is before you, a beautiful woman who was fed up with creeps who never learned anything about her.</div></li><li class="li1"><div class="de1">&gt;And you suspect you were the only one to try to get to know her.</div></li><li class="li1"><div class="de1">&gt;And you wanted to know everything about her.</div></li><li class="li1"><div class="de1">&gt;So you talked with her, learning everything you could about the beautiful bovine anthro, and her everything about you.</div></li><li class="li1"><div class="de1">&gt;She is 39, works in real estate and lives one town over from you; her daughter is 22 and goes to college for law and did one of those &quot;gofundme&quot; things to get her a vacation here.</div></li><li class="li1"><div class="de1">&gt;In turn, she learns about your prior life in the other world.</div></li><li class="li1"><div class="de1">&gt;How you woke up in an old abandoned building, surrounded by cops demanding why you were there.</div></li><li class="li1"><div class="de1">&gt;The confusion, the tears...The...How do you explain the feeling of waking up and realizing everyone you knew was gone?</div></li><li class="li1"><div class="de1">&gt;Flora seemed to understand somewhat.</div></li><li class="li1"><div class="de1">&gt;She told you how when she was 8 months pregnant there was a knock at the door, and a soldier was there to tell her that her husband died in an IED blast.</div></li><li class="li1"><div class="de1">&gt;You would be lying if you said you hadn’t teared about a bit talking about your past and listening to hers.</div></li><li class="li1"><div class="de1">&gt;But you could see some tears from her too, partially obscured by the steam.</div></li><li class="li1"><div class="de1">&gt;The moments, the connection between you and Flora are cut short though.</div></li><li class="li1"><div class="de1">&gt;&quot;Yooo bro! You makin&#039; this lady cry?&quot; comes an arrogant, annoying voice.</div></li><li class="li1"><div class="de1">&gt;the bull from earlier is slowly wading towards you and flora, a look of determined satisfaction on his face.</div></li><li class="li1"><div class="de1">&gt;Slowly, he wades towards you, partially stumbling; guess he must have had a few too many drinks</div></li><li class="li1"><div class="de1">&gt;He thinks he can play the part of hero, swooping in to save Flora from the mean mean boyfriend.</div></li><li class="li1"><div class="de1">&gt;You&#039;re about to answer when Flora; in a beautiful movement of grace and dexterity,moves through the water deftly to straddle you, leaving you speechless.</div></li><li class="li1"><div class="de1">&gt;Looking over her shoulder, she chastises the bull in a very motherly and condescending way.</div></li><li class="li1"><div class="de1">&gt;&quot;Oooh someone&#039;s jealous&quot;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t even see the bull beyond Flora&#039;s &quot;Tracts of land&quot;, which are pressed against your face.</div></li><li class="li1"><div class="de1">&gt;What you can do is hear.</div></li><li class="li1"><div class="de1">&gt;&quot;W-what does that puny human have that I don&#039;t! He can&#039;t satisfy you like I can!&quot;</div></li><li class="li1"><div class="de1">&gt;Flora wiggles her hips on you, making the more primal part of your brain take over for a moment.</div></li><li class="li1"><div class="de1">&gt;Your erection pokes at her as she continues to wiggle her hips at the bull.</div></li><li class="li1"><div class="de1">&gt;&quot;He has everything you lack, including politeness, so tonight when you&#039;re alone, think of him railing me!&quot; she says with a defiant slap of her ass, splashing some water up as she does so.</div></li><li class="li1"><div class="de1">&gt;Your base desires are being driven into overdrive as you feel the reverberations from that slap.</div></li><li class="li1"><div class="de1">&gt;Before you can do anything else, you feel Flora&#039;s hands wrap around your face to pull you into a deep kiss.</div></li><li class="li1"><div class="de1">&gt;Her tongue invades your mouth with a fiery desire you had never felt from any partner before.</div></li><li class="li1"><div class="de1">&gt;Overcoming your surprise, you wrap one arm around her, feeling the base of her tail on your forearm as you pull her to you; your spare hand grips her wide hip.</div></li><li class="li1"><div class="de1">&gt;Her tongue is thick and wraps around yours as it explores your mouth.</div></li><li class="li1"><div class="de1">&gt;Your tongue invades her mouth with a bit more softness.</div></li><li class="li1"><div class="de1">&gt;It feels her flat teeth, the base of her tongue and everything in between.</div></li><li class="li1"><div class="de1">&gt;She moans into your mouth as you grip her ass and pull her to you out of sheer primal reflex.</div></li><li class="li1"><div class="de1">&gt;Oh god, you wanted this woman. </div></li><li class="li1"><div class="de1">&gt;You wanted to explore every inch of her, give her the kisses she deserved and hold her hand at every social event ever.</div></li><li class="li1"><div class="de1">&gt;SO much hand holding.</div></li><li class="li1"><div class="de1">&gt;Flora breaks the kiss from you, staring into your eyes with a deep longing, then she looks back at the bull.</div></li><li class="li1"><div class="de1">&gt;&quot;Ohhh you wanna watch this human give me what you can&#039;t?&quot; She teases, grinding her shapely ass against you.</div></li><li class="li1"><div class="de1">&gt;You can see the fury in his face as he looks from you to her and you briefly contemplate what to do again if he gets hostile.</div></li><li class="li1"><div class="de1">&gt;It&#039;s a bit sad when the best option you have is T pose.</div></li><li class="li1"><div class="de1">&gt;But against him... you would literally have no other choice.</div></li><li class="li1"><div class="de1">&gt;But this resort must have had issues in the past because you see a few security personnel through the steam.</div></li><li class="li1"><div class="de1">&gt;Just barely.</div></li><li class="li1"><div class="de1">&gt;They must have been trained to be as non intrusive as possible.</div></li><li class="li1"><div class="de1">&gt;They appeared like spectres when the bull started showing aggression.</div></li><li class="li1"><div class="de1">&gt;Holy fuck, you would leave them a tip.</div></li><li class="li1"><div class="de1">&gt;Soft wet fur pulls you away from the bull and security</div></li><li class="li1"><div class="de1">&gt;Flora is still straddling you, leaned back slightly and looking down at you.</div></li><li class="li1"><div class="de1">&gt;&quot;D-do you like what you see.....?&quot; she asks bit bashfully after that display of confidence, her thighs on either side of yours.</div></li><li class="li1"><div class="de1">&gt;You nod numbly as she pushes your face between her breasts once more, Smothering you in hot wet fur and agonizing softness</div></li><li class="li1"><div class="de1">&gt;She&#039;s like a sculpture of beauty never seen before or since.</div></li><li class="li1"><div class="de1">&gt;Your fingers run over damp fur,feeling her body and hips.</div></li><li class="li1"><div class="de1">&gt;Your erection is barely contained as she continues grinding against you.</div></li><li class="li1"><div class="de1">&gt;Her arms wrap around your head as she giggles, purposefully pressing against you and teasing you.</div></li><li class="li1"><div class="de1">&gt;&quot;Uh...Excuse me?&quot; you hear a meek voice from behind you.</div></li><li class="li1"><div class="de1">&gt;You can&#039;t quite turn your head because of the wonderful smothering you&#039;re being subjected too.</div></li><li class="li1"><div class="de1">&gt;&quot;Hmm? What?&quot; Flora asks, looking up and past you.</div></li><li class="li1"><div class="de1">&gt;&quot;Uh... While we do encourage intimacy, we would like to request that you continue somewhere more...Private please&quot; comes an awkward voice full of consternation from over your left shoulder.</div></li><li class="li1"><div class="de1">&gt;&quot;Hear that honey? We have to go somewhere...Private&quot; Flora moans to you ,intentionally sliding her wide ass down the length of your shaft.</div></li><li class="li1"><div class="de1">&gt;You wiggle your face out of its beautiful fleshy prison.</div></li><li class="li1"><div class="de1">&gt;&quot;Then let&#039;s go?&quot; you ask with the smallest bit of questioning inflection.</div></li><li class="li1"><div class="de1">&gt;She nods and smiles &quot;Lets go&quot;</div></li><li class="li1"><div class="de1">&gt;Flora pulls herself off you,  leaving you feeling cold and naked despite the hot water.</div></li><li class="li1"><div class="de1">&gt;She beckons you to follow her, and you see her look to a side and wink at the bull who glowers at her.</div></li><li class="li1"><div class="de1">&gt;You&#039;re nearly shocked at how confidently she strides through the water, which she used to conceal herself with earlier.</div></li><li class="li1"><div class="de1">&gt;Now she strides with her body on full display, shoulders back a bit to pop her breasts out even further.</div></li><li class="li1"><div class="de1">&gt;You get up and follow her, your erection like an arrow pointed towards its final destination.</div></li><li class="li1"><div class="de1">&gt;That destination being Flora.</div></li><li class="li1"><div class="de1">&gt;Confidence wells inside you as you wade through the water.</div></li><li class="li1"><div class="de1">&gt;You look over to the bull; the bull you owe this whole night to , and smile.</div></li><li class="li1"><div class="de1">&gt;He scowls at you in response.</div></li><li class="li1"><div class="de1">&gt;Hurrying a bit, you catch up with Flora and put and arm around her waist.</div></li><li class="li1"><div class="de1">&gt;&quot;So, did you mean what you said back there?&quot; you ask apprehensively.</div></li><li class="li1"><div class="de1">&gt;&quot;What part?&quot;</div></li><li class="li1"><div class="de1">&gt;The two of you walk together through the resort lobby, your erection pitching a very obvious tent.</div></li><li class="li1"><div class="de1">&gt;What do you care at this point?</div></li><li class="li1"><div class="de1">&gt;&quot;The “somewhere private” and the &quot;railing&quot; I&#039;m gonna give you&quot; you ask.</div></li><li class="li1"><div class="de1">&gt;At this point you notice 2 things though.</div></li><li class="li1"><div class="de1">&gt;First, her nipples are pressing HARD against the fabric of her bikini.</div></li><li class="li1"><div class="de1">&gt;Second, her hand has snaked its way around you, pulling you to her.</div></li><li class="li1"><div class="de1">&gt;&quot;Every word&quot;</div></li><li class="li1"><div class="de1">&gt;The two of you make it to the elevator and you find yourself smirking at the stares.</div></li><li class="li1"><div class="de1">&gt;As soon as the Elevator doors close, Flora is on you and you on her.</div></li><li class="li1"><div class="de1">&gt;Your hands creep up her sides as she kisses you.</div></li><li class="li1"><div class="de1">&gt;Her hands slip past the elastic of your waistband, gently stroking your member.</div></li><li class="li1"><div class="de1">&gt;Your hands slide under her bikini and gently massage her breasts, feeling her hard nipples press against your fingers.</div></li><li class="li1"><div class="de1">&gt;Gently you pull away from the kiss.</div></li><li class="li1"><div class="de1">&gt;&quot;My place or yours?&quot;</div></li><li class="li1"><div class="de1">&gt;No hesitation.</div></li><li class="li1"><div class="de1">&gt;&quot;yours&quot; she says before pulling you back into a kiss.</div></li><li class="li1"><div class="de1">&gt;You pull a hand away and look around her briefly to hit the button to your floor, then go back to right in front of her, looking up at her.</div></li><li class="li1"><div class="de1">&gt;As much as you want to take charge, Flora doesn&#039;t quite let you, pushing you with the mass of her body until she has you pinned in a corner of the elevator, her breasts once again pushing against your face.</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t think I haven&#039;t noticed you staring all night Anon~&quot; she cooes sweetly, shaking her shoulders side to side, causing ripples of jiggles through her breasts against you.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t respond, well you can&#039;t really well this her pressed against you like that, so instead you opt to simply grab her plump ass and squeeze it, pulling her to you even more.</div></li><li class="li1"><div class="de1">&gt;She moans with soft desire and she lets you slide your shaft between her thighs, albeit still in your swimsuit.</div></li><li class="li1"><div class="de1">&gt;She keeps her hands firmly planted against the elevator walls as she presses against you and softly wiggles side to side.</div></li><li class="li1"><div class="de1">&gt;You had always figured torture to be some kind of pain.</div></li><li class="li1"><div class="de1">&gt;This was worse than that.</div></li><li class="li1"><div class="de1">&gt;Keeping yourself restrained against your desire that wanted nothing more than to bend Flora over right here in the elevator and have your way with her.</div></li><li class="li1"><div class="de1">&gt;And you&#039;re sure she wouldn&#039;t even object.</div></li><li class="li1"><div class="de1">&gt;The side of you that wanted more than just a fling popped up. </div></li><li class="li1"><div class="de1">&gt;&quot;Slow down, tease her, LOVE her, it&#039;s what she REALLY wants&quot;</div></li><li class="li1"><div class="de1">&gt;Sound advice from yourself to yourself, if you do say so yourself.</div></li><li class="li1"><div class="de1">&gt;Gently, you pull your shaft out from between Floras THICC thighs and pulls your face out from between her glorious breasts.</div></li><li class="li1"><div class="de1">&gt;&quot;W-what&#039;s wrong?&quot; Flora asks pulling away, slightly panicked.</div></li><li class="li1"><div class="de1">&gt;&quot;Nothing is wrong; I just want to savor this with you&quot; you respond as the elevator dings and opens.</div></li><li class="li1"><div class="de1">&gt;She looks confused and steps away from you, only to have you reach a hand forwards to her.</div></li><li class="li1"><div class="de1">&gt;Delicately, she takes your hand and leads you out of the elevator.</div></li><li class="li1"><div class="de1">&gt;&quot;Follow me&quot; you say with a smile.</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t respond, instead squeezes your hand softly, then you guide her through the halls to your room.</div></li><li class="li1"><div class="de1">&gt;These hotel hallways always look the same, and you note how bland they look compared to Flora.</div></li><li class="li1"><div class="de1">&gt;You also recognize you both left your towels and robes back at the hot spring.</div></li><li class="li1"><div class="de1">&gt;Eh, a small price to pay.</div></li><li class="li1"><div class="de1">&gt;Eventually, you stand in front of your room and pull your key out of the little inside pouch of your swimsuit..</div></li><li class="li1"><div class="de1">&gt;Men&#039;s swimsuits have a little interior pocket... do ladies?</div></li><li class="li1"><div class="de1">&gt;You don&#039;t question it for long because as soon as the door closes behind you, Flora has pulled you into a kiss once more.</div></li><li class="li1"><div class="de1">&gt;You rub your hand on her cheeks this time, gently stroking and massaging.</div></li><li class="li1"><div class="de1">&gt;When she breaks the kiss you realize just how cold you are; water plus winter weather equals cold.</div></li><li class="li1"><div class="de1">&gt;&quot;We should dry off&quot; you say up to her, and she gives a short nod.</div></li><li class="li1"><div class="de1">&gt;Flora looks to you with a bit of consternation and you see her tongue gently lick her rosey lips.</div></li><li class="li1"><div class="de1">&gt;&quot;Are you sure you&#039;re ok with someone like me? I mean, I&#039;m older than you and-&quot; </div></li><li class="li1"><div class="de1">&gt;You cut her off with a quick kiss, You hands intertwining between her fingers to hold them softly.</div></li><li class="li1"><div class="de1">&gt;As your kiss breaks you look deep into her eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m more than ok with you Flora, you&#039;re gorgeous and fun to talk to and just...good to spend time with&quot; you respond.</div></li><li class="li1"><div class="de1">&gt;She gives a warm smile and then shivers a bit.</div></li><li class="li1"><div class="de1">&gt;&quot;Right, lets dry off!&quot; she says pulling you into the bathroom.</div></li><li class="li1"><div class="de1">&gt;This world, this wonderful, anthro filled world has some unique things in bathrooms.</div></li><li class="li1"><div class="de1">&gt;A shower with multiple nozzles the point into the center to wash fur for starters. </div></li><li class="li1"><div class="de1">&gt;And a Full hair (fur) dryer, that looks like one of those &quot;wind simulators&quot; some malls have.</div></li><li class="li1"><div class="de1">&gt;Flora guides you into it and you look about it cluelessly.</div></li><li class="li1"><div class="de1">&gt;You had never really used one before so you just let Flora do her thing.</div></li><li class="li1"><div class="de1">&gt;A moment later, Jets of warm air push against you from all directions</div></li><li class="li1"><div class="de1">&gt;Flora, in that moment pulls you to her.</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;ve made me feel Amazing tonight Anon&quot; She says with a content smile, her ears wiggling slightly from the warm air</div></li><li class="li1"><div class="de1">&gt;You feel the warm air whip around you, feel her soft fur gently being dried; you see her green eyes gazing at you while she nervously bites her lower lip softly.</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;ve made me feel amazing too Flora&quot; you respond, gently rubbing your fingers through her fur.</div></li><li class="li1"><div class="de1">&gt;&quot;But we can&#039;t get really dry with our swimsuits on&quot; you point out.</div></li><li class="li1"><div class="de1">&gt;Flora&#039;s smile turned from happiness to deviousness, and she turns from you.</div></li><li class="li1"><div class="de1">&gt;&quot;Untie this for me please?&quot; she asks as wind whips around her, pointing to the string on her back, holding the bikini on.</div></li><li class="li1"><div class="de1">&gt;You oblige her and untie it quickly; those wonderful fleshy orbs have tempted you all night.</div></li><li class="li1"><div class="de1">&gt;Flora slides out of the Bikini top, still facing away from you.</div></li><li class="li1"><div class="de1">&gt;&quot;And now this last piece!&quot; She says happily, bending over as she pulls off her bikini bottom, giving you a wonder view.</div></li><li class="li1"><div class="de1">&gt;You in turn follow suit, kicking your swimsuit off right as the warm air cycle of the dryer turns off.</div></li><li class="li1"><div class="de1">&gt;Flora stays turned, her arms wrapped around herself.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon... I have something to confess&quot; She says timidly, in stark contrast to how she was acting just a moment before.</div></li><li class="li1"><div class="de1">&gt;&quot;what&#039;s that Flora?&quot; you ask apprehensively, fearing the worst.</div></li><li class="li1"><div class="de1">&gt;What even is the worst at this point?</div></li><li class="li1"><div class="de1">&gt;&quot;You...Are the first man I&#039;ve been with since my daughter was born&quot; she whispers softly, just barely audible over the bathrooms fan.</div></li><li class="li1"><div class="de1">&gt;You cock your head to the side questioningly.</div></li><li class="li1"><div class="de1">&gt;&quot;So?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;S-so my body isn&#039;t what it used to be!&quot; she says, turning to you slowly.</div></li><li class="li1"><div class="de1">&gt;Her large breasts sag slightly due to their sheer size and her tummy has a comfortable amount of plumpness.</div></li><li class="li1"><div class="de1">&gt;She instinctively covers her large light pink areolas and nipples with both arms, squishing her breasts to her, looking away with a frown.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t even realize what you&#039;re doing until you have your arms around Flora in a hug.</div></li><li class="li1"><div class="de1">&gt;&quot;Flora, you&#039;re the most beautiful woman I&#039;ve ever had the pleasure of meeting&quot; you state calmly, savoring the brisk warm fur.</div></li><li class="li1"><div class="de1">&gt;Flora stops looking away and stares at you for a moment, her eyes studying your face, her arms still wrapped around herself defensively.</div></li><li class="li1"><div class="de1">&gt;&quot;You...you mean it don&#039;t you? which means either you&#039;ve been with some very ugly girls or I&#039;m Aphrodite reincarnated&quot; she says with a doubtful smile.</div></li><li class="li1"><div class="de1">&gt;&quot;I mean every word, you are beautiful beyond belief; and forget reincarnated, you put Aphrodite to shame&quot; you respond hugging her and giving her a quick squeeze.</div></li><li class="li1"><div class="de1">&gt;She studies you for a quick moment, then wraps her arms around you gently.</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you Anon&quot;</div></li><li class="li1"><div class="de1">&gt;You pull her closer to you,savoring the feeling of warm fur against your bare skin.</div></li><li class="li1"><div class="de1">&gt;&quot;You don&#039;t need to thank me, I&#039;m just telling the truth&quot; you respond with a gentle nuzzle.</div></li><li class="li1"><div class="de1">&gt;Flora pulls away to look at you with watery eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;You Snake charmer, You must get all the girls like this&quot; she says with a tearful, yet happy smile.</div></li><li class="li1"><div class="de1">&gt;You shrug and give an awkward smile.</div></li><li class="li1"><div class="de1">&gt;&quot;uhhh sure, totally! I get all the ladies&quot; You say with a pained smile.</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s why I&#039;m here alone on vacation&quot;</div></li><li class="li1"><div class="de1">&gt;As you attempt to shift away from Flora in sheer embarrassment and shame, she pulls you further to her.</div></li><li class="li1"><div class="de1">&gt;Flora&#039;s motherly cooes send shivers up your spine.</div></li><li class="li1"><div class="de1">&gt;&quot;You poor man, thrust into a new world all alone at such a young age&quot; she cooes softly.</div></li><li class="li1"><div class="de1">&gt;To be honest , you&#039;re a bit annoyed to be the loser, the guy who lost everything.</div></li><li class="li1"><div class="de1">&gt;You just wanted to LIVE.</div></li><li class="li1"><div class="de1">&gt;Just to be here with these anthros and humans, living a life that is all about being better than you COULD have been.</div></li><li class="li1"><div class="de1">&gt;There is a theory in the anonymous circles going around.</div></li><li class="li1"><div class="de1">&gt;A rumor that anonymous members got pulled into this world to help someone who needed it.</div></li><li class="li1"><div class="de1">&gt;Think a guardian angel pulling someone from another universe to protect you.</div></li><li class="li1"><div class="de1">&gt;The stories made sense.</div></li><li class="li1"><div class="de1">&gt;A human, lost and strung out on drugs, saving an anthro gal who was attacked; a man confused, helping a BHA member become her true self, a man helping a young helpless anthro overcome her past and the rape the came with it.</div></li><li class="li1"><div class="de1">&gt;Does your current situation give that theory any grounds to stand on?</div></li><li class="li1"><div class="de1">&gt;Eh, maybe, maybe not.</div></li><li class="li1"><div class="de1">&gt;What truly matters is that you stand with Flora, the beautiful bovine anthro.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s ok&quot; you answer with a smile &quot;It only means I got to meet you&quot;</div></li><li class="li1"><div class="de1">&gt;Flora sucks in a breath and looks at you questioningly.</div></li><li class="li1"><div class="de1">&gt;You smile in response.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s ok, I&#039;ve had a long time to get over it&quot; you say, waving the feelings aside mentally.</div></li><li class="li1"><div class="de1">&gt;Soft warm fur engulfs your face and the feeling of warm fur pressing against you is almost oppressive.</div></li><li class="li1"><div class="de1">&gt;Unf to the utmost degree.</div></li><li class="li1"><div class="de1">&gt;Huge and soft breasts wrapped around you, a beautiful woman caring about you.</div></li><li class="li1"><div class="de1">&gt;A dream come true.</div></li><li class="li1"><div class="de1">&gt;You slide your hands up her sides and begin to gently squeeze her bosom, earning soft moans from Flora and you explore her body</div></li><li class="li1"><div class="de1">as she feels yours.</div></li><li class="li1"><div class="de1">&gt;Flora shifts slightly, causing your erection to slide between her thighs once more.</div></li><li class="li1"><div class="de1">&gt;&quot;Mmmm I can feel it throbbing&quot; She moans, softly grinding her thigh side to side.</div></li><li class="li1"><div class="de1">&gt;The soft fur of her inner thighs feels amazing, like rubbing your sensitive member with silk.</div></li><li class="li1"><div class="de1">&gt;For a moment, you pull your head out of Flora&#039;s cleavage and massage her breasts around the nipple, then take one into your mouth and suck on it gently.</div></li><li class="li1"><div class="de1">&gt;Flora gasps at the sudden change in sensations and redoubles her grinding while a growing wetness begins to form.</div></li><li class="li1"><div class="de1">&gt;Flora&#039;s hands glide along your body as she moans and gasps while you play with her large breasts and suckle on one of her nipples.</div></li><li class="li1"><div class="de1">&gt;Feeling lust course through you, you let Flora&#039;s nipple free of your mouth with a sharp *pop* that makes Flora moan gasp in shock.</div></li><li class="li1"><div class="de1">&gt;&quot;Mmmm i want more~&quot; she cooes to you, her eyes half closed woozily, pressing her breasts around your face once more with her upper arms.</div></li><li class="li1"><div class="de1">&gt;You Feel flora Guiding you, but don&#039;t fight it as she leads you from the bathroom to the bed, your face still engulfed in her cleavage.</div></li><li class="li1"><div class="de1">&gt;She gazes down at you, her eyes full of lust and want.</div></li><li class="li1"><div class="de1">&gt;&quot;No man has made me feel so beautiful before&quot; she half moans, half whispers.</div></li><li class="li1"><div class="de1">&gt;You wriggle free of her embrace, your body landing on the bed with a soft &quot;whomp&quot;.</div></li><li class="li1"><div class="de1">&gt;&quot;Flora, you are more than beautiful. You&#039;re fun and charming and so many more things&quot; you say with an inviting smile.</div></li><li class="li1"><div class="de1">&gt;Flora looks pensive, then simply falls onto you.</div></li><li class="li1"><div class="de1">&gt;She cushions most of her weight to her elbows and hips, but you&#039;re still hit with a weight of heavy breasts and thighs.</div></li><li class="li1"><div class="de1">&gt;Flora, has effectively pinned you, granted your arms and legs are free and you could squirm free from her if you wanted.</div></li><li class="li1"><div class="de1">&gt;But the warm cream colored fur, the soft smell of jasmine flowers and her eager look make you decide otherwise.</div></li><li class="li1"><div class="de1">&gt;Again she smothers you with her huge breasts, a soft but uneasy confidence from her as she presses against you.</div></li><li class="li1"><div class="de1">&gt;&quot;You stare so much at me, but...You seem so sincere and; trying to tell me it isn&#039;t JUST about me body&quot; she states with a huff.</div></li><li class="li1"><div class="de1">&gt;Your hands reach up and pull her breasts from your face</div></li><li class="li1"><div class="de1">&gt;&quot;Flora. If i just wanted sex , I Wouldn&#039;t have tried for someone like you.&quot; you start, rubbing her sides and thighs.</div></li><li class="li1"><div class="de1">&gt;&quot;I would have just gone for the waitress; who just about threw herself onto me, or maybe one of the many ladies who was celebrating their 40th birthday with a party&quot; you say with a calm smile.</div></li><li class="li1"><div class="de1">&gt;&quot;40th birthday? what does that?-&quot; she starts.</div></li><li class="li1"><div class="de1">&gt;Middle aged woman always get try to get with a younger guy when they turn 40 for some reason</div></li><li class="li1"><div class="de1">&gt;&quot;Let&#039;s just say i&#039;ve been hit on a lot by ladies celebrating their birthdays&quot; you say, gazing into Flora&#039;s eyes and rubbing her soft fur gently.</div></li><li class="li1"><div class="de1">&gt;Flora smiles and gives her hips a gentle wiggle, then sits upright; her pelvis pressed against yours.</div></li><li class="li1"><div class="de1">&gt;Your hard manhood rubs against Flora wet slit and she takes a moment to gently rub it with her soft hands.</div></li><li class="li1"><div class="de1">&gt;&quot;Bigger than I expected to be honest&quot; she moans, running her fingers over the sensitive tip, sending shivers down your body.</div></li><li class="li1"><div class="de1">&gt;She lifts herself slightly and positions your member against her as you gently run your hands along her thick thighs.</div></li><li class="li1"><div class="de1">&gt;&quot;Ready?&quot; she asks, more to herself than to you.</div></li><li class="li1"><div class="de1">&gt;You place your hands squarely on her hips and slide her down without any resistance or protest.</div></li><li class="li1"><div class="de1">&gt;Hot silken wetness envelops your manhood as Flora gasps and runs a hand down your chest.</div></li><li class="li1"><div class="de1">&gt;&quot;S-so good&quot; she moans as you begin rotating her hips on you, stirring up her tight insides.</div></li><li class="li1"><div class="de1">&gt;She plants both of her hands on your chest and you get to watch her large heavy breasts start to bounce a jiggle as she begins slapping her pelvis to yours.</div></li><li class="li1"><div class="de1">&gt;A soft *plap* sound fills the air as she does so, filling the air just about the ragged moaning breaths and your static enjoyment of the view.</div></li><li class="li1"><div class="de1">&gt;Your hands, still planted firmly on her hips, grasp her dense fur and help guide her.</div></li><li class="li1"><div class="de1">&gt;You feel her tail swishing back and forth each time she slams her hips to yours, left to right each time.</div></li><li class="li1"><div class="de1">&gt;Her green eyes are locked onto yours but unfocused, her attention being drawn to other sensations.</div></li><li class="li1"><div class="de1">&gt;Each time she pounds her hips to yours, she tightens sharply around you member, sending spasms of heat and pleasure through you.</div></li><li class="li1"><div class="de1">&gt;One of your hands slides upwards to grab a large jiggling breast and she rides you with fervor.</div></li><li class="li1"><div class="de1">&gt;After a bit of missing her nipples due to the very distracting jiggling, you&#039;re able to grab a nipple and tease it gently eliciting louder moans from Flora.</div></li><li class="li1"><div class="de1">&gt;Without warning, she falls on top of you, leaving your face buried in beautiful, silken, flower smelling tits.</div></li><li class="li1"><div class="de1">&gt;She angles herself sharply, forcing one of her breasts squarely onto your face.</div></li><li class="li1"><div class="de1">&gt;You take the hint and take her nipple into your mouth once mouth, sucking gently.</div></li><li class="li1"><div class="de1">&gt;Your other hand gets a good grip of soft hip fur as you help Flora keep a good rhythm.</div></li><li class="li1"><div class="de1">&gt;She moans softly and with a face full of lust looks you in the eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;Bite it...Hard&quot; she directs right has her hips meet yours heavily.</div></li><li class="li1"><div class="de1">&gt;You happily oblige and bite down on her nipple,earning a sharp gasp.</div></li><li class="li1"><div class="de1">&gt;Flora&#039;s inner walls tighten suddenly, and you focus on the soft, slightly salty taste in you mouth.</div></li><li class="li1"><div class="de1">&gt;Flora&#039;s nipples were soft, softer than most human skin.</div></li><li class="li1"><div class="de1">&gt;It was obvious they were sensitive based on the awkward attempts you made to try to get as much of the nipple and areola in your mouth as possible.</div></li><li class="li1"><div class="de1">&gt;You probably looked like a weird shark trying to chomp as much meat as possible.</div></li><li class="li1"><div class="de1">&gt;But each chomp made Flora gasp and moan.</div></li><li class="li1"><div class="de1">&gt;You feel her legs intertwine around yours and she moans happily.</div></li><li class="li1"><div class="de1">&gt;Tightness engulfs your member as she moans into your ear with a panicked yet lust filled voice.</div></li><li class="li1"><div class="de1">&gt;&quot;ohhhhhh..oh god anon i-i-i-i-I&#039;m gonnaaaa CUUUUU&quot;</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t finish her though as she heavily slams her hips to yours, while at the same time wrapping an arm around your head to pull your face completely to her breast.</div></li><li class="li1"><div class="de1">&gt;You can barely breathe, but you continue biting and thrusting into her, driven completely by want and lust.</div></li><li class="li1"><div class="de1">&gt;Is she on some kind of birth control? </div></li><li class="li1"><div class="de1">&gt;The thought is just a brief concern as you bring her fully down on yours while you suck one of her massive breasts and squeeze her elegant ass.</div></li><li class="li1"><div class="de1">&gt;She gives a short &quot;Aaaaaahhhhh&quot; as you fill her with your seed, no time to tell her as your mouth is fully preoccupied.</div></li><li class="li1"><div class="de1">&gt;You feel your legs spasm slightly as Flora&#039;s insides clench around your member,milking you for all you&#039;re worth.</div></li><li class="li1"><div class="de1">&gt;&quot;Ohhhh I needed that&quot; she moans, with her head rubbing against the side of your face and neck.</div></li><li class="li1"><div class="de1">&gt;You feel her ears flicking against your head as you hold her close</div></li><li class="li1"><div class="de1">&gt;you let go of her nipple with your mouth and let it squish against your upper chest and neck as Flora relaxes onto you.</div></li><li class="li1"><div class="de1">&gt;Imnotevenmad.jpg</div></li><li class="li1"><div class="de1">&gt;Big tits smooshed against you? No complaints here.</div></li><li class="li1"><div class="de1">&gt;&quot;Me too Flora&quot; You whisper to her.</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t respond, but snuggles against you,one of her hands grabbing blankets to pull over you both.</div></li><li class="li1"><div class="de1">&gt;After she absently struggles for a bit, the blankets are pulled within your reach to pull over the two of you.</div></li><li class="li1"><div class="de1">&gt;Flora does a quick shimmy against you.</div></li><li class="li1"><div class="de1">&gt;She never bothered to let you pull out of her; and it looks like she has NO problem of you staying in her overnight.</div></li><li class="li1"><div class="de1">&gt;&quot;Flora?&quot; you ask apprehensively, only to get a bovine finger pressed to your lips in a sweet motherly way.</div></li><li class="li1"><div class="de1">&gt;&quot;Shush, let&#039;s enjoy this&quot; she barely whispers, her large breasts pressed to you and her body on top of yours.</div></li><li class="li1"><div class="de1">&gt;You nod and settle into her cleavage.</div></li><li class="li1"><div class="de1">&gt;Together, in the gentle afterglow of love making, the two of you drift off to sleep.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You wake up to sunlight streaming through your hotel room window.</div></li><li class="li1"><div class="de1">&gt;Barely awake, you feel for Flora, only to find the spot in the bed next to you empty.</div></li><li class="li1"><div class="de1">&gt;Sigh.</div></li><li class="li1"><div class="de1">&gt;Suppose you should have seen that coming.</div></li><li class="li1"><div class="de1">&gt;Still you thought you and her had connected well and you wanted to try to make something more of it.</div></li><li class="li1"><div class="de1">&gt;But you don&#039;t know her phone number</div></li><li class="li1"><div class="de1">&gt;Hell you don&#039;t even know her last name.</div></li><li class="li1"><div class="de1">&gt;Smooth Anon, real real smooth</div></li><li class="li1"><div class="de1">&gt;You sit up and look around the room, looking for any sign of her.</div></li><li class="li1"><div class="de1">&gt;Nothing.</div></li><li class="li1"><div class="de1">&gt;As you frown, looking around for Anything, be it a note or even her bikini, you hear you door lock click and swing open.</div></li><li class="li1"><div class="de1">&gt;You&#039;re about to yell for the cleaning lady to get lost when Flora appears from the short hallway, carrying two plates of steaming breakfast food from the hotels complimentary breakfast.</div></li><li class="li1"><div class="de1">&gt;She&#039;s wearing (and stretching) one of your t-shirts and has on a pair of your running shorts.</div></li><li class="li1"><div class="de1">&gt;They don&#039;t fit her very well but god, did she make them look good.</div></li><li class="li1"><div class="de1">&gt;&quot;Oh! You&#039;re awake! I brought us food!&quot; she says cheerfully, setting the plates on the table along with your room key she must have grabbed.</div></li><li class="li1"><div class="de1">&gt;You&#039;re dumbfounded for a moment then smile happily.</div></li><li class="li1"><div class="de1">&gt;Sliding out of the bed you grab a pair of boxers, slide into them, then sit at the table with her. </div></li><li class="li1"><div class="de1">&gt;&quot;Thanks Flora, listen....I would love to see you more if that&#039;s ok&quot; you quickly say before you can reason yourself out of saying it.</div></li><li class="li1"><div class="de1">&gt;She smiles, and takes you hand in hers.</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s more than ok Anon, and I still have 3 days here, what about you?&quot; she replies happily.</div></li><li class="li1"><div class="de1">&gt;&quot;four&quot; you respond with a wide smile.</div></li><li class="li1"><div class="de1">&gt;&quot;Then let&#039;s make those days count, Then we&#039;ll take it from there&quot; she says squeezing your hand.</div></li><li class="li1"><div class="de1">&gt;You nod and give a happy sigh.</div></li><li class="li1"><div class="de1">&gt;3 days together huh? </div></li><li class="li1"><div class="de1">&gt;And you can think of a lot you can do in those few days. </div></li><li class="li1"><div class="de1">&gt;But for now here comes the sun to start this one.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;You really, REALLY needed this.
-&gt;And by this, you meant this vacation.
-&gt;You had gone ahead and rented a room at one of those hot spring resorts, to get away from it all and relax.
-&gt;Work was interesting and paid well, but everyone needs a vacation once and awhile; so you saved up enough time and money to not have to worry about it.
-&gt;Presently, you sit in a booth at the Resort restaurant/bar, reading the 5th book of the Dresden files.
-&gt;Yes, you were reading a book in a bar like a nerd.
-&gt;Of course, you were alone, no girlfriend or significant other to share this with.
-&gt;As sad as it sounds, work and life had just gotten in the way of dating.
-&gt;Sure, you had had a few hookups now and then but they never went anywhere sadly.
-&gt;Right as you read about Dresden getting told his nemesis is there to kill in you feel someone slide into the seat opposite you.
-&gt;You look up calmly to see a Cow Anthro with a wide fake smile.
-&gt;&quot;Honey! thanks for getting a booth for us!&quot; she says in an awkward happy tone.
-&gt;You are about to correct her when you notice a disappointed and frustrated bull anthro looking from you to her; double fisting glasses of some kind of beverage.
-&gt;His face goes through a range of emotions as you look at him.
-&gt;Confusion to annoyance to sheer anger all within a few moments.
-&gt;The cow looks at you with an almost pleading smile.
-&gt;You can&#039;t say no to the sad look.
-&gt;&quot;Ohhh there you are dear! what took so long?&quot; You ask in a fake happy tone, reaching a hand to her and grabbing one of her hands (Paws?) gently.
-&gt;The bull looks more annoyed than furious, to the point you think you can see a blood vessel under his fur; and you briefly think about what to do.
-&gt;Honestly, what did this (admittedly beautiful) Anthro think you would to do deter him?
-&gt;T-pose at him to assert dominance?
-&gt;he&#039;s built enough that he looks like he could yeet you into next Tuesday with no effort.
-&gt;Luckily, you don&#039;t have to do anything of the sort because he downs one of the drinks before stomping off angrily.
-&gt;You give a sigh of relief and look at the cow anthro for some kind of explanation.
-&gt;She gives a halfhearted smile as she pulls her hand (not paws or hooves so hand you decided) away from your weak grasp.
-&gt;&quot;S-sorry... that guy wouldn&#039;t take no for an answer&quot; she explains as you calmly look her over.
-&gt;She looks maybe in her late 30s to early 40s and is very.... curvaceous to say the least.
-&gt;You don&#039;t linger on her form though for politeness sake.
-&gt;&quot;You were alone, so I figured I could.... use you to get him to leave me alone, I&#039;m sorry&quot; she explains.
-&gt;As you give her a warm smile, you set aside your book and push your appetizer of cheesy garlic bread towards her.
-&gt;&quot;No need to be sorry, nobody likes a creep&quot; you say with a smile.
-&gt;&quot;Try some, it&#039;s good&quot;
-&gt;She gives an almost tearful laugh with a deep smile.
-&gt;&quot;T-thank you&quot; 
-&gt;You grab a nibble of a piece of garlic bread yourself as you study her.
-&gt;God damn, no wonder that bull wouldn&#039;t leave her alone.
-&gt;As you noticed before, she&#039;s a cow anthro with light cream colored fur and deep auburn colored hair.
-&gt;She&#039;s got the biggest breasts you&#039;ve ever seen in person, the size that made models looks like boards.
-&gt;About the size the size of medium sized watermelons?
-&gt;The table limits your view but from what you&#039;ve seen she is just your type.
-&gt;But you don&#039;t push it.
-&gt;&quot;So what brings you out here...and uh...what&#039;s your name &quot;Dear&quot;&quot; you ask calmly.
-&gt;She nearly chokes on a piece of bread as she laughs at your question, then gives you a warm smile like nothing happened.
-&gt;&quot;Ha uh... My name is Flora... and I&#039;m here because my kid thought I needed a vacation.&quot; she answers with a sad smile.
-&gt;You sip your drink and lean towards her, elbows resting on the table.
-&gt;&quot;Nice to meet you Flora, call me Anon&quot; you respond, sliding your book aside.
-&gt;You calmly extend a hand to her over the table so it looks like you were trying to hold her hand gently.
-&gt;She takes your hand softly, giving you a reserved yet happy smile.
-&gt;&quot;Hi Anon, nice to meet you&quot; She says with a pleasant smile.
-&gt;You&#039;re taken aback at her beauty for a moment; just a moment, but still.
-&gt;Her Auburn colored hair is well past her shoulders,a smile that could light up a room and...something... a warmth exuding from her.
-&gt;Like summer&#039;s warmth after springs last frost.
-&gt;You feel yourself drawn to her like a moth to a flame.
-&gt;Your waitress appears beyond the dim of the bar with a notepad.
-&gt;&quot;Oh, I didn&#039;t know you had company mr. Anon&quot; the wolfess waitress says blandly, looking annoyed, &quot;What would you and your.. guest like??&quot;
-&gt;This specific waitress had been hitting on you non stop since you started going to that restaurant.
-&gt;You flounder for a bit, looking desperately from your menu to Flora then back to the menu.
-&gt;You never were good at picking up ladies; and suddenly you&#039;re forced to somehow navigate between a Milf and a wanting server.
-&gt;Luckily, Flora is able to bail you out.
-&gt;&quot;Oh thank you for the extra bread&quot; Flora states as the wolfess; whose name you never learned, sets a tray of bread and butter down.
-&gt;The wolfess seems surprised at the politeness and you give her a smile.
-&gt;&quot;We&#039;ll take a few extra minutes to order, thank you so much&quot; you say with what you hope is a pleasant smile.
-&gt;The wolfess seems taken aback for a moment, then smiles, albeit coldly, then takes her leave.
-&gt;&quot;So &quot;dear&quot; since we are having a nice meal together, why don&#039;t we get to know each other a bit?&quot; you ask before sipping some water.
-&gt;Flora eyes you warily for a moment before answering.
-&gt;&quot;Already trying to get in my pants?&quot; she huffs annoyed
-&gt;You raise your hands, and give a small frown.
-&gt;&quot;Not at all, but when a pretty lady sits down with me for dinner, I&#039;m gonna try to talk to her&quot; you say defensively.
-&gt;&quot;I mean, you sat down at my table and interrupted my reading&quot; you say, tapping the spine of your paper back against the table softly.
-&gt;Flora gives a small cringe looking at the book than back to you.
-&gt;&quot;Sorry...just... I get a lot of creeps like that bull&quot; she finally says with a frown.
-&gt;&quot;I&#039;m just a guy who wants to know about the lady who just plopped down in front of him&quot; you say, smooshing your book against the table when you say &quot;plopped&quot; so the book makes a similar sound.
-&gt;Flora gives a short chuckle at that then looks you in the eyes.
-&gt;&quot;You mean it don&#039;t you? You&#039;re just curious about me?&quot;
-&gt;&quot;Not everyday you get thrown into a relationship, besides, I&#039;m here alone on vacation; I could use some good conversation&quot; you answer with a smile, absentmindedly rubbing a thumb on your books pages.
-&gt;Flora ears perk a bit when you say that.
-&gt;&quot;Alone? No girlfriend or family?&quot; she says, leaning forward, resting her head in her hands with her elbows on the table.
-&gt;&quot;No family left, no girlfriend for a while; focused on work too much&quot; you answer reluctantly.
-&gt;What harm is there sharing with a stranger who you will never meet again?
-&gt;&quot;Ooooh; You&#039;re anonymous then? one of those people pulled from another world?&quot; Flora says with some amazement and pity in her voice.
-&gt;You nod and give a quick sad smile.
-&gt;One of her hands covers her mouth while the other reaches to you in a motherly sort of way.
-&gt;&quot;Oh my god...I... I can&#039;t imagine what you went through trying to rebuild a whole life&quot; she says with pity in her voice.
-&gt;A pity you were used to.
-&gt;You shrug it away.
-&gt;&quot;I was a teenager when it happened, and to be honest&quot; 
-&gt;You give her hand a gentle squeeze.
-&gt;&quot;I don&#039;t even remember what they looked like, so that&#039;s a plus&quot;
-&gt;Flora looks confused for a moment.
-&gt;&quot;They? who?&quot; 
-&gt;My parents, my siblings, my...Everyone&quot; you answer.
-&gt;You can see tears welling in Floras eyes, so you quickly change the subject.
-&gt;&quot;SO! I&#039;ve told you about me! now it&#039;s your turn&quot; you state calmly, still holding Flora&#039;s fur covered hand.
-&gt;Before she answers, the wolfess returns bringing glasses of water.
-&gt;&quot;Have you decided on what you would like to eat?&quot; she asks pensively, eyeing your hand intertwined with Flora&#039;s.
-&gt;&quot;Uh...I&#039;ll have the seafood Alfredo and a pitcher of voodoo ranger IPA&quot; you respond, then look to Flora.
-&gt;&quot;I&#039;ll have the largest salad you have&quot; she answers, looking to the large canine with a smile.
-&gt;The wolfess (Emily, Based on her nametag) give a short nod then strides off.
-&gt;&quot;IPA? getting me all liquored up?” she says with a cute grin.
-&gt;&quot;Psssh, I doubt a pitcher could get you that drunk&quot; you answer before you can catch yourself.
-&gt;&quot;UHHH I mean, I doubt it strong enough to uh-&quot; you flounder helplessly. 
-&gt;The rest of your explanation is drowned out by Flora&#039;s laughs.
-&gt;It&#039;s a deep motherly laugh that fills you with... something you had missed for a long time.
-&gt;That motherly warmth one would feel when they did something silly for thier mom.
-&gt;&quot;Ohh dear, you must be a hit with the ladies&quot; she chortels out with a wide grin, wiping a tear from one of her eyes.
-&gt;You shrug sheepishly, still embarrassed.
-&gt;&quot;Here alone&quot; you remind her.
-&gt;She nods a bit, still quaking a bit from laughter.
-&gt;Her fingers hold your hand a bit tighter, and she smiles at you once the laughs die down.
-&gt;&quot;Well since you shared AND made a fool of yourself, I guess I can tell you a bit about myself&quot; she says with laughter in her eyes.
-&gt;You smile at her at your own expense, but that smile quickly fades when Flora&#039;s happy expression turns to stone.
-&gt;&quot;I...I got pregnant when I was 17...my boyfriend; my highschool sweetheart, took responsibility and we got married while we were in high school&quot; she starts, looking at the table.
-&gt;Her hand closes tighter around yours.
-&gt;&quot;He joined the military to provide for me and my daughter, then he went overseas and....Never came back&quot; she whispers, just loud enough for you to hear over the other bar patrons.
-&gt;You feel your heart sink at that.
-&gt;To be so young...To have the one you love snatched away in an instant.
-&gt;Your clench your jaw shut for a moment as you look at her.
-&gt;She squeezes your hand once more.
-&gt;&quot;Don&#039;t feel bad for me, I only remember what he looks like because of pictures and besides, I still have our daughter&quot; she says with a sad smile.
-&gt;&quot;I know how it feels to lose everything&quot; you say with a sad smile holding her hand tight.
-&gt;She nods.
-&gt;&quot;You know better than anyone I&#039;ve ever met&quot;
-&gt;&quot;I&#039;m sorry for your loss&quot; you whisper to her alone and her alone.
-&gt;She gives a smile and whispers back.
-&gt;&quot;I&#039;m sorry for yours&quot;
-&gt;You both sit in silence for a bit, just staring at each other.
-&gt;It&#039;s an odd connection with her.
-&gt;You lost everything by no one else&#039;s choice.
-&gt;She lost someone important to their own choice.
-&gt;For a moment, you try to recall the faces of everyone you left behind.
-&gt;Instead of a face, you get a generic human; a mock-up of who they were.
-&gt;More than a decade will do that.
-&gt;So instead of that, you focus on the woman in front of you.
-&gt;The only person who you had met who might have an idea of what you have gone through.
-&gt;Well the only female, the Anonymous forums were full of men who lost everything.
-&gt;As you think about it all, a human male appears carrying plates of food and a pitcher of beer.
-&gt;&quot;Your meals are here&quot; he says with a slight accent you can&#039;t quite place.
-&gt;Italian? french? one of those romance languages.
-&gt;You nod to him in thanks and Flora gives a full hearty smile.
-&gt;&quot;Thank you&quot; you say in response to the meal delivery.
-&gt;He gives a curt bow then disappears like magic, leaving you with Flora.
-&gt;The two of you eat silently, yet you feel your heels and calves intertwine with hers a few times.
-&gt;You didn&#039;t mean to suggest anything but she was just like you in a sense.
-&gt;For a full 20 minutes the two of you just eat and drink.
-&gt;Throughout the meal you are silently refilling her beer and her refilling yours.
-&gt;But the two of you are almost always in contact with each other.
-&gt;Even if it&#039;s just a fingertip or your shoe meeting her hooves.
-&gt;After you both finish eating you motion to the waitress and ask for the check.
-&gt;Flora looks at you in annoyance and protest.
-&gt;&quot;Let me pay for my part, well let my daughter&quot; she says as you hide the check away from her until the waiter can come by to take it away.
-&gt;You give her a stoic smile.
-&gt;&quot;What kind of gentleman would I be if I made a lady and a guest pay for a meal&quot; you say in defiance to her.
-&gt;She looks both impressed at you and annoyed.
-&gt;&quot;I...I&#039;ve never had someone do this for me&quot; she says awkwardly, looking at the table.
-&gt;You reach a hand to her and silently grasp her furred hand.
-&gt;&quot;I&#039;ve never had someone to do this with&quot; you respond with a stone face.
-&gt;Her look of shock and pity hurts a bit, but her response made it worth it.
-&gt;&quot;How about... How about we make the most of this? The hot springs are co-ed and I...I want to feel and see more of you&quot; she whispers, more to herself than to you.
-&gt;You smile and hold her lightly furred hand as the waiter takes your card along with the check.
-&gt;&quot;So...How about 20 minutes and we meet back in the resort lobby&quot; you say with a calm smile.
-&gt;She nods slightly and squeezes your hand slightly, then pulls away; leaving your hand feeling somewhat...Empty.
-&gt;Flora then stands and walks away quietly.
-&gt;You notice her for what seems like the first time, well this is the first time you&#039;ve been able to see her entire body.
-&gt;she&#039;s taller than you, probably nearly 7 ft tall, and her dark auburn hair is nearly down to her waist.
-&gt;She gives you a full smile, then moves away from your table; albeit somewhat reluctantly.
-&gt;You watch her go in utter amazement.
-&gt;Her body is....for lack of a better word; amazing.
-&gt;Wide hips and a bust that would leave most men (including you) drooling after her.
-&gt;You shake yourself out from the trance she leaves you in and depart from the table yourself after the waiter returns your card.
-&gt;Slowly, you walk out of the resort restaurant to the elevators.
-&gt;&quot;She is probably just going to go to bed&quot; you think to yourself as you ride the elevator to your floor.
-&gt;Regardless, you walk to your room and change into your bathing suit, keeping track of the time so you could meet Flora in the lobby.
-&gt;It shouldn&#039;t matter to you so much.
-&gt;But the feeling of being wanted for the first time in SO long; the allure was too much.
-&gt;As such you were ready quickly, leaving behind everything beyond your room key, dressed in a resort provided bath robe and a bathing suit.
-&gt;No need for a cell phone because no one was there to contact you anyways.
-&gt;The feeling of being a specter hits you hard as you wait for the elevator down to the hot springs
-&gt;You were literally no one, no family, no friends.
-&gt;Hoping to mean something to someone again.
-&gt;You sigh and disregard those feelings.
-&gt;The elevator rumbles then dings; letting you off into the lobby.
-&gt;Feeling somewhat awkward to be there in public in just a bathrobe, you try to maintain an air of confidence.
-&gt;After all other resort patrons are here doing the same.
-&gt;But no Fora.
-&gt;You wait apprehensively, earning odd looks from the staff as you sit on a bench, just waiting.
-&gt;Thirty five minutes pass and the idea finally sinks into your skull.
-&gt;She stood you up.
-&gt;You sigh in both disappointment at her not showing; but also at your eagerness to believe she would really take an interest in you.
-&gt;She probably went to bed....
-&gt;You stand and walk to the elevators once more, feeling lower than you had in awhile.
-&gt;This shouldn&#039;t be so disappointing...You barely know her...
-&gt;But it hurts regardless.
-&gt;The elevator doors open, and as you prepare to walk in; Flora stands before you, looking flustered and annoyed, wrapped tight in a bathrobe.
-&gt;Her foothooves click softly on the floor as she tries to hurry past you, only to stop and look at you.
-&gt;&quot;Anon?.. OH Anon! You stuck around! I&#039;m So SO sorry I took so long!&quot; she says wrapping her arms around you in a tight hug, your face pressed against her chest right above those heavenly breasts.
-&gt;You&#039;re immobilized, feeling her body press against yours; but you still keep some presence of mind.
-&gt;&quot;I figured you just ran into something, not that you were standing me up or anything&quot; you respond to her shakily.
-&gt;Smooth dude.
-&gt;Totally convincing.
-&gt;Regardless she holds you tight and you respond in kind, wrapping your arms gently around her generous waist.
-&gt;&quot;I&#039;m glad you waited, my daughter packed a swimsuit that is.... well you&#039;ll see in a bit&quot; she says awkwardly, releasing you from the best hug you had ever received.
-&gt;She grabs your hand and almost drags you to the doors to the hot springs, her tail flitting and kicking up her bathrobe a bit.
-&gt;All you see from it is a little bit of smooth cream colored fur and shapely thighs.
-&gt;You let her take the lead and just follow her to the resort hot springs.
-&gt;The springs are divided, partially inside in an odd greenhouse, the other side exposed to the cold winter air as snow falls.
-&gt;Flora directs you to the outside portion, and as the door open you shiver slightly.
-&gt;Steam makes the air a cloudy mist and you can see only a few feet in front of you.
-&gt;But you can still see most patrons have left due to the lateness.
-&gt;Not that you mind the privacy.
-&gt;You strip down to your swimsuit, then wait for Flora to do the same.
-&gt;She looks away awkwardly for a moment or two, then looks directly at you.
-&gt;&quot;Don&#039;t tease me ok?&quot; she says finally.
-&gt;The bathrobe falls off at that exact moment, revealing Flora in a &quot;itty bitty teeny weeny yellow polka dot bikini&quot; that strains to hold her...tracts of land back.
-&gt;Your jaw nearly hits the floor from the spectacle of it.
-&gt;Seriously, you would have to thank her daughter later for the view...
-&gt;You don&#039;t have time to respond because within a second Flora disappears below the hot water,hiding her beautiful assets from view.
-&gt;She moves through the water with a feminine grace reserved for goddesses and other fictional characters
-&gt;&quot;I guess my daughter thought it would be funny to give me a...bad looking swimsuit&quot; she says as she slides onto a seat in the water, the bubbles obscuring her body just enough to let your mind wander.
-&gt;You sink into the water and wade over, looking her in the eyes with a placid smile
-&gt;&quot;Bad looking? According to who? You&#039;re absolutely gorgeous Flora.&quot; you say as you make your way over to her and sink into the water next to her.
-&gt;The warm water relaxes your worn muscles, telling you just how much you had needed a break from work.
-&gt;She looks at you with consternation for a few long moments; then looks away, her eyes closed.
-&gt;When they open again, she looks into your eyes with a somewhat pressured gaze.
-&gt;Her eyes are the color of faded american dollars, and there is a fire burning in them; plus a sadness.
-&gt;You only notice it because you&#039;ve felt it and seen it before.
-&gt;A lack of positive reinforcement over the years and now the inability to take it well.
-&gt;&quot;You don&#039;t get complimented often do you Flora?&quot; you ask calmly, sneaking your hand to hers under the hot water.
-&gt;Her fingers wrap around yours softly.
-&gt;&quot;I get them all the time but... Those are usually cat calls and creepy co-workers&quot; she says with a sad squeeze to your hand with hers.
-&gt;&quot;It&#039;s different when you meet someone genuine&quot; she mumbles just barely audible above the bubbling water around you both.
-&gt;You give her hand a squeeze and scoot a little closer to her.
-&gt;&quot;I&#039;m sorry for that&quot; you respond, looking away from her and at the bubbling water.
-&gt;&quot;All I want is for you to have a good time, weird coming from someone you just met, I know; but still&quot; you continue, not looking at her, but instead focusing on the steam in front of you.
-&gt;&quot;It&#039;s rare that I meet someone out of the blue that I get along with so well; not to mention one as gorgeous as you. I&#039;m not trying to be creepy but...&quot; you trail off softly.
-&gt;You look at her and find those gorgeous eyes focusing at you.
-&gt;&quot;It&#039;s just the truth&quot;
-&gt;Those beautiful eyes twinkle slightly as she looks down, meeting your gaze.
-&gt;The height difference is much more noticeable when she&#039;s right next to you.
-&gt;&quot;Such a romantic, making me feel like a beautiful young girl again&quot;
-&gt;Deadpanned, you stare into her eyes.
-&gt;&quot;You are beautiful, age has nothing to do with it&quot;
-&gt;She looks stunned for a moment, then draws back a bit, her hand drawing away a bit.
-&gt;&quot;My body then?&quot;
-&gt;You shake your head at that.
-&gt;&quot;No one else has understood what it&#039;s like to lose everything in a moment like you. sure, some anonymous members have similar stories but...it&#039;s hard to connect with people who lost everything AFTER they grew up&quot; you say calmly as you look away and focus on the steam.
-&gt;&quot;But...&quot; she starts.
-&gt;&quot;You were 18 when you lost your husband, to you THAT was all that mattered, I lost everyone at 16&quot; you continue, ignoring her interruption.
-&gt;You look back to her, unwinding your hand from hers and putting it around her waist to pull her closer to you.
-&gt;&quot;No one understands like you, and that&#039;s what truly makes you beautiful; sure it might sound cheesy but...Someone who understands what it&#039;s like to lose everything as a teenager means a whole WHOLE lot&quot;
-&gt;Flora looks shocked for a moment, studying you for a moment before you look away.
-&gt;You can feel the alcohol affecting you as you focus back on the steam of the hot tub.
-&gt;However, Flora&#039;s hand wraps tighter around your waist in turn, as you focus on anything else.
-&quot;I understand&quot; She responds softly.
-&gt;Loss is something few truly understand.
-&gt;How can they?
-&gt;Most people have friends or family to fall back on.
-&gt;You had no one beyond the BHA, they in turn put you up for adoption.
-&gt;And Flora had no one because of her pregnancy.
-&gt;It&#039;s like a match made in dysfunctional heaven
-&gt;An orphan who by no one&#039;s choice matched with someone flung into single parenthood because &quot;fate&quot; and &quot;choice&quot;
-&gt;But you stopped believing in fate and all that a long time ago.
-&gt;Instead you focus on what is before you, a beautiful woman who was fed up with creeps who never learned anything about her.
-&gt;And you suspect you were the only one to try to get to know her.
-&gt;And you wanted to know everything about her.
-&gt;So you talked with her, learning everything you could about the beautiful bovine anthro, and her everything about you.
-&gt;She is 39, works in real estate and lives one town over from you; her daughter is 22 and goes to college for law and did one of those &quot;gofundme&quot; things to get her a vacation here.
-&gt;In turn, she learns about your prior life in the other world.
-&gt;How you woke up in an old abandoned building, surrounded by cops demanding why you were there.
-&gt;The confusion, the tears...The...How do you explain the feeling of waking up and realizing everyone you knew was gone?
-&gt;Flora seemed to understand somewhat.
-&gt;She told you how when she was 8 months pregnant there was a knock at the door, and a soldier was there to tell her that her husband died in an IED blast.
-&gt;You would be lying if you said you hadn’t teared about a bit talking about your past and listening to hers.
-&gt;But you could see some tears from her too, partially obscured by the steam.
-&gt;The moments, the connection between you and Flora are cut short though.
-&gt;&quot;Yooo bro! You makin&#039; this lady cry?&quot; comes an arrogant, annoying voice.
-&gt;the bull from earlier is slowly wading towards you and flora, a look of determined satisfaction on his face.
-&gt;Slowly, he wades towards you, partially stumbling; guess he must have had a few too many drinks
-&gt;He thinks he can play the part of hero, swooping in to save Flora from the mean mean boyfriend.
-&gt;You&#039;re about to answer when Flora; in a beautiful movement of grace and dexterity,moves through the water deftly to straddle you, leaving you speechless.
-&gt;Looking over her shoulder, she chastises the bull in a very motherly and condescending way.
-&gt;&quot;Oooh someone&#039;s jealous&quot;
-&gt;You can&#039;t even see the bull beyond Flora&#039;s &quot;Tracts of land&quot;, which are pressed against your face.
-&gt;What you can do is hear.
-&gt;&quot;W-what does that puny human have that I don&#039;t! He can&#039;t satisfy you like I can!&quot;
-&gt;Flora wiggles her hips on you, making the more primal part of your brain take over for a moment.
-&gt;Your erection pokes at her as she continues to wiggle her hips at the bull.
-&gt;&quot;He has everything you lack, including politeness, so tonight when you&#039;re alone, think of him railing me!&quot; she says with a defiant slap of her ass, splashing some water up as she does so.
-&gt;Your base desires are being driven into overdrive as you feel the reverberations from that slap.
-&gt;Before you can do anything else, you feel Flora&#039;s hands wrap around your face to pull you into a deep kiss.
-&gt;Her tongue invades your mouth with a fiery desire you had never felt from any partner before.
-&gt;Overcoming your surprise, you wrap one arm around her, feeling the base of her tail on your forearm as you pull her to you; your spare hand grips her wide hip.
-&gt;Her tongue is thick and wraps around yours as it explores your mouth.
-&gt;Your tongue invades her mouth with a bit more softness.
-&gt;It feels her flat teeth, the base of her tongue and everything in between.
-&gt;She moans into your mouth as you grip her ass and pull her to you out of sheer primal reflex.
-&gt;Oh god, you wanted this woman. 
-&gt;You wanted to explore every inch of her, give her the kisses she deserved and hold her hand at every social event ever.
-&gt;SO much hand holding.
-&gt;Flora breaks the kiss from you, staring into your eyes with a deep longing, then she looks back at the bull.
-&gt;&quot;Ohhh you wanna watch this human give me what you can&#039;t?&quot; She teases, grinding her shapely ass against you.
-&gt;You can see the fury in his face as he looks from you to her and you briefly contemplate what to do again if he gets hostile.
-&gt;It&#039;s a bit sad when the best option you have is T pose.
-&gt;But against him... you would literally have no other choice.
-&gt;But this resort must have had issues in the past because you see a few security personnel through the steam.
-&gt;Just barely.
-&gt;They must have been trained to be as non intrusive as possible.
-&gt;They appeared like spectres when the bull started showing aggression.
-&gt;Holy fuck, you would leave them a tip.
-&gt;Soft wet fur pulls you away from the bull and security
-&gt;Flora is still straddling you, leaned back slightly and looking down at you.
-&gt;&quot;D-do you like what you see.....?&quot; she asks bit bashfully after that display of confidence, her thighs on either side of yours.
-&gt;You nod numbly as she pushes your face between her breasts once more, Smothering you in hot wet fur and agonizing softness
-&gt;She&#039;s like a sculpture of beauty never seen before or since.
-&gt;Your fingers run over damp fur,feeling her body and hips.
-&gt;Your erection is barely contained as she continues grinding against you.
-&gt;Her arms wrap around your head as she giggles, purposefully pressing against you and teasing you.
-&gt;&quot;Uh...Excuse me?&quot; you hear a meek voice from behind you.
-&gt;You can&#039;t quite turn your head because of the wonderful smothering you&#039;re being subjected too.
-&gt;&quot;Hmm? What?&quot; Flora asks, looking up and past you.
-&gt;&quot;Uh... While we do encourage intimacy, we would like to request that you continue somewhere more...Private please&quot; comes an awkward voice full of consternation from over your left shoulder.
-&gt;&quot;Hear that honey? We have to go somewhere...Private&quot; Flora moans to you ,intentionally sliding her wide ass down the length of your shaft.
-&gt;You wiggle your face out of its beautiful fleshy prison.
-&gt;&quot;Then let&#039;s go?&quot; you ask with the smallest bit of questioning inflection.
-&gt;She nods and smiles &quot;Lets go&quot;
-&gt;Flora pulls herself off you,  leaving you feeling cold and naked despite the hot water.
-&gt;She beckons you to follow her, and you see her look to a side and wink at the bull who glowers at her.
-&gt;You&#039;re nearly shocked at how confidently she strides through the water, which she used to conceal herself with earlier.
-&gt;Now she strides with her body on full display, shoulders back a bit to pop her breasts out even further.
-&gt;You get up and follow her, your erection like an arrow pointed towards its final destination.
-&gt;That destination being Flora.
-&gt;Confidence wells inside you as you wade through the water.
-&gt;You look over to the bull; the bull you owe this whole night to , and smile.
-&gt;He scowls at you in response.
-&gt;Hurrying a bit, you catch up with Flora and put and arm around her waist.
-&gt;&quot;So, did you mean what you said back there?&quot; you ask apprehensively.
-&gt;&quot;What part?&quot;
-&gt;The two of you walk together through the resort lobby, your erection pitching a very obvious tent.
-&gt;What do you care at this point?
-&gt;&quot;The “somewhere private” and the &quot;railing&quot; I&#039;m gonna give you&quot; you ask.
-&gt;At this point you notice 2 things though.
-&gt;First, her nipples are pressing HARD against the fabric of her bikini.
-&gt;Second, her hand has snaked its way around you, pulling you to her.
-&gt;&quot;Every word&quot;
-&gt;The two of you make it to the elevator and you find yourself smirking at the stares.
-&gt;As soon as the Elevator doors close, Flora is on you and you on her.
-&gt;Your hands creep up her sides as she kisses you.
-&gt;Her hands slip past the elastic of your waistband, gently stroking your member.
-&gt;Your hands slide under her bikini and gently massage her breasts, feeling her hard nipples press against your fingers.
-&gt;Gently you pull away from the kiss.
-&gt;&quot;My place or yours?&quot;
-&gt;No hesitation.
-&gt;&quot;yours&quot; she says before pulling you back into a kiss.
-&gt;You pull a hand away and look around her briefly to hit the button to your floor, then go back to right in front of her, looking up at her.
-&gt;As much as you want to take charge, Flora doesn&#039;t quite let you, pushing you with the mass of her body until she has you pinned in a corner of the elevator, her breasts once again pushing against your face.
-&gt;&quot;Don&#039;t think I haven&#039;t noticed you staring all night Anon~&quot; she cooes sweetly, shaking her shoulders side to side, causing ripples of jiggles through her breasts against you.
-&gt;You don&#039;t respond, well you can&#039;t really well this her pressed against you like that, so instead you opt to simply grab her plump ass and squeeze it, pulling her to you even more.
-&gt;She moans with soft desire and she lets you slide your shaft between her thighs, albeit still in your swimsuit.
-&gt;She keeps her hands firmly planted against the elevator walls as she presses against you and softly wiggles side to side.
-&gt;You had always figured torture to be some kind of pain.
-&gt;This was worse than that.
-&gt;Keeping yourself restrained against your desire that wanted nothing more than to bend Flora over right here in the elevator and have your way with her.
-&gt;And you&#039;re sure she wouldn&#039;t even object.
-&gt;The side of you that wanted more than just a fling popped up. 
-&gt;&quot;Slow down, tease her, LOVE her, it&#039;s what she REALLY wants&quot;
-&gt;Sound advice from yourself to yourself, if you do say so yourself.
-&gt;Gently, you pull your shaft out from between Floras THICC thighs and pulls your face out from between her glorious breasts.
-&gt;&quot;W-what&#039;s wrong?&quot; Flora asks pulling away, slightly panicked.
-&gt;&quot;Nothing is wrong; I just want to savor this with you&quot; you respond as the elevator dings and opens.
-&gt;She looks confused and steps away from you, only to have you reach a hand forwards to her.
-&gt;Delicately, she takes your hand and leads you out of the elevator.
-&gt;&quot;Follow me&quot; you say with a smile.
-&gt;She doesn&#039;t respond, instead squeezes your hand softly, then you guide her through the halls to your room.
-&gt;These hotel hallways always look the same, and you note how bland they look compared to Flora.
-&gt;You also recognize you both left your towels and robes back at the hot spring.
-&gt;Eh, a small price to pay.
-&gt;Eventually, you stand in front of your room and pull your key out of the little inside pouch of your swimsuit..
-&gt;Men&#039;s swimsuits have a little interior pocket... do ladies?
-&gt;You don&#039;t question it for long because as soon as the door closes behind you, Flora has pulled you into a kiss once more.
-&gt;You rub your hand on her cheeks this time, gently stroking and massaging.
-&gt;When she breaks the kiss you realize just how cold you are; water plus winter weather equals cold.
-&gt;&quot;We should dry off&quot; you say up to her, and she gives a short nod.
-&gt;Flora looks to you with a bit of consternation and you see her tongue gently lick her rosey lips.
-&gt;&quot;Are you sure you&#039;re ok with someone like me? I mean, I&#039;m older than you and-&quot; 
-&gt;You cut her off with a quick kiss, You hands intertwining between her fingers to hold them softly.
-&gt;As your kiss breaks you look deep into her eyes.
-&gt;&quot;I&#039;m more than ok with you Flora, you&#039;re gorgeous and fun to talk to and just...good to spend time with&quot; you respond.
-&gt;She gives a warm smile and then shivers a bit.
-&gt;&quot;Right, lets dry off!&quot; she says pulling you into the bathroom.
-&gt;This world, this wonderful, anthro filled world has some unique things in bathrooms.
-&gt;A shower with multiple nozzles the point into the center to wash fur for starters. 
-&gt;And a Full hair (fur) dryer, that looks like one of those &quot;wind simulators&quot; some malls have.
-&gt;Flora guides you into it and you look about it cluelessly.
-&gt;You had never really used one before so you just let Flora do her thing.
-&gt;A moment later, Jets of warm air push against you from all directions
-&gt;Flora, in that moment pulls you to her.
-&gt;&quot;You&#039;ve made me feel Amazing tonight Anon&quot; She says with a content smile, her ears wiggling slightly from the warm air
-&gt;You feel the warm air whip around you, feel her soft fur gently being dried; you see her green eyes gazing at you while she nervously bites her lower lip softly.
-&gt;&quot;You&#039;ve made me feel amazing too Flora&quot; you respond, gently rubbing your fingers through her fur.
-&gt;&quot;But we can&#039;t get really dry with our swimsuits on&quot; you point out.
-&gt;Flora&#039;s smile turned from happiness to deviousness, and she turns from you.
-&gt;&quot;Untie this for me please?&quot; she asks as wind whips around her, pointing to the string on her back, holding the bikini on.
-&gt;You oblige her and untie it quickly; those wonderful fleshy orbs have tempted you all night.
-&gt;Flora slides out of the Bikini top, still facing away from you.
-&gt;&quot;And now this last piece!&quot; She says happily, bending over as she pulls off her bikini bottom, giving you a wonder view.
-&gt;You in turn follow suit, kicking your swimsuit off right as the warm air cycle of the dryer turns off.
-&gt;Flora stays turned, her arms wrapped around herself.
-&gt;&quot;Anon... I have something to confess&quot; She says timidly, in stark contrast to how she was acting just a moment before.
-&gt;&quot;what&#039;s that Flora?&quot; you ask apprehensively, fearing the worst.
-&gt;What even is the worst at this point?
-&gt;&quot;You...Are the first man I&#039;ve been with since my daughter was born&quot; she whispers softly, just barely audible over the bathrooms fan.
-&gt;You cock your head to the side questioningly.
-&gt;&quot;So?&quot;
-&gt;&quot;S-so my body isn&#039;t what it used to be!&quot; she says, turning to you slowly.
-&gt;Her large breasts sag slightly due to their sheer size and her tummy has a comfortable amount of plumpness.
-&gt;She instinctively covers her large light pink areolas and nipples with both arms, squishing her breasts to her, looking away with a frown.
-&gt;You don&#039;t even realize what you&#039;re doing until you have your arms around Flora in a hug.
-&gt;&quot;Flora, you&#039;re the most beautiful woman I&#039;ve ever had the pleasure of meeting&quot; you state calmly, savoring the brisk warm fur.
-&gt;Flora stops looking away and stares at you for a moment, her eyes studying your face, her arms still wrapped around herself defensively.
-&gt;&quot;You...you mean it don&#039;t you? which means either you&#039;ve been with some very ugly girls or I&#039;m Aphrodite reincarnated&quot; she says with a doubtful smile.
-&gt;&quot;I mean every word, you are beautiful beyond belief; and forget reincarnated, you put Aphrodite to shame&quot; you respond hugging her and giving her a quick squeeze.
-&gt;She studies you for a quick moment, then wraps her arms around you gently.
-&gt;&quot;Thank you Anon&quot;
-&gt;You pull her closer to you,savoring the feeling of warm fur against your bare skin.
-&gt;&quot;You don&#039;t need to thank me, I&#039;m just telling the truth&quot; you respond with a gentle nuzzle.
-&gt;Flora pulls away to look at you with watery eyes.
-&gt;&quot;You Snake charmer, You must get all the girls like this&quot; she says with a tearful, yet happy smile.
-&gt;You shrug and give an awkward smile.
-&gt;&quot;uhhh sure, totally! I get all the ladies&quot; You say with a pained smile.
-&gt;&quot;That&#039;s why I&#039;m here alone on vacation&quot;
-&gt;As you attempt to shift away from Flora in sheer embarrassment and shame, she pulls you further to her.
-&gt;Flora&#039;s motherly cooes send shivers up your spine.
-&gt;&quot;You poor man, thrust into a new world all alone at such a young age&quot; she cooes softly.
-&gt;To be honest , you&#039;re a bit annoyed to be the loser, the guy who lost everything.
-&gt;You just wanted to LIVE.
-&gt;Just to be here with these anthros and humans, living a life that is all about being better than you COULD have been.
-&gt;There is a theory in the anonymous circles going around.
-&gt;A rumor that anonymous members got pulled into this world to help someone who needed it.
-&gt;Think a guardian angel pulling someone from another universe to protect you.
-&gt;The stories made sense.
-&gt;A human, lost and strung out on drugs, saving an anthro gal who was attacked; a man confused, helping a BHA member become her true self, a man helping a young helpless anthro overcome her past and the rape the came with it.
-&gt;Does your current situation give that theory any grounds to stand on?
-&gt;Eh, maybe, maybe not.
-&gt;What truly matters is that you stand with Flora, the beautiful bovine anthro.
-&gt;&quot;It&#039;s ok&quot; you answer with a smile &quot;It only means I got to meet you&quot;
-&gt;Flora sucks in a breath and looks at you questioningly.
-&gt;You smile in response.
-&gt;&quot;It&#039;s ok, I&#039;ve had a long time to get over it&quot; you say, waving the feelings aside mentally.
-&gt;Soft warm fur engulfs your face and the feeling of warm fur pressing against you is almost oppressive.
-&gt;Unf to the utmost degree.
-&gt;Huge and soft breasts wrapped around you, a beautiful woman caring about you.
-&gt;A dream come true.
-&gt;You slide your hands up her sides and begin to gently squeeze her bosom, earning soft moans from Flora and you explore her body
-as she feels yours.
-&gt;Flora shifts slightly, causing your erection to slide between her thighs once more.
-&gt;&quot;Mmmm I can feel it throbbing&quot; She moans, softly grinding her thigh side to side.
-&gt;The soft fur of her inner thighs feels amazing, like rubbing your sensitive member with silk.
-&gt;For a moment, you pull your head out of Flora&#039;s cleavage and massage her breasts around the nipple, then take one into your mouth and suck on it gently.
-&gt;Flora gasps at the sudden change in sensations and redoubles her grinding while a growing wetness begins to form.
-&gt;Flora&#039;s hands glide along your body as she moans and gasps while you play with her large breasts and suckle on one of her nipples.
-&gt;Feeling lust course through you, you let Flora&#039;s nipple free of your mouth with a sharp *pop* that makes Flora moan gasp in shock.
-&gt;&quot;Mmmm i want more~&quot; she cooes to you, her eyes half closed woozily, pressing her breasts around your face once more with her upper arms.
-&gt;You Feel flora Guiding you, but don&#039;t fight it as she leads you from the bathroom to the bed, your face still engulfed in her cleavage.
-&gt;She gazes down at you, her eyes full of lust and want.
-&gt;&quot;No man has made me feel so beautiful before&quot; she half moans, half whispers.
-&gt;You wriggle free of her embrace, your body landing on the bed with a soft &quot;whomp&quot;.
-&gt;&quot;Flora, you are more than beautiful. You&#039;re fun and charming and so many more things&quot; you say with an inviting smile.
-&gt;Flora looks pensive, then simply falls onto you.
-&gt;She cushions most of her weight to her elbows and hips, but you&#039;re still hit with a weight of heavy breasts and thighs.
-&gt;Flora, has effectively pinned you, granted your arms and legs are free and you could squirm free from her if you wanted.
-&gt;But the warm cream colored fur, the soft smell of jasmine flowers and her eager look make you decide otherwise.
-&gt;Again she smothers you with her huge breasts, a soft but uneasy confidence from her as she presses against you.
-&gt;&quot;You stare so much at me, but...You seem so sincere and; trying to tell me it isn&#039;t JUST about me body&quot; she states with a huff.
-&gt;Your hands reach up and pull her breasts from your face
-&gt;&quot;Flora. If i just wanted sex , I Wouldn&#039;t have tried for someone like you.&quot; you start, rubbing her sides and thighs.
-&gt;&quot;I would have just gone for the waitress; who just about threw herself onto me, or maybe one of the many ladies who was celebrating their 40th birthday with a party&quot; you say with a calm smile.
-&gt;&quot;40th birthday? what does that?-&quot; she starts.
-&gt;Middle aged woman always get try to get with a younger guy when they turn 40 for some reason
-&gt;&quot;Let&#039;s just say i&#039;ve been hit on a lot by ladies celebrating their birthdays&quot; you say, gazing into Flora&#039;s eyes and rubbing her soft fur gently.
-&gt;Flora smiles and gives her hips a gentle wiggle, then sits upright; her pelvis pressed against yours.
-&gt;Your hard manhood rubs against Flora wet slit and she takes a moment to gently rub it with her soft hands.
-&gt;&quot;Bigger than I expected to be honest&quot; she moans, running her fingers over the sensitive tip, sending shivers down your body.
-&gt;She lifts herself slightly and positions your member against her as you gently run your hands along her thick thighs.
-&gt;&quot;Ready?&quot; she asks, more to herself than to you.
-&gt;You place your hands squarely on her hips and slide her down without any resistance or protest.
-&gt;Hot silken wetness envelops your manhood as Flora gasps and runs a hand down your chest.
-&gt;&quot;S-so good&quot; she moans as you begin rotating her hips on you, stirring up her tight insides.
-&gt;She plants both of her hands on your chest and you get to watch her large heavy breasts start to bounce a jiggle as she begins slapping her pelvis to yours.
-&gt;A soft *plap* sound fills the air as she does so, filling the air just about the ragged moaning breaths and your static enjoyment of the view.
-&gt;Your hands, still planted firmly on her hips, grasp her dense fur and help guide her.
-&gt;You feel her tail swishing back and forth each time she slams her hips to yours, left to right each time.
-&gt;Her green eyes are locked onto yours but unfocused, her attention being drawn to other sensations.
-&gt;Each time she pounds her hips to yours, she tightens sharply around you member, sending spasms of heat and pleasure through you.
-&gt;One of your hands slides upwards to grab a large jiggling breast and she rides you with fervor.
-&gt;After a bit of missing her nipples due to the very distracting jiggling, you&#039;re able to grab a nipple and tease it gently eliciting louder moans from Flora.
-&gt;Without warning, she falls on top of you, leaving your face buried in beautiful, silken, flower smelling tits.
-&gt;She angles herself sharply, forcing one of her breasts squarely onto your face.
-&gt;You take the hint and take her nipple into your mouth once mouth, sucking gently.
-&gt;Your other hand gets a good grip of soft hip fur as you help Flora keep a good rhythm.
-&gt;She moans softly and with a face full of lust looks you in the eyes.
-&gt;&quot;Bite it...Hard&quot; she directs right has her hips meet yours heavily.
-&gt;You happily oblige and bite down on her nipple,earning a sharp gasp.
-&gt;Flora&#039;s inner walls tighten suddenly, and you focus on the soft, slightly salty taste in you mouth.
-&gt;Flora&#039;s nipples were soft, softer than most human skin.
-&gt;It was obvious they were sensitive based on the awkward attempts you made to try to get as much of the nipple and areola in your mouth as possible.
-&gt;You probably looked like a weird shark trying to chomp as much meat as possible.
-&gt;But each chomp made Flora gasp and moan.
-&gt;You feel her legs intertwine around yours and she moans happily.
-&gt;Tightness engulfs your member as she moans into your ear with a panicked yet lust filled voice.
-&gt;&quot;ohhhhhh..oh god anon i-i-i-i-I&#039;m gonnaaaa CUUUUU&quot;
-&gt;She doesn&#039;t finish her though as she heavily slams her hips to yours, while at the same time wrapping an arm around your head to pull your face completely to her breast.
-&gt;You can barely breathe, but you continue biting and thrusting into her, driven completely by want and lust.
-&gt;Is she on some kind of birth control? 
-&gt;The thought is just a brief concern as you bring her fully down on yours while you suck one of her massive breasts and squeeze her elegant ass.
-&gt;She gives a short &quot;Aaaaaahhhhh&quot; as you fill her with your seed, no time to tell her as your mouth is fully preoccupied.
-&gt;You feel your legs spasm slightly as Flora&#039;s insides clench around your member,milking you for all you&#039;re worth.
-&gt;&quot;Ohhhh I needed that&quot; she moans, with her head rubbing against the side of your face and neck.
-&gt;You feel her ears flicking against your head as you hold her close
-&gt;you let go of her nipple with your mouth and let it squish against your upper chest and neck as Flora relaxes onto you.
-&gt;Imnotevenmad.jpg
-&gt;Big tits smooshed against you? No complaints here.
-&gt;&quot;Me too Flora&quot; You whisper to her.
-&gt;She doesn&#039;t respond, but snuggles against you,one of her hands grabbing blankets to pull over you both.
-&gt;After she absently struggles for a bit, the blankets are pulled within your reach to pull over the two of you.
-&gt;Flora does a quick shimmy against you.
-&gt;She never bothered to let you pull out of her; and it looks like she has NO problem of you staying in her overnight.
-&gt;&quot;Flora?&quot; you ask apprehensively, only to get a bovine finger pressed to your lips in a sweet motherly way.
-&gt;&quot;Shush, let&#039;s enjoy this&quot; she barely whispers, her large breasts pressed to you and her body on top of yours.
-&gt;You nod and settle into her cleavage.
-&gt;Together, in the gentle afterglow of love making, the two of you drift off to sleep.
-
-&gt;You wake up to sunlight streaming through your hotel room window.
-&gt;Barely awake, you feel for Flora, only to find the spot in the bed next to you empty.
-&gt;Sigh.
-&gt;Suppose you should have seen that coming.
-&gt;Still you thought you and her had connected well and you wanted to try to make something more of it.
-&gt;But you don&#039;t know her phone number
-&gt;Hell you don&#039;t even know her last name.
-&gt;Smooth Anon, real real smooth
-&gt;You sit up and look around the room, looking for any sign of her.
-&gt;Nothing.
-&gt;As you frown, looking around for Anything, be it a note or even her bikini, you hear you door lock click and swing open.
-&gt;You&#039;re about to yell for the cleaning lady to get lost when Flora appears from the short hallway, carrying two plates of steaming breakfast food from the hotels complimentary breakfast.
-&gt;She&#039;s wearing (and stretching) one of your t-shirts and has on a pair of your running shorts.
-&gt;They don&#039;t fit her very well but god, did she make them look good.
-&gt;&quot;Oh! You&#039;re awake! I brought us food!&quot; she says cheerfully, setting the plates on the table along with your room key she must have grabbed.
-&gt;You&#039;re dumbfounded for a moment then smile happily.
-&gt;Sliding out of the bed you grab a pair of boxers, slide into them, then sit at the table with her. 
-&gt;&quot;Thanks Flora, listen....I would love to see you more if that&#039;s ok&quot; you quickly say before you can reason yourself out of saying it.
-&gt;She smiles, and takes you hand in hers.
-&gt;&quot;It&#039;s more than ok Anon, and I still have 3 days here, what about you?&quot; she replies happily.
-&gt;&quot;four&quot; you respond with a wide smile.
-&gt;&quot;Then let&#039;s make those days count, Then we&#039;ll take it from there&quot; she says squeezing your hand.
-&gt;You nod and give a happy sigh.
-&gt;3 days together huh? 
-&gt;And you can think of a lot you can do in those few days. 
-&gt;But for now here comes the sun to start this one.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    1 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    8 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    57 min ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/PM4V3wTN">script or module</a>
-                <div class="details">
-                                            Perl |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/AKLTavMn">chamber</a>
-                <div class="details">
-                                            Lua |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/dk7XF8ne">Pong</a>
-                <div class="details">
-                                            Go |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

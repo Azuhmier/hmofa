@@ -1,495 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Don&#039;t Fuck Up - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Don&#039;t Fuck Up - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/abaLkavv" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/abaLkavv" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="5SPPlv3fHbTMFK2IORwWMp78omSDNTKsNnDDGbzoX5SJDv75yJYu3fxtgM4JZXpg563nBvpmZOZPKvdj5asF5Q==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/abaLkavv" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/abaLkavv" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Happy_Dragon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Don&#039;t Fuck Up</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Happy_Dragon">Happy_Dragon</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Happy_Dragon" class="message" title="Send a private message to: Happy_Dragon"></a>
-                                    
-                <div class="date">
-                    <span title="Sunday 16th of June 2019 08:42:55 PM CDT">Jun 16th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,197                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 10.88 KB            </div>
-
-            <div class="right">
-                <a href="/raw/abaLkavv" class="btn -small">raw</a>
-                <a href="/dl/abaLkavv" class="btn -small">download</a>
-                <a href="/clone/abaLkavv" class="btn -small h_800">clone</a>
-                <a href="/embed/abaLkavv" class="btn -small h_800">embed</a>
-                <a href="/report/abaLkavv" class="btn -small">report</a>
-                <a href="/print/abaLkavv" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">She&#039;s not in tears yet, but you&#039;re close enough to hear her try to crank the scooter&#039;s engine for the third time.</div></li><li class="li1"><div class="de1">You set your bag in the car, and walk back towards the admin building and the corner of the lot where she&#039;s the only scooter left.</div></li><li class="li1"><div class="de1">&quot;Come on mom, pick up the phone.&quot;</div></li><li class="li1"><div class="de1">She drops the phone back in her bag just as you come up to her side.</div></li><li class="li1"><div class="de1">She&#039;s one of those wolf girls, helmet already on and looking like any other high school girl.</div></li><li class="li1"><div class="de1">Windbreaker from what must be one of her parent&#039;s job, and the inevitable sneakers &amp; jeans.</div></li><li class="li1"><div class="de1">Medium brown fur with a hint of black on the tips, and longer hair only a shade darker already back in a ponytail for the ride.</div></li><li class="li1"><div class="de1">You offer to check the scooter over.</div></li><li class="li1"><div class="de1">&quot;It just got a new battery, and it was running fine yesterday and this morning.&quot;</div></li><li class="li1"><div class="de1">It only takes a second to see what&#039;s gone wrong.</div></li><li class="li1"><div class="de1">The battery cable&#039;s been pulled tight and wrapped around part of the frame.</div></li><li class="li1"><div class="de1">It&#039;s like a trig problem, but someone got clever and made it too tight in the process.</div></li><li class="li1"><div class="de1">You cut one of the ties and jiggle a few others to get some slack.</div></li><li class="li1"><div class="de1">After you loosen and tighten the connection back up, she looks puzzled when you stand up so soon.</div></li><li class="li1"><div class="de1">When you tell her to try it, it turns over immediately.</div></li><li class="li1"><div class="de1">Her eyes go soft for a second then she hugs you with explosive glee.</div></li><li class="li1"><div class="de1">You catch her name just before she collects her bag and rides away.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It&#039;s almost 100 degrees out and the wind is barely stirring.</div></li><li class="li1"><div class="de1">You have sweat dripping off you, and can see your father a bit away sweating just as hard.</div></li><li class="li1"><div class="de1">&quot;Now, can you see yet how we&#039;re going to see where to dig the other two corner posts?&quot;</div></li><li class="li1"><div class="de1">You shake your head, stay quiet, and can feel a math lesson coming on.</div></li><li class="li1"><div class="de1">&quot;Ten years old is old enough to learn how to do this.&quot;</div></li><li class="li1"><div class="de1">Two posts have been sunk in the ground, the earth around them fresh, wet and tamped back down.</div></li><li class="li1"><div class="de1">Several lengths of lumber lay end to end between the two posts, waiting for posts midway between.</div></li><li class="li1"><div class="de1">Rolls of twine, cut posts, and a couple of insulated jugs lay off to the side.</div></li><li class="li1"><div class="de1">He hands you a tape measure.</div></li><li class="li1"><div class="de1">&quot;Short side&#039;s going to be thirty feet.  Clip that to the post and walk over there.&quot;</div></li><li class="li1"><div class="de1">You walk off thirty feet, then he has you walk in a short arc while scuffing the dirt.</div></li><li class="li1"><div class="de1">Your mother will complain later about sneakers that are still good being used for outdoor tasks.</div></li><li class="li1"><div class="de1">He has you repeat this with the other post.</div></li><li class="li1"><div class="de1">&quot;Now we&#039;re going to make this square.&quot;</div></li><li class="li1"><div class="de1">He removes a calculator from his back pocket, then draws a triangle in the dirt.</div></li><li class="li1"><div class="de1">He puts in the numbers, saves the results, then does it again a bit slower for you.</div></li><li class="li1"><div class="de1">Then he presses a few of the funny labeled buttons at the top, and it spits out another number.</div></li><li class="li1"><div class="de1">You get told to pick up the long tape, and walk that off.</div></li><li class="li1"><div class="de1">&quot;Make a good mark so we can see where they cross.&quot;</div></li><li class="li1"><div class="de1">You repeat that again.</div></li><li class="li1"><div class="de1">Then he has you walk off the length towards one of the two sets of marks in the dirt while he stands at the other.</div></li><li class="li1"><div class="de1">You stop right at the cross of the two marks your foot made.</div></li><li class="li1"><div class="de1">You look at the tape, and wonder how it&#039;s exactly the length between the two sunk posts.</div></li><li class="li1"><div class="de1">&quot;Easier than a whore in six inch heels.  Let&#039;s take five and then get these holes dug.&quot;</div></li><li class="li1"><div class="de1">You hope your mom never hears him say that in from of you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The flashlight wobbles for a second, and then she holds it steady again.</div></li><li class="li1"><div class="de1">&quot;Are you sure you know how to do this?&quot;</div></li><li class="li1"><div class="de1">It&#039;s not like you have a choice; you&#039;ve got to finish hooking this up and then assemble the bed frame if she&#039;s going to sleep here tonight.</div></li><li class="li1"><div class="de1">She hands you the other wrench; it&#039;s not like you&#039;re doing anything hard.</div></li><li class="li1"><div class="de1">The electrical connection had already been installed, and the lines to the apartment&#039;s pipes waiting.</div></li><li class="li1"><div class="de1">All you have to do is tighten a few hoses and plug in the new water heater which was holding up her move-in.</div></li><li class="li1"><div class="de1">After three delays, including the heater getting damaged in shipping, they were letting you make the connections.</div></li><li class="li1"><div class="de1">The plumber was overworked and couldn&#039;t send someone out on such short notice.</div></li><li class="li1"><div class="de1">Even if he was going to be by first thing in the morning, you still had to catch yourself second-guessing each small step.</div></li><li class="li1"><div class="de1">And if she didn&#039;t move in today, she&#039;d have to find somewhere else to sleep; her dorm was cleaned out and the boxes stacked in the living room.</div></li><li class="li1"><div class="de1">You finish up, and say a small prayer as you turn the water on and then the power.</div></li><li class="li1"><div class="de1">You watch for a minute, and breathe easier when the connections look good.</div></li><li class="li1"><div class="de1">&quot;Can I try it yet?&quot;</div></li><li class="li1"><div class="de1">Her ears are pointed forward twitching in barely restrained happiness &amp; excitement.</div></li><li class="li1"><div class="de1">You get up, crack your back and dust off.</div></li><li class="li1"><div class="de1">She&#039;s changed a lot in the past three years.</div></li><li class="li1"><div class="de1">Her hair is a little shorter, but the shy girl is now the one that lights up any room and gets everyone to feel at ease.</div></li><li class="li1"><div class="de1">She turns the knob, yips with glee as hot water pours over her hand, and gives you one of her patented hugs.</div></li><li class="li1"><div class="de1">And a kiss too, a long loving kiss between friends and more than occasional lovers.</div></li><li class="li1"><div class="de1">A couple hours later she&#039;s thrilled again at the bed frame.</div></li><li class="li1"><div class="de1">Anything is better than those old &amp; worn out mattresses &amp; springs the dorm rooms have.</div></li><li class="li1"><div class="de1">You&#039;re glad you brought the saw and some extra wood.</div></li><li class="li1"><div class="de1">One piece was missing from the kit and another was short by a few inches.</div></li><li class="li1"><div class="de1">It&#039;s nothing that can&#039;t be fixed with a little good old work, and now she&#039;s in the kitchen making you a thank-you meal.</div></li><li class="li1"><div class="de1">&quot;Hope you brought your appetite tonight!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your hand is shaking a little bit.</div></li><li class="li1"><div class="de1">&quot;Good, you&#039;ve got your marks so now draw a line between them.&quot;</div></li><li class="li1"><div class="de1">You&#039;ve watched him do this before, and today, but now he&#039;s having you do this from the start.</div></li><li class="li1"><div class="de1">&quot;Hold it tight against the guide.  That&#039;s it.  Your hand is OK, just keep your thumb tucked in.  Now flip the switch and pull the saw forward.&quot;</div></li><li class="li1"><div class="de1">The saw roars to life and you pull forward at the pace he&#039;d shown you only minutes before.</div></li><li class="li1"><div class="de1">Everything shudders and vibrates as the saw cuts through the piece of wood.</div></li><li class="li1"><div class="de1">Finally it&#039;s over and you turn off the saw, unclamp your small hand, and start breathing again.</div></li><li class="li1"><div class="de1">He has you do it again and again, and each cut gets marked in red on the plans on the workbench.</div></li><li class="li1"><div class="de1">Every time you need to take a break from the saw, there&#039;s other work to do.</div></li><li class="li1"><div class="de1">Drilling, nailing, sanding, and most importantly the sweating builds up.</div></li><li class="li1"><div class="de1">Soon the plans are marked all over in red for completed tasks.</div></li><li class="li1"><div class="de1">&quot;Take your time and do it right the first time.  Measure twice and cut once.  And don&#039;t fuck up.  There&#039;s only so much you can do, and do it right.  This doesn&#039;t have to be a masterpiece.&quot;</div></li><li class="li1"><div class="de1">There&#039;s more cutting, drilling, sanding, and sweating before you both step back.</div></li><li class="li1"><div class="de1">&quot;Probably better than my first project I did the work on, and you&#039;ll get better the more you do it.&quot;</div></li><li class="li1"><div class="de1">You can tell where all the small imperfections and flaws really are.</div></li><li class="li1"><div class="de1">&quot;Now let&#039;s have some lunch.  Lunch is always better after a good morning&#039;s work.&quot;</div></li><li class="li1"><div class="de1">But you can also tell he&#039;s proud you did the work and that you&#039;ll want to do better next time.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She&#039;s crying, and you see used up the box of tissues on the table and is most of the way through a second box.</div></li><li class="li1"><div class="de1">There&#039;s no telling how many she went through before the reception.</div></li><li class="li1"><div class="de1">She tried her best to hold it together, but you&#039;re her only son.</div></li><li class="li1"><div class="de1">Her firstborn, the first to marry, and now you have a ring on your finger and she has someone else calling her Mom.</div></li><li class="li1"><div class="de1">You&#039;ve pulled up chairs to either side of her, and each of you have taken one side.</div></li><li class="li1"><div class="de1">She picks up your newlywed wife&#039;s hands, strokes them through the gloves, and tries not to break into sobbing.</div></li><li class="li1"><div class="de1">Your suit is crisp and perfectly fitted across your chest, shoes shining and hair perfect.</div></li><li class="li1"><div class="de1">Her bridal gown is understated white lace and silk, the train now detached but the veil thrown back between her ears.</div></li><li class="li1"><div class="de1">Her fur is trimmed and contrasting darkly against the white; her ears are forward but calm as they have been since she made her way down the aisle.</div></li><li class="li1"><div class="de1">Your mother looks at both of you in turn.</div></li><li class="li1"><div class="de1">You put your arm around here and pull her tight to you.</div></li><li class="li1"><div class="de1">Your wife lays her head against your mother&#039;s shoulder, hands still together.</div></li><li class="li1"><div class="de1">The sobbing starts, and she reaches the tissues before you do, handing them to you for your mother.</div></li><li class="li1"><div class="de1">Her hands are still flat in her lap as you dry her eyes and keep the tears from the expensive suit and jacket.</div></li><li class="li1"><div class="de1">&quot;You two kids need to go back out there and dance.  I knew I was going to cry.&quot;</div></li><li class="li1"><div class="de1">She sniffles a bit, then continues.</div></li><li class="li1"><div class="de1">&quot;I thought you&#039;d be the easy one to watch go down the aisle.  Guess I better request more for when it&#039;s your sister&#039;s turn.&quot;</div></li><li class="li1"><div class="de1">The smile she tries to hold is quivering at the corners of her mouth, fine lines appearing and disappearing.</div></li><li class="li1"><div class="de1">&quot;I&#039;d never have guessed you two would end up together, and this soon after graduation.  Barely a full year, hasn&#039;t it?&quot;</div></li><li class="li1"><div class="de1">&quot;Go.  This is your day; I can only cry like this once and I need you to make me the proudest used tissue factory in this reception hall.&quot;</div></li><li class="li1"><div class="de1">She reaches to stroke the wolfish cheek of her newfound daughter-in-law.</div></li><li class="li1"><div class="de1">Her smile is a bit steadier now, but you know that as soon as your back is turned she&#039;s likely to grab another box of tissues.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">He&#039;s furious.</div></li><li class="li1"><div class="de1">Your mother is crying, and her sisters are there too.</div></li><li class="li1"><div class="de1">But he isn&#039;t yelling, and the doctor is talking softly and using big words you don&#039;t understand.</div></li><li class="li1"><div class="de1">You wandered away from your mother, and down the short length of white tiled hall to where he was.</div></li><li class="li1"><div class="de1">As you come up to his side, you look up.</div></li><li class="li1"><div class="de1">His face is like a weathered cliff, and his leg against your body like a pillar.</div></li><li class="li1"><div class="de1">The doctor finishes and walks away, leaving the smell of soap and things cleaner than even your mother or grandmother&#039;s kitchens.</div></li><li class="li1"><div class="de1">He kneels down so slowly and the world closes in as he locks eyes.</div></li><li class="li1"><div class="de1">The sounds of the hospital, the machines and gurney wheels and low conversations, fall behind.</div></li><li class="li1"><div class="de1">&quot;Go back over to your mother and aunts.  Let them cry.  Just hold them for a while.&quot;</div></li><li class="li1"><div class="de1">He takes your tiny hands, and raises them slightly engulfed in his leathered ones.</div></li><li class="li1"><div class="de1">&quot;Whether they&#039;re sad or happy, they&#039;re going to cry.  We&#039;ve got to take care of the things that need taking care of.&quot;</div></li><li class="li1"><div class="de1">He breaks eyes with you just enough to look down the hall where the doctors are, then locks onto you again.</div></li><li class="li1"><div class="de1">&quot;You&#039;ve got to be the rock that doesn&#039;t move for them.  I&#039;m going to take care of the rest.  That&#039;s what us men have to do right now.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We both knew well before we got married we&#039;d never be able to have kids together, naturally.&quot;</div></li><li class="li1"><div class="de1">It&#039;s been a couple of years, and you can&#039;t stop thinking about it.</div></li><li class="li1"><div class="de1">&quot;I want them, and I know you do.&quot;</div></li><li class="li1"><div class="de1">All memories are raw given the right place and time; never able to callous over, only able to become deeper with the years.</div></li><li class="li1"><div class="de1">&quot;You&#039;re going to be one of the best fathers, ever.&quot;</div></li><li class="li1"><div class="de1">It&#039;s been fifteen years now, and you can&#039;t break free of the form he set to make a man of a child.</div></li><li class="li1"><div class="de1">Fifteen years, and every new action he&#039;s still guiding your hands through the steps of learning.</div></li><li class="li1"><div class="de1">Fifteen years, and each repetition only carves finer detail in stone.</div></li><li class="li1"><div class="de1">Her ears turn back; the darker fur forward only rarely with you.</div></li><li class="li1"><div class="de1">But she cant get upset no matter how much she&#039;s concerned; she&#039;s always been able to tell when you get like this and that she just has to wait for it to pass.</div></li><li class="li1"><div class="de1">&quot;We&#039;re going to name the first after him.&quot;</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">She&#039;s not in tears yet, but you&#039;re close enough to hear her try to crank the scooter&#039;s engine for the third time.
-You set your bag in the car, and walk back towards the admin building and the corner of the lot where she&#039;s the only scooter left.
-&quot;Come on mom, pick up the phone.&quot;
-She drops the phone back in her bag just as you come up to her side.
-She&#039;s one of those wolf girls, helmet already on and looking like any other high school girl.
-Windbreaker from what must be one of her parent&#039;s job, and the inevitable sneakers &amp; jeans.
-Medium brown fur with a hint of black on the tips, and longer hair only a shade darker already back in a ponytail for the ride.
-You offer to check the scooter over.
-&quot;It just got a new battery, and it was running fine yesterday and this morning.&quot;
-It only takes a second to see what&#039;s gone wrong.
-The battery cable&#039;s been pulled tight and wrapped around part of the frame.
-It&#039;s like a trig problem, but someone got clever and made it too tight in the process.
-You cut one of the ties and jiggle a few others to get some slack.
-After you loosen and tighten the connection back up, she looks puzzled when you stand up so soon.
-When you tell her to try it, it turns over immediately.
-Her eyes go soft for a second then she hugs you with explosive glee.
-You catch her name just before she collects her bag and rides away.
-
-It&#039;s almost 100 degrees out and the wind is barely stirring.
-You have sweat dripping off you, and can see your father a bit away sweating just as hard.
-&quot;Now, can you see yet how we&#039;re going to see where to dig the other two corner posts?&quot;
-You shake your head, stay quiet, and can feel a math lesson coming on.
-&quot;Ten years old is old enough to learn how to do this.&quot;
-Two posts have been sunk in the ground, the earth around them fresh, wet and tamped back down.
-Several lengths of lumber lay end to end between the two posts, waiting for posts midway between.
-Rolls of twine, cut posts, and a couple of insulated jugs lay off to the side.
-He hands you a tape measure.
-&quot;Short side&#039;s going to be thirty feet.  Clip that to the post and walk over there.&quot;
-You walk off thirty feet, then he has you walk in a short arc while scuffing the dirt.
-Your mother will complain later about sneakers that are still good being used for outdoor tasks.
-He has you repeat this with the other post.
-&quot;Now we&#039;re going to make this square.&quot;
-He removes a calculator from his back pocket, then draws a triangle in the dirt.
-He puts in the numbers, saves the results, then does it again a bit slower for you.
-Then he presses a few of the funny labeled buttons at the top, and it spits out another number.
-You get told to pick up the long tape, and walk that off.
-&quot;Make a good mark so we can see where they cross.&quot;
-You repeat that again.
-Then he has you walk off the length towards one of the two sets of marks in the dirt while he stands at the other.
-You stop right at the cross of the two marks your foot made.
-You look at the tape, and wonder how it&#039;s exactly the length between the two sunk posts.
-&quot;Easier than a whore in six inch heels.  Let&#039;s take five and then get these holes dug.&quot;
-You hope your mom never hears him say that in from of you.
-
-The flashlight wobbles for a second, and then she holds it steady again.
-&quot;Are you sure you know how to do this?&quot;
-It&#039;s not like you have a choice; you&#039;ve got to finish hooking this up and then assemble the bed frame if she&#039;s going to sleep here tonight.
-She hands you the other wrench; it&#039;s not like you&#039;re doing anything hard.
-The electrical connection had already been installed, and the lines to the apartment&#039;s pipes waiting.
-All you have to do is tighten a few hoses and plug in the new water heater which was holding up her move-in.
-After three delays, including the heater getting damaged in shipping, they were letting you make the connections.
-The plumber was overworked and couldn&#039;t send someone out on such short notice.
-Even if he was going to be by first thing in the morning, you still had to catch yourself second-guessing each small step.
-And if she didn&#039;t move in today, she&#039;d have to find somewhere else to sleep; her dorm was cleaned out and the boxes stacked in the living room.
-You finish up, and say a small prayer as you turn the water on and then the power.
-You watch for a minute, and breathe easier when the connections look good.
-&quot;Can I try it yet?&quot;
-Her ears are pointed forward twitching in barely restrained happiness &amp; excitement.
-You get up, crack your back and dust off.
-She&#039;s changed a lot in the past three years.
-Her hair is a little shorter, but the shy girl is now the one that lights up any room and gets everyone to feel at ease.
-She turns the knob, yips with glee as hot water pours over her hand, and gives you one of her patented hugs.
-And a kiss too, a long loving kiss between friends and more than occasional lovers.
-A couple hours later she&#039;s thrilled again at the bed frame.
-Anything is better than those old &amp; worn out mattresses &amp; springs the dorm rooms have.
-You&#039;re glad you brought the saw and some extra wood.
-One piece was missing from the kit and another was short by a few inches.
-It&#039;s nothing that can&#039;t be fixed with a little good old work, and now she&#039;s in the kitchen making you a thank-you meal.
-&quot;Hope you brought your appetite tonight!&quot;
-
-Your hand is shaking a little bit.
-&quot;Good, you&#039;ve got your marks so now draw a line between them.&quot;
-You&#039;ve watched him do this before, and today, but now he&#039;s having you do this from the start.
-&quot;Hold it tight against the guide.  That&#039;s it.  Your hand is OK, just keep your thumb tucked in.  Now flip the switch and pull the saw forward.&quot;
-The saw roars to life and you pull forward at the pace he&#039;d shown you only minutes before.
-Everything shudders and vibrates as the saw cuts through the piece of wood.
-Finally it&#039;s over and you turn off the saw, unclamp your small hand, and start breathing again.
-He has you do it again and again, and each cut gets marked in red on the plans on the workbench.
-Every time you need to take a break from the saw, there&#039;s other work to do.
-Drilling, nailing, sanding, and most importantly the sweating builds up.
-Soon the plans are marked all over in red for completed tasks.
-&quot;Take your time and do it right the first time.  Measure twice and cut once.  And don&#039;t fuck up.  There&#039;s only so much you can do, and do it right.  This doesn&#039;t have to be a masterpiece.&quot;
-There&#039;s more cutting, drilling, sanding, and sweating before you both step back.
-&quot;Probably better than my first project I did the work on, and you&#039;ll get better the more you do it.&quot;
-You can tell where all the small imperfections and flaws really are.
-&quot;Now let&#039;s have some lunch.  Lunch is always better after a good morning&#039;s work.&quot;
-But you can also tell he&#039;s proud you did the work and that you&#039;ll want to do better next time.
-
-She&#039;s crying, and you see used up the box of tissues on the table and is most of the way through a second box.
-There&#039;s no telling how many she went through before the reception.
-She tried her best to hold it together, but you&#039;re her only son.
-Her firstborn, the first to marry, and now you have a ring on your finger and she has someone else calling her Mom.
-You&#039;ve pulled up chairs to either side of her, and each of you have taken one side.
-She picks up your newlywed wife&#039;s hands, strokes them through the gloves, and tries not to break into sobbing.
-Your suit is crisp and perfectly fitted across your chest, shoes shining and hair perfect.
-Her bridal gown is understated white lace and silk, the train now detached but the veil thrown back between her ears.
-Her fur is trimmed and contrasting darkly against the white; her ears are forward but calm as they have been since she made her way down the aisle.
-Your mother looks at both of you in turn.
-You put your arm around here and pull her tight to you.
-Your wife lays her head against your mother&#039;s shoulder, hands still together.
-The sobbing starts, and she reaches the tissues before you do, handing them to you for your mother.
-Her hands are still flat in her lap as you dry her eyes and keep the tears from the expensive suit and jacket.
-&quot;You two kids need to go back out there and dance.  I knew I was going to cry.&quot;
-She sniffles a bit, then continues.
-&quot;I thought you&#039;d be the easy one to watch go down the aisle.  Guess I better request more for when it&#039;s your sister&#039;s turn.&quot;
-The smile she tries to hold is quivering at the corners of her mouth, fine lines appearing and disappearing.
-&quot;I&#039;d never have guessed you two would end up together, and this soon after graduation.  Barely a full year, hasn&#039;t it?&quot;
-&quot;Go.  This is your day; I can only cry like this once and I need you to make me the proudest used tissue factory in this reception hall.&quot;
-She reaches to stroke the wolfish cheek of her newfound daughter-in-law.
-Her smile is a bit steadier now, but you know that as soon as your back is turned she&#039;s likely to grab another box of tissues.
-
-He&#039;s furious.
-Your mother is crying, and her sisters are there too.
-But he isn&#039;t yelling, and the doctor is talking softly and using big words you don&#039;t understand.
-You wandered away from your mother, and down the short length of white tiled hall to where he was.
-As you come up to his side, you look up.
-His face is like a weathered cliff, and his leg against your body like a pillar.
-The doctor finishes and walks away, leaving the smell of soap and things cleaner than even your mother or grandmother&#039;s kitchens.
-He kneels down so slowly and the world closes in as he locks eyes.
-The sounds of the hospital, the machines and gurney wheels and low conversations, fall behind.
-&quot;Go back over to your mother and aunts.  Let them cry.  Just hold them for a while.&quot;
-He takes your tiny hands, and raises them slightly engulfed in his leathered ones.
-&quot;Whether they&#039;re sad or happy, they&#039;re going to cry.  We&#039;ve got to take care of the things that need taking care of.&quot;
-He breaks eyes with you just enough to look down the hall where the doctors are, then locks onto you again.
-&quot;You&#039;ve got to be the rock that doesn&#039;t move for them.  I&#039;m going to take care of the rest.  That&#039;s what us men have to do right now.&quot;
-
-&quot;We both knew well before we got married we&#039;d never be able to have kids together, naturally.&quot;
-It&#039;s been a couple of years, and you can&#039;t stop thinking about it.
-&quot;I want them, and I know you do.&quot;
-All memories are raw given the right place and time; never able to callous over, only able to become deeper with the years.
-&quot;You&#039;re going to be one of the best fathers, ever.&quot;
-It&#039;s been fifteen years now, and you can&#039;t break free of the form he set to make a man of a child.
-Fifteen years, and every new action he&#039;s still guiding your hands through the steps of learning.
-Fifteen years, and each repetition only carves finer detail in stone.
-Her ears turn back; the darker fur forward only rarely with you.
-But she cant get upset no matter how much she&#039;s concerned; she&#039;s always been able to tell when you get like this and that she just has to wait for it to pass.
-&quot;We&#039;re going to name the first after him.&quot;</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    12 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    13 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    16 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    17 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    24 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

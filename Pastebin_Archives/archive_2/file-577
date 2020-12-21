@@ -1,470 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Intern - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The Intern - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/0ri8jxUg" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/0ri8jxUg" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="G9FyGdPRc-bN_6xeaqVA95Zqp3XA2ayXD_Vi_gx_A4peiAIuhKEVk6q3whwtzyjG-Q3gHKKs1NVgpxCrSAxR5w==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/0ri8jxUg" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/0ri8jxUg" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="SlickBoi">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>The Intern</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/SlickBoi">SlickBoi</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=SlickBoi" class="message" title="Send a private message to: SlickBoi"></a>
-                                    
-                <div class="date">
-                    <span title="Sunday 21st of April 2019 12:27:29 PM CDT">Apr 21st, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,178                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 9.38 KB            </div>
-
-            <div class="right">
-                <a href="/raw/0ri8jxUg" class="btn -small">raw</a>
-                <a href="/dl/0ri8jxUg" class="btn -small">download</a>
-                <a href="/clone/0ri8jxUg" class="btn -small h_800">clone</a>
-                <a href="/embed/0ri8jxUg" class="btn -small h_800">embed</a>
-                <a href="/report/0ri8jxUg" class="btn -small">report</a>
-                <a href="/print/0ri8jxUg" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">The Intern</div></li><li class="li1"><div class="de1">NSFW, human male/female anthros, slavery</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Be Anon</div></li><li class="li1"><div class="de1">&gt; Be average in most ways</div></li><li class="li1"><div class="de1">&gt; Want to do something different and make some good money to pay for a new computer rig</div></li><li class="li1"><div class="de1">&gt; Become the most popular dealer for &quot;smack&quot; on the block. It&#039;s a drug that causes intense euphoria in a city of primarily anthros</div></li><li class="li1"><div class="de1">&gt; Things are going great. Got a steady income from shady dealings, and you&#039;ve recently raised enough money to get that rig. But why stop?</div></li><li class="li1"><div class="de1">&gt; Soon you&#039;ve got more money than you thought you&#039;d ever have. Thinking about moving to a nicer place than the shitty apartment you&#039;re in now. Too many seedy people around here.</div></li><li class="li1"><div class="de1">&gt; Come to think of it, there&#039;s been a couple figures you&#039;ve seen lurking around longer than normal. Thoughts of cops race around your head. Naw if the fuzz had caught on to you they would have kicked in the door by now. Maybe someone looking to mug somebody in the alleyways? Or just other dealers?</div></li><li class="li1"><div class="de1">&gt; After a day or two, you come home to some smashed windows and bricks on the floor. Fuck.</div></li><li class="li1"><div class="de1">&gt; You pick up a brick that has a note rubber banded around it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Get lost or you&#039;ll regret it. This is our turf.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Rival dealers. Welp this line of work was bound to hit a bump in the road eventually. Now what to do about your competition? Do you be a pussy and run woth your tail between your legs? Naw.</div></li><li class="li1"><div class="de1">&gt; You get your windows repaired with bars across them now and get an extra lock installed on the door, just in case. You&#039;d get a gun, but don&#039;t know where to find an arms dealer since guns are illegal in this city. You&#039;ll have to deal with just aa knife for now.</div></li><li class="li1"><div class="de1">&gt; After about a week you start to let your guard down. No more attacks on your house, nobody hanging out in the alleyways. Dealing has been going as usual.</div></li><li class="li1"><div class="de1">&gt; You&#039;re walking down the sidewalk to grab a bite to eat when you notice a couple figures have been making the same turns as you. Hmm okay. Take a left turn.</div></li><li class="li1"><div class="de1">&gt; Yep they turned too. Okaaay</div></li><li class="li1"><div class="de1">&gt; Another left turn</div></li><li class="li1"><div class="de1">&gt; Yep they followed suit</div></li><li class="li1"><div class="de1">&gt; One last left turn on the block will prove it.</div></li><li class="li1"><div class="de1">&gt; Shit</div></li><li class="li1"><div class="de1">&gt; You&#039;re starting to panic as they pick up their pace and gain ground on you. They&#039;re not running, but you would rather have a comfy distance between you and possible murderers.</div></li><li class="li1"><div class="de1">&gt; You know this area pretty well, and you know that if you dip into the alleyway up ahead you can scale a fence between the buildings pretty well and then ditch them after that.</div></li><li class="li1"><div class="de1">&gt; Making the turn to break their line of sight, you start sprinting to that fence. The alleyway is pretty dark as your feet smack against the pavement. You&#039;re almost to the fence! Time to ditch these asshol-</div></li><li class="li1"><div class="de1">&gt; Another dark figure steps out from behind a dumpster lining one of the buildings. Oh come on.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Where do you think you&#039;re going, bitch?&quot; The figure lowers a hood to reveal a crocodile anthro, and female at that. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Fuck she&#039;s big too, no muscling your way through this one. Whelp time to turn around and-</div></li><li class="li1"><div class="de1">&gt; The other two figures are standing at your exit with their arms crossed. Both women anthros too, a grey wolf and a shark. Odd.</div></li><li class="li1"><div class="de1">&gt; Haha no need to be rash here ladies</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We warned you. Ya did&#039;nt want to listen, so now you get to to feel.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Feel wha- WHACK</div></li><li class="li1"><div class="de1">&gt; You&#039;re nocked to the ground from behind and look up to the alligator brandishing a baseball bat. Before you can plead for your life you feel a furry arm snake its way around your neck as the wolf puts you in a choke hold.</div></li><li class="li1"><div class="de1">&gt; Incoherent gurbles leave your mouth as you try to plead. Everything is starting to get dark and blurry. Well this is it. Goodbye cruel world.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----* * *-----</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; A panging ache in your head.</div></li><li class="li1"><div class="de1">&gt; A dry mouth.</div></li><li class="li1"><div class="de1">&gt; Can&#039;t move your arms.</div></li><li class="li1"><div class="de1">&gt; Oh shit you&#039;re alive. Nice.</div></li><li class="li1"><div class="de1">&gt; In a daze you look around and see that you&#039;re tied to a chair in what seems to be an office. What the fuck?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;He&#039;s awake. Please face him to me.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; The wolf anthro from before appears at your side and roughly spins your chair to face the other side of the room. At a big wooden desk sits a doberman woman. What the fuck is even happening.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Untie him and leave us be.&quot; Your hands and legs are promptly cut and the wolf girl leaves the two of you in the room.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; With your attention now on the doberman anthro, she pulls out a shiny 1911 and plants it on the table menacingly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Try anything and I&#039;ll give you some new holes to breath out of.&quot; Point taken. &quot;Now, I think you know why you&#039;re here. You&#039;ve given us a little trouble with our business lately.&quot; She lays the gun down on the table and folds her hands. &quot;We&#039;ve done so much to create what we have here, and we&#039;re not going to let someone like you ruin it.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; What? This isn&#039;t a drug den this is a fucking office building.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Exactly. We have a nice little front. On paper this is a company that provides human resources for companies that wish to outsource their HR. Just a bunch of friendly ladies doing their work. But that&#039;s all just a front for... other things. Guns, drugs, etc.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; And I was taking away your business, huh?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Precisely. Now I came up with an idea that we might be able to come to an agreement with.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Okay okay I&#039;ll leave town like you asked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; The doberwoman? laughs out loud. &quot;Oh no no you had that option. Now you know about us so I can&#039;t simply just let you go. So now you have two options. You can either die right here in this office, and my girls will dispose of your body. Won&#039;t be heard from ever again.&quot; She leans in a bit and smiles. &quot;Orr you can work here.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Hmm hard choice. What&#039;s your job?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Her smile grows into a menacing grin. &quot;You will be the office servant. Anything anyone asks, you do.&quot; Um okay? So you&#039;ll be the building bitch. &quot;And when I say anything I mean it. And you&#039;ll LIKE it. Alot of the girls will be needing certain services while they do their work.&quot; Oh. You mean THAT kind of bitch.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So if you want to live you&#039;re going to listen up. Your audition starts now. Get down and take care of my... needs, and I&#039;ll decide if you live.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You look down and see that the desk is open in the middle and has plenty of room to crawl between her legs. Will you become their slave?</div></li><li class="li1"><div class="de1">&gt; A moment passes before you choose life and fall to your knees. &quot;Good choice. Name&#039;s Alex by the way.&quot; You get under the table and notice the whole time she had no pants on. She opens her legs for you as you get closer.</div></li><li class="li1"><div class="de1">&gt; You can feel the heat eminate from her, and she&#039;s already dripping down her legs.</div></li><li class="li1"><div class="de1">&gt; A musty smell fills your nose as you lean in. Fuck, must be in heat.</div></li><li class="li1"><div class="de1">&gt; Time for the moment of truth.</div></li><li class="li1"><div class="de1">&gt; You lick slowly from the bottom of her pussy to the top and flick off her swollen clit. &quot;Ohhhh yeah...&quot; She leans back and starts to relax in her office chair.</div></li><li class="li1"><div class="de1">&gt; Are you really doing this?</div></li><li class="li1"><div class="de1">&gt; You continue licking the outside around her lips and basically clean up her juices. Fuck you definitely should not be hard right now.</div></li><li class="li1"><div class="de1">&gt; Gripping around her legs, you start to circle your tongue around her entrance. She huffs and grips the top of your head. Must be doing well so far.</div></li><li class="li1"><div class="de1">&gt; As you circle deeper and deeper, she starts to moan lightly. Soon you&#039;re as deep as you can go, and start to circle back out slowly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Mmmm ya got a nack for giving head, bitch.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You&#039;re gonna have to let her know you have a name at some point.</div></li><li class="li1"><div class="de1">&gt; Now you move your way up her slit and start circling slowly around her clit. She grips your hair tighter, forcing your nose into her and making it harder to breath.</div></li><li class="li1"><div class="de1">&gt; You take the liberty of slipping a finger into her as you suck and lick on her clit, causing her to almost whimper.</div></li><li class="li1"><div class="de1">&gt; Through the smothering and fluids, you notice that you could not possibly be any harder. Fuuuck you need to find a way out, right?</div></li><li class="li1"><div class="de1">&gt; The thought is tossed aside as Alex grips your head with both hands, evidently can&#039;t take you swirling around her clit any longer without an orgasm to double her over.</div></li><li class="li1"><div class="de1">&gt; You keep at it as she twitches and throbs around your fingers, and the door to the room suddenly opens. &quot;Is everything okay, Alex?&quot;</div></li><li class="li1"><div class="de1">&gt; You almost pull away, but her hands hold you in place so you keep licking that swollen little nub. &quot;All AH good here. Just initiated our newwWWW member. Please set up his ooOOoffice space. And get Sasha for me.&quot; You hear a sultry laugh and the door close.</div></li><li class="li1"><div class="de1">&gt; Alex releases her grip on your head so you can pull away. Your chin is soaked and beads of fluids have dripped down your neck. Jesus.</div></li><li class="li1"><div class="de1">&gt; You get out from under the table and sit back in your chair. Could use a fuckin towel.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;From your performance I suppose you&#039;d make a good fit for the company.&quot; The door opens up and a very busty snake anthro walks in. Must be Sasha. You&#039;re not sure how to act with Alex&#039;s fluids covering your face, but Sasha doesn&#039;t seem to mind.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Alex speaks up. &quot;I hope all of his things are prepared to be moved?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Sasha nods. &quot;Yes. He&#039;ll be ready to be moved in when he leaves today.&quot; She looks turns and looks you up and down. Wait. Did they just say move in?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;From this point on you will be living with Sasha outside of work. This will help make sure you don&#039;t get any ideas of... quitting.&quot; What the fuck. &quot;All of your things will be moved to her apartment and you will be escorted by her until we feel we can trust you.&quot; At least your computer will be fine then.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Well this is it, huh. A sex slave. Are you willing to keep this up? You look down on the desk again and see the gun. Yeah. You can deal.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;See to it that it is done then, please.&quot; Sasha nods and eyes you hungrily before she turns to leave, mentioning something about how it&#039;s gonna be fun with a room mate.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; What have you got yourself into?</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">The Intern
-NSFW, human male/female anthros, slavery
-
-&gt; Be Anon
-&gt; Be average in most ways
-&gt; Want to do something different and make some good money to pay for a new computer rig
-&gt; Become the most popular dealer for &quot;smack&quot; on the block. It&#039;s a drug that causes intense euphoria in a city of primarily anthros
-&gt; Things are going great. Got a steady income from shady dealings, and you&#039;ve recently raised enough money to get that rig. But why stop?
-&gt; Soon you&#039;ve got more money than you thought you&#039;d ever have. Thinking about moving to a nicer place than the shitty apartment you&#039;re in now. Too many seedy people around here.
-&gt; Come to think of it, there&#039;s been a couple figures you&#039;ve seen lurking around longer than normal. Thoughts of cops race around your head. Naw if the fuzz had caught on to you they would have kicked in the door by now. Maybe someone looking to mug somebody in the alleyways? Or just other dealers?
-&gt; After a day or two, you come home to some smashed windows and bricks on the floor. Fuck.
-&gt; You pick up a brick that has a note rubber banded around it.
-
-&quot;Get lost or you&#039;ll regret it. This is our turf.&quot;
-
-&gt; Rival dealers. Welp this line of work was bound to hit a bump in the road eventually. Now what to do about your competition? Do you be a pussy and run woth your tail between your legs? Naw.
-&gt; You get your windows repaired with bars across them now and get an extra lock installed on the door, just in case. You&#039;d get a gun, but don&#039;t know where to find an arms dealer since guns are illegal in this city. You&#039;ll have to deal with just aa knife for now.
-&gt; After about a week you start to let your guard down. No more attacks on your house, nobody hanging out in the alleyways. Dealing has been going as usual.
-&gt; You&#039;re walking down the sidewalk to grab a bite to eat when you notice a couple figures have been making the same turns as you. Hmm okay. Take a left turn.
-&gt; Yep they turned too. Okaaay
-&gt; Another left turn
-&gt; Yep they followed suit
-&gt; One last left turn on the block will prove it.
-&gt; Shit
-&gt; You&#039;re starting to panic as they pick up their pace and gain ground on you. They&#039;re not running, but you would rather have a comfy distance between you and possible murderers.
-&gt; You know this area pretty well, and you know that if you dip into the alleyway up ahead you can scale a fence between the buildings pretty well and then ditch them after that.
-&gt; Making the turn to break their line of sight, you start sprinting to that fence. The alleyway is pretty dark as your feet smack against the pavement. You&#039;re almost to the fence! Time to ditch these asshol-
-&gt; Another dark figure steps out from behind a dumpster lining one of the buildings. Oh come on.
-
-&quot;Where do you think you&#039;re going, bitch?&quot; The figure lowers a hood to reveal a crocodile anthro, and female at that. 
-
-&gt; Fuck she&#039;s big too, no muscling your way through this one. Whelp time to turn around and-
-&gt; The other two figures are standing at your exit with their arms crossed. Both women anthros too, a grey wolf and a shark. Odd.
-&gt; Haha no need to be rash here ladies
-
-&quot;We warned you. Ya did&#039;nt want to listen, so now you get to to feel.&quot;
-
-&gt; Feel wha- WHACK
-&gt; You&#039;re nocked to the ground from behind and look up to the alligator brandishing a baseball bat. Before you can plead for your life you feel a furry arm snake its way around your neck as the wolf puts you in a choke hold.
-&gt; Incoherent gurbles leave your mouth as you try to plead. Everything is starting to get dark and blurry. Well this is it. Goodbye cruel world.
-
------* * *-----
-
-&gt; A panging ache in your head.
-&gt; A dry mouth.
-&gt; Can&#039;t move your arms.
-&gt; Oh shit you&#039;re alive. Nice.
-&gt; In a daze you look around and see that you&#039;re tied to a chair in what seems to be an office. What the fuck?
-
-&quot;He&#039;s awake. Please face him to me.&quot;
-
-&gt; The wolf anthro from before appears at your side and roughly spins your chair to face the other side of the room. At a big wooden desk sits a doberman woman. What the fuck is even happening.
-
-&quot;Untie him and leave us be.&quot; Your hands and legs are promptly cut and the wolf girl leaves the two of you in the room.
-
-&gt; With your attention now on the doberman anthro, she pulls out a shiny 1911 and plants it on the table menacingly.
-
-&quot;Try anything and I&#039;ll give you some new holes to breath out of.&quot; Point taken. &quot;Now, I think you know why you&#039;re here. You&#039;ve given us a little trouble with our business lately.&quot; She lays the gun down on the table and folds her hands. &quot;We&#039;ve done so much to create what we have here, and we&#039;re not going to let someone like you ruin it.&quot;
-
-&gt; What? This isn&#039;t a drug den this is a fucking office building.
-
-&quot;Exactly. We have a nice little front. On paper this is a company that provides human resources for companies that wish to outsource their HR. Just a bunch of friendly ladies doing their work. But that&#039;s all just a front for... other things. Guns, drugs, etc.&quot;
-
-&gt; And I was taking away your business, huh?
-
-&quot;Precisely. Now I came up with an idea that we might be able to come to an agreement with.&quot;
-
-&gt; Okay okay I&#039;ll leave town like you asked.
-
-&gt; The doberwoman? laughs out loud. &quot;Oh no no you had that option. Now you know about us so I can&#039;t simply just let you go. So now you have two options. You can either die right here in this office, and my girls will dispose of your body. Won&#039;t be heard from ever again.&quot; She leans in a bit and smiles. &quot;Orr you can work here.&quot;
-
-&gt; Hmm hard choice. What&#039;s your job?
-
-&gt; Her smile grows into a menacing grin. &quot;You will be the office servant. Anything anyone asks, you do.&quot; Um okay? So you&#039;ll be the building bitch. &quot;And when I say anything I mean it. And you&#039;ll LIKE it. Alot of the girls will be needing certain services while they do their work.&quot; Oh. You mean THAT kind of bitch.
-
-&quot;So if you want to live you&#039;re going to listen up. Your audition starts now. Get down and take care of my... needs, and I&#039;ll decide if you live.&quot;
-
-&gt; You look down and see that the desk is open in the middle and has plenty of room to crawl between her legs. Will you become their slave?
-&gt; A moment passes before you choose life and fall to your knees. &quot;Good choice. Name&#039;s Alex by the way.&quot; You get under the table and notice the whole time she had no pants on. She opens her legs for you as you get closer.
-&gt; You can feel the heat eminate from her, and she&#039;s already dripping down her legs.
-&gt; A musty smell fills your nose as you lean in. Fuck, must be in heat.
-&gt; Time for the moment of truth.
-&gt; You lick slowly from the bottom of her pussy to the top and flick off her swollen clit. &quot;Ohhhh yeah...&quot; She leans back and starts to relax in her office chair.
-&gt; Are you really doing this?
-&gt; You continue licking the outside around her lips and basically clean up her juices. Fuck you definitely should not be hard right now.
-&gt; Gripping around her legs, you start to circle your tongue around her entrance. She huffs and grips the top of your head. Must be doing well so far.
-&gt; As you circle deeper and deeper, she starts to moan lightly. Soon you&#039;re as deep as you can go, and start to circle back out slowly.
-
-&quot;Mmmm ya got a nack for giving head, bitch.&quot;
-
-&gt; You&#039;re gonna have to let her know you have a name at some point.
-&gt; Now you move your way up her slit and start circling slowly around her clit. She grips your hair tighter, forcing your nose into her and making it harder to breath.
-&gt; You take the liberty of slipping a finger into her as you suck and lick on her clit, causing her to almost whimper.
-&gt; Through the smothering and fluids, you notice that you could not possibly be any harder. Fuuuck you need to find a way out, right?
-&gt; The thought is tossed aside as Alex grips your head with both hands, evidently can&#039;t take you swirling around her clit any longer without an orgasm to double her over.
-&gt; You keep at it as she twitches and throbs around your fingers, and the door to the room suddenly opens. &quot;Is everything okay, Alex?&quot;
-&gt; You almost pull away, but her hands hold you in place so you keep licking that swollen little nub. &quot;All AH good here. Just initiated our newwWWW member. Please set up his ooOOoffice space. And get Sasha for me.&quot; You hear a sultry laugh and the door close.
-&gt; Alex releases her grip on your head so you can pull away. Your chin is soaked and beads of fluids have dripped down your neck. Jesus.
-&gt; You get out from under the table and sit back in your chair. Could use a fuckin towel.
-
-&quot;From your performance I suppose you&#039;d make a good fit for the company.&quot; The door opens up and a very busty snake anthro walks in. Must be Sasha. You&#039;re not sure how to act with Alex&#039;s fluids covering your face, but Sasha doesn&#039;t seem to mind.
-
-Alex speaks up. &quot;I hope all of his things are prepared to be moved?&quot;
-
-&gt; Sasha nods. &quot;Yes. He&#039;ll be ready to be moved in when he leaves today.&quot; She looks turns and looks you up and down. Wait. Did they just say move in?
-
-&quot;From this point on you will be living with Sasha outside of work. This will help make sure you don&#039;t get any ideas of... quitting.&quot; What the fuck. &quot;All of your things will be moved to her apartment and you will be escorted by her until we feel we can trust you.&quot; At least your computer will be fine then.
-
-&gt; Well this is it, huh. A sex slave. Are you willing to keep this up? You look down on the desk again and see the gun. Yeah. You can deal.
-
-&quot;See to it that it is done then, please.&quot; Sasha nods and eyes you hungrily before she turns to leave, mentioning something about how it&#039;s gonna be fun with a room mate.
-
-&gt; What have you got yourself into?</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    16 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    17 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    28 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

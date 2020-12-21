@@ -1,440 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Two Lines - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-            <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Two Lines - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/CDwDXU5B" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/CDwDXU5B" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="00DOwRTUomfJb8-QUXb9LqyOGiNsOBcEhPDZ7ri4WXuhJ6iYW7XQEJ4OuuN8Bc5d7bhMcCJLUEG0loOp2o8JCg==">
-
-<link href="/assets/c80611c4/css/bootstrap.min.css" rel="stylesheet">        
-<link href="/themes/pastebin/css/vendors.bundle.css?fd97d1a14d3e5eb8409d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?fd97d1a14d3e5eb8409d" rel="stylesheet">
-    </head>
-<body class="" data-partner="LockerDome">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/CDwDXU5B" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/CDwDXU5B" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="dsfargig">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Two Lines</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/dsfargig">dsfargig</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=dsfargig" class="message" title="Send a private message to: dsfargig"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 31st of March 2018 01:28:15 AM CDT">Mar 31st, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,218                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 5.10 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/CDwDXU5B" class="btn -small">raw</a>
-                    <a href="/dl/CDwDXU5B" class="btn -small">download</a>
-                    <a href="/clone/CDwDXU5B" class="btn -small h_800">clone</a>
-                    <a href="/embed/CDwDXU5B" class="btn -small h_800">embed</a>
-                    <a href="/print/CDwDXU5B" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/CDwDXU5B" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Two Lines</div></li><li class="li1"><div class="de1">(human male, female wolf)</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A small gasp escaped my mouth as I looked down at the little thing</div></li><li class="li1"><div class="de1">&gt;Two lines</div></li><li class="li1"><div class="de1">&gt;My paws shook.</div></li><li class="li1"><div class="de1">&gt;I squeezed my eyes shut and fought tears, then, very deliberately, I turned it over before I looked at it again, this time from the underside.</div></li><li class="li1"><div class="de1">&gt;The whole little stick of white plastic fit easily in my paw, and I mused over its delicate lines and curves.</div></li><li class="li1"><div class="de1">&gt;I wondered, as I often do, about human things, about who made this little thing and how.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Human technology both fascinates and terrifies me.</div></li><li class="li1"><div class="de1">&gt;Before the The Alignment reopened portals long forgotten, the most complex machine I&#039;d ever seen was a Dwarvish ice maker at Mayfair.</div></li><li class="li1"><div class="de1">&gt;It was a massive affair- a noisy complex maze of pipes and bellows that required three dwarves to operate.</div></li><li class="li1"><div class="de1">&gt;My parents dismissed it as utter foolishness at the time.</div></li><li class="li1"><div class="de1">&gt;As far as they were concerned, when one needed ice, one went to ice sellers that either managed an ice-house, or knew the appropriate cryomantic spell.</div></li><li class="li1"><div class="de1">&gt;Between nature, craft, and magic, machines seemed like nonsense to them.</div></li><li class="li1"><div class="de1">&gt;But...</div></li><li class="li1"><div class="de1">&gt;BUT</div></li><li class="li1"><div class="de1">&gt;as for humans...</div></li><li class="li1"><div class="de1">&gt;...</div></li><li class="li1"><div class="de1">&gt;For some reason, magic was so stunted in their world, it was practically non-existent.</div></li><li class="li1"><div class="de1">&gt;Everything, and I do mean</div></li><li class="li1"><div class="de1">&gt;&gt;&gt;&gt;EVERYTHING&lt;&lt;&lt;&lt;</div></li><li class="li1"><div class="de1">&gt;is done by their machines.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When I first moved to Border, I saw humans building a massive building, far taller than any castle I&#039;d ever seen.</div></li><li class="li1"><div class="de1">&gt;Instead of human mages levitating blocks of stone, they had enormous machines lifting long pieces of metal, and strange carts with spinning metal bins on the back that made gray mud into hard stone.</div></li><li class="li1"><div class="de1">&gt;It was neat to watch them build, and both Folk and humans were watching</div></li><li class="li1"><div class="de1">&gt;I was told by one of them that all of this was being done by ordinary humans.</div></li><li class="li1"><div class="de1">&gt;I didn&#039;t believe it at the time, but later learned it was true.</div></li><li class="li1"><div class="de1">&gt;There were no magic users among them, nor any pre-cast spells in use.</div></li><li class="li1"><div class="de1">&gt;No. Magic. At. All.</div></li><li class="li1"><div class="de1">&gt;</div></li><li class="li1"><div class="de1">&gt;NONE.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">::::::::</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;I met anon that day, and asked (disbelievingly) how humans could build so incredibly high without magic, and he laughed.</div></li><li class="li1"><div class="de1">&gt;&quot;7 stories,&quot; he&#039;d said, &quot;really isn&#039;t that big of a building.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;There are plenty of buildings that are 80 stories or more.&quot;</div></li><li class="li1"><div class="de1">&gt;I didn&#039;t believe him, of course, because even if you could build something like that?</div></li><li class="li1"><div class="de1">&gt;no one with good sense would even bother to climb that many stairs or ladders</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;I told him so, which made him laugh again.</div></li><li class="li1"><div class="de1">&gt;While it was a good-natured laugh of surprise, not mockery, I was irritated none the less.</div></li><li class="li1"><div class="de1">&gt;I growled out that it was less than polite to laugh at strangers, which made some other nearby humans back away, but for some reason he asked me if I wanted to get tea, and...</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">&gt;and</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">&gt;and I said yes for some reason, probably curiosity</div></li><li class="li1"><div class="de1">&gt;and we kept talking, likely mutual curiosity</div></li><li class="li1"><div class="de1">&gt;and we started to spend way too much time around each other</div></li><li class="li1"><div class="de1">&gt;and we&#039;ve since gotten to know each other</div></li><li class="li1"><div class="de1">&gt;and I&#039;ve come to trust human technology</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">.</div></li><li class="li1"><div class="de1">&gt;and... my parents would disapprove</div></li><li class="li1"><div class="de1">&gt;</div></li><li class="li1"><div class="de1">&gt;A part of me views human technology as some form of magic even though anon insists it isn&#039;t</div></li><li class="li1"><div class="de1">&gt;I have a hard time convincing myself.</div></li><li class="li1"><div class="de1">&gt;Tall buildings built in weeks instead of years, flying machines, ice boxes that only need be wired to the wall to keep cold, moving paintings with noises that can allow one to view events many leagues away, yet it totally isn&#039;t scrying.</div></li><li class="li1"><div class="de1">&gt;Supposedly.</div></li><li class="li1"><div class="de1">&gt;Somehow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Glass is inexpensive and they routinely use more types of metal than I knew existed.</div></li><li class="li1"><div class="de1">&gt;Real wood is rare for some reason, but their plastics are both common and amazing.</div></li><li class="li1"><div class="de1">&gt;They can be strong and tough to break, yet soft and flexible.</div></li><li class="li1"><div class="de1">&gt;I started to compare it to green wood once, then stopped because I always wind up embarrassed when I try to compare the things I know to human things</div></li><li class="li1"><div class="de1">&gt;To my surprise, anon agreed.</div></li><li class="li1"><div class="de1">&gt;Not for all plastics, he&#039;d said, but for many, that type of strength and flexibility was why they were important.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">::::::::</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Others were more brittle, but strong, lightweight, and easily shaped.</div></li><li class="li1"><div class="de1">&gt;so I&#039;ve been told</div></li><li class="li1"><div class="de1">&gt;anon told me that there were machines that can shape plastic into pretty much anything</div></li><li class="li1"><div class="de1">&gt;They can do it again and again, the exact same thing, perfectly every time</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That was something else I was skeptical about until I went into the human shop in Border</div></li><li class="li1"><div class="de1">&gt;Humans living in Border mostly get their things there.</div></li><li class="li1"><div class="de1">&gt;Not that humans don&#039;t go to the marketplace-</div></li><li class="li1"><div class="de1">&gt;They do at times, but mostly to look</div></li><li class="li1"><div class="de1">&gt;not at wares, as one might, but at Folk</div></li><li class="li1"><div class="de1">&gt;Humans that have been in Border for a while don&#039;t stare and do buy at the marketplace</div></li><li class="li1"><div class="de1">&gt;The new ones?</div></li><li class="li1"><div class="de1">&gt;they don&#039;t buy, and they do stare</div></li><li class="li1"><div class="de1">&gt;stare at Folk, not wares</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;I asked about things at the human store and was told that, at a human store, you always knew exactly what you were getting</div></li><li class="li1"><div class="de1">&gt;a human crafted thing would be the same, every time, since the machines did it</div></li><li class="li1"><div class="de1">&gt;There were a few things that were seasonal or different, BUT</div></li><li class="li1"><div class="de1">&gt;Anything with a particular maker&#039;s marks would (and must) be identical with other such things with the same marks.</div></li><li class="li1"><div class="de1">&gt;That was how humans ensured everything worked</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Including the white plastic stick I was holding right now</div></li><li class="li1"><div class="de1">&gt;I turned it back over and looked at it again</div></li><li class="li1"><div class="de1">&gt;Two lines.</div></li><li class="li1"><div class="de1">&gt;I am pregnant.</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Two Lines
-(human male, female wolf)
-
-&gt;A small gasp escaped my mouth as I looked down at the little thing
-&gt;Two lines
-&gt;My paws shook.
-&gt;I squeezed my eyes shut and fought tears, then, very deliberately, I turned it over before I looked at it again, this time from the underside.
-&gt;The whole little stick of white plastic fit easily in my paw, and I mused over its delicate lines and curves.
-&gt;I wondered, as I often do, about human things, about who made this little thing and how.
-
-&gt;Human technology both fascinates and terrifies me.
-&gt;Before the The Alignment reopened portals long forgotten, the most complex machine I&#039;d ever seen was a Dwarvish ice maker at Mayfair.
-&gt;It was a massive affair- a noisy complex maze of pipes and bellows that required three dwarves to operate.
-&gt;My parents dismissed it as utter foolishness at the time.
-&gt;As far as they were concerned, when one needed ice, one went to ice sellers that either managed an ice-house, or knew the appropriate cryomantic spell.
-&gt;Between nature, craft, and magic, machines seemed like nonsense to them.
-&gt;But...
-&gt;BUT
-&gt;as for humans...
-&gt;...
-&gt;For some reason, magic was so stunted in their world, it was practically non-existent.
-&gt;Everything, and I do mean
-&gt;&gt;&gt;&gt;EVERYTHING&lt;&lt;&lt;&lt;
-&gt;is done by their machines.
-
-&gt;When I first moved to Border, I saw humans building a massive building, far taller than any castle I&#039;d ever seen.
-&gt;Instead of human mages levitating blocks of stone, they had enormous machines lifting long pieces of metal, and strange carts with spinning metal bins on the back that made gray mud into hard stone.
-&gt;It was neat to watch them build, and both Folk and humans were watching
-&gt;I was told by one of them that all of this was being done by ordinary humans.
-&gt;I didn&#039;t believe it at the time, but later learned it was true.
-&gt;There were no magic users among them, nor any pre-cast spells in use.
-&gt;No. Magic. At. All.
-&gt;
-&gt;NONE.
-
-::::::::
-
-&gt;I met anon that day, and asked (disbelievingly) how humans could build so incredibly high without magic, and he laughed.
-&gt;&quot;7 stories,&quot; he&#039;d said, &quot;really isn&#039;t that big of a building.&quot;
-&gt;&quot;There are plenty of buildings that are 80 stories or more.&quot;
-&gt;I didn&#039;t believe him, of course, because even if you could build something like that?
-&gt;no one with good sense would even bother to climb that many stairs or ladders
-
-&gt;I told him so, which made him laugh again.
-&gt;While it was a good-natured laugh of surprise, not mockery, I was irritated none the less.
-&gt;I growled out that it was less than polite to laugh at strangers, which made some other nearby humans back away, but for some reason he asked me if I wanted to get tea, and...
-.
-.
-.
-&gt;and
-.
-.
-.
-&gt;and I said yes for some reason, probably curiosity
-&gt;and we kept talking, likely mutual curiosity
-&gt;and we started to spend way too much time around each other
-&gt;and we&#039;ve since gotten to know each other
-&gt;and I&#039;ve come to trust human technology
-.
-.
-.
-&gt;and... my parents would disapprove
-&gt;
-&gt;A part of me views human technology as some form of magic even though anon insists it isn&#039;t
-&gt;I have a hard time convincing myself.
-&gt;Tall buildings built in weeks instead of years, flying machines, ice boxes that only need be wired to the wall to keep cold, moving paintings with noises that can allow one to view events many leagues away, yet it totally isn&#039;t scrying.
-&gt;Supposedly.
-&gt;Somehow.
-
-&gt;Glass is inexpensive and they routinely use more types of metal than I knew existed.
-&gt;Real wood is rare for some reason, but their plastics are both common and amazing.
-&gt;They can be strong and tough to break, yet soft and flexible.
-&gt;I started to compare it to green wood once, then stopped because I always wind up embarrassed when I try to compare the things I know to human things
-&gt;To my surprise, anon agreed.
-&gt;Not for all plastics, he&#039;d said, but for many, that type of strength and flexibility was why they were important.
-
-::::::::
-
-&gt;Others were more brittle, but strong, lightweight, and easily shaped.
-&gt;so I&#039;ve been told
-&gt;anon told me that there were machines that can shape plastic into pretty much anything
-&gt;They can do it again and again, the exact same thing, perfectly every time
-
-&gt;That was something else I was skeptical about until I went into the human shop in Border
-&gt;Humans living in Border mostly get their things there.
-&gt;Not that humans don&#039;t go to the marketplace-
-&gt;They do at times, but mostly to look
-&gt;not at wares, as one might, but at Folk
-&gt;Humans that have been in Border for a while don&#039;t stare and do buy at the marketplace
-&gt;The new ones?
-&gt;they don&#039;t buy, and they do stare
-&gt;stare at Folk, not wares
-
-&gt;I asked about things at the human store and was told that, at a human store, you always knew exactly what you were getting
-&gt;a human crafted thing would be the same, every time, since the machines did it
-&gt;There were a few things that were seasonal or different, BUT
-&gt;Anything with a particular maker&#039;s marks would (and must) be identical with other such things with the same marks.
-&gt;That was how humans ensured everything worked
-
-&gt;Including the white plastic stick I was holding right now
-&gt;I turned it back over and looked at it again
-&gt;Two lines.
-&gt;I am pregnant.</textarea>
-    
-        <div style="padding: 12px;" id="ld-6241-5672"></div><script>(function(w,d,s,i){w.ldAdInit=w.ldAdInit||[];w.ldAdInit.push({slot:13577583510107238,size:[0, 0],id:"ld-6241-5672"});if(!d.getElementById(i)){var j=d.createElement(s),p=d.getElementsByTagName(s)[0];j.async=true;j.src="//cdn2.lockerdomecdn.com/_js/ajs.js";j.id=i;p.parentNode.insertBefore(j,p);}})(window,document,"script","ld-ajs");</script>
-
-</div>
-                        <div style="padding: 12px;" id="ld-6241-5672"></div><script>(function(w,d,s,i){w.ldAdInit=w.ldAdInit||[];w.ldAdInit.push({slot:13577583510107238,size:[0, 0],id:"ld-6241-5672"});if(!d.getElementById(i)){var j=d.createElement(s),p=d.getElementsByTagName(s)[0];j.async=true;j.src="//cdn2.lockerdomecdn.com/_js/ajs.js";j.id=i;p.parentNode.insertBefore(j,p);}})(window,document,"script","ld-ajs");</script>
-        </div>
-
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/PYemJSby">[ENSIAS IT Club] MCPC2020 Mock - C</a>
-                <div class="details">
-                                            Java |
-                    
-                    17 min ago                </div>
-            </li>
-                    <li>
-                <a href="/qf9nv9Jv">Tinker&#039;s Construct smeltery automation (Computercraft 1.6)</a>
-                <div class="details">
-                                            Lua |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/jEsJpw11">Untitled</a>
-                <div class="details">
-                                            PowerShell |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/TQB3Lfns">Untitled</a>
-                <div class="details">
-                                            VIM |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Yr5NrNgG">joshua XML test dayu booking setting read</a>
-                <div class="details">
-                                            XML |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/hJ0C6Rr3">scripts.blade.php</a>
-                <div class="details">
-                                            PHP |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Jcy10EPG">footer.blade.php</a>
-                <div class="details">
-                                            PHP |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/gLvXm1fj">head.blade.php</a>
-                <div class="details">
-                                            PHP |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-                                </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/9ce1885/jquery.min.js"></script>
-<script src="/assets/f04f76b8/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?fd97d1a14d3e5eb8409d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?fd97d1a14d3e5eb8409d"></script>
-
-</body>
-</html>

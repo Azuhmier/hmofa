@@ -1,557 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Quill &amp; Quail - 2Chapters - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Quill &amp; Quail - 2Chapters - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/0vJW8E4V" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/0vJW8E4V" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="Fg4Zhe3hqsrRw5EWDb-8mXcgvEf882pLi_T_xcvxundlXyDOtY3enLWa114_zsj9FGHaL6PBHCDuuoyLopz_Tw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/0vJW8E4V" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/0vJW8E4V" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/13/17/16/4762176.jpg" alt="Narric">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Quill &amp; Quail - 2Chapters</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Narric">Narric</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Narric" class="message" title="Send a private message to: Narric"></a>
-                                    
-                <div class="date">
-                    <span title="Monday 10th of June 2019 05:34:01 PM CDT">Jun 10th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    929                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 17.60 KB            </div>
-
-            <div class="right">
-                <a href="/raw/0vJW8E4V" class="btn -small">raw</a>
-                <a href="/dl/0vJW8E4V" class="btn -small">download</a>
-                <a href="/clone/0vJW8E4V" class="btn -small h_800">clone</a>
-                <a href="/embed/0vJW8E4V" class="btn -small h_800">embed</a>
-                <a href="/report/0vJW8E4V" class="btn -small">report</a>
-                <a href="/print/0vJW8E4V" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Chapter 1 - The Tavern</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You swear you followed the directions they gave you correctly. Why would your friends send you into a forest if it wasn&#039;t a decent route to get to the Open Air Jam Night?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You can see the sun is setting through gaps between the trees. You&#039;re thankful you&#039;re not to deep into this wood, and adjust the six string acoustic guitar on your shoulder.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Though you shouldn&#039;t have thought that so soon. The path veers sharply to take you deeper into the wood, and the encroaching darkness is making you feel a little uneasy. Your friends wouldn&#039;t pull such a lame prank on you, would they?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Screw it, you think to yourself. You&#039;ll give them an earful first thing when you see them again, and the only other way is backwards.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You regret being so stubborn. The light hasn&#039;t completely faded, thankfully, but you&#039;ve lost track of time. You remember your phone is in your pocket and go to check. 10:30pm, but the battery seems ridiculously low, even though you&#039;re sure you charged it before you left earlier in the afternoon.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Putting your phone away you continue down the footpath, trusting it because it is well worn and traveled, so it can&#039;t be some path of yearning local dog walkers take.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">A few more minutes of walking pass, and you spot some light up ahead. Is that a house? You quicken your pace, the path steadily getting wider until it has become a large intersection of forest pathways. You make a mental note of which you arrived from in case you really have gone the wrong way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There is a sign between the ground and first floors on the building that is much larger than you would have expected in the area. Its a tavern called the Quill and Quail. You&#039;ve never heard of it before.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You walk up to the door and let yourself in. Considering the amount of light pouring out the windows you&#039;re expecting a fair number of people. But you find the tavern empty, but well lit. The tables are bare, no barkeep, no music machine in a stuffy corner, not even a dartboard hanging on the back wall.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This sets your nerves on edge, and you walk slowly into the establishment. The guitar body knocks against a chair, the noise making you and your heart jump a beat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Standing still you take deep breaths and steady your nerves. There is light, no signs of distress. Just a large building completely empty of anything but you. You decide to have a look around, politely not opening any doors a normal customer wouldn&#039;t open.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You&#039;re in the main bar area, so you start by looking behind the counters of the bar. There is a fair amount of square footage to cover. You find the cellar hatch, the stairs to the guest rooms, a back room you&#039;d assume is for private use, and office looking room sitting further back in the building. But still no one around.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You pull your phone out to check the time. Its on long enough for you to see the time tick from 11:59 to 0:00, before the battery gives in and it automatically switches itself off. Well at least you have a roof over your head.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You pull up a chair to the bar, taking the guitar off your back and resting on the counter top beside you, fold you arms and rest your head. The long afternoon and evening suddenly hits you like a freight train, and before you can think of finding a more comfortable spot, your eyes are closing and sleep embraces your mind.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sharp pain snaps you back to reality, your hands bolting to cover your head where you were very definitely hit by something blunt but forceful. You curse as unconsciousness quickly leaves your mind and body, looking on front of you to see a tall being stand facing you, their hands clearly on their hips.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You wipe crud and some tears from your eyes, blinking as you focus on the person standing before you. A tall, bird beaked, scowling, feather crested, busty woman eyes you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We may be a tavern but you have to pay to sleep here buster&quot; She berates you. You hear it, but its her appearance that has you silent. Where the fuck are you?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;S-Sorry, my bad... Uhm, I&#039;ve been walking through the forest, and when I came in nobody was around and..&quot; She cuts you off with a finger in front of your face and a raised eyebrow of someone who clearly has heard it all before.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No excuse m&#039;laddy, you gotta pay like everyone else.&quot; You get up, with one hand raised, while the other looks for your wallet. Grabbing what cash you have and show it to the barkeep. Her expression softens, something clearly crossing her mind, and she scoops all the cash from your hands.</div></li><li class="li1"><div class="de1">&quot;Aaah, you&#039;re one of those customers. Alright then...&quot; With that she says nothing, but pours a pint and slides it to you. Your bamboozlement at your situation suddenly spiking.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Uhm... Thank you?&quot; You pick up the tankard and breath in the scent of freshly uncorked Mead. This exchange however didn&#039;t prepare you for what you&#039;d see as you turned around. Every table within view was filled. Anthropomorphic people of every animal you could name were mingling, gambling, eating and drinking. You could see Wolves, Tigers, Bovines, and even more bird people. A detail that also caught your eye was all the electrical lights had become some sort of flame contained within a glass bauble. Was this magic?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You decide there is too much going on and try to find a quiet spot to sit down and collect your bearings. All the tables are full, but you figure you may have luck with the back room. That is when you notice the corridor that originally led to it is more table space, the room itself being more of an enclosed round table. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You slide on in to the left into the empty circular seating, placing your guitar beside you towards the rest of the bar to act as a bit of cover, and you rest your mead on the table. You lean back and let out a quiet but long sigh of frustration.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Goddammit where the fuck am I?... And what did she mean by that &#039;you&#039;re one of those customers&#039; line? Fuck the pronoun game, or whatever she&#039;s playing at. But why am I surrounded by furries?!&quot; With that you flop forward, lightly headbutting the table, causing something across from you to stir with a clearly feminine voice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Huh? Who&#039;s&#039;at? I don&#039;t know what you&#039;re saying leave me alone....&quot; She has a heavy cloak over her. Must have hidden in the corner to hide from that Barkeep. You see her reach up and lift her hood slightly, clearly peeking to see who&#039;d disturbed her. A green glint glistens in your direction, and the woman freezes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Nervously smiling, you wave and lean back into the seat, pick up your drink, and try to find any reason not to make eye contact. You hear some muttering from under her breath,  figuring you might as well try to be friendly, considering your current situation. You wrack your brain for something to say.</div></li><li class="li1"><div class="de1">&quot;So hey, that barkeep lady, real hard case on sleeping in the bar..&quot; Giving that smile of someone trying to be funny but try not to speak too loudly to avoid attention from other patrons. The woman opposite fidgets a little before she replies.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, its amazing she hasn&#039;t kicked me out yet. Must be hoping I manage to pay off my tab at this point....&quot; She&#039;s raised her head a little, letting you see what looks like a feline muzzle, her hood lifts up in a couple peaks where you would expect a couple of ears to be underneath. &quot;You uh.. Been here long?&quot; She asks the weird question, almost as weird as what the barkeep said.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hehe, well, I just woke up not long ago&quot; You can&#039;t help but begin to feel calmer around this feline anthro, despite the fact you don&#039;t have the right angle to see her eyes. That glimpse of emerald strangely makes you want to see them more. &quot;I get the feeling we both came back here for the same reason?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Something like that&quot; She leans down, clearly wanting to look at you. She hums thoughtfully. &quot;I bet no-one has even asked your name yet, have they? Care to introduce yourself?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You&#039;re taken aback by the forwardness, and realise you never got a chance with the barkeep, and this feline woman is the first anthro you&#039;ve held a conversation with so far.</div></li><li class="li1"><div class="de1">&quot;My name is Anon. And who am I sharing this shady table with?&quot; You give a warm smile, and reach forward in an offer to shake her hand. She gently takes it, and you feel her claws be carefully touched against your skin.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Felicity. Its.. a pleasure to meet you&quot; What was with that pause just then? Before you have a chance for more small talk, one of the barmaids comes up to your table.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&#039;Scuse me sir, but you never took this earlier. Its your change?&quot; The Avian barmaid passes you what feels to be a small but fairly heavy coin purse. As you examine the weight, you can&#039;t help but spot the scowling glance the barmaid shoots towards Felicity. What is with the bird anthros being so grumpy? &quot;Is there anything I can get you?&quot; That was definitely an emphasis on &#039;you&#039; just then.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m barely halfway through my mead, but I&#039;d like to buy one for my friend here&quot; Oooh, that seemed to be a terrible thing to say. You can see the barely restrained anger being forced down behind the practiced facade of customer service. Good lord what is going on here?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;ll be.... fine... sir&quot; With that the barmaid briskly walks off to the bar, and you&#039;re left alone again with Felicity, whom you notice has fully sat up, and is staring at you with what you hope is just burning curiosity.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you alright?&quot; You ask, worried about what may have gone unsaid already.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You can understand them?!&quot; She blurts out, with barely contained amazement. Now that question certainly goes on the list for weirdness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 2 - The World</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The pair of you sat staring at each other, you in confusion, her in wonder. Her eyes were wide and you could see those dazzling emerald pools in their fullest, the rest of her expression lost as your focus was completely hooked. You missed that shes become slightly uncomfortable, and may even be blushing. Your stare is broken when she blinks and glances away for a brief moment, leading to you shaking your head and rubbing your face, muttering an apology. She picks the conversation back up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, you can, can&#039;t you?&quot; Uncertainty hinted at the edge of her question, one hand brushing a few stray strands on hair out of her face in a strange swirling pattern which continues as she rests her arm on the table, swirling hand vaguely point in your direction.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Is it weird that I can?&quot; You notice a brief moment of confusion sweep of her face. &quot;I would have thought everyone from the same world would have some way of understanding each other?&quot; She nods her head at that while glancing away, her eyes betraying sadness.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, I&#039;m not from this world either....&quot; Her hand stops waving around and lies flat on the table. &quot;I kinda came here for something I was told I&#039;d find.... Don&#039;t really want to leave without it, but I&#039;ve learned from the few I could speak with that what I want likely won&#039;t work the way I wanted it to...&quot; She leans forward, her arms crossing in front on the table before she turns her head to rest. &quot;I can&#039;t take what I was looking forr back with me, same as I can&#039;t go to where I want to be in full.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You... Are making no sense.&quot; You take a sip of your drink, and the barmaid returns. The tankard making a noticeable thud in front of the feline, and the maids fist clenched titled around the handle. &quot;Thank you&quot; You attempt to be polite to the unwarranted upset barmaid.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t. Mention. It&quot; She snaps back in a measured attempt to be polite back to you. Felicity however has completely freaked you out, somehow having jumped onto the table, over her drink, and is very enthusiastically waving her hands very close to your face. Her expression is slowly shifting from wonder to something close to maniac. &quot;Miss! Please get down from the table!&quot; The barmaid exclaims to the feline.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;FINALLY!&quot; Felicity cries out, attracting the attention of the tavern patrons that weren&#039;t already looking over. She was standing upright atop the table in the most obnoxious victory pose you&#039;ve ever witnessed in person.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her cloak has fallen behind her shoulders, revealing her near midnight furred body, and strange purple corset and knee high skirt she is wearing beneath it. You mentally note she isn&#039;t wearing shoes, her paws uncovered with claws exposed and sharply dug into the table surface. Her position shifts as she points a clawed hand directly at the avian barmaid. &quot;Tell me how much I owe!&quot; She demands. Confusion palpably sweeping the tavern.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Miss, We&#039;ve told you how much you owe every day you&#039;ve spent here....&quot; The barmaid nervously glances between you and the crazed expression of Felicity. &quot;Its about two hundred and fifty gold you owe, mainly for all the nights you&#039;ve spent sleeping in the bar....&quot; Her voices trails off a little, an expression of understanding slowly creeps onto the avians&#039; features. &quot;You mean you&#039;ve literally not been able to understand us saying anything to you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The barmaid cocks her head to the side, you notice the owner seems to have poked their head around the corner towards your table, a deep scowl obvious from this distance.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;WHY WOULD I CHOOSE TO SLEEP IN A BAR?!&quot; Felicity almost screeches as her victorious pose shifts to one somewhere between defeat and disbelief. &quot;Though... Now I know how much I can&#039;t pay...&quot; And she&#039;s slumped onto the table on her knees.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">How she managed to not knock over the drinks, you&#039;ll never know, probably cat reflexes or something. You can&#039;t helped but feel bad for the girl, and weigh up the gold bag you&#039;ve just been given. You&#039;ll probably get to make more somewhere somehow, so might as well try?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, how much did you give me?&quot; You ask the bird earnestly, distracting her from the display of sudden depression Felicity is going through.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Umh... your change was about three fifty...&quot; She looks you in the eye, understanding your intent wordlessly. You don&#039;t think the feline has noticed, and from what you can see most of the bar has moved on from her spectacular display. The avian takes the gold bag from you, leaving you with the mess on the table.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, Felicity, you can get down now.&quot; You stand as best you can in the both seat and reach up to tap on her arm. She flinches, pulling her arms close to herself defensively. &quot;Why don&#039;t you come back down?&quot; Speaking softly, and motioning with your eyes to the seat beside you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She sheepishly climbs down in reverse, and once seated picks up the not-quite fresh tankard of drink. Her hood is pulled right over her head, covering everything but her muzzle so she can drink. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You decide to break the silence because you really want to know what just happened. &quot;Would I be right in assuming some magical shenanigans regarding speech?&quot; A small shift under the hood signals that her ears twitched at your question.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yea....&quot; small sip of drink before she continues. &quot;Seems you have some sort of enchantment that helps you understand what creatures are saying. I managed to copy it, and got a bit carried... Now I have a massive dept over my head, and no where closer to....&quot; She goes quiet, taking a larger drink as the barmaid returns with a decidedly lighter feeling coin purse. You quietly nod you thanks and reclaim the pouch.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What are you even looking for?&quot; Curiosity deciding to take the reins in this conversation. She leans back against the seat, a slight glisten of mead still on her upper lip.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m looking for the man of my dreams....&quot; She says it so matter of factly. &quot;The wise woman of my home village told me it would never be found in my world, but sent me to this one. This tavern is sitting atop a nexus of countless worlds, each different and the same. People like you and me can get here by accident or intent, but we cannot go to anothers&#039; world. Not to say this world isn&#039;t nice, from what I&#039;ve heard. Doesn&#039;t have the best name but who am I to judge.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So you thought hopping to another universe would just magically drop a magnificent Adonis of a man right in front of you?&quot; You can&#039;t help but chuckle at the reverse furry, wanting so desperately to be with something that didn&#039;t exist in her world. &quot;Wait, you said he&#039;d be from another world? How would you even know if you found him?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Even without seeing her eyes, you realise the question hits her like a freight train. Her tankard raises, and somehow she powers through to down what remains of the drink in one massive swig.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Fuck this universe and every single one connected to it!&quot; She loudly whispers and slams the tankard down as hard as she can, which didn&#039;t make much noise. Pushing it forwards her face is back to being wrapped in her arms as she slumps onto the table. &quot;Whats even the point anymore?&quot; She half-whispers to herself.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Can&#039;t argue with her sudden change of life outlook. Now you feel guilty for basically dismantling her reason for going to the trouble of getting here and sticking around to rack up a huge tab.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well how easy is it to go home? Asking for a friend.&quot; You have no idea how long you&#039;ve actually been here or how your small circle of friends is reacting to you disappearing in some random forest.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You know... I never thought that far....&quot; Well shit, I guess you and her are both stuck in this nexus of a world. Still, she&#039;s better company then you could have hoped or asked for, considering how furry fans in your own world act. Its best you try and make her feel a little better.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;If it makes you feel any better, you&#039;re the best company I&#039;ve had so far while I&#039;m also stuck in this world.&quot; You put on your best smile, and raise your own half-finished drink, deciding its best to finish it now. &quot;Maybe you and I can explore this nexus world? I figure you&#039;ve not left this tavern since getting here, and we can see what it looks like and try and find things to do while we&#039;re figuring out how to get home?&quot; You couldn&#039;t help but give her a soft elbow nudge, getting a small chuckle from the downturned feline.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I guess you&#039;re right.&quot; With all drinks finished, you both start to get up to make your way out. &quot;Oooh, aren&#039;t you a Bard? That might be useful to use from what I&#039;ve heard.&quot; Was she talking about your old guitar? Frankly you&#039;d nearly forgotten about it through all the commotion. Though why did she call you a Bard?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;If you say so? What, you&#039;re going to tell me this nexus is just someone&#039;s idea of a massive connected universe based on some role playing game?&quot; You guess she wouldn&#039;t know what dungeons and dragons is, but hopefully she knows about role play games.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Finally getting to the door of the tavern, with a firm twist of the handle and a clunk of the lock, this strange nexus world filled with anthros is finally unveiled to you and your newly acquired feline partner of adventure. You secretly hope you&#039;re not going to be here too long, but the company you have isn&#039;t too hard on the eyes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.patreon.com/evocationmedia</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Chapter 1 - The Tavern
-
-You swear you followed the directions they gave you correctly. Why would your friends send you into a forest if it wasn&#039;t a decent route to get to the Open Air Jam Night?
-
-You can see the sun is setting through gaps between the trees. You&#039;re thankful you&#039;re not to deep into this wood, and adjust the six string acoustic guitar on your shoulder.
-
-Though you shouldn&#039;t have thought that so soon. The path veers sharply to take you deeper into the wood, and the encroaching darkness is making you feel a little uneasy. Your friends wouldn&#039;t pull such a lame prank on you, would they?
-
-Screw it, you think to yourself. You&#039;ll give them an earful first thing when you see them again, and the only other way is backwards.
-
-You regret being so stubborn. The light hasn&#039;t completely faded, thankfully, but you&#039;ve lost track of time. You remember your phone is in your pocket and go to check. 10:30pm, but the battery seems ridiculously low, even though you&#039;re sure you charged it before you left earlier in the afternoon.
-
-Putting your phone away you continue down the footpath, trusting it because it is well worn and traveled, so it can&#039;t be some path of yearning local dog walkers take.
-
-A few more minutes of walking pass, and you spot some light up ahead. Is that a house? You quicken your pace, the path steadily getting wider until it has become a large intersection of forest pathways. You make a mental note of which you arrived from in case you really have gone the wrong way.
-
-There is a sign between the ground and first floors on the building that is much larger than you would have expected in the area. Its a tavern called the Quill and Quail. You&#039;ve never heard of it before.
-
-You walk up to the door and let yourself in. Considering the amount of light pouring out the windows you&#039;re expecting a fair number of people. But you find the tavern empty, but well lit. The tables are bare, no barkeep, no music machine in a stuffy corner, not even a dartboard hanging on the back wall.
-
-This sets your nerves on edge, and you walk slowly into the establishment. The guitar body knocks against a chair, the noise making you and your heart jump a beat.
-
-Standing still you take deep breaths and steady your nerves. There is light, no signs of distress. Just a large building completely empty of anything but you. You decide to have a look around, politely not opening any doors a normal customer wouldn&#039;t open.
-
-You&#039;re in the main bar area, so you start by looking behind the counters of the bar. There is a fair amount of square footage to cover. You find the cellar hatch, the stairs to the guest rooms, a back room you&#039;d assume is for private use, and office looking room sitting further back in the building. But still no one around.
-
-You pull your phone out to check the time. Its on long enough for you to see the time tick from 11:59 to 0:00, before the battery gives in and it automatically switches itself off. Well at least you have a roof over your head.
-
-You pull up a chair to the bar, taking the guitar off your back and resting on the counter top beside you, fold you arms and rest your head. The long afternoon and evening suddenly hits you like a freight train, and before you can think of finding a more comfortable spot, your eyes are closing and sleep embraces your mind.
-
-Sharp pain snaps you back to reality, your hands bolting to cover your head where you were very definitely hit by something blunt but forceful. You curse as unconsciousness quickly leaves your mind and body, looking on front of you to see a tall being stand facing you, their hands clearly on their hips.
-
-You wipe crud and some tears from your eyes, blinking as you focus on the person standing before you. A tall, bird beaked, scowling, feather crested, busty woman eyes you.
-
-&quot;We may be a tavern but you have to pay to sleep here buster&quot; She berates you. You hear it, but its her appearance that has you silent. Where the fuck are you?
-
-&quot;S-Sorry, my bad... Uhm, I&#039;ve been walking through the forest, and when I came in nobody was around and..&quot; She cuts you off with a finger in front of your face and a raised eyebrow of someone who clearly has heard it all before.
-
-&quot;No excuse m&#039;laddy, you gotta pay like everyone else.&quot; You get up, with one hand raised, while the other looks for your wallet. Grabbing what cash you have and show it to the barkeep. Her expression softens, something clearly crossing her mind, and she scoops all the cash from your hands.
-&quot;Aaah, you&#039;re one of those customers. Alright then...&quot; With that she says nothing, but pours a pint and slides it to you. Your bamboozlement at your situation suddenly spiking.
-
-&quot;Uhm... Thank you?&quot; You pick up the tankard and breath in the scent of freshly uncorked Mead. This exchange however didn&#039;t prepare you for what you&#039;d see as you turned around. Every table within view was filled. Anthropomorphic people of every animal you could name were mingling, gambling, eating and drinking. You could see Wolves, Tigers, Bovines, and even more bird people. A detail that also caught your eye was all the electrical lights had become some sort of flame contained within a glass bauble. Was this magic?
-
-You decide there is too much going on and try to find a quiet spot to sit down and collect your bearings. All the tables are full, but you figure you may have luck with the back room. That is when you notice the corridor that originally led to it is more table space, the room itself being more of an enclosed round table. 
-
-You slide on in to the left into the empty circular seating, placing your guitar beside you towards the rest of the bar to act as a bit of cover, and you rest your mead on the table. You lean back and let out a quiet but long sigh of frustration.
-
-&quot;Goddammit where the fuck am I?... And what did she mean by that &#039;you&#039;re one of those customers&#039; line? Fuck the pronoun game, or whatever she&#039;s playing at. But why am I surrounded by furries?!&quot; With that you flop forward, lightly headbutting the table, causing something across from you to stir with a clearly feminine voice.
-
-&quot;Huh? Who&#039;s&#039;at? I don&#039;t know what you&#039;re saying leave me alone....&quot; She has a heavy cloak over her. Must have hidden in the corner to hide from that Barkeep. You see her reach up and lift her hood slightly, clearly peeking to see who&#039;d disturbed her. A green glint glistens in your direction, and the woman freezes.
-
-Nervously smiling, you wave and lean back into the seat, pick up your drink, and try to find any reason not to make eye contact. You hear some muttering from under her breath,  figuring you might as well try to be friendly, considering your current situation. You wrack your brain for something to say.
-&quot;So hey, that barkeep lady, real hard case on sleeping in the bar..&quot; Giving that smile of someone trying to be funny but try not to speak too loudly to avoid attention from other patrons. The woman opposite fidgets a little before she replies.
-
-&quot;Yeah, its amazing she hasn&#039;t kicked me out yet. Must be hoping I manage to pay off my tab at this point....&quot; She&#039;s raised her head a little, letting you see what looks like a feline muzzle, her hood lifts up in a couple peaks where you would expect a couple of ears to be underneath. &quot;You uh.. Been here long?&quot; She asks the weird question, almost as weird as what the barkeep said.
-
-&quot;Hehe, well, I just woke up not long ago&quot; You can&#039;t help but begin to feel calmer around this feline anthro, despite the fact you don&#039;t have the right angle to see her eyes. That glimpse of emerald strangely makes you want to see them more. &quot;I get the feeling we both came back here for the same reason?&quot;
-
-&quot;Something like that&quot; She leans down, clearly wanting to look at you. She hums thoughtfully. &quot;I bet no-one has even asked your name yet, have they? Care to introduce yourself?&quot;
-
-You&#039;re taken aback by the forwardness, and realise you never got a chance with the barkeep, and this feline woman is the first anthro you&#039;ve held a conversation with so far.
-&quot;My name is Anon. And who am I sharing this shady table with?&quot; You give a warm smile, and reach forward in an offer to shake her hand. She gently takes it, and you feel her claws be carefully touched against your skin.
-
-&quot;Felicity. Its.. a pleasure to meet you&quot; What was with that pause just then? Before you have a chance for more small talk, one of the barmaids comes up to your table.
-
-&quot;&#039;Scuse me sir, but you never took this earlier. Its your change?&quot; The Avian barmaid passes you what feels to be a small but fairly heavy coin purse. As you examine the weight, you can&#039;t help but spot the scowling glance the barmaid shoots towards Felicity. What is with the bird anthros being so grumpy? &quot;Is there anything I can get you?&quot; That was definitely an emphasis on &#039;you&#039; just then.
-
-&quot;I&#039;m barely halfway through my mead, but I&#039;d like to buy one for my friend here&quot; Oooh, that seemed to be a terrible thing to say. You can see the barely restrained anger being forced down behind the practiced facade of customer service. Good lord what is going on here?
-
-&quot;That&#039;ll be.... fine... sir&quot; With that the barmaid briskly walks off to the bar, and you&#039;re left alone again with Felicity, whom you notice has fully sat up, and is staring at you with what you hope is just burning curiosity.
-
-&quot;Are you alright?&quot; You ask, worried about what may have gone unsaid already.
-
-&quot;You can understand them?!&quot; She blurts out, with barely contained amazement. Now that question certainly goes on the list for weirdness.
-
-Chapter 2 - The World
-
-The pair of you sat staring at each other, you in confusion, her in wonder. Her eyes were wide and you could see those dazzling emerald pools in their fullest, the rest of her expression lost as your focus was completely hooked. You missed that shes become slightly uncomfortable, and may even be blushing. Your stare is broken when she blinks and glances away for a brief moment, leading to you shaking your head and rubbing your face, muttering an apology. She picks the conversation back up.
-
-&quot;Well, you can, can&#039;t you?&quot; Uncertainty hinted at the edge of her question, one hand brushing a few stray strands on hair out of her face in a strange swirling pattern which continues as she rests her arm on the table, swirling hand vaguely point in your direction.
-
-&quot;Is it weird that I can?&quot; You notice a brief moment of confusion sweep of her face. &quot;I would have thought everyone from the same world would have some way of understanding each other?&quot; She nods her head at that while glancing away, her eyes betraying sadness.
-
-&quot;Well, I&#039;m not from this world either....&quot; Her hand stops waving around and lies flat on the table. &quot;I kinda came here for something I was told I&#039;d find.... Don&#039;t really want to leave without it, but I&#039;ve learned from the few I could speak with that what I want likely won&#039;t work the way I wanted it to...&quot; She leans forward, her arms crossing in front on the table before she turns her head to rest. &quot;I can&#039;t take what I was looking forr back with me, same as I can&#039;t go to where I want to be in full.&quot;
-
-&quot;You... Are making no sense.&quot; You take a sip of your drink, and the barmaid returns. The tankard making a noticeable thud in front of the feline, and the maids fist clenched titled around the handle. &quot;Thank you&quot; You attempt to be polite to the unwarranted upset barmaid.
-
-&quot;Don&#039;t. Mention. It&quot; She snaps back in a measured attempt to be polite back to you. Felicity however has completely freaked you out, somehow having jumped onto the table, over her drink, and is very enthusiastically waving her hands very close to your face. Her expression is slowly shifting from wonder to something close to maniac. &quot;Miss! Please get down from the table!&quot; The barmaid exclaims to the feline.
-
-&quot;FINALLY!&quot; Felicity cries out, attracting the attention of the tavern patrons that weren&#039;t already looking over. She was standing upright atop the table in the most obnoxious victory pose you&#039;ve ever witnessed in person.
-
-Her cloak has fallen behind her shoulders, revealing her near midnight furred body, and strange purple corset and knee high skirt she is wearing beneath it. You mentally note she isn&#039;t wearing shoes, her paws uncovered with claws exposed and sharply dug into the table surface. Her position shifts as she points a clawed hand directly at the avian barmaid. &quot;Tell me how much I owe!&quot; She demands. Confusion palpably sweeping the tavern.
-
-&quot;Miss, We&#039;ve told you how much you owe every day you&#039;ve spent here....&quot; The barmaid nervously glances between you and the crazed expression of Felicity. &quot;Its about two hundred and fifty gold you owe, mainly for all the nights you&#039;ve spent sleeping in the bar....&quot; Her voices trails off a little, an expression of understanding slowly creeps onto the avians&#039; features. &quot;You mean you&#039;ve literally not been able to understand us saying anything to you?&quot;
-
-The barmaid cocks her head to the side, you notice the owner seems to have poked their head around the corner towards your table, a deep scowl obvious from this distance.
-
-&quot;WHY WOULD I CHOOSE TO SLEEP IN A BAR?!&quot; Felicity almost screeches as her victorious pose shifts to one somewhere between defeat and disbelief. &quot;Though... Now I know how much I can&#039;t pay...&quot; And she&#039;s slumped onto the table on her knees.
-
-How she managed to not knock over the drinks, you&#039;ll never know, probably cat reflexes or something. You can&#039;t helped but feel bad for the girl, and weigh up the gold bag you&#039;ve just been given. You&#039;ll probably get to make more somewhere somehow, so might as well try?
-
-&quot;Hey, how much did you give me?&quot; You ask the bird earnestly, distracting her from the display of sudden depression Felicity is going through.
-
-&quot;Umh... your change was about three fifty...&quot; She looks you in the eye, understanding your intent wordlessly. You don&#039;t think the feline has noticed, and from what you can see most of the bar has moved on from her spectacular display. The avian takes the gold bag from you, leaving you with the mess on the table.
-
-&quot;Hey, Felicity, you can get down now.&quot; You stand as best you can in the both seat and reach up to tap on her arm. She flinches, pulling her arms close to herself defensively. &quot;Why don&#039;t you come back down?&quot; Speaking softly, and motioning with your eyes to the seat beside you. 
-
-She sheepishly climbs down in reverse, and once seated picks up the not-quite fresh tankard of drink. Her hood is pulled right over her head, covering everything but her muzzle so she can drink. 
-
-You decide to break the silence because you really want to know what just happened. &quot;Would I be right in assuming some magical shenanigans regarding speech?&quot; A small shift under the hood signals that her ears twitched at your question.
-
-&quot;Yea....&quot; small sip of drink before she continues. &quot;Seems you have some sort of enchantment that helps you understand what creatures are saying. I managed to copy it, and got a bit carried... Now I have a massive dept over my head, and no where closer to....&quot; She goes quiet, taking a larger drink as the barmaid returns with a decidedly lighter feeling coin purse. You quietly nod you thanks and reclaim the pouch.
-
-&quot;What are you even looking for?&quot; Curiosity deciding to take the reins in this conversation. She leans back against the seat, a slight glisten of mead still on her upper lip.
-
-&quot;I&#039;m looking for the man of my dreams....&quot; She says it so matter of factly. &quot;The wise woman of my home village told me it would never be found in my world, but sent me to this one. This tavern is sitting atop a nexus of countless worlds, each different and the same. People like you and me can get here by accident or intent, but we cannot go to anothers&#039; world. Not to say this world isn&#039;t nice, from what I&#039;ve heard. Doesn&#039;t have the best name but who am I to judge.&quot;
-
-&quot;So you thought hopping to another universe would just magically drop a magnificent Adonis of a man right in front of you?&quot; You can&#039;t help but chuckle at the reverse furry, wanting so desperately to be with something that didn&#039;t exist in her world. &quot;Wait, you said he&#039;d be from another world? How would you even know if you found him?&quot;
-
-Even without seeing her eyes, you realise the question hits her like a freight train. Her tankard raises, and somehow she powers through to down what remains of the drink in one massive swig.
-
-&quot;Fuck this universe and every single one connected to it!&quot; She loudly whispers and slams the tankard down as hard as she can, which didn&#039;t make much noise. Pushing it forwards her face is back to being wrapped in her arms as she slumps onto the table. &quot;Whats even the point anymore?&quot; She half-whispers to herself.
-
-Can&#039;t argue with her sudden change of life outlook. Now you feel guilty for basically dismantling her reason for going to the trouble of getting here and sticking around to rack up a huge tab.
-
-&quot;Well how easy is it to go home? Asking for a friend.&quot; You have no idea how long you&#039;ve actually been here or how your small circle of friends is reacting to you disappearing in some random forest.
-
-&quot;You know... I never thought that far....&quot; Well shit, I guess you and her are both stuck in this nexus of a world. Still, she&#039;s better company then you could have hoped or asked for, considering how furry fans in your own world act. Its best you try and make her feel a little better.
-
-&quot;If it makes you feel any better, you&#039;re the best company I&#039;ve had so far while I&#039;m also stuck in this world.&quot; You put on your best smile, and raise your own half-finished drink, deciding its best to finish it now. &quot;Maybe you and I can explore this nexus world? I figure you&#039;ve not left this tavern since getting here, and we can see what it looks like and try and find things to do while we&#039;re figuring out how to get home?&quot; You couldn&#039;t help but give her a soft elbow nudge, getting a small chuckle from the downturned feline.
-
-&quot;I guess you&#039;re right.&quot; With all drinks finished, you both start to get up to make your way out. &quot;Oooh, aren&#039;t you a Bard? That might be useful to use from what I&#039;ve heard.&quot; Was she talking about your old guitar? Frankly you&#039;d nearly forgotten about it through all the commotion. Though why did she call you a Bard?
-
-&quot;If you say so? What, you&#039;re going to tell me this nexus is just someone&#039;s idea of a massive connected universe based on some role playing game?&quot; You guess she wouldn&#039;t know what dungeons and dragons is, but hopefully she knows about role play games.
-
-Finally getting to the door of the tavern, with a firm twist of the handle and a clunk of the lock, this strange nexus world filled with anthros is finally unveiled to you and your newly acquired feline partner of adventure. You secretly hope you&#039;re not going to be here too long, but the company you have isn&#039;t too hard on the eyes.
-
-https://www.patreon.com/evocationmedia</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/xwAjZLQ3">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 min ago                </div>
-            </li>
-                    <li>
-                <a href="/dqGkThKL">Linear array rotation</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    45 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

@@ -1,758 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Best Friend - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Best Friend - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/gaW3kgy4" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/gaW3kgy4" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="C4ABmtESRK7GqOU_8WHaBVXJKo9S4OhD5KJSXcsfm_l_8UyjoSsil6Ge11O7B79OIp5iwiuNuzKK9GIZgHSugw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/gaW3kgy4" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/gaW3kgy4" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Changed_Daily">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Best Friend</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Changed_Daily">Changed_Daily</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Changed_Daily" class="message" title="Send a private message to: Changed_Daily"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 9th of April 2020 12:25:40 AM CDT">Apr 9th, 2020</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,147                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 34.57 KB            </div>
-
-            <div class="right">
-                <a href="/raw/gaW3kgy4" class="btn -small">raw</a>
-                <a href="/dl/gaW3kgy4" class="btn -small">download</a>
-                <a href="/clone/gaW3kgy4" class="btn -small h_800">clone</a>
-                <a href="/embed/gaW3kgy4" class="btn -small h_800">embed</a>
-                <a href="/report/gaW3kgy4" class="btn -small">report</a>
-                <a href="/print/gaW3kgy4" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">Best Friend</div></li><li class="li1"><div class="de1">by Changed_Daily</div></li><li class="li1"><div class="de1">[lynx][love/romance][party][non-smut][confession of feelings][dancing][beach][club]</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;...And that&#039;s how I was able to win us the last swim meet.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Bullshit Andy, everyone saw the kid from West Salem, he got a cramp and stopped in the middle of the lane, anyone coulda&#039; won that race.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I would love to see YOU try, you fat fuck.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;ll snap you, twig.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;How, is big fat Benj gonna sit on me? I saw your wrestling record, tubby. It&#039;s like you enjoy getting pinned.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Will you two shut the FUCK up for five seconds! I almost missed our turn.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You slunk back into your seat while Benjamin let out an irritated snort.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Get over it, Clive. You know we was just messin&#039; around&quot; Benjamin muttered. &quot;You&#039;ve been on a hair-trigger since graduation day. Heh. Hare-trigger.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Funny. You two know I get anxious when I have to drive other people around. Least you could do is not strangle each other in the </div></li><li class="li1"><div class="de1">backseat.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You and Benjamin decided to take it easy on the poor hare for the rest of the ride there. You zoned out for a little bit looking out the window. Benji and Clive had been your best friends for 7 years since you met in middle school. You three always made the time to play video games and hang out and crack jokes even when your lives started to take different paths. Now that senior year was over, it was finally starting to sink in how much you would miss them. Clive was going to some big shot college out east on a track scholarship, and Benji was planning on working under his dad as a mechanic and eventually taking over the family business. As for you, well, who could say? You were a talented athlete and you kept your grades up, but you never found yourself pulled in any direction. You decided you would go to the local CC in the hopes that it would help you figure it out. To be honest though, not having any sort of career plan kinda put you down. You resolved not to dwell on it today.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Here!&quot; shouted Clive, as you pulled into the lot. &quot;Damn Benj, you&#039;re gonna fuck up my suspension at this rate. When do you get your car back?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As Benji stepped out, the car bounced back up 4 inches.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;&#039;s been a busy month at the shop, OK? I haven&#039;t time to work on it. What do you expect me to do in the mean time, cut these guns off?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At this moment, Benjamin thought it appropriate to flex his biceps, earning an unimpressed glare from both of you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No, but I do expect repairs at discount once this is finished. Andy, did you pack lunch?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah. Picked up a caesar salad for you, a turkey and swiss for myself, and a double cheeseburger for Benji.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You better not have.&quot; the bull chuckled.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Kidding, kidding. I got you two slices of pizza and a chocolate milk.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;My man.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You handed your friends their lunches and made your way through the entrance out to the shore. Damn was it hot out. You chose to turn back and get changed into a pair of swim trunks, leaving Clive and Benji to find a good spot to set up your towels. Scratch that, just Clive, looks like Benji&#039;s too busy chasing tail.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As you step out of the bathroom and walk down to the shore again, you see your two buddies chatting it up with what looked like a lynx and a timberwolf. The lynx was a girl named Lexi. She did some group work with you once or twice and was really friendly and helpful when it came to explaining the material you missed on sick days. She was kind of cute, but you never thought to ask her out. Too much energy, that one. The second girl made your heart jump out of your chest.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Katrina was considered by many horny teenagers (you included) to be one of the hottest girls in your class, and it certainly helped that she had wits to match. You had the hots for her since high school started and it never really went away. You wanted to make a good impression in the hopes that &quot;something&quot; would happen today, so you slicked back your hair and approached the group.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;DREW!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In mere moments, you saw a flash of fur dart from under the umbrella and pounce you. Lexi.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I was worried I would never see you again! I wanted to say goodbye after the graduation ceremony but I couldn&#039;t find you anywhere. How&#039;s your summer been? Where do you plan on going after this?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You were unable to answer either of those questions as long as she squeezed the air out of your lungs. Thankfully she got the hint after a tap to the shoulder.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m glad to see you again too, Lexi. Summer&#039;s been awesome.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Afternoon, Andrew.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shifted your gaze up to stare into the smirk of your crush. You could barely look her in the eye. The fact that she was 5 inches taller than you only made it harder for you to string words together. Eventually, you decided a &quot;Hey, Katrina! What brings you two out here?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Same as you, probably. It&#039;s a perfect beach day, and Lexi and I wanted to catch some sun and relax a little. We were actually about to have lunch. Lexi made cookies for us and some of our other friends, but they bailed. Do you guys want any?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, we know Andy is a REAL big fan of cookies.&quot; Benji joked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Please no. Not now.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I think I heard peanut butter was his favorite, right Benji?&quot; jeered Clive.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You gave Clive the evil eye and tried to steer the conversation towards something a little more tasteful. The other 4 started talking about their plans for the near future. Katrina was going to Clawvard in the fall to study pre-law. She told in great detail how she wanted to go into family law so that she could ensure that the kids could grow up in a good environment. Apparently she saw her parents go through a pretty nasty divorce as a kid, and that&#039;s what inspired her. You hung on to every word. Lexi committed to a state school to keep herself out of debt. She went in as a Bio major, and ultimately hoped to become a doctor. You kinda figured Lexi would make a good doctor. She always kept on top of things. Everything went smoothly until....</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey Drew, what&#039;s your plan?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your mouth went a little dry.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, you know, I haven&#039;t really figured it out yet... I decided to go to community for the time being until something stands out to me.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;If you need any help with classes or anything, you have my number. I know we might not end up studying the same things but I figured we might share some gen-eds or-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Katrina cut her off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Lexi, Andrew will take care of this stuff on his own. You told me yourself you thought he was really clever, so why are you doubting him?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I just want him to succeed, y&#039;know? Drew, am I hovering over you too much?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Both women turned to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I think I can handle my work on my own, Lexi. I appreciate the sentiment but I have to be able to take care of this. Thanks, Katrina.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At this the lynx seemed to deflate a bit. Clive read the room and butted in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;d love to keep talking about school, but we&#039;ll have more to talk about once we get there. It&#039;s summer. Let&#039;s do something. Volleyball?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Thank God. Benji was the only one opposed to volleyball and decided instead to flex for passing women. You swore he fed off of the attention. On the way to the court you decided the teams. You and Katrina vs. Clive and Lexi. You all agreed it would be first to 11 points.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Challenging ME at volleyball, Clive? I didn&#039;t think you would ever forget the last time you made that mistake. Guess I have to bury you again.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Big talk for a small man, Andy. We&#039;ll see who gets buried this time.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The game commenced. You immediately recognize why Clive had agreed to the teams. Lexi was almost everywhere at once, trying to turn every volley into a set up. And when she did set, Clive was always there to use his height and spike it over the net. It would have been impossible to play, had you and Katrina not been diving whenever you could to keep a volley going.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Eventually the score turned 10-9 them. You and Katrina were keeping up with a fast Volley when Lexi popped one over in a strange direction. You dived to keep the ball airborne but it was all for naught. Clive immediately saw this weakness and pegged the ball back with the fury of the devil himself. You saw your life flash before your eyes before the ball made contact.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Fuck! That hurt!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As you reeled from the sting, Clive hopped over and crouched right in your face with a shit-eating grin.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You were going to bury who, exactly?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With your pride in tatters, Clive and Lexi helped you up and brushed you off. You passed the ball around for a little longer, mostly making small talk with your friends. Eventually the douchebag lifeguards came and kicked you off the net for their break so you went back to the umbrellas. You notice that the others aren&#039;t really handling the heat that well. You suggest that you all jump in to the ocean for a swim. This was met with nods of approval and looks of relief. You started to walk towards the shore, which slowly turned into a mad dash where you all jumped in. You heard Clive burst into a fit of laughter.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yo Andy, you have to see this. Some mouse girl is using fatso as a surfboard!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sure enough, you saw a girl standing on Benjamin&#039;s abs trying to balance herself on the wave. You spotted a crowd near the lookout cheering them on. You wish you could get a picture.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Damn, Benji has a whole posse of them. I&#039;m not gonna let him have all the fun. I&#039;ll catch up with you later, Andy!&quot;</div></li><li class="li1"><div class="de1">And with that the hare disappeared. That left you alone with Katrina and...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Sploosh!!!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Lexi caught you by surprise and tackled you from the back, knocking you both over. As you both got up, she started to apologize. You quickly cut her off.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m insulted by such a dishonorable display. You understand what this means.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You immediately returned the favor by splashing her with a massive wave.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;NOOOOOoooo you bitch!!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You chased her down for a couple of minutes stopping every once and a while to splash each other, both of you giggling like giddy children. That laugh. You forgot how cute it was, and how much you missed it. Eventually you caught up to her and picked her up in your arms.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;W-what are you gonna do with m-me?&quot; whimpered Lexi, feigning fear.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m going to restore my honor and take my revenge!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With that you dropped the poor lynx into the water below.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;re such an ass!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That set her off. A now soaking Lexi scowled as she picked herself up. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We were having so much fun and you just drop me, like an idiot!? Why did you have to ruin it!? What&#039;s wrong with you!?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You didn&#039;t know how to respond so she gave an exasperated sigh and swam away into deeper waters. You shouted to her that the lifeguards weren&#039;t back from break yet, but she either didn&#039;t hear you or didn&#039;t care as she continued to swim away. You decided it wasn&#039;t worth pursuing. She needed space for whatever made her so mad, and you could talk to her about it later. You finally had the chance to flirt with Katrina that you&#039;d been waiting all day for.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As you walked to approach the wolf your mind started to wonder about what had went so wrong just then. You had only dropped her into the water. It wasn&#039;t like you weren&#039;t splashing each other for the past few minutes. What made this any difference. You felt frustrated with both here and yourself. You resolved not to think about it for now, and instead to focus on not embarrassing yourself in front of your crush.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Katrina notices you approach and waves. &quot;What&#039;s up, Andrew?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You finally have the chance to talk to her. Don&#039;t fuck this up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Not much, but I didn&#039;t really get the chance to talk to you today. I wanted to get to know you better cause we didn&#039;t get to talk much in class.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sure... I did cheer for a couple of years because my mom rode me to stay into it for the awards and the memories, and while I wish she hadn&#039;t rode me so hard to do it, I don&#039;t regret a second. I met my best friends through it, including Lexi, even though she dropped it after freshman year. I feel like my parents, even with their faults, tried their best to steer me towards the right path, and I didn&#039;t really acknowledge that until graduation. Sorry to dump all of that on you. I never really had a lot of free time while I was growing up, so I&#039;m trying to use this summer as an opportunity to branch out. Hopefully that answers your question!&quot; she finishes with a smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You weren&#039;t prepared for that long of an answer, but you quickly steel yourself and try again with a more specific question.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Do you like swimming?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I enjoyed it every time I went. Can&#039;t say I&#039;m big into like racing or laps or anything like that if that&#039;s what you mean. I heard from Lexi that you were really into it, right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, that&#039;s right. What else did she spill about me?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Only about how smart and funny you are, and like every joke you told ever.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Do I live up to expectations?&quot; you ask with a grin.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She responds with a smirk. &quot;From what I&#039;m seeing so far, I&#039;m not disappointed. She didn&#039;t mention how cute you were though. I&#039;d almost be tempted to steal you for myself if it wasn&#039;t for...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She pauses, concerned. &quot;Where is Lexi, anyway?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You lose your nerve and immediately scan around. She&#039;s not at the umbrella so she&#039;s gotta be out in the water. The deep water. Where you left her alone. With no lifeguards on duty.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">FUCK.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You immediately run higher to the shore to see if you can get a good look out for her when you hear a distant scream for help coming out from the water. Lexi! You find her out where she swam to earlier. You can see she&#039;s pretty far out. You look to see if there&#039;s any lifeguards who came back on stand, but the chair is absent. She doesn&#039;t have a lot of time! Think faster! You grab the life preserver from the side of the stand, throw it on your back and run to the shore. You see a crowd begin to form close to where she is. You look for her again so that you can aim your throw. Damn it! She&#039;s way too far out to reach the preserver even if she can see it. You single out Benji in the crowd and hand him the preserver.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m going to swim out after her. I need you to throw this out to us when I get close enough on the return trip.&quot;</div></li><li class="li1"><div class="de1">Benji nods, and you dash towards the water and swim to save your friend. She can&#039;t keep her head above the water now. You sprint to close the distance. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Every second feels like an hour. She has her hand above the surface, but its weak. You paddle as hard as you can. Just as her hand falls beneath the surface you grab her and keep her close to your chest. You swim on your side and do your best to keep Lexi&#039;s head above the water. You grab onto the life preserver and Benji pulls you both in. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Lexi&#039;s still unconscious. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You scream for anyone who knows CPR. After getting nothing but silence from the crowd, you come back forward and try to remember the correct order of steps. You should have payed better attention during that seminar. As you&#039;re about start chest compressions on the lynx, you hear her breathe, and then cough. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She opens her eyes. Thank God. You didn&#039;t even want to think about how this could have turned out. You hold the poor girl for a bit and asks if she&#039;s ok. She nods. You give the lynx a tight hug, and tell the worried Benji and Katrina to keep an eye on her for the time being. You had enough of the beach today.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You found Clive at the umbrella. You said not a word to each other as you started to pack your things up for the day. Benji saw you and joined in. When you had finished, you told Benji to take your stuff into the car. You wanted to check on Lexi one last time before you left. You saw Katrina berating the lifeguards. You never saw anyone put a tiger&#039;s tail between their legs that fast before. As she saw you coming, she turned to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;They took her to the infirmary. She&#039;s fine, Andrew. Just a little shaken up is all. She&#039;ll be fine in the morning.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Good to hear. I feel like I aged a year in half an hour.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It sucks. Lexi didn&#039;t have a real grad party so we were going to go to the night club tonight to celebrate. Today isn&#039;t the day for it.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I wouldn&#039;t be dancing tonight if I were in her shoes either.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey. I have a pretty good idea. This wasn&#039;t part of the plan before because I didn&#039;t realize you and Clive were such good friends with Lexi. Do you guys want to come?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">I smiled and shrugged. &quot;I would love to, but I can&#039;t answer for Clive. Can you text me the details in a bit?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You and Katrina exchanged numbers, said goodbye and parted ways.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As Clive drove you all home, you had a laugh with your friends about the day&#039;s triumphs and failures. As you rolled up to Benji&#039;s house, he finished the story of how he got 5 numbers and learned only minutes later that they were all fakes. You laugh and said goodbye to your friend thankful you had the chance to talk to Clive about tomorrow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Of course I want to go. Sounds like a lot of fun. You sure they&#039;re gonna let us in though?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I asked her about it already. She said they ID you at the door but they let you in under 21 with a bracelet. If you want I can bring booze and we can pregame in the car.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nah, sounds like a pretty crap idea. Feel&#039;s like it&#039;s too easy to get caught doing that.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Fair enough. So I&#039;ve been talking to Katrina and I think we gel really well. I think I might try to ask her to coffee or something if this goes well enough.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You mean Katrina and your mask gel pretty well.&quot; muttered Clive.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What are you trying to say, dude?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m saying that everyone can tell your whole cool guy shtick is fake as hell.&quot; he continues. &quot;Katrina&#039;s a smart girl. There&#039;s no way she doesn&#039;t see right through the act. She was probably just playing along and being nice for the sake of her friend. Besides, why would you want to pursue something with someone who you feel like you can&#039;t be yourself around? It&#039;s gonna get exhausting, or end poorly, or both.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah? Well, I thought we got along well, alright? And what are you on telling me how to live my life and pursue relationships? You never held a steady girlfriend.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;ve been on several dates, several more than you. And if you want to make an ass of yourself and waste someone else&#039;s time as well as your own, go ahead. It&#039;s no fur off of my back. All I&#039;m saying is that you shouldn&#039;t rush into this, and perhaps look for someone who you can be yourself around. I can&#039;t really argue with you and focus on the road at the same time, so I&#039;ll change the subject. You saved a life today. That&#039;s pretty fucking awesome.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shudder at the recollection of the incident. &quot;Yeah, but it was kind of my fault Lexi ended up there in the first place. We were splashing each other and laughing and having a good time, yeah? And I picked her up and dropped her into the water. She blew a fuse and shrieked at me for &quot;ruining the moment&quot; and called me an ass. When I tried to calm her down, she swam to deeper waters. I left her alone because I figured she&#039;d cool off later. If I had known what would have happened I would have done more to stop her.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">At your retelling of your encounter with Lexi, Clive&#039;s ears perk up and he immediately moves to pull over.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You can tell you&#039;re in for a lecture this time.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Alright so first things first. You saved Lexi&#039;s life. There are very few things you could have done to invalidate that, and this wasn&#039;t one of them. Give yourself some credit where credit is due. Second, you&#039;re an absolute buffoon if you honestly don&#039;t understand why she lost her shit.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I really don&#039;t get it. We were messing around and she suddenly loses her fuckin&#039; mind. She literally did the same thing to me a couple minutes earlier!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Clive lets out a defeated sigh and signals to get back on the road.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m not helping you with this one man. You&#039;re on your own.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The rest of the car ride was pretty tense. You hoped that it wouldn&#039;t carry over to tomorrow. You waved goodbye as you hopped out of the car.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That evening was uneventful for the most part. Other than a quick check-in-call to make sure Lexi was doing alright, you mostly spent it filling out forms for community college and transferring some credits from AP classes. It was a chore and you figured you&#039;d wrap it up for the night after that.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You woke up the next morning realizing that you had nothing good to wear. Tearing through your closet yielded you nothing but pants a size too small and crappy shirts from old concerts. You were going to have to make a run to the store if you wanted to look your best.</div></li><li class="li1"><div class="de1">You drove to your local AnyMart department store and made a mad dash to the clothing section. After spending fifteen minutes perusing the men&#039;s clothes aisle, you found a pair of khakis and a blue dress shirt you thought looked good together. It fit well and was comfier than you expected. When you looked in the mirror, you licked your thumb, put in on your ass cheek and hissed. Instantly you did a full scan of your surroundings and prayed that no one saw that little incident. You paid for the clothes and went home.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">What were you going to say to Katrina when you saw her in the club? Were you going to ask her out right away or wait until later into the night? What was the best way to start a conversation with her and keep it interesting? It occurred to you that you really didn&#039;t have a lot of experience talking to girls and also that you didn&#039;t know her very well. This could be a problem.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You could ask Benji to help you out? No, his advice would probably be to flex until girls noticed or until you got a hernia. He&#039;s not really a conversationalist.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Clive? He told you that you were on your own, remember? He thinks you&#039;re wasting your time so why would he bother to help?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Maybe Lexi! She knows her really well! But you don&#039;t know if she knows you&#039;re coming to night, and if she doesn&#039;t you kind of want it to be a surprise.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your mind lingered on her for a bit. Why weren&#039;t all girls as easy to talk to as Lexi? Other than the fight, you can&#039;t remember a single time you felt uncomfortable with her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You shook your head and focused back to the task on hand. You were going to have to work this out on your own. You decided you would ask Katrina out after you spent some time dancing with her. Your planning was interrupted by the arrival of your ride.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Clive pings you with a text. &quot;ready 2 go?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You had put your clothes on earlier. Before you left however, you slicked your hair back one last time, for good luck. &quot;ready&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Clive seemed to be in a much better mood than yesterday. He seemed pretty pumped about getting to hit the club.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Looking GOOD, Andy! You go to the store today?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What, did you just assume that I don&#039;t own ANY good clothes?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, yeah, but also you forgot to take the tag off. Unless you plan on returning it.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Damn it, you knew you forgot something. You hop in the car and remove the pesky tag. Cruising down the road, you decide to make amends for the awkward conversation in the car yesterday.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh that? No big deal, dude. You still gonna ask Katrina out tonight?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Mmhmm.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Your funeral dude.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With Clive being as cryptic as ever about this, you decide to ignore his discouragement and try to nail the specifics of what you wanted to say to Katrina. You had it mostly figured out by the time you pulled into the parking lot of the club. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The bouncer sized you two up as you approached. When you came close enough, he asked for ID and $10 for entry. After seeing your licenses, he gives you both orange bracelets.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Stay safe in there.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The bouncer opens the door into the dark club and ushers you both in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You and Clive find Katrina by the entrance near the bathrooms checking her phone. Both of you do a double take when you see her. She&#039;s wearing this sexy red dress that fits her form perfectly, and these jet black heels that manage to make her appearance that much more imposing. Both of these complimented her brown fur to make her look absolutely-</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Stunning.&quot; Clive whispered into your ear. &quot;Now you wanted to woo her. Hop to it. I&#039;ll be looking for a cute bunny or two to seduce.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With that, Clive left you to the wolves. Or wolf, in this case.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Mhmm?&quot; Katrina looked up from her phone to catch you staring directly at her. Great start. &quot;Oh, Andrew. How&#039;s it going?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s going well! Good day so far. I&#039;m really excited to get on to the dance floor. Lexi in there already?&quot; You point to the already crowded dance floor.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m hyped too. And no, Lexi&#039;s in the restroom freshening up. Maybe she saw a cute guy come in here or something? I don&#039;t know.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Good for her! Hey, she&#039;s probably going to be a while. How about we go out on the dance floor for a little while, get our body moving.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She seems a little conflicted at first. &quot;I don&#039;t know. I feel like it would be a little mean leaving her behind. But... I think I see where you&#039;re going with this Andrew. Let&#039;s go warm up a little, yeah!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Katrina pulls you to the club floor into the middle of the crowd. A remix of some shitty meme rap from two years ago comes on. The people around you seem pretty pumped and everybody&#039;s letting loose. You start to do an uncomfortable shuffle at first, feeling out of place in the center of the crowd. As the song goes on you start to feel the rhythm and cut yourself loose a little. This introduces a new problem, however. There isn&#039;t a lot of space to move around in the crowd and so you feel like you&#039;re boxed in and restricted with what you can and can&#039;t do. You aren&#039;t having nearly as much fun as you had anticipated, but you continued for the sake of Katrina. She was making do with the space she had and looked like she was really getting into it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After three or four more songs, you had enough. It was annoying to have to deal with all the accidental pushing and shoving between all the partying, and you thought you were starting to get dirty stares. You figured it would be better off if you had just asked Katrina out now, as you wanted something positive to keep you going for the party.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You tap Katrina&#039;s shoulder. &quot;What&#039;s up Andrew?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I think I want a little bit of a break from the dancing.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, no problem. And if you don&#039;t have cold feet any more than maybe we can find Lexi and-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Actually I kinda wanted to talk to you alone about something.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You can&#039;t read her face in the dark room, but from the tone of her voice, she seems confused.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Uhm… ok. Talk to me alone about what?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This is it. &quot;Well, I wanted to know if you wanted to go out to me for coffee or something?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The apparent confusion quickly morphs into embarrassment, and Katrina scans around for a second, as if searching for observers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Look, Andrew, you&#039;re cute, but you&#039;re not really my type. And I have this thing going on with someone else right now and I don&#039;t want to ruin it. Sorry to burst your bubble.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s no problem at all, heh.&quot; You feign a nonchalance for the time being to avoid killing the mood in the venue.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, if nothing else, you got a dance out of me.&quot; You knew she was trying to ease the rejection a bit, but it didn&#039;t really help. You had been rejected before, and it only hurt more every time you went through it. You needed to sit down before you got into a downward spiral of thoughts. You stumbled into a chair at an open table and ran your hands through your hair, trying to think of everything you said and did wrong.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">This crush has been building up for years, of course a rejection would hurt. But did it have to hurt this much? Maybe if you didn&#039;t set such high expectations, you wouldn&#039;t be so dejected. Why did you even get attached, anyway? Why would she ever be interested in a community college loser like you?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You hadn&#039;t taken a rejection this poorly before. Why couldn&#039;t you get these thoughts out of your head? You just wanted to cry this out. But as you reached the verge of tears, you felt a pair of gray furry arms wrap around you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s alright, Drew. Everything&#039;s gonna be alright. I&#039;m here. You can tell me what&#039;s going on.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">In Lexi&#039;s warm embrace, you find yourself starting to calm down. As much as the rejection hurt your ego, the night was still young, and you can still dance around with your friends. You wanted a little bit of a break though. Lexi read the mood and decided to pull up a chair next to you at the table.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So, what got you into this funk in the first place?&quot; Lexi asked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I uh, I asked Katrina out but she shot me down pretty quickly. You know I had a thing for her forever, right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No actually, it&#039;s not like you told me about what she did in class or like I caught you staring at her every other day for the past year. It was really obvious.&quot; She continued. &quot;If you just talked to her like a normal person during school she probably would have given you a chance.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She leaned back. &quot;I&#039;m kind of in the same boat as you, actually. I have, uh, respect for you that you have the courage to put yourself out like that.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">What was she talking about? &quot;Lexi, you have, like, everything to be confident about! Y&#039;know, you&#039;re thoughtful and vigilant with how you treat your friends, you never let anyone suffer alone, you&#039;ve always helped me out with school work ever since that day we got paired up in lab. That&#039;s another thing, you&#039;re smart, and diligent and you stay focused on your future and it&#039;s really cool and impressive.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You noticed a bit of embarrassment on Lexi&#039;s face, and you decided to take it down an octave, but keep it going. &quot;You&#039;re funny and entertaining too, I don&#039;t think I&#039;ve ever been bored whenever its been just us. And you&#039;re really cute too.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">!!!!!</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You weren&#039;t sure where that last part came from, but it definitely caught her attention. Thinking about it and checking her out, you knew it didn&#039;t come from nowhere. She had these beautiful green eyes that displayed both a soft tenderness and a sharp intellect. She chose this cute short green dress that matched them pretty well. Her gray fur was well kept and she had a short, but athletic frame.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Lexi and you had been staring at each other for a minute now, finally broken after Lexi smiled like she had won the lottery. She started to chuckle, trying to stop herself but eventually broke into a full on guffaw. Hearing her laugh cheered you up, and soon enough you started to laugh too. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Everything finally clicked. All the little interactions, why everyone was being weird about Lexi, all the flirting and touching. How could you miss all of that? Clive was right, you were dumb.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Both of you were on the floor, giggling and roaring like mental cases. Everything was pointing to the obvious but you wanted to pursue this old fantasy. What a joke! Eventually the two of you calmed down a little bit. Even though you were sure she was into you, you wanted to make sure that you weren&#039;t misunderstanding any signals. You formed the words you wanted to say and opened your mouth to ask her how she felt.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">But Lexi beat you to the punch. &quot;You look like you&#039;re in a much better mood.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You know me too well, Lexi. I don&#039;t think I could ever stay sad around you.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Corny. But I&#039;ll out-do you.&quot; She offered you her hand and looked into your eyes. &quot;I wanted to dance with my hero tonight, and the more time I get to spend near him, the better. You ready?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">That was all the confirmation you needed. You took her hand and both made your way to the dance floor.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It was nice to dance with someone you really trusted. Both of you stayed on the edge of the crowd and took advantage of the space to pull of crazy and high energy moves, jumping around and having a good time. You each took turns escalating the complexity of the moves to both challenge and entertain each other, culminating in both of you attempting to break-dance in ways far out of your depths and falling on your ass. Lexi gave you a big grin as she peeled you off the ground.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You gonna add that to the list of all the reasons you secretly love me? I don&#039;t think any other girl would make you dance like that.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You added it to the mental tally. The break-dancing had loosened up a necklace she was wearing under the dress, now displayed proudly on her chest. Looked like something you had gotten for her a two years back as a birthday gift.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Cool necklace. Where&#039;d you get it?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;My boyfriend got it for me,&quot; She quipped.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It matches your eyes really well, must be a thoughtful guy. Smart and handsome too.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Not so sure about that last one, maybe he&#039;s a 6 out of 10 on a good day. I keep him around because there&#039;s no one quite like him.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You get up close to her. &quot;He probably feels the same way about you.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The DJ decided to change it up a little, switching from his regular mix of trap and funk to a slower 50s ballad. A sleazy, crackly voice sounded from the speaker. &quot;Alright cool cats, it&#039;s time for tonight&#039;s slow dance, put your hands around your partner and pull &#039;em reeeeal close. Ya dig?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Neither of you needed to hear him twice, immediately putting your right hand around Lexi&#039;s waist while she put her left on your shoulder, while interlocking your free hand on the other side. You brought her around the room, both of you lost in the calm but careful push and pull of the dance. Your eyes drift around the room for a short moment. You see Clive dancing with a bunny girl half his size. Typical. You also see Katrina talking to a painted dog dude. You felt a little sad, but as you turned back to your captivating and captivated partner, this feeling melts away. You wouldn&#039;t want to dance with anyone else.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">And as the song draws to a close, you and Lexi slow down with the beat until the last beat plays, where you stop, draw each other in, and lock lips. Neither of you were experienced in this complex art, but you both tried to carefully explored each other&#039;s lips as much as you could. She tasted like lime soda. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You started to draw back a little to signal you needed some air. Lexi obliged, but as she tried to lean out, a fang got caught in your lip, catching you and drawing a little blood. A little bit of panic and sudden movement later led the lynx to apologize profusely.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m so sorry Drew I didn&#039;t mean to ohmygoshohmygoshohmygosh Are you ok Do you need a bandaid?&quot; It was like the poor girl was having a breakdown.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Lexi, Lexi, I&#039;m fine. You just caught me a little is all.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I know!&quot; she whines, &quot;But I didn&#039;t mean to hurt you! Kissing is hard enough as is when you have the same mouth shape. It&#039;s hard to position a muzzle properly.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We&#039;ll have plenty of more time to practice in the coming months. This isn&#039;t going to be some one time thing. In the meantime, how about we get back to dancing?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">And so you two danced the night away, forgetting your fears and problems and getting lost in yourselves and each other. After that fateful night, you felt more happy and relaxed than you had for months. You still feared the future, you still didn&#039;t have a plan, and you still dreaded the day where your other friends would skip town for good. However, with the support of your best friend and girlfriend, Lexi, you knew you could take these in stride.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Best Friend
-by Changed_Daily
-[lynx][love/romance][party][non-smut][confession of feelings][dancing][beach][club]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-&quot;...And that&#039;s how I was able to win us the last swim meet.&quot;
-
-&quot;Bullshit Andy, everyone saw the kid from West Salem, he got a cramp and stopped in the middle of the lane, anyone coulda&#039; won that race.&quot;
-
-&quot;I would love to see YOU try, you fat fuck.&quot;
-
-&quot;I&#039;ll snap you, twig.&quot;
-
-&quot;How, is big fat Benj gonna sit on me? I saw your wrestling record, tubby. It&#039;s like you enjoy getting pinned.&quot;
-
-&quot;Will you two shut the FUCK up for five seconds! I almost missed our turn.&quot;
-
-You slunk back into your seat while Benjamin let out an irritated snort.
-
-&quot;Get over it, Clive. You know we was just messin&#039; around&quot; Benjamin muttered. &quot;You&#039;ve been on a hair-trigger since graduation day. Heh. Hare-trigger.&quot;
-
-&quot;Funny. You two know I get anxious when I have to drive other people around. Least you could do is not strangle each other in the 
-backseat.&quot;
-
-You and Benjamin decided to take it easy on the poor hare for the rest of the ride there. You zoned out for a little bit looking out the window. Benji and Clive had been your best friends for 7 years since you met in middle school. You three always made the time to play video games and hang out and crack jokes even when your lives started to take different paths. Now that senior year was over, it was finally starting to sink in how much you would miss them. Clive was going to some big shot college out east on a track scholarship, and Benji was planning on working under his dad as a mechanic and eventually taking over the family business. As for you, well, who could say? You were a talented athlete and you kept your grades up, but you never found yourself pulled in any direction. You decided you would go to the local CC in the hopes that it would help you figure it out. To be honest though, not having any sort of career plan kinda put you down. You resolved not to dwell on it today.
-
-&quot;Here!&quot; shouted Clive, as you pulled into the lot. &quot;Damn Benj, you&#039;re gonna fuck up my suspension at this rate. When do you get your car back?&quot;
-
-As Benji stepped out, the car bounced back up 4 inches.
-
-&quot;&#039;s been a busy month at the shop, OK? I haven&#039;t time to work on it. What do you expect me to do in the mean time, cut these guns off?&quot;
-
-At this moment, Benjamin thought it appropriate to flex his biceps, earning an unimpressed glare from both of you.
-
-&quot;No, but I do expect repairs at discount once this is finished. Andy, did you pack lunch?&quot;
-
-&quot;Yeah. Picked up a caesar salad for you, a turkey and swiss for myself, and a double cheeseburger for Benji.&quot;
-
-&quot;You better not have.&quot; the bull chuckled.
-
-&quot;Kidding, kidding. I got you two slices of pizza and a chocolate milk.&quot;
-
-&quot;My man.&quot;
-
-You handed your friends their lunches and made your way through the entrance out to the shore. Damn was it hot out. You chose to turn back and get changed into a pair of swim trunks, leaving Clive and Benji to find a good spot to set up your towels. Scratch that, just Clive, looks like Benji&#039;s too busy chasing tail.
-
-As you step out of the bathroom and walk down to the shore again, you see your two buddies chatting it up with what looked like a lynx and a timberwolf. The lynx was a girl named Lexi. She did some group work with you once or twice and was really friendly and helpful when it came to explaining the material you missed on sick days. She was kind of cute, but you never thought to ask her out. Too much energy, that one. The second girl made your heart jump out of your chest.
-
-Katrina was considered by many horny teenagers (you included) to be one of the hottest girls in your class, and it certainly helped that she had wits to match. You had the hots for her since high school started and it never really went away. You wanted to make a good impression in the hopes that &quot;something&quot; would happen today, so you slicked back your hair and approached the group.
-
-&quot;DREW!&quot;
-
-In mere moments, you saw a flash of fur dart from under the umbrella and pounce you. Lexi.
-
-&quot;I was worried I would never see you again! I wanted to say goodbye after the graduation ceremony but I couldn&#039;t find you anywhere. How&#039;s your summer been? Where do you plan on going after this?&quot;
-
-You were unable to answer either of those questions as long as she squeezed the air out of your lungs. Thankfully she got the hint after a tap to the shoulder.
-
-&quot;I&#039;m glad to see you again too, Lexi. Summer&#039;s been awesome.&quot;
-
-&quot;Afternoon, Andrew.&quot;
-
-You shifted your gaze up to stare into the smirk of your crush. You could barely look her in the eye. The fact that she was 5 inches taller than you only made it harder for you to string words together. Eventually, you decided a &quot;Hey, Katrina! What brings you two out here?&quot;
-
-&quot;Same as you, probably. It&#039;s a perfect beach day, and Lexi and I wanted to catch some sun and relax a little. We were actually about to have lunch. Lexi made cookies for us and some of our other friends, but they bailed. Do you guys want any?&quot;
-
-&quot;Yeah, we know Andy is a REAL big fan of cookies.&quot; Benji joked.
-
-Please no. Not now.
-
-&quot;I think I heard peanut butter was his favorite, right Benji?&quot; jeered Clive.
-
-You gave Clive the evil eye and tried to steer the conversation towards something a little more tasteful. The other 4 started talking about their plans for the near future. Katrina was going to Clawvard in the fall to study pre-law. She told in great detail how she wanted to go into family law so that she could ensure that the kids could grow up in a good environment. Apparently she saw her parents go through a pretty nasty divorce as a kid, and that&#039;s what inspired her. You hung on to every word. Lexi committed to a state school to keep herself out of debt. She went in as a Bio major, and ultimately hoped to become a doctor. You kinda figured Lexi would make a good doctor. She always kept on top of things. Everything went smoothly until....
-
-&quot;Hey Drew, what&#039;s your plan?&quot;
-
-Your mouth went a little dry.
-
-&quot;Oh, you know, I haven&#039;t really figured it out yet... I decided to go to community for the time being until something stands out to me.&quot;
-
-&quot;If you need any help with classes or anything, you have my number. I know we might not end up studying the same things but I figured we might share some gen-eds or-&quot;
-
-Katrina cut her off.
-
-&quot;Lexi, Andrew will take care of this stuff on his own. You told me yourself you thought he was really clever, so why are you doubting him?&quot;
-
-&quot;I just want him to succeed, y&#039;know? Drew, am I hovering over you too much?&quot;
-
-Both women turned to you.
-
-&quot;I think I can handle my work on my own, Lexi. I appreciate the sentiment but I have to be able to take care of this. Thanks, Katrina.&quot;
-
-At this the lynx seemed to deflate a bit. Clive read the room and butted in.
-
-&quot;I&#039;d love to keep talking about school, but we&#039;ll have more to talk about once we get there. It&#039;s summer. Let&#039;s do something. Volleyball?&quot;
-
-Thank God. Benji was the only one opposed to volleyball and decided instead to flex for passing women. You swore he fed off of the attention. On the way to the court you decided the teams. You and Katrina vs. Clive and Lexi. You all agreed it would be first to 11 points.
-
-&quot;Challenging ME at volleyball, Clive? I didn&#039;t think you would ever forget the last time you made that mistake. Guess I have to bury you again.&quot;
-
-&quot;Big talk for a small man, Andy. We&#039;ll see who gets buried this time.&quot;
-
-The game commenced. You immediately recognize why Clive had agreed to the teams. Lexi was almost everywhere at once, trying to turn every volley into a set up. And when she did set, Clive was always there to use his height and spike it over the net. It would have been impossible to play, had you and Katrina not been diving whenever you could to keep a volley going.
-
-Eventually the score turned 10-9 them. You and Katrina were keeping up with a fast Volley when Lexi popped one over in a strange direction. You dived to keep the ball airborne but it was all for naught. Clive immediately saw this weakness and pegged the ball back with the fury of the devil himself. You saw your life flash before your eyes before the ball made contact.
-
-Fuck! That hurt!
-
-As you reeled from the sting, Clive hopped over and crouched right in your face with a shit-eating grin.
-
-&quot;You were going to bury who, exactly?&quot;
-
-With your pride in tatters, Clive and Lexi helped you up and brushed you off. You passed the ball around for a little longer, mostly making small talk with your friends. Eventually the douchebag lifeguards came and kicked you off the net for their break so you went back to the umbrellas. You notice that the others aren&#039;t really handling the heat that well. You suggest that you all jump in to the ocean for a swim. This was met with nods of approval and looks of relief. You started to walk towards the shore, which slowly turned into a mad dash where you all jumped in. You heard Clive burst into a fit of laughter.
-
-&quot;Yo Andy, you have to see this. Some mouse girl is using fatso as a surfboard!&quot;
-
-Sure enough, you saw a girl standing on Benjamin&#039;s abs trying to balance herself on the wave. You spotted a crowd near the lookout cheering them on. You wish you could get a picture.
-
-&quot;Damn, Benji has a whole posse of them. I&#039;m not gonna let him have all the fun. I&#039;ll catch up with you later, Andy!&quot;
-And with that the hare disappeared. That left you alone with Katrina and...
-
-Sploosh!!!
-
-Lexi caught you by surprise and tackled you from the back, knocking you both over. As you both got up, she started to apologize. You quickly cut her off.
-
-&quot;I&#039;m insulted by such a dishonorable display. You understand what this means.&quot;
-
-You immediately returned the favor by splashing her with a massive wave.
-
-&quot;NOOOOOoooo you bitch!!&quot;
-
-You chased her down for a couple of minutes stopping every once and a while to splash each other, both of you giggling like giddy children. That laugh. You forgot how cute it was, and how much you missed it. Eventually you caught up to her and picked her up in your arms.
-
-&quot;W-what are you gonna do with m-me?&quot; whimpered Lexi, feigning fear.
-
-&quot;I&#039;m going to restore my honor and take my revenge!&quot;
-
-With that you dropped the poor lynx into the water below.
-
-&quot;You&#039;re such an ass!&quot;
-
-That set her off. A now soaking Lexi scowled as she picked herself up. 
-
-&quot;We were having so much fun and you just drop me, like an idiot!? Why did you have to ruin it!? What&#039;s wrong with you!?&quot;
-
-You didn&#039;t know how to respond so she gave an exasperated sigh and swam away into deeper waters. You shouted to her that the lifeguards weren&#039;t back from break yet, but she either didn&#039;t hear you or didn&#039;t care as she continued to swim away. You decided it wasn&#039;t worth pursuing. She needed space for whatever made her so mad, and you could talk to her about it later. You finally had the chance to flirt with Katrina that you&#039;d been waiting all day for.
-
-As you walked to approach the wolf your mind started to wonder about what had went so wrong just then. You had only dropped her into the water. It wasn&#039;t like you weren&#039;t splashing each other for the past few minutes. What made this any difference. You felt frustrated with both here and yourself. You resolved not to think about it for now, and instead to focus on not embarrassing yourself in front of your crush.
-
-Katrina notices you approach and waves. &quot;What&#039;s up, Andrew?&quot;
-
-You finally have the chance to talk to her. Don&#039;t fuck this up.
-
-&quot;Not much, but I didn&#039;t really get the chance to talk to you today. I wanted to get to know you better cause we didn&#039;t get to talk much in class.&quot;
-
-&quot;Sure... I did cheer for a couple of years because my mom rode me to stay into it for the awards and the memories, and while I wish she hadn&#039;t rode me so hard to do it, I don&#039;t regret a second. I met my best friends through it, including Lexi, even though she dropped it after freshman year. I feel like my parents, even with their faults, tried their best to steer me towards the right path, and I didn&#039;t really acknowledge that until graduation. Sorry to dump all of that on you. I never really had a lot of free time while I was growing up, so I&#039;m trying to use this summer as an opportunity to branch out. Hopefully that answers your question!&quot; she finishes with a smile.
-
-You weren&#039;t prepared for that long of an answer, but you quickly steel yourself and try again with a more specific question.
-
-&quot;Do you like swimming?&quot;
-
-&quot;I enjoyed it every time I went. Can&#039;t say I&#039;m big into like racing or laps or anything like that if that&#039;s what you mean. I heard from Lexi that you were really into it, right?&quot;
-
-&quot;Yeah, that&#039;s right. What else did she spill about me?&quot;
-
-&quot;Only about how smart and funny you are, and like every joke you told ever.&quot;
-
-&quot;Do I live up to expectations?&quot; you ask with a grin.
-
-She responds with a smirk. &quot;From what I&#039;m seeing so far, I&#039;m not disappointed. She didn&#039;t mention how cute you were though. I&#039;d almost be tempted to steal you for myself if it wasn&#039;t for...&quot;
-
-She pauses, concerned. &quot;Where is Lexi, anyway?&quot;
-
-You lose your nerve and immediately scan around. She&#039;s not at the umbrella so she&#039;s gotta be out in the water. The deep water. Where you left her alone. With no lifeguards on duty.
-
-FUCK.
-
-You immediately run higher to the shore to see if you can get a good look out for her when you hear a distant scream for help coming out from the water. Lexi! You find her out where she swam to earlier. You can see she&#039;s pretty far out. You look to see if there&#039;s any lifeguards who came back on stand, but the chair is absent. She doesn&#039;t have a lot of time! Think faster! You grab the life preserver from the side of the stand, throw it on your back and run to the shore. You see a crowd begin to form close to where she is. You look for her again so that you can aim your throw. Damn it! She&#039;s way too far out to reach the preserver even if she can see it. You single out Benji in the crowd and hand him the preserver.
-
-&quot;I&#039;m going to swim out after her. I need you to throw this out to us when I get close enough on the return trip.&quot;
-Benji nods, and you dash towards the water and swim to save your friend. She can&#039;t keep her head above the water now. You sprint to close the distance. 
-
-Every second feels like an hour. She has her hand above the surface, but its weak. You paddle as hard as you can. Just as her hand falls beneath the surface you grab her and keep her close to your chest. You swim on your side and do your best to keep Lexi&#039;s head above the water. You grab onto the life preserver and Benji pulls you both in. 
-
-Lexi&#039;s still unconscious. 
-
-You scream for anyone who knows CPR. After getting nothing but silence from the crowd, you come back forward and try to remember the correct order of steps. You should have payed better attention during that seminar. As you&#039;re about start chest compressions on the lynx, you hear her breathe, and then cough. 
-
-She opens her eyes. Thank God. You didn&#039;t even want to think about how this could have turned out. You hold the poor girl for a bit and asks if she&#039;s ok. She nods. You give the lynx a tight hug, and tell the worried Benji and Katrina to keep an eye on her for the time being. You had enough of the beach today.
-
-You found Clive at the umbrella. You said not a word to each other as you started to pack your things up for the day. Benji saw you and joined in. When you had finished, you told Benji to take your stuff into the car. You wanted to check on Lexi one last time before you left. You saw Katrina berating the lifeguards. You never saw anyone put a tiger&#039;s tail between their legs that fast before. As she saw you coming, she turned to you.
-
-&quot;They took her to the infirmary. She&#039;s fine, Andrew. Just a little shaken up is all. She&#039;ll be fine in the morning.&quot;
-
-&quot;Good to hear. I feel like I aged a year in half an hour.&quot;
-
-&quot;It sucks. Lexi didn&#039;t have a real grad party so we were going to go to the night club tonight to celebrate. Today isn&#039;t the day for it.&quot;
-
-&quot;I wouldn&#039;t be dancing tonight if I were in her shoes either.&quot;
-
-&quot;Hey. I have a pretty good idea. This wasn&#039;t part of the plan before because I didn&#039;t realize you and Clive were such good friends with Lexi. Do you guys want to come?&quot;
-
-I smiled and shrugged. &quot;I would love to, but I can&#039;t answer for Clive. Can you text me the details in a bit?&quot;
-
-You and Katrina exchanged numbers, said goodbye and parted ways.
-
-As Clive drove you all home, you had a laugh with your friends about the day&#039;s triumphs and failures. As you rolled up to Benji&#039;s house, he finished the story of how he got 5 numbers and learned only minutes later that they were all fakes. You laugh and said goodbye to your friend thankful you had the chance to talk to Clive about tomorrow.
-
-&quot;Of course I want to go. Sounds like a lot of fun. You sure they&#039;re gonna let us in though?&quot;
-
-&quot;I asked her about it already. She said they ID you at the door but they let you in under 21 with a bracelet. If you want I can bring booze and we can pregame in the car.&quot;
-
-&quot;Nah, sounds like a pretty crap idea. Feel&#039;s like it&#039;s too easy to get caught doing that.&quot;
-
-&quot;Fair enough. So I&#039;ve been talking to Katrina and I think we gel really well. I think I might try to ask her to coffee or something if this goes well enough.&quot;
-
-&quot;You mean Katrina and your mask gel pretty well.&quot; muttered Clive.
-
-&quot;What are you trying to say, dude?&quot;
-
-&quot;I&#039;m saying that everyone can tell your whole cool guy shtick is fake as hell.&quot; he continues. &quot;Katrina&#039;s a smart girl. There&#039;s no way she doesn&#039;t see right through the act. She was probably just playing along and being nice for the sake of her friend. Besides, why would you want to pursue something with someone who you feel like you can&#039;t be yourself around? It&#039;s gonna get exhausting, or end poorly, or both.&quot;
-
-&quot;Yeah? Well, I thought we got along well, alright? And what are you on telling me how to live my life and pursue relationships? You never held a steady girlfriend.&quot;
-
-&quot;I&#039;ve been on several dates, several more than you. And if you want to make an ass of yourself and waste someone else&#039;s time as well as your own, go ahead. It&#039;s no fur off of my back. All I&#039;m saying is that you shouldn&#039;t rush into this, and perhaps look for someone who you can be yourself around. I can&#039;t really argue with you and focus on the road at the same time, so I&#039;ll change the subject. You saved a life today. That&#039;s pretty fucking awesome.&quot;
-
-You shudder at the recollection of the incident. &quot;Yeah, but it was kind of my fault Lexi ended up there in the first place. We were splashing each other and laughing and having a good time, yeah? And I picked her up and dropped her into the water. She blew a fuse and shrieked at me for &quot;ruining the moment&quot; and called me an ass. When I tried to calm her down, she swam to deeper waters. I left her alone because I figured she&#039;d cool off later. If I had known what would have happened I would have done more to stop her.&quot;
-
-At your retelling of your encounter with Lexi, Clive&#039;s ears perk up and he immediately moves to pull over.
-
-You can tell you&#039;re in for a lecture this time.
-
-&quot;Alright so first things first. You saved Lexi&#039;s life. There are very few things you could have done to invalidate that, and this wasn&#039;t one of them. Give yourself some credit where credit is due. Second, you&#039;re an absolute buffoon if you honestly don&#039;t understand why she lost her shit.&quot;
-
-&quot;I really don&#039;t get it. We were messing around and she suddenly loses her fuckin&#039; mind. She literally did the same thing to me a couple minutes earlier!&quot;
-
-Clive lets out a defeated sigh and signals to get back on the road.
-
-&quot;I&#039;m not helping you with this one man. You&#039;re on your own.&quot;
-
-The rest of the car ride was pretty tense. You hoped that it wouldn&#039;t carry over to tomorrow. You waved goodbye as you hopped out of the car.
-
-That evening was uneventful for the most part. Other than a quick check-in-call to make sure Lexi was doing alright, you mostly spent it filling out forms for community college and transferring some credits from AP classes. It was a chore and you figured you&#039;d wrap it up for the night after that.
-
-You woke up the next morning realizing that you had nothing good to wear. Tearing through your closet yielded you nothing but pants a size too small and crappy shirts from old concerts. You were going to have to make a run to the store if you wanted to look your best.
-You drove to your local AnyMart department store and made a mad dash to the clothing section. After spending fifteen minutes perusing the men&#039;s clothes aisle, you found a pair of khakis and a blue dress shirt you thought looked good together. It fit well and was comfier than you expected. When you looked in the mirror, you licked your thumb, put in on your ass cheek and hissed. Instantly you did a full scan of your surroundings and prayed that no one saw that little incident. You paid for the clothes and went home.
-
-What were you going to say to Katrina when you saw her in the club? Were you going to ask her out right away or wait until later into the night? What was the best way to start a conversation with her and keep it interesting? It occurred to you that you really didn&#039;t have a lot of experience talking to girls and also that you didn&#039;t know her very well. This could be a problem.
-
-You could ask Benji to help you out? No, his advice would probably be to flex until girls noticed or until you got a hernia. He&#039;s not really a conversationalist.
-
-Clive? He told you that you were on your own, remember? He thinks you&#039;re wasting your time so why would he bother to help?
-
-Maybe Lexi! She knows her really well! But you don&#039;t know if she knows you&#039;re coming to night, and if she doesn&#039;t you kind of want it to be a surprise.
-
-Your mind lingered on her for a bit. Why weren&#039;t all girls as easy to talk to as Lexi? Other than the fight, you can&#039;t remember a single time you felt uncomfortable with her.
-
-You shook your head and focused back to the task on hand. You were going to have to work this out on your own. You decided you would ask Katrina out after you spent some time dancing with her. Your planning was interrupted by the arrival of your ride.
-
-Clive pings you with a text. &quot;ready 2 go?&quot;
-
-You had put your clothes on earlier. Before you left however, you slicked your hair back one last time, for good luck. &quot;ready&quot;
-
-Clive seemed to be in a much better mood than yesterday. He seemed pretty pumped about getting to hit the club.
-
-&quot;Looking GOOD, Andy! You go to the store today?&quot;
-
-&quot;What, did you just assume that I don&#039;t own ANY good clothes?&quot;
-
-&quot;Well, yeah, but also you forgot to take the tag off. Unless you plan on returning it.&quot;
-
-Damn it, you knew you forgot something. You hop in the car and remove the pesky tag. Cruising down the road, you decide to make amends for the awkward conversation in the car yesterday.
-
-&quot;Oh that? No big deal, dude. You still gonna ask Katrina out tonight?&quot;
-
-&quot;Mmhmm.&quot;
-
-&quot;Your funeral dude.&quot;
-
-With Clive being as cryptic as ever about this, you decide to ignore his discouragement and try to nail the specifics of what you wanted to say to Katrina. You had it mostly figured out by the time you pulled into the parking lot of the club. 
-
-The bouncer sized you two up as you approached. When you came close enough, he asked for ID and $10 for entry. After seeing your licenses, he gives you both orange bracelets.
-
-&quot;Stay safe in there.&quot;
-
-The bouncer opens the door into the dark club and ushers you both in.
-
-You and Clive find Katrina by the entrance near the bathrooms checking her phone. Both of you do a double take when you see her. She&#039;s wearing this sexy red dress that fits her form perfectly, and these jet black heels that manage to make her appearance that much more imposing. Both of these complimented her brown fur to make her look absolutely-
-
-&quot;Stunning.&quot; Clive whispered into your ear. &quot;Now you wanted to woo her. Hop to it. I&#039;ll be looking for a cute bunny or two to seduce.&quot;
-
-With that, Clive left you to the wolves. Or wolf, in this case.
-
-&quot;Mhmm?&quot; Katrina looked up from her phone to catch you staring directly at her. Great start. &quot;Oh, Andrew. How&#039;s it going?&quot;
-
-&quot;It&#039;s going well! Good day so far. I&#039;m really excited to get on to the dance floor. Lexi in there already?&quot; You point to the already crowded dance floor.
-
-&quot;I&#039;m hyped too. And no, Lexi&#039;s in the restroom freshening up. Maybe she saw a cute guy come in here or something? I don&#039;t know.&quot;
-
-&quot;Good for her! Hey, she&#039;s probably going to be a while. How about we go out on the dance floor for a little while, get our body moving.&quot;
-
-She seems a little conflicted at first. &quot;I don&#039;t know. I feel like it would be a little mean leaving her behind. But... I think I see where you&#039;re going with this Andrew. Let&#039;s go warm up a little, yeah!
-
-Katrina pulls you to the club floor into the middle of the crowd. A remix of some shitty meme rap from two years ago comes on. The people around you seem pretty pumped and everybody&#039;s letting loose. You start to do an uncomfortable shuffle at first, feeling out of place in the center of the crowd. As the song goes on you start to feel the rhythm and cut yourself loose a little. This introduces a new problem, however. There isn&#039;t a lot of space to move around in the crowd and so you feel like you&#039;re boxed in and restricted with what you can and can&#039;t do. You aren&#039;t having nearly as much fun as you had anticipated, but you continued for the sake of Katrina. She was making do with the space she had and looked like she was really getting into it.
-
-After three or four more songs, you had enough. It was annoying to have to deal with all the accidental pushing and shoving between all the partying, and you thought you were starting to get dirty stares. You figured it would be better off if you had just asked Katrina out now, as you wanted something positive to keep you going for the party.
-
-You tap Katrina&#039;s shoulder. &quot;What&#039;s up Andrew?&quot;
-
-&quot;I think I want a little bit of a break from the dancing.&quot;
-
-&quot;Hey, no problem. And if you don&#039;t have cold feet any more than maybe we can find Lexi and-&quot;
-
-&quot;Actually I kinda wanted to talk to you alone about something.&quot;
-
-You can&#039;t read her face in the dark room, but from the tone of her voice, she seems confused.
-
-&quot;Uhm… ok. Talk to me alone about what?&quot;
-
-This is it. &quot;Well, I wanted to know if you wanted to go out to me for coffee or something?&quot;
-
-The apparent confusion quickly morphs into embarrassment, and Katrina scans around for a second, as if searching for observers.
-
-&quot;Look, Andrew, you&#039;re cute, but you&#039;re not really my type. And I have this thing going on with someone else right now and I don&#039;t want to ruin it. Sorry to burst your bubble.&quot;
-
-&quot;It&#039;s no problem at all, heh.&quot; You feign a nonchalance for the time being to avoid killing the mood in the venue.
-
-&quot;Hey, if nothing else, you got a dance out of me.&quot; You knew she was trying to ease the rejection a bit, but it didn&#039;t really help. You had been rejected before, and it only hurt more every time you went through it. You needed to sit down before you got into a downward spiral of thoughts. You stumbled into a chair at an open table and ran your hands through your hair, trying to think of everything you said and did wrong.
-
-This crush has been building up for years, of course a rejection would hurt. But did it have to hurt this much? Maybe if you didn&#039;t set such high expectations, you wouldn&#039;t be so dejected. Why did you even get attached, anyway? Why would she ever be interested in a community college loser like you?
-
-You hadn&#039;t taken a rejection this poorly before. Why couldn&#039;t you get these thoughts out of your head? You just wanted to cry this out. But as you reached the verge of tears, you felt a pair of gray furry arms wrap around you.
-
-&quot;It&#039;s alright, Drew. Everything&#039;s gonna be alright. I&#039;m here. You can tell me what&#039;s going on.&quot;
-
-In Lexi&#039;s warm embrace, you find yourself starting to calm down. As much as the rejection hurt your ego, the night was still young, and you can still dance around with your friends. You wanted a little bit of a break though. Lexi read the mood and decided to pull up a chair next to you at the table.
-
-&quot;So, what got you into this funk in the first place?&quot; Lexi asked.
-
-&quot;I uh, I asked Katrina out but she shot me down pretty quickly. You know I had a thing for her forever, right?&quot;
-
-&quot;No actually, it&#039;s not like you told me about what she did in class or like I caught you staring at her every other day for the past year. It was really obvious.&quot; She continued. &quot;If you just talked to her like a normal person during school she probably would have given you a chance.&quot;
-
-She leaned back. &quot;I&#039;m kind of in the same boat as you, actually. I have, uh, respect for you that you have the courage to put yourself out like that.&quot;
-
-What was she talking about? &quot;Lexi, you have, like, everything to be confident about! Y&#039;know, you&#039;re thoughtful and vigilant with how you treat your friends, you never let anyone suffer alone, you&#039;ve always helped me out with school work ever since that day we got paired up in lab. That&#039;s another thing, you&#039;re smart, and diligent and you stay focused on your future and it&#039;s really cool and impressive.&quot;
-
-You noticed a bit of embarrassment on Lexi&#039;s face, and you decided to take it down an octave, but keep it going. &quot;You&#039;re funny and entertaining too, I don&#039;t think I&#039;ve ever been bored whenever its been just us. And you&#039;re really cute too.&quot;
-
-!!!!!
-
-You weren&#039;t sure where that last part came from, but it definitely caught her attention. Thinking about it and checking her out, you knew it didn&#039;t come from nowhere. She had these beautiful green eyes that displayed both a soft tenderness and a sharp intellect. She chose this cute short green dress that matched them pretty well. Her gray fur was well kept and she had a short, but athletic frame.
-
-Lexi and you had been staring at each other for a minute now, finally broken after Lexi smiled like she had won the lottery. She started to chuckle, trying to stop herself but eventually broke into a full on guffaw. Hearing her laugh cheered you up, and soon enough you started to laugh too. 
-
-Everything finally clicked. All the little interactions, why everyone was being weird about Lexi, all the flirting and touching. How could you miss all of that? Clive was right, you were dumb.
-
-Both of you were on the floor, giggling and roaring like mental cases. Everything was pointing to the obvious but you wanted to pursue this old fantasy. What a joke! Eventually the two of you calmed down a little bit. Even though you were sure she was into you, you wanted to make sure that you weren&#039;t misunderstanding any signals. You formed the words you wanted to say and opened your mouth to ask her how she felt.
-
-But Lexi beat you to the punch. &quot;You look like you&#039;re in a much better mood.&quot;
-
-&quot;You know me too well, Lexi. I don&#039;t think I could ever stay sad around you.&quot;
-
-&quot;Corny. But I&#039;ll out-do you.&quot; She offered you her hand and looked into your eyes. &quot;I wanted to dance with my hero tonight, and the more time I get to spend near him, the better. You ready?&quot;
-
-That was all the confirmation you needed. You took her hand and both made your way to the dance floor.
-
-It was nice to dance with someone you really trusted. Both of you stayed on the edge of the crowd and took advantage of the space to pull of crazy and high energy moves, jumping around and having a good time. You each took turns escalating the complexity of the moves to both challenge and entertain each other, culminating in both of you attempting to break-dance in ways far out of your depths and falling on your ass. Lexi gave you a big grin as she peeled you off the ground.
-
-&quot;You gonna add that to the list of all the reasons you secretly love me? I don&#039;t think any other girl would make you dance like that.&quot;
-
-You added it to the mental tally. The break-dancing had loosened up a necklace she was wearing under the dress, now displayed proudly on her chest. Looked like something you had gotten for her a two years back as a birthday gift.
-
-&quot;Cool necklace. Where&#039;d you get it?&quot;
-
-&quot;My boyfriend got it for me,&quot; She quipped.
-
-&quot;It matches your eyes really well, must be a thoughtful guy. Smart and handsome too.&quot;
-
-&quot;Not so sure about that last one, maybe he&#039;s a 6 out of 10 on a good day. I keep him around because there&#039;s no one quite like him.&quot;
-
-You get up close to her. &quot;He probably feels the same way about you.&quot;
-
-The DJ decided to change it up a little, switching from his regular mix of trap and funk to a slower 50s ballad. A sleazy, crackly voice sounded from the speaker. &quot;Alright cool cats, it&#039;s time for tonight&#039;s slow dance, put your hands around your partner and pull &#039;em reeeeal close. Ya dig?&quot;
-
-Neither of you needed to hear him twice, immediately putting your right hand around Lexi&#039;s waist while she put her left on your shoulder, while interlocking your free hand on the other side. You brought her around the room, both of you lost in the calm but careful push and pull of the dance. Your eyes drift around the room for a short moment. You see Clive dancing with a bunny girl half his size. Typical. You also see Katrina talking to a painted dog dude. You felt a little sad, but as you turned back to your captivating and captivated partner, this feeling melts away. You wouldn&#039;t want to dance with anyone else.
-
-And as the song draws to a close, you and Lexi slow down with the beat until the last beat plays, where you stop, draw each other in, and lock lips. Neither of you were experienced in this complex art, but you both tried to carefully explored each other&#039;s lips as much as you could. She tasted like lime soda. 
-
-You started to draw back a little to signal you needed some air. Lexi obliged, but as she tried to lean out, a fang got caught in your lip, catching you and drawing a little blood. A little bit of panic and sudden movement later led the lynx to apologize profusely.
-
-&quot;I&#039;m so sorry Drew I didn&#039;t mean to ohmygoshohmygoshohmygosh Are you ok Do you need a bandaid?&quot; It was like the poor girl was having a breakdown.
-
-&quot;Lexi, Lexi, I&#039;m fine. You just caught me a little is all.&quot;
-
-&quot;I know!&quot; she whines, &quot;But I didn&#039;t mean to hurt you! Kissing is hard enough as is when you have the same mouth shape. It&#039;s hard to position a muzzle properly.&quot;
-
-&quot;We&#039;ll have plenty of more time to practice in the coming months. This isn&#039;t going to be some one time thing. In the meantime, how about we get back to dancing?&quot;
-
-And so you two danced the night away, forgetting your fears and problems and getting lost in yourselves and each other. After that fateful night, you felt more happy and relaxed than you had for months. You still feared the future, you still didn&#039;t have a plan, and you still dreaded the day where your other friends would skip town for good. However, with the support of your best friend and girlfriend, Lexi, you knew you could take these in stride.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    23 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    24 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    30 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

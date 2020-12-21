@@ -1,510 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>How I, Met You - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="How I, Met You - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/jGqQmF34" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/jGqQmF34" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="KA8zDSnatHVueKuxTtahrdXWvqA2ROB1uKgBDL-GUq1uXnU6bZvrJTwx24cYh5CYj7v92k8zrg3VyXRK3uga3A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/jGqQmF34" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/jGqQmF34" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="CudaBen">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>How I, Met You</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/CudaBen">CudaBen</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=CudaBen" class="message" title="Send a private message to: CudaBen"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 5th of December 2019 10:53:52 PM CDT">Dec 5th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    392                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 6.66 KB            </div>
-
-            <div class="right">
-                <a href="/raw/jGqQmF34" class="btn -small">raw</a>
-                <a href="/dl/jGqQmF34" class="btn -small">download</a>
-                <a href="/clone/jGqQmF34" class="btn -small h_800">clone</a>
-                <a href="/embed/jGqQmF34" class="btn -small h_800">embed</a>
-                <a href="/report/jGqQmF34" class="btn -small">report</a>
-                <a href="/print/jGqQmF34" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">How I, Met You</div></li><li class="li1"><div class="de1">A simple prompt generator for how you met your waifur</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">How to play:</div></li><li class="li1"><div class="de1">Post pic of Waifur, reply not required</div></li><li class="li1"><div class="de1">Alternatively, choose any image in the thread</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Post Number:			&gt;&gt;1556819746</div></li><li class="li1"><div class="de1">Last 4 Numbers:			&gt;&gt;------9746</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Where We Met...]	</div></li><li class="li1"><div class="de1"> Use these:				&gt;&gt;------97--</div></li><li class="li1"><div class="de1">						&gt;&gt;--------46</div></li><li class="li1"><div class="de1"> Add the two:			97 + 46 = 143</div></li><li class="li1"><div class="de1"> If &gt;=100 ignore 1--:		100 = 00</div></li><li class="li1"><div class="de1">							143 = 43</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[She is...]</div></li><li class="li1"><div class="de1"> Use 2nd to Last:		&gt;&gt;--------4-</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[You are...]</div></li><li class="li1"><div class="de1"> Use Last Digit:		&gt;&gt;---------6</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Digits: 43 , 4 , 6</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[Where We Met...]</div></li><li class="li1"><div class="de1"> 01-05	bar / tavern</div></li><li class="li1"><div class="de1"> 06-10	on commute</div></li><li class="li1"><div class="de1"> 11-15	college / university</div></li><li class="li1"><div class="de1"> 16-20	cafe</div></li><li class="li1"><div class="de1"> 21-25	diner</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> 26-30	drug dealer&#039;s den / alley</div></li><li class="li1"><div class="de1"> 31-35	strip club / brothel</div></li><li class="li1"><div class="de1"> 36-40	gym	 </div></li><li class="li1"><div class="de1"> 41-45	medical facility</div></li><li class="li1"><div class="de1"> 46-50	park</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> 51-55	office</div></li><li class="li1"><div class="de1"> 56-60	erotic chat / forum</div></li><li class="li1"><div class="de1"> 61-65	middle of nowhere</div></li><li class="li1"><div class="de1"> 66-70	fandom convention</div></li><li class="li1"><div class="de1"> 71-75	shopping center / retail</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> 76-80	block party / festival</div></li><li class="li1"><div class="de1"> 81-85	police station</div></li><li class="li1"><div class="de1"> 86-90	beach</div></li><li class="li1"><div class="de1"> 91-95	forest / woods</div></li><li class="li1"><div class="de1"> 96-00	online videogame</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">[She is...] &amp; [You are...]</div></li><li class="li1"><div class="de1"> 1	just visiting, or passing through</div></li><li class="li1"><div class="de1"> 2 	a client, or customer</div></li><li class="li1"><div class="de1"> 3	meeting, or looking for you</div></li><li class="li1"><div class="de1"> 4	working there</div></li><li class="li1"><div class="de1"> 5	living there, or owns the place</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1"> 6	delivering something</div></li><li class="li1"><div class="de1"> 7	stuck there</div></li><li class="li1"><div class="de1"> 8	killing time, or loitering</div></li><li class="li1"><div class="de1"> 9	causing trouble</div></li><li class="li1"><div class="de1"> 0	lost</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Result: You met at the hospital(43). She works there(4), and you were delivering something(6).</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Notes:</div></li><li class="li1"><div class="de1">&gt; Prompts are purposefully vague, expand on it as you see fit. </div></li><li class="li1"><div class="de1">&gt;&gt; i.e. &quot;Where We Met... on commute&quot; could mean a train, a shared carpool/uber, or not on a vehicle but at its terminal (bus stops and subway stations.)</div></li><li class="li1"><div class="de1">&gt; The picture you posted can imply themes or settings.</div></li><li class="li1"><div class="de1">&gt;&gt; i.e. if the picture depicts future-space and using the example Result above, She could be a bio-mechanical doctor and You could be a pilot for an interplanetary deliver service.</div></li><li class="li1"><div class="de1">&gt; &quot;How I, Met You&quot; implies the first meeting, however it isn&#039;t a rule.</div></li><li class="li1"><div class="de1">&gt;&gt; i.e. You met at college / university (12) while both of you were in for a visit (1). You haven&#039;t seen each other since graduation.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">------01------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Image Ref: https://static1.e621.net/data/e5/47/e547710e5cdb84d790c0e797b86b2de9.jpg</div></li><li class="li1"><div class="de1">&gt;&gt;26825402</div></li><li class="li1"><div class="de1">&gt;56, 0, 2</div></li><li class="li1"><div class="de1">You met on an ERP website. She managed to stumble her way in there without fully realizing what it was. You, on the other hand, were a regular. So when she pinged you for a session, you answered the call.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Hey, kitty. How was work?&quot;</div></li><li class="li1"><div class="de1">&gt;She&#039;s still at a lost, and now there&#039;s a chat window talking to her.</div></li><li class="li1"><div class="de1">&gt;Maybe randomly clicking stuff wasn&#039;t the best idea.</div></li><li class="li1"><div class="de1">&gt;Specially since this isn&#039;t her computer.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: You okay, kitty? You can talk to me, y&#039;know.&quot;</div></li><li class="li1"><div class="de1">&gt;She wonders if this &quot;Anon&quot; was a person or an AI. It wouldn&#039;t be a stretch for her roommate to make one.</div></li><li class="li1"><div class="de1">&gt;It seems friendly enough, so she decides to humor it.</div></li><li class="li1"><div class="de1">&gt;Lacking a mouse, she starts tabbing-in to the chat field.</div></li><li class="li1"><div class="de1">&gt;After 12 clicks and 8 unrelated windows popping up, she finally types out a reply.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: I&#039;m fine. Just a little... tired.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Boss rode you hard today, huh? Same here.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Can you believe that guy? Drags my ass through the ringer and he STILL expects me to show up early tomorrow.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Is it too much to ask for a little recovery time?&quot;</div></li><li class="li1"><div class="de1">&gt;For an AI, she thought it was pretty charming. And the speech pattern wasn&#039;t as janky as she assumed.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: Looks like you had it worse.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: Tho I did have to deal with another client.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: At the same time?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: More or less. Had me going back and forth between the two &#039;til quittin&#039; time.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Oof. No wonder you&#039;re sore.&quot;</div></li><li class="li1"><div class="de1">&gt;&#039;Sore&#039;... huh. She notes the strange choice of words. Looks like there&#039;s still a few hitches.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Hey, if you ain&#039;t that tired, we can still relax for a bit.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Wind down with something slow, y&#039;know?&quot;</div></li><li class="li1"><div class="de1">&gt;She&#039;s curious. It&#039;s an AI, what could it do?</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: Whaddya have in mind?&quot;</div></li><li class="li1"><div class="de1">&gt;What follows is an elaborate foreplay scene depicting Anon undressing Kat and caressing all her intimate spots in an attempt to ease her soreness.</div></li><li class="li1"><div class="de1">&gt;Liberal descriptions of delicate hands brushing through soft, silken fur pinching sensitive nubs while tongues wrestle between teeth and fangs.</div></li><li class="li1"><div class="de1">&gt;Words on the screen fly by and she just stares, letting every sultry suggestion, every imaginary intent sink-in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Meanwhile.</div></li><li class="li1"><div class="de1">&gt;Foreplay was Anon&#039;s thing, says so right on his forum profile.</div></li><li class="li1"><div class="de1">&gt;And from his previous sessions with Kat, he knows she appreciates it.</div></li><li class="li1"><div class="de1">&gt;So much so that she asked for one-sided starts on their sessions so she could get... &quot;good and ready&quot;</div></li><li class="li1"><div class="de1">&gt;Not one to disappoint a truly avid fan, he agrees, and while basking in the afterglow of a job well done after typing out his latest novella of foreplay smut, he only has one thing to ask Kat on the other side of the screen:</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: You good?&quot;</div></li><li class="li1"><div class="de1">&gt;30 seconds. No reply.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Still there, kitty? Or are you a little... &quot;preoccupied?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: exit&quot;</div></li><li class="li1"><div class="de1">&gt;That&#039;s definitely strange, even for Kat.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: ?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: /quit&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: shut_down=true&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: window(close)&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Kitty, what the hell?&quot;</div></li><li class="li1"><div class="de1">&gt;More lines appear, all written as if someone with a poor understanding of coding was trying to close a program.</div></li><li class="li1"><div class="de1">&gt;Anon tries to interrupt but his queries are ignored, and the attempts at coding get less coherent to the point where the last few lines look like someone slapped their face across the keyboard and hit enter.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: HOW THE FUCK DO YOU TURN THIS SHIT OFF&quot;</div></li><li class="li1"><div class="de1">&gt;Finally, Anon thought, something legible.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: You&#039;re the tech nerd, kitty. Don&#039;t ask me.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: I AM NOT A NERD AND STOP CALLING ME KITTY YOU SMUT WRITING ROBOT&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Robot? Wha&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Wait&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Is this Kat5402?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: no, this is patrick&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Funny. Answer the question please.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Is this the Kat5402 that I have regular ERP sessions with?&quot;</div></li><li class="li1"><div class="de1">&gt;60 seconds pass. No reply. Too much info? Maybe. Who knows.</div></li><li class="li1"><div class="de1">&gt;At worse, whoever was on the other line left and he&#039;d have a fun story to tell to the real Kat.</div></li><li class="li1"><div class="de1">&gt;If not...</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: no&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Are you using Kat&#039;s account and/or her computer?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: ...yes&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: And as a totally sentient being who is definitely not a perverted AI text parser, may I ask to whom I have written softcore smut to?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: Her roommate... hi&quot;</div></li><li class="li1"><div class="de1">&gt;...this could be the start of something beautiful.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: It was good, by the way. The writing and stuff.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Really, now? I can keep going if you want.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: I don&#039;t actually do ERP. sorry</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Don&#039;t sweat it. Just relax and let me work my magic. For now, at least.</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: So, you in?&quot;</div></li><li class="li1"><div class="de1">&gt;There was a brief pause. Not the kind where you had trouble making a decision, but more like you left something on and went to check. Like an oven, or an open door.</div></li><li class="li1"><div class="de1">&gt;&quot;Kat: yeah&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Right&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon: Delicate fingers run across the small of her back. She purrs as silken fur fills the space between....</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">How I, Met You
-A simple prompt generator for how you met your waifur
-
-How to play:
-Post pic of Waifur, reply not required
-Alternatively, choose any image in the thread
-
-Post Number:			&gt;&gt;1556819746
-Last 4 Numbers:			&gt;&gt;------9746
-
-[Where We Met...]	
- Use these:				&gt;&gt;------97--
-						&gt;&gt;--------46
- Add the two:			97 + 46 = 143
- If &gt;=100 ignore 1--:		100 = 00
-							143 = 43
-
-[She is...]
- Use 2nd to Last:		&gt;&gt;--------4-
-
-[You are...]
- Use Last Digit:		&gt;&gt;---------6
-
-Digits: 43 , 4 , 6
-
-[Where We Met...]
- 01-05	bar / tavern
- 06-10	on commute
- 11-15	college / university
- 16-20	cafe
- 21-25	diner
-
- 26-30	drug dealer&#039;s den / alley
- 31-35	strip club / brothel
- 36-40	gym	 
- 41-45	medical facility
- 46-50	park
-
- 51-55	office
- 56-60	erotic chat / forum
- 61-65	middle of nowhere
- 66-70	fandom convention
- 71-75	shopping center / retail
-
- 76-80	block party / festival
- 81-85	police station
- 86-90	beach
- 91-95	forest / woods
- 96-00	online videogame
- 
-[She is...] &amp; [You are...]
- 1	just visiting, or passing through
- 2 	a client, or customer
- 3	meeting, or looking for you
- 4	working there
- 5	living there, or owns the place
- 
- 6	delivering something
- 7	stuck there
- 8	killing time, or loitering
- 9	causing trouble
- 0	lost
-
-Result: You met at the hospital(43). She works there(4), and you were delivering something(6).
-
-Notes:
-&gt; Prompts are purposefully vague, expand on it as you see fit. 
-&gt;&gt; i.e. &quot;Where We Met... on commute&quot; could mean a train, a shared carpool/uber, or not on a vehicle but at its terminal (bus stops and subway stations.)
-&gt; The picture you posted can imply themes or settings.
-&gt;&gt; i.e. if the picture depicts future-space and using the example Result above, She could be a bio-mechanical doctor and You could be a pilot for an interplanetary deliver service.
-&gt; &quot;How I, Met You&quot; implies the first meeting, however it isn&#039;t a rule.
-&gt;&gt; i.e. You met at college / university (12) while both of you were in for a visit (1). You haven&#039;t seen each other since graduation.
-
-------01------
-
-Image Ref: https://static1.e621.net/data/e5/47/e547710e5cdb84d790c0e797b86b2de9.jpg
-&gt;&gt;26825402
-&gt;56, 0, 2
-You met on an ERP website. She managed to stumble her way in there without fully realizing what it was. You, on the other hand, were a regular. So when she pinged you for a session, you answered the call.
-
-&gt;&quot;Anon: Hey, kitty. How was work?&quot;
-&gt;She&#039;s still at a lost, and now there&#039;s a chat window talking to her.
-&gt;Maybe randomly clicking stuff wasn&#039;t the best idea.
-&gt;Specially since this isn&#039;t her computer.
-&gt;&quot;Anon: You okay, kitty? You can talk to me, y&#039;know.&quot;
-&gt;She wonders if this &quot;Anon&quot; was a person or an AI. It wouldn&#039;t be a stretch for her roommate to make one.
-&gt;It seems friendly enough, so she decides to humor it.
-&gt;Lacking a mouse, she starts tabbing-in to the chat field.
-&gt;After 12 clicks and 8 unrelated windows popping up, she finally types out a reply.
-&gt;&quot;Kat: I&#039;m fine. Just a little... tired.&quot;
-&gt;&quot;Anon: Boss rode you hard today, huh? Same here.&quot;
-&gt;&quot;Anon: Can you believe that guy? Drags my ass through the ringer and he STILL expects me to show up early tomorrow.&quot;
-&gt;&quot;Anon: Is it too much to ask for a little recovery time?&quot;
-&gt;For an AI, she thought it was pretty charming. And the speech pattern wasn&#039;t as janky as she assumed.
-&gt;&quot;Kat: Looks like you had it worse.&quot;
-&gt;&quot;Kat: Tho I did have to deal with another client.&quot;
-&gt;&quot;Anon: At the same time?&quot;
-&gt;&quot;Kat: More or less. Had me going back and forth between the two &#039;til quittin&#039; time.&quot;
-&gt;&quot;Anon: Oof. No wonder you&#039;re sore.&quot;
-&gt;&#039;Sore&#039;... huh. She notes the strange choice of words. Looks like there&#039;s still a few hitches.
-&gt;&quot;Anon: Hey, if you ain&#039;t that tired, we can still relax for a bit.&quot;
-&gt;&quot;Anon: Wind down with something slow, y&#039;know?&quot;
-&gt;She&#039;s curious. It&#039;s an AI, what could it do?
-&gt;&quot;Kat: Whaddya have in mind?&quot;
-&gt;What follows is an elaborate foreplay scene depicting Anon undressing Kat and caressing all her intimate spots in an attempt to ease her soreness.
-&gt;Liberal descriptions of delicate hands brushing through soft, silken fur pinching sensitive nubs while tongues wrestle between teeth and fangs.
-&gt;Words on the screen fly by and she just stares, letting every sultry suggestion, every imaginary intent sink-in.
-
-&gt;Meanwhile.
-&gt;Foreplay was Anon&#039;s thing, says so right on his forum profile.
-&gt;And from his previous sessions with Kat, he knows she appreciates it.
-&gt;So much so that she asked for one-sided starts on their sessions so she could get... &quot;good and ready&quot;
-&gt;Not one to disappoint a truly avid fan, he agrees, and while basking in the afterglow of a job well done after typing out his latest novella of foreplay smut, he only has one thing to ask Kat on the other side of the screen:
-&gt;&quot;Anon: You good?&quot;
-&gt;30 seconds. No reply.
-&gt;&quot;Anon: Still there, kitty? Or are you a little... &quot;preoccupied?&quot;
-&gt;&quot;Kat: exit&quot;
-&gt;That&#039;s definitely strange, even for Kat.
-&gt;&quot;Anon: ?&quot;
-&gt;&quot;Kat: /quit&quot;
-&gt;&quot;Kat: shut_down=true&quot;
-&gt;&quot;Kat: window(close)&quot;
-&gt;&quot;Anon: Kitty, what the hell?&quot;
-&gt;More lines appear, all written as if someone with a poor understanding of coding was trying to close a program.
-&gt;Anon tries to interrupt but his queries are ignored, and the attempts at coding get less coherent to the point where the last few lines look like someone slapped their face across the keyboard and hit enter.
-&gt;&quot;Kat: HOW THE FUCK DO YOU TURN THIS SHIT OFF&quot;
-&gt;Finally, Anon thought, something legible.
-&gt;&quot;Anon: You&#039;re the tech nerd, kitty. Don&#039;t ask me.&quot;
-&gt;&quot;Kat: I AM NOT A NERD AND STOP CALLING ME KITTY YOU SMUT WRITING ROBOT&quot;
-&gt;&quot;Anon: Robot? Wha&quot;
-&gt;&quot;Anon: Wait&quot;
-&gt;&quot;Anon: Is this Kat5402?&quot;
-&gt;&quot;Kat: no, this is patrick&quot;
-&gt;&quot;Anon: Funny. Answer the question please.&quot;
-&gt;&quot;Anon: Is this the Kat5402 that I have regular ERP sessions with?&quot;
-&gt;60 seconds pass. No reply. Too much info? Maybe. Who knows.
-&gt;At worse, whoever was on the other line left and he&#039;d have a fun story to tell to the real Kat.
-&gt;If not...
-&gt;&quot;Kat: no&quot;
-&gt;&quot;Anon: Are you using Kat&#039;s account and/or her computer?&quot;
-&gt;&quot;Kat: ...yes&quot;
-&gt;&quot;Anon: And as a totally sentient being who is definitely not a perverted AI text parser, may I ask to whom I have written softcore smut to?&quot;
-&gt;&quot;Kat: Her roommate... hi&quot;
-&gt;...this could be the start of something beautiful.
-&gt;&quot;Kat: It was good, by the way. The writing and stuff.&quot;
-&gt;&quot;Anon: Really, now? I can keep going if you want.
-&gt;&quot;Kat: I don&#039;t actually do ERP. sorry
-&gt;&quot;Anon: Don&#039;t sweat it. Just relax and let me work my magic. For now, at least.
-&gt;&quot;Anon: So, you in?&quot;
-&gt;There was a brief pause. Not the kind where you had trouble making a decision, but more like you left something on and went to check. Like an oven, or an open door.
-&gt;&quot;Kat: yeah&quot;
-&gt;&quot;Anon: Right&quot;
-&gt;&quot;Anon: Delicate fingers run across the small of her back. She purrs as silken fur fills the space between....</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    24 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    25 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    31 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

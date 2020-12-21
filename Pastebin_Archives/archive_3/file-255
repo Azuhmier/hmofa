@@ -1,985 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Liquid Courage - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Liquid Courage - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/FcRqG5Nc" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/FcRqG5Nc" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="KoHWum_9u2RHuneJz8Ck4aJ1vV4d61JDT8_ZJDhfmA1Z1KLzA5z0NjHuOrCEp--tyjTMbG-pBm4Wt5JOaxPiXg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/FcRqG5Nc" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/FcRqG5Nc" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/cache/img/9/13/8/2923809.jpg" alt="Oliver_Hart">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Liquid Courage</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Oliver_Hart">Oliver_Hart</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Oliver_Hart" class="message" title="Send a private message to: Oliver_Hart"></a>
-                                    
-                <div class="date">
-                    <span title="Friday 11th of August 2017 07:37:03 PM CDT">Aug 11th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,011                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 24.53 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/FcRqG5Nc" class="btn -small">raw</a>
-                    <a href="/dl/FcRqG5Nc" class="btn -small">download</a>
-                    <a href="/clone/FcRqG5Nc" class="btn -small h_800">clone</a>
-                    <a href="/embed/FcRqG5Nc" class="btn -small h_800">embed</a>
-                    <a href="/print/FcRqG5Nc" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/FcRqG5Nc" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Liquid Courage -- Oliver_Hart</div></li><li class="li1"><div class="de1">Summary: So, there&#039;s a human, a cheetah, and some crows in this bar...</div></li><li class="li1"><div class="de1">Tags: [Cheetah] [Lewd] [Anon]</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Does any story with a happy ending start with alcohol?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tap the bar a few times, signaling for another round</div></li><li class="li1"><div class="de1">&gt;The bartender, a cheetah wearing a crisp white blouse and a pair of jeans, produces a short glass and sets about polishing it</div></li><li class="li1"><div class="de1">&gt;”You sure about that? You’re gonna regret it in the morning,” she asks</div></li><li class="li1"><div class="de1">&gt;Wordlessly, you produce a worn $10 bill and drop it into her nearly-empty tip jar</div></li><li class="li1"><div class="de1">&gt;She shrugs her shoulders and sets a rum and coke before you</div></li><li class="li1"><div class="de1">&gt;”I don’t get to serve human portions very often. I hope I mixed it right,” she adds with a wink</div></li><li class="li1"><div class="de1">&gt;Your head swimming and hot, you press the sweating glass to your forehead</div></li><li class="li1"><div class="de1">&gt;The bartender watches with some degree of confusion</div></li><li class="li1"><div class="de1">&gt;”If you just wanted something cool, ice is free you know.”</div></li><li class="li1"><div class="de1">“No, this is fine,” you take a few deep breaths, trying to keep track of your surroundings. “Just need a few minutes.”</div></li><li class="li1"><div class="de1">&gt;The cheetah leans on the counter</div></li><li class="li1"><div class="de1">&gt;”Not to sound like a stereotypical bartender or anything, but what’s wrong?” </div></li><li class="li1"><div class="de1">&gt;You take a meager sip</div></li><li class="li1"><div class="de1">“Nothing, actually.”</div></li><li class="li1"><div class="de1">&gt;”You’ve been coming here for a couple days now, and you’re WAY overdressed. Humans don’t just come to The Blinking Light, especially ones who look like they have cash to burn.”</div></li><li class="li1"><div class="de1">&gt;You shrug your shoulders. You’re not in an aggressive mood</div></li><li class="li1"><div class="de1">“I just enjoy the atmosphere. It’s nice to come here and unwind after work.”</div></li><li class="li1"><div class="de1">&gt;She looks around and then laughs </div></li><li class="li1"><div class="de1">&gt;”What atmosphere?”</div></li><li class="li1"><div class="de1">&gt;The bar is nearly empty, save for a few crows smoking cigarettes and drinking small glasses of beer</div></li><li class="li1"><div class="de1">&gt;They’ve been eying you since you came in </div></li><li class="li1"><div class="de1">“Well, you’re here, which brightens the room a little” you take another sip</div></li><li class="li1"><div class="de1">&gt;You swear you can see small pockets of crimson play across her cheeks</div></li><li class="li1"><div class="de1">&gt;She plays it off with a nervous laugh</div></li><li class="li1"><div class="de1">&gt;”Okay, you’re a little drunk.”</div></li><li class="li1"><div class="de1">“I’m more brave than I am drunk. That’s why they call it ‘liquid courage.’”</div></li><li class="li1"><div class="de1">&gt;She leans on the bar</div></li><li class="li1"><div class="de1">&gt;”I gotta hand it to you humans though, you can really hold your liquor. Just one of those and I’d be gone.”</div></li><li class="li1"><div class="de1">&gt;Actually, among other humans, you’re kind of a lightweight. But you don’t tell her that</div></li><li class="li1"><div class="de1">&gt;She begins wiping down the bar with a rag</div></li><li class="li1"><div class="de1">&gt;Maybe you’re just drunk, but you swear that the top of her blouse wasn’t unbuttoned before</div></li><li class="li1"><div class="de1">&gt;You can see the not-so-subtle mounds of her breasts, squeezed together by her arms as she wipes down the counter</div></li><li class="li1"><div class="de1">&gt;You do a fair bit of ogling before you notice that her head is starting to turn in your direction</div></li><li class="li1"><div class="de1">&gt;You snap your attention away from her sizable chest and onto the shelves of liquor behind the bar</div></li><li class="li1"><div class="de1">&gt;”You know…”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Ah shit, she caught you. Guess you weren’t as quick as you thought</div></li><li class="li1"><div class="de1">&gt;”You’ve been coming in here for a few days and I never got your name.”</div></li><li class="li1"><div class="de1">&gt;You let out a held breath. That was close</div></li><li class="li1"><div class="de1">“Anon. What about you? I’ve been coming here for a few days and never got your name either.”</div></li><li class="li1"><div class="de1">&gt;She laughs a little</div></li><li class="li1"><div class="de1">&gt;”This is why I keep telling my boss we should have name tags. My name is Emma.”</div></li><li class="li1"><div class="de1">&gt;You take a sip</div></li><li class="li1"><div class="de1">“I’m not trying to be rude or insensitive, but that’s not a very...cheetah-like name, you know?”</div></li><li class="li1"><div class="de1">&gt;Too bad you’re actually kind of blunt and stupid when you’re tipsy</div></li><li class="li1"><div class="de1">&gt;You instantly regret the words as they leave your mouth, and wish you could push them back down your stupid, drunken gullet</div></li><li class="li1"><div class="de1">&gt;Thankfully she takes it in stride, issuing a small laugh as proof</div></li><li class="li1"><div class="de1">&gt;”Yeah, you’re right. When my parents moved here, they wanted to leave their old life behind. So they wanted to name their daughter something that would help her fit in with her new heritage. They didn’t know Emma was a human name.”</div></li><li class="li1"><div class="de1">&gt;You sip your drink and make some small talk </div></li><li class="li1"><div class="de1">&gt;She explains that she’s a student at the local university working towards a degree in literature</div></li><li class="li1"><div class="de1">&gt;”And before you ask, no, I don’t do track. I’m not actually very athletic at all.”</div></li><li class="li1"><div class="de1">&gt;You tell her that’s okay, you’re not athletic either. You’re actually on the opposite side of the spectrum when it comes to fitness</div></li><li class="li1"><div class="de1">&gt;You’re an accountant at a large firm in the city</div></li><li class="li1"><div class="de1">&gt;”That explains why my tip jar is so full every night.”</div></li><li class="li1"><div class="de1">“Well, it’s not just because you’re cute, you also make a damn good rum and coke.”</div></li><li class="li1"><div class="de1">&gt;She nearly drops the glass she was polishing</div></li><li class="li1"><div class="de1">&gt;”Geeze, did my wrist slip when I was adding the rum or something?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Far beyond the realm of caring, you take a swig, and then thrust the glass into her face</div></li><li class="li1"><div class="de1">“I don’t know, wanna give it a taste?”</div></li><li class="li1"><div class="de1">&gt;She nervously glances between you and the glass</div></li><li class="li1"><div class="de1">&gt;”You’re...serious?”</div></li><li class="li1"><div class="de1">“I promise you, I wouldn’t be doing this if I didn’t genuinely think these were my favorite drinks in the city.”</div></li><li class="li1"><div class="de1">&gt;She slowly extends a hand to take your glass, but then quickly retracts it</div></li><li class="li1"><div class="de1">&gt;Her face turns stern and hard, and she directs her focus back to wiping down the counter</div></li><li class="li1"><div class="de1">“What? I promise I didn’t do anything to it. I just wanted you to try your own drink.”</div></li><li class="li1"><div class="de1">&gt;No response</div></li><li class="li1"><div class="de1">&gt;You feel a cluster of scornful eyes drilling into your back</div></li><li class="li1"><div class="de1">&gt;You turn around in your seat</div></li><li class="li1"><div class="de1">&gt;The crows are no longer playing pool</div></li><li class="li1"><div class="de1">&gt;They’re watching you with intent, hatred burning in their eyes</div></li><li class="li1"><div class="de1">&gt;One of them is clutching a pool cue </div></li><li class="li1"><div class="de1">&gt;You lock eyes with one of them for a brief second, and without words, you can hear what he’s trying to say.</div></li><li class="li1"><div class="de1">&gt;’Hands off.’</div></li><li class="li1"><div class="de1">&gt;You turn your back to them and place your unfinished drink back on the counter</div></li><li class="li1"><div class="de1">&gt;Emma is still busy wiping down the counter</div></li><li class="li1"><div class="de1">“Listen. I get it.”</div></li><li class="li1"><div class="de1">&gt;You flip open your wallet and deposit a couple dollars in her tip jar</div></li><li class="li1"><div class="de1">“I’m not a stranger to scorn or the judgment of society. I know where the boundaries are. I didn’t mean anything by that, promise.”</div></li><li class="li1"><div class="de1">&gt;You rise from your seat, bracing yourself against the bar for support</div></li><li class="li1"><div class="de1">&gt;You’re a lot drunker than you thought</div></li><li class="li1"><div class="de1">“I’ll stop causing trouble for you. Oh, and Emma?”</div></li><li class="li1"><div class="de1">&gt;She briefly glances up, her eyes pleading with you to leave for your own safety</div></li><li class="li1"><div class="de1">“These really are some of the best drinks I’ve had in this city.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A block from The Blinking Light, in the spitting rain, in this shitty, lonely city, you notice you’re not alone</div></li><li class="li1"><div class="de1">&gt;A quick check over your shoulder and you see the crows not too far behind you, gaining at an even pace</div></li><li class="li1"><div class="de1">&gt;The dim glow of their cigarettes briefly throws a curtain of orange light across their faces</div></li><li class="li1"><div class="de1">&gt;Their cold, hateful eyes are fixed on you </div></li><li class="li1"><div class="de1">&gt;You keep moving, hoping to wander past a group of cops on patrol</div></li><li class="li1"><div class="de1">&gt;Or people</div></li><li class="li1"><div class="de1">&gt;Or anyone</div></li><li class="li1"><div class="de1">&gt;But there’s nobody around. The houses are all locked up tight, the roads emptied save for a procession of trash being pushed along by the approaching storm</div></li><li class="li1"><div class="de1">&gt;You start running, but it’s not much good. Your strides are crippled by the heaviness of your head</div></li><li class="li1"><div class="de1">&gt;Maybe Emma did mix the drinks a little stronger this time</div></li><li class="li1"><div class="de1">&gt;Before you get a chance to call for help, you feel a rough hand on your shoulder yank you back</div></li><li class="li1"><div class="de1">&gt;You crash onto your ass with a yelp</div></li><li class="li1"><div class="de1">&gt;Dazed, you search for a quick escape</div></li><li class="li1"><div class="de1">&gt;Or a weapon</div></li><li class="li1"><div class="de1">&gt;A wall of black silhouettes crowd around you, closing off your escape</div></li><li class="li1"><div class="de1">&gt;Lightning rips across the dark skies, illuminating the cold, sodden faces of the crows now towering over you</div></li><li class="li1"><div class="de1">&gt;One of them thumps a pool cue across their palms</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Maybe it was the money they wanted, or the way you were dressed</div></li><li class="li1"><div class="de1">&gt;You didn’t exactly broadcast strained finances</div></li><li class="li1"><div class="de1">&gt;But you know that’s not it, because whatever’s in your wallet is just the icing on the cake</div></li><li class="li1"><div class="de1">&gt;It was the way Emma looked at you in the bar</div></li><li class="li1"><div class="de1">&gt;That curious, almost flattered expression when you were talking to her, the hand that nearly touched yours</div></li><li class="li1"><div class="de1">&gt;They were going to teach her a lesson, and you were going to be the demonstration</div></li><li class="li1"><div class="de1">&gt;”What a bunch of fools we lovers are,” you mutter, just as a crack of thunder smothers your words</div></li><li class="li1"><div class="de1">&gt;Well, this is how is how it ends, you guess</div></li><li class="li1"><div class="de1">&gt;Though you did get the feeling that your life was heading towards this moment anyway</div></li><li class="li1"><div class="de1">&gt;You shut your eyes, and try to retreat to somewhere warm and safe</div></li><li class="li1"><div class="de1">&gt;You’re not in the streets or in the rain anymore</div></li><li class="li1"><div class="de1">&gt;You’re not about to die in some dead-end part of town</div></li><li class="li1"><div class="de1">&gt;You’re back in your apartment, rolling over in your bed</div></li><li class="li1"><div class="de1">&gt;And she’s next to you</div></li><li class="li1"><div class="de1">&gt;No secrets here, no lying to friends or family</div></li><li class="li1"><div class="de1">&gt;You’re softly running your hands through her fur</div></li><li class="li1"><div class="de1">&gt;You’re pressing the heat of your body against hers</div></li><li class="li1"><div class="de1">&gt;You’re smelling the lingering perfume on her shoulder, the shampoo in her hair</div></li><li class="li1"><div class="de1">&gt;You’re hearing her voice for the first time in the months since she passed</div></li><li class="li1"><div class="de1">&gt;But it sounds different than what you remember</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”EITHER YOU GET LOST OR YOU GET SHOT, YOU HEAR ME?!”</div></li><li class="li1"><div class="de1">&gt;You open your eyes</div></li><li class="li1"><div class="de1">&gt;The crows are no longer bearing down on you </div></li><li class="li1"><div class="de1">&gt;They’re scattering in all directions, shouting obscenities over the rumble of thunder</div></li><li class="li1"><div class="de1">&gt;When the lightning flashes, you at last get to see who made them flee with their tails between their legs</div></li><li class="li1"><div class="de1">&gt;Emma is standing a couple feet away, an old shotgun sitting loosely in her grip</div></li><li class="li1"><div class="de1">&gt;When she sees you laying on the sidewalk, soaked to the brim, her expression shifts from commanding to concerned</div></li><li class="li1"><div class="de1">&gt;She helps you to your feet, but it doesn’t do much good, as you’re forced to lean on her for support</div></li><li class="li1"><div class="de1">&gt;”Guess I didn’t mix those drinks right after all,” she mutters</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Without even realizing it, you press close together for warmth as you stagger back to the bar</div></li><li class="li1"><div class="de1">&gt;You really would have died out here tonight. There’s not a soul out and about. Not even a car</div></li><li class="li1"><div class="de1">&gt;When you get back to the bar, both of you are sodden and shivering, sheets of rain pelting you without rest</div></li><li class="li1"><div class="de1">&gt;You do your best to make it to make it over to your old barstool</div></li><li class="li1"><div class="de1">&gt;It’s still warm</div></li><li class="li1"><div class="de1">&gt;Emma turns the lock on the front door and then slides back against it, shivering, clutching the shotgun to her chest</div></li><li class="li1"><div class="de1">&gt;You watch her for a second, a little drunk, a little nervous, still not knowing what to say</div></li><li class="li1"><div class="de1">&gt;A thank you, perhaps?</div></li><li class="li1"><div class="de1">&gt;Instead, your eyes trail the shotgun as she lays it on the floor beside her</div></li><li class="li1"><div class="de1">&gt;She looks up at you, still shaking from the cold</div></li><li class="li1"><div class="de1">&gt;Or the adrenaline</div></li><li class="li1"><div class="de1">&gt;....</div></li><li class="li1"><div class="de1">&gt;”It’s not loaded, you know. It never is. I don’t even think my boss keeps any ammo on deck.”</div></li><li class="li1"><div class="de1">“…That’s no fun.”</div></li><li class="li1"><div class="de1">&gt;More silence passes between you</div></li><li class="li1"><div class="de1">&gt;She’s shaking pretty bad</div></li><li class="li1"><div class="de1">&gt;Her white blouse is soaked through, and clings to the rest of her relatively thin frame</div></li><li class="li1"><div class="de1">&gt;You try not to stare too much, but it’s not likely she’ll notice</div></li><li class="li1"><div class="de1">&gt;She’s just staring worriedly at the floor, perhaps still in shock</div></li><li class="li1"><div class="de1">&gt;You don’t think, you just act</div></li><li class="li1"><div class="de1">&gt;You shed your heavy jacket, drape it over her, and slide down against the door next to her</div></li><li class="li1"><div class="de1">&gt;”T-Thanks,” she says, pulling it tight</div></li><li class="li1"><div class="de1">&gt;She tries to keep her voice from shaking, but it’s no good</div></li><li class="li1"><div class="de1">“Well, I owe you. For, you know. Saving my life. Buy you a drink?”</div></li><li class="li1"><div class="de1">&gt;Her laugh breaks the tension in her throat, though her body still shakes</div></li><li class="li1"><div class="de1">&gt;”I was almost beaten to death by a nasty looking group of crows for pretending to be packing heat, for YOUR hairless ass, and you now you want to have a drink with me?”</div></li><li class="li1"><div class="de1">“Hey now,” you struggle to your feet, bracing yourself against the door. “My ass isn’t that hairy.”</div></li><li class="li1"><div class="de1">&gt;You extend your arm down to her</div></li><li class="li1"><div class="de1">“Come on. A drink will chase away that chill in your bones.”</div></li><li class="li1"><div class="de1">&gt;The cheetah’s face curls up with a smile as she grasps your slippery palm</div></li><li class="li1"><div class="de1">&gt;”It fucking b-better. God I’m cold.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So what I like at company mixers is a gin and tonic,” you say, spritzing out some gin and clear, bubbling tonic water into a glass</div></li><li class="li1"><div class="de1">&gt;You are behind the bar, while Emma leans on the polished wood, still sodden and dripping rainwater</div></li><li class="li1"><div class="de1">&gt;”So this is what it’s like to be on the other side of the bar,” she says, keenly watching your every movement, relishing in the butler-like service you provide</div></li><li class="li1"><div class="de1">“Wait,” you set the drink down in front of her. She takes small sips</div></li><li class="li1"><div class="de1">“You’ve never been on this side of the bar before?” You slur, taking a sip of vodka cranberry you’d made up.</div></li><li class="li1"><div class="de1">&gt;Emma giggles between sips</div></li><li class="li1"><div class="de1">&gt;”Did you miss the part where I said I’m studying for a degree in literature? Do you think I can afford to blow my money in bars?”</div></li><li class="li1"><div class="de1">“Hey now,” you point your drink towards her</div></li><li class="li1"><div class="de1">&gt;You can already feel your body warming up just looking at her</div></li><li class="li1"><div class="de1">“My wife got a degree a degree in literature. There’s plenty you can do with that.”</div></li><li class="li1"><div class="de1">&gt;The cheetah stiffens her back and sits up straight, both hands wrapped around her half-finished drink</div></li><li class="li1"><div class="de1">&gt;”I didn’t think you had a wife,” she says, almost sulking</div></li><li class="li1"><div class="de1">&gt;You notice her head tilt down into her drink a little</div></li><li class="li1"><div class="de1">&gt;The thin outline of the pink bra she’s wearing</div></li><li class="li1"><div class="de1">&gt;Which ordinarily would be kinda cute</div></li><li class="li1"><div class="de1">&gt;But she’s quietly lapping at a gin and tonic with her tongue, and that’s just somewhat weird</div></li><li class="li1"><div class="de1">&gt;You can look past it, though</div></li><li class="li1"><div class="de1">&gt;Your wife used to do that too</div></li><li class="li1"><div class="de1">“Well, she did.” You take a long pull on your drink, nearly draining it down to the ice</div></li><li class="li1"><div class="de1">“She passed away a few months ago from scoliosis.” </div></li><li class="li1"><div class="de1">&gt;Emma lifts her gaze</div></li><li class="li1"><div class="de1">&gt;”I’m really sorry to hear that,” she says, her inflection like cold rainwater</div></li><li class="li1"><div class="de1">“I appreciate the sentiment. It was… Hard, watching her go. You take a woman who loves being outdoors, running around, getting her fur wet-”</div></li><li class="li1"><div class="de1">&gt;”Sorry, did you say fur?” Emma cuts in</div></li><li class="li1"><div class="de1">&gt;You polish off your vodka cranberry and settle on just straight vodka</div></li><li class="li1"><div class="de1">“Yeah,” you say. </div></li><li class="li1"><div class="de1">&gt;Your body feels loose, as does your mind</div></li><li class="li1"><div class="de1">&gt;Like a balloon that’s had its string cut</div></li><li class="li1"><div class="de1">&gt;You feel ready to float away</div></li><li class="li1"><div class="de1">&gt;Emma starts slowly sipping at her gin and tonic. </div></li><li class="li1"><div class="de1">“She was a collie. I dunno. This is going to sound bad, but can I tell you something?”</div></li><li class="li1"><div class="de1">&gt;Should you even start down this road?</div></li><li class="li1"><div class="de1">&gt;Even in your addled state you know how this is going to go</div></li><li class="li1"><div class="de1">&gt;She shrugs her shoulders and shakes out her fur, splashing water all over her clean, clean tables</div></li><li class="li1"><div class="de1">“The reason I come here a lot isn’t just because the drinks are good — they are.”</div></li><li class="li1"><div class="de1">&gt;”God I’m drunk enough to believe that now,” she says</div></li><li class="li1"><div class="de1">&gt;You pause, taking a fortifying breath, sucking down the warm air and the moisture and the cling of the smoke from the cigarettes still smoldering in the ash trays</div></li><li class="li1"><div class="de1">&gt;You search her face for what seems like hours, lost in the fine contours of her jaw, her raised cheekbones, the gleam in her eyes, the short, soft fur that carpets her tender skin</div></li><li class="li1"><div class="de1">&gt;It’s… nothing like her</div></li><li class="li1"><div class="de1">&gt;What were you looking for in her — a new wife, some kindling spark that could bring your old one back?</div></li><li class="li1"><div class="de1">&gt;No</div></li><li class="li1"><div class="de1">“…I come here because…”</div></li><li class="li1"><div class="de1">&gt;”You’re lonely?” She stabs</div></li><li class="li1"><div class="de1">&gt;And the stab hits its mark; right in the heart</div></li><li class="li1"><div class="de1">“Yes,” you say, exhaling, setting the bottle down. “I am… very lonely. At work. At home. I can’t stand to be there most nights. I still find her fur everywhere — On the couch, the bed, the bathroom — Hell, I even found some in the microwave. It’s like she’s haunting me.”</div></li><li class="li1"><div class="de1">&gt;Emma sets her own drink down, the warmth of the liquor manifested in a scarlet sheen all over he face and neck</div></li><li class="li1"><div class="de1">&gt;She wears a drawn and saddened look</div></li><li class="li1"><div class="de1">&gt;”I know it doesn’t mean much, especially coming from someone who has never lost anyone before, but that’s really sad. Hell, you could write a story about something like that,” she says into her drink</div></li><li class="li1"><div class="de1">&gt;You lean up against the bar, bending your hip out</div></li><li class="li1"><div class="de1">“So, you going to write it?”</div></li><li class="li1"><div class="de1">&gt;”Write it?” she stiffens, the iron rod in her spine going straight</div></li><li class="li1"><div class="de1">&gt;She shakes her head as if she could shake the words out of her ears</div></li><li class="li1"><div class="de1">&gt;”I don’t write. That’s…”</div></li><li class="li1"><div class="de1">“Sad,” you cut in</div></li><li class="li1"><div class="de1">&gt;”Sad?” She draws back. “Why is that sad?”</div></li><li class="li1"><div class="de1">“Because, a writer is a reader moved to emulation. You can say you’ve never been moved to emulation?”</div></li><li class="li1"><div class="de1">&gt;She does not immediately respond</div></li><li class="li1"><div class="de1">&gt;She focuses her attention on her drink, bowing her head, mumbling something in a volume that outmatches human hearing</div></li><li class="li1"><div class="de1">&gt;You lean in closer</div></li><li class="li1"><div class="de1">“I’m sorry. I didn’t mean to-”</div></li><li class="li1"><div class="de1">&gt;”No, you’re fine.” She sticks her hand out, takes the bottle off the table, and pours a shots-worth of vodka into her empty glass</div></li><li class="li1"><div class="de1">&gt;A human-sized shot, that is</div></li><li class="li1"><div class="de1">&gt;”I’m not offended…or hurt… I’m just…”</div></li><li class="li1"><div class="de1">&gt;She takes a long, exaggerated sip, slamming her eyes shut</div></li><li class="li1"><div class="de1">&gt;Liquid courage</div></li><li class="li1"><div class="de1">&gt;With a stuttering swallow, the vodka hits her gut, leaving only a burnt trail down her throat</div></li><li class="li1"><div class="de1">&gt;She coughs for a bit</div></li><li class="li1"><div class="de1">&gt;Once her fit is over she shakes her fur again</div></li><li class="li1"><div class="de1">&gt;This time there’s less water</div></li><li class="li1"><div class="de1">&gt;”What I’m trying to say is: I write poetry. Bad poetry. Really bad poetry.”</div></li><li class="li1"><div class="de1">“Poetry?” You fill up your glass and match her shot. Yours goes down twice as easy as hers did</div></li><li class="li1"><div class="de1">“My wife was a prose writer, but I really like song lyrics. Does that count?”</div></li><li class="li1"><div class="de1">&gt;She shrugs</div></li><li class="li1"><div class="de1">&gt;”I think it depends on the song. You know what?”</div></li><li class="li1"><div class="de1">“What?”</div></li><li class="li1"><div class="de1">&gt;She stares hard at the bottle, squinting, head locked in some kind of duel with her better self</div></li><li class="li1"><div class="de1">&gt;But our better selves are often the weaker of our natures, and so, with some internal deliberation, she reaches for the bottle and pours herself another shot</div></li><li class="li1"><div class="de1">&gt;You can’t help but peer down her shirt as she reaches over and pours herself a shot</div></li><li class="li1"><div class="de1">&gt;She has a nice, slender figure</div></li><li class="li1"><div class="de1">&gt;You take a small sip of melted ice and vodka</div></li><li class="li1"><div class="de1">&gt;Ahhhh to be young again</div></li><li class="li1"><div class="de1">&gt;”I’m going to read you my poetry. I’ve never read anyone my poetry before, but if it has to be someone, it might as well be you. Some guy in a bar.”</div></li><li class="li1"><div class="de1">“Hey now, I’m not just some guy in a bar. I’ve spilled my guts to you,” you counter</div></li><li class="li1"><div class="de1">&gt;Which is true</div></li><li class="li1"><div class="de1">&gt;She pulls a small leather notebook out of her back pocket</div></li><li class="li1"><div class="de1">&gt;”And I’m about to spill my guts to you,” she says, a terrible blush scouring her face. “You can’t laugh, okay?”</div></li><li class="li1"><div class="de1">&gt;You extend your pinkie to her</div></li><li class="li1"><div class="de1">“I pinkie swear that I won’t laugh.”</div></li><li class="li1"><div class="de1">&gt;She just stares at your extended digit, not sure of what to do with it</div></li><li class="li1"><div class="de1">&gt;You retract the notion</div></li><li class="li1"><div class="de1">&gt;Must be a human thing</div></li><li class="li1"><div class="de1">&gt;She spins the pages of her pocket notebook a bit humming with disapproval at most everything she comes across</div></li><li class="li1"><div class="de1">&gt;Except one, near the back of the book</div></li><li class="li1"><div class="de1">&gt;Good God she writes a lot of poems</div></li><li class="li1"><div class="de1">&gt;She mouths a few words, looks you in the eyes, takes her shot, and begins to speak:</div></li><li class="li1"><div class="de1">&gt;”Where a river bends in two</div></li><li class="li1"><div class="de1">&gt;”Is where we bound our boat to the shore</div></li><li class="li1"><div class="de1">&gt;”And scurried off</div></li><li class="li1"><div class="de1">&gt;”Like field mice</div></li><li class="li1"><div class="de1">&gt;”For autumn’s glow</div></li><li class="li1"><div class="de1">&gt;”To bronze everything in finer coinage than emperor’s gold.</div></li><li class="li1"><div class="de1">&gt;”That fork in the river</div></li><li class="li1"><div class="de1">&gt;”Which pulled like two strings of a violin</div></li><li class="li1"><div class="de1">&gt;”Separated and cut by a bow</div></li><li class="li1"><div class="de1">&gt;”Of inland cattails</div></li><li class="li1"><div class="de1">&gt;”Bursting</div></li><li class="li1"><div class="de1">&gt;”Slamming on our skin.”</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&gt;She lowers her notebook like a shield protecting her from embarrassment</div></li><li class="li1"><div class="de1">&gt;Her face searches yours for something</div></li><li class="li1"><div class="de1">&gt;Approval</div></li><li class="li1"><div class="de1">&gt;Laughter</div></li><li class="li1"><div class="de1">&gt;Joy</div></li><li class="li1"><div class="de1">&gt;Sadness</div></li><li class="li1"><div class="de1">&gt;Anything</div></li><li class="li1"><div class="de1">&gt;You can only fight back tears</div></li><li class="li1"><div class="de1">&gt;Not because it was beautiful — though It was stirring --</div></li><li class="li1"><div class="de1">&gt;But because it reminds you of spending time at your wife’s old house in northern Michigan, where you first met one another between old friends and new, one another a bridge into the other’s world</div></li><li class="li1"><div class="de1">&gt;If your love was a bridge, you had built it strong enough to withstand the force of any storm — Michigan or otherwise</div></li><li class="li1"><div class="de1">&gt;But disease was more than a storm. It was an earthquake</div></li><li class="li1"><div class="de1">&gt;You feel weak at the knees</div></li><li class="li1"><div class="de1">&gt;Maybe from the alcohol, or something else</div></li><li class="li1"><div class="de1">&gt;And so you clap a little bit, trying desperately to stay vertical when it feels like the whole weight of gravity is forcing you downward</div></li><li class="li1"><div class="de1">&gt;You can’t imagine a better way to show approval for anyone than to cry at the utterance of their work</div></li><li class="li1"><div class="de1">&gt;But you can only produce a few tears, like diamonds that take eons to form in the crevices and crannies of mountains</div></li><li class="li1"><div class="de1">&gt;Emma’s face glows with warmth and cheer</div></li><li class="li1"><div class="de1">&gt;”You really liked it that much?” She leans forward like an eager child</div></li><li class="li1"><div class="de1">”Ho boy,” you wipe away that pathetic single tear and reach for the bottle</div></li><li class="li1"><div class="de1">&gt;Another shot</div></li><li class="li1"><div class="de1">&gt;Liquid courage to say what your heart cannot</div></li><li class="li1"><div class="de1">”I loved it. You’ve got a songwriter’s heart…  Felt like it drew my soul outta my body, like you’d smuggle soap out of a hotel.”</div></li><li class="li1"><div class="de1">&gt;Her head shoots backward in astonishment</div></li><li class="li1"><div class="de1">&gt;”Damnnnn, now there’s compliment. And a poetic one at that. I didn’t know you were such a poet yourself.”</div></li><li class="li1"><div class="de1">“I’m- *hic*, I’m not. I just like music”</div></li><li class="li1"><div class="de1">&gt;She leans her chin on the bar, her eyes sliding shut</div></li><li class="li1"><div class="de1">&gt;”You know, I’ve never done that for anyone before. That was fun.”</div></li><li class="li1"><div class="de1">&gt;One of her eyes opens and stares straight ahead</div></li><li class="li1"><div class="de1">&gt;Which happens to be at your belt</div></li><li class="li1"><div class="de1">&gt;”You know there are a lot of humans at my college. Just tons of them. I’ve never been around so many smoothskins in my life,” she says, her words blunt, yet casual</div></li><li class="li1"><div class="de1">&gt;She doesn’t even care that she’s uttered a pretty harsh slur at a very, very human patron of her workplace</div></li><li class="li1"><div class="de1">&gt;You crouch down, bouncing on the balls of your feet</div></li><li class="li1"><div class="de1">&gt;You place your head on the bar, almost touching her wet nose</div></li><li class="li1"><div class="de1">&gt;It twitches with sudden anticipation</div></li><li class="li1"><div class="de1">“It’s okay. Snapjaw.”</div></li><li class="li1"><div class="de1">&gt;A grin widens across her face</div></li><li class="li1"><div class="de1">&gt;”So that’s how it is, hairless rat,” she fires back in good cheer</div></li><li class="li1"><div class="de1">“That’s how it is, fangmouth,” you reply</div></li><li class="li1"><div class="de1">&gt;ooooh, nice</div></li><li class="li1"><div class="de1">&gt;Now she’s really smiling, relishing in the casual specisim</div></li><li class="li1"><div class="de1">&gt;”I like fangmouth. Haven’t heard that one in a few years. What else you got?”</div></li><li class="li1"><div class="de1">“Pred.”</div></li><li class="li1"><div class="de1">&gt;”Weak.”</div></li><li class="li1"><div class="de1">”Razortooth.”</div></li><li class="li1"><div class="de1">&gt;”WEAKER!”</div></li><li class="li1"><div class="de1">“Fuck, I don’t gotta say anything. I’m a human, the most dominant species on this entire bitch of an Earth.”</div></li><li class="li1"><div class="de1">&gt;”Oh,” she chortles, “you think you’re the dominant species?”</div></li><li class="li1"><div class="de1">“I mean… I thought that went without saying…”</div></li><li class="li1"><div class="de1">&gt;She bounces unsteadily to her feet, legs poised</div></li><li class="li1"><div class="de1">&gt;”You wanna have a race you wrinkly ol’ bitch? See who the real apex predator is?”</div></li><li class="li1"><div class="de1">&gt;You stagger upwards, unable to tell if she’s joking or not</div></li><li class="li1"><div class="de1">&gt;Gravity feels shaky today</div></li><li class="li1"><div class="de1">&gt;Both you and her are FAR too drunk to be running — much less sprinting</div></li><li class="li1"><div class="de1">“C’mon spots, you’re gonna actually try and race me…” you look around the relatively small room</div></li><li class="li1"><div class="de1">“In here?”</div></li><li class="li1"><div class="de1">&gt;”Damn straight,” she says, scarlet burning across her dopey and excited face. “I’m not athletic, so it’ll be a fair race.”</div></li><li class="li1"><div class="de1">&gt;Your addled mind reels as you entertain the idea of racing inside an empty bar</div></li><li class="li1"><div class="de1">“Alright you pussy, pun intended. You’re on.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You start at the back of the bar, palms resting on the door</div></li><li class="li1"><div class="de1">&gt;The world is spinning and you want it to stop</div></li><li class="li1"><div class="de1">&gt;Emma counts you in</div></li><li class="li1"><div class="de1">&gt;”1…” </div></li><li class="li1"><div class="de1">&gt;”2…” Her eyes momentarily flick over to you</div></li><li class="li1"><div class="de1">&gt;”3!” She bolts forward, legs twisting over each other</div></li><li class="li1"><div class="de1">&gt;You explode forward as well, but the Earth does a sharp right turn and soon you find yourself veering off into a freshly polished table</div></li><li class="li1"><div class="de1">&gt;You manage to clip a few tables and knock them on their sides</div></li><li class="li1"><div class="de1">&gt;But you go down hard</div></li><li class="li1"><div class="de1">“Emma?” You say, lifting your head from the wreckage of tables and chairs</div></li><li class="li1"><div class="de1">&gt;Your eyes find the girl crumpled on the ground before a support beam, her arms spread wide in a magnificent T-Pose</div></li><li class="li1"><div class="de1">&gt;Without thinking, you leap forward and slap against the ground</div></li><li class="li1"><div class="de1">&gt;The best you can do is crawl towards the girl</div></li><li class="li1"><div class="de1">&gt;Standing is no longer an option</div></li><li class="li1"><div class="de1">&gt;As you crawl, you keep calling out her name</div></li><li class="li1"><div class="de1">”Emma…”</div></li><li class="li1"><div class="de1">“Emma…”</div></li><li class="li1"><div class="de1">&gt;The girl rolls over with a heavy groan, clutching her head</div></li><li class="li1"><div class="de1">&gt;”Sogn of a bidchhh,” she moans</div></li><li class="li1"><div class="de1">&gt;You’re practically army crawling towards her by the time she sits up </div></li><li class="li1"><div class="de1">&gt;Blood runs from her nose</div></li><li class="li1"><div class="de1">&gt;”Igh thing I win,” she says pinching off the blood</div></li><li class="li1"><div class="de1">“That’s…” You can no longer keep your head upright</div></li><li class="li1"><div class="de1">&gt;It heads the ground with a heavy *CONK*</div></li><li class="li1"><div class="de1">“You cheated…” you try to reason</div></li><li class="li1"><div class="de1">&gt;You can only see darkness</div></li><li class="li1"><div class="de1">&gt;You can only feel the gentle curves of the Earth, the way it spins, like the world’s slowest pirouette</div></li><li class="li1"><div class="de1">&gt;So you don’t feel it when Emma snuggles up against you</div></li><li class="li1"><div class="de1">&gt;More importantly, you do feel it when she uses your wet shirt to wipe blood on</div></li><li class="li1"><div class="de1">“Heyyyy, not cool!” you groan, flipping over</div></li><li class="li1"><div class="de1">&gt;Her head comes to rest on your chest</div></li><li class="li1"><div class="de1">&gt;It doesn’t feel like there’s much you can do at this point</div></li><li class="li1"><div class="de1">&gt;You are SAUCED</div></li><li class="li1"><div class="de1">&gt;But you know what? You feel good</div></li><li class="li1"><div class="de1">&gt;Everything feels warm</div></li><li class="li1"><div class="de1">&gt;Emma is cool</div></li><li class="li1"><div class="de1">&gt;And you’re safe from-</div></li><li class="li1"><div class="de1">&gt;Emma presses her hot, wet lips against yours</div></li><li class="li1"><div class="de1">&gt;Your eyes bulge in your head</div></li><li class="li1"><div class="de1">&gt;As if realizing what she was doing, she draws her head back, still tethered to your mouth by a thin, gossamer strand of saliva</div></li><li class="li1"><div class="de1">&gt;Her eyes split wide and her mouth starts moving</div></li><li class="li1"><div class="de1">&gt;”Oh- Oh my God. I’m so sorry. I don’t know what…”</div></li><li class="li1"><div class="de1">&gt;A fresh bloom of red hits her cheeks</div></li><li class="li1"><div class="de1">&gt;And, as if right on cue, blood threads down from her nose</div></li><li class="li1"><div class="de1">&gt;She sharply turns her head</div></li><li class="li1"><div class="de1">&gt;”Fugg,” she says pinching her nose. “I ruin eberythinng.”</div></li><li class="li1"><div class="de1">&gt;You laugh</div></li><li class="li1"><div class="de1">“Eberything,” you repeat, wiping her taste from your lips </div></li><li class="li1"><div class="de1">&gt;She tastes like vodka, curiosity</div></li><li class="li1"><div class="de1">&gt;And fur?</div></li><li class="li1"><div class="de1">&gt;You sit up and watch as her form seems to slump — her shoulders falling, her head bowed, body curving inwards</div></li><li class="li1"><div class="de1">&gt;Idea</div></li><li class="li1"><div class="de1">&gt;Bad idea, potentially, but it is an idea, and when your drunk, all the good ideas seem bad and vice-versa</div></li><li class="li1"><div class="de1">&gt;You crawl over to her and allow the full weight of your body to come down on top of her</div></li><li class="li1"><div class="de1">&gt;She gasps and falls backwards</div></li><li class="li1"><div class="de1">&gt;Your head rests just a few inches away from her mouth</div></li><li class="li1"><div class="de1">&gt;”What are you doing?” She whispers, face beet-red</div></li><li class="li1"><div class="de1">“You didn’t make any mistakes,” you lower your head. “Your timing was just off. So this will have to do.”</div></li><li class="li1"><div class="de1">&gt;You silence her with a gentle kiss</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&gt;She gasps a little, fingers pulling at your shirt in shock, but she seems to fade and lean into it, matching your tepid effort with some push of her own</div></li><li class="li1"><div class="de1">&gt;It feels… similar to your wife, the way your mouths don’t quite match up, but you try to put them together</div></li><li class="li1"><div class="de1">&gt;You lean into her, arm bending to tuck her head in the crook of your elbow</div></li><li class="li1"><div class="de1">&gt;When you draw back, after what felt like hours, you’re both breathless</div></li><li class="li1"><div class="de1">&gt;You watch as her chest rises and falls, heavy and wanting for air</div></li><li class="li1"><div class="de1">&gt;You don’t wipe her taste away</div></li><li class="li1"><div class="de1">&gt;Her needy eyes search yours, a look of shock and sadness at the abruptness of your ending</div></li><li class="li1"><div class="de1">&gt;”T-Thank you for the encouragement,” she stammers. “Could I…?”</div></li><li class="li1"><div class="de1">&gt;You lean closer at the behest of her fingers piling up your shirt</div></li><li class="li1"><div class="de1">&gt;”Could I have a little more encouragement?” She weakly requests</div></li><li class="li1"><div class="de1">&gt;Well, what kind of man would you be if you didn’t oblige?</div></li><li class="li1"><div class="de1">&gt;You cock your head and press your mouth to hers</div></li><li class="li1"><div class="de1">&gt;The feeling of your tongues meeting is like an electric current finally being passed between your two heaving bodies</div></li><li class="li1"><div class="de1">&gt;She shudders as you press your tongue against hers, body following suit</div></li><li class="li1"><div class="de1">&gt;The gentle curves of her form become apparent</div></li><li class="li1"><div class="de1">&gt;The softness of her fur, the responsiveness of her skin through her wet blouse</div></li><li class="li1"><div class="de1">&gt;The plushness of her breasts against your skin</div></li><li class="li1"><div class="de1">&gt;It all feels like little pinpricks of fire gathering into something big and beautiful</div></li><li class="li1"><div class="de1">&gt;She pushes her hand through your hair and down the back of your neck</div></li><li class="li1"><div class="de1">&gt;With a tenderness, she pulls you deeper into her mouth, as if wanting you to stay locked together at the lips forever</div></li><li class="li1"><div class="de1">&gt;Not that you’d complain</div></li><li class="li1"><div class="de1">&gt;But you need to breathe</div></li><li class="li1"><div class="de1">&gt;You come up and gasp as subtly as you can, sucking air in ragged breaths</div></li><li class="li1"><div class="de1">&gt;Emma bends beneath you, her body like a a semi-rigid snake</div></li><li class="li1"><div class="de1">&gt;When you lock eyes with her, you know, without a single word, what she wants</div></li><li class="li1"><div class="de1">&gt;But you don’t go there yet</div></li><li class="li1"><div class="de1">&gt;You dip below her chin, veer to the right, and plant small kisses on the nape of her neck</div></li><li class="li1"><div class="de1">&gt;Your ministrations tease little gasps and moans from her.</div></li><li class="li1"><div class="de1">&gt;Each time your lips pull gently at her flesh she shivers just a tiny bit</div></li><li class="li1"><div class="de1">&gt;Perfect</div></li><li class="li1"><div class="de1">&gt;You focus on her neck, while your free hand travels down the outside of her shirt and pulls at a handful of her breasts</div></li><li class="li1"><div class="de1">&gt;The effect is pretty rapid</div></li><li class="li1"><div class="de1">&gt;She bends hard, bowing back upwards so as to give you more purchase on her body like a gift for a job well done</div></li><li class="li1"><div class="de1">&gt;A gift you do not plan to waste</div></li><li class="li1"><div class="de1">&gt;You swiftly unbutton her shirt with your free hand, and it feels like you’re undoing the ribbon to a beautiful and ornate present</div></li><li class="li1"><div class="de1">&gt;Your other hand you use to cup the base of her skull and lift it up to your pressing lips</div></li><li class="li1"><div class="de1">&gt;The spill of her modest cleavage is contained by an equally modest pink bra</div></li><li class="li1"><div class="de1">&gt;You pull back from her wanting mouth</div></li><li class="li1"><div class="de1">&gt;Her hot breath puffs up in your face</div></li><li class="li1"><div class="de1">&gt;”W-Why’d you stop?” She says, her want played out across her face, pulling her eyelids down until they’re half-shut</div></li><li class="li1"><div class="de1">&gt;You raise an eyebrow</div></li><li class="li1"><div class="de1">“Pink bra and a white blouse? You’re a bold woman,” you say, acutely aware of your need to add a disarming chuckle after that</div></li><li class="li1"><div class="de1">&gt;”Shut up…” she moans, accenting her verbiage with a tired smile</div></li><li class="li1"><div class="de1">&gt;She sits up suddenly</div></li><li class="li1"><div class="de1">&gt;”If you don’t like the bra,” she reaches her hands behind her back. “then fine. I’ll just take it off.”</div></li><li class="li1"><div class="de1">&gt;She gives you a challenging stare and a cocky smirk, but you hardly notice</div></li><li class="li1"><div class="de1">&gt;Your feeble male brain is only concerned with her chest, now unburdened and unhindered by that pesky piece of underwear</div></li><li class="li1"><div class="de1">&gt;You’re so busy staring at the way her pink nipples practically glow against her spotted fur that you don’t notice it when she hurls the bra at your face</div></li><li class="li1"><div class="de1">&gt;”Pervert,” she giggles</div></li><li class="li1"><div class="de1">&gt;She really is beautiful, and in more than just a casual hookup way</div></li><li class="li1"><div class="de1">&gt;Her blouse loosely hangs on her body, and to anyone else she might look undressed or disheveled</div></li><li class="li1"><div class="de1">&gt;But to you, she reminds you of an angel, just with shorter wings</div></li><li class="li1"><div class="de1">&gt;It’s the softness of her coat, the way its paleness catches the overhead light</div></li><li class="li1"><div class="de1">&gt;Its in the roundness of her high cheeks, the shortness of her muzzle, the pointed (yet woozy) drift of her gaze that’s casually trawling all over your body with an approving smile</div></li><li class="li1"><div class="de1">&gt;Emma purrs contentedly as her lithe tail swishes behind her in a hypnotizing rhythm, like the world’s slowest metronome</div></li><li class="li1"><div class="de1">&gt;You can’t control yourself anymore</div></li><li class="li1"><div class="de1">&gt;You pretty much leap back on top of her</div></li><li class="li1"><div class="de1">&gt;Your weight pins her to the ground, but she only seems to be encouraging it</div></li><li class="li1"><div class="de1">&gt;She rubs her paws in gentle circles on your back as your lips meet the crook of her neck again</div></li><li class="li1"><div class="de1">&gt;A high gasp slips out of her, dragging with it stiffness of her body</div></li><li class="li1"><div class="de1">&gt;She melts into you like butter put to a candle’s flame</div></li><li class="li1"><div class="de1">&gt;Time to turn up the heat</div></li><li class="li1"><div class="de1">&gt;You kiss your way down her neck, tracking wet spots into her fur</div></li><li class="li1"><div class="de1">&gt;With one hand you cup her right breast, plunging your fingers into the softness of skin and fur</div></li><li class="li1"><div class="de1">&gt;She gasps again as you bring your mouth tantalizingly close to her stiff nipple</div></li><li class="li1"><div class="de1">&gt;All it takes is your languid, hot breath on make her moan</div></li><li class="li1"><div class="de1">&gt;You pause and peer up at her</div></li><li class="li1"><div class="de1">&gt;She looks down at you, face blisteringly red</div></li><li class="li1"><div class="de1">&gt;”I’m sensitive there, okay?” She squeaks</div></li><li class="li1"><div class="de1">“Good.” You flick at the tip of her nipples with her tongue, which works another moan out of her</div></li><li class="li1"><div class="de1">&gt;Her head rolls back onto the floor</div></li><li class="li1"><div class="de1">&gt;You latch onto her other breast with your hand and begin working her over, alternating between fondling and sucking on each one</div></li><li class="li1"><div class="de1">&gt;You taste the softness of her velvet-like fur, the sensitive skin of her nipples</div></li><li class="li1"><div class="de1">&gt;It tastes like nothing and everything at the same time</div></li><li class="li1"><div class="de1">&gt;Her legs cross together, and you can’t help but notice that she’s rubbing her thighs together, like two dry sticks you’d rub together to create a friction fire</div></li><li class="li1"><div class="de1">&gt;You go to unzip her pants</div></li><li class="li1"><div class="de1">&gt;She pushes her palms against your chest</div></li><li class="li1"><div class="de1">&gt;”Hold on, hold on,” she says</div></li><li class="li1"><div class="de1">&gt;You lean back</div></li><li class="li1"><div class="de1">“What’s wrong? Does it hurt?”</div></li><li class="li1"><div class="de1">&gt;”Take your pants off,” she says in a sharp breath</div></li><li class="li1"><div class="de1">&gt;It’s rude to keep a lady waiting</div></li><li class="li1"><div class="de1">&gt;You swiftly tear your belt from around your waist and yank your pants down</div></li><li class="li1"><div class="de1">&gt;Now it’s her turn to pounce on you</div></li><li class="li1"><div class="de1">&gt;With a sharp yell she hurls her body at you, knocking you almost-too-hard against the wooden floors</div></li><li class="li1"><div class="de1">&gt;Before you can even moan in pain, she’s got her tongue in your mouth, working you over, lashing against your own, as if searching for something inside of you</div></li><li class="li1"><div class="de1">&gt;Having found it, she pulls back, locks eyes with you, smirks, and then floats lower, past your ribcage, past your waist, and then to your stiffening groin</div></li><li class="li1"><div class="de1">&gt;She rakes your underwear down and coos softly when your cock bounces free</div></li><li class="li1"><div class="de1">&gt;Her paws wrap around it instinctively, and you wince out of habit</div></li><li class="li1"><div class="de1">&gt;Your wife would sometimes forge to retract her claws — the cause of more than a few abruptly canceled sessions</div></li><li class="li1"><div class="de1">&gt;But Emma didn’t</div></li><li class="li1"><div class="de1">&gt;She presses your drooling cock against her lips, her eyes fluttering shut</div></li><li class="li1"><div class="de1">&gt;”This might sound… gross… but I love the way you smell,” she says, breathing deep. “You’re the first human I’ve ever been with, but I think I’m hooked.”</div></li><li class="li1"><div class="de1">&gt;Her jaw drops open and her long, pink tongue lolls out of her mouth</div></li><li class="li1"><div class="de1">&gt;She starts working it up and down your shaft, coaxing another gob of pre to slide out of you</div></li><li class="li1"><div class="de1">&gt;She quickly plants her lips at the crown of your member and pulls you into her mouth</div></li><li class="li1"><div class="de1">&gt;You can feel the wetness of her cheeks collapse around your, while her tongue coils itself around your shaft</div></li><li class="li1"><div class="de1">&gt;In one swift motion she rakes her head up</div></li><li class="li1"><div class="de1">&gt;You gasp</div></li><li class="li1"><div class="de1">&gt;And then down, burying your prick against the back of her throat, where it remains for sometime, getting worked over by her nimble tongue</div></li><li class="li1"><div class="de1">&gt;Emma breathes evenly through her nose, eyes shut, inhaling your scent</div></li><li class="li1"><div class="de1">&gt;She looks completely at ease, all exhaustion, fear, tension and terror for your wellbeing washed out of her by the flood of your shared passion</div></li><li class="li1"><div class="de1">&gt;Carefully, she bobs her head up and down</div></li><li class="li1"><div class="de1">&gt;You feel a strong, wet pulling sensation all over your cock, pleasure building itself behind your groin like the first winds of a hurricane</div></li><li class="li1"><div class="de1">&gt;This isn’t good</div></li><li class="li1"><div class="de1">&gt;At this rate you’ll blow your load too soon</div></li><li class="li1"><div class="de1">&gt;She works you in and out of her mouth, taking small brakes to take in the musty air and stroke your cock</div></li><li class="li1"><div class="de1">&gt;And each time, you lock fading and tired eyes, and speak in the unspoken language of kind smiles</div></li><li class="li1"><div class="de1">&gt;You can’t help but notice how hard she’s breathing</div></li><li class="li1"><div class="de1">&gt;It’s not just from having your dick down her throat</div></li><li class="li1"><div class="de1">&gt;And you also can’t help but notice that she’s been rubbing her thighs together still</div></li><li class="li1"><div class="de1">“A little busy over there?” You nod towards her lower half</div></li><li class="li1"><div class="de1">&gt;She blushes again, a hint of embarrassment mixed with overwhelming excitement</div></li><li class="li1"><div class="de1">&gt;”I can’t help it. It’s… It’s been a minute for me.”</div></li><li class="li1"><div class="de1">&gt;You hum contentedly</div></li><li class="li1"><div class="de1">&gt;Sounds like something you can fix</div></li><li class="li1"><div class="de1">&gt;You direct her to take her pants off, which she does enthusiastically</div></li><li class="li1"><div class="de1">&gt;She stands up, still wearing the unbuttoned blouse, and rakes her pants down</div></li><li class="li1"><div class="de1">&gt;She’s also wearing faded pink underwear that matches her bra</div></li><li class="li1"><div class="de1">&gt;There’s a solid damp spot between her legs where she’s managed to soak through her panties</div></li><li class="li1"><div class="de1">&gt;But that’s not what catches your eyes</div></li><li class="li1"><div class="de1">&gt;It’s the adorable, soft-yellow cat face that’s on her underwear</div></li><li class="li1"><div class="de1">&gt;You smother an explosive bout of laughter behind your teeth</div></li><li class="li1"><div class="de1">&gt;She crosses her legs, concealing the cat face</div></li><li class="li1"><div class="de1">&gt;”They were a gift… for myself…” she throws her head to the side</div></li><li class="li1"><div class="de1">&gt;It’s not like you’re in a position to talk</div></li><li class="li1"><div class="de1">&gt;You’re lying on your back, on the wooden floor of a shady anthro bar, with your pants and underwear around your ankles like cloth shackles</div></li><li class="li1"><div class="de1">“No, no,” you wave away her embarrassment. “I think they’re the cute. Now, take them off and come over here.”</div></li><li class="li1"><div class="de1">&gt;She pulls down her panties and slips out of them, and you can’t help but notice the way her inner-thigh’s fur is matter down from her need</div></li><li class="li1"><div class="de1">&gt;She eases down next to you, one free hand stroking your slick cock</div></li><li class="li1"><div class="de1">&gt;You tilt your head and lean in for a kiss</div></li><li class="li1"><div class="de1">&gt;She mirrors your efforts</div></li><li class="li1"><div class="de1">&gt;You roll on top of her, uninterested in shedding her blouse for her</div></li><li class="li1"><div class="de1">&gt;You love the way it looks on her</div></li><li class="li1"><div class="de1">&gt;And before you resume kissing, you just stare into one another  as thunder booms outside like the distant echoes of a shotgun</div></li><li class="li1"><div class="de1">&gt;Rain pelts the windows, but you’re too lost in each other’s eyes to care</div></li><li class="li1"><div class="de1">&gt;The first thing you see, you’re ashamed to admit, is your wife’s eyes</div></li><li class="li1"><div class="de1">&gt;The same care and gentle love that reflected your image for years</div></li><li class="li1"><div class="de1">&gt;”Why’d you stop?” She asks with a half-smile. “Got something on my muzzle?”</div></li><li class="li1"><div class="de1">&gt;You blink away the memory and ground yourself in Emma, in the here, in the now</div></li><li class="li1"><div class="de1">&gt;You plant a kiss on her cheek</div></li><li class="li1"><div class="de1">“No, just got distracted by you.”</div></li><li class="li1"><div class="de1">&gt;She giggles</div></li><li class="li1"><div class="de1">&gt;Again, you start kissing down the nape of her neck, teasing soft gasps from her, playing her body like an instrument</div></li><li class="li1"><div class="de1">&gt;But you don’t stop at her breasts</div></li><li class="li1"><div class="de1">&gt;You keep working your way down and down</div></li><li class="li1"><div class="de1">&gt;And when you reach her slender waistline, her body jumps up a tiny bit</div></li><li class="li1"><div class="de1">&gt;”Oh God.” She rakes her claws against the floor</div></li><li class="li1"><div class="de1">&gt;You pretty much know what’s going to happen next</div></li><li class="li1"><div class="de1">&gt;You kiss down to her thighs</div></li><li class="li1"><div class="de1">&gt;Lower…</div></li><li class="li1"><div class="de1">&gt;And then to her inner thighs</div></li><li class="li1"><div class="de1">&gt;She parts her legs, giving you free access to her dripping sex</div></li><li class="li1"><div class="de1">&gt;You kiss along her inner thighs, working your way up to her clit</div></li><li class="li1"><div class="de1">&gt;In one long, drawn out motion, you drag your tongue between her lips, tasting her juices</div></li><li class="li1"><div class="de1">&gt;Then you lap upwards, dragging it along her clit</div></li><li class="li1"><div class="de1">&gt;The sharpness of her gasp gives you pause</div></li><li class="li1"><div class="de1">“Bad?” You say</div></li><li class="li1"><div class="de1">&gt;”No, no, good.” She moans. “Please keep going.”</div></li><li class="li1"><div class="de1">&gt;You don’t need more instruction</div></li><li class="li1"><div class="de1">&gt;You take some time just lapping at her juices and slyly working at her clit, practically squeezing more girl-cum out her</div></li><li class="li1"><div class="de1">&gt;Each ministration of your tongue elicits a deep, guttural moan from her chest</div></li><li class="li1"><div class="de1">&gt;And as you bear down on her with longer, more deliberate strokes of her tongue, you hear the sound of claws scraping into wood</div></li><li class="li1"><div class="de1">&gt;”Oh fucking- fuck- fuck fuck,” she coos</div></li><li class="li1"><div class="de1">&gt;You hook your arms around her thighs and pull her closer to your wanting mouth</div></li><li class="li1"><div class="de1">&gt;After a few minutes of stroking and sucking and licking at her pussy, her back starts to bow, rising, slowly, as if she could ascend to heaven right there</div></li><li class="li1"><div class="de1">&gt;”Fuck, I think I’m going to-”</div></li><li class="li1"><div class="de1">&gt;You double down on your efforts</div></li><li class="li1"><div class="de1">&gt;Her thundering orgasm rips the words from her throat</div></li><li class="li1"><div class="de1">&gt;She gasps, the orgasm rolling through her body in shuddering waves</div></li><li class="li1"><div class="de1">&gt;You hold on for the ride as she gently bucks and grinds herself against your tongue, smearing your face with her juices, which you don’t mind one bit</div></li><li class="li1"><div class="de1">&gt;And after what seems like hours, the orgasm wrung from her toned body, she finally settles back down to earth in a blissed out heap</div></li><li class="li1"><div class="de1">&gt;You’re about to crawl away from her when she lazily catches you by the cheek</div></li><li class="li1"><div class="de1">&gt;”Anon, would you kiss me?” She says, voice begging</div></li><li class="li1"><div class="de1">&gt;Hey she asked</div></li><li class="li1"><div class="de1">&gt;You crawl on top of her feeling her sodden body bending into yours, feeling the star-like heat radiating off of her</div></li><li class="li1"><div class="de1">&gt;You kiss for a bit, but you can’t help but feel your need still present, pressing at the forefront of your mind like junkie ambling for his next fix</div></li><li class="li1"><div class="de1">&gt;Your cock presses against her folds, and you want so badly to be inside of her</div></li><li class="li1"><div class="de1">&gt;The cheetah eases you against her</div></li><li class="li1"><div class="de1">&gt;She looks into your eyes, studying you</div></li><li class="li1"><div class="de1">&gt;”Is this… is this okay with you?” She says in her strongest voice, though the orgasm still has her blitzed</div></li><li class="li1"><div class="de1">&gt;You nod very softly, and as your lips meet again, you press yourself into her</div></li><li class="li1"><div class="de1">&gt;A heated moan slips from her as you push your way inside of her</div></li><li class="li1"><div class="de1">&gt;And</div></li><li class="li1"><div class="de1">&gt;GOD is she wet</div></li><li class="li1"><div class="de1">&gt;It’s like having your whole being hugged by wet and pulsing velvet</div></li><li class="li1"><div class="de1">&gt;The further you get, the longer and more drawn out is her cooing</div></li><li class="li1"><div class="de1">&gt;Emma places her palms on your back as you start to thrust into her wetness</div></li><li class="li1"><div class="de1">&gt;It’s like every nerve in your body is being jolted with electricity</div></li><li class="li1"><div class="de1">&gt;Just like her, it’s been… awhile…</div></li><li class="li1"><div class="de1">&gt;You and her both gasp when you bottom, the full length of your member splitting her</div></li><li class="li1"><div class="de1">&gt;”God damnit,” she digs her claws into your back. “Please don’t stop.”</div></li><li class="li1"><div class="de1">&gt;You wince, but soldier on, and soon enough, you’re rhythmically pounding in to her</div></li><li class="li1"><div class="de1">&gt;You press your hot body against hers, the symmetry like two fault lines slipping past one another, and you can’t ignore the blistering feeling of pleasure now running its way up from behind your groin up to the tip of your cock</div></li><li class="li1"><div class="de1">&gt;And you also can’t ignore the way her walls are clenching around you, tightening up, heralding the approach of her own second orgasm</div></li><li class="li1"><div class="de1">&gt;You close your eyes</div></li><li class="li1"><div class="de1">&gt;Her claws rip through your dress shirt, but you don’t even care anymore</div></li><li class="li1"><div class="de1">&gt;Because you feel your triumphant orgasm ripping through you right as hers hits with the same force</div></li><li class="li1"><div class="de1">&gt;Wave after wave of pulsing pleasure overtakes the both of you</div></li><li class="li1"><div class="de1">&gt;You can feel yourself twitching inside of her while her walls tighten up and pulse, wringing every last drop of cum out of your balls</div></li><li class="li1"><div class="de1">&gt;After a few more blissful seconds, you crumble on top of her</div></li><li class="li1"><div class="de1">&gt;Damn older body</div></li><li class="li1"><div class="de1">&gt;Were you younger and in better shape you could have gone another round</div></li><li class="li1"><div class="de1">&gt;But you’re spent</div></li><li class="li1"><div class="de1">&gt;And so is she</div></li><li class="li1"><div class="de1">&gt;You collapse together in a blissed out heap, resting your head against her shoulder</div></li><li class="li1"><div class="de1">&gt;You can still feel yourself inside of her, but neither of you seem to care</div></li><li class="li1"><div class="de1">&gt;The feeling of warmth between you two Is more than enough</div></li><li class="li1"><div class="de1">&gt;Her hot, exhausted breathing tickles your neck</div></li><li class="li1"><div class="de1">&gt;You crack a weak, tired smile</div></li><li class="li1"><div class="de1">“It’s been awhile for me too,” you whisper in her sensitive ears</div></li><li class="li1"><div class="de1">&gt;A shiver runs up her body, but she manages a mirroring, tired smile</div></li><li class="li1"><div class="de1">&gt;”I guess we’re even then. But don’t forget: I still won the race.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Sometime later you two end up naked and spent, laying together on the floor with nothing but your jacket to keep you two warm</div></li><li class="li1"><div class="de1">&gt;Emma rests her head on your chest and purrs softly at the steady rhythm of your heartbeat</div></li><li class="li1"><div class="de1">&gt;Outside, rain runs a steady drumbeat against the windows and the roof, while thunder booms in the distant, slate-gray skies</div></li><li class="li1"><div class="de1">&gt;You’re stroking her fur with the gentlest of touches, just enough to make her shiver and bend herself into you</div></li><li class="li1"><div class="de1">&gt;It feels as natural as breathing by now, a mindless, autonomous behavior</div></li><li class="li1"><div class="de1">&gt;And believe it or not, you’re grounded, here, with her</div></li><li class="li1"><div class="de1">&gt;Hell, you’re physically pinned to the floor by half of her body which is sprawled out on top of you</div></li><li class="li1"><div class="de1">&gt;Memories drift in and out of your mind like scenes from a grainy film,</div></li><li class="li1"><div class="de1">&gt;Memories of your wife</div></li><li class="li1"><div class="de1">&gt;They make sense, and they’re beautiful in ways you can’t comprehend</div></li><li class="li1"><div class="de1">&gt;But you don’t get sad when you think of them</div></li><li class="li1"><div class="de1">&gt;Maybe… it’s okay to open yourself up again?</div></li><li class="li1"><div class="de1">&gt;Emma purrs loudly, eyes shut, peacefully resting while the world drains itself out</div></li><li class="li1"><div class="de1">&gt;At moments like these, time feels suspended, luminous — even pointless</div></li><li class="li1"><div class="de1">&gt;As the thunder booms outside, and the wind rushes by in sharp gales, you let your body sink in to itself</div></li><li class="li1"><div class="de1">&gt;You settle against the warmth of the mammal next to you, your breathing finally reaching a beautiful syncronoicity, as two hearts beat as one</div></li><li class="li1"><div class="de1">&gt;A deeply held breath escapes you</div></li><li class="li1"><div class="de1">&gt;”Anon?” Emma says</div></li><li class="li1"><div class="de1">&gt;You can’t see her face, but you can hear her voice</div></li><li class="li1"><div class="de1">“Yes?”</div></li><li class="li1"><div class="de1">&gt;”You’re not going to leave any time soon, right?”</div></li><li class="li1"><div class="de1">&gt;You pull her closer to you</div></li><li class="li1"><div class="de1">“I hadn’t planned on it, no. I think I’ll take a sick day tomorrow.”</div></li><li class="li1"><div class="de1">&gt;She lets out a pleased sigh</div></li><li class="li1"><div class="de1">&gt;”Good. Because it’s raining, and I don’t want you to catch a cold.”</div></li><li class="li1"><div class="de1">“You’re so thoughtful,” you say, half sarcastically</div></li><li class="li1"><div class="de1">&gt;Her smile practically glows in the dark</div></li><li class="li1"><div class="de1">&gt;A few more silent minutes pass before you allow your eyes to finally fall shut</div></li><li class="li1"><div class="de1">&gt;Emma has long since fallen asleep, half curled up on your chest</div></li><li class="li1"><div class="de1">&gt;Thunder rumbles in the distance, low and muffled, as the rain drags itself down from the sky</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The end</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.youtube.com/watch?v=luM6oeCM7Yw</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Liquid Courage -- Oliver_Hart
-Summary: So, there&#039;s a human, a cheetah, and some crows in this bar...
-Tags: [Cheetah] [Lewd] [Anon]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-&gt;Does any story with a happy ending start with alcohol?
-
-&gt;You tap the bar a few times, signaling for another round
-&gt;The bartender, a cheetah wearing a crisp white blouse and a pair of jeans, produces a short glass and sets about polishing it
-&gt;”You sure about that? You’re gonna regret it in the morning,” she asks
-&gt;Wordlessly, you produce a worn $10 bill and drop it into her nearly-empty tip jar
-&gt;She shrugs her shoulders and sets a rum and coke before you
-&gt;”I don’t get to serve human portions very often. I hope I mixed it right,” she adds with a wink
-&gt;Your head swimming and hot, you press the sweating glass to your forehead
-&gt;The bartender watches with some degree of confusion
-&gt;”If you just wanted something cool, ice is free you know.”
-“No, this is fine,” you take a few deep breaths, trying to keep track of your surroundings. “Just need a few minutes.”
-&gt;The cheetah leans on the counter
-&gt;”Not to sound like a stereotypical bartender or anything, but what’s wrong?” 
-&gt;You take a meager sip
-“Nothing, actually.”
-&gt;”You’ve been coming here for a couple days now, and you’re WAY overdressed. Humans don’t just come to The Blinking Light, especially ones who look like they have cash to burn.”
-&gt;You shrug your shoulders. You’re not in an aggressive mood
-“I just enjoy the atmosphere. It’s nice to come here and unwind after work.”
-&gt;She looks around and then laughs 
-&gt;”What atmosphere?”
-&gt;The bar is nearly empty, save for a few crows smoking cigarettes and drinking small glasses of beer
-&gt;They’ve been eying you since you came in 
-“Well, you’re here, which brightens the room a little” you take another sip
-&gt;You swear you can see small pockets of crimson play across her cheeks
-&gt;She plays it off with a nervous laugh
-&gt;”Okay, you’re a little drunk.”
-“I’m more brave than I am drunk. That’s why they call it ‘liquid courage.’”
-&gt;She leans on the bar
-&gt;”I gotta hand it to you humans though, you can really hold your liquor. Just one of those and I’d be gone.”
-&gt;Actually, among other humans, you’re kind of a lightweight. But you don’t tell her that
-&gt;She begins wiping down the bar with a rag
-&gt;Maybe you’re just drunk, but you swear that the top of her blouse wasn’t unbuttoned before
-&gt;You can see the not-so-subtle mounds of her breasts, squeezed together by her arms as she wipes down the counter
-&gt;You do a fair bit of ogling before you notice that her head is starting to turn in your direction
-&gt;You snap your attention away from her sizable chest and onto the shelves of liquor behind the bar
-&gt;”You know…”
-
-&gt;Ah shit, she caught you. Guess you weren’t as quick as you thought
-&gt;”You’ve been coming in here for a few days and I never got your name.”
-&gt;You let out a held breath. That was close
-“Anon. What about you? I’ve been coming here for a few days and never got your name either.”
-&gt;She laughs a little
-&gt;”This is why I keep telling my boss we should have name tags. My name is Emma.”
-&gt;You take a sip
-“I’m not trying to be rude or insensitive, but that’s not a very...cheetah-like name, you know?”
-&gt;Too bad you’re actually kind of blunt and stupid when you’re tipsy
-&gt;You instantly regret the words as they leave your mouth, and wish you could push them back down your stupid, drunken gullet
-&gt;Thankfully she takes it in stride, issuing a small laugh as proof
-&gt;”Yeah, you’re right. When my parents moved here, they wanted to leave their old life behind. So they wanted to name their daughter something that would help her fit in with her new heritage. They didn’t know Emma was a human name.”
-&gt;You sip your drink and make some small talk 
-&gt;She explains that she’s a student at the local university working towards a degree in literature
-&gt;”And before you ask, no, I don’t do track. I’m not actually very athletic at all.”
-&gt;You tell her that’s okay, you’re not athletic either. You’re actually on the opposite side of the spectrum when it comes to fitness
-&gt;You’re an accountant at a large firm in the city
-&gt;”That explains why my tip jar is so full every night.”
-“Well, it’s not just because you’re cute, you also make a damn good rum and coke.”
-&gt;She nearly drops the glass she was polishing
-&gt;”Geeze, did my wrist slip when I was adding the rum or something?”
-
-&gt;Far beyond the realm of caring, you take a swig, and then thrust the glass into her face
-“I don’t know, wanna give it a taste?”
-&gt;She nervously glances between you and the glass
-&gt;”You’re...serious?”
-“I promise you, I wouldn’t be doing this if I didn’t genuinely think these were my favorite drinks in the city.”
-&gt;She slowly extends a hand to take your glass, but then quickly retracts it
-&gt;Her face turns stern and hard, and she directs her focus back to wiping down the counter
-“What? I promise I didn’t do anything to it. I just wanted you to try your own drink.”
-&gt;No response
-&gt;You feel a cluster of scornful eyes drilling into your back
-&gt;You turn around in your seat
-&gt;The crows are no longer playing pool
-&gt;They’re watching you with intent, hatred burning in their eyes
-&gt;One of them is clutching a pool cue 
-&gt;You lock eyes with one of them for a brief second, and without words, you can hear what he’s trying to say.
-&gt;’Hands off.’
-&gt;You turn your back to them and place your unfinished drink back on the counter
-&gt;Emma is still busy wiping down the counter
-“Listen. I get it.”
-&gt;You flip open your wallet and deposit a couple dollars in her tip jar
-“I’m not a stranger to scorn or the judgment of society. I know where the boundaries are. I didn’t mean anything by that, promise.”
-&gt;You rise from your seat, bracing yourself against the bar for support
-&gt;You’re a lot drunker than you thought
-“I’ll stop causing trouble for you. Oh, and Emma?”
-&gt;She briefly glances up, her eyes pleading with you to leave for your own safety
-“These really are some of the best drinks I’ve had in this city.”
-
-&gt;A block from The Blinking Light, in the spitting rain, in this shitty, lonely city, you notice you’re not alone
-&gt;A quick check over your shoulder and you see the crows not too far behind you, gaining at an even pace
-&gt;The dim glow of their cigarettes briefly throws a curtain of orange light across their faces
-&gt;Their cold, hateful eyes are fixed on you 
-&gt;You keep moving, hoping to wander past a group of cops on patrol
-&gt;Or people
-&gt;Or anyone
-&gt;But there’s nobody around. The houses are all locked up tight, the roads emptied save for a procession of trash being pushed along by the approaching storm
-&gt;You start running, but it’s not much good. Your strides are crippled by the heaviness of your head
-&gt;Maybe Emma did mix the drinks a little stronger this time
-&gt;Before you get a chance to call for help, you feel a rough hand on your shoulder yank you back
-&gt;You crash onto your ass with a yelp
-&gt;Dazed, you search for a quick escape
-&gt;Or a weapon
-&gt;A wall of black silhouettes crowd around you, closing off your escape
-&gt;Lightning rips across the dark skies, illuminating the cold, sodden faces of the crows now towering over you
-&gt;One of them thumps a pool cue across their palms
-
-&gt;Maybe it was the money they wanted, or the way you were dressed
-&gt;You didn’t exactly broadcast strained finances
-&gt;But you know that’s not it, because whatever’s in your wallet is just the icing on the cake
-&gt;It was the way Emma looked at you in the bar
-&gt;That curious, almost flattered expression when you were talking to her, the hand that nearly touched yours
-&gt;They were going to teach her a lesson, and you were going to be the demonstration
-&gt;”What a bunch of fools we lovers are,” you mutter, just as a crack of thunder smothers your words
-&gt;Well, this is how is how it ends, you guess
-&gt;Though you did get the feeling that your life was heading towards this moment anyway
-&gt;You shut your eyes, and try to retreat to somewhere warm and safe
-&gt;You’re not in the streets or in the rain anymore
-&gt;You’re not about to die in some dead-end part of town
-&gt;You’re back in your apartment, rolling over in your bed
-&gt;And she’s next to you
-&gt;No secrets here, no lying to friends or family
-&gt;You’re softly running your hands through her fur
-&gt;You’re pressing the heat of your body against hers
-&gt;You’re smelling the lingering perfume on her shoulder, the shampoo in her hair
-&gt;You’re hearing her voice for the first time in the months since she passed
-&gt;But it sounds different than what you remember
-
-&gt;”EITHER YOU GET LOST OR YOU GET SHOT, YOU HEAR ME?!”
-&gt;You open your eyes
-&gt;The crows are no longer bearing down on you 
-&gt;They’re scattering in all directions, shouting obscenities over the rumble of thunder
-&gt;When the lightning flashes, you at last get to see who made them flee with their tails between their legs
-&gt;Emma is standing a couple feet away, an old shotgun sitting loosely in her grip
-&gt;When she sees you laying on the sidewalk, soaked to the brim, her expression shifts from commanding to concerned
-&gt;She helps you to your feet, but it doesn’t do much good, as you’re forced to lean on her for support
-&gt;”Guess I didn’t mix those drinks right after all,” she mutters
-
-&gt;Without even realizing it, you press close together for warmth as you stagger back to the bar
-&gt;You really would have died out here tonight. There’s not a soul out and about. Not even a car
-&gt;When you get back to the bar, both of you are sodden and shivering, sheets of rain pelting you without rest
-&gt;You do your best to make it to make it over to your old barstool
-&gt;It’s still warm
-&gt;Emma turns the lock on the front door and then slides back against it, shivering, clutching the shotgun to her chest
-&gt;You watch her for a second, a little drunk, a little nervous, still not knowing what to say
-&gt;A thank you, perhaps?
-&gt;Instead, your eyes trail the shotgun as she lays it on the floor beside her
-&gt;She looks up at you, still shaking from the cold
-&gt;Or the adrenaline
-&gt;....
-&gt;”It’s not loaded, you know. It never is. I don’t even think my boss keeps any ammo on deck.”
-“…That’s no fun.”
-&gt;More silence passes between you
-&gt;She’s shaking pretty bad
-&gt;Her white blouse is soaked through, and clings to the rest of her relatively thin frame
-&gt;You try not to stare too much, but it’s not likely she’ll notice
-&gt;She’s just staring worriedly at the floor, perhaps still in shock
-&gt;You don’t think, you just act
-&gt;You shed your heavy jacket, drape it over her, and slide down against the door next to her
-&gt;”T-Thanks,” she says, pulling it tight
-&gt;She tries to keep her voice from shaking, but it’s no good
-“Well, I owe you. For, you know. Saving my life. Buy you a drink?”
-&gt;Her laugh breaks the tension in her throat, though her body still shakes
-&gt;”I was almost beaten to death by a nasty looking group of crows for pretending to be packing heat, for YOUR hairless ass, and you now you want to have a drink with me?”
-“Hey now,” you struggle to your feet, bracing yourself against the door. “My ass isn’t that hairy.”
-&gt;You extend your arm down to her
-“Come on. A drink will chase away that chill in your bones.”
-&gt;The cheetah’s face curls up with a smile as she grasps your slippery palm
-&gt;”It fucking b-better. God I’m cold.”
-
-“So what I like at company mixers is a gin and tonic,” you say, spritzing out some gin and clear, bubbling tonic water into a glass
-&gt;You are behind the bar, while Emma leans on the polished wood, still sodden and dripping rainwater
-&gt;”So this is what it’s like to be on the other side of the bar,” she says, keenly watching your every movement, relishing in the butler-like service you provide
-“Wait,” you set the drink down in front of her. She takes small sips
-“You’ve never been on this side of the bar before?” You slur, taking a sip of vodka cranberry you’d made up.
-&gt;Emma giggles between sips
-&gt;”Did you miss the part where I said I’m studying for a degree in literature? Do you think I can afford to blow my money in bars?”
-“Hey now,” you point your drink towards her
-&gt;You can already feel your body warming up just looking at her
-“My wife got a degree a degree in literature. There’s plenty you can do with that.”
-&gt;The cheetah stiffens her back and sits up straight, both hands wrapped around her half-finished drink
-&gt;”I didn’t think you had a wife,” she says, almost sulking
-&gt;You notice her head tilt down into her drink a little
-&gt;The thin outline of the pink bra she’s wearing
-&gt;Which ordinarily would be kinda cute
-&gt;But she’s quietly lapping at a gin and tonic with her tongue, and that’s just somewhat weird
-&gt;You can look past it, though
-&gt;Your wife used to do that too
-“Well, she did.” You take a long pull on your drink, nearly draining it down to the ice
-“She passed away a few months ago from scoliosis.” 
-&gt;Emma lifts her gaze
-&gt;”I’m really sorry to hear that,” she says, her inflection like cold rainwater
-“I appreciate the sentiment. It was… Hard, watching her go. You take a woman who loves being outdoors, running around, getting her fur wet-”
-&gt;”Sorry, did you say fur?” Emma cuts in
-&gt;You polish off your vodka cranberry and settle on just straight vodka
-“Yeah,” you say. 
-&gt;Your body feels loose, as does your mind
-&gt;Like a balloon that’s had its string cut
-&gt;You feel ready to float away
-&gt;Emma starts slowly sipping at her gin and tonic. 
-“She was a collie. I dunno. This is going to sound bad, but can I tell you something?”
-&gt;Should you even start down this road?
-&gt;Even in your addled state you know how this is going to go
-&gt;She shrugs her shoulders and shakes out her fur, splashing water all over her clean, clean tables
-“The reason I come here a lot isn’t just because the drinks are good — they are.”
-&gt;”God I’m drunk enough to believe that now,” she says
-&gt;You pause, taking a fortifying breath, sucking down the warm air and the moisture and the cling of the smoke from the cigarettes still smoldering in the ash trays
-&gt;You search her face for what seems like hours, lost in the fine contours of her jaw, her raised cheekbones, the gleam in her eyes, the short, soft fur that carpets her tender skin
-&gt;It’s… nothing like her
-&gt;What were you looking for in her — a new wife, some kindling spark that could bring your old one back?
-&gt;No
-“…I come here because…”
-&gt;”You’re lonely?” She stabs
-&gt;And the stab hits its mark; right in the heart
-“Yes,” you say, exhaling, setting the bottle down. “I am… very lonely. At work. At home. I can’t stand to be there most nights. I still find her fur everywhere — On the couch, the bed, the bathroom — Hell, I even found some in the microwave. It’s like she’s haunting me.”
-&gt;Emma sets her own drink down, the warmth of the liquor manifested in a scarlet sheen all over he face and neck
-&gt;She wears a drawn and saddened look
-&gt;”I know it doesn’t mean much, especially coming from someone who has never lost anyone before, but that’s really sad. Hell, you could write a story about something like that,” she says into her drink
-&gt;You lean up against the bar, bending your hip out
-“So, you going to write it?”
-&gt;”Write it?” she stiffens, the iron rod in her spine going straight
-&gt;She shakes her head as if she could shake the words out of her ears
-&gt;”I don’t write. That’s…”
-“Sad,” you cut in
-&gt;”Sad?” She draws back. “Why is that sad?”
-“Because, a writer is a reader moved to emulation. You can say you’ve never been moved to emulation?”
-&gt;She does not immediately respond
-&gt;She focuses her attention on her drink, bowing her head, mumbling something in a volume that outmatches human hearing
-&gt;You lean in closer
-“I’m sorry. I didn’t mean to-”
-&gt;”No, you’re fine.” She sticks her hand out, takes the bottle off the table, and pours a shots-worth of vodka into her empty glass
-&gt;A human-sized shot, that is
-&gt;”I’m not offended…or hurt… I’m just…”
-&gt;She takes a long, exaggerated sip, slamming her eyes shut
-&gt;Liquid courage
-&gt;With a stuttering swallow, the vodka hits her gut, leaving only a burnt trail down her throat
-&gt;She coughs for a bit
-&gt;Once her fit is over she shakes her fur again
-&gt;This time there’s less water
-&gt;”What I’m trying to say is: I write poetry. Bad poetry. Really bad poetry.”
-“Poetry?” You fill up your glass and match her shot. Yours goes down twice as easy as hers did
-“My wife was a prose writer, but I really like song lyrics. Does that count?”
-&gt;She shrugs
-&gt;”I think it depends on the song. You know what?”
-“What?”
-&gt;She stares hard at the bottle, squinting, head locked in some kind of duel with her better self
-&gt;But our better selves are often the weaker of our natures, and so, with some internal deliberation, she reaches for the bottle and pours herself another shot
-&gt;You can’t help but peer down her shirt as she reaches over and pours herself a shot
-&gt;She has a nice, slender figure
-&gt;You take a small sip of melted ice and vodka
-&gt;Ahhhh to be young again
-&gt;”I’m going to read you my poetry. I’ve never read anyone my poetry before, but if it has to be someone, it might as well be you. Some guy in a bar.”
-“Hey now, I’m not just some guy in a bar. I’ve spilled my guts to you,” you counter
-&gt;Which is true
-&gt;She pulls a small leather notebook out of her back pocket
-&gt;”And I’m about to spill my guts to you,” she says, a terrible blush scouring her face. “You can’t laugh, okay?”
-&gt;You extend your pinkie to her
-“I pinkie swear that I won’t laugh.”
-&gt;She just stares at your extended digit, not sure of what to do with it
-&gt;You retract the notion
-&gt;Must be a human thing
-&gt;She spins the pages of her pocket notebook a bit humming with disapproval at most everything she comes across
-&gt;Except one, near the back of the book
-&gt;Good God she writes a lot of poems
-&gt;She mouths a few words, looks you in the eyes, takes her shot, and begins to speak:
-&gt;”Where a river bends in two
-&gt;”Is where we bound our boat to the shore
-&gt;”And scurried off
-&gt;”Like field mice
-&gt;”For autumn’s glow
-&gt;”To bronze everything in finer coinage than emperor’s gold.
-&gt;”That fork in the river
-&gt;”Which pulled like two strings of a violin
-&gt;”Separated and cut by a bow
-&gt;”Of inland cattails
-&gt;”Bursting
-&gt;”Slamming on our skin.”
-~~~~~~~~~~~~~~~~~~~~~~~
-&gt;She lowers her notebook like a shield protecting her from embarrassment
-&gt;Her face searches yours for something
-&gt;Approval
-&gt;Laughter
-&gt;Joy
-&gt;Sadness
-&gt;Anything
-&gt;You can only fight back tears
-&gt;Not because it was beautiful — though It was stirring --
-&gt;But because it reminds you of spending time at your wife’s old house in northern Michigan, where you first met one another between old friends and new, one another a bridge into the other’s world
-&gt;If your love was a bridge, you had built it strong enough to withstand the force of any storm — Michigan or otherwise
-&gt;But disease was more than a storm. It was an earthquake
-&gt;You feel weak at the knees
-&gt;Maybe from the alcohol, or something else
-&gt;And so you clap a little bit, trying desperately to stay vertical when it feels like the whole weight of gravity is forcing you downward
-&gt;You can’t imagine a better way to show approval for anyone than to cry at the utterance of their work
-&gt;But you can only produce a few tears, like diamonds that take eons to form in the crevices and crannies of mountains
-&gt;Emma’s face glows with warmth and cheer
-&gt;”You really liked it that much?” She leans forward like an eager child
-”Ho boy,” you wipe away that pathetic single tear and reach for the bottle
-&gt;Another shot
-&gt;Liquid courage to say what your heart cannot
-”I loved it. You’ve got a songwriter’s heart…  Felt like it drew my soul outta my body, like you’d smuggle soap out of a hotel.”
-&gt;Her head shoots backward in astonishment
-&gt;”Damnnnn, now there’s compliment. And a poetic one at that. I didn’t know you were such a poet yourself.”
-“I’m- *hic*, I’m not. I just like music”
-&gt;She leans her chin on the bar, her eyes sliding shut
-&gt;”You know, I’ve never done that for anyone before. That was fun.”
-&gt;One of her eyes opens and stares straight ahead
-&gt;Which happens to be at your belt
-&gt;”You know there are a lot of humans at my college. Just tons of them. I’ve never been around so many smoothskins in my life,” she says, her words blunt, yet casual
-&gt;She doesn’t even care that she’s uttered a pretty harsh slur at a very, very human patron of her workplace
-&gt;You crouch down, bouncing on the balls of your feet
-&gt;You place your head on the bar, almost touching her wet nose
-&gt;It twitches with sudden anticipation
-“It’s okay. Snapjaw.”
-&gt;A grin widens across her face
-&gt;”So that’s how it is, hairless rat,” she fires back in good cheer
-“That’s how it is, fangmouth,” you reply
-&gt;ooooh, nice
-&gt;Now she’s really smiling, relishing in the casual specisim
-&gt;”I like fangmouth. Haven’t heard that one in a few years. What else you got?”
-“Pred.”
-&gt;”Weak.”
-”Razortooth.”
-&gt;”WEAKER!”
-“Fuck, I don’t gotta say anything. I’m a human, the most dominant species on this entire bitch of an Earth.”
-&gt;”Oh,” she chortles, “you think you’re the dominant species?”
-“I mean… I thought that went without saying…”
-&gt;She bounces unsteadily to her feet, legs poised
-&gt;”You wanna have a race you wrinkly ol’ bitch? See who the real apex predator is?”
-&gt;You stagger upwards, unable to tell if she’s joking or not
-&gt;Gravity feels shaky today
-&gt;Both you and her are FAR too drunk to be running — much less sprinting
-“C’mon spots, you’re gonna actually try and race me…” you look around the relatively small room
-“In here?”
-&gt;”Damn straight,” she says, scarlet burning across her dopey and excited face. “I’m not athletic, so it’ll be a fair race.”
-&gt;Your addled mind reels as you entertain the idea of racing inside an empty bar
-“Alright you pussy, pun intended. You’re on.”
-
-&gt;You start at the back of the bar, palms resting on the door
-&gt;The world is spinning and you want it to stop
-&gt;Emma counts you in
-&gt;”1…” 
-&gt;”2…” Her eyes momentarily flick over to you
-&gt;”3!” She bolts forward, legs twisting over each other
-&gt;You explode forward as well, but the Earth does a sharp right turn and soon you find yourself veering off into a freshly polished table
-&gt;You manage to clip a few tables and knock them on their sides
-&gt;But you go down hard
-“Emma?” You say, lifting your head from the wreckage of tables and chairs
-&gt;Your eyes find the girl crumpled on the ground before a support beam, her arms spread wide in a magnificent T-Pose
-&gt;Without thinking, you leap forward and slap against the ground
-&gt;The best you can do is crawl towards the girl
-&gt;Standing is no longer an option
-&gt;As you crawl, you keep calling out her name
-”Emma…”
-“Emma…”
-&gt;The girl rolls over with a heavy groan, clutching her head
-&gt;”Sogn of a bidchhh,” she moans
-&gt;You’re practically army crawling towards her by the time she sits up 
-&gt;Blood runs from her nose
-&gt;”Igh thing I win,” she says pinching off the blood
-“That’s…” You can no longer keep your head upright
-&gt;It heads the ground with a heavy *CONK*
-“You cheated…” you try to reason
-&gt;You can only see darkness
-&gt;You can only feel the gentle curves of the Earth, the way it spins, like the world’s slowest pirouette
-&gt;So you don’t feel it when Emma snuggles up against you
-&gt;More importantly, you do feel it when she uses your wet shirt to wipe blood on
-“Heyyyy, not cool!” you groan, flipping over
-&gt;Her head comes to rest on your chest
-&gt;It doesn’t feel like there’s much you can do at this point
-&gt;You are SAUCED
-&gt;But you know what? You feel good
-&gt;Everything feels warm
-&gt;Emma is cool
-&gt;And you’re safe from-
-&gt;Emma presses her hot, wet lips against yours
-&gt;Your eyes bulge in your head
-&gt;As if realizing what she was doing, she draws her head back, still tethered to your mouth by a thin, gossamer strand of saliva
-&gt;Her eyes split wide and her mouth starts moving
-&gt;”Oh- Oh my God. I’m so sorry. I don’t know what…”
-&gt;A fresh bloom of red hits her cheeks
-&gt;And, as if right on cue, blood threads down from her nose
-&gt;She sharply turns her head
-&gt;”Fugg,” she says pinching her nose. “I ruin eberythinng.”
-&gt;You laugh
-“Eberything,” you repeat, wiping her taste from your lips 
-&gt;She tastes like vodka, curiosity
-&gt;And fur?
-&gt;You sit up and watch as her form seems to slump — her shoulders falling, her head bowed, body curving inwards
-&gt;Idea
-&gt;Bad idea, potentially, but it is an idea, and when your drunk, all the good ideas seem bad and vice-versa
-&gt;You crawl over to her and allow the full weight of your body to come down on top of her
-&gt;She gasps and falls backwards
-&gt;Your head rests just a few inches away from her mouth
-&gt;”What are you doing?” She whispers, face beet-red
-“You didn’t make any mistakes,” you lower your head. “Your timing was just off. So this will have to do.”
-&gt;You silence her with a gentle kiss
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-&gt;She gasps a little, fingers pulling at your shirt in shock, but she seems to fade and lean into it, matching your tepid effort with some push of her own
-&gt;It feels… similar to your wife, the way your mouths don’t quite match up, but you try to put them together
-&gt;You lean into her, arm bending to tuck her head in the crook of your elbow
-&gt;When you draw back, after what felt like hours, you’re both breathless
-&gt;You watch as her chest rises and falls, heavy and wanting for air
-&gt;You don’t wipe her taste away
-&gt;Her needy eyes search yours, a look of shock and sadness at the abruptness of your ending
-&gt;”T-Thank you for the encouragement,” she stammers. “Could I…?”
-&gt;You lean closer at the behest of her fingers piling up your shirt
-&gt;”Could I have a little more encouragement?” She weakly requests
-&gt;Well, what kind of man would you be if you didn’t oblige?
-&gt;You cock your head and press your mouth to hers
-&gt;The feeling of your tongues meeting is like an electric current finally being passed between your two heaving bodies
-&gt;She shudders as you press your tongue against hers, body following suit
-&gt;The gentle curves of her form become apparent
-&gt;The softness of her fur, the responsiveness of her skin through her wet blouse
-&gt;The plushness of her breasts against your skin
-&gt;It all feels like little pinpricks of fire gathering into something big and beautiful
-&gt;She pushes her hand through your hair and down the back of your neck
-&gt;With a tenderness, she pulls you deeper into her mouth, as if wanting you to stay locked together at the lips forever
-&gt;Not that you’d complain
-&gt;But you need to breathe
-&gt;You come up and gasp as subtly as you can, sucking air in ragged breaths
-&gt;Emma bends beneath you, her body like a a semi-rigid snake
-&gt;When you lock eyes with her, you know, without a single word, what she wants
-&gt;But you don’t go there yet
-&gt;You dip below her chin, veer to the right, and plant small kisses on the nape of her neck
-&gt;Your ministrations tease little gasps and moans from her.
-&gt;Each time your lips pull gently at her flesh she shivers just a tiny bit
-&gt;Perfect
-&gt;You focus on her neck, while your free hand travels down the outside of her shirt and pulls at a handful of her breasts
-&gt;The effect is pretty rapid
-&gt;She bends hard, bowing back upwards so as to give you more purchase on her body like a gift for a job well done
-&gt;A gift you do not plan to waste
-&gt;You swiftly unbutton her shirt with your free hand, and it feels like you’re undoing the ribbon to a beautiful and ornate present
-&gt;Your other hand you use to cup the base of her skull and lift it up to your pressing lips
-&gt;The spill of her modest cleavage is contained by an equally modest pink bra
-&gt;You pull back from her wanting mouth
-&gt;Her hot breath puffs up in your face
-&gt;”W-Why’d you stop?” She says, her want played out across her face, pulling her eyelids down until they’re half-shut
-&gt;You raise an eyebrow
-“Pink bra and a white blouse? You’re a bold woman,” you say, acutely aware of your need to add a disarming chuckle after that
-&gt;”Shut up…” she moans, accenting her verbiage with a tired smile
-&gt;She sits up suddenly
-&gt;”If you don’t like the bra,” she reaches her hands behind her back. “then fine. I’ll just take it off.”
-&gt;She gives you a challenging stare and a cocky smirk, but you hardly notice
-&gt;Your feeble male brain is only concerned with her chest, now unburdened and unhindered by that pesky piece of underwear
-&gt;You’re so busy staring at the way her pink nipples practically glow against her spotted fur that you don’t notice it when she hurls the bra at your face
-&gt;”Pervert,” she giggles
-&gt;She really is beautiful, and in more than just a casual hookup way
-&gt;Her blouse loosely hangs on her body, and to anyone else she might look undressed or disheveled
-&gt;But to you, she reminds you of an angel, just with shorter wings
-&gt;It’s the softness of her coat, the way its paleness catches the overhead light
-&gt;Its in the roundness of her high cheeks, the shortness of her muzzle, the pointed (yet woozy) drift of her gaze that’s casually trawling all over your body with an approving smile
-&gt;Emma purrs contentedly as her lithe tail swishes behind her in a hypnotizing rhythm, like the world’s slowest metronome
-&gt;You can’t control yourself anymore
-&gt;You pretty much leap back on top of her
-&gt;Your weight pins her to the ground, but she only seems to be encouraging it
-&gt;She rubs her paws in gentle circles on your back as your lips meet the crook of her neck again
-&gt;A high gasp slips out of her, dragging with it stiffness of her body
-&gt;She melts into you like butter put to a candle’s flame
-&gt;Time to turn up the heat
-&gt;You kiss your way down her neck, tracking wet spots into her fur
-&gt;With one hand you cup her right breast, plunging your fingers into the softness of skin and fur
-&gt;She gasps again as you bring your mouth tantalizingly close to her stiff nipple
-&gt;All it takes is your languid, hot breath on make her moan
-&gt;You pause and peer up at her
-&gt;She looks down at you, face blisteringly red
-&gt;”I’m sensitive there, okay?” She squeaks
-“Good.” You flick at the tip of her nipples with her tongue, which works another moan out of her
-&gt;Her head rolls back onto the floor
-&gt;You latch onto her other breast with your hand and begin working her over, alternating between fondling and sucking on each one
-&gt;You taste the softness of her velvet-like fur, the sensitive skin of her nipples
-&gt;It tastes like nothing and everything at the same time
-&gt;Her legs cross together, and you can’t help but notice that she’s rubbing her thighs together, like two dry sticks you’d rub together to create a friction fire
-&gt;You go to unzip her pants
-&gt;She pushes her palms against your chest
-&gt;”Hold on, hold on,” she says
-&gt;You lean back
-“What’s wrong? Does it hurt?”
-&gt;”Take your pants off,” she says in a sharp breath
-&gt;It’s rude to keep a lady waiting
-&gt;You swiftly tear your belt from around your waist and yank your pants down
-&gt;Now it’s her turn to pounce on you
-&gt;With a sharp yell she hurls her body at you, knocking you almost-too-hard against the wooden floors
-&gt;Before you can even moan in pain, she’s got her tongue in your mouth, working you over, lashing against your own, as if searching for something inside of you
-&gt;Having found it, she pulls back, locks eyes with you, smirks, and then floats lower, past your ribcage, past your waist, and then to your stiffening groin
-&gt;She rakes your underwear down and coos softly when your cock bounces free
-&gt;Her paws wrap around it instinctively, and you wince out of habit
-&gt;Your wife would sometimes forge to retract her claws — the cause of more than a few abruptly canceled sessions
-&gt;But Emma didn’t
-&gt;She presses your drooling cock against her lips, her eyes fluttering shut
-&gt;”This might sound… gross… but I love the way you smell,” she says, breathing deep. “You’re the first human I’ve ever been with, but I think I’m hooked.”
-&gt;Her jaw drops open and her long, pink tongue lolls out of her mouth
-&gt;She starts working it up and down your shaft, coaxing another gob of pre to slide out of you
-&gt;She quickly plants her lips at the crown of your member and pulls you into her mouth
-&gt;You can feel the wetness of her cheeks collapse around your, while her tongue coils itself around your shaft
-&gt;In one swift motion she rakes her head up
-&gt;You gasp
-&gt;And then down, burying your prick against the back of her throat, where it remains for sometime, getting worked over by her nimble tongue
-&gt;Emma breathes evenly through her nose, eyes shut, inhaling your scent
-&gt;She looks completely at ease, all exhaustion, fear, tension and terror for your wellbeing washed out of her by the flood of your shared passion
-&gt;Carefully, she bobs her head up and down
-&gt;You feel a strong, wet pulling sensation all over your cock, pleasure building itself behind your groin like the first winds of a hurricane
-&gt;This isn’t good
-&gt;At this rate you’ll blow your load too soon
-&gt;She works you in and out of her mouth, taking small brakes to take in the musty air and stroke your cock
-&gt;And each time, you lock fading and tired eyes, and speak in the unspoken language of kind smiles
-&gt;You can’t help but notice how hard she’s breathing
-&gt;It’s not just from having your dick down her throat
-&gt;And you also can’t help but notice that she’s been rubbing her thighs together still
-“A little busy over there?” You nod towards her lower half
-&gt;She blushes again, a hint of embarrassment mixed with overwhelming excitement
-&gt;”I can’t help it. It’s… It’s been a minute for me.”
-&gt;You hum contentedly
-&gt;Sounds like something you can fix
-&gt;You direct her to take her pants off, which she does enthusiastically
-&gt;She stands up, still wearing the unbuttoned blouse, and rakes her pants down
-&gt;She’s also wearing faded pink underwear that matches her bra
-&gt;There’s a solid damp spot between her legs where she’s managed to soak through her panties
-&gt;But that’s not what catches your eyes
-&gt;It’s the adorable, soft-yellow cat face that’s on her underwear
-&gt;You smother an explosive bout of laughter behind your teeth
-&gt;She crosses her legs, concealing the cat face
-&gt;”They were a gift… for myself…” she throws her head to the side
-&gt;It’s not like you’re in a position to talk
-&gt;You’re lying on your back, on the wooden floor of a shady anthro bar, with your pants and underwear around your ankles like cloth shackles
-“No, no,” you wave away her embarrassment. “I think they’re the cute. Now, take them off and come over here.”
-&gt;She pulls down her panties and slips out of them, and you can’t help but notice the way her inner-thigh’s fur is matter down from her need
-&gt;She eases down next to you, one free hand stroking your slick cock
-&gt;You tilt your head and lean in for a kiss
-&gt;She mirrors your efforts
-&gt;You roll on top of her, uninterested in shedding her blouse for her
-&gt;You love the way it looks on her
-&gt;And before you resume kissing, you just stare into one another  as thunder booms outside like the distant echoes of a shotgun
-&gt;Rain pelts the windows, but you’re too lost in each other’s eyes to care
-&gt;The first thing you see, you’re ashamed to admit, is your wife’s eyes
-&gt;The same care and gentle love that reflected your image for years
-&gt;”Why’d you stop?” She asks with a half-smile. “Got something on my muzzle?”
-&gt;You blink away the memory and ground yourself in Emma, in the here, in the now
-&gt;You plant a kiss on her cheek
-“No, just got distracted by you.”
-&gt;She giggles
-&gt;Again, you start kissing down the nape of her neck, teasing soft gasps from her, playing her body like an instrument
-&gt;But you don’t stop at her breasts
-&gt;You keep working your way down and down
-&gt;And when you reach her slender waistline, her body jumps up a tiny bit
-&gt;”Oh God.” She rakes her claws against the floor
-&gt;You pretty much know what’s going to happen next
-&gt;You kiss down to her thighs
-&gt;Lower…
-&gt;And then to her inner thighs
-&gt;She parts her legs, giving you free access to her dripping sex
-&gt;You kiss along her inner thighs, working your way up to her clit
-&gt;In one long, drawn out motion, you drag your tongue between her lips, tasting her juices
-&gt;Then you lap upwards, dragging it along her clit
-&gt;The sharpness of her gasp gives you pause
-“Bad?” You say
-&gt;”No, no, good.” She moans. “Please keep going.”
-&gt;You don’t need more instruction
-&gt;You take some time just lapping at her juices and slyly working at her clit, practically squeezing more girl-cum out her
-&gt;Each ministration of your tongue elicits a deep, guttural moan from her chest
-&gt;And as you bear down on her with longer, more deliberate strokes of her tongue, you hear the sound of claws scraping into wood
-&gt;”Oh fucking- fuck- fuck fuck,” she coos
-&gt;You hook your arms around her thighs and pull her closer to your wanting mouth
-&gt;After a few minutes of stroking and sucking and licking at her pussy, her back starts to bow, rising, slowly, as if she could ascend to heaven right there
-&gt;”Fuck, I think I’m going to-”
-&gt;You double down on your efforts
-&gt;Her thundering orgasm rips the words from her throat
-&gt;She gasps, the orgasm rolling through her body in shuddering waves
-&gt;You hold on for the ride as she gently bucks and grinds herself against your tongue, smearing your face with her juices, which you don’t mind one bit
-&gt;And after what seems like hours, the orgasm wrung from her toned body, she finally settles back down to earth in a blissed out heap
-&gt;You’re about to crawl away from her when she lazily catches you by the cheek
-&gt;”Anon, would you kiss me?” She says, voice begging
-&gt;Hey she asked
-&gt;You crawl on top of her feeling her sodden body bending into yours, feeling the star-like heat radiating off of her
-&gt;You kiss for a bit, but you can’t help but feel your need still present, pressing at the forefront of your mind like junkie ambling for his next fix
-&gt;Your cock presses against her folds, and you want so badly to be inside of her
-&gt;The cheetah eases you against her
-&gt;She looks into your eyes, studying you
-&gt;”Is this… is this okay with you?” She says in her strongest voice, though the orgasm still has her blitzed
-&gt;You nod very softly, and as your lips meet again, you press yourself into her
-&gt;A heated moan slips from her as you push your way inside of her
-&gt;And
-&gt;GOD is she wet
-&gt;It’s like having your whole being hugged by wet and pulsing velvet
-&gt;The further you get, the longer and more drawn out is her cooing
-&gt;Emma places her palms on your back as you start to thrust into her wetness
-&gt;It’s like every nerve in your body is being jolted with electricity
-&gt;Just like her, it’s been… awhile…
-&gt;You and her both gasp when you bottom, the full length of your member splitting her
-&gt;”God damnit,” she digs her claws into your back. “Please don’t stop.”
-&gt;You wince, but soldier on, and soon enough, you’re rhythmically pounding in to her
-&gt;You press your hot body against hers, the symmetry like two fault lines slipping past one another, and you can’t ignore the blistering feeling of pleasure now running its way up from behind your groin up to the tip of your cock
-&gt;And you also can’t ignore the way her walls are clenching around you, tightening up, heralding the approach of her own second orgasm
-&gt;You close your eyes
-&gt;Her claws rip through your dress shirt, but you don’t even care anymore
-&gt;Because you feel your triumphant orgasm ripping through you right as hers hits with the same force
-&gt;Wave after wave of pulsing pleasure overtakes the both of you
-&gt;You can feel yourself twitching inside of her while her walls tighten up and pulse, wringing every last drop of cum out of your balls
-&gt;After a few more blissful seconds, you crumble on top of her
-&gt;Damn older body
-&gt;Were you younger and in better shape you could have gone another round
-&gt;But you’re spent
-&gt;And so is she
-&gt;You collapse together in a blissed out heap, resting your head against her shoulder
-&gt;You can still feel yourself inside of her, but neither of you seem to care
-&gt;The feeling of warmth between you two Is more than enough
-&gt;Her hot, exhausted breathing tickles your neck
-&gt;You crack a weak, tired smile
-“It’s been awhile for me too,” you whisper in her sensitive ears
-&gt;A shiver runs up her body, but she manages a mirroring, tired smile
-&gt;”I guess we’re even then. But don’t forget: I still won the race.”
-
-&gt;Sometime later you two end up naked and spent, laying together on the floor with nothing but your jacket to keep you two warm
-&gt;Emma rests her head on your chest and purrs softly at the steady rhythm of your heartbeat
-&gt;Outside, rain runs a steady drumbeat against the windows and the roof, while thunder booms in the distant, slate-gray skies
-&gt;You’re stroking her fur with the gentlest of touches, just enough to make her shiver and bend herself into you
-&gt;It feels as natural as breathing by now, a mindless, autonomous behavior
-&gt;And believe it or not, you’re grounded, here, with her
-&gt;Hell, you’re physically pinned to the floor by half of her body which is sprawled out on top of you
-&gt;Memories drift in and out of your mind like scenes from a grainy film,
-&gt;Memories of your wife
-&gt;They make sense, and they’re beautiful in ways you can’t comprehend
-&gt;But you don’t get sad when you think of them
-&gt;Maybe… it’s okay to open yourself up again?
-&gt;Emma purrs loudly, eyes shut, peacefully resting while the world drains itself out
-&gt;At moments like these, time feels suspended, luminous — even pointless
-&gt;As the thunder booms outside, and the wind rushes by in sharp gales, you let your body sink in to itself
-&gt;You settle against the warmth of the mammal next to you, your breathing finally reaching a beautiful syncronoicity, as two hearts beat as one
-&gt;A deeply held breath escapes you
-&gt;”Anon?” Emma says
-&gt;You can’t see her face, but you can hear her voice
-“Yes?”
-&gt;”You’re not going to leave any time soon, right?”
-&gt;You pull her closer to you
-“I hadn’t planned on it, no. I think I’ll take a sick day tomorrow.”
-&gt;She lets out a pleased sigh
-&gt;”Good. Because it’s raining, and I don’t want you to catch a cold.”
-“You’re so thoughtful,” you say, half sarcastically
-&gt;Her smile practically glows in the dark
-&gt;A few more silent minutes pass before you allow your eyes to finally fall shut
-&gt;Emma has long since fallen asleep, half curled up on your chest
-&gt;Thunder rumbles in the distance, low and muffled, as the rain drags itself down from the sky
-
-The end
-
-https://www.youtube.com/watch?v=luM6oeCM7Yw</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
-                <div class="details">
-                                            Python |
-                    
-                    13 min ago                </div>
-            </li>
-                    <li>
-                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
-                <div class="details">
-                                            HTML 5 |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/btQEV0ET">Programming - practice</a>
-                <div class="details">
-                                            Java |
-                    
-                    50 min ago                </div>
-            </li>
-                    <li>
-                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
-                <div class="details">
-                                            Python |
-                    
-                    53 min ago                </div>
-            </li>
-                    <li>
-                <a href="/puJtA4QV">views.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    60 min ago                </div>
-            </li>
-                    <li>
-                <a href="/XgV1xT3P">forms.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/uxEpBHki">K1_as</a>
-                <div class="details">
-                                            C# |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/Bu8qJSns">emma2</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
-<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
-</body>
-</html>

@@ -1,727 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Up to Bat - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Up to Bat - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/u7K5ysns" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/u7K5ysns" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="dOGVYCGccSgGrMWG5Om9P4nZuRqX5A20wiUDG2YXDkkOmOwWQq0_H3P2l--VguwK_bP3WfCgXvWGdjdREFhLDw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/u7K5ysns" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/u7K5ysns" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/1/0/3/2978830.jpg" alt="Strong_Anon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Up to Bat</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Strong_Anon">Strong_Anon</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Strong_Anon" class="message" title="Send a private message to: Strong_Anon"></a>
-                                    
-                <div class="date">
-                    <span title="Friday 24th of November 2017 11:09:27 AM CDT">Nov 24th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,270                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 23.14 KB            </div>
-
-            <div class="right">
-                <a href="/raw/u7K5ysns" class="btn -small">raw</a>
-                <a href="/dl/u7K5ysns" class="btn -small">download</a>
-                <a href="/clone/u7K5ysns" class="btn -small h_800">clone</a>
-                <a href="/embed/u7K5ysns" class="btn -small h_800">embed</a>
-                <a href="/report/u7K5ysns" class="btn -small">report</a>
-                <a href="/print/u7K5ysns" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;Your computer monitor flickers lazily as you watch a documentary on bats</div></li><li class="li1"><div class="de1">&gt;Not the small insect eating buggers, but the walking &#039;feral&#039; ones</div></li><li class="li1"><div class="de1">&gt;Somewhere down the line Anthros decided city life and English just wasn&#039;t for them, and took to the woods to do who knows what</div></li><li class="li1"><div class="de1">&gt;Doesn&#039;t make them any less cuter though, especially the North American ones</div></li><li class="li1"><div class="de1">&gt;Smol, plush NA bats</div></li><li class="li1"><div class="de1">&gt;Not the flying fox anthros though</div></li><li class="li1"><div class="de1">&gt;Those look like fucking ptterodactyles</div></li><li class="li1"><div class="de1">&gt;No, you want a cute little bat Anthro to call your own</div></li><li class="li1"><div class="de1">&gt;Preferably a fruit bat one</div></li><li class="li1"><div class="de1">&gt;And really, who wouldn&#039;t want one?!</div></li><li class="li1"><div class="de1">&gt;You cannot overstate how small and light they are, or how incredibly fluffy to an absurd degree</div></li><li class="li1"><div class="de1">&gt;Bonus points for their ability to fly!</div></li><li class="li1"><div class="de1">&gt;Imagine needing something while you&#039;re away or at work, and having her flying it to you</div></li><li class="li1"><div class="de1">&gt;Amazon should have fought harder to employ them</div></li><li class="li1"><div class="de1">&gt;Much better than those creepy ass drones that require a gigantic &#039;rob me!&#039; mat plastered all over your lawn</div></li><li class="li1"><div class="de1">&gt;Now, you could try dating</div></li><li class="li1"><div class="de1">&gt;COULD</div></li><li class="li1"><div class="de1">&gt;But why would you?</div></li><li class="li1"><div class="de1">&gt;You already know you wanted a little tribal one</div></li><li class="li1"><div class="de1">&gt;One where you could teach her about the world, and stuff</div></li><li class="li1"><div class="de1">&gt;But how would you ever find a bat?</div></li><li class="li1"><div class="de1">&gt;And even then, convince her to join you after</div></li><li class="li1"><div class="de1">&gt;Your mental green fic writing is interrupted by a line a British man said in the documentary</div></li><li class="li1"><div class="de1">&gt;You had to rewind it to hear it right</div></li><li class="li1"><div class="de1">&gt;&quot;Sometimes feral bat Antthros are a nuisence; destroying crops, making nests in people&#039;s attics, and being incredibly noisy at night&quot;</div></li><li class="li1"><div class="de1">&gt;That&#039;s not what you&#039;re looking for</div></li><li class="li1"><div class="de1">&gt;&quot;...The &#039;Easy Peezy Teeny Screetchy Method,&#039; which was quickly renamed, is a strategy experts use to-&quot;</div></li><li class="li1"><div class="de1">&gt;Well, you aren&#039;t an expert so no use in that</div></li><li class="li1"><div class="de1">&gt;&quot;These feral Anthros are often captured and given homes, to domesticate them into society. This is a favorable alternative to extermination&quot;</div></li><li class="li1"><div class="de1">&gt;You pause the documentary right at the time where the dry narrator now has a bit standing under his petting hand</div></li><li class="li1"><div class="de1">&gt;Which, by the looks of it, means there&#039;s a chance</div></li><li class="li1"><div class="de1">&gt;With a few clicks and a small toll to Cablevision you look up the process for getting a little bat girl to live with you</div></li><li class="li1"><div class="de1">&gt;It&#039;s mostly charities that pop up</div></li><li class="li1"><div class="de1">&gt;They require a ton of paperwork and someone to dig through your closet before you can even be considered</div></li><li class="li1"><div class="de1">&gt;Others are shelters, but with how you aren&#039;t exactly in flying puffball territory, they&#039;re a few hundred miles out in every direction</div></li><li class="li1"><div class="de1">&gt;But one link catches your eye</div></li><li class="li1"><div class="de1">&gt;&#039;Rakeman Enterprises: We sell rakes and raking accessories*&#039;</div></li><li class="li1"><div class="de1">&gt;&#039;*Only rakes&#039;</div></li><li class="li1"><div class="de1">&gt;You click it, and to your terrible, horrible surprise</div></li><li class="li1"><div class="de1">&gt;You find a deal on a six prong all black leaf slayer, for $14.99</div></li><li class="li1"><div class="de1">&gt;At least it&#039;s honest</div></li><li class="li1"><div class="de1">&gt;Googling the words &#039;Rakeman enterprises&#039;(You had too, the site didn&#039;t even have the word bat on it,) brings up a site and a bunch of hippy dippy forums complaining</div></li><li class="li1"><div class="de1">&gt;&quot;He captures and kills those poor defenseless ferals!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;He eats Anthros!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;good prices tho&quot;</div></li><li class="li1"><div class="de1">&gt;Basically a bunch of whining with zero proof</div></li><li class="li1"><div class="de1">&gt;Something prods your thoughts, something you think you&#039;ve heard awhile ago</div></li><li class="li1"><div class="de1">&gt;A small megablok snaps into place in the back of your mind at the answer</div></li><li class="li1"><div class="de1">&gt;The raider of...wherever, is what you get out of itt</div></li><li class="li1"><div class="de1">&gt;Forums you often frequented talked of a man who caught and sold feral Anthros</div></li><li class="li1"><div class="de1">&gt;He would often call himself rakeman</div></li><li class="li1"><div class="de1">&gt;You dive back to the boards you frequent and start asking around</div></li><li class="li1"><div class="de1">&gt;Scrolling around and looking for any sign, all you get are mocking tones or a picture of that coveted ocelot you had seen before</div></li><li class="li1"><div class="de1">&gt;You posted a few more times asking for him</div></li><li class="li1"><div class="de1">&gt;Just to get the same responses, for hours and hours on end</div></li><li class="li1"><div class="de1">&gt;Hope was fading, but you have one last ace up your sleeve</div></li><li class="li1"><div class="de1">&gt;&#039;TFW no smol bat gf :(((&#039;</div></li><li class="li1"><div class="de1">&gt;...</div></li><li class="li1"><div class="de1">&gt;Just as you were about to give up a flag pops up on your screen</div></li><li class="li1"><div class="de1">&gt;&#039;&gt;&gt;4042015 holy shIt dude, fine: tinyurl.com/y97va626&#039;</div></li><li class="li1"><div class="de1">&gt;&#039;now fuck off&#039;</div></li><li class="li1"><div class="de1">&gt;Someone (you)&#039;d one of your posts to a private website with a picture of a small fruitbat</div></li><li class="li1"><div class="de1">&gt;A phone number is listed on it also</div></li><li class="li1"><div class="de1">&gt;With a shaky hand you dial in the digits quickly and wait for whoever it was to pick up</div></li><li class="li1"><div class="de1">&gt;After about 3 rings, someone does</div></li><li class="li1"><div class="de1">&gt;&quot;Rakeman enterprises,&quot; came a gruff voice, &quot;we sell rakes, only rakes&quot;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t believe it</div></li><li class="li1"><div class="de1">&gt;It&#039;s him</div></li><li class="li1"><div class="de1">&gt;&quot;Uh hi, uh, I heard you have a bat problem you&#039;re trying to get rid of?&quot;</div></li><li class="li1"><div class="de1">&gt;Some sic metal plays in the background as he answers</div></li><li class="li1"><div class="de1">&gt;&quot;Yea, 500 bucks. More if I have to deliver her to you&quot;</div></li><li class="li1"><div class="de1">&gt;Holy fuck only 500 bucks!?&quot;</div></li><li class="li1"><div class="de1">&gt;Wait, there must be a catch</div></li><li class="li1"><div class="de1">&gt;&quot;Whats wrong with her if she&#039;s only 500? I thought it would be a lot more&quot;</div></li><li class="li1"><div class="de1">&gt;The man groans, and you can tell he&#039;s losing his patience</div></li><li class="li1"><div class="de1">&gt;&quot;Nothing, not many people want a bat. You gonna take her or not?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yes! Of course I&#039;ll take her! I&#039;ve always wanted a bat&quot;</div></li><li class="li1"><div class="de1">&gt;Yeah... you could of left out that last part</div></li><li class="li1"><div class="de1">&gt;Screw it, you&#039;re pacing around excitedly </div></li><li class="li1"><div class="de1">&gt;He tells you the address and you jot it down quickly</div></li><li class="li1"><div class="de1">&gt;&quot;When can I pick her up?&quot;</div></li><li class="li1"><div class="de1">&gt;You hear the man hum and scratch away at some paper</div></li><li class="li1"><div class="de1">&gt;&quot;Conditioning will be done in 2 days&quot;</div></li><li class="li1"><div class="de1">&gt;Conditioning?</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t bring any cops&quot;</div></li><li class="li1"><div class="de1">&gt;Uh, you aren&#039;t going to ask</div></li><li class="li1"><div class="de1">&gt;&quot;Ok, I&#039;ll see you then&quot;</div></li><li class="li1"><div class="de1">&gt;He hangs up half way through</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re driving down a country road on the far outskirts of the city</div></li><li class="li1"><div class="de1">&gt;The address the man gave you was about 100 miles from your house</div></li><li class="li1"><div class="de1">&gt;An hour and 45 minute drive was totally worth it though</div></li><li class="li1"><div class="de1">&gt;You drive as quickly and safely as you can, without even the radio on to distract you</div></li><li class="li1"><div class="de1">&gt;Soon you arrive at a dusty road that you begin to turn on</div></li><li class="li1"><div class="de1">&gt;A few minutes of winding through woods and you come up to large house, that looks more like a homestead</div></li><li class="li1"><div class="de1">&gt;A raven Anthro is perched on the front balcony</div></li><li class="li1"><div class="de1">&gt;Her eyes never leave you while you carefully make your way to the door</div></li><li class="li1"><div class="de1">&gt;You give it a few knocks, and a man with piercing blue eyes opens it up</div></li><li class="li1"><div class="de1">&gt;&quot;You got the cash?&quot; he says</div></li><li class="li1"><div class="de1">&gt;You fumble for your wallet under the uncomfortable, bored stare he&#039;s giving you</div></li><li class="li1"><div class="de1">&gt;&quot;Uh yeah, one sec&quot;</div></li><li class="li1"><div class="de1">&gt;Your hand goes to your pocket, and a shotgun cocking sounds behind you</div></li><li class="li1"><div class="de1">&gt;&quot;Watch the hands asshole,&quot; the raven caws</div></li><li class="li1"><div class="de1">&gt;Your hands shoot up, and you freeze in place</div></li><li class="li1"><div class="de1">&gt;&quot;Slag you dumb bitch!&quot; He opens the door entirely, &quot;He&#039;s clearly not armed, and you-&quot;</div></li><li class="li1"><div class="de1">&gt;He brushes past you, wrangling the gun from &#039;Slag&#039;</div></li><li class="li1"><div class="de1">&gt;Removing the shells he throws it back at the bird who scrambles to catch it</div></li><li class="li1"><div class="de1">&gt;&quot;Put my damn shotgun away birdbrain!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;...Sorry boss, I don&#039;t like waiting around,&quot; she mumbles</div></li><li class="li1"><div class="de1">&gt;You hear her walk off, and when you think she&#039;s around the corner you go back to fishing out your wallet</div></li><li class="li1"><div class="de1">&gt;Just, a hell of a lot shakier and slower when you</div></li><li class="li1"><div class="de1">&gt;You grab 5 crisp Benjamins and hand them over to the still staring man</div></li><li class="li1"><div class="de1">&gt;His arms look like he lost a fight with a wood chipper, no doubt from all the scratches and bites he must of got from his rake business</div></li><li class="li1"><div class="de1">&gt;You aren&#039;t gonna say anything about it</div></li><li class="li1"><div class="de1">&gt;He inspects it, then you, then behind you, and does it all again once more</div></li><li class="li1"><div class="de1">&gt;Satisfied, he walks back into the house with a hand waving you in</div></li><li class="li1"><div class="de1">&gt;&quot;Stand there, and ONLY there,&quot; he tells you, so you do</div></li><li class="li1"><div class="de1">&gt;You also aren&#039;t about to blow this by being a rude guest, too</div></li><li class="li1"><div class="de1">&gt;The rug you&#039;re standing on is rather nice, and it matches well with his very well decorated house</div></li><li class="li1"><div class="de1">&gt;It&#039;s not at all what you expected</div></li><li class="li1"><div class="de1">&gt;Not from a man who has a reputation for outright brutality</div></li><li class="li1"><div class="de1">&gt;While you&#039;re looking around your eyes make contact on another looking around a wall</div></li><li class="li1"><div class="de1">&gt;Its- her, face is spotted and feline</div></li><li class="li1"><div class="de1">&gt;&#039;So that&#039;s that coveted Ocelot people keep posting pictures of&#039;</div></li><li class="li1"><div class="de1">&gt;You give a small wave and a smale</div></li><li class="li1"><div class="de1">&gt;She in turn disappears behind the wall again</div></li><li class="li1"><div class="de1">&gt;Guess you spooked her</div></li><li class="li1"><div class="de1">&gt;The man told you over the phone to wear &quot;friendly attire,&quot; so you were dressed up in a button up shirt and a tie</div></li><li class="li1"><div class="de1">&gt;Jeans too, because comfy is better than class</div></li><li class="li1"><div class="de1">&gt;A little later and the man returns with a bat girl in his arms</div></li><li class="li1"><div class="de1">&gt;The second he sets her down, she&#039;s now in yours and hugging as if she&#039;s always known you</div></li><li class="li1"><div class="de1">&gt;&quot;Pleasepleaseplease keep me safe!&quot; she was squeaking into your shirt, &quot;don&#039;t let the bush monsters get me again!&quot;</div></li><li class="li1"><div class="de1">&gt;Bush monsters?</div></li><li class="li1"><div class="de1">&gt;Again, you aren&#039;t gonna ask</div></li><li class="li1"><div class="de1">&gt;You try to not freak out over this furry blob clinging to you</div></li><li class="li1"><div class="de1">&gt;You manage to get a few light head pats and reassure her with quiet words</div></li><li class="li1"><div class="de1">&gt;She only snuggles up harder in kind</div></li><li class="li1"><div class="de1">&gt;You look up at the man and smile</div></li><li class="li1"><div class="de1">&gt;He made your dream come true, and you&#039;re forever greatful</div></li><li class="li1"><div class="de1">&gt;Not enough to keep yourself, and more importantly her, waiting</div></li><li class="li1"><div class="de1">&gt;So you&#039;re out the door and ushering her into your SUV</div></li><li class="li1"><div class="de1">&gt;Looking back through the rearview mirror, you spot the man move the rug you were standing on and pick up a.. something</div></li><li class="li1"><div class="de1">&gt;If you didn&#039;t know better that looks like a shaped explosive</div></li><li class="li1"><div class="de1">&gt;Huh</div></li><li class="li1"><div class="de1">&gt;Doesn&#039;t matter, as it&#039;s time to go now</div></li><li class="li1"><div class="de1">&gt;You reach over and pet the bat one more time, and start up the car</div></li><li class="li1"><div class="de1">&gt;&quot;Do you have a name?&quot; you ask in a friendly tone while you slowly pull out of the driveway</div></li><li class="li1"><div class="de1">&gt;She looks at you with big brown eyes</div></li><li class="li1"><div class="de1">&gt;&quot;My name is Mabel,&quot; she&#039;s quieter than before</div></li><li class="li1"><div class="de1">&gt;Your excitement, successfully restrained, allows you to beam the biggest reassuring smile at her</div></li><li class="li1"><div class="de1">&gt;Only for a second though, this dirt road is pretty curvy and pretty root infested</div></li><li class="li1"><div class="de1">&gt;&quot;That&#039;s a cute name&quot;</div></li><li class="li1"><div class="de1">&gt;She&#039;s bunching the seat belt around her, and she isn&#039;t looking at you either</div></li><li class="li1"><div class="de1">&gt;You can&#039;t imagine what she went through back there, and this car for a feral must be just as confusing</div></li><li class="li1"><div class="de1">&gt;It&#039;s a good thing you&#039;re pretty great at driving one handed, for when you move your other to her it&#039;s quickly snatched up as well</div></li><li class="li1"><div class="de1">&gt;You let her calm down a bit, saying nothing while you drive through the woods, and when you feel your hands no longer being crushed you try to get her attention again</div></li><li class="li1"><div class="de1">&gt;&quot;My name is Anon,&quot; you slowly say</div></li><li class="li1"><div class="de1">&gt;You can feel her brown eyes are on you again while you still keep yours on the road</div></li><li class="li1"><div class="de1">&gt;&quot;Just know that I&#039;ll never let anyone, or anything, hurt you ever again&quot;</div></li><li class="li1"><div class="de1">&gt;She never said anything after that</div></li><li class="li1"><div class="de1">&gt;Didn&#039;t have too either</div></li><li class="li1"><div class="de1">&gt;The feeling of fur pressing against your arm with light breaths washing over your hand is the only one you need</div></li><li class="li1"><div class="de1">&gt;You gladly serve as her safety pillow as she sleeps through the long drive home</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">chapter 2</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The car ride home was uneventful at best</div></li><li class="li1"><div class="de1">&gt;Mabel slept peacefully, holding your arm tight as you drove</div></li><li class="li1"><div class="de1">&gt;Her gentle breathing and quiet chittering was adorable</div></li><li class="li1"><div class="de1">&gt;It was during the long straight road stretches that you were really able to get a good look at her</div></li><li class="li1"><div class="de1">&gt;She was maybe 4 feet tall</div></li><li class="li1"><div class="de1">&gt;It&#039;s hard to tell when she&#039;s hunched over and sitting</div></li><li class="li1"><div class="de1">&gt;Her hair and fur are black, while her tummy, muzzle and wings a light brown</div></li><li class="li1"><div class="de1">&gt;She sure was cute too</div></li><li class="li1"><div class="de1">&gt;It has taken you a bit longer than usual with one of your arms being used, but soon you&#039;re pulling into your parking spot, and you gently slide your arm out of her grip</div></li><li class="li1"><div class="de1">&gt;She didn&#039;t let go until you bribed her with a few quick pets and scratches on her head to wake her up</div></li><li class="li1"><div class="de1">&gt;Shaking the feeling back into your arm and unclipping the seatbelt, you hear a long high pitched yawn</div></li><li class="li1"><div class="de1">&gt;Looking over she&#039;s in full stretch mode, with one of her legs kicking out and a hand on full eye rub duty</div></li><li class="li1"><div class="de1">&gt;Groggily she sees you staring</div></li><li class="li1"><div class="de1">&gt;&quot;Where are we Anon?&quot;</div></li><li class="li1"><div class="de1">&gt;You smile and offer her a hand</div></li><li class="li1"><div class="de1">&gt;&quot;Home&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your apartment isn&#039;t in the country by a long shot, but it is in the suburbs</div></li><li class="li1"><div class="de1">&gt;It&#039;s pretty nice that your town still decided that trees and forests were a pretty neat concept, with both dotting all around</div></li><li class="li1"><div class="de1">&gt;It didn&#039;t help Mabel in the slightest</div></li><li class="li1"><div class="de1">&gt;She was conflicted about leaving the safety of the metal box to be in the safety of your arms, and it was an awkward struggle to outright pry her off the door frame</div></li><li class="li1"><div class="de1">&gt;You&#039;re carrying her like a fuzzy burlap sack, half worried that she&#039;d bolt away or that her claws would get a good swipe in</div></li><li class="li1"><div class="de1">&gt;Shamefully, you did have a plan in mind</div></li><li class="li1"><div class="de1">&gt;&quot;You must be hungry Mabel, let&#039;s get some food for us&quot;</div></li><li class="li1"><div class="de1">&gt;She suddenly stops, going rock solid over your shoulder</div></li><li class="li1"><div class="de1">&gt;&quot;Food?&quot; her death grip on your side loosens a bit</div></li><li class="li1"><div class="de1">&gt;&quot;We don&#039;t have to go look for it?&quot;</div></li><li class="li1"><div class="de1">&gt;You lift her off of you, holding her by the shoulders(barely) out in front of you</div></li><li class="li1"><div class="de1">&gt;Her eyes are about 90% pupiles and darting frantically as they scan your face</div></li><li class="li1"><div class="de1">&gt;&quot;Nope!&quot; you set her down, confident that she wont dart away</div></li><li class="li1"><div class="de1">&gt;You slowly take your hand and grasp one of her own as gently as you can, and start to lightly pull her along</div></li><li class="li1"><div class="de1">&gt;&quot;Well, if I don&#039;t have anything you like, then all I have to do is go down to the store and pick something up&quot;</div></li><li class="li1"><div class="de1">&gt;It suddenly struck you that you&#039;re leading a naked female bat Anthro by the hand</div></li><li class="li1"><div class="de1">&gt;In the open</div></li><li class="li1"><div class="de1">&gt;You&#039;re a bit faster in going up the stairs for her sake more than yours</div></li><li class="li1"><div class="de1">&gt;She must not have a single thing to her name, and some clothes definitely gets added to the list of things you&#039;d get</div></li><li class="li1"><div class="de1">&gt;The alternative would be a real uncomfortable explanation to the neighbors</div></li><li class="li1"><div class="de1">&gt;Making it up the stairs and to your door, you quickly open it and lead her inside</div></li><li class="li1"><div class="de1">&gt;She takes a few steps, feels the carpet on her clawed toes and digs them in to the floor</div></li><li class="li1"><div class="de1">&gt;She looks completely confused</div></li><li class="li1"><div class="de1">&gt;&quot;I...I&#039;m used to being able to fly around everywhere,&quot; Mabel said, rubbernecking around the interior</div></li><li class="li1"><div class="de1">&gt;Not finding a hole or a window her wide eyes are looking at you</div></li><li class="li1"><div class="de1">&gt;&quot;Where can I fly?&quot;</div></li><li class="li1"><div class="de1">&gt;It&#039;s still a bit hard to believe that all of your careful planning is finally rewarded</div></li><li class="li1"><div class="de1">&gt;You bought this place to be on the top floor, with the back being totally open to the rolling hills and forests just behind the apartment complex</div></li><li class="li1"><div class="de1">&gt;&quot;You still can&quot;</div></li><li class="li1"><div class="de1">&gt;You walk across the carpet over to some closed curtains across the other side of the room, without Mabel in hand</div></li><li class="li1"><div class="de1">&gt;She has to be trusting enough of you, and you aren&#039;t about to force her</div></li><li class="li1"><div class="de1">&gt;The farther you got the more fidgety she became</div></li><li class="li1"><div class="de1">&gt;Her time in that house must of really done something to her, and you can finally begin to question it in the safety of your home</div></li><li class="li1"><div class="de1">&gt;You didn&#039;t let those thoughts ruin your encouraging smile as you pulled back the curtains, revealing a nice large balcony with no patio furniture</div></li><li class="li1"><div class="de1">&gt;It&#039;s perfect for her to stretch her wings</div></li><li class="li1"><div class="de1">&gt;&quot;You can fly anytime you want Mabel,&quot; you say, opening the sliding door</div></li><li class="li1"><div class="de1">&gt;&quot;Just be sure to come back, otherwise I can&#039;t protect you&quot;</div></li><li class="li1"><div class="de1">&gt;She starts shuffling towards you at the word &#039;protect&#039;</div></li><li class="li1"><div class="de1">&gt;&quot;Go on, try it,&quot; you step outside</div></li><li class="li1"><div class="de1">&gt;A few hesitant steps outside and shes on the balcony in front of you</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;l be right here,&quot; you give her a light push towards the railing</div></li><li class="li1"><div class="de1">&gt;She gives a few more looks, and one back to you</div></li><li class="li1"><div class="de1">&gt;You give her two thumbs up when she did</div></li><li class="li1"><div class="de1">&gt;With that she spreads her wings and takes off</div></li><li class="li1"><div class="de1">&gt;She&#039;s graceful in the air and beautiful to watch, turning sharply into loops or gliding down in spirals</div></li><li class="li1"><div class="de1">&gt;Her laughter on the wind is infectious</div></li><li class="li1"><div class="de1">&gt;You can easily get used to it</div></li><li class="li1"><div class="de1">&gt;After a few minutes she lands, happily squeaking and talking</div></li><li class="li1"><div class="de1">&gt;&quot;This is perfect! I can go fly AND hide from the rain and snow!&quot;</div></li><li class="li1"><div class="de1">&gt;Straight up viral</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m glad you like it Mabel, now let&#039;s get some food why don&#039;t we&quot;</div></li><li class="li1"><div class="de1">&gt;Her large ears perk up</div></li><li class="li1"><div class="de1">&gt;&quot;Yes! Food!&quot;</div></li><li class="li1"><div class="de1">&gt;She follows you into the kitchen a little haphazardly, almost tripping over the door frame and with her toes sometimes catching the carpet</div></li><li class="li1"><div class="de1">&gt;It looks like shes better flying than walking</div></li><li class="li1"><div class="de1">&gt;You dismiss the thought though, at least for your lamps and light&#039;s sake</div></li><li class="li1"><div class="de1">&gt;Reaching into the fridge you pull out a wrapped spread of various cut and uncut fruits</div></li><li class="li1"><div class="de1">&gt;The different colors of apples, oranges, bananas, and watermelon completely mesmerize her</div></li><li class="li1"><div class="de1">&gt;She mostly stared at the strawberries with her little mouth open and her eyes unblinking</div></li><li class="li1"><div class="de1">&gt;You peel back the plastic and start pointing at fruits</div></li><li class="li1"><div class="de1">&gt;&quot;Ok, I have apples, bananas, strawberries, some oranges, and a few slices of watermelon all here for you!&quot;</div></li><li class="li1"><div class="de1">&gt;You made sure these were farmers market fresh, and not that nasty three month frozen crap from a Walmart</div></li><li class="li1"><div class="de1">&gt;You also decided to shotgun the selection at the time, thinking one of them should be good enough</div></li><li class="li1"><div class="de1">&gt;She is a fruit bat after all</div></li><li class="li1"><div class="de1">&gt;Only problem with your infinite wisdom in fruit selection is how puzzled she&#039;s looking at you</div></li><li class="li1"><div class="de1">&gt;&quot;What is banana? And watermelon?&quot;</div></li><li class="li1"><div class="de1">&gt;&#039;Is,&#039; heh</div></li><li class="li1"><div class="de1">&gt;But, right, how would she know what those are</div></li><li class="li1"><div class="de1">&gt;No need to frustrate her though</div></li><li class="li1"><div class="de1">&gt;&quot;They are different kinds of fruits! I have a bunch of yummy things you can eat here!&quot;</div></li><li class="li1"><div class="de1">&gt;You open a banana and take a bite out of it</div></li><li class="li1"><div class="de1">&gt;&quot;See? Tasty!&quot;</div></li><li class="li1"><div class="de1">&gt;You hold the just bitten banana out in front of her</div></li><li class="li1"><div class="de1">&gt;You also squeeze it really tightly</div></li><li class="li1"><div class="de1">&gt;&#039;Shit, wait, she&#039;s not a pet.&#039;</div></li><li class="li1"><div class="de1">&gt;You blink</div></li><li class="li1"><div class="de1">&gt;&#039;Or...is she?&#039;</div></li><li class="li1"><div class="de1">&gt;Er</div></li><li class="li1"><div class="de1">&gt;To your immediate relief she looks at the fruit and then back at you</div></li><li class="li1"><div class="de1">&gt;You give it a little wiggle</div></li><li class="li1"><div class="de1">&gt;Hesitantly, she takes a bite</div></li><li class="li1"><div class="de1">&gt;And according to your 1/12th chomp&#039;d on scale before she did, you can see that an average banana is about the same height as her head</div></li><li class="li1"><div class="de1">&gt;You see her chewing it before her face lights up</div></li><li class="li1"><div class="de1">&gt;&quot;OHHHH that&#039;s good Anon! What did you say they are called?&quot;</div></li><li class="li1"><div class="de1">&gt;Woah! Almost lost your fingers there</div></li><li class="li1"><div class="de1">&gt;&quot;Annnananash?&quot;</div></li><li class="li1"><div class="de1">&gt;You wish you had your phone with you</div></li><li class="li1"><div class="de1">&gt;You&#039;re praying you&#039;l get another chance to snap pics of the pudge bat</div></li><li class="li1"><div class="de1">&gt;&quot;Bananas,&quot; you say between laughs</div></li><li class="li1"><div class="de1">&gt;Swallowing it down, she scrunches her little wing paws to her chest and does a little dance</div></li><li class="li1"><div class="de1">&gt;&quot;Oooh! Those are good, can I have more?!&quot;</div></li><li class="li1"><div class="de1">&gt;You gesture to the bunch of bananas sitting on your kitchen counter</div></li><li class="li1"><div class="de1">&gt;&quot;You can have as many as you like Mabel. Just remember there are other fruits here for you too&quot;</div></li><li class="li1"><div class="de1">&gt;You spend a bit more time showering her the more vanilla fruits</div></li><li class="li1"><div class="de1">&gt;She loves em all, though the oranges and lemons cause her to scowl</div></li><li class="li1"><div class="de1">&gt;It&#039;s adorable with how aggressive she is to fight through the pain from a large orange stuck in her teeth</div></li><li class="li1"><div class="de1">&gt;When you pull out the others, some of which you&#039;ve never had or heard of before, it&#039;s just as much an experience for you as it was for her</div></li><li class="li1"><div class="de1">&gt;Mango, blueberries, dragon fruit, and starfruit to name a few</div></li><li class="li1"><div class="de1">&gt;She loves those just as well</div></li><li class="li1"><div class="de1">&gt;Each fruit was potential new food for her to try, and she attacked every one of them just as much as she did to the bananas</div></li><li class="li1"><div class="de1">&gt;When you thought about it, the only fruit she ate was scavenged berries and applies from &#039;the bush monster&#039;s tree</div></li><li class="li1"><div class="de1">&gt;And wherever else those were native</div></li><li class="li1"><div class="de1">&gt;You distinctly remember an apple tree in front of the overly paranoid rake salesman&#039;s house</div></li><li class="li1"><div class="de1">&gt;You mull over these thoughts and more but are brought back to reality by a very loud burp</div></li><li class="li1"><div class="de1">&gt;Blinking and looking over your shoulder, you find a very empty plate beside a very sticky bat</div></li><li class="li1"><div class="de1">&gt;An incredibly satisfied one at that</div></li><li class="li1"><div class="de1">&gt;&quot;Wow! You uh, like those Mabel?&quot;</div></li><li class="li1"><div class="de1">&gt;She gave a nod and a small wheeze while she leaned against the counter</div></li><li class="li1"><div class="de1">&gt;It took a bit of effort to wrangle her to the sink at the sound of running water, but a quick wipe down of her muzzle, snout, or whatever and she was back to walking around</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As much as you want too, you can&#039;t really survive entirely off of plant flesh</div></li><li class="li1"><div class="de1">&gt;So currently your mixing together some ground beef with taco seasoning and cheese</div></li><li class="li1"><div class="de1">&gt;Nothing wrong with a few homemade quesadillas</div></li><li class="li1"><div class="de1">&gt;Mabel has a disturbing ability to put away food</div></li><li class="li1"><div class="de1">&gt;Even after all that, she&#039;s happily munching on a piece of watermelon and casually looking around your sides</div></li><li class="li1"><div class="de1">&gt;You&#039;d offer some, but, well</div></li><li class="li1"><div class="de1">&gt;Would she even like it?</div></li><li class="li1"><div class="de1">&gt;Her general disinterest with it after you stopped making noises gave you a resounding no</div></li><li class="li1"><div class="de1">&gt;She goes off and does whatever bats do in a house, and you continue to beat the meat into an edible form</div></li><li class="li1"><div class="de1">&gt;With a few dillas in hand you make your way to the couch, and it wasn&#039;t long before Mabel joined in as well</div></li><li class="li1"><div class="de1">&gt;You put your plate down on the small table and you dig for the remote</div></li><li class="li1"><div class="de1">&gt;Thinking your sentient sofa having eaten it again, your arm travels behind cushions and under fluffy pillows</div></li><li class="li1"><div class="de1">&gt;You hear a loud squeak after you brush against a softer than normal one</div></li><li class="li1"><div class="de1">&gt;Silly you, bats can&#039;t be pillows</div></li><li class="li1"><div class="de1">&gt;...You pretend that didn&#039;t happen and decide to check to your left</div></li><li class="li1"><div class="de1">&gt;It&#039;s next to you</div></li><li class="li1"><div class="de1">&gt;Nice</div></li><li class="li1"><div class="de1">&gt;Grabbing it with a little more flare than usual, you turn on the TV</div></li><li class="li1"><div class="de1">&gt;The sudden click and noise causes Mabel to jump</div></li><li class="li1"><div class="de1">&gt;And body slam you with her fuzzy softness</div></li><li class="li1"><div class="de1">&gt;You barely know her, with it not even being a day</div></li><li class="li1"><div class="de1">&gt;It&#039;s a confusing mixture of warmth and ice that she already thinks of you as her guardian</div></li><li class="li1"><div class="de1">&gt;Still, a sad bat is a terrible crime</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s ok, it&#039;s just the TV,&quot; you say, and with one hand your petting the fluff while your other quickly mutes the box</div></li><li class="li1"><div class="de1">&gt;She&#039;s hiding her face in your shoulder, shivering nervously and not making a sound</div></li><li class="li1"><div class="de1">&gt;&quot;Really, it&#039;s fine&quot;</div></li><li class="li1"><div class="de1">&gt;You somehow manage both Netflix and Mabel, and your choice for the night is Spirited Away</div></li><li class="li1"><div class="de1">&gt;It starts to play with the sound very low, and with your other hand now free you can fully give safety pats</div></li><li class="li1"><div class="de1">&gt;Soon she starts to watch carefully over her shoulder, but another loud noise wraps her wings around you too</div></li><li class="li1"><div class="de1">&gt;You don&#039;t mind this new leathery prison</div></li><li class="li1"><div class="de1">&gt;You just don&#039;t want to get hanged for it though</div></li><li class="li1"><div class="de1">&gt;With a little more low words of encouragement Mabel once again looks back to the screen</div></li><li class="li1"><div class="de1">&gt;The little human girl Chihiro is quietly walking alone in a vast golden field, and once again to whats new Mabel is slowly captivated</div></li><li class="li1"><div class="de1">&gt;&quot;What is it all?&quot; she finally asks</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s a made up story, animated and turned into a movie&quot;</div></li><li class="li1"><div class="de1">&gt;She looks back to you, with her everything clinging to your chilled out sitting form</div></li><li class="li1"><div class="de1">&gt;She raises an eyebrow</div></li><li class="li1"><div class="de1">&gt;&quot;What is animated?&quot;</div></li><li class="li1"><div class="de1">&gt;You raise your own</div></li><li class="li1"><div class="de1">&gt;Then both at the same time</div></li><li class="li1"><div class="de1">&gt;And after that you mentally facepalm</div></li><li class="li1"><div class="de1">&gt;She&#039;s never been exposed to this kind of stuff</div></li><li class="li1"><div class="de1">&gt;&quot;Think of a drawing, something you can dig in the dirt or on paper, and then a lot more of the same picture,&quot; you begin</div></li><li class="li1"><div class="de1">&gt;She turns her head back to the screen while you do</div></li><li class="li1"><div class="de1">&gt;&quot;When you look at the next drawing, it&#039;s slightly different than the first. When you put them all together and show them in order, you get what is called animation&quot;</div></li><li class="li1"><div class="de1">&gt;You see her reel back a bit when the girl falls into the water</div></li><li class="li1"><div class="de1">&gt;&quot;What?&quot; she&#039;s now twice as confused</div></li><li class="li1"><div class="de1">&gt;Ok, time for a bit of improvization</div></li><li class="li1"><div class="de1">&gt;It takes some effort, and some strategic fingers near the base of her wings, but you finally manage to remove her death hug and you grab a stack of post-it notes</div></li><li class="li1"><div class="de1">&gt;You spend the night drawing a man constantly walking into a rake, explaining it as you talk about television and the like</div></li><li class="li1"><div class="de1">&gt;The movie has long since ended by the time you were done, with Mabel half asleep with her head on your lap</div></li><li class="li1"><div class="de1">&gt;It&#039;s late, really late, and the both of you feel it</div></li><li class="li1"><div class="de1">&gt;You&#039;re sure she passed out once or twice during the slow parts, but always came back with a shriek at loud sounds</div></li><li class="li1"><div class="de1">&gt;Tossing the pad to the side you give a yawn and a stretch, with Mabel doing the same</div></li><li class="li1"><div class="de1">&gt;She&#039;s still on the couch while you take care of your business, and soon you trudge back out to the living room</div></li><li class="li1"><div class="de1">&gt;&quot;C&#039;mon Mabel, let&#039;s go to sleep&quot;</div></li><li class="li1"><div class="de1">&gt;Following close behind you, you lead her to your apartment&#039;s singular bedroom</div></li><li class="li1"><div class="de1">&gt;You&#039;re pretty tired, and without thinking you get down into your boxers while you stand next to your bed</div></li><li class="li1"><div class="de1">&gt;She&#039;s hesitant again</div></li><li class="li1"><div class="de1">&gt;You&#039;ve possibly fucked up again</div></li><li class="li1"><div class="de1">&gt;&quot;Hey, no, Mabel - it&#039;s not like that,&quot; you slowly slide your jeans back on</div></li><li class="li1"><div class="de1">&gt;She hasn&#039;t moved from the doorway</div></li><li class="li1"><div class="de1">&gt;&quot;I won&#039;t force you Mabel,&quot; you say, sitting on the side of the bed</div></li><li class="li1"><div class="de1">&gt;&quot;I just can&#039;t protect you from the...oh&quot;</div></li><li class="li1"><div class="de1">&gt;Her wings are wrapped around you</div></li><li class="li1"><div class="de1">&gt;This...</div></li><li class="li1"><div class="de1">&gt;It doesn&#039;t take you long to figure it out</div></li><li class="li1"><div class="de1">&gt;That&#039;s what Raider meant when he talked about conditioning</div></li><li class="li1"><div class="de1">&gt;You numbly guide her under the covers, with you yourself sliding in next to her</div></li><li class="li1"><div class="de1">&gt;The moment youre under the covers she snuggles a bit closer</div></li><li class="li1"><div class="de1">&gt;They aren&#039;t much, but you wrap your arms around her, pulling her close</div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t settle down, still giving a nervous fidget here or there</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t worry Mabel, nothing will ever hurt you again,&quot; you whisper</div></li><li class="li1"><div class="de1">&gt;She gives a soft sigh, though of what you aren&#039;t sure</div></li><li class="li1"><div class="de1">&gt;But you mean every word that you said</div></li><li class="li1"><div class="de1">&gt;You solidify the promise with another fierce hug, and soon you both fall asleep</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;Your computer monitor flickers lazily as you watch a documentary on bats
-&gt;Not the small insect eating buggers, but the walking &#039;feral&#039; ones
-&gt;Somewhere down the line Anthros decided city life and English just wasn&#039;t for them, and took to the woods to do who knows what
-&gt;Doesn&#039;t make them any less cuter though, especially the North American ones
-&gt;Smol, plush NA bats
-&gt;Not the flying fox anthros though
-&gt;Those look like fucking ptterodactyles
-&gt;No, you want a cute little bat Anthro to call your own
-&gt;Preferably a fruit bat one
-&gt;And really, who wouldn&#039;t want one?!
-&gt;You cannot overstate how small and light they are, or how incredibly fluffy to an absurd degree
-&gt;Bonus points for their ability to fly!
-&gt;Imagine needing something while you&#039;re away or at work, and having her flying it to you
-&gt;Amazon should have fought harder to employ them
-&gt;Much better than those creepy ass drones that require a gigantic &#039;rob me!&#039; mat plastered all over your lawn
-&gt;Now, you could try dating
-&gt;COULD
-&gt;But why would you?
-&gt;You already know you wanted a little tribal one
-&gt;One where you could teach her about the world, and stuff
-&gt;But how would you ever find a bat?
-&gt;And even then, convince her to join you after
-&gt;Your mental green fic writing is interrupted by a line a British man said in the documentary
-&gt;You had to rewind it to hear it right
-&gt;&quot;Sometimes feral bat Antthros are a nuisence; destroying crops, making nests in people&#039;s attics, and being incredibly noisy at night&quot;
-&gt;That&#039;s not what you&#039;re looking for
-&gt;&quot;...The &#039;Easy Peezy Teeny Screetchy Method,&#039; which was quickly renamed, is a strategy experts use to-&quot;
-&gt;Well, you aren&#039;t an expert so no use in that
-&gt;&quot;These feral Anthros are often captured and given homes, to domesticate them into society. This is a favorable alternative to extermination&quot;
-&gt;You pause the documentary right at the time where the dry narrator now has a bit standing under his petting hand
-&gt;Which, by the looks of it, means there&#039;s a chance
-&gt;With a few clicks and a small toll to Cablevision you look up the process for getting a little bat girl to live with you
-&gt;It&#039;s mostly charities that pop up
-&gt;They require a ton of paperwork and someone to dig through your closet before you can even be considered
-&gt;Others are shelters, but with how you aren&#039;t exactly in flying puffball territory, they&#039;re a few hundred miles out in every direction
-&gt;But one link catches your eye
-&gt;&#039;Rakeman Enterprises: We sell rakes and raking accessories*&#039;
-&gt;&#039;*Only rakes&#039;
-&gt;You click it, and to your terrible, horrible surprise
-&gt;You find a deal on a six prong all black leaf slayer, for $14.99
-&gt;At least it&#039;s honest
-&gt;Googling the words &#039;Rakeman enterprises&#039;(You had too, the site didn&#039;t even have the word bat on it,) brings up a site and a bunch of hippy dippy forums complaining
-&gt;&quot;He captures and kills those poor defenseless ferals!&quot;
-&gt;&quot;He eats Anthros!&quot;
-&gt;&quot;good prices tho&quot;
-&gt;Basically a bunch of whining with zero proof
-&gt;Something prods your thoughts, something you think you&#039;ve heard awhile ago
-&gt;A small megablok snaps into place in the back of your mind at the answer
-&gt;The raider of...wherever, is what you get out of itt
-&gt;Forums you often frequented talked of a man who caught and sold feral Anthros
-&gt;He would often call himself rakeman
-&gt;You dive back to the boards you frequent and start asking around
-&gt;Scrolling around and looking for any sign, all you get are mocking tones or a picture of that coveted ocelot you had seen before
-&gt;You posted a few more times asking for him
-&gt;Just to get the same responses, for hours and hours on end
-&gt;Hope was fading, but you have one last ace up your sleeve
-&gt;&#039;TFW no smol bat gf :(((&#039;
-&gt;...
-&gt;Just as you were about to give up a flag pops up on your screen
-&gt;&#039;&gt;&gt;4042015 holy shIt dude, fine: tinyurl.com/y97va626&#039;
-&gt;&#039;now fuck off&#039;
-&gt;Someone (you)&#039;d one of your posts to a private website with a picture of a small fruitbat
-&gt;A phone number is listed on it also
-&gt;With a shaky hand you dial in the digits quickly and wait for whoever it was to pick up
-&gt;After about 3 rings, someone does
-&gt;&quot;Rakeman enterprises,&quot; came a gruff voice, &quot;we sell rakes, only rakes&quot;
-&gt;You can&#039;t believe it
-&gt;It&#039;s him
-&gt;&quot;Uh hi, uh, I heard you have a bat problem you&#039;re trying to get rid of?&quot;
-&gt;Some sic metal plays in the background as he answers
-&gt;&quot;Yea, 500 bucks. More if I have to deliver her to you&quot;
-&gt;Holy fuck only 500 bucks!?&quot;
-&gt;Wait, there must be a catch
-&gt;&quot;Whats wrong with her if she&#039;s only 500? I thought it would be a lot more&quot;
-&gt;The man groans, and you can tell he&#039;s losing his patience
-&gt;&quot;Nothing, not many people want a bat. You gonna take her or not?&quot;
-&gt;&quot;Yes! Of course I&#039;ll take her! I&#039;ve always wanted a bat&quot;
-&gt;Yeah... you could of left out that last part
-&gt;Screw it, you&#039;re pacing around excitedly 
-&gt;He tells you the address and you jot it down quickly
-&gt;&quot;When can I pick her up?&quot;
-&gt;You hear the man hum and scratch away at some paper
-&gt;&quot;Conditioning will be done in 2 days&quot;
-&gt;Conditioning?
-&gt;&quot;Don&#039;t bring any cops&quot;
-&gt;Uh, you aren&#039;t going to ask
-&gt;&quot;Ok, I&#039;ll see you then&quot;
-&gt;He hangs up half way through
-
-&gt;You&#039;re driving down a country road on the far outskirts of the city
-&gt;The address the man gave you was about 100 miles from your house
-&gt;An hour and 45 minute drive was totally worth it though
-&gt;You drive as quickly and safely as you can, without even the radio on to distract you
-&gt;Soon you arrive at a dusty road that you begin to turn on
-&gt;A few minutes of winding through woods and you come up to large house, that looks more like a homestead
-&gt;A raven Anthro is perched on the front balcony
-&gt;Her eyes never leave you while you carefully make your way to the door
-&gt;You give it a few knocks, and a man with piercing blue eyes opens it up
-&gt;&quot;You got the cash?&quot; he says
-&gt;You fumble for your wallet under the uncomfortable, bored stare he&#039;s giving you
-&gt;&quot;Uh yeah, one sec&quot;
-&gt;Your hand goes to your pocket, and a shotgun cocking sounds behind you
-&gt;&quot;Watch the hands asshole,&quot; the raven caws
-&gt;Your hands shoot up, and you freeze in place
-&gt;&quot;Slag you dumb bitch!&quot; He opens the door entirely, &quot;He&#039;s clearly not armed, and you-&quot;
-&gt;He brushes past you, wrangling the gun from &#039;Slag&#039;
-&gt;Removing the shells he throws it back at the bird who scrambles to catch it
-&gt;&quot;Put my damn shotgun away birdbrain!&quot;
-&gt;&quot;...Sorry boss, I don&#039;t like waiting around,&quot; she mumbles
-&gt;You hear her walk off, and when you think she&#039;s around the corner you go back to fishing out your wallet
-&gt;Just, a hell of a lot shakier and slower when you
-&gt;You grab 5 crisp Benjamins and hand them over to the still staring man
-&gt;His arms look like he lost a fight with a wood chipper, no doubt from all the scratches and bites he must of got from his rake business
-&gt;You aren&#039;t gonna say anything about it
-&gt;He inspects it, then you, then behind you, and does it all again once more
-&gt;Satisfied, he walks back into the house with a hand waving you in
-&gt;&quot;Stand there, and ONLY there,&quot; he tells you, so you do
-&gt;You also aren&#039;t about to blow this by being a rude guest, too
-&gt;The rug you&#039;re standing on is rather nice, and it matches well with his very well decorated house
-&gt;It&#039;s not at all what you expected
-&gt;Not from a man who has a reputation for outright brutality
-&gt;While you&#039;re looking around your eyes make contact on another looking around a wall
-&gt;Its- her, face is spotted and feline
-&gt;&#039;So that&#039;s that coveted Ocelot people keep posting pictures of&#039;
-&gt;You give a small wave and a smale
-&gt;She in turn disappears behind the wall again
-&gt;Guess you spooked her
-&gt;The man told you over the phone to wear &quot;friendly attire,&quot; so you were dressed up in a button up shirt and a tie
-&gt;Jeans too, because comfy is better than class
-&gt;A little later and the man returns with a bat girl in his arms
-&gt;The second he sets her down, she&#039;s now in yours and hugging as if she&#039;s always known you
-&gt;&quot;Pleasepleaseplease keep me safe!&quot; she was squeaking into your shirt, &quot;don&#039;t let the bush monsters get me again!&quot;
-&gt;Bush monsters?
-&gt;Again, you aren&#039;t gonna ask
-&gt;You try to not freak out over this furry blob clinging to you
-&gt;You manage to get a few light head pats and reassure her with quiet words
-&gt;She only snuggles up harder in kind
-&gt;You look up at the man and smile
-&gt;He made your dream come true, and you&#039;re forever greatful
-&gt;Not enough to keep yourself, and more importantly her, waiting
-&gt;So you&#039;re out the door and ushering her into your SUV
-&gt;Looking back through the rearview mirror, you spot the man move the rug you were standing on and pick up a.. something
-&gt;If you didn&#039;t know better that looks like a shaped explosive
-&gt;Huh
-&gt;Doesn&#039;t matter, as it&#039;s time to go now
-&gt;You reach over and pet the bat one more time, and start up the car
-&gt;&quot;Do you have a name?&quot; you ask in a friendly tone while you slowly pull out of the driveway
-&gt;She looks at you with big brown eyes
-&gt;&quot;My name is Mabel,&quot; she&#039;s quieter than before
-&gt;Your excitement, successfully restrained, allows you to beam the biggest reassuring smile at her
-&gt;Only for a second though, this dirt road is pretty curvy and pretty root infested
-&gt;&quot;That&#039;s a cute name&quot;
-&gt;She&#039;s bunching the seat belt around her, and she isn&#039;t looking at you either
-&gt;You can&#039;t imagine what she went through back there, and this car for a feral must be just as confusing
-&gt;It&#039;s a good thing you&#039;re pretty great at driving one handed, for when you move your other to her it&#039;s quickly snatched up as well
-&gt;You let her calm down a bit, saying nothing while you drive through the woods, and when you feel your hands no longer being crushed you try to get her attention again
-&gt;&quot;My name is Anon,&quot; you slowly say
-&gt;You can feel her brown eyes are on you again while you still keep yours on the road
-&gt;&quot;Just know that I&#039;ll never let anyone, or anything, hurt you ever again&quot;
-&gt;She never said anything after that
-&gt;Didn&#039;t have too either
-&gt;The feeling of fur pressing against your arm with light breaths washing over your hand is the only one you need
-&gt;You gladly serve as her safety pillow as she sleeps through the long drive home
-
-chapter 2
- 
-&gt;The car ride home was uneventful at best
-&gt;Mabel slept peacefully, holding your arm tight as you drove
-&gt;Her gentle breathing and quiet chittering was adorable
-&gt;It was during the long straight road stretches that you were really able to get a good look at her
-&gt;She was maybe 4 feet tall
-&gt;It&#039;s hard to tell when she&#039;s hunched over and sitting
-&gt;Her hair and fur are black, while her tummy, muzzle and wings a light brown
-&gt;She sure was cute too
-&gt;It has taken you a bit longer than usual with one of your arms being used, but soon you&#039;re pulling into your parking spot, and you gently slide your arm out of her grip
-&gt;She didn&#039;t let go until you bribed her with a few quick pets and scratches on her head to wake her up
-&gt;Shaking the feeling back into your arm and unclipping the seatbelt, you hear a long high pitched yawn
-&gt;Looking over she&#039;s in full stretch mode, with one of her legs kicking out and a hand on full eye rub duty
-&gt;Groggily she sees you staring
-&gt;&quot;Where are we Anon?&quot;
-&gt;You smile and offer her a hand
-&gt;&quot;Home&quot;
- 
-&gt;Your apartment isn&#039;t in the country by a long shot, but it is in the suburbs
-&gt;It&#039;s pretty nice that your town still decided that trees and forests were a pretty neat concept, with both dotting all around
-&gt;It didn&#039;t help Mabel in the slightest
-&gt;She was conflicted about leaving the safety of the metal box to be in the safety of your arms, and it was an awkward struggle to outright pry her off the door frame
-&gt;You&#039;re carrying her like a fuzzy burlap sack, half worried that she&#039;d bolt away or that her claws would get a good swipe in
-&gt;Shamefully, you did have a plan in mind
-&gt;&quot;You must be hungry Mabel, let&#039;s get some food for us&quot;
-&gt;She suddenly stops, going rock solid over your shoulder
-&gt;&quot;Food?&quot; her death grip on your side loosens a bit
-&gt;&quot;We don&#039;t have to go look for it?&quot;
-&gt;You lift her off of you, holding her by the shoulders(barely) out in front of you
-&gt;Her eyes are about 90% pupiles and darting frantically as they scan your face
-&gt;&quot;Nope!&quot; you set her down, confident that she wont dart away
-&gt;You slowly take your hand and grasp one of her own as gently as you can, and start to lightly pull her along
-&gt;&quot;Well, if I don&#039;t have anything you like, then all I have to do is go down to the store and pick something up&quot;
-&gt;It suddenly struck you that you&#039;re leading a naked female bat Anthro by the hand
-&gt;In the open
-&gt;You&#039;re a bit faster in going up the stairs for her sake more than yours
-&gt;She must not have a single thing to her name, and some clothes definitely gets added to the list of things you&#039;d get
-&gt;The alternative would be a real uncomfortable explanation to the neighbors
-&gt;Making it up the stairs and to your door, you quickly open it and lead her inside
-&gt;She takes a few steps, feels the carpet on her clawed toes and digs them in to the floor
-&gt;She looks completely confused
-&gt;&quot;I...I&#039;m used to being able to fly around everywhere,&quot; Mabel said, rubbernecking around the interior
-&gt;Not finding a hole or a window her wide eyes are looking at you
-&gt;&quot;Where can I fly?&quot;
-&gt;It&#039;s still a bit hard to believe that all of your careful planning is finally rewarded
-&gt;You bought this place to be on the top floor, with the back being totally open to the rolling hills and forests just behind the apartment complex
-&gt;&quot;You still can&quot;
-&gt;You walk across the carpet over to some closed curtains across the other side of the room, without Mabel in hand
-&gt;She has to be trusting enough of you, and you aren&#039;t about to force her
-&gt;The farther you got the more fidgety she became
-&gt;Her time in that house must of really done something to her, and you can finally begin to question it in the safety of your home
-&gt;You didn&#039;t let those thoughts ruin your encouraging smile as you pulled back the curtains, revealing a nice large balcony with no patio furniture
-&gt;It&#039;s perfect for her to stretch her wings
-&gt;&quot;You can fly anytime you want Mabel,&quot; you say, opening the sliding door
-&gt;&quot;Just be sure to come back, otherwise I can&#039;t protect you&quot;
-&gt;She starts shuffling towards you at the word &#039;protect&#039;
-&gt;&quot;Go on, try it,&quot; you step outside
-&gt;A few hesitant steps outside and shes on the balcony in front of you
-&gt;&quot;I&#039;l be right here,&quot; you give her a light push towards the railing
-&gt;She gives a few more looks, and one back to you
-&gt;You give her two thumbs up when she did
-&gt;With that she spreads her wings and takes off
-&gt;She&#039;s graceful in the air and beautiful to watch, turning sharply into loops or gliding down in spirals
-&gt;Her laughter on the wind is infectious
-&gt;You can easily get used to it
-&gt;After a few minutes she lands, happily squeaking and talking
-&gt;&quot;This is perfect! I can go fly AND hide from the rain and snow!&quot;
-&gt;Straight up viral
-&gt;&quot;I&#039;m glad you like it Mabel, now let&#039;s get some food why don&#039;t we&quot;
-&gt;Her large ears perk up
-&gt;&quot;Yes! Food!&quot;
-&gt;She follows you into the kitchen a little haphazardly, almost tripping over the door frame and with her toes sometimes catching the carpet
-&gt;It looks like shes better flying than walking
-&gt;You dismiss the thought though, at least for your lamps and light&#039;s sake
-&gt;Reaching into the fridge you pull out a wrapped spread of various cut and uncut fruits
-&gt;The different colors of apples, oranges, bananas, and watermelon completely mesmerize her
-&gt;She mostly stared at the strawberries with her little mouth open and her eyes unblinking
-&gt;You peel back the plastic and start pointing at fruits
-&gt;&quot;Ok, I have apples, bananas, strawberries, some oranges, and a few slices of watermelon all here for you!&quot;
-&gt;You made sure these were farmers market fresh, and not that nasty three month frozen crap from a Walmart
-&gt;You also decided to shotgun the selection at the time, thinking one of them should be good enough
-&gt;She is a fruit bat after all
-&gt;Only problem with your infinite wisdom in fruit selection is how puzzled she&#039;s looking at you
-&gt;&quot;What is banana? And watermelon?&quot;
-&gt;&#039;Is,&#039; heh
-&gt;But, right, how would she know what those are
-&gt;No need to frustrate her though
-&gt;&quot;They are different kinds of fruits! I have a bunch of yummy things you can eat here!&quot;
-&gt;You open a banana and take a bite out of it
-&gt;&quot;See? Tasty!&quot;
-&gt;You hold the just bitten banana out in front of her
-&gt;You also squeeze it really tightly
-&gt;&#039;Shit, wait, she&#039;s not a pet.&#039;
-&gt;You blink
-&gt;&#039;Or...is she?&#039;
-&gt;Er
-&gt;To your immediate relief she looks at the fruit and then back at you
-&gt;You give it a little wiggle
-&gt;Hesitantly, she takes a bite
-&gt;And according to your 1/12th chomp&#039;d on scale before she did, you can see that an average banana is about the same height as her head
-&gt;You see her chewing it before her face lights up
-&gt;&quot;OHHHH that&#039;s good Anon! What did you say they are called?&quot;
-&gt;Woah! Almost lost your fingers there
-&gt;&quot;Annnananash?&quot;
-&gt;You wish you had your phone with you
-&gt;You&#039;re praying you&#039;l get another chance to snap pics of the pudge bat
-&gt;&quot;Bananas,&quot; you say between laughs
-&gt;Swallowing it down, she scrunches her little wing paws to her chest and does a little dance
-&gt;&quot;Oooh! Those are good, can I have more?!&quot;
-&gt;You gesture to the bunch of bananas sitting on your kitchen counter
-&gt;&quot;You can have as many as you like Mabel. Just remember there are other fruits here for you too&quot;
-&gt;You spend a bit more time showering her the more vanilla fruits
-&gt;She loves em all, though the oranges and lemons cause her to scowl
-&gt;It&#039;s adorable with how aggressive she is to fight through the pain from a large orange stuck in her teeth
-&gt;When you pull out the others, some of which you&#039;ve never had or heard of before, it&#039;s just as much an experience for you as it was for her
-&gt;Mango, blueberries, dragon fruit, and starfruit to name a few
-&gt;She loves those just as well
-&gt;Each fruit was potential new food for her to try, and she attacked every one of them just as much as she did to the bananas
-&gt;When you thought about it, the only fruit she ate was scavenged berries and applies from &#039;the bush monster&#039;s tree
-&gt;And wherever else those were native
-&gt;You distinctly remember an apple tree in front of the overly paranoid rake salesman&#039;s house
-&gt;You mull over these thoughts and more but are brought back to reality by a very loud burp
-&gt;Blinking and looking over your shoulder, you find a very empty plate beside a very sticky bat
-&gt;An incredibly satisfied one at that
-&gt;&quot;Wow! You uh, like those Mabel?&quot;
-&gt;She gave a nod and a small wheeze while she leaned against the counter
-&gt;It took a bit of effort to wrangle her to the sink at the sound of running water, but a quick wipe down of her muzzle, snout, or whatever and she was back to walking around
- 
-&gt;As much as you want too, you can&#039;t really survive entirely off of plant flesh
-&gt;So currently your mixing together some ground beef with taco seasoning and cheese
-&gt;Nothing wrong with a few homemade quesadillas
-&gt;Mabel has a disturbing ability to put away food
-&gt;Even after all that, she&#039;s happily munching on a piece of watermelon and casually looking around your sides
-&gt;You&#039;d offer some, but, well
-&gt;Would she even like it?
-&gt;Her general disinterest with it after you stopped making noises gave you a resounding no
-&gt;She goes off and does whatever bats do in a house, and you continue to beat the meat into an edible form
-&gt;With a few dillas in hand you make your way to the couch, and it wasn&#039;t long before Mabel joined in as well
-&gt;You put your plate down on the small table and you dig for the remote
-&gt;Thinking your sentient sofa having eaten it again, your arm travels behind cushions and under fluffy pillows
-&gt;You hear a loud squeak after you brush against a softer than normal one
-&gt;Silly you, bats can&#039;t be pillows
-&gt;...You pretend that didn&#039;t happen and decide to check to your left
-&gt;It&#039;s next to you
-&gt;Nice
-&gt;Grabbing it with a little more flare than usual, you turn on the TV
-&gt;The sudden click and noise causes Mabel to jump
-&gt;And body slam you with her fuzzy softness
-&gt;You barely know her, with it not even being a day
-&gt;It&#039;s a confusing mixture of warmth and ice that she already thinks of you as her guardian
-&gt;Still, a sad bat is a terrible crime
-&gt;&quot;It&#039;s ok, it&#039;s just the TV,&quot; you say, and with one hand your petting the fluff while your other quickly mutes the box
-&gt;She&#039;s hiding her face in your shoulder, shivering nervously and not making a sound
-&gt;&quot;Really, it&#039;s fine&quot;
-&gt;You somehow manage both Netflix and Mabel, and your choice for the night is Spirited Away
-&gt;It starts to play with the sound very low, and with your other hand now free you can fully give safety pats
-&gt;Soon she starts to watch carefully over her shoulder, but another loud noise wraps her wings around you too
-&gt;You don&#039;t mind this new leathery prison
-&gt;You just don&#039;t want to get hanged for it though
-&gt;With a little more low words of encouragement Mabel once again looks back to the screen
-&gt;The little human girl Chihiro is quietly walking alone in a vast golden field, and once again to whats new Mabel is slowly captivated
-&gt;&quot;What is it all?&quot; she finally asks
-&gt;&quot;It&#039;s a made up story, animated and turned into a movie&quot;
-&gt;She looks back to you, with her everything clinging to your chilled out sitting form
-&gt;She raises an eyebrow
-&gt;&quot;What is animated?&quot;
-&gt;You raise your own
-&gt;Then both at the same time
-&gt;And after that you mentally facepalm
-&gt;She&#039;s never been exposed to this kind of stuff
-&gt;&quot;Think of a drawing, something you can dig in the dirt or on paper, and then a lot more of the same picture,&quot; you begin
-&gt;She turns her head back to the screen while you do
-&gt;&quot;When you look at the next drawing, it&#039;s slightly different than the first. When you put them all together and show them in order, you get what is called animation&quot;
-&gt;You see her reel back a bit when the girl falls into the water
-&gt;&quot;What?&quot; she&#039;s now twice as confused
-&gt;Ok, time for a bit of improvization
-&gt;It takes some effort, and some strategic fingers near the base of her wings, but you finally manage to remove her death hug and you grab a stack of post-it notes
-&gt;You spend the night drawing a man constantly walking into a rake, explaining it as you talk about television and the like
-&gt;The movie has long since ended by the time you were done, with Mabel half asleep with her head on your lap
-&gt;It&#039;s late, really late, and the both of you feel it
-&gt;You&#039;re sure she passed out once or twice during the slow parts, but always came back with a shriek at loud sounds
-&gt;Tossing the pad to the side you give a yawn and a stretch, with Mabel doing the same
-&gt;She&#039;s still on the couch while you take care of your business, and soon you trudge back out to the living room
-&gt;&quot;C&#039;mon Mabel, let&#039;s go to sleep&quot;
-&gt;Following close behind you, you lead her to your apartment&#039;s singular bedroom
-&gt;You&#039;re pretty tired, and without thinking you get down into your boxers while you stand next to your bed
-&gt;She&#039;s hesitant again
-&gt;You&#039;ve possibly fucked up again
-&gt;&quot;Hey, no, Mabel - it&#039;s not like that,&quot; you slowly slide your jeans back on
-&gt;She hasn&#039;t moved from the doorway
-&gt;&quot;I won&#039;t force you Mabel,&quot; you say, sitting on the side of the bed
-&gt;&quot;I just can&#039;t protect you from the...oh&quot;
-&gt;Her wings are wrapped around you
-&gt;This...
-&gt;It doesn&#039;t take you long to figure it out
-&gt;That&#039;s what Raider meant when he talked about conditioning
-&gt;You numbly guide her under the covers, with you yourself sliding in next to her
-&gt;The moment youre under the covers she snuggles a bit closer
-&gt;They aren&#039;t much, but you wrap your arms around her, pulling her close
-&gt;She doesn&#039;t settle down, still giving a nervous fidget here or there
-&gt;&quot;Don&#039;t worry Mabel, nothing will ever hurt you again,&quot; you whisper
-&gt;She gives a soft sigh, though of what you aren&#039;t sure
-&gt;But you mean every word that you said
-&gt;You solidify the promise with another fierce hug, and soon you both fall asleep</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    2 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    9 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    58 min ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/PM4V3wTN">script or module</a>
-                <div class="details">
-                                            Perl |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/AKLTavMn">chamber</a>
-                <div class="details">
-                                            Lua |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/dk7XF8ne">Pong</a>
-                <div class="details">
-                                            Go |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

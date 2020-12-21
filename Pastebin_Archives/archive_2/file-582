@@ -1,426 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Test - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Test - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/m0hQgNVg" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/m0hQgNVg" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="0YX21thWbwcbx07TjdALsHII_gw6mFlAxVVZHKICB5Wrt66GugEAUXaFJ4m4nVzGHVqVRXiuCg2RASpM0EVR2A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/m0hQgNVg" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/m0hQgNVg" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/9/7/14/3736414.jpg" alt="That_Guy23">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Test</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/That_Guy23">That_Guy23</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=That_Guy23" class="message" title="Send a private message to: That_Guy23"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 10th of July 2018 11:53:16 AM CDT">Jul 10th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,021                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 6.40 KB            </div>
-
-            <div class="right">
-                <a href="/raw/m0hQgNVg" class="btn -small">raw</a>
-                <a href="/dl/m0hQgNVg" class="btn -small">download</a>
-                <a href="/clone/m0hQgNVg" class="btn -small h_800">clone</a>
-                <a href="/embed/m0hQgNVg" class="btn -small h_800">embed</a>
-                <a href="/report/m0hQgNVg" class="btn -small">report</a>
-                <a href="/print/m0hQgNVg" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Chapter 1</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	You exit the battlefield, tired and bloodied. You had cuts all along your body, some deep, some shallow. Your helm was battered and dented from the battle of champions. Only 2 others remained from the city of Argos. You just needed some rest! That was all you require. You walk past many beastmen, who cower in fear. It is rightfully so, as you were a Spartan. A warrior of such renown, that myths and legends have been created in your wake. Under your protection, Greece shall never fall.</div></li><li class="li1"><div class="de1">&quot;Yes, we require a sacrifice!&quot; A shrill and disgusting voice</div></li><li class="li1"><div class="de1">You feel you are being followed and whip yourself around, almost slicing the head off of a rat beastman. He tosses a liquid in your face and you begin to feel drowsy.</div></li><li class="li1"><div class="de1">&quot;What have you done to m-&quot; You manage to let out before the liquid becomes too much for your tired body.</div></li><li class="li1"><div class="de1">You faint, the world going black before your eyes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	You feel yourself fall. You awaken and look around, seeing souls of the damned reaching towards you.</div></li><li class="li1"><div class="de1">&quot;What in Hades is this madness?&quot; You shouted towards the ever-receding hole above you.</div></li><li class="li1"><div class="de1">You hear cackling from above you as you fall deeper and deeper into the void.</div></li><li class="li1"><div class="de1">&quot;Good luck Spartan! You may need it!&quot; They sneered.</div></li><li class="li1"><div class="de1">You yell Greek curses at them as you fall deeper and deeper into the pit of doom and despair surrounding you. You flip yourself over and see a grassland coming fast.</div></li><li class="li1"><div class="de1">&quot;OH, MY GODS!&quot; You scream before you can hit the ground.</div></li><li class="li1"><div class="de1">You faint again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	You awaken in the middle of a field. A loud roar coming from behind you. You turn around and see a metal machine accelerating towards you. You get into a battle stance, no metal machine shall get past you! It turns left and goes around you before stopping.</div></li><li class="li1"><div class="de1">&quot;Turn back around metal beast! For I shall smite thee!&quot; You shout towards the roaring metal behemoth.</div></li><li class="li1"><div class="de1">The side of it opens up to reveal a figure inside. It&#039;s a beastman!</div></li><li class="li1"><div class="de1">&quot;Beast! You must run while I take care of the menace!&quot; You still shout towards the beast.</div></li><li class="li1"><div class="de1">It cocks it&#039;s head at you and then laughs.</div></li><li class="li1"><div class="de1">&quot;Oh. You mean my tractor? Don&#039;t worry about it, just don&#039;t get in front of it.&quot; The beastman quips in a bit of a drawl.</div></li><li class="li1"><div class="de1">What accent is this beast speaking in? It&#039;s so foreign, yet familiar. You don&#039;t quite understand what&#039;s happening. The beast walks towards you and sees your wounds.</div></li><li class="li1"><div class="de1">&quot;Oh my god are you okay!?&quot; She shouts over the roar of the &#039;tractor&#039;.</div></li><li class="li1"><div class="de1">God? Surely they mean gods?</div></li><li class="li1"><div class="de1">&quot;I just need some rest so I may fight the remaining Argo&#039;s! Thyrea shall belong to Spart-AH!&quot; You shout theatrically until the pain hits you.</div></li><li class="li1"><div class="de1">You raise your spear in the air and drop it immediately, the pain in your arm is too much.</div></li><li class="li1"><div class="de1">&quot;Shit! Let me call an ambulance.&quot; She cries out.</div></li><li class="li1"><div class="de1">&quot;Do not worry beastman! I am AGH, fine!&quot; You manage to stutter.</div></li><li class="li1"><div class="de1">&quot;Like hell you are, you&#039;re bleeding like a gutted pig!&quot; She screeches at an uncomfortable volume.</div></li><li class="li1"><div class="de1">You pick your spear up off the ground and sheath it. You try walking after the beast but fall instead.</div></li><li class="li1"><div class="de1">&quot;I must not falter! I am a SPARTAN for the gods&#039; sake!&quot; You shout again.</div></li><li class="li1"><div class="de1">You get yourself back up only to fall again.</div></li><li class="li1"><div class="de1">&quot;I-I must n-not falter!&quot; You weakly sputter.</div></li><li class="li1"><div class="de1">You blackout again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	You awaken in a white room, laying in probably the softest bed you&#039;ve ever slept in. Did the beast take you to an inn? You look around and there are things you do not recognize. A strange machine that beeps with your heartbeat, a bag of red liquid that you assume is blood, a couch with the beast who brought you here in it, and a table with your things on it. You cough and the beast looks to you. The woman to your right speaks.</div></li><li class="li1"><div class="de1">&quot;Doc, he&#039;s awake.&quot; She speaks to nobody in particular.</div></li><li class="li1"><div class="de1">The &#039;doc&#039; comes into the room, dressed in a blue shirt and pants, speaking softly.</div></li><li class="li1"><div class="de1">&quot;Well now, I guess he is. Sir, we&#039;ve looked all over the world for your records and have found nothing. So can you start by telling us your name and birthplace?&quot; The new beastman asks.</div></li><li class="li1"><div class="de1">You grin, clearing your throat.</div></li><li class="li1"><div class="de1">&quot;I am Anonicus, Spartan warrior, and the last champion of Sparta! Now quickly, I must get back to Thyrea, lest Sparta not get the land they rightfully deserve.&quot; You proudly exclaim.</div></li><li class="li1"><div class="de1">The &#039;doc&#039; looks at you and chuckles.</div></li><li class="li1"><div class="de1">&quot;Are you sure? I mean, the blood work suggests you&#039;re from Greece, but a Spartan Champion? That would mean you are over 2500 years old!&quot; She yells in disbelief.</div></li><li class="li1"><div class="de1">2500 years? What did those rat beastmen do to you!?</div></li><li class="li1"><div class="de1">&quot;Those rats! They must&#039;ve opened a schism in the earth to the future.&quot; You say under your breath.</div></li><li class="li1"><div class="de1">&quot;Please, I must get back to my own time and win that fight! The entire future of Sparta may depend on it!&quot; You shout in desperation.</div></li><li class="li1"><div class="de1">She snickers at that.</div></li><li class="li1"><div class="de1">&quot;Don&#039;t worry, Greece is still alive and well. If in a bit of debt.&quot; She informs you.</div></li><li class="li1"><div class="de1">You take what the &#039;doc&#039; has said into consideration. You decide that she&#039;s telling the truth and breath a sigh of relief.</div></li><li class="li1"><div class="de1">&quot;Thank you, Miss. I am grateful to learn Sparta has yet to fall.&quot; You say, relieved.</div></li><li class="li1"><div class="de1">She giggles at that, or is it a nervous laugh?</div></li><li class="li1"><div class="de1">&quot;Yeah, Sparta never fell. eheheh.&quot; She nervously laughs.</div></li><li class="li1"><div class="de1">The &#039;doc&#039; turns to whisper something to your savior a bit too loud.</div></li><li class="li1"><div class="de1">&quot;I think he might be insane.&quot; She whispers to the other beastman.</div></li><li class="li1"><div class="de1">She fast walks out of the room and leaves you to your own devices. The beast who brought you in gets up from the couch and smiles at you. You look it up and down, finding out it&#039;s a she. When your gaze arrives back at her own, she&#039;s wearing a much more devious look.</div></li><li class="li1"><div class="de1">&quot;Like what ya see big guy~?&quot; She quips in a sultry tone.</div></li><li class="li1"><div class="de1">Your face heats up and you look away.</div></li><li class="li1"><div class="de1">&quot;I am sorry Miss, I was just, well, trying to get a better look at you!&quot; You say, desperately trying to reclaim what dignity you had.</div></li><li class="li1"><div class="de1">She snickers at that and sits back down.</div></li><li class="li1"><div class="de1">&quot;My name&#039;s Alexis, but you can call me Alex.&quot; She says more casually.</div></li><li class="li1"><div class="de1">You nod to her.</div></li><li class="li1"><div class="de1">&quot;A very fine name. I believe I knew a royal son named Alex once. Not that I wish to imply you are a man! Though you are a beastman, so I guess it is partially true.&quot; You tell her.</div></li><li class="li1"><div class="de1">&quot;Well, instead of calling me a &#039;beastman&#039; you can call me a fox, or by my name.&quot; She informs you, a bit annoyed.</div></li><li class="li1"><div class="de1">&quot;Well then, Alex, I am grateful you brought me to this inn. Now I am able to recover fully.&quot; You gratefully exclaim.</div></li><li class="li1"><div class="de1">She smiles at that before replying, &quot;You&#039;re welcome.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Chapter 2</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">	It&#039;s been almost 4 weeks since you first got to the thing they call a &#039;hospital&#039; to be treated for your wounds. The person who now came to be known as a &#039;nurse&#039;, suggested you be taken to an asylum. Alex refused fervently, saying she didn&#039;t think you were insane.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Chapter 1
-
-	You exit the battlefield, tired and bloodied. You had cuts all along your body, some deep, some shallow. Your helm was battered and dented from the battle of champions. Only 2 others remained from the city of Argos. You just needed some rest! That was all you require. You walk past many beastmen, who cower in fear. It is rightfully so, as you were a Spartan. A warrior of such renown, that myths and legends have been created in your wake. Under your protection, Greece shall never fall.
-&quot;Yes, we require a sacrifice!&quot; A shrill and disgusting voice
-You feel you are being followed and whip yourself around, almost slicing the head off of a rat beastman. He tosses a liquid in your face and you begin to feel drowsy.
-&quot;What have you done to m-&quot; You manage to let out before the liquid becomes too much for your tired body.
-You faint, the world going black before your eyes.
-
-	You feel yourself fall. You awaken and look around, seeing souls of the damned reaching towards you.
-&quot;What in Hades is this madness?&quot; You shouted towards the ever-receding hole above you.
-You hear cackling from above you as you fall deeper and deeper into the void.
-&quot;Good luck Spartan! You may need it!&quot; They sneered.
-You yell Greek curses at them as you fall deeper and deeper into the pit of doom and despair surrounding you. You flip yourself over and see a grassland coming fast.
-&quot;OH, MY GODS!&quot; You scream before you can hit the ground.
-You faint again.
-
-	You awaken in the middle of a field. A loud roar coming from behind you. You turn around and see a metal machine accelerating towards you. You get into a battle stance, no metal machine shall get past you! It turns left and goes around you before stopping.
-&quot;Turn back around metal beast! For I shall smite thee!&quot; You shout towards the roaring metal behemoth.
-The side of it opens up to reveal a figure inside. It&#039;s a beastman!
-&quot;Beast! You must run while I take care of the menace!&quot; You still shout towards the beast.
-It cocks it&#039;s head at you and then laughs.
-&quot;Oh. You mean my tractor? Don&#039;t worry about it, just don&#039;t get in front of it.&quot; The beastman quips in a bit of a drawl.
-What accent is this beast speaking in? It&#039;s so foreign, yet familiar. You don&#039;t quite understand what&#039;s happening. The beast walks towards you and sees your wounds.
-&quot;Oh my god are you okay!?&quot; She shouts over the roar of the &#039;tractor&#039;.
-God? Surely they mean gods?
-&quot;I just need some rest so I may fight the remaining Argo&#039;s! Thyrea shall belong to Spart-AH!&quot; You shout theatrically until the pain hits you.
-You raise your spear in the air and drop it immediately, the pain in your arm is too much.
-&quot;Shit! Let me call an ambulance.&quot; She cries out.
-&quot;Do not worry beastman! I am AGH, fine!&quot; You manage to stutter.
-&quot;Like hell you are, you&#039;re bleeding like a gutted pig!&quot; She screeches at an uncomfortable volume.
-You pick your spear up off the ground and sheath it. You try walking after the beast but fall instead.
-&quot;I must not falter! I am a SPARTAN for the gods&#039; sake!&quot; You shout again.
-You get yourself back up only to fall again.
-&quot;I-I must n-not falter!&quot; You weakly sputter.
-You blackout again.
-
-	You awaken in a white room, laying in probably the softest bed you&#039;ve ever slept in. Did the beast take you to an inn? You look around and there are things you do not recognize. A strange machine that beeps with your heartbeat, a bag of red liquid that you assume is blood, a couch with the beast who brought you here in it, and a table with your things on it. You cough and the beast looks to you. The woman to your right speaks.
-&quot;Doc, he&#039;s awake.&quot; She speaks to nobody in particular.
-The &#039;doc&#039; comes into the room, dressed in a blue shirt and pants, speaking softly.
-&quot;Well now, I guess he is. Sir, we&#039;ve looked all over the world for your records and have found nothing. So can you start by telling us your name and birthplace?&quot; The new beastman asks.
-You grin, clearing your throat.
-&quot;I am Anonicus, Spartan warrior, and the last champion of Sparta! Now quickly, I must get back to Thyrea, lest Sparta not get the land they rightfully deserve.&quot; You proudly exclaim.
-The &#039;doc&#039; looks at you and chuckles.
-&quot;Are you sure? I mean, the blood work suggests you&#039;re from Greece, but a Spartan Champion? That would mean you are over 2500 years old!&quot; She yells in disbelief.
-2500 years? What did those rat beastmen do to you!?
-&quot;Those rats! They must&#039;ve opened a schism in the earth to the future.&quot; You say under your breath.
-&quot;Please, I must get back to my own time and win that fight! The entire future of Sparta may depend on it!&quot; You shout in desperation.
-She snickers at that.
-&quot;Don&#039;t worry, Greece is still alive and well. If in a bit of debt.&quot; She informs you.
-You take what the &#039;doc&#039; has said into consideration. You decide that she&#039;s telling the truth and breath a sigh of relief.
-&quot;Thank you, Miss. I am grateful to learn Sparta has yet to fall.&quot; You say, relieved.
-She giggles at that, or is it a nervous laugh?
-&quot;Yeah, Sparta never fell. eheheh.&quot; She nervously laughs.
-The &#039;doc&#039; turns to whisper something to your savior a bit too loud.
-&quot;I think he might be insane.&quot; She whispers to the other beastman.
-She fast walks out of the room and leaves you to your own devices. The beast who brought you in gets up from the couch and smiles at you. You look it up and down, finding out it&#039;s a she. When your gaze arrives back at her own, she&#039;s wearing a much more devious look.
-&quot;Like what ya see big guy~?&quot; She quips in a sultry tone.
-Your face heats up and you look away.
-&quot;I am sorry Miss, I was just, well, trying to get a better look at you!&quot; You say, desperately trying to reclaim what dignity you had.
-She snickers at that and sits back down.
-&quot;My name&#039;s Alexis, but you can call me Alex.&quot; She says more casually.
-You nod to her.
-&quot;A very fine name. I believe I knew a royal son named Alex once. Not that I wish to imply you are a man! Though you are a beastman, so I guess it is partially true.&quot; You tell her.
-&quot;Well, instead of calling me a &#039;beastman&#039; you can call me a fox, or by my name.&quot; She informs you, a bit annoyed.
-&quot;Well then, Alex, I am grateful you brought me to this inn. Now I am able to recover fully.&quot; You gratefully exclaim.
-She smiles at that before replying, &quot;You&#039;re welcome.&quot;
-
-Chapter 2
-
-	It&#039;s been almost 4 weeks since you first got to the thing they call a &#039;hospital&#039; to be treated for your wounds. The person who now came to be known as a &#039;nurse&#039;, suggested you be taken to an asylum. Alex refused fervently, saying she didn&#039;t think you were insane.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    16 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    17 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    27 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

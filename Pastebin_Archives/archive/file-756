@@ -1,600 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Hyena-chan - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Hyena-chan - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/e4RzEg2b" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/e4RzEg2b" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="c7CstHz8aMGTMuy4vUs-Qgd5xs6DRdaWosLRmdeHTBIK4NbfFZZZruNwu9vwIXIKYT_rr-Eag-Hoqanwkc8PUQ==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/e4RzEg2b" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/e4RzEg2b" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>Hyena-chan</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Friday 18th of August 2017 02:56:42 PM CDT">Aug 18th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,605                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 9.88 KB            </div>
-
-            <div class="right">
-                <a href="/raw/e4RzEg2b" class="btn -small">raw</a>
-                <a href="/dl/e4RzEg2b" class="btn -small">download</a>
-                <a href="/clone/e4RzEg2b" class="btn -small h_800">clone</a>
-                <a href="/embed/e4RzEg2b" class="btn -small h_800">embed</a>
-                <a href="/report/e4RzEg2b" class="btn -small">report</a>
-                <a href="/print/e4RzEg2b" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;Oh god it&#039;s time</div></li><li class="li1"><div class="de1">&gt;The school dance is coming and Anon is in front of his locker</div></li><li class="li1"><div class="de1">&gt;No one else even wants to LOOK at me, and he&#039;s fine just TALKING to me!</div></li><li class="li1"><div class="de1">&gt;Even when I accidentally let out the... laugh... when I forgot my lunch, he didn&#039;t look disturbed! </div></li><li class="li1"><div class="de1">&gt;He even shared some of his food with me!</div></li><li class="li1"><div class="de1">&gt;He&#039;s so cute too! </div></li><li class="li1"><div class="de1">&gt;This might be the only time I can ask him out on something, then I can slowly wean him into liking me more and more, then he can ask me out on a date, then we can kiss, then we can get closer together, and then hesayshelovesmeandthenwecangetmarriedandthenwecanhavesexandthenwecanhavealitterofcutepupsand-</div></li><li class="li1"><div class="de1">&gt;&quot;Hey Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;What</div></li><li class="li1"><div class="de1">&gt;Why is this slut here?</div></li><li class="li1"><div class="de1">&gt;Why the fuck is this lioness bitch talking to him?!</div></li><li class="li1"><div class="de1">&gt;&quot;Hey Sarah, what&#039;s up?&quot; he asks</div></li><li class="li1"><div class="de1">&gt;&quot;I was just wondering if you had someone to go to the dance with and if maybe... you would want to go with me?&quot; she coyly asks, hiding her paws behind her back while pointing her head down and looking upward at him</div></li><li class="li1"><div class="de1">&gt;This cunt is faking it!</div></li><li class="li1"><div class="de1">&gt;She&#039;s trying to steal him from me!</div></li><li class="li1"><div class="de1">&gt;She knows it! </div></li><li class="li1"><div class="de1">&gt;Just like she told everyone to not look at me! </div></li><li class="li1"><div class="de1">&gt;Every single thing that happened to me is orchestrated by her, I knew it from day one!</div></li><li class="li1"><div class="de1">&gt;I have to do something</div></li><li class="li1"><div class="de1">&gt;Oh god what can I do?</div></li><li class="li1"><div class="de1">&gt;What if he says yes?</div></li><li class="li1"><div class="de1">&gt;How can I stop this temptress bitch from corrupting him?!</div></li><li class="li1"><div class="de1">&gt;My sisters told me I have to show everyone who&#039;s boss like they did!</div></li><li class="li1"><div class="de1">&gt;Crack heads, tear hair, break bones!</div></li><li class="li1"><div class="de1">&gt;But how can I do that without him hating me?!</div></li><li class="li1"><div class="de1">&gt;Oh god it&#039;s becoming harder to breathe</div></li><li class="li1"><div class="de1">&gt;Just gotta... just gotta... just gotta...</div></li><li class="li1"><div class="de1">&gt;&quot;Ah sorry Sarah, but I already have someone in mind.&quot; Anon answers</div></li><li class="li1"><div class="de1">&gt;Wait</div></li><li class="li1"><div class="de1">&gt;What?</div></li><li class="li1"><div class="de1">&gt;Sarah looks disappointed for a moment, but resumes her filthy, fake shitty smile again</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, it&#039;s fine. Hope you and whoever it has have fun there!&quot; she says, waving as she walks off</div></li><li class="li1"><div class="de1">&gt;Ok... Ok... She&#039;s gone, but who&#039;s this other person?</div></li><li class="li1"><div class="de1">&gt;Who else is trying to ste-</div></li><li class="li1"><div class="de1">&gt;&quot;Oh, hey, there you are!&quot;</div></li><li class="li1"><div class="de1">&gt;OH FUCK ME HE&#039;S RIGHT HERE</div></li><li class="li1"><div class="de1">&gt;&quot;Hehehehey Anon!&quot; I stammer, trying to cover up my nervous laughter</div></li><li class="li1"><div class="de1">&gt;I gotta ask now! This is my one moment!</div></li><li class="li1"><div class="de1">&gt;&quot;Anon! W-will you go to the dance with me? You&#039;re the only one who isn&#039;t afraid to hang out with me!&quot;</div></li><li class="li1"><div class="de1">&gt;Idiot! Why did I tell him that without any lead?! Now he&#039;ll neve-</div></li><li class="li1"><div class="de1">&gt;&quot;I was just about to ask you. Yeah I would.&quot;</div></li><li class="li1"><div class="de1">&gt;Oh</div></li><li class="li1"><div class="de1">&gt;OH</div></li><li class="li1"><div class="de1">&gt;YES</div></li><li class="li1"><div class="de1">&gt;I DID IT!</div></li><li class="li1"><div class="de1">&gt;HE SAID HE&#039;LL GO WITH ME!</div></li><li class="li1"><div class="de1">&gt;YES YES YES YES YES YE-</div></li><li class="li1"><div class="de1">&gt;&quot;See you Friday?&quot; he asks</div></li><li class="li1"><div class="de1">&gt;What? Oh right!</div></li><li class="li1"><div class="de1">&gt;&quot;Y-yeah! S-see you then!&quot; I respond</div></li><li class="li1"><div class="de1">&gt;He gives a wave with his cute, hairless, pink hands and walks off towards the stairs</div></li><li class="li1"><div class="de1">&gt;All of the hairs on my body are standing on end, my head feels light and my face feels uncomfortably hot</div></li><li class="li1"><div class="de1">&gt;But I feel... good</div></li><li class="li1"><div class="de1">&gt;No, I feel great</div></li><li class="li1"><div class="de1">&gt;Everything is working out</div></li><li class="li1"><div class="de1">&gt;And Friday can&#039;t come soon enough</div></li><li class="li1"><div class="de1">------</div></li><li class="li1"><div class="de1">&gt;Time seemed to stretch on for eons from the past three days since I asked Anon to the dance, but it&#039;s finally a Friday</div></li><li class="li1"><div class="de1">&gt;Yes, finally here</div></li><li class="li1"><div class="de1">&gt;Friday...</div></li><li class="li1"><div class="de1">&gt;I feel ready to faint, and the loud chatter of the people in the crowds doesn&#039;t help</div></li><li class="li1"><div class="de1">&gt;The butterflies that have been in my stomach ever since Tuesday have only gotten worse, forcing stressful laughter out of me each time my thoughts wander to the dance or Anon</div></li><li class="li1"><div class="de1">&gt;And now, it&#039;s the worst it&#039;s ever been</div></li><li class="li1"><div class="de1">&gt;I must constantly keep my jaw shut and stifle the rapid giggling</div></li><li class="li1"><div class="de1">&gt;Standing near the bleachers with the other laughably lonely wallflowers is embarrassing, but it&#039;s the only way I can find or have Anon find me</div></li><li class="li1"><div class="de1">&gt;And from here I can see that bitch Sarah</div></li><li class="li1"><div class="de1">&gt;She&#039;s wearing a red dress that ends a bit too close to the middle of her thighs while also showing a small amount of cleavage of her horridly fake breasts</div></li><li class="li1"><div class="de1">&gt;Filthy slut</div></li><li class="li1"><div class="de1">&gt;She&#039;d be more fitting standing on the corner of a street than at a dance</div></li><li class="li1"><div class="de1">&gt;Does she even have someone to dance with?</div></li><li class="li1"><div class="de1">&gt;She&#039;s just dancing by herself in the middle of the crowd with a big smile</div></li><li class="li1"><div class="de1">&gt;Good</div></li><li class="li1"><div class="de1">&gt;I&#039;m actually dressed respectively AND have someone to dance with!</div></li><li class="li1"><div class="de1">&gt;Despite being a hand-me-down, it still looks good</div></li><li class="li1"><div class="de1">&gt;A buttoned, grey suit jacket with matching pants and black leather shoes to fit</div></li><li class="li1"><div class="de1">&gt;Tight though, makes it hard to stretch my legs</div></li><li class="li1"><div class="de1">&gt;&quot;Hey!&quot;</div></li><li class="li1"><div class="de1">&gt;Aw, there he is</div></li><li class="li1"><div class="de1">&gt;Sporting a blue button up shirt, white pants and tie</div></li><li class="li1"><div class="de1">&gt;Good lord he&#039;s so adorable</div></li><li class="li1"><div class="de1">&gt;&quot;Heheheh... Hey Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;He gives me an adorable smile and asks &quot;Ready to dance?&quot;</div></li><li class="li1"><div class="de1">&gt;I mask my fear with a smile of my own, nodding in response to avoid further laughter</div></li><li class="li1"><div class="de1">&gt;He&#039;s reaching out... Why is he-</div></li><li class="li1"><div class="de1">&gt;OH THAT&#039;S SO SWEET HE&#039;S HOLDING MY HAND</div></li><li class="li1"><div class="de1">&gt;IT&#039;S SO TINY AND SQUISHY AND CUTE AND MMMMMMMNNNG</div></li><li class="li1"><div class="de1">&gt;OK, OK, calm down</div></li><li class="li1"><div class="de1">&gt;He&#039;s leading me near the dance floor</div></li><li class="li1"><div class="de1">&gt;A loud, quick tempo pop song is playing</div></li><li class="li1"><div class="de1">&gt;The people dancing are making fast movements in time with the song</div></li><li class="li1"><div class="de1">&gt;He lets go of my hand and begins to mimic their dancing</div></li><li class="li1"><div class="de1">&gt;I... gotta try the same, but the suit and pants are making it hard to move like they do</div></li><li class="li1"><div class="de1">&gt;Small shuffles will have to do for now</div></li><li class="li1"><div class="de1">&gt;Everyone is so engrossed into their own thing that no one notices my awkward movements</div></li><li class="li1"><div class="de1">&gt;Good</div></li><li class="li1"><div class="de1">&gt;Anon keeps looking at me with that cute face of his</div></li><li class="li1"><div class="de1">&gt;Dammit, I think he&#039;s assuming something&#039;s wrong</div></li><li class="li1"><div class="de1">&gt;Maybe I can get away with stretching the leg a bit further and go somewhat faste-</div></li><li class="li1"><div class="de1">&gt;What was that &quot;pop&quot; feeling?</div></li><li class="li1"><div class="de1">&gt;Was that a string?</div></li><li class="li1"><div class="de1">&gt;I don&#039;t feel a rip... but I know something just tore a little between the legs of the pants</div></li><li class="li1"><div class="de1">&gt;Got to play this much more carefully now</div></li><li class="li1"><div class="de1">&gt;Everyone&#039;s dances slow down as the music comes to an end</div></li><li class="li1"><div class="de1">&gt;What now plays is a slow paced sort of song</div></li><li class="li1"><div class="de1">&gt;Some dancers leave the floor, while those that remained took hands with others and began... stepping around each other</div></li><li class="li1"><div class="de1">&gt;Is this slow dancing?</div></li><li class="li1"><div class="de1">&gt;Ugh, it looks so... frail and wimpish</div></li><li class="li1"><div class="de1">&gt;&quot;You want to keep going?&quot; Anon asks, breaking my train of thought</div></li><li class="li1"><div class="de1">&gt;Can&#039;t turn him down now, it&#039;s too early to call it quits</div></li><li class="li1"><div class="de1">&gt;&quot;Y-yes, let&#039;s.&quot; I answer</div></li><li class="li1"><div class="de1">&gt;Studying the other dancers, I take hold of Anon&#039;s oh so tiny and cute hands and try to do as they do</div></li><li class="li1"><div class="de1">&gt;Now with our hands here, I just gotta... move</div></li><li class="li1"><div class="de1">&gt;This is... horrifically dull</div></li><li class="li1"><div class="de1">&gt;Although... I get to have him close to me, and feel that soft warmth coming from him</div></li><li class="li1"><div class="de1">&gt;He&#039;s looking up at me as we continue to step beat by beat</div></li><li class="li1"><div class="de1">&gt;I could get lost staring into his tiny, colorful little eyes</div></li><li class="li1"><div class="de1">&gt;Everything about him is just so wonderful to look at</div></li><li class="li1"><div class="de1">&gt;Maybe this type of dance isn&#039;t so bad after a-</div></li><li class="li1"><div class="de1">OH FUCK</div></li><li class="li1"><div class="de1">&gt;I MOVED TOO SOON AND JUST SWEPT ANON OFF HIS FEET BY CRASHING MY LEG INTO HIS</div></li><li class="li1"><div class="de1">&gt;I still got a grip on him, maybe I can bring him back up!</div></li><li class="li1"><div class="de1">&gt;No, shit, the floor&#039;s too slick!</div></li><li class="li1"><div class="de1">&gt;My back leg slides away as I lose my balance and crash atop him, all the while hearing the piercing sound of cloth tearing</div></li><li class="li1"><div class="de1">&gt;As my mind reels from the fall, my fears of the popped string manifest, as I feel a breeze touch my exposed rear</div></li><li class="li1"><div class="de1">&gt;I don&#039;t have to look or feel to know the pants split perfectly down the middle</div></li><li class="li1"><div class="de1">&gt;Everything&#039;s ruined</div></li><li class="li1"><div class="de1">&gt;I barely even got to be with him and it&#039;s already going to crash and burn</div></li><li class="li1"><div class="de1">&gt;He probably hates me already</div></li><li class="li1"><div class="de1">&gt;&quot;Goodness, are you OK?&quot;</div></li><li class="li1"><div class="de1">&gt;The filthy slut Sarah is standing in front of us, bending down to offer a hand to help me up</div></li><li class="li1"><div class="de1">&gt;Even now she&#039;s trying to look good in front of everyone</div></li><li class="li1"><div class="de1">&gt;&quot;Heh... Heheheheheheheheheheheheheheheheheheheh...&quot; I chortle, tears welling up in my eyes</div></li><li class="li1"><div class="de1">&gt;With a shaky hand, I lift myself off of Anon, ignoring that disgusting liar&#039;s &quot;help&quot;</div></li><li class="li1"><div class="de1">&gt;I... I got to get out of here</div></li><li class="li1"><div class="de1">&gt;Anywhere</div></li><li class="li1"><div class="de1">&gt;Anywhere but here</div></li><li class="li1"><div class="de1">&gt;I rush for the door and leave the gym while continuing my fit of stressful laughter, feeling the rip continue to grow as I run</div></li><li class="li1"><div class="de1">&gt;I got to leave...</div></li><li class="li1"><div class="de1">&gt;But Mom wont pick me up for another 30 minutes</div></li><li class="li1"><div class="de1">&gt;I&#039;ll... just wait in the restroom</div></li><li class="li1"><div class="de1">&gt;She&#039;ll... She&#039;ll come get me</div></li><li class="li1"><div class="de1">&gt;I just want to go home</div></li><li class="li1"><div class="de1">&gt;Shambling inside and into one of the stalls, I take a seat and cry</div></li><li class="li1"><div class="de1">&gt;The most I can do is just... cover my eyes with my hands and try to stop the crying</div></li><li class="li1"><div class="de1">&gt;God, I feel pathetic</div></li><li class="li1"><div class="de1">&gt;No, after that stunt, I AM pathetic</div></li><li class="li1"><div class="de1">&gt;I fucked up royally in front of everyone</div></li><li class="li1"><div class="de1">&gt;And in front of Anon</div></li><li class="li1"><div class="de1">&gt;He probably left the dance already</div></li><li class="li1"><div class="de1">&gt;While that dirty whore steals him away</div></li><li class="li1"><div class="de1">&gt;And there&#039;s nothing I can do about it</div></li><li class="li1"><div class="de1">&gt;&quot;Heheheheheheheheheheheheh...&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Hyena-chan? Are you in there?&quot; Anon asks, his voice echoing into the bathroom</div></li><li class="li1"><div class="de1">&gt;He&#039;s still here?</div></li><li class="li1"><div class="de1">&gt;&quot;Heheheh... Heheh... Anon?&quot; I meekly ask, sniffing between laughs</div></li><li class="li1"><div class="de1">&gt;&quot;Are you OK? What happened?&quot;</div></li><li class="li1"><div class="de1">&gt;I doubt he doesn&#039;t already know</div></li><li class="li1"><div class="de1">&gt;I doubt everyone in the school doesn&#039;t already know by now</div></li><li class="li1"><div class="de1">&gt;&quot;Listen, I&#039;m sorry, it was my fault! I should&#039;ve watched where I was going, and I should&#039;ve moved in time and... all that happened.&quot;</div></li><li class="li1"><div class="de1">&gt;He&#039;s trying to make this his fault?</div></li><li class="li1"><div class="de1">&gt;Why?</div></li><li class="li1"><div class="de1">&gt;&quot;Hey, I can... take you home if you want. I have a car, I can drive you back to your house.&quot;</div></li><li class="li1"><div class="de1">&gt;Why is he doing this?</div></li><li class="li1"><div class="de1">&gt;&quot;Heheh... Heheheh... You... heheheheh... don&#039;t hate me for what happened?&quot; I ask</div></li><li class="li1"><div class="de1">&gt;&quot;No, of course not. I still really... I still like you, Hyena-chan. What happened tonight doesn&#039;t change that. Never will.&quot;</div></li><li class="li1"><div class="de1">&gt;The laughter bubbling up in my throat slows to a stop</div></li><li class="li1"><div class="de1">&gt;&quot;Come on, I can take you home.&quot;</div></li><li class="li1"><div class="de1">&gt;I leave the restroom, meeting Anon in front of the door, still giving me that sincere smile of his</div></li><li class="li1"><div class="de1">&gt;I wrap my arms around his body and hug, staining the shoulders of his shirt with a few stray tears</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you... Thank you Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;Like he said, Anon had a car ready to drive me home</div></li><li class="li1"><div class="de1">&gt;During the drive, I tried to think of another way to thank him</div></li><li class="li1"><div class="de1">&gt;Maybe I should... go to the next stage?</div></li><li class="li1"><div class="de1">&gt;Finally, we pulled up to my house</div></li><li class="li1"><div class="de1">&gt;&quot;This it? It was... good being with you, Hyena-chan.&quot;</div></li><li class="li1"><div class="de1">&gt;Even now he&#039;s trying to flatter me</div></li><li class="li1"><div class="de1">&gt;I smile and lean towards him, giving a short kiss on his lips</div></li><li class="li1"><div class="de1">&gt;&quot;Y-you have a good night, Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;Even after that, I still couldn&#039;t help but stammer</div></li><li class="li1"><div class="de1">&gt;His soft cheeks turn red and he responds with &quot;Y-you too. You have a good night.&quot;</div></li><li class="li1"><div class="de1">&gt;I give a small wave and exit the car, leaving for home</div></li><li class="li1"><div class="de1">&gt;You know, even after everything that happened tonight, just seeing him like that was almost worth it</div></li><li class="li1"><div class="de1">&gt;And maybe... I could kiss him again some other time?</div></li><li class="li1"><div class="de1">&gt;The feeling of pins and needles cover my body as I think of doing more intimate kisses with him</div></li><li class="li1"><div class="de1">&gt;Perhaps this dance wasn&#039;t as much of a fuck up as I thought</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;Oh god it&#039;s time
-&gt;The school dance is coming and Anon is in front of his locker
-&gt;No one else even wants to LOOK at me, and he&#039;s fine just TALKING to me!
-&gt;Even when I accidentally let out the... laugh... when I forgot my lunch, he didn&#039;t look disturbed! 
-&gt;He even shared some of his food with me!
-&gt;He&#039;s so cute too! 
-&gt;This might be the only time I can ask him out on something, then I can slowly wean him into liking me more and more, then he can ask me out on a date, then we can kiss, then we can get closer together, and then hesayshelovesmeandthenwecangetmarriedandthenwecanhavesexandthenwecanhavealitterofcutepupsand-
-&gt;&quot;Hey Anon.&quot;
-&gt;What
-&gt;Why is this slut here?
-&gt;Why the fuck is this lioness bitch talking to him?!
-&gt;&quot;Hey Sarah, what&#039;s up?&quot; he asks
-&gt;&quot;I was just wondering if you had someone to go to the dance with and if maybe... you would want to go with me?&quot; she coyly asks, hiding her paws behind her back while pointing her head down and looking upward at him
-&gt;This cunt is faking it!
-&gt;She&#039;s trying to steal him from me!
-&gt;She knows it! 
-&gt;Just like she told everyone to not look at me! 
-&gt;Every single thing that happened to me is orchestrated by her, I knew it from day one!
-&gt;I have to do something
-&gt;Oh god what can I do?
-&gt;What if he says yes?
-&gt;How can I stop this temptress bitch from corrupting him?!
-&gt;My sisters told me I have to show everyone who&#039;s boss like they did!
-&gt;Crack heads, tear hair, break bones!
-&gt;But how can I do that without him hating me?!
-&gt;Oh god it&#039;s becoming harder to breathe
-&gt;Just gotta... just gotta... just gotta...
-&gt;&quot;Ah sorry Sarah, but I already have someone in mind.&quot; Anon answers
-&gt;Wait
-&gt;What?
-&gt;Sarah looks disappointed for a moment, but resumes her filthy, fake shitty smile again
-&gt;&quot;Oh, it&#039;s fine. Hope you and whoever it has have fun there!&quot; she says, waving as she walks off
-&gt;Ok... Ok... She&#039;s gone, but who&#039;s this other person?
-&gt;Who else is trying to ste-
-&gt;&quot;Oh, hey, there you are!&quot;
-&gt;OH FUCK ME HE&#039;S RIGHT HERE
-&gt;&quot;Hehehehey Anon!&quot; I stammer, trying to cover up my nervous laughter
-&gt;I gotta ask now! This is my one moment!
-&gt;&quot;Anon! W-will you go to the dance with me? You&#039;re the only one who isn&#039;t afraid to hang out with me!&quot;
-&gt;Idiot! Why did I tell him that without any lead?! Now he&#039;ll neve-
-&gt;&quot;I was just about to ask you. Yeah I would.&quot;
-&gt;Oh
-&gt;OH
-&gt;YES
-&gt;I DID IT!
-&gt;HE SAID HE&#039;LL GO WITH ME!
-&gt;YES YES YES YES YES YE-
-&gt;&quot;See you Friday?&quot; he asks
-&gt;What? Oh right!
-&gt;&quot;Y-yeah! S-see you then!&quot; I respond
-&gt;He gives a wave with his cute, hairless, pink hands and walks off towards the stairs
-&gt;All of the hairs on my body are standing on end, my head feels light and my face feels uncomfortably hot
-&gt;But I feel... good
-&gt;No, I feel great
-&gt;Everything is working out
-&gt;And Friday can&#039;t come soon enough
-------
-&gt;Time seemed to stretch on for eons from the past three days since I asked Anon to the dance, but it&#039;s finally a Friday
-&gt;Yes, finally here
-&gt;Friday...
-&gt;I feel ready to faint, and the loud chatter of the people in the crowds doesn&#039;t help
-&gt;The butterflies that have been in my stomach ever since Tuesday have only gotten worse, forcing stressful laughter out of me each time my thoughts wander to the dance or Anon
-&gt;And now, it&#039;s the worst it&#039;s ever been
-&gt;I must constantly keep my jaw shut and stifle the rapid giggling
-&gt;Standing near the bleachers with the other laughably lonely wallflowers is embarrassing, but it&#039;s the only way I can find or have Anon find me
-&gt;And from here I can see that bitch Sarah
-&gt;She&#039;s wearing a red dress that ends a bit too close to the middle of her thighs while also showing a small amount of cleavage of her horridly fake breasts
-&gt;Filthy slut
-&gt;She&#039;d be more fitting standing on the corner of a street than at a dance
-&gt;Does she even have someone to dance with?
-&gt;She&#039;s just dancing by herself in the middle of the crowd with a big smile
-&gt;Good
-&gt;I&#039;m actually dressed respectively AND have someone to dance with!
-&gt;Despite being a hand-me-down, it still looks good
-&gt;A buttoned, grey suit jacket with matching pants and black leather shoes to fit
-&gt;Tight though, makes it hard to stretch my legs
-&gt;&quot;Hey!&quot;
-&gt;Aw, there he is
-&gt;Sporting a blue button up shirt, white pants and tie
-&gt;Good lord he&#039;s so adorable
-&gt;&quot;Heheheh... Hey Anon.&quot;
-&gt;He gives me an adorable smile and asks &quot;Ready to dance?&quot;
-&gt;I mask my fear with a smile of my own, nodding in response to avoid further laughter
-&gt;He&#039;s reaching out... Why is he-
-&gt;OH THAT&#039;S SO SWEET HE&#039;S HOLDING MY HAND
-&gt;IT&#039;S SO TINY AND SQUISHY AND CUTE AND MMMMMMMNNNG
-&gt;OK, OK, calm down
-&gt;He&#039;s leading me near the dance floor
-&gt;A loud, quick tempo pop song is playing
-&gt;The people dancing are making fast movements in time with the song
-&gt;He lets go of my hand and begins to mimic their dancing
-&gt;I... gotta try the same, but the suit and pants are making it hard to move like they do
-&gt;Small shuffles will have to do for now
-&gt;Everyone is so engrossed into their own thing that no one notices my awkward movements
-&gt;Good
-&gt;Anon keeps looking at me with that cute face of his
-&gt;Dammit, I think he&#039;s assuming something&#039;s wrong
-&gt;Maybe I can get away with stretching the leg a bit further and go somewhat faste-
-&gt;What was that &quot;pop&quot; feeling?
-&gt;Was that a string?
-&gt;I don&#039;t feel a rip... but I know something just tore a little between the legs of the pants
-&gt;Got to play this much more carefully now
-&gt;Everyone&#039;s dances slow down as the music comes to an end
-&gt;What now plays is a slow paced sort of song
-&gt;Some dancers leave the floor, while those that remained took hands with others and began... stepping around each other
-&gt;Is this slow dancing?
-&gt;Ugh, it looks so... frail and wimpish
-&gt;&quot;You want to keep going?&quot; Anon asks, breaking my train of thought
-&gt;Can&#039;t turn him down now, it&#039;s too early to call it quits
-&gt;&quot;Y-yes, let&#039;s.&quot; I answer
-&gt;Studying the other dancers, I take hold of Anon&#039;s oh so tiny and cute hands and try to do as they do
-&gt;Now with our hands here, I just gotta... move
-&gt;This is... horrifically dull
-&gt;Although... I get to have him close to me, and feel that soft warmth coming from him
-&gt;He&#039;s looking up at me as we continue to step beat by beat
-&gt;I could get lost staring into his tiny, colorful little eyes
-&gt;Everything about him is just so wonderful to look at
-&gt;Maybe this type of dance isn&#039;t so bad after a-
-OH FUCK
-&gt;I MOVED TOO SOON AND JUST SWEPT ANON OFF HIS FEET BY CRASHING MY LEG INTO HIS
-&gt;I still got a grip on him, maybe I can bring him back up!
-&gt;No, shit, the floor&#039;s too slick!
-&gt;My back leg slides away as I lose my balance and crash atop him, all the while hearing the piercing sound of cloth tearing
-&gt;As my mind reels from the fall, my fears of the popped string manifest, as I feel a breeze touch my exposed rear
-&gt;I don&#039;t have to look or feel to know the pants split perfectly down the middle
-&gt;Everything&#039;s ruined
-&gt;I barely even got to be with him and it&#039;s already going to crash and burn
-&gt;He probably hates me already
-&gt;&quot;Goodness, are you OK?&quot;
-&gt;The filthy slut Sarah is standing in front of us, bending down to offer a hand to help me up
-&gt;Even now she&#039;s trying to look good in front of everyone
-&gt;&quot;Heh... Heheheheheheheheheheheheheheheheheheheh...&quot; I chortle, tears welling up in my eyes
-&gt;With a shaky hand, I lift myself off of Anon, ignoring that disgusting liar&#039;s &quot;help&quot;
-&gt;I... I got to get out of here
-&gt;Anywhere
-&gt;Anywhere but here
-&gt;I rush for the door and leave the gym while continuing my fit of stressful laughter, feeling the rip continue to grow as I run
-&gt;I got to leave...
-&gt;But Mom wont pick me up for another 30 minutes
-&gt;I&#039;ll... just wait in the restroom
-&gt;She&#039;ll... She&#039;ll come get me
-&gt;I just want to go home
-&gt;Shambling inside and into one of the stalls, I take a seat and cry
-&gt;The most I can do is just... cover my eyes with my hands and try to stop the crying
-&gt;God, I feel pathetic
-&gt;No, after that stunt, I AM pathetic
-&gt;I fucked up royally in front of everyone
-&gt;And in front of Anon
-&gt;He probably left the dance already
-&gt;While that dirty whore steals him away
-&gt;And there&#039;s nothing I can do about it
-&gt;&quot;Heheheheheheheheheheheheh...&quot;
-&gt;&quot;Hyena-chan? Are you in there?&quot; Anon asks, his voice echoing into the bathroom
-&gt;He&#039;s still here?
-&gt;&quot;Heheheh... Heheh... Anon?&quot; I meekly ask, sniffing between laughs
-&gt;&quot;Are you OK? What happened?&quot;
-&gt;I doubt he doesn&#039;t already know
-&gt;I doubt everyone in the school doesn&#039;t already know by now
-&gt;&quot;Listen, I&#039;m sorry, it was my fault! I should&#039;ve watched where I was going, and I should&#039;ve moved in time and... all that happened.&quot;
-&gt;He&#039;s trying to make this his fault?
-&gt;Why?
-&gt;&quot;Hey, I can... take you home if you want. I have a car, I can drive you back to your house.&quot;
-&gt;Why is he doing this?
-&gt;&quot;Heheh... Heheheh... You... heheheheh... don&#039;t hate me for what happened?&quot; I ask
-&gt;&quot;No, of course not. I still really... I still like you, Hyena-chan. What happened tonight doesn&#039;t change that. Never will.&quot;
-&gt;The laughter bubbling up in my throat slows to a stop
-&gt;&quot;Come on, I can take you home.&quot;
-&gt;I leave the restroom, meeting Anon in front of the door, still giving me that sincere smile of his
-&gt;I wrap my arms around his body and hug, staining the shoulders of his shirt with a few stray tears
-&gt;&quot;Thank you... Thank you Anon.&quot;
-&gt;Like he said, Anon had a car ready to drive me home
-&gt;During the drive, I tried to think of another way to thank him
-&gt;Maybe I should... go to the next stage?
-&gt;Finally, we pulled up to my house
-&gt;&quot;This it? It was... good being with you, Hyena-chan.&quot;
-&gt;Even now he&#039;s trying to flatter me
-&gt;I smile and lean towards him, giving a short kiss on his lips
-&gt;&quot;Y-you have a good night, Anon.&quot;
-&gt;Even after that, I still couldn&#039;t help but stammer
-&gt;His soft cheeks turn red and he responds with &quot;Y-you too. You have a good night.&quot;
-&gt;I give a small wave and exit the car, leaving for home
-&gt;You know, even after everything that happened tonight, just seeing him like that was almost worth it
-&gt;And maybe... I could kiss him again some other time?
-&gt;The feeling of pins and needles cover my body as I think of doing more intimate kisses with him
-&gt;Perhaps this dance wasn&#039;t as much of a fuck up as I thought</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/xwAjZLQ3">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    5 min ago                </div>
-            </li>
-                    <li>
-                <a href="/dqGkThKL">Linear array rotation</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    11 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    49 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

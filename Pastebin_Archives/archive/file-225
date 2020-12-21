@@ -1,684 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>snake nonsense - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="snake nonsense - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/KcFg2D5D" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/KcFg2D5D" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="4JYOxnc38i5uDAROtNepok76m39yE8OZrMkcLmWq55Kq4Eu8AmffWwchRSGAmc7RKazJCiYm8NDBh0ZqXfisvw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/KcFg2D5D" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/KcFg2D5D" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/22/1/9/3836368.jpg" alt="Kaktus-nsfw">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>snake nonsense</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Kaktus-nsfw">Kaktus-nsfw</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Kaktus-nsfw" class="message" title="Send a private message to: Kaktus-nsfw"></a>
-                                    
-                <div class="date">
-                    <span title="Wednesday 3rd of April 2019 01:56:49 PM CDT">Apr 3rd, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    3,280                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 33.18 KB            </div>
-
-            <div class="right">
-                <a href="/raw/KcFg2D5D" class="btn -small">raw</a>
-                <a href="/dl/KcFg2D5D" class="btn -small">download</a>
-                <a href="/clone/KcFg2D5D" class="btn -small h_800">clone</a>
-                <a href="/embed/KcFg2D5D" class="btn -small h_800">embed</a>
-                <a href="/report/KcFg2D5D" class="btn -small">report</a>
-                <a href="/print/KcFg2D5D" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&quot;No, no, no, go over it again.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Probably shoulda done that yourself huh?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;When in you&#039;re as much shit as I am, you tend not to think about these kind of things.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Look where that got you, eh? More shit?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell sat in an agonizingly mundane office, trying his best to process what was going to happen to him. The buzzing fluorescent lighting above drilled into his ears, making it harder to think. He tried to focus on the large man in front of him, but his gaze inadvertently drew to the glaring bald of his head, the light bouncing off it was like a beacon. &quot;So,&quot; the fat man spoke up, breaking Wendell out of his trance, &quot;here&#039;s how this works. Plain and simple. For the tenth time.&quot; He adjusted in his seat and straightened out the damned documentation. &quot;You&#039;ll be a personal servant for a maximum of three years. In return, you get ten thousand smackers.&quot; That seemed so low now.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Personal servant? Like a slave, you mean.&quot; Wendell rubbed his neck. His body was burning hot.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, you said it, not me.&quot; The office worker shrugged and smiled slightly. &quot;You do good and you get a small bonus.&quot; He rubbed his fingers. Clearly in reference to payment, but Wendell felt like the one paying in this scenario. &quot;Oh, and you did get a little extra on ticket sales.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Ticket sales?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Did you read anything?&quot; He shook his head, which was more like a swiveling. &quot;It was a lotto, buddy, people don&#039;t win on the first day.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;How much did I get?&quot; Wendell perked up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;ll know when your three years are up.&quot; That sentence immediately brought Wendell back down. The snap of three years was like a prison sentence. &quot;You get it now? Nothing to go over again?&quot; He immediately started to shuffle the papers away.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No, yeah.&quot; Wendell blinked and stared blankly at the desk. It was frightening that all those little words had so much control over him. A very hasty and sloppy signature, his, was underneath all of it. &quot;Yeah.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Now if you&#039;ll head out that door.&quot; Wendell glanced behind him at the fake oak. &quot;You&#039;ll see who you&#039;re working for.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell nodded and awkwardly stood up. He brushed his black hair into place and waved goodbye to the office drone, who in turn gave his own hollow smile and wave. The man practically stumbled out into the hallway and out of the stuffy closet room, closing the door behind him with all the grace of a sledgehammer. He took a moment to stare at the blank spackled wall in front of him. It was comforting, somehow. The vast white cleared his mind. &quot;Sir!&quot; And back into the fray. Another suited figure walked up to him. &quot;Sir, if you would come this way. Please.&quot; Wendell didn&#039;t bother looking up at him, he just gave another nod and slowly followed after him.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The trek to who-knows-where was a mindless one. Wendell focused on the black blob walking in front of him, however his mind was entirely focused on what the next three years were going to be like, and with who. Who could possibly hold his leash now? Maybe a nice elderly couple that he wouldn&#039;t have to worry about. Or maybe a horrible fat slob who would make him a work horse. &quot;Oh God,&quot; Wendell mumbled to himself. Anything seemed possible now. Who would even enter a lotto for a servant? What horrible, pathetic creature could possibly want such a thing?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sir? Mr. Hall?&quot; the blob spoke.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell shook his head. &quot;I&#039;m good. Really.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh good. Then step right this way.&quot; A blurry appendage presented another portal. One that would change his life. Definitely for the worse.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Here we go.&quot; The black haired man turned the knob and stepped through the door. The room was intensely bright, to the point where he winced in surprise and nearly sneezed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Here he is!&quot; someone said, followed by a fairly paltry round of applause. &quot;Congratulations!&quot; Wendell took a moment to process his surroundings. There were two people. That made sense. Regular people. Maybe too well dressed, but relatively regular. Then there was the very long thing in the center. The very long, red, yellow, and black thing. It wore clothes too. Not very prim and proper but clothes nonetheless. It took him to second to figure out what he was actually face to face with. The long, flicking tongue made it apparent.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Black on yellow will kill a fellow. Uh, black on red will kill you dead,&quot; Wendell muttered feverishly under his breath. His body locked up in panic. &quot;Black on- Black on-&quot; His breathing became heavy.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hello,&quot; the thing squeaked. She. She squeaked. Wendell attempted a response, but all that came out was a strained breath and a half-hearted nod.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;This is Mr. Wendell Hall, he&#039;ll be your new your new personal assistant!&quot; Wendell gave a mindless nod that he likened to a trained animal.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh. Oh!&quot; The she-thing slithered towards him, tongue flicking wildly. &quot;H-Hello,&quot; she stammered. &quot;My name is uhm, Connie.&quot; She nodded, almost in tune with Wendell. Her hands reached out before retracting instantly. She then extended a single hand that shook about and then returned straight back to her side. &quot;Nice to meet you.&quot; She gave a meek wave before turning her gaze to the floor, or rather, her whole head. Wendell slightly eased into the bizarre situation.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Likewise,&quot; he managed to reply soberly. He couldn&#039;t pry his eyes off of her, a mixture of fear and curiosity filling his thoughts. He had never spent much time around the animal folk, even less time around the giant reptilian kind. Wendell quickly noticed that while Connie&#039;s body extended out far behind her, she positioned herself to be shorter than he was. The tip of her tail lightly tapped against the floor.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The cheery spokespeople turned to the snake woman and began to chatter with her. Wendell didn&#039;t pay any attention to it whatsoever. His mind was stuck assessing the danger in front of him and the slow realization he had to spend time with it. A very, very long time.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Connie&#039;s serpentine nature wasn&#039;t nearly as frightening once Wendell had time to look over her. She wore a plain bright pink sweater and a long skirt that probably would have covered her legs, if she had any. A pair of black rimmed glasses sat on her broad mouth, nearly blending in with the rest of her dark exotic smooth scales. It was, however, unnerving that he couldn&#039;t quite find her eyes unless the light hit them right. Connie would occasionally look back over at Wendell, notice his stunned stare, then snap back to the human beside her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">One of the mundane humans spoke up, specifically turning to the gawking man. &quot;Now,&quot; Wendell stood back at attention, &quot;we suggest you get to know one another better on your trip back home!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Home?&quot; the bewildered pair said in unison.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, yes, home.&quot; Connie put her hands up hesitantly once again. They haphazardly waved in the air before grabbing onto Wendell&#039;s jacket, then letting go, then grabbing back on, as if he was too hot to handle. A gentle tug and the reorientation of Connie&#039;s body signalled her desire to move. Wendell wasn&#039;t sure if this was how this should go, but went along nonetheless. He looked over at the lotto runners for  confirmation, and was promptly disappointed when they only gave their trademark blank smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Just like that, Wendell was daintily pulled along, out of the room, through the hallways, and back out into the parking lot in utter silence, confusion, and bouts of fear. It felt good to be out of that building, even if he was almost arm in arm with a serpentine predator. The pair stopped at the edge of the tarmac, looking out into the field of cars.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m a milk snake.&quot; The sudden words almost made Wendell jump. &quot;Ah, well,&quot; Connie shook her head, &quot;no- I mean, yes, but that was pointless. Just forget about it.&quot; The human opened his mouth to respond, but couldn&#039;t figure out what to say to such an awkward outburst. Actually, he couldn&#039;t figure out the situation at all. &quot;Did you... Did you get here by bus?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Uh, no?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sorry! Sorry, I didn&#039;t mean to imply you were poor, if it seemed that way. I just- I want to go home and, well, my mom, she gave me her bus pass and I would feel bad it I used it more than I needed. You know?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">All of Wendell&#039;s fear was replaced by further confusion. &quot;I&#039;ve... Got a car over there.&quot; He pointed vaguely in the direction of his hand-me-down sedan in an ugly green.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh cool. Cool. Very cool. Yes. Do you drive often? No, no, no don&#039;t answer that. It was silly. Sorry. Very sorry.&quot; She looked away. The edges of her mouth seemed to quiver.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Should we get going?&quot; Wendell looked back at Connie&#039;s extended body, wondering how this would even work. First day on the job and he was already running into problems.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes, yes, of course.&quot; She pushed her glasses up. &quot;Lead the way. Please. If you want to.&quot; He could feel her grip tighten on his jacket as he led her to his car.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, here we are.&quot; Wendell rounded his vehicle to the passenger side, snake woman in tow. He took a few hard looks at both Connie and his poor car, formulating the best way to shove her into his car. Wasn&#039;t too good when he put it that way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Is something wrong? I&#039;ve done something wrong, haven&#039;t I? I&#039;m sorry. Really.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No, no. Not at all. Just trying to figure out how this is going to work.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh. It&#039;s my fault. I should have taken the bus.&quot; She dropped her grip. &quot;I&#039;m sorry.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Now hold on. Give me a second. Sit right here.&quot; He moved to the driver&#039;s side and opened the door. With some more fumbling he managed to lean the shabby passenger seat all the way back. &quot;Now uh, you can get in the seat behind me, and uh, spread out.&quot; He traced a vague J-shape in the air to convey what he meant. Connie cautiously slithered into the back of the vehicle, where she snuggled into the upholstery. Wendell was slightly unnerved to see the vehicle visibly sink upon her entrance.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With that, Wendell closed all the doors and settled into the driver&#039;s seat. Up until that point he had been on a sort of auto-pilot. It only just then hit his mind that he was about to chauffeur his new owner, a diminutive snake lady, to her home in his swamp green automobile from the lotto center. He rubbed his eyes and blinked rapidly, almost hoping it was a hallucination or a fever induced nightmare. Without moving a muscle, he peered from the corner of his eye at the giant scaled tail draped over the seat next to him. No such luck. His gaze shifted up to the rear view mirror, which reflected a clothed serpent licking up the air excitedly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So, uhm,&quot; he paused, &quot;Ma&#039;am.&quot; That was going to get old real fast. &quot;Do you have the address?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes. Yes, I do.&quot; Connie fumbled about in her pocket and pulled out a neatly folded piece of paper. Not entirely what Wendell expected, but he took the paper nonetheless. It didn&#039;t take him long to put it into his phone and set a route for what would be his new workplace. He looked over the handwriting, noting its cutesy stylings and the I&#039;s dotted with hearts. Whether she had the note prepared for him beforehand or she just carried her address everywhere with her, he wasn&#039;t sure.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After punching the address into his phone, Wendell started up the engine. It gave a low rumble and then roared to life. &quot;Seatbelts on!&quot; Connie hummed. He glanced back at her to see her adjusting her seatbelt into place. It was definitely awkward with the long tube sprouting from her hips, but she managed to click it into place. It was then that he noticed the orbs on her chest and how prominently they bulged out with the constricting belt. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Milk Snake,&quot; he mumbled.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Pardon? Did you say something?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nope. Are you all buckled up?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes, I am ready.&quot; She gave a thumbs-up and a wide grin. There was something amusing about a creature with such a large mouth smiling. Wendell put the car into reverse and slowly backed out of the parking spot. &quot;Wait!&quot; He slammed on the brakes. &quot;Do you... do you need to move your stuff?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Your stuff to,&quot; she lowered her voice, &quot;to move to my house.&quot; Connie turned to look out the window.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No. As pathetic as it is. It&#039;s fine at my parents&#039;.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh good. I mean, not good. Not that you&#039;re pathetic. Uhm, you&#039;re not, really. Just that it&#039;s good that you have everything ready. Well, not ready, but it&#039;s all taken care of.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes. Good.&quot; She cleared her throat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That everything?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes, that&#039;s everything.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The trip to Connie&#039;s house was a relatively silent one. Occasionally Wendell would grumble about the traffic and Connie would comment about the weather, repeatedly. He wasn&#039;t entirely familiar with the area, but as with every other piece of technology in his life, getting there was a cinch. Each building he passed by made him realize why these roads were alien to him. A lot of them were clean, relatively new, and were more luxurious than he could have ever pictured himself in. As embarrassing as it was, he was kind of happy to be sold off to someone with cash in the bank.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;There it is,&quot; Connie said. Wendell turned his attention to nearby building that looked like a pretty glass tube. He had to adjust his head to see all the way to the top of it. &quot;You just need to go through the gate there.&quot; This was definitely turning out better than he expected. He turned into the gate entrance and stopped the car. He took a moment to appreciate the absurdly elaborate design on what was essentially a fancy toll booth. &quot;Just a moment.&quot; The gate slid open and he pulled through.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Is anywhere good?&quot; Wendell asked as the car slowly moved through the parking lot.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, it would probably be better if you went through the garage.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, probably.&quot; The place kept getting bigger and bigger.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After snaking around the parking lot, Wendell entered the garage proper. Rows and rows of high end automobiles made his puke green clunker look ancient in comparison. Partially to give Connie plenty of room and partially because he didn&#039;t want to embarrass anyone else with his own car, he chose a spot away from the rest of the other vehicles and came to a stop. &quot;That good?&quot; he asked.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s perfect.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Now stay right there.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell turned the engine off and stepped out of the car. As gracefully as he could, he approached the rear passenger door and opened it in one smooth motion. &quot;Th-that&#039;s not necessary, really,&quot; Connie squeaked. He extended his hand as she unbuckled herself from the seat. She stopped dead in her tracks, eyeing his hand intensely.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I think this is what butlers, or personal servants should do.&quot; He shook his hand in offering. Connie shakily reached for his hand before pulling back. She repeated this ritual for a few seconds until she finally grabbed at his wrist and slithered out of the car. It almost seemed like the car was breathing a sigh of relief as Connie&#039;s body eased out onto the pavement. Wendell had to admit, though, there was something elegant about her exit. Like a clown car, but more sophisticated. Something like that, he figured. With his free hand, he closed the door behind her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Where to?&quot; Wendell asked. Connie gave no reply, only tugging on his arm by his jacket, silently pulling him along once more. He was dragged into a lobby area with hallways that spread out every which way. The air was surprisingly chilly, even through Wendell&#039;s jacket. It definitely explained Connie&#039;s thick sweater.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Rows upon rows of doors passed by the pair. Eventually they moved into a stairwell adjacent to an elevator. &quot;Hey, we&#039;re not going to use the lift?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Connie shook her head. &quot;I&#039;m not allowed on them.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, right.&quot; Wendell nodded. He couldn&#039;t help but look back as they went up the stairs. Connie&#039;s long body was still a curio to him. It was fascinating to see her effortlessly scale every step without stop. He had to stop gawking after a few stumbles on the steps.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you alright?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, I&#039;m fine. Don&#039;t mind me.&quot; Idiot.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After what seemed like hundreds of steps, they finally made it to their target floor. The trek definitely dampened his experience, but he couldn&#039;t complain yet. They stepped back into a hallway that looked identical to the one on the ground floor, as if they didn&#039;t get anywhere at all. Before Wendell could make a joke about how long it took, Connie spoke up. &quot;Here we are.&quot; In a flash she unlocked the door and opened it, then yanked her partner inside.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It took Connie some time to reorient herself in her apartment, having to drag the rest of her body inside. Wendell had some time to scan the entire room. It was certainly spacious. And warm. There was almost no furniture in the living room area. Aside from shelves and tables that tightly hugged the walls, there was only an odd and elongated bed-like platform. A fancy flat-screen television was positioned opposite to the cushioned plateau. One window lit up the entire room.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Connie slithered the entirety of her form into the room and closed the door. She turned to Wendell and merely stared at him. &quot;So, uh, I guess I should make myself useful, or something.&quot; He returned her stare with an uneasy smile. &quot;Do you want me to cook, maybe? I can make a killer omelet, I think? If you have ramen that works too.&quot; Connie continued to stare, and tugged Wendell along to the large cushion, gently nudging him into a sitting position.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I guess you don&#039;t want that. Uhm.&quot; Wendell averted his gaze. The shiny reptilian eyes that stared him down began to frighten him a little. He could see her tongue out of the corner of his eye. It flittered in and out of her maw with increasing speed. &quot;Is everything alright?&quot; The snake woman took off her glasses and hung them on her sweater. She gently rocked from side to side, her hands clasped together tightly. He might have considered the display to be pretty with her varying colors, were she not so close.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Ma&#039;am?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes?&quot; She continued to sway.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you alright?&quot; Connie froze on the spot.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes.&quot; She put her glasses back into place and slowly backed away. &quot;Yes. It is. I mean, I am.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So then,&quot; his eyes carefully moved back over to Connie, &quot;anything you wanted me to do? I mean, that is my job, right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Shouldn&#039;t we- Shouldn&#039;t we you know-&quot; Connie shook her head. &quot;Oh, yes! Uhm,&quot; she said, as if the last sentence didn&#039;t even exist. She glanced down a hallway, then hastily shifted away and out of sight. Well, most of her did. Her tail was left behind. Wendell heard a distant clatter, some angry words, and a few bangs. Connie came back with a broom and dustpan. &quot;Can you sweep? Oh, excuse me. Please. Can you sweep, please.&quot; She presented the custodial tools with a cheery smile. It was probably cheery, anyways.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell took up the tools and stood up. &quot;We meet again,&quot; he mumbled. &quot;Should I start anywhere?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes. No, wait.&quot; She effortlessly glided onto the cushion, coiling up the rest of her body onto the surface. &quot;Just here for now.&quot; She flicked the television on and relaxed into the odd couch-thing. Wendell shrugged and went to work. Three years of tidying begins. Could have been worse, he figured. He slowly went around the room, monotonously brushing the broom across the floor over and over. A steady mess of dust and snake scales slowly accumulated in the dustpan while mindless television droned on in the background. Connie didn&#039;t appear to pay much attention to it, however.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After going over the living room several times, Wendell walked down the hallway to toss out the mess. &quot;Wait!&quot; Connie shouted. Instantly she rushed to his side, much to his surprise and near heart attack. &quot;That&#039;s good enough.&quot; Her regular diminutive size was replaced. Now she towered over him.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;But I need to dump this-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s fine. I&#039;ll get it!&quot; The milk snake snatched the pair of cleaning tools and awkwardly maneuvered through the hall and down a doorway. A distinct line of dirt following in her wake. As soon as she left, she was back and right by his side. Though she had lowered back to just underneath Wendell&#039;s height.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So, what do you want me to do now?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Uhm. Uhhh.&quot; Connie glanced around the room before snapping back to the human beside her. &quot;No need. You&#039;ve done enough. It&#039;s time for a break.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you sure about that?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Time for a break,&quot; she repeated. As she had done many times previous, Connie dragged Wendell along with her, back to the couch. &quot;Here, time for television.&quot; A gentle but firm shove, pushed him into a sitting position. Connie quickly slithered in behind him with another absurd burst of speed. Usually Wendell would be the one to drape his arm along a girl&#039;s shoulders, but his new partner had him outclassed by using her powerful body to support his back. Her torso settled along next to him. &quot;Watch, watch.&quot; The man only managed a nod as a response.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The screen switched from a generic soap opera to a black screen. &quot;It&#039;s starting,&quot; Connie whispered gleefully. At near full blast an incomprehensible mess of lyrics and instruments hit Wendell, along with a dazzling amount of people in colored spandex suits. It took his brain a moment to process exactly what was going on, and at that time he also realized Connie was singing along with it albeit in a hushed tone. It was Power Rangers, but not really. Not in the right language anyways. Maybe it was Chinese or Korean.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Connie leaned towards Wendell and began speaking in a near whisper, &quot;OK, so, like, I think Right is going to be consumed by darkness this episode.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Riiiiight. Right?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Do you see the dark and sparkly suit? Completely. Totally. Darkness. And also maybe he isn&#039;t actually part of the tokyuger.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;The uhm, the what?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;The group he&#039;s in. See, they&#039;re all friends, but they&#039;re kids. Not kids, really, not now. Not anymore.&quot; Wendell&#039;s eyes glazed over at that point as mindless trivia about the show was hammered into his ear gently. &quot;And so, like, now they have to fight the darkness that feeds on humanity&#039;s bad feelings.&quot; She nodded in excitement. &quot;Personally I think the prince of darkness isn&#039;t a bad guy and-&quot; Something flashed on screen, what seemed like a guy in a suit clumsily smashing into another guy in a suit. &quot;Wow!&quot; The explosion of excitement made Wendell flinch and brought him back to reality.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">As with what little Power Rangers he had consumed as a child from friends, he was at a loss as to what the appeal was. It was further made a chore by his eyes racing from subtitles to action. From what he could gather, friendship and happiness was the key to winning battles. And copious amounts of punching.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It couldn&#039;t have been on for more than ten minutes, but Wendell was already feeling a headache come on. Thinking as quickly as his confused, pained, and somewhat afraid mind could, he came up with a quick getaway. &quot;So, you want something to eat?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sure, sure,&quot; Connie said, eyes still glued to the flashing screen. Wendell nodded and robotically stood up. He carefully tiptoed to the kitchen, as if he was sneaking away from a predator. The kitchen was as plain as the rest of the apartment, and almost blinding in how every surface was a bright white. &quot;There&#039;s some leftover ramen in the fridge!&quot; Wendell furrowed his brow and opened the refrigerator. Indeed, amid a mess of random junk foods and miscellaneous ingredients, a bowl of ramen sat on the top shelf.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Are you sure you want this?&quot; He picked up the bowl to examine it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah, just warm it up. Please! Warm it up, please!&quot; Wendell shrugged. As gross as it was, he couldn&#039;t blame her. He placed the bowl in the microwave and turned it on. His attention turned back to the fridge, where he explored what exactly a serpent ate. Sugary snacks, meat, and copious amounts of eggs. Not what he expected entirely, but he didn&#039;t know what to expect anyways. In his experience, they ate everything whole with little care for anything else. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">During his silent stereotyping, Wendell realized he hadn&#039;t eaten since that morning. The sight of a fridge packed to the gills with a variety of filling foods was pretty appealing. His stomach rumbled in response. He was going to be living there, so it shouldn&#039;t be a problem to take some snacks, right? The contract flashed briefly in his mind. He couldn&#039;t remember if there was a clause for food. Wendell shrugged and grasped a bag of pretzels.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, good choice!&quot; Connie spoke from the doorway. Wendell had another micro heart attack and froze. He felt like he was caught red-handed stealing. Briefly he thought of an escape route, but Connie blocked the only way out. She slithered closer. &quot;I think I prefer these hard-boiled eggs, though.&quot; She giggled as she grabbed a small carton. &quot;I know, cliché, a snake liking eggs, but they&#039;re good.&quot; Wendell quietly placed the bag back. The snake woman then presented him a wobbly egg.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m not that hungry, &quot; he lied. His stomach protested.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Just one.&quot; She swallowed the egg and gulped it down with zero effort. It was a little more than intimidating.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Alright then.&quot; He nodded and grabbed one for himself. &quot;Just one.&quot; The combination of cold and the weird fleshy texture of the egg already put him off from trying it, but he didn&#039;t want to imagine disappointing his employer. He took a bite, doing his damndest not to frown. The slime slid through his mouth and down his throat. Just then, the microwave went off, almost causing him to choke on his grotesque meal. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, it&#039;s ready!&quot; Connie slithered around Wendell, further trapping him in place. She pulled her cuisine out of the microwave and slithered back out in reverse. &quot;Let&#039;s get back to the show!&quot; The man stood there, egg in-hand. He cleared his throat and walked back out into the living room. Connie had formed her body back into a welcoming seat for Wendell. The rest of the couch was covered by snake, leaving him little in the way of choice. Awkwardly he sat back down, surrounded by snake. Her body scooted up to his back, closing the small gap.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">So, Wendell sat there, egg in-hand, snake at his back, and nonsense beaming into his eyes. He had spent worse afternoons, certainly more boring ones. Regardless, he had experienced just about the second most bizarre moment in his life and it was only the first day. Wendell casually nibbled on his egg as best he could while stealing glances at Connie. She barely registered Wendell&#039;s presence despite being directly next to him, only just narrowly missing him with every excited fist pump. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">And just like that, the show was over. Wendell had somehow managed to finish off his egg and avoid any left hooks. &quot;I&#039;m so excited for the finale, gosh!&quot; He gave a silent nod and awkwardly shifted on the spot. Connie switched the television off and looked idly about the room. They both continued this ritual for a few minutes until the red banded snake spoke up. &quot;I think... I think it&#039;s time for bed,&quot; she said to no one in particular. Her gaze was focused on a corner of the ceiling.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Already?&quot; Wendell glanced over at the window, then back down at the strange couch. Something didn&#039;t sit right with him sleeping at a stranger&#039;s place, although he had to admit, it was probably better than his room. &quot;Anything else you want me to do?&quot; Connie intensely stared at the ceiling and seized Wendell&#039;s arm with a firm grip. His heart jumped and his skin erupted into goosebumps. She slid out in front of him and pulled him up on his shaky legs. She snapped to look at him before looking straight back up at the ceiling.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Time for bed,&quot; she muttered. Wendell slid along the wooden floor as Connie swayed forward. She gradually erected her body until she towered over the man. The darkness of the hallway made parts of her form hard to see. &quot;Time for bed. Time for bed. Time for bed.&quot; Wendell wasn&#039;t sure whether or not to scream out. He latched onto the edge of the empty doorway in sudden panic, though it provided zero resistance and he continued to scrape along the ground. A door handle turned.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Wendell&#039;s confused and silent panic stopped as he came to a sea of pink. Connie pulled him along into what he assumed was her room. The walls were pink, the stuffed animals were pink, the furniture was pink. Pink. Another large bed platform took up half the room, but it was considerably larger than the other one and had huge pillows on it. Comparatively huge pillows to anything he had seen, anyways. Connie pulled up onto the bed, dragging Wendell face down into the fabric. Despite his near suffocation, he did notice a pleasant floral scent. To add to the relaxation, he suddenly felt his blood flow through his arm again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Carefully turning his head, Wendell took in a lungful of air and held his breath. Everything was still, and the only thing he could hear was his heartbeat reverberate through the bed. He looked at the far side of the room. Another absurdly fancy flatscreen sat atop a cherry pink dresser, nearly dwarfing it. Just next to that was a walk-in closet with several bits of fabrics poking out from underneath its door. Wendell considered turning around or getting up off the bed, but he decided it was best to simply wait it out for a moment.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After saying a few prayers, preparing himself for the worst, and pushing out all odd thoughts, Wendell turned around. Connie lay right next to him, facing away, into a pile of stuffed bears. The rest of her body went down the length of the bed and around Wendell. The end of her tail gently tapped the cutesy carpeting. His leg wasn&#039;t far from it. He wasn&#039;t sure if he should rein himself onto the mattress properly. On one hand he was quite forcefully pulled onto it by an apex predator, but on the other, he was quite uncomfortable with the thought of staying in the bed of a girl he had only just met.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Whatever his decision would be, he knew one thing, he had to get out of his damned jacket. The room was even warmer than the living room, and it probably didn&#039;t help that everything was covered in fabric. A small squeak could be heard as he rolled up onto the bed. Clumsily he pulled out of the jacket, seemingly getting stuck on every crease. He bunched it up on his stomach and stared up at the ceiling, unsure what to do next. His hope was that Connie would eventually send him off onto his next mindless task, but it didn&#039;t come. They merely lay there in silence.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So,&quot; Wendell started, &quot;do you need me to do anything else?&quot; He peeked over at Connie, who hadn&#039;t budged an inch. &quot;I could, uh,&quot; he ran his eyes over the room, &quot;I could dust your dresser over there?&quot; He pointed over to it. &quot;Vacuum the carpet? Organize your closet?&quot; The snake statue responded by bringing the tip of her tail onto the mattress and settling it next to his right side, essentially boxing him in. &quot;Ah.&quot; Wendell pushed back into the springs. &quot;Never mind then,&quot; he wheezed.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Minutes of silence went by while Wendell stared at the ceiling. He had many sleepless nights, but not many sleepless afternoons. The phone in his pocket vibrated, reminding him it existed. He considered pulling it out, but somehow that seemed rude. Instead, he gently pulled a pillow to his head and rested upon it. Definitely the best job he had so far. If he got through it unscathed. Gently he closed his eyes, accepting his fate as a bed warmer. The heat coupled with the alien environment was a little too much to properly sleep, not that he wanted to sleep. Really. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The man&#039;s uneasy slumber didn&#039;t last long. Another small squeak forced his eyes open. &quot;B-Bedtime is over.&quot; Connie hovered over him. With the lighting of the room and the angle he slumped into, he could see her eyes were actually deep dark violet. &quot;It&#039;s over.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So now what?&quot; For once, his eyes were magnetized to Connie. Maybe snake hypnosis was a real thing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;We could- We could- We could-&quot; Connie frantically looked about the room. &quot;Play videogames?&quot; Her face instantly scrunched up. &quot;No, no, no, no, that&#039;s- that&#039;s lame, sorry, no.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I mean, I don&#039;t mind-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;A movie! A movie. Yes, a movie, we can watch a movie. I have movies. You like movies? I love movies. Yes.&quot; Wendell clutched his jacket. &quot;What movies do you like?&quot; Connie&#039;s eyes fluttered.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Instantly, every movie that he had ever heard of was tossed out of his head. &quot;Anything you got, I guess?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;OK.&quot; Connie slithered over the human, however, she arched her body to cleanly glide over him. &quot;OK. OK. I can work with that. Yeah. Uh.&quot; She rummaged through her pink dresser, letting various fabrics spill out. &quot;I ah- Where is it? I order you to uhm, you know. Where did I put it? Go... Go make some popcorn.&quot; Wendell pried himself from the bed and stood up, leaving his jacket behind.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You got it. I&#039;ll just,&quot; he took a large moon step over Connie&#039;s banded body, &quot;head to the kitchen.&quot; Upon his exit, a blast of cool air hit him. He didn&#039;t realize how stuffy her room was until now. He took a brief moment to savor it and then walked to the kitchen cabinets. Glasses, pans, and then he hit it, another motherload of food that would make any college dropout wince in envy. Crackers, candies, stacks of ramen, even packs of beef jerky, and wedged in-between a jar of peanut butter and a bag of chips, the popcorn.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Managing to resist the urge to fill his pockets with consumable treasure, Wendell pulled out the popcorn and started the popping process. While savoring the smell of butter, he fiddled with his phone to catch up with his bustling social life. Empty inbox. Zero text messages. Ah, and one forum response calling him a queer. Standard affair. &quot;How&#039;s the popcorn going?&quot; a voice said. Wendell shuddered and silently cursed the stealth of a snake tail. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Going fine.&quot; Pocketing his phone, he stopped the microwave as the bag gave its last dying pops. A bowl was plopped down next to him and he happily tore open the bag and dumped the entirety of its contents. He turned to his master with bowl in-hand. Connie had changed her clothing, or at least her skirt. She now wore a plain white t-shirt and what appeared to be a skirt made out of denim, like jeans. A jkirt, he figured. Nah, that was stupid.</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&quot;No, no, no, go over it again.&quot;
- 
-&quot;Probably shoulda done that yourself huh?&quot;
- 
-&quot;When in you&#039;re as much shit as I am, you tend not to think about these kind of things.&quot;
- 
-&quot;Look where that got you, eh? More shit?&quot;
- 
-Wendell sat in an agonizingly mundane office, trying his best to process what was going to happen to him. The buzzing fluorescent lighting above drilled into his ears, making it harder to think. He tried to focus on the large man in front of him, but his gaze inadvertently drew to the glaring bald of his head, the light bouncing off it was like a beacon. &quot;So,&quot; the fat man spoke up, breaking Wendell out of his trance, &quot;here&#039;s how this works. Plain and simple. For the tenth time.&quot; He adjusted in his seat and straightened out the damned documentation. &quot;You&#039;ll be a personal servant for a maximum of three years. In return, you get ten thousand smackers.&quot; That seemed so low now.
- 
-&quot;Personal servant? Like a slave, you mean.&quot; Wendell rubbed his neck. His body was burning hot.
- 
-&quot;Hey, you said it, not me.&quot; The office worker shrugged and smiled slightly. &quot;You do good and you get a small bonus.&quot; He rubbed his fingers. Clearly in reference to payment, but Wendell felt like the one paying in this scenario. &quot;Oh, and you did get a little extra on ticket sales.&quot;
- 
-&quot;Ticket sales?&quot;
- 
-&quot;Did you read anything?&quot; He shook his head, which was more like a swiveling. &quot;It was a lotto, buddy, people don&#039;t win on the first day.&quot;
- 
-&quot;How much did I get?&quot; Wendell perked up.
- 
-&quot;You&#039;ll know when your three years are up.&quot; That sentence immediately brought Wendell back down. The snap of three years was like a prison sentence. &quot;You get it now? Nothing to go over again?&quot; He immediately started to shuffle the papers away.
- 
-&quot;No, yeah.&quot; Wendell blinked and stared blankly at the desk. It was frightening that all those little words had so much control over him. A very hasty and sloppy signature, his, was underneath all of it. &quot;Yeah.&quot;
- 
-&quot;Now if you&#039;ll head out that door.&quot; Wendell glanced behind him at the fake oak. &quot;You&#039;ll see who you&#039;re working for.&quot;
- 
-Wendell nodded and awkwardly stood up. He brushed his black hair into place and waved goodbye to the office drone, who in turn gave his own hollow smile and wave. The man practically stumbled out into the hallway and out of the stuffy closet room, closing the door behind him with all the grace of a sledgehammer. He took a moment to stare at the blank spackled wall in front of him. It was comforting, somehow. The vast white cleared his mind. &quot;Sir!&quot; And back into the fray. Another suited figure walked up to him. &quot;Sir, if you would come this way. Please.&quot; Wendell didn&#039;t bother looking up at him, he just gave another nod and slowly followed after him.
- 
-The trek to who-knows-where was a mindless one. Wendell focused on the black blob walking in front of him, however his mind was entirely focused on what the next three years were going to be like, and with who. Who could possibly hold his leash now? Maybe a nice elderly couple that he wouldn&#039;t have to worry about. Or maybe a horrible fat slob who would make him a work horse. &quot;Oh God,&quot; Wendell mumbled to himself. Anything seemed possible now. Who would even enter a lotto for a servant? What horrible, pathetic creature could possibly want such a thing?
- 
-&quot;Sir? Mr. Hall?&quot; the blob spoke.
- 
-Wendell shook his head. &quot;I&#039;m good. Really.&quot;
- 
-&quot;Oh good. Then step right this way.&quot; A blurry appendage presented another portal. One that would change his life. Definitely for the worse.
- 
-&quot;Here we go.&quot; The black haired man turned the knob and stepped through the door. The room was intensely bright, to the point where he winced in surprise and nearly sneezed.
- 
-&quot;Here he is!&quot; someone said, followed by a fairly paltry round of applause. &quot;Congratulations!&quot; Wendell took a moment to process his surroundings. There were two people. That made sense. Regular people. Maybe too well dressed, but relatively regular. Then there was the very long thing in the center. The very long, red, yellow, and black thing. It wore clothes too. Not very prim and proper but clothes nonetheless. It took him to second to figure out what he was actually face to face with. The long, flicking tongue made it apparent.
- 
-&quot;Black on yellow will kill a fellow. Uh, black on red will kill you dead,&quot; Wendell muttered feverishly under his breath. His body locked up in panic. &quot;Black on- Black on-&quot; His breathing became heavy.
- 
-&quot;Hello,&quot; the thing squeaked. She. She squeaked. Wendell attempted a response, but all that came out was a strained breath and a half-hearted nod.
- 
-&quot;This is Mr. Wendell Hall, he&#039;ll be your new your new personal assistant!&quot; Wendell gave a mindless nod that he likened to a trained animal.
- 
-&quot;Oh. Oh!&quot; The she-thing slithered towards him, tongue flicking wildly. &quot;H-Hello,&quot; she stammered. &quot;My name is uhm, Connie.&quot; She nodded, almost in tune with Wendell. Her hands reached out before retracting instantly. She then extended a single hand that shook about and then returned straight back to her side. &quot;Nice to meet you.&quot; She gave a meek wave before turning her gaze to the floor, or rather, her whole head. Wendell slightly eased into the bizarre situation.
- 
-&quot;Likewise,&quot; he managed to reply soberly. He couldn&#039;t pry his eyes off of her, a mixture of fear and curiosity filling his thoughts. He had never spent much time around the animal folk, even less time around the giant reptilian kind. Wendell quickly noticed that while Connie&#039;s body extended out far behind her, she positioned herself to be shorter than he was. The tip of her tail lightly tapped against the floor.
- 
-The cheery spokespeople turned to the snake woman and began to chatter with her. Wendell didn&#039;t pay any attention to it whatsoever. His mind was stuck assessing the danger in front of him and the slow realization he had to spend time with it. A very, very long time.
- 
-Connie&#039;s serpentine nature wasn&#039;t nearly as frightening once Wendell had time to look over her. She wore a plain bright pink sweater and a long skirt that probably would have covered her legs, if she had any. A pair of black rimmed glasses sat on her broad mouth, nearly blending in with the rest of her dark exotic smooth scales. It was, however, unnerving that he couldn&#039;t quite find her eyes unless the light hit them right. Connie would occasionally look back over at Wendell, notice his stunned stare, then snap back to the human beside her.
- 
-One of the mundane humans spoke up, specifically turning to the gawking man. &quot;Now,&quot; Wendell stood back at attention, &quot;we suggest you get to know one another better on your trip back home!&quot;
- 
-&quot;Home?&quot; the bewildered pair said in unison.
- 
-&quot;Oh, yes, home.&quot; Connie put her hands up hesitantly once again. They haphazardly waved in the air before grabbing onto Wendell&#039;s jacket, then letting go, then grabbing back on, as if he was too hot to handle. A gentle tug and the reorientation of Connie&#039;s body signalled her desire to move. Wendell wasn&#039;t sure if this was how this should go, but went along nonetheless. He looked over at the lotto runners for  confirmation, and was promptly disappointed when they only gave their trademark blank smile.
- 
-Just like that, Wendell was daintily pulled along, out of the room, through the hallways, and back out into the parking lot in utter silence, confusion, and bouts of fear. It felt good to be out of that building, even if he was almost arm in arm with a serpentine predator. The pair stopped at the edge of the tarmac, looking out into the field of cars.
- 
-&quot;I&#039;m a milk snake.&quot; The sudden words almost made Wendell jump. &quot;Ah, well,&quot; Connie shook her head, &quot;no- I mean, yes, but that was pointless. Just forget about it.&quot; The human opened his mouth to respond, but couldn&#039;t figure out what to say to such an awkward outburst. Actually, he couldn&#039;t figure out the situation at all. &quot;Did you... Did you get here by bus?&quot;
- 
-&quot;Uh, no?&quot;
- 
-&quot;Sorry! Sorry, I didn&#039;t mean to imply you were poor, if it seemed that way. I just- I want to go home and, well, my mom, she gave me her bus pass and I would feel bad it I used it more than I needed. You know?&quot;
- 
-All of Wendell&#039;s fear was replaced by further confusion. &quot;I&#039;ve... Got a car over there.&quot; He pointed vaguely in the direction of his hand-me-down sedan in an ugly green.
- 
-&quot;Oh cool. Cool. Very cool. Yes. Do you drive often? No, no, no don&#039;t answer that. It was silly. Sorry. Very sorry.&quot; She looked away. The edges of her mouth seemed to quiver.
- 
-&quot;Should we get going?&quot; Wendell looked back at Connie&#039;s extended body, wondering how this would even work. First day on the job and he was already running into problems.
- 
-&quot;Yes, yes, of course.&quot; She pushed her glasses up. &quot;Lead the way. Please. If you want to.&quot; He could feel her grip tighten on his jacket as he led her to his car.
- 
-&quot;Well, here we are.&quot; Wendell rounded his vehicle to the passenger side, snake woman in tow. He took a few hard looks at both Connie and his poor car, formulating the best way to shove her into his car. Wasn&#039;t too good when he put it that way.
- 
-&quot;Is something wrong? I&#039;ve done something wrong, haven&#039;t I? I&#039;m sorry. Really.&quot;
- 
-&quot;No, no. Not at all. Just trying to figure out how this is going to work.&quot;
- 
-&quot;Oh. It&#039;s my fault. I should have taken the bus.&quot; She dropped her grip. &quot;I&#039;m sorry.&quot;
- 
-&quot;Now hold on. Give me a second. Sit right here.&quot; He moved to the driver&#039;s side and opened the door. With some more fumbling he managed to lean the shabby passenger seat all the way back. &quot;Now uh, you can get in the seat behind me, and uh, spread out.&quot; He traced a vague J-shape in the air to convey what he meant. Connie cautiously slithered into the back of the vehicle, where she snuggled into the upholstery. Wendell was slightly unnerved to see the vehicle visibly sink upon her entrance.
-
-With that, Wendell closed all the doors and settled into the driver&#039;s seat. Up until that point he had been on a sort of auto-pilot. It only just then hit his mind that he was about to chauffeur his new owner, a diminutive snake lady, to her home in his swamp green automobile from the lotto center. He rubbed his eyes and blinked rapidly, almost hoping it was a hallucination or a fever induced nightmare. Without moving a muscle, he peered from the corner of his eye at the giant scaled tail draped over the seat next to him. No such luck. His gaze shifted up to the rear view mirror, which reflected a clothed serpent licking up the air excitedly.
-
-&quot;So, uhm,&quot; he paused, &quot;Ma&#039;am.&quot; That was going to get old real fast. &quot;Do you have the address?&quot;
-
-&quot;Yes. Yes, I do.&quot; Connie fumbled about in her pocket and pulled out a neatly folded piece of paper. Not entirely what Wendell expected, but he took the paper nonetheless. It didn&#039;t take him long to put it into his phone and set a route for what would be his new workplace. He looked over the handwriting, noting its cutesy stylings and the I&#039;s dotted with hearts. Whether she had the note prepared for him beforehand or she just carried her address everywhere with her, he wasn&#039;t sure.
-
-After punching the address into his phone, Wendell started up the engine. It gave a low rumble and then roared to life. &quot;Seatbelts on!&quot; Connie hummed. He glanced back at her to see her adjusting her seatbelt into place. It was definitely awkward with the long tube sprouting from her hips, but she managed to click it into place. It was then that he noticed the orbs on her chest and how prominently they bulged out with the constricting belt. 
-
-&quot;Milk Snake,&quot; he mumbled.
-
-&quot;Pardon? Did you say something?&quot;
-
-&quot;Nope. Are you all buckled up?&quot;
-
-&quot;Yes, I am ready.&quot; She gave a thumbs-up and a wide grin. There was something amusing about a creature with such a large mouth smiling. Wendell put the car into reverse and slowly backed out of the parking spot. &quot;Wait!&quot; He slammed on the brakes. &quot;Do you... do you need to move your stuff?&quot;
-
-&quot;What?&quot;
-
-&quot;Your stuff to,&quot; she lowered her voice, &quot;to move to my house.&quot; Connie turned to look out the window.
-
-&quot;No. As pathetic as it is. It&#039;s fine at my parents&#039;.&quot;
-
-&quot;Oh good. I mean, not good. Not that you&#039;re pathetic. Uhm, you&#039;re not, really. Just that it&#039;s good that you have everything ready. Well, not ready, but it&#039;s all taken care of.&quot;
-
-&quot;Yeah.&quot;
-
-&quot;Yes. Good.&quot; She cleared her throat.
-
-&quot;That everything?&quot;
-
-&quot;Yes, that&#039;s everything.&quot;
-
--
-
-The trip to Connie&#039;s house was a relatively silent one. Occasionally Wendell would grumble about the traffic and Connie would comment about the weather, repeatedly. He wasn&#039;t entirely familiar with the area, but as with every other piece of technology in his life, getting there was a cinch. Each building he passed by made him realize why these roads were alien to him. A lot of them were clean, relatively new, and were more luxurious than he could have ever pictured himself in. As embarrassing as it was, he was kind of happy to be sold off to someone with cash in the bank.
-
-&quot;There it is,&quot; Connie said. Wendell turned his attention to nearby building that looked like a pretty glass tube. He had to adjust his head to see all the way to the top of it. &quot;You just need to go through the gate there.&quot; This was definitely turning out better than he expected. He turned into the gate entrance and stopped the car. He took a moment to appreciate the absurdly elaborate design on what was essentially a fancy toll booth. &quot;Just a moment.&quot; The gate slid open and he pulled through.
-
-&quot;Is anywhere good?&quot; Wendell asked as the car slowly moved through the parking lot.
-
-&quot;Oh, it would probably be better if you went through the garage.&quot;
-
-&quot;Yeah, probably.&quot; The place kept getting bigger and bigger.
-
-After snaking around the parking lot, Wendell entered the garage proper. Rows and rows of high end automobiles made his puke green clunker look ancient in comparison. Partially to give Connie plenty of room and partially because he didn&#039;t want to embarrass anyone else with his own car, he chose a spot away from the rest of the other vehicles and came to a stop. &quot;That good?&quot; he asked.
-
-&quot;That&#039;s perfect.&quot;
-
-&quot;Now stay right there.&quot;
-
-&quot;What?&quot;
-
-Wendell turned the engine off and stepped out of the car. As gracefully as he could, he approached the rear passenger door and opened it in one smooth motion. &quot;Th-that&#039;s not necessary, really,&quot; Connie squeaked. He extended his hand as she unbuckled herself from the seat. She stopped dead in her tracks, eyeing his hand intensely.
-
-&quot;I think this is what butlers, or personal servants should do.&quot; He shook his hand in offering. Connie shakily reached for his hand before pulling back. She repeated this ritual for a few seconds until she finally grabbed at his wrist and slithered out of the car. It almost seemed like the car was breathing a sigh of relief as Connie&#039;s body eased out onto the pavement. Wendell had to admit, though, there was something elegant about her exit. Like a clown car, but more sophisticated. Something like that, he figured. With his free hand, he closed the door behind her.
-
-&quot;Where to?&quot; Wendell asked. Connie gave no reply, only tugging on his arm by his jacket, silently pulling him along once more. He was dragged into a lobby area with hallways that spread out every which way. The air was surprisingly chilly, even through Wendell&#039;s jacket. It definitely explained Connie&#039;s thick sweater.
-
-Rows upon rows of doors passed by the pair. Eventually they moved into a stairwell adjacent to an elevator. &quot;Hey, we&#039;re not going to use the lift?&quot;
-
-Connie shook her head. &quot;I&#039;m not allowed on them.&quot;
-
-&quot;Oh, right.&quot; Wendell nodded. He couldn&#039;t help but look back as they went up the stairs. Connie&#039;s long body was still a curio to him. It was fascinating to see her effortlessly scale every step without stop. He had to stop gawking after a few stumbles on the steps.
-
-&quot;Are you alright?&quot;
-
-&quot;Yeah, I&#039;m fine. Don&#039;t mind me.&quot; Idiot.
-
-After what seemed like hundreds of steps, they finally made it to their target floor. The trek definitely dampened his experience, but he couldn&#039;t complain yet. They stepped back into a hallway that looked identical to the one on the ground floor, as if they didn&#039;t get anywhere at all. Before Wendell could make a joke about how long it took, Connie spoke up. &quot;Here we are.&quot; In a flash she unlocked the door and opened it, then yanked her partner inside.
-
-It took Connie some time to reorient herself in her apartment, having to drag the rest of her body inside. Wendell had some time to scan the entire room. It was certainly spacious. And warm. There was almost no furniture in the living room area. Aside from shelves and tables that tightly hugged the walls, there was only an odd and elongated bed-like platform. A fancy flat-screen television was positioned opposite to the cushioned plateau. One window lit up the entire room.
-
-Connie slithered the entirety of her form into the room and closed the door. She turned to Wendell and merely stared at him. &quot;So, uh, I guess I should make myself useful, or something.&quot; He returned her stare with an uneasy smile. &quot;Do you want me to cook, maybe? I can make a killer omelet, I think? If you have ramen that works too.&quot; Connie continued to stare, and tugged Wendell along to the large cushion, gently nudging him into a sitting position.
-
-&quot;I guess you don&#039;t want that. Uhm.&quot; Wendell averted his gaze. The shiny reptilian eyes that stared him down began to frighten him a little. He could see her tongue out of the corner of his eye. It flittered in and out of her maw with increasing speed. &quot;Is everything alright?&quot; The snake woman took off her glasses and hung them on her sweater. She gently rocked from side to side, her hands clasped together tightly. He might have considered the display to be pretty with her varying colors, were she not so close.
-
-&quot;Ma&#039;am?&quot;
-
-&quot;Yes?&quot; She continued to sway.
-
-&quot;Are you alright?&quot; Connie froze on the spot.
-
-&quot;Yes.&quot; She put her glasses back into place and slowly backed away. &quot;Yes. It is. I mean, I am.&quot;
-
-&quot;So then,&quot; his eyes carefully moved back over to Connie, &quot;anything you wanted me to do? I mean, that is my job, right?&quot;
-
-&quot;Shouldn&#039;t we- Shouldn&#039;t we you know-&quot; Connie shook her head. &quot;Oh, yes! Uhm,&quot; she said, as if the last sentence didn&#039;t even exist. She glanced down a hallway, then hastily shifted away and out of sight. Well, most of her did. Her tail was left behind. Wendell heard a distant clatter, some angry words, and a few bangs. Connie came back with a broom and dustpan. &quot;Can you sweep? Oh, excuse me. Please. Can you sweep, please.&quot; She presented the custodial tools with a cheery smile. It was probably cheery, anyways.
-
-Wendell took up the tools and stood up. &quot;We meet again,&quot; he mumbled. &quot;Should I start anywhere?&quot;
-
-&quot;Yes. No, wait.&quot; She effortlessly glided onto the cushion, coiling up the rest of her body onto the surface. &quot;Just here for now.&quot; She flicked the television on and relaxed into the odd couch-thing. Wendell shrugged and went to work. Three years of tidying begins. Could have been worse, he figured. He slowly went around the room, monotonously brushing the broom across the floor over and over. A steady mess of dust and snake scales slowly accumulated in the dustpan while mindless television droned on in the background. Connie didn&#039;t appear to pay much attention to it, however.
-
-After going over the living room several times, Wendell walked down the hallway to toss out the mess. &quot;Wait!&quot; Connie shouted. Instantly she rushed to his side, much to his surprise and near heart attack. &quot;That&#039;s good enough.&quot; Her regular diminutive size was replaced. Now she towered over him.
-
-&quot;But I need to dump this-&quot;
-
-&quot;That&#039;s fine. I&#039;ll get it!&quot; The milk snake snatched the pair of cleaning tools and awkwardly maneuvered through the hall and down a doorway. A distinct line of dirt following in her wake. As soon as she left, she was back and right by his side. Though she had lowered back to just underneath Wendell&#039;s height.
-
-&quot;So, what do you want me to do now?&quot;
-
-&quot;Uhm. Uhhh.&quot; Connie glanced around the room before snapping back to the human beside her. &quot;No need. You&#039;ve done enough. It&#039;s time for a break.&quot;
-
-&quot;Are you sure about that?&quot;
-
-&quot;Time for a break,&quot; she repeated. As she had done many times previous, Connie dragged Wendell along with her, back to the couch. &quot;Here, time for television.&quot; A gentle but firm shove, pushed him into a sitting position. Connie quickly slithered in behind him with another absurd burst of speed. Usually Wendell would be the one to drape his arm along a girl&#039;s shoulders, but his new partner had him outclassed by using her powerful body to support his back. Her torso settled along next to him. &quot;Watch, watch.&quot; The man only managed a nod as a response.
-
-The screen switched from a generic soap opera to a black screen. &quot;It&#039;s starting,&quot; Connie whispered gleefully. At near full blast an incomprehensible mess of lyrics and instruments hit Wendell, along with a dazzling amount of people in colored spandex suits. It took his brain a moment to process exactly what was going on, and at that time he also realized Connie was singing along with it albeit in a hushed tone. It was Power Rangers, but not really. Not in the right language anyways. Maybe it was Chinese or Korean.
-
-Connie leaned towards Wendell and began speaking in a near whisper, &quot;OK, so, like, I think Right is going to be consumed by darkness this episode.&quot;
-
-&quot;Riiiiight. Right?&quot;
-
-&quot;Do you see the dark and sparkly suit? Completely. Totally. Darkness. And also maybe he isn&#039;t actually part of the tokyuger.&quot;
-
-&quot;The uhm, the what?&quot;
-
-&quot;The group he&#039;s in. See, they&#039;re all friends, but they&#039;re kids. Not kids, really, not now. Not anymore.&quot; Wendell&#039;s eyes glazed over at that point as mindless trivia about the show was hammered into his ear gently. &quot;And so, like, now they have to fight the darkness that feeds on humanity&#039;s bad feelings.&quot; She nodded in excitement. &quot;Personally I think the prince of darkness isn&#039;t a bad guy and-&quot; Something flashed on screen, what seemed like a guy in a suit clumsily smashing into another guy in a suit. &quot;Wow!&quot; The explosion of excitement made Wendell flinch and brought him back to reality.
-
-As with what little Power Rangers he had consumed as a child from friends, he was at a loss as to what the appeal was. It was further made a chore by his eyes racing from subtitles to action. From what he could gather, friendship and happiness was the key to winning battles. And copious amounts of punching.
-
-It couldn&#039;t have been on for more than ten minutes, but Wendell was already feeling a headache come on. Thinking as quickly as his confused, pained, and somewhat afraid mind could, he came up with a quick getaway. &quot;So, you want something to eat?&quot;
-
-&quot;Sure, sure,&quot; Connie said, eyes still glued to the flashing screen. Wendell nodded and robotically stood up. He carefully tiptoed to the kitchen, as if he was sneaking away from a predator. The kitchen was as plain as the rest of the apartment, and almost blinding in how every surface was a bright white. &quot;There&#039;s some leftover ramen in the fridge!&quot; Wendell furrowed his brow and opened the refrigerator. Indeed, amid a mess of random junk foods and miscellaneous ingredients, a bowl of ramen sat on the top shelf.
-
-&quot;Are you sure you want this?&quot; He picked up the bowl to examine it.
-
-&quot;Yeah, just warm it up. Please! Warm it up, please!&quot; Wendell shrugged. As gross as it was, he couldn&#039;t blame her. He placed the bowl in the microwave and turned it on. His attention turned back to the fridge, where he explored what exactly a serpent ate. Sugary snacks, meat, and copious amounts of eggs. Not what he expected entirely, but he didn&#039;t know what to expect anyways. In his experience, they ate everything whole with little care for anything else. 
-
-During his silent stereotyping, Wendell realized he hadn&#039;t eaten since that morning. The sight of a fridge packed to the gills with a variety of filling foods was pretty appealing. His stomach rumbled in response. He was going to be living there, so it shouldn&#039;t be a problem to take some snacks, right? The contract flashed briefly in his mind. He couldn&#039;t remember if there was a clause for food. Wendell shrugged and grasped a bag of pretzels.
-
-&quot;Oh, good choice!&quot; Connie spoke from the doorway. Wendell had another micro heart attack and froze. He felt like he was caught red-handed stealing. Briefly he thought of an escape route, but Connie blocked the only way out. She slithered closer. &quot;I think I prefer these hard-boiled eggs, though.&quot; She giggled as she grabbed a small carton. &quot;I know, cliché, a snake liking eggs, but they&#039;re good.&quot; Wendell quietly placed the bag back. The snake woman then presented him a wobbly egg.
-
-&quot;I&#039;m not that hungry, &quot; he lied. His stomach protested.
-
-&quot;Just one.&quot; She swallowed the egg and gulped it down with zero effort. It was a little more than intimidating.
-
-&quot;Alright then.&quot; He nodded and grabbed one for himself. &quot;Just one.&quot; The combination of cold and the weird fleshy texture of the egg already put him off from trying it, but he didn&#039;t want to imagine disappointing his employer. He took a bite, doing his damndest not to frown. The slime slid through his mouth and down his throat. Just then, the microwave went off, almost causing him to choke on his grotesque meal. 
-
-&quot;Oh, it&#039;s ready!&quot; Connie slithered around Wendell, further trapping him in place. She pulled her cuisine out of the microwave and slithered back out in reverse. &quot;Let&#039;s get back to the show!&quot; The man stood there, egg in-hand. He cleared his throat and walked back out into the living room. Connie had formed her body back into a welcoming seat for Wendell. The rest of the couch was covered by snake, leaving him little in the way of choice. Awkwardly he sat back down, surrounded by snake. Her body scooted up to his back, closing the small gap.
-
-So, Wendell sat there, egg in-hand, snake at his back, and nonsense beaming into his eyes. He had spent worse afternoons, certainly more boring ones. Regardless, he had experienced just about the second most bizarre moment in his life and it was only the first day. Wendell casually nibbled on his egg as best he could while stealing glances at Connie. She barely registered Wendell&#039;s presence despite being directly next to him, only just narrowly missing him with every excited fist pump. 
-
-And just like that, the show was over. Wendell had somehow managed to finish off his egg and avoid any left hooks. &quot;I&#039;m so excited for the finale, gosh!&quot; He gave a silent nod and awkwardly shifted on the spot. Connie switched the television off and looked idly about the room. They both continued this ritual for a few minutes until the red banded snake spoke up. &quot;I think... I think it&#039;s time for bed,&quot; she said to no one in particular. Her gaze was focused on a corner of the ceiling.
-
-&quot;Already?&quot; Wendell glanced over at the window, then back down at the strange couch. Something didn&#039;t sit right with him sleeping at a stranger&#039;s place, although he had to admit, it was probably better than his room. &quot;Anything else you want me to do?&quot; Connie intensely stared at the ceiling and seized Wendell&#039;s arm with a firm grip. His heart jumped and his skin erupted into goosebumps. She slid out in front of him and pulled him up on his shaky legs. She snapped to look at him before looking straight back up at the ceiling.
-
-&quot;Time for bed,&quot; she muttered. Wendell slid along the wooden floor as Connie swayed forward. She gradually erected her body until she towered over the man. The darkness of the hallway made parts of her form hard to see. &quot;Time for bed. Time for bed. Time for bed.&quot; Wendell wasn&#039;t sure whether or not to scream out. He latched onto the edge of the empty doorway in sudden panic, though it provided zero resistance and he continued to scrape along the ground. A door handle turned.
-
-Wendell&#039;s confused and silent panic stopped as he came to a sea of pink. Connie pulled him along into what he assumed was her room. The walls were pink, the stuffed animals were pink, the furniture was pink. Pink. Another large bed platform took up half the room, but it was considerably larger than the other one and had huge pillows on it. Comparatively huge pillows to anything he had seen, anyways. Connie pulled up onto the bed, dragging Wendell face down into the fabric. Despite his near suffocation, he did notice a pleasant floral scent. To add to the relaxation, he suddenly felt his blood flow through his arm again.
-
-Carefully turning his head, Wendell took in a lungful of air and held his breath. Everything was still, and the only thing he could hear was his heartbeat reverberate through the bed. He looked at the far side of the room. Another absurdly fancy flatscreen sat atop a cherry pink dresser, nearly dwarfing it. Just next to that was a walk-in closet with several bits of fabrics poking out from underneath its door. Wendell considered turning around or getting up off the bed, but he decided it was best to simply wait it out for a moment.
-
-After saying a few prayers, preparing himself for the worst, and pushing out all odd thoughts, Wendell turned around. Connie lay right next to him, facing away, into a pile of stuffed bears. The rest of her body went down the length of the bed and around Wendell. The end of her tail gently tapped the cutesy carpeting. His leg wasn&#039;t far from it. He wasn&#039;t sure if he should rein himself onto the mattress properly. On one hand he was quite forcefully pulled onto it by an apex predator, but on the other, he was quite uncomfortable with the thought of staying in the bed of a girl he had only just met.
-
-Whatever his decision would be, he knew one thing, he had to get out of his damned jacket. The room was even warmer than the living room, and it probably didn&#039;t help that everything was covered in fabric. A small squeak could be heard as he rolled up onto the bed. Clumsily he pulled out of the jacket, seemingly getting stuck on every crease. He bunched it up on his stomach and stared up at the ceiling, unsure what to do next. His hope was that Connie would eventually send him off onto his next mindless task, but it didn&#039;t come. They merely lay there in silence.
-
-&quot;So,&quot; Wendell started, &quot;do you need me to do anything else?&quot; He peeked over at Connie, who hadn&#039;t budged an inch. &quot;I could, uh,&quot; he ran his eyes over the room, &quot;I could dust your dresser over there?&quot; He pointed over to it. &quot;Vacuum the carpet? Organize your closet?&quot; The snake statue responded by bringing the tip of her tail onto the mattress and settling it next to his right side, essentially boxing him in. &quot;Ah.&quot; Wendell pushed back into the springs. &quot;Never mind then,&quot; he wheezed.
-
-Minutes of silence went by while Wendell stared at the ceiling. He had many sleepless nights, but not many sleepless afternoons. The phone in his pocket vibrated, reminding him it existed. He considered pulling it out, but somehow that seemed rude. Instead, he gently pulled a pillow to his head and rested upon it. Definitely the best job he had so far. If he got through it unscathed. Gently he closed his eyes, accepting his fate as a bed warmer. The heat coupled with the alien environment was a little too much to properly sleep, not that he wanted to sleep. Really. 
-
-The man&#039;s uneasy slumber didn&#039;t last long. Another small squeak forced his eyes open. &quot;B-Bedtime is over.&quot; Connie hovered over him. With the lighting of the room and the angle he slumped into, he could see her eyes were actually deep dark violet. &quot;It&#039;s over.&quot;
-
-&quot;So now what?&quot; For once, his eyes were magnetized to Connie. Maybe snake hypnosis was a real thing.
-
-&quot;We could- We could- We could-&quot; Connie frantically looked about the room. &quot;Play videogames?&quot; Her face instantly scrunched up. &quot;No, no, no, no, that&#039;s- that&#039;s lame, sorry, no.&quot;
-
-&quot;I mean, I don&#039;t mind-&quot;
-
-&quot;A movie! A movie. Yes, a movie, we can watch a movie. I have movies. You like movies? I love movies. Yes.&quot; Wendell clutched his jacket. &quot;What movies do you like?&quot; Connie&#039;s eyes fluttered.
-
-Instantly, every movie that he had ever heard of was tossed out of his head. &quot;Anything you got, I guess?&quot; 
-
-&quot;OK.&quot; Connie slithered over the human, however, she arched her body to cleanly glide over him. &quot;OK. OK. I can work with that. Yeah. Uh.&quot; She rummaged through her pink dresser, letting various fabrics spill out. &quot;I ah- Where is it? I order you to uhm, you know. Where did I put it? Go... Go make some popcorn.&quot; Wendell pried himself from the bed and stood up, leaving his jacket behind.
-
-&quot;You got it. I&#039;ll just,&quot; he took a large moon step over Connie&#039;s banded body, &quot;head to the kitchen.&quot; Upon his exit, a blast of cool air hit him. He didn&#039;t realize how stuffy her room was until now. He took a brief moment to savor it and then walked to the kitchen cabinets. Glasses, pans, and then he hit it, another motherload of food that would make any college dropout wince in envy. Crackers, candies, stacks of ramen, even packs of beef jerky, and wedged in-between a jar of peanut butter and a bag of chips, the popcorn.
-
-Managing to resist the urge to fill his pockets with consumable treasure, Wendell pulled out the popcorn and started the popping process. While savoring the smell of butter, he fiddled with his phone to catch up with his bustling social life. Empty inbox. Zero text messages. Ah, and one forum response calling him a queer. Standard affair. &quot;How&#039;s the popcorn going?&quot; a voice said. Wendell shuddered and silently cursed the stealth of a snake tail. 
-
-&quot;Going fine.&quot; Pocketing his phone, he stopped the microwave as the bag gave its last dying pops. A bowl was plopped down next to him and he happily tore open the bag and dumped the entirety of its contents. He turned to his master with bowl in-hand. Connie had changed her clothing, or at least her skirt. She now wore a plain white t-shirt and what appeared to be a skirt made out of denim, like jeans. A jkirt, he figured. Nah, that was stupid.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    31 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    59 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

@@ -1,1133 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Pits - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="The Pits - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/aZCn718h" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/aZCn718h" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="kb9rGfl750OKclR-C6LuFaZC2l8t0dxx8yj_RBoWTKDCzylwvQrQCLwqeUtU2r9T43uPNG-8jBScHsxxQE8EyA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/aZCn718h" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/aZCn718h" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/9/13/8/2923809.jpg" alt="Oliver_Hart">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>The Pits</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Oliver_Hart">Oliver_Hart</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Oliver_Hart" class="message" title="Send a private message to: Oliver_Hart"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 15th of December 2018 12:58:13 PM CDT">Dec 15th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,900                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 52.31 KB            </div>
-
-            <div class="right">
-                <a href="/raw/aZCn718h" class="btn -small">raw</a>
-                <a href="/dl/aZCn718h" class="btn -small">download</a>
-                <a href="/clone/aZCn718h" class="btn -small h_800">clone</a>
-                <a href="/embed/aZCn718h" class="btn -small h_800">embed</a>
-                <a href="/report/aZCn718h" class="btn -small">report</a>
-                <a href="/print/aZCn718h" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">The Pits -- Oliver_Hart</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Tags: [Wolf], [Fighting], [Muscle Girl], [Size Difference], [Male Human], [Female Anthro], [SFW]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">Summary: Scared, but not alone, you wake up to find that you&#039;re  being used as a desperate Wolf&#039;s collateral an in underground fighting ring of carnivores. To the victor: The spoils, a cash prize, and the life of both the loser and their collateral. To the loser: The butcher&#039;s knife. You better hope your champion, a fresh face in The Pits, has what it takes to save her fur -- and your skin.</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The first thing you do when you wake up in a dimly lit room that smells like copper is puke</div></li><li class="li1"><div class="de1">&gt;Naturally, when you see the blood soaked into the walls, the scraps of flesh illuminated by fading bulbs, you puke a little more and try to yell, but it all comes out in a lazy slur, the force of sedatives pressing down like a weight on your entire body</div></li><li class="li1"><div class="de1">&gt;That’s when the door to that tiny room opens, and the splitting headache sets in, and you see the silhouette of something freakishly large blocking out the pale light from behind</div></li><li class="li1"><div class="de1">&gt;A vaguely human looking profile, with an elongated muzzle, dangling arms and toned legs</div></li><li class="li1"><div class="de1">&gt;You shrink to the back of the room, not caring if you’re getting flakes of dried blood in your hair</div></li><li class="li1"><div class="de1">&gt;The silhouette steps forward, and with a gruff voice, says:</div></li><li class="li1"><div class="de1">&gt;”Please stop yelling. You’re going to get me in trouble.”</div></li><li class="li1"><div class="de1">&gt;A she-wolf comes into glow of the lights, her broad, athletic body bent down over you</div></li><li class="li1"><div class="de1">&gt;You look up and see rows of glittering fangs, light yellow eyes, and gray fur towering over you</div></li><li class="li1"><div class="de1">&gt;And that’s when you start screaming again</div></li><li class="li1"><div class="de1">“PLEASE DON’T HURT ME!” You cry, and that only gets a paw clamped over your face</div></li><li class="li1"><div class="de1">&gt;”Be quiet! They said they don’t like it when the spoils are loud…” she growls, her voice decidedly more feminine than you would have thought given her Amazonian appearance</div></li><li class="li1"><div class="de1">&gt;You notice that she’s dressed in tight fitting black spats that stretch around her narrow hips and rounded butt</div></li><li class="li1"><div class="de1">&gt;Her midriff is left entirely bare, and through the shortness of her coat, you can see the ridges and crevices of a toned sixpack</div></li><li class="li1"><div class="de1">&gt;Her breasts are obscured by both a well-fitted sports bra and a tuft of hair that spills over her cleavage</div></li><li class="li1"><div class="de1">&gt;She is young, and could not be older than 20 with the way she looks</div></li><li class="li1"><div class="de1">&gt;Yet despite all of this, you cannot help but start to tremble when she grabs you by your tattered shirt collar and begins to drag you out of the room</div></li><li class="li1"><div class="de1">&gt;She’s decidely more gentle than you thought she’d be, and as you are brought into the light of the narrow hallway, things begin to click</div></li><li class="li1"><div class="de1">&gt;You know where you are, and it’s not at the park anymore</div></li><li class="li1"><div class="de1">&gt;You’ve heard of The Pits before, but only on the news</div></li><li class="li1"><div class="de1">&gt;Underground fighting rings of anthros, where humans are used as collateral. The loser forefits both a cash prize, and their collateral, who is usually carved up and sold on the black market</div></li><li class="li1"><div class="de1">&gt;So basically, what you are going to be, considering only carnivores participate in Pit Fights</div></li><li class="li1"><div class="de1">&gt;Herbivores and humans were scrawny and good collateral</div></li><li class="li1"><div class="de1">&gt;”You know if you put up more of a fight, you might help me warm up a bit,” she says. “It might improve my chances a bit more. Err, I mean, your chances. I’m going to be fine. I promise.”</div></li><li class="li1"><div class="de1">&gt;You don’t have it in you to speak coherently The sedative she must have hit you with at the park is still wearing off</div></li><li class="li1"><div class="de1">&gt;”Right. Sedative. Maybe I used too much,” she says to herself as she drags you down a long, poorly lit hallway</div></li><li class="li1"><div class="de1">&gt;Despite your blunted senses, more details begin to take shape</div></li><li class="li1"><div class="de1">&gt;The screams of other captives</div></li><li class="li1"><div class="de1">&gt;The pounding drum beat of what must be a decent sized crowd</div></li><li class="li1"><div class="de1">&gt;The smell of blood and wet fur</div></li><li class="li1"><div class="de1">&gt;The feel of the dirty floor against your legs</div></li><li class="li1"><div class="de1">&gt;And… the gentleness with which she seems to be dragging you to the arena, if being dragged somewhere can be gentle</div></li><li class="li1"><div class="de1">&gt;Odd</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She brings you to the end of the hall, where are a pair of two-way double doors remain closed</div></li><li class="li1"><div class="de1">&gt;A fox in a pair of bloody scrubs opens the door</div></li><li class="li1"><div class="de1">&gt;He cranes his wiry neck around the wolf girl’s large frame and sees you helplessly splayed out on your back</div></li><li class="li1"><div class="de1">&gt;Looking pleased, he retrieves a clipboard</div></li><li class="li1"><div class="de1">&gt;”Name?”</div></li><li class="li1"><div class="de1">&gt;”For me, or for the human?”</div></li><li class="li1"><div class="de1">&gt;”The human,” he says</div></li><li class="li1"><div class="de1">&gt;She nudges you with the back of her leg</div></li><li class="li1"><div class="de1">&gt;”Give him your name,” she says</div></li><li class="li1"><div class="de1">&gt;You do not speak</div></li><li class="li1"><div class="de1">&gt;What’s the point</div></li><li class="li1"><div class="de1">&gt;She nudges you again</div></li><li class="li1"><div class="de1">&gt;”Please.”</div></li><li class="li1"><div class="de1">&gt;Did she just say please after kidnapping you and using you as collateral in an illegal fighting ring?</div></li><li class="li1"><div class="de1">&gt;”Anonymous,” you say without even thinking. “But most people call me Anon.”</div></li><li class="li1"><div class="de1">&gt;The fox jots down your name</div></li><li class="li1"><div class="de1">&gt;”Okay, Anon… And the fighters name?”</div></li><li class="li1"><div class="de1">&gt;”Koda Malcaine”</div></li><li class="li1"><div class="de1">&gt;”Koda Malcaine…” the fox clicks back. He flips over the clipboard</div></li><li class="li1"><div class="de1">&gt;”Ah, here you are! Koda Malcaine. You’re new huh?”</div></li><li class="li1"><div class="de1">&gt;”I hope that’s not a problem?” Koda replies</div></li><li class="li1"><div class="de1">&gt;”No, no, won’t be a problem at all. If you’ll follow me, we’ll do a quick inspection of yourself and your human. Then I’ll give the green light, and up you’ll go!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The room Koda drags you into looks like a dentist’s office fused witha a torture room</div></li><li class="li1"><div class="de1">&gt;There’s a table full of bloody metal instruments next to a bench and two elongated chairs</div></li><li class="li1"><div class="de1">&gt;You are sat on the bench by Koda while the old fox scrambles about with rubbing alcohol and a wad of bloody bandages</div></li><li class="li1"><div class="de1">&gt;Koda kneels down to your height and looks you in the eyes</div></li><li class="li1"><div class="de1">&gt;Her ears go flat against her skull, and there’s a look in her yellow eyes that gives you pause</div></li><li class="li1"><div class="de1">&gt;It almost looks like regret</div></li><li class="li1"><div class="de1">&gt;”Listen. I’m really sorry about this. I’ll do my best, okay? If you remain calm it won’t hurt a bit.”</div></li><li class="li1"><div class="de1">&gt;You try to speak, but the old fox interrupts</div></li><li class="li1"><div class="de1">&gt;”Mrs. Malcaine? Would you please undress the meat- Err, I mean, Mr. Anon over there?”</div></li><li class="li1"><div class="de1">&gt;She sets her jaw hard, ears going even flatter against her skull, and turns away from you</div></li><li class="li1"><div class="de1">&gt;You think you almost catch a hint of color in her cheeks</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Soon you’re down to your underwear, made to stand, shivering the cold doctor’s office, while an old fox pokes at you, takes blood samples and chit-chats with Koda, who is stretching by the exit, keeping her eyes on the door</div></li><li class="li1"><div class="de1">&gt;”So, who are you up against for your first match?”</div></li><li class="li1"><div class="de1">&gt;Koda cracks her neck</div></li><li class="li1"><div class="de1">&gt;”A tiger. Goes by the name of Shiva, God of Death, but I think that’s just his ring name.”</div></li><li class="li1"><div class="de1">&gt;”Shiva?” The fox freezes, a needle halfway in your arm</div></li><li class="li1"><div class="de1">&gt;You want to reach out and wring him by the neck, but are afraid he’ll just stab you some more in the process</div></li><li class="li1"><div class="de1">&gt;”For your first match? Wow. That’s a doozy.”</div></li><li class="li1"><div class="de1">&gt;The fox turns his neck away from Koda and up at you</div></li><li class="li1"><div class="de1">&gt;”Sorry son. Hope you’ve made peace with your god.”</div></li><li class="li1"><div class="de1">&gt;”Why?” Koda interrupts. “I’m strong. I’ve been training for months. And I have something to fight for.”</div></li><li class="li1"><div class="de1">&gt;The doctor hums</div></li><li class="li1"><div class="de1">&gt;”And what’s that deary? A nice bone?”</div></li><li class="li1"><div class="de1">&gt;Koda steps forward</div></li><li class="li1"><div class="de1">&gt;”No. A liter. Three brothers and three sisters back home. I’ve got mouths to feed.”</div></li><li class="li1"><div class="de1">&gt;”Oh god, you’re a mother? You didn’t declare that on your form,” the fox says as he wraps a bandage around your arm</div></li><li class="li1"><div class="de1">&gt;”A mother?!” Koda goes rigid and red in the face. “N-No! I’m just the eldest! Don’t foxes have tons of kits?”</div></li><li class="li1"><div class="de1">&gt;”We do, we do.” The fox pushes you forward. “We just make sure we can afford to.”</div></li><li class="li1"><div class="de1">&gt;You stumble towards Koda, feet padding on the cold tile</div></li><li class="li1"><div class="de1">&gt;You collide with the wolf girl</div></li><li class="li1"><div class="de1">&gt;”Not me, though. I never married,” he continues</div></li><li class="li1"><div class="de1">&gt;”Shame,” Koda says sarcastically, but if he heard it, the Fox doesn’t acknowledge</div></li><li class="li1"><div class="de1">&gt;”Your human is in good condition. I’m going to call up and let them know that you’re ready.”</div></li><li class="li1"><div class="de1">&gt;He presses a button on his shoddy desk</div></li><li class="li1"><div class="de1">&gt;There’s a loud buzz as the door next to Koda swings open</div></li><li class="li1"><div class="de1">&gt;Koda takes a few long breaths, bends down, and throws you over her shoulders</div></li><li class="li1"><div class="de1">“Woah, wait, wait, can’t I just pay you!? I have money! Please, don’t do this!” You cry</div></li><li class="li1"><div class="de1">&gt;All of this is a lie, of course</div></li><li class="li1"><div class="de1">&gt;You have approximately no money, but you hope your captor will believe you</div></li><li class="li1"><div class="de1">&gt;”Not anywhere near as much as I could make from winning this fight,” she says, and begins ascending the stairs, with you in tow</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The arena is blisteringly loud, though a lot smaller than you expected so Koda ends up carrying you into the fray slung over her shoulders like a sack of potatoes</div></li><li class="li1"><div class="de1">&gt;You’re in an old warehouse near the docks, you can tell by the smell of salt and brine in the air</div></li><li class="li1"><div class="de1">&gt;There are five-tiers of bleachers assembled in a rectangle, with the center of the pit closed off by shipping containers</div></li><li class="li1"><div class="de1">&gt;Two Bears stand by the entrance to the stands, clearly guarding the upper-echelons of the pit</div></li><li class="li1"><div class="de1">&gt;What catches your eyes is the well-dressed buck sitting isolated on a chair</div></li><li class="li1"><div class="de1">&gt;His cold eyes gloss over you without interest</div></li><li class="li1"><div class="de1">&gt;Two more black bears in suits stand at his side</div></li><li class="li1"><div class="de1">&gt;Koda sets you down onto the dirty floor</div></li><li class="li1"><div class="de1">&gt;You quickly cling to her legs like a frightened child, only earning gales of laughter and approval from the crowd</div></li><li class="li1"><div class="de1">&gt;It’s all anthros — and carnivores at that</div></li><li class="li1"><div class="de1">&gt;You see all manner of them in the bleachers, their faces rough and hard from a life of struggle, jaws wide and jagged with laughter</div></li><li class="li1"><div class="de1">“Fucking shifty predators!” You cry, despite the fact that you are currently hiding behind a rather large gray wolf who could snap you in half like a human twig</div></li><li class="li1"><div class="de1">“This is sick!” You look up at Koda, who peers down at you with a stone face. “You’re sick, you know that!?”</div></li><li class="li1"><div class="de1">&gt;You have to shout to be heard above the roar of the crowd</div></li><li class="li1"><div class="de1">&gt;She peels you away from her tail with relative ease</div></li><li class="li1"><div class="de1">&gt;”Again — I’m sorry, but this is something I have to do. I’ll try my best.”</div></li><li class="li1"><div class="de1">“F-Fucking better!” You cry, tears welling up in your eyes as the two bears drag you away from Koda and into a shipping crate with metal bars for windows</div></li><li class="li1"><div class="de1">&gt;The crate is separated in two by more metal bars</div></li><li class="li1"><div class="de1">&gt;Your cratemate, as it were, is anxiously moving about, their feet tapping on the cold metal floors</div></li><li class="li1"><div class="de1">&gt;You see a golden retriever pacing back and forth on the other-side, her clothes well tarnished and coat appropriately filthy</div></li><li class="li1"><div class="de1">&gt;You didn’t think that carnivores were ever used as collateral</div></li><li class="li1"><div class="de1">&gt;Well, being a retriever, she probably did this willingly — stupid, loyal dogs</div></li><li class="li1"><div class="de1">&gt;When she sees you, she presses her face into the bars</div></li><li class="li1"><div class="de1">&gt;”So, you’re the meat?” She says with a sneer. “They say human meat is the sweetest. I hope Shiva lets me have a thigh. He’s such a good and kind master.”</div></li><li class="li1"><div class="de1">“What the fuck is wrong with you?” You yell, still fighting off the sedatives. “We should be working on a way to get out of this!”</div></li><li class="li1"><div class="de1">&gt;The golden laughs maniacally</div></li><li class="li1"><div class="de1">&gt;”Get out? There’s no getting out of here! You best hope your fighter is any good, because Shiva’s on a four-game winning streak, and I’m feeling itchy in my teeth.”</div></li><li class="li1"><div class="de1">&gt;Four-game streak?</div></li><li class="li1"><div class="de1">&gt;Oh god</div></li><li class="li1"><div class="de1">&gt;You’re gonna get eaten</div></li><li class="li1"><div class="de1">&gt;You feel your stomach drop</div></li><li class="li1"><div class="de1">&gt;As do you</div></li><li class="li1"><div class="de1">&gt;You slump agains the bars of the window and watch as Koda jogs in place</div></li><li class="li1"><div class="de1">&gt;On the other side of the arena a tiger adorned in golden jewelry is pacing</div></li><li class="li1"><div class="de1">&gt;There is a certain elegance to his steps, a kind of calculated grace and air to his movements that gives the impression that he is light on his feet</div></li><li class="li1"><div class="de1">&gt;Koda, who towers above both you and Shiva, moves more like she has tree trunks for arms and legs</div></li><li class="li1"><div class="de1">&gt;She almost did — She was pretty strong looking. Had a body carved out of granite</div></li><li class="li1"><div class="de1">&gt;And despite her feral appearance and hardened limbs, there was also a kindness there, at least, it didn’t feel like you were her slave. She seemed like she genuinely felt sorry for dragging you through all this</div></li><li class="li1"><div class="de1">&gt;Koda swipes at the air, her claws searing through empty space</div></li><li class="li1"><div class="de1">&gt;She could probably cleave into a car like it were a tin can</div></li><li class="li1"><div class="de1">&gt;Gray wolves were, of course, the largest and strongest canine species, putting males at 7 feet, and females around 6’5”</div></li><li class="li1"><div class="de1">&gt;Koda has enough body mass to be at least 250 pounds,</div></li><li class="li1"><div class="de1">&gt;And you’d put her at 6’10”. A freak of a woman</div></li><li class="li1"><div class="de1">&gt;Yet ‘Shiva’ looks as tall as you, putting him roughly at 6’</div></li><li class="li1"><div class="de1">&gt;This fight would be brute strength versus darting ferocity, the age old struggle between cat and dog</div></li><li class="li1"><div class="de1">&gt;And given that Koda’s never fought before (as far as you know), you’re pretty sure that Shiva’s darting ferocity is going to win the day</div></li><li class="li1"><div class="de1">&gt;Basically, you’re already preparing to be a hunk of meat</div></li><li class="li1"><div class="de1">&gt;As if she could sense your nerves, the retriever hops up and down excitedly</div></li><li class="li1"><div class="de1">&gt;”EAT HER HEART!” She throws herself against the cage window. “EAT IT WHILE IT’S STILL BEATING!”</div></li><li class="li1"><div class="de1">&gt;Something also tells you that your almost-cell mate isn’t ‘all there’</div></li><li class="li1"><div class="de1">&gt;So what kind of fighter does that make Shiva?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The buck walks into the center of the ‘ring’, a mic in hand</div></li><li class="li1"><div class="de1">&gt;”Welcome, ladies and gentleman, to Monday’s pit match!”</div></li><li class="li1"><div class="de1">&gt;Electricity runs through the crowd</div></li><li class="li1"><div class="de1">&gt;A cry goes up</div></li><li class="li1"><div class="de1">&gt;Your heart clenches</div></li><li class="li1"><div class="de1">&gt;Koda looks focused, but you can see her breathing hard</div></li><li class="li1"><div class="de1">&gt;That look on her face does not inspire a lot of confidence</div></li><li class="li1"><div class="de1">&gt;It’s restrained nerves, whipped up into lazer focus</div></li><li class="li1"><div class="de1">&gt;But the cracks do show</div></li><li class="li1"><div class="de1">&gt;”Tonight’s entertainment is brought to you by Shiva, God of Death!” He gestures towards the tiger who raises his paws, gold chains dangling from his wrists</div></li><li class="li1"><div class="de1">&gt;His face looks like it’s got more jewelry on it than the entire crowd has on their personage</div></li><li class="li1"><div class="de1">&gt;The golden next to you shrieks and sticks her arms out between the bars</div></li><li class="li1"><div class="de1">&gt;”I LOVE YOU SHIVVVVVVIAAAAA!”</div></li><li class="li1"><div class="de1">&gt;You feel sick to your stomach</div></li><li class="li1"><div class="de1">&gt;Doesn’t she know she’s basically being held in purgatory? The people out there would fucking eat her if they had the chance</div></li><li class="li1"><div class="de1">&gt;The buck turns and gestures at Koda</div></li><li class="li1"><div class="de1">&gt;”And his challenger, Koda, the gray wolf, hopes to end his winning streak here tonight!”</div></li><li class="li1"><div class="de1">&gt;Koda gives a small wave, and a faint cheer goes up from the crowd, some people pulling for the literal underdog</div></li><li class="li1"><div class="de1">&gt;She breathes deep and focuses her attention on her opponent</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The buck retreats up the stairs</div></li><li class="li1"><div class="de1">&gt;”At the sound of the bell, you will begin. The fight will not end until either one of you forfeits, or is dead,” he says. “Now…”</div></li><li class="li1"><div class="de1">&gt;*DING*</div></li><li class="li1"><div class="de1">&gt;”LET’S SEE SOME BLOOD!”</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&gt;Shiva hits the ground on all fours, bounding forward with unbelievable feral speed</div></li><li class="li1"><div class="de1">&gt;Koda barely has time to brace her arms across her body as the tiger opens his arms wide and bares his claws, tackling the wolf</div></li><li class="li1"><div class="de1">&gt;Phased, but sturdy, Koda pushes hard with her shoulder and knocks Shiva in the chin, stunning him and sending him stumbling backwards onto two feet</div></li><li class="li1"><div class="de1">&gt;You wrap two hands anxiously around the bars</div></li><li class="li1"><div class="de1">&gt;That was a good first move on Koda’s part — She gained some distance and even got a sizeable hit in</div></li><li class="li1"><div class="de1">&gt;But Shiva’s speed and ferociousness have you worried</div></li><li class="li1"><div class="de1">&gt;You’re not the only one</div></li><li class="li1"><div class="de1">&gt;The retriever throws herself at the small port</div></li><li class="li1"><div class="de1">&gt;”GOD SHIVA GET HER OVER HERE I’LL DRINK HER BLOOD FOR YOU!” She screams</div></li><li class="li1"><div class="de1">&gt;You step away from the bars separating you from her side of the container</div></li><li class="li1"><div class="de1">&gt;Should you cheer?</div></li><li class="li1"><div class="de1">&gt;I mean, Koda did kidnap you</div></li><li class="li1"><div class="de1">&gt;You keep your enthusiasm to yourself and turn your focus back on to the match</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Sly, sly wolf. You are big, but you have an buffalo’s grace,” Shiva growls, spitting blood from his maw.</div></li><li class="li1"><div class="de1">&gt;”How like a tiger,” Koda scowls. “All talk of pride, bur no bite.”</div></li><li class="li1"><div class="de1">&gt;She follows up with a swipe with her claws, but Shiva is quickly out of her reach, dancing easily out of distance on two feet</div></li><li class="li1"><div class="de1">&gt;Koda steps forward, trying again, swinging her massive forearms in from the sides like the jaws of a steel trap</div></li><li class="li1"><div class="de1">&gt;The tiger ducks beneath the swipes, coils his body, and launches his hands upwards, black claws extended like five little daggers</div></li><li class="li1"><div class="de1">&gt;They find Koda’s exposed midsection with swift aggression</div></li><li class="li1"><div class="de1">&gt;Shiva let’s loose a satisfied growl and digs in with his claws, squeezing as much sinew and muscle as he can</div></li><li class="li1"><div class="de1">&gt;Koda yelps like he’d just stepped on her tail</div></li><li class="li1"><div class="de1">&gt;She bends forward to the demands of the tiger’s puncturing push until she is practically shadowing the feline’s body, crooked with pain</div></li><li class="li1"><div class="de1">&gt;You watch in horror as drops of blood splatter beneath her</div></li><li class="li1"><div class="de1">&gt;The crowd screams for more, like addicts chasing a fix</div></li><li class="li1"><div class="de1">“FUCK!” You shout, banging on the walls of the crate</div></li><li class="li1"><div class="de1">&gt;Your fists pound metal</div></li><li class="li1"><div class="de1">&gt;How could she loose so easily!? SHE’S ALMOST A FOOT TALLER THAN THIS GUY!</div></li><li class="li1"><div class="de1">&gt;Shiva stamps his feet down and pushes up, bending Koda inward into a crescent shape</div></li><li class="li1"><div class="de1">&gt;The wolf yelps even louder, squealing as her feet dig into the floor</div></li><li class="li1"><div class="de1">&gt;You can see the sheer anguish on her face, the way her eyes are squeezed shut, how her mouth is open in a silent scream</div></li><li class="li1"><div class="de1">&gt;The crowd falls over itself with excitement</div></li><li class="li1"><div class="de1">&gt;Someone calls out to Shiva to ‘KILL THAT BITCH!’</div></li><li class="li1"><div class="de1">&gt;Surprisingly it’s not your cratemate</div></li><li class="li1"><div class="de1">&gt;She’s gnawing at the bars that separate you two</div></li><li class="li1"><div class="de1">&gt;This is not getting off to a good start</div></li><li class="li1"><div class="de1">&gt;Shiva smirks and digs in to her stomach even harder</div></li><li class="li1"><div class="de1">&gt;Your eyes slam shut</div></li><li class="li1"><div class="de1">&gt;You can’t watch what happens next</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Collectively, the meat-starved crowd gasps</div></li><li class="li1"><div class="de1">&gt;And then break into uproarious cheers</div></li><li class="li1"><div class="de1">&gt;You peek out between squinted eyelids to see Koda wrapping her hands around Shiva’s midsection</div></li><li class="li1"><div class="de1">&gt;The wolf grits her teeth, digs in deep, and begins pounding into the tiger with her formidable legs</div></li><li class="li1"><div class="de1">&gt;Her knees make contact with Shiva’s chest</div></li><li class="li1"><div class="de1">&gt;A few blows and the tiger uncoils, crumpling like a forgotten marionette</div></li><li class="li1"><div class="de1">&gt;In the fire between heartbeats, Shiva skitters away just as the wolf stomps at where his head used to rest</div></li><li class="li1"><div class="de1">&gt;Koda returns the gesture by stumbling backwards with a hand across her bleeding abdomen</div></li><li class="li1"><div class="de1">&gt;Any distance she can put between her and the tiger is welcome</div></li><li class="li1"><div class="de1">&gt;She lifts her hand, and you can see four gashes leaking blood into her fur</div></li><li class="li1"><div class="de1">&gt;It makes you physically clasp your own midsection in sympathy</div></li><li class="li1"><div class="de1">&gt;Coughing, still sucking air back into his lungs, Shiva stands back on to two feet</div></li><li class="li1"><div class="de1">&gt;”You are too large for your own good. Too much to rip into!” He coughs, still recovering from the beating he’d been dealt</div></li><li class="li1"><div class="de1">&gt;It sounds like Koda’s knee strikes knocked the wind completely out of him</div></li><li class="li1"><div class="de1">&gt;You try to focus on Koda and keep your eyes off the retriever who keeps trying to grab at you through the bars</div></li><li class="li1"><div class="de1">&gt;She wipes the blood onto her thigh</div></li><li class="li1"><div class="de1">&gt;”Keep talking, stripes. Keep talking!” She starts forward with a limp</div></li><li class="li1"><div class="de1">&gt;The crowd roars</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A pair of claws rip at your skin</div></li><li class="li1"><div class="de1">&gt;You shriek for someone</div></li><li class="li1"><div class="de1">&gt;She can almost reach you in the crate, even backed against the opposite wall</div></li><li class="li1"><div class="de1">&gt;Like a cornered rat</div></li><li class="li1"><div class="de1">&gt;The golden, now frothing at the mouth, draws back</div></li><li class="li1"><div class="de1">&gt;”See, when I get a hold of you, I’m gonna bite your ears off first and drink- hehehe— drink your ear blood first! I’m gonna drink your ear blood!” she leaps at the bars</div></li><li class="li1"><div class="de1">&gt;Her bloodshot eyes go wide with excitement</div></li><li class="li1"><div class="de1">&gt;Foam drips from her mouth like a fountain as she speaks,</div></li><li class="li1"><div class="de1">&gt;”JUST COME A LITTLE CLOSER YOU SKINFUCK!”</div></li><li class="li1"><div class="de1">&gt;Holy shit</div></li><li class="li1"><div class="de1">&gt;She’s rabid</div></li><li class="li1"><div class="de1">&gt;Things have just gone from bad to worse</div></li><li class="li1"><div class="de1">&gt;You flatten your body against the back of the crate and try to sneak glances out the windows while keeping out of her reach</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can see Koda has easily cleared the distance between her and Shiva</div></li><li class="li1"><div class="de1">&gt;And now Shiva, with air back in his lungs, is on the offensive, bending his body with a distinct anger</div></li><li class="li1"><div class="de1">&gt;The last thing you see before you clamp your eyes shut is the tiger going airborne, his arms wide, claws extended</div></li><li class="li1"><div class="de1">&gt;When they open, they open to a roaring crowd and a distracted retriever </div></li><li class="li1"><div class="de1">&gt;Koda has the tiger suspended in the air by his midsection</div></li><li class="li1"><div class="de1">&gt;They look like two ballerinas frozen in an olympic pose</div></li><li class="li1"><div class="de1">&gt;But you can see Shiva’s arms wheeling around, grasping for any part of Koda’s face</div></li><li class="li1"><div class="de1">&gt;Which she keeps just barely out of reach</div></li><li class="li1"><div class="de1">&gt;”SET ME DOWN AND FIGHT ME LIKE A PREDATOR!”</div></li><li class="li1"><div class="de1">&gt;In one swift motion, she cocks her arms back, and hurls the tiger against the wall of a rusted shipping container</div></li><li class="li1"><div class="de1">&gt;A blur of orange and black gracelessly smacks into the metal walls of the pit with the thunderous roar of the crowd drowns out the sound of bone colliding with metal</div></li><li class="li1"><div class="de1">&gt;”NO! NO!” The retriever hurls herself against the windows again as if she could squeeze out between the bars</div></li><li class="li1"><div class="de1">&gt;You hear someone banging on top of the crate, and then a bear opens the door on your side, a large club in his hands</div></li><li class="li1"><div class="de1">&gt;”Shut the fuck up in there! I can barely hear the boss with you yammering and yipping.”</div></li><li class="li1"><div class="de1">&gt;You could run</div></li><li class="li1"><div class="de1">&gt;Or, at least you think you might be able to. The Bear is bulky, strong, but perhaps slower than you</div></li><li class="li1"><div class="de1">&gt;That’s not to say someone else wouldn’t try and run you down</div></li><li class="li1"><div class="de1">&gt;The crow begins chanting something in sickening repetition, their voices swelling together to a violent crescendo</div></li><li class="li1"><div class="de1">&gt;”STAND! STAND! STAND! STAND!” They cry</div></li><li class="li1"><div class="de1">&gt;The guard looks through the bars, following your eyes</div></li><li class="li1"><div class="de1">&gt;Shiva is shaking back on to his feet, body swaying slightly with the dazing blow</div></li><li class="li1"><div class="de1">&gt;You catch a glint of light in his eyes — a flash of humiliation blended with rage into a fine, hollow point</div></li><li class="li1"><div class="de1">&gt;Koda inches backwards, drawing up a fighter’s stance and bouncing — as best she can — on her feet</div></li><li class="li1"><div class="de1">&gt;”STAND!” The crowd continues, their echoes chasing one another</div></li><li class="li1"><div class="de1">&gt;The tiger starts forward, his arms loose at his sides</div></li><li class="li1"><div class="de1">&gt;Koda inches backwards bit by bit, raising her fists in front of her face, no longer clutching at the stripes of blood in her abdomen</div></li><li class="li1"><div class="de1">&gt;Shiva does not bound forward</div></li><li class="li1"><div class="de1">&gt;His steps grow bolder and more firm, and the look of rage more and more pronounced on his gnarled, shimmering face</div></li><li class="li1"><div class="de1">&gt;Koda plants her right foot forward and throws her body into a solid strike, just as she’d likely been taught to do by some boxer</div></li><li class="li1"><div class="de1">&gt;Her right fist coils up and explodes forward</div></li><li class="li1"><div class="de1">&gt;Yet Shiva ducks his shoulder with a unanticipated grace</div></li><li class="li1"><div class="de1">&gt;The strike goes wide into empty space</div></li><li class="li1"><div class="de1">&gt;The tiger fires back at her bent figure with a blow of his own — A tightened fist that explodes across Koda’s jaw with such force that the gray wolf, of nearly 7 feet, stumbles backwards, her soul knocked temporarily from her body</div></li><li class="li1"><div class="de1">&gt;There’s a spray of blood that goes up like a scattering of rubies into the heat of the arena’s generator-powered light fixtures</div></li><li class="li1"><div class="de1">&gt;Koda waddles backwards, consciously or unconsciously, but the tiger keeps his pace, matching her stunned steps with powerful strides of his own</div></li><li class="li1"><div class="de1">&gt;”You are large, she-wolf, but you are clumsy! I tell you this: You are more space to hit!”</div></li><li class="li1"><div class="de1">&gt;His right leg bends outwards and swings with blazing speed at Koda’s midsection</div></li><li class="li1"><div class="de1">&gt;The strike barely misses the softness of her hips, and instead cracks upon her upper thigh, forcing the wolf to bend and yelp with the shock of pain</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”DRINK HER BLOOD! DRINK HER BLOOD! DRINK HER SOUL!” The retriever cries, shaking the bars with emaciated strength</div></li><li class="li1"><div class="de1">“Look at her!” You try to get the guard to see the vulgar displays of the dog next to you</div></li><li class="li1"><div class="de1">“She’s clearly rabid. Look at how she’s frothing at the mouth!”</div></li><li class="li1"><div class="de1">&gt;”She can’t be rabid,” the guard says with a clipped and stern voice. “The doctor would have caught her early on. And besides, entering rabid spoils goes against the rules. Shiva’s not stupid.”</div></li><li class="li1"><div class="de1">“Exactly! She’s insane!” You cry</div></li><li class="li1"><div class="de1">&gt;The bear shakes his head</div></li><li class="li1"><div class="de1">&gt;”Just keep it down in here, or I’ll give you something to yell about.”</div></li><li class="li1"><div class="de1">&gt;YOU STUPID FUCKING IDIOT! </div></li><li class="li1"><div class="de1">&gt;…Is what you want to say</div></li><li class="li1"><div class="de1">&gt;You are going to have to show this thickheaded moron that Shiva’s been using a rabid dog as his collateral</div></li><li class="li1"><div class="de1">&gt;For your own safety</div></li><li class="li1"><div class="de1">&gt;You sneak a quick look out the bars at the fight</div></li><li class="li1"><div class="de1">&gt;Shiva is blasting Koda with clean punches, and though the wolf is blocking at least half of them, you can see she’s losing ground quick</div></li><li class="li1"><div class="de1">&gt;It’s a good thing she’s built like a tank</div></li><li class="li1"><div class="de1">&gt;…Though maybe she could use a bit of intervention</div></li><li class="li1"><div class="de1">&gt;The guard moves to make his leave</div></li><li class="li1"><div class="de1">&gt;You grab at the tail of his jacket</div></li><li class="li1"><div class="de1">“Wait,” you beg. “Watch this.”</div></li><li class="li1"><div class="de1">&gt;You steel yourself and unpeel from the back of the crate while the guard looks on impatiently</div></li><li class="li1"><div class="de1">&gt;Slowly, you approach the bars that separate you from the golden retriever</div></li><li class="li1"><div class="de1">&gt;She doesn’t take notice. Her focus is locked on the fight, watching with slavering hunger as Shiva pummels his opponent into submission</div></li><li class="li1"><div class="de1">&gt;You extend a finger through the bars</div></li><li class="li1"><div class="de1">&gt;All notions of specisim and racism go out the window</div></li><li class="li1"><div class="de1">&gt;Forming a tight ‘O’ with your lips, you push out a piercing whistle</div></li><li class="li1"><div class="de1">&gt;Both the bear and the dog clamp their paws over their sensitive ears</div></li><li class="li1"><div class="de1">“Herrrreee girl, got a nice snack for you!” You say, pushing your arm through the bars even further</div></li><li class="li1"><div class="de1">&gt;This was worse than teasing a bear trap</div></li><li class="li1"><div class="de1">&gt;Why are you even doing this?</div></li><li class="li1"><div class="de1">&gt;The retriever looks over at the source of the noise, and seeing your hand there, almost instantly she snaps towards the bars</div></li><li class="li1"><div class="de1">&gt;Before you can retract your bait, her hands shoot out and clamp around your thin arms, her unkempt claws swiftly digging into your tender flesh and pulling it taut</div></li><li class="li1"><div class="de1">&gt;”MINE! MINE! MINE!” She shrieks, scraping at your skin as you try to pull aways</div></li><li class="li1"><div class="de1">&gt;The guard steps forward into the cage, but he’s not fast enough</div></li><li class="li1"><div class="de1">&gt;The golden brings her neck around and unhinges her jaws, froth and foam spilling from the corners of her lips onto the floor—</div></li><li class="li1"><div class="de1">&gt;Oh fuck</div></li><li class="li1"><div class="de1">&gt;You yank back hard but she’s too close to evade</div></li><li class="li1"><div class="de1">&gt;Fuck fuck fuck fuck</div></li><li class="li1"><div class="de1">&gt;She’s going to give you rabies</div></li><li class="li1"><div class="de1">&gt;Why did you decide to do this!?</div></li><li class="li1"><div class="de1">&gt;SHE’S NOT GOING TO IRABIATE YOU, GOD DAMNIT</div></li><li class="li1"><div class="de1">&gt;Without even thinking your other arm explodes forward like a bullet from a gun, threading between the bars with a fist at its tip</div></li><li class="li1"><div class="de1">&gt;Your clenched fist crashes right into the retrievers snout, knocking her free in a spray of snot and hot blood</div></li><li class="li1"><div class="de1">&gt;She yelps and squeals as she stumbles backwards, crimson pouring from her nose</div></li><li class="li1"><div class="de1">&gt;The canine barely hesitates</div></li><li class="li1"><div class="de1">&gt;She lunges at the bars again, snarling like a wild beast, a testament to the true power rabies can command over a person</div></li><li class="li1"><div class="de1">&gt;You fall backwards onto your ass, hand throbbing in pain from where you blasted your opponent in the face</div></li><li class="li1"><div class="de1">&gt;She claws at you wildly, but you tuck your legs against your body and slide backwards up against the feet of the guard, who takes a giant step backwards in shock</div></li><li class="li1"><div class="de1">&gt;”Holy Jesus, you weren’t kidding!” He says</div></li><li class="li1"><div class="de1">&gt;You want to tell him ‘I told you so, you fat fucking lummox,’ but the sheer terror of the moment keeps your jaw screwed shut</div></li><li class="li1"><div class="de1">&gt;You only have one thing on your mind — Freedom</div></li><li class="li1"><div class="de1">“So does this mean the match is over? We win right? Because Shiva’s collateral is spoiled. Right? RIGHT?? THE FIGHT IS OVER….RIGHT!?”</div></li><li class="li1"><div class="de1">&gt;The guard scratches his head like a useless fucking idiot</div></li><li class="li1"><div class="de1">&gt;”I- I have no idea. I need to go check with the boss.”</div></li><li class="li1"><div class="de1">&gt;He turns on his heels and huffs away, his heavy feet pounding into dusty floors</div></li><li class="li1"><div class="de1">&gt;You freeze</div></li><li class="li1"><div class="de1">&gt;The fight is going badly</div></li><li class="li1"><div class="de1">&gt;That nutso doggo is trying (and succeeding) to force her body in between the bars</div></li><li class="li1"><div class="de1">&gt;But there is a silver lining in all of this:</div></li><li class="li1"><div class="de1">&gt;The guard left the door open</div></li><li class="li1"><div class="de1">&gt;You glance behind you out the door</div></li><li class="li1"><div class="de1">&gt;It’s tempting, that portal to freedom, that trail of inevitable tears</div></li><li class="li1"><div class="de1">&gt;You might not get far, but it’ll get you away from this insane dog-girl</div></li><li class="li1"><div class="de1">&gt;Which is enough</div></li><li class="li1"><div class="de1">&gt;”I’M GONNA — *huff* I’M GONNA WEAR YOUR FACE LIKE A MASK AND DANCE IN YOUR SHOES HAHAH!” </div></li><li class="li1"><div class="de1">&gt;Well, that’s enough reason to take a running start…</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You burst forth into the cleansing light of generators, feeling freedom kiss your skin like-</div></li><li class="li1"><div class="de1">&gt;Someone’s drink spills on your head, soaking through your clothes</div></li><li class="li1"><div class="de1">&gt;It’s sticky and smells like bread</div></li><li class="li1"><div class="de1">&gt;FUCK, It’s not even good beer, it’s stadium piss-beer</div></li><li class="li1"><div class="de1">&gt;You just keep running, eyes darting around for an exit</div></li><li class="li1"><div class="de1">&gt;Until you realize something that you should have realized a long time ago:</div></li><li class="li1"><div class="de1">&gt;You either need to cut through the bleachers to get out…</div></li><li class="li1"><div class="de1">&gt;Or across the stadium</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The fight was not going well for Koda</div></li><li class="li1"><div class="de1">&gt;Yeah, she’d beaten on Shiva like a redheaded stepchild earlier, but now SHE was the redheaded stepchild</div></li><li class="li1"><div class="de1">&gt;She squeals like a hurt pup as Shiva’s leg collides with her thigh with lightning force</div></li><li class="li1"><div class="de1">&gt;So this…is the power of a feline</div></li><li class="li1"><div class="de1">&gt;Koda bends her leg to brace herself, her mind frayed from the explosion of bone shattering pain now arching through her body like electricity</div></li><li class="li1"><div class="de1">&gt;This movement turns out to be a mistake</div></li><li class="li1"><div class="de1">&gt;The second her right knee hits the ground, her opponent smirks, clenches his right fist tight, and swings for the fences at towards Koda’s face</div></li><li class="li1"><div class="de1">&gt;The blow again catches her on the side her mouth, but this time it brings the tanky-wolf down entirely</div></li><li class="li1"><div class="de1">&gt;There’s a slight yelp of pain from Koda — Some desperate bodily reaction to the intense and sharp pain that are Shiva’s fists</div></li><li class="li1"><div class="de1">&gt;And then her vision was vertical</div></li><li class="li1"><div class="de1">&gt;The towering wolf lay on her side, drawing rasping breaths, fighting back the darkness in her vision</div></li><li class="li1"><div class="de1">&gt;Her body shook like she was a fevered pup</div></li><li class="li1"><div class="de1">&gt;She certainly felt as weak as one right now</div></li><li class="li1"><div class="de1">&gt;She could take a lot of punishment, but this was beyond her</div></li><li class="li1"><div class="de1">&gt;Curiously all she thought about was how she’d failed her human</div></li><li class="li1"><div class="de1">&gt;She had reluctantly captured him in an attempt to feed her family, but she knew it was wrong, no matter how she sliced it</div></li><li class="li1"><div class="de1">&gt;And now he was about to be a slab of meat</div></li><li class="li1"><div class="de1">&gt;All because of her</div></li><li class="li1"><div class="de1">&gt;Shiva turns the wolf on her back and straddles her chest, a bloody, toothy smile across his face</div></li><li class="li1"><div class="de1">&gt;”You are tired, very tired. I see that now. Pretty face. Shame it is such a weak face too. And a weak body.”</div></li><li class="li1"><div class="de1">&gt;His hands tighten around her throat</div></li><li class="li1"><div class="de1">&gt;She feels an intense pressure against her neck — in particular, her jugular vein</div></li><li class="li1"><div class="de1">&gt;Shiva presses a single claw against her pulsing neck</div></li><li class="li1"><div class="de1">&gt;With just a little bit of pressure, he could slice it open and bleed her out — right in front of everyone</div></li><li class="li1"><div class="de1">&gt;He bides his time, savoring his victory</div></li><li class="li1"><div class="de1">&gt;”Perhaps there is a deal to be made here, hmm?” He says</div></li><li class="li1"><div class="de1">&gt;Koda coughs, his hands around her throat</div></li><li class="li1"><div class="de1">&gt;”A deal?”</div></li><li class="li1"><div class="de1">&gt;”Yes, a deal. You forfeit this match. I take your human. But you get to keep…say…20% of the winnings. And you come back to my locker after this fight, hmm?”</div></li><li class="li1"><div class="de1">&gt;He releases his grasp on her throat, still holding his claw against her jugular</div></li><li class="li1"><div class="de1">&gt;His free hand trails down to the plume of fur that covers her sculpted chest</div></li><li class="li1"><div class="de1">&gt;”And when we are there — You will show me what is underneath this. What say you?”</div></li><li class="li1"><div class="de1">&gt;The wolf stymies a snarl</div></li><li class="li1"><div class="de1">&gt;”I am showing you mercy. Accidents do happen in this business, and I know that the commissioner will be willing to look the other way if I cut your throat right here. I bring animals through the doors and put money into his pockets. You are just a stupid, dumb, bitch, in much too over her head. Your life means nothing to me. Be thankful that I stayed my hand.”</div></li><li class="li1"><div class="de1">&gt;She hesitates</div></li><li class="li1"><div class="de1">&gt;”And Anon? What will become of him?”</div></li><li class="li1"><div class="de1">&gt;”Who?” Shiva asks</div></li><li class="li1"><div class="de1">&gt;”Err, my human. What will you do with my human if I lose?” Koda replies</div></li><li class="li1"><div class="de1">&gt;Shiva cocks his head in confusion</div></li><li class="li1"><div class="de1">&gt;Why would a predator care for her prey like so?</div></li><li class="li1"><div class="de1">&gt;”Your meat? I will find a suitable buyer for him. A butcher in Shax District. They are worth less than other meats to me. Human is tough and provides little medicinal use.”</div></li><li class="li1"><div class="de1">&gt;Koda scowls</div></li><li class="li1"><div class="de1">&gt;A million thoughts race through her staggered mind</div></li><li class="li1"><div class="de1">&gt;Mostly those of Anon and her family</div></li><li class="li1"><div class="de1">&gt;The only two things that really matter</div></li><li class="li1"><div class="de1">&gt;20% of the winnings isn’t enough. But it would help tremendously</div></li><li class="li1"><div class="de1">&gt;And what’s a little shame for feeding her family? She already kidnapped an innocent human for their needs — why should some harmless sex be any different</div></li><li class="li1"><div class="de1">&gt;The thought presses heat into her cheeks and shame into mind</div></li><li class="li1"><div class="de1">&gt;God, now of all times her body is choosing to feel embarrassed? Why? She’s had a million shameful moments in her life — Being impoverished, turned down for jobs, called snapjaw, fangmouth, pred by respectable employers — any number of these moments should have elicited waves of shock and embarrassment to this degree</div></li><li class="li1"><div class="de1">&gt;Perhaps the missing variable is that now there’s an innocent’s life in the balance, and that she’s on her back, a razor-sharp claw pinching the thickest of veins</div></li><li class="li1"><div class="de1">&gt;The impatient stirring of the crowd rouses her captor’s attention</div></li><li class="li1"><div class="de1">&gt;”Do you hear that, howler? It is time to pick. Or I shall pick for you.”</div></li><li class="li1"><div class="de1">&gt;Koda clears her throat as best as she can, her mind no longer processing things with any clarity</div></li><li class="li1"><div class="de1">&gt;Only panic</div></li><li class="li1"><div class="de1">&gt;Ideas and words surge forward and take shape on her tongue</div></li><li class="li1"><div class="de1">&gt;No matter what they are, she tells herself, he will win</div></li><li class="li1"><div class="de1">&gt;Her brain is running in two opposite directions</div></li><li class="li1"><div class="de1">&gt;”The human is innocent. If- If you promise to let him free, I will do anything you ask.”</div></li><li class="li1"><div class="de1">&gt;The tiger laughs</div></li><li class="li1"><div class="de1">&gt;”So you are soft on the hairless one.”</div></li><li class="li1"><div class="de1">&gt;Again color flooded her cheeks, peeking through the mat of sweaty gray fur</div></li><li class="li1"><div class="de1">&gt;”No, I am not soft or sweet on the human. I simply feel guilty for having taken him and then losing to someone like you. Striped rat.”</div></li><li class="li1"><div class="de1">&gt;Again the tiger laughs as he withdraws his claw from Koda’s throbbing vein</div></li><li class="li1"><div class="de1">&gt;”It was inevitable, darling. I have not lost to a howler once, and I do not intend to. All I intend to discover is who the apex predator is. And today, I have learned what species sits beneath me,” he says with a satisfied snarl</div></li><li class="li1"><div class="de1">&gt;The gray wolf suppresses a growl, her legs anxiously stirring beneath her. It takes a considerable amount of effort not to draw her legs around his body and capture him</div></li><li class="li1"><div class="de1">&gt;But she is a woman of integrity — if she could help it. She agreed to the deal, and intends to follow through with it</div></li><li class="li1"><div class="de1">&gt;”Now, I will stand up. You will do the same. And when we are both standing, you will raise your hand to the commissioner and declare your worth.”</div></li><li class="li1"><div class="de1">&gt;The tiger dismounts her and stood up on shaking legs, a victorious smirk played out across his face</div></li><li class="li1"><div class="de1">&gt;Koda follows suit, eyes never leaving his, glaring with such hatred that she might have been able to stop his heart with enough effort</div></li><li class="li1"><div class="de1">&gt;Her hand slowly goes up</div></li><li class="li1"><div class="de1">&gt;Her heart sinks in her chest, deflating with each stomp of the crowd’s anxious feet</div></li><li class="li1"><div class="de1">&gt;Her mouth falls open, and the words start to assemble themselves</div></li><li class="li1"><div class="de1">&gt;Someone is shouting something</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You are past the point of reasoning with the guards</div></li><li class="li1"><div class="de1">&gt;In fact the minute they saw you at the bottom of the bleachers, they started shouting and drawing their clubs</div></li><li class="li1"><div class="de1">&gt;And then you heard a familiar shrieking and saw a flash of golden-yellow fur streaking towards you, a comet’s tail of foam and froth pulling behind her mouth</div></li><li class="li1"><div class="de1">&gt;She must have finally squeezed her body through the bars…</div></li><li class="li1"><div class="de1">&gt;…Without any of her clothes on, for some reason</div></li><li class="li1"><div class="de1">&gt;The only logical course of action you were left with was to run</div></li><li class="li1"><div class="de1">&gt;And so now run, to the only place you think you might be safe</div></li><li class="li1"><div class="de1">&gt;Into the center of the pit</div></li><li class="li1"><div class="de1">“KODAAA! KODAAAAA!!!! HELP!” You shriek, the words torn from your throat as you struggle to overpower the crowd’s confused howls</div></li><li class="li1"><div class="de1">“Oh God help! She’s rabid! Somebody get this crazy bitch away from me!”</div></li><li class="li1"><div class="de1">&gt;You plot an immediate course towards the towering figure that is Koda, hoping that she’ll perhaps sweep you off your feet and keep you out of reach from that psychotic retriever</div></li><li class="li1"><div class="de1">&gt;You glance back behind you</div></li><li class="li1"><div class="de1">&gt;The retriever is gaining ground, her tail excitedly wagging at the prospect of a chase</div></li><li class="li1"><div class="de1">&gt;And directly behind her two Bear’s hoof it, clubs drawn</div></li><li class="li1"><div class="de1">“KODA!” You call again</div></li><li class="li1"><div class="de1">&gt;The wolf turns her head</div></li><li class="li1"><div class="de1">&gt;Her jaw drops</div></li><li class="li1"><div class="de1">&gt;”Anon?” She says</div></li><li class="li1"><div class="de1">&gt;You don’ even know why, but you throw yourself at her, leaping towards her soaring figure</div></li><li class="li1"><div class="de1">You cling to her mid-section like a squirrel (despite being only a near-foot shorter than her) and clamber, not caring if you’re crawling over her boobs or not</div></li><li class="li1"><div class="de1">&gt;She pries you and holds you above the retriever</div></li><li class="li1"><div class="de1">&gt;Shiva looks just as confused as she is</div></li><li class="li1"><div class="de1">&gt;And then rage swells within him</div></li><li class="li1"><div class="de1">&gt;”What is the meaning of this!?” He cries</div></li><li class="li1"><div class="de1">&gt;The guards, seeing you in Koda’s hands and the retriever jumping and clawing at empty air, take a few steps back</div></li><li class="li1"><div class="de1">&gt;The crowd starts to boo</div></li><li class="li1"><div class="de1">“SHE’S RABID!” You jab a finger at the golden, who snaps madly at it. “SHE’S RABID AND WANTS TO WEAR MY SKIN LIKE A HALLOWEEN MASK!”</div></li><li class="li1"><div class="de1">&gt;Having come to some kind of decision, the two bear’s lunge forward and subdue the retriever, holding her away with some considerable effort by pulling her arms back </div></li><li class="li1"><div class="de1">&gt;The rabid dog is single-minded, however, and strives only to consume your delicious face</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Is this true?” A voice booms on the mic</div></li><li class="li1"><div class="de1">&gt;The buck is down in the pit, the microphone in his had</div></li><li class="li1"><div class="de1">&gt;There’s a strange glint in his eye</div></li><li class="li1"><div class="de1">&gt;Your heart sinks when you see him barely restraining a smile</div></li><li class="li1"><div class="de1">&gt;This can’t be good</div></li><li class="li1"><div class="de1">&gt;”Shiva, if what this human says is true, then this is a serious infraction.”</div></li><li class="li1"><div class="de1">&gt;The crowd boos Shiva’s name</div></li><li class="li1"><div class="de1">&gt;He silences them with a raised hoof</div></li><li class="li1"><div class="de1">&gt;”But, you did defeat your opponent in single combat. And that does stand.”</div></li><li class="li1"><div class="de1">&gt;The tiger starts forward</div></li><li class="li1"><div class="de1">&gt;”Commissioner, I- I assure you, this is a mistake-“</div></li><li class="li1"><div class="de1">&gt;The commissioner silences Shiva</div></li><li class="li1"><div class="de1">&gt;The tiger stops in his tracks, his jaw screwing shut with unbelievable speed</div></li><li class="li1"><div class="de1">&gt;For a small buck, he wields impressive character and power</div></li><li class="li1"><div class="de1">&gt;”Your victory here, and over the past four matches, with your…spoiled…entry, are suspect. But I am a reasonable man. And our wonderful audience deserves a good show, am I right?”</div></li><li class="li1"><div class="de1">&gt;At those words the audience explodes, whipped up into a frenzy, shaking their seats and threatening their integrity</div></li><li class="li1"><div class="de1">&gt;The buck smiles, intensely satisfied at how willing his crowd is</div></li><li class="li1"><div class="de1">&gt;”So, in the spirit of fairness, I will rescind your victory here tonight, and you will face your challenger now in a five minute death-match.”</div></li><li class="li1"><div class="de1">&gt;Koda’s jaw drops</div></li><li class="li1"><div class="de1">&gt;The buck continues</div></li><li class="li1"><div class="de1">&gt;”And to the winner - The spoils. To the loser: shame. And should the victor decide it: Death.”</div></li><li class="li1"><div class="de1">&gt;You can’t hear yourself think over the din and noise</div></li><li class="li1"><div class="de1">&gt;Shiva is swearing profusely, or at least you think he is, given how fast his mouth is moving and how hard he’s stomping the ground</div></li><li class="li1"><div class="de1">&gt;Koda sets you down gingerly, and lowers herself to eye level</div></li><li class="li1"><div class="de1">&gt;”Anon…” she says, drawing in close so she can be heard</div></li><li class="li1"><div class="de1">&gt;”Please, forgive me for everything.”</div></li><li class="li1"><div class="de1">&gt;You don’t know what to say</div></li><li class="li1"><div class="de1">&gt;So you say nothing</div></li><li class="li1"><div class="de1">&gt;You just nod your head and listen to her speak, her voice drifting from her tired body like the trickle of a stream</div></li><li class="li1"><div class="de1">&gt;”I promise I will make this up to you. I won’t let you down.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You are seated beside the commissioner, two guards at your flanks</div></li><li class="li1"><div class="de1">&gt;The retriever is back in the shipping crate, guarded by an additional guard</div></li><li class="li1"><div class="de1">&gt;You can see her shape crawling anxiously on the ground from between the barred windows</div></li><li class="li1"><div class="de1">&gt;Shiva and Koda are at opposite sides of the arena, pacing like they themselves were caged</div></li><li class="li1"><div class="de1">&gt;Shiva looks positively furious, his face twisted up into a horrible scowl</div></li><li class="li1"><div class="de1">&gt;Koda’s face is hard and determined, her jaw set and eyes locked on her opponent</div></li><li class="li1"><div class="de1">&gt;The commissioner raises the microphone to his mouth</div></li><li class="li1"><div class="de1">&gt;”The sound of the bell will begin the fight. And the sound of the bell will end the fight. You will have five minutes to decide who is the winner. In the event that your duel comes to a draw, you will both forfeit your prizes and your collateral. Nothing is off-limits. Your time begins…”</div></li><li class="li1"><div class="de1">&gt;A bell clangs over the loudspeakers</div></li><li class="li1"><div class="de1">&gt;”NOW!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You are seated beside the commissioner, two guards at your flanks</div></li><li class="li1"><div class="de1">&gt;The retriever is back in the shipping crate, guarded by an additional guard</div></li><li class="li1"><div class="de1">&gt;You can see her shape crawling anxiously on the ground from between the barred windows</div></li><li class="li1"><div class="de1">&gt;Shiva and Koda are at opposite sides of the arena, pacing like they themselves were caged</div></li><li class="li1"><div class="de1">&gt;Shiva looks positively furious, his face twisted up into a horrible scowl</div></li><li class="li1"><div class="de1">&gt;Koda’s face is hard and determined, her jaw set and eyes locked on her opponent</div></li><li class="li1"><div class="de1">&gt;The commissioner raises the microphone to his mouth</div></li><li class="li1"><div class="de1">&gt;”The sound of the bell will begin the fight. And the sound of the bell will end the fight. You will have five minutes to decide who is the winner. In the event that your duel comes to a draw, you will both forfeit your prizes and your collateral. Nothing is off-limits. Your time begins…”</div></li><li class="li1"><div class="de1">&gt;A bell clangs over the loudspeakers</div></li><li class="li1"><div class="de1">&gt;”NOW!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Like last time, the match begins with Shiva in a dead sprint on all fours, building tension and energy in his hind legs</div></li><li class="li1"><div class="de1">&gt;Koda remains rooted in place</div></li><li class="li1"><div class="de1">&gt;You dig your nails into the seat as you watch Shiva cover the short distance between himself and your champion</div></li><li class="li1"><div class="de1">&gt;He digs in deep and pounces, letting slip a horrible, crowd hushing roar, his arms extended to rend flesh from bone</div></li><li class="li1"><div class="de1">&gt;The gray wolf extends her own wingspan</div></li><li class="li1"><div class="de1">&gt;Leans backwards</div></li><li class="li1"><div class="de1">&gt;Bends her knees</div></li><li class="li1"><div class="de1">&gt;Wraps her arms around Shiva’s misplaced abdomen</div></li><li class="li1"><div class="de1">&gt;And allows the tiger’s explosive momentum to carry her backwards into a tight roll</div></li><li class="li1"><div class="de1">&gt;Even you start cheering when you witness this feat — this blur of gray and orange melding together, until the orange separates from the gray and goes flying into the wall at the back end of the arena</div></li><li class="li1"><div class="de1">&gt;There’s a loud crash as Shiva’s body collides into the raw metal</div></li><li class="li1"><div class="de1">&gt;He struggles to gain footing, his legs slipping out from beneath him, trembling with a cocktail of adrenaline and pain</div></li><li class="li1"><div class="de1">&gt;Koda, however, is quickly on her own feet, sprinting with a certain kind of violence in her stride</div></li><li class="li1"><div class="de1">&gt;That violence is rebuffed by Shiva, who lunges desperately at her from a sitting position</div></li><li class="li1"><div class="de1">&gt;The two catch each other, their fingers lacing together, arms outstretched, muscles bulging with the strain and weight of another</div></li><li class="li1"><div class="de1">&gt;The tiger begins sliding backwards, though he still keeps Koda at arm’s length</div></li><li class="li1"><div class="de1">&gt;The wolf grunts and growls, and digs her legs into the earth, pounding forward as if she were struggling through high-waisted snow</div></li><li class="li1"><div class="de1">&gt;”Consider my offer expired!” Shiva cries. “When your body is spent, and your life extinguished, I will not sell your human. NO! I will skin him alive!”</div></li><li class="li1"><div class="de1">&gt;The tiger’s eye’s clamp shut</div></li><li class="li1"><div class="de1">&gt;He sets his jaw and grits his teeth in strain</div></li><li class="li1"><div class="de1">&gt;”You…” Koda says on a gasp of air</div></li><li class="li1"><div class="de1">&gt;”…Talk too much.” She throws her arms up and to the side</div></li><li class="li1"><div class="de1">&gt;Shiva’s arms go wide as well, and then slacken against his exhausted body</div></li><li class="li1"><div class="de1">&gt;It all seems to happen in slow motion</div></li><li class="li1"><div class="de1">&gt;Koda’s right arm goes back, muscles rippling with adrenaline stoked strength</div></li><li class="li1"><div class="de1">&gt;A fine mist of sweat goes up into the heat of the lights</div></li><li class="li1"><div class="de1">&gt;Her fingers clench together into a strained fist, arm erupting forwards like a cannon-blast</div></li><li class="li1"><div class="de1">&gt;The strike lands at the tip of Shiva’s already twisted nose</div></li><li class="li1"><div class="de1">&gt;The tiger does not fall or crumple like a lifeless doll</div></li><li class="li1"><div class="de1">&gt;The hit actually lifts him off his feet, propelling him backwards with such force and speed that the trail of blood he drags from his nose struggles to catch up to his falling body</div></li><li class="li1"><div class="de1">&gt;It spatters on the floor like a trail leading to Shiva’s crumpled and unconscious body</div></li><li class="li1"><div class="de1">&gt;The explosion of noise from the crowd is enough to force your palms against your ears</div></li><li class="li1"><div class="de1">&gt;The commissioner doesn’t look too thrilled that Koda knocked out Shiva so fast</div></li><li class="li1"><div class="de1">&gt;Koda shakes her fingers out</div></li><li class="li1"><div class="de1">&gt;They glow red with blood</div></li><li class="li1"><div class="de1">&gt;You clap</div></li><li class="li1"><div class="de1">&gt;And then cheer, though your voice is a whisper in the storm of other voices, howls, screeches and calls</div></li><li class="li1"><div class="de1">&gt;The commissioner is escorted down into the pit, and as he descends the stairs, his expression quickly changes from displeasure to excitement</div></li><li class="li1"><div class="de1">&gt;Which you suspect is forced</div></li><li class="li1"><div class="de1">&gt;He approaches Shiva with his right arm extended, the left clutching the microphone</div></li><li class="li1"><div class="de1">&gt;She seems confused, and then, with a trembling body, takes his hand</div></li><li class="li1"><div class="de1">&gt;He lifts it into the air, or as best as he can given their size difference</div></li><li class="li1"><div class="de1">&gt;”Your winner of tonight’s fight: KODA!” </div></li><li class="li1"><div class="de1">&gt;The audience roars</div></li><li class="li1"><div class="de1">&gt;”So Koda, now the fate of two lives are in your hands. Shiva, the defeated,” he gestures towards the crumpled body of the tiger</div></li><li class="li1"><div class="de1">&gt;”And the spoils of tonight’s match.”</div></li><li class="li1"><div class="de1">&gt;The guards bring a trembling/muzzled retriever out from the crate and into the middle of the pit</div></li><li class="li1"><div class="de1">&gt;Koda glances between the two as the crowd falls into a hush</div></li><li class="li1"><div class="de1">&gt;She seems to recognize the gravity of her next words</div></li><li class="li1"><div class="de1">&gt;Her face twists up with something like anguish</div></li><li class="li1"><div class="de1">&gt;Shiva was not a good person</div></li><li class="li1"><div class="de1">&gt;He hurt her, attempted to control her, and cheated his way into the ring with a rabid token of entry</div></li><li class="li1"><div class="de1">&gt;And speaking of</div></li><li class="li1"><div class="de1">&gt;It’s not like anyone would want her. She was rabid, perhaps beyond the help of a doctor or vet</div></li><li class="li1"><div class="de1">&gt;Or maybe she was still in the early stages, and there was hope for her with modern medicine?</div></li><li class="li1"><div class="de1">&gt;The her eyes fall onto you, seated in the top row, leaning forward</div></li><li class="li1"><div class="de1">&gt;She stares at you, as if her soft yellow eyes could whisper a novel’s worth of apologies in silence</div></li><li class="li1"><div class="de1">&gt;She turns to the commissioner, bends down to the mic and says:</div></li><li class="li1"><div class="de1">&gt;”I would like to spare Shiva.”</div></li><li class="li1"><div class="de1">&gt;The crowd gasps, and the buck’s face screws up in frustration</div></li><li class="li1"><div class="de1">&gt;Koda continues, nervously glancing around her</div></li><li class="li1"><div class="de1">&gt;”And if possible, I will be using a portion of my earnings to fund treatment for my spoils. Both the human and the retriever.”</div></li><li class="li1"><div class="de1">&gt;This time the crowd starts to hiss and boo</div></li><li class="li1"><div class="de1">&gt;And the commissioner, not sure what to do with his lack of bloodshed, tears the mic from Koda’s mouth</div></li><li class="li1"><div class="de1">&gt;”WELLLLL THAT sure is a noble decision (you bitch). We applaud your courage and thank you for your participation.”</div></li><li class="li1"><div class="de1">&gt;He shoots a deadly glare over his shoulders at the wolf as he stomps back towards the stairs</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&gt;You’re sitting across from Koda in a dirty locker room which smells sour with sweat</div></li><li class="li1"><div class="de1">&gt;The bruises on her face have inflated and swollen up, drawing your focus as she wipes the sweat from her body</div></li><li class="li1"><div class="de1">&gt;She has a towel draped over her shoulders as she shakes</div></li><li class="li1"><div class="de1">&gt;You suspect she’s only being kept vertical by adrenaline at this point </div></li><li class="li1"><div class="de1">&gt;The way her head hangs, the way her stomach contracts sharply with every breath — She’s exhausted beyond measure</div></li><li class="li1"><div class="de1">&gt;She could barely stand up when the commissioner came out into the pit to declare her the winner and asked her what she planned to do with the spoils</div></li><li class="li1"><div class="de1">&gt;And when they practically threw a bag of money at her, you had to help pick it up</div></li><li class="li1"><div class="de1">&gt;But even with her bowed head, you can see how wide she’s grinning from ear to ear, intensely satisfied</div></li><li class="li1"><div class="de1">&gt;Everything she needs and her family needs can be taken care of, at least for a few months</div></li><li class="li1"><div class="de1">&gt;And the retriever could get the needed treatment for her rabies (if it wasn’t too late)</div></li><li class="li1"><div class="de1">&gt;Her smile, pulling her face back, says it all, flattening her ears against her skull, putting her tail in fits</div></li><li class="li1"><div class="de1">&gt;And you actually start to smile too, despite the circumstances</div></li><li class="li1"><div class="de1">“Congratulations,” you say. It still feels weird to congratulate her. You don’t know if you should be</div></li><li class="li1"><div class="de1">&gt;Maybe the intensity of the situation is overtaking your ability to logic </div></li><li class="li1"><div class="de1">&gt;Eh</div></li><li class="li1"><div class="de1">&gt;She raises her head slowly</div></li><li class="li1"><div class="de1">&gt;”Thank you. I… I guess I owe you an apology, don’t I?” She says</div></li><li class="li1"><div class="de1">“Wellllll, maybe. You did kidnap me and use me as collateral in an underground fighting ring so you could win money…”</div></li><li class="li1"><div class="de1">&gt;She bows her head</div></li><li class="li1"><div class="de1">“Butttttt, I did watch you get pummeled. And you won. And more importantly—”</div></li><li class="li1"><div class="de1">&gt;You scoot closer to her</div></li><li class="li1"><div class="de1">“When I first met you, I thought you were lowlife scum who killed humans for sport. But you’ve shown me that you’ve got a good heart under all that sweaty fur.”</div></li><li class="li1"><div class="de1">&gt;She grins</div></li><li class="li1"><div class="de1">&gt;You can see her tail excitedly swinging from side to side</div></li><li class="li1"><div class="de1">“I guess what I’m trying to say is: You made the right decisions tonight, and that means a lot.”</div></li><li class="li1"><div class="de1">&gt;”So…You forgive me for kidnapping you?” She nervously puts forward</div></li><li class="li1"><div class="de1">“No. Not unless I get to bandage you,” you say, a wicked smile playing across your face. “I still want to hear you apologize.”</div></li><li class="li1"><div class="de1">&gt;Your hands find a bottle of rubbing alcohol</div></li><li class="li1"><div class="de1">&gt;She shrinks away from you</div></li><li class="li1"><div class="de1">&gt;You shake your head and set the bottle down</div></li><li class="li1"><div class="de1">“I’m only fooling around. Here. Let me see your cheek.”</div></li><li class="li1"><div class="de1">&gt;You soak a cotton ball in the acrid liquor </div></li><li class="li1"><div class="de1">&gt;Koda’s nose wrinkle</div></li><li class="li1"><div class="de1">&gt;”That’s human medicine,” she says, grimacing. “I don’t think it’s going to work on me.”</div></li><li class="li1"><div class="de1">“What? Of course it’s going to work on you. You’re just scared because it smells like markers.”</div></li><li class="li1"><div class="de1">&gt;She scoots a little further down the bench, eyes nervously locked on the cotton ball</div></li><li class="li1"><div class="de1">&gt;”I’m not scared… I just…”</div></li><li class="li1"><div class="de1">&gt;You slide up next to her</div></li><li class="li1"><div class="de1">&gt;She tries to stand up, but her body protests and forces her back down</div></li><li class="li1"><div class="de1">&gt;You grab her by the tail and yank hard</div></li><li class="li1"><div class="de1">&gt;She yips pathetically and plants her body back on the bench</div></li><li class="li1"><div class="de1">&gt;”Don’t grab me there!” She chirps in an airy squeal</div></li><li class="li1"><div class="de1">“Oh?” You tug her tail a little harder, earning another yip from her</div></li><li class="li1"><div class="de1">&gt;Man this feels good</div></li><li class="li1"><div class="de1">“I’ll stop if you bring your face over here.”</div></li><li class="li1"><div class="de1">&gt;Your vice on the base of her tail presses her ears against her skull. She bows her head somewhat submissively and brings her neck around</div></li><li class="li1"><div class="de1">&gt;You dab her bloodied cheek with the cotton ball</div></li><li class="li1"><div class="de1">&gt;”Ow!” She barks, trying to pull away</div></li><li class="li1"><div class="de1">&gt;You have her bound by the tail though, so she quickly swings her head back for more</div></li><li class="li1"><div class="de1">&gt;She must not be an alpha in her pack</div></li><li class="li1"><div class="de1">&gt;Though she fights you, you manage to swab as much blood off as you can, clean her wound, and then apply a few bandages</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;By the time you’re done she’s able to stand on her own with only a little shaking</div></li><li class="li1"><div class="de1">&gt;There’s a bandage across her forehead, a few feet of gauze wrapped around her exposed midsection, and several across her nose to stymie the blood loss</div></li><li class="li1"><div class="de1">&gt;She looks like a shitty mummy</div></li><li class="li1"><div class="de1">&gt;”God I hate that stuff. I don’t know why humans use it,” she licks at the wounds on her fists</div></li><li class="li1"><div class="de1">“We use it because it works for us. And it works for you too.”</div></li><li class="li1"><div class="de1">&gt;”It better. I suffered for this.” </div></li><li class="li1"><div class="de1">“Oh boo hoo. You’re still technically a criminal.” </div></li><li class="li1"><div class="de1">&gt;”Right,” she breathes an exhausted sigh and leans up against the wall next to the exit, pressing her hot cheeks against the cool tile</div></li><li class="li1"><div class="de1">&gt;”I feel dizzy.” </div></li><li class="li1"><div class="de1">“It’s probably from getting your ass beaten so badly,” you say with a slight snicker</div></li><li class="li1"><div class="de1">&gt;A small, almost pathetic growl escapes her chest</div></li><li class="li1"><div class="de1">&gt;”You’re lucky I’m so woozy or I’d take a bite out of your neck.”</div></li><li class="li1"><div class="de1">“Well, you or Shiva up there,” you jab a thumb upwards</div></li><li class="li1"><div class="de1">&gt;The tiger was likely still fuming up there with the commissioner, demanding he get a rematch, or some of his money back, or something</div></li><li class="li1"><div class="de1">&gt;You were glad to be down in the catacombs beneath the pit</div></li><li class="li1"><div class="de1">&gt;For once, deeper underground felt safer</div></li><li class="li1"><div class="de1">&gt;She points her chin upwards, ears twitching as she listens</div></li><li class="li1"><div class="de1">&gt;”I can hear a few footsteps up there, but I think I hear the ocean more than anything.”</div></li><li class="li1"><div class="de1">&gt;You place yourself next to her</div></li><li class="li1"><div class="de1">“Rather see the ocean than hear it right now. C’mon. Let’s go.”</div></li><li class="li1"><div class="de1">&gt;She nods and starts forward</div></li><li class="li1"><div class="de1">&gt;Only to stumble</div></li><li class="li1"><div class="de1">&gt;She braces herself against a wall for support</div></li><li class="li1"><div class="de1">&gt;”Damnit!” she hisses, putting her weight against the wall again</div></li><li class="li1"><div class="de1">“What’s up?”</div></li><li class="li1"><div class="de1">&gt;She points at her trembling leg</div></li><li class="li1"><div class="de1">&gt;Where Shiva had hit her with a wild kick</div></li><li class="li1"><div class="de1">&gt;”Bum leg.”</div></li><li class="li1"><div class="de1">&gt;You stare at her wounded appendage for a minute and feel something tight pulling at your heart</div></li><li class="li1"><div class="de1">&gt;Something warm wrapping itself around your innards, and a little voice in your head that’s telling you to do the right thing</div></li><li class="li1"><div class="de1">&gt;What is this… this feeling?</div></li><li class="li1"><div class="de1">&gt;Sympathy?</div></li><li class="li1"><div class="de1">&gt;She did kidnap you, so why are you feeling sympathetic towards her? </div></li><li class="li1"><div class="de1">&gt;She’s staring at you, and when your eyes meet she flicks her gaze away down the hall</div></li><li class="li1"><div class="de1">&gt;It’s almost like she’s waiting for you to make up your mind</div></li><li class="li1"><div class="de1">&gt;You slip under her frame, throwing her arm around your shoulder</div></li><li class="li1"><div class="de1">&gt;“The hell are you doing?” She says with some manner of aggression, though she puts up no resistance. “We’re going to look stupid.”</div></li><li class="li1"><div class="de1">“You look stupid,” you say, pushing upwards against the limp weight of her arm</div></li><li class="li1"><div class="de1">&gt;Damn she’s heavy</div></li><li class="li1"><div class="de1">&gt;And her tail wiggling is going to throw you off balance</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You don’t bother to hide your amusement as the nearly seven foot tall wolf girl leans on you for support on your way from the warehouse that kept the pits like a secret</div></li><li class="li1"><div class="de1">&gt;You taste fresh, salty air for the first time in a long time, relishing in the smell of all things that live near the ocean’s reach, and the smell of the city — an amalgamation of trash and seawater</div></li><li class="li1"><div class="de1">&gt;It smells like flowers to you right now</div></li><li class="li1"><div class="de1">&gt;The sun is just beginning to glow in the sky as you and Koda make your way back onto more populated roads, eyes scanning for a bus</div></li><li class="li1"><div class="de1">&gt;”So,” she says, looking down an empty road. “What are your plans now?”</div></li><li class="li1"><div class="de1">&gt;You really didn’t have anything thought out</div></li><li class="li1"><div class="de1">&gt;You had missed sleep, so you were feeling a bit wired, and more than that, you were starved</div></li><li class="li1"><div class="de1">“I guess…Hmmm, breakfast? It’s like 4 a.m.”</div></li><li class="li1"><div class="de1">&gt;Her ears go stiff atop her head at the mention of the word</div></li><li class="li1"><div class="de1">&gt;”Breakfast? Is there a breakfast place around here?” She says</div></li><li class="li1"><div class="de1">&gt;Fuck, you have no idea. You’ve never been to this part of town</div></li><li class="li1"><div class="de1">&gt;”Actually— Never mind. We can find one.”</div></li><li class="li1"><div class="de1">“WE?” You repeat with an air of incredulity</div></li><li class="li1"><div class="de1">&gt;Koda’s spine straightens and she shakes the confusion from her head</div></li><li class="li1"><div class="de1">&gt;Though you notice her tail is unable to stop wagging</div></li><li class="li1"><div class="de1">&gt;”S-Sorry. I guess I’m confused-“</div></li><li class="li1"><div class="de1">“No, you’re not confused. I think you’re trying to say something.”</div></li><li class="li1"><div class="de1">&gt;Her face glows red behind her bandages</div></li><li class="li1"><div class="de1">&gt;”I-“</div></li><li class="li1"><div class="de1">“The answer is yes, by the way,” you cut in. “I will go to breakfast with you. You owe me an expensive, hot meal.”</div></li><li class="li1"><div class="de1">&gt;You can’t restrain your smile anymore</div></li><li class="li1"><div class="de1">&gt;Her tail threatens to sweep you off your feet — and not in the romantic sense</div></li><li class="li1"><div class="de1">&gt;It’s fanning so quickly that you actually start to feel cold walking behind her</div></li><li class="li1"><div class="de1">&gt;So you you decide to walk next to her, and talk along the way, until you find a place to settle down and grab a bite to eat</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.youtube.com/watch?v=GfRq8KhLM_M</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">The Pits -- Oliver_Hart
-
-Tags: [Wolf], [Fighting], [Muscle Girl], [Size Difference], [Male Human], [Female Anthro], [SFW]
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Summary: Scared, but not alone, you wake up to find that you&#039;re  being used as a desperate Wolf&#039;s collateral an in underground fighting ring of carnivores. To the victor: The spoils, a cash prize, and the life of both the loser and their collateral. To the loser: The butcher&#039;s knife. You better hope your champion, a fresh face in The Pits, has what it takes to save her fur -- and your skin.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-&gt;The first thing you do when you wake up in a dimly lit room that smells like copper is puke
-&gt;Naturally, when you see the blood soaked into the walls, the scraps of flesh illuminated by fading bulbs, you puke a little more and try to yell, but it all comes out in a lazy slur, the force of sedatives pressing down like a weight on your entire body
-&gt;That’s when the door to that tiny room opens, and the splitting headache sets in, and you see the silhouette of something freakishly large blocking out the pale light from behind
-&gt;A vaguely human looking profile, with an elongated muzzle, dangling arms and toned legs
-&gt;You shrink to the back of the room, not caring if you’re getting flakes of dried blood in your hair
-&gt;The silhouette steps forward, and with a gruff voice, says:
-&gt;”Please stop yelling. You’re going to get me in trouble.”
-&gt;A she-wolf comes into glow of the lights, her broad, athletic body bent down over you
-&gt;You look up and see rows of glittering fangs, light yellow eyes, and gray fur towering over you
-&gt;And that’s when you start screaming again
-“PLEASE DON’T HURT ME!” You cry, and that only gets a paw clamped over your face
-&gt;”Be quiet! They said they don’t like it when the spoils are loud…” she growls, her voice decidedly more feminine than you would have thought given her Amazonian appearance
-&gt;You notice that she’s dressed in tight fitting black spats that stretch around her narrow hips and rounded butt
-&gt;Her midriff is left entirely bare, and through the shortness of her coat, you can see the ridges and crevices of a toned sixpack
-&gt;Her breasts are obscured by both a well-fitted sports bra and a tuft of hair that spills over her cleavage
-&gt;She is young, and could not be older than 20 with the way she looks
-&gt;Yet despite all of this, you cannot help but start to tremble when she grabs you by your tattered shirt collar and begins to drag you out of the room
-&gt;She’s decidely more gentle than you thought she’d be, and as you are brought into the light of the narrow hallway, things begin to click
-&gt;You know where you are, and it’s not at the park anymore
-&gt;You’ve heard of The Pits before, but only on the news
-&gt;Underground fighting rings of anthros, where humans are used as collateral. The loser forefits both a cash prize, and their collateral, who is usually carved up and sold on the black market
-&gt;So basically, what you are going to be, considering only carnivores participate in Pit Fights
-&gt;Herbivores and humans were scrawny and good collateral
-&gt;”You know if you put up more of a fight, you might help me warm up a bit,” she says. “It might improve my chances a bit more. Err, I mean, your chances. I’m going to be fine. I promise.”
-&gt;You don’t have it in you to speak coherently The sedative she must have hit you with at the park is still wearing off
-&gt;”Right. Sedative. Maybe I used too much,” she says to herself as she drags you down a long, poorly lit hallway
-&gt;Despite your blunted senses, more details begin to take shape
-&gt;The screams of other captives
-&gt;The pounding drum beat of what must be a decent sized crowd
-&gt;The smell of blood and wet fur
-&gt;The feel of the dirty floor against your legs
-&gt;And… the gentleness with which she seems to be dragging you to the arena, if being dragged somewhere can be gentle
-&gt;Odd
-
-&gt;She brings you to the end of the hall, where are a pair of two-way double doors remain closed
-&gt;A fox in a pair of bloody scrubs opens the door
-&gt;He cranes his wiry neck around the wolf girl’s large frame and sees you helplessly splayed out on your back
-&gt;Looking pleased, he retrieves a clipboard
-&gt;”Name?”
-&gt;”For me, or for the human?”
-&gt;”The human,” he says
-&gt;She nudges you with the back of her leg
-&gt;”Give him your name,” she says
-&gt;You do not speak
-&gt;What’s the point
-&gt;She nudges you again
-&gt;”Please.”
-&gt;Did she just say please after kidnapping you and using you as collateral in an illegal fighting ring?
-&gt;”Anonymous,” you say without even thinking. “But most people call me Anon.”
-&gt;The fox jots down your name
-&gt;”Okay, Anon… And the fighters name?”
-&gt;”Koda Malcaine”
-&gt;”Koda Malcaine…” the fox clicks back. He flips over the clipboard
-&gt;”Ah, here you are! Koda Malcaine. You’re new huh?”
-&gt;”I hope that’s not a problem?” Koda replies
-&gt;”No, no, won’t be a problem at all. If you’ll follow me, we’ll do a quick inspection of yourself and your human. Then I’ll give the green light, and up you’ll go!”
-
-&gt;The room Koda drags you into looks like a dentist’s office fused witha a torture room
-&gt;There’s a table full of bloody metal instruments next to a bench and two elongated chairs
-&gt;You are sat on the bench by Koda while the old fox scrambles about with rubbing alcohol and a wad of bloody bandages
-&gt;Koda kneels down to your height and looks you in the eyes
-&gt;Her ears go flat against her skull, and there’s a look in her yellow eyes that gives you pause
-&gt;It almost looks like regret
-&gt;”Listen. I’m really sorry about this. I’ll do my best, okay? If you remain calm it won’t hurt a bit.”
-&gt;You try to speak, but the old fox interrupts
-&gt;”Mrs. Malcaine? Would you please undress the meat- Err, I mean, Mr. Anon over there?”
-&gt;She sets her jaw hard, ears going even flatter against her skull, and turns away from you
-&gt;You think you almost catch a hint of color in her cheeks
-
-&gt;Soon you’re down to your underwear, made to stand, shivering the cold doctor’s office, while an old fox pokes at you, takes blood samples and chit-chats with Koda, who is stretching by the exit, keeping her eyes on the door
-&gt;”So, who are you up against for your first match?”
-&gt;Koda cracks her neck
-&gt;”A tiger. Goes by the name of Shiva, God of Death, but I think that’s just his ring name.”
-&gt;”Shiva?” The fox freezes, a needle halfway in your arm
-&gt;You want to reach out and wring him by the neck, but are afraid he’ll just stab you some more in the process
-&gt;”For your first match? Wow. That’s a doozy.”
-&gt;The fox turns his neck away from Koda and up at you
-&gt;”Sorry son. Hope you’ve made peace with your god.”
-&gt;”Why?” Koda interrupts. “I’m strong. I’ve been training for months. And I have something to fight for.”
-&gt;The doctor hums
-&gt;”And what’s that deary? A nice bone?”
-&gt;Koda steps forward
-&gt;”No. A liter. Three brothers and three sisters back home. I’ve got mouths to feed.”
-&gt;”Oh god, you’re a mother? You didn’t declare that on your form,” the fox says as he wraps a bandage around your arm
-&gt;”A mother?!” Koda goes rigid and red in the face. “N-No! I’m just the eldest! Don’t foxes have tons of kits?”
-&gt;”We do, we do.” The fox pushes you forward. “We just make sure we can afford to.”
-&gt;You stumble towards Koda, feet padding on the cold tile
-&gt;You collide with the wolf girl
-&gt;”Not me, though. I never married,” he continues
-&gt;”Shame,” Koda says sarcastically, but if he heard it, the Fox doesn’t acknowledge
-&gt;”Your human is in good condition. I’m going to call up and let them know that you’re ready.”
-&gt;He presses a button on his shoddy desk
-&gt;There’s a loud buzz as the door next to Koda swings open
-&gt;Koda takes a few long breaths, bends down, and throws you over her shoulders
-“Woah, wait, wait, can’t I just pay you!? I have money! Please, don’t do this!” You cry
-&gt;All of this is a lie, of course
-&gt;You have approximately no money, but you hope your captor will believe you
-&gt;”Not anywhere near as much as I could make from winning this fight,” she says, and begins ascending the stairs, with you in tow
-
-&gt;The arena is blisteringly loud, though a lot smaller than you expected so Koda ends up carrying you into the fray slung over her shoulders like a sack of potatoes
-&gt;You’re in an old warehouse near the docks, you can tell by the smell of salt and brine in the air
-&gt;There are five-tiers of bleachers assembled in a rectangle, with the center of the pit closed off by shipping containers
-&gt;Two Bears stand by the entrance to the stands, clearly guarding the upper-echelons of the pit
-&gt;What catches your eyes is the well-dressed buck sitting isolated on a chair
-&gt;His cold eyes gloss over you without interest
-&gt;Two more black bears in suits stand at his side
-&gt;Koda sets you down onto the dirty floor
-&gt;You quickly cling to her legs like a frightened child, only earning gales of laughter and approval from the crowd
-&gt;It’s all anthros — and carnivores at that
-&gt;You see all manner of them in the bleachers, their faces rough and hard from a life of struggle, jaws wide and jagged with laughter
-“Fucking shifty predators!” You cry, despite the fact that you are currently hiding behind a rather large gray wolf who could snap you in half like a human twig
-“This is sick!” You look up at Koda, who peers down at you with a stone face. “You’re sick, you know that!?”
-&gt;You have to shout to be heard above the roar of the crowd
-&gt;She peels you away from her tail with relative ease
-&gt;”Again — I’m sorry, but this is something I have to do. I’ll try my best.”
-“F-Fucking better!” You cry, tears welling up in your eyes as the two bears drag you away from Koda and into a shipping crate with metal bars for windows
-&gt;The crate is separated in two by more metal bars
-&gt;Your cratemate, as it were, is anxiously moving about, their feet tapping on the cold metal floors
-&gt;You see a golden retriever pacing back and forth on the other-side, her clothes well tarnished and coat appropriately filthy
-&gt;You didn’t think that carnivores were ever used as collateral
-&gt;Well, being a retriever, she probably did this willingly — stupid, loyal dogs
-&gt;When she sees you, she presses her face into the bars
-&gt;”So, you’re the meat?” She says with a sneer. “They say human meat is the sweetest. I hope Shiva lets me have a thigh. He’s such a good and kind master.”
-“What the fuck is wrong with you?” You yell, still fighting off the sedatives. “We should be working on a way to get out of this!”
-&gt;The golden laughs maniacally
-&gt;”Get out? There’s no getting out of here! You best hope your fighter is any good, because Shiva’s on a four-game winning streak, and I’m feeling itchy in my teeth.”
-&gt;Four-game streak?
-&gt;Oh god
-&gt;You’re gonna get eaten
-&gt;You feel your stomach drop
-&gt;As do you
-&gt;You slump agains the bars of the window and watch as Koda jogs in place
-&gt;On the other side of the arena a tiger adorned in golden jewelry is pacing
-&gt;There is a certain elegance to his steps, a kind of calculated grace and air to his movements that gives the impression that he is light on his feet
-&gt;Koda, who towers above both you and Shiva, moves more like she has tree trunks for arms and legs
-&gt;She almost did — She was pretty strong looking. Had a body carved out of granite
-&gt;And despite her feral appearance and hardened limbs, there was also a kindness there, at least, it didn’t feel like you were her slave. She seemed like she genuinely felt sorry for dragging you through all this
-&gt;Koda swipes at the air, her claws searing through empty space
-&gt;She could probably cleave into a car like it were a tin can
-&gt;Gray wolves were, of course, the largest and strongest canine species, putting males at 7 feet, and females around 6’5”
-&gt;Koda has enough body mass to be at least 250 pounds,
-&gt;And you’d put her at 6’10”. A freak of a woman
-&gt;Yet ‘Shiva’ looks as tall as you, putting him roughly at 6’
-&gt;This fight would be brute strength versus darting ferocity, the age old struggle between cat and dog
-&gt;And given that Koda’s never fought before (as far as you know), you’re pretty sure that Shiva’s darting ferocity is going to win the day
-&gt;Basically, you’re already preparing to be a hunk of meat
-&gt;As if she could sense your nerves, the retriever hops up and down excitedly
-&gt;”EAT HER HEART!” She throws herself against the cage window. “EAT IT WHILE IT’S STILL BEATING!”
-&gt;Something also tells you that your almost-cell mate isn’t ‘all there’
-&gt;So what kind of fighter does that make Shiva?
-
-&gt;The buck walks into the center of the ‘ring’, a mic in hand
-&gt;”Welcome, ladies and gentleman, to Monday’s pit match!”
-&gt;Electricity runs through the crowd
-&gt;A cry goes up
-&gt;Your heart clenches
-&gt;Koda looks focused, but you can see her breathing hard
-&gt;That look on her face does not inspire a lot of confidence
-&gt;It’s restrained nerves, whipped up into lazer focus
-&gt;But the cracks do show
-&gt;”Tonight’s entertainment is brought to you by Shiva, God of Death!” He gestures towards the tiger who raises his paws, gold chains dangling from his wrists
-&gt;His face looks like it’s got more jewelry on it than the entire crowd has on their personage
-&gt;The golden next to you shrieks and sticks her arms out between the bars
-&gt;”I LOVE YOU SHIVVVVVVIAAAAA!”
-&gt;You feel sick to your stomach
-&gt;Doesn’t she know she’s basically being held in purgatory? The people out there would fucking eat her if they had the chance
-&gt;The buck turns and gestures at Koda
-&gt;”And his challenger, Koda, the gray wolf, hopes to end his winning streak here tonight!”
-&gt;Koda gives a small wave, and a faint cheer goes up from the crowd, some people pulling for the literal underdog
-&gt;She breathes deep and focuses her attention on her opponent
-
-&gt;The buck retreats up the stairs
-&gt;”At the sound of the bell, you will begin. The fight will not end until either one of you forfeits, or is dead,” he says. “Now…”
-&gt;*DING*
-&gt;”LET’S SEE SOME BLOOD!”
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-&gt;Shiva hits the ground on all fours, bounding forward with unbelievable feral speed
-&gt;Koda barely has time to brace her arms across her body as the tiger opens his arms wide and bares his claws, tackling the wolf
-&gt;Phased, but sturdy, Koda pushes hard with her shoulder and knocks Shiva in the chin, stunning him and sending him stumbling backwards onto two feet
-&gt;You wrap two hands anxiously around the bars
-&gt;That was a good first move on Koda’s part — She gained some distance and even got a sizeable hit in
-&gt;But Shiva’s speed and ferociousness have you worried
-&gt;You’re not the only one
-&gt;The retriever throws herself at the small port
-&gt;”GOD SHIVA GET HER OVER HERE I’LL DRINK HER BLOOD FOR YOU!” She screams
-&gt;You step away from the bars separating you from her side of the container
-&gt;Should you cheer?
-&gt;I mean, Koda did kidnap you
-&gt;You keep your enthusiasm to yourself and turn your focus back on to the match
-
-&gt;”Sly, sly wolf. You are big, but you have an buffalo’s grace,” Shiva growls, spitting blood from his maw.
-&gt;”How like a tiger,” Koda scowls. “All talk of pride, bur no bite.”
-&gt;She follows up with a swipe with her claws, but Shiva is quickly out of her reach, dancing easily out of distance on two feet
-&gt;Koda steps forward, trying again, swinging her massive forearms in from the sides like the jaws of a steel trap
-&gt;The tiger ducks beneath the swipes, coils his body, and launches his hands upwards, black claws extended like five little daggers
-&gt;They find Koda’s exposed midsection with swift aggression
-&gt;Shiva let’s loose a satisfied growl and digs in with his claws, squeezing as much sinew and muscle as he can
-&gt;Koda yelps like he’d just stepped on her tail
-&gt;She bends forward to the demands of the tiger’s puncturing push until she is practically shadowing the feline’s body, crooked with pain
-&gt;You watch in horror as drops of blood splatter beneath her
-&gt;The crowd screams for more, like addicts chasing a fix
-“FUCK!” You shout, banging on the walls of the crate
-&gt;Your fists pound metal
-&gt;How could she loose so easily!? SHE’S ALMOST A FOOT TALLER THAN THIS GUY!
-&gt;Shiva stamps his feet down and pushes up, bending Koda inward into a crescent shape
-&gt;The wolf yelps even louder, squealing as her feet dig into the floor
-&gt;You can see the sheer anguish on her face, the way her eyes are squeezed shut, how her mouth is open in a silent scream
-&gt;The crowd falls over itself with excitement
-&gt;Someone calls out to Shiva to ‘KILL THAT BITCH!’
-&gt;Surprisingly it’s not your cratemate
-&gt;She’s gnawing at the bars that separate you two
-&gt;This is not getting off to a good start
-&gt;Shiva smirks and digs in to her stomach even harder
-&gt;Your eyes slam shut
-&gt;You can’t watch what happens next
-
-&gt;Collectively, the meat-starved crowd gasps
-&gt;And then break into uproarious cheers
-&gt;You peek out between squinted eyelids to see Koda wrapping her hands around Shiva’s midsection
-&gt;The wolf grits her teeth, digs in deep, and begins pounding into the tiger with her formidable legs
-&gt;Her knees make contact with Shiva’s chest
-&gt;A few blows and the tiger uncoils, crumpling like a forgotten marionette
-&gt;In the fire between heartbeats, Shiva skitters away just as the wolf stomps at where his head used to rest
-&gt;Koda returns the gesture by stumbling backwards with a hand across her bleeding abdomen
-&gt;Any distance she can put between her and the tiger is welcome
-&gt;She lifts her hand, and you can see four gashes leaking blood into her fur
-&gt;It makes you physically clasp your own midsection in sympathy
-&gt;Coughing, still sucking air back into his lungs, Shiva stands back on to two feet
-&gt;”You are too large for your own good. Too much to rip into!” He coughs, still recovering from the beating he’d been dealt
-&gt;It sounds like Koda’s knee strikes knocked the wind completely out of him
-&gt;You try to focus on Koda and keep your eyes off the retriever who keeps trying to grab at you through the bars
-&gt;She wipes the blood onto her thigh
-&gt;”Keep talking, stripes. Keep talking!” She starts forward with a limp
-&gt;The crowd roars
-
-&gt;A pair of claws rip at your skin
-&gt;You shriek for someone
-&gt;She can almost reach you in the crate, even backed against the opposite wall
-&gt;Like a cornered rat
-&gt;The golden, now frothing at the mouth, draws back
-&gt;”See, when I get a hold of you, I’m gonna bite your ears off first and drink- hehehe— drink your ear blood first! I’m gonna drink your ear blood!” she leaps at the bars
-&gt;Her bloodshot eyes go wide with excitement
-&gt;Foam drips from her mouth like a fountain as she speaks,
-&gt;”JUST COME A LITTLE CLOSER YOU SKINFUCK!”
-&gt;Holy shit
-&gt;She’s rabid
-&gt;Things have just gone from bad to worse
-&gt;You flatten your body against the back of the crate and try to sneak glances out the windows while keeping out of her reach
-
-&gt;You can see Koda has easily cleared the distance between her and Shiva
-&gt;And now Shiva, with air back in his lungs, is on the offensive, bending his body with a distinct anger
-&gt;The last thing you see before you clamp your eyes shut is the tiger going airborne, his arms wide, claws extended
-&gt;When they open, they open to a roaring crowd and a distracted retriever 
-&gt;Koda has the tiger suspended in the air by his midsection
-&gt;They look like two ballerinas frozen in an olympic pose
-&gt;But you can see Shiva’s arms wheeling around, grasping for any part of Koda’s face
-&gt;Which she keeps just barely out of reach
-&gt;”SET ME DOWN AND FIGHT ME LIKE A PREDATOR!”
-&gt;In one swift motion, she cocks her arms back, and hurls the tiger against the wall of a rusted shipping container
-&gt;A blur of orange and black gracelessly smacks into the metal walls of the pit with the thunderous roar of the crowd drowns out the sound of bone colliding with metal
-&gt;”NO! NO!” The retriever hurls herself against the windows again as if she could squeeze out between the bars
-&gt;You hear someone banging on top of the crate, and then a bear opens the door on your side, a large club in his hands
-&gt;”Shut the fuck up in there! I can barely hear the boss with you yammering and yipping.”
-&gt;You could run
-&gt;Or, at least you think you might be able to. The Bear is bulky, strong, but perhaps slower than you
-&gt;That’s not to say someone else wouldn’t try and run you down
-&gt;The crow begins chanting something in sickening repetition, their voices swelling together to a violent crescendo
-&gt;”STAND! STAND! STAND! STAND!” They cry
-&gt;The guard looks through the bars, following your eyes
-&gt;Shiva is shaking back on to his feet, body swaying slightly with the dazing blow
-&gt;You catch a glint of light in his eyes — a flash of humiliation blended with rage into a fine, hollow point
-&gt;Koda inches backwards, drawing up a fighter’s stance and bouncing — as best she can — on her feet
-&gt;”STAND!” The crowd continues, their echoes chasing one another
-&gt;The tiger starts forward, his arms loose at his sides
-&gt;Koda inches backwards bit by bit, raising her fists in front of her face, no longer clutching at the stripes of blood in her abdomen
-&gt;Shiva does not bound forward
-&gt;His steps grow bolder and more firm, and the look of rage more and more pronounced on his gnarled, shimmering face
-&gt;Koda plants her right foot forward and throws her body into a solid strike, just as she’d likely been taught to do by some boxer
-&gt;Her right fist coils up and explodes forward
-&gt;Yet Shiva ducks his shoulder with a unanticipated grace
-&gt;The strike goes wide into empty space
-&gt;The tiger fires back at her bent figure with a blow of his own — A tightened fist that explodes across Koda’s jaw with such force that the gray wolf, of nearly 7 feet, stumbles backwards, her soul knocked temporarily from her body
-&gt;There’s a spray of blood that goes up like a scattering of rubies into the heat of the arena’s generator-powered light fixtures
-&gt;Koda waddles backwards, consciously or unconsciously, but the tiger keeps his pace, matching her stunned steps with powerful strides of his own
-&gt;”You are large, she-wolf, but you are clumsy! I tell you this: You are more space to hit!”
-&gt;His right leg bends outwards and swings with blazing speed at Koda’s midsection
-&gt;The strike barely misses the softness of her hips, and instead cracks upon her upper thigh, forcing the wolf to bend and yelp with the shock of pain
-
-&gt;”DRINK HER BLOOD! DRINK HER BLOOD! DRINK HER SOUL!” The retriever cries, shaking the bars with emaciated strength
-“Look at her!” You try to get the guard to see the vulgar displays of the dog next to you
-“She’s clearly rabid. Look at how she’s frothing at the mouth!”
-&gt;”She can’t be rabid,” the guard says with a clipped and stern voice. “The doctor would have caught her early on. And besides, entering rabid spoils goes against the rules. Shiva’s not stupid.”
-“Exactly! She’s insane!” You cry
-&gt;The bear shakes his head
-&gt;”Just keep it down in here, or I’ll give you something to yell about.”
-&gt;YOU STUPID FUCKING IDIOT! 
-&gt;…Is what you want to say
-&gt;You are going to have to show this thickheaded moron that Shiva’s been using a rabid dog as his collateral
-&gt;For your own safety
-&gt;You sneak a quick look out the bars at the fight
-&gt;Shiva is blasting Koda with clean punches, and though the wolf is blocking at least half of them, you can see she’s losing ground quick
-&gt;It’s a good thing she’s built like a tank
-&gt;…Though maybe she could use a bit of intervention
-&gt;The guard moves to make his leave
-&gt;You grab at the tail of his jacket
-“Wait,” you beg. “Watch this.”
-&gt;You steel yourself and unpeel from the back of the crate while the guard looks on impatiently
-&gt;Slowly, you approach the bars that separate you from the golden retriever
-&gt;She doesn’t take notice. Her focus is locked on the fight, watching with slavering hunger as Shiva pummels his opponent into submission
-&gt;You extend a finger through the bars
-&gt;All notions of specisim and racism go out the window
-&gt;Forming a tight ‘O’ with your lips, you push out a piercing whistle
-&gt;Both the bear and the dog clamp their paws over their sensitive ears
-“Herrrreee girl, got a nice snack for you!” You say, pushing your arm through the bars even further
-&gt;This was worse than teasing a bear trap
-&gt;Why are you even doing this?
-&gt;The retriever looks over at the source of the noise, and seeing your hand there, almost instantly she snaps towards the bars
-&gt;Before you can retract your bait, her hands shoot out and clamp around your thin arms, her unkempt claws swiftly digging into your tender flesh and pulling it taut
-&gt;”MINE! MINE! MINE!” She shrieks, scraping at your skin as you try to pull aways
-&gt;The guard steps forward into the cage, but he’s not fast enough
-&gt;The golden brings her neck around and unhinges her jaws, froth and foam spilling from the corners of her lips onto the floor—
-&gt;Oh fuck
-&gt;You yank back hard but she’s too close to evade
-&gt;Fuck fuck fuck fuck
-&gt;She’s going to give you rabies
-&gt;Why did you decide to do this!?
-&gt;SHE’S NOT GOING TO IRABIATE YOU, GOD DAMNIT
-&gt;Without even thinking your other arm explodes forward like a bullet from a gun, threading between the bars with a fist at its tip
-&gt;Your clenched fist crashes right into the retrievers snout, knocking her free in a spray of snot and hot blood
-&gt;She yelps and squeals as she stumbles backwards, crimson pouring from her nose
-&gt;The canine barely hesitates
-&gt;She lunges at the bars again, snarling like a wild beast, a testament to the true power rabies can command over a person
-&gt;You fall backwards onto your ass, hand throbbing in pain from where you blasted your opponent in the face
-&gt;She claws at you wildly, but you tuck your legs against your body and slide backwards up against the feet of the guard, who takes a giant step backwards in shock
-&gt;”Holy Jesus, you weren’t kidding!” He says
-&gt;You want to tell him ‘I told you so, you fat fucking lummox,’ but the sheer terror of the moment keeps your jaw screwed shut
-&gt;You only have one thing on your mind — Freedom
-“So does this mean the match is over? We win right? Because Shiva’s collateral is spoiled. Right? RIGHT?? THE FIGHT IS OVER….RIGHT!?”
-&gt;The guard scratches his head like a useless fucking idiot
-&gt;”I- I have no idea. I need to go check with the boss.”
-&gt;He turns on his heels and huffs away, his heavy feet pounding into dusty floors
-&gt;You freeze
-&gt;The fight is going badly
-&gt;That nutso doggo is trying (and succeeding) to force her body in between the bars
-&gt;But there is a silver lining in all of this:
-&gt;The guard left the door open
-&gt;You glance behind you out the door
-&gt;It’s tempting, that portal to freedom, that trail of inevitable tears
-&gt;You might not get far, but it’ll get you away from this insane dog-girl
-&gt;Which is enough
-&gt;”I’M GONNA — *huff* I’M GONNA WEAR YOUR FACE LIKE A MASK AND DANCE IN YOUR SHOES HAHAH!” 
-&gt;Well, that’s enough reason to take a running start…
-
-&gt;You burst forth into the cleansing light of generators, feeling freedom kiss your skin like-
-&gt;Someone’s drink spills on your head, soaking through your clothes
-&gt;It’s sticky and smells like bread
-&gt;FUCK, It’s not even good beer, it’s stadium piss-beer
-&gt;You just keep running, eyes darting around for an exit
-&gt;Until you realize something that you should have realized a long time ago:
-&gt;You either need to cut through the bleachers to get out…
-&gt;Or across the stadium
-
-&gt;The fight was not going well for Koda
-&gt;Yeah, she’d beaten on Shiva like a redheaded stepchild earlier, but now SHE was the redheaded stepchild
-&gt;She squeals like a hurt pup as Shiva’s leg collides with her thigh with lightning force
-&gt;So this…is the power of a feline
-&gt;Koda bends her leg to brace herself, her mind frayed from the explosion of bone shattering pain now arching through her body like electricity
-&gt;This movement turns out to be a mistake
-&gt;The second her right knee hits the ground, her opponent smirks, clenches his right fist tight, and swings for the fences at towards Koda’s face
-&gt;The blow again catches her on the side her mouth, but this time it brings the tanky-wolf down entirely
-&gt;There’s a slight yelp of pain from Koda — Some desperate bodily reaction to the intense and sharp pain that are Shiva’s fists
-&gt;And then her vision was vertical
-&gt;The towering wolf lay on her side, drawing rasping breaths, fighting back the darkness in her vision
-&gt;Her body shook like she was a fevered pup
-&gt;She certainly felt as weak as one right now
-&gt;She could take a lot of punishment, but this was beyond her
-&gt;Curiously all she thought about was how she’d failed her human
-&gt;She had reluctantly captured him in an attempt to feed her family, but she knew it was wrong, no matter how she sliced it
-&gt;And now he was about to be a slab of meat
-&gt;All because of her
-&gt;Shiva turns the wolf on her back and straddles her chest, a bloody, toothy smile across his face
-&gt;”You are tired, very tired. I see that now. Pretty face. Shame it is such a weak face too. And a weak body.”
-&gt;His hands tighten around her throat
-&gt;She feels an intense pressure against her neck — in particular, her jugular vein
-&gt;Shiva presses a single claw against her pulsing neck
-&gt;With just a little bit of pressure, he could slice it open and bleed her out — right in front of everyone
-&gt;He bides his time, savoring his victory
-&gt;”Perhaps there is a deal to be made here, hmm?” He says
-&gt;Koda coughs, his hands around her throat
-&gt;”A deal?”
-&gt;”Yes, a deal. You forfeit this match. I take your human. But you get to keep…say…20% of the winnings. And you come back to my locker after this fight, hmm?”
-&gt;He releases his grasp on her throat, still holding his claw against her jugular
-&gt;His free hand trails down to the plume of fur that covers her sculpted chest
-&gt;”And when we are there — You will show me what is underneath this. What say you?”
-&gt;The wolf stymies a snarl
-&gt;”I am showing you mercy. Accidents do happen in this business, and I know that the commissioner will be willing to look the other way if I cut your throat right here. I bring animals through the doors and put money into his pockets. You are just a stupid, dumb, bitch, in much too over her head. Your life means nothing to me. Be thankful that I stayed my hand.”
-&gt;She hesitates
-&gt;”And Anon? What will become of him?”
-&gt;”Who?” Shiva asks
-&gt;”Err, my human. What will you do with my human if I lose?” Koda replies
-&gt;Shiva cocks his head in confusion
-&gt;Why would a predator care for her prey like so?
-&gt;”Your meat? I will find a suitable buyer for him. A butcher in Shax District. They are worth less than other meats to me. Human is tough and provides little medicinal use.”
-&gt;Koda scowls
-&gt;A million thoughts race through her staggered mind
-&gt;Mostly those of Anon and her family
-&gt;The only two things that really matter
-&gt;20% of the winnings isn’t enough. But it would help tremendously
-&gt;And what’s a little shame for feeding her family? She already kidnapped an innocent human for their needs — why should some harmless sex be any different
-&gt;The thought presses heat into her cheeks and shame into mind
-&gt;God, now of all times her body is choosing to feel embarrassed? Why? She’s had a million shameful moments in her life — Being impoverished, turned down for jobs, called snapjaw, fangmouth, pred by respectable employers — any number of these moments should have elicited waves of shock and embarrassment to this degree
-&gt;Perhaps the missing variable is that now there’s an innocent’s life in the balance, and that she’s on her back, a razor-sharp claw pinching the thickest of veins
-&gt;The impatient stirring of the crowd rouses her captor’s attention
-&gt;”Do you hear that, howler? It is time to pick. Or I shall pick for you.”
-&gt;Koda clears her throat as best as she can, her mind no longer processing things with any clarity
-&gt;Only panic
-&gt;Ideas and words surge forward and take shape on her tongue
-&gt;No matter what they are, she tells herself, he will win
-&gt;Her brain is running in two opposite directions
-&gt;”The human is innocent. If- If you promise to let him free, I will do anything you ask.”
-&gt;The tiger laughs
-&gt;”So you are soft on the hairless one.”
-&gt;Again color flooded her cheeks, peeking through the mat of sweaty gray fur
-&gt;”No, I am not soft or sweet on the human. I simply feel guilty for having taken him and then losing to someone like you. Striped rat.”
-&gt;Again the tiger laughs as he withdraws his claw from Koda’s throbbing vein
-&gt;”It was inevitable, darling. I have not lost to a howler once, and I do not intend to. All I intend to discover is who the apex predator is. And today, I have learned what species sits beneath me,” he says with a satisfied snarl
-&gt;The gray wolf suppresses a growl, her legs anxiously stirring beneath her. It takes a considerable amount of effort not to draw her legs around his body and capture him
-&gt;But she is a woman of integrity — if she could help it. She agreed to the deal, and intends to follow through with it
-&gt;”Now, I will stand up. You will do the same. And when we are both standing, you will raise your hand to the commissioner and declare your worth.”
-&gt;The tiger dismounts her and stood up on shaking legs, a victorious smirk played out across his face
-&gt;Koda follows suit, eyes never leaving his, glaring with such hatred that she might have been able to stop his heart with enough effort
-&gt;Her hand slowly goes up
-&gt;Her heart sinks in her chest, deflating with each stomp of the crowd’s anxious feet
-&gt;Her mouth falls open, and the words start to assemble themselves
-&gt;Someone is shouting something
-
-&gt;You are past the point of reasoning with the guards
-&gt;In fact the minute they saw you at the bottom of the bleachers, they started shouting and drawing their clubs
-&gt;And then you heard a familiar shrieking and saw a flash of golden-yellow fur streaking towards you, a comet’s tail of foam and froth pulling behind her mouth
-&gt;She must have finally squeezed her body through the bars…
-&gt;…Without any of her clothes on, for some reason
-&gt;The only logical course of action you were left with was to run
-&gt;And so now run, to the only place you think you might be safe
-&gt;Into the center of the pit
-“KODAAA! KODAAAAA!!!! HELP!” You shriek, the words torn from your throat as you struggle to overpower the crowd’s confused howls
-“Oh God help! She’s rabid! Somebody get this crazy bitch away from me!”
-&gt;You plot an immediate course towards the towering figure that is Koda, hoping that she’ll perhaps sweep you off your feet and keep you out of reach from that psychotic retriever
-&gt;You glance back behind you
-&gt;The retriever is gaining ground, her tail excitedly wagging at the prospect of a chase
-&gt;And directly behind her two Bear’s hoof it, clubs drawn
-“KODA!” You call again
-&gt;The wolf turns her head
-&gt;Her jaw drops
-&gt;”Anon?” She says
-&gt;You don’ even know why, but you throw yourself at her, leaping towards her soaring figure
-You cling to her mid-section like a squirrel (despite being only a near-foot shorter than her) and clamber, not caring if you’re crawling over her boobs or not
-&gt;She pries you and holds you above the retriever
-&gt;Shiva looks just as confused as she is
-&gt;And then rage swells within him
-&gt;”What is the meaning of this!?” He cries
-&gt;The guards, seeing you in Koda’s hands and the retriever jumping and clawing at empty air, take a few steps back
-&gt;The crowd starts to boo
-“SHE’S RABID!” You jab a finger at the golden, who snaps madly at it. “SHE’S RABID AND WANTS TO WEAR MY SKIN LIKE A HALLOWEEN MASK!”
-&gt;Having come to some kind of decision, the two bear’s lunge forward and subdue the retriever, holding her away with some considerable effort by pulling her arms back 
-&gt;The rabid dog is single-minded, however, and strives only to consume your delicious face
-
-&gt;”Is this true?” A voice booms on the mic
-&gt;The buck is down in the pit, the microphone in his had
-&gt;There’s a strange glint in his eye
-&gt;Your heart sinks when you see him barely restraining a smile
-&gt;This can’t be good
-&gt;”Shiva, if what this human says is true, then this is a serious infraction.”
-&gt;The crowd boos Shiva’s name
-&gt;He silences them with a raised hoof
-&gt;”But, you did defeat your opponent in single combat. And that does stand.”
-&gt;The tiger starts forward
-&gt;”Commissioner, I- I assure you, this is a mistake-“
-&gt;The commissioner silences Shiva
-&gt;The tiger stops in his tracks, his jaw screwing shut with unbelievable speed
-&gt;For a small buck, he wields impressive character and power
-&gt;”Your victory here, and over the past four matches, with your…spoiled…entry, are suspect. But I am a reasonable man. And our wonderful audience deserves a good show, am I right?”
-&gt;At those words the audience explodes, whipped up into a frenzy, shaking their seats and threatening their integrity
-&gt;The buck smiles, intensely satisfied at how willing his crowd is
-&gt;”So, in the spirit of fairness, I will rescind your victory here tonight, and you will face your challenger now in a five minute death-match.”
-&gt;Koda’s jaw drops
-&gt;The buck continues
-&gt;”And to the winner - The spoils. To the loser: shame. And should the victor decide it: Death.”
-&gt;You can’t hear yourself think over the din and noise
-&gt;Shiva is swearing profusely, or at least you think he is, given how fast his mouth is moving and how hard he’s stomping the ground
-&gt;Koda sets you down gingerly, and lowers herself to eye level
-&gt;”Anon…” she says, drawing in close so she can be heard
-&gt;”Please, forgive me for everything.”
-&gt;You don’t know what to say
-&gt;So you say nothing
-&gt;You just nod your head and listen to her speak, her voice drifting from her tired body like the trickle of a stream
-&gt;”I promise I will make this up to you. I won’t let you down.”
-
-&gt;You are seated beside the commissioner, two guards at your flanks
-&gt;The retriever is back in the shipping crate, guarded by an additional guard
-&gt;You can see her shape crawling anxiously on the ground from between the barred windows
-&gt;Shiva and Koda are at opposite sides of the arena, pacing like they themselves were caged
-&gt;Shiva looks positively furious, his face twisted up into a horrible scowl
-&gt;Koda’s face is hard and determined, her jaw set and eyes locked on her opponent
-&gt;The commissioner raises the microphone to his mouth
-&gt;”The sound of the bell will begin the fight. And the sound of the bell will end the fight. You will have five minutes to decide who is the winner. In the event that your duel comes to a draw, you will both forfeit your prizes and your collateral. Nothing is off-limits. Your time begins…”
-&gt;A bell clangs over the loudspeakers
-&gt;”NOW!”
-
-&gt;You are seated beside the commissioner, two guards at your flanks
-&gt;The retriever is back in the shipping crate, guarded by an additional guard
-&gt;You can see her shape crawling anxiously on the ground from between the barred windows
-&gt;Shiva and Koda are at opposite sides of the arena, pacing like they themselves were caged
-&gt;Shiva looks positively furious, his face twisted up into a horrible scowl
-&gt;Koda’s face is hard and determined, her jaw set and eyes locked on her opponent
-&gt;The commissioner raises the microphone to his mouth
-&gt;”The sound of the bell will begin the fight. And the sound of the bell will end the fight. You will have five minutes to decide who is the winner. In the event that your duel comes to a draw, you will both forfeit your prizes and your collateral. Nothing is off-limits. Your time begins…”
-&gt;A bell clangs over the loudspeakers
-&gt;”NOW!”
-
-&gt;Like last time, the match begins with Shiva in a dead sprint on all fours, building tension and energy in his hind legs
-&gt;Koda remains rooted in place
-&gt;You dig your nails into the seat as you watch Shiva cover the short distance between himself and your champion
-&gt;He digs in deep and pounces, letting slip a horrible, crowd hushing roar, his arms extended to rend flesh from bone
-&gt;The gray wolf extends her own wingspan
-&gt;Leans backwards
-&gt;Bends her knees
-&gt;Wraps her arms around Shiva’s misplaced abdomen
-&gt;And allows the tiger’s explosive momentum to carry her backwards into a tight roll
-&gt;Even you start cheering when you witness this feat — this blur of gray and orange melding together, until the orange separates from the gray and goes flying into the wall at the back end of the arena
-&gt;There’s a loud crash as Shiva’s body collides into the raw metal
-&gt;He struggles to gain footing, his legs slipping out from beneath him, trembling with a cocktail of adrenaline and pain
-&gt;Koda, however, is quickly on her own feet, sprinting with a certain kind of violence in her stride
-&gt;That violence is rebuffed by Shiva, who lunges desperately at her from a sitting position
-&gt;The two catch each other, their fingers lacing together, arms outstretched, muscles bulging with the strain and weight of another
-&gt;The tiger begins sliding backwards, though he still keeps Koda at arm’s length
-&gt;The wolf grunts and growls, and digs her legs into the earth, pounding forward as if she were struggling through high-waisted snow
-&gt;”Consider my offer expired!” Shiva cries. “When your body is spent, and your life extinguished, I will not sell your human. NO! I will skin him alive!”
-&gt;The tiger’s eye’s clamp shut
-&gt;He sets his jaw and grits his teeth in strain
-&gt;”You…” Koda says on a gasp of air
-&gt;”…Talk too much.” She throws her arms up and to the side
-&gt;Shiva’s arms go wide as well, and then slacken against his exhausted body
-&gt;It all seems to happen in slow motion
-&gt;Koda’s right arm goes back, muscles rippling with adrenaline stoked strength
-&gt;A fine mist of sweat goes up into the heat of the lights
-&gt;Her fingers clench together into a strained fist, arm erupting forwards like a cannon-blast
-&gt;The strike lands at the tip of Shiva’s already twisted nose
-&gt;The tiger does not fall or crumple like a lifeless doll
-&gt;The hit actually lifts him off his feet, propelling him backwards with such force and speed that the trail of blood he drags from his nose struggles to catch up to his falling body
-&gt;It spatters on the floor like a trail leading to Shiva’s crumpled and unconscious body
-&gt;The explosion of noise from the crowd is enough to force your palms against your ears
-&gt;The commissioner doesn’t look too thrilled that Koda knocked out Shiva so fast
-&gt;Koda shakes her fingers out
-&gt;They glow red with blood
-&gt;You clap
-&gt;And then cheer, though your voice is a whisper in the storm of other voices, howls, screeches and calls
-&gt;The commissioner is escorted down into the pit, and as he descends the stairs, his expression quickly changes from displeasure to excitement
-&gt;Which you suspect is forced
-&gt;He approaches Shiva with his right arm extended, the left clutching the microphone
-&gt;She seems confused, and then, with a trembling body, takes his hand
-&gt;He lifts it into the air, or as best as he can given their size difference
-&gt;”Your winner of tonight’s fight: KODA!” 
-&gt;The audience roars
-&gt;”So Koda, now the fate of two lives are in your hands. Shiva, the defeated,” he gestures towards the crumpled body of the tiger
-&gt;”And the spoils of tonight’s match.”
-&gt;The guards bring a trembling/muzzled retriever out from the crate and into the middle of the pit
-&gt;Koda glances between the two as the crowd falls into a hush
-&gt;She seems to recognize the gravity of her next words
-&gt;Her face twists up with something like anguish
-&gt;Shiva was not a good person
-&gt;He hurt her, attempted to control her, and cheated his way into the ring with a rabid token of entry
-&gt;And speaking of
-&gt;It’s not like anyone would want her. She was rabid, perhaps beyond the help of a doctor or vet
-&gt;Or maybe she was still in the early stages, and there was hope for her with modern medicine?
-&gt;The her eyes fall onto you, seated in the top row, leaning forward
-&gt;She stares at you, as if her soft yellow eyes could whisper a novel’s worth of apologies in silence
-&gt;She turns to the commissioner, bends down to the mic and says:
-&gt;”I would like to spare Shiva.”
-&gt;The crowd gasps, and the buck’s face screws up in frustration
-&gt;Koda continues, nervously glancing around her
-&gt;”And if possible, I will be using a portion of my earnings to fund treatment for my spoils. Both the human and the retriever.”
-&gt;This time the crowd starts to hiss and boo
-&gt;And the commissioner, not sure what to do with his lack of bloodshed, tears the mic from Koda’s mouth
-&gt;”WELLLLL THAT sure is a noble decision (you bitch). We applaud your courage and thank you for your participation.”
-&gt;He shoots a deadly glare over his shoulders at the wolf as he stomps back towards the stairs
-~~~~~~~~~~~~~~~~~~~~~~~
-&gt;You’re sitting across from Koda in a dirty locker room which smells sour with sweat
-&gt;The bruises on her face have inflated and swollen up, drawing your focus as she wipes the sweat from her body
-&gt;She has a towel draped over her shoulders as she shakes
-&gt;You suspect she’s only being kept vertical by adrenaline at this point 
-&gt;The way her head hangs, the way her stomach contracts sharply with every breath — She’s exhausted beyond measure
-&gt;She could barely stand up when the commissioner came out into the pit to declare her the winner and asked her what she planned to do with the spoils
-&gt;And when they practically threw a bag of money at her, you had to help pick it up
-&gt;But even with her bowed head, you can see how wide she’s grinning from ear to ear, intensely satisfied
-&gt;Everything she needs and her family needs can be taken care of, at least for a few months
-&gt;And the retriever could get the needed treatment for her rabies (if it wasn’t too late)
-&gt;Her smile, pulling her face back, says it all, flattening her ears against her skull, putting her tail in fits
-&gt;And you actually start to smile too, despite the circumstances
-“Congratulations,” you say. It still feels weird to congratulate her. You don’t know if you should be
-&gt;Maybe the intensity of the situation is overtaking your ability to logic 
-&gt;Eh
-&gt;She raises her head slowly
-&gt;”Thank you. I… I guess I owe you an apology, don’t I?” She says
-“Wellllll, maybe. You did kidnap me and use me as collateral in an underground fighting ring so you could win money…”
-&gt;She bows her head
-“Butttttt, I did watch you get pummeled. And you won. And more importantly—”
-&gt;You scoot closer to her
-“When I first met you, I thought you were lowlife scum who killed humans for sport. But you’ve shown me that you’ve got a good heart under all that sweaty fur.”
-&gt;She grins
-&gt;You can see her tail excitedly swinging from side to side
-“I guess what I’m trying to say is: You made the right decisions tonight, and that means a lot.”
-&gt;”So…You forgive me for kidnapping you?” She nervously puts forward
-“No. Not unless I get to bandage you,” you say, a wicked smile playing across your face. “I still want to hear you apologize.”
-&gt;Your hands find a bottle of rubbing alcohol
-&gt;She shrinks away from you
-&gt;You shake your head and set the bottle down
-“I’m only fooling around. Here. Let me see your cheek.”
-&gt;You soak a cotton ball in the acrid liquor 
-&gt;Koda’s nose wrinkle
-&gt;”That’s human medicine,” she says, grimacing. “I don’t think it’s going to work on me.”
-“What? Of course it’s going to work on you. You’re just scared because it smells like markers.”
-&gt;She scoots a little further down the bench, eyes nervously locked on the cotton ball
-&gt;”I’m not scared… I just…”
-&gt;You slide up next to her
-&gt;She tries to stand up, but her body protests and forces her back down
-&gt;You grab her by the tail and yank hard
-&gt;She yips pathetically and plants her body back on the bench
-&gt;”Don’t grab me there!” She chirps in an airy squeal
-“Oh?” You tug her tail a little harder, earning another yip from her
-&gt;Man this feels good
-“I’ll stop if you bring your face over here.”
-&gt;Your vice on the base of her tail presses her ears against her skull. She bows her head somewhat submissively and brings her neck around
-&gt;You dab her bloodied cheek with the cotton ball
-&gt;”Ow!” She barks, trying to pull away
-&gt;You have her bound by the tail though, so she quickly swings her head back for more
-&gt;She must not be an alpha in her pack
-&gt;Though she fights you, you manage to swab as much blood off as you can, clean her wound, and then apply a few bandages
-
-&gt;By the time you’re done she’s able to stand on her own with only a little shaking
-&gt;There’s a bandage across her forehead, a few feet of gauze wrapped around her exposed midsection, and several across her nose to stymie the blood loss
-&gt;She looks like a shitty mummy
-&gt;”God I hate that stuff. I don’t know why humans use it,” she licks at the wounds on her fists
-“We use it because it works for us. And it works for you too.”
-&gt;”It better. I suffered for this.” 
-“Oh boo hoo. You’re still technically a criminal.” 
-&gt;”Right,” she breathes an exhausted sigh and leans up against the wall next to the exit, pressing her hot cheeks against the cool tile
-&gt;”I feel dizzy.” 
-“It’s probably from getting your ass beaten so badly,” you say with a slight snicker
-&gt;A small, almost pathetic growl escapes her chest
-&gt;”You’re lucky I’m so woozy or I’d take a bite out of your neck.”
-“Well, you or Shiva up there,” you jab a thumb upwards
-&gt;The tiger was likely still fuming up there with the commissioner, demanding he get a rematch, or some of his money back, or something
-&gt;You were glad to be down in the catacombs beneath the pit
-&gt;For once, deeper underground felt safer
-&gt;She points her chin upwards, ears twitching as she listens
-&gt;”I can hear a few footsteps up there, but I think I hear the ocean more than anything.”
-&gt;You place yourself next to her
-“Rather see the ocean than hear it right now. C’mon. Let’s go.”
-&gt;She nods and starts forward
-&gt;Only to stumble
-&gt;She braces herself against a wall for support
-&gt;”Damnit!” she hisses, putting her weight against the wall again
-“What’s up?”
-&gt;She points at her trembling leg
-&gt;Where Shiva had hit her with a wild kick
-&gt;”Bum leg.”
-&gt;You stare at her wounded appendage for a minute and feel something tight pulling at your heart
-&gt;Something warm wrapping itself around your innards, and a little voice in your head that’s telling you to do the right thing
-&gt;What is this… this feeling?
-&gt;Sympathy?
-&gt;She did kidnap you, so why are you feeling sympathetic towards her? 
-&gt;She’s staring at you, and when your eyes meet she flicks her gaze away down the hall
-&gt;It’s almost like she’s waiting for you to make up your mind
-&gt;You slip under her frame, throwing her arm around your shoulder
-&gt;“The hell are you doing?” She says with some manner of aggression, though she puts up no resistance. “We’re going to look stupid.”
-“You look stupid,” you say, pushing upwards against the limp weight of her arm
-&gt;Damn she’s heavy
-&gt;And her tail wiggling is going to throw you off balance
-
-&gt;You don’t bother to hide your amusement as the nearly seven foot tall wolf girl leans on you for support on your way from the warehouse that kept the pits like a secret
-&gt;You taste fresh, salty air for the first time in a long time, relishing in the smell of all things that live near the ocean’s reach, and the smell of the city — an amalgamation of trash and seawater
-&gt;It smells like flowers to you right now
-&gt;The sun is just beginning to glow in the sky as you and Koda make your way back onto more populated roads, eyes scanning for a bus
-&gt;”So,” she says, looking down an empty road. “What are your plans now?”
-&gt;You really didn’t have anything thought out
-&gt;You had missed sleep, so you were feeling a bit wired, and more than that, you were starved
-“I guess…Hmmm, breakfast? It’s like 4 a.m.”
-&gt;Her ears go stiff atop her head at the mention of the word
-&gt;”Breakfast? Is there a breakfast place around here?” She says
-&gt;Fuck, you have no idea. You’ve never been to this part of town
-&gt;”Actually— Never mind. We can find one.”
-“WE?” You repeat with an air of incredulity
-&gt;Koda’s spine straightens and she shakes the confusion from her head
-&gt;Though you notice her tail is unable to stop wagging
-&gt;”S-Sorry. I guess I’m confused-“
-“No, you’re not confused. I think you’re trying to say something.”
-&gt;Her face glows red behind her bandages
-&gt;”I-“
-“The answer is yes, by the way,” you cut in. “I will go to breakfast with you. You owe me an expensive, hot meal.”
-&gt;You can’t restrain your smile anymore
-&gt;Her tail threatens to sweep you off your feet — and not in the romantic sense
-&gt;It’s fanning so quickly that you actually start to feel cold walking behind her
-&gt;So you you decide to walk next to her, and talk along the way, until you find a place to settle down and grab a bite to eat
-
-https://www.youtube.com/watch?v=GfRq8KhLM_M</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    5 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    32 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    60 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

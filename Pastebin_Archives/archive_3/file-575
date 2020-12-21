@@ -1,533 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Identity - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Identity - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/qPEPUgGy" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/qPEPUgGy" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="3l6LclbtyxfJQu4H5_JaPjN1vfyAvjv1PB82E03_q9epbr0Ce9-tc697jU6ppTIGSi_KnurkacAReBtbILecnw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/qPEPUgGy" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/qPEPUgGy" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/cache/img/14/24/1/4759351.jpg" alt="Hindered">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Identity</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Hindered">Hindered</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Hindered" class="message" title="Send a private message to: Hindered"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 11th of June 2019 10:26:50 PM CDT">Jun 11th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,758                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 22.68 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/qPEPUgGy" class="btn -small">raw</a>
-                    <a href="/dl/qPEPUgGy" class="btn -small">download</a>
-                    <a href="/clone/qPEPUgGy" class="btn -small h_800">clone</a>
-                    <a href="/embed/qPEPUgGy" class="btn -small h_800">embed</a>
-                    <a href="/print/qPEPUgGy" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/qPEPUgGy" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">“Christ, it’s really pouring out there, huh?” You gradually shift to your side, rolling over just enough to get a good look at the double-pane window opposite your bed. The soft pitter-patter of the rain from earlier has grown to a raucous drumming against the rooftop, and unfortunately, you know that this spells the end of any hope of getting a good night’s sleep. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Damn, damn, damn,” you mutter, rubbing your bleary eyes. “Wonder what time it is anyway.” With an outstretched hand, you reach for your phone on the nearby wooden end table, only to grimace upon reading its clock.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s not even four in the morning yet! Man, what rotten luck.” With a brief moment of hesitation, you swing your right leg over your mattress and force yourself to stand up. It’s definitely chilly inside, but you figure anything is better than counting the cracks in the ceiling again. Who knows, maybe you’ll make some more headway in that good book you picked up yesterday—that is, if you’re coherent enough to actually read it properly at this hour.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You take a few lumbering steps towards the doorway, moving in relative silence, except…</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hold on a second.” Something doesn’t seem right. “Did this always make that noise?” you wonder aloud, using your big toe to press against the offending floorboard that had disrupted your peace of mind. It’s not a big surprise that your home has achy bones, considering its age, but you’re normally pretty good at taking note when this stuff initially comes up.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“This place must be preparing itself to fall apart on me one of these days. Either that, or I’m being haunted by a former tenant.” Sporting a wry smile, you attempt to move forward with a little more haste—</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">CREAK.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Wha…what?” You didn’t even have the opportunity to plant your foot again before you heard it this time around. “Am I imagining things? It’s like the board expected me to step on it.” You’re growing increasingly flustered, but you’re certain there has to be an explanation, regardless of the spooky ambiance. Shaking your head vigorously, you try to clear out all the worrisome thoughts vying for your attention.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Is there someone here? You know, other than me? Hello?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Nothing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Come on out, wherever you are!” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Still nothing. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t like this. I don’t like this one bit,” you groan.  “I’m not cut out for this horror movie crap, I swear.” Just to be safe, you make the most of your limited flexibility to take a long stride into the hallway unscathed. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Not quite satisfied, you turn back around to do a quick visual inspection of your room. Darting your eyes back and forth, you check against the walls, around your desk, near your clothes hamper—but you don’t detect anything out of the ordinary. “I must be hallucinating,” you rationalize, “and I bet it’s because I’m only half-awake…yeah, that must be the reason.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Somehow, in spite of your apprehension, you find the nerve to call out one last time. “Hey, if there’s a monster out there that wants to kill me,” you holler, “you’d be doing me a favor since I wouldn’t have to go into work this morning!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Your attempt at morbid humor yields no laughter or applause, but you’re reasonably confident that no response at all is the best kind at this point. “Jeez, I’m a mess, aren’t I?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">With uncanny timing, a loud rumble of thunder erupts from outside, as if to answer in assent—followed in quick succession by a thud and a barely perceptible “ow.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“…‘ow?’” you echo in disbelief, struggling desperately to figure out the source of this unfamiliar voice. With a lump developing in your throat, you just barely utter, “What kind of monster says ‘ow?’” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Please, don’t hurt me!” The plaintive appeal is enough to jar you from your stupefied state, and what’s more—it could clearly be heard coming from underneath your bed. Your eyesight isn’t the best, especially at night, but you could swear that there’s a pitch black hoof of an animal starting to poke out past the extent of the bed frame. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I-I’ll leave you alone, I promise!” the feminine voice pleads, the underlying tone of dread making your stomach turn several times over. “J-just let me go free, and I w-won’t trouble you anymore!” Whatever it is, it’s certainly scared out of its wits. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Wait! I guarantee I’m frightened just as badly as you are,” you concede, observing your own shaking hands. “But…who or what are you, exactly?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There’s a brief silence that fills the air with tangible tension. “Me? Well, actually…” A pair of brown arms suddenly emerges from the darkness—hold on, is that fur?—followed by a head resembling that of a deer—or perhaps a regular person—maybe both? </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“…I’m not too much different from you.” She takes a quick look at you and smiles impulsively, as if to reassure you that she’s calmed down some. Her sentiment, however, is betrayed by the fear that’s still lingering in her eyes. Before you can say something in return, she wriggles the rest of her body free, revealing a rather lanky frame that is marked by a variety of small gashes and adorned by a couple of grimy, tattered garments of clothing. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The dreadful sight strikes a resonant chord within you, and you find yourself starting to babble. “Oh…oh jeez, are you all right? Do you need medical attention? Is there anything—”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Don’t worry about me, honest,” she interjects with a dismissive wave of her hand, catching you off-guard. “I’ll just get out of your hair now before I cause you any other problems.” Trying to move nimbly, she stands and manages a couple of unsteady steps, but it’s all she can muster before collapsing down on one knee with a gasp. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shit!” she exclaims, respiring heavily as she attempts to suppress the apparent pain. “I’m all right, just…just a slight twinge, that’s all,” she murmurs dejectedly. You watch in disbelief as she awkwardly rises once more, only to be brought down just as swiftly by whatever injury is debilitating her.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Stop it!” you cry out, putting your hands on her bony shoulders for support. “Don’t be foolish; you’re in no condition to walk out of here on your own volition.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She stares at the floor, avoiding any and all eye contact with you. “You’re right,” she rasps, “I am the fool.” With a sniffle, she straightens out her posture just enough to no longer be slouching.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sorry; that’s not what I meant—”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m not asking for your pity!” she bellows, slamming a fist into the ground with such force that you relinquish your touch. Reluctantly, she dares to look up at you, but it wrenches at your heart to see her lower lip quivering uncontrollably. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You suspect that she’s too proud to cry in front of you, even if she was practically begging for her life mere moments ago. Perhaps it’s the sheer instinct for survival that spurs her actions, but you can’t be sure when you don’t know the individual you’re dealing with. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t mean to impose,” you offer, taking a deep breath, “and it’s not my intent to talk down to you either. However, you’re a stranger taking refuge in my home, and normally, guests introduce themselves before making themselves comfortable here.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’d hardly call being sprawled out under a bed frame being ‘comfortable,’” she pouts, finding some semblance of composure again. “Is it really that hard to fathom why I’d be here, when there’s THAT going on outside?” She gestures to the window, emphasizing the downpour of the storm that is still raging as you two converse.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure,” you acknowledge, “any reasonable creature would want to find shelter from heavy rain. But that doesn’t explain how you’ve gotten all dirty and banged up, does it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She flinches, although you can’t tell whether it’s from a physical or emotional wound. “Does it even matter to you? Why do you care?” She’s lowered her voice some, at least for now. “You’ve probably never even SEEN someone like me before, so why are you letting your guard down?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, I don’t find you particularly scary or threatening.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, is that so? You think you can just take one glance and profile me, huh?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I never said anything like that,” you assert, puzzled by her defensiveness. “So why are you assuming the worst of me?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I should say the same to you!” She pauses, fighting to sustain her resolve. “I’m a spectacle at best and a monster at worst, so d-don’t play with my heart…and try to convince me…you’re any different than they are!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">There’s that word again—“monster.” You didn’t mean much of it when you said it, but it’s carved out a much stronger significance in her mind than you could have anticipated. Inadvertent or not, you feel a pang of sadness for unearthing such deeply rooted feelings.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She’s still trembling; whether it’s the cold or sheer anger, she’s pretty damn stubborn. These sorts of outbursts, though, aren’t going to get anyone anywhere. Maybe the best way to defuse the situation is to let her make her own judgments, rather than to enforce your own upon her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“All right, then, if you insist.” Before walking out of sight, you open the closest cabinet door to pull out a fleece blanket, and then casually toss it toward her direction. “You should at least take this to keep warm until the rain stops. It’s too cold to be dressed as you are.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She locks eyes with you for a few seconds, unrelenting in her steely gaze, but you can’t help but appreciate the simplicity of her appearance. Crazy enough, you may even deign to consider her kind of…well, attractive, for whatever it’s worth. While you don’t have a clue what she’s thinking in this moment, you hope that this olive branch helps to smooth the edges of her disposition towards you, even if it’s just by a little. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Clutching the blanket with a firm grasp, she reluctantly wraps herself up, leaving just her face, tail, and long ears exposed. You almost expect her to crawl into your bed too, but she appears resigned to just sit still until you leave her presence. Nodding, you break away to go find the book that first inspired you to get up in the first place. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">***</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Aside from the inclement weather, it’s been soothingly quiet for the past few hours. Left undisturbed, you’ve just about made it to the good part of—</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That book you got there? What’s it about?” The deer lady—does she have an actual name?—has wedged her jaw into the gap separating the current pages of your novel. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You’ve grown accustomed to solitude at home, and it won’t be an easy adjustment if she’s going to be here for any great length of time. However, you can’t say you’re not intrigued by the prospect of having some interesting company hanging around.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, this thing here? It’s one of those cop and robber types of things. You know, where there’s some elaborate scheme to rob something expensive or significant, and the whole plot is so incredibly convoluted that you start to wonder why you’re even reading the damn book in the first place.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She lowers her chin, pushing the book further into your lap. “Sounds complicated. Petty theft is more of my kind of thing anyway.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Uh…what do you mean?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Well, when you’ve gotta fend for yourself and don’t have a whole lot of honest options…oh, come on, don’t give me that look.” You didn’t even realize you were making a look in the first place, but harboring a possible criminal isn’t exactly what you had in mind for breakfast.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Err, excuse me, but what’s your name?” you ask, looking to scratch the itch that’s made its way to the forefront of your brain.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Gonna turn me in, chief?” She stands up, favoring her good leg, and smirks. “It’s Della. Nice and simple.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s a pretty name, truthfully,” you admit. “I was worried I was going to have to call you ‘deer lady’ or ‘deer woman’ until the end of time, and that doesn’t sound quite as…‘nice,’ as you put it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’d be a saint in comparison even if you stuck with that.” Limping noticeably, she just barely makes it to recline upon the seat cushion next to you on the fabric couch. “I’ve given you my name, so tell me yours. I’m curious.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You relay the information she’s requested. “It’s not a very common name, but it seems to show up a lot more frequently on the internet for some reason.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Huh, the more you know…”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It’s a marvel to see how much she’s mellowed out. She’s rather pleasant to talk to, in spite of a seemingly checkered past. At the moment, however, there are more important tidbits you need to get out of her before you can feel at ease. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Earlier…I asked you some questions that you decided to dodge completely. I’m not one to pry, but I’m going to need some answers, with interest, if you could so kindly provide them to me.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah, yeah, don’t try to dress up your interrogation with smarmy lingo. Just shoot already.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Can you tell me why you ended up here? And more particularly, what the hell you were doing under my bed?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her somber expression fails to waver, but you sense that she’s more open to talking this go-around. “Hmph. Well, as a guy like you might guess, I have a couple of things going against me. One: my silhouette alone is enough to elicit a strong reaction. A baby may begin to cry, or it may very well recoil from seeing my face. A hunter in the woods, perhaps, may think I’m worthy of a bullet or three.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Shutting the book that had been resting peacefully on your person, you express your sympathies to Della. “What did I say? I don’t want your pity, all right?” She turns to you, making sure you’re paying close attention. “Just your understanding is enough.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Then my understanding is what you’ll get.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Fair deal. Anyway, the second thing, which I kinda started to explain, is, well, I’ve got a bit of a history. Not to make light of my own actions, since I’ve got to live with them. But the fact of the matter is, I had to scrape and claw just to tread water.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She holds out her left arm, which has a winding scar starting from her elbow halfway down to her wrist. “See this one here? Some schmuck thought he could mug me while I was headed down a dimly lit street in the middle of the night. But the problem was that A, I didn’t have any money, and B, I was—and AM—capable of fighting back. Fucker tried to shank me, but he only cut the surface.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She musters up the broadest grin you’ve ever seen, and you know that this one is definitely genuine. Holding up her right fist, she punches the air with gusto. “You can guess where this ended up. I may not be the strongest or anything, but I can land a stinger on a hook, no problem.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I think I’ll take your word for it.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Getting back to your question—things started to get nasty back where I was living, and it reached a point where I figured anywhere but there would be better. It’s a place called Teneprin. I doubt you’ve ever heard of it, but it’s chock full of shitheads who don’t know how to keep their dirty hands to themselves. Granted, I’m something of a shithead myself, but I’d like to think I lean more neutral than chaotic.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You chuckle. “It seems you’ve done extensive field research on the subject; maybe you can teach me some pointers in the future.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Squirming in her seat, Della succumbs to a bout of laughter herself. “Well, yeah, I should have a damn doctorate in it by now.” She quickly focuses again, returning to her more toughened character. “When I broke free from that hell on earth, I figured the best decision would be to keep moving. Even if the fatigue dragged my body down, all I could think was to get away, far, far away. It’s almost funny to think how relieved I was when I realized I wasn’t swallowed up in its clutches anymore. I’ve been bouncing around from place to place, but the hardest part has been finding shelter.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Was there…” Damn it, you’re not going to enjoy asking this question, despite sensing the answer already. “…was there no one you could reach out to for help?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her breathing immediately grows shallower as she rustles up an answer. “No family…at least none that I ever knew. And I lost contact with the handful of friends I had.” Sighing, she sinks into her seat. “I basically know no one else; I mean, I hardly know MYSELF at this point. All I’ve got is just a name…and the hope that I’ll eventually learn who and what I really am.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You don’t have much you can say to that. There’s an intrinsic desire for you to help, but you’re completely at a loss for how you’d be of use. “I…I just…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Come on, out with it.” She doesn’t strike you as impatient, but you’ve got to make up your mind here.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I just want to find a way…if I can assist you…to—”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Don’t.” She’s doing her best to stifle a more emotional response by rubbing her nose. “I can’t let you do that. If you’re willing, I’ll graciously accept any help you provide as I recuperate, but beyond that, I would be endangering not just my life, but yours also. So thank you, but no.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Worth a shot, at least. You start running your fingers through your hair to distract yourself from being distraught, but she’s keen to your behavior. “Ah, you’re worrying too much about me again. You shouldn’t get too attached to a drifter, you know?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Yeah.” It’s not the kind of rejection you’ve experienced before, but boy, does it still hurt like a bitch anyway. “So you decided this was the best place to serve as a rest stop?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Mhm. I did stay camped outside your place for a couple of days, seeing as the weather was piss poor. I’m not a fan of being totally drenched, so I kinda…sorta…watched you from afar to learn your daily habits. You know, so I could figure out when it was safe to go in and out of your place.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You do a double take, trying to parse your mixed feelings of disgust and intrigue. “What the hell! You’re more perverted than you look!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey, hey, easy on the whole ‘looks’ thing. I’m sensitive!” Della retorts sarcastically. “Don’t get yourself so bent out of shape, yeesh. It’s not like you gave me a whole lot of opportunity to be inside when you leave infrequently to begin with.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You can feel the subtle burn eating away at your skin, but an epiphany strikes you at that very moment. “Hold on, how did you get in when I keep the door and windows locked?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, uh, if you didn’t already notice, your place is seriously a candidate for demolition. There are some major holes in the foundation that are being covered up by shrubbery outside. Doesn’t take a whole lot of effort to push it all aside and crawl through.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She makes a motion of knocking with her hand. “To figure out if there were any cutaways in your floor, I timed the noise with the ongoing thunder. There’s a spot in the corner of your closet that can be pushed aside and opened up, so I took advantage. I should probably thank you for the food and hospitality that you provided me without you actually knowing, huh?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You smile, realizing that your recollection of the refrigerator being better stocked wasn’t a figment of your imagination. Under more conventional circumstances, you’d be seriously unsettled, but if anything, you’re impressed by her resourcefulness. “Well, I’ve got to give you credit for thinking that one all the way through,” you inform Della, “but I guess hitting your head against my bed frame wasn’t part of the plan.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Embarrassed, she covers up her face. “You returned from your errand or whatever you were doing much earlier than I expected! I didn’t have a lot of time to react, so I found cover and hoped to wait until you left again. I got a little spooked out and revealed myself accidentally, okay?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We were both a little spooked out; don&#039;t worry about it. As for the errand I was running, there’s a grocery store nearby, so I go there every so often to get more supplies.” For a second, you consider asking her if she’d like to come with you next time, but you figure it’s better that she stays concealed for now.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Della…I really appreciate you being so willing to talk to me, despite our differences,” you remark, facing her to prove your earnestness. “What made you open up? I was worried back there you were going to try to bail out to brave the cold and your injuries by yourself.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Let’s see, how can I put it—‘well, I don’t find you particularly scary or threatening,’ I suppose. And considering all the shit I’ve had to deal with, that’s good enough for me.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">It’s kind of strange, but you think you’re getting warm fuzzies from that backhanded compliment. As you bask in the pleasant feeling, however, something catches your eye.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Caught up in all the chatting, you just now realize that rays of light are starting to pour in from outside, illuminating the two of you with a soft glow. You guess the rain must have subsided quite some time ago. “Huh, so the sun still rises after all,” you quip.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So it does…so it does. A warm welcome indeed.” She must be captivated by the view outside, based on how motionless she is. Admittedly, this is a big reason why you live a good distance away from suburbia—the beauty of the surrounding nature is really something to behold, once you overcome the chronic loneliness that comes with it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Uh…I hate to bother you any more than I already have, but would it be all right if I took a shower?” It didn’t take all too long for her to break out of her reverie. “My fur’s gotten rank from the dampness, and I don’t want to stink up the joint being all unclean.” She’s wary of coming across as a freeloader, but you can’t blame her for wanting to be sanitary as a minimum.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“As long as you promise not to clog up the drain. End of the hallway in front of you.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Giving you a thumbs-up, she half-waltzes, half-limps her way to the bathroom. It captures your interest, however, to see her tugging at her clothes to undress herself at the same time. Just as Della rounds the corner, she manages to strip clean, providing you the slightest glimpse of her ass before disappearing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, shit...is she coming on to me?” you say under your breath. Wary of reading too deeply into things, you decide that she was probably just excited to freshen up, as opposed to showing you some indirect form of affection. At the very least, you can file away the memory for safekeeping.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">For now, though, you head for the kitchen, as your current priority is simple: to make a good, hearty breakfast for the two of you.</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">“Christ, it’s really pouring out there, huh?” You gradually shift to your side, rolling over just enough to get a good look at the double-pane window opposite your bed. The soft pitter-patter of the rain from earlier has grown to a raucous drumming against the rooftop, and unfortunately, you know that this spells the end of any hope of getting a good night’s sleep. 
-
-“Damn, damn, damn,” you mutter, rubbing your bleary eyes. “Wonder what time it is anyway.” With an outstretched hand, you reach for your phone on the nearby wooden end table, only to grimace upon reading its clock.
-
-“It’s not even four in the morning yet! Man, what rotten luck.” With a brief moment of hesitation, you swing your right leg over your mattress and force yourself to stand up. It’s definitely chilly inside, but you figure anything is better than counting the cracks in the ceiling again. Who knows, maybe you’ll make some more headway in that good book you picked up yesterday—that is, if you’re coherent enough to actually read it properly at this hour.
-
-You take a few lumbering steps towards the doorway, moving in relative silence, except…
-
-“Hold on a second.” Something doesn’t seem right. “Did this always make that noise?” you wonder aloud, using your big toe to press against the offending floorboard that had disrupted your peace of mind. It’s not a big surprise that your home has achy bones, considering its age, but you’re normally pretty good at taking note when this stuff initially comes up.
-
-“This place must be preparing itself to fall apart on me one of these days. Either that, or I’m being haunted by a former tenant.” Sporting a wry smile, you attempt to move forward with a little more haste—
-
-CREAK.
-
-“Wha…what?” You didn’t even have the opportunity to plant your foot again before you heard it this time around. “Am I imagining things? It’s like the board expected me to step on it.” You’re growing increasingly flustered, but you’re certain there has to be an explanation, regardless of the spooky ambiance. Shaking your head vigorously, you try to clear out all the worrisome thoughts vying for your attention.
-
-“Is there someone here? You know, other than me? Hello?” 
-
-Nothing.
-
-“Come on out, wherever you are!” 
-
-Still nothing. 
-
-“I don’t like this. I don’t like this one bit,” you groan.  “I’m not cut out for this horror movie crap, I swear.” Just to be safe, you make the most of your limited flexibility to take a long stride into the hallway unscathed. 
-
-Not quite satisfied, you turn back around to do a quick visual inspection of your room. Darting your eyes back and forth, you check against the walls, around your desk, near your clothes hamper—but you don’t detect anything out of the ordinary. “I must be hallucinating,” you rationalize, “and I bet it’s because I’m only half-awake…yeah, that must be the reason.” 
-
-Somehow, in spite of your apprehension, you find the nerve to call out one last time. “Hey, if there’s a monster out there that wants to kill me,” you holler, “you’d be doing me a favor since I wouldn’t have to go into work this morning!”
-
-Your attempt at morbid humor yields no laughter or applause, but you’re reasonably confident that no response at all is the best kind at this point. “Jeez, I’m a mess, aren’t I?”
-
-With uncanny timing, a loud rumble of thunder erupts from outside, as if to answer in assent—followed in quick succession by a thud and a barely perceptible “ow.”
-
-“…‘ow?’” you echo in disbelief, struggling desperately to figure out the source of this unfamiliar voice. With a lump developing in your throat, you just barely utter, “What kind of monster says ‘ow?’” 
-
-“Please, don’t hurt me!” The plaintive appeal is enough to jar you from your stupefied state, and what’s more—it could clearly be heard coming from underneath your bed. Your eyesight isn’t the best, especially at night, but you could swear that there’s a pitch black hoof of an animal starting to poke out past the extent of the bed frame. 
-
-“I-I’ll leave you alone, I promise!” the feminine voice pleads, the underlying tone of dread making your stomach turn several times over. “J-just let me go free, and I w-won’t trouble you anymore!” Whatever it is, it’s certainly scared out of its wits. 
-
-“Wait! I guarantee I’m frightened just as badly as you are,” you concede, observing your own shaking hands. “But…who or what are you, exactly?”
-
-There’s a brief silence that fills the air with tangible tension. “Me? Well, actually…” A pair of brown arms suddenly emerges from the darkness—hold on, is that fur?—followed by a head resembling that of a deer—or perhaps a regular person—maybe both? 
-
-“…I’m not too much different from you.” She takes a quick look at you and smiles impulsively, as if to reassure you that she’s calmed down some. Her sentiment, however, is betrayed by the fear that’s still lingering in her eyes. Before you can say something in return, she wriggles the rest of her body free, revealing a rather lanky frame that is marked by a variety of small gashes and adorned by a couple of grimy, tattered garments of clothing. 
-
-The dreadful sight strikes a resonant chord within you, and you find yourself starting to babble. “Oh…oh jeez, are you all right? Do you need medical attention? Is there anything—”
-
-“Don’t worry about me, honest,” she interjects with a dismissive wave of her hand, catching you off-guard. “I’ll just get out of your hair now before I cause you any other problems.” Trying to move nimbly, she stands and manages a couple of unsteady steps, but it’s all she can muster before collapsing down on one knee with a gasp. 
-
-“Shit!” she exclaims, respiring heavily as she attempts to suppress the apparent pain. “I’m all right, just…just a slight twinge, that’s all,” she murmurs dejectedly. You watch in disbelief as she awkwardly rises once more, only to be brought down just as swiftly by whatever injury is debilitating her.  
-
-“Stop it!” you cry out, putting your hands on her bony shoulders for support. “Don’t be foolish; you’re in no condition to walk out of here on your own volition.”
-
-She stares at the floor, avoiding any and all eye contact with you. “You’re right,” she rasps, “I am the fool.” With a sniffle, she straightens out her posture just enough to no longer be slouching.  
-
-“Sorry; that’s not what I meant—”
-
-“I’m not asking for your pity!” she bellows, slamming a fist into the ground with such force that you relinquish your touch. Reluctantly, she dares to look up at you, but it wrenches at your heart to see her lower lip quivering uncontrollably. 
-
-You suspect that she’s too proud to cry in front of you, even if she was practically begging for her life mere moments ago. Perhaps it’s the sheer instinct for survival that spurs her actions, but you can’t be sure when you don’t know the individual you’re dealing with. 
-
-“I don’t mean to impose,” you offer, taking a deep breath, “and it’s not my intent to talk down to you either. However, you’re a stranger taking refuge in my home, and normally, guests introduce themselves before making themselves comfortable here.”
-
-“I’d hardly call being sprawled out under a bed frame being ‘comfortable,’” she pouts, finding some semblance of composure again. “Is it really that hard to fathom why I’d be here, when there’s THAT going on outside?” She gestures to the window, emphasizing the downpour of the storm that is still raging as you two converse.
-
-“Sure,” you acknowledge, “any reasonable creature would want to find shelter from heavy rain. But that doesn’t explain how you’ve gotten all dirty and banged up, does it?”
-
-She flinches, although you can’t tell whether it’s from a physical or emotional wound. “Does it even matter to you? Why do you care?” She’s lowered her voice some, at least for now. “You’ve probably never even SEEN someone like me before, so why are you letting your guard down?”
-
-“Well, I don’t find you particularly scary or threatening.”
-
-“Oh, is that so? You think you can just take one glance and profile me, huh?”
-
-“I never said anything like that,” you assert, puzzled by her defensiveness. “So why are you assuming the worst of me?”
-
-“I should say the same to you!” She pauses, fighting to sustain her resolve. “I’m a spectacle at best and a monster at worst, so d-don’t play with my heart…and try to convince me…you’re any different than they are!”
-
-There’s that word again—“monster.” You didn’t mean much of it when you said it, but it’s carved out a much stronger significance in her mind than you could have anticipated. Inadvertent or not, you feel a pang of sadness for unearthing such deeply rooted feelings.
-
-She’s still trembling; whether it’s the cold or sheer anger, she’s pretty damn stubborn. These sorts of outbursts, though, aren’t going to get anyone anywhere. Maybe the best way to defuse the situation is to let her make her own judgments, rather than to enforce your own upon her.
-
-“All right, then, if you insist.” Before walking out of sight, you open the closest cabinet door to pull out a fleece blanket, and then casually toss it toward her direction. “You should at least take this to keep warm until the rain stops. It’s too cold to be dressed as you are.”
-
-She locks eyes with you for a few seconds, unrelenting in her steely gaze, but you can’t help but appreciate the simplicity of her appearance. Crazy enough, you may even deign to consider her kind of…well, attractive, for whatever it’s worth. While you don’t have a clue what she’s thinking in this moment, you hope that this olive branch helps to smooth the edges of her disposition towards you, even if it’s just by a little. 
-
-Clutching the blanket with a firm grasp, she reluctantly wraps herself up, leaving just her face, tail, and long ears exposed. You almost expect her to crawl into your bed too, but she appears resigned to just sit still until you leave her presence. Nodding, you break away to go find the book that first inspired you to get up in the first place. 
-
-***
-
-Aside from the inclement weather, it’s been soothingly quiet for the past few hours. Left undisturbed, you’ve just about made it to the good part of—
-
-“That book you got there? What’s it about?” The deer lady—does she have an actual name?—has wedged her jaw into the gap separating the current pages of your novel. 
-
-You’ve grown accustomed to solitude at home, and it won’t be an easy adjustment if she’s going to be here for any great length of time. However, you can’t say you’re not intrigued by the prospect of having some interesting company hanging around.
-
-“Oh, this thing here? It’s one of those cop and robber types of things. You know, where there’s some elaborate scheme to rob something expensive or significant, and the whole plot is so incredibly convoluted that you start to wonder why you’re even reading the damn book in the first place.”
-
-She lowers her chin, pushing the book further into your lap. “Sounds complicated. Petty theft is more of my kind of thing anyway.”
-
-“Uh…what do you mean?”
-
-“Well, when you’ve gotta fend for yourself and don’t have a whole lot of honest options…oh, come on, don’t give me that look.” You didn’t even realize you were making a look in the first place, but harboring a possible criminal isn’t exactly what you had in mind for breakfast.
-
-“Err, excuse me, but what’s your name?” you ask, looking to scratch the itch that’s made its way to the forefront of your brain.
-
-“Gonna turn me in, chief?” She stands up, favoring her good leg, and smirks. “It’s Della. Nice and simple.”
-
-“It’s a pretty name, truthfully,” you admit. “I was worried I was going to have to call you ‘deer lady’ or ‘deer woman’ until the end of time, and that doesn’t sound quite as…‘nice,’ as you put it.”
-
-“You’d be a saint in comparison even if you stuck with that.” Limping noticeably, she just barely makes it to recline upon the seat cushion next to you on the fabric couch. “I’ve given you my name, so tell me yours. I’m curious.”
-
-You relay the information she’s requested. “It’s not a very common name, but it seems to show up a lot more frequently on the internet for some reason.”
-
-“Huh, the more you know…”
-
-It’s a marvel to see how much she’s mellowed out. She’s rather pleasant to talk to, in spite of a seemingly checkered past. At the moment, however, there are more important tidbits you need to get out of her before you can feel at ease. 
-
-“Earlier…I asked you some questions that you decided to dodge completely. I’m not one to pry, but I’m going to need some answers, with interest, if you could so kindly provide them to me.”
-
-“Yeah, yeah, don’t try to dress up your interrogation with smarmy lingo. Just shoot already.”
-
-“Can you tell me why you ended up here? And more particularly, what the hell you were doing under my bed?”
-
-Her somber expression fails to waver, but you sense that she’s more open to talking this go-around. “Hmph. Well, as a guy like you might guess, I have a couple of things going against me. One: my silhouette alone is enough to elicit a strong reaction. A baby may begin to cry, or it may very well recoil from seeing my face. A hunter in the woods, perhaps, may think I’m worthy of a bullet or three.”
-
-Shutting the book that had been resting peacefully on your person, you express your sympathies to Della. “What did I say? I don’t want your pity, all right?” She turns to you, making sure you’re paying close attention. “Just your understanding is enough.”
-
-“Then my understanding is what you’ll get.”
-
-“Fair deal. Anyway, the second thing, which I kinda started to explain, is, well, I’ve got a bit of a history. Not to make light of my own actions, since I’ve got to live with them. But the fact of the matter is, I had to scrape and claw just to tread water.” 
-
-She holds out her left arm, which has a winding scar starting from her elbow halfway down to her wrist. “See this one here? Some schmuck thought he could mug me while I was headed down a dimly lit street in the middle of the night. But the problem was that A, I didn’t have any money, and B, I was—and AM—capable of fighting back. Fucker tried to shank me, but he only cut the surface.”
-
-She musters up the broadest grin you’ve ever seen, and you know that this one is definitely genuine. Holding up her right fist, she punches the air with gusto. “You can guess where this ended up. I may not be the strongest or anything, but I can land a stinger on a hook, no problem.”
-
-“I think I’ll take your word for it.”
-
-“Getting back to your question—things started to get nasty back where I was living, and it reached a point where I figured anywhere but there would be better. It’s a place called Teneprin. I doubt you’ve ever heard of it, but it’s chock full of shitheads who don’t know how to keep their dirty hands to themselves. Granted, I’m something of a shithead myself, but I’d like to think I lean more neutral than chaotic.”
-
-You chuckle. “It seems you’ve done extensive field research on the subject; maybe you can teach me some pointers in the future.”
-
-Squirming in her seat, Della succumbs to a bout of laughter herself. “Well, yeah, I should have a damn doctorate in it by now.” She quickly focuses again, returning to her more toughened character. “When I broke free from that hell on earth, I figured the best decision would be to keep moving. Even if the fatigue dragged my body down, all I could think was to get away, far, far away. It’s almost funny to think how relieved I was when I realized I wasn’t swallowed up in its clutches anymore. I’ve been bouncing around from place to place, but the hardest part has been finding shelter.”
-
-“Was there…” Damn it, you’re not going to enjoy asking this question, despite sensing the answer already. “…was there no one you could reach out to for help?”
-
-Her breathing immediately grows shallower as she rustles up an answer. “No family…at least none that I ever knew. And I lost contact with the handful of friends I had.” Sighing, she sinks into her seat. “I basically know no one else; I mean, I hardly know MYSELF at this point. All I’ve got is just a name…and the hope that I’ll eventually learn who and what I really am.” 
-
-You don’t have much you can say to that. There’s an intrinsic desire for you to help, but you’re completely at a loss for how you’d be of use. “I…I just…” 
-
-“Come on, out with it.” She doesn’t strike you as impatient, but you’ve got to make up your mind here.
-
-“I just want to find a way…if I can assist you…to—”
-
-“Don’t.” She’s doing her best to stifle a more emotional response by rubbing her nose. “I can’t let you do that. If you’re willing, I’ll graciously accept any help you provide as I recuperate, but beyond that, I would be endangering not just my life, but yours also. So thank you, but no.”
-
-Worth a shot, at least. You start running your fingers through your hair to distract yourself from being distraught, but she’s keen to your behavior. “Ah, you’re worrying too much about me again. You shouldn’t get too attached to a drifter, you know?”
-
-“Yeah.” It’s not the kind of rejection you’ve experienced before, but boy, does it still hurt like a bitch anyway. “So you decided this was the best place to serve as a rest stop?”
-
-“Mhm. I did stay camped outside your place for a couple of days, seeing as the weather was piss poor. I’m not a fan of being totally drenched, so I kinda…sorta…watched you from afar to learn your daily habits. You know, so I could figure out when it was safe to go in and out of your place.”
-
-You do a double take, trying to parse your mixed feelings of disgust and intrigue. “What the hell! You’re more perverted than you look!”
-
-“Hey, hey, easy on the whole ‘looks’ thing. I’m sensitive!” Della retorts sarcastically. “Don’t get yourself so bent out of shape, yeesh. It’s not like you gave me a whole lot of opportunity to be inside when you leave infrequently to begin with.”
-
-You can feel the subtle burn eating away at your skin, but an epiphany strikes you at that very moment. “Hold on, how did you get in when I keep the door and windows locked?”
-
-“Oh, uh, if you didn’t already notice, your place is seriously a candidate for demolition. There are some major holes in the foundation that are being covered up by shrubbery outside. Doesn’t take a whole lot of effort to push it all aside and crawl through.” 
-
-She makes a motion of knocking with her hand. “To figure out if there were any cutaways in your floor, I timed the noise with the ongoing thunder. There’s a spot in the corner of your closet that can be pushed aside and opened up, so I took advantage. I should probably thank you for the food and hospitality that you provided me without you actually knowing, huh?”
-
-You smile, realizing that your recollection of the refrigerator being better stocked wasn’t a figment of your imagination. Under more conventional circumstances, you’d be seriously unsettled, but if anything, you’re impressed by her resourcefulness. “Well, I’ve got to give you credit for thinking that one all the way through,” you inform Della, “but I guess hitting your head against my bed frame wasn’t part of the plan.”
-
-Embarrassed, she covers up her face. “You returned from your errand or whatever you were doing much earlier than I expected! I didn’t have a lot of time to react, so I found cover and hoped to wait until you left again. I got a little spooked out and revealed myself accidentally, okay?”
-
-“We were both a little spooked out; don&#039;t worry about it. As for the errand I was running, there’s a grocery store nearby, so I go there every so often to get more supplies.” For a second, you consider asking her if she’d like to come with you next time, but you figure it’s better that she stays concealed for now.
-
-“Della…I really appreciate you being so willing to talk to me, despite our differences,” you remark, facing her to prove your earnestness. “What made you open up? I was worried back there you were going to try to bail out to brave the cold and your injuries by yourself.”
-
-“Let’s see, how can I put it—‘well, I don’t find you particularly scary or threatening,’ I suppose. And considering all the shit I’ve had to deal with, that’s good enough for me.”
-
-It’s kind of strange, but you think you’re getting warm fuzzies from that backhanded compliment. As you bask in the pleasant feeling, however, something catches your eye.
-
-Caught up in all the chatting, you just now realize that rays of light are starting to pour in from outside, illuminating the two of you with a soft glow. You guess the rain must have subsided quite some time ago. “Huh, so the sun still rises after all,” you quip.
-
-“So it does…so it does. A warm welcome indeed.” She must be captivated by the view outside, based on how motionless she is. Admittedly, this is a big reason why you live a good distance away from suburbia—the beauty of the surrounding nature is really something to behold, once you overcome the chronic loneliness that comes with it.
-
-“Uh…I hate to bother you any more than I already have, but would it be all right if I took a shower?” It didn’t take all too long for her to break out of her reverie. “My fur’s gotten rank from the dampness, and I don’t want to stink up the joint being all unclean.” She’s wary of coming across as a freeloader, but you can’t blame her for wanting to be sanitary as a minimum.
-
-“As long as you promise not to clog up the drain. End of the hallway in front of you.” 
-
-Giving you a thumbs-up, she half-waltzes, half-limps her way to the bathroom. It captures your interest, however, to see her tugging at her clothes to undress herself at the same time. Just as Della rounds the corner, she manages to strip clean, providing you the slightest glimpse of her ass before disappearing.
-
-“Oh, shit...is she coming on to me?” you say under your breath. Wary of reading too deeply into things, you decide that she was probably just excited to freshen up, as opposed to showing you some indirect form of affection. At the very least, you can file away the memory for safekeeping.
-
-For now, though, you head for the kitchen, as your current priority is simple: to make a good, hearty breakfast for the two of you.</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/cBbWma3n">Calcular e média de um aluno</a>
-                <div class="details">
-                                            Python |
-                    
-                    11 min ago                </div>
-            </li>
-                    <li>
-                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
-                <div class="details">
-                                            Python |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
-                <div class="details">
-                                            HTML 5 |
-                    
-                    31 min ago                </div>
-            </li>
-                    <li>
-                <a href="/btQEV0ET">Programming - practice</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/puJtA4QV">views.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/XgV1xT3P">forms.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/uxEpBHki">K1_as</a>
-                <div class="details">
-                                            C# |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
-<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
-</body>
-</html>

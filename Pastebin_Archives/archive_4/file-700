@@ -1,577 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Mary and Anon - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Mary and Anon - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/rxTkqy4g" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/rxTkqy4g" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="NWnMr-LY_f9ats3x1fugC8SwfFOXVD1hACIZAqsYnKQBDbv7pqDOpwzit4ewvdFTkuJJBfk_WBZMbVtN417x4Q==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?a10fa59a05e325e3bfc7" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/rxTkqy4g" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/rxTkqy4g" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Anon_2O">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Mary and Anon</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Anon_2O">Anon_2O</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Anon_2O" class="message" title="Send a private message to: Anon_2O"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 21st of May 2020 02:22:08 PM CDT">May 21st, 2020</span>
-
-                                            (<span title="Last edit on: Friday 14th of August 2020 07:52:38 AM CDT">edited</span>)
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    3,528                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 12.92 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/rxTkqy4g" class="btn -small">raw</a>
-                    <a href="/dl/rxTkqy4g" class="btn -small">download</a>
-                    <a href="/clone/rxTkqy4g" class="btn -small h_800">clone</a>
-                    <a href="/embed/rxTkqy4g" class="btn -small h_800">embed</a>
-                    <a href="/print/rxTkqy4g" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/rxTkqy4g" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Edited 8/14/2020</div></li><li class="li1"><div class="de1">[Added corresponding images to story sections, and some more relevant art links towards the bottom]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------------------------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36382491/</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Mary spots anon coming down the hall out of the corner of her eye</div></li><li class="li1"><div class="de1">&gt;She quickly slams the locker shut</div></li><li class="li1"><div class="de1">&gt;Senior prom is just around the corner</div></li><li class="li1"><div class="de1">&gt;She&#039;s had a crush on Anon since they were kids</div></li><li class="li1"><div class="de1">&gt;Grew up in the same neighborhood</div></li><li class="li1"><div class="de1">&gt;Anon was chill, unlike a lot of other humans</div></li><li class="li1"><div class="de1">&gt;Liked to hang out with her three brothers while growing up</div></li><li class="li1"><div class="de1">&gt;She snaps out of it. He&#039;s about to pass</div></li><li class="li1"><div class="de1">&gt;Oh no... He&#039;s with her.</div></li><li class="li1"><div class="de1">&gt;&quot;Hey Anon! Hey uhh... Going to Econ?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Yo! How&#039;s the weather up there? Yea, it&#039;s one of those dual credit courses. Gotta take em&#039; now while they&#039;re cheap.&quot;</div></li><li class="li1"><div class="de1">&gt;Her heart sinks a little bit. College. She wonders how her family could possibly afford it. She doubts she would even be able to handle it.</div></li><li class="li1"><div class="de1">&gt;Focus</div></li><li class="li1"><div class="de1">&gt;Yeah, no, it&#039;s not gonna happen. Not with -her- around.</div></li><li class="li1"><div class="de1">&gt;&quot;Um... My dad is grilling again tonight and I overheard Matt talking shit about you sucking at Halo or something. I think they wanted you over tonight to do some split screen.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon scoffs, a look of exaggerated indignation on his face</div></li><li class="li1"><div class="de1">&gt;&quot;I thought dogs were supposed to watch their sodium intake? Tell them i&#039;ll be there, and tell Matt I&#039;ll kick his ass if he looks at my screen again.&quot;</div></li><li class="li1"><div class="de1">&gt;Dog</div></li><li class="li1"><div class="de1">&gt;He knows it annoys you when he calls her a dog</div></li><li class="li1"><div class="de1">&gt;&quot;Oh my god ANON. MANED WOLF!&quot;</div></li><li class="li1"><div class="de1">&gt;The girl mutters under her breath, &quot;Still a bitch...&quot;</div></li><li class="li1"><div class="de1">&gt;It&#039;s noisy in the hallway, but her ears pick it up easily.</div></li><li class="li1"><div class="de1">&gt;Falter</div></li><li class="li1"><div class="de1">&gt;Anon smirks</div></li><li class="li1"><div class="de1">&gt;&quot;I know I know, Mangy wolf. Got it.&quot;</div></li><li class="li1"><div class="de1">&gt;She flattens her ears and shakes her head, admitting defeat</div></li><li class="li1"><div class="de1">&gt;&quot;Heh.. well. Anyways, cool! We&#039;ll see you after school! Maybe you can teach me how to play this time?&quot;</div></li><li class="li1"><div class="de1">&gt;Damn, so smooth. She&#039;s bought herself a couple hours to think about how she&#039;s gonna ask.</div></li><li class="li1"><div class="de1">&gt;Anon flashes her that perfect smile and does that really cool thing with his hand as he starts off.</div></li><li class="li1"><div class="de1">&gt;&quot;Yeah totally, it&#039;s pretty easy once you get the hang of it. Aaaanyways, gotta run before the bell. Catch you later Mary&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;See ya, Anon!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36382624/</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36382516/</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Mary takes a breath and flexes her core</div></li><li class="li1"><div class="de1">&gt;The mournful voice of her oboe fills the band hall as she begins her solo</div></li><li class="li1"><div class="de1">&gt;Pavane Op. 50</div></li><li class="li1"><div class="de1">&gt;Not her favorite piece, but she found the melody soothing</div></li><li class="li1"><div class="de1">&gt;Her peers watch on silently. Some impressed, others completely disinterested</div></li><li class="li1"><div class="de1">&gt;The one other oboist looks like he just had his dreams crushed</div></li><li class="li1"><div class="de1">&gt;A genuinely moving performance with a flawless piano accompaniment, courtesy of the assistant band director</div></li><li class="li1"><div class="de1">&gt;She finishes the piece</div></li><li class="li1"><div class="de1">&gt;Exhales</div></li><li class="li1"><div class="de1">&gt;Opens her eyes and smiles. She knows she did well</div></li><li class="li1"><div class="de1">&gt;Amidst the polite claps and low talk, something catches her eye by the door</div></li><li class="li1"><div class="de1">&gt;Anon is standing there, grinning at Mary like a complete goof</div></li><li class="li1"><div class="de1">&gt;Oh my god</div></li><li class="li1"><div class="de1">&gt;He heard the whole thing didn&#039;t he</div></li><li class="li1"><div class="de1">&gt;Holy shit </div></li><li class="li1"><div class="de1">&gt;The band director speaks out, &quot;Well done Mary, Faure himself couldn&#039;t have imagined it better.&quot;</div></li><li class="li1"><div class="de1">&gt;She looks down at her paws and clutches her instrument to her chest, absolutely embarrassed. She tries to hold back her ridiculous smile, but can&#039;t help it. &quot;Uh.. hah, yeah, thanks Mr. Wood.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;If you could perform a more technical piece with that kind of passion, you&#039;re sure to get accepted-&quot;</div></li><li class="li1"><div class="de1">&gt;Mr. Wood&#039;s voice is cut off by the bell. &quot;-Ah, we&#039;ll discuss on Monday, Mary. You haven&#039;t kept me up to date on your school serach. Have a good weekend everyone!&quot;</div></li><li class="li1"><div class="de1">&gt;Ugh... College. Wouldn&#039;t that be the dream?</div></li><li class="li1"><div class="de1">&gt;Anon walks up to Mary, a look of surprise still on his face. &quot;Damn, I knew you played and all, but... That was great. Last time I heard you, it sounded like you were playing a duck call.&quot;</div></li><li class="li1"><div class="de1">&gt;Her tail begins to wag</div></li><li class="li1"><div class="de1">&gt;Anon... Complimented something she&#039;s interested in?</div></li><li class="li1"><div class="de1">&gt;She rubs the back of her head with her free paw and stammers, &quot;Wow... thanks! I mean, not the duck call, but... you know. Thanks!&quot;</div></li><li class="li1"><div class="de1">&gt;Anon carefully takes the instrument out of your hands to examine it</div></li><li class="li1"><div class="de1">&gt;It&#039;s literally worth twice as much as his car</div></li><li class="li1"><div class="de1">&gt;She resists the urge to destroy this threat right then and there, before remembering that she very much wants him to like her</div></li><li class="li1"><div class="de1">&gt;Anon continues, &quot;By the way, I figured you could just ride home with me today since I&#039;m going over to your place and all. That cool?&quot;</div></li><li class="li1"><div class="de1">&gt;Tail wags even faster</div></li><li class="li1"><div class="de1">&gt;She yips, &quot;Oh! Yes! Thank you, that would be so great actually.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon hands the Oboe back to Mary with a little less care than She would have liked</div></li><li class="li1"><div class="de1">&gt;Literally the most expensive thing her family owns</div></li><li class="li1"><div class="de1">&gt;Mary winces and thanks Anon before swabbing and packing it away</div></li><li class="li1"><div class="de1">&gt;She wonders to herself how she&#039;s going to bring up the topic of prom....</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36382588/</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36382543/</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;be anon</div></li><li class="li1"><div class="de1">&gt;You don&#039;t even know how it happened, how you ended up agreeing to prom, and how you ended up in her passionate embrace.</div></li><li class="li1"><div class="de1">&gt;All you know was that you were spellbound by her soft, hopeful voice</div></li><li class="li1"><div class="de1">&gt;It was all just so still and silent</div></li><li class="li1"><div class="de1">&gt;the kiss was so awkward. You didn&#039;t even have the first clue as to how to kiss something that wasn&#039;t human. Even the whiskers gently touching your face gave you the overwhelming urge to sneeze.</div></li><li class="li1"><div class="de1">&gt;Her warm, wet nose touched yours for just a moment. Soft lips lingered on yours.</div></li><li class="li1"><div class="de1">&gt;Before you could react, she straightened up from her crouch.</div></li><li class="li1"><div class="de1">&gt;She seemed so... different</div></li><li class="li1"><div class="de1">&gt;So sincere</div></li><li class="li1"><div class="de1">&gt;So exposed</div></li><li class="li1"><div class="de1">&gt;Before you even had time to react, her paws slid lazily from your shoulders as she turned to go back inside. &quot;Call me later, ok anon? They&#039;re probably wondering what we&#039;re doing out here.&quot;</div></li><li class="li1"><div class="de1">&gt;Weren&#039;t you playing split screen Halo with her brothers just like.. 5 minutes ago?</div></li><li class="li1"><div class="de1">&gt;You managed to stammer a dazed, &quot;Yeah...&quot; before the sound of the front door quietly latched behind her</div></li><li class="li1"><div class="de1">&gt;The short drive home felt like a dream. &quot;Yeah?&quot; That was the best you could come up with right then?</div></li><li class="li1"><div class="de1">&gt;God you&#039;re stupid</div></li><li class="li1"><div class="de1">&gt;Nevermind that</div></li><li class="li1"><div class="de1">&gt;But... Wow</div></li><li class="li1"><div class="de1">&gt;You guess you&#039;re taking Mary to prom then</div></li><li class="li1"><div class="de1">&gt;Don&#039;t know how you&#039;re going to break the news to Lindsay</div></li><li class="li1"><div class="de1">&gt;Park your beater in the driveway</div></li><li class="li1"><div class="de1">&gt;Walk through the front door</div></li><li class="li1"><div class="de1">&gt;Mom and dad are sitting in the study listening to a talk show</div></li><li class="li1"><div class="de1">&gt;Dad speaks up. &quot;Hey champ, you got a letter in the mail today.&quot;</div></li><li class="li1"><div class="de1">&gt;They both stand up to give you the letter, grinning in anticipation</div></li><li class="li1"><div class="de1">&gt;Wax seal</div></li><li class="li1"><div class="de1">&gt;Princeston</div></li><li class="li1"><div class="de1">&gt;No freaking way</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Be Mary</div></li><li class="li1"><div class="de1">&gt;As the door latches behind you, you exhale and slump back</div></li><li class="li1"><div class="de1">&gt;Your heart is racing</div></li><li class="li1"><div class="de1">&gt;You can hardly believe you just kissed Anon</div></li><li class="li1"><div class="de1">&gt;Was that too much?</div></li><li class="li1"><div class="de1">&gt;Is he going to think you&#039;re desperate?</div></li><li class="li1"><div class="de1">&gt;&quot;Yo Mary! What you doing out there with your boyfriend, huh?&quot; comes from the living room</div></li><li class="li1"><div class="de1">&gt;You flatten your ears and snap back, &quot;None of your damn business Greg, he&#039;s not even my boyfriend.&quot; It comes out a little more snarley than you expected.</div></li><li class="li1"><div class="de1">&gt;Laughter erupts from the living room</div></li><li class="li1"><div class="de1">&gt;Assholes....</div></li><li class="li1"><div class="de1">&gt;You turn to watch the tail lights through the little window on the door</div></li><li class="li1"><div class="de1">&gt;Wish you could rewind time and take that kiss back</div></li><li class="li1"><div class="de1">&gt;God you&#039;re stupid</div></li><li class="li1"><div class="de1">&gt;Walk into the kitchen</div></li><li class="li1"><div class="de1">&gt;Dad is there with your human mother</div></li><li class="li1"><div class="de1">&gt;They&#039;re whispering something to one another, laughing.</div></li><li class="li1"><div class="de1">&gt;Notice you walk into the kitchen</div></li><li class="li1"><div class="de1">&gt;Mother is blushing</div></li><li class="li1"><div class="de1">&gt;Were probably talking about something you don&#039;t want to think about</div></li><li class="li1"><div class="de1">&gt;Dad leans forward and grins. &quot;Hey string bean, how did your recital go?&quot;</div></li><li class="li1"><div class="de1">&gt;You smile, still a little proud. &quot;Nailed it. I&#039;ll definitely be keeping first chair.&quot;</div></li><li class="li1"><div class="de1">&gt;Before he could respond, you bark out, &quot;Dad can I have money to go to prom?&quot;</div></li><li class="li1"><div class="de1">&gt;He pauses for a moment in surprise. &quot;Prom? You mean like, dancing, spiked punch, get knocked up in the back seat of a car prom?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Oh my god dad, not YOUR prom.&quot;</div></li><li class="li1"><div class="de1">&gt;Mom elbows your dad in the ribs</div></li><li class="li1"><div class="de1">&gt;He laughs it off shakes his head. &quot;We&#039;ll see about it. Maybe you and your mother can go check out dresses tomorrow. Just don&#039;t break the bank, yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;Howling laughter erupts from the living room again. A cacaphony of roar barks and yips</div></li><li class="li1"><div class="de1">&gt;You clench your fists and shout at the ceiling, &quot;Oh my GOD, GROW UP!&quot;</div></li><li class="li1"><div class="de1">&gt;Suddenly feel thankful that one of them is shipping off to boot camp in a couple weeks</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36516663/</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your heart pounds in your chest so hard you feel it in your ears</div></li><li class="li1"><div class="de1">&gt;It&#039;s been a year since that first kiss... You wanted to do it before he left for Princeston, but This time you&#039;ll do it</div></li><li class="li1"><div class="de1">&gt;You&#039;ll show him how much you want him</div></li><li class="li1"><div class="de1">&gt;All of him</div></li><li class="li1"><div class="de1">&gt;&quot;Anon... Um..&quot;</div></li><li class="li1"><div class="de1">&gt;You hook your thumb in your underwear and push them down a little bit</div></li><li class="li1"><div class="de1">&gt;Fur spills out eagerly</div></li><li class="li1"><div class="de1">&gt;Oh god.. Any minute now he&#039;ll tell you this needs to stop</div></li><li class="li1"><div class="de1">&gt;You feel so exposed and vulnerable</div></li><li class="li1"><div class="de1">&gt;Without even realizing it, you tuck your tail between your legs</div></li><li class="li1"><div class="de1">&gt;&quot;I... I really want this. It&#039;s been so hard with you being away. Every night I think about the way it felt to be held.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon stares at you in an almost trancelike state. You can&#039;t exactly pinpoint his expression.</div></li><li class="li1"><div class="de1">&gt;It&#039;s now or nothing.</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;re sure it doesn&#039;t gross you out?&quot;</div></li><li class="li1"><div class="de1">&gt;Anon nods vigorously and stammers something unintelligible</div></li><li class="li1"><div class="de1">&gt;You feel yourself tremble a little before you begin to step out of your panties</div></li><li class="li1"><div class="de1">&gt;&quot;Ok... Just... don&#039;t laugh.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---------</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://pbs.twimg.com/media/EZE8o8lXgAUNL_s?format=png&amp;name=medium</div></li><li class="li1"><div class="de1">https://pbs.twimg.com/media/EZE8peDXkAA9cWp?format=png&amp;name=medium</div></li><li class="li1"><div class="de1">https://pbs.twimg.com/media/EZE8qHMWoAUj_3L?format=png&amp;name=large</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Anon did not laugh</div></li><li class="li1"><div class="de1">&gt;You step out of your panties and stand before your boyfriend</div></li><li class="li1"><div class="de1">&gt;Never felt so vulnerable in your life... but so excited</div></li><li class="li1"><div class="de1">&gt;Your face feels like it&#039;ll catch on fire</div></li><li class="li1"><div class="de1">&gt;Take a step towards Anon as he leans in and opens his mouth to speak</div></li><li class="li1"><div class="de1">&gt;Your nails click gently on the tile of his dorm room floor</div></li><li class="li1"><div class="de1">&gt;Anon&#039;s gaze slowly runs over your body from head to toe. Finally, he speaks.</div></li><li class="li1"><div class="de1">&gt;&quot;I never realized... Just how amazing you really are.&quot;</div></li><li class="li1"><div class="de1">&gt;You don&#039;t think you&#039;ve heard somebody sound so genuine before</div></li><li class="li1"><div class="de1">&gt;Your stomach is reeling with emotions. Anticipation. It takes every ounce of control to keep yourself from trembling like a leaf.</div></li><li class="li1"><div class="de1">&gt;You need to be touched... This overwhelming urge for intimacy</div></li><li class="li1"><div class="de1">&gt;Close the distance between you and Anon</div></li><li class="li1"><div class="de1">&gt;You sink to your knees at his feet where he sits</div></li><li class="li1"><div class="de1">&gt;He reaches out with both hands and begins to rub your head</div></li><li class="li1"><div class="de1">&gt;Oh god... It&#039;s indescribable</div></li><li class="li1"><div class="de1">&gt;The way his fingers move through your fur</div></li><li class="li1"><div class="de1">&gt;How he massages your ears</div></li><li class="li1"><div class="de1">&gt;Calls you a good girl</div></li><li class="li1"><div class="de1">&gt;If you weren&#039;t physically aching for release, you&#039;d never leave this position. This is where everything is right.</div></li><li class="li1"><div class="de1">&gt;It&#039;s right there in front of you though. You can see it through his boxers</div></li><li class="li1"><div class="de1">&gt;That primal urge is too much to resist. This is yours now.</div></li><li class="li1"><div class="de1">&gt;You gently grip his shaft through the fabric and rub it up and down</div></li><li class="li1"><div class="de1">&gt;Notice a visible growing wet spot where pre must be leaking through</div></li><li class="li1"><div class="de1">&gt;You won&#039;t let another drop go to waste</div></li><li class="li1"><div class="de1">&gt;Before he can say a word, you pull it out through the fabric opening and lean forward to taste your mate</div></li><li class="li1"><div class="de1">&gt;His reaction is priceless. His hitched breath practically sends you over the edge</div></li><li class="li1"><div class="de1">&gt;You rub your desperately soaked, needy mound</div></li><li class="li1"><div class="de1">&gt;Imagining the girth in your mouth entering your body</div></li><li class="li1"><div class="de1">&gt;The mental image of its length disappearing inside of you, in and out, over and over</div></li><li class="li1"><div class="de1">&gt;Fuck.. </div></li><li class="li1"><div class="de1">&gt;You almost feel high</div></li><li class="li1"><div class="de1">&gt;Your insides ache</div></li><li class="li1"><div class="de1">&gt;You look up at Anon with his shaft fully inside of your maw</div></li><li class="li1"><div class="de1">&gt;Slowly pull your head back</div></li><li class="li1"><div class="de1">&gt;Lick the tip as it falls from your mouth&#039;s warm embrace</div></li><li class="li1"><div class="de1">&gt;Your voice barely makes it out it&#039;s so shaky and quiet. &quot;I want it... all of you.&quot;</div></li><li class="li1"><div class="de1">&gt;Anon&#039;s chest steadily rises and falls with heavy breaths. You can tell he&#039;s considering something right now.</div></li><li class="li1"><div class="de1">&gt;&quot;Here...&quot;</div></li><li class="li1"><div class="de1">&gt;He produces a condom he jokingly bought in a vending machine earlier today</div></li><li class="li1"><div class="de1">&gt;Fuuuuck... You&#039;re not on birth control</div></li><li class="li1"><div class="de1">&gt;You don&#039;t want to use a condom either... You want to feel him inside you, not latex</div></li><li class="li1"><div class="de1">&gt;You also don&#039;t want to have puppies yet</div></li><li class="li1"><div class="de1">&gt;Maybe... you&#039;ll just ask him to stick it in for a second before putting it on</div></li><li class="li1"><div class="de1">&gt;You need to know what it feels like</div></li><li class="li1"><div class="de1">&gt;Reach for the condom</div></li><li class="li1"><div class="de1">&gt;Suddenly feel extremely dirty for what you&#039;re about to ask</div></li><li class="li1"><div class="de1">&gt;&quot;Um... Heh, good thing you got this earlier.&quot;</div></li><li class="li1"><div class="de1">&gt;Your fingers slide into your soaking cunt</div></li><li class="li1"><div class="de1">&gt;Look into Anon&#039;s eyes pleadingly</div></li><li class="li1"><div class="de1">&gt;&quot;Before you put it on.. can i feel you?&quot;</div></li><li class="li1"><div class="de1">&gt;You watch his face carefully</div></li><li class="li1"><div class="de1">&gt;He doesn&#039;t seem opposed to the idea. &quot;Uh.. just for a second, it&#039;ll probably be fi-&quot;</div></li><li class="li1"><div class="de1">&gt;You waste no time rising up to straddle your mate</div></li><li class="li1"><div class="de1">&gt;All you can think about right now is getting him inside of you</div></li><li class="li1"><div class="de1">&gt;&quot;Just for a second...&quot; you repeat</div></li><li class="li1"><div class="de1">&gt;guide his shaft between your legs</div></li><li class="li1"><div class="de1">&gt;Lower yourself down....</div></li><li class="li1"><div class="de1">&gt;Your body trembles as you take in every inch</div></li><li class="li1"><div class="de1">&gt;Fuck.. it feels so good. </div></li><li class="li1"><div class="de1">&gt;Your paw smoothly glides from the base of his cock to your clit</div></li><li class="li1"><div class="de1">&gt;Push him back as you begin to bounce up and down on his length</div></li><li class="li1"><div class="de1">&gt;Not even a moment later, Anon interrupts your rhythm and pulls himself out. &quot;W-wait whoah hold on... This needs to go  on.&quot;</div></li><li class="li1"><div class="de1">&gt;It takes every ounce of restraint you can muster to not put it back in</div></li><li class="li1"><div class="de1">&gt;You whine, but submit. You&#039;re definitely getting on birth control before next trip up to visit.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/view/36961699/</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">-----</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The rest of my work can be found here</div></li><li class="li1"><div class="de1">https://www.furaffinity.net/gallery/wetchop/</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Edited 8/14/2020
-[Added corresponding images to story sections, and some more relevant art links towards the bottom]
-
----------------------------
-
-https://www.furaffinity.net/view/36382491/
-
-&gt;Mary spots anon coming down the hall out of the corner of her eye
-&gt;She quickly slams the locker shut
-&gt;Senior prom is just around the corner
-&gt;She&#039;s had a crush on Anon since they were kids
-&gt;Grew up in the same neighborhood
-&gt;Anon was chill, unlike a lot of other humans
-&gt;Liked to hang out with her three brothers while growing up
-&gt;She snaps out of it. He&#039;s about to pass
-&gt;Oh no... He&#039;s with her.
-&gt;&quot;Hey Anon! Hey uhh... Going to Econ?&quot;
-&gt;&quot;Yo! How&#039;s the weather up there? Yea, it&#039;s one of those dual credit courses. Gotta take em&#039; now while they&#039;re cheap.&quot;
-&gt;Her heart sinks a little bit. College. She wonders how her family could possibly afford it. She doubts she would even be able to handle it.
-&gt;Focus
-&gt;Yeah, no, it&#039;s not gonna happen. Not with -her- around.
-&gt;&quot;Um... My dad is grilling again tonight and I overheard Matt talking shit about you sucking at Halo or something. I think they wanted you over tonight to do some split screen.&quot;
-&gt;Anon scoffs, a look of exaggerated indignation on his face
-&gt;&quot;I thought dogs were supposed to watch their sodium intake? Tell them i&#039;ll be there, and tell Matt I&#039;ll kick his ass if he looks at my screen again.&quot;
-&gt;Dog
-&gt;He knows it annoys you when he calls her a dog
-&gt;&quot;Oh my god ANON. MANED WOLF!&quot;
-&gt;The girl mutters under her breath, &quot;Still a bitch...&quot;
-&gt;It&#039;s noisy in the hallway, but her ears pick it up easily.
-&gt;Falter
-&gt;Anon smirks
-&gt;&quot;I know I know, Mangy wolf. Got it.&quot;
-&gt;She flattens her ears and shakes her head, admitting defeat
-&gt;&quot;Heh.. well. Anyways, cool! We&#039;ll see you after school! Maybe you can teach me how to play this time?&quot;
-&gt;Damn, so smooth. She&#039;s bought herself a couple hours to think about how she&#039;s gonna ask.
-&gt;Anon flashes her that perfect smile and does that really cool thing with his hand as he starts off.
-&gt;&quot;Yeah totally, it&#039;s pretty easy once you get the hang of it. Aaaanyways, gotta run before the bell. Catch you later Mary&quot;
-&gt;&quot;See ya, Anon!&quot;
-
-------
-
-https://www.furaffinity.net/view/36382624/
-https://www.furaffinity.net/view/36382516/
-
-&gt;Mary takes a breath and flexes her core
-&gt;The mournful voice of her oboe fills the band hall as she begins her solo
-&gt;Pavane Op. 50
-&gt;Not her favorite piece, but she found the melody soothing
-&gt;Her peers watch on silently. Some impressed, others completely disinterested
-&gt;The one other oboist looks like he just had his dreams crushed
-&gt;A genuinely moving performance with a flawless piano accompaniment, courtesy of the assistant band director
-&gt;She finishes the piece
-&gt;Exhales
-&gt;Opens her eyes and smiles. She knows she did well
-&gt;Amidst the polite claps and low talk, something catches her eye by the door
-&gt;Anon is standing there, grinning at Mary like a complete goof
-&gt;Oh my god
-&gt;He heard the whole thing didn&#039;t he
-&gt;Holy shit 
-&gt;The band director speaks out, &quot;Well done Mary, Faure himself couldn&#039;t have imagined it better.&quot;
-&gt;She looks down at her paws and clutches her instrument to her chest, absolutely embarrassed. She tries to hold back her ridiculous smile, but can&#039;t help it. &quot;Uh.. hah, yeah, thanks Mr. Wood.&quot;
-&gt;&quot;If you could perform a more technical piece with that kind of passion, you&#039;re sure to get accepted-&quot;
-&gt;Mr. Wood&#039;s voice is cut off by the bell. &quot;-Ah, we&#039;ll discuss on Monday, Mary. You haven&#039;t kept me up to date on your school serach. Have a good weekend everyone!&quot;
-&gt;Ugh... College. Wouldn&#039;t that be the dream?
-&gt;Anon walks up to Mary, a look of surprise still on his face. &quot;Damn, I knew you played and all, but... That was great. Last time I heard you, it sounded like you were playing a duck call.&quot;
-&gt;Her tail begins to wag
-&gt;Anon... Complimented something she&#039;s interested in?
-&gt;She rubs the back of her head with her free paw and stammers, &quot;Wow... thanks! I mean, not the duck call, but... you know. Thanks!&quot;
-&gt;Anon carefully takes the instrument out of your hands to examine it
-&gt;It&#039;s literally worth twice as much as his car
-&gt;She resists the urge to destroy this threat right then and there, before remembering that she very much wants him to like her
-&gt;Anon continues, &quot;By the way, I figured you could just ride home with me today since I&#039;m going over to your place and all. That cool?&quot;
-&gt;Tail wags even faster
-&gt;She yips, &quot;Oh! Yes! Thank you, that would be so great actually.&quot;
-&gt;Anon hands the Oboe back to Mary with a little less care than She would have liked
-&gt;Literally the most expensive thing her family owns
-&gt;Mary winces and thanks Anon before swabbing and packing it away
-&gt;She wonders to herself how she&#039;s going to bring up the topic of prom....
-
-
------------
-
-https://www.furaffinity.net/view/36382588/
-https://www.furaffinity.net/view/36382543/
-
-&gt;be anon
-&gt;You don&#039;t even know how it happened, how you ended up agreeing to prom, and how you ended up in her passionate embrace.
-&gt;All you know was that you were spellbound by her soft, hopeful voice
-&gt;It was all just so still and silent
-&gt;the kiss was so awkward. You didn&#039;t even have the first clue as to how to kiss something that wasn&#039;t human. Even the whiskers gently touching your face gave you the overwhelming urge to sneeze.
-&gt;Her warm, wet nose touched yours for just a moment. Soft lips lingered on yours.
-&gt;Before you could react, she straightened up from her crouch.
-&gt;She seemed so... different
-&gt;So sincere
-&gt;So exposed
-&gt;Before you even had time to react, her paws slid lazily from your shoulders as she turned to go back inside. &quot;Call me later, ok anon? They&#039;re probably wondering what we&#039;re doing out here.&quot;
-&gt;Weren&#039;t you playing split screen Halo with her brothers just like.. 5 minutes ago?
-&gt;You managed to stammer a dazed, &quot;Yeah...&quot; before the sound of the front door quietly latched behind her
-&gt;The short drive home felt like a dream. &quot;Yeah?&quot; That was the best you could come up with right then?
-&gt;God you&#039;re stupid
-&gt;Nevermind that
-&gt;But... Wow
-&gt;You guess you&#039;re taking Mary to prom then
-&gt;Don&#039;t know how you&#039;re going to break the news to Lindsay
-&gt;Park your beater in the driveway
-&gt;Walk through the front door
-&gt;Mom and dad are sitting in the study listening to a talk show
-&gt;Dad speaks up. &quot;Hey champ, you got a letter in the mail today.&quot;
-&gt;They both stand up to give you the letter, grinning in anticipation
-&gt;Wax seal
-&gt;Princeston
-&gt;No freaking way
- 
-&gt;Be Mary
-&gt;As the door latches behind you, you exhale and slump back
-&gt;Your heart is racing
-&gt;You can hardly believe you just kissed Anon
-&gt;Was that too much?
-&gt;Is he going to think you&#039;re desperate?
-&gt;&quot;Yo Mary! What you doing out there with your boyfriend, huh?&quot; comes from the living room
-&gt;You flatten your ears and snap back, &quot;None of your damn business Greg, he&#039;s not even my boyfriend.&quot; It comes out a little more snarley than you expected.
-&gt;Laughter erupts from the living room
-&gt;Assholes....
-&gt;You turn to watch the tail lights through the little window on the door
-&gt;Wish you could rewind time and take that kiss back
-&gt;God you&#039;re stupid
-&gt;Walk into the kitchen
-&gt;Dad is there with your human mother
-&gt;They&#039;re whispering something to one another, laughing.
-&gt;Notice you walk into the kitchen
-&gt;Mother is blushing
-&gt;Were probably talking about something you don&#039;t want to think about
-&gt;Dad leans forward and grins. &quot;Hey string bean, how did your recital go?&quot;
-&gt;You smile, still a little proud. &quot;Nailed it. I&#039;ll definitely be keeping first chair.&quot;
-&gt;Before he could respond, you bark out, &quot;Dad can I have money to go to prom?&quot;
-&gt;He pauses for a moment in surprise. &quot;Prom? You mean like, dancing, spiked punch, get knocked up in the back seat of a car prom?&quot;
-&gt;&quot;Oh my god dad, not YOUR prom.&quot;
-&gt;Mom elbows your dad in the ribs
-&gt;He laughs it off shakes his head. &quot;We&#039;ll see about it. Maybe you and your mother can go check out dresses tomorrow. Just don&#039;t break the bank, yeah?&quot;
-&gt;Howling laughter erupts from the living room again. A cacaphony of roar barks and yips
-&gt;You clench your fists and shout at the ceiling, &quot;Oh my GOD, GROW UP!&quot;
-&gt;Suddenly feel thankful that one of them is shipping off to boot camp in a couple weeks
-
-------
-
-https://www.furaffinity.net/view/36516663/
-
-&gt;Your heart pounds in your chest so hard you feel it in your ears
-&gt;It&#039;s been a year since that first kiss... You wanted to do it before he left for Princeston, but This time you&#039;ll do it
-&gt;You&#039;ll show him how much you want him
-&gt;All of him
-&gt;&quot;Anon... Um..&quot;
-&gt;You hook your thumb in your underwear and push them down a little bit
-&gt;Fur spills out eagerly
-&gt;Oh god.. Any minute now he&#039;ll tell you this needs to stop
-&gt;You feel so exposed and vulnerable
-&gt;Without even realizing it, you tuck your tail between your legs
-&gt;&quot;I... I really want this. It&#039;s been so hard with you being away. Every night I think about the way it felt to be held.&quot;
-&gt;Anon stares at you in an almost trancelike state. You can&#039;t exactly pinpoint his expression.
-&gt;It&#039;s now or nothing.
-&gt;&quot;You&#039;re sure it doesn&#039;t gross you out?&quot;
-&gt;Anon nods vigorously and stammers something unintelligible
-&gt;You feel yourself tremble a little before you begin to step out of your panties
-&gt;&quot;Ok... Just... don&#039;t laugh.&quot;
-
----------
-
-https://pbs.twimg.com/media/EZE8o8lXgAUNL_s?format=png&amp;name=medium
-https://pbs.twimg.com/media/EZE8peDXkAA9cWp?format=png&amp;name=medium
-https://pbs.twimg.com/media/EZE8qHMWoAUj_3L?format=png&amp;name=large
-
-&gt;Anon did not laugh
-&gt;You step out of your panties and stand before your boyfriend
-&gt;Never felt so vulnerable in your life... but so excited
-&gt;Your face feels like it&#039;ll catch on fire
-&gt;Take a step towards Anon as he leans in and opens his mouth to speak
-&gt;Your nails click gently on the tile of his dorm room floor
-&gt;Anon&#039;s gaze slowly runs over your body from head to toe. Finally, he speaks.
-&gt;&quot;I never realized... Just how amazing you really are.&quot;
-&gt;You don&#039;t think you&#039;ve heard somebody sound so genuine before
-&gt;Your stomach is reeling with emotions. Anticipation. It takes every ounce of control to keep yourself from trembling like a leaf.
-&gt;You need to be touched... This overwhelming urge for intimacy
-&gt;Close the distance between you and Anon
-&gt;You sink to your knees at his feet where he sits
-&gt;He reaches out with both hands and begins to rub your head
-&gt;Oh god... It&#039;s indescribable
-&gt;The way his fingers move through your fur
-&gt;How he massages your ears
-&gt;Calls you a good girl
-&gt;If you weren&#039;t physically aching for release, you&#039;d never leave this position. This is where everything is right.
-&gt;It&#039;s right there in front of you though. You can see it through his boxers
-&gt;That primal urge is too much to resist. This is yours now.
-&gt;You gently grip his shaft through the fabric and rub it up and down
-&gt;Notice a visible growing wet spot where pre must be leaking through
-&gt;You won&#039;t let another drop go to waste
-&gt;Before he can say a word, you pull it out through the fabric opening and lean forward to taste your mate
-&gt;His reaction is priceless. His hitched breath practically sends you over the edge
-&gt;You rub your desperately soaked, needy mound
-&gt;Imagining the girth in your mouth entering your body
-&gt;The mental image of its length disappearing inside of you, in and out, over and over
-&gt;Fuck.. 
-&gt;You almost feel high
-&gt;Your insides ache
-&gt;You look up at Anon with his shaft fully inside of your maw
-&gt;Slowly pull your head back
-&gt;Lick the tip as it falls from your mouth&#039;s warm embrace
-&gt;Your voice barely makes it out it&#039;s so shaky and quiet. &quot;I want it... all of you.&quot;
-&gt;Anon&#039;s chest steadily rises and falls with heavy breaths. You can tell he&#039;s considering something right now.
-&gt;&quot;Here...&quot;
-&gt;He produces a condom he jokingly bought in a vending machine earlier today
-&gt;Fuuuuck... You&#039;re not on birth control
-&gt;You don&#039;t want to use a condom either... You want to feel him inside you, not latex
-&gt;You also don&#039;t want to have puppies yet
-&gt;Maybe... you&#039;ll just ask him to stick it in for a second before putting it on
-&gt;You need to know what it feels like
-&gt;Reach for the condom
-&gt;Suddenly feel extremely dirty for what you&#039;re about to ask
-&gt;&quot;Um... Heh, good thing you got this earlier.&quot;
-&gt;Your fingers slide into your soaking cunt
-&gt;Look into Anon&#039;s eyes pleadingly
-&gt;&quot;Before you put it on.. can i feel you?&quot;
-&gt;You watch his face carefully
-&gt;He doesn&#039;t seem opposed to the idea. &quot;Uh.. just for a second, it&#039;ll probably be fi-&quot;
-&gt;You waste no time rising up to straddle your mate
-&gt;All you can think about right now is getting him inside of you
-&gt;&quot;Just for a second...&quot; you repeat
-&gt;guide his shaft between your legs
-&gt;Lower yourself down....
-&gt;Your body trembles as you take in every inch
-&gt;Fuck.. it feels so good. 
-&gt;Your paw smoothly glides from the base of his cock to your clit
-&gt;Push him back as you begin to bounce up and down on his length
-&gt;Not even a moment later, Anon interrupts your rhythm and pulls himself out. &quot;W-wait whoah hold on... This needs to go  on.&quot;
-&gt;It takes every ounce of restraint you can muster to not put it back in
-&gt;You whine, but submit. You&#039;re definitely getting on birth control before next trip up to visit.
-
-https://www.furaffinity.net/view/36961699/
-
------
-
-The rest of my work can be found here
-https://www.furaffinity.net/gallery/wetchop/</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/GadZn3yc">Untitled</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/3JySHr8S">direction</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    28 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JSeLPU8C">Домашнее задание к уроку #18</a>
-                <div class="details">
-                                            SQL |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/dzygzECF">MPPPC</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/wSwuSy74">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/gUSEuAKG">Rimworld: Empire of Madness Mod List</a>
-                <div class="details">
-                                            XML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/hqeTuARc">Propery maps</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/SHqJN8na">3x3 Autocraft Up</a>
-                <div class="details">
-                                            Lua |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a><sup style="color:#999">updated</sup> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?a10fa59a05e325e3bfc7"></script>
-<script src="/themes/pastebin/js/app.bundle.js?a10fa59a05e325e3bfc7"></script>
-</body>
-</html>

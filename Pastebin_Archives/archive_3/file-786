@@ -1,539 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Chapter 6.5 - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Chapter 6.5 - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/dDs1mbyQ" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/dDs1mbyQ" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="m3hYEcZvCP5e03kZSsAq9edZRm4W8smhGivchmhzcW3oFzJOrAs4pzyqGnZ8kRqRggkqHVS6-8Z-c5T-ESI3Cg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/dDs1mbyQ" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/dDs1mbyQ" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Chapter 6.5</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Friday 21st of April 2017 11:05:16 AM CDT">Apr 21st, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    479                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 14.65 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/dDs1mbyQ" class="btn -small">raw</a>
-                    <a href="/dl/dDs1mbyQ" class="btn -small">download</a>
-                    <a href="/clone/dDs1mbyQ" class="btn -small h_800">clone</a>
-                    <a href="/embed/dDs1mbyQ" class="btn -small h_800">embed</a>
-                    <a href="/print/dDs1mbyQ" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/dDs1mbyQ" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;you are anon and you&#039;re currently stuck outside your front door</div></li><li class="li1"><div class="de1">&gt;whats blocking you from getting inside?</div></li><li class="li1"><div class="de1">&gt;that would be an ecstatic coco who has her entire body pressed up against the glass and is shouting as loud as she can to make sure you hear how happy she is that you&#039;re back</div></li><li class="li1"><div class="de1">&quot;MASTER YOU&#039;RE HOME! I&#039;M SO GLAD YOU&#039;RE BACK! I MISSED YOU! DID YOU MISS ME?! ARE YOU GONNA STAY HOME NOW?! I LOVE YOU!&quot;</div></li><li class="li1"><div class="de1">&gt;since she&#039;s pressing herself so tightly against the glass you can clearly make out her large upper 2 breasts smooshed against the glass with her cute suckable but normally hidden nipples being pushed out of her fur</div></li><li class="li1"><div class="de1">&quot;Coco, if you don&#039;t step back from the door I can&#039;t get in&quot;</div></li><li class="li1"><div class="de1">&gt;she obediently stepped back to let you in</div></li><li class="li1"><div class="de1">&gt;you open the door and are immediately captured by cocos bear hug</div></li><li class="li1"><div class="de1">&gt;the force of it knocks you both down</div></li><li class="li1"><div class="de1">&gt;with coco on top of you she crawls and starts to plat loads of slobbery dog kisses on your face</div></li><li class="li1"><div class="de1">&gt;you can&#039;t help but chuckle at her enthusiasm</div></li><li class="li1"><div class="de1">&gt;coco capitalizes on the brief opportunity provided by your open mouth to give you a much more intimate kiss</div></li><li class="li1"><div class="de1">&gt;she presses her lips tightly against yours and snakes her tongue into your mouth</div></li><li class="li1"><div class="de1">&gt;you&#039;re shocked to say the least and reduced to little more than a passive participant in her sloppy make out session</div></li><li class="li1"><div class="de1">&gt;in your paralyzed state her long flat muscled tongue completely dominates yours</div></li><li class="li1"><div class="de1">&gt;eventually coco breaks the kiss and gazes down on you longingly while straddling your waist</div></li><li class="li1"><div class="de1">&gt;you both stay there silently for a time, staring at each other before you finally break out of your stupor</div></li><li class="li1"><div class="de1">&quot;Coco! If you&#039;re going to kiss me like at least give me some warning first&quot;</div></li><li class="li1"><div class="de1">&gt;coco is far too pleased with herself to be disappointed by what you just said</div></li><li class="li1"><div class="de1">&gt;she stands up and apologizes before helping you up</div></li><li class="li1"><div class="de1">&gt;as you make your way inside coco latches herself onto your arm and hugs herself against you</div></li><li class="li1"><div class="de1">&quot;So master, you&#039;re staying home now right?&quot;</div></li><li class="li1"><div class="de1">&quot;No, I&#039;m just here to get a drink before heading back out&quot;</div></li><li class="li1"><div class="de1">&gt;this does put a dent in her mood, her ears flatten and her tail stops wagging</div></li><li class="li1"><div class="de1">&gt;you make your way into the living room to find bailey has taken over the couch and has stretched herself out and propped her head on a paw</div></li><li class="li1"><div class="de1">&quot;Hi master, coco nearly cried while you were gone&quot;</div></li><li class="li1"><div class="de1">&gt;coco lets out a growl</div></li><li class="li1"><div class="de1">&quot;Did not!&quot;</div></li><li class="li1"><div class="de1">&gt;it seems baileys still engrossed in her videos</div></li><li class="li1"><div class="de1">&quot;Bailey, did you remember to put my bedsheets in the dryer?&quot;</div></li><li class="li1"><div class="de1">&gt;bailey rolls her eyes and gets up to do her chores</div></li><li class="li1"><div class="de1">&gt;while getting a drink you decide to pick up a couple of water bottles just to make sure</div></li><li class="li1"><div class="de1">&gt;you head on out once again not before giving coco and bailey their obligatory head scratches</div></li><li class="li1"><div class="de1">&gt;just as you&#039;re about to open the door you notice that kneeling just outside it where coco just knocked you down is that bird again</div></li><li class="li1"><div class="de1">&gt;with him being so close for once you can get a good look at him</div></li><li class="li1"><div class="de1">&gt;the most notable feature you can see from the back is the tall brown and white striped feathers sticking up from his head</div></li><li class="li1"><div class="de1">&gt;most of his back is covered in feathers of a very light brown color</div></li><li class="li1"><div class="de1">&gt;you can also clearly make out the black and white striped pattern of his tail and flight feathers</div></li><li class="li1"><div class="de1">&gt;moving down further you&#039;re floored by the width of his hips</div></li><li class="li1"><div class="de1">&gt;god damn why do birds have to be so androgynous?</div></li><li class="li1"><div class="de1">&gt;underneath his tail you can make out some incredibly soft white downy feathers</div></li><li class="li1"><div class="de1">&gt;you go to open the door in order to finally confront him but he picks out the sound of the turning knob and flies off before you can get the door open</div></li><li class="li1"><div class="de1">&gt;you shake your fist at him as he flies off  </div></li><li class="li1"><div class="de1">&gt;well back to your quest for pocket change</div></li><li class="li1"><div class="de1">&gt;you get in your car and head up the road</div></li><li class="li1"><div class="de1">&gt;you slow down once you reach the next house</div></li><li class="li1"><div class="de1">&gt;this one is unfortunately abandoned</div></li><li class="li1"><div class="de1">&gt;it&#039;s a wooden lodge but all the windows and doors are boarded up</div></li><li class="li1"><div class="de1">&gt;you doubt theres any money to be made here so you continue on your way</div></li><li class="li1"><div class="de1">&gt;the next house holds much more promise</div></li><li class="li1"><div class="de1">&gt;it&#039;s a baby blue box house with no real driveway or lawn but it does have a large fenced in backyard</div></li><li class="li1"><div class="de1">&gt;with an obnoxious amount of tacky lawn ornaments in it</div></li><li class="li1"><div class="de1">&gt;you park your car on the side of the road, get out and walk to the front door</div></li><li class="li1"><div class="de1">&gt;you were going to knock but it&#039;s already obvious someone has noticed your arrival</div></li><li class="li1"><div class="de1">&quot;GET OUT! GETOUTGETOUTGETOUTGETOUTGETOOOOOOOOOOUUUUUUUUUUUTTTTTT! FUCKING LEAVE! GET OUT! YOU&#039;RE NOT WELCOME HERE! GET THE FUCK OUT!&quot;</div></li><li class="li1"><div class="de1">&gt;as if trying to claw her way through the screen door, a little anthro pomeranian girl is growling and snarling on the other side of it</div></li><li class="li1"><div class="de1">&gt;but boy is she tiny</div></li><li class="li1"><div class="de1">&gt;shes less than half your height </div></li><li class="li1"><div class="de1">&gt;and with her fur being so poofy you just can&#039;t take the little girl seriously</div></li><li class="li1"><div class="de1">&gt;you kneel down and smile at her but this only seems to enrage her further</div></li><li class="li1"><div class="de1">&quot;I&#039;LL FUCKING KILL YOU! EAT SHIT AND DIE YOU SHIT EATING SHITSTAIN!&quot;</div></li><li class="li1"><div class="de1">&gt;in terms of appearance shes pretty much what you expect from a pomeranian</div></li><li class="li1"><div class="de1">&gt;her orange fur obscures most of her physical features besides her face</div></li><li class="li1"><div class="de1">&gt;you can&#039;t confidently make out her breast, hip or butt size</div></li><li class="li1"><div class="de1">&gt;you&#039;d say she&#039;d make a great shortstack but shes probably a lot scrawnier underneath all that fur </div></li><li class="li1"><div class="de1">&gt;you only stop your examination of her when shes suddenly pulled back by a pair of wrinkly old hands</div></li><li class="li1"><div class="de1">&quot;Ginger, what have I told you about using those words? As soon as he leaves you&#039;re going to get it little missy&quot;</div></li><li class="li1"><div class="de1">&gt;the old lady who steps out to greet you is definitely someones grandma</div></li><li class="li1"><div class="de1">&quot;Hello my lovely..... uh.....&quot;</div></li><li class="li1"><div class="de1">&gt;she squints her eyes through thick rimmed glasses as if shes trying to remember who you are</div></li><li class="li1"><div class="de1">&gt;you&#039;re honestly tempted to pull a &quot;it&#039;s me&quot; scam but your conscience wins out</div></li><li class="li1"><div class="de1">&quot;I&#039;m not your grandkid&quot;</div></li><li class="li1"><div class="de1">&gt;her eyes light up in genuine shock that someone who isn&#039;t family would come visit her</div></li><li class="li1"><div class="de1">&quot;You&#039;re not here to sell me something are you?&quot;</div></li><li class="li1"><div class="de1">&gt;you tell her you kinda are</div></li><li class="li1"><div class="de1">&quot;I&#039;m just looking for some odd jobs to make a little bit of money, you got anything around the house that needs doing?&quot;</div></li><li class="li1"><div class="de1">&gt;the old lady sighs to herself</div></li><li class="li1"><div class="de1">&quot;Oh god yes, I needs to get everything done but I don&#039;t have anything to pay you with&quot;</div></li><li class="li1"><div class="de1">&gt;you thank her for her time and go to head back to your car but the old lady stops you</div></li><li class="li1"><div class="de1">&quot;Young man, what do you need the money for?&quot;</div></li><li class="li1"><div class="de1">&gt;you tell her you mostly need it for food and such</div></li><li class="li1"><div class="de1">&gt;granny tells you to wait here and heads back inside</div></li><li class="li1"><div class="de1">&gt;the pomeranian watches you from the door but now only growls instead of shouting expletives </div></li><li class="li1"><div class="de1">&gt;the granny comes back out holding a plastic container</div></li><li class="li1"><div class="de1">&quot;Here you go young fella, take this, it&#039;s just some leftover turkey diner from last night&quot;</div></li><li class="li1"><div class="de1">&gt;you suddenly hear a loud, long and drawn out no come from her doorway</div></li><li class="li1"><div class="de1">&gt;you try to decline but the old lady shushes you before the words leave your mouth</div></li><li class="li1"><div class="de1">&quot;Please take it, otherwise it&#039;ll go to waste, it was supposed to be a surprise for a certain dog but i don&#039;t think they deserve it anymore&quot;</div></li><li class="li1"><div class="de1">&gt;you look to the doorway to see ginger angrier than ever</div></li><li class="li1"><div class="de1">&gt;you tell granny you&#039;ll make this up to her someday</div></li><li class="li1"><div class="de1">&gt;granny just tells you to take care and heads back inside</div></li><li class="li1"><div class="de1">&gt;while dragging her pet further inside with her, ginger does get the last words in</div></li><li class="li1"><div class="de1">&quot;I&#039;ll GET YOU BACK FOR THIS! YOU HAVEN&#039;T SEEN THE LAST OF ME!&quot;</div></li><li class="li1"><div class="de1">&gt;you head back and sit yourself down in the drivers seat of the car</div></li><li class="li1"><div class="de1">&gt;well this does go quite a ways in solving your food situation</div></li><li class="li1"><div class="de1">&gt;you start up your car and head towards your last stop for the day</div></li><li class="li1"><div class="de1">&gt;this one you hoped would be a big one</div></li><li class="li1"><div class="de1">&gt;the old man that lived at the mouth of your road owned a sizable farm patch behind his house</div></li><li class="li1"><div class="de1">&gt;you don&#039;t know what he grew there but you knew last time you drove by whatever was planted there was fully grown</div></li><li class="li1"><div class="de1">&gt;you hoped by now he&#039;d need help picking them</div></li><li class="li1"><div class="de1">&gt;and judging by the fact about half of his field was now empty you say you&#039;re just about right on time</div></li><li class="li1"><div class="de1">&gt;you pulled up along the front of his house and found the owner with his back turned to you on a tractor watching the field</div></li><li class="li1"><div class="de1">&gt;you gave a quick shout to get his attention and he turned around to face you</div></li><li class="li1"><div class="de1">&quot;Yer lookin fa work aint&#039;cha?&quot;</div></li><li class="li1"><div class="de1">&gt;straight to business with this guy</div></li><li class="li1"><div class="de1">&quot;Yeah, looks like you&#039;re in need of a couple extra hands&quot;</div></li><li class="li1"><div class="de1">&gt;the man who got off the tractor was about as stereotypical of a farmer you could get</div></li><li class="li1"><div class="de1">&gt;blue overalls, white shirt, straw hat and not a single tooth in his mouth</div></li><li class="li1"><div class="de1">&gt;he made a motion with his hands indicating to follow him</div></li><li class="li1"><div class="de1">&gt;as you made your way to the back of the house you noticed 4 others picking from the fields</div></li><li class="li1"><div class="de1">&quot;So what are you growing here?&quot;</div></li><li class="li1"><div class="de1">&quot;Potatoes&quot;</div></li><li class="li1"><div class="de1">&gt;nodding your head you continue following until you come upon an absolutely stunning anthro cow girl</div></li><li class="li1"><div class="de1">&gt;she was sat on a chair next to a massive pile of potatoes washing the dirt off each one individually </div></li><li class="li1"><div class="de1">&gt;she had the kind of face one would expect from an anthro cow with short stubby horns, big wet nose and big ears</div></li><li class="li1"><div class="de1">&gt;she wore a kindly maternal smile an her face with black and white splotches randomly all over her body</div></li><li class="li1"><div class="de1">&gt;just as expected were her 2 pairs of massive tits</div></li><li class="li1"><div class="de1">&gt;you have no idea where you&#039;d put them on the cup scale but they were definitely larger than your head each</div></li><li class="li1"><div class="de1">&gt;her hair also thinned greatly around them giving them an obvious pink color</div></li><li class="li1"><div class="de1">&gt;each breast was capped by a monstrous nipple</div></li><li class="li1"><div class="de1">&gt;you&#039;d say each one was the length of your index finger and quite a bit thicker</div></li><li class="li1"><div class="de1">&gt;her ass, hips and thighs were so wide they strained the chair she was sitting in with her tail slapping back on forth on her butt</div></li><li class="li1"><div class="de1">&gt;definitely a booty she could smother someone with</div></li><li class="li1"><div class="de1">&gt;she had her legs spread so you could easily see her pussy</div></li><li class="li1"><div class="de1">&gt;the hair there thinned out totally leaving her completely bare down there</div></li><li class="li1"><div class="de1">&gt;her slit was puffy and long but otherwise pretty featureless</div></li><li class="li1"><div class="de1">&gt;you couldn&#039;t make out her clitoris</div></li><li class="li1"><div class="de1">&gt;her fertility goddess figure was completed by her bulging pregnancy</div></li><li class="li1"><div class="de1">&gt;she looked about ready to pop any moment</div></li><li class="li1"><div class="de1">&gt;she waved at you as the farmer introduced you two</div></li><li class="li1"><div class="de1">&quot;Now dis here is molly and you can call me pat, you just pull the &#039;tatoes outta da ground and drop&#039;em off here, got it?&quot;</div></li><li class="li1"><div class="de1">&gt;you gave him a thumbs up and molly a wave back before treking out onto the field to earn your pay</div></li><li class="li1"><div class="de1">&gt;you would have never guessed potatoes were so stubborn</div></li><li class="li1"><div class="de1">&gt;after an hour of work you didn&#039;t have nearly as much to show for it as the other workers</div></li><li class="li1"><div class="de1">&gt;then again the fact they were all muscle bound anthros probably gave them an unfair advantage</div></li><li class="li1"><div class="de1">&gt;working the field with you were 2 bulls, another cow girl and a horse girl</div></li><li class="li1"><div class="de1">&gt;every single one of them (except one of the bulls strangely enough) was bulging with muscle</div></li><li class="li1"><div class="de1">&gt;the black bull was an absolute monster</div></li><li class="li1"><div class="de1">&gt;huge sharp horns, mean look on his face, chiseled chest and junk you tried not to stare very long at</div></li><li class="li1"><div class="de1">&gt;you don&#039;t know why &quot;hung like a bull&quot; wasn&#039;t a more common phrase</div></li><li class="li1"><div class="de1">&gt;the horse was similarly ripped</div></li><li class="li1"><div class="de1">&gt;her arms and legs rippled with muscle whenever she moved and she had a perfect 6 pack abs</div></li><li class="li1"><div class="de1">&gt;her ass also made for quite the nice sight whenever she had to strain to pull out a particularly stubborn bunch</div></li><li class="li1"><div class="de1">&gt;she was covered in brown hair expect for 3 spots, a white diamond on her forehead and her chest and crotch</div></li><li class="li1"><div class="de1">&gt;those 2 areas were covered by a much darker brown colored hair</div></li><li class="li1"><div class="de1">&gt;you&#039;d say her breasts were a C cup</div></li><li class="li1"><div class="de1">&gt;she only had the 2 of them and they were capped by thumb sized nipples and puffy areola</div></li><li class="li1"><div class="de1">&gt;you couldn&#039;t see her pussy very well but you could see her clitoral hood was quite large and completely covered her clitoris</div></li><li class="li1"><div class="de1">&gt;the cow was not as ridiculous as the bull and the horse but she was still clearly very fit</div></li><li class="li1"><div class="de1">&gt;her head and face looked remarkably similar to mollys but her tits were not nearly as similar</div></li><li class="li1"><div class="de1">&gt;in fact you&#039;d say they had more in common with the horses pair</div></li><li class="li1"><div class="de1">&gt;around a C cup with thumb sized nipples</div></li><li class="li1"><div class="de1">&gt;same pink color to mollys tho</div></li><li class="li1"><div class="de1">&gt;strangely enough even though molly was completely hairless down there the cow working the field had obvious dark pubic hair jutting out of her mound that obscured her pussy</div></li><li class="li1"><div class="de1">&gt;and last was the other bull</div></li><li class="li1"><div class="de1">&gt;he had the same color scheme as the cows rather then the bull</div></li><li class="li1"><div class="de1">&gt;his horns were short, his musculature was lean and he wasn&#039;t even very well endowed either</div></li><li class="li1"><div class="de1">&gt;compared to the black bull he seemed positively effeminate </div></li><li class="li1"><div class="de1">&gt;maybe he was just young?</div></li><li class="li1"><div class="de1">&gt;but even he had no trouble pulling out potatoes</div></li><li class="li1"><div class="de1">&gt;whereas you struggled even when you put your whole weight into it  </div></li><li class="li1"><div class="de1">&gt;sometimes (like right now) not even that would work</div></li><li class="li1"><div class="de1">&gt;you pull and tug, grunt and groan, but the potato wouldn&#039;t budge</div></li><li class="li1"><div class="de1">&gt;unfortunately all the noise you were making attracted the attention of the cow</div></li><li class="li1"><div class="de1">&quot;Woah there dude, looks like you&#039;re having a bit of trouble&quot;</div></li><li class="li1"><div class="de1">&gt;you&#039;re about to tell her you can handle it when the stem slips out of your hands and you fall back on your butt</div></li><li class="li1"><div class="de1">&quot;Geez don&#039;t hurt man, here sit back and let me show you how it&#039;s done&quot;</div></li><li class="li1"><div class="de1">&gt;she grabs the plant by one hand and gives a tug</div></li><li class="li1"><div class="de1">&gt;it doesn&#039;t budge</div></li><li class="li1"><div class="de1">&gt;she grabs it with 2 hands and gives a tug </div></li><li class="li1"><div class="de1">&gt;doesn&#039;t budge</div></li><li class="li1"><div class="de1">&gt;she puts all her weight behind it </div></li><li class="li1"><div class="de1">&gt;doesn&#039;t budge</div></li><li class="li1"><div class="de1">&quot;Wew, looks like you found a big one, mind giving me a hand?&quot;</div></li><li class="li1"><div class="de1">&gt;you both grab the plant and put all your weight behind it</div></li><li class="li1"><div class="de1">&gt;doesn&#039;t budge</div></li><li class="li1"><div class="de1">&quot;Hmmmmm.... HEY PA COME OVER!&quot;</div></li><li class="li1"><div class="de1">&gt;the black bull looks over and makes his way towards you</div></li><li class="li1"><div class="de1">&quot;Yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;the cow points at the potato</div></li><li class="li1"><div class="de1">&quot;This ones giving us trouble&quot;</div></li><li class="li1"><div class="de1">&gt;the bull nods and grabs the plant with one hand and pulls it out as if it were nothing and drops it at your feet</div></li><li class="li1"><div class="de1">&gt;the potato he just pulled out was the size of a small beachball</div></li><li class="li1"><div class="de1">&gt;the bulls goes back to doing his own picking</div></li><li class="li1"><div class="de1">&quot;Woah I&#039;ve never seen one this big before&quot;</div></li><li class="li1"><div class="de1">&gt;the cow picks up the giant potato and passes it to you</div></li><li class="li1"><div class="de1">&gt;you nearly fall back from how heavy it is</div></li><li class="li1"><div class="de1">&gt;from this point forth the cow hangs around you while you&#039;re picking and helps when you find some that are too tough</div></li><li class="li1"><div class="de1">&gt;she bombards you with questions like why you&#039;re here, where you&#039;re from, etc</div></li><li class="li1"><div class="de1">&gt;she also divulges much information about herself to you</div></li><li class="li1"><div class="de1">&gt;turns out molly is her mother and the black bull, named cornelius, is her father </div></li><li class="li1"><div class="de1">&gt;the other bull named sampson is her twin brother and shes named princess</div></li><li class="li1"><div class="de1">&gt;the horse named seabiscuit was just working here part time on behalf of her owner</div></li><li class="li1"><div class="de1">&gt;with some chatty company, time seemed to fly by and before you knew it you were pulling up the last of them</div></li><li class="li1"><div class="de1">&gt;setting down the last bunch on the pile next to molly, princess still continued chatting with you</div></li><li class="li1"><div class="de1">&quot;Y&#039;know with all the work done we&#039;re probably all just going to hang around and have a few beers, wanna join?&quot;</div></li><li class="li1"><div class="de1">&gt;you tell her you need to go out and do some shopping before it gets too late</div></li><li class="li1"><div class="de1">&quot;Oh no problem man, we&#039;re gonna here all night, no rush, go out and do what you need to&quot;</div></li><li class="li1"><div class="de1">&gt;she makes you promise you&#039;ll join them tonight before she lets you go</div></li><li class="li1"><div class="de1">&gt;pat is revving up his tractor when you walk by him</div></li><li class="li1"><div class="de1">&quot;Here you go yung feller&quot;</div></li><li class="li1"><div class="de1">&gt;he hands you a 50$ bill</div></li><li class="li1"><div class="de1">&gt;you thank him and head back to your car</div></li><li class="li1"><div class="de1">&quot;Have a good one buddy&quot;</div></li><li class="li1"><div class="de1">&gt;sitting down in the drivers seat you notice you&#039;re not alone in there</div></li><li class="li1"><div class="de1">&gt;sitting in the passenger seat besides you is a bag of potatoes and a bottle of milk</div></li><li class="li1"><div class="de1">&gt;you&#039;d wonder who put them there but you don&#039;t have the time</div></li><li class="li1"><div class="de1">&gt;you gotta get home before coco cries herself to death</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;you are anon and you&#039;re currently stuck outside your front door
-&gt;whats blocking you from getting inside?
-&gt;that would be an ecstatic coco who has her entire body pressed up against the glass and is shouting as loud as she can to make sure you hear how happy she is that you&#039;re back
-&quot;MASTER YOU&#039;RE HOME! I&#039;M SO GLAD YOU&#039;RE BACK! I MISSED YOU! DID YOU MISS ME?! ARE YOU GONNA STAY HOME NOW?! I LOVE YOU!&quot;
-&gt;since she&#039;s pressing herself so tightly against the glass you can clearly make out her large upper 2 breasts smooshed against the glass with her cute suckable but normally hidden nipples being pushed out of her fur
-&quot;Coco, if you don&#039;t step back from the door I can&#039;t get in&quot;
-&gt;she obediently stepped back to let you in
-&gt;you open the door and are immediately captured by cocos bear hug
-&gt;the force of it knocks you both down
-&gt;with coco on top of you she crawls and starts to plat loads of slobbery dog kisses on your face
-&gt;you can&#039;t help but chuckle at her enthusiasm
-&gt;coco capitalizes on the brief opportunity provided by your open mouth to give you a much more intimate kiss
-&gt;she presses her lips tightly against yours and snakes her tongue into your mouth
-&gt;you&#039;re shocked to say the least and reduced to little more than a passive participant in her sloppy make out session
-&gt;in your paralyzed state her long flat muscled tongue completely dominates yours
-&gt;eventually coco breaks the kiss and gazes down on you longingly while straddling your waist
-&gt;you both stay there silently for a time, staring at each other before you finally break out of your stupor
-&quot;Coco! If you&#039;re going to kiss me like at least give me some warning first&quot;
-&gt;coco is far too pleased with herself to be disappointed by what you just said
-&gt;she stands up and apologizes before helping you up
-&gt;as you make your way inside coco latches herself onto your arm and hugs herself against you
-&quot;So master, you&#039;re staying home now right?&quot;
-&quot;No, I&#039;m just here to get a drink before heading back out&quot;
-&gt;this does put a dent in her mood, her ears flatten and her tail stops wagging
-&gt;you make your way into the living room to find bailey has taken over the couch and has stretched herself out and propped her head on a paw
-&quot;Hi master, coco nearly cried while you were gone&quot;
-&gt;coco lets out a growl
-&quot;Did not!&quot;
-&gt;it seems baileys still engrossed in her videos
-&quot;Bailey, did you remember to put my bedsheets in the dryer?&quot;
-&gt;bailey rolls her eyes and gets up to do her chores
-&gt;while getting a drink you decide to pick up a couple of water bottles just to make sure
-&gt;you head on out once again not before giving coco and bailey their obligatory head scratches
-&gt;just as you&#039;re about to open the door you notice that kneeling just outside it where coco just knocked you down is that bird again
-&gt;with him being so close for once you can get a good look at him
-&gt;the most notable feature you can see from the back is the tall brown and white striped feathers sticking up from his head
-&gt;most of his back is covered in feathers of a very light brown color
-&gt;you can also clearly make out the black and white striped pattern of his tail and flight feathers
-&gt;moving down further you&#039;re floored by the width of his hips
-&gt;god damn why do birds have to be so androgynous?
-&gt;underneath his tail you can make out some incredibly soft white downy feathers
-&gt;you go to open the door in order to finally confront him but he picks out the sound of the turning knob and flies off before you can get the door open
-&gt;you shake your fist at him as he flies off  
-&gt;well back to your quest for pocket change
-&gt;you get in your car and head up the road
-&gt;you slow down once you reach the next house
-&gt;this one is unfortunately abandoned
-&gt;it&#039;s a wooden lodge but all the windows and doors are boarded up
-&gt;you doubt theres any money to be made here so you continue on your way
-&gt;the next house holds much more promise
-&gt;it&#039;s a baby blue box house with no real driveway or lawn but it does have a large fenced in backyard
-&gt;with an obnoxious amount of tacky lawn ornaments in it
-&gt;you park your car on the side of the road, get out and walk to the front door
-&gt;you were going to knock but it&#039;s already obvious someone has noticed your arrival
-&quot;GET OUT! GETOUTGETOUTGETOUTGETOUTGETOOOOOOOOOOUUUUUUUUUUUTTTTTT! FUCKING LEAVE! GET OUT! YOU&#039;RE NOT WELCOME HERE! GET THE FUCK OUT!&quot;
-&gt;as if trying to claw her way through the screen door, a little anthro pomeranian girl is growling and snarling on the other side of it
-&gt;but boy is she tiny
-&gt;shes less than half your height 
-&gt;and with her fur being so poofy you just can&#039;t take the little girl seriously
-&gt;you kneel down and smile at her but this only seems to enrage her further
-&quot;I&#039;LL FUCKING KILL YOU! EAT SHIT AND DIE YOU SHIT EATING SHITSTAIN!&quot;
-&gt;in terms of appearance shes pretty much what you expect from a pomeranian
-&gt;her orange fur obscures most of her physical features besides her face
-&gt;you can&#039;t confidently make out her breast, hip or butt size
-&gt;you&#039;d say she&#039;d make a great shortstack but shes probably a lot scrawnier underneath all that fur 
-&gt;you only stop your examination of her when shes suddenly pulled back by a pair of wrinkly old hands
-&quot;Ginger, what have I told you about using those words? As soon as he leaves you&#039;re going to get it little missy&quot;
-&gt;the old lady who steps out to greet you is definitely someones grandma
-&quot;Hello my lovely..... uh.....&quot;
-&gt;she squints her eyes through thick rimmed glasses as if shes trying to remember who you are
-&gt;you&#039;re honestly tempted to pull a &quot;it&#039;s me&quot; scam but your conscience wins out
-&quot;I&#039;m not your grandkid&quot;
-&gt;her eyes light up in genuine shock that someone who isn&#039;t family would come visit her
-&quot;You&#039;re not here to sell me something are you?&quot;
-&gt;you tell her you kinda are
-&quot;I&#039;m just looking for some odd jobs to make a little bit of money, you got anything around the house that needs doing?&quot;
-&gt;the old lady sighs to herself
-&quot;Oh god yes, I needs to get everything done but I don&#039;t have anything to pay you with&quot;
-&gt;you thank her for her time and go to head back to your car but the old lady stops you
-&quot;Young man, what do you need the money for?&quot;
-&gt;you tell her you mostly need it for food and such
-&gt;granny tells you to wait here and heads back inside
-&gt;the pomeranian watches you from the door but now only growls instead of shouting expletives 
-&gt;the granny comes back out holding a plastic container
-&quot;Here you go young fella, take this, it&#039;s just some leftover turkey diner from last night&quot;
-&gt;you suddenly hear a loud, long and drawn out no come from her doorway
-&gt;you try to decline but the old lady shushes you before the words leave your mouth
-&quot;Please take it, otherwise it&#039;ll go to waste, it was supposed to be a surprise for a certain dog but i don&#039;t think they deserve it anymore&quot;
-&gt;you look to the doorway to see ginger angrier than ever
-&gt;you tell granny you&#039;ll make this up to her someday
-&gt;granny just tells you to take care and heads back inside
-&gt;while dragging her pet further inside with her, ginger does get the last words in
-&quot;I&#039;ll GET YOU BACK FOR THIS! YOU HAVEN&#039;T SEEN THE LAST OF ME!&quot;
-&gt;you head back and sit yourself down in the drivers seat of the car
-&gt;well this does go quite a ways in solving your food situation
-&gt;you start up your car and head towards your last stop for the day
-&gt;this one you hoped would be a big one
-&gt;the old man that lived at the mouth of your road owned a sizable farm patch behind his house
-&gt;you don&#039;t know what he grew there but you knew last time you drove by whatever was planted there was fully grown
-&gt;you hoped by now he&#039;d need help picking them
-&gt;and judging by the fact about half of his field was now empty you say you&#039;re just about right on time
-&gt;you pulled up along the front of his house and found the owner with his back turned to you on a tractor watching the field
-&gt;you gave a quick shout to get his attention and he turned around to face you
-&quot;Yer lookin fa work aint&#039;cha?&quot;
-&gt;straight to business with this guy
-&quot;Yeah, looks like you&#039;re in need of a couple extra hands&quot;
-&gt;the man who got off the tractor was about as stereotypical of a farmer you could get
-&gt;blue overalls, white shirt, straw hat and not a single tooth in his mouth
-&gt;he made a motion with his hands indicating to follow him
-&gt;as you made your way to the back of the house you noticed 4 others picking from the fields
-&quot;So what are you growing here?&quot;
-&quot;Potatoes&quot;
-&gt;nodding your head you continue following until you come upon an absolutely stunning anthro cow girl
-&gt;she was sat on a chair next to a massive pile of potatoes washing the dirt off each one individually 
-&gt;she had the kind of face one would expect from an anthro cow with short stubby horns, big wet nose and big ears
-&gt;she wore a kindly maternal smile an her face with black and white splotches randomly all over her body
-&gt;just as expected were her 2 pairs of massive tits
-&gt;you have no idea where you&#039;d put them on the cup scale but they were definitely larger than your head each
-&gt;her hair also thinned greatly around them giving them an obvious pink color
-&gt;each breast was capped by a monstrous nipple
-&gt;you&#039;d say each one was the length of your index finger and quite a bit thicker
-&gt;her ass, hips and thighs were so wide they strained the chair she was sitting in with her tail slapping back on forth on her butt
-&gt;definitely a booty she could smother someone with
-&gt;she had her legs spread so you could easily see her pussy
-&gt;the hair there thinned out totally leaving her completely bare down there
-&gt;her slit was puffy and long but otherwise pretty featureless
-&gt;you couldn&#039;t make out her clitoris
-&gt;her fertility goddess figure was completed by her bulging pregnancy
-&gt;she looked about ready to pop any moment
-&gt;she waved at you as the farmer introduced you two
-&quot;Now dis here is molly and you can call me pat, you just pull the &#039;tatoes outta da ground and drop&#039;em off here, got it?&quot;
-&gt;you gave him a thumbs up and molly a wave back before treking out onto the field to earn your pay
-&gt;you would have never guessed potatoes were so stubborn
-&gt;after an hour of work you didn&#039;t have nearly as much to show for it as the other workers
-&gt;then again the fact they were all muscle bound anthros probably gave them an unfair advantage
-&gt;working the field with you were 2 bulls, another cow girl and a horse girl
-&gt;every single one of them (except one of the bulls strangely enough) was bulging with muscle
-&gt;the black bull was an absolute monster
-&gt;huge sharp horns, mean look on his face, chiseled chest and junk you tried not to stare very long at
-&gt;you don&#039;t know why &quot;hung like a bull&quot; wasn&#039;t a more common phrase
-&gt;the horse was similarly ripped
-&gt;her arms and legs rippled with muscle whenever she moved and she had a perfect 6 pack abs
-&gt;her ass also made for quite the nice sight whenever she had to strain to pull out a particularly stubborn bunch
-&gt;she was covered in brown hair expect for 3 spots, a white diamond on her forehead and her chest and crotch
-&gt;those 2 areas were covered by a much darker brown colored hair
-&gt;you&#039;d say her breasts were a C cup
-&gt;she only had the 2 of them and they were capped by thumb sized nipples and puffy areola
-&gt;you couldn&#039;t see her pussy very well but you could see her clitoral hood was quite large and completely covered her clitoris
-&gt;the cow was not as ridiculous as the bull and the horse but she was still clearly very fit
-&gt;her head and face looked remarkably similar to mollys but her tits were not nearly as similar
-&gt;in fact you&#039;d say they had more in common with the horses pair
-&gt;around a C cup with thumb sized nipples
-&gt;same pink color to mollys tho
-&gt;strangely enough even though molly was completely hairless down there the cow working the field had obvious dark pubic hair jutting out of her mound that obscured her pussy
-&gt;and last was the other bull
-&gt;he had the same color scheme as the cows rather then the bull
-&gt;his horns were short, his musculature was lean and he wasn&#039;t even very well endowed either
-&gt;compared to the black bull he seemed positively effeminate 
-&gt;maybe he was just young?
-&gt;but even he had no trouble pulling out potatoes
-&gt;whereas you struggled even when you put your whole weight into it  
-&gt;sometimes (like right now) not even that would work
-&gt;you pull and tug, grunt and groan, but the potato wouldn&#039;t budge
-&gt;unfortunately all the noise you were making attracted the attention of the cow
-&quot;Woah there dude, looks like you&#039;re having a bit of trouble&quot;
-&gt;you&#039;re about to tell her you can handle it when the stem slips out of your hands and you fall back on your butt
-&quot;Geez don&#039;t hurt man, here sit back and let me show you how it&#039;s done&quot;
-&gt;she grabs the plant by one hand and gives a tug
-&gt;it doesn&#039;t budge
-&gt;she grabs it with 2 hands and gives a tug 
-&gt;doesn&#039;t budge
-&gt;she puts all her weight behind it 
-&gt;doesn&#039;t budge
-&quot;Wew, looks like you found a big one, mind giving me a hand?&quot;
-&gt;you both grab the plant and put all your weight behind it
-&gt;doesn&#039;t budge
-&quot;Hmmmmm.... HEY PA COME OVER!&quot;
-&gt;the black bull looks over and makes his way towards you
-&quot;Yeah?&quot;
-&gt;the cow points at the potato
-&quot;This ones giving us trouble&quot;
-&gt;the bull nods and grabs the plant with one hand and pulls it out as if it were nothing and drops it at your feet
-&gt;the potato he just pulled out was the size of a small beachball
-&gt;the bulls goes back to doing his own picking
-&quot;Woah I&#039;ve never seen one this big before&quot;
-&gt;the cow picks up the giant potato and passes it to you
-&gt;you nearly fall back from how heavy it is
-&gt;from this point forth the cow hangs around you while you&#039;re picking and helps when you find some that are too tough
-&gt;she bombards you with questions like why you&#039;re here, where you&#039;re from, etc
-&gt;she also divulges much information about herself to you
-&gt;turns out molly is her mother and the black bull, named cornelius, is her father 
-&gt;the other bull named sampson is her twin brother and shes named princess
-&gt;the horse named seabiscuit was just working here part time on behalf of her owner
-&gt;with some chatty company, time seemed to fly by and before you knew it you were pulling up the last of them
-&gt;setting down the last bunch on the pile next to molly, princess still continued chatting with you
-&quot;Y&#039;know with all the work done we&#039;re probably all just going to hang around and have a few beers, wanna join?&quot;
-&gt;you tell her you need to go out and do some shopping before it gets too late
-&quot;Oh no problem man, we&#039;re gonna here all night, no rush, go out and do what you need to&quot;
-&gt;she makes you promise you&#039;ll join them tonight before she lets you go
-&gt;pat is revving up his tractor when you walk by him
-&quot;Here you go yung feller&quot;
-&gt;he hands you a 50$ bill
-&gt;you thank him and head back to your car
-&quot;Have a good one buddy&quot;
-&gt;sitting down in the drivers seat you notice you&#039;re not alone in there
-&gt;sitting in the passenger seat besides you is a bag of potatoes and a bottle of milk
-&gt;you&#039;d wonder who put them there but you don&#039;t have the time
-&gt;you gotta get home before coco cries herself to death</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/5T5nHhJz">OnePunchMan Destiny</a>
-                <div class="details">
-                                            Lua |
-                    
-                    2 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cBbWma3n">Calcular e média de um aluno</a>
-                <div class="details">
-                                            Python |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
-                <div class="details">
-                                            Python |
-                    
-                    33 min ago                </div>
-            </li>
-                    <li>
-                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
-                <div class="details">
-                                            HTML 5 |
-                    
-                    38 min ago                </div>
-            </li>
-                    <li>
-                <a href="/btQEV0ET">Programming - practice</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/puJtA4QV">views.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/XgV1xT3P">forms.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
-<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
-</body>
-</html>

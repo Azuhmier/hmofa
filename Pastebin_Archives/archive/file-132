@@ -1,522 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Bunny Twist - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Bunny Twist - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/2sr6VnMM" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/2sr6VnMM" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="T5M3kJXl867DP1GdKgFXdqRlguNSqPkwG59b5kVjrOE4-VDPrKOU16wKAed6cmYR6zzGhWPdtAMr_RKKHwCBqA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/2sr6VnMM" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/2sr6VnMM" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/1/16/9/3053829.jpg" alt="Lurk_Anon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Bunny Twist</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Lurk_Anon">Lurk_Anon</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Lurk_Anon" class="message" title="Send a private message to: Lurk_Anon"></a>
-                                    
-                <div class="date">
-                    <span title="Monday 8th of January 2018 07:36:42 PM CDT">Jan 8th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    5,162                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 10.56 KB            </div>
-
-            <div class="right">
-                <a href="/raw/2sr6VnMM" class="btn -small">raw</a>
-                <a href="/dl/2sr6VnMM" class="btn -small">download</a>
-                <a href="/clone/2sr6VnMM" class="btn -small h_800">clone</a>
-                <a href="/embed/2sr6VnMM" class="btn -small h_800">embed</a>
-                <a href="/report/2sr6VnMM" class="btn -small">report</a>
-                <a href="/print/2sr6VnMM" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt; &quot;Oh hey Anon! I got a great idea! Wanna play twister?&quot;</div></li><li class="li1"><div class="de1">&gt; She had invited you round for a chat, and a coffee, hearing how your girlfriend had once again bailed on your planned date night. She had chosen to go pamper herself, at your expense, instead.</div></li><li class="li1"><div class="de1">&gt; Coffee had turned into drinks, a chat had turned into a competitive gaming spree, and after she accidentally broke a button trying to falcon punch your elusive charizard off the screen she had chosen to try some drunken board games.</div></li><li class="li1"><div class="de1">&gt; Lita was a fun loving anthro bunny. A mix of grey and black fur currently covered by only a pink tank top and a pair of black shorts. </div></li><li class="li1"><div class="de1">&gt; Despite there being some definite chemistry there, you never made it past friends.</div></li><li class="li1"><div class="de1">&gt; Why she had suggested twister of all things with just the two of you hadn&#039;t really seemed an important question in your booze addled state. It soon would be.</div></li><li class="li1"><div class="de1">&gt; Only a few moves in and things had already gotten... awkward. What booze had made seem like a good idea took a different turn when she started deliberately choosing positions that had her almost grinding on you.</div></li><li class="li1"><div class="de1">&gt; With a bump you both fall to the mat in a pile, laughing drunkenly.</div></li><li class="li1"><div class="de1">&gt; &quot;Ok that&#039;s enough twister for one night.&quot; you laugh. &quot;I think its time... time to go home...&quot; </div></li><li class="li1"><div class="de1">&gt; Your head was spinning and you could only imagine Imogen&#039;s face if you were late home as well as smashed...</div></li><li class="li1"><div class="de1">&gt; &quot;Ohhh c&#039;mon Anon just one more game?&quot; She pleaded. &quot;The Icequeen isn&#039;t going to mind another ten minutes...&quot;</div></li><li class="li1"><div class="de1">&gt; The alcohol had of course affected your judgement.</div></li><li class="li1"><div class="de1">&gt; &quot;Fine, fine...&quot; you relent. &quot;Just don&#039;t call Imogen that ok? You know I don&#039;t like it.&quot;</div></li><li class="li1"><div class="de1">&gt; She pouts as you straighten out the mat.</div></li><li class="li1"><div class="de1">&gt; &quot;Aw boo. I still don&#039;t get why you&#039;re still with her anyway. You could do sooo much better.&quot;</div></li><li class="li1"><div class="de1">&gt; Oblivious to the look in her eyes, you finish your preparations. In truth you asked yourself why you had stuck with Imogen, the spark having long since left. You were loyal to a fault however, perhaps she knew that.</div></li><li class="li1"><div class="de1">&gt; Another swig of your drink and a couple spins of the wheel, you find yourself doing an improvised crab (hands and feet flat, belly up) while Lita stood over you, a long leg either side of your stomach as she bent forward and placed her hands on spots near your feet.</div></li><li class="li1"><div class="de1">&gt; As you struggle to reach the spinner she collapses, sending both of you to the floor once more.</div></li><li class="li1"><div class="de1">&gt; You grunt as she lands on your stomach, damn she needed to lay off the Cheetos...</div></li><li class="li1"><div class="de1">&gt; Getting back up proved to be more difficult this time, mostly because a certain shapely bunny butt had yet to shift itself.</div></li><li class="li1"><div class="de1">&gt; &quot;Uh Lita?&quot; you grumble. &quot;Up please, think that was a draw.&quot;</div></li><li class="li1"><div class="de1">&gt; When she did move however it wasn&#039;t to let you up. Instead she turned herself around to face you, remaining sat on your stomach. </div></li><li class="li1"><div class="de1">&gt; She had a serious look on her face.</div></li><li class="li1"><div class="de1">&gt; &quot;Why didn&#039;t we ever get together Anon?&quot;</div></li><li class="li1"><div class="de1">&gt; Her question took you off guard.</div></li><li class="li1"><div class="de1">&gt; &quot;What? You mean like &#039;together&#039; together?&quot;</div></li><li class="li1"><div class="de1">&gt; The booze was making it difficult to think straight.</div></li><li class="li1"><div class="de1">&gt; &quot;I mean, we&#039;ve known each other for like forever Anon. We know each other better than we know ourselves, right?&quot;</div></li><li class="li1"><div class="de1">&gt; &quot;Why are you saying this?&quot; you ask, beginning to appreciate just how warm she felt on your stomach.</div></li><li class="li1"><div class="de1">&gt; &quot;Its just... Ever since you got together with that snooty broad of yours its like... I dunno. Its like the life is being sucked right out of you. The Anon I know is just fading away...&quot;</div></li><li class="li1"><div class="de1">&gt; You try and shift her off but she refuses to budge.</div></li><li class="li1"><div class="de1">&gt; &quot;Lita... We&#039;ve both been drinking so lets just call it a night. We can talk about this tomorrow when we&#039;ve sobered up ok?&quot;</div></li><li class="li1"><div class="de1">&gt; She still didn&#039;t budge.</div></li><li class="li1"><div class="de1">&gt; &quot;Nope!&quot; she said with a naughty grin. &quot;By tomorrow I&#039;ll have chickened out and you&#039;d be back under her thumb. We&#039;re gonna sort this out tonight!&quot;</div></li><li class="li1"><div class="de1">&gt; You make a final attempt to move her but its no good, she has you good.</div></li><li class="li1"><div class="de1">&gt; As you try and work out a plan (no easy feat when a few tequila shots worse for wear, among other things), so when she leaned forward and kissed you...</div></li><li class="li1"><div class="de1">&gt; ...your brain took a second to process it. Her lips tasted different to Imogen&#039;s, of course they would, but whereas your current girlfriend&#039;s were smooth and permanently tasted of vanilla lip balm, Lita&#039;s were kinda fuzzy and tasted like... tequila and... something else...</div></li><li class="li1"><div class="de1">&gt; As she pulls away, breathing heavily, you&#039;re struck silent. Surprised, kinda outraged but, if you&#039;re honest, also a bit turned on.</div></li><li class="li1"><div class="de1">&gt; &quot;O-ok Lita...&quot; you mumble. &quot;L-let me up now.&quot;</div></li><li class="li1"><div class="de1">&gt; She doesn&#039;t though. She&#039;s had a taste of you now and the look in her eye says that she wants more.</div></li><li class="li1"><div class="de1">&gt; Licking her lips, she reaches down and pulls off her top in one clean motion.</div></li><li class="li1"><div class="de1">&gt; Her grapefruit sized breasts bounce free, she hadn&#039;t been wearing a bra.</div></li><li class="li1"><div class="de1">&gt; Caught between her tits and a hard place you can only stare and bask in their fuzzy glory.</div></li><li class="li1"><div class="de1">&gt; She leans forward once more, bringing her bosom to rest just under your chin. She&#039;s about to speak when instead she exhales sharply.</div></li><li class="li1"><div class="de1">&gt; Something large had just prodded her behind through your pants...</div></li><li class="li1"><div class="de1">&gt; &quot;Well Anon?&quot; she whispers huskily. &quot;I said you deserve better... and here I am. I&#039;m all yours, if you want me?&quot;</div></li><li class="li1"><div class="de1">&gt; Maybe it was the booze, maybe it was the realisation that Imogen hadn&#039;t looked at you like this for a long time... </div></li><li class="li1"><div class="de1">&gt; Maybe it was that elusive taste on her lips, the one you hadn&#039;t tasted in so long you had forgotten it. Desire.</div></li><li class="li1"><div class="de1">&gt; You slowly reached up and grabbed two handfuls of bunny butt, giving her your answer quite clearly.</div></li><li class="li1"><div class="de1">&gt; Your touch seemed to electrify her. With a giggle she made like an energizer bunny and got to work.</div></li><li class="li1"><div class="de1">&gt; She reached down to have at your belt, it didn&#039;t take her long to set the caged beast within free. </div></li><li class="li1"><div class="de1">&gt; She let out a little gasp as she looked down at it, then looked back to you in approval.</div></li><li class="li1"><div class="de1">&gt; &quot;Damn Anon, if I&#039;d known you were hiding that down there I would have done this sooner...&quot;</div></li><li class="li1"><div class="de1">&gt; Her shorts came off immediately after, leaving her sitting butt naked on top of you.</div></li><li class="li1"><div class="de1">&gt; Perhaps if you hadn&#039;t been drinking then the fact she was already dripping wet between her legs would have been more noticeable.</div></li><li class="li1"><div class="de1">&gt; Instead however it just made things that much easier when she unceremoniously dropped herself down upon your waiting manhood and took you up to the hilt.</div></li><li class="li1"><div class="de1">&gt; An explosion of sensations rippled up your body from the point of impact, she was hot, wet and vice tight.</div></li><li class="li1"><div class="de1">&gt; On her part she had reacted by throwing back her head and releasing a long and shuddering &quot;Ohhhhh...&quot;</div></li><li class="li1"><div class="de1">&gt; You didn&#039;t get long to get used to the feeling however as she lifted herself up, stopping as your head threatened to pop out her opening, before pounding down once more.</div></li><li class="li1"><div class="de1">&gt; You grunt and hiss as she begins to buck and ride, twisting and changing her angle each time she rose as if to feel as much of you inside as she could.</div></li><li class="li1"><div class="de1">&gt; Before long however you grabbed hold and told her to stop.</div></li><li class="li1"><div class="de1">&gt;&quot;What&#039;s wrong?&quot; she asked panting.  &quot;Don&#039;t tell me you&#039;ve changed your mind... have you?&quot;</div></li><li class="li1"><div class="de1">&gt; &quot;No, its just...&quot;</div></li><li class="li1"><div class="de1">&gt; It takes you a moment to find the words.</div></li><li class="li1"><div class="de1">&gt; &quot;I cant feel my ass.&quot;</div></li><li class="li1"><div class="de1">&gt; She&#039;d been sitting on you for a while now and with her not so gentle pounding your lower back was in danger of seizing up.</div></li><li class="li1"><div class="de1">&gt; &quot;Oh, what really?&quot; she asked, worry breaking through the lusty mask that had dominated her features until now.</div></li><li class="li1"><div class="de1">&gt; As she moved to give you some wiggle room, you push yourself up and forward.</div></li><li class="li1"><div class="de1">&gt; The result sends her flying onto her back and off of your twitching erection.</div></li><li class="li1"><div class="de1">&gt; Sober Anon, hiding somewhere in the back of your mind, tells you to pull up your pants and go home and beg your unloving bitch of a girlfriend for forgiveness.</div></li><li class="li1"><div class="de1">&gt; Drunk and now horny Anon however drowns the party-pooper in more booze and encourages you to go to Lita.</div></li><li class="li1"><div class="de1">&gt; She&#039;s still on the floor, eyes fixed on your bunny juice soaked cock, and beckoning you forward.</div></li><li class="li1"><div class="de1">&gt; Whatever doubt you had melts away at the sight of her spread legs and the glistening prize that awaited between.</div></li><li class="li1"><div class="de1">&gt; It doesn&#039;t take you long to reposition and enter her once more.</div></li><li class="li1"><div class="de1">&gt; She gives a throaty moan as you work your way back inside, your girth hitting all her hidden sweet spots as you bottom her out.</div></li><li class="li1"><div class="de1">&gt; With one hand rubbing her breast and the other on the floor for support, you start pounding her for all you&#039;re worth.</div></li><li class="li1"><div class="de1">&gt; Its been a while since you had been intimate with anyone, Imogen turning cold on you these last few months, so it didn&#039;t take long for you to start reaching your limit.</div></li><li class="li1"><div class="de1">&gt; &quot;L-lita?&quot; you groan.  &quot;I&#039;m close... but I don&#039;t have anything on...  I&#039;m gonna pull out ok?&quot;</div></li><li class="li1"><div class="de1">&gt; She had been lost in a moaning haze up until then, simply enjoying the ride.</div></li><li class="li1"><div class="de1">&gt; At your words however she snapped to attention... and wrapped her powerful legs around you, effectively pinning you inside.</div></li><li class="li1"><div class="de1">&gt; &quot;What the-?&quot; you start to ask and try pulling out.</div></li><li class="li1"><div class="de1">&gt; The lust filled bunny has other ideas however.</div></li><li class="li1"><div class="de1">&gt; &quot;Oh no you don&#039;t Anon!&quot; she yells, a hunger in her voice you&#039;d never heard before.</div></li><li class="li1"><div class="de1">&gt; &quot;I want you to be mine Anon!  All mine!  I want you inside!  Every last drop!&quot;</div></li><li class="li1"><div class="de1">&gt; Even as the words left her lips she began pulling herself forward, her thighs straining as she held you in place and grinded herself on your buried cock.</div></li><li class="li1"><div class="de1">&gt; You moan and curse as she brings you closer and closer, intent on having you release inside.</div></li><li class="li1"><div class="de1">&gt; With a final moan you burst forth, months of pent up frustration and need exploding into the vice like rabbit hole.</div></li><li class="li1"><div class="de1">&gt; The feeling of you explosively coating her inner walls sets off her own climax, her throbbing pussy milking you for all it could get.</div></li><li class="li1"><div class="de1">----------------------------</div></li><li class="li1"><div class="de1">&gt; With her wish being granted and Anon&#039;s balls being drained completely, the two collapse one final time into a heap onto the twister mat.</div></li><li class="li1"><div class="de1">&gt; The mix of alcohol and exhaustion soon caused Anon to drift off to sleep in her arms, the afterglow bringing a contentment he had long forgotten existed.</div></li><li class="li1"><div class="de1">&gt; Lita reached over lazily to the side and retrieved her phone.</div></li><li class="li1"><div class="de1">&gt; Holding it up she positioned the camera, wore the smuggest smile she could muster, and took a picture of the steamy pile of human and rabbit.</div></li><li class="li1"><div class="de1">&gt; After making sure there was nothing showing (nip slips were difficult to take back once posted), she found her way to Imogen&#039;s main social media page.</div></li><li class="li1"><div class="de1">&gt; With no small amount of disgust she noted all the posted pics of the human girl posing were with just about everyone and everything, except Anon.</div></li><li class="li1"><div class="de1">&gt; Stupid bitch didn&#039;t know what she had, what she had lost.</div></li><li class="li1"><div class="de1">&gt; She will soon though.</div></li><li class="li1"><div class="de1">&gt; With a grin, she posts the photo and adds a caption.</div></li><li class="li1"><div class="de1">&gt; &quot;Sorry you had to cancel on Anon AGAIN.  Don&#039;t worry though, I made sure to look after him!&quot;</div></li><li class="li1"><div class="de1">&gt; Her work complete, she switches of the phone and cuddles up to the sleeping human.</div></li><li class="li1"><div class="de1">&gt; Tomorrow was going to be one hell of a shitstorm, and Anon was going to need somewhere to lay low for a while.</div></li><li class="li1"><div class="de1">&gt; Good thing she had timed this right when her heat was starting...</div></li><li class="li1"><div class="de1">Fin</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt; &quot;Oh hey Anon! I got a great idea! Wanna play twister?&quot;
-&gt; She had invited you round for a chat, and a coffee, hearing how your girlfriend had once again bailed on your planned date night. She had chosen to go pamper herself, at your expense, instead.
-&gt; Coffee had turned into drinks, a chat had turned into a competitive gaming spree, and after she accidentally broke a button trying to falcon punch your elusive charizard off the screen she had chosen to try some drunken board games.
-&gt; Lita was a fun loving anthro bunny. A mix of grey and black fur currently covered by only a pink tank top and a pair of black shorts. 
-&gt; Despite there being some definite chemistry there, you never made it past friends.
-&gt; Why she had suggested twister of all things with just the two of you hadn&#039;t really seemed an important question in your booze addled state. It soon would be.
-&gt; Only a few moves in and things had already gotten... awkward. What booze had made seem like a good idea took a different turn when she started deliberately choosing positions that had her almost grinding on you.
-&gt; With a bump you both fall to the mat in a pile, laughing drunkenly.
-&gt; &quot;Ok that&#039;s enough twister for one night.&quot; you laugh. &quot;I think its time... time to go home...&quot; 
-&gt; Your head was spinning and you could only imagine Imogen&#039;s face if you were late home as well as smashed...
-&gt; &quot;Ohhh c&#039;mon Anon just one more game?&quot; She pleaded. &quot;The Icequeen isn&#039;t going to mind another ten minutes...&quot;
-&gt; The alcohol had of course affected your judgement.
-&gt; &quot;Fine, fine...&quot; you relent. &quot;Just don&#039;t call Imogen that ok? You know I don&#039;t like it.&quot;
-&gt; She pouts as you straighten out the mat.
-&gt; &quot;Aw boo. I still don&#039;t get why you&#039;re still with her anyway. You could do sooo much better.&quot;
-&gt; Oblivious to the look in her eyes, you finish your preparations. In truth you asked yourself why you had stuck with Imogen, the spark having long since left. You were loyal to a fault however, perhaps she knew that.
-&gt; Another swig of your drink and a couple spins of the wheel, you find yourself doing an improvised crab (hands and feet flat, belly up) while Lita stood over you, a long leg either side of your stomach as she bent forward and placed her hands on spots near your feet.
-&gt; As you struggle to reach the spinner she collapses, sending both of you to the floor once more.
-&gt; You grunt as she lands on your stomach, damn she needed to lay off the Cheetos...
-&gt; Getting back up proved to be more difficult this time, mostly because a certain shapely bunny butt had yet to shift itself.
-&gt; &quot;Uh Lita?&quot; you grumble. &quot;Up please, think that was a draw.&quot;
-&gt; When she did move however it wasn&#039;t to let you up. Instead she turned herself around to face you, remaining sat on your stomach. 
-&gt; She had a serious look on her face.
-&gt; &quot;Why didn&#039;t we ever get together Anon?&quot;
-&gt; Her question took you off guard.
-&gt; &quot;What? You mean like &#039;together&#039; together?&quot;
-&gt; The booze was making it difficult to think straight.
-&gt; &quot;I mean, we&#039;ve known each other for like forever Anon. We know each other better than we know ourselves, right?&quot;
-&gt; &quot;Why are you saying this?&quot; you ask, beginning to appreciate just how warm she felt on your stomach.
-&gt; &quot;Its just... Ever since you got together with that snooty broad of yours its like... I dunno. Its like the life is being sucked right out of you. The Anon I know is just fading away...&quot;
-&gt; You try and shift her off but she refuses to budge.
-&gt; &quot;Lita... We&#039;ve both been drinking so lets just call it a night. We can talk about this tomorrow when we&#039;ve sobered up ok?&quot;
-&gt; She still didn&#039;t budge.
-&gt; &quot;Nope!&quot; she said with a naughty grin. &quot;By tomorrow I&#039;ll have chickened out and you&#039;d be back under her thumb. We&#039;re gonna sort this out tonight!&quot;
-&gt; You make a final attempt to move her but its no good, she has you good.
-&gt; As you try and work out a plan (no easy feat when a few tequila shots worse for wear, among other things), so when she leaned forward and kissed you...
-&gt; ...your brain took a second to process it. Her lips tasted different to Imogen&#039;s, of course they would, but whereas your current girlfriend&#039;s were smooth and permanently tasted of vanilla lip balm, Lita&#039;s were kinda fuzzy and tasted like... tequila and... something else...
-&gt; As she pulls away, breathing heavily, you&#039;re struck silent. Surprised, kinda outraged but, if you&#039;re honest, also a bit turned on.
-&gt; &quot;O-ok Lita...&quot; you mumble. &quot;L-let me up now.&quot;
-&gt; She doesn&#039;t though. She&#039;s had a taste of you now and the look in her eye says that she wants more.
-&gt; Licking her lips, she reaches down and pulls off her top in one clean motion.
-&gt; Her grapefruit sized breasts bounce free, she hadn&#039;t been wearing a bra.
-&gt; Caught between her tits and a hard place you can only stare and bask in their fuzzy glory.
-&gt; She leans forward once more, bringing her bosom to rest just under your chin. She&#039;s about to speak when instead she exhales sharply.
-&gt; Something large had just prodded her behind through your pants...
-&gt; &quot;Well Anon?&quot; she whispers huskily. &quot;I said you deserve better... and here I am. I&#039;m all yours, if you want me?&quot;
-&gt; Maybe it was the booze, maybe it was the realisation that Imogen hadn&#039;t looked at you like this for a long time... 
-&gt; Maybe it was that elusive taste on her lips, the one you hadn&#039;t tasted in so long you had forgotten it. Desire.
-&gt; You slowly reached up and grabbed two handfuls of bunny butt, giving her your answer quite clearly.
-&gt; Your touch seemed to electrify her. With a giggle she made like an energizer bunny and got to work.
-&gt; She reached down to have at your belt, it didn&#039;t take her long to set the caged beast within free. 
-&gt; She let out a little gasp as she looked down at it, then looked back to you in approval.
-&gt; &quot;Damn Anon, if I&#039;d known you were hiding that down there I would have done this sooner...&quot;
-&gt; Her shorts came off immediately after, leaving her sitting butt naked on top of you.
-&gt; Perhaps if you hadn&#039;t been drinking then the fact she was already dripping wet between her legs would have been more noticeable.
-&gt; Instead however it just made things that much easier when she unceremoniously dropped herself down upon your waiting manhood and took you up to the hilt.
-&gt; An explosion of sensations rippled up your body from the point of impact, she was hot, wet and vice tight.
-&gt; On her part she had reacted by throwing back her head and releasing a long and shuddering &quot;Ohhhhh...&quot;
-&gt; You didn&#039;t get long to get used to the feeling however as she lifted herself up, stopping as your head threatened to pop out her opening, before pounding down once more.
-&gt; You grunt and hiss as she begins to buck and ride, twisting and changing her angle each time she rose as if to feel as much of you inside as she could.
-&gt; Before long however you grabbed hold and told her to stop.
-&gt;&quot;What&#039;s wrong?&quot; she asked panting.  &quot;Don&#039;t tell me you&#039;ve changed your mind... have you?&quot;
-&gt; &quot;No, its just...&quot;
-&gt; It takes you a moment to find the words.
-&gt; &quot;I cant feel my ass.&quot;
-&gt; She&#039;d been sitting on you for a while now and with her not so gentle pounding your lower back was in danger of seizing up.
-&gt; &quot;Oh, what really?&quot; she asked, worry breaking through the lusty mask that had dominated her features until now.
-&gt; As she moved to give you some wiggle room, you push yourself up and forward.
-&gt; The result sends her flying onto her back and off of your twitching erection.
-&gt; Sober Anon, hiding somewhere in the back of your mind, tells you to pull up your pants and go home and beg your unloving bitch of a girlfriend for forgiveness.
-&gt; Drunk and now horny Anon however drowns the party-pooper in more booze and encourages you to go to Lita.
-&gt; She&#039;s still on the floor, eyes fixed on your bunny juice soaked cock, and beckoning you forward.
-&gt; Whatever doubt you had melts away at the sight of her spread legs and the glistening prize that awaited between.
-&gt; It doesn&#039;t take you long to reposition and enter her once more.
-&gt; She gives a throaty moan as you work your way back inside, your girth hitting all her hidden sweet spots as you bottom her out.
-&gt; With one hand rubbing her breast and the other on the floor for support, you start pounding her for all you&#039;re worth.
-&gt; Its been a while since you had been intimate with anyone, Imogen turning cold on you these last few months, so it didn&#039;t take long for you to start reaching your limit.
-&gt; &quot;L-lita?&quot; you groan.  &quot;I&#039;m close... but I don&#039;t have anything on...  I&#039;m gonna pull out ok?&quot;
-&gt; She had been lost in a moaning haze up until then, simply enjoying the ride.
-&gt; At your words however she snapped to attention... and wrapped her powerful legs around you, effectively pinning you inside.
-&gt; &quot;What the-?&quot; you start to ask and try pulling out.
-&gt; The lust filled bunny has other ideas however.
-&gt; &quot;Oh no you don&#039;t Anon!&quot; she yells, a hunger in her voice you&#039;d never heard before.
-&gt; &quot;I want you to be mine Anon!  All mine!  I want you inside!  Every last drop!&quot;
-&gt; Even as the words left her lips she began pulling herself forward, her thighs straining as she held you in place and grinded herself on your buried cock.
-&gt; You moan and curse as she brings you closer and closer, intent on having you release inside.
-&gt; With a final moan you burst forth, months of pent up frustration and need exploding into the vice like rabbit hole.
-&gt; The feeling of you explosively coating her inner walls sets off her own climax, her throbbing pussy milking you for all it could get.
-----------------------------
-&gt; With her wish being granted and Anon&#039;s balls being drained completely, the two collapse one final time into a heap onto the twister mat.
-&gt; The mix of alcohol and exhaustion soon caused Anon to drift off to sleep in her arms, the afterglow bringing a contentment he had long forgotten existed.
-&gt; Lita reached over lazily to the side and retrieved her phone.
-&gt; Holding it up she positioned the camera, wore the smuggest smile she could muster, and took a picture of the steamy pile of human and rabbit.
-&gt; After making sure there was nothing showing (nip slips were difficult to take back once posted), she found her way to Imogen&#039;s main social media page.
-&gt; With no small amount of disgust she noted all the posted pics of the human girl posing were with just about everyone and everything, except Anon.
-&gt; Stupid bitch didn&#039;t know what she had, what she had lost.
-&gt; She will soon though.
-&gt; With a grin, she posts the photo and adds a caption.
-&gt; &quot;Sorry you had to cancel on Anon AGAIN.  Don&#039;t worry though, I made sure to look after him!&quot;
-&gt; Her work complete, she switches of the phone and cuddles up to the sleeping human.
-&gt; Tomorrow was going to be one hell of a shitstorm, and Anon was going to need somewhere to lay low for a while.
-&gt; Good thing she had timed this right when her heat was starting...
-Fin</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    27 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    56 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

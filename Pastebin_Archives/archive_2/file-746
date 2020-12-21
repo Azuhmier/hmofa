@@ -1,767 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Problem Child - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Problem Child - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/fZEaz6Sv" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/fZEaz6Sv" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="UWBSvDhzLrR0sE_lrb3_erzglgYgfeXHHN8O5-btH9YwGjWEczlt_yP-C7zvyIw21rTcZUouyJFDikemi45U7g==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/fZEaz6Sv" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/fZEaz6Sv" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>Problem Child</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Sunday 20th of August 2017 08:58:01 PM CDT">Aug 20th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,134                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 19.43 KB            </div>
-
-            <div class="right">
-                <a href="/raw/fZEaz6Sv" class="btn -small">raw</a>
-                <a href="/dl/fZEaz6Sv" class="btn -small">download</a>
-                <a href="/clone/fZEaz6Sv" class="btn -small h_800">clone</a>
-                <a href="/embed/fZEaz6Sv" class="btn -small h_800">embed</a>
-                <a href="/report/fZEaz6Sv" class="btn -small">report</a>
-                <a href="/print/fZEaz6Sv" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;when you told your friends you wanted to be a teacher, they were all more than happy for you</div></li><li class="li1"><div class="de1">&gt;when you told them where you&#039;d be teaching they spent an entire day trying to talk you out of it</div></li><li class="li1"><div class="de1">&gt;not that you could blame them, it wasn&#039;t the best of schools</div></li><li class="li1"><div class="de1">&gt;it was in a rough area, and it was 90% anthro</div></li><li class="li1"><div class="de1">&gt;you&#039;d heard about what happens to humans in anthro communities</div></li><li class="li1"><div class="de1">&gt;it wasn&#039;t anything good</div></li><li class="li1"><div class="de1">&gt;at least the job pays well</div></li><li class="li1"><div class="de1">&gt;either way it was too late to back out now</div></li><li class="li1"><div class="de1">&gt;today was the first day of school</div></li><li class="li1"><div class="de1">&gt;there was a few minutes before class started, so you took some time to look over your class roster again</div></li><li class="li1"><div class="de1">&gt;you feel something on your shoulder</div></li><li class="li1"><div class="de1">&gt;another teacher is looking at the list of students</div></li><li class="li1"><div class="de1">&gt;it&#039;s a little unnerving since he&#039;s standing in the hallway while you&#039;re in your classroom</div></li><li class="li1"><div class="de1">&gt;giraffes are weird</div></li><li class="li1"><div class="de1">&quot;You&#039;ve got that girl in your class?&quot; he says, laughing</div></li><li class="li1"><div class="de1">&gt;you ask him what he means by that</div></li><li class="li1"><div class="de1">&quot;You&#039;ll find out. A bit of advice, make sure you keep her at arm&#039;s length at all times. It&#039;ll be for the best.&quot;</div></li><li class="li1"><div class="de1">&gt;he leaves the room as the bell rings signalling the start of the day</div></li><li class="li1"><div class="de1">&gt;all manner of animals begin to file into the room</div></li><li class="li1"><div class="de1">&gt;time to sink or swim</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it takes several minutes for the noise to die down</div></li><li class="li1"><div class="de1">&gt;these kids were obviously still full of excitement from the summer</div></li><li class="li1"><div class="de1">&gt;you try and gain control, but it&#039;s useless</div></li><li class="li1"><div class="de1">&gt;a loud roar tears through the chatter, and afterwards the room is dead silent</div></li><li class="li1"><div class="de1">&gt;a lion with a brilliant golden mane turns and glares at the other students</div></li><li class="li1"><div class="de1">&quot;Shut the fuck up, man&#039;s tryna teach.&quot;</div></li><li class="li1"><div class="de1">&gt;you clear your throat</div></li><li class="li1"><div class="de1">&quot;Thank you. Let&#039;s take attendance.&quot;</div></li><li class="li1"><div class="de1">&gt;you call out each of the students</div></li><li class="li1"><div class="de1">&gt;all of them are present save for one</div></li><li class="li1"><div class="de1">&gt;it was the girl the other teacher had pointed out</div></li><li class="li1"><div class="de1">&gt;cutting school wasn&#039;t anything out of the ordinary, but the first day?</div></li><li class="li1"><div class="de1">&gt;no time to think about it now, time for teaching</div></li><li class="li1"><div class="de1">&quot;Hello everyone. My name is Mr. Anonymous. I&#039;ll be your homeroom teacher for the school year. I hope we can all get along.&quot;</div></li><li class="li1"><div class="de1">&gt;none of the students respond</div></li><li class="li1"><div class="de1">&gt;some of them look at you like they&#039;re sizing you up</div></li><li class="li1"><div class="de1">&gt;this wasn&#039;t going to be easy</div></li><li class="li1"><div class="de1">&gt;luckily the day goes by without incident</div></li><li class="li1"><div class="de1">&gt;as you leave you&#039;re stopped by another teacher</div></li><li class="li1"><div class="de1">&quot;Hey, how&#039;d you like your first day in the jungle?&quot;</div></li><li class="li1"><div class="de1">&gt;you&#039;re pretty sure that was racist</div></li><li class="li1"><div class="de1">&quot;It&#039;s alright. It just takes some getting used to.&quot;</div></li><li class="li1"><div class="de1">&gt;she laughs</div></li><li class="li1"><div class="de1">&quot;Better get used to it quick. Word of advice; don&#039;t be afraid to break your foot off in their ass. Gotta establish dominance fast or all kinds of shit can go wrong.&quot;</div></li><li class="li1"><div class="de1">&gt;she points to the scar over her right eye</div></li><li class="li1"><div class="de1">&gt;and the glass sphere that resides where her eyeball used to be</div></li><li class="li1"><div class="de1">&gt;you shudder at the thought of one of your students taking a chunk out of you</div></li><li class="li1"><div class="de1">&gt;then you remember the absent student</div></li><li class="li1"><div class="de1">&quot;I have this girl in my class. Her name&#039;s Claire Whitfield. What can you tell me about her?&quot;</div></li><li class="li1"><div class="de1">&gt;the woman&#039;s face twists with anger</div></li><li class="li1"><div class="de1">&quot;She&#039;s a problem.&quot;</div></li><li class="li1"><div class="de1">&gt;she storms off without saying another word</div></li><li class="li1"><div class="de1">&gt;you&#039;re pretty sure you know less now than when you started</div></li><li class="li1"><div class="de1">&gt;oh well, tomorrow&#039;s a new day</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">--- </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;three days go by without Claire coming to class</div></li><li class="li1"><div class="de1">&gt;you&#039;re more than a little worried</div></li><li class="li1"><div class="de1">&gt;you decide to ask the class about her</div></li><li class="li1"><div class="de1">&quot;Does anyone know where Claire is?&quot;</div></li><li class="li1"><div class="de1">&gt;the room suddenly fills with various murmurs</div></li><li class="li1"><div class="de1">&gt;the students look at each other, the smaller ones look almost fearful</div></li><li class="li1"><div class="de1">&gt;this doesn&#039;t bode well at all</div></li><li class="li1"><div class="de1">&quot;Never mind. Let&#039;s get back to class.&quot;</div></li><li class="li1"><div class="de1">&gt;maybe she was put on your roster by mistake</div></li><li class="li1"><div class="de1">&gt;as if on cue the classroom door flies open and a student walks in</div></li><li class="li1"><div class="de1">&gt;she was tall, with grey fur</div></li><li class="li1"><div class="de1">&gt;her arms were covered in scars</div></li><li class="li1"><div class="de1">&gt;one of her ears looked like it had been bitten off</div></li><li class="li1"><div class="de1">&gt;she was clearly used to fighting</div></li><li class="li1"><div class="de1">&quot;Are you Claire Whitfield?&quot;</div></li><li class="li1"><div class="de1">&gt;she looks at you</div></li><li class="li1"><div class="de1">&gt;you suddenly want to crawl into a hole and die</div></li><li class="li1"><div class="de1">&gt;she takes her seat without answering your question</div></li><li class="li1"><div class="de1">&gt;off to a great start already</div></li><li class="li1"><div class="de1">&gt;as the day goes on you notice that the other students are suddenly more well behaved</div></li><li class="li1"><div class="de1">&gt;are they afraid of this girl?</div></li><li class="li1"><div class="de1">&gt;sure she was a little intimidating, but you were sure she was a nice girl once you go to know her</div></li><li class="li1"><div class="de1">&gt;you look at her in her seat</div></li><li class="li1"><div class="de1">&gt;she has her head down, sleeping</div></li><li class="li1"><div class="de1">&gt;you should reprimand her, but something something sleeping dogs</div></li><li class="li1"><div class="de1">&gt;another student flicks a piece of paper at her</div></li><li class="li1"><div class="de1">&gt;it bounces off of her head</div></li><li class="li1"><div class="de1">&gt;you tell the student to cut that out</div></li><li class="li1"><div class="de1">&gt;the student ignores you and does it again</div></li><li class="li1"><div class="de1">&gt;Claire&#039;s eyes snap open</div></li><li class="li1"><div class="de1">&gt;she leaps from her desk and pounces on the small animal</div></li><li class="li1"><div class="de1">&gt;her jaw clamps around his arm as she thrashes violently</div></li><li class="li1"><div class="de1">&gt;the other students back away from her</div></li><li class="li1"><div class="de1">&gt;some pull out their phones and start recording</div></li><li class="li1"><div class="de1">&gt;a few of them are laughing</div></li><li class="li1"><div class="de1">&gt;you run up to the two and try and break them up</div></li><li class="li1"><div class="de1">&gt;Claire swipes at your stomach with her claws</div></li><li class="li1"><div class="de1">&gt;you feel something cut you and your shirt is stained with blood</div></li><li class="li1"><div class="de1">&gt;the girl lets go of the boy&#039;s arm and storms out the room</div></li><li class="li1"><div class="de1">&gt;you run off to find a nurse</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;an elderly looking sheep is wrapping bandages around your stomach</div></li><li class="li1"><div class="de1">&gt;she laughed when you told her what happened</div></li><li class="li1"><div class="de1">&quot;That&#039;s your own fault. You should know better than to try and break up a fight.&quot;</div></li><li class="li1"><div class="de1">&quot;What, was I supposed to let Claire rip that kid&#039;s arm off?&quot;</div></li><li class="li1"><div class="de1">&gt;she keeps wrapping bandages</div></li><li class="li1"><div class="de1">&quot;Mmm Hmm. Some of those kids are just born violent, but they know better than to kill somebody.&quot;</div></li><li class="li1"><div class="de1">&gt;the old sheep was right</div></li><li class="li1"><div class="de1">&gt;the wound on your stomach was just a few shallow scratches, only enough to intimidate you</div></li><li class="li1"><div class="de1">&gt;if Claire had wanted to she could have torn your stomach open</div></li><li class="li1"><div class="de1">&gt;teaching here wasn&#039;t going to be easy</div></li><li class="li1"><div class="de1">&gt;the nurse finishes patching you up and sends you on your way</div></li><li class="li1"><div class="de1">&gt;when you get back to the classroom the students have already cleaned up</div></li><li class="li1"><div class="de1">&gt;you can hear the choked off laughter</div></li><li class="li1"><div class="de1">&gt;you decide not to dwell on it and sit down at your desk</div></li><li class="li1"><div class="de1">&quot;Where&#039;d Claire go?&quot;</div></li><li class="li1"><div class="de1">&gt;a student spoke up</div></li><li class="li1"><div class="de1">&quot;She went home.&quot;</div></li><li class="li1"><div class="de1">&gt;of course she did</div></li><li class="li1"><div class="de1">&gt;whatever, back to teaching</div></li><li class="li1"><div class="de1">&gt;at least nothing happened for the rest of the day</div></li><li class="li1"><div class="de1">&gt;once the bell rang you sat down at your desk and tried to catch up on your work</div></li><li class="li1"><div class="de1">&gt;emphasis on tried</div></li><li class="li1"><div class="de1">&gt;you find yourself distracted by the dog in front of you</div></li><li class="li1"><div class="de1">&gt;the way her tail swishes back and forth is kind of hypnotic</div></li><li class="li1"><div class="de1">&quot;Claire wanted me to tell you she was sorry.&quot;</div></li><li class="li1"><div class="de1">&gt;that&#039;s... progress?</div></li><li class="li1"><div class="de1">&quot;That&#039;s good, but I need to talk to her. Do you know where she lives?&quot;</div></li><li class="li1"><div class="de1">&gt;her ears droop</div></li><li class="li1"><div class="de1">&quot;She lives on the street. I only see her every now and then.&quot;</div></li><li class="li1"><div class="de1">&quot;Are you two friends?&quot;</div></li><li class="li1"><div class="de1">&gt;she nods</div></li><li class="li1"><div class="de1">&quot;We used to live together when we were kids.&quot;</div></li><li class="li1"><div class="de1">&quot;If you see her, tell her to come see me, okay?&quot;</div></li><li class="li1"><div class="de1">&quot;Okay Mr. Anon.&quot;</div></li><li class="li1"><div class="de1">&gt;she tilts her head forward expectantly</div></li><li class="li1"><div class="de1">&gt;you don&#039;t know what she wants</div></li><li class="li1"><div class="de1">&gt;oh right, dog</div></li><li class="li1"><div class="de1">&gt;you reach out and pat her on the head</div></li><li class="li1"><div class="de1">&quot;Good girl&quot;</div></li><li class="li1"><div class="de1">&gt;her tail wags happily as she leaves</div></li><li class="li1"><div class="de1">&gt;well, at least one good thing happened today</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it&#039;s an entire week before you see Claire again</div></li><li class="li1"><div class="de1">&gt;she wait&#039;s until school is out to come and see you</div></li><li class="li1"><div class="de1">&gt;she looks just as angry as ever, like you fucked up or something</div></li><li class="li1"><div class="de1">&quot;I&#039;m sorry for hurting you.&quot;</div></li><li class="li1"><div class="de1">&gt;she says that, but she doesn&#039;t look sorry at all</div></li><li class="li1"><div class="de1">&quot;It was my fault anyway. More importantly, why aren&#039;t you coming to school?&quot;</div></li><li class="li1"><div class="de1">&gt;she shrugs</div></li><li class="li1"><div class="de1">&quot;I don&#039;t want to. I can&#039;t stand being in one place for so long. I need to move around.&quot;</div></li><li class="li1"><div class="de1">&gt;you can&#039;t understand her at all</div></li><li class="li1"><div class="de1">&gt;it must be a wolf thing</div></li><li class="li1"><div class="de1">&quot;I won&#039;t say I know how you feel, but you need to come to class. If you miss too many days you&#039;ll fall behind and you might end up getting held back.&quot;</div></li><li class="li1"><div class="de1">&gt;she rolls her eyes</div></li><li class="li1"><div class="de1">&quot;So? I can learn more on the street than I can in school, and it&#039;s not like anybody gives a shit if I&#039;m here or not.&quot;</div></li><li class="li1"><div class="de1">&gt;you sigh</div></li><li class="li1"><div class="de1">&quot;I&#039;d like it if you were here. I enjoy having you in my class.&quot;</div></li><li class="li1"><div class="de1">&gt;her eyes narrow</div></li><li class="li1"><div class="de1">&gt;she turns on her heels and storms out the room, slamming the door behind her</div></li><li class="li1"><div class="de1">&gt;what the fuck just happened</div></li><li class="li1"><div class="de1">&gt;you thought you were doing pretty well</div></li><li class="li1"><div class="de1">&gt;you bang your head on your desk</div></li><li class="li1"><div class="de1">&quot;What did I do wrong?&quot;</div></li><li class="li1"><div class="de1">&gt;you weren&#039;t expecting someone to actually answer you</div></li><li class="li1"><div class="de1">&quot;You didn&#039;t do anything wrong, she just doesn&#039;t trust you.&quot;</div></li><li class="li1"><div class="de1">&gt;it was Claire&#039;s friend</div></li><li class="li1"><div class="de1">&quot;What do you mean?&quot; you ask her</div></li><li class="li1"><div class="de1">&quot;It&#039;s hard for her to trust people, especially men.&quot;</div></li><li class="li1"><div class="de1">&quot;Because of how she grew up?&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah. I used to be the same way. Living on the streets changes people. Makes them hard.&quot;</div></li><li class="li1"><div class="de1">&gt;hard is the last word that came to mind looking at this girl</div></li><li class="li1"><div class="de1">&gt;she was always attentive in class, had perfect grades, and was generally a delight to be around</div></li><li class="li1"><div class="de1">&gt;you wished all of your students were like her</div></li><li class="li1"><div class="de1">&gt;she even gave you good advice</div></li><li class="li1"><div class="de1">&gt;that earned her another head rub</div></li><li class="li1"><div class="de1">&quot;Thanks. I&#039;ll think of something. Enjoy the rest of your day Lucille.&quot;</div></li><li class="li1"><div class="de1">&gt;she smiles and leaves</div></li><li class="li1"><div class="de1">&quot;You can just call me Lulu. Have a nice day Mr. Anon.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;to your surprise Claire actually showed up to class today</div></li><li class="li1"><div class="de1">&gt;she makes an attempt to pay attention, but keeps falling asleep</div></li><li class="li1"><div class="de1">&gt;the way she snaps awake only to drift off is ridiculously cute</div></li><li class="li1"><div class="de1">&gt;but the more you look at her the less you like what you see</div></li><li class="li1"><div class="de1">&gt;her fur is splotched with blood, and patches look burned</div></li><li class="li1"><div class="de1">&gt;her arms and legs are covered in scars</div></li><li class="li1"><div class="de1">&gt;and even though she&#039;s asleep she&#039;s visibly tense, like she&#039;s ready to attack at a moment&#039;s notice</div></li><li class="li1"><div class="de1">&gt;you can&#039;t imagine what made her like this</div></li><li class="li1"><div class="de1">&gt;the students are all working on their assignments so you have a moment to relax</div></li><li class="li1"><div class="de1">&gt;you look at the stack of graded papers on your desk</div></li><li class="li1"><div class="de1">&gt;Claire&#039;s grades are as good as Lulu&#039;s</div></li><li class="li1"><div class="de1">&gt;if she came to class regularly she&#039;d be an honor student</div></li><li class="li1"><div class="de1">&gt;but really you just want her off the streets</div></li><li class="li1"><div class="de1">&gt;you&#039;d heard what happens to kids that live out there with no one looking out for them</div></li><li class="li1"><div class="de1">&gt;you really don&#039;t want to see Claire end up like that</div></li><li class="li1"><div class="de1">&gt;after class ends you call her over to your desk and hand her a stack of her work</div></li><li class="li1"><div class="de1">&quot;You really are an amazing student.&quot;</div></li><li class="li1"><div class="de1">&gt;for a second she almost looks embarrassed</div></li><li class="li1"><div class="de1">&quot;T-thanks.&quot;</div></li><li class="li1"><div class="de1">&quot;I really wish you&#039;d come to class more often.&quot;</div></li><li class="li1"><div class="de1">&gt;she just laughs at you</div></li><li class="li1"><div class="de1">&quot;You&#039;re like a broken record.&quot;</div></li><li class="li1"><div class="de1">&quot;I mean it.&quot;</div></li><li class="li1"><div class="de1">&gt;she takes a long look at you before turning around and leaving</div></li><li class="li1"><div class="de1">&quot;See you tomorrow, maybe&quot; she says casually</div></li><li class="li1"><div class="de1">&gt;you can&#039;t help the smile on your face</div></li><li class="li1"><div class="de1">&gt;finally you feel like you&#039;ve gotten through to her</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Claire comes to class every day for a month</div></li><li class="li1"><div class="de1">&gt;she&#039;s more attentive in class and can actually stay awake now</div></li><li class="li1"><div class="de1">&gt;something&#039;s definitely changed about her</div></li><li class="li1"><div class="de1">&gt;she seems happy</div></li><li class="li1"><div class="de1">&gt;of course that didn&#039;t last</div></li><li class="li1"><div class="de1">&gt;Monday morning you find that she&#039;s gone again</div></li><li class="li1"><div class="de1">&gt;after that she doesn&#039;t show up for three weeks</div></li><li class="li1"><div class="de1">&gt;the class is filled with nervous whispers</div></li><li class="li1"><div class="de1">&gt;you call Lulu up to your desk</div></li><li class="li1"><div class="de1">&quot;What&#039;s going on?&quot;</div></li><li class="li1"><div class="de1">&gt;she looks at you like she can&#039;t understand what you&#039;re saying</div></li><li class="li1"><div class="de1">&quot;Don&#039;t you watch the news?&quot;</div></li><li class="li1"><div class="de1">&gt;you shake your head</div></li><li class="li1"><div class="de1">&gt;she pulls out her phone and pulls up a news article</div></li><li class="li1"><div class="de1">&gt;a kid from a different school was killed in a shooting</div></li><li class="li1"><div class="de1">&gt;they say it was crossfire from a gang shooting</div></li><li class="li1"><div class="de1">&gt;twelve years old and he&#039;s just another casualty</div></li><li class="li1"><div class="de1">&quot;That kid was Claire&#039;s friend. She&#039;d been taking care of him for a while.&quot;</div></li><li class="li1"><div class="de1">&gt;you feel a lump in your throat</div></li><li class="li1"><div class="de1">&quot;Is that why she&#039;s been gone?&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah. She&#039;s all torn up about it. I don&#039;t think she&#039;ll be back for a while.&quot;</div></li><li class="li1"><div class="de1">&gt;a million thoughts are racing through your head </div></li><li class="li1"><div class="de1">&gt;but the one that stands out the most is one you&#039;d never think to do</div></li><li class="li1"><div class="de1">&quot;Do you know where I can find her?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;this is a bad idea</div></li><li class="li1"><div class="de1">&gt;this is a fucking terrible idea</div></li><li class="li1"><div class="de1">&gt;a human alone in a nice anthro neighborhood is bad enough, but you&#039;re traipsing through the ghetto without a care in the world</div></li><li class="li1"><div class="de1">&gt;you can feel eyes all over you</div></li><li class="li1"><div class="de1">&gt;you can see claws being unsheathed, hands moving towards hidden guns, predators licking their lips in anticipation</div></li><li class="li1"><div class="de1">&gt;you need to find Claire and get the fuck out of here</div></li><li class="li1"><div class="de1">&gt;this is around where Lulu said she hangs out</div></li><li class="li1"><div class="de1">&gt;it&#039;s an abandoned building</div></li><li class="li1"><div class="de1">&gt;you can see several thick orange extension cords running into it</div></li><li class="li1"><div class="de1">&gt;welp, too late to back out now</div></li><li class="li1"><div class="de1">&gt;you take a step into the building</div></li><li class="li1"><div class="de1">&gt;and are immediately stopped by two animals</div></li><li class="li1"><div class="de1">&gt;they&#039;re huge, with orange and black striped fur</div></li><li class="li1"><div class="de1">&gt;their arms are thick like tree trunks</div></li><li class="li1"><div class="de1">&quot;The fuck you want?&quot; one of them spits at you</div></li><li class="li1"><div class="de1">&gt;to your credit, you don&#039;t piss yourself</div></li><li class="li1"><div class="de1">&quot;I-I&#039;m looking for someone.&quot;</div></li><li class="li1"><div class="de1">&gt;the other one looks you up and down</div></li><li class="li1"><div class="de1">&quot;Izzat right? Only one reason a skinner comes round here. Prob&#039;ly tryna get some ass. I heard humans are freaks like that.&quot;</div></li><li class="li1"><div class="de1">&gt;you protest</div></li><li class="li1"><div class="de1">&quot;That&#039;s not it. I&#039;m a teacher. I&#039;m trying to find one of my students.&quot;</div></li><li class="li1"><div class="de1">&gt;they both start laughing</div></li><li class="li1"><div class="de1">&quot;Man, you must think we&#039;re retarded or some shit. You really think we gon&#039; buy that?&quot;</div></li><li class="li1"><div class="de1">&quot;Matter of fact, we need you to pay tax if you gon&#039; walk through our hood.&quot;</div></li><li class="li1"><div class="de1">&quot;What?&quot; you ask, dumbfounded</div></li><li class="li1"><div class="de1">&gt;of course you fail to notice the third animal sneaking up behind you </div></li><li class="li1"><div class="de1">&gt;something hard hits the back of your head and you&#039;re knocked on your ass</div></li><li class="li1"><div class="de1">&gt;you can feel your body being pounded by fists and feet</div></li><li class="li1"><div class="de1">&gt;every blow is like getting hit by a brick</div></li><li class="li1"><div class="de1">&gt;a fist flies into your unprotected face and you black out</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;when you wake up you feel something wet on your face</div></li><li class="li1"><div class="de1">&gt;you slowly open your eyes and see a cracked ceiling</div></li><li class="li1"><div class="de1">&gt;looks like you&#039;re inside the building now</div></li><li class="li1"><div class="de1">&gt;you look over and see Claire licking your face</div></li><li class="li1"><div class="de1">&gt;that doesn&#039;t help the immense pain you&#039;re in, but you appreciate the gesture</div></li><li class="li1"><div class="de1">&quot;What happened?&quot;</div></li><li class="li1"><div class="de1">&gt;she looks at you</div></li><li class="li1"><div class="de1">&quot;You got the shit beat out of you. What were you thinking coming here?&quot;</div></li><li class="li1"><div class="de1">&gt;you try sitting up</div></li><li class="li1"><div class="de1">&gt;something&#039;s broken</div></li><li class="li1"><div class="de1">&quot;Looking for you. I was worried about you.&quot;</div></li><li class="li1"><div class="de1">&gt;her ears stick up</div></li><li class="li1"><div class="de1">&quot;Why?&quot;</div></li><li class="li1"><div class="de1">&quot;Heard about what happened to your friend. Wanted to see if you were all right.&quot;</div></li><li class="li1"><div class="de1">&quot;I&#039;m fine. I don&#039;t need you worrying about me.&quot;</div></li><li class="li1"><div class="de1">&gt;you cough into your hand</div></li><li class="li1"><div class="de1">&gt;that&#039;s a cracked rib</div></li><li class="li1"><div class="de1">&quot;No way you&#039;re fine. I know how close you were with the kid.&quot;</div></li><li class="li1"><div class="de1">&gt;she scoffs</div></li><li class="li1"><div class="de1">&quot;Remind me to tell Lulu to keep her mouth shut.&quot;</div></li><li class="li1"><div class="de1">&gt;her frustration slides off her face, replaced with a weary sadness</div></li><li class="li1"><div class="de1">&quot;I know I should be used to it by now, but it still hurts. If there was one guy I thought would be safe from this shit it&#039;d be him. It&#039;s not like he didn&#039;t get shit on enough. Parents left him, no one to call family, no home. Even so he was the sweetest boy I ever met. Always smiling, never a bad word to say to anyone.&quot;</div></li><li class="li1"><div class="de1">&gt;it&#039;s as if the walls she built around herself start to crumble before your eyes</div></li><li class="li1"><div class="de1">&gt;tears fall down her face, and soon that turns into full blown sobs</div></li><li class="li1"><div class="de1">&quot;I told him I&#039;d keep him safe.&quot;</div></li><li class="li1"><div class="de1">&gt;she punches the floor so hard she breaks the wood</div></li><li class="li1"><div class="de1">&gt;it breaks your heart to see her like this</div></li><li class="li1"><div class="de1">&quot;I&#039;m sorry. I know how it feels to lose someone close to you.&quot;</div></li><li class="li1"><div class="de1">&gt;she glares at you</div></li><li class="li1"><div class="de1">&quot;What would you know about it?&quot;</div></li><li class="li1"><div class="de1">&quot;More than I want to.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;all kinds of memories come flooding into your mind</div></li><li class="li1"><div class="de1">&gt;awful shit that you wish you could forget</div></li><li class="li1"><div class="de1">&quot;I used to teach at a different school, one for humans. There was this one kid in my class. Great kid, only nine year old that was actually excited to go to school. Wasn&#039;t the smartest kid, but he tried his best. Seeing him smile was always the best part of my day.&quot;</div></li><li class="li1"><div class="de1">&gt;Claire&#039;s ears droop</div></li><li class="li1"><div class="de1">&quot;What happened?&quot;</div></li><li class="li1"><div class="de1">&gt;your face twists with disgust</div></li><li class="li1"><div class="de1">&quot;I&#039;m sure you heard about it. Whole city heard about it. Turns out the kid&#039;s father was some kind of gang banger. Had beef with a rival gang. Of course pops was out of the picture, so they figure they&#039;ll get their pound of flesh out of the kid. A couple guys see the kid playing outside, lure him down an alley, and they shoot him. Ten times.&quot;</div></li><li class="li1"><div class="de1">&gt;Claire&#039;s hands are over her mouth, her eyes wide</div></li><li class="li1"><div class="de1">&quot;Oh my god. That was your student?&quot;</div></li><li class="li1"><div class="de1">&quot;Yeah. I was in a bad place when I heard what happened. I quit my job, didn&#039;t leave my house. I was all fucked up.&quot;</div></li><li class="li1"><div class="de1">&gt;Claire puts her arms around you and squeezes you tight</div></li><li class="li1"><div class="de1">&quot;I&#039;m so sorry. That&#039;s horrible.&quot;</div></li><li class="li1"><div class="de1">&gt;she&#039;s so soft you forget that you&#039;re still injured</div></li><li class="li1"><div class="de1">&quot;I&#039;d be lying if I said I was over it. That&#039;s why I came to find you. I know what it&#039;s like, what it does to you.&quot;</div></li><li class="li1"><div class="de1">&gt;you drag yourself to your feet</div></li><li class="li1"><div class="de1">&quot;I&#039;ve gotta get out of here.&quot;</div></li><li class="li1"><div class="de1">&gt;you go for the exit, but feel Claire pulling on your arm</div></li><li class="li1"><div class="de1">&gt;Claire is looking down at the ground, her ears flat against her head</div></li><li class="li1"><div class="de1">&quot;You can stay a bit longer, can&#039;t you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">---</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;if someone told you this morning that your day would end with you on a dirty mattress with one of your students trying to get into your pants you would have laughed in their face</div></li><li class="li1"><div class="de1">&gt;but after Claire dragged you to a bed and mounted you you&#039;ve got no choice but to accept that this is reality</div></li><li class="li1"><div class="de1">&gt;her tongue is inside your mouth</div></li><li class="li1"><div class="de1">&gt;her hands are slowly caressing your chest</div></li><li class="li1"><div class="de1">&gt;you&#039;re pretty sure you could cut steel with the hard on you&#039;ve got right now</div></li><li class="li1"><div class="de1">&gt;but something about this just doesn&#039;t feel right</div></li><li class="li1"><div class="de1">&gt;not that Claire isn&#039;t attractive, but she&#039;s barely legal, and also your student</div></li><li class="li1"><div class="de1">&gt;and nailing an emotionally distraught girl on a filthy mattress in an abandoned building was never on your bucket list</div></li><li class="li1"><div class="de1">&gt;you grab her hands and lift them away from your body</div></li><li class="li1"><div class="de1">&quot;What&#039;s wrong?&quot; she asks</div></li><li class="li1"><div class="de1">&quot;Let&#039;s stop.&quot;</div></li><li class="li1"><div class="de1">&quot;Why? I want to do this.&quot;</div></li><li class="li1"><div class="de1">&gt;she&#039;s nervous</div></li><li class="li1"><div class="de1">&gt;it&#039;s plain as day that she&#039;s forcing herself</div></li><li class="li1"><div class="de1">&quot;Do you really want to? And even if you did, I don&#039;t. I don&#039;t want you thinking I just got close to you so I could fuck you. I&#039;m not that kind of person.&quot;</div></li><li class="li1"><div class="de1">&gt;she sighs with relief and collapses next to you</div></li><li class="li1"><div class="de1">&quot;Thank god. That was way too weird.&quot;</div></li><li class="li1"><div class="de1">&quot;No shit. What were you thinking?&quot;</div></li><li class="li1"><div class="de1">&gt;she whines softly</div></li><li class="li1"><div class="de1">&quot;I don&#039;t know. No one&#039;s ever been so nice to me, and I panicked. I thought guys liked that kind of thing.&quot;</div></li><li class="li1"><div class="de1">&quot;Some guys yes, but not all of them. I like you, but in a completely platonic way.&quot;</div></li><li class="li1"><div class="de1">&gt;you pet her head</div></li><li class="li1"><div class="de1">&gt;she moves closer to you and nuzzles your neck</div></li><li class="li1"><div class="de1">&quot;It it okay if we just stay like this?&quot;</div></li><li class="li1"><div class="de1">&quot;Sure&quot;</div></li><li class="li1"><div class="de1">&gt;feeling Claire&#039;s warm body against yours you slowly drift off to sleep</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">----</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;it&#039;s a week before you see Claire again</div></li><li class="li1"><div class="de1">&gt;you&#039;re not worried though since she said she&#039;d come back</div></li><li class="li1"><div class="de1">&gt;of course in typical fashion she bursts through the door in the middle of class</div></li><li class="li1"><div class="de1">&gt;you go to greet her, but end up gasping in horror with the rest of the class</div></li><li class="li1"><div class="de1">&gt;she looks even more beat up than when you first met her</div></li><li class="li1"><div class="de1">&gt;there&#039;s a long scar across her nose</div></li><li class="li1"><div class="de1">&gt;her stomach is wrapped with bandages</div></li><li class="li1"><div class="de1">&gt;her right arm is in a cast</div></li><li class="li1"><div class="de1">&gt;and her left eye is gone</div></li><li class="li1"><div class="de1">&gt;the classroom is filled with nervous whispers</div></li><li class="li1"><div class="de1">&quot;What happened?&quot; you ask</div></li><li class="li1"><div class="de1">&quot;I&#039;ll tell you later&quot; she says as she takes her seat</div></li><li class="li1"><div class="de1">&gt;you tried to regain your composure and teach class normally</div></li><li class="li1"><div class="de1">&gt;at hte end of the day Claire is standing in front of your desk like always</div></li><li class="li1"><div class="de1">&gt;but there&#039;s something in the air now</div></li><li class="li1"><div class="de1">&gt;it feels heavy</div></li><li class="li1"><div class="de1">&quot;What&#039;s with those injuries?&quot;</div></li><li class="li1"><div class="de1">&gt;she shrugs</div></li><li class="li1"><div class="de1">&quot;After you left I found those guys that beat you up. Decided to give them a piece of my mind.&quot;</div></li><li class="li1"><div class="de1">&gt;you don&#039;t know why you get so angry</div></li><li class="li1"><div class="de1">&quot;Are you crazy? You fought three men alone? They could have killed you!&quot;</div></li><li class="li1"><div class="de1">&gt;she starts laughing</div></li><li class="li1"><div class="de1">&quot;I won didn&#039;t I?&quot;</div></li><li class="li1"><div class="de1">&gt;you sigh</div></li><li class="li1"><div class="de1">&gt;this girl is insane</div></li><li class="li1"><div class="de1">&quot;But, there&#039;s another reason why I came here&quot; she says, sounding more serious.</div></li><li class="li1"><div class="de1">&quot;What?&quot;</div></li><li class="li1"><div class="de1">&quot;I came to say goodbye. I won&#039;t be coming to school anymore.&quot;</div></li><li class="li1"><div class="de1">&gt;your heart sinks</div></li><li class="li1"><div class="de1">&quot;What?&quot; </div></li><li class="li1"><div class="de1">&quot;I&#039;m leaving. I need to make a change.&quot;</div></li><li class="li1"><div class="de1">&gt;she reached into her pocket and pulled out a folded up sheet of paper</div></li><li class="li1"><div class="de1">&gt;you take it and look it over</div></li><li class="li1"><div class="de1">&quot;The army?&quot;</div></li><li class="li1"><div class="de1">&gt;she takes the paper back from you</div></li><li class="li1"><div class="de1">&quot;Yeah. I figured this is something I should do. It&#039;s funny, when I was a kid I thought the only way I&#039;d leave this city was in a box. But there&#039;s a whole world out there, and I want to see it.&quot;</div></li><li class="li1"><div class="de1">&gt;you don&#039;t try to convince her to stay </div></li><li class="li1"><div class="de1">&gt;if she thinks this is what she needs then you have to support her</div></li><li class="li1"><div class="de1">&gt;but god damn it still hurts</div></li><li class="li1"><div class="de1">&quot;I&#039;m gonna miss you.&quot;</div></li><li class="li1"><div class="de1">&gt;she uses her good arm to wrap you in a crushing hug</div></li><li class="li1"><div class="de1">&gt;you forgot how strong she is</div></li><li class="li1"><div class="de1">&quot;I&#039;m gonna miss you too. You really were a great teacher.&quot;</div></li><li class="li1"><div class="de1">&gt;she gives you a small kiss on the cheek and turns to leave</div></li><li class="li1"><div class="de1">&quot;Oh, tell Lulu I&#039;m sorry. I really wanted to see her graduate. See ya.&quot;</div></li><li class="li1"><div class="de1">&quot;Goodbye Claire.&quot;</div></li><li class="li1"><div class="de1">&gt;you sit back down in your seat, your head in your hands</div></li><li class="li1"><div class="de1">&gt;just like that she&#039;s gone</div></li><li class="li1"><div class="de1">&gt;the following days days passed by like normal</div></li><li class="li1"><div class="de1">&gt;then they became months</div></li><li class="li1"><div class="de1">&gt;then years</div></li><li class="li1"><div class="de1">&gt;and even though you never saw her again, you know she&#039;s doing just fine</div></li><li class="li1"><div class="de1">&gt;wherever she is, she&#039;s living her life to the fullest</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;when you told your friends you wanted to be a teacher, they were all more than happy for you
-&gt;when you told them where you&#039;d be teaching they spent an entire day trying to talk you out of it
-&gt;not that you could blame them, it wasn&#039;t the best of schools
-&gt;it was in a rough area, and it was 90% anthro
-&gt;you&#039;d heard about what happens to humans in anthro communities
-&gt;it wasn&#039;t anything good
-&gt;at least the job pays well
-&gt;either way it was too late to back out now
-&gt;today was the first day of school
-&gt;there was a few minutes before class started, so you took some time to look over your class roster again
-&gt;you feel something on your shoulder
-&gt;another teacher is looking at the list of students
-&gt;it&#039;s a little unnerving since he&#039;s standing in the hallway while you&#039;re in your classroom
-&gt;giraffes are weird
-&quot;You&#039;ve got that girl in your class?&quot; he says, laughing
-&gt;you ask him what he means by that
-&quot;You&#039;ll find out. A bit of advice, make sure you keep her at arm&#039;s length at all times. It&#039;ll be for the best.&quot;
-&gt;he leaves the room as the bell rings signalling the start of the day
-&gt;all manner of animals begin to file into the room
-&gt;time to sink or swim
- 
----
-
-&gt;it takes several minutes for the noise to die down
-&gt;these kids were obviously still full of excitement from the summer
-&gt;you try and gain control, but it&#039;s useless
-&gt;a loud roar tears through the chatter, and afterwards the room is dead silent
-&gt;a lion with a brilliant golden mane turns and glares at the other students
-&quot;Shut the fuck up, man&#039;s tryna teach.&quot;
-&gt;you clear your throat
-&quot;Thank you. Let&#039;s take attendance.&quot;
-&gt;you call out each of the students
-&gt;all of them are present save for one
-&gt;it was the girl the other teacher had pointed out
-&gt;cutting school wasn&#039;t anything out of the ordinary, but the first day?
-&gt;no time to think about it now, time for teaching
-&quot;Hello everyone. My name is Mr. Anonymous. I&#039;ll be your homeroom teacher for the school year. I hope we can all get along.&quot;
-&gt;none of the students respond
-&gt;some of them look at you like they&#039;re sizing you up
-&gt;this wasn&#039;t going to be easy
-&gt;luckily the day goes by without incident
-&gt;as you leave you&#039;re stopped by another teacher
-&quot;Hey, how&#039;d you like your first day in the jungle?&quot;
-&gt;you&#039;re pretty sure that was racist
-&quot;It&#039;s alright. It just takes some getting used to.&quot;
-&gt;she laughs
-&quot;Better get used to it quick. Word of advice; don&#039;t be afraid to break your foot off in their ass. Gotta establish dominance fast or all kinds of shit can go wrong.&quot;
-&gt;she points to the scar over her right eye
-&gt;and the glass sphere that resides where her eyeball used to be
-&gt;you shudder at the thought of one of your students taking a chunk out of you
-&gt;then you remember the absent student
-&quot;I have this girl in my class. Her name&#039;s Claire Whitfield. What can you tell me about her?&quot;
-&gt;the woman&#039;s face twists with anger
-&quot;She&#039;s a problem.&quot;
-&gt;she storms off without saying another word
-&gt;you&#039;re pretty sure you know less now than when you started
-&gt;oh well, tomorrow&#039;s a new day
- 
---- 
-
-&gt;three days go by without Claire coming to class
-&gt;you&#039;re more than a little worried
-&gt;you decide to ask the class about her
-&quot;Does anyone know where Claire is?&quot;
-&gt;the room suddenly fills with various murmurs
-&gt;the students look at each other, the smaller ones look almost fearful
-&gt;this doesn&#039;t bode well at all
-&quot;Never mind. Let&#039;s get back to class.&quot;
-&gt;maybe she was put on your roster by mistake
-&gt;as if on cue the classroom door flies open and a student walks in
-&gt;she was tall, with grey fur
-&gt;her arms were covered in scars
-&gt;one of her ears looked like it had been bitten off
-&gt;she was clearly used to fighting
-&quot;Are you Claire Whitfield?&quot;
-&gt;she looks at you
-&gt;you suddenly want to crawl into a hole and die
-&gt;she takes her seat without answering your question
-&gt;off to a great start already
-&gt;as the day goes on you notice that the other students are suddenly more well behaved
-&gt;are they afraid of this girl?
-&gt;sure she was a little intimidating, but you were sure she was a nice girl once you go to know her
-&gt;you look at her in her seat
-&gt;she has her head down, sleeping
-&gt;you should reprimand her, but something something sleeping dogs
-&gt;another student flicks a piece of paper at her
-&gt;it bounces off of her head
-&gt;you tell the student to cut that out
-&gt;the student ignores you and does it again
-&gt;Claire&#039;s eyes snap open
-&gt;she leaps from her desk and pounces on the small animal
-&gt;her jaw clamps around his arm as she thrashes violently
-&gt;the other students back away from her
-&gt;some pull out their phones and start recording
-&gt;a few of them are laughing
-&gt;you run up to the two and try and break them up
-&gt;Claire swipes at your stomach with her claws
-&gt;you feel something cut you and your shirt is stained with blood
-&gt;the girl lets go of the boy&#039;s arm and storms out the room
-&gt;you run off to find a nurse
-
----
- 
-&gt;an elderly looking sheep is wrapping bandages around your stomach
-&gt;she laughed when you told her what happened
-&quot;That&#039;s your own fault. You should know better than to try and break up a fight.&quot;
-&quot;What, was I supposed to let Claire rip that kid&#039;s arm off?&quot;
-&gt;she keeps wrapping bandages
-&quot;Mmm Hmm. Some of those kids are just born violent, but they know better than to kill somebody.&quot;
-&gt;the old sheep was right
-&gt;the wound on your stomach was just a few shallow scratches, only enough to intimidate you
-&gt;if Claire had wanted to she could have torn your stomach open
-&gt;teaching here wasn&#039;t going to be easy
-&gt;the nurse finishes patching you up and sends you on your way
-&gt;when you get back to the classroom the students have already cleaned up
-&gt;you can hear the choked off laughter
-&gt;you decide not to dwell on it and sit down at your desk
-&quot;Where&#039;d Claire go?&quot;
-&gt;a student spoke up
-&quot;She went home.&quot;
-&gt;of course she did
-&gt;whatever, back to teaching
-&gt;at least nothing happened for the rest of the day
-&gt;once the bell rang you sat down at your desk and tried to catch up on your work
-&gt;emphasis on tried
-&gt;you find yourself distracted by the dog in front of you
-&gt;the way her tail swishes back and forth is kind of hypnotic
-&quot;Claire wanted me to tell you she was sorry.&quot;
-&gt;that&#039;s... progress?
-&quot;That&#039;s good, but I need to talk to her. Do you know where she lives?&quot;
-&gt;her ears droop
-&quot;She lives on the street. I only see her every now and then.&quot;
-&quot;Are you two friends?&quot;
-&gt;she nods
-&quot;We used to live together when we were kids.&quot;
-&quot;If you see her, tell her to come see me, okay?&quot;
-&quot;Okay Mr. Anon.&quot;
-&gt;she tilts her head forward expectantly
-&gt;you don&#039;t know what she wants
-&gt;oh right, dog
-&gt;you reach out and pat her on the head
-&quot;Good girl&quot;
-&gt;her tail wags happily as she leaves
-&gt;well, at least one good thing happened today
- 
----
- 
-&gt;it&#039;s an entire week before you see Claire again
-&gt;she wait&#039;s until school is out to come and see you
-&gt;she looks just as angry as ever, like you fucked up or something
-&quot;I&#039;m sorry for hurting you.&quot;
-&gt;she says that, but she doesn&#039;t look sorry at all
-&quot;It was my fault anyway. More importantly, why aren&#039;t you coming to school?&quot;
-&gt;she shrugs
-&quot;I don&#039;t want to. I can&#039;t stand being in one place for so long. I need to move around.&quot;
-&gt;you can&#039;t understand her at all
-&gt;it must be a wolf thing
-&quot;I won&#039;t say I know how you feel, but you need to come to class. If you miss too many days you&#039;ll fall behind and you might end up getting held back.&quot;
-&gt;she rolls her eyes
-&quot;So? I can learn more on the street than I can in school, and it&#039;s not like anybody gives a shit if I&#039;m here or not.&quot;
-&gt;you sigh
-&quot;I&#039;d like it if you were here. I enjoy having you in my class.&quot;
-&gt;her eyes narrow
-&gt;she turns on her heels and storms out the room, slamming the door behind her
-&gt;what the fuck just happened
-&gt;you thought you were doing pretty well
-&gt;you bang your head on your desk
-&quot;What did I do wrong?&quot;
-&gt;you weren&#039;t expecting someone to actually answer you
-&quot;You didn&#039;t do anything wrong, she just doesn&#039;t trust you.&quot;
-&gt;it was Claire&#039;s friend
-&quot;What do you mean?&quot; you ask her
-&quot;It&#039;s hard for her to trust people, especially men.&quot;
-&quot;Because of how she grew up?&quot;
-&quot;Yeah. I used to be the same way. Living on the streets changes people. Makes them hard.&quot;
-&gt;hard is the last word that came to mind looking at this girl
-&gt;she was always attentive in class, had perfect grades, and was generally a delight to be around
-&gt;you wished all of your students were like her
-&gt;she even gave you good advice
-&gt;that earned her another head rub
-&quot;Thanks. I&#039;ll think of something. Enjoy the rest of your day Lucille.&quot;
-&gt;she smiles and leaves
-&quot;You can just call me Lulu. Have a nice day Mr. Anon.&quot;
-
----
-
-&gt;to your surprise Claire actually showed up to class today
-&gt;she makes an attempt to pay attention, but keeps falling asleep
-&gt;the way she snaps awake only to drift off is ridiculously cute
-&gt;but the more you look at her the less you like what you see
-&gt;her fur is splotched with blood, and patches look burned
-&gt;her arms and legs are covered in scars
-&gt;and even though she&#039;s asleep she&#039;s visibly tense, like she&#039;s ready to attack at a moment&#039;s notice
-&gt;you can&#039;t imagine what made her like this
-&gt;the students are all working on their assignments so you have a moment to relax
-&gt;you look at the stack of graded papers on your desk
-&gt;Claire&#039;s grades are as good as Lulu&#039;s
-&gt;if she came to class regularly she&#039;d be an honor student
-&gt;but really you just want her off the streets
-&gt;you&#039;d heard what happens to kids that live out there with no one looking out for them
-&gt;you really don&#039;t want to see Claire end up like that
-&gt;after class ends you call her over to your desk and hand her a stack of her work
-&quot;You really are an amazing student.&quot;
-&gt;for a second she almost looks embarrassed
-&quot;T-thanks.&quot;
-&quot;I really wish you&#039;d come to class more often.&quot;
-&gt;she just laughs at you
-&quot;You&#039;re like a broken record.&quot;
-&quot;I mean it.&quot;
-&gt;she takes a long look at you before turning around and leaving
-&quot;See you tomorrow, maybe&quot; she says casually
-&gt;you can&#039;t help the smile on your face
-&gt;finally you feel like you&#039;ve gotten through to her
-
----
-
-&gt;Claire comes to class every day for a month
-&gt;she&#039;s more attentive in class and can actually stay awake now
-&gt;something&#039;s definitely changed about her
-&gt;she seems happy
-&gt;of course that didn&#039;t last
-&gt;Monday morning you find that she&#039;s gone again
-&gt;after that she doesn&#039;t show up for three weeks
-&gt;the class is filled with nervous whispers
-&gt;you call Lulu up to your desk
-&quot;What&#039;s going on?&quot;
-&gt;she looks at you like she can&#039;t understand what you&#039;re saying
-&quot;Don&#039;t you watch the news?&quot;
-&gt;you shake your head
-&gt;she pulls out her phone and pulls up a news article
-&gt;a kid from a different school was killed in a shooting
-&gt;they say it was crossfire from a gang shooting
-&gt;twelve years old and he&#039;s just another casualty
-&quot;That kid was Claire&#039;s friend. She&#039;d been taking care of him for a while.&quot;
-&gt;you feel a lump in your throat
-&quot;Is that why she&#039;s been gone?&quot;
-&quot;Yeah. She&#039;s all torn up about it. I don&#039;t think she&#039;ll be back for a while.&quot;
-&gt;a million thoughts are racing through your head 
-&gt;but the one that stands out the most is one you&#039;d never think to do
-&quot;Do you know where I can find her?&quot;
-
----
-
-&gt;this is a bad idea
-&gt;this is a fucking terrible idea
-&gt;a human alone in a nice anthro neighborhood is bad enough, but you&#039;re traipsing through the ghetto without a care in the world
-&gt;you can feel eyes all over you
-&gt;you can see claws being unsheathed, hands moving towards hidden guns, predators licking their lips in anticipation
-&gt;you need to find Claire and get the fuck out of here
-&gt;this is around where Lulu said she hangs out
-&gt;it&#039;s an abandoned building
-&gt;you can see several thick orange extension cords running into it
-&gt;welp, too late to back out now
-&gt;you take a step into the building
-&gt;and are immediately stopped by two animals
-&gt;they&#039;re huge, with orange and black striped fur
-&gt;their arms are thick like tree trunks
-&quot;The fuck you want?&quot; one of them spits at you
-&gt;to your credit, you don&#039;t piss yourself
-&quot;I-I&#039;m looking for someone.&quot;
-&gt;the other one looks you up and down
-&quot;Izzat right? Only one reason a skinner comes round here. Prob&#039;ly tryna get some ass. I heard humans are freaks like that.&quot;
-&gt;you protest
-&quot;That&#039;s not it. I&#039;m a teacher. I&#039;m trying to find one of my students.&quot;
-&gt;they both start laughing
-&quot;Man, you must think we&#039;re retarded or some shit. You really think we gon&#039; buy that?&quot;
-&quot;Matter of fact, we need you to pay tax if you gon&#039; walk through our hood.&quot;
-&quot;What?&quot; you ask, dumbfounded
-&gt;of course you fail to notice the third animal sneaking up behind you 
-&gt;something hard hits the back of your head and you&#039;re knocked on your ass
-&gt;you can feel your body being pounded by fists and feet
-&gt;every blow is like getting hit by a brick
-&gt;a fist flies into your unprotected face and you black out
-
----
-
-&gt;when you wake up you feel something wet on your face
-&gt;you slowly open your eyes and see a cracked ceiling
-&gt;looks like you&#039;re inside the building now
-&gt;you look over and see Claire licking your face
-&gt;that doesn&#039;t help the immense pain you&#039;re in, but you appreciate the gesture
-&quot;What happened?&quot;
-&gt;she looks at you
-&quot;You got the shit beat out of you. What were you thinking coming here?&quot;
-&gt;you try sitting up
-&gt;something&#039;s broken
-&quot;Looking for you. I was worried about you.&quot;
-&gt;her ears stick up
-&quot;Why?&quot;
-&quot;Heard about what happened to your friend. Wanted to see if you were all right.&quot;
-&quot;I&#039;m fine. I don&#039;t need you worrying about me.&quot;
-&gt;you cough into your hand
-&gt;that&#039;s a cracked rib
-&quot;No way you&#039;re fine. I know how close you were with the kid.&quot;
-&gt;she scoffs
-&quot;Remind me to tell Lulu to keep her mouth shut.&quot;
-&gt;her frustration slides off her face, replaced with a weary sadness
-&quot;I know I should be used to it by now, but it still hurts. If there was one guy I thought would be safe from this shit it&#039;d be him. It&#039;s not like he didn&#039;t get shit on enough. Parents left him, no one to call family, no home. Even so he was the sweetest boy I ever met. Always smiling, never a bad word to say to anyone.&quot;
-&gt;it&#039;s as if the walls she built around herself start to crumble before your eyes
-&gt;tears fall down her face, and soon that turns into full blown sobs
-&quot;I told him I&#039;d keep him safe.&quot;
-&gt;she punches the floor so hard she breaks the wood
-&gt;it breaks your heart to see her like this
-&quot;I&#039;m sorry. I know how it feels to lose someone close to you.&quot;
-&gt;she glares at you
-&quot;What would you know about it?&quot;
-&quot;More than I want to.&quot;
-
----
-
-&gt;all kinds of memories come flooding into your mind
-&gt;awful shit that you wish you could forget
-&quot;I used to teach at a different school, one for humans. There was this one kid in my class. Great kid, only nine year old that was actually excited to go to school. Wasn&#039;t the smartest kid, but he tried his best. Seeing him smile was always the best part of my day.&quot;
-&gt;Claire&#039;s ears droop
-&quot;What happened?&quot;
-&gt;your face twists with disgust
-&quot;I&#039;m sure you heard about it. Whole city heard about it. Turns out the kid&#039;s father was some kind of gang banger. Had beef with a rival gang. Of course pops was out of the picture, so they figure they&#039;ll get their pound of flesh out of the kid. A couple guys see the kid playing outside, lure him down an alley, and they shoot him. Ten times.&quot;
-&gt;Claire&#039;s hands are over her mouth, her eyes wide
-&quot;Oh my god. That was your student?&quot;
-&quot;Yeah. I was in a bad place when I heard what happened. I quit my job, didn&#039;t leave my house. I was all fucked up.&quot;
-&gt;Claire puts her arms around you and squeezes you tight
-&quot;I&#039;m so sorry. That&#039;s horrible.&quot;
-&gt;she&#039;s so soft you forget that you&#039;re still injured
-&quot;I&#039;d be lying if I said I was over it. That&#039;s why I came to find you. I know what it&#039;s like, what it does to you.&quot;
-&gt;you drag yourself to your feet
-&quot;I&#039;ve gotta get out of here.&quot;
-&gt;you go for the exit, but feel Claire pulling on your arm
-&gt;Claire is looking down at the ground, her ears flat against her head
-&quot;You can stay a bit longer, can&#039;t you?&quot;
-
----
-
-&gt;if someone told you this morning that your day would end with you on a dirty mattress with one of your students trying to get into your pants you would have laughed in their face
-&gt;but after Claire dragged you to a bed and mounted you you&#039;ve got no choice but to accept that this is reality
-&gt;her tongue is inside your mouth
-&gt;her hands are slowly caressing your chest
-&gt;you&#039;re pretty sure you could cut steel with the hard on you&#039;ve got right now
-&gt;but something about this just doesn&#039;t feel right
-&gt;not that Claire isn&#039;t attractive, but she&#039;s barely legal, and also your student
-&gt;and nailing an emotionally distraught girl on a filthy mattress in an abandoned building was never on your bucket list
-&gt;you grab her hands and lift them away from your body
-&quot;What&#039;s wrong?&quot; she asks
-&quot;Let&#039;s stop.&quot;
-&quot;Why? I want to do this.&quot;
-&gt;she&#039;s nervous
-&gt;it&#039;s plain as day that she&#039;s forcing herself
-&quot;Do you really want to? And even if you did, I don&#039;t. I don&#039;t want you thinking I just got close to you so I could fuck you. I&#039;m not that kind of person.&quot;
-&gt;she sighs with relief and collapses next to you
-&quot;Thank god. That was way too weird.&quot;
-&quot;No shit. What were you thinking?&quot;
-&gt;she whines softly
-&quot;I don&#039;t know. No one&#039;s ever been so nice to me, and I panicked. I thought guys liked that kind of thing.&quot;
-&quot;Some guys yes, but not all of them. I like you, but in a completely platonic way.&quot;
-&gt;you pet her head
-&gt;she moves closer to you and nuzzles your neck
-&quot;It it okay if we just stay like this?&quot;
-&quot;Sure&quot;
-&gt;feeling Claire&#039;s warm body against yours you slowly drift off to sleep
-
-----
-
-&gt;it&#039;s a week before you see Claire again
-&gt;you&#039;re not worried though since she said she&#039;d come back
-&gt;of course in typical fashion she bursts through the door in the middle of class
-&gt;you go to greet her, but end up gasping in horror with the rest of the class
-&gt;she looks even more beat up than when you first met her
-&gt;there&#039;s a long scar across her nose
-&gt;her stomach is wrapped with bandages
-&gt;her right arm is in a cast
-&gt;and her left eye is gone
-&gt;the classroom is filled with nervous whispers
-&quot;What happened?&quot; you ask
-&quot;I&#039;ll tell you later&quot; she says as she takes her seat
-&gt;you tried to regain your composure and teach class normally
-&gt;at hte end of the day Claire is standing in front of your desk like always
-&gt;but there&#039;s something in the air now
-&gt;it feels heavy
-&quot;What&#039;s with those injuries?&quot;
-&gt;she shrugs
-&quot;After you left I found those guys that beat you up. Decided to give them a piece of my mind.&quot;
-&gt;you don&#039;t know why you get so angry
-&quot;Are you crazy? You fought three men alone? They could have killed you!&quot;
-&gt;she starts laughing
-&quot;I won didn&#039;t I?&quot;
-&gt;you sigh
-&gt;this girl is insane
-&quot;But, there&#039;s another reason why I came here&quot; she says, sounding more serious.
-&quot;What?&quot;
-&quot;I came to say goodbye. I won&#039;t be coming to school anymore.&quot;
-&gt;your heart sinks
-&quot;What?&quot; 
-&quot;I&#039;m leaving. I need to make a change.&quot;
-&gt;she reached into her pocket and pulled out a folded up sheet of paper
-&gt;you take it and look it over
-&quot;The army?&quot;
-&gt;she takes the paper back from you
-&quot;Yeah. I figured this is something I should do. It&#039;s funny, when I was a kid I thought the only way I&#039;d leave this city was in a box. But there&#039;s a whole world out there, and I want to see it.&quot;
-&gt;you don&#039;t try to convince her to stay 
-&gt;if she thinks this is what she needs then you have to support her
-&gt;but god damn it still hurts
-&quot;I&#039;m gonna miss you.&quot;
-&gt;she uses her good arm to wrap you in a crushing hug
-&gt;you forgot how strong she is
-&quot;I&#039;m gonna miss you too. You really were a great teacher.&quot;
-&gt;she gives you a small kiss on the cheek and turns to leave
-&quot;Oh, tell Lulu I&#039;m sorry. I really wanted to see her graduate. See ya.&quot;
-&quot;Goodbye Claire.&quot;
-&gt;you sit back down in your seat, your head in your hands
-&gt;just like that she&#039;s gone
-&gt;the following days days passed by like normal
-&gt;then they became months
-&gt;then years
-&gt;and even though you never saw her again, you know she&#039;s doing just fine
-&gt;wherever she is, she&#039;s living her life to the fullest</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    27 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    33 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

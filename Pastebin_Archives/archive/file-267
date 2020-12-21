@@ -1,568 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Sweet as Sugar - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Sweet as Sugar - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/bFq5Ca3U" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/bFq5Ca3U" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="lAc17xQ3B0J9PLoRsbnOFNo3hWBqmTBmvYfhAkABu57XcGSOXGA0cTxX9CjYw4h8rVPNAiXWQS6KyptgK0CN-A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/bFq5Ca3U" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/bFq5Ca3U" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/19/7/8/2940720.jpg" alt="Zig-Zag-specialist">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Sweet as Sugar</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Zig-Zag-specialist">Zig-Zag-specialist</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Zig-Zag-specialist" class="message" title="Send a private message to: Zig-Zag-specialist"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 21st of April 2018 07:11:40 PM CDT">Apr 21st, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,161                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 9.41 KB            </div>
-
-            <div class="right">
-                <a href="/raw/bFq5Ca3U" class="btn -small">raw</a>
-                <a href="/dl/bFq5Ca3U" class="btn -small">download</a>
-                <a href="/clone/bFq5Ca3U" class="btn -small h_800">clone</a>
-                <a href="/embed/bFq5Ca3U" class="btn -small h_800">embed</a>
-                <a href="/report/bFq5Ca3U" class="btn -small">report</a>
-                <a href="/print/bFq5Ca3U" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&quot;Anon!&quot;</div></li><li class="li1"><div class="de1">&gt;The butterflies in your gut squirmed and swirled at that voice</div></li><li class="li1"><div class="de1">&gt;You knew just who that was before she divebombed onto your back</div></li><li class="li1"><div class="de1">&gt;giggling and swirling around you</div></li><li class="li1"><div class="de1">&gt;&quot;Anna&quot; he laughed and half sighed</div></li><li class="li1"><div class="de1">&gt;she crawled around to your front, panting softly and smiling </div></li><li class="li1"><div class="de1">&gt;The soft grey fur momentarily blinded you as she buried her face into your neck, nuzzling and squeaking softly</div></li><li class="li1"><div class="de1">&gt;Her enthusiasm was infectious, you could practically feel her vibrating with pure excitement.</div></li><li class="li1"><div class="de1">&gt;Tonight was the night the two of you had been planning for weeks</div></li><li class="li1"><div class="de1">&gt;All alone, for hours.</div></li><li class="li1"><div class="de1">&gt;Just at the start of her Heat</div></li><li class="li1"><div class="de1">&gt;You two had been dating for awhile, friends for longer before that so her cycle was fairly known to you both</div></li><li class="li1"><div class="de1">&gt;It was getting her away from her parents prying noses that was the tricky part.</div></li><li class="li1"><div class="de1">&gt;&quot;I..I&#039;m so excited!&quot; The sugar glider chirped, her long tail curling around you both as her bare feet gripped your thighs, her arms looped around your neck</div></li><li class="li1"><div class="de1">&gt;The perks of a small girlfriend one might argue.</div></li><li class="li1"><div class="de1">&gt;Sugar gliders specifically were light, so even you could hold her up for a long time with little unease.</div></li><li class="li1"><div class="de1">&gt;Anna bit her lip and her fluffy tail flicking and tickling your ribs occasionally</div></li><li class="li1"><div class="de1">&gt;&quot;So is I..i mean..uh...yeah&quot;</div></li><li class="li1"><div class="de1">&gt;Smooth</div></li><li class="li1"><div class="de1">&gt;Anna just giggles, releasing you from her grasp and dropping to the dirt</div></li><li class="li1"><div class="de1">&gt;her tail lassos around your wrist and starts gently squeezing and tugging you along as she walks</div></li><li class="li1"><div class="de1">&gt;Back to your truck of course</div></li><li class="li1"><div class="de1">&gt;Not like you and your girl could find anywhere else to get some alone time without parents or distractions</div></li><li class="li1"><div class="de1">&gt;Anna&#039;s smaller hand squeezed yours, anxious and fidgety</div></li><li class="li1"><div class="de1">&gt;Well more fidgety than usual.</div></li><li class="li1"><div class="de1">&gt;Once in the relative &quot;safety&quot; of your truck, she&#039;s glued to your side</div></li><li class="li1"><div class="de1">&gt;Stroking your arm as she hummed and you both considered what was about to happen</div></li><li class="li1"><div class="de1">&gt;Anna was usually a ball of energy anyway but now everything seemed electrified, her fur stood on end and her tail curled, uncurled and twitched endlessly before she finally took a deep breath</div></li><li class="li1"><div class="de1">&gt;You reach down and stroke her head softly, her ears flicking around your fingers</div></li><li class="li1"><div class="de1">&gt;Anna sighed some relief and her tail coiled around your arm again</div></li><li class="li1"><div class="de1">&gt;&quot;Hey anon? You&#039;re still gonna like me after this right?&quot; Her voice wavered a little</div></li><li class="li1"><div class="de1">&gt;Well of course, you weren&#039;t some chump!</div></li><li class="li1"><div class="de1">&gt;Anna nodded, finally managing to pry her eyes away from the radio to your face</div></li><li class="li1"><div class="de1">&gt;&quot;Promise?&quot;</div></li><li class="li1"><div class="de1">&gt;You start nodding and try to think of something smart to say but instead she cuts you off</div></li><li class="li1"><div class="de1">&gt;with her mouth</div></li><li class="li1"><div class="de1">&gt;and tongue</div></li><li class="li1"><div class="de1">&gt;lots of tongue</div></li><li class="li1"><div class="de1">&gt;All the &quot;practice&quot; you guys did while &quot;studying&quot; really helped her </div></li><li class="li1"><div class="de1">&gt;Still a bit messy though as you try to keep up with her frantic efforts </div></li><li class="li1"><div class="de1">&gt;She grips your shirt and has to force herself away</div></li><li class="li1"><div class="de1">&gt;Well you&#039;re definitely breathing harder now</div></li><li class="li1"><div class="de1">&gt;But the awkward silence is back</div></li><li class="li1"><div class="de1">&gt;Woo, how about some music?</div></li><li class="li1"><div class="de1">&gt;After frantically fiddling with the stupid radio to find something...not un-sexy?, Anna slides under your arm, listening and breathing in your scent</div></li><li class="li1"><div class="de1">&gt;Your arm around her, all you can do is stroke her until she grabs your hand with hers and laces her fingers between yours</div></li><li class="li1"><div class="de1">&gt;Finally she takes a shakey sigh </div></li><li class="li1"><div class="de1">&gt;&quot;I think...I&#039;m ready&quot;</div></li><li class="li1"><div class="de1">&gt;What followed was an awkward dance of turning and twisting as she tried to crawl under your arms</div></li><li class="li1"><div class="de1">&gt;Misunderstanding, you try shifting in your seat to move away</div></li><li class="li1"><div class="de1">&gt;Anna grabs you, small annoyed noises as she tried to turn you how she wanted</div></li><li class="li1"><div class="de1">&gt;Ending with a paralyzing &quot;HOOONK&quot;</div></li><li class="li1"><div class="de1">&gt;Anna jumped, her ass and tail bumping the wheel</div></li><li class="li1"><div class="de1">&gt;You both freeze, until she lets you push her back so you could slide to the middle of the large bench seat</div></li><li class="li1"><div class="de1">&gt;Anna huffs and determinedly crawls over you and straddles your lap</div></li><li class="li1"><div class="de1">&gt;You grunt and feel her weight pressing in all the right places</div></li><li class="li1"><div class="de1">&gt;Even her light frame was enough to get blood flowing</div></li><li class="li1"><div class="de1">&gt;Anna&#039;s tail left your arm as she moved to curl around your shin</div></li><li class="li1"><div class="de1">&gt;She immediately follows with a barrage of frantic, passionate kisses</div></li><li class="li1"><div class="de1">&gt;You clumsily try to keep up, panting whenever given the chance</div></li><li class="li1"><div class="de1">&gt;Her claws dig into your shirt as she get hotter, nibbling your lip and down your neck</div></li><li class="li1"><div class="de1">&gt;You wince a few times as she nips a bit too hard, but she&#039;s already making up for it by rubbing and squeezing your crotch with her hand feet</div></li><li class="li1"><div class="de1">&gt;Neither of you realized what she was doing to your shirt until it tugged on her claws</div></li><li class="li1"><div class="de1">&gt;Anna gasped and jumped, her big eyes looking at you</div></li><li class="li1"><div class="de1">&gt;&quot;Oh fuck anon I&#039;m sorry!&quot;</div></li><li class="li1"><div class="de1">&gt;The shirt was definitely trash, with slender gashes even with her trimmed claws</div></li><li class="li1"><div class="de1">&gt;You frown but still you dont want to ruin the moment</div></li><li class="li1"><div class="de1">&gt;Shrug it off...and lose your shirt too</div></li><li class="li1"><div class="de1">&gt;Anna bites her finger as you toss it aside</div></li><li class="li1"><div class="de1">&gt;Maybe she got a bit too hot as she goes for another round of making out, only to crush your lip against her teeth </div></li><li class="li1"><div class="de1">&gt;You both groan and lean away for a moment</div></li><li class="li1"><div class="de1">&gt;Anna whines &quot;Fuck anon! Im sorry! Shit, ow..&quot;</div></li><li class="li1"><div class="de1">&gt;You recover quickly and pat her head, sliding down her back</div></li><li class="li1"><div class="de1">&gt;Reassure her it&#039;s fine despite the pain</div></li><li class="li1"><div class="de1">&gt;Anna hesitates but then sighs and slides back on your lap</div></li><li class="li1"><div class="de1">&gt;You freeze, is she done? Did that ruin it? What did you say?!</div></li><li class="li1"><div class="de1">&gt;&quot;Well, let me make it better&quot;</div></li><li class="li1"><div class="de1">&gt;What</div></li><li class="li1"><div class="de1">&gt;Anna wiggles around, easily slipping off the straps of her &quot;country girl&quot; overalls</div></li><li class="li1"><div class="de1">&gt;She always thought they were just comfy and ugly</div></li><li class="li1"><div class="de1">&gt;the blood returns WITH A VENGEANCE as she wiggles out of them completely, making sure to show off her ass  before letting them slide down her long tail and plop to the floor</div></li><li class="li1"><div class="de1">&gt;she giggles nervously and wiggles back into your lap</div></li><li class="li1"><div class="de1">&gt;&quot;Better?&quot;</div></li><li class="li1"><div class="de1">&gt;She gasps as she feels a throb under her leg</div></li><li class="li1"><div class="de1">&gt;You reach over and pull her even closer so her chest rubs against yours</div></li><li class="li1"><div class="de1">&gt;Anna practically melts before you softly guide your lips to hers</div></li><li class="li1"><div class="de1">&gt;more making out, more grinding and dry humping</div></li><li class="li1"><div class="de1">&gt;Anna decides to start trying to jerk you off through your jeans, hands stroking your chest</div></li><li class="li1"><div class="de1">&gt;She&#039;s getting antsy, and antsy meant horny</div></li><li class="li1"><div class="de1">&gt;usually this is where you normally stopped, but usually anna had clothes on</div></li><li class="li1"><div class="de1">&gt;She wouldn&#039;t be denied tonight</div></li><li class="li1"><div class="de1">&gt;Finally she tugs away and leans down to grab your cock through denim and squeeze</div></li><li class="li1"><div class="de1">&gt;&quot;Now, lemme see yours, gimme!&quot; She giggled</div></li><li class="li1"><div class="de1">&gt;Well you cant exactly strip with her fondling you</div></li><li class="li1"><div class="de1">&gt;Anna grins and lets go, staying close to your side as you very unsexy-like wiggle and buck your hips to slide your pants off</div></li><li class="li1"><div class="de1">&gt;Anna practically drools at the sight of the bulge in your underwear</div></li><li class="li1"><div class="de1">&gt;As if her eyes could get any bigger as you slid your underwear to your ankles as well</div></li><li class="li1"><div class="de1">&gt;She giggles as it bounces and throbs</div></li><li class="li1"><div class="de1">&gt;Her giggles turn into cackling  laughter and snorts as she pokes it and bats it around until you pull away, arms crossed and blushing</div></li><li class="li1"><div class="de1">&gt;&quot;Sorry! Sorry! I couldn&#039;t help it! Its so...different and springy!&quot;</div></li><li class="li1"><div class="de1">&gt;Like she&#039;s seen tons of dick in her life you huff</div></li><li class="li1"><div class="de1">&gt;Anna just raises an incredulous eyebrow and smirks</div></li><li class="li1"><div class="de1">&gt;&quot;Anon, I live on a farm and I have a father and brothers, you think I haven&#039;t seen a few weird dicks?&quot;</div></li><li class="li1"><div class="de1">&gt;Fair point...wait she&#039;s seen her brothers?</div></li><li class="li1"><div class="de1">&gt;&quot;Oh please don&#039;t remind me, I&#039;ve walked in on then so many times after a shower or jerking off&quot;</div></li><li class="li1"><div class="de1">&gt;Anna grimaces and sticks her tongue out &quot;Bleh&quot;</div></li><li class="li1"><div class="de1">&gt;Then she stretches out across the seat and slides her hands up your thighs</div></li><li class="li1"><div class="de1">&gt;&quot;Yours however, is by far much more appealing&quot; Anna groans a little, rubbing herself on your seat and hungrily eyeing your dick</div></li><li class="li1"><div class="de1">&gt;The feather soft touches and strokes she gives your shaft easily bring it back up</div></li><li class="li1"><div class="de1">&gt;She licks and kisses your inner thigh as she moves in, burying her face in your crotch and taking a deep sniff</div></li><li class="li1"><div class="de1">&gt;Its a little weird, but hot</div></li><li class="li1"><div class="de1">&gt;Anna pulls away, wiping the drool from her mouth before giving a shaky, shivering sigh</div></li><li class="li1"><div class="de1">&gt;&quot;o-okay...here i go..&quot;</div></li><li class="li1"><div class="de1">&gt;The tension in the truck builds as she leans down and finally grabs you</div></li><li class="li1"><div class="de1">&gt;She almost lets go as you groan softly, instead sliding her incredibly soft, smooth palms up and down your cock</div></li><li class="li1"><div class="de1">&gt;She definitely makes you feel much larger than you probably are</div></li><li class="li1"><div class="de1">&gt;finally she leans down and sees the glisten of pre-cum</div></li><li class="li1"><div class="de1">&gt;Anna was never one to hold back</div></li><li class="li1"><div class="de1">&gt;She dives in, and starts licking</div></li><li class="li1"><div class="de1">&gt;Okay maybe a bit too eager</div></li><li class="li1"><div class="de1">&gt;Anna, Anna!</div></li><li class="li1"><div class="de1">&gt;She snaps out of her cock trance and pops up</div></li><li class="li1"><div class="de1">&gt;&quot;Oh! Ye-yeah?&quot;</div></li><li class="li1"><div class="de1">&gt;You encorage her to slow down, please. Hard to feel anything with crazy slathering honestly...</div></li><li class="li1"><div class="de1">&gt;she practically glows under her fur</div></li><li class="li1"><div class="de1">&gt;&quot;OH..sorry..I..didn&#039;t realize&quot;</div></li><li class="li1"><div class="de1">&gt;the tone of her voice makes you mentally kick your own ass</div></li><li class="li1"><div class="de1">&gt;She moves away again</div></li><li class="li1"><div class="de1">&gt;Oh fuck, you fucked it!</div></li><li class="li1"><div class="de1">&gt;Anna huffs and tugs on your leg, spreading them futher</div></li><li class="li1"><div class="de1">&gt;She crawls between your legs and gives your sack a tender caress before dragging her tongue from your tip to your sack all the way down</div></li><li class="li1"><div class="de1">&gt;Anna didnt give up easily</div></li><li class="li1"><div class="de1">&gt;Thankfully it took her a moment to readjust herself </div></li><li class="li1"><div class="de1">&gt;You almost jizzed all over her</div></li><li class="li1"><div class="de1">&gt;This time she calmed herself, squeezed your cock and went to town</div></li><li class="li1"><div class="de1">&gt;Slower, methodical and making sure to pause every so often when her flicking ears heard your hands grip the wheel tighter</div></li><li class="li1"><div class="de1">&gt;In short, she got Better, fast.</div></li><li class="li1"><div class="de1">&gt;Soon however her hands stopped moving and she took another deep breath</div></li><li class="li1"><div class="de1">&gt;Before you could even begin to fathom what was wrong</div></li><li class="li1"><div class="de1">&gt;She tilted her head and slid your cock head into her mouth</div></li><li class="li1"><div class="de1">&gt;Then she started moving and sucking</div></li><li class="li1"><div class="de1">&gt;You couldn&#039;t possibly suck in more air to let it out in a deep moan</div></li><li class="li1"><div class="de1">&gt;There was the occasional brush of teeth, but not enough to distract</div></li><li class="li1"><div class="de1">&gt;&quot;MMFPH--Aahnon!&quot;</div></li><li class="li1"><div class="de1">&gt;Anna&#039;s voice yanked you from out of the seat cushions and back into your head</div></li><li class="li1"><div class="de1">&gt;It suddenly registered the truck was revving, LOUDLY</div></li><li class="li1"><div class="de1">&gt;How long had your foot been pressing the gas?!</div></li><li class="li1"><div class="de1">&gt;you yank your foot away and blush</div></li><li class="li1"><div class="de1">&gt;Anna snorts and laughs, wiping off her mouth &quot;I appreciate the effect, but I&#039;m pretty sure we&#039;re out here NOT to draw attention&quot;</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&quot;Anon!&quot;
-&gt;The butterflies in your gut squirmed and swirled at that voice
-&gt;You knew just who that was before she divebombed onto your back
-&gt;giggling and swirling around you
-&gt;&quot;Anna&quot; he laughed and half sighed
-&gt;she crawled around to your front, panting softly and smiling 
-&gt;The soft grey fur momentarily blinded you as she buried her face into your neck, nuzzling and squeaking softly
-&gt;Her enthusiasm was infectious, you could practically feel her vibrating with pure excitement.
-&gt;Tonight was the night the two of you had been planning for weeks
-&gt;All alone, for hours.
-&gt;Just at the start of her Heat
-&gt;You two had been dating for awhile, friends for longer before that so her cycle was fairly known to you both
-&gt;It was getting her away from her parents prying noses that was the tricky part.
-&gt;&quot;I..I&#039;m so excited!&quot; The sugar glider chirped, her long tail curling around you both as her bare feet gripped your thighs, her arms looped around your neck
-&gt;The perks of a small girlfriend one might argue.
-&gt;Sugar gliders specifically were light, so even you could hold her up for a long time with little unease.
-&gt;Anna bit her lip and her fluffy tail flicking and tickling your ribs occasionally
-&gt;&quot;So is I..i mean..uh...yeah&quot;
-&gt;Smooth
-&gt;Anna just giggles, releasing you from her grasp and dropping to the dirt
-&gt;her tail lassos around your wrist and starts gently squeezing and tugging you along as she walks
-&gt;Back to your truck of course
-&gt;Not like you and your girl could find anywhere else to get some alone time without parents or distractions
-&gt;Anna&#039;s smaller hand squeezed yours, anxious and fidgety
-&gt;Well more fidgety than usual.
-&gt;Once in the relative &quot;safety&quot; of your truck, she&#039;s glued to your side
-&gt;Stroking your arm as she hummed and you both considered what was about to happen
-&gt;Anna was usually a ball of energy anyway but now everything seemed electrified, her fur stood on end and her tail curled, uncurled and twitched endlessly before she finally took a deep breath
-&gt;You reach down and stroke her head softly, her ears flicking around your fingers
-&gt;Anna sighed some relief and her tail coiled around your arm again
-&gt;&quot;Hey anon? You&#039;re still gonna like me after this right?&quot; Her voice wavered a little
-&gt;Well of course, you weren&#039;t some chump!
-&gt;Anna nodded, finally managing to pry her eyes away from the radio to your face
-&gt;&quot;Promise?&quot;
-&gt;You start nodding and try to think of something smart to say but instead she cuts you off
-&gt;with her mouth
-&gt;and tongue
-&gt;lots of tongue
-&gt;All the &quot;practice&quot; you guys did while &quot;studying&quot; really helped her 
-&gt;Still a bit messy though as you try to keep up with her frantic efforts 
-&gt;She grips your shirt and has to force herself away
-&gt;Well you&#039;re definitely breathing harder now
-&gt;But the awkward silence is back
-&gt;Woo, how about some music?
-&gt;After frantically fiddling with the stupid radio to find something...not un-sexy?, Anna slides under your arm, listening and breathing in your scent
-&gt;Your arm around her, all you can do is stroke her until she grabs your hand with hers and laces her fingers between yours
-&gt;Finally she takes a shakey sigh 
-&gt;&quot;I think...I&#039;m ready&quot;
-&gt;What followed was an awkward dance of turning and twisting as she tried to crawl under your arms
-&gt;Misunderstanding, you try shifting in your seat to move away
-&gt;Anna grabs you, small annoyed noises as she tried to turn you how she wanted
-&gt;Ending with a paralyzing &quot;HOOONK&quot;
-&gt;Anna jumped, her ass and tail bumping the wheel
-&gt;You both freeze, until she lets you push her back so you could slide to the middle of the large bench seat
-&gt;Anna huffs and determinedly crawls over you and straddles your lap
-&gt;You grunt and feel her weight pressing in all the right places
-&gt;Even her light frame was enough to get blood flowing
-&gt;Anna&#039;s tail left your arm as she moved to curl around your shin
-&gt;She immediately follows with a barrage of frantic, passionate kisses
-&gt;You clumsily try to keep up, panting whenever given the chance
-&gt;Her claws dig into your shirt as she get hotter, nibbling your lip and down your neck
-&gt;You wince a few times as she nips a bit too hard, but she&#039;s already making up for it by rubbing and squeezing your crotch with her hand feet
-&gt;Neither of you realized what she was doing to your shirt until it tugged on her claws
-&gt;Anna gasped and jumped, her big eyes looking at you
-&gt;&quot;Oh fuck anon I&#039;m sorry!&quot;
-&gt;The shirt was definitely trash, with slender gashes even with her trimmed claws
-&gt;You frown but still you dont want to ruin the moment
-&gt;Shrug it off...and lose your shirt too
-&gt;Anna bites her finger as you toss it aside
-&gt;Maybe she got a bit too hot as she goes for another round of making out, only to crush your lip against her teeth 
-&gt;You both groan and lean away for a moment
-&gt;Anna whines &quot;Fuck anon! Im sorry! Shit, ow..&quot;
-&gt;You recover quickly and pat her head, sliding down her back
-&gt;Reassure her it&#039;s fine despite the pain
-&gt;Anna hesitates but then sighs and slides back on your lap
-&gt;You freeze, is she done? Did that ruin it? What did you say?!
-&gt;&quot;Well, let me make it better&quot;
-&gt;What
-&gt;Anna wiggles around, easily slipping off the straps of her &quot;country girl&quot; overalls
-&gt;She always thought they were just comfy and ugly
-&gt;the blood returns WITH A VENGEANCE as she wiggles out of them completely, making sure to show off her ass  before letting them slide down her long tail and plop to the floor
-&gt;she giggles nervously and wiggles back into your lap
-&gt;&quot;Better?&quot;
-&gt;She gasps as she feels a throb under her leg
-&gt;You reach over and pull her even closer so her chest rubs against yours
-&gt;Anna practically melts before you softly guide your lips to hers
-&gt;more making out, more grinding and dry humping
-&gt;Anna decides to start trying to jerk you off through your jeans, hands stroking your chest
-&gt;She&#039;s getting antsy, and antsy meant horny
-&gt;usually this is where you normally stopped, but usually anna had clothes on
-&gt;She wouldn&#039;t be denied tonight
-&gt;Finally she tugs away and leans down to grab your cock through denim and squeeze
-&gt;&quot;Now, lemme see yours, gimme!&quot; She giggled
-&gt;Well you cant exactly strip with her fondling you
-&gt;Anna grins and lets go, staying close to your side as you very unsexy-like wiggle and buck your hips to slide your pants off
-&gt;Anna practically drools at the sight of the bulge in your underwear
-&gt;As if her eyes could get any bigger as you slid your underwear to your ankles as well
-&gt;She giggles as it bounces and throbs
-&gt;Her giggles turn into cackling  laughter and snorts as she pokes it and bats it around until you pull away, arms crossed and blushing
-&gt;&quot;Sorry! Sorry! I couldn&#039;t help it! Its so...different and springy!&quot;
-&gt;Like she&#039;s seen tons of dick in her life you huff
-&gt;Anna just raises an incredulous eyebrow and smirks
-&gt;&quot;Anon, I live on a farm and I have a father and brothers, you think I haven&#039;t seen a few weird dicks?&quot;
-&gt;Fair point...wait she&#039;s seen her brothers?
-&gt;&quot;Oh please don&#039;t remind me, I&#039;ve walked in on then so many times after a shower or jerking off&quot;
-&gt;Anna grimaces and sticks her tongue out &quot;Bleh&quot;
-&gt;Then she stretches out across the seat and slides her hands up your thighs
-&gt;&quot;Yours however, is by far much more appealing&quot; Anna groans a little, rubbing herself on your seat and hungrily eyeing your dick
-&gt;The feather soft touches and strokes she gives your shaft easily bring it back up
-&gt;She licks and kisses your inner thigh as she moves in, burying her face in your crotch and taking a deep sniff
-&gt;Its a little weird, but hot
-&gt;Anna pulls away, wiping the drool from her mouth before giving a shaky, shivering sigh
-&gt;&quot;o-okay...here i go..&quot;
-&gt;The tension in the truck builds as she leans down and finally grabs you
-&gt;She almost lets go as you groan softly, instead sliding her incredibly soft, smooth palms up and down your cock
-&gt;She definitely makes you feel much larger than you probably are
-&gt;finally she leans down and sees the glisten of pre-cum
-&gt;Anna was never one to hold back
-&gt;She dives in, and starts licking
-&gt;Okay maybe a bit too eager
-&gt;Anna, Anna!
-&gt;She snaps out of her cock trance and pops up
-&gt;&quot;Oh! Ye-yeah?&quot;
-&gt;You encorage her to slow down, please. Hard to feel anything with crazy slathering honestly...
-&gt;she practically glows under her fur
-&gt;&quot;OH..sorry..I..didn&#039;t realize&quot;
-&gt;the tone of her voice makes you mentally kick your own ass
-&gt;She moves away again
-&gt;Oh fuck, you fucked it!
-&gt;Anna huffs and tugs on your leg, spreading them futher
-&gt;She crawls between your legs and gives your sack a tender caress before dragging her tongue from your tip to your sack all the way down
-&gt;Anna didnt give up easily
-&gt;Thankfully it took her a moment to readjust herself 
-&gt;You almost jizzed all over her
-&gt;This time she calmed herself, squeezed your cock and went to town
-&gt;Slower, methodical and making sure to pause every so often when her flicking ears heard your hands grip the wheel tighter
-&gt;In short, she got Better, fast.
-&gt;Soon however her hands stopped moving and she took another deep breath
-&gt;Before you could even begin to fathom what was wrong
-&gt;She tilted her head and slid your cock head into her mouth
-&gt;Then she started moving and sucking
-&gt;You couldn&#039;t possibly suck in more air to let it out in a deep moan
-&gt;There was the occasional brush of teeth, but not enough to distract
-&gt;&quot;MMFPH--Aahnon!&quot;
-&gt;Anna&#039;s voice yanked you from out of the seat cushions and back into your head
-&gt;It suddenly registered the truck was revving, LOUDLY
-&gt;How long had your foot been pressing the gas?!
-&gt;you yank your foot away and blush
-&gt;Anna snorts and laughs, wiping off her mouth &quot;I appreciate the effect, but I&#039;m pretty sure we&#039;re out here NOT to draw attention&quot;</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    5 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    32 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    60 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

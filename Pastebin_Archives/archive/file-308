@@ -1,578 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Heat Index - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Heat Index - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/b9BqWvjG" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/b9BqWvjG" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="hbAstagBz2L2N8vXICPh5CqBU7cNea8yd85wx0mrgwP32R_C4WD8UphlvK8TQqbVZfMSwHUNgmYf-znwIcXVXA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/b9BqWvjG" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/b9BqWvjG" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/20/8/0/3492136.jpg" alt="Exro">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>Heat Index</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Exro">Exro</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Exro" class="message" title="Send a private message to: Exro"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 3rd of May 2018 08:49:28 PM CDT">May 3rd, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,489                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 14.32 KB            </div>
-
-            <div class="right">
-                <a href="/raw/b9BqWvjG" class="btn -small">raw</a>
-                <a href="/dl/b9BqWvjG" class="btn -small">download</a>
-                <a href="/clone/b9BqWvjG" class="btn -small h_800">clone</a>
-                <a href="/embed/b9BqWvjG" class="btn -small h_800">embed</a>
-                <a href="/report/b9BqWvjG" class="btn -small">report</a>
-                <a href="/print/b9BqWvjG" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Act 1 Heat 1: All for An Arnold</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The city sagged under the cruel July heat</div></li><li class="li1"><div class="de1">&gt;As you rode through the city in a top down car, you friends driving and squawking like birds, you wiped a bead of sweat from your brow, despite the cooling air rushing past your face.</div></li><li class="li1"><div class="de1">&gt;They were a lively bunch, unlike you, and as you watched them guffaw, another bead of sweat found its way into your eye, irritating you.</div></li><li class="li1"><div class="de1">&gt;You would remain quiet, letting the wind whip your face and blow your buttoned-down-button-up around you.</div></li><li class="li1"><div class="de1">&gt;That is, until Antonio remembered you were still there. </div></li><li class="li1"><div class="de1">&gt; “Yo! Earth to Anon!” the young Hyena said, leaning over the seat to peer into your face. “We’re stopping at the 8/12 to get some drinks, you want anything?</div></li><li class="li1"><div class="de1">&gt;You begin to decline, but reconsider. “Anything with with a lemon-tea combo. That’d hit the spot right now.”</div></li><li class="li1"><div class="de1">&gt;Antonio nods, before leaning back, resting his back against the dashboard in a dangerously casual posture.</div></li><li class="li1"><div class="de1">&gt; “So! Whatcha thinkin’ about over there, Mr. Silent?” He asked, but the grin he sported signaled he wasn’t looking for an answer. “Is it that girl your dad brought you to meet, from 6th? You two hit the shack?”</div></li><li class="li1"><div class="de1">&gt;Girls. </div></li><li class="li1"><div class="de1">&gt;Antonio like to talk about girls.</div></li><li class="li1"><div class="de1">&gt;Big girls, small girls, anthro girls, humans, he didn’t care.</div></li><li class="li1"><div class="de1">&gt;You shake your head, annoyed that he’d brought her up.</div></li><li class="li1"><div class="de1">&gt;Esmeralda, was her name, right. </div></li><li class="li1"><div class="de1">&gt;A lynx anthro, short, good, hair, glasses, pretty green eyes and the perkiest ass you could remember…</div></li><li class="li1"><div class="de1">&gt;You lick your lips, feeling them get dry just at the thought of her.</div></li><li class="li1"><div class="de1">&gt;Unfortunately for you, the date hadn’t gone well.</div></li><li class="li1"><div class="de1">&gt;You’ll skip the details but it was evident that she would not be calling you anytime soon.</div></li><li class="li1"><div class="de1">&gt;You weren’t exactly the…interpersonal type, that’s all you’ll say.</div></li><li class="li1"><div class="de1">&gt;”No, I’m not thinking about her,” You say, annoyed that he’d bring her up. Given Antonio’s lack of caring about other people’s privacy, you weren’t surprised if he already knew what had happened.</div></li><li class="li1"><div class="de1">&gt;No, you didn’t have doubt he already knew.</div></li><li class="li1"><div class="de1">&gt; “Guys, guys, listen to this…” He begins, his grin spreading into a full blown Cheshire. </div></li><li class="li1"><div class="de1">&gt;So he did know.</div></li><li class="li1"><div class="de1">&gt;Typical.</div></li><li class="li1"><div class="de1">&gt;You roll your head back and look at the sky, ignoring the whoops of laughter that came from your friends.</div></li><li class="li1"><div class="de1">&gt;The city passed by quickly, and you watched from the back of the car as you sailed down the street at speeds that were almost illegal.</div></li><li class="li1"><div class="de1">&gt;Golden Bay was a huge city, a cultural stir fry.</div></li><li class="li1"><div class="de1">&gt;Anthros mingled with humans and humans mingled with anthros.</div></li><li class="li1"><div class="de1">&gt;You’d heard of places that didn’t care for human-anthro coexistence, but you didn’t care for those places either.</div></li><li class="li1"><div class="de1">&gt;The idea that one species was better than the other was simply unfathomable to you.</div></li><li class="li1"><div class="de1">&gt;In fact, you had realized (rather early on) that you were one of those humans with a taste for anthro women.</div></li><li class="li1"><div class="de1">&gt;Something about them was alluring, but you could never truly describe what it was.</div></li><li class="li1"><div class="de1">&gt;No matter.</div></li><li class="li1"><div class="de1">&gt;Life would go on, and you would find a girl to settle down with.</div></li><li class="li1"><div class="de1">&gt;It was an inevitability. </div></li><li class="li1"><div class="de1">&gt;The car screeched to a stop, snapping you out of your own head.</div></li><li class="li1"><div class="de1">&gt;Annoyed, you swat the driver, Georgio, who happened to be Antonio’s identical brother.</div></li><li class="li1"><div class="de1">&gt; “Hey!” he protested. “What was that for?”</div></li><li class="li1"><div class="de1">&gt; “For being a reckless hooligan.” You reply.</div></li><li class="li1"><div class="de1">&gt;He doesn’t respond.</div></li><li class="li1"><div class="de1">&gt;Between the two of them, Antonio got the smarts, and the quick wit.</div></li><li class="li1"><div class="de1">&gt;Not that Georgio wasn’t an intelligent being, he just didn’t care to use it.</div></li><li class="li1"><div class="de1">&gt;With a start, the car glides forward, and into a gas station on the other side of the intersection, next to one of the gas pumps.</div></li><li class="li1"><div class="de1">&gt;This was pretty bold of you, as the heir to the Fortunefamily throne, to be out on the edge of your territory. </div></li><li class="li1"><div class="de1">&gt;Lord knows father says holed up in his office up northside.</div></li><li class="li1"><div class="de1">&gt;Across from you, you notice, or are forced to notice a garishly purple car, being filled by a lion anthro.</div></li><li class="li1"><div class="de1">&gt;You take note of the unusual sight, but disregard it as Antonio hops out of the car, his grin still wide.</div></li><li class="li1"><div class="de1">&gt; “So Chief, you wanted one of those eh…Arnold thingies?” he asked. “I can never remember the name of those things for the life of me.”</div></li><li class="li1"><div class="de1">&gt; “I don’t care what the name is, just get me one.” You snap, glaring at the casually dressed hyena.</div></li><li class="li1"><div class="de1">&gt;Antonio mockingly winces. “Ouch! Don’t tell me you’re mad about me telling the boys about you little mishap with Esmeralda. I didn’t think you had that much pride in you!”</div></li><li class="li1"><div class="de1">&gt;You only glare at him, unmoved.</div></li><li class="li1"><div class="de1">&gt; “Whatever, I’ll be back.” He says over his shoulder.</div></li><li class="li1"><div class="de1">&gt;Georgio senses that you’re not happy and turns around to talk to you.</div></li><li class="li1"><div class="de1">&gt; “C’mon, we’ve all struck out with a girl some time or anoth-”</div></li><li class="li1"><div class="de1">&gt; “Not me!” Interrupted the fourth occupant of the vehicle, a deer anthro by the name of DiAngelo. </div></li><li class="li1"><div class="de1">&gt;Georgio is having none of it, and leans over the seat to grin at the cervine. “That’s cause you’re a fag.”</div></li><li class="li1"><div class="de1">&gt; “Well, I’ll leave you to deal with these idiots, I’ll be back in a few.” Antonio called over his shoulder as he walked into the store. </div></li><li class="li1"><div class="de1">&gt;DiAngelo doesn’t take that well, and draws his gun, a .9 millimeter pistol designated ‘Sword’. “What’d ya just say to me, you smiling fucker?” </div></li><li class="li1"><div class="de1">&gt;Georgio doesn’t falter. “I saw you a week ago lifting tail at Broth-”</div></li><li class="li1"><div class="de1">&gt;The hyena didn’t get to finish his sentence, as DiAngelo lept over the headrest, tackling Georgio into the driver side seat.</div></li><li class="li1"><div class="de1">&gt;You barely had time to jump into the fray before you heard clapping.</div></li><li class="li1"><div class="de1">&gt; “Good job, good job, Fortune scum, you really do know how to make utter baboons of yourselves.”</div></li><li class="li1"><div class="de1">&gt;Slow, the two cease their quarrel, to peer over the door of the car, along with you.</div></li><li class="li1"><div class="de1">&gt;There, a few feet away, stood Prince Jones, an imposingly tall lion anthro, and the heir to the Aquilla family fortune, flanked by two humans, dressed in similar fashion to their lord.</div></li><li class="li1"><div class="de1">&gt;The man was dressed in purple, a dapper vest matching his purple slacks, two guns, also Sword pistols hung under his arms in their holsters.</div></li><li class="li1"><div class="de1">&gt;You stood, inwardly hoping that the car gave you enough height to make you look intimidating.</div></li><li class="li1"><div class="de1">&gt; “Prince Jones! To what do we owe the pleasure?” You say, putting on your best grin.</div></li><li class="li1"><div class="de1">&gt;He smiles, the lion’s teeth shining in the hot summer sun.</div></li><li class="li1"><div class="de1">&gt;You were pretty sure the degree to which his fangs were sharpened was illegal, but a lot of things you did these days were illegal, so you push that thought down.</div></li><li class="li1"><div class="de1">&gt; “What you owe me, Anon, is an explanation of why I’ve caught a pack of rough housing Fortuneidiots on my family’s territory.”</div></li><li class="li1"><div class="de1">&gt; “Your territory? If I’m not mistaken, this is Fortuneland, not Aquilla.” You counter.</div></li><li class="li1"><div class="de1">&gt;Jones’s grin widens. “You are mistaken, Anon, there has been a little…renegotiation.”</div></li><li class="li1"><div class="de1">&gt;So this is what it was.</div></li><li class="li1"><div class="de1">&gt;A hostile takeover.</div></li><li class="li1"><div class="de1">&gt;You wouldn’t let this stand, and you draw your Sword, pointing it at Jones’s chest.</div></li><li class="li1"><div class="de1">&gt; “If I were you, I wouldn’t say another word Jones. There will not be any land swooping today. You can take you lapdogs and get out of here, and there will be no trouble today.”</div></li><li class="li1"><div class="de1">&gt;Jones glowers, his face twisting in anger. “Trouble? No, there will be no trouble.” He drew is guns, pointing both at you. “This is Aquilla land now, here, and everything west of Pier Nine. We’re sick of having to skirt around the Fortuneterritory, and now, we’re taking what’s ours.”</div></li><li class="li1"><div class="de1">&gt;DiAngelo climbed out of the seat, holding his hands up.</div></li><li class="li1"><div class="de1">&gt;The cervine got out of the car, and strode over to the lion prince, staring him in the face.</div></li><li class="li1"><div class="de1">&gt;The two humans drew their weapons as well, and Georgio had his pistol in hand. </div></li><li class="li1"><div class="de1">&gt;This was spiraling very quickly, and you hoped DiAngelo had a plan.</div></li><li class="li1"><div class="de1">&gt; “Listen…” He said. “I think we all got off on the wrong foot, so lets just put the guns down, and we can work this out peacefully, okay?”</div></li><li class="li1"><div class="de1">&gt;The prince lion sneered. “Peace? I hate the word. It brings nothing blunt weapons and soft men. Fuck peace. Fuck those who love peace. And fuck House Fortune” He spat into the pavement.</div></li><li class="li1"><div class="de1">&gt;Your eye twitches.</div></li><li class="li1"><div class="de1">&gt;Jones laughed. “I kid, I kid, in purpose to see the look on your face. What say you, Prince? Would it not make bad of us as the future heads of house to spill blood over a territory dispute? Should we not strive for peace between our two houses?”</div></li><li class="li1"><div class="de1">&gt;You nod. “I agree. It would be shameful for bloodshed to occur over little more than an 8/12. My boys and I came for drinks and we will depart, we hope you will do the same as well.”</div></li><li class="li1"><div class="de1">&gt; “Well said, perhaps you Fortune aren’t s-”</div></li><li class="li1"><div class="de1">&gt;A gun shot rang out.</div></li><li class="li1"><div class="de1">&gt;One of the humans at Jones’ side clutched his chest.</div></li><li class="li1"><div class="de1">&gt;Behind him was Antonio, holding a bag of sodas and a smoking gun.</div></li><li class="li1"><div class="de1">&gt; “Don’t worry, I’ve got this!” He says, gun trained on the prince.</div></li><li class="li1"><div class="de1">&gt;You reach out to grab DiAngelo but its too late.</div></li><li class="li1"><div class="de1">&gt;The other human pulled the trigger.</div></li><li class="li1"><div class="de1">&gt;DiAngelo fell.</div></li><li class="li1"><div class="de1">&gt;Jones whirls, firing two shots</div></li><li class="li1"><div class="de1">&gt;One rips through the bag , the other through Antonio’s chest.</div></li><li class="li1"><div class="de1">&gt;He makes a choked laughing sound as he falls.</div></li><li class="li1"><div class="de1">&gt;Jones lets out a roar. “Fortune SCUM! You tricked me!”</div></li><li class="li1"><div class="de1">&gt;He tries to shoot at you, but you duck down, Georgio throwing the car into gear.</div></li><li class="li1"><div class="de1">&gt;You fire a few blind shots over the edge of the door as you speed off.</div></li><li class="li1"><div class="de1">&gt;The only thing you hear is the sound of the engine and the squeal of tires on pavement.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; “Two dead Fortune, Anon. Two dead.” Your father growled through his teeth. “Do you know what would have happened if one of them was you?”</div></li><li class="li1"><div class="de1">&gt;You don’t say anything. You knew he was right. The city would have been caught in a massive gang war.</div></li><li class="li1"><div class="de1">&gt;It probably would have torn the city apart. </div></li><li class="li1"><div class="de1">&gt; “Being that far out of our territory? Are you crazy? And starting a gun battle with Prince Jones? Anon, I simply, cannot fathom…” He trails off, looking away.</div></li><li class="li1"><div class="de1">&gt;You open your mouth to speak, but he holds up a finger, and you know not to interrupt him.</div></li><li class="li1"><div class="de1">&gt; “Look…son, I’m simply worried about you. You’re my only child and…I know a warzone isn’t the place for kids, but…I just don’t want to lose you. There’s too much as stake here. You’re my son, but I’m going to have to punish you for your actions.” </div></li><li class="li1"><div class="de1">&gt;Georgio steps forward, the fur under his eyes still wet from when he was sobbing.</div></li><li class="li1"><div class="de1">&gt; “S-sir, I can explain what happened. Anon was going to make peace and get us free b-but…”</div></li><li class="li1"><div class="de1">&gt;He broke off, another round of tears coming forth. He had been like this since you got back to the compound. The poor hyena lets out a howl of sadness, and breaks down, covering his face as he openly wept in front of you and your father.</div></li><li class="li1"><div class="de1">&gt;You lean over, pulling him into one of those awkward side hugs. He didn’t resist.</div></li><li class="li1"><div class="de1">&gt;You father sighs, and looks you in your eyes.</div></li><li class="li1"><div class="de1">&gt; “I’m sorry about what happened but I have to make sure this doesn’t occur again. You are forbidden from leaving the compound.”</div></li><li class="li1"><div class="de1">&gt; “But father-!” </div></li><li class="li1"><div class="de1">&gt; “No buts! This is for my sake more than yours. Be glad I’m not locking you in your room. Now get out of my sight. I’ve got two funerals to plan.”</div></li><li class="li1"><div class="de1">&gt;You nod in understanding, and collecting Georgio, you exit the office. </div></li><li class="li1"><div class="de1">&gt;You close the door as quietly as you can, supporting the downtrodden Georgio with one arm.</div></li><li class="li1"><div class="de1">&gt;When you step out into the quiet hallway, he straightens, wiping the tears and snot away from his face. </div></li><li class="li1"><div class="de1">&gt; “Gotta be tough for you Chief, I can’t be looking sorry like this.”</div></li><li class="li1"><div class="de1">&gt;You give him a concerned look.</div></li><li class="li1"><div class="de1">&gt; “You don’t have to act tough for me, I you’re my friend, let it out.”</div></li><li class="li1"><div class="de1">&gt;He gives you a painful smile, shaking that slow manner like people do at funerals. </div></li><li class="li1"><div class="de1">&gt; “No, I’m alright, just shaken up, is all. We chose this life. We knew what the consequences were. It was gonna happen one day or another…getting hung up will just lead to more danger.”</div></li><li class="li1"><div class="de1">&gt;You grimace. “Look, this isn’t healthy, you gotta-”</div></li><li class="li1"><div class="de1">&gt; “I told you I’m fine.” He snaps. “Just, give me a day to rest, I’ll see you later.”</div></li><li class="li1"><div class="de1">&gt;Haven spoken his word, the brotherless hyena plodded off down the darkened hallway.</div></li><li class="li1"><div class="de1">&gt;You watch his back as he goes, only looking away when he disappears around the corner.</div></li><li class="li1"><div class="de1">&gt;You stand there for a moment, confused on what to do, before making up your mind and deciding to head to the Fortune’s estate club.</div></li><li class="li1"><div class="de1">&gt;It was outside the compound, but, it was where you went when you needed to cool off.</div></li><li class="li1"><div class="de1">&gt;Keys jingling, you keep your head down and walk to the garage where your car was parked.</div></li><li class="li1"><div class="de1">&gt;The Fortune’s compound, known throughout the city as ‘F-District’, was in actuality, not a singular building, but a burrough, that extended existed around the family’s headquarters.</div></li><li class="li1"><div class="de1">&gt;It had cropped up as the family gained power in the late 80s and early 90s around the main building, a skyscraper with ‘Fortune’ emblazoned on the top in immeasurably gigantic neon lights.</div></li><li class="li1"><div class="de1">&gt;The bigger the better, you guessed.</div></li><li class="li1"><div class="de1">&gt;Your father was tacky like that, with an old school sense of style and taste for design.</div></li><li class="li1"><div class="de1">&gt;He had started in the real estate industry, buying and selling houses on the beach, but he was approached by the former Fortune family head, and made an offer he couldn’t refuse.</div></li><li class="li1"><div class="de1">&gt;Soon, he was diving head first into illegal and illicit operations and any and all kinds.</div></li><li class="li1"><div class="de1">&gt;Drugs, brothels, gun running, illegal car sales, pornography pirate rings.</div></li><li class="li1"><div class="de1">&gt;All primarily victimless crimes, but profitable ones.</div></li><li class="li1"><div class="de1">&gt;Your father basically had a thumb in every pie, if that made sense.</div></li><li class="li1"><div class="de1">&gt;You yank the car door closed, and put the keys in the ignition, and twist.</div></li><li class="li1"><div class="de1">&gt;The engine roars to life like a hungry lion, and you pull out of the garage. </div></li><li class="li1"><div class="de1">&gt;The summer heat hits you like a brick to the face when you drive onto the street, your AC unit struggling to combat the sun.</div></li><li class="li1"><div class="de1">&gt;Right turn.</div></li><li class="li1"><div class="de1">&gt;Right turn.</div></li><li class="li1"><div class="de1">&gt;Left turn.</div></li><li class="li1"><div class="de1">&gt;Wait at the red light.</div></li><li class="li1"><div class="de1">&gt;You drove almost aimlessly, trying to get your mind off of the shootout from earlier this morning.</div></li><li class="li1"><div class="de1">&gt;The city melts together, and you shake your head before you get into a wreck.</div></li><li class="li1"><div class="de1">&gt;You see the club in the out ahead, and maneuver into a parking spot along the street; you wanted to walk a little bit. </div></li><li class="li1"><div class="de1">&gt;Shutting off the car, you reach into the glove compartment and pull out a pistol, another sword, for you left your initial one with your father.</div></li><li class="li1"><div class="de1">&gt;You put it in your shoulder holster under your button down, and hop onto the sidewalk.</div></li><li class="li1"><div class="de1">&gt;You get a few odd looks, and a few people who recognize you wave, but no one gives you any shit for what happened earlier today.</div></li><li class="li1"><div class="de1">&gt;You grimace, wiping some sweat from your brow before crossing the street.</div></li><li class="li1"><div class="de1">&gt;The club was a long and squat building, with most of it underground to escape the deadly sun.</div></li><li class="li1"><div class="de1">&gt;This was what you needed.</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Act 1 Heat 1: All for An Arnold
-
-&gt;The city sagged under the cruel July heat
-&gt;As you rode through the city in a top down car, you friends driving and squawking like birds, you wiped a bead of sweat from your brow, despite the cooling air rushing past your face.
-&gt;They were a lively bunch, unlike you, and as you watched them guffaw, another bead of sweat found its way into your eye, irritating you.
-&gt;You would remain quiet, letting the wind whip your face and blow your buttoned-down-button-up around you.
-&gt;That is, until Antonio remembered you were still there. 
-&gt; “Yo! Earth to Anon!” the young Hyena said, leaning over the seat to peer into your face. “We’re stopping at the 8/12 to get some drinks, you want anything?
-&gt;You begin to decline, but reconsider. “Anything with with a lemon-tea combo. That’d hit the spot right now.”
-&gt;Antonio nods, before leaning back, resting his back against the dashboard in a dangerously casual posture.
-&gt; “So! Whatcha thinkin’ about over there, Mr. Silent?” He asked, but the grin he sported signaled he wasn’t looking for an answer. “Is it that girl your dad brought you to meet, from 6th? You two hit the shack?”
-&gt;Girls. 
-&gt;Antonio like to talk about girls.
-&gt;Big girls, small girls, anthro girls, humans, he didn’t care.
-&gt;You shake your head, annoyed that he’d brought her up.
-&gt;Esmeralda, was her name, right. 
-&gt;A lynx anthro, short, good, hair, glasses, pretty green eyes and the perkiest ass you could remember…
-&gt;You lick your lips, feeling them get dry just at the thought of her.
-&gt;Unfortunately for you, the date hadn’t gone well.
-&gt;You’ll skip the details but it was evident that she would not be calling you anytime soon.
-&gt;You weren’t exactly the…interpersonal type, that’s all you’ll say.
-&gt;”No, I’m not thinking about her,” You say, annoyed that he’d bring her up. Given Antonio’s lack of caring about other people’s privacy, you weren’t surprised if he already knew what had happened.
-&gt;No, you didn’t have doubt he already knew.
-&gt; “Guys, guys, listen to this…” He begins, his grin spreading into a full blown Cheshire. 
-&gt;So he did know.
-&gt;Typical.
-&gt;You roll your head back and look at the sky, ignoring the whoops of laughter that came from your friends.
-&gt;The city passed by quickly, and you watched from the back of the car as you sailed down the street at speeds that were almost illegal.
-&gt;Golden Bay was a huge city, a cultural stir fry.
-&gt;Anthros mingled with humans and humans mingled with anthros.
-&gt;You’d heard of places that didn’t care for human-anthro coexistence, but you didn’t care for those places either.
-&gt;The idea that one species was better than the other was simply unfathomable to you.
-&gt;In fact, you had realized (rather early on) that you were one of those humans with a taste for anthro women.
-&gt;Something about them was alluring, but you could never truly describe what it was.
-&gt;No matter.
-&gt;Life would go on, and you would find a girl to settle down with.
-&gt;It was an inevitability. 
-&gt;The car screeched to a stop, snapping you out of your own head.
-&gt;Annoyed, you swat the driver, Georgio, who happened to be Antonio’s identical brother.
-&gt; “Hey!” he protested. “What was that for?”
-&gt; “For being a reckless hooligan.” You reply.
-&gt;He doesn’t respond.
-&gt;Between the two of them, Antonio got the smarts, and the quick wit.
-&gt;Not that Georgio wasn’t an intelligent being, he just didn’t care to use it.
-&gt;With a start, the car glides forward, and into a gas station on the other side of the intersection, next to one of the gas pumps.
-&gt;This was pretty bold of you, as the heir to the Fortunefamily throne, to be out on the edge of your territory. 
-&gt;Lord knows father says holed up in his office up northside.
-&gt;Across from you, you notice, or are forced to notice a garishly purple car, being filled by a lion anthro.
-&gt;You take note of the unusual sight, but disregard it as Antonio hops out of the car, his grin still wide.
-&gt; “So Chief, you wanted one of those eh…Arnold thingies?” he asked. “I can never remember the name of those things for the life of me.”
-&gt; “I don’t care what the name is, just get me one.” You snap, glaring at the casually dressed hyena.
-&gt;Antonio mockingly winces. “Ouch! Don’t tell me you’re mad about me telling the boys about you little mishap with Esmeralda. I didn’t think you had that much pride in you!”
-&gt;You only glare at him, unmoved.
-&gt; “Whatever, I’ll be back.” He says over his shoulder.
-&gt;Georgio senses that you’re not happy and turns around to talk to you.
-&gt; “C’mon, we’ve all struck out with a girl some time or anoth-”
-&gt; “Not me!” Interrupted the fourth occupant of the vehicle, a deer anthro by the name of DiAngelo. 
-&gt;Georgio is having none of it, and leans over the seat to grin at the cervine. “That’s cause you’re a fag.”
-&gt; “Well, I’ll leave you to deal with these idiots, I’ll be back in a few.” Antonio called over his shoulder as he walked into the store. 
-&gt;DiAngelo doesn’t take that well, and draws his gun, a .9 millimeter pistol designated ‘Sword’. “What’d ya just say to me, you smiling fucker?” 
-&gt;Georgio doesn’t falter. “I saw you a week ago lifting tail at Broth-”
-&gt;The hyena didn’t get to finish his sentence, as DiAngelo lept over the headrest, tackling Georgio into the driver side seat.
-&gt;You barely had time to jump into the fray before you heard clapping.
-&gt; “Good job, good job, Fortune scum, you really do know how to make utter baboons of yourselves.”
-&gt;Slow, the two cease their quarrel, to peer over the door of the car, along with you.
-&gt;There, a few feet away, stood Prince Jones, an imposingly tall lion anthro, and the heir to the Aquilla family fortune, flanked by two humans, dressed in similar fashion to their lord.
-&gt;The man was dressed in purple, a dapper vest matching his purple slacks, two guns, also Sword pistols hung under his arms in their holsters.
-&gt;You stood, inwardly hoping that the car gave you enough height to make you look intimidating.
-&gt; “Prince Jones! To what do we owe the pleasure?” You say, putting on your best grin.
-&gt;He smiles, the lion’s teeth shining in the hot summer sun.
-&gt;You were pretty sure the degree to which his fangs were sharpened was illegal, but a lot of things you did these days were illegal, so you push that thought down.
-&gt; “What you owe me, Anon, is an explanation of why I’ve caught a pack of rough housing Fortuneidiots on my family’s territory.”
-&gt; “Your territory? If I’m not mistaken, this is Fortuneland, not Aquilla.” You counter.
-&gt;Jones’s grin widens. “You are mistaken, Anon, there has been a little…renegotiation.”
-&gt;So this is what it was.
-&gt;A hostile takeover.
-&gt;You wouldn’t let this stand, and you draw your Sword, pointing it at Jones’s chest.
-&gt; “If I were you, I wouldn’t say another word Jones. There will not be any land swooping today. You can take you lapdogs and get out of here, and there will be no trouble today.”
-&gt;Jones glowers, his face twisting in anger. “Trouble? No, there will be no trouble.” He drew is guns, pointing both at you. “This is Aquilla land now, here, and everything west of Pier Nine. We’re sick of having to skirt around the Fortuneterritory, and now, we’re taking what’s ours.”
-&gt;DiAngelo climbed out of the seat, holding his hands up.
-&gt;The cervine got out of the car, and strode over to the lion prince, staring him in the face.
-&gt;The two humans drew their weapons as well, and Georgio had his pistol in hand. 
-&gt;This was spiraling very quickly, and you hoped DiAngelo had a plan.
-&gt; “Listen…” He said. “I think we all got off on the wrong foot, so lets just put the guns down, and we can work this out peacefully, okay?”
-&gt;The prince lion sneered. “Peace? I hate the word. It brings nothing blunt weapons and soft men. Fuck peace. Fuck those who love peace. And fuck House Fortune” He spat into the pavement.
-&gt;Your eye twitches.
-&gt;Jones laughed. “I kid, I kid, in purpose to see the look on your face. What say you, Prince? Would it not make bad of us as the future heads of house to spill blood over a territory dispute? Should we not strive for peace between our two houses?”
-&gt;You nod. “I agree. It would be shameful for bloodshed to occur over little more than an 8/12. My boys and I came for drinks and we will depart, we hope you will do the same as well.”
-&gt; “Well said, perhaps you Fortune aren’t s-”
-&gt;A gun shot rang out.
-&gt;One of the humans at Jones’ side clutched his chest.
-&gt;Behind him was Antonio, holding a bag of sodas and a smoking gun.
-&gt; “Don’t worry, I’ve got this!” He says, gun trained on the prince.
-&gt;You reach out to grab DiAngelo but its too late.
-&gt;The other human pulled the trigger.
-&gt;DiAngelo fell.
-&gt;Jones whirls, firing two shots
-&gt;One rips through the bag , the other through Antonio’s chest.
-&gt;He makes a choked laughing sound as he falls.
-&gt;Jones lets out a roar. “Fortune SCUM! You tricked me!”
-&gt;He tries to shoot at you, but you duck down, Georgio throwing the car into gear.
-&gt;You fire a few blind shots over the edge of the door as you speed off.
-&gt;The only thing you hear is the sound of the engine and the squeal of tires on pavement.
- 	 	
-
-&gt; “Two dead Fortune, Anon. Two dead.” Your father growled through his teeth. “Do you know what would have happened if one of them was you?”
-&gt;You don’t say anything. You knew he was right. The city would have been caught in a massive gang war.
-&gt;It probably would have torn the city apart. 
-&gt; “Being that far out of our territory? Are you crazy? And starting a gun battle with Prince Jones? Anon, I simply, cannot fathom…” He trails off, looking away.
-&gt;You open your mouth to speak, but he holds up a finger, and you know not to interrupt him.
-&gt; “Look…son, I’m simply worried about you. You’re my only child and…I know a warzone isn’t the place for kids, but…I just don’t want to lose you. There’s too much as stake here. You’re my son, but I’m going to have to punish you for your actions.” 
-&gt;Georgio steps forward, the fur under his eyes still wet from when he was sobbing.
-&gt; “S-sir, I can explain what happened. Anon was going to make peace and get us free b-but…”
-&gt;He broke off, another round of tears coming forth. He had been like this since you got back to the compound. The poor hyena lets out a howl of sadness, and breaks down, covering his face as he openly wept in front of you and your father.
-&gt;You lean over, pulling him into one of those awkward side hugs. He didn’t resist.
-&gt;You father sighs, and looks you in your eyes.
-&gt; “I’m sorry about what happened but I have to make sure this doesn’t occur again. You are forbidden from leaving the compound.”
-&gt; “But father-!” 
-&gt; “No buts! This is for my sake more than yours. Be glad I’m not locking you in your room. Now get out of my sight. I’ve got two funerals to plan.”
-&gt;You nod in understanding, and collecting Georgio, you exit the office. 
-&gt;You close the door as quietly as you can, supporting the downtrodden Georgio with one arm.
-&gt;When you step out into the quiet hallway, he straightens, wiping the tears and snot away from his face. 
-&gt; “Gotta be tough for you Chief, I can’t be looking sorry like this.”
-&gt;You give him a concerned look.
-&gt; “You don’t have to act tough for me, I you’re my friend, let it out.”
-&gt;He gives you a painful smile, shaking that slow manner like people do at funerals. 
-&gt; “No, I’m alright, just shaken up, is all. We chose this life. We knew what the consequences were. It was gonna happen one day or another…getting hung up will just lead to more danger.”
-&gt;You grimace. “Look, this isn’t healthy, you gotta-”
-&gt; “I told you I’m fine.” He snaps. “Just, give me a day to rest, I’ll see you later.”
-&gt;Haven spoken his word, the brotherless hyena plodded off down the darkened hallway.
-&gt;You watch his back as he goes, only looking away when he disappears around the corner.
-&gt;You stand there for a moment, confused on what to do, before making up your mind and deciding to head to the Fortune’s estate club.
-&gt;It was outside the compound, but, it was where you went when you needed to cool off.
-&gt;Keys jingling, you keep your head down and walk to the garage where your car was parked.
-&gt;The Fortune’s compound, known throughout the city as ‘F-District’, was in actuality, not a singular building, but a burrough, that extended existed around the family’s headquarters.
-&gt;It had cropped up as the family gained power in the late 80s and early 90s around the main building, a skyscraper with ‘Fortune’ emblazoned on the top in immeasurably gigantic neon lights.
-&gt;The bigger the better, you guessed.
-&gt;Your father was tacky like that, with an old school sense of style and taste for design.
-&gt;He had started in the real estate industry, buying and selling houses on the beach, but he was approached by the former Fortune family head, and made an offer he couldn’t refuse.
-&gt;Soon, he was diving head first into illegal and illicit operations and any and all kinds.
-&gt;Drugs, brothels, gun running, illegal car sales, pornography pirate rings.
-&gt;All primarily victimless crimes, but profitable ones.
-&gt;Your father basically had a thumb in every pie, if that made sense.
-&gt;You yank the car door closed, and put the keys in the ignition, and twist.
-&gt;The engine roars to life like a hungry lion, and you pull out of the garage. 
-&gt;The summer heat hits you like a brick to the face when you drive onto the street, your AC unit struggling to combat the sun.
-&gt;Right turn.
-&gt;Right turn.
-&gt;Left turn.
-&gt;Wait at the red light.
-&gt;You drove almost aimlessly, trying to get your mind off of the shootout from earlier this morning.
-&gt;The city melts together, and you shake your head before you get into a wreck.
-&gt;You see the club in the out ahead, and maneuver into a parking spot along the street; you wanted to walk a little bit. 
-&gt;Shutting off the car, you reach into the glove compartment and pull out a pistol, another sword, for you left your initial one with your father.
-&gt;You put it in your shoulder holster under your button down, and hop onto the sidewalk.
-&gt;You get a few odd looks, and a few people who recognize you wave, but no one gives you any shit for what happened earlier today.
-&gt;You grimace, wiping some sweat from your brow before crossing the street.
-&gt;The club was a long and squat building, with most of it underground to escape the deadly sun.
-&gt;This was what you needed.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    34 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

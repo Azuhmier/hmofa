@@ -1,458 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Anything for a Yew: Chapter 4&gt;You had thought you had seen the worst of it - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Anything for a Yew: Chapter 4&gt;You had thought you had seen the worst of it - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/UBCNP3pW" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/UBCNP3pW" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="Ws0DRn9zUhVKoGO88tziefZn8uWw6RvhOf_z-sVj8gJrmEcBSTAiXgXiUcW3qoc7jhHCk8qaetcKqJGtrwrLQw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/UBCNP3pW" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/UBCNP3pW" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Ratman_Stan">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Untitled</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Ratman_Stan">Ratman_Stan</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Ratman_Stan" class="message" title="Send a private message to: Ratman_Stan"></a>
-                                    
-                <div class="date">
-                    <span title="Monday 30th of April 2018 11:02:01 AM CDT">Apr 30th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    720                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 11.69 KB            </div>
-
-            <div class="right">
-                <a href="/raw/UBCNP3pW" class="btn -small">raw</a>
-                <a href="/dl/UBCNP3pW" class="btn -small">download</a>
-                <a href="/clone/UBCNP3pW" class="btn -small h_800">clone</a>
-                <a href="/embed/UBCNP3pW" class="btn -small h_800">embed</a>
-                <a href="/report/UBCNP3pW" class="btn -small">report</a>
-                <a href="/print/UBCNP3pW" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Anything for a Yew: Chapter 4</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You had thought you had seen the worst of it. </div></li><li class="li1"><div class="de1">&gt;But it appears that you and Sally were some of the luckier inhabitants of Underfoot. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Passing over the barricade of broken bodies, you move out of the tunnel, and into a scene of utter calamity. </div></li><li class="li1"><div class="de1">&gt;At first glance, you can make out several bodies in the streets. Only one of them belongs to your previous adversaries. A male rat lays first first in the street at the far end of the tunnel, his body twisted at the waist. His limbs, back, and tail having become some creatures lunch.</div></li><li class="li1"><div class="de1">&gt;The other corpse is an unrecognizable cavity of blood and shredded muscle. No hints of what it could be except for a  pair of rat ears limply attached to the cruel remains of a once living resident. </div></li><li class="li1"><div class="de1">&gt;Whatever these creatures are, they got to work fast. As you and Sally move through the streets of Underfoot, you spot more dead creatures. </div></li><li class="li1"><div class="de1">&gt;You only hope that the few unfortunate souls you had run across were the only casualties, and that the other residents had gotten to safety. Briefly your mind wanders to the mothers and children you had passed when walking the tunnels. Before your fateful encounter with Sally. </div></li><li class="li1"><div class="de1">&gt;&quot;HELP!&quot; </div></li><li class="li1"><div class="de1">&gt;The sudden shout pulls your wandering mind back into the present moment, a brief survey shows the screaming is coming from a small hovel off the beaten path, a look back to Sally shows that she too has noticed the yell too. </div></li><li class="li1"><div class="de1">&gt;&quot;Anon, we have to keep moving, they will need us at the northern gate.&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You go on ahead, I&#039;ll meet you there.&quot; You tell her, you&#039;ve never been one to just leave someone in need. </div></li><li class="li1"><div class="de1">&gt;With a quick nod, Sally is down the street and out of sight. With her gone, you turn your attention to the small ramshackle home, it is a small little home, built of painted pallet wood and recycled windows.   It sits at the end of a small worn path, quietly moving to the building on the towns patchwork street of concrete, you notice the window of the home is ajar. </div></li><li class="li1"><div class="de1">&gt;This will be the second time you&#039;ve looked into someones home tonight. </div></li><li class="li1"><div class="de1">&gt;Once again, there is a naked woman to greet your sight. </div></li><li class="li1"><div class="de1">&gt;Unfortunately, not in a good way. </div></li><li class="li1"><div class="de1">&gt;A small rat woman is lying on the floor of the small home, tiny furniture strewn about a doll like kitchen. Another rat, a male one, is in the midst of undressing himself.</div></li><li class="li1"><div class="de1">&gt; The male is roughly the size of Sally, however he is rather disheveled compared to the other rats you&#039;ve seen. His teeth are chipped and yellow, face adorned with enough scars that you&#039;d believe he&#039;d been shaving with a lawnmower. He is also skinny, very skinny. The skin seems to hang off his bones, next to no muscle to speak of. His spine and ribs very plain and visible under his matted grey and brown fur. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t worry girlie, just keep quiet and I&#039;ll be done reeeeal quick, I promise&quot; He says, his voice dripping with sinister intent. You slowly try to move your hand into the room through the somewhat open window, and try your best not to make a sound.</div></li><li class="li1"><div class="de1">&gt;&quot;P-Please, just take whatever you want, just leave me alone!&quot; The girl shouts, her hands cover her face, as though she thinks it&#039;s all a terrible dream. Her knees are tucked to her chest, trying to cover herself as best as she can. Her tail feebly slides along the floor,  half of it is visibly broken.</div></li><li class="li1"><div class="de1">&gt;&quot;Aw don&#039;t be like that little lady! I think we&#039;re gonna get to know each other...&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;You&#039;re right&quot; </div></li><li class="li1"><div class="de1">&gt;you grab the would-be rapist by the scruff of his neck. </div></li><li class="li1"><div class="de1">&gt;&quot;We are.&quot;</div></li><li class="li1"><div class="de1">&gt;Before he can get free, you plant your foot on the house and pull back as hard as you can, sending the  rat through the window. </div></li><li class="li1"><div class="de1">&gt;You both fall, but you manage to land fairly gracefully and gently, by the time the rat is even catching his bearings, you&#039;re already on top of him. Grabbing hold of his fairly loose skin, your grab hold of the rapist rodent and slam him into the nearest wall, his bony frame hit&#039;s the unyielding concrete with a slap. Bewilderment and pain roll across his scarred visage as you hold him hard against the wall. </div></li><li class="li1"><div class="de1">&gt;&quot;WHA-WHAT!? WHAT IN THE FUCK!? WHAT THE HELL ARE YOU?!&quot; The scar faced rodent yells, his eyes locked onto yours as he grabs a hold of your hands, desperate to escape. You have a firm grip on his chest scruff however, not to mention a major difference in weight. </div></li><li class="li1"><div class="de1">&gt;&quot;What&#039;s the matter big man? Don&#039;t you want to get to know each other?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;L-Look man, I ain&#039;t got no grief with you o-okay? I ain&#039;t never seen anything like you in my life! I ain&#039;t got nothing against you! Just let me go!&quot;  His tails whacks hard, yet fruitlessly against your legs as you keep him pinned. His eyes are locked onto yours, full of confusion and fear, like a gazelle in the lions jaws. </div></li><li class="li1"><div class="de1">&gt;You&#039;re a little confused yourself however, you&#039;ve never seen any rats that looked like him since you came here, and they all have at least recognized what you are, unlike the rodent you are currently holding. To him, you may as well be from mars.</div></li><li class="li1"><div class="de1">&gt;&quot;So pip squeak, any reason why you&#039;re here?&quot; You ask, curious to see if this rat has any relation to the appearance of those creatures.</div></li><li class="li1"><div class="de1">&gt;&quot;J-Just trying to get a little lucky man. Ain&#039;t no strange outside this town. Only ladies and pussy whipped wimps live here. Just trying to show my lady friend in there what a really man is l-&quot;</div></li><li class="li1"><div class="de1">&gt;You don&#039;t even let him finish his sentence before you send your fist into his guts, soliciting a cry from the rapist rodent. </div></li><li class="li1"><div class="de1">&gt;&quot;Those creatures, the ones with the feathers. Are those your doing?&quot; </div></li><li class="li1"><div class="de1">&gt;&quot;Not me man! I don&#039;t deal with those creepers! They weren&#039;t my idea. They&#039;re just a decoy man!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;A decoy for what? To kill people while you  run off and rape?&quot; </div></li><li class="li1"><div class="de1">&gt;He starts to protest your continued referral to what he was doing as rape, but you&#039;re in no mood to argue, he seems to be able to read this on your features, and gives you what you want. </div></li><li class="li1"><div class="de1">&gt;&quot;We bought the Sqwackers from some traders down in Deep City, they didn&#039;t ask questions and neither did I. Boss wanted to use them to overwhelm the Matriarchs while we rolled in afterwards. Wanted us to grab as many kids as we could, then haul ass out. The others are probably already done by now.&quot;</div></li><li class="li1"><div class="de1">&gt;He finishes with a sigh, the realization that he is all alone in enemy territory soon dawning on him, you can&#039;t say you feel very sympathetic for him. </div></li><li class="li1"><div class="de1">&gt;&quot;We done here?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Almost, where are they taking the children? And which exit are they taking?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Out of Underfoot, then taking the tunnel up to the surface, it&#039;s in the caves past the Northern exit. Crazy bastards, they&#039;ll be lucky to come back down alive, but nobody will follow them up there&quot; He looks to you, as if waiting for his words to unlock something in you that will make you let him go. </div></li><li class="li1"><div class="de1">&gt;&quot;Don&#039;t be so sure.&quot; You reply</div></li><li class="li1"><div class="de1">&gt;You aren&#039;t enthusiastic about heading back up to the world above, but like hell you were going to let some thieving rats run off with a bunch of kids to do god only knows what. You only hoped you and Sally could get them back before they got up there.</div></li><li class="li1"><div class="de1">&gt;&quot;Your funeral pal&quot; He replies dismissively.</div></li><li class="li1"><div class="de1">&gt;&quot;One last question: Your name?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;My name?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Your name, so if I ever hear it mentioned here again, I can find you, and I will.&quot;</div></li><li class="li1"><div class="de1">&gt;Your threat seems to remind your captured subject of the position he is currently in. A audible gulp and stutter are all you need to know it made a decent impression.</div></li><li class="li1"><div class="de1">&gt;&quot;B-Billy! The pricks in the gang call me &#039;Beautiful Billy&#039;.&quot; He stammers out.</div></li><li class="li1"><div class="de1">&gt;&quot;Well then Billy, let me put it this way...&quot; </div></li><li class="li1"><div class="de1">&gt;You lean in close, his breath is rather rancid, but in the heat of the moment you don&#039;t notice it. His eyes are wide, frantic with worry and concern.</div></li><li class="li1"><div class="de1">&gt;&quot;Unless you want them to call you &#039;Billy the Ball-less&#039;, never come back here again. Understand?&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Y-Yeah!&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Good, sweet dreams&quot; </div></li><li class="li1"><div class="de1">&gt;Before he can remark on your choice of words, you spin him around and squeeze hard. Your forearm looping tightly around his neck, his protests becoming nothing but light gasps as you throttle him.</div></li><li class="li1"><div class="de1">&gt;You could simply have killed him, at any point you could have done so. Unlike the creatures from before, he is an actual person. You&#039;ve never enjoyed killing others, and now is no exception. </div></li><li class="li1"><div class="de1">&gt;Before long, the struggle is over, the fury of kicking and wiggling soon  dies down and the rat limply hangs from your chest. You check to make sure his heart is still beating, hoping that you didn&#039;t break his neck. Not that you would&#039;ve lost much sleep over it.</div></li><li class="li1"><div class="de1">&gt;After confirming that the subject of your interrogation was still alive, you move back to the house to confirm the same of his victim. </div></li><li class="li1"><div class="de1">&gt;The girl has not moved from her spot on the floor. Knees to her chest, as though she may squeeze herself into a small enough ball that she may disappear. She keeps muttering something to herself in a language you do not understand.</div></li><li class="li1"><div class="de1">&gt;You&#039;re not exactly sure how to help her, you move into the house through the door. When you come into the kitchen, she does not react. </div></li><li class="li1"><div class="de1">&gt;You slowly take off your jacket, which gets a fearful look from the small naked bundle of fear sitting on the kitchen floor.</div></li><li class="li1"><div class="de1">&gt;As slowly and as gently as you can, you drape your jacket over her. Your jacket was a little big for you, so it covers the girl like a blanket.</div></li><li class="li1"><div class="de1">&gt;Her expression softens lightly before she returns to staring off into space, her eyes are wet and empty. </div></li><li class="li1"><div class="de1">&gt;You want to say something that may wash away anything she may have gone through, but your breathe is empty and quiet. </div></li><li class="li1"><div class="de1">&gt;Perhaps the best thing you can say is nothing at all. </div></li><li class="li1"><div class="de1">&gt;You leave the home and throw Billy over your good shoulder, you can only hope that Sally is doing alright on her own as you make your way back to the main street. A quick look at some makeshift street signs points you in the right direction.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you make your way to the northern gate, you notice a few of Billy&#039;s comrades in arms lay dead in the street. Bodies lay in awkward mounds, lifeless and still where they fell. </div></li><li class="li1"><div class="de1">&gt;Around them, is a growing pool of pulmonary crimson. </div></li><li class="li1"><div class="de1">&gt;You decide not to waste any more time and work yourself into as much of a sprint as your body will allow, given it&#039;s torn and worn state.</div></li><li class="li1"><div class="de1">&gt;As luck would have it, you do not need to travel very far, and soon the northern gate comes into view.</div></li><li class="li1"><div class="de1">&gt;You begin to wish it hadn&#039;t. </div></li><li class="li1"><div class="de1">&gt;Your mind seems to slow as you take it in, your eyes speak but your brain seems to adamantly refuse to listen. You just can&#039;t seem to comprehend it, as though the world before you is some form of abstraction. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Blood.</div></li><li class="li1"><div class="de1">&gt;God, so much blood.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The entrance to Underfoot is adorned with a sickening decoration of bodies, as though it was Christmas in hell. </div></li><li class="li1"><div class="de1">&gt;Children, women, men, all strewn about with a careless and cruel disregard. A carpet of dead families.</div></li><li class="li1"><div class="de1">&gt;Sinew, muscle, bone, all are present in the disturbing display of cruelty. </div></li><li class="li1"><div class="de1">&gt;The wrought iron gates and guard platforms are untouched, the gates wide open.</div></li><li class="li1"><div class="de1">&gt;Grey and brown, black, pink, all the colors of rat kind, lay in piles around the gate. </div></li><li class="li1"><div class="de1">&gt;But it is not just the presence of indiscriminate murder that turns your stomach inside out with revulsion. It&#039;s not the dead children, staring up into the ceiling with empty doll-like eyes.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not the mothers, covering over their children like safety blankets, comforting their children and protecting them to the very last.</div></li><li class="li1"><div class="de1">&gt;It&#039;s not the men, splattered and strewn about in miscellaneous &#039;pieces&#039;.</div></li><li class="li1"><div class="de1">&gt;It&#039;s what sits in the middle.</div></li><li class="li1"><div class="de1">&gt;Standing like a beacon, a pillar of white.</div></li><li class="li1"><div class="de1">&gt;A blinding untainted light among the bleak darkness of death.</div></li><li class="li1"><div class="de1">&gt;It is unnatural, even the landscape around it feels more &#039;natural&#039; in a sick way.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Standing in the middle of the bodies, it turns to you, it&#039;s eyes focusing on your expression of sheer disbelief.</div></li><li class="li1"><div class="de1">&gt;It&#039;s arms open like a mother to greet it&#039;s child, like a parent to hug it&#039;s child. </div></li><li class="li1"><div class="de1">&gt;Warm, open, loving...</div></li><li class="li1"><div class="de1">&gt;Yet it feels so wrong.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Standing among the murdered residents of Underfoot, looking at you with the expression of a welcoming parent....Is a human.</div></li><li class="li1"><div class="de1">&gt;&quot;Come home.&quot;</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Anything for a Yew: Chapter 4
-
-
-&gt;You had thought you had seen the worst of it. 
-&gt;But it appears that you and Sally were some of the luckier inhabitants of Underfoot. 
-
-&gt;Passing over the barricade of broken bodies, you move out of the tunnel, and into a scene of utter calamity. 
-&gt;At first glance, you can make out several bodies in the streets. Only one of them belongs to your previous adversaries. A male rat lays first first in the street at the far end of the tunnel, his body twisted at the waist. His limbs, back, and tail having become some creatures lunch.
-&gt;The other corpse is an unrecognizable cavity of blood and shredded muscle. No hints of what it could be except for a  pair of rat ears limply attached to the cruel remains of a once living resident. 
-&gt;Whatever these creatures are, they got to work fast. As you and Sally move through the streets of Underfoot, you spot more dead creatures. 
-&gt;You only hope that the few unfortunate souls you had run across were the only casualties, and that the other residents had gotten to safety. Briefly your mind wanders to the mothers and children you had passed when walking the tunnels. Before your fateful encounter with Sally. 
-&gt;&quot;HELP!&quot; 
-&gt;The sudden shout pulls your wandering mind back into the present moment, a brief survey shows the screaming is coming from a small hovel off the beaten path, a look back to Sally shows that she too has noticed the yell too. 
-&gt;&quot;Anon, we have to keep moving, they will need us at the northern gate.&quot;
-&gt;&quot;You go on ahead, I&#039;ll meet you there.&quot; You tell her, you&#039;ve never been one to just leave someone in need. 
-&gt;With a quick nod, Sally is down the street and out of sight. With her gone, you turn your attention to the small ramshackle home, it is a small little home, built of painted pallet wood and recycled windows.   It sits at the end of a small worn path, quietly moving to the building on the towns patchwork street of concrete, you notice the window of the home is ajar. 
-&gt;This will be the second time you&#039;ve looked into someones home tonight. 
-&gt;Once again, there is a naked woman to greet your sight. 
-&gt;Unfortunately, not in a good way. 
-&gt;A small rat woman is lying on the floor of the small home, tiny furniture strewn about a doll like kitchen. Another rat, a male one, is in the midst of undressing himself.
-&gt; The male is roughly the size of Sally, however he is rather disheveled compared to the other rats you&#039;ve seen. His teeth are chipped and yellow, face adorned with enough scars that you&#039;d believe he&#039;d been shaving with a lawnmower. He is also skinny, very skinny. The skin seems to hang off his bones, next to no muscle to speak of. His spine and ribs very plain and visible under his matted grey and brown fur. 
-
-&gt;&quot;Don&#039;t worry girlie, just keep quiet and I&#039;ll be done reeeeal quick, I promise&quot; He says, his voice dripping with sinister intent. You slowly try to move your hand into the room through the somewhat open window, and try your best not to make a sound.
-&gt;&quot;P-Please, just take whatever you want, just leave me alone!&quot; The girl shouts, her hands cover her face, as though she thinks it&#039;s all a terrible dream. Her knees are tucked to her chest, trying to cover herself as best as she can. Her tail feebly slides along the floor,  half of it is visibly broken.
-&gt;&quot;Aw don&#039;t be like that little lady! I think we&#039;re gonna get to know each other...&quot;
-&gt;&quot;You&#039;re right&quot; 
-&gt;you grab the would-be rapist by the scruff of his neck. 
-&gt;&quot;We are.&quot;
-&gt;Before he can get free, you plant your foot on the house and pull back as hard as you can, sending the  rat through the window. 
-&gt;You both fall, but you manage to land fairly gracefully and gently, by the time the rat is even catching his bearings, you&#039;re already on top of him. Grabbing hold of his fairly loose skin, your grab hold of the rapist rodent and slam him into the nearest wall, his bony frame hit&#039;s the unyielding concrete with a slap. Bewilderment and pain roll across his scarred visage as you hold him hard against the wall. 
-&gt;&quot;WHA-WHAT!? WHAT IN THE FUCK!? WHAT THE HELL ARE YOU?!&quot; The scar faced rodent yells, his eyes locked onto yours as he grabs a hold of your hands, desperate to escape. You have a firm grip on his chest scruff however, not to mention a major difference in weight. 
-&gt;&quot;What&#039;s the matter big man? Don&#039;t you want to get to know each other?&quot; 
-&gt;&quot;L-Look man, I ain&#039;t got no grief with you o-okay? I ain&#039;t never seen anything like you in my life! I ain&#039;t got nothing against you! Just let me go!&quot;  His tails whacks hard, yet fruitlessly against your legs as you keep him pinned. His eyes are locked onto yours, full of confusion and fear, like a gazelle in the lions jaws. 
-&gt;You&#039;re a little confused yourself however, you&#039;ve never seen any rats that looked like him since you came here, and they all have at least recognized what you are, unlike the rodent you are currently holding. To him, you may as well be from mars.
-&gt;&quot;So pip squeak, any reason why you&#039;re here?&quot; You ask, curious to see if this rat has any relation to the appearance of those creatures.
-&gt;&quot;J-Just trying to get a little lucky man. Ain&#039;t no strange outside this town. Only ladies and pussy whipped wimps live here. Just trying to show my lady friend in there what a really man is l-&quot;
-&gt;You don&#039;t even let him finish his sentence before you send your fist into his guts, soliciting a cry from the rapist rodent. 
-&gt;&quot;Those creatures, the ones with the feathers. Are those your doing?&quot; 
-&gt;&quot;Not me man! I don&#039;t deal with those creepers! They weren&#039;t my idea. They&#039;re just a decoy man!&quot;
-&gt;&quot;A decoy for what? To kill people while you  run off and rape?&quot; 
-&gt;He starts to protest your continued referral to what he was doing as rape, but you&#039;re in no mood to argue, he seems to be able to read this on your features, and gives you what you want. 
-&gt;&quot;We bought the Sqwackers from some traders down in Deep City, they didn&#039;t ask questions and neither did I. Boss wanted to use them to overwhelm the Matriarchs while we rolled in afterwards. Wanted us to grab as many kids as we could, then haul ass out. The others are probably already done by now.&quot;
-&gt;He finishes with a sigh, the realization that he is all alone in enemy territory soon dawning on him, you can&#039;t say you feel very sympathetic for him. 
-&gt;&quot;We done here?&quot;
-&gt;&quot;Almost, where are they taking the children? And which exit are they taking?&quot;
-&gt;&quot;Out of Underfoot, then taking the tunnel up to the surface, it&#039;s in the caves past the Northern exit. Crazy bastards, they&#039;ll be lucky to come back down alive, but nobody will follow them up there&quot; He looks to you, as if waiting for his words to unlock something in you that will make you let him go. 
-&gt;&quot;Don&#039;t be so sure.&quot; You reply
-&gt;You aren&#039;t enthusiastic about heading back up to the world above, but like hell you were going to let some thieving rats run off with a bunch of kids to do god only knows what. You only hoped you and Sally could get them back before they got up there.
-&gt;&quot;Your funeral pal&quot; He replies dismissively.
-&gt;&quot;One last question: Your name?&quot;
-&gt;&quot;My name?&quot;
-&gt;&quot;Your name, so if I ever hear it mentioned here again, I can find you, and I will.&quot;
-&gt;Your threat seems to remind your captured subject of the position he is currently in. A audible gulp and stutter are all you need to know it made a decent impression.
-&gt;&quot;B-Billy! The pricks in the gang call me &#039;Beautiful Billy&#039;.&quot; He stammers out.
-&gt;&quot;Well then Billy, let me put it this way...&quot; 
-&gt;You lean in close, his breath is rather rancid, but in the heat of the moment you don&#039;t notice it. His eyes are wide, frantic with worry and concern.
-&gt;&quot;Unless you want them to call you &#039;Billy the Ball-less&#039;, never come back here again. Understand?&quot;
-&gt;&quot;Y-Yeah!&quot;
-&gt;&quot;Good, sweet dreams&quot; 
-&gt;Before he can remark on your choice of words, you spin him around and squeeze hard. Your forearm looping tightly around his neck, his protests becoming nothing but light gasps as you throttle him.
-&gt;You could simply have killed him, at any point you could have done so. Unlike the creatures from before, he is an actual person. You&#039;ve never enjoyed killing others, and now is no exception. 
-&gt;Before long, the struggle is over, the fury of kicking and wiggling soon  dies down and the rat limply hangs from your chest. You check to make sure his heart is still beating, hoping that you didn&#039;t break his neck. Not that you would&#039;ve lost much sleep over it.
-&gt;After confirming that the subject of your interrogation was still alive, you move back to the house to confirm the same of his victim. 
-&gt;The girl has not moved from her spot on the floor. Knees to her chest, as though she may squeeze herself into a small enough ball that she may disappear. She keeps muttering something to herself in a language you do not understand.
-&gt;You&#039;re not exactly sure how to help her, you move into the house through the door. When you come into the kitchen, she does not react. 
-&gt;You slowly take off your jacket, which gets a fearful look from the small naked bundle of fear sitting on the kitchen floor.
-&gt;As slowly and as gently as you can, you drape your jacket over her. Your jacket was a little big for you, so it covers the girl like a blanket.
-&gt;Her expression softens lightly before she returns to staring off into space, her eyes are wet and empty. 
-&gt;You want to say something that may wash away anything she may have gone through, but your breathe is empty and quiet. 
-&gt;Perhaps the best thing you can say is nothing at all. 
-&gt;You leave the home and throw Billy over your good shoulder, you can only hope that Sally is doing alright on her own as you make your way back to the main street. A quick look at some makeshift street signs points you in the right direction.
-
-&gt;As you make your way to the northern gate, you notice a few of Billy&#039;s comrades in arms lay dead in the street. Bodies lay in awkward mounds, lifeless and still where they fell. 
-&gt;Around them, is a growing pool of pulmonary crimson. 
-&gt;You decide not to waste any more time and work yourself into as much of a sprint as your body will allow, given it&#039;s torn and worn state.
-&gt;As luck would have it, you do not need to travel very far, and soon the northern gate comes into view.
-&gt;You begin to wish it hadn&#039;t. 
-&gt;Your mind seems to slow as you take it in, your eyes speak but your brain seems to adamantly refuse to listen. You just can&#039;t seem to comprehend it, as though the world before you is some form of abstraction. 
-
-&gt;Blood.
-&gt;God, so much blood.
-
-&gt;The entrance to Underfoot is adorned with a sickening decoration of bodies, as though it was Christmas in hell. 
-&gt;Children, women, men, all strewn about with a careless and cruel disregard. A carpet of dead families.
-&gt;Sinew, muscle, bone, all are present in the disturbing display of cruelty. 
-&gt;The wrought iron gates and guard platforms are untouched, the gates wide open.
-&gt;Grey and brown, black, pink, all the colors of rat kind, lay in piles around the gate. 
-&gt;But it is not just the presence of indiscriminate murder that turns your stomach inside out with revulsion. It&#039;s not the dead children, staring up into the ceiling with empty doll-like eyes.
-&gt;It&#039;s not the mothers, covering over their children like safety blankets, comforting their children and protecting them to the very last.
-&gt;It&#039;s not the men, splattered and strewn about in miscellaneous &#039;pieces&#039;.
-&gt;It&#039;s what sits in the middle.
-&gt;Standing like a beacon, a pillar of white.
-&gt;A blinding untainted light among the bleak darkness of death.
-&gt;It is unnatural, even the landscape around it feels more &#039;natural&#039; in a sick way.
-
-&gt;Standing in the middle of the bodies, it turns to you, it&#039;s eyes focusing on your expression of sheer disbelief.
-&gt;It&#039;s arms open like a mother to greet it&#039;s child, like a parent to hug it&#039;s child. 
-&gt;Warm, open, loving...
-&gt;Yet it feels so wrong.
-
-&gt;Standing among the murdered residents of Underfoot, looking at you with the expression of a welcoming parent....Is a human.
-&gt;&quot;Come home.&quot;</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    14 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    15 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    19 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    25 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

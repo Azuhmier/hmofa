@@ -1,780 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Paranoid - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Paranoid - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/RJhXVmHg" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/RJhXVmHg" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="7f81nz6o2IabeSiH-49YvyJSLwi_ErNxBYbA_MAPULGdjEXyV8ypyK8UXvO8wjPeQ2d5ScxD_yVn7bKuj34n1A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?72ffac36635b50eea7c0" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-        
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-                        <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-                        <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-                        
-                                    
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    
-    <div class="details">
-                    <div class="share h_800">
-                <div data-url="https://pastebin.com/RJhXVmHg" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-                <div data-url="https://pastebin.com/RJhXVmHg" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-            </div>
-                <div class="user-icon">
-                            <img src="/cache/img/21/14/9/3046293.jpg" alt="Mister_Smisser">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Paranoid</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Mister_Smisser">Mister_Smisser</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Mister_Smisser" class="message" title="Send a private message to: Mister_Smisser"></a>
-                                    
-                <div class="date">
-                    <span title="Sunday 17th of September 2017 11:43:52 PM CDT">Sep 17th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    3,462                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 38.60 KB            </div>
-
-            <div class="right">
-                                    <a href="/raw/RJhXVmHg" class="btn -small">raw</a>
-                    <a href="/dl/RJhXVmHg" class="btn -small">download</a>
-                    <a href="/clone/RJhXVmHg" class="btn -small h_800">clone</a>
-                    <a href="/embed/RJhXVmHg" class="btn -small h_800">embed</a>
-                    <a href="/print/RJhXVmHg" class="btn -small h_800">print</a>
-                
-                                    <a href="/report/RJhXVmHg" class="btn -small">report</a>
-                
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;Your name is Anon.</div></li><li class="li1"><div class="de1">&gt;And you were huddled in the corner of your bedroom with a shotgun pointed at the door.</div></li><li class="li1"><div class="de1">&gt;You hadn’t slept in three days, maybe four.</div></li><li class="li1"><div class="de1">&gt;Ever since you installed that fucking app on your phone you had been in a constant state of paranoia.</div></li><li class="li1"><div class="de1">&gt;You thought it was just going to be like a Tamagotchi clone, something you’d play with for maybe five minutes and then forget about.</div></li><li class="li1"><div class="de1">&gt;Instead you’d been forced to go full on Kevin McCallister on your small cabin because of the thing that came out of it and started hunting you.</div></li><li class="li1"><div class="de1">&gt;Speaking of which, you heard several bells ring right outside your door.</div></li><li class="li1"><div class="de1">&gt;You tightened your grip on the shotgun and slowly stood up.</div></li><li class="li1"><div class="de1">&gt;There was a moment of silence, as you waited for the creature to make a move.</div></li><li class="li1"><div class="de1">&gt;Then there was a scratch at the door, long and drawn out as it went from top to bottom.</div></li><li class="li1"><div class="de1">&gt;The thought of it playing with you only heightened your nerves.</div></li><li class="li1"><div class="de1">&gt;You moved forward around your bed until you were aiming straight at the door.</div></li><li class="li1"><div class="de1">&gt;Slowly, the doorknob began to turn.</div></li><li class="li1"><div class="de1">&gt;You pulled the trigger; buckshot plowed through the door and into the creature.</div></li><li class="li1"><div class="de1">&gt;It howled in pain and you heard it slam against the wall outside.</div></li><li class="li1"><div class="de1">&gt;You pulled back on the pump and let loose another wall of buckshot.</div></li><li class="li1"><div class="de1">&gt;Another loud screech as you heard the creature scramble to get back up.</div></li><li class="li1"><div class="de1">&gt;You rushed forward and slammed open the remains of your door.</div></li><li class="li1"><div class="de1">&gt;Already the creature had hurried down the hallway as you see its leg pull around the corner.</div></li><li class="li1"><div class="de1">&gt;You sprinted to follow it, but before you turned the corner you heard a loud crash.</div></li><li class="li1"><div class="de1">&gt;What awaited you around the corner was a broken window and the biting cold from the wind.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Will that be all?”</div></li><li class="li1"><div class="de1">&gt;The cashier asked as you move forward in the line.</div></li><li class="li1"><div class="de1">&gt;After last night&#039;s encounter you decided to stock up on some supplies at the closest store in Seward.</div></li><li class="li1"><div class="de1">&gt;You nodded, pulling out your wallet.</div></li><li class="li1"><div class="de1">&gt;As you reached in you felt your phone vibrate.</div></li><li class="li1"><div class="de1">&gt;You didn’t bother to check it.</div></li><li class="li1"><div class="de1">&gt;Out of the corner of your eye you saw the creature peeking out at you from one of the aisles.</div></li><li class="li1"><div class="de1">&gt;Even though it had only been 3-4 days with it stalking you, you had already figured out some of its habits.</div></li><li class="li1"><div class="de1">&gt;While you could see it, no one else could.</div></li><li class="li1"><div class="de1">&gt;It also made no interactions with you other than watch until nightfall.</div></li><li class="li1"><div class="de1">&gt;In the day it seemed content to merely stalk you.</div></li><li class="li1"><div class="de1">&gt;You handed over the money and gathered your bags.</div></li><li class="li1"><div class="de1">&gt;The creature never seemed to actually move in the day either, it simply appeared off in the distance.</div></li><li class="li1"><div class="de1">&gt;If you came close, it’d teleport farther away, where the only detail you could make out was its grotesque face.</div></li><li class="li1"><div class="de1">&gt;Attempts at photographing or recording it were useless, the camera would either shut off or completely break if you did.</div></li><li class="li1"><div class="de1">&gt;Your phone vibrated again.</div></li><li class="li1"><div class="de1">&gt;It’d also text you if it moved.</div></li><li class="li1"><div class="de1">&gt;You unlocked your phone and looked at the newest picture.</div></li><li class="li1"><div class="de1">&gt;There it was, standing right behind the cashier with only its head poking out from the side.</div></li><li class="li1"><div class="de1">&gt;You always felt a cold chill whenever you looked at the creature’s face, so you didn’t stare at the photo any longer than you had to.</div></li><li class="li1"><div class="de1">You loaded the back of the LandRover with your bags and hopped into the front.</div></li><li class="li1"><div class="de1">&gt;The clock on your stereo read 4:23 pm. </div></li><li class="li1"><div class="de1">&gt;By the time you’d get home, it’d be nearly 6:00, as long as the roads aren’t too bad.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You knew thinking that would bite you in the ass.</div></li><li class="li1"><div class="de1">&gt;About an hour into driving the weather turned from light snow to a full-on blizzard.</div></li><li class="li1"><div class="de1">&gt;Your car radio had warned you to seek shelter about 15 minutes after it had started.</div></li><li class="li1"><div class="de1">&gt;You briefly contemplated turning back to Seward, but if you did by the time you’d arrive everyone would have already locked up for the storm.</div></li><li class="li1"><div class="de1">&gt;You continued down the road, listening to the radio signal fade in and out as you drive.</div></li><li class="li1"><div class="de1">&gt;About 30 minutes away you received a text.</div></li><li class="li1"><div class="de1">&gt;You ignored it, the only thing that could come out of checking your phone was crashing into something and dying to hypothermia.</div></li><li class="li1"><div class="de1">&gt;10 minutes later you got another text.</div></li><li class="li1"><div class="de1">&gt;The urge to check your phone grew, but you continued focusing on the road.</div></li><li class="li1"><div class="de1">&gt;5 minutes and another text.</div></li><li class="li1"><div class="de1">&gt;The creature had never texted you this rapidly before, and you slowly reached for your phone.</div></li><li class="li1"><div class="de1">&gt;Upon grasping the phone it erupted into a non-stop stream of vibrations and text notifications.</div></li><li class="li1"><div class="de1">&gt;You unlocked the phone and went straight to messages.</div></li><li class="li1"><div class="de1">&gt;The texts kept pouring in, all of the same single image.</div></li><li class="li1"><div class="de1">&gt;It was the creature.</div></li><li class="li1"><div class="de1">&gt;Sitting in the back of your car.</div></li><li class="li1"><div class="de1">&gt;The cold chill rolled down your back again.</div></li><li class="li1"><div class="de1">&gt;You whipped around just as the creature lunged forward, clawing at your face.</div></li><li class="li1"><div class="de1">&gt;You attempted to get ahold of its head, but your hand slipped and instead you tried to reach for the pistol in your glove compartment.</div></li><li class="li1"><div class="de1">&gt;Your struggle with the creature was brief, you were trapped in your seat by both your seatbelt and the powerful claws around your throat.</div></li><li class="li1"><div class="de1">&gt;The creature forced your head to turn, and you stared face-to-face with it.</div></li><li class="li1"><div class="de1">&gt;All you could focus on is the creature’s smooth canine skull and bleached eyes before you saw it look forward and growl.</div></li><li class="li1"><div class="de1">&gt;Before you could turn around there was a loud screech of car brakes and the world went black.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You slowly began to stir again.</div></li><li class="li1"><div class="de1">&gt;Your attempt to gain your bearings was made harder when you realized you were hanging upside down from your turned over car.</div></li><li class="li1"><div class="de1">&gt;You reached over and unclasped your seatbelt, promptly losing your secure restraints and sending you falling to the ground.</div></li><li class="li1"><div class="de1">&gt;Which just so happened to be covered in broken glass from your windshield.</div></li><li class="li1"><div class="de1">&gt;You grunted in pain as you land hard onto the ground, and groaned as you rolled back over.</div></li><li class="li1"><div class="de1">&gt;Your windshield was cracked and shattered, but it doesn’t seem like you can safely crawl through it without cutting yourself on the shards.</div></li><li class="li1"><div class="de1">&gt;It’s only when you see the passenger window busted open do you remember what happened.</div></li><li class="li1"><div class="de1">&gt;The creature must have crawled out that way.</div></li><li class="li1"><div class="de1">&gt;Before you yourself crawled out, you nabbed the pistol and scrounged around for the shotgun you kept in the back.</div></li><li class="li1"><div class="de1">&gt;It was still mounted down, but the wooden stock had completely broken off. The rest of it seemed not too dinged up.</div></li><li class="li1"><div class="de1">&gt;You picked up your emergency flashlight from the back, along with a handful of shotgun shells you had just bought.</div></li><li class="li1"><div class="de1">&gt;It was getting hard to ignore the bitter winter storm surrounding you.</div></li><li class="li1"><div class="de1">&gt;You went on your hands and knees to crawl through the open window, dragging your shotgun along behind you.</div></li><li class="li1"><div class="de1">&gt;As you scrambled out, your right-hand landed on a vibrating object.</div></li><li class="li1"><div class="de1">&gt;You picked it up and shook off the snow covering it.</div></li><li class="li1"><div class="de1">&gt;It’s your phone, and it greeted you with an image of pure white.</div></li><li class="li1"><div class="de1">&gt;You looked a bit harder and realized you could faintly make out the shape of the creature’s face hidden in a wall of snow.</div></li><li class="li1"><div class="de1">&gt;It was still out there.</div></li><li class="li1"><div class="de1">&gt;You were able to stand, and you quickly realized just how much everything hurt.</div></li><li class="li1"><div class="de1">&gt;Your left arm felt completely fucked, though you couldn’t see it clearly under the layers of clothing you had on.</div></li><li class="li1"><div class="de1">&gt;Your right side of your body felt just as bad, and your neck felt stiff.</div></li><li class="li1"><div class="de1">&gt;It was better than being dead though.</div></li><li class="li1"><div class="de1">&gt;Which was also a very likely possibility if you didn’t get up and get home.</div></li><li class="li1"><div class="de1">&gt;You walked back onto the road and looked for any clue to get your directions.</div></li><li class="li1"><div class="de1">&gt;You discovered the skid marks of another car, and not too far away from the car itself.</div></li><li class="li1"><div class="de1">&gt;It was an unmarked black SUV, not too different from your own.</div></li><li class="li1"><div class="de1">&gt;The only major difference was a white logo on the sides. </div></li><li class="li1"><div class="de1">&gt;It looked almost like a hazard symbol but almost inversed. </div></li><li class="li1"><div class="de1">&gt;But it definitely wasn&#039;t familiar.</div></li><li class="li1"><div class="de1">&gt;All the doors to the car were closed, and the windows were tinted so dark it was almost impossible to see inside.</div></li><li class="li1"><div class="de1">&gt;You attempted to bash the window open with the back of your flashlight, but the window took the impacts in stride.</div></li><li class="li1"><div class="de1">&gt;You could barely make out a couple of silhouettes in the driver and passenger seats.</div></li><li class="li1"><div class="de1">&gt;They didn&#039;t seem to be wearing normal clothes, almost seemed like they had military gear on, but they weren’t moving and didn’t seem to be breathing.</div></li><li class="li1"><div class="de1">&gt;You ignored that last part; you hoped you weren’t responsible for two deaths but right now you needed to focus on yourself.</div></li><li class="li1"><div class="de1">&gt;The only way you were going to survive was if you followed the road until you reached the cabin again.</div></li><li class="li1"><div class="de1">&gt;“It shouldn’t be too far.” You said to yourself to calm down, but the howling winds and the vibrations from your phone didn’t help.</div></li><li class="li1"><div class="de1">&gt;In your house you may have had an advantage, but outside and in this weather, the creature could be almost anywhere.</div></li><li class="li1"><div class="de1">&gt;And if that wasn’t enough, you bet the storm was just as bloodthirsty.</div></li><li class="li1"><div class="de1">&gt;You trudged forward, on the lookout for any movement.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You were lost.</div></li><li class="li1"><div class="de1">&gt;There was no way to tell how long or far you had walked, your only guide had been the road.</div></li><li class="li1"><div class="de1">&gt;And now even that had been lost to blinding white all around you.</div></li><li class="li1"><div class="de1">&gt;The phone had ceased vibrating ever since you left the car, leaving you without a hint of the creature’s whereabouts.</div></li><li class="li1"><div class="de1">&gt;The darkness of night mixed in with the already blinding blizzard meant that as long as it avoided your small beam of light the creature was unnoticeable.</div></li><li class="li1"><div class="de1">&gt;Your shivering had dramatically increased, and you could sense that without shelter soon you wouldn’t last outside.</div></li><li class="li1"><div class="de1">&gt;To think that only five days ago your biggest worries was what porn folder you needed to delete to get some space on your PC.</div></li><li class="li1"><div class="de1">&gt;And now you were fighting for your life against a monster and nature itself.</div></li><li class="li1"><div class="de1">&gt;”All because I was too cheap to pay 99 cents and instead went for some free-ware, chink-shit-”</div></li><li class="li1"><div class="de1">&gt;The more you thought about it, and the colder you felt, the angrier you got.</div></li><li class="li1"><div class="de1">&gt;”Fuck this state. Fuck this weather. Fuck this phone. Fuck that app. Fuck you!” You screamed out.</div></li><li class="li1"><div class="de1">&gt;”Come on already.”</div></li><li class="li1"><div class="de1">&gt;The only response was the howl of the wind.</div></li><li class="li1"><div class="de1">&gt;“I said come on! Let’s fucking do this!” You screamed again, grabbing at your phone.</div></li><li class="li1"><div class="de1">&gt;Instead of your normal lock screen, what came up was an image of a lone person facing away from the camera surrounded by snow.</div></li><li class="li1"><div class="de1">&gt;Behind you came a piercing screech.</div></li><li class="li1"><div class="de1">&gt;You turned as quick as you could and fired. </div></li><li class="li1"><div class="de1">&gt;It was a huge miss, the buckshot sailing harmlessly far left of the creature and allowing it to finish its charge straight into you.</div></li><li class="li1"><div class="de1">&gt;You clung to the creature as the two of you tumbled through the snow and down a hill hidden by the storm.</div></li><li class="li1"><div class="de1">&gt;You came to a stop at the bottom of the snowdrift, but before you could stand the creature had already straddled you.</div></li><li class="li1"><div class="de1">&gt;The darkness made it hard to see, but you swung out and hit the creature in the face, gritting your teeth at the pain as instead of soft flesh it hit solid bone.</div></li><li class="li1"><div class="de1">&gt;It seemed unfazed and swiped directly at your chest, tearing away at your jacket and making small cuts on your chest</div></li><li class="li1"><div class="de1">&gt;Blow by blow you kept trying to fight off the beast, but you were quickly out of energy to continue fighting, weakened by the crash and the cold.</div></li><li class="li1"><div class="de1">&gt;You grimaced as you felt the blood flowing from your chest and arms, and your vision began to fade.</div></li><li class="li1"><div class="de1">&gt;The creature seemed to notice you had ceased resisting, it stopped cutting at your clothing and instead leaned in closer.</div></li><li class="li1"><div class="de1">&gt;Its bleached-bone head studied you, moving your head around to inspect you.</div></li><li class="li1"><div class="de1">&gt;Its claws lightly pricked your cheek as it observed you.</div></li><li class="li1"><div class="de1">&gt;It seemed almost curious as it noticed the differences between the two of you, at one point touching your nose and then moving to touch where a nose should be on its own face.</div></li><li class="li1"><div class="de1">&gt;Your heart pounded faster as its teeth neared your throat, but it only continued its descent from your head, eventually stopping at your fresh wounds. </div></li><li class="li1"><div class="de1">&gt;It sniffed at them a couple of times before you watched in horror as a blue tongue lolled from its mouth.</div></li><li class="li1"><div class="de1">&gt;You first felt its warm breath on your skin, the air burning hot in contrast to the freezing snow.</div></li><li class="li1"><div class="de1">&gt;Then you felt its tongue slither across your exposed cuts, swiping at the blood and leaving a trail of sticky saliva in its wake.</div></li><li class="li1"><div class="de1">&gt;Within seconds, the pain from your wounds disappeared, and instead, warmth seemed to spread throughout your body.</div></li><li class="li1"><div class="de1">&gt;Your teeth ceased chattering and your body stopped shivering, the cold melted away into a wave of heat.</div></li><li class="li1"><div class="de1">&gt;You lazily laid your head back against the ground.</div></li><li class="li1"><div class="de1">&gt;Instead of the familiar crunch of snow, you heard nothing at all.</div></li><li class="li1"><div class="de1">&gt;Surprised, you turned your head to look at the ground.</div></li><li class="li1"><div class="de1">&gt;Instead of snow, the ground had changed into soft, fine sand.</div></li><li class="li1"><div class="de1">&gt;You moved your arm and grabbed a handful of the sand, then smiled as it trickled from your hand.</div></li><li class="li1"><div class="de1">&gt;Looking back up, the blinding white blizzard had completely disappeared.</div></li><li class="li1"><div class="de1">&gt;Instead, a clear blue sky stared down at you.</div></li><li class="li1"><div class="de1">&gt;The sound of the ocean greeted your ears; the quiet call of seagulls in the air.</div></li><li class="li1"><div class="de1">&gt;As you gazed around, you realized something was softly stroking your head.</div></li><li class="li1"><div class="de1">&gt;Holding your head in her lap was one of the most beautiful women you had ever laid your eyes on.</div></li><li class="li1"><div class="de1">&gt;She was looking outward towards the ocean; her long midnight-black hair flowed over her shoulders.</div></li><li class="li1"><div class="de1">&gt;She was wearing a long black gown, contrasting with her snow-white face.</div></li><li class="li1"><div class="de1">&gt;Her eyes were closed, she seemed content just sitting there, stroking your head.</div></li><li class="li1"><div class="de1">&gt;You felt as if you could lie there forever, and you closed your eyes as well.</div></li><li class="li1"><div class="de1">&gt;Slowly, the sound of the seagulls disappeared, and a buzzing noise invaded your head.</div></li><li class="li1"><div class="de1">&gt;You moved your hands to your ears as if to block out the noise, but it only got louder.</div></li><li class="li1"><div class="de1">&gt;Your eyes opened again, and you looked up at the woman now staring directly at your face, and a chill crawled up your spine.</div></li><li class="li1"><div class="de1">&gt;Her eyes were completely blank: no pupils, no blood vessels, just pools of white gazing back.</div></li><li class="li1"><div class="de1">&gt;The buzzing grew louder, and you became aware of the faint smell of ozone and electricity.</div></li><li class="li1"><div class="de1">&gt;The sky darkened, the sounds of the blizzard roared and the warm sand on your back changed back into bitter ice and snow.</div></li><li class="li1"><div class="de1">&gt;You looked back at your chest, blood still oozing out of the cuts, then back at the woman.</div></li><li class="li1"><div class="de1">&gt;Instead, you were greeted by the face of the creature, clutching your head in its claws.</div></li><li class="li1"><div class="de1">&gt;A claw from its other hand gingerly stroked your cheek, before it let your head down and stood up.</div></li><li class="li1"><div class="de1">&gt;Before you passed out, you felt the creature start to drag you through the snow.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When you woke up, the first thing you realized is that you weren’t cold anymore</div></li><li class="li1"><div class="de1">&gt;Well, you were always cold here, but you were no longer life-threatening cold.</div></li><li class="li1"><div class="de1">&gt;The second thing was that you were inside somewhere that was pitch black.</div></li><li class="li1"><div class="de1">&gt;You couldn’t hear the wind anymore, so you had no idea how long you were out for.</div></li><li class="li1"><div class="de1">&gt;As you sat up, you realized the pain in your chest had mostly disappeared.</div></li><li class="li1"><div class="de1">&gt;You would have liked to see the wounds, but right now you needed to find some light.</div></li><li class="li1"><div class="de1">&gt;As if on cue, something began to vibrate against the floor.</div></li><li class="li1"><div class="de1">&gt;It was your phone, it had to be.</div></li><li class="li1"><div class="de1">&gt;You got on your hands and knees and felt around the floor for it.</div></li><li class="li1"><div class="de1">&gt;You felt like Velma from Scooby Doo and were half expecting something to grab the phone and give it to you, only for you to realize that someone was the creature.</div></li><li class="li1"><div class="de1">&gt;Thankfully your hand found the phone before you had to have another heart to heart with the thing.</div></li><li class="li1"><div class="de1">&gt;On the phone was, of course, another text from the creature, but instead of a photo, it was an actual message.</div></li><li class="li1"><div class="de1">“Awake.”</div></li><li class="li1"><div class="de1">&gt;The creature never gave off anything implying it could communicate.</div></li><li class="li1"><div class="de1">&gt;Then again before a week ago you didn’t think there was a creature that could travel around through phone apps.</div></li><li class="li1"><div class="de1">&gt;”Question or Demand?”</div></li><li class="li1"><div class="de1">&gt;You sent back, then turned on the phone’s flashlight and started looking around.</div></li><li class="li1"><div class="de1">&gt;It looked like you were in some sort of warehouse.</div></li><li class="li1"><div class="de1">&gt;Pallets and giant shelves surrounded you, along with boxes piled up high.</div></li><li class="li1"><div class="de1">&gt;Your flashlight didn’t even reach the ceiling of the place.</div></li><li class="li1"><div class="de1">&gt;This was either the biggest Costco ever made or was something military.</div></li><li class="li1"><div class="de1">&gt;You noticed a couple of smaller boxes nearby and walked over to examine them.</div></li><li class="li1"><div class="de1">&gt;They were green and wooden; printed on the box in faded black lettering was, “USA 30 GRENADE HAND FRAG USA.”</div></li><li class="li1"><div class="de1">&gt;Still could be Costco.</div></li><li class="li1"><div class="de1">&gt;You debated taking a peek inside, but it seemed to be locked shut, and without a crowbar, you weren’t planning on smashing the thing open less thirty grenades decided it was time to blow.</div></li><li class="li1"><div class="de1">&gt;A notification popped down on the phone signaling four texts, sent quickly one after the other.</div></li><li class="li1"><div class="de1">“Remain there.”</div></li><li class="li1"><div class="de1">“I hunt.”</div></li><li class="li1"><div class="de1">“Returning Soon.”</div></li><li class="li1"><div class="de1">“You can&#039;t leave.”</div></li><li class="li1"><div class="de1">&gt;Fuck that.</div></li><li class="li1"><div class="de1">&gt;You turned the light on yourself and looked at your chest.</div></li><li class="li1"><div class="de1">&gt;The wounds were gone and replaced with fresh scars.</div></li><li class="li1"><div class="de1">&gt;You knew there was no way they should have healed already, but you weren&#039;t looking a gift horse in the mouth.</div></li><li class="li1"><div class="de1">&gt;You felt around your jacket to see if you still had your pistol on hand.</div></li><li class="li1"><div class="de1">&gt;You pulled out your Glock 40 in 10mm and ejected the magazine.</div></li><li class="li1"><div class="de1">&gt;5 shots, counting the 1 already chambered.</div></li><li class="li1"><div class="de1">&gt;You had no idea what 10mm could do that a point-blank shotgun blast hadn’t been able to, but it was better than nothing.</div></li><li class="li1"><div class="de1">&gt;You started thinking to yourself how to get out of this situation.</div></li><li class="li1"><div class="de1">&gt;Your best bet would have been to find the exit and run, but hell if you knew where you were at.</div></li><li class="li1"><div class="de1">&gt;Plus even if you left the creature would have been one teleport away from being right on your ass again.</div></li><li class="li1"><div class="de1">&gt;Still, had to try.</div></li><li class="li1"><div class="de1">&gt;You walked through the warehouse aisles aimlessly, hoping to find any indication of an exit.</div></li><li class="li1"><div class="de1">&gt;Eventually you managed to hit a wall and started moving around the outer rim of the warehouse.</div></li><li class="li1"><div class="de1">&gt;After 20 minutes, you managed to find a door, for some reason chained up and locked.</div></li><li class="li1"><div class="de1">&gt;You pulled out your pistol and aimed at the lock.</div></li><li class="li1"><div class="de1">&gt;It took 2 shots to pop the thing off, but when you did the chains surrounding the door fell to the ground with a loud clank of metal on concrete</div></li><li class="li1"><div class="de1">&gt;You put your ear to the door first and listened for any movement on the other side.</div></li><li class="li1"><div class="de1">&gt;A slight humming noise but it sounded more mechanical or electric than something alive.</div></li><li class="li1"><div class="de1">&gt;You turned the knob and slowly opened the door.</div></li><li class="li1"><div class="de1">&gt;The room was lit, not by any light bulbs or lamps, but by a huge collection of electronic devices, all connected to one another through wires and all rapidly displaying lines and lines of numbers.</div></li><li class="li1"><div class="de1">&gt;You stepped into the room and heard a crunch under your foot.</div></li><li class="li1"><div class="de1">&gt;You lifted your foot and saw a flip-phone, broken in half.</div></li><li class="li1"><div class="de1">&gt;The floor was covered in broken devices, some still together, others lying haphazardly in pieces.</div></li><li class="li1"><div class="de1">&gt;The room reeked of the same smell you experienced when your dream broke back in the snow; electricity.</div></li><li class="li1"><div class="de1">&gt;Stepping closer towards the back of the room, you saw a stack of computer monitors and towers lying on top of one another.</div></li><li class="li1"><div class="de1">&gt;You tried to read what was on the screens, but it was moving too fast to decipher.</div></li><li class="li1"><div class="de1">&gt;You lost patience with the computers and took a step back to look around again.</div></li><li class="li1"><div class="de1">&gt;That’s when you noticed a button hiding behind the almost vine-like collection of wires and mobile devices.</div></li><li class="li1"><div class="de1">&gt;The button itself had been pulled out, a couple wires dangling outward, but it was the symbol next to it that captured your attention; An arrow pointing upwards</div></li><li class="li1"><div class="de1">&gt;It was an elevator button.</div></li><li class="li1"><div class="de1">&gt;You started combing the walls for the hidden doors; pulling down the vines.</div></li><li class="li1"><div class="de1">&gt;You quickly saw the closed doors peeking out, and tore down the wires even faster.</div></li><li class="li1"><div class="de1">&gt;Finally the elevator doors were exposed with the wires pooling down at your feet.</div></li><li class="li1"><div class="de1">&gt;You tried to pry open the doors with your hands but they wouldn’t budge.</div></li><li class="li1"><div class="de1">&gt;Part in frustration, part in anger, you slammed your fist against the doors, then instantly regretted it as you clutched it in pain.</div></li><li class="li1"><div class="de1">&gt;You took a deep breath and tried to calm yourself.</div></li><li class="li1"><div class="de1">&gt;The lack of any windows or a button to go down signaled you were on the bottom floor of the building, possibly underground.</div></li><li class="li1"><div class="de1">&gt;You couldn’t open the doors with your bare hands, but a crowbar might do the job, and how hard could it be to find one in a warehouse?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You just started to leave and begin your search, when your phone got a message.</div></li><li class="li1"><div class="de1">&gt;You ignored it, closing your eyes in anticipation of something awful about to happen.</div></li><li class="li1"><div class="de1">&gt;A few seconds later you opened your eyes again and breathed a sigh of relief that nothing horrible was staring back at you.</div></li><li class="li1"><div class="de1">&gt;It was at that moment you started to notice the brightness of your phone’s flashlight was increasing.</div></li><li class="li1"><div class="de1">&gt;You unlocked your phone and tried to mess with the flashlight settings, but it did nothing.</div></li><li class="li1"><div class="de1">&gt;You watched as your phone’s battery percentage started to trickle down faster than it should as it inversely began to heat itself to burning temperatures</div></li><li class="li1"><div class="de1">&gt;You dropped the phone in pain and it landed camera side up, shining the incredibly bright light into your eyes.</div></li><li class="li1"><div class="de1">&gt;You shielded your eyes from it, then you heard a loud pop, and the light went away</div></li><li class="li1"><div class="de1">&gt;You picked up your phone and started to inspect it</div></li><li class="li1"><div class="de1">&gt;You’d managed a small crack in the screen in one of the corners, but it still seemed to be working at least.</div></li><li class="li1"><div class="de1">&gt;However nearly 30% of your phone’s battery just disappeared, and it seemed to have destroyed the camera light.</div></li><li class="li1"><div class="de1">&gt;You turned your phone back over when it started to vibrate in your hand again.</div></li><li class="li1"><div class="de1">&gt;It wasn’t a text message. This time, it was a phone call.</div></li><li class="li1"><div class="de1">&gt;Coming from the creature’s number.</div></li><li class="li1"><div class="de1">&gt;Before you could decline the call, your phone automatically answered it.</div></li><li class="li1"><div class="de1">“You can not leave.”</div></li><li class="li1"><div class="de1">&gt;The voice was deep and raspy, but definitely female.</div></li><li class="li1"><div class="de1">“I told you this.”</div></li><li class="li1"><div class="de1">&gt;The melody and pronunciation of the voice reminded you of a more natural sounding text-to-speech program, still with an awkward cadence to it.</div></li><li class="li1"><div class="de1">“You did not listen.”</div></li><li class="li1"><div class="de1">&gt;A text came in with a picture attached.</div></li><li class="li1"><div class="de1">&gt;It was the silhouette of the creature, standing in the doorway of the very room you were standing in.</div></li><li class="li1"><div class="de1">&gt;You slowly turned around as the blood drained from your face.</div></li><li class="li1"><div class="de1">&gt;Nothing was standing there.</div></li><li class="li1"><div class="de1">&gt;From behind, a light turned on and a small ‘ding’ echoed into the room.</div></li><li class="li1"><div class="de1">&gt;It was the elevator light.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The doors opened, and standing in the middle of the elevator was the creature, brightly lit by the elevator lights.</div></li><li class="li1"><div class="de1">&gt;Before you could take a good look, the elevator light exploded, showering the creature in sparks before leaving it in darkness.</div></li><li class="li1"><div class="de1">&gt;Then it stepped out, the claws from its paws clicking as they tapped against the floor.</div></li><li class="li1"><div class="de1">&gt;You took a step back as it moved closer to you, holding your hands upward in a defensive gesture.</div></li><li class="li1"><div class="de1">&gt;”N-Now just hold on a second,” You said, slowly moving your right hand to reach for your gun. “I didn’t know you could talk before, so now let’s talk about this, alright?”</div></li><li class="li1"><div class="de1">&gt;The creature didn’t stop moving towards you, forcing you to keep backing up.</div></li><li class="li1"><div class="de1">“No.”</div></li><li class="li1"><div class="de1">&gt;You didn’t take notice that the voice was still coming from the phone and not the creature itself.</div></li><li class="li1"><div class="de1">&gt;The glowing light of the computers slightly illuminated the room and gave off enough light so you could make out the details of the monster in front of you.</div></li><li class="li1"><div class="de1">&gt;It was taller than you by several inches, putting it at around 6’3’’, and stood on two digitigrade legs.</div></li><li class="li1"><div class="de1">&gt;Her legs and thighs were composed of toned muscle with a layer of pitch black fur on top.</div></li><li class="li1"><div class="de1">&gt;Moving up, you notice her striking hips that swayed as she inches closer to you.</div></li><li class="li1"><div class="de1">&gt;Her midriff was just as toned as her legs, and just above hung two large breasts, uncovered by fur, revealing a gunmetal grey skin tone.</div></li><li class="li1"><div class="de1">&gt;Her grey skin stopped at her saucer-sized areola and nipples, instead of taking on the color of her fur and hair.</div></li><li class="li1"><div class="de1">&gt;Speaking of it, you looked at her jet black hair that completely obscured the majority of her head and neck, with the exception being her canine skull head and two dog-like ears perking up through it.</div></li><li class="li1"><div class="de1">&gt;Her shoulders showed off some of her skin before being covered up by more fur the further down the arm you went, ending at her hands.</div></li><li class="li1"><div class="de1">&gt;Her hands seemed oddly human-like, however, they lacked a thumb and instead of just normal fingernails, they ended in sharp, obsidian-colored claws.</div></li><li class="li1"><div class="de1">&gt;You felt something stirring down in your nether regions.</div></li><li class="li1"><div class="de1">&gt;You never thought fear boners were anything other than a meme but there you go.</div></li><li class="li1"><div class="de1">&gt;Your eyes grew wider in slight panic when you felt your back against the wall.</div></li><li class="li1"><div class="de1">&gt;Now or never.</div></li><li class="li1"><div class="de1">&gt;You moved to draw your gun out but the creature lunged forward before you could aim, pinning your right arm against the wall with one hand and the other going at your throat.</div></li><li class="li1"><div class="de1">&gt;Her hand squeezed around your throat, not hard enough to completely cut off air but enough to focus your attention.</div></li><li class="li1"><div class="de1">&gt;Your left arm instinctively tried to pull her arm from your neck, but her grip remained steadfast no matter how hard you struggled.</div></li><li class="li1"><div class="de1">&gt;When that failed you grabbed at her face, trying to push her off or claw at her exposed eyes, but you were only rewarded with a tighter grip around your throat.</div></li><li class="li1"><div class="de1">&gt;You tried to bat away her strangling hold on you, but it wasn’t long before your vision started to darken.</div></li><li class="li1"><div class="de1">&gt;Eventually all you could do with your free arm was weakly hang from hers.</div></li><li class="li1"><div class="de1">&gt;She loosened her grip, allowing you to regain some air into your lungs as you wheezed and coughed.</div></li><li class="li1"><div class="de1">&gt;Meanwhile you slowly tried to orient your other arm’s wrist to point the gun at her head.</div></li><li class="li1"><div class="de1"> &gt;Just as you thought you could make a shot, her hand flew up around your wrist and squeezed tightly.</div></li><li class="li1"><div class="de1">&gt;She leaned in closer to you, you could feel her breath against your ear.</div></li><li class="li1"><div class="de1">“Drop it.”</div></li><li class="li1"><div class="de1">&gt;The voice came from your phone on the ground, speaker-phone turned on without your doing.</div></li><li class="li1"><div class="de1">&gt;When you silently refused, she gave your wrist a nearly bone-crushingly tight squeeze.</div></li><li class="li1"><div class="de1">&gt;You were forced to drop the gun, sucking the air through your teeth and offering some cursory language under your breath.</div></li><li class="li1"><div class="de1">“Good boy.”</div></li><li class="li1"><div class="de1">&gt;Her other hand let go of your arm and moved to your face.</div></li><li class="li1"><div class="de1">&gt;She started stroking your cheek, just like she did in the storm.</div></li><li class="li1"><div class="de1">&quot;I like you.” </div></li><li class="li1"><div class="de1">&gt;She hummed to herself, seemingly not caring if you heard or not.</div></li><li class="li1"><div class="de1">&gt;She glided her hand from your throat to the center of your back, while her other hand moved to the backside of your thigh.</div></li><li class="li1"><div class="de1">&gt;In one quick movement, she hoisted you into an over-the-shoulder carry with your head over her shoulder, and moved into the elevator.</div></li><li class="li1"><div class="de1">&gt;You were still catching your breath from her nearly choking you out, so the most resistance you offered was a weak grasp onto the elevator’s doorframe before being gently tugged away</div></li><li class="li1"><div class="de1">&gt;The doors closed, leaving the two of you in total darkness and silence, aside from the low rumble of the elevator and both of you breathing heavily.</div></li><li class="li1"><div class="de1">&gt;Though while yours is ragged from air deprivation, hers seemed almost sensual.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When the doors opened, you again grabbed onto the elevator frame, only this time with far more strength after catching your breath</div></li><li class="li1"><div class="de1">&gt;She tried to tug you away gently before, but when that failed she dropped you to the ground, then picked you back up, reorienting you to be facing the same direction as her</div></li><li class="li1"><div class="de1">&gt;With her left arm she held both your wrists together, and with her right she placed over your back.</div></li><li class="li1"><div class="de1">&gt;Now you were restricted to kicking your legs to try and get out of her iron grip</div></li><li class="li1"><div class="de1">&gt;You stopped after a solid minute, it was obvious you weren’t getting out until she decided to let you go.</div></li><li class="li1"><div class="de1">&gt;As she lurched ahead, you looked over at your surroundings.</div></li><li class="li1"><div class="de1">&gt;It seemed the elevator had only taken you up to some metal walkways looking down at the warehouse area.</div></li><li class="li1"><div class="de1">&gt;Eventually she reached an observation room connected to the walkways, slid the door to the left, and carried you inside.</div></li><li class="li1"><div class="de1">&gt;She walked further into the room, then pushed you off her shoulder and onto the floor.</div></li><li class="li1"><div class="de1">&gt;Surprisingly, your landing was cushioned by something covering the ground.</div></li><li class="li1"><div class="de1">&gt;It was a bit hard to see in the darkness, but you saw her stare directly at you, give a sort of a loud snort, and pointed with a single claw at the ground.</div></li><li class="li1"><div class="de1">&gt;The message was clear; Stay.</div></li><li class="li1"><div class="de1">&gt;She went back to the door, slid it closed, and while you couldn’t see exactly what she did, you heard the groaning of metal being moved.</div></li><li class="li1"><div class="de1">&gt;Then she went over to what looked like a control panel, for what you had no idea, and placed a hand on it.</div></li><li class="li1"><div class="de1">&gt;Her eyes glowed a faint hue of blue, and the smell of electricity invaded the room.</div></li><li class="li1"><div class="de1">&gt;At once, shutters closed down on the windows overlooking the warehouse, and the room was lit by the same kind of light you had seen at the base of the elevator; mobile devices attached to the walls and ceiling flicked on, and shined the same blue color.</div></li><li class="li1"><div class="de1"> &gt;You saw the reason for why the floor seemed so soft; it was covered in a shredded mix of blankets, sleeping bags, clothing, and anything cloth.</div></li><li class="li1"><div class="de1">&gt;Then you saw she was staring at you.</div></li><li class="li1"><div class="de1">&gt;And then she was stalking towards you.</div></li><li class="li1"><div class="de1">&gt;”Y-You ain’t mad about the gun right?” You asked as you attempted to scoot away.</div></li><li class="li1"><div class="de1">&gt;She didn’t answer, instead descending to all fours and prowling forward.</div></li><li class="li1"><div class="de1">&gt;It didn’t take long before you’ve once again backed yourself into a wall with no way to escape.</div></li><li class="li1"><div class="de1">&gt;Deja Vu.</div></li><li class="li1"><div class="de1">“Where do you think you would go?” The voice sang out from every speaker in the room.</div></li><li class="li1"><div class="de1">&gt;Good question, maybe you’d be able to give an answer if she hadn’t crawled on top you and locked her arms around your neck.</div></li><li class="li1"><div class="de1">&gt;Your breath hitched in your throat as her face came within inches yours.</div></li><li class="li1"><div class="de1">&gt;She readjusted herself and she moved to straddle you, while your member began to strain against your pants as a new source of heat ground against it.</div></li><li class="li1"><div class="de1">&gt;She leaned in closer towards your neck, and inspected closely, eyes blinking that light blue hue.</div></li><li class="li1"><div class="de1">“The jugular is vital to survival.”</div></li><li class="li1"><div class="de1">&gt;The speakers stated in an almost curious tone before descended back down to a more sensual, husky voice.</div></li><li class="li1"><div class="de1">“Severing it leads to exsanguination.”</div></li><li class="li1"><div class="de1">&gt;After making her point, her head zoomed forward, jaws open and teeth shining.</div></li><li class="li1"><div class="de1">&gt;Instead of a vicious bite, she stopped just short, and only lightly dragged her teeth against your skin.</div></li><li class="li1"><div class="de1">“If severed, one descends into a sleep that cannot be woken up from.”</div></li><li class="li1"><div class="de1">&gt;At this she nipped your neck, and you involuntarily shuddered at the feeling.</div></li><li class="li1"><div class="de1">“I would not enjoy witnessing it.”</div></li><li class="li1"><div class="de1">&gt;It was an unsaid threat; compliance or resistance would be rewarded in their own respective ways.</div></li><li class="li1"><div class="de1">&gt;One arm draped from your neck to your chest, slowly unzipping your coat.</div></li><li class="li1"><div class="de1">&gt;Then her hands shifted under your sweater, and she began to feel up your chest.</div></li><li class="li1"><div class="de1">&gt;The warmth from her hands contrasted against the air, cold enough to see both of your breaths; somewhat comforting despite the situation.</div></li><li class="li1"><div class="de1">&gt;Though the creature’s action was definitely reducing the fear you had felt, you still hadn’t been sure what exactly she would do next.</div></li><li class="li1"><div class="de1">&gt;Then her hand shifted further downward until she groped your crotch.</div></li><li class="li1"><div class="de1">&gt;You shifted a bit as she kneaded your genitals through your pants; you released a small gasp at the contact.</div></li><li class="li1"><div class="de1">&gt;Her head turned up from your clothed member to stare back into your eyes, and she placed her hands on your shoulders.</div></li><li class="li1"><div class="de1">&gt;Then her jaws parted, and she leaned in closer until her mouth was pressed directly against your own mouth as her tongue slithered out.</div></li><li class="li1"><div class="de1">&gt;Her tongue gently prodded your lips, as if asking permission to enter.</div></li><li class="li1"><div class="de1">&gt;Perhaps it was the sheer strangeness of the situation, your mind still trying to catch up to the turn of events in which the monster that had just kidnapped you was now coming onto you, but you willingly parted your lips to allow her inside.</div></li><li class="li1"><div class="de1">&gt;She gave a low rumble of approval as her tongue slithered in, and quickly began to coil around your own.</div></li><li class="li1"><div class="de1">&gt;Your own tongue offered some resistance as the wrestle between your tongues began, but it was quickly overpowered by hers: both longer and agiler within your own mouth.</div></li><li class="li1"><div class="de1">&gt;You pulled away momentarily to catch your own breath, and swallow down some of the excess saliva, a trail of which had formed between your two mouths.</div></li><li class="li1"><div class="de1">&gt;After doing so, you realized a familiar warmth once again spread through your body, and you were reminded of how you felt after the creature had cleaned your wounds.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She pulled you away from the wall, laying you down flat on the makeshift bedding.</div></li><li class="li1"><div class="de1">&gt;The warmth this time had been different, it changed from the comforting warmth he had first experienced to sweltering heat.</div></li><li class="li1"><div class="de1">&gt;You winced in discomfort, as sweat began to form.</div></li><li class="li1"><div class="de1">&gt;The creature seemed to notice, though didn’t act surprised and began to strip you of your clothing, starting with your shirt before fiddling with your belt. </div></li><li class="li1"><div class="de1">&gt;In an effort to escape the heat, you moved your own hands to assist in removing it, and shifted your hips upwards as she pulled away from your pants and underwear.</div></li><li class="li1"><div class="de1">&gt;She moved her body back until she was at eye level and inches away from your semi-hard member; her hot breath on your dick caused an involuntary twitch.</div></li><li class="li1"><div class="de1">&gt;She grabbed your thighs, and once again her tongue lolled out of her mouth, this time lightly taking a lick at the tip of your cock.</div></li><li class="li1"><div class="de1">&gt;You involuntarily moan, and you hear her almost purr in response.</div></li><li class="li1"><div class="de1">&gt;Her tongue slid down the underside of your cock, and she began to give slow, long licks starting from the base and ending at the head.</div></li><li class="li1"><div class="de1">&gt;You felt a little braver, and though still erring on the side of caution, you reached out and pet the top of her head.</div></li><li class="li1"><div class="de1">&gt;Her ears flickered at the touch, and she gave a small shudder at the sensation, but otherwise continued licking.</div></li><li class="li1"><div class="de1">&gt;She stopped abruptly, and you looked down to see what had happened.</div></li><li class="li1"><div class="de1">&gt;Her tongue winded around your cock, enough to circle around twice, right at the neck.</div></li><li class="li1"><div class="de1">&gt;Despite her lack of pupils, you felt as if she was directly looking into your eyes.</div></li><li class="li1"><div class="de1">&gt;Then her tongue began to slide up and down your cock, still retaining its form.</div></li><li class="li1"><div class="de1">&gt;At this you loudly gasped, gritting your teeth and grabbing a hold of her hair.</div></li><li class="li1"><div class="de1">&gt;What had begun as a blowjob had changed to something completely different; it felt as if she fucking you with her tongue.</div></li><li class="li1"><div class="de1">&gt; Her ministrations started agonizingly slow, more focused on teasing you as you clenched your teeth.</div></li><li class="li1"><div class="de1">&gt;After her saliva had covered your cock thoroughly, her tongue began to slide up and down faster and faster.</div></li><li class="li1"><div class="de1">&gt;A series of moans escaped your mouth as she sped up, then turning into a frustrated grunt as she purposely slowed down.</div></li><li class="li1"><div class="de1">&gt;Then, she changed her technique up completely; rather than going for pure speed, she began to change how tight of a grip she held on your cock with her tongue while stroking it, turning into a slower milking motion.</div></li><li class="li1"><div class="de1">&gt;Your toes curled as you lied there in pure ecstasy, breath hitching as you felt an orgasm quickly approaching.</div></li><li class="li1"><div class="de1">&gt;She realized this too, and her jaw opened wider and she brought her head lower, your member aimed directly down her throat as she continued milking you with her tongue.</div></li><li class="li1"><div class="de1">&gt;With one last groan, you cum directly down into her throat, which she eagerly swallows down.</div></li><li class="li1"><div class="de1">&gt;You ride your wave of pleasure, the heat subsiding momentarily. </div></li><li class="li1"><div class="de1">&gt;You felt a low blush warm your face at the sound of hearing her slurping down your semen.</div></li><li class="li1"><div class="de1">&gt;Her tongue moved to tease your sensitive head, and you writhe a bit at the overstimulation.</div></li><li class="li1"><div class="de1">&gt;Her mouth released your cock after she had finished cleaning it of any split semen.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You lightly petted the top of her head as you caught your breath, which she purred in pleasure.</div></li><li class="li1"><div class="de1">&gt;You feel one of her hands leave your thighs and loop down to see her slip it in-between her legs.</div></li><li class="li1"><div class="de1">&gt;Then she grabbed your right arm with her other hand and pulled it down there as well.</div></li><li class="li1"><div class="de1">&gt;You cupped her mound, and cautiously slipped a finger into her slit.</div></li><li class="li1"><div class="de1">&gt;She was absolutely soaking wet, and she shuddered when you put in a second finger.</div></li><li class="li1"><div class="de1">“Ready.”</div></li><li class="li1"><div class="de1">&gt;The speakers on the walls yelled out while the lights of the screens flickered.</div></li><li class="li1"><div class="de1">&gt;”F-For?”</div></li><li class="li1"><div class="de1">&gt;She roughly pushed you down against the floor and straddled your hips, aiming your member directly at her sex.</div></li><li class="li1"><div class="de1">”Breed.”</div></li><li class="li1"><div class="de1">&gt;At that, she bottomed out on your cock and groaned in pleasure at the warmth inside her.</div></li><li class="li1"><div class="de1">&gt;Your mouth went agape as she shoved herself down upon you.</div></li><li class="li1"><div class="de1">&gt;For several moments you both lay still as she adjusted to you. </div></li><li class="li1"><div class="de1">&gt;You rested your left hand on her hip, and your right ascended towards her breasts.</div></li><li class="li1"><div class="de1">&gt;Carefully, you messaged her breast, lightly tracing over her nipple with your thumb.</div></li><li class="li1"><div class="de1">&gt;She leaned her head backward and gave out that same low rumble, giving her other breast some attention with her hand.</div></li><li class="li1"><div class="de1">&gt;Seemingly ready, she lifted herself slowly until only the head of your cock remained inside, and then descended just as slowly.</div></li><li class="li1"><div class="de1">&gt;You moved your other hand back to her hips, assisting her rise and fall.</div></li><li class="li1"><div class="de1">&gt;She began to pick up speed, and the room began to descend into that familiar smell of ozone.</div></li><li class="li1"><div class="de1">&gt;Her jaw lazily opened and her tongue flopped out as she panted.</div></li><li class="li1"><div class="de1">&gt;Despite the freezing conditions outside, the room felt as if it was scorching hot between the two of you.</div></li><li class="li1"><div class="de1">&gt;It wasn’t long before she was slamming herself down and lifting with equal ferocity as she continued to play with her breasts.</div></li><li class="li1"><div class="de1">&gt;Meanwhile you were meeting her with your own thrusts from below, filling her with as much of your cock as you could.</div></li><li class="li1"><div class="de1">&gt;The speakers of the room began to hum a low static, not too different from the noise an old CRT would make.</div></li><li class="li1"><div class="de1">&gt;As you yourself began to near your orgasm, you heard the static from the speakers grow in volume.</div></li><li class="li1"><div class="de1">&gt;You looked back up at the creature and noticed she herself seemed nearly on the edge, breath heavy, head laid back, a rumble from her throat every time she slammed herself down.</div></li><li class="li1"><div class="de1">&gt;You decided to take the initiative, and when she lifts up you push forward.</div></li><li class="li1"><div class="de1">&gt;Your push surprised her, and she fells back to the ground as you move on top.</div></li><li class="li1"><div class="de1">&gt;Within seconds she had changed from a cowgirl position to missionary, and she became the one meeting your thrusts with small movements of her own.</div></li><li class="li1"><div class="de1">&gt;One hand gripping her hip, you move to grasp one of her breasts while you lean your head forward to orally tease her nipple.</div></li><li class="li1"><div class="de1">&gt;You danced your tongue around her areola, then moved to suckle at her breast.</div></li><li class="li1"><div class="de1">&gt;The static seemed as loud as a car engine roaring near your ears, and it hinted at possibly being related to the creature’s breaking point.</div></li><li class="li1"><div class="de1">&gt;Hidden in the static, just barely audible, was the repetition of two words, over and over without stopping.</div></li><li class="li1"><div class="de1">“Breed me.”</div></li><li class="li1"><div class="de1">&gt;You give her three deep thrusts, bottoming out inside of her, before spurting your load deep inside.</div></li><li class="li1"><div class="de1">&gt;You feel her walls clench against your member, and she snarled loudly as she rode out her climax.</div></li><li class="li1"><div class="de1">&gt;Only now do you consider just how weird it was to be fucking the same creature that just a day ago you were sure was going to rip out your throat and disembowel you alive.</div></li><li class="li1"><div class="de1">&gt;You move to pull out, but a strong arm holds you back.</div></li><li class="li1"><div class="de1">&gt;She wrapped her other arm around you and pulled you down until you were lying on top of her, head resting on her breasts.</div></li><li class="li1"><div class="de1">&gt;Then she moved a hand to stroke through your hair, and the one wrapped around you rubbed your back.</div></li><li class="li1"><div class="de1">&gt;You weakly tried to lift yourself off; you still have no idea what the creature is about to do next.</div></li><li class="li1"><div class="de1">&gt;But you spent all your energy making love to her, and her hold on you was so warm and welcoming.</div></li><li class="li1"><div class="de1">“Rest.”</div></li><li class="li1"><div class="de1">&gt;The speakers lightly chided you.</div></li><li class="li1"><div class="de1">“Rest.”</div></li><li class="li1"><div class="de1">&gt;The voice changed to static for just a moment, then it faded into a soft hum. </div></li><li class="li1"><div class="de1">(https://www.youtube.com/watch?v=ZuP02g80x2o)</div></li><li class="li1"><div class="de1">&gt;It sounded like a lullaby, though you couldn&#039;t be sure given the lack of lyrics.</div></li><li class="li1"><div class="de1">&gt;You were in the arms of a dangerous creature, who not long ago was ready to tear you limb from limb.</div></li><li class="li1"><div class="de1">&gt;But instead of fear, you felt completely relaxed in her embrace.</div></li><li class="li1"><div class="de1">&gt;You’ll figure out a way to get out of this place later.</div></li><li class="li1"><div class="de1">&gt;For now, you rested.</div></li></ol>        </div>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;Your name is Anon.
-&gt;And you were huddled in the corner of your bedroom with a shotgun pointed at the door.
-&gt;You hadn’t slept in three days, maybe four.
-&gt;Ever since you installed that fucking app on your phone you had been in a constant state of paranoia.
-&gt;You thought it was just going to be like a Tamagotchi clone, something you’d play with for maybe five minutes and then forget about.
-&gt;Instead you’d been forced to go full on Kevin McCallister on your small cabin because of the thing that came out of it and started hunting you.
-&gt;Speaking of which, you heard several bells ring right outside your door.
-&gt;You tightened your grip on the shotgun and slowly stood up.
-&gt;There was a moment of silence, as you waited for the creature to make a move.
-&gt;Then there was a scratch at the door, long and drawn out as it went from top to bottom.
-&gt;The thought of it playing with you only heightened your nerves.
-&gt;You moved forward around your bed until you were aiming straight at the door.
-&gt;Slowly, the doorknob began to turn.
-&gt;You pulled the trigger; buckshot plowed through the door and into the creature.
-&gt;It howled in pain and you heard it slam against the wall outside.
-&gt;You pulled back on the pump and let loose another wall of buckshot.
-&gt;Another loud screech as you heard the creature scramble to get back up.
-&gt;You rushed forward and slammed open the remains of your door.
-&gt;Already the creature had hurried down the hallway as you see its leg pull around the corner.
-&gt;You sprinted to follow it, but before you turned the corner you heard a loud crash.
-&gt;What awaited you around the corner was a broken window and the biting cold from the wind.
- 
-&gt;”Will that be all?”
-&gt;The cashier asked as you move forward in the line.
-&gt;After last night&#039;s encounter you decided to stock up on some supplies at the closest store in Seward.
-&gt;You nodded, pulling out your wallet.
-&gt;As you reached in you felt your phone vibrate.
-&gt;You didn’t bother to check it.
-&gt;Out of the corner of your eye you saw the creature peeking out at you from one of the aisles.
-&gt;Even though it had only been 3-4 days with it stalking you, you had already figured out some of its habits.
-&gt;While you could see it, no one else could.
-&gt;It also made no interactions with you other than watch until nightfall.
-&gt;In the day it seemed content to merely stalk you.
-&gt;You handed over the money and gathered your bags.
-&gt;The creature never seemed to actually move in the day either, it simply appeared off in the distance.
-&gt;If you came close, it’d teleport farther away, where the only detail you could make out was its grotesque face.
-&gt;Attempts at photographing or recording it were useless, the camera would either shut off or completely break if you did.
-&gt;Your phone vibrated again.
-&gt;It’d also text you if it moved.
-&gt;You unlocked your phone and looked at the newest picture.
-&gt;There it was, standing right behind the cashier with only its head poking out from the side.
-&gt;You always felt a cold chill whenever you looked at the creature’s face, so you didn’t stare at the photo any longer than you had to.
-You loaded the back of the LandRover with your bags and hopped into the front.
-&gt;The clock on your stereo read 4:23 pm. 
-&gt;By the time you’d get home, it’d be nearly 6:00, as long as the roads aren’t too bad.
- 
-&gt;You knew thinking that would bite you in the ass.
-&gt;About an hour into driving the weather turned from light snow to a full-on blizzard.
-&gt;Your car radio had warned you to seek shelter about 15 minutes after it had started.
-&gt;You briefly contemplated turning back to Seward, but if you did by the time you’d arrive everyone would have already locked up for the storm.
-&gt;You continued down the road, listening to the radio signal fade in and out as you drive.
-&gt;About 30 minutes away you received a text.
-&gt;You ignored it, the only thing that could come out of checking your phone was crashing into something and dying to hypothermia.
-&gt;10 minutes later you got another text.
-&gt;The urge to check your phone grew, but you continued focusing on the road.
-&gt;5 minutes and another text.
-&gt;The creature had never texted you this rapidly before, and you slowly reached for your phone.
-&gt;Upon grasping the phone it erupted into a non-stop stream of vibrations and text notifications.
-&gt;You unlocked the phone and went straight to messages.
-&gt;The texts kept pouring in, all of the same single image.
-&gt;It was the creature.
-&gt;Sitting in the back of your car.
-&gt;The cold chill rolled down your back again.
-&gt;You whipped around just as the creature lunged forward, clawing at your face.
-&gt;You attempted to get ahold of its head, but your hand slipped and instead you tried to reach for the pistol in your glove compartment.
-&gt;Your struggle with the creature was brief, you were trapped in your seat by both your seatbelt and the powerful claws around your throat.
-&gt;The creature forced your head to turn, and you stared face-to-face with it.
-&gt;All you could focus on is the creature’s smooth canine skull and bleached eyes before you saw it look forward and growl.
-&gt;Before you could turn around there was a loud screech of car brakes and the world went black.
- 
-&gt;You slowly began to stir again.
-&gt;Your attempt to gain your bearings was made harder when you realized you were hanging upside down from your turned over car.
-&gt;You reached over and unclasped your seatbelt, promptly losing your secure restraints and sending you falling to the ground.
-&gt;Which just so happened to be covered in broken glass from your windshield.
-&gt;You grunted in pain as you land hard onto the ground, and groaned as you rolled back over.
-&gt;Your windshield was cracked and shattered, but it doesn’t seem like you can safely crawl through it without cutting yourself on the shards.
-&gt;It’s only when you see the passenger window busted open do you remember what happened.
-&gt;The creature must have crawled out that way.
-&gt;Before you yourself crawled out, you nabbed the pistol and scrounged around for the shotgun you kept in the back.
-&gt;It was still mounted down, but the wooden stock had completely broken off. The rest of it seemed not too dinged up.
-&gt;You picked up your emergency flashlight from the back, along with a handful of shotgun shells you had just bought.
-&gt;It was getting hard to ignore the bitter winter storm surrounding you.
-&gt;You went on your hands and knees to crawl through the open window, dragging your shotgun along behind you.
-&gt;As you scrambled out, your right-hand landed on a vibrating object.
-&gt;You picked it up and shook off the snow covering it.
-&gt;It’s your phone, and it greeted you with an image of pure white.
-&gt;You looked a bit harder and realized you could faintly make out the shape of the creature’s face hidden in a wall of snow.
-&gt;It was still out there.
-&gt;You were able to stand, and you quickly realized just how much everything hurt.
-&gt;Your left arm felt completely fucked, though you couldn’t see it clearly under the layers of clothing you had on.
-&gt;Your right side of your body felt just as bad, and your neck felt stiff.
-&gt;It was better than being dead though.
-&gt;Which was also a very likely possibility if you didn’t get up and get home.
-&gt;You walked back onto the road and looked for any clue to get your directions.
-&gt;You discovered the skid marks of another car, and not too far away from the car itself.
-&gt;It was an unmarked black SUV, not too different from your own.
-&gt;The only major difference was a white logo on the sides. 
-&gt;It looked almost like a hazard symbol but almost inversed. 
-&gt;But it definitely wasn&#039;t familiar.
-&gt;All the doors to the car were closed, and the windows were tinted so dark it was almost impossible to see inside.
-&gt;You attempted to bash the window open with the back of your flashlight, but the window took the impacts in stride.
-&gt;You could barely make out a couple of silhouettes in the driver and passenger seats.
-&gt;They didn&#039;t seem to be wearing normal clothes, almost seemed like they had military gear on, but they weren’t moving and didn’t seem to be breathing.
-&gt;You ignored that last part; you hoped you weren’t responsible for two deaths but right now you needed to focus on yourself.
-&gt;The only way you were going to survive was if you followed the road until you reached the cabin again.
-&gt;“It shouldn’t be too far.” You said to yourself to calm down, but the howling winds and the vibrations from your phone didn’t help.
-&gt;In your house you may have had an advantage, but outside and in this weather, the creature could be almost anywhere.
-&gt;And if that wasn’t enough, you bet the storm was just as bloodthirsty.
-&gt;You trudged forward, on the lookout for any movement.
- 
-&gt;You were lost.
-&gt;There was no way to tell how long or far you had walked, your only guide had been the road.
-&gt;And now even that had been lost to blinding white all around you.
-&gt;The phone had ceased vibrating ever since you left the car, leaving you without a hint of the creature’s whereabouts.
-&gt;The darkness of night mixed in with the already blinding blizzard meant that as long as it avoided your small beam of light the creature was unnoticeable.
-&gt;Your shivering had dramatically increased, and you could sense that without shelter soon you wouldn’t last outside.
-&gt;To think that only five days ago your biggest worries was what porn folder you needed to delete to get some space on your PC.
-&gt;And now you were fighting for your life against a monster and nature itself.
-&gt;”All because I was too cheap to pay 99 cents and instead went for some free-ware, chink-shit-”
-&gt;The more you thought about it, and the colder you felt, the angrier you got.
-&gt;”Fuck this state. Fuck this weather. Fuck this phone. Fuck that app. Fuck you!” You screamed out.
-&gt;”Come on already.”
-&gt;The only response was the howl of the wind.
-&gt;“I said come on! Let’s fucking do this!” You screamed again, grabbing at your phone.
-&gt;Instead of your normal lock screen, what came up was an image of a lone person facing away from the camera surrounded by snow.
-&gt;Behind you came a piercing screech.
-&gt;You turned as quick as you could and fired. 
-&gt;It was a huge miss, the buckshot sailing harmlessly far left of the creature and allowing it to finish its charge straight into you.
-&gt;You clung to the creature as the two of you tumbled through the snow and down a hill hidden by the storm.
-&gt;You came to a stop at the bottom of the snowdrift, but before you could stand the creature had already straddled you.
-&gt;The darkness made it hard to see, but you swung out and hit the creature in the face, gritting your teeth at the pain as instead of soft flesh it hit solid bone.
-&gt;It seemed unfazed and swiped directly at your chest, tearing away at your jacket and making small cuts on your chest
-&gt;Blow by blow you kept trying to fight off the beast, but you were quickly out of energy to continue fighting, weakened by the crash and the cold.
-&gt;You grimaced as you felt the blood flowing from your chest and arms, and your vision began to fade.
-&gt;The creature seemed to notice you had ceased resisting, it stopped cutting at your clothing and instead leaned in closer.
-&gt;Its bleached-bone head studied you, moving your head around to inspect you.
-&gt;Its claws lightly pricked your cheek as it observed you.
-&gt;It seemed almost curious as it noticed the differences between the two of you, at one point touching your nose and then moving to touch where a nose should be on its own face.
-&gt;Your heart pounded faster as its teeth neared your throat, but it only continued its descent from your head, eventually stopping at your fresh wounds. 
-&gt;It sniffed at them a couple of times before you watched in horror as a blue tongue lolled from its mouth.
-&gt;You first felt its warm breath on your skin, the air burning hot in contrast to the freezing snow.
-&gt;Then you felt its tongue slither across your exposed cuts, swiping at the blood and leaving a trail of sticky saliva in its wake.
-&gt;Within seconds, the pain from your wounds disappeared, and instead, warmth seemed to spread throughout your body.
-&gt;Your teeth ceased chattering and your body stopped shivering, the cold melted away into a wave of heat.
-&gt;You lazily laid your head back against the ground.
-&gt;Instead of the familiar crunch of snow, you heard nothing at all.
-&gt;Surprised, you turned your head to look at the ground.
-&gt;Instead of snow, the ground had changed into soft, fine sand.
-&gt;You moved your arm and grabbed a handful of the sand, then smiled as it trickled from your hand.
-&gt;Looking back up, the blinding white blizzard had completely disappeared.
-&gt;Instead, a clear blue sky stared down at you.
-&gt;The sound of the ocean greeted your ears; the quiet call of seagulls in the air.
-&gt;As you gazed around, you realized something was softly stroking your head.
-&gt;Holding your head in her lap was one of the most beautiful women you had ever laid your eyes on.
-&gt;She was looking outward towards the ocean; her long midnight-black hair flowed over her shoulders.
-&gt;She was wearing a long black gown, contrasting with her snow-white face.
-&gt;Her eyes were closed, she seemed content just sitting there, stroking your head.
-&gt;You felt as if you could lie there forever, and you closed your eyes as well.
-&gt;Slowly, the sound of the seagulls disappeared, and a buzzing noise invaded your head.
-&gt;You moved your hands to your ears as if to block out the noise, but it only got louder.
-&gt;Your eyes opened again, and you looked up at the woman now staring directly at your face, and a chill crawled up your spine.
-&gt;Her eyes were completely blank: no pupils, no blood vessels, just pools of white gazing back.
-&gt;The buzzing grew louder, and you became aware of the faint smell of ozone and electricity.
-&gt;The sky darkened, the sounds of the blizzard roared and the warm sand on your back changed back into bitter ice and snow.
-&gt;You looked back at your chest, blood still oozing out of the cuts, then back at the woman.
-&gt;Instead, you were greeted by the face of the creature, clutching your head in its claws.
-&gt;A claw from its other hand gingerly stroked your cheek, before it let your head down and stood up.
-&gt;Before you passed out, you felt the creature start to drag you through the snow.
- 
-&gt;When you woke up, the first thing you realized is that you weren’t cold anymore
-&gt;Well, you were always cold here, but you were no longer life-threatening cold.
-&gt;The second thing was that you were inside somewhere that was pitch black.
-&gt;You couldn’t hear the wind anymore, so you had no idea how long you were out for.
-&gt;As you sat up, you realized the pain in your chest had mostly disappeared.
-&gt;You would have liked to see the wounds, but right now you needed to find some light.
-&gt;As if on cue, something began to vibrate against the floor.
-&gt;It was your phone, it had to be.
-&gt;You got on your hands and knees and felt around the floor for it.
-&gt;You felt like Velma from Scooby Doo and were half expecting something to grab the phone and give it to you, only for you to realize that someone was the creature.
-&gt;Thankfully your hand found the phone before you had to have another heart to heart with the thing.
-&gt;On the phone was, of course, another text from the creature, but instead of a photo, it was an actual message.
-“Awake.”
-&gt;The creature never gave off anything implying it could communicate.
-&gt;Then again before a week ago you didn’t think there was a creature that could travel around through phone apps.
-&gt;”Question or Demand?”
-&gt;You sent back, then turned on the phone’s flashlight and started looking around.
-&gt;It looked like you were in some sort of warehouse.
-&gt;Pallets and giant shelves surrounded you, along with boxes piled up high.
-&gt;Your flashlight didn’t even reach the ceiling of the place.
-&gt;This was either the biggest Costco ever made or was something military.
-&gt;You noticed a couple of smaller boxes nearby and walked over to examine them.
-&gt;They were green and wooden; printed on the box in faded black lettering was, “USA 30 GRENADE HAND FRAG USA.”
-&gt;Still could be Costco.
-&gt;You debated taking a peek inside, but it seemed to be locked shut, and without a crowbar, you weren’t planning on smashing the thing open less thirty grenades decided it was time to blow.
-&gt;A notification popped down on the phone signaling four texts, sent quickly one after the other.
-“Remain there.”
-“I hunt.”
-“Returning Soon.”
-“You can&#039;t leave.”
-&gt;Fuck that.
-&gt;You turned the light on yourself and looked at your chest.
-&gt;The wounds were gone and replaced with fresh scars.
-&gt;You knew there was no way they should have healed already, but you weren&#039;t looking a gift horse in the mouth.
-&gt;You felt around your jacket to see if you still had your pistol on hand.
-&gt;You pulled out your Glock 40 in 10mm and ejected the magazine.
-&gt;5 shots, counting the 1 already chambered.
-&gt;You had no idea what 10mm could do that a point-blank shotgun blast hadn’t been able to, but it was better than nothing.
-&gt;You started thinking to yourself how to get out of this situation.
-&gt;Your best bet would have been to find the exit and run, but hell if you knew where you were at.
-&gt;Plus even if you left the creature would have been one teleport away from being right on your ass again.
-&gt;Still, had to try.
-&gt;You walked through the warehouse aisles aimlessly, hoping to find any indication of an exit.
-&gt;Eventually you managed to hit a wall and started moving around the outer rim of the warehouse.
-&gt;After 20 minutes, you managed to find a door, for some reason chained up and locked.
-&gt;You pulled out your pistol and aimed at the lock.
-&gt;It took 2 shots to pop the thing off, but when you did the chains surrounding the door fell to the ground with a loud clank of metal on concrete
-&gt;You put your ear to the door first and listened for any movement on the other side.
-&gt;A slight humming noise but it sounded more mechanical or electric than something alive.
-&gt;You turned the knob and slowly opened the door.
-&gt;The room was lit, not by any light bulbs or lamps, but by a huge collection of electronic devices, all connected to one another through wires and all rapidly displaying lines and lines of numbers.
-&gt;You stepped into the room and heard a crunch under your foot.
-&gt;You lifted your foot and saw a flip-phone, broken in half.
-&gt;The floor was covered in broken devices, some still together, others lying haphazardly in pieces.
-&gt;The room reeked of the same smell you experienced when your dream broke back in the snow; electricity.
-&gt;Stepping closer towards the back of the room, you saw a stack of computer monitors and towers lying on top of one another.
-&gt;You tried to read what was on the screens, but it was moving too fast to decipher.
-&gt;You lost patience with the computers and took a step back to look around again.
-&gt;That’s when you noticed a button hiding behind the almost vine-like collection of wires and mobile devices.
-&gt;The button itself had been pulled out, a couple wires dangling outward, but it was the symbol next to it that captured your attention; An arrow pointing upwards
-&gt;It was an elevator button.
-&gt;You started combing the walls for the hidden doors; pulling down the vines.
-&gt;You quickly saw the closed doors peeking out, and tore down the wires even faster.
-&gt;Finally the elevator doors were exposed with the wires pooling down at your feet.
-&gt;You tried to pry open the doors with your hands but they wouldn’t budge.
-&gt;Part in frustration, part in anger, you slammed your fist against the doors, then instantly regretted it as you clutched it in pain.
-&gt;You took a deep breath and tried to calm yourself.
-&gt;The lack of any windows or a button to go down signaled you were on the bottom floor of the building, possibly underground.
-&gt;You couldn’t open the doors with your bare hands, but a crowbar might do the job, and how hard could it be to find one in a warehouse?
- 
-&gt;You just started to leave and begin your search, when your phone got a message.
-&gt;You ignored it, closing your eyes in anticipation of something awful about to happen.
-&gt;A few seconds later you opened your eyes again and breathed a sigh of relief that nothing horrible was staring back at you.
-&gt;It was at that moment you started to notice the brightness of your phone’s flashlight was increasing.
-&gt;You unlocked your phone and tried to mess with the flashlight settings, but it did nothing.
-&gt;You watched as your phone’s battery percentage started to trickle down faster than it should as it inversely began to heat itself to burning temperatures
-&gt;You dropped the phone in pain and it landed camera side up, shining the incredibly bright light into your eyes.
-&gt;You shielded your eyes from it, then you heard a loud pop, and the light went away
-&gt;You picked up your phone and started to inspect it
-&gt;You’d managed a small crack in the screen in one of the corners, but it still seemed to be working at least.
-&gt;However nearly 30% of your phone’s battery just disappeared, and it seemed to have destroyed the camera light.
-&gt;You turned your phone back over when it started to vibrate in your hand again.
-&gt;It wasn’t a text message. This time, it was a phone call.
-&gt;Coming from the creature’s number.
-&gt;Before you could decline the call, your phone automatically answered it.
-“You can not leave.”
-&gt;The voice was deep and raspy, but definitely female.
-“I told you this.”
-&gt;The melody and pronunciation of the voice reminded you of a more natural sounding text-to-speech program, still with an awkward cadence to it.
-“You did not listen.”
-&gt;A text came in with a picture attached.
-&gt;It was the silhouette of the creature, standing in the doorway of the very room you were standing in.
-&gt;You slowly turned around as the blood drained from your face.
-&gt;Nothing was standing there.
-&gt;From behind, a light turned on and a small ‘ding’ echoed into the room.
-&gt;It was the elevator light.
-
-&gt;The doors opened, and standing in the middle of the elevator was the creature, brightly lit by the elevator lights.
-&gt;Before you could take a good look, the elevator light exploded, showering the creature in sparks before leaving it in darkness.
-&gt;Then it stepped out, the claws from its paws clicking as they tapped against the floor.
-&gt;You took a step back as it moved closer to you, holding your hands upward in a defensive gesture.
-&gt;”N-Now just hold on a second,” You said, slowly moving your right hand to reach for your gun. “I didn’t know you could talk before, so now let’s talk about this, alright?”
-&gt;The creature didn’t stop moving towards you, forcing you to keep backing up.
-“No.”
-&gt;You didn’t take notice that the voice was still coming from the phone and not the creature itself.
-&gt;The glowing light of the computers slightly illuminated the room and gave off enough light so you could make out the details of the monster in front of you.
-&gt;It was taller than you by several inches, putting it at around 6’3’’, and stood on two digitigrade legs.
-&gt;Her legs and thighs were composed of toned muscle with a layer of pitch black fur on top.
-&gt;Moving up, you notice her striking hips that swayed as she inches closer to you.
-&gt;Her midriff was just as toned as her legs, and just above hung two large breasts, uncovered by fur, revealing a gunmetal grey skin tone.
-&gt;Her grey skin stopped at her saucer-sized areola and nipples, instead of taking on the color of her fur and hair.
-&gt;Speaking of it, you looked at her jet black hair that completely obscured the majority of her head and neck, with the exception being her canine skull head and two dog-like ears perking up through it.
-&gt;Her shoulders showed off some of her skin before being covered up by more fur the further down the arm you went, ending at her hands.
-&gt;Her hands seemed oddly human-like, however, they lacked a thumb and instead of just normal fingernails, they ended in sharp, obsidian-colored claws.
-&gt;You felt something stirring down in your nether regions.
-&gt;You never thought fear boners were anything other than a meme but there you go.
-&gt;Your eyes grew wider in slight panic when you felt your back against the wall.
-&gt;Now or never.
-&gt;You moved to draw your gun out but the creature lunged forward before you could aim, pinning your right arm against the wall with one hand and the other going at your throat.
-&gt;Her hand squeezed around your throat, not hard enough to completely cut off air but enough to focus your attention.
-&gt;Your left arm instinctively tried to pull her arm from your neck, but her grip remained steadfast no matter how hard you struggled.
-&gt;When that failed you grabbed at her face, trying to push her off or claw at her exposed eyes, but you were only rewarded with a tighter grip around your throat.
-&gt;You tried to bat away her strangling hold on you, but it wasn’t long before your vision started to darken.
-&gt;Eventually all you could do with your free arm was weakly hang from hers.
-&gt;She loosened her grip, allowing you to regain some air into your lungs as you wheezed and coughed.
-&gt;Meanwhile you slowly tried to orient your other arm’s wrist to point the gun at her head.
- &gt;Just as you thought you could make a shot, her hand flew up around your wrist and squeezed tightly.
-&gt;She leaned in closer to you, you could feel her breath against your ear.
-“Drop it.”
-&gt;The voice came from your phone on the ground, speaker-phone turned on without your doing.
-&gt;When you silently refused, she gave your wrist a nearly bone-crushingly tight squeeze.
-&gt;You were forced to drop the gun, sucking the air through your teeth and offering some cursory language under your breath.
-“Good boy.”
-&gt;Her other hand let go of your arm and moved to your face.
-&gt;She started stroking your cheek, just like she did in the storm.
-&quot;I like you.” 
-&gt;She hummed to herself, seemingly not caring if you heard or not.
-&gt;She glided her hand from your throat to the center of your back, while her other hand moved to the backside of your thigh.
-&gt;In one quick movement, she hoisted you into an over-the-shoulder carry with your head over her shoulder, and moved into the elevator.
-&gt;You were still catching your breath from her nearly choking you out, so the most resistance you offered was a weak grasp onto the elevator’s doorframe before being gently tugged away
-&gt;The doors closed, leaving the two of you in total darkness and silence, aside from the low rumble of the elevator and both of you breathing heavily.
-&gt;Though while yours is ragged from air deprivation, hers seemed almost sensual.
- 
-&gt;When the doors opened, you again grabbed onto the elevator frame, only this time with far more strength after catching your breath
-&gt;She tried to tug you away gently before, but when that failed she dropped you to the ground, then picked you back up, reorienting you to be facing the same direction as her
-&gt;With her left arm she held both your wrists together, and with her right she placed over your back.
-&gt;Now you were restricted to kicking your legs to try and get out of her iron grip
-&gt;You stopped after a solid minute, it was obvious you weren’t getting out until she decided to let you go.
-&gt;As she lurched ahead, you looked over at your surroundings.
-&gt;It seemed the elevator had only taken you up to some metal walkways looking down at the warehouse area.
-&gt;Eventually she reached an observation room connected to the walkways, slid the door to the left, and carried you inside.
-&gt;She walked further into the room, then pushed you off her shoulder and onto the floor.
-&gt;Surprisingly, your landing was cushioned by something covering the ground.
-&gt;It was a bit hard to see in the darkness, but you saw her stare directly at you, give a sort of a loud snort, and pointed with a single claw at the ground.
-&gt;The message was clear; Stay.
-&gt;She went back to the door, slid it closed, and while you couldn’t see exactly what she did, you heard the groaning of metal being moved.
-&gt;Then she went over to what looked like a control panel, for what you had no idea, and placed a hand on it.
-&gt;Her eyes glowed a faint hue of blue, and the smell of electricity invaded the room.
-&gt;At once, shutters closed down on the windows overlooking the warehouse, and the room was lit by the same kind of light you had seen at the base of the elevator; mobile devices attached to the walls and ceiling flicked on, and shined the same blue color.
- &gt;You saw the reason for why the floor seemed so soft; it was covered in a shredded mix of blankets, sleeping bags, clothing, and anything cloth.
-&gt;Then you saw she was staring at you.
-&gt;And then she was stalking towards you.
-&gt;”Y-You ain’t mad about the gun right?” You asked as you attempted to scoot away.
-&gt;She didn’t answer, instead descending to all fours and prowling forward.
-&gt;It didn’t take long before you’ve once again backed yourself into a wall with no way to escape.
-&gt;Deja Vu.
-“Where do you think you would go?” The voice sang out from every speaker in the room.
-&gt;Good question, maybe you’d be able to give an answer if she hadn’t crawled on top you and locked her arms around your neck.
-&gt;Your breath hitched in your throat as her face came within inches yours.
-&gt;She readjusted herself and she moved to straddle you, while your member began to strain against your pants as a new source of heat ground against it.
-&gt;She leaned in closer towards your neck, and inspected closely, eyes blinking that light blue hue.
-“The jugular is vital to survival.”
-&gt;The speakers stated in an almost curious tone before descended back down to a more sensual, husky voice.
-“Severing it leads to exsanguination.”
-&gt;After making her point, her head zoomed forward, jaws open and teeth shining.
-&gt;Instead of a vicious bite, she stopped just short, and only lightly dragged her teeth against your skin.
-“If severed, one descends into a sleep that cannot be woken up from.”
-&gt;At this she nipped your neck, and you involuntarily shuddered at the feeling.
-“I would not enjoy witnessing it.”
-&gt;It was an unsaid threat; compliance or resistance would be rewarded in their own respective ways.
-&gt;One arm draped from your neck to your chest, slowly unzipping your coat.
-&gt;Then her hands shifted under your sweater, and she began to feel up your chest.
-&gt;The warmth from her hands contrasted against the air, cold enough to see both of your breaths; somewhat comforting despite the situation.
-&gt;Though the creature’s action was definitely reducing the fear you had felt, you still hadn’t been sure what exactly she would do next.
-&gt;Then her hand shifted further downward until she groped your crotch.
-&gt;You shifted a bit as she kneaded your genitals through your pants; you released a small gasp at the contact.
-&gt;Her head turned up from your clothed member to stare back into your eyes, and she placed her hands on your shoulders.
-&gt;Then her jaws parted, and she leaned in closer until her mouth was pressed directly against your own mouth as her tongue slithered out.
-&gt;Her tongue gently prodded your lips, as if asking permission to enter.
-&gt;Perhaps it was the sheer strangeness of the situation, your mind still trying to catch up to the turn of events in which the monster that had just kidnapped you was now coming onto you, but you willingly parted your lips to allow her inside.
-&gt;She gave a low rumble of approval as her tongue slithered in, and quickly began to coil around your own.
-&gt;Your own tongue offered some resistance as the wrestle between your tongues began, but it was quickly overpowered by hers: both longer and agiler within your own mouth.
-&gt;You pulled away momentarily to catch your own breath, and swallow down some of the excess saliva, a trail of which had formed between your two mouths.
-&gt;After doing so, you realized a familiar warmth once again spread through your body, and you were reminded of how you felt after the creature had cleaned your wounds.
-
-&gt;She pulled you away from the wall, laying you down flat on the makeshift bedding.
-&gt;The warmth this time had been different, it changed from the comforting warmth he had first experienced to sweltering heat.
-&gt;You winced in discomfort, as sweat began to form.
-&gt;The creature seemed to notice, though didn’t act surprised and began to strip you of your clothing, starting with your shirt before fiddling with your belt. 
-&gt;In an effort to escape the heat, you moved your own hands to assist in removing it, and shifted your hips upwards as she pulled away from your pants and underwear.
-&gt;She moved her body back until she was at eye level and inches away from your semi-hard member; her hot breath on your dick caused an involuntary twitch.
-&gt;She grabbed your thighs, and once again her tongue lolled out of her mouth, this time lightly taking a lick at the tip of your cock.
-&gt;You involuntarily moan, and you hear her almost purr in response.
-&gt;Her tongue slid down the underside of your cock, and she began to give slow, long licks starting from the base and ending at the head.
-&gt;You felt a little braver, and though still erring on the side of caution, you reached out and pet the top of her head.
-&gt;Her ears flickered at the touch, and she gave a small shudder at the sensation, but otherwise continued licking.
-&gt;She stopped abruptly, and you looked down to see what had happened.
-&gt;Her tongue winded around your cock, enough to circle around twice, right at the neck.
-&gt;Despite her lack of pupils, you felt as if she was directly looking into your eyes.
-&gt;Then her tongue began to slide up and down your cock, still retaining its form.
-&gt;At this you loudly gasped, gritting your teeth and grabbing a hold of her hair.
-&gt;What had begun as a blowjob had changed to something completely different; it felt as if she fucking you with her tongue.
-&gt; Her ministrations started agonizingly slow, more focused on teasing you as you clenched your teeth.
-&gt;After her saliva had covered your cock thoroughly, her tongue began to slide up and down faster and faster.
-&gt;A series of moans escaped your mouth as she sped up, then turning into a frustrated grunt as she purposely slowed down.
-&gt;Then, she changed her technique up completely; rather than going for pure speed, she began to change how tight of a grip she held on your cock with her tongue while stroking it, turning into a slower milking motion.
-&gt;Your toes curled as you lied there in pure ecstasy, breath hitching as you felt an orgasm quickly approaching.
-&gt;She realized this too, and her jaw opened wider and she brought her head lower, your member aimed directly down her throat as she continued milking you with her tongue.
-&gt;With one last groan, you cum directly down into her throat, which she eagerly swallows down.
-&gt;You ride your wave of pleasure, the heat subsiding momentarily. 
-&gt;You felt a low blush warm your face at the sound of hearing her slurping down your semen.
-&gt;Her tongue moved to tease your sensitive head, and you writhe a bit at the overstimulation.
-&gt;Her mouth released your cock after she had finished cleaning it of any split semen.
-
-&gt;You lightly petted the top of her head as you caught your breath, which she purred in pleasure.
-&gt;You feel one of her hands leave your thighs and loop down to see her slip it in-between her legs.
-&gt;Then she grabbed your right arm with her other hand and pulled it down there as well.
-&gt;You cupped her mound, and cautiously slipped a finger into her slit.
-&gt;She was absolutely soaking wet, and she shuddered when you put in a second finger.
-“Ready.”
-&gt;The speakers on the walls yelled out while the lights of the screens flickered.
-&gt;”F-For?”
-&gt;She roughly pushed you down against the floor and straddled your hips, aiming your member directly at her sex.
-”Breed.”
-&gt;At that, she bottomed out on your cock and groaned in pleasure at the warmth inside her.
-&gt;Your mouth went agape as she shoved herself down upon you.
-&gt;For several moments you both lay still as she adjusted to you. 
-&gt;You rested your left hand on her hip, and your right ascended towards her breasts.
-&gt;Carefully, you messaged her breast, lightly tracing over her nipple with your thumb.
-&gt;She leaned her head backward and gave out that same low rumble, giving her other breast some attention with her hand.
-&gt;Seemingly ready, she lifted herself slowly until only the head of your cock remained inside, and then descended just as slowly.
-&gt;You moved your other hand back to her hips, assisting her rise and fall.
-&gt;She began to pick up speed, and the room began to descend into that familiar smell of ozone.
-&gt;Her jaw lazily opened and her tongue flopped out as she panted.
-&gt;Despite the freezing conditions outside, the room felt as if it was scorching hot between the two of you.
-&gt;It wasn’t long before she was slamming herself down and lifting with equal ferocity as she continued to play with her breasts.
-&gt;Meanwhile you were meeting her with your own thrusts from below, filling her with as much of your cock as you could.
-&gt;The speakers of the room began to hum a low static, not too different from the noise an old CRT would make.
-&gt;As you yourself began to near your orgasm, you heard the static from the speakers grow in volume.
-&gt;You looked back up at the creature and noticed she herself seemed nearly on the edge, breath heavy, head laid back, a rumble from her throat every time she slammed herself down.
-&gt;You decided to take the initiative, and when she lifts up you push forward.
-&gt;Your push surprised her, and she fells back to the ground as you move on top.
-&gt;Within seconds she had changed from a cowgirl position to missionary, and she became the one meeting your thrusts with small movements of her own.
-&gt;One hand gripping her hip, you move to grasp one of her breasts while you lean your head forward to orally tease her nipple.
-&gt;You danced your tongue around her areola, then moved to suckle at her breast.
-&gt;The static seemed as loud as a car engine roaring near your ears, and it hinted at possibly being related to the creature’s breaking point.
-&gt;Hidden in the static, just barely audible, was the repetition of two words, over and over without stopping.
-“Breed me.”
-&gt;You give her three deep thrusts, bottoming out inside of her, before spurting your load deep inside.
-&gt;You feel her walls clench against your member, and she snarled loudly as she rode out her climax.
-&gt;Only now do you consider just how weird it was to be fucking the same creature that just a day ago you were sure was going to rip out your throat and disembowel you alive.
-&gt;You move to pull out, but a strong arm holds you back.
-&gt;She wrapped her other arm around you and pulled you down until you were lying on top of her, head resting on her breasts.
-&gt;Then she moved a hand to stroke through your hair, and the one wrapped around you rubbed your back.
-&gt;You weakly tried to lift yourself off; you still have no idea what the creature is about to do next.
-&gt;But you spent all your energy making love to her, and her hold on you was so warm and welcoming.
-“Rest.”
-&gt;The speakers lightly chided you.
-“Rest.”
-&gt;The voice changed to static for just a moment, then it faded into a soft hum. 
-(https://www.youtube.com/watch?v=ZuP02g80x2o)
-&gt;It sounded like a lullaby, though you couldn&#039;t be sure given the lack of lyrics.
-&gt;You were in the arms of a dangerous creature, who not long ago was ready to tear you limb from limb.
-&gt;But instead of fear, you felt completely relaxed in her embrace.
-&gt;You’ll figure out a way to get out of this place later.
-&gt;For now, you rested.</textarea>
-    
-        
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/cBbWma3n">Calcular e média de um aluno</a>
-                <div class="details">
-                                            Python |
-                    
-                    9 min ago                </div>
-            </li>
-                    <li>
-                <a href="/eScRPJ30">Criar pirâmides de acordo com o tamanho informado pelo usuário</a>
-                <div class="details">
-                                            Python |
-                    
-                    24 min ago                </div>
-            </li>
-                    <li>
-                <a href="/LB4HSXdk">lista musica streamlabs bot</a>
-                <div class="details">
-                                            HTML 5 |
-                    
-                    29 min ago                </div>
-            </li>
-                    <li>
-                <a href="/btQEV0ET">Programming - practice</a>
-                <div class="details">
-                                            Java |
-                    
-                    60 min ago                </div>
-            </li>
-                    <li>
-                <a href="/CGUjpQxY">Ordenar matrizes em Python</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/puJtA4QV">views.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/XgV1xT3P">forms.py</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/uxEpBHki">K1_as</a>
-                <div class="details">
-                                            C# |
-                    
-                    1 hour ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-        </div>
-    </div>
-</div>
-
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-                
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-
-    
-<div class="popup-container">
-
-                <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-                <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-        
-        
-</div>
-    
-
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script>
-    const POST_EXPIRATION_NEVER = 'N';
-    const POST_EXPIRATION_BURN = 'B';
-    const POST_STATUS_PUBLIC = '0';
-    const POST_STATUS_UNLISTED = '1';
-</script>
-<script src="/themes/pastebin/js/vendors.bundle.js?72ffac36635b50eea7c0"></script>
-<script src="/themes/pastebin/js/app.bundle.js?72ffac36635b50eea7c0"></script>
-</body>
-</html>

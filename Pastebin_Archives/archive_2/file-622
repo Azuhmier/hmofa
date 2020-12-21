@@ -1,621 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>&gt;Stranded - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="&gt;Stranded - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/mEtKnCUx" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/mEtKnCUx" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="RdRgNTlmF18BVyl5zTT5ACRrwfe3ZhVKucp3tAeW_2cVpC5BWjBNHFBnTwiMAY1LEiSAkNFLZgKIhxOBZKSKHg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/mEtKnCUx" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/mEtKnCUx" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>&gt;Stranded</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Monday 4th of September 2017 02:14:55 AM CDT">Sep 4th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,617                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 20.25 KB            </div>
-
-            <div class="right">
-                <a href="/raw/mEtKnCUx" class="btn -small">raw</a>
-                <a href="/dl/mEtKnCUx" class="btn -small">download</a>
-                <a href="/clone/mEtKnCUx" class="btn -small h_800">clone</a>
-                <a href="/embed/mEtKnCUx" class="btn -small h_800">embed</a>
-                <a href="/report/mEtKnCUx" class="btn -small">report</a>
-                <a href="/print/mEtKnCUx" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Okay, first off, I&#039;m not much of a writer, but I wanted to make something for you degenerates to enjoy.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Here goes nothing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It&#039;s a beautiful day outside.</div></li><li class="li1"><div class="de1">&gt;Rather than sitting around indoors all day, you decide to go for a hike.</div></li><li class="li1"><div class="de1">&gt;Keys, Water, Snacks?</div></li><li class="li1"><div class="de1">&gt;Check.</div></li><li class="li1"><div class="de1">&gt;After about forty minutes or so behind the wheel, you decide to stop at one of the more remote trails.</div></li><li class="li1"><div class="de1">&gt;There&#039;s some yellow caution tape on the trail marker attempting to keep you from progressing further.</div></li><li class="li1"><div class="de1">&gt;lol, fuck that</div></li><li class="li1"><div class="de1">&gt;Ignoring the collective screech of /out/, you jump the blockade and head in anyway, you didn&#039;t spend all that time lacing up your hiking boots for nothing.</div></li><li class="li1"><div class="de1">&gt;The hike is nice and peaceful, and having the trail entirely to yourself for once makes it even better.</div></li><li class="li1"><div class="de1">&gt;You begin to wonder why the trail was closed.</div></li><li class="li1"><div class="de1">&gt;Then it hits you</div></li><li class="li1"><div class="de1">&gt;Literally</div></li><li class="li1"><div class="de1">&gt;With a loud crack, a watermelon sized stone bounces down the crag behind you, slamming squarely between your shoulders and sends you careening off the cliff-side.</div></li><li class="li1"><div class="de1">&gt;Your life flashes before your eyes on the way down.</div></li><li class="li1"><div class="de1">&gt;That&#039;s a lot more porn than you remember</div></li><li class="li1"><div class="de1">&gt;The sounds of branches snapping and leaves rustling echo through the canopy as your limp body hits the forest floor with an unceremonious thud.</div></li><li class="li1"><div class="de1">&gt;Everything goes black.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You groggily open your eyes to find more stars than you think you&#039;ve ever seen blanketing the night sky.</div></li><li class="li1"><div class="de1">&gt;You&#039;d probably appreciate the view a lot more if you could feel your legs.</div></li><li class="li1"><div class="de1">&gt;Or arms.</div></li><li class="li1"><div class="de1">&gt;Or anything other than waves of pain converging on your now conscious brain.</div></li><li class="li1"><div class="de1">&gt;&quot;Owwwww, FUCK!&quot; you scream to yourself.</div></li><li class="li1"><div class="de1">&gt;Trying to get a grip on your surroundings, you shakily sit up.</div></li><li class="li1"><div class="de1">&gt;It takes a few seconds for your eyes to adjust to the darkness, revealing that you&#039;re in the middle of fucking nowhere.</div></li><li class="li1"><div class="de1">&gt;You try to stand up, only to be greeted with an intense throbbing pain radiating from your left leg, dropping you straight onto your ass again.</div></li><li class="li1"><div class="de1">&gt;It&#039;s definitely broken.</div></li><li class="li1"><div class="de1">&gt;And you&#039;re officially screwed.</div></li><li class="li1"><div class="de1">&gt;&quot;Ah. Shit. Jesus. Fuck. Okay, Okay. Don&#039;t panic.&quot; you say to yourself as you reach for your phone.</div></li><li class="li1"><div class="de1">&gt;It&#039;s about as useful as your leg right now.</div></li><li class="li1"><div class="de1">&gt;You silently mourn the loss of your portable shitposting apparatus before angrily tossing it into a pile of leaves.</div></li><li class="li1"><div class="de1">&gt;You begin to panic.</div></li><li class="li1"><div class="de1">&gt;Nobody knows you&#039;re out here, your phone is busted, and you&#039;re going to die in this god forsaken forest.</div></li><li class="li1"><div class="de1">&gt;You feel your throat tighten as tears begin to roll down your cheeks.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;After crying it out, you begin to feel a little more capable, despite having the odds stacked against you.</div></li><li class="li1"><div class="de1">&gt;You reach for your bag, hoping you can fashion some sort of splint out of the few things you packed.</div></li><li class="li1"><div class="de1">&gt;Where the hell is it?</div></li><li class="li1"><div class="de1">&gt;You frantically look around for your bag, only to find it hanging from a branch above you, silently mocking your newly crippled state.</div></li><li class="li1"><div class="de1">&gt;You begin to question which Deity you pissed off in a past life.</div></li><li class="li1"><div class="de1">&gt;Now standing on one foot, you attempt to reach for the object of your desire.</div></li><li class="li1"><div class="de1">&gt;Despite your best efforts, it evades your grasp by a few inches.</div></li><li class="li1"><div class="de1">&gt;Fucking Manlets. When will they learn?</div></li><li class="li1"><div class="de1">&gt;Thoroughly frustrated, you decide to try again in the morning, when you can actually see what&#039;s going on around you.</div></li><li class="li1"><div class="de1">&gt;You drift in and out of sleep for what seems like an eternity.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A water bottle bouncing off your nose rockets your out of your fitful slumber.</div></li><li class="li1"><div class="de1">&gt;The morning sun is too much for your sleep fogged eyes. All you can make out is the blurry masses of the fall leaves and a large shadow rummaging around in the bag above you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Wait.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You attempt to flee the large, indistinct figure looming above you, only to fall flat on your face due to your busted leg.</div></li><li class="li1"><div class="de1">&gt;You lay there motionless, ready to accept your fate. You hope no one ever finds your hard drive.</div></li><li class="li1"><div class="de1">&gt;Your fear turns to curiosity when a distinctly feminine voice inquires &quot;Are you alright?&quot; &quot;There is no need to be afraid.&quot;</div></li><li class="li1"><div class="de1">&gt;You turn to face the source of the question, discovering that it is actually not a hungry bear, or serial killer.</div></li><li class="li1"><div class="de1">&gt;Standing before you is possibly the strangest thing you&#039;ve ever seen.</div></li><li class="li1"><div class="de1">&gt;A six foot tall dog-wolf-thing standing on two legs. What the fuck.</div></li><li class="li1"><div class="de1">&gt;She, Judging from her gentle demeanor and generous, uh... busts? reaches out a slim digitgrade paw to your leg, and inspects your injured leg.</div></li><li class="li1"><div class="de1">&gt;Her eyes are a striking yellow, and her fur is a dark blue-ish gray. Her face is very feminine, but still gives the impression she can tear you to shreds at any moment. </div></li><li class="li1"><div class="de1">&gt;With a small sigh, she proclaims &quot;You should be considering yourself lucky to be alive. Not many survive a fall like that.&quot;</div></li><li class="li1"><div class="de1">&gt;You look at the trail of carnage your descent left in the trees, grateful they were there to break your fall.</div></li><li class="li1"><div class="de1">&gt;You open your mouth to ask her what the hell is going on when, with no hesitation, she rips a large section of her top off, revealing four nipples and a pair of perky b-cup breasts below her significantly larger top set.</div></li><li class="li1"><div class="de1">&gt;Looks like your leg isn&#039;t the only thing that&#039;s swollen.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She uses a couple of branches and the newly sundered cloth to stabilize your leg.</div></li><li class="li1"><div class="de1">&gt;Being the chivalrous man you are, you introduce yourself, and hobble over to your scattered belongings.</div></li><li class="li1"><div class="de1">&gt;You offer her the extra jacket you packed to cover herself up with.</div></li><li class="li1"><div class="de1">&gt;She graciously takes it and puts it on.</div></li><li class="li1"><div class="de1">&gt;You&#039;re not sure if it&#039;s the influence of her strange manner of speaking, or your own autism trying to comprehend the situation, but you manage to form a question along the lines of &quot;What are you, exactly?&quot;</div></li><li class="li1"><div class="de1">&gt;Smooth.</div></li><li class="li1"><div class="de1">&gt;&quot;My name is Pisgah.&quot; She replies.</div></li><li class="li1"><div class="de1">&gt;That doesn&#039;t really answer your question, and it shows on your face.</div></li><li class="li1"><div class="de1">&gt;She looks at you with a confused expression for a second, then her face lights up as though she remembered something vitally important.</div></li><li class="li1"><div class="de1">&gt; &quot;I know why you don&#039;t remember us. It is because we have not seen your kind for many years.&quot;</div></li><li class="li1"><div class="de1">&gt; You don&#039;t consider giant wolf people strutting around an everyday occurrence throughout history. &quot;How long would you say?&quot; you ask.</div></li><li class="li1"><div class="de1">&gt; She counts the years on her paws. &quot;I would guess maybe 3 or 400 years was the last time. It has been a while&quot;</div></li><li class="li1"><div class="de1">&gt; &quot;That&#039;s a little longer than a while.&quot; You reply.</div></li><li class="li1"><div class="de1">&gt; Her ears twitch, and her expression darkens. </div></li><li class="li1"><div class="de1">&gt; &quot;You need to hide NOW. They mustn&#039;t find you.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; Slightly panicked, you heed her advice and crawl under a pile of leaves, praying you won&#039;t be seen by the threat she seemed so frightened by.</div></li><li class="li1"><div class="de1">&gt; After about a minute of uneasy silence, you hear something trudging through the nearby brush. You&#039;d wager there&#039;s more than one of them, whatever they are.</div></li><li class="li1"><div class="de1">&gt; In a incomprehensible language, the group barks what you can only assume are pointed questions at your new acquaintance.</div></li><li class="li1"><div class="de1">&gt; You hear her respond nervously, and a few more steps are followed by a large furred hand plunging onto the ground inches away from your still-buried face.</div></li><li class="li1"><div class="de1">&gt; You hold your breath, asking yourself why all this crazy shit had to happen to you.</div></li><li class="li1"><div class="de1">&gt; By the force of what must be 50 Deus ex Machinas, the investigative digits brush against, and promptly snatch the remains of your former phone. looks like your frustration actually paid off for once. </div></li><li class="li1"><div class="de1">&gt; The owner of said hand yells something to the others. They stomp off, arguing amongst each other.</div></li><li class="li1"><div class="de1">&gt; You wait for what feels like eons.</div></li><li class="li1"><div class="de1">&gt; &quot;Pisgah?&quot; you tentatively ask.</div></li><li class="li1"><div class="de1">&gt; &quot;You can come out now.&quot; she says with a relieved tone.</div></li><li class="li1"><div class="de1">&gt; &quot;What the hell was all that about?&quot; you ask.</div></li><li class="li1"><div class="de1">&gt; &quot;Not Everyone forgives.&quot; she responds flatly.</div></li><li class="li1"><div class="de1">&gt; Before you can question her further, she gently picks a leaf out of your hair and says, &quot;Come, I will show you a safe place.&quot;</div></li><li class="li1"><div class="de1">&gt; She gives you a shoulder for support, and you both slowly head for your destination.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; The pilgrimage has given you two some time to talk and learn a bit more about each other.</div></li><li class="li1"><div class="de1">&gt; Apparently, those colonial fuckwads drove her people to near extinction, and they&#039;ve been in hiding ever since.</div></li><li class="li1"><div class="de1">&gt; You tell her about modern life, and how everything is pretty lonely and depressing despite being so advanced.</div></li><li class="li1"><div class="de1">&gt; She makes a pleasant conversational partner, and the long trek seems to go by rather quickly.</div></li><li class="li1"><div class="de1">&gt; At last, you finally arrive at your destination. A small, derelict cabin with a narrow stream nearby.</div></li><li class="li1"><div class="de1">&gt; &quot;It is not much, but please make yourself comfortable.&quot;</div></li><li class="li1"><div class="de1">&gt; You hobble over to the stairs and take a seat. Pisgah plops down right next to you. </div></li><li class="li1"><div class="de1">&gt; She hands you your bag, and the two of you discuss your plan for getting out of here.</div></li><li class="li1"><div class="de1">&gt; Looks like you&#039;re not going anywhere while your leg is still injured. </div></li><li class="li1"><div class="de1">&gt; Pisgah Offers to Check in on you every couple of days, and bring you supplies.</div></li><li class="li1"><div class="de1">&gt; You thank her for her kindness, and see her off. She promises to be back soon.</div></li><li class="li1"><div class="de1">&gt; Despite the strangeness of the day you&#039;ve had, you enjoyed it immensely.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You turn around and open the door.</div></li><li class="li1"><div class="de1">&gt; The interior of the cabin looks much nicer than the outside would lead you to believe.</div></li><li class="li1"><div class="de1">&gt; It&#039;s a bit dusty, but there&#039;s a bed and a TV.</div></li><li class="li1"><div class="de1">&gt; You attempt to turn it on, to no avail. The power must be out.</div></li><li class="li1"><div class="de1">&gt; You assume there must be some sort of generator outside, your attention is drawn to a single photograph nestled in the corner of the window pane.</div></li><li class="li1"><div class="de1">&gt; It&#039;s been bleached by months of exposure to sunlight, But you can make out the image in your hand.</div></li><li class="li1"><div class="de1">&gt; It appears to have been taken outside the cabin, featuring a man about 10 years older than yourself, with his arm wrapped around a wolf-woman that looks a bit like Pisgah. She&#039;s wearing sunglasses and laughing gleefully.</div></li><li class="li1"><div class="de1">&gt; You don&#039;t know why, but the scene fills you with a sense of melancholy.</div></li><li class="li1"><div class="de1">&gt; You gently place the photo back into its perch.</div></li><li class="li1"><div class="de1">&gt; It&#039;s getting dark, so you decide to turn in.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; The next few days are a royal pain in the ass.</div></li><li class="li1"><div class="de1">&gt; Chopping firewood was already hard enough without a broken leg, and your food supplies are non-existent.</div></li><li class="li1"><div class="de1">&gt; You lay on the bed cursing your current predicament. </div></li><li class="li1"><div class="de1">&gt; A knock on your door interrupts your moping, and is followed by familiar voice, &quot;Anon? I brought you things you may need.&quot;</div></li><li class="li1"><div class="de1">&gt; How nice.</div></li><li class="li1"><div class="de1">&gt; She brought you a lot actually, smoked fish, berries, dried meat, and even some root vegetable you&#039;ve never seen before.</div></li><li class="li1"><div class="de1">&gt; &quot;Are you sure you wont get in trouble for giving me all this?&quot; you ask.</div></li><li class="li1"><div class="de1">&gt; She shakes her head and gives you a slight smile.</div></li><li class="li1"><div class="de1">&gt; &quot;You need food to be healthy. Your leg will not fix by itself.&quot;</div></li><li class="li1"><div class="de1">&gt; You thank her for the supplies and spend the day together idly chatting.</div></li><li class="li1"><div class="de1">&gt; As the days pass, you look forward to her visits more and more.</div></li><li class="li1"><div class="de1">&gt; One afternoon, you remember the photograph you found in the window, and show it to Pisgah.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; She stares at the picture longingly and sighs.</div></li><li class="li1"><div class="de1">&gt; You ask what&#039;s bothering her.</div></li><li class="li1"><div class="de1">&gt; She looks to the sky, and then back to the photo. with a slight shuffle closer to you she says, &quot;See this man here?</div></li><li class="li1"><div class="de1">&gt; You nod, genuinely curious about it.</div></li><li class="li1"><div class="de1">&gt; &quot;He is my father, not real father, but my mother loved him greatly.&quot; She pauses, &quot;And I did too. He taught me everything I know now.&quot;</div></li><li class="li1"><div class="de1">&gt; You sense the pain in her voice. &quot;What happened to them?&quot;</div></li><li class="li1"><div class="de1">&gt; She looks away from the picture and into your eyes.</div></li><li class="li1"><div class="de1">&gt; &quot;I told you some do not forgive. My mother became sick, and when father went to my people for help, they turned him away and declared my mother an outcast.&quot;</div></li><li class="li1"><div class="de1">&gt; She clearly doesn&#039;t want to remember, but continues.</div></li><li class="li1"><div class="de1">&gt; &quot;She passed soon after. My father stopped taking care of himself, and died a year later. My people took me in out of pity.&quot;</div></li><li class="li1"><div class="de1">&gt; You notice tears beginning to form in her eyes.</div></li><li class="li1"><div class="de1">&gt; &quot;They expect me to follow all customs, and speak their language. I have not spoken English in ages.&quot;</div></li><li class="li1"><div class="de1">&gt; &quot;It makes me happy to talk with you, it reminds me of better times.&quot;</div></li><li class="li1"><div class="de1">&gt; You place your hand on her fur. it feels exquisitely soft.</div></li><li class="li1"><div class="de1">&gt; &quot;Is that why you saved me?&quot; you ask.</div></li><li class="li1"><div class="de1">&gt; &quot;Yes.&quot; She says. &quot;I did not want to be like them.&quot;</div></li><li class="li1"><div class="de1">&gt; You both sit there in silence for a few moments.</div></li><li class="li1"><div class="de1">&gt; &quot;Well, thanks a lot. That was a very admirable thing you did for me.&quot; You say. &quot;I owe you my life, Maybe even more than that.&quot;</div></li><li class="li1"><div class="de1">&gt; She ponders what you said for a second and then shakes her head.</div></li><li class="li1"><div class="de1">&gt; &quot;That is not necessary. I do what is right.&quot;</div></li><li class="li1"><div class="de1">&gt; You two spend the rest of the night in the dimly lit cabin. You don&#039;t really say much to each other until she takes off in the morning.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; After a couple of weeks, and frequent check-ups from Pisgah, your leg seems to be doing much better. </div></li><li class="li1"><div class="de1">&gt; You walk around the cabin delighted you no longer feel any pain.</div></li><li class="li1"><div class="de1">&gt; A cold draft blows in from the poorly sealed window, causing you to shiver.</div></li><li class="li1"><div class="de1">&gt; You gaze outside. Looks like it snowed overnight.</div></li><li class="li1"><div class="de1">&gt; &quot;That&#039;s okay.&quot; you think to yourself &quot;I don&#039;t mind staying a few more days.&quot; </div></li><li class="li1"><div class="de1">&gt; You Hope you can see Pisgah again before you leave. It&#039;s been almost a week since you last saw her.</div></li><li class="li1"><div class="de1">&gt; You grab a log from the pile and toss it into the fireplace.</div></li><li class="li1"><div class="de1">&gt; While attempting to revive the tiny flame you just smothered, you hear a knock on the door.</div></li><li class="li1"><div class="de1">&gt; &quot;Oh, good. That must be her.&quot; you think to yourself.</div></li><li class="li1"><div class="de1">&gt; When you open the door, you&#039;re not greeted by the pretty face you were hoping to see.</div></li><li class="li1"><div class="de1">&gt; You feel a large, furred, hand clamp down on your neck and slam you into the floor. The machete in your face makes you think fighting back might not be the best idea.</div></li><li class="li1"><div class="de1">&gt; Your ears ring as unknown insults are hurled at them. The yells angrily morph into horribly pronounced, broken English &quot;WHERE IS SHE, THIS YOUR FAULT.&quot;</div></li><li class="li1"><div class="de1">&gt; Hearing those words, you feel a rush of adrenaline into your bloodstream.</div></li><li class="li1"><div class="de1">&gt; You muster up all your strength, and punch that hairy cunt right in his stupid fucking nose.</div></li><li class="li1"><div class="de1">&gt; He yelps in pain and drops the machete on the cabin floor.</div></li><li class="li1"><div class="de1">&gt; You scramble to your feet and grab it, turning to face your adversary.</div></li><li class="li1"><div class="de1">&gt; Blood runs down his snout and onto the floor. Deciding you&#039;re not worth any further injury, he turns tail and flees.</div></li><li class="li1"><div class="de1">&gt; Watching his shape disappear into the trees, you threaten to cut his balls off if you ever see him again, because humans do that to animals like him all the fucking time.</div></li><li class="li1"><div class="de1">&gt; You catch your breath and grab a heavy coat from the closet.</div></li><li class="li1"><div class="de1">&gt; You have to find her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You wander aimlessly through the forest, looking for any possible sign of her.</div></li><li class="li1"><div class="de1">&gt; The falling snow makes everything deathly quiet.</div></li><li class="li1"><div class="de1">&gt; You continue on.</div></li><li class="li1"><div class="de1">&gt; For hours.</div></li><li class="li1"><div class="de1">&gt; It&#039;s beginning to get dark.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You feel as though you&#039;re going to collapse, but your determination keeps you going.</div></li><li class="li1"><div class="de1">&gt; A faint noise in the distance grabs your attention.</div></li><li class="li1"><div class="de1">&gt; You sprint towards it, praying it&#039;s Pisgah.</div></li><li class="li1"><div class="de1">&gt; The falling snow gives way to the opening of a large cavern, glowing with soft light.</div></li><li class="li1"><div class="de1">&gt; The sounds of sobbing echo from inside.</div></li><li class="li1"><div class="de1">&gt; That has to be her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt; You take a few steps into the damp grotto and call out to her.</div></li><li class="li1"><div class="de1">&gt; &quot;Pisgah? What&#039;s going on? Did someone hurt you?&quot;</div></li><li class="li1"><div class="de1">&gt; She doesn&#039;t respond. But you hear her sobbing quiet down.</div></li><li class="li1"><div class="de1">&gt; Looks like you finally found her.</div></li><li class="li1"><div class="de1">&gt; You walk forward a few feet, and step over the slowly dying fire. Your heart drops at the spectacle before you.</div></li><li class="li1"><div class="de1">&gt; Pisgah is huddled in the corner tightly hugging the jacket you gave her when you first met, wiping tears from her eyes.</div></li><li class="li1"><div class="de1">&gt; Her normally smooth and silky fur is disheveled and covered in dirt.</div></li><li class="li1"><div class="de1">&gt; You kneel down and attempt to ask her what&#039;s going on, only to be pulled into the tightest embrace you&#039;ve ever felt.</div></li><li class="li1"><div class="de1">&gt; In a shaky tone, she murmurs &quot;I-I ran away. I didn&#039;t know what to do. I knew this would happen, but I can&#039;t accept it.&quot;</div></li><li class="li1"><div class="de1">&gt; &quot;Can&#039;t accept what?&quot; You ask sympathetically.</div></li><li class="li1"><div class="de1">&gt; She gulps, and tries to compose herself.</div></li><li class="li1"><div class="de1">&gt; &quot;My kind do not get to choose our mates. The elders decide who you will spend the rest of your days with.&quot;</div></li><li class="li1"><div class="de1">&gt; You begin to suspect where this is going. </div></li><li class="li1"><div class="de1">&gt; &quot;I feel nothing for the male chosen for me. I love another, but it will never happen.&quot; &quot;If I don&#039;t-&quot; </div></li><li class="li1"><div class="de1">&gt; You&#039;ve had enough with this stupid culture and its shitty traditions.</div></li><li class="li1"><div class="de1">&gt; &quot;You know what? Fuck them, and the stupid-ass laws they came up with! You deserve to be happy! Live your own life! Be your own, uh... person!&quot; you say dramatically, jumping to your feet and swinging your arms.</div></li><li class="li1"><div class="de1">&gt; Your defiant outburst is met with silence.</div></li><li class="li1"><div class="de1">&gt; Then a giggle.</div></li><li class="li1"><div class="de1">&gt; Then a long, soft tongue forcing its way into your unsuspecting mouth.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The unexpected advance leaves your senses spinning.</div></li><li class="li1"><div class="de1">&gt;Her tongue wrestles madly with yours, and  both of you gasp for air when she finally does break the kiss.</div></li><li class="li1"><div class="de1">&gt;You stare at her silently, unsure of what to do next.</div></li><li class="li1"><div class="de1">&gt;Pisgah takes your hand in hers , and looks at you pleadingly.</div></li><li class="li1"><div class="de1">&gt;They&#039;re still a bit misty from weeping, but her deep amber eyes convey her thoughts clearly. You can see her fear, excitement,  and need simultaneously  casting themselves on your very being.</div></li><li class="li1"><div class="de1">&gt;You feel butterflies in your stomach. There’s no going back now.</div></li><li class="li1"><div class="de1">&gt;You tell her in a soft, reassuring tone, “I&#039;m here for you. There’s no need to worry anymore.” As you place your hands on her shoulders and pull her in for another kiss.</div></li><li class="li1"><div class="de1">&gt;A soft moan escapes her lips as they meet yours.</div></li><li class="li1"><div class="de1">&gt;You gently run your hands down her arms and onto her fuzzy hips.</div></li><li class="li1"><div class="de1">&gt;Your fingers hook into the fabric surrounding her torso, and you pull off her top with little difficulty.</div></li><li class="li1"><div class="de1">&gt;Her feminine form is  even more alluring than you  seem to remember. Her unobstructed breasts are remarkably exotic, each one decreasing in size as they run down her midsection.</div></li><li class="li1"><div class="de1">&gt;She shudders in pleasure as you trace a finger along one of her 8 nipples, feeling it harden from the gentle stimulation. A few kisses planted on her arched neck  provoke an aroused whimper.</div></li><li class="li1"><div class="de1">&gt;“I&#039;ve wanted this for a very long time.” She croons into your ear. Giving it a soft lick.</div></li><li class="li1"><div class="de1">&gt;Your heart begins to pound as she places a single paw onto your stomach and gracefully unbuttons your pants.</div></li><li class="li1"><div class="de1">&gt;Your erection strains against your boxers, which she swiftly pulls  down to your ankles.</div></li><li class="li1"><div class="de1">&gt;She stares at your member with fascination, making you feel a bit insecure.</div></li><li class="li1"><div class="de1">&gt;“Is something wrong?” you ask uneasily.</div></li><li class="li1"><div class="de1">&gt;“Oh! No! Not at all.” She replies, “ It&#039;s just so different from what I expected.”</div></li><li class="li1"><div class="de1">&gt;You realize she’s probably never seen a human this closely before.</div></li><li class="li1"><div class="de1">&gt;She gives it an inquisitive sniff, before running her tongue along your length.</div></li><li class="li1"><div class="de1">&gt;The sensation makes your breaths uneven, and your nerves race with excitement.</div></li><li class="li1"><div class="de1">&gt;It doesn’t take long for you to reach the edge as she greedily teases your glans with her mouth. It twitches like mad before shooting thick ropes of cum into Pisgah&#039;s waiting throat.</div></li><li class="li1"><div class="de1">&gt;With a smirk of accomplishment, she swallows your seed, and licks her lips.</div></li><li class="li1"><div class="de1">&gt;“I hope you can make me feel good too…” she says in a sultry tone as she unties her skirt.</div></li><li class="li1"><div class="de1">&gt;You don’t need any further instruction. You place your hands on her firm thighs and lower your face between them.</div></li><li class="li1"><div class="de1">&gt;The smell of a wild animal in heat greets your nostrils, inciting a primal reaction from somewhere in your blood. You caress her feminine folds with your tongue, simply deriving enjoyment from her pleasured moans and whimpers.</div></li><li class="li1"><div class="de1">&gt;“I- Ah! can’t… I can’t take anymore! “ she yelps. “Plea-please breed me!”</div></li><li class="li1"><div class="de1">&gt;Those words are all it takes to re-ignite the fire in your loins.</div></li><li class="li1"><div class="de1">&gt;You re-position your body to line up your hips with hers.</div></li><li class="li1"><div class="de1">&gt;You trace the entrance of her genital slit with your erect cock, making her girly fluids soak the two of you even further.</div></li><li class="li1"><div class="de1">&gt;You penetrate her slowly, with some difficulty. Her breathing becomes ragged as you hilt your member inside her.</div></li><li class="li1"><div class="de1">&gt;“You can start moving now” she pants.</div></li><li class="li1"><div class="de1">&gt;Her insides are so hot you feel like you’re going to melt.</div></li><li class="li1"><div class="de1">&gt;You begin moving. Slowly, as not to hurt her. </div></li><li class="li1"><div class="de1">&gt;The sounds of your lovemaking echo off  the cavern walls.</div></li><li class="li1"><div class="de1">&gt;You rhythmically increase the pace as you both near your limit.</div></li><li class="li1"><div class="de1">&gt;“Oh! I’m- I&#039;m… ah-Ah-AAAHHN!” Pisgah screams as her vaginal walls convulse around your throbbing shaft, pushing you to your own climax,  painting her insides with your cum.</div></li><li class="li1"><div class="de1">&gt;You both stare at each other, panting. She leans over and gives you a passionate kiss on the lips.</div></li><li class="li1"><div class="de1">&gt;“I love you more than anything.” She murmurs.</div></li><li class="li1"><div class="de1">&gt;You hold her in your arms, before falling soundly asleep.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Prologue. Sort-of.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;“There it is!” you yell excitedly as you run to your car.</div></li><li class="li1"><div class="de1">&gt;You open the door and jump inside.</div></li><li class="li1"><div class="de1">&gt;You worried the battery would have died after all this time, but it still seems to be going strong.</div></li><li class="li1"><div class="de1">&gt;The car roars to life as you turn the key.</div></li><li class="li1"><div class="de1">&gt;You look into the forest you spent such a long time in.</div></li><li class="li1"><div class="de1">&gt;“I’m going to miss this hellhole.” You say to yourself.</div></li><li class="li1"><div class="de1">&gt;Your new lover leans over in the seat next to you and gives you a peck on the cheek.</div></li><li class="li1"><div class="de1">&gt;You shift gears and press your foot onto the accelerator, happily driving back into civilization.</div></li><li class="li1"><div class="de1">&gt;Something nags at the back of your mind during the trip.</div></li><li class="li1"><div class="de1">&gt;You haven’t paid rent in a month.</div></li><li class="li1"><div class="de1">&gt;Fuck.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The End.</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Okay, first off, I&#039;m not much of a writer, but I wanted to make something for you degenerates to enjoy.
-
-Here goes nothing.
-
-&gt;It&#039;s a beautiful day outside.
-&gt;Rather than sitting around indoors all day, you decide to go for a hike.
-&gt;Keys, Water, Snacks?
-&gt;Check.
-&gt;After about forty minutes or so behind the wheel, you decide to stop at one of the more remote trails.
-&gt;There&#039;s some yellow caution tape on the trail marker attempting to keep you from progressing further.
-&gt;lol, fuck that
-&gt;Ignoring the collective screech of /out/, you jump the blockade and head in anyway, you didn&#039;t spend all that time lacing up your hiking boots for nothing.
-&gt;The hike is nice and peaceful, and having the trail entirely to yourself for once makes it even better.
-&gt;You begin to wonder why the trail was closed.
-&gt;Then it hits you
-&gt;Literally
-&gt;With a loud crack, a watermelon sized stone bounces down the crag behind you, slamming squarely between your shoulders and sends you careening off the cliff-side.
-&gt;Your life flashes before your eyes on the way down.
-&gt;That&#039;s a lot more porn than you remember
-&gt;The sounds of branches snapping and leaves rustling echo through the canopy as your limp body hits the forest floor with an unceremonious thud.
-&gt;Everything goes black.
-
-&gt;You groggily open your eyes to find more stars than you think you&#039;ve ever seen blanketing the night sky.
-&gt;You&#039;d probably appreciate the view a lot more if you could feel your legs.
-&gt;Or arms.
-&gt;Or anything other than waves of pain converging on your now conscious brain.
-&gt;&quot;Owwwww, FUCK!&quot; you scream to yourself.
-&gt;Trying to get a grip on your surroundings, you shakily sit up.
-&gt;It takes a few seconds for your eyes to adjust to the darkness, revealing that you&#039;re in the middle of fucking nowhere.
-&gt;You try to stand up, only to be greeted with an intense throbbing pain radiating from your left leg, dropping you straight onto your ass again.
-&gt;It&#039;s definitely broken.
-&gt;And you&#039;re officially screwed.
-&gt;&quot;Ah. Shit. Jesus. Fuck. Okay, Okay. Don&#039;t panic.&quot; you say to yourself as you reach for your phone.
-&gt;It&#039;s about as useful as your leg right now.
-&gt;You silently mourn the loss of your portable shitposting apparatus before angrily tossing it into a pile of leaves.
-&gt;You begin to panic.
-&gt;Nobody knows you&#039;re out here, your phone is busted, and you&#039;re going to die in this god forsaken forest.
-&gt;You feel your throat tighten as tears begin to roll down your cheeks.
-
-&gt;After crying it out, you begin to feel a little more capable, despite having the odds stacked against you.
-&gt;You reach for your bag, hoping you can fashion some sort of splint out of the few things you packed.
-&gt;Where the hell is it?
-&gt;You frantically look around for your bag, only to find it hanging from a branch above you, silently mocking your newly crippled state.
-&gt;You begin to question which Deity you pissed off in a past life.
-&gt;Now standing on one foot, you attempt to reach for the object of your desire.
-&gt;Despite your best efforts, it evades your grasp by a few inches.
-&gt;Fucking Manlets. When will they learn?
-&gt;Thoroughly frustrated, you decide to try again in the morning, when you can actually see what&#039;s going on around you.
-&gt;You drift in and out of sleep for what seems like an eternity.
-
-&gt;A water bottle bouncing off your nose rockets your out of your fitful slumber.
-&gt;The morning sun is too much for your sleep fogged eyes. All you can make out is the blurry masses of the fall leaves and a large shadow rummaging around in the bag above you.
-
-&gt;Wait.
-
-&gt;You attempt to flee the large, indistinct figure looming above you, only to fall flat on your face due to your busted leg.
-&gt;You lay there motionless, ready to accept your fate. You hope no one ever finds your hard drive.
-&gt;Your fear turns to curiosity when a distinctly feminine voice inquires &quot;Are you alright?&quot; &quot;There is no need to be afraid.&quot;
-&gt;You turn to face the source of the question, discovering that it is actually not a hungry bear, or serial killer.
-&gt;Standing before you is possibly the strangest thing you&#039;ve ever seen.
-&gt;A six foot tall dog-wolf-thing standing on two legs. What the fuck.
-&gt;She, Judging from her gentle demeanor and generous, uh... busts? reaches out a slim digitgrade paw to your leg, and inspects your injured leg.
-&gt;Her eyes are a striking yellow, and her fur is a dark blue-ish gray. Her face is very feminine, but still gives the impression she can tear you to shreds at any moment. 
-&gt;With a small sigh, she proclaims &quot;You should be considering yourself lucky to be alive. Not many survive a fall like that.&quot;
-&gt;You look at the trail of carnage your descent left in the trees, grateful they were there to break your fall.
-&gt;You open your mouth to ask her what the hell is going on when, with no hesitation, she rips a large section of her top off, revealing four nipples and a pair of perky b-cup breasts below her significantly larger top set.
-&gt;Looks like your leg isn&#039;t the only thing that&#039;s swollen.
-
-&gt;She uses a couple of branches and the newly sundered cloth to stabilize your leg.
-&gt;Being the chivalrous man you are, you introduce yourself, and hobble over to your scattered belongings.
-&gt;You offer her the extra jacket you packed to cover herself up with.
-&gt;She graciously takes it and puts it on.
-&gt;You&#039;re not sure if it&#039;s the influence of her strange manner of speaking, or your own autism trying to comprehend the situation, but you manage to form a question along the lines of &quot;What are you, exactly?&quot;
-&gt;Smooth.
-&gt;&quot;My name is Pisgah.&quot; She replies.
-&gt;That doesn&#039;t really answer your question, and it shows on your face.
-&gt;She looks at you with a confused expression for a second, then her face lights up as though she remembered something vitally important.
-&gt; &quot;I know why you don&#039;t remember us. It is because we have not seen your kind for many years.&quot;
-&gt; You don&#039;t consider giant wolf people strutting around an everyday occurrence throughout history. &quot;How long would you say?&quot; you ask.
-&gt; She counts the years on her paws. &quot;I would guess maybe 3 or 400 years was the last time. It has been a while&quot;
-&gt; &quot;That&#039;s a little longer than a while.&quot; You reply.
-&gt; Her ears twitch, and her expression darkens. 
-&gt; &quot;You need to hide NOW. They mustn&#039;t find you.&quot;
-
-&gt; Slightly panicked, you heed her advice and crawl under a pile of leaves, praying you won&#039;t be seen by the threat she seemed so frightened by.
-&gt; After about a minute of uneasy silence, you hear something trudging through the nearby brush. You&#039;d wager there&#039;s more than one of them, whatever they are.
-&gt; In a incomprehensible language, the group barks what you can only assume are pointed questions at your new acquaintance.
-&gt; You hear her respond nervously, and a few more steps are followed by a large furred hand plunging onto the ground inches away from your still-buried face.
-&gt; You hold your breath, asking yourself why all this crazy shit had to happen to you.
-&gt; By the force of what must be 50 Deus ex Machinas, the investigative digits brush against, and promptly snatch the remains of your former phone. looks like your frustration actually paid off for once. 
-&gt; The owner of said hand yells something to the others. They stomp off, arguing amongst each other.
-&gt; You wait for what feels like eons.
-&gt; &quot;Pisgah?&quot; you tentatively ask.
-&gt; &quot;You can come out now.&quot; she says with a relieved tone.
-&gt; &quot;What the hell was all that about?&quot; you ask.
-&gt; &quot;Not Everyone forgives.&quot; she responds flatly.
-&gt; Before you can question her further, she gently picks a leaf out of your hair and says, &quot;Come, I will show you a safe place.&quot;
-&gt; She gives you a shoulder for support, and you both slowly head for your destination.
-
-&gt; The pilgrimage has given you two some time to talk and learn a bit more about each other.
-&gt; Apparently, those colonial fuckwads drove her people to near extinction, and they&#039;ve been in hiding ever since.
-&gt; You tell her about modern life, and how everything is pretty lonely and depressing despite being so advanced.
-&gt; She makes a pleasant conversational partner, and the long trek seems to go by rather quickly.
-&gt; At last, you finally arrive at your destination. A small, derelict cabin with a narrow stream nearby.
-&gt; &quot;It is not much, but please make yourself comfortable.&quot;
-&gt; You hobble over to the stairs and take a seat. Pisgah plops down right next to you. 
-&gt; She hands you your bag, and the two of you discuss your plan for getting out of here.
-&gt; Looks like you&#039;re not going anywhere while your leg is still injured. 
-&gt; Pisgah Offers to Check in on you every couple of days, and bring you supplies.
-&gt; You thank her for her kindness, and see her off. She promises to be back soon.
-&gt; Despite the strangeness of the day you&#039;ve had, you enjoyed it immensely.
-
-&gt; You turn around and open the door.
-&gt; The interior of the cabin looks much nicer than the outside would lead you to believe.
-&gt; It&#039;s a bit dusty, but there&#039;s a bed and a TV.
-&gt; You attempt to turn it on, to no avail. The power must be out.
-&gt; You assume there must be some sort of generator outside, your attention is drawn to a single photograph nestled in the corner of the window pane.
-&gt; It&#039;s been bleached by months of exposure to sunlight, But you can make out the image in your hand.
-&gt; It appears to have been taken outside the cabin, featuring a man about 10 years older than yourself, with his arm wrapped around a wolf-woman that looks a bit like Pisgah. She&#039;s wearing sunglasses and laughing gleefully.
-&gt; You don&#039;t know why, but the scene fills you with a sense of melancholy.
-&gt; You gently place the photo back into its perch.
-&gt; It&#039;s getting dark, so you decide to turn in.
-
-&gt; The next few days are a royal pain in the ass.
-&gt; Chopping firewood was already hard enough without a broken leg, and your food supplies are non-existent.
-&gt; You lay on the bed cursing your current predicament. 
-&gt; A knock on your door interrupts your moping, and is followed by familiar voice, &quot;Anon? I brought you things you may need.&quot;
-&gt; How nice.
-&gt; She brought you a lot actually, smoked fish, berries, dried meat, and even some root vegetable you&#039;ve never seen before.
-&gt; &quot;Are you sure you wont get in trouble for giving me all this?&quot; you ask.
-&gt; She shakes her head and gives you a slight smile.
-&gt; &quot;You need food to be healthy. Your leg will not fix by itself.&quot;
-&gt; You thank her for the supplies and spend the day together idly chatting.
-&gt; As the days pass, you look forward to her visits more and more.
-&gt; One afternoon, you remember the photograph you found in the window, and show it to Pisgah.
-
-&gt; She stares at the picture longingly and sighs.
-&gt; You ask what&#039;s bothering her.
-&gt; She looks to the sky, and then back to the photo. with a slight shuffle closer to you she says, &quot;See this man here?
-&gt; You nod, genuinely curious about it.
-&gt; &quot;He is my father, not real father, but my mother loved him greatly.&quot; She pauses, &quot;And I did too. He taught me everything I know now.&quot;
-&gt; You sense the pain in her voice. &quot;What happened to them?&quot;
-&gt; She looks away from the picture and into your eyes.
-&gt; &quot;I told you some do not forgive. My mother became sick, and when father went to my people for help, they turned him away and declared my mother an outcast.&quot;
-&gt; She clearly doesn&#039;t want to remember, but continues.
-&gt; &quot;She passed soon after. My father stopped taking care of himself, and died a year later. My people took me in out of pity.&quot;
-&gt; You notice tears beginning to form in her eyes.
-&gt; &quot;They expect me to follow all customs, and speak their language. I have not spoken English in ages.&quot;
-&gt; &quot;It makes me happy to talk with you, it reminds me of better times.&quot;
-&gt; You place your hand on her fur. it feels exquisitely soft.
-&gt; &quot;Is that why you saved me?&quot; you ask.
-&gt; &quot;Yes.&quot; She says. &quot;I did not want to be like them.&quot;
-&gt; You both sit there in silence for a few moments.
-&gt; &quot;Well, thanks a lot. That was a very admirable thing you did for me.&quot; You say. &quot;I owe you my life, Maybe even more than that.&quot;
-&gt; She ponders what you said for a second and then shakes her head.
-&gt; &quot;That is not necessary. I do what is right.&quot;
-&gt; You two spend the rest of the night in the dimly lit cabin. You don&#039;t really say much to each other until she takes off in the morning.
-
-&gt; After a couple of weeks, and frequent check-ups from Pisgah, your leg seems to be doing much better. 
-&gt; You walk around the cabin delighted you no longer feel any pain.
-&gt; A cold draft blows in from the poorly sealed window, causing you to shiver.
-&gt; You gaze outside. Looks like it snowed overnight.
-&gt; &quot;That&#039;s okay.&quot; you think to yourself &quot;I don&#039;t mind staying a few more days.&quot; 
-&gt; You Hope you can see Pisgah again before you leave. It&#039;s been almost a week since you last saw her.
-&gt; You grab a log from the pile and toss it into the fireplace.
-&gt; While attempting to revive the tiny flame you just smothered, you hear a knock on the door.
-&gt; &quot;Oh, good. That must be her.&quot; you think to yourself.
-&gt; When you open the door, you&#039;re not greeted by the pretty face you were hoping to see.
-&gt; You feel a large, furred, hand clamp down on your neck and slam you into the floor. The machete in your face makes you think fighting back might not be the best idea.
-&gt; Your ears ring as unknown insults are hurled at them. The yells angrily morph into horribly pronounced, broken English &quot;WHERE IS SHE, THIS YOUR FAULT.&quot;
-&gt; Hearing those words, you feel a rush of adrenaline into your bloodstream.
-&gt; You muster up all your strength, and punch that hairy cunt right in his stupid fucking nose.
-&gt; He yelps in pain and drops the machete on the cabin floor.
-&gt; You scramble to your feet and grab it, turning to face your adversary.
-&gt; Blood runs down his snout and onto the floor. Deciding you&#039;re not worth any further injury, he turns tail and flees.
-&gt; Watching his shape disappear into the trees, you threaten to cut his balls off if you ever see him again, because humans do that to animals like him all the fucking time.
-&gt; You catch your breath and grab a heavy coat from the closet.
-&gt; You have to find her.
-
-&gt; You wander aimlessly through the forest, looking for any possible sign of her.
-&gt; The falling snow makes everything deathly quiet.
-&gt; You continue on.
-&gt; For hours.
-&gt; It&#039;s beginning to get dark.
-
-
-&gt; You feel as though you&#039;re going to collapse, but your determination keeps you going.
-&gt; A faint noise in the distance grabs your attention.
-&gt; You sprint towards it, praying it&#039;s Pisgah.
-&gt; The falling snow gives way to the opening of a large cavern, glowing with soft light.
-&gt; The sounds of sobbing echo from inside.
-&gt; That has to be her.
-
-&gt; You take a few steps into the damp grotto and call out to her.
-&gt; &quot;Pisgah? What&#039;s going on? Did someone hurt you?&quot;
-&gt; She doesn&#039;t respond. But you hear her sobbing quiet down.
-&gt; Looks like you finally found her.
-&gt; You walk forward a few feet, and step over the slowly dying fire. Your heart drops at the spectacle before you.
-&gt; Pisgah is huddled in the corner tightly hugging the jacket you gave her when you first met, wiping tears from her eyes.
-&gt; Her normally smooth and silky fur is disheveled and covered in dirt.
-&gt; You kneel down and attempt to ask her what&#039;s going on, only to be pulled into the tightest embrace you&#039;ve ever felt.
-&gt; In a shaky tone, she murmurs &quot;I-I ran away. I didn&#039;t know what to do. I knew this would happen, but I can&#039;t accept it.&quot;
-&gt; &quot;Can&#039;t accept what?&quot; You ask sympathetically.
-&gt; She gulps, and tries to compose herself.
-&gt; &quot;My kind do not get to choose our mates. The elders decide who you will spend the rest of your days with.&quot;
-&gt; You begin to suspect where this is going. 
-&gt; &quot;I feel nothing for the male chosen for me. I love another, but it will never happen.&quot; &quot;If I don&#039;t-&quot; 
-&gt; You&#039;ve had enough with this stupid culture and its shitty traditions.
-&gt; &quot;You know what? Fuck them, and the stupid-ass laws they came up with! You deserve to be happy! Live your own life! Be your own, uh... person!&quot; you say dramatically, jumping to your feet and swinging your arms.
-&gt; Your defiant outburst is met with silence.
-&gt; Then a giggle.
-&gt; Then a long, soft tongue forcing its way into your unsuspecting mouth.
-
-&gt;The unexpected advance leaves your senses spinning.
-&gt;Her tongue wrestles madly with yours, and  both of you gasp for air when she finally does break the kiss.
-&gt;You stare at her silently, unsure of what to do next.
-&gt;Pisgah takes your hand in hers , and looks at you pleadingly.
-&gt;They&#039;re still a bit misty from weeping, but her deep amber eyes convey her thoughts clearly. You can see her fear, excitement,  and need simultaneously  casting themselves on your very being.
-&gt;You feel butterflies in your stomach. There’s no going back now.
-&gt;You tell her in a soft, reassuring tone, “I&#039;m here for you. There’s no need to worry anymore.” As you place your hands on her shoulders and pull her in for another kiss.
-&gt;A soft moan escapes her lips as they meet yours.
-&gt;You gently run your hands down her arms and onto her fuzzy hips.
-&gt;Your fingers hook into the fabric surrounding her torso, and you pull off her top with little difficulty.
-&gt;Her feminine form is  even more alluring than you  seem to remember. Her unobstructed breasts are remarkably exotic, each one decreasing in size as they run down her midsection.
-&gt;She shudders in pleasure as you trace a finger along one of her 8 nipples, feeling it harden from the gentle stimulation. A few kisses planted on her arched neck  provoke an aroused whimper.
-&gt;“I&#039;ve wanted this for a very long time.” She croons into your ear. Giving it a soft lick.
-&gt;Your heart begins to pound as she places a single paw onto your stomach and gracefully unbuttons your pants.
-&gt;Your erection strains against your boxers, which she swiftly pulls  down to your ankles.
-&gt;She stares at your member with fascination, making you feel a bit insecure.
-&gt;“Is something wrong?” you ask uneasily.
-&gt;“Oh! No! Not at all.” She replies, “ It&#039;s just so different from what I expected.”
-&gt;You realize she’s probably never seen a human this closely before.
-&gt;She gives it an inquisitive sniff, before running her tongue along your length.
-&gt;The sensation makes your breaths uneven, and your nerves race with excitement.
-&gt;It doesn’t take long for you to reach the edge as she greedily teases your glans with her mouth. It twitches like mad before shooting thick ropes of cum into Pisgah&#039;s waiting throat.
-&gt;With a smirk of accomplishment, she swallows your seed, and licks her lips.
-&gt;“I hope you can make me feel good too…” she says in a sultry tone as she unties her skirt.
-&gt;You don’t need any further instruction. You place your hands on her firm thighs and lower your face between them.
-&gt;The smell of a wild animal in heat greets your nostrils, inciting a primal reaction from somewhere in your blood. You caress her feminine folds with your tongue, simply deriving enjoyment from her pleasured moans and whimpers.
-&gt;“I- Ah! can’t… I can’t take anymore! “ she yelps. “Plea-please breed me!”
-&gt;Those words are all it takes to re-ignite the fire in your loins.
-&gt;You re-position your body to line up your hips with hers.
-&gt;You trace the entrance of her genital slit with your erect cock, making her girly fluids soak the two of you even further.
-&gt;You penetrate her slowly, with some difficulty. Her breathing becomes ragged as you hilt your member inside her.
-&gt;“You can start moving now” she pants.
-&gt;Her insides are so hot you feel like you’re going to melt.
-&gt;You begin moving. Slowly, as not to hurt her. 
-&gt;The sounds of your lovemaking echo off  the cavern walls.
-&gt;You rhythmically increase the pace as you both near your limit.
-&gt;“Oh! I’m- I&#039;m… ah-Ah-AAAHHN!” Pisgah screams as her vaginal walls convulse around your throbbing shaft, pushing you to your own climax,  painting her insides with your cum.
-&gt;You both stare at each other, panting. She leans over and gives you a passionate kiss on the lips.
-&gt;“I love you more than anything.” She murmurs.
-&gt;You hold her in your arms, before falling soundly asleep.
-
-Prologue. Sort-of.
-
-&gt;“There it is!” you yell excitedly as you run to your car.
-&gt;You open the door and jump inside.
-&gt;You worried the battery would have died after all this time, but it still seems to be going strong.
-&gt;The car roars to life as you turn the key.
-&gt;You look into the forest you spent such a long time in.
-&gt;“I’m going to miss this hellhole.” You say to yourself.
-&gt;Your new lover leans over in the seat next to you and gives you a peck on the cheek.
-&gt;You shift gears and press your foot onto the accelerator, happily driving back into civilization.
-&gt;Something nags at the back of your mind during the trip.
-&gt;You haven’t paid rent in a month.
-&gt;Fuck.
-
-The End.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    17 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    28 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

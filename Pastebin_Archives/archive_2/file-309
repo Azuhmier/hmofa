@@ -1,669 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Seal&#039;d Fate - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Seal&#039;d Fate - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/0mS3x99t" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/0mS3x99t" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="QZKZG5Sx73SFJEXVRs7sjHPKwQ4naahx3Td90PgZUJ0QoaovpO6VF-1RHJlxpbjZIJKzRGpe4QWeAimcqEoGqw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/0mS3x99t" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/0mS3x99t" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/20/8/0/3492136.jpg" alt="Exro">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Seal&#039;d Fate</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Exro">Exro</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Exro" class="message" title="Send a private message to: Exro"></a>
-                                    
-                <div class="date">
-                    <span title="Wednesday 11th of April 2018 10:55:33 AM CDT">Apr 11th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,805                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 27.78 KB            </div>
-
-            <div class="right">
-                <a href="/raw/0mS3x99t" class="btn -small">raw</a>
-                <a href="/dl/0mS3x99t" class="btn -small">download</a>
-                <a href="/clone/0mS3x99t" class="btn -small h_800">clone</a>
-                <a href="/embed/0mS3x99t" class="btn -small h_800">embed</a>
-                <a href="/report/0mS3x99t" class="btn -small">report</a>
-                <a href="/print/0mS3x99t" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;As a boy you had always been fascinated with the ocean. Your father had told you tales of adventure, love and sorrow, and many a night you spent awake, lost in waves made by the pages of tomes on your nightstand.</div></li><li class="li1"><div class="de1">&gt;As a teen you a boy you spent your freetime at the docks, talking to the sailors about their adventures overseas, lost in their tales of grandeur and exploration.</div></li><li class="li1"><div class="de1">&gt;And as a man, you got lost.</div></li><li class="li1"><div class="de1">&gt;Lost at sea.</div></li><li class="li1"><div class="de1">&gt;Utterly. Fucking. Lost.</div></li><li class="li1"><div class="de1">&gt;If you had to be honest, you weren’t in that much danger, you had food and water rations for days in the cooler downstairs, but you didn’t like the idea of being lost in the middle of the ocean for what looked to be weeks on end.</div></li><li class="li1"><div class="de1">&gt;You shiver as an artic wind cuts through your jacket, and you head down into the cabin to get your thick wool jacket.</div></li><li class="li1"><div class="de1">&gt;As you descend into the depths of your ship, you sigh deeply, thinking about how you ended up in this situation.</div></li><li class="li1"><div class="de1">&gt;You were here on vacation, just wanting to relax and get away from the stresses of home life and get out on the sea. </div></li><li class="li1"><div class="de1">&gt;Apparently you forgot to anchor for the night, and when you woke up, you were nowhere close to where you were supposed to be.</div></li><li class="li1"><div class="de1">&gt;Before you were out alone, and now, you were encompassed by chunks of ice. </div></li><li class="li1"><div class="de1">&gt;Even worse, you gps was on the fritz, a damn wave had swept through and messed up your system.</div></li><li class="li1"><div class="de1">&gt;According to it, you were in the middle of eastern Europe right now.</div></li><li class="li1"><div class="de1">&gt;You groan and smack it again, annoyed at the cheap piece of shit.</div></li><li class="li1"><div class="de1">&gt;It blurbs twitching, but nothing changes.</div></li><li class="li1"><div class="de1">&gt;So this was how you were going to die.</div></li><li class="li1"><div class="de1">&gt;Getting lost at sea during your first solo sailing expedition.</div></li><li class="li1"><div class="de1">&gt;Absolutely excellent, the boys back home would be cracking up right now.</div></li><li class="li1"><div class="de1">&gt;Anon, the sailor, lost.</div></li><li class="li1"><div class="de1">&gt;What a joke.</div></li><li class="li1"><div class="de1">&gt;What a terrible joke.</div></li><li class="li1"><div class="de1">&gt;With a sigh, you grab a can of tuna, cranking it open with a small effort.</div></li><li class="li1"><div class="de1">&gt;You eat as you sail, having decided that the best course of action was to simply sail in a single direction, and pray you reached land before you run out of food.</div></li><li class="li1"><div class="de1">&gt;You sailed for hours, creeping through the steadily icing waters of the ocean.</div></li><li class="li1"><div class="de1">&gt;You gulped down another bite of tuna. The can felt heavy in your hand, and your mouth felt sour.</div></li><li class="li1"><div class="de1">&gt;Appetite lost, you dump the rest of the can into the ocean, and continue on your route.</div></li><li class="li1"><div class="de1">&gt;It’s midnight now, the sun having long since swallowed by the horizon, and you’re navigating the treacherous waters with nothing but your headlights.</div></li><li class="li1"><div class="de1">&gt;You hear a knock on the underside of the ship, a loud thud like thunder echoing through the deck.</div></li><li class="li1"><div class="de1">&gt;Your heart punches your stomach, and you almost vomit up the little tuna you’ve consumed.</div></li><li class="li1"><div class="de1">&gt;What if an ice burg slipped under and breached the hull?</div></li><li class="li1"><div class="de1">&gt;You race down the stairs, into the undercarriage, but you find nothing.</div></li><li class="li1"><div class="de1">&gt;Not even a trace of water.</div></li><li class="li1"><div class="de1">&gt;You here another knock, this time on the other side of the hull.</div></li><li class="li1"><div class="de1">&gt;What?</div></li><li class="li1"><div class="de1">&gt;You head back up, completely confused.</div></li><li class="li1"><div class="de1">&gt;Was someone in the water?</div></li><li class="li1"><div class="de1">&gt;A ship wrecked victim?</div></li><li class="li1"><div class="de1">&gt;Your ears pick up a shout from below.</div></li><li class="li1"><div class="de1">&gt; “…hey!”</div></li><li class="li1"><div class="de1">&gt;You look out into the darkened ocean, but you see nothing.</div></li><li class="li1"><div class="de1">&gt;You hear the voice again, clearer this time, and definitely feminine.</div></li><li class="li1"><div class="de1">&gt; “Hey! Thanks for the snack!”</div></li><li class="li1"><div class="de1">&gt;You look down, right down below you, and you jump back when you see a face looking up at you from the icy deep.</div></li><li class="li1"><div class="de1">&gt;There, in the water, was a seal, or at least, what looked like a seal.</div></li><li class="li1"><div class="de1">&gt;The first things you noticed were her eyes, deep green, like the color of summer. </div></li><li class="li1"><div class="de1">&gt;Her face was roundish, with a big dog nose plopped right in the middle of it. </div></li><li class="li1"><div class="de1">&gt;From what you could see, blonde hair cascaded from her head like a golden crown, floating in the water around her.</div></li><li class="li1"><div class="de1">&gt;You couldn’t help but stare at the floating face, and inwardly you wondered if you were simply going crazy.</div></li><li class="li1"><div class="de1">&gt; “Can I come aboard, sir?” she asked in a voice that sounded of glass bells blown by a gentle breeze.</div></li><li class="li1"><div class="de1">&gt;You nod numbly, not particularly believing your eyes.</div></li><li class="li1"><div class="de1">&gt;Without a word she dove under the water, her entire body disappearing into the murky depths, before she came flying out, landing on the deck with grace you didn’t think was possible.</div></li><li class="li1"><div class="de1">&gt; “Tada~!” she said, waving her hands in jazzy fashion.</div></li><li class="li1"><div class="de1">&gt;You can only blink at her, your mind blank.</div></li><li class="li1"><div class="de1">&gt;Now that you got a good look at her, you could tell she was quite pretty.</div></li><li class="li1"><div class="de1">&gt;Her belly and torso were light colored, while the rest of her retained that darker tan coloration.</div></li><li class="li1"><div class="de1">&gt;Her tail was something else.</div></li><li class="li1"><div class="de1">&gt;Several feet long and thick as her thighs, which by the way, were not thin by any stretch of the imagination, her tail looked strong enough to smash steel.</div></li><li class="li1"><div class="de1">&gt;You balk at the creature, quite unsure of what to do with yourself.</div></li><li class="li1"><div class="de1">&gt; “You know, its rude to stare at a lady.” The seal says with a grin. “…but if you insist…”</div></li><li class="li1"><div class="de1">&gt;She strikes a pose, her body twisting and showing off her curves.</div></li><li class="li1"><div class="de1">&gt;It was just then that you realized that she was naked.</div></li><li class="li1"><div class="de1">&gt;Looking the seal dead in the eyes, you refuse to avert your gaze.</div></li><li class="li1"><div class="de1">&gt;You see, anthros were incredibly rare, and though you had seen a few walking around, you heard it was rude to rebuke them for their culture, and nudity was just something that anthros did.</div></li><li class="li1"><div class="de1">&gt;Sometimes they wore clothes, but you doubted that any living this far from civilization would bother donning any form of clothing, especially since they swam 24/7.</div></li><li class="li1"><div class="de1">&gt; “So! Mister…what’s your name?” She asked tilting her head in a dog like manner.</div></li><li class="li1"><div class="de1">“It’s Anon,” still dead locked with her eyes.</div></li><li class="li1"><div class="de1">&gt; “Mr. Anon, you do know that this is seal territory and all fishing expeditions are prohibited under Article four subsection A-One by the Anthro-Humano Maritime charter, right?”</div></li><li class="li1"><div class="de1">&gt;To be perfectly honest, you didn’t, despite knowing about the charter.</div></li><li class="li1"><div class="de1">“I’m terribly sorry, I don’t mean to be intruding on your property, could you happen to point me in the direction of human civilization, and I’ll be out of your…hair” You say.</div></li><li class="li1"><div class="de1">&gt; “Well,” she says somewhat excitedly, “I’ll be happy to lead you to the seal settlement!” She claps her hands in glee.</div></li><li class="li1"><div class="de1">&gt;You agree to have her help you, and she leaps off the bow of the ship, swimming in front.</div></li><li class="li1"><div class="de1">&gt; “Mr. Anon, just follow me, its not that far from here!”</div></li><li class="li1"><div class="de1">&gt;You turn on the ship, and follow, your eyes not leaving the seal woman’s backside.</div></li><li class="li1"><div class="de1">&gt;Every so often she’d turn and tell you a random fact about seals.</div></li><li class="li1"><div class="de1">&gt; “Did you know that we can sleep underwater! Boy was I surprised when I found that out!”</div></li><li class="li1"><div class="de1">&gt; “Did you know that we can dive up to 3,000 feet?! But my mom says dad could dive up to 4,000!”</div></li><li class="li1"><div class="de1">&gt; “Did you know that mother seal milk is up to 50% fat? Yea I know talk about bulking!”</div></li><li class="li1"><div class="de1">&gt; “Did you know…”</div></li><li class="li1"><div class="de1">&gt;When you finally see land, its been a few hours and a million seal facts later. </div></li><li class="li1"><div class="de1">&gt;The sunrise had begun painting the ice around you like azaleas, and in the distance, you see buildings.</div></li><li class="li1"><div class="de1">“I thought you said that this was a habitat?” You say to the seal girl, who was now occupying the captain’s chair, munching happily on some crackers. </div></li><li class="li1"><div class="de1">&gt; “Well,” She said, putting a finger on her chin, “habitat -can- mean our little town, if that’s what you’re getting at.” She harrumphed, looking out the window. “We might be anthros, but we’re not savages. If all humans are like this, I don’t think I -want- to go to the human world.”</div></li><li class="li1"><div class="de1">&gt;You give her the most unamused look you can, but she ignores you.</div></li><li class="li1"><div class="de1">“Either way, I’m grateful for your help. It would have been a slow death for me if you hadn’t been there.” You say, looking out at the dock that appeared when you piloted closer to the island. </div></li><li class="li1"><div class="de1">&gt;You grab your necklace, a simple chain with a metal pendant on it, and hold it out to the seal.</div></li><li class="li1"><div class="de1">“It’s not much but it’s my way of saying thanks.</div></li><li class="li1"><div class="de1">&gt;She holds it, silently, before squealing happily and jumping off the boat, landing in the water with a ker-plash.</div></li><li class="li1"><div class="de1">&gt;…Weird.</div></li><li class="li1"><div class="de1">&gt;Disregarding the odd behavior of the long-gone seal girl, you sail into port. </div></li><li class="li1"><div class="de1">&gt;Docking your ship in for the night, you settle into bed below deck, glad you can close your eyes without worry of getting lost again.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You woke to the sound of footsteps on deck.</div></li><li class="li1"><div class="de1">&gt;Bolting upright, you look around the modest bedroom you inhabited.</div></li><li class="li1"><div class="de1">&gt;Not a single sign of life was there.</div></li><li class="li1"><div class="de1">&gt;Only you, the mirror and your armoire.</div></li><li class="li1"><div class="de1">&gt;You slip on some clothes: jeans, a warm shirt and your thickest coat.</div></li><li class="li1"><div class="de1">&gt;Looking out the window in the door, you spot the intruder.</div></li><li class="li1"><div class="de1">&gt;It was her again.</div></li><li class="li1"><div class="de1">&gt;The seal from yesterday.</div></li><li class="li1"><div class="de1">&gt;And she was wearing your necklace.</div></li><li class="li1"><div class="de1">&gt;And she still wasn’t wearing any clothes.</div></li><li class="li1"><div class="de1">&gt;You open the door, step out in the cold morning air.</div></li><li class="li1"><div class="de1">“I see you’re back, Ms. Celeste. I take it I haven’t broken any maritime laws this time?”</div></li><li class="li1"><div class="de1">&gt;She stops a few feet away, her summer green eyes wandering over your body.</div></li><li class="li1"><div class="de1">&gt;She looked reluctant to speak, as if something heavy was weighing on her. </div></li><li class="li1"><div class="de1">&gt; “I…just wanted to hang out…ya’ know, get the know you…and stuff…” she trails off, tapping her fingers in an adorably nervous gesture.</div></li><li class="li1"><div class="de1">“...Sure, we can hang.” You say casually. “I have nothing better to do today until my GPS gets fixed.”</div></li><li class="li1"><div class="de1">&gt;Celeste beams, and you wonder what you just agreed to.</div></li><li class="li1"><div class="de1">&gt; “Oh great! I was really worried you would have said no.” She says, laughing like a nervous sheep. “I’m sorry for chattering your ears to death, you’re the first human I’ve met…”</div></li><li class="li1"><div class="de1">&gt;You chuckle, more at the reminder of the seal based lecture and less at the sea predator’s childlike behavior.</div></li><li class="li1"><div class="de1">“It’s fine, you kept me awake with your lesson anyway.”</div></li><li class="li1"><div class="de1">&gt;You slip off your jacket, holding it out to the seal.</div></li><li class="li1"><div class="de1">&gt;Celeste’s eyes widen in surprise, a deep blush forming on her face.</div></li><li class="li1"><div class="de1">&gt; “Are you sure? For me?”</div></li><li class="li1"><div class="de1">“Just take this, if not for your sake, for mine.”</div></li><li class="li1"><div class="de1">&gt;Nodding (and still blushing madly), she takes the jacket, slipping it on.</div></li><li class="li1"><div class="de1">&gt; “I-I read that humans are weird about being nude.  What’s that all about?”</div></li><li class="li1"><div class="de1">&gt;You grimace against the cold, the talons of the arctic’s chill seeping through your shirt.</div></li><li class="li1"><div class="de1">&gt;Holding up a finger, you return below deck, and grab another coat.</div></li><li class="li1"><div class="de1">&gt;Sufficiently covered, you head topside, where Celeste was waiting for you.</div></li><li class="li1"><div class="de1">“Humans don’t have an innate set of clothes on, that’s why we’re ‘weird’ about nudity. Besides, we’re not the weird ones, clothes are normal. You guys are the weird ones.” You say, perhaps a little more defensively than you wanted.</div></li><li class="li1"><div class="de1">&gt;Celeste laughs, hopping off the boat and onto the dock.</div></li><li class="li1"><div class="de1">&gt; “Whatever you say, Mr. Anon.”</div></li><li class="li1"><div class="de1">“So, what do you have planned for me today, Ms. Celeste?” You ask, following the seal down the dock and into town.</div></li><li class="li1"><div class="de1">&gt; “Well…” she says, grandiosely sweeping a hand around her at the dock town. “I thought you would enjoy a tour, not that it would take any time, there’s not really much here. Not very similar to your big human cities, huh?</div></li><li class="li1"><div class="de1">&gt;She looks a little downtrodden after that sentence, frowning at the ground.</div></li><li class="li1"><div class="de1">“I would like that very much, Celeste, this *is* my kind of town after all.”</div></li><li class="li1"><div class="de1">&gt;Celeste perks up, looking at you with increased vigor.</div></li><li class="li1"><div class="de1">&gt; “Is that true?!”</div></li><li class="li1"><div class="de1">“Yea, I used to live in a small town just off the shore when I was a kid. Moved away when I was 11, but I’ve always wanted to live in a quiet town on the sea.” You say, pausing to breath in the cold arctic air. “This place gives me some nice nostalgia, I have to admit.”</div></li><li class="li1"><div class="de1">&gt; “Great!, You’ll love this place then!” Celeste said, bouncing in place, an infectiously cute smile gracing her features. “Follow me!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The town itself was named Cold Cove, and true to its name, it was a rather, well, cold cove.</div></li><li class="li1"><div class="de1">&gt;The entire town was nestled between two small mountains, with houses sat above on the mountain face.</div></li><li class="li1"><div class="de1">&gt;The docks itself was rather interesting, being half port, and half town, with buildings having been built along the entirety of the icy pier. </div></li><li class="li1"><div class="de1">&gt;It was a quiet town, with only a few seal anthros wandering the place.</div></li><li class="li1"><div class="de1">&gt;As you two wandered through the town, you received differing reactions from the townsfolk.</div></li><li class="li1"><div class="de1">&gt;Some either regarded you with trepidation, or were openly friendly and waved.</div></li><li class="li1"><div class="de1">&gt;But the strangers ones simply elected to stare at the seal leading you by the hand through the town.  </div></li><li class="li1"><div class="de1">&gt;The first building you visited was one of the strangest.</div></li><li class="li1"><div class="de1">&gt;It was probably the tallest building in the town, which, isn’t truthfully saying much, but it still stuck out like one of the tallest flowers in the garden.</div></li><li class="li1"><div class="de1">&gt;The entire thing was comprised of redbrick covered with wooden slats painted with ribbons of blues and yellows like someone had teepee’d the thing with birthday streamers.</div></li><li class="li1"><div class="de1">&gt;Celeste seemed especially excited to have you here, and was nearly bouncing in place with an dangerously pretty smile gracing her face.</div></li><li class="li1"><div class="de1">&gt; “This is where I work!” She said, grinning up at you with glee. “I painted it myself! Do you like it?”</div></li><li class="li1"><div class="de1">&gt;You nod. </div></li><li class="li1"><div class="de1">“Yes, but what is this place exactly?”</div></li><li class="li1"><div class="de1">&gt; “Its the Schoolhouse!” Celeste said. “We seals take our education very seriously.”</div></li><li class="li1"><div class="de1">“So…you’re a teacher? That explains all the seal fun facts I got earlier.”</div></li><li class="li1"><div class="de1">&gt;Celeste looks a bit crestfallen, but picks up her attitude before you could question anything.</div></li><li class="li1"><div class="de1">&gt; “Well, I’m not really a teacher, more like a teacher’s aid. I…uh failed my first try at the certification test, so now I have to wait a few weeks to try again.” She said, sheepishly.</div></li><li class="li1"><div class="de1">“Unlucky,” You say. “You want any help studying for it?”</div></li><li class="li1"><div class="de1">&gt;Why did that just slip out? </div></li><li class="li1"><div class="de1">&gt;Celeste looks overjoyed, and and any regret you might have felt earlier melts a little bit.</div></li><li class="li1"><div class="de1">“So why are you leading me right now instead of working in the school?” You ask, raising an eyebrow.</div></li><li class="li1"><div class="de1">&gt; “I took a vacation day, silly!” Celeste says, beginning to pull you along.</div></li><li class="li1"><div class="de1">&gt;Duh.</div></li><li class="li1"><div class="de1">&gt;The next stop was a long, flat building with two glass double doors, painted similarly to the school.</div></li><li class="li1"><div class="de1">&gt; “This is my second favorite place on the island.” she said, pulling a key out of her jacket pocket.</div></li><li class="li1"><div class="de1">&gt;Turning the key in the lock, she opened the door, holding it for you to step through.</div></li><li class="li1"><div class="de1">&gt;It was dark in here, save for one light, in the back illuminating a most curious scene.</div></li><li class="li1"><div class="de1">&gt;Sitting by her lonesome was a seal anthro, surrounded by books and papers.</div></li><li class="li1"><div class="de1">&gt;They don’t appear to have noticed you, as they were deep in study.</div></li><li class="li1"><div class="de1">&gt;Celeste huffed, annoyed for some reason, before flicking on the lights.</div></li><li class="li1"><div class="de1">&gt; “O-oh!” they gasped in surprise.</div></li><li class="li1"><div class="de1">&gt; “Denise! What have I told you about only having that light on?” Celeste chided.</div></li><li class="li1"><div class="de1">&gt;’Denise’ the seal hid behind her stack of books, peeking out at Celeste. “I-I’m sorry, I just had to get some studying done for the mid-term test, and OHMYGOSH Is that a human?! Here!?” </div></li><li class="li1"><div class="de1">&gt;The studious seal had gone from hiding behind her books to under the desk as you two approached her work area.</div></li><li class="li1"><div class="de1">&gt; “Yes Denise, this is Anon, he’s my…friend and I’m taking him on a tour of Cold Cove for now, but now I have to chastise you in front of him. And- wait, the door was locked…” Celeste said, trailing off. “Exactly how long have you been in here in the dark?”</div></li><li class="li1"><div class="de1">&gt; Denise seemed to count the hours in her head. “Um…two days…?”</div></li><li class="li1"><div class="de1">&gt; “And why didn’t you turn on the lights?”</div></li><li class="li1"><div class="de1">&gt; “I-I didn’t want to be wasteful, I’m sorry.” Said Denise.</div></li><li class="li1"><div class="de1">&gt; “Well, when you need glasses from all that eye strain, you’re going to really be wasteful then, hmm?” Celeste glowered.</div></li><li class="li1"><div class="de1">&gt;Celeste sighed, shaking her head. “Up. C’mon now, get up, we’re going to get you out of here.”</div></li><li class="li1"><div class="de1">&gt;Denise did as she was told, but recoiled when you extended a hand in greeting.</div></li><li class="li1"><div class="de1">&gt;For a second she stood frozen, but with a little prompting from Celeste, she took your hand. “H-hi.”</div></li><li class="li1"><div class="de1">“Hello, nice to meet you.” You reply.</div></li><li class="li1"><div class="de1">&gt;With that, Celeste shooed her out the library, and locked the door behind her.</div></li><li class="li1"><div class="de1">&gt;She shook her head.</div></li><li class="li1"><div class="de1">&gt; “That girl, sometimes I swear…Anon, she’s a good girl, but…she’s a little bit of a coo-coo when it comes to studying. You wouldn’t think we’ve been friends for years but…here we are.”</div></li><li class="li1"><div class="de1">&gt;She begins to organize the stack of books, placing them carefully onto a cart.</div></li><li class="li1"><div class="de1">&gt; “Do you mind helping me clean this up, we can’t leave this place a mess.” The seal said.</div></li><li class="li1"><div class="de1">“No, no, not all.” You say, grabbing a book. “Just tell me where to put them.”</div></li><li class="li1"><div class="de1">&gt;Celeste looked pensive for a moment. “Just…stack them neatly on this cart, and we’ll go through and re-shelve them. I’ll swing by Denise’s later and give her the papers she left. That girl really can go overboard sometimes.”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;By the time you and Celeste had finished shelving, the sun was on the last leg of its trip through the sky, and you both were quite hungry- you especially so, considering you hadn’t eaten a bite since the supposedly sour tuna yesterday. </div></li><li class="li1"><div class="de1">“You think there’s anywhere around here that has some good food? I’m starving.”</div></li><li class="li1"><div class="de1">&gt;Celeste nods, “Yea, if you want we can stop by my house and get some food, if that’s alright with you. It’s not that far from here”</div></li><li class="li1"><div class="de1">&gt;You give her a quizzical look.</div></li><li class="li1"><div class="de1">“Are you sure you want to let a human you’ve never met into your home?”</div></li><li class="li1"><div class="de1">&gt;She returns you look with a smug one of her own, placing a hand on her chest.</div></li><li class="li1"><div class="de1">&gt; “I did some research on humans, and apparently you’re very kind towards those you own debts to. Or at least, you seem nice enough not to hurt me.”</div></li><li class="li1"><div class="de1">&gt;Your face twitches, but you say nothing.</div></li><li class="li1"><div class="de1">&gt; “Besides,” She says, bringing her tail around to put it right under you nose. “You look smart enough not to take your chances against this thing.”</div></li><li class="li1"><div class="de1">&gt;She was damn right.</div></li><li class="li1"><div class="de1">&gt;The rest of the walk went by in silence, and you wondered how much the seal walking beside you knew about you.</div></li><li class="li1"><div class="de1">&gt;She seemed highly perceptive, for someone so…childlike.</div></li><li class="li1"><div class="de1">&gt;She did say you were the first human she’d met, so maybe she’s just nervous.</div></li><li class="li1"><div class="de1">&gt;You leave the train of thought there as you stop behind her at the door of her home.</div></li><li class="li1"><div class="de1">&gt;It was a cute little ditty, sitting a little ways away from the cliffside.</div></li><li class="li1"><div class="de1">&gt;Painted a melancholy gray and decorated with little splashes of color like a chaotic flower garden on the wall, the tiny house was something from a movie.</div></li><li class="li1"><div class="de1">&gt;It exuded nostalgia for the days you your father and mother lived together by the sea.</div></li><li class="li1"><div class="de1">&gt;You were drawn to it, and as you drew closer, your heart was filled with anxiety, as if touching it would turn you back into a child again.</div></li><li class="li1"><div class="de1">&gt;Celeste rapt on the door, waiting a few moments before trying the handle. It was unlocked.</div></li><li class="li1"><div class="de1">&gt;She sighed, rolling her eyes at you as if you were the cause of her sudden annoyance.</div></li><li class="li1"><div class="de1">&gt; “Of all the times…” she muttered under her breath, causing you to raise an eyebrow.</div></li><li class="li1"><div class="de1">&gt;Turning the handle, the door slid open, allowing the two of you to enter.</div></li><li class="li1"><div class="de1">&gt;Despite its menial size, Celeste’s house was quite cozy.</div></li><li class="li1"><div class="de1">&gt;Modestly sized mid century themed furniture decorated the home, and you could see a stair well in the back, which led up to the second floor.</div></li><li class="li1"><div class="de1">&gt;One of the details you noticed was all the books.</div></li><li class="li1"><div class="de1">&gt;Almost every wall had a shelf, and every shelf was stuffed with books.</div></li><li class="li1"><div class="de1">&gt;If you were a fire marshal, you might have fainted at the sight.</div></li><li class="li1"><div class="de1">&gt;Turning right, Celeste and you meander into the kitchen, to find the source of her endless annoyance. </div></li><li class="li1"><div class="de1">&gt;A seal woman, seated at the kitchen table, calmly reading a book.</div></li><li class="li1"><div class="de1">&gt; “Mother! I thought you said you’d be out at this time!” Celeste said, striding over to the table, her tail twitching.</div></li><li class="li1"><div class="de1">&gt;The seal woman only smiled and dogeared the page of her book, before setting it on the table.</div></li><li class="li1"><div class="de1">&gt; “Celeste, you know me, I couldn’t stay away from my favorite daughter,” she laughed pinching you companion’s cheek, “besides, I wanted to meet whomever my brave little human fanatic had rescued.”</div></li><li class="li1"><div class="de1">&gt; “I’m your only daughter…” grumbled Celeste.</div></li><li class="li1"><div class="de1">&gt;You only raised an eyebrow, but you step forward, ignoring the pleading look from Celeste.</div></li><li class="li1"><div class="de1">&gt; “Oh please, deary, where are my manners, let me introduce myself.” The mother seal gave a small curtsy as she spoke. “My name is Rosalind, and I am the mother of the beautiful young lady who found you last night.”</div></li><li class="li1"><div class="de1">“Its a pleasure, and an honor to meet you ma’am.” you say giving a small bow of your own.</div></li><li class="li1"><div class="de1">&gt; “Oh! He has manners too. And he’s a handsome devil.” She said, giving a small laugh. “My little girl has excellent taste in men after all. No wonder she rejected Stephano.”</div></li><li class="li1"><div class="de1">&gt; “Mom!” Celeste said, her face a growing redder by the second.</div></li><li class="li1"><div class="de1">“Well, I can see where she got her good looks from.” You say. </div></li><li class="li1"><div class="de1">&gt;Where did that come from?</div></li><li class="li1"><div class="de1">&gt; “Oh my! And a charmer. Well! I can’t say anything for the rest of our little town, but I certainly approve.” Rosalind says, fluttering her eyelashes.</div></li><li class="li1"><div class="de1">“Approve of what?” You ask, quite confused.</div></li><li class="li1"><div class="de1">&gt; “Of you courting my daughter, of course!” She says. “Didn’t she tell you?”</div></li><li class="li1"><div class="de1">&gt;...What?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As a teen, when you went on voyages with your father, you and the sailors always prayed for three things.</div></li><li class="li1"><div class="de1">&gt;Good weather, good fishing, and a faithful wife.</div></li><li class="li1"><div class="de1">&gt;Well it looks like your prayers have been answered.</div></li><li class="li1"><div class="de1">&gt;As you sat at the kitchen table, being served by your gracious host Rosalind, you considered the sheepish seal before you. </div></li><li class="li1"><div class="de1">&gt;At first, you were shocked and appalled at what you had done, but now…you were kinda annoyed.</div></li><li class="li1"><div class="de1">&gt;Annoyed at Celeste for essentially tricking you.</div></li><li class="li1"><div class="de1">&gt;You had come to learn, in your small time at the table, that seals fancied themselves copycats.</div></li><li class="li1"><div class="de1">&gt;They had seen how penguins chose their mates, and with a bit of modern tweaking, fashioned themselves a similar habit.</div></li><li class="li1"><div class="de1">&gt;When a seal present another with an object of significant emotional value, its their equivilant of him asking her to date.</div></li><li class="li1"><div class="de1">&gt;If he liked her enough, he would offer her an article of clothing representative of…less holy acts.</div></li><li class="li1"><div class="de1">&gt;Rosalind explained it as…you give the girl some clothing you wanna see her take off later.</div></li><li class="li1"><div class="de1">&gt;So…yeah.</div></li><li class="li1"><div class="de1">&gt;You had basically asked her daughter to fuck, and she had said yes.</div></li><li class="li1"><div class="de1">&gt;Great for her, really, really confusing for you.</div></li><li class="li1"><div class="de1">&gt; “Please don’t be mad at me, I really didn’t mean to trick you, but I just got excited and…” Celeste trailed off, tapping her index fingers together nervously.</div></li><li class="li1"><div class="de1">&gt;You sigh, not really knowing what to do.</div></li><li class="li1"><div class="de1">&gt;Well, you did know one thing.</div></li><li class="li1"><div class="de1">“I’m not gonna have sex with you.”</div></li><li class="li1"><div class="de1">&gt; “What?!”Celeste gasped, in strangely genuine shock, “You gave me the jacket!”</div></li><li class="li1"><div class="de1">“Speaking of that jacket…” you say, reaching across the table.</div></li><li class="li1"><div class="de1">“Gimme that back! You can’t keep that if it means I have to bed you!”</div></li><li class="li1"><div class="de1">&gt;You lunge for the jacket, grabbing a sleeve. </div></li><li class="li1"><div class="de1">&gt;To your immedieate regret, Celeste doesn’t resist. </div></li><li class="li1"><div class="de1">&gt;Instead she gives you a sly look.</div></li><li class="li1"><div class="de1">&gt; “This rough? Right here? Right now, with my mother in the room? Goodness, my books didn’t say anything about this…” </div></li><li class="li1"><div class="de1">&gt;She laughs when your face contorts into something akin to a look of shock, before you release the jacket and settle back in your chair.</div></li><li class="li1"><div class="de1">&gt; “My word!” Rosalind says. “You to sure make a cute couple. “I wonder if humans can even breed with anthros…”</div></li><li class="li1"><div class="de1">&gt; “Mooom!” </div></li><li class="li1"><div class="de1">&gt; “Oh, but don’t let me stop you from trying.” She titters, her face suddenly very foxlike. “Hmph, just like your father and I…”</div></li><li class="li1"><div class="de1">&gt; “MOM!” Celeste shouts.</div></li><li class="li1"><div class="de1">&gt; “I’m just an old cow, but I can see you two lovebirds needs some privacy. Let me just get out of your hair.”</div></li><li class="li1"><div class="de1">&gt;Content with how thoroughly embarrassed her daughter was, the older seal made her way across the kitchen, the door closing behind her with a clunk.</div></li><li class="li1"><div class="de1">&gt; “Moms… you know how they can be.” Celeste says with a sigh.</div></li><li class="li1"><div class="de1">&gt;You nod in understanding, electing to remain quiet.</div></li><li class="li1"><div class="de1">&gt; “So…what now?” she asks, her eyes once again filled with the glittering wonder-lust you had gotten accustomed to.</div></li><li class="li1"><div class="de1">&quot;I’ll be honest,” you begin, talking around a mouthful of biscuit. “I’m not that opposed to hanging out with you, if only because I owe it to you.”</div></li><li class="li1"><div class="de1">&gt;Celeste laughs, throwing her hand forward in mock shock. “Oh, please. You know you love me.”</div></li><li class="li1"><div class="de1">&gt;You smile at her antics.</div></li><li class="li1"><div class="de1">“We’ll see out the first date goes.”</div></li><li class="li1"><div class="de1">&gt; “I get a first date?!” She gasps. </div></li><li class="li1"><div class="de1">“Yup. Just, get ready, I’ll meet you outside of the library at eight o’clock”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The sun was beginning to set on the cold island as you began your journey back to the boat.</div></li><li class="li1"><div class="de1">&gt;Your thoughts wandered as you did along the coast, back to how you got yourself into this who kerfuffal. </div></li><li class="li1"><div class="de1">&gt;First you gave her the necklace, and second, you gave her the jacket.</div></li><li class="li1"><div class="de1">&gt;Both innocent gestures in your eyes that were sinifigant actions in hers.</div></li><li class="li1"><div class="de1">&gt;You sigh, realizing that you were basically trapped in this situation, unless you fixed your gps in 2 hours and got out of there.</div></li><li class="li1"><div class="de1">&gt;You briefly considered attempting, but you remembered how happy Celeste was when you accepted her offer, and something inside you wanted to see her that happy again.</div></li><li class="li1"><div class="de1">&gt;As you headed back to your ship, you wondered how you were going to pay for this date.</div></li><li class="li1"><div class="de1">&gt;This island didn’t happen to have a monetary exchange center, or at least you didn’t notice one on your initial tour. </div></li><li class="li1"><div class="de1">&gt;The thought of being unable to pay for this evening filled you with a little anxiety, a feeling you hoped would wash off when you arrived at your ship.</div></li><li class="li1"><div class="de1">&gt;You weren’t a rich boy, so your ship didn’t have a shower or a bath unit, however you did have something that could work.</div></li><li class="li1"><div class="de1">&gt;Legs dangling dangerously close to the icy water, you sat sternside, soap and bucket in hand like you were at an arctic bathhouse. </div></li><li class="li1"><div class="de1">&gt;Bracing yourself against the cold, you dump the water on yourself and begin scrubbing.</div></li><li class="li1"><div class="de1">&gt;Within seconds your teeth are chattering and and your whole body is shivering, but you finish lathering your body with soap and splash another round of cold water on yourself.</div></li><li class="li1"><div class="de1">&gt;Your quick bath finished, you wrap a towel around yourself and duck inside to warm up.</div></li><li class="li1"><div class="de1">&gt;As you dry off, you set out your clothes: a fresh shirt and pants, warm socks, and your bomber jacket.</div></li><li class="li1"><div class="de1">&gt;You slip you clothes on quickly, and check the clock as you step out into the cold air.</div></li><li class="li1"><div class="de1">&gt;7:40.</div></li><li class="li1"><div class="de1">&gt;You had time.</div></li><li class="li1"><div class="de1">&gt;Checking to make sure you were anchored in port (safety first), you head up the dock.</div></li><li class="li1"><div class="de1">&gt;It was windy today, and you shiver as a particularly angry bit of wind slips under your coat, and you begin to regret giving Celeste your best coat. </div></li><li class="li1"><div class="de1">&gt;The sun was in its setting phase, and you wondered if it would be impolite to swap jackets with her.	</div></li><li class="li1"><div class="de1">&gt;As you ponder the potential breach of social contracts, you spot Celeste sitting out on a bench, reading a small book.</div></li><li class="li1"><div class="de1">&gt;When she heard you approaching (which you didn’t know how, because she didn’t have outer ears), she looked up, beaming.</div></li><li class="li1"><div class="de1">&gt;She was wearing you jacket, a thick woolen thing your father gave you, and your necklace, over a carnelian t-shirt and jeans.</div></li><li class="li1"><div class="de1">&gt;Briefly, you wondered where she got those, but the implications behind that thought process were assuredly too profane for you to want to continue that line of thought.</div></li><li class="li1"><div class="de1">&gt; “Hey Anon! I’m glad you made it!” She said, sliding her book into one of the numerous pockets on your former coat.	</div></li><li class="li1"><div class="de1">“Well where else would I be?” You say, a smile spreading across your face.</div></li><li class="li1"><div class="de1">&gt; “Well, you could have tried to escape, by sailing away on your little dingy. But I don’t think that would have ended well for you.”</div></li><li class="li1"><div class="de1">&gt;You raise an eyebrow.</div></li><li class="li1"><div class="de1">“I assume you would have just come and found me once I had gotten myself nice and lost.”</div></li><li class="li1"><div class="de1">&gt; “Mmhm! I’d drag you back and we’d be right where we are right now.” Celeste said, a mischievous smile spreading across her face.</div></li><li class="li1"><div class="de1">&gt; “In fact, I don’t think you’d be able to get out of here without my help…”</div></li><li class="li1"><div class="de1">“Great, so I’m stuck here with you until I can find my own way out?” </div></li><li class="li1"><div class="de1">&gt; “Yup!” Celeste said, not skipping a beat.</div></li><li class="li1"><div class="de1">“Excellent.” You say, clapping your hands together. “So, where do you have in mind?”</div></li><li class="li1"><div class="de1">&gt;Celeste looks thoughtful for a moment, before smiling up at you. “We aren’t exactly a huge tourist local, so we don’t really have a major stop, but I love Mr. James’s Bistro. He makes excellent salmon burgers.” </div></li><li class="li1"><div class="de1">&gt;That piques your interest.</div></li><li class="li1"><div class="de1">“Salmon…burger?” You ask.</div></li><li class="li1"><div class="de1">&gt;You can imagine what it would be, but you aren’t exactly sold on the idea. </div></li><li class="li1"><div class="de1">&gt; “They’re really good!” Celeste says, grabbing your arm. “You’ll love them, I promise!”</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;As a boy you had always been fascinated with the ocean. Your father had told you tales of adventure, love and sorrow, and many a night you spent awake, lost in waves made by the pages of tomes on your nightstand.
-&gt;As a teen you a boy you spent your freetime at the docks, talking to the sailors about their adventures overseas, lost in their tales of grandeur and exploration.
-&gt;And as a man, you got lost.
-&gt;Lost at sea.
-&gt;Utterly. Fucking. Lost.
-&gt;If you had to be honest, you weren’t in that much danger, you had food and water rations for days in the cooler downstairs, but you didn’t like the idea of being lost in the middle of the ocean for what looked to be weeks on end.
-&gt;You shiver as an artic wind cuts through your jacket, and you head down into the cabin to get your thick wool jacket.
-&gt;As you descend into the depths of your ship, you sigh deeply, thinking about how you ended up in this situation.
-&gt;You were here on vacation, just wanting to relax and get away from the stresses of home life and get out on the sea. 
-&gt;Apparently you forgot to anchor for the night, and when you woke up, you were nowhere close to where you were supposed to be.
-&gt;Before you were out alone, and now, you were encompassed by chunks of ice. 
-&gt;Even worse, you gps was on the fritz, a damn wave had swept through and messed up your system.
-&gt;According to it, you were in the middle of eastern Europe right now.
-&gt;You groan and smack it again, annoyed at the cheap piece of shit.
-&gt;It blurbs twitching, but nothing changes.
-&gt;So this was how you were going to die.
-&gt;Getting lost at sea during your first solo sailing expedition.
-&gt;Absolutely excellent, the boys back home would be cracking up right now.
-&gt;Anon, the sailor, lost.
-&gt;What a joke.
-&gt;What a terrible joke.
-&gt;With a sigh, you grab a can of tuna, cranking it open with a small effort.
-&gt;You eat as you sail, having decided that the best course of action was to simply sail in a single direction, and pray you reached land before you run out of food.
-&gt;You sailed for hours, creeping through the steadily icing waters of the ocean.
-&gt;You gulped down another bite of tuna. The can felt heavy in your hand, and your mouth felt sour.
-&gt;Appetite lost, you dump the rest of the can into the ocean, and continue on your route.
-&gt;It’s midnight now, the sun having long since swallowed by the horizon, and you’re navigating the treacherous waters with nothing but your headlights.
-&gt;You hear a knock on the underside of the ship, a loud thud like thunder echoing through the deck.
-&gt;Your heart punches your stomach, and you almost vomit up the little tuna you’ve consumed.
-&gt;What if an ice burg slipped under and breached the hull?
-&gt;You race down the stairs, into the undercarriage, but you find nothing.
-&gt;Not even a trace of water.
-&gt;You here another knock, this time on the other side of the hull.
-&gt;What?
-&gt;You head back up, completely confused.
-&gt;Was someone in the water?
-&gt;A ship wrecked victim?
-&gt;Your ears pick up a shout from below.
-&gt; “…hey!”
-&gt;You look out into the darkened ocean, but you see nothing.
-&gt;You hear the voice again, clearer this time, and definitely feminine.
-&gt; “Hey! Thanks for the snack!”
-&gt;You look down, right down below you, and you jump back when you see a face looking up at you from the icy deep.
-&gt;There, in the water, was a seal, or at least, what looked like a seal.
-&gt;The first things you noticed were her eyes, deep green, like the color of summer. 
-&gt;Her face was roundish, with a big dog nose plopped right in the middle of it. 
-&gt;From what you could see, blonde hair cascaded from her head like a golden crown, floating in the water around her.
-&gt;You couldn’t help but stare at the floating face, and inwardly you wondered if you were simply going crazy.
-&gt; “Can I come aboard, sir?” she asked in a voice that sounded of glass bells blown by a gentle breeze.
-&gt;You nod numbly, not particularly believing your eyes.
-&gt;Without a word she dove under the water, her entire body disappearing into the murky depths, before she came flying out, landing on the deck with grace you didn’t think was possible.
-&gt; “Tada~!” she said, waving her hands in jazzy fashion.
-&gt;You can only blink at her, your mind blank.
-&gt;Now that you got a good look at her, you could tell she was quite pretty.
-&gt;Her belly and torso were light colored, while the rest of her retained that darker tan coloration.
-&gt;Her tail was something else.
-&gt;Several feet long and thick as her thighs, which by the way, were not thin by any stretch of the imagination, her tail looked strong enough to smash steel.
-&gt;You balk at the creature, quite unsure of what to do with yourself.
-&gt; “You know, its rude to stare at a lady.” The seal says with a grin. “…but if you insist…”
-&gt;She strikes a pose, her body twisting and showing off her curves.
-&gt;It was just then that you realized that she was naked.
-&gt;Looking the seal dead in the eyes, you refuse to avert your gaze.
-&gt;You see, anthros were incredibly rare, and though you had seen a few walking around, you heard it was rude to rebuke them for their culture, and nudity was just something that anthros did.
-&gt;Sometimes they wore clothes, but you doubted that any living this far from civilization would bother donning any form of clothing, especially since they swam 24/7.
-&gt; “So! Mister…what’s your name?” She asked tilting her head in a dog like manner.
-“It’s Anon,” still dead locked with her eyes.
-&gt; “Mr. Anon, you do know that this is seal territory and all fishing expeditions are prohibited under Article four subsection A-One by the Anthro-Humano Maritime charter, right?”
-&gt;To be perfectly honest, you didn’t, despite knowing about the charter.
-“I’m terribly sorry, I don’t mean to be intruding on your property, could you happen to point me in the direction of human civilization, and I’ll be out of your…hair” You say.
-&gt; “Well,” she says somewhat excitedly, “I’ll be happy to lead you to the seal settlement!” She claps her hands in glee.
-&gt;You agree to have her help you, and she leaps off the bow of the ship, swimming in front.
-&gt; “Mr. Anon, just follow me, its not that far from here!”
-&gt;You turn on the ship, and follow, your eyes not leaving the seal woman’s backside.
-&gt;Every so often she’d turn and tell you a random fact about seals.
-&gt; “Did you know that we can sleep underwater! Boy was I surprised when I found that out!”
-&gt; “Did you know that we can dive up to 3,000 feet?! But my mom says dad could dive up to 4,000!”
-&gt; “Did you know that mother seal milk is up to 50% fat? Yea I know talk about bulking!”
-&gt; “Did you know…”
-&gt;When you finally see land, its been a few hours and a million seal facts later. 
-&gt;The sunrise had begun painting the ice around you like azaleas, and in the distance, you see buildings.
-“I thought you said that this was a habitat?” You say to the seal girl, who was now occupying the captain’s chair, munching happily on some crackers. 
-&gt; “Well,” She said, putting a finger on her chin, “habitat -can- mean our little town, if that’s what you’re getting at.” She harrumphed, looking out the window. “We might be anthros, but we’re not savages. If all humans are like this, I don’t think I -want- to go to the human world.”
-&gt;You give her the most unamused look you can, but she ignores you.
-“Either way, I’m grateful for your help. It would have been a slow death for me if you hadn’t been there.” You say, looking out at the dock that appeared when you piloted closer to the island. 
-&gt;You grab your necklace, a simple chain with a metal pendant on it, and hold it out to the seal.
-“It’s not much but it’s my way of saying thanks.
-&gt;She holds it, silently, before squealing happily and jumping off the boat, landing in the water with a ker-plash.
-&gt;…Weird.
-&gt;Disregarding the odd behavior of the long-gone seal girl, you sail into port. 
-&gt;Docking your ship in for the night, you settle into bed below deck, glad you can close your eyes without worry of getting lost again.
-
-&gt;You woke to the sound of footsteps on deck.
-&gt;Bolting upright, you look around the modest bedroom you inhabited.
-&gt;Not a single sign of life was there.
-&gt;Only you, the mirror and your armoire.
-&gt;You slip on some clothes: jeans, a warm shirt and your thickest coat.
-&gt;Looking out the window in the door, you spot the intruder.
-&gt;It was her again.
-&gt;The seal from yesterday.
-&gt;And she was wearing your necklace.
-&gt;And she still wasn’t wearing any clothes.
-&gt;You open the door, step out in the cold morning air.
-“I see you’re back, Ms. Celeste. I take it I haven’t broken any maritime laws this time?”
-&gt;She stops a few feet away, her summer green eyes wandering over your body.
-&gt;She looked reluctant to speak, as if something heavy was weighing on her. 
-&gt; “I…just wanted to hang out…ya’ know, get the know you…and stuff…” she trails off, tapping her fingers in an adorably nervous gesture.
-“...Sure, we can hang.” You say casually. “I have nothing better to do today until my GPS gets fixed.”
-&gt;Celeste beams, and you wonder what you just agreed to.
-&gt; “Oh great! I was really worried you would have said no.” She says, laughing like a nervous sheep. “I’m sorry for chattering your ears to death, you’re the first human I’ve met…”
-&gt;You chuckle, more at the reminder of the seal based lecture and less at the sea predator’s childlike behavior.
-“It’s fine, you kept me awake with your lesson anyway.”
-&gt;You slip off your jacket, holding it out to the seal.
-&gt;Celeste’s eyes widen in surprise, a deep blush forming on her face.
-&gt; “Are you sure? For me?”
-“Just take this, if not for your sake, for mine.”
-&gt;Nodding (and still blushing madly), she takes the jacket, slipping it on.
-&gt; “I-I read that humans are weird about being nude.  What’s that all about?”
-&gt;You grimace against the cold, the talons of the arctic’s chill seeping through your shirt.
-&gt;Holding up a finger, you return below deck, and grab another coat.
-&gt;Sufficiently covered, you head topside, where Celeste was waiting for you.
-“Humans don’t have an innate set of clothes on, that’s why we’re ‘weird’ about nudity. Besides, we’re not the weird ones, clothes are normal. You guys are the weird ones.” You say, perhaps a little more defensively than you wanted.
-&gt;Celeste laughs, hopping off the boat and onto the dock.
-&gt; “Whatever you say, Mr. Anon.”
-“So, what do you have planned for me today, Ms. Celeste?” You ask, following the seal down the dock and into town.
-&gt; “Well…” she says, grandiosely sweeping a hand around her at the dock town. “I thought you would enjoy a tour, not that it would take any time, there’s not really much here. Not very similar to your big human cities, huh?
-&gt;She looks a little downtrodden after that sentence, frowning at the ground.
-“I would like that very much, Celeste, this *is* my kind of town after all.”
-&gt;Celeste perks up, looking at you with increased vigor.
-&gt; “Is that true?!”
-“Yea, I used to live in a small town just off the shore when I was a kid. Moved away when I was 11, but I’ve always wanted to live in a quiet town on the sea.” You say, pausing to breath in the cold arctic air. “This place gives me some nice nostalgia, I have to admit.”
-&gt; “Great!, You’ll love this place then!” Celeste said, bouncing in place, an infectiously cute smile gracing her features. “Follow me!”
-
-&gt;The town itself was named Cold Cove, and true to its name, it was a rather, well, cold cove.
-&gt;The entire town was nestled between two small mountains, with houses sat above on the mountain face.
-&gt;The docks itself was rather interesting, being half port, and half town, with buildings having been built along the entirety of the icy pier. 
-&gt;It was a quiet town, with only a few seal anthros wandering the place.
-&gt;As you two wandered through the town, you received differing reactions from the townsfolk.
-&gt;Some either regarded you with trepidation, or were openly friendly and waved.
-&gt;But the strangers ones simply elected to stare at the seal leading you by the hand through the town.  
-&gt;The first building you visited was one of the strangest.
-&gt;It was probably the tallest building in the town, which, isn’t truthfully saying much, but it still stuck out like one of the tallest flowers in the garden.
-&gt;The entire thing was comprised of redbrick covered with wooden slats painted with ribbons of blues and yellows like someone had teepee’d the thing with birthday streamers.
-&gt;Celeste seemed especially excited to have you here, and was nearly bouncing in place with an dangerously pretty smile gracing her face.
-&gt; “This is where I work!” She said, grinning up at you with glee. “I painted it myself! Do you like it?”
-&gt;You nod. 
-“Yes, but what is this place exactly?”
-&gt; “Its the Schoolhouse!” Celeste said. “We seals take our education very seriously.”
-“So…you’re a teacher? That explains all the seal fun facts I got earlier.”
-&gt;Celeste looks a bit crestfallen, but picks up her attitude before you could question anything.
-&gt; “Well, I’m not really a teacher, more like a teacher’s aid. I…uh failed my first try at the certification test, so now I have to wait a few weeks to try again.” She said, sheepishly.
-“Unlucky,” You say. “You want any help studying for it?”
-&gt;Why did that just slip out? 
-&gt;Celeste looks overjoyed, and and any regret you might have felt earlier melts a little bit.
-“So why are you leading me right now instead of working in the school?” You ask, raising an eyebrow.
-&gt; “I took a vacation day, silly!” Celeste says, beginning to pull you along.
-&gt;Duh.
-&gt;The next stop was a long, flat building with two glass double doors, painted similarly to the school.
-&gt; “This is my second favorite place on the island.” she said, pulling a key out of her jacket pocket.
-&gt;Turning the key in the lock, she opened the door, holding it for you to step through.
-&gt;It was dark in here, save for one light, in the back illuminating a most curious scene.
-&gt;Sitting by her lonesome was a seal anthro, surrounded by books and papers.
-&gt;They don’t appear to have noticed you, as they were deep in study.
-&gt;Celeste huffed, annoyed for some reason, before flicking on the lights.
-&gt; “O-oh!” they gasped in surprise.
-&gt; “Denise! What have I told you about only having that light on?” Celeste chided.
-&gt;’Denise’ the seal hid behind her stack of books, peeking out at Celeste. “I-I’m sorry, I just had to get some studying done for the mid-term test, and OHMYGOSH Is that a human?! Here!?” 
-&gt;The studious seal had gone from hiding behind her books to under the desk as you two approached her work area.
-&gt; “Yes Denise, this is Anon, he’s my…friend and I’m taking him on a tour of Cold Cove for now, but now I have to chastise you in front of him. And- wait, the door was locked…” Celeste said, trailing off. “Exactly how long have you been in here in the dark?”
-&gt; Denise seemed to count the hours in her head. “Um…two days…?”
-&gt; “And why didn’t you turn on the lights?”
-&gt; “I-I didn’t want to be wasteful, I’m sorry.” Said Denise.
-&gt; “Well, when you need glasses from all that eye strain, you’re going to really be wasteful then, hmm?” Celeste glowered.
-&gt;Celeste sighed, shaking her head. “Up. C’mon now, get up, we’re going to get you out of here.”
-&gt;Denise did as she was told, but recoiled when you extended a hand in greeting.
-&gt;For a second she stood frozen, but with a little prompting from Celeste, she took your hand. “H-hi.”
-“Hello, nice to meet you.” You reply.
-&gt;With that, Celeste shooed her out the library, and locked the door behind her.
-&gt;She shook her head.
-&gt; “That girl, sometimes I swear…Anon, she’s a good girl, but…she’s a little bit of a coo-coo when it comes to studying. You wouldn’t think we’ve been friends for years but…here we are.”
-&gt;She begins to organize the stack of books, placing them carefully onto a cart.
-&gt; “Do you mind helping me clean this up, we can’t leave this place a mess.” The seal said.
-“No, no, not all.” You say, grabbing a book. “Just tell me where to put them.”
-&gt;Celeste looked pensive for a moment. “Just…stack them neatly on this cart, and we’ll go through and re-shelve them. I’ll swing by Denise’s later and give her the papers she left. That girl really can go overboard sometimes.”
-
-
-
-&gt;By the time you and Celeste had finished shelving, the sun was on the last leg of its trip through the sky, and you both were quite hungry- you especially so, considering you hadn’t eaten a bite since the supposedly sour tuna yesterday. 
-“You think there’s anywhere around here that has some good food? I’m starving.”
-&gt;Celeste nods, “Yea, if you want we can stop by my house and get some food, if that’s alright with you. It’s not that far from here”
-&gt;You give her a quizzical look.
-“Are you sure you want to let a human you’ve never met into your home?”
-&gt;She returns you look with a smug one of her own, placing a hand on her chest.
-&gt; “I did some research on humans, and apparently you’re very kind towards those you own debts to. Or at least, you seem nice enough not to hurt me.”
-&gt;Your face twitches, but you say nothing.
-&gt; “Besides,” She says, bringing her tail around to put it right under you nose. “You look smart enough not to take your chances against this thing.”
-&gt;She was damn right.
-&gt;The rest of the walk went by in silence, and you wondered how much the seal walking beside you knew about you.
-&gt;She seemed highly perceptive, for someone so…childlike.
-&gt;She did say you were the first human she’d met, so maybe she’s just nervous.
-&gt;You leave the train of thought there as you stop behind her at the door of her home.
-&gt;It was a cute little ditty, sitting a little ways away from the cliffside.
-&gt;Painted a melancholy gray and decorated with little splashes of color like a chaotic flower garden on the wall, the tiny house was something from a movie.
-&gt;It exuded nostalgia for the days you your father and mother lived together by the sea.
-&gt;You were drawn to it, and as you drew closer, your heart was filled with anxiety, as if touching it would turn you back into a child again.
-&gt;Celeste rapt on the door, waiting a few moments before trying the handle. It was unlocked.
-&gt;She sighed, rolling her eyes at you as if you were the cause of her sudden annoyance.
-&gt; “Of all the times…” she muttered under her breath, causing you to raise an eyebrow.
-&gt;Turning the handle, the door slid open, allowing the two of you to enter.
-&gt;Despite its menial size, Celeste’s house was quite cozy.
-&gt;Modestly sized mid century themed furniture decorated the home, and you could see a stair well in the back, which led up to the second floor.
-&gt;One of the details you noticed was all the books.
-&gt;Almost every wall had a shelf, and every shelf was stuffed with books.
-&gt;If you were a fire marshal, you might have fainted at the sight.
-&gt;Turning right, Celeste and you meander into the kitchen, to find the source of her endless annoyance. 
-&gt;A seal woman, seated at the kitchen table, calmly reading a book.
-&gt; “Mother! I thought you said you’d be out at this time!” Celeste said, striding over to the table, her tail twitching.
-&gt;The seal woman only smiled and dogeared the page of her book, before setting it on the table.
-&gt; “Celeste, you know me, I couldn’t stay away from my favorite daughter,” she laughed pinching you companion’s cheek, “besides, I wanted to meet whomever my brave little human fanatic had rescued.”
-&gt; “I’m your only daughter…” grumbled Celeste.
-&gt;You only raised an eyebrow, but you step forward, ignoring the pleading look from Celeste.
-&gt; “Oh please, deary, where are my manners, let me introduce myself.” The mother seal gave a small curtsy as she spoke. “My name is Rosalind, and I am the mother of the beautiful young lady who found you last night.”
-“Its a pleasure, and an honor to meet you ma’am.” you say giving a small bow of your own.
-&gt; “Oh! He has manners too. And he’s a handsome devil.” She said, giving a small laugh. “My little girl has excellent taste in men after all. No wonder she rejected Stephano.”
-&gt; “Mom!” Celeste said, her face a growing redder by the second.
-“Well, I can see where she got her good looks from.” You say. 
-&gt;Where did that come from?
-&gt; “Oh my! And a charmer. Well! I can’t say anything for the rest of our little town, but I certainly approve.” Rosalind says, fluttering her eyelashes.
-“Approve of what?” You ask, quite confused.
-&gt; “Of you courting my daughter, of course!” She says. “Didn’t she tell you?”
-&gt;...What?
-
-&gt;As a teen, when you went on voyages with your father, you and the sailors always prayed for three things.
-&gt;Good weather, good fishing, and a faithful wife.
-&gt;Well it looks like your prayers have been answered.
-&gt;As you sat at the kitchen table, being served by your gracious host Rosalind, you considered the sheepish seal before you. 
-&gt;At first, you were shocked and appalled at what you had done, but now…you were kinda annoyed.
-&gt;Annoyed at Celeste for essentially tricking you.
-&gt;You had come to learn, in your small time at the table, that seals fancied themselves copycats.
-&gt;They had seen how penguins chose their mates, and with a bit of modern tweaking, fashioned themselves a similar habit.
-&gt;When a seal present another with an object of significant emotional value, its their equivilant of him asking her to date.
-&gt;If he liked her enough, he would offer her an article of clothing representative of…less holy acts.
-&gt;Rosalind explained it as…you give the girl some clothing you wanna see her take off later.
-&gt;So…yeah.
-&gt;You had basically asked her daughter to fuck, and she had said yes.
-&gt;Great for her, really, really confusing for you.
-&gt; “Please don’t be mad at me, I really didn’t mean to trick you, but I just got excited and…” Celeste trailed off, tapping her index fingers together nervously.
-&gt;You sigh, not really knowing what to do.
-&gt;Well, you did know one thing.
-“I’m not gonna have sex with you.”
-&gt; “What?!”Celeste gasped, in strangely genuine shock, “You gave me the jacket!”
-“Speaking of that jacket…” you say, reaching across the table.
-“Gimme that back! You can’t keep that if it means I have to bed you!”
-&gt;You lunge for the jacket, grabbing a sleeve. 
-&gt;To your immedieate regret, Celeste doesn’t resist. 
-&gt;Instead she gives you a sly look.
-&gt; “This rough? Right here? Right now, with my mother in the room? Goodness, my books didn’t say anything about this…” 
-&gt;She laughs when your face contorts into something akin to a look of shock, before you release the jacket and settle back in your chair.
-&gt; “My word!” Rosalind says. “You to sure make a cute couple. “I wonder if humans can even breed with anthros…”
-&gt; “Mooom!” 
-&gt; “Oh, but don’t let me stop you from trying.” She titters, her face suddenly very foxlike. “Hmph, just like your father and I…”
-&gt; “MOM!” Celeste shouts.
-&gt; “I’m just an old cow, but I can see you two lovebirds needs some privacy. Let me just get out of your hair.”
-&gt;Content with how thoroughly embarrassed her daughter was, the older seal made her way across the kitchen, the door closing behind her with a clunk.
-&gt; “Moms… you know how they can be.” Celeste says with a sigh.
-&gt;You nod in understanding, electing to remain quiet.
-&gt; “So…what now?” she asks, her eyes once again filled with the glittering wonder-lust you had gotten accustomed to.
-&quot;I’ll be honest,” you begin, talking around a mouthful of biscuit. “I’m not that opposed to hanging out with you, if only because I owe it to you.”
-&gt;Celeste laughs, throwing her hand forward in mock shock. “Oh, please. You know you love me.”
-&gt;You smile at her antics.
-“We’ll see out the first date goes.”
-&gt; “I get a first date?!” She gasps. 
-“Yup. Just, get ready, I’ll meet you outside of the library at eight o’clock”
-
-&gt;The sun was beginning to set on the cold island as you began your journey back to the boat.
-&gt;Your thoughts wandered as you did along the coast, back to how you got yourself into this who kerfuffal. 
-&gt;First you gave her the necklace, and second, you gave her the jacket.
-&gt;Both innocent gestures in your eyes that were sinifigant actions in hers.
-&gt;You sigh, realizing that you were basically trapped in this situation, unless you fixed your gps in 2 hours and got out of there.
-&gt;You briefly considered attempting, but you remembered how happy Celeste was when you accepted her offer, and something inside you wanted to see her that happy again.
-&gt;As you headed back to your ship, you wondered how you were going to pay for this date.
-&gt;This island didn’t happen to have a monetary exchange center, or at least you didn’t notice one on your initial tour. 
-&gt;The thought of being unable to pay for this evening filled you with a little anxiety, a feeling you hoped would wash off when you arrived at your ship.
-&gt;You weren’t a rich boy, so your ship didn’t have a shower or a bath unit, however you did have something that could work.
-&gt;Legs dangling dangerously close to the icy water, you sat sternside, soap and bucket in hand like you were at an arctic bathhouse. 
-&gt;Bracing yourself against the cold, you dump the water on yourself and begin scrubbing.
-&gt;Within seconds your teeth are chattering and and your whole body is shivering, but you finish lathering your body with soap and splash another round of cold water on yourself.
-&gt;Your quick bath finished, you wrap a towel around yourself and duck inside to warm up.
-&gt;As you dry off, you set out your clothes: a fresh shirt and pants, warm socks, and your bomber jacket.
-&gt;You slip you clothes on quickly, and check the clock as you step out into the cold air.
-&gt;7:40.
-&gt;You had time.
-&gt;Checking to make sure you were anchored in port (safety first), you head up the dock.
-&gt;It was windy today, and you shiver as a particularly angry bit of wind slips under your coat, and you begin to regret giving Celeste your best coat. 
-&gt;The sun was in its setting phase, and you wondered if it would be impolite to swap jackets with her.	
-&gt;As you ponder the potential breach of social contracts, you spot Celeste sitting out on a bench, reading a small book.
-&gt;When she heard you approaching (which you didn’t know how, because she didn’t have outer ears), she looked up, beaming.
-&gt;She was wearing you jacket, a thick woolen thing your father gave you, and your necklace, over a carnelian t-shirt and jeans.
-&gt;Briefly, you wondered where she got those, but the implications behind that thought process were assuredly too profane for you to want to continue that line of thought.
-&gt; “Hey Anon! I’m glad you made it!” She said, sliding her book into one of the numerous pockets on your former coat.	
-“Well where else would I be?” You say, a smile spreading across your face.
-&gt; “Well, you could have tried to escape, by sailing away on your little dingy. But I don’t think that would have ended well for you.”
-&gt;You raise an eyebrow.
-“I assume you would have just come and found me once I had gotten myself nice and lost.”
-&gt; “Mmhm! I’d drag you back and we’d be right where we are right now.” Celeste said, a mischievous smile spreading across her face.
-&gt; “In fact, I don’t think you’d be able to get out of here without my help…”
-“Great, so I’m stuck here with you until I can find my own way out?” 
-&gt; “Yup!” Celeste said, not skipping a beat.
-“Excellent.” You say, clapping your hands together. “So, where do you have in mind?”
-&gt;Celeste looks thoughtful for a moment, before smiling up at you. “We aren’t exactly a huge tourist local, so we don’t really have a major stop, but I love Mr. James’s Bistro. He makes excellent salmon burgers.” 
-&gt;That piques your interest.
-“Salmon…burger?” You ask.
-&gt;You can imagine what it would be, but you aren’t exactly sold on the idea. 
-&gt; “They’re really good!” Celeste says, grabbing your arm. “You’ll love them, I promise!”</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    6 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    7 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    10 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    18 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/PM4V3wTN">script or module</a>
-                <div class="details">
-                                            Perl |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

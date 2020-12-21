@@ -1,1482 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Loco for Loka - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Loco for Loka - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/aCdD2US6" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/aCdD2US6" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="PJHcxw4Xowfg5uNIQHPhFY13hHHHPeP-Ccgg5K-hOfh15JCERUbQSo6NqRh0HLdM9TS2GLJQqaZ9uhWGnMBonA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/aCdD2US6" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/aCdD2US6" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/20/17/12/2532662.jpg" alt="WriteGaf">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Loco for Loka</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/WriteGaf">WriteGaf</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=WriteGaf" class="message" title="Send a private message to: WriteGaf"></a>
-                                    
-                <div class="date">
-                    <span title="Monday 16th of January 2017 06:37:46 PM CDT">Jan 16th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,499                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 42.70 KB            </div>
-
-            <div class="right">
-                <a href="/raw/aCdD2US6" class="btn -small">raw</a>
-                <a href="/dl/aCdD2US6" class="btn -small">download</a>
-                <a href="/clone/aCdD2US6" class="btn -small h_800">clone</a>
-                <a href="/embed/aCdD2US6" class="btn -small h_800">embed</a>
-                <a href="/report/aCdD2US6" class="btn -small">report</a>
-                <a href="/print/aCdD2US6" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;You are Anon.</div></li><li class="li1"><div class="de1">&gt;It&#039;s unseasonably warm tonight, and of course your shitty little apartment&#039;s AC unit broke.</div></li><li class="li1"><div class="de1">&gt;This left you laying in your bed, uncomfortably warm, wearing a pair of black gym shorts but not much else.</div></li><li class="li1"><div class="de1">&gt;You know you won&#039;t get much sleep tonight, not with this heat.</div></li><li class="li1"><div class="de1">&gt;Perfect...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you flip the pillow for the umpteenth time, a soft click breaks the silence of the house.</div></li><li class="li1"><div class="de1">&gt;You pause, listening closely.</div></li><li class="li1"><div class="de1">&gt;Huh...nothing.</div></li><li class="li1"><div class="de1">&gt;Must be imagining things.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You lay your head back down and close your eyes.</div></li><li class="li1"><div class="de1">&gt;Then you hear the soft sound of your closet door sliding open.</div></li><li class="li1"><div class="de1">&gt;Your eyes open wide.</div></li><li class="li1"><div class="de1">&gt;Okay, you KNOW that the wind or the house settling won&#039;t make that noise.</div></li><li class="li1"><div class="de1">&gt;And you didn&#039;t have any pets...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That could only mean someone was in here with you...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You feel the color drain from your face.</div></li><li class="li1"><div class="de1">&gt;Fuck, fuck, fuck...</div></li><li class="li1"><div class="de1">&gt;Someone was in your house.</div></li><li class="li1"><div class="de1">&gt;You&#039;d been broken into.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your mind was racing.</div></li><li class="li1"><div class="de1">&gt;Was it a petty thief?</div></li><li class="li1"><div class="de1">&gt;Were they armed?</div></li><li class="li1"><div class="de1">&gt;These questions buzzed in your mind like a swarm of angry hornets.</div></li><li class="li1"><div class="de1">&gt;And you couldn&#039;t just wait there...you had to call the cops.</div></li><li class="li1"><div class="de1">&gt;But...</div></li><li class="li1"><div class="de1">&gt;You&#039;d left your phone charging in the kitchen...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The room was silent now.</div></li><li class="li1"><div class="de1">&gt;No more movement, at least none you could hear.</div></li><li class="li1"><div class="de1">&gt;But you knew better.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your eyes land on the buck knife you&#039;d had for years, resting in it&#039;s sheath on your nightstand.</div></li><li class="li1"><div class="de1">&gt;You took a deep breath.</div></li><li class="li1"><div class="de1">&gt;One chance here, don&#039;t mess it up...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You go for the knife.</div></li><li class="li1"><div class="de1">&gt;After a moment of fumbling, you toss it&#039;s sheath to the floor and hold it tightly, eyes on the closet as you now stand there beside your bed.</div></li><li class="li1"><div class="de1">&gt;Again, no movement.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Then you hear a soft creak as someone inside shifts their weight.</div></li><li class="li1"><div class="de1">&gt;Got him now.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You reach over for the light switch on your wall, turning the lights on.</div></li><li class="li1"><div class="de1">&gt;As soon as your eyes adjust, you try your best (which admittedly wasn&#039;t much) to intimidate the intruder into coming out into view.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I know you&#039;re in there.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You growl, though it&#039;s fairly weak.</div></li><li class="li1"><div class="de1">&gt;More silence.</div></li><li class="li1"><div class="de1">&gt;Then more shuffling.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;ve got three seconds to get out of there before I drag you out myself!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;There we go, that sounded a little more intimidating, at least you thought.</div></li><li class="li1"><div class="de1">&gt;Silence for a few moments, and you stepped forward.</div></li><li class="li1"><div class="de1">&gt;Then came the voice.</div></li><li class="li1"><div class="de1">&gt;A female voice, somewhat shaken.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;W-wait! I&#039;ll come out, j-just stay back!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You scowl as the intruder comes into view.</div></li><li class="li1"><div class="de1">&gt;And as you see them, your body goes rigid, and your knife slips out of your hand, falling to the floor.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t be sure what exactly it is you are looking at.</div></li><li class="li1"><div class="de1">&gt;It&#039;s humanoid, but...not human in the slightest.</div></li><li class="li1"><div class="de1">&gt;Horns made of some black material, claws too that come to deadly points.</div></li><li class="li1"><div class="de1">&gt;Some green and yellow striped fur pattern, long tail.</div></li><li class="li1"><div class="de1">&gt;You can only call this thing a monster.</div></li><li class="li1"><div class="de1">&gt;But...that wasn&#039;t possible.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Despite her looking as scared of you as you are of her, you swipe the knife back up, holding it with a shaking hand.</div></li><li class="li1"><div class="de1">&gt;Her eyes widen and ears flatten back as she looks at the blade.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Y-you stay the hell away from me!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You snarl at her, making her flinch.</div></li><li class="li1"><div class="de1">&gt;She backs away, back towards the closet, clawed hands grasping at the door.</div></li><li class="li1"><div class="de1">&gt;You watch in confusion as she tries desperately to do...something.</div></li><li class="li1"><div class="de1">&gt;She keeps closing the door and opening it again.</div></li><li class="li1"><div class="de1">&gt;What...?</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;No no no, why now!?&quot; The monster lets out a frightened cry as she sees her attempts fail.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re at a loss for what to think.</div></li><li class="li1"><div class="de1">&gt;All you know is you&#039;ve got some sort of monster in your house, and you want it gone.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You step forward, brandishing the knife.</div></li><li class="li1"><div class="de1">&gt;Your whole body is tense, on edge, ready to fight.</div></li><li class="li1"><div class="de1">&gt;Her head snaps back towards you and she lets out a low hiss, baring her teeth and backing away fearfully.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What the hell are you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You spit out lowly, holding the knife at the ready in case it tried anything.</div></li><li class="li1"><div class="de1">&gt;She didn&#039;t answer right away, but boy did you get a good look at that mouthful of teeth.</div></li><li class="li1"><div class="de1">&gt;Rows of them, like razors.</div></li><li class="li1"><div class="de1">&gt;You felt your bravado falter a tad at the sight, but did your best to remain in control here.</div></li><li class="li1"><div class="de1">&gt;You take a few more steps closer until she&#039;s pressed to the wall, about three feet between the both of you.</div></li><li class="li1"><div class="de1">&gt;It only takes you raising the blade for her own strength to falter.</div></li><li class="li1"><div class="de1">&gt;She slides down, sitting huddled up against the wall, legs drawn to her chest, and arm out to protect her face.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;P-please, don&#039;t..&quot; she whimpered softly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You stop.</div></li><li class="li1"><div class="de1">&gt;By now, your adrenaline high is coming down.</div></li><li class="li1"><div class="de1">&gt;You&#039;re starting to think more clearly now.</div></li><li class="li1"><div class="de1">&gt;She&#039;s not trying to hurt you.</div></li><li class="li1"><div class="de1">&gt;She&#039;s clearly more afraid of you than you are of her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Perhaps you&#039;re going a little overboard with this self defense thing...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;After a second, you kneel so you&#039;re eye level with her.</div></li><li class="li1"><div class="de1">&gt;Her wide eyes watch with first fear, then confusion as you put the knife on the floor and slide it away from either of you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;W-wha-?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Just take it easy, alright?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You say in a gentler voice than you spoke with earlier.</div></li><li class="li1"><div class="de1">&gt;She swallowed hard and nodded, her eyes not leaving yours, as if she was still waiting for you to attack.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What...what are you?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I-I...&quot; She stammers out, her voice catching a bit as her eyes dart towards your open closet door.</div></li><li class="li1"><div class="de1">&gt;You keep your voice low.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t want to scare her.</div></li><li class="li1"><div class="de1">&gt;If you pushed it, lord knows what those claws and teeth could do in an emergency.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, relax...I&#039;m not gonna hurt you.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Real convincing after you threatened her with a knife...</div></li><li class="li1"><div class="de1">&gt;She looks back to you, and you see her eyes start to glisten over.</div></li><li class="li1"><div class="de1">&gt;Oh no...</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her breath catches, and tears start to roll down her cheeks.</div></li><li class="li1"><div class="de1">&gt;She breaks down, burying her face in her hands, her body wracked with sobs.</div></li><li class="li1"><div class="de1">&gt;You watch in uncomfortable silence for a moment, not really sure of what to do.</div></li><li class="li1"><div class="de1">&gt;All the while, she sits there, hugging herself and crying quietly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You...</div></li><li class="li1"><div class="de1">&gt;You honestly felt horrible at this point.</div></li><li class="li1"><div class="de1">&gt;This girl...monster...thing...she&#039;d done nothing to warrant your earlier actions, you now saw in hindsight.</div></li><li class="li1"><div class="de1">&gt;She was just as lost and confused as you, poor thing.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You don&#039;t know what to say to her, or if anything you CAN say would help at all.</div></li><li class="li1"><div class="de1">&gt;But you can&#039;t just sit there and watch.</div></li><li class="li1"><div class="de1">&gt;You slowly scoot closer to her, hesitantly reaching out with your right hand.</div></li><li class="li1"><div class="de1">&gt;She flinches away from it, but doesn&#039;t make a move to stop you from brushing her fuzzy cheek.</div></li><li class="li1"><div class="de1">&gt;You wipe the tears away.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Do you...do you have a name?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It takes a moment for her to get it out, but eventually she whispers.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;L-Loka...&quot;</div></li><li class="li1"><div class="de1">&gt;You can see she&#039;s trembling slightly, eyeing you warily.</div></li><li class="li1"><div class="de1">&gt;You know you&#039;ll need to take this slow with her, for now.</div></li><li class="li1"><div class="de1">&gt;Don&#039;t want to overbear her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s a nice name,&quot; you say with a smile. &quot;I&#039;m Anon.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;A-Anon...&quot; she repeats with a little sniffle before falling quiet.</div></li><li class="li1"><div class="de1">&gt;You frown, then hesitantly ask the million dollar question.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Loka...where exactly did you come from?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She sniffles, hugging her knees as her reddened eyes drift to the door again.</div></li><li class="li1"><div class="de1">&gt;&quot;Y- you wouldn&#039;t understand,&quot; she says softly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Try me.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I-I can&#039;t say, Anon. It w-would just make things worse...not like I&#039;m gonna get to go back anyways...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;What?</div></li><li class="li1"><div class="de1">&gt;You&#039;re so lost at this point.</div></li><li class="li1"><div class="de1">&gt;But you don&#039;t press the issue.</div></li><li class="li1"><div class="de1">&gt;She&#039;s stressed out enough as is.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Scooting close to her, she flinches slightly as you go to touch her again, but like last time, she doesn&#039;t stop you.</div></li><li class="li1"><div class="de1">&gt;Your palm softly brushes the fur on her cheek, but this time it&#039;s more for yourself than anything.</div></li><li class="li1"><div class="de1">&gt;The softness of her fur reassures you that, no, you haven&#039;t gone insane. She&#039;s actually real.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her eyes close as your fingers work through her fur.</div></li><li class="li1"><div class="de1">&gt;A few more tears roll down her cheeks, and Loka lets out a soft little whimper while your fingers work through her hair.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;W-what am I going to do?&quot; She whined.</div></li><li class="li1"><div class="de1">&gt;You couldn&#039;t think of anything to say, so you stayed quiet.</div></li><li class="li1"><div class="de1">&gt;She was trembling now, you could feel it.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I-I don&#039;t know...i-if I can even go back...&quot;</div></li><li class="li1"><div class="de1">&gt;Her voice caught on the last few words, and she hid her face in her arms.</div></li><li class="li1"><div class="de1">&gt;You frown, and stop petting her hair, scooting close to her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Loka, I&#039;m sure it-&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;What, it&#039;ll get better? It&#039;ll get fixed just like that?!&quot; She suddenly snapped.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You&#039;re lost for words, and seeing the look on your face, she quickly looks away.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;S-sorry...&quot; she sniffles.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Its...it&#039;s fine..&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her reddened eyes slowly meet yours before she looks down, falling quiet as more tears roll down her cheeks.</div></li><li class="li1"><div class="de1">&gt;You scoot a little closer.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hey, Loka...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As she looks up, you try to give a supportive smile and hold your arms out to her.</div></li><li class="li1"><div class="de1">&gt;She&#039;s hesitant at first, but accepts the hug.</div></li><li class="li1"><div class="de1">&gt;As her arms slip around you, you feel how soft and warm she is.</div></li><li class="li1"><div class="de1">&gt;It&#039;s like hugging a huge teddy bear.</div></li><li class="li1"><div class="de1">&gt;She&#039;s shorter than you, so even with you kneeling there, her her head still rests underneath your chin rather well. You&#039;ve just got to mind the horns.</div></li><li class="li1"><div class="de1">&gt;She buries her face into your chest while you reach up, lightly stroking her hair as she cries against you.</div></li><li class="li1"><div class="de1">&gt;You stay silent, just letting her get it all out.</div></li><li class="li1"><div class="de1">&gt;Eventually she calms down, but stays against you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Do you want something to drink, Loka?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You finally ask, and she nods meekly.</div></li><li class="li1"><div class="de1">&gt;&quot;Water...p-please.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Alright. I&#039;ll be right back.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;A-Anon, wait.&quot;</div></li><li class="li1"><div class="de1">&gt;Her fingers cling onto your bare shoulders, holding you tightly.</div></li><li class="li1"><div class="de1">&gt;You rub her back a little as she looks up with you with sad and slightly fearful eyes.</div></li><li class="li1"><div class="de1">&gt;&quot;Are...please, don&#039;t run off or something..&quot; she whined, knowing full well it&#039;d be the end of her if he ran off and got anyone else.</div></li><li class="li1"><div class="de1">&gt;She sounded so afraid, it was heartbreaking.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I won&#039;t.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;P-promise?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I promise. Just sit tight, I&#039;ll be back in a minute.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;After a moment&#039;s hesitation, she lets you go, and you head downstairs.</div></li><li class="li1"><div class="de1">&gt;You grab a glass of water for her, the monster looking relieved when you returned like you promised.</div></li><li class="li1"><div class="de1">&gt;You sit on your bed and motion for her to sit next to you, and she does, taking small sips from the glass.</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She&#039;s hesitant to say, but eventually relents.</div></li><li class="li1"><div class="de1">&gt;You...really had a hard time comprehending most of it.</div></li><li class="li1"><div class="de1">&gt;Something about doors being some sort of gateway between her world and yours, and they can be produced to link to certain ones on Earth.</div></li><li class="li1"><div class="de1">&gt;How such a thing is even possible aside, evidently, she&#039;d gotten curious and wanted to test a new one she&#039;d helped make after the labs shut down.</div></li><li class="li1"><div class="de1">&gt;Evidently, there was a fuckup.</div></li><li class="li1"><div class="de1">&gt;And not only did it lead to the wrong place, but it couldn&#039;t work both ways.</div></li><li class="li1"><div class="de1">&gt;She was effectively stranded here.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Damn...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She&#039;s set the glass down now, her eyes cast down on the floor.</div></li><li class="li1"><div class="de1">&gt;&quot;I don&#039;t know what I&#039;m gonna do...&quot; she said sadly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You honestly had no idea either.</div></li><li class="li1"><div class="de1">&gt;And right now, you were tired as hell.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You yawn and flop down on your back with a sigh.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Me either.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Oh...am I keeping you up? Sorry, I shouldn&#039;t have rambled...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s fine...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tell her, closing your eyes.</div></li><li class="li1"><div class="de1">&gt;You feel the weight on the bed shift as she lays down next to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Go to sleep then.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Okay..&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You say tiredly, letting your body relax.</div></li><li class="li1"><div class="de1">&gt;Loka starts running her fingers through your hair as you lay there, only serving to help you relax more.</div></li><li class="li1"><div class="de1">&gt;A few minutes later, you&#039;re out like a light.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When you wake up, it&#039;s midmorning.</div></li><li class="li1"><div class="de1">&gt;The first thing you&#039;re aware of is that you aren&#039;t alone.</div></li><li class="li1"><div class="de1">&gt;After a moment of groggy panic, you realize it&#039;s only Loka.</div></li><li class="li1"><div class="de1">&gt;She&#039;s curled up close to you, her hands tucked up under her chin and face nestled against your chest.</div></li><li class="li1"><div class="de1">&gt;She&#039;s still out like a light.</div></li><li class="li1"><div class="de1">&gt;You can&#039;t help but smile.</div></li><li class="li1"><div class="de1">&gt;She looks really cute like this.</div></li><li class="li1"><div class="de1">&gt;As she stirs and lets out a tired murmur, you start gently petting her.</div></li><li class="li1"><div class="de1">&gt;Her eyes open and she lets out a little yawn.</div></li><li class="li1"><div class="de1">&gt;She looks up at you, a faint tinge of red showing on her cheeks before she nuzzles against your chest.</div></li><li class="li1"><div class="de1">&gt;She stays quiet, save for letting out a small murmur as you work your fingers through her soft fur.</div></li><li class="li1"><div class="de1">&gt;You don&#039;t feel like talking right now.</div></li><li class="li1"><div class="de1">&gt;You just wanna enjoy this.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon?&quot; Loka calls your name meekly, breaking the silence.</div></li><li class="li1"><div class="de1">&gt;You look down at her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Hmm?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She shifts a little, her hands sliding around your waist as she hugs onto you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Thank you for...you know, not...hurting me or anything...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;After a moment of silence, she nuzzles her face into the crook of your neck. &quot;I hope I&#039;m not being annoying..&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t help but grin a little.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nah, you&#039;re not annoying. I&#039;d be lying if I said I wasn&#039;t enjoying this.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She shifts again, her tail now sliding around your waist as she holds onto you. &quot;A-are you sure?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You move your hand, starting to stroke the fur under her jaw.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Pretty sure,&quot; you say with a little laugh.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That gets her to relax some.</div></li><li class="li1"><div class="de1">&gt;She pulls herself up a little bit and looks down shyly before giving you a kiss on the cheek, her own cheeks a dull red.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It&#039;s impossible to keep yourself from blushing too.</div></li><li class="li1"><div class="de1">&gt;Loka looks down shyly, an adorable little grin on her face.</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m glad...I&#039;m enjoying this too...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I thought you guys were told humans were toxic?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tease, and her blush deepens while she snuggles closer to you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m glad you aren&#039;t...&quot; she murmurs.</div></li><li class="li1"><div class="de1">&gt;One of her clawed hands comes up, and she slowly trails her nails down your back while she shifts so she&#039;s a little higher.</div></li><li class="li1"><div class="de1">&gt;The feeling makes you shiver, and you see her look up at you with a glint of playfulness in her eyes.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Of course, before you can think too much of it, her stomach growls loudly, causing the fuzzy monster to blush brightly and shyly look down.</div></li><li class="li1"><div class="de1">&gt;You can&#039;t help but laugh at her adorable reaction.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well then...how about I go make us some breakfast?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Do you want me to help?&quot; She asked with a sweet little smile, the both of you sitting up in bed.</div></li><li class="li1"><div class="de1">&gt;While you didn&#039;t need it, you were certain she wasn&#039;t familiar with human food, so it wouldn&#039;t hurt to have her see what exactly you had.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Sounds good to me,&quot; you say.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The both of you get out of bed, though she&#039;s hesitant to come downstairs with you.</div></li><li class="li1"><div class="de1">&gt;Despite living in a shitty little house in an underpopulated suburb, you still are quick to shut your curtains.</div></li><li class="li1"><div class="de1">&gt;Last thing you need is a stray passerby or UPS driver seeing her.</div></li><li class="li1"><div class="de1">&gt;That was a shitstorm you were not prepared to deal with.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You assume by her innumerable sharp teeth that she primarily eats meat.</div></li><li class="li1"><div class="de1">&gt;This is confirmed by the happy little squeal she gives when she sees you pull out one of the frozen ham steaks from the freezer, and the way her pupils dilate ever so slightly as the smell of it cooking on the stove fills the room.</div></li><li class="li1"><div class="de1">&gt;You&#039;re beginning to wonder if there isn&#039;t some shark in her.</div></li><li class="li1"><div class="de1">&gt;As for yourself, you quickly make up some eggs. You weren&#039;t much of a breakfast person anyways.</div></li><li class="li1"><div class="de1">&gt;A couple minutes later, the ham steak is cooked, and you hand it to her on a plate.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She completely disregards the fork, picks up the entire thing, and drops it in her mouth.</div></li><li class="li1"><div class="de1">&gt;It&#039;s fucking gone, like that. She didn&#039;t even chew it.</div></li><li class="li1"><div class="de1">&gt;All of your wat.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She sees your look of amazement and confusion and looks down at her hands, which she can&#039;t stop fiddling with.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;T-thank you...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, that&#039;s apparently a thing,&quot; you say with an amused smile.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She blushes a little, not meeting your gaze.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Would you rather I not?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You shrug as you pick at your eggs, not really feeling all that hungry.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s fine. Might take some getting used to seeing, though.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You give up on the eggs by now, opting to dump them.</div></li><li class="li1"><div class="de1">&gt;Only you could fuck up eggs.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Sadly though, you know this lighthearted conversation can&#039;t carry on forever.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So, Loka...&quot; you start. &quot;How do we...you know, get you home, if the door you used isn&#039;t working?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Loka&#039;s shy smile drops almost immediately. </div></li><li class="li1"><div class="de1">&gt;She looks down at her clawes hands, flexing them a bit. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I...I don&#039;t know...&quot; she says quietly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Shit. </div></li><li class="li1"><div class="de1">&gt;You probably shouldn&#039;t have asked. </div></li><li class="li1"><div class="de1">&gt;But before you can apologize, your phone rings. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I&#039;m sorry Loka, gimmie a minute.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You answer. </div></li><li class="li1"><div class="de1">&gt;It&#039;s your manager. </div></li><li class="li1"><div class="de1">&gt;He explains that one of your fellow employees up and quit, and he needs you to come in a and pick up his shift from Noon-10. </div></li><li class="li1"><div class="de1">&gt;You can tell from his tone this isn&#039;t negotiable. </div></li><li class="li1"><div class="de1">&gt;Great. </div></li><li class="li1"><div class="de1">&gt;You agree, and hang up. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;W-who was that?&quot; Loka asks. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;My manager. I need to come in to work today, apparently.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Loka shifts uneasily. &quot;But...what am I supposed to do?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Uh...I guess you&#039;ll just have to chill out here.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;By myself? But, what if someone sees me?&quot; </div></li><li class="li1"><div class="de1">&gt;She sounds genuinely scared at the thought of being seen by anyone else, and that&#039;s more than understandable. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Just...don&#039;t answer the door and keep the blinds shut. You&#039;ll be fine, Loka.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She shuffles her feet a little bit, claws slightly digging into the carpet. &quot;O-okay.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You smile at her, then walk back up to your room to get ready. </div></li><li class="li1"><div class="de1">&gt;It only takes you a few minutes, and soon you&#039;re on your way out the door. </div></li><li class="li1"><div class="de1">&gt;Reluctantly, Loka says goodbye, but not before giving you a big hug first. </div></li><li class="li1"><div class="de1">&gt;That of all things made your day. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;And you were off. </div></li><li class="li1"><div class="de1">&gt;It was near 10:45 when you finally got home.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You walk inside, shutting the door behind you and locking it. </div></li><li class="li1"><div class="de1">&gt;You remove your polo and toss it aside, leaving your white undershirt on. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Loka? I&#039;m home.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You call into the house, but get no answer. </div></li><li class="li1"><div class="de1">&gt;As you walk into the living room, you see her. </div></li><li class="li1"><div class="de1">&gt;She&#039;s asleep on the couch, hugging a quilt she must have found in the linen closet, curled up in the in a little ball. </div></li><li class="li1"><div class="de1">&gt;She looks so cute, it makes your heart melt a little. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You walk closer, and kneel by her head, slowly starting to stroke her soft hair. </div></li><li class="li1"><div class="de1">&gt;The sensation gets her to let out a little murmur, and her eyes open slowly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon?&quot; she asks after letting out a tiny yawn.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She presses her head back against your hand, encouraging you to keep petting her, which you do. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;How&#039;d work go?&quot; she asked tiredly, cuddling the blanket tighter. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It was fine. Glad to see you didn&#039;t destroy the place in my absence.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She giggles. &quot;Almost did. Almost.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I don&#039;t think I even wanna know,&quot; you chuckle. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Nope...&quot; she yawns. </div></li><li class="li1"><div class="de1">&gt;Her furry hands come out and grab your other hand, and she hugs it, nuzzling her face against your palm. </div></li><li class="li1"><div class="de1">&gt;You roll your eyes and start using it to pet her as well, getting her hair and the fur on her cheek at the same time. </div></li><li class="li1"><div class="de1">&gt;She starts letting out this low noise, which you at first think is a growl, but then you realize she&#039;s purring. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What, are you a cat now or something?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you ask, you pull your hands away slightly, ceasing the petting. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Nooo, why&#039;d you stop?&quot; she whines. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Try asking nicely, sweetheart.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She pouts, reaching up for one of your hands. &quot;Please?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You purse your lips, then grin and stand. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nah. Better luck next time.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She whines again. &quot;You&#039;re mean!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you walk to the kitchen, you hear a soft &quot;swish&quot; from behind, making you turn around. </div></li><li class="li1"><div class="de1">&gt;You don&#039;t see Loka. </div></li><li class="li1"><div class="de1">&gt;Woah, what the fuck? </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Loka?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Another soft swish from behind, in the kitchen. </div></li><li class="li1"><div class="de1">&gt;Okay, now you&#039;re starting to get a little nervous. </div></li><li class="li1"><div class="de1">&gt;No matter where you look though, you don&#039;t see her. </div></li><li class="li1"><div class="de1">&gt;Suddenly there comes a low growl, and you get pounced on from behind, sending you sprawling on the carpet. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I demand attention!&quot; she said triumphantly. </div></li><li class="li1"><div class="de1">&gt;Despite being shorter than you, she was pretty strong, and had you pinned. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Goddamnit Loka, let me go!&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;No!&quot; she says. </div></li><li class="li1"><div class="de1">&gt;She&#039;s straddled over your waist right now, and leans down, starting to nuzzle your face. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Pet me.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I don&#039;t wanna.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Pet me!&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She&#039;s a little more demanding that time. </div></li><li class="li1"><div class="de1">&gt;You give in, and start to pet her. </div></li><li class="li1"><div class="de1">&gt;This leads to her laying down on top of you, nuzzling your cheek softly while she lets out quiet purrs. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Happy now?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She lets out a soft &quot;mhmm,&quot; her eyes closed. </div></li><li class="li1"><div class="de1">&gt;All the while, you continue to run your fingers through her fur. </div></li><li class="li1"><div class="de1">&gt;She doesn&#039;t even seem to mind you sliding your fingers under the lip of her shirt, allowing you to pet her back. </div></li><li class="li1"><div class="de1">&gt;If anything, that just makes her press herself closer to you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;If you&#039;re gonna lay on me, can I at least be on the couch or something, and not the floor?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Loka lets out a little sigh, but pulls herself off of you. &quot;Fiiiiine.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Thank you.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;So you move to the couch. </div></li><li class="li1"><div class="de1">&gt;And this girl wastes no time in getting back to it. </div></li><li class="li1"><div class="de1">&gt;You start to grow tired, your pets slowing until they stop. </div></li><li class="li1"><div class="de1">&gt;You lay there quietly, one hand up her shirt resting on her back, the other loosely draped around her. </div></li><li class="li1"><div class="de1">&gt;Her breathing is soft and warm against the skin of your neck. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon?&quot; She murmurs tiredly after a few minutes. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yeah Loka?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Thank you...for everything..&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Loka&#039;s hand slow slides over to your free hand, and she takes it in hers. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I-it means a lot, for you to let me stay here...&quot; </div></li><li class="li1"><div class="de1">&gt;She interlocks her fingers with yours. </div></li><li class="li1"><div class="de1">&gt;You can feel her sharp black claws lightly pressing against the back of your hand. </div></li><li class="li1"><div class="de1">&gt;Her head turns up as she looks at you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Do you...do you want me here?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She sounded hesitant, her eyes showing a hint of fear at your answer. </div></li><li class="li1"><div class="de1">&gt;You let out a little sigh and start running your other hand through the fur on her back again. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, I didn&#039;t really expect you to be here, Loka, but...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;B-but?&quot; She sounds even more nervous now, and you can feel her shaking a bit. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Yes. Yes, I want you here. You&#039;re nice to have around.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You smile down at her, and one appears on her face too. </div></li><li class="li1"><div class="de1">&gt;She lets out a content little purr and presses her face into the crook of your neck. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I thought I was getting annoying...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You shake your head. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nah, you&#039;re fine. Iiiiif a little needy,&quot; you tease. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She blushes a little and pouts. &quot;Meanie.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh boo hoo.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Stooop.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Make me.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;ll bite you.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No you won&#039;t.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Wanna bet?&quot; She asks, flashing her teeth. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Okay, you&#039;re sure she&#039;s joking, but...the way she ate that ham steak earlier... </div></li><li class="li1"><div class="de1">&gt;Probably shouldn&#039;t risk that.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She sees your face and her toothy grin widens.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Thought so,&quot; She says, laying her head back down on your chest. </div></li><li class="li1"><div class="de1">&gt;You roll your eyes and shift your weight a little, relaxing and falling quiet after that. </div></li><li class="li1"><div class="de1">&gt;She&#039;s still holding your hand, now looking at it with tired eyes while her thumb rubs your palm. </div></li><li class="li1"><div class="de1">&gt;Her warmth is radiating onto you now, and it the feeling of drowsiness from your long shift at work hits you like a wave. </div></li><li class="li1"><div class="de1">&gt;She scoots up a little bit so she&#039;s now face to face with you, the movement forcing you to turn on your side. </div></li><li class="li1"><div class="de1">&gt;Now she&#039;s laying on her side as well, facing you, her smaller, warm body curled up close to you.</div></li><li class="li1"><div class="de1">&gt;Her forehead is resting against yours, and you feel one of her furry hands rest on your cheek. </div></li><li class="li1"><div class="de1">&gt;She kisses your forehead, earning a tired murmur from you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Goodnight Anon...&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You’re awoken in the middle of the night, but by what you aren’t sure. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Glancing at the clock on the DVR, you see it’s 3 am. </div></li><li class="li1"><div class="de1">&gt;With a sigh, you lay your head down again, your tired eyes focusing on Loka. </div></li><li class="li1"><div class="de1">&gt;She’s got her back to you now, her arms drawn up close to her chest. </div></li><li class="li1"><div class="de1">&gt;She’s silent, but as your senses become more alert, you can see she’s shaking slightly. </div></li><li class="li1"><div class="de1">&gt;That grabs your attention. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Loka?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You whisper her name softly, scooting close to her, propping yourself up on one elbow so you’re slightly leaning over her. </div></li><li class="li1"><div class="de1">&gt;Her eyes are shut tight, and you can see a few tears flowing from them. </div></li><li class="li1"><div class="de1">&gt;She doesn’t respond, but you can tell she isn’t asleep. </div></li><li class="li1"><div class="de1">&gt;As you run your hand over her furry shoulder, her eyes slowly open. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey…what’s wrong?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You speak to her quietly and with a gentle voice, not wanting to say anything that might upset her further. </div></li><li class="li1"><div class="de1">&gt;She sniffles and shakes her head, not responding. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Loka…Loka, look at me.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You cup her cheek, turning her head so she’s looking at you. </div></li><li class="li1"><div class="de1">&gt;More tears well up in her eyes, which you brush away with your thumb. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can’t begin to imagine what this girl is going through right now. How hard all of this must be for her. </div></li><li class="li1"><div class="de1">&gt;You’re surprised she kept up a good attitude for this long. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She turns so she’s facing you, and you lie back down, sliding an arm around her waist and pulling her close. </div></li><li class="li1"><div class="de1">&gt;Her hands cling to your shirt while her tail wraps tightly around you. </div></li><li class="li1"><div class="de1">&gt;You slide your other arm around her, allowing her to rest her head on your bicep while you slowly thread your fingers through her hair. </div></li><li class="li1"><div class="de1">&gt;You can feel her shaking now, and it’s a little heartbreaking. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Hey…talk to me, Loka. What is it?”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She lets out a shaky breath, and when she speaks, her voice is barely a whimper. </div></li><li class="li1"><div class="de1">&gt;”I-I wanna go home…” she says, her breath catching as a few sobs hit her.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You frown, and tighten your hold on her just a little, slowly rubbing her back. </div></li><li class="li1"><div class="de1">&gt;She whines and takes another shaky breath. “I-I miss my friends…my family…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I know, sweetheart. I know…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She buries her face in your chest, her sobs hitting a little harder. </div></li><li class="li1"><div class="de1">&gt;For a few minutes, all you can do it lay there and hold her while she lets out her sadness and fear, the poor thing shaking like a leaf in your arms. </div></li><li class="li1"><div class="de1">&gt;Eventually she starts to calm down though, and you take the opportunity to wipe her tears away. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’re gonna get you home, Loka.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her reddened eyes meet yours. </div></li><li class="li1"><div class="de1">&gt;She looks so lost and afraid right now… </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”H-how?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’ll figure something out. It’s just gonna take some time.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She nuzzles your chest, sniffling. “Promise me?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I promise, Loka. We’ll get you home.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her eyes gaze into yours as the two of you lay there, and she lets out a shaky sigh. “O-okay…” </div></li><li class="li1"><div class="de1">&gt;She rests her head on your chest, her hold on you relaxing somewhat. </div></li><li class="li1"><div class="de1">&gt;How long you lay there, you don’t know, but eventually she falls back asleep. </div></li><li class="li1"><div class="de1">&gt;And soon enough, so do you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When you wake up the next morning, it’s to a strange smell. </div></li><li class="li1"><div class="de1">&gt;No, wait, you recognize it… </div></li><li class="li1"><div class="de1">&gt;As your senses come into focus, you get another good wiff. </div></li><li class="li1"><div class="de1">&gt;Yep, you DEFINETLY recognize it. </div></li><li class="li1"><div class="de1">&gt;Something is burning. </div></li><li class="li1"><div class="de1">&gt;And Loka isn’t with you on the couch….</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Oh shit…</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Loka!” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You call the fuzzy monster’s name out from the living room, quickly following the smell to the kitchen. </div></li><li class="li1"><div class="de1">&gt;You’re greeted with the sight of the monster in a panic, trying to squelch the flames coming out of a frying pan. </div></li><li class="li1"><div class="de1">&gt;What the hell she burned, you had no clue, but it looked bad. </div></li><li class="li1"><div class="de1">&gt;But then you noticed she was trying to literally pat down the flames with her bare hands. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Loka, the hell are you doing?!” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You’re justifiably angry, she’s close to burning down your house. </div></li><li class="li1"><div class="de1">&gt;She flinches accidentally knocking the burning frying pan onto the tile floor with a loud clang. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”I-I’m sorry! I-I-“ </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Jesus Christ, toss me the dish towel!” You snap, cutting her off. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She does, and you use it so squelch the flames. </div></li><li class="li1"><div class="de1">&gt;Once they’re out, you see the shriveled charcoal remains of bacon left in the pan. </div></li><li class="li1"><div class="de1">&gt;Oh good, a grease fire. </div></li><li class="li1"><div class="de1">&gt;Thank god you woke up when you did. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You pick up the pan and set it in the sink under some cold running water, steam rising off of it with a hiss for a moment. </div></li><li class="li1"><div class="de1">&gt;Loka speaks up again, meekly. “S-sorry.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You lean against the counter, rubbing the bridge of your nose. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’d really appreciate it if you didn’t nearly burn down my house next time.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She looks down, ashamed and falling silent. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Why exactly were you trying to make bacon, anyways?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”I-I just wanted to make you breakfast…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Okay, you can’t stay mad at that face, that sweet voice. </div></li><li class="li1"><div class="de1">&gt;Especially when she continues. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”You…you’ve done a lot for me, and last night…I-I needed that. I just wanted to repay you somehow…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Oh god your heart. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”I’m sorry…” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You sigh, crossing your arms over your chest. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;It&#039;s fine Loka, but don&#039;t go starting more fires in my house, okay?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You try to say that with somewhat of a joking tone, but she still looks down and gives a little nod. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Also, why were you trying to put it out with your hands? That&#039;s really...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You don&#039;t wanna use the word &quot;retarded&quot;, not to her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;..Dangerous.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Good enough. </div></li><li class="li1"><div class="de1">&gt;She looks down at her hands, then shows them to you. </div></li><li class="li1"><div class="de1">&gt;Absolutely no burn marks on her. </div></li><li class="li1"><div class="de1">&gt;Just a little piece of charred bacon that she dusts off. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I&#039;m fireproof,&quot; she says, as if it were common knowledge. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;What, seriously?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Mhmm. See?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She straight up puts her hand on the still glowing stove burner, and nothing. Her hand is unscathed. </div></li><li class="li1"><div class="de1">&gt;You can&#039;t even begin to understand how that&#039;s possible. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;That&#039;s....neat.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;It&#039;s nothing special. You should see what some of the other monsters can do.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Like?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Turn invisible, breath fire, phase through walls, climb ceilings...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Those are uh...strange attributes to have. </div></li><li class="li1"><div class="de1">&gt;But there was nothing normal about where she came from, or her for that matter. So it wasn&#039;t surprising. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She looks at you curiously. &quot;Can you do anything?&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&#039;Jack off twelve times in a row without stopping,&#039; you THINK, but don&#039;t say. </div></li><li class="li1"><div class="de1">&gt;That would have made for an interesting conversation though. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;No, not really.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Nothing?&quot; She asks, her head cocked to the side a little. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Nothing. Humans are kind of...boring, as far as our biology goes. As you can probably tell from my lack of horns, fangs, etc...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The monster looks you over, stepping closer and taking one of your arms in your clawed hands. </div></li><li class="li1"><div class="de1">&gt;What she found so interesting, you didn&#039;t know, but she looked at your arm from several different angles. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;You look like you&#039;d be easy prey.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well that&#039;s morbid.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She flashes a tooth grin. &quot;Sorry, it&#039;s not my fault you&#039;re weak,&quot; she teases. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Weak? </div></li><li class="li1"><div class="de1">&gt;Weak? </div></li><li class="li1"><div class="de1">&gt;Bitch, you can&#039;t weigh more than 150 soaking wet. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, so I&#039;m weak?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her grin widens, becoming more teasing. &quot;You look like it.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She&#039;s challenging you. </div></li><li class="li1"><div class="de1">&gt;She has made a grave mistake. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Oh, you don&#039;t know how wrong you are...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You start moving back for the entrance to the kitchen, and lean against the wall, fingers quickly scratching on it. </div></li><li class="li1"><div class="de1">&gt;Just as you hoped, it gets her attention, her eyes focusing on you hand, then you. </div></li><li class="li1"><div class="de1">&gt;Her tail starts to swish slowly behind her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;But if you wanna see for yourself...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Take a few more steps out. </div></li><li class="li1"><div class="de1">&gt;Her toothy grin widens, and she slowly follows, matching your pace. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, you&#039;re welcome to find out.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You dart into the hall, and though you don&#039;t hear her footsteps, you know she&#039;s following. </div></li><li class="li1"><div class="de1">&gt;Let the game begin. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You duck into the first room you see, you&#039;re bedroom, and as quietly as you can crouch behind a dresser, out of sight from the doorway. </div></li><li class="li1"><div class="de1">&gt;Loka is incredibly sneaky and lightfooted, you come to find out, so it&#039;s nearly impossible to pinpoint where she is. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A few minutes pass. </div></li><li class="li1"><div class="de1">&gt;You don&#039;t see her, hear her. </div></li><li class="li1"><div class="de1">&gt;Did she give up? </div></li><li class="li1"><div class="de1">&gt;Now you&#039;re a little confused. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You leave your hiding spot, inching over to your bed so you can see out into the hall. </div></li><li class="li1"><div class="de1">&gt;Bad move. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Suddenly a clawed hand grabs at your ankle, making you jump and yelp in surprise. </div></li><li class="li1"><div class="de1">&gt;She didn&#039;t even have to pull, you fell on your own terms. </div></li><li class="li1"><div class="de1">&gt;As you turn to look for her, she pounces at you from under the bed. </div></li><li class="li1"><div class="de1">&gt;She&#039;s got you pinned, her tail swishing in the hair behind her, beaming a toothy grin at you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I knew you were weak!&quot; she claims triumphantly. </div></li><li class="li1"><div class="de1">&gt;Her claws are slightly digging into your shoulders, making any struggling useless. </div></li><li class="li1"><div class="de1">&gt;You give. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Fine, you got me..&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Loca grins playfully, her claws starting to knead your shoulders like a cat. </div></li><li class="li1"><div class="de1">&gt;A cat...shark...thing... </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Did you really think you&#039;d win? You know how good I am at sneaking.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You smile. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Wait, you think I lost?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her smile falters. She looks a little confused. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Uh...yeah?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Wrong.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Wha-WOAH!&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You flip her over, so now you have her pinned. </div></li><li class="li1"><div class="de1">&gt;No amount of trashing from the fuzzy monster is enough to break your hold. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Gonna give up now?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tease her. </div></li><li class="li1"><div class="de1">&gt;But she doesn&#039;t laugh. </div></li><li class="li1"><div class="de1">&gt;Even under her fur, the blush on her cheeks is evident. </div></li><li class="li1"><div class="de1">&gt;You&#039;ve got both her wrists pinned, and compared to you she&#039;s pretty small. </div></li><li class="li1"><div class="de1">&gt;Her eyes are wide, flustered. </div></li><li class="li1"><div class="de1">&gt;And you feel your own cheeks light up too. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;A-Anon?&quot; she asks with a very soft, timid voice.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Y-yeah?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You feel your heart start to pound in your chest as her claws lightly run over your palms. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Come here...&quot; she whispers, her eyes shyer than you&#039;ve ever seen. </div></li><li class="li1"><div class="de1">&gt;As you lean in closer, she slips one of her hands from your grasp, tenitavely reaching up and threading her fingers through the hair on the back of your head. </div></li><li class="li1"><div class="de1">&gt;Your cheeks feel like they&#039;re on fire, and hers look like they are too. </div></li><li class="li1"><div class="de1">&gt;You&#039;re faces are only a few inches apart now. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Anon...d-do...&quot; she starts shyly, looking down. &quot;Do you have, y-you know...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;A girlfriend?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She nods meekly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;N-no, I haven&#039;t for a while...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She smiles shyly up at you. &quot;O-oh...heh,&quot; she gives a weak laugh. &quot;I would&#039;ve thought you did...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Me? Of all people?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her shy smile widens, her eyes meeting yours. &quot;Y-yeah...you...you aren&#039;t bad looking, Anon. F-for a human.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can&#039;t help but smile a little too at the compliment. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Well, you&#039;re not hard on the eyes yourself, Loka. For a monster.&quot;</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You say that with a teasing tone that only makes her blush deepen.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You continue. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;I can&#039;t imaging you being single. You&#039;ve gotta have a boyfriend, right?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your words only get her more and more flustered. </div></li><li class="li1"><div class="de1">&gt;But, of course, that&#039;s your goal. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;W-what? Me? N-no...n-never have...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your smile widens, and you cock an eyebrow. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Seriously? Not once?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;N-no...&quot; she whispers. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You slowly brush a strand of her hair out of her face. </div></li><li class="li1"><div class="de1">&gt;The heat radiating off of her is telling. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;So...you&#039;ve never had your first kiss, then?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She shook her head, looking away from you shyly. </div></li><li class="li1"><div class="de1">&gt;You&#039;re fingers run through her hair, then down to her cheek where they rest. </div></li><li class="li1"><div class="de1">&gt;She&#039;s to shy to speak at this point. </div></li><li class="li1"><div class="de1">&gt;You turn her head so she&#039;s looking up at you. </div></li><li class="li1"><div class="de1">&gt;She&#039;s blushing harder than you&#039;ve ever seen. </div></li><li class="li1"><div class="de1">&gt;You smile. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Close your eyes.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You can feel her heart start to race, but she does. </div></li><li class="li1"><div class="de1">&gt;You take a moment to gather your nerves. </div></li><li class="li1"><div class="de1">&gt;Then you lean down and give the monster a long, soft kiss. </div></li><li class="li1"><div class="de1">&gt;She lets out a little squeal of surprise, but melts into it almost instantly.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you pull away from the kiss, she&#039;s panting, and you can feel her heart pounding. </div></li><li class="li1"><div class="de1">&gt;You grin down at her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;There. Now you can say you have.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tease her, but it doesn&#039;t really seem to register. </div></li><li class="li1"><div class="de1">&gt;Her eyes glance down for a moment before looking back into yours. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;C-can you do that again?&quot; She barely whispers out. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Well, who were you to deny her that? </div></li><li class="li1"><div class="de1">&gt;You do, kissing her once more. </div></li><li class="li1"><div class="de1">&gt;She lets out a soft whimper as your tongue slips in her mouth. </div></li><li class="li1"><div class="de1">&gt;God, her teeth a razor sharp. </div></li><li class="li1"><div class="de1">&gt;That&#039;s...pretty hot, actually. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;When you finally pull away again, her body is trembling a little. </div></li><li class="li1"><div class="de1">&gt;You know that little shake in her breath, the way she squirms as your hand slowly runs up her belly under her shirt. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;S-shouldn&#039;t we get off the floor?&quot; she asks.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Getting off the floor would definitely make things easier. </div></li><li class="li1"><div class="de1">&gt;You nod, and the two of you move to your bed. </div></li><li class="li1"><div class="de1">&gt;It’s much more comfortable like this. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You continue to kiss the girl, her body trembling slightly under your touch as your fingers lightly trail up her warm, furry stomach. </div></li><li class="li1"><div class="de1">&gt;She lets out a little whimper as your fingers brush over her breasts. </div></li><li class="li1"><div class="de1">&gt;They’re fairly small, but hell, you liked them that way. </div></li><li class="li1"><div class="de1">&gt;Her nipples were hidden under a little bit of fur, but given how aroused she was, they weren’t exactly hard to find. </div></li><li class="li1"><div class="de1">&gt;You begin to caress them, occasionally teasing her nipples with your thumb. </div></li><li class="li1"><div class="de1">&gt;Each and every little move or caress you give her earns a tiny gasp or whimper from the monster. </div></li><li class="li1"><div class="de1">&gt;She’s completely submissive to your touch now, and you’re shocked with how sensitive she is. </div></li><li class="li1"><div class="de1">&gt;Your erection is borderline painful at this point. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”A-Anon,” her voice breaks the silence, a hushed whisper. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You look down at her, eyebrow raised, and she looks away shyly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”Um…I-I want to continue, b-but…” she trailed off. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Your other hand brushes her cheek. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“But what?” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”I-I…I don’t know if I wanna…go all the way just yet….” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That was understandable, given she was totally new to this. </div></li><li class="li1"><div class="de1">&gt;You weren’t really disappointed, you just wanted this to be enjoyable for her. </div></li><li class="li1"><div class="de1">&gt;You give her a soft kiss to reassure her before speaking. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That’s okay. If you feel like I’m going to far and want me to stop, just tell me. I will.” </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;”O-okay…” she says, her claws running up your back, pulling you back down for another kiss. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You figure it’s time to start exploring a little more. </div></li><li class="li1"><div class="de1">&gt;So, as you kiss her back deeply, your right hand glides back down her belly, your middle and forefinger slipping between her legs.</div></li><li class="li1"><div class="de1">&gt;She’s soaked, and even that light touch gets a sharp little gasp from her. </div></li><li class="li1"><div class="de1">&gt;You can’t believe how bad she wants it, wants you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You tease her slit with your middle finger, breaking away from the kisses only to nibble lightly on the sensitive skin of her neck. </div></li><li class="li1"><div class="de1">&gt;Her fur makes it a much different experience than your handful of other times, but that&#039;s in no way a bad thing. </div></li><li class="li1"><div class="de1">&gt;Her claws dig into your back, the monster letting out a needy whine. </div></li><li class="li1"><div class="de1">&gt;Though you haven&#039;t gotten a good look, she feels pretty much the same as a human girl anatomy wise. </div></li><li class="li1"><div class="de1">&gt;Hopefully what you picked up in high school still works. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You slip your middle finger inside of her, going slow. You didn&#039;t want to hurt her. </div></li><li class="li1"><div class="de1">&gt;But it didn&#039;t take much to get the message across that she could take more. </div></li><li class="li1"><div class="de1">&gt;So in went your ring finger as well, her walls clamping down on your fingers while she clung onto you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;A-Anon...&quot; she whined, her tone making it evident she wanted more. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You began to pump your fingers in and out slowly, warming her up so it&#039;d be easier here soon. </div></li><li class="li1"><div class="de1">&gt;It only takes a minute of this and a gradually increasing pace for you to have her worked up. </div></li><li class="li1"><div class="de1">&gt;When you feel a soft spongy area, you know you&#039;ve found her G-spot. </div></li><li class="li1"><div class="de1">&gt;A little higher than you remember, but still in reach. </div></li><li class="li1"><div class="de1">&gt;Now for the fun part. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;As you kiss her once more, you start focusing your attention there. </div></li><li class="li1"><div class="de1">&gt;Each thrust of your fingers works in a &quot;come here&quot; motion, applying light pressure to the sensitive flesh. </div></li><li class="li1"><div class="de1">&gt;Your palm stimulates her clit and walls with each movement as well, and she breaks the kisses, unable to keep from panting. </div></li><li class="li1"><div class="de1">&gt;Looks like she&#039;s in heaven right now, her eyes slightly rolled back. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;T-that feels good..&quot; she whimpers out between pants. </div></li><li class="li1"><div class="de1">&gt;Her claws probably have started to draw blood at this point, but that only arouses you further. </div></li><li class="li1"><div class="de1">&gt;Another minute of fingering and kissing, and her breathing starts to become shallower. </div></li><li class="li1"><div class="de1">&gt;Her walls clamp down and relax in waves on your fingers, in sync with your movements. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;A-Anon, I&#039;m close...&quot; she whines. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You don&#039;t slow down in the slightest, now adding just a tad bit more pressure to her G-spot with each move. </div></li><li class="li1"><div class="de1">&gt;That sends her over the edge, the monster letting out a loud whine as her sex spasms around your fingers, a small amount of her fluids spraying out, soaking your hand and the bed sheets.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Her body melts beneath you as she comes off the orgasmic high, panting hard. </div></li><li class="li1"><div class="de1">&gt;Her eyes finally meet yours, a faint glint of something you don&#039;t recognize in them. </div></li><li class="li1"><div class="de1">&gt;When she finally looks down and sees the mess, she blushed bright red and hides her face in her hands. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Oh god, I-I&#039;m sorry...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Don&#039;t be,&quot; you chuckle. &quot;At least I know I didn&#039;t suck at that.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;Y-you really didn&#039;t,&quot; she breathes, her fingers threading through your hair, pulling you in for a deep kiss. </div></li><li class="li1"><div class="de1">&gt;When you break it, she gazes up at you shyly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I...I wanna do something for you too...&quot; she says, one of her clawed hands running over the painfully obvious bulge in your jeans. &quot;It&#039;s not fair if I get all the fun...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Well, you certainly aren&#039;t about to argue. </div></li><li class="li1"><div class="de1">&gt;Though with those claws and teeth, you had to admit you were a bit hesitant. </div></li><li class="li1"><div class="de1">&gt;But you trusted she&#039;d be careful. </div></li><li class="li1"><div class="de1">&gt;And besides, that slight fear made this all the more arousing for you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It didn&#039;t take long for you to get your pants off, and for the two of you to change positions. </div></li><li class="li1"><div class="de1">&gt;You were sitting on the edge of the bed now, Loka between your legs, holding your cock in her rather small, clawed hands, lightly stroking it. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;I...I&#039;m sorry if I&#039;m not to good at this,&quot; she said shyly, brushing a bit of her hair back.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You give a reassuring smile. </div></li><li class="li1"><div class="de1">&gt;This felt better than jacking it, that&#039;s for sure. </div></li><li class="li1"><div class="de1">&gt;Here the fur really helped, the foreign texture adding stimulation you&#039;d never received before. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;You&#039;re doing fine,&quot; you assure her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She smiles shyly, looking away now before shifting, moving a little lower. </div></li><li class="li1"><div class="de1">&gt;Her right hand stays at the base of your cock, her cheeks flushing brightly as she opens her mouth slightly</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Those teeth are in plain view. </div></li><li class="li1"><div class="de1">&gt;Essentially, you&#039;re going to get your dick sucked by a shark. </div></li><li class="li1"><div class="de1">&gt;...</div></li><li class="li1"><div class="de1">&gt;Nice. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;The fear only serves to reinforce your diamond hard erection. </div></li><li class="li1"><div class="de1">&gt;Her big eyes look up at you before she hesitantly takes the tip into her mouth, sucking on it lightly. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Ohhhkay. That actually felt pretty good. </div></li><li class="li1"><div class="de1">&gt;Your reaction was enough to encourage her to take more of your length in her mouth. </div></li><li class="li1"><div class="de1">&gt;She got about half way before she began to suck and pump the base with her hand at the same time. </div></li><li class="li1"><div class="de1">&gt;Your toes curled from the sensation, a little wave of pleasure shooting through you. </div></li><li class="li1"><div class="de1">&gt;It was better than any other blowjob you&#039;d gotten, and she was clearly aware of her teeth, being extra careful to avoid them.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;F-fuck...&quot; you let out, hands gripping the sheets. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She giggles a little, taking a bit more of your cock into her mouth now. </div></li><li class="li1"><div class="de1">&gt;She starts to pick up the pace a little. </div></li><li class="li1"><div class="de1">&gt;Each motion she makes fills your manhood with pleasure. </div></li><li class="li1"><div class="de1">&gt;It only takes a minute or two for you to feel the pressure start to build. </div></li><li class="li1"><div class="de1">&gt;This pressure intensifies as she starts wrapping her long tongue around the length in her mouth, adding a whole new sensation. </div></li><li class="li1"><div class="de1">&gt;You know you aren&#039;t going to last long, but you fight it out for just a little longer. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She can see you&#039;re struggling, and she removes her hand from your cock. </div></li><li class="li1"><div class="de1">&gt;Loka starts to take the whole thing in her mouth, moving up and down the length of your cock quickly, sucking hard each time. </div></li><li class="li1"><div class="de1">&gt;When she buries her snout into your crotch and holds it, that&#039;s enough to send you over the edge. </div></li><li class="li1"><div class="de1">&gt;You cum hard, and she lets out a little &quot;mmph!&quot; of shock. </div></li><li class="li1"><div class="de1">&gt;A little dribbled out of the corners of her mouth, but she manages to swallow most, coughing a little as she finally comes off your dick. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She wipes at her mouth and giggles. &quot;Well, you were pent up~&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;That was an understatement. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;H-holy shit, Loka. That was amazing...&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;&quot;R-really?&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&quot;Really.&quot; </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;She smiles bashfully, looking away. </div></li><li class="li1"><div class="de1">&gt;You could tell things were going to get a lot more interesting from here. </div></li><li class="li1"><div class="de1">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;You are Anon.
-&gt;It&#039;s unseasonably warm tonight, and of course your shitty little apartment&#039;s AC unit broke.
-&gt;This left you laying in your bed, uncomfortably warm, wearing a pair of black gym shorts but not much else.
-&gt;You know you won&#039;t get much sleep tonight, not with this heat.
-&gt;Perfect...
- 
-&gt;As you flip the pillow for the umpteenth time, a soft click breaks the silence of the house.
-&gt;You pause, listening closely.
-&gt;Huh...nothing.
-&gt;Must be imagining things.
- 
-&gt;You lay your head back down and close your eyes.
-&gt;Then you hear the soft sound of your closet door sliding open.
-&gt;Your eyes open wide.
-&gt;Okay, you KNOW that the wind or the house settling won&#039;t make that noise.
-&gt;And you didn&#039;t have any pets...
- 
-&gt;That could only mean someone was in here with you...
- 
-&gt;You feel the color drain from your face.
-&gt;Fuck, fuck, fuck...
-&gt;Someone was in your house.
-&gt;You&#039;d been broken into.
- 
-&gt;Your mind was racing.
-&gt;Was it a petty thief?
-&gt;Were they armed?
-&gt;These questions buzzed in your mind like a swarm of angry hornets.
-&gt;And you couldn&#039;t just wait there...you had to call the cops.
-&gt;But...
-&gt;You&#039;d left your phone charging in the kitchen...
- 
-&gt;The room was silent now.
-&gt;No more movement, at least none you could hear.
-&gt;But you knew better.
- 
-&gt;Your eyes land on the buck knife you&#039;d had for years, resting in it&#039;s sheath on your nightstand.
-&gt;You took a deep breath.
-&gt;One chance here, don&#039;t mess it up...
- 
-&gt;You go for the knife.
-&gt;After a moment of fumbling, you toss it&#039;s sheath to the floor and hold it tightly, eyes on the closet as you now stand there beside your bed.
-&gt;Again, no movement.
- 
-&gt;Then you hear a soft creak as someone inside shifts their weight.
-&gt;Got him now.
- 
-&gt;You reach over for the light switch on your wall, turning the lights on.
-&gt;As soon as your eyes adjust, you try your best (which admittedly wasn&#039;t much) to intimidate the intruder into coming out into view.
- 
-&quot;I know you&#039;re in there.&quot;
- 
-&gt;You growl, though it&#039;s fairly weak.
-&gt;More silence.
-&gt;Then more shuffling.
- 
-&quot;You&#039;ve got three seconds to get out of there before I drag you out myself!&quot;
- 
-&gt;There we go, that sounded a little more intimidating, at least you thought.
-&gt;Silence for a few moments, and you stepped forward.
-&gt;Then came the voice.
-&gt;A female voice, somewhat shaken.
- 
-&gt;&quot;W-wait! I&#039;ll come out, j-just stay back!&quot;
- 
-&gt;You scowl as the intruder comes into view.
-&gt;And as you see them, your body goes rigid, and your knife slips out of your hand, falling to the floor.
- 
-&gt;You can&#039;t be sure what exactly it is you are looking at.
-&gt;It&#039;s humanoid, but...not human in the slightest.
-&gt;Horns made of some black material, claws too that come to deadly points.
-&gt;Some green and yellow striped fur pattern, long tail.
-&gt;You can only call this thing a monster.
-&gt;But...that wasn&#039;t possible.
- 
-&gt;Despite her looking as scared of you as you are of her, you swipe the knife back up, holding it with a shaking hand.
-&gt;Her eyes widen and ears flatten back as she looks at the blade.
- 
-&quot;Y-you stay the hell away from me!&quot;
- 
-&gt;You snarl at her, making her flinch.
-&gt;She backs away, back towards the closet, clawed hands grasping at the door.
-&gt;You watch in confusion as she tries desperately to do...something.
-&gt;She keeps closing the door and opening it again.
-&gt;What...?
- 
-&gt;&quot;No no no, why now!?&quot; The monster lets out a frightened cry as she sees her attempts fail.
- 
-&gt;You&#039;re at a loss for what to think.
-&gt;All you know is you&#039;ve got some sort of monster in your house, and you want it gone.
- 
-&gt;You step forward, brandishing the knife.
-&gt;Your whole body is tense, on edge, ready to fight.
-&gt;Her head snaps back towards you and she lets out a low hiss, baring her teeth and backing away fearfully.
- 
-&quot;What the hell are you?&quot;
- 
-&gt;You spit out lowly, holding the knife at the ready in case it tried anything.
-&gt;She didn&#039;t answer right away, but boy did you get a good look at that mouthful of teeth.
-&gt;Rows of them, like razors.
-&gt;You felt your bravado falter a tad at the sight, but did your best to remain in control here.
-&gt;You take a few more steps closer until she&#039;s pressed to the wall, about three feet between the both of you.
-&gt;It only takes you raising the blade for her own strength to falter.
-&gt;She slides down, sitting huddled up against the wall, legs drawn to her chest, and arm out to protect her face.
- 
-&gt;&quot;P-please, don&#039;t..&quot; she whimpered softly.
- 
-&gt;You stop.
-&gt;By now, your adrenaline high is coming down.
-&gt;You&#039;re starting to think more clearly now.
-&gt;She&#039;s not trying to hurt you.
-&gt;She&#039;s clearly more afraid of you than you are of her.
- 
-&gt;Perhaps you&#039;re going a little overboard with this self defense thing...
- 
-&gt;After a second, you kneel so you&#039;re eye level with her.
-&gt;Her wide eyes watch with first fear, then confusion as you put the knife on the floor and slide it away from either of you.
- 
-&gt;&quot;W-wha-?&quot;
- 
-&quot;Just take it easy, alright?&quot;
- 
-&gt;You say in a gentler voice than you spoke with earlier.
-&gt;She swallowed hard and nodded, her eyes not leaving yours, as if she was still waiting for you to attack.
- 
-&quot;What...what are you?&quot;
- 
-&gt;&quot;I-I...&quot; She stammers out, her voice catching a bit as her eyes dart towards your open closet door.
-&gt;You keep your voice low.
-&gt;You don&#039;t want to scare her.
-&gt;If you pushed it, lord knows what those claws and teeth could do in an emergency.
- 
-&quot;Hey, relax...I&#039;m not gonna hurt you.&quot;
- 
-&gt;Real convincing after you threatened her with a knife...
-&gt;She looks back to you, and you see her eyes start to glisten over.
-&gt;Oh no...
- 
-&gt;Her breath catches, and tears start to roll down her cheeks.
-&gt;She breaks down, burying her face in her hands, her body wracked with sobs.
-&gt;You watch in uncomfortable silence for a moment, not really sure of what to do.
-&gt;All the while, she sits there, hugging herself and crying quietly.
- 
-&gt;You...
-&gt;You honestly felt horrible at this point.
-&gt;This girl...monster...thing...she&#039;d done nothing to warrant your earlier actions, you now saw in hindsight.
-&gt;She was just as lost and confused as you, poor thing.
- 
-&gt;You don&#039;t know what to say to her, or if anything you CAN say would help at all.
-&gt;But you can&#039;t just sit there and watch.
-&gt;You slowly scoot closer to her, hesitantly reaching out with your right hand.
-&gt;She flinches away from it, but doesn&#039;t make a move to stop you from brushing her fuzzy cheek.
-&gt;You wipe the tears away.
- 
-&quot;Do you...do you have a name?&quot;
- 
-&gt;It takes a moment for her to get it out, but eventually she whispers.
- 
-&gt;&quot;L-Loka...&quot;
-&gt;You can see she&#039;s trembling slightly, eyeing you warily.
-&gt;You know you&#039;ll need to take this slow with her, for now.
-&gt;Don&#039;t want to overbear her.
- 
-&quot;That&#039;s a nice name,&quot; you say with a smile. &quot;I&#039;m Anon.&quot;
- 
-&gt;&quot;A-Anon...&quot; she repeats with a little sniffle before falling quiet.
-&gt;You frown, then hesitantly ask the million dollar question.
- 
-&quot;Loka...where exactly did you come from?&quot;
- 
-&gt;She sniffles, hugging her knees as her reddened eyes drift to the door again.
-&gt;&quot;Y- you wouldn&#039;t understand,&quot; she says softly.
- 
-&quot;Try me.&quot;
- 
-&gt;&quot;I-I can&#039;t say, Anon. It w-would just make things worse...not like I&#039;m gonna get to go back anyways...&quot;
- 
-&gt;What?
-&gt;You&#039;re so lost at this point.
-&gt;But you don&#039;t press the issue.
-&gt;She&#039;s stressed out enough as is.
- 
-&gt;Scooting close to her, she flinches slightly as you go to touch her again, but like last time, she doesn&#039;t stop you.
-&gt;Your palm softly brushes the fur on her cheek, but this time it&#039;s more for yourself than anything.
-&gt;The softness of her fur reassures you that, no, you haven&#039;t gone insane. She&#039;s actually real.
- 
-&gt;Her eyes close as your fingers work through her fur.
-&gt;A few more tears roll down her cheeks, and Loka lets out a soft little whimper while your fingers work through her hair.
- 
-&gt;&quot;W-what am I going to do?&quot; She whined.
-&gt;You couldn&#039;t think of anything to say, so you stayed quiet.
-&gt;She was trembling now, you could feel it.
- 
-&gt;&quot;I-I don&#039;t know...i-if I can even go back...&quot;
-&gt;Her voice caught on the last few words, and she hid her face in her arms.
-&gt;You frown, and stop petting her hair, scooting close to her.
- 
-&quot;Loka, I&#039;m sure it-&quot;
- 
-&gt;&quot;What, it&#039;ll get better? It&#039;ll get fixed just like that?!&quot; She suddenly snapped.
- 
-&gt;You&#039;re lost for words, and seeing the look on your face, she quickly looks away.
- 
-&gt;&quot;S-sorry...&quot; she sniffles.
- 
-&quot;Its...it&#039;s fine..&quot;
- 
-&gt;Her reddened eyes slowly meet yours before she looks down, falling quiet as more tears roll down her cheeks.
-&gt;You scoot a little closer.
- 
-&quot;Hey, Loka...&quot;
- 
-&gt;As she looks up, you try to give a supportive smile and hold your arms out to her.
-&gt;She&#039;s hesitant at first, but accepts the hug.
-&gt;As her arms slip around you, you feel how soft and warm she is.
-&gt;It&#039;s like hugging a huge teddy bear.
-&gt;She&#039;s shorter than you, so even with you kneeling there, her her head still rests underneath your chin rather well. You&#039;ve just got to mind the horns.
-&gt;She buries her face into your chest while you reach up, lightly stroking her hair as she cries against you.
-&gt;You stay silent, just letting her get it all out.
-&gt;Eventually she calms down, but stays against you.
- 
-&quot;Do you want something to drink, Loka?&quot;
- 
-&gt;You finally ask, and she nods meekly.
-&gt;&quot;Water...p-please.&quot;
- 
-&quot;Alright. I&#039;ll be right back.&quot;
- 
-&gt;&quot;A-Anon, wait.&quot;
-&gt;Her fingers cling onto your bare shoulders, holding you tightly.
-&gt;You rub her back a little as she looks up with you with sad and slightly fearful eyes.
-&gt;&quot;Are...please, don&#039;t run off or something..&quot; she whined, knowing full well it&#039;d be the end of her if he ran off and got anyone else.
-&gt;She sounded so afraid, it was heartbreaking.
- 
-&quot;I won&#039;t.&quot;
- 
-&gt;&quot;P-promise?&quot;
- 
-&quot;I promise. Just sit tight, I&#039;ll be back in a minute.&quot;
- 
-&gt;After a moment&#039;s hesitation, she lets you go, and you head downstairs.
-&gt;You grab a glass of water for her, the monster looking relieved when you returned like you promised.
-&gt;You sit on your bed and motion for her to sit next to you, and she does, taking small sips from the glass.
-&gt;&quot;Thank you...&quot;
- 
-&gt;She&#039;s hesitant to say, but eventually relents.
-&gt;You...really had a hard time comprehending most of it.
-&gt;Something about doors being some sort of gateway between her world and yours, and they can be produced to link to certain ones on Earth.
-&gt;How such a thing is even possible aside, evidently, she&#039;d gotten curious and wanted to test a new one she&#039;d helped make after the labs shut down.
-&gt;Evidently, there was a fuckup.
-&gt;And not only did it lead to the wrong place, but it couldn&#039;t work both ways.
-&gt;She was effectively stranded here.
- 
-&quot;Damn...&quot;
- 
-&gt;She&#039;s set the glass down now, her eyes cast down on the floor.
-&gt;&quot;I don&#039;t know what I&#039;m gonna do...&quot; she said sadly.
- 
-&gt;You honestly had no idea either.
-&gt;And right now, you were tired as hell.
- 
-&gt;You yawn and flop down on your back with a sigh.
- 
-&quot;Me either.&quot;
- 
-&gt;&quot;Oh...am I keeping you up? Sorry, I shouldn&#039;t have rambled...&quot;
- 
-&quot;It&#039;s fine...&quot;
- 
-&gt;You tell her, closing your eyes.
-&gt;You feel the weight on the bed shift as she lays down next to you.
- 
-&gt;&quot;Go to sleep then.&quot;
- 
-&quot;Okay..&quot;
- 
-&gt;You say tiredly, letting your body relax.
-&gt;Loka starts running her fingers through your hair as you lay there, only serving to help you relax more.
-&gt;A few minutes later, you&#039;re out like a light.
- 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 
-&gt;When you wake up, it&#039;s midmorning.
-&gt;The first thing you&#039;re aware of is that you aren&#039;t alone.
-&gt;After a moment of groggy panic, you realize it&#039;s only Loka.
-&gt;She&#039;s curled up close to you, her hands tucked up under her chin and face nestled against your chest.
-&gt;She&#039;s still out like a light.
-&gt;You can&#039;t help but smile.
-&gt;She looks really cute like this.
-&gt;As she stirs and lets out a tired murmur, you start gently petting her.
-&gt;Her eyes open and she lets out a little yawn.
-&gt;She looks up at you, a faint tinge of red showing on her cheeks before she nuzzles against your chest.
-&gt;She stays quiet, save for letting out a small murmur as you work your fingers through her soft fur.
-&gt;You don&#039;t feel like talking right now.
-&gt;You just wanna enjoy this.
- 
-&gt;&quot;Anon?&quot; Loka calls your name meekly, breaking the silence.
-&gt;You look down at her.
- 
-&quot;Hmm?&quot;
- 
-&gt;She shifts a little, her hands sliding around your waist as she hugs onto you.
- 
-&gt;&quot;Thank you for...you know, not...hurting me or anything...&quot;
- 
-&gt;After a moment of silence, she nuzzles her face into the crook of your neck. &quot;I hope I&#039;m not being annoying..&quot;
- 
-&gt;You can&#039;t help but grin a little.
- 
-&quot;Nah, you&#039;re not annoying. I&#039;d be lying if I said I wasn&#039;t enjoying this.&quot;
- 
-&gt;She shifts again, her tail now sliding around your waist as she holds onto you. &quot;A-are you sure?&quot;
- 
-&gt;You move your hand, starting to stroke the fur under her jaw.
- 
-&quot;Pretty sure,&quot; you say with a little laugh.
- 
-&gt;That gets her to relax some.
-&gt;She pulls herself up a little bit and looks down shyly before giving you a kiss on the cheek, her own cheeks a dull red.
- 
-&gt;It&#039;s impossible to keep yourself from blushing too.
-&gt;Loka looks down shyly, an adorable little grin on her face.
-&gt;&quot;I&#039;m glad...I&#039;m enjoying this too...&quot;
- 
-&quot;I thought you guys were told humans were toxic?&quot;
- 
-&gt;You tease, and her blush deepens while she snuggles closer to you.
- 
-&gt;&quot;I&#039;m glad you aren&#039;t...&quot; she murmurs.
-&gt;One of her clawed hands comes up, and she slowly trails her nails down your back while she shifts so she&#039;s a little higher.
-&gt;The feeling makes you shiver, and you see her look up at you with a glint of playfulness in her eyes.
- 
-&gt;Of course, before you can think too much of it, her stomach growls loudly, causing the fuzzy monster to blush brightly and shyly look down.
-&gt;You can&#039;t help but laugh at her adorable reaction.
- 
-&quot;Well then...how about I go make us some breakfast?&quot;
- 
-&gt;&quot;Do you want me to help?&quot; She asked with a sweet little smile, the both of you sitting up in bed.
-&gt;While you didn&#039;t need it, you were certain she wasn&#039;t familiar with human food, so it wouldn&#039;t hurt to have her see what exactly you had.
- 
-&quot;Sounds good to me,&quot; you say.
- 
-&gt;The both of you get out of bed, though she&#039;s hesitant to come downstairs with you.
-&gt;Despite living in a shitty little house in an underpopulated suburb, you still are quick to shut your curtains.
-&gt;Last thing you need is a stray passerby or UPS driver seeing her.
-&gt;That was a shitstorm you were not prepared to deal with.
- 
-&gt;You assume by her innumerable sharp teeth that she primarily eats meat.
-&gt;This is confirmed by the happy little squeal she gives when she sees you pull out one of the frozen ham steaks from the freezer, and the way her pupils dilate ever so slightly as the smell of it cooking on the stove fills the room.
-&gt;You&#039;re beginning to wonder if there isn&#039;t some shark in her.
-&gt;As for yourself, you quickly make up some eggs. You weren&#039;t much of a breakfast person anyways.
-&gt;A couple minutes later, the ham steak is cooked, and you hand it to her on a plate.
- 
-&gt;She completely disregards the fork, picks up the entire thing, and drops it in her mouth.
-&gt;It&#039;s fucking gone, like that. She didn&#039;t even chew it.
-&gt;All of your wat.
- 
-&gt;She sees your look of amazement and confusion and looks down at her hands, which she can&#039;t stop fiddling with.
- 
-&gt;&quot;T-thank you...&quot;
- 
-&quot;Well, that&#039;s apparently a thing,&quot; you say with an amused smile.
- 
-&gt;She blushes a little, not meeting your gaze.
- 
-&gt;&quot;Would you rather I not?&quot;
- 
-&gt;You shrug as you pick at your eggs, not really feeling all that hungry.
- 
-&quot;It&#039;s fine. Might take some getting used to seeing, though.&quot;
- 
-&gt;You give up on the eggs by now, opting to dump them.
-&gt;Only you could fuck up eggs.
- 
-&gt;Sadly though, you know this lighthearted conversation can&#039;t carry on forever.
- 
-&quot;So, Loka...&quot; you start. &quot;How do we...you know, get you home, if the door you used isn&#039;t working?&quot;
-
-&gt;Loka&#039;s shy smile drops almost immediately. 
-&gt;She looks down at her clawes hands, flexing them a bit. 
-
-&gt;&quot;I...I don&#039;t know...&quot; she says quietly. 
-
-&gt;Shit. 
-&gt;You probably shouldn&#039;t have asked. 
-&gt;But before you can apologize, your phone rings. 
-
-&quot;I&#039;m sorry Loka, gimmie a minute.&quot; 
-
-&gt;You answer. 
-&gt;It&#039;s your manager. 
-&gt;He explains that one of your fellow employees up and quit, and he needs you to come in a and pick up his shift from Noon-10. 
-&gt;You can tell from his tone this isn&#039;t negotiable. 
-&gt;Great. 
-&gt;You agree, and hang up. 
-
-&gt;&quot;W-who was that?&quot; Loka asks. 
-
-&quot;My manager. I need to come in to work today, apparently.&quot; 
-
-&gt;Loka shifts uneasily. &quot;But...what am I supposed to do?&quot; 
-
-&quot;Uh...I guess you&#039;ll just have to chill out here.&quot; 
-
-&gt;&quot;By myself? But, what if someone sees me?&quot; 
-&gt;She sounds genuinely scared at the thought of being seen by anyone else, and that&#039;s more than understandable. 
-
-&quot;Just...don&#039;t answer the door and keep the blinds shut. You&#039;ll be fine, Loka.&quot; 
-
-&gt;She shuffles her feet a little bit, claws slightly digging into the carpet. &quot;O-okay.&quot; 
-
-&gt;You smile at her, then walk back up to your room to get ready. 
-&gt;It only takes you a few minutes, and soon you&#039;re on your way out the door. 
-&gt;Reluctantly, Loka says goodbye, but not before giving you a big hug first. 
-&gt;That of all things made your day. 
-
-&gt;And you were off. 
-&gt;It was near 10:45 when you finally got home.
-
-&gt;You walk inside, shutting the door behind you and locking it. 
-&gt;You remove your polo and toss it aside, leaving your white undershirt on. 
-
-&quot;Loka? I&#039;m home.&quot; 
-
-&gt;You call into the house, but get no answer. 
-&gt;As you walk into the living room, you see her. 
-&gt;She&#039;s asleep on the couch, hugging a quilt she must have found in the linen closet, curled up in the in a little ball. 
-&gt;She looks so cute, it makes your heart melt a little. 
-
-&gt;You walk closer, and kneel by her head, slowly starting to stroke her soft hair. 
-&gt;The sensation gets her to let out a little murmur, and her eyes open slowly. 
-
-&gt;&quot;Anon?&quot; she asks after letting out a tiny yawn.
-
-&gt;She presses her head back against your hand, encouraging you to keep petting her, which you do. 
-
-&gt;&quot;How&#039;d work go?&quot; she asked tiredly, cuddling the blanket tighter. 
-
-&quot;It was fine. Glad to see you didn&#039;t destroy the place in my absence.&quot; 
-
-&gt;She giggles. &quot;Almost did. Almost.&quot; 
-
-&quot;I don&#039;t think I even wanna know,&quot; you chuckle. 
-
-&gt;&quot;Nope...&quot; she yawns. 
-&gt;Her furry hands come out and grab your other hand, and she hugs it, nuzzling her face against your palm. 
-&gt;You roll your eyes and start using it to pet her as well, getting her hair and the fur on her cheek at the same time. 
-&gt;She starts letting out this low noise, which you at first think is a growl, but then you realize she&#039;s purring. 
-
-&quot;What, are you a cat now or something?&quot; 
-
-&gt;As you ask, you pull your hands away slightly, ceasing the petting. 
-
-&gt;&quot;Nooo, why&#039;d you stop?&quot; she whines. 
-
-&quot;Try asking nicely, sweetheart.&quot; 
-
-&gt;She pouts, reaching up for one of your hands. &quot;Please?&quot; 
-
-&gt;You purse your lips, then grin and stand. 
-
-&quot;Nah. Better luck next time.&quot; 
-
-&gt;She whines again. &quot;You&#039;re mean!&quot;
-
-&gt;As you walk to the kitchen, you hear a soft &quot;swish&quot; from behind, making you turn around. 
-&gt;You don&#039;t see Loka. 
-&gt;Woah, what the fuck? 
-
-&quot;Loka?&quot; 
-
-&gt;Another soft swish from behind, in the kitchen. 
-&gt;Okay, now you&#039;re starting to get a little nervous. 
-&gt;No matter where you look though, you don&#039;t see her. 
-&gt;Suddenly there comes a low growl, and you get pounced on from behind, sending you sprawling on the carpet. 
-
-&gt;&quot;I demand attention!&quot; she said triumphantly. 
-&gt;Despite being shorter than you, she was pretty strong, and had you pinned. 
-
-&quot;Goddamnit Loka, let me go!&quot; 
-
-&gt;&quot;No!&quot; she says. 
-&gt;She&#039;s straddled over your waist right now, and leans down, starting to nuzzle your face. 
-
-&gt;&quot;Pet me.&quot; 
-
-&quot;I don&#039;t wanna.&quot; 
-
-&gt;&quot;Pet me!&quot;
-
-&gt;She&#039;s a little more demanding that time. 
-&gt;You give in, and start to pet her. 
-&gt;This leads to her laying down on top of you, nuzzling your cheek softly while she lets out quiet purrs. 
-
-&quot;Happy now?&quot; 
-
-&gt;She lets out a soft &quot;mhmm,&quot; her eyes closed. 
-&gt;All the while, you continue to run your fingers through her fur. 
-&gt;She doesn&#039;t even seem to mind you sliding your fingers under the lip of her shirt, allowing you to pet her back. 
-&gt;If anything, that just makes her press herself closer to you. 
-
-&quot;If you&#039;re gonna lay on me, can I at least be on the couch or something, and not the floor?&quot; 
-
-&gt;Loka lets out a little sigh, but pulls herself off of you. &quot;Fiiiiine.&quot; 
-
-&quot;Thank you.&quot; 
-
-&gt;So you move to the couch. 
-&gt;And this girl wastes no time in getting back to it. 
-&gt;You start to grow tired, your pets slowing until they stop. 
-&gt;You lay there quietly, one hand up her shirt resting on her back, the other loosely draped around her. 
-&gt;Her breathing is soft and warm against the skin of your neck. 
-
-&gt;&quot;Anon?&quot; She murmurs tiredly after a few minutes. 
-
-&quot;Yeah Loka?&quot; 
-
-&quot;Thank you...for everything..&quot;
-
-&gt;Loka&#039;s hand slow slides over to your free hand, and she takes it in hers. 
-
-&gt;&quot;I-it means a lot, for you to let me stay here...&quot; 
-&gt;She interlocks her fingers with yours. 
-&gt;You can feel her sharp black claws lightly pressing against the back of your hand. 
-&gt;Her head turns up as she looks at you. 
-
-&gt;&quot;Do you...do you want me here?&quot;
-
-&gt;She sounded hesitant, her eyes showing a hint of fear at your answer. 
-&gt;You let out a little sigh and start running your other hand through the fur on her back again. 
-
-&quot;Well, I didn&#039;t really expect you to be here, Loka, but...&quot; 
-
-&gt;&quot;B-but?&quot; She sounds even more nervous now, and you can feel her shaking a bit. 
-
-&quot;Yes. Yes, I want you here. You&#039;re nice to have around.&quot; 
-
-&gt;You smile down at her, and one appears on her face too. 
-&gt;She lets out a content little purr and presses her face into the crook of your neck. 
-
-&gt;&quot;I thought I was getting annoying...&quot; 
-
-&gt;You shake your head. 
-
-&quot;Nah, you&#039;re fine. Iiiiif a little needy,&quot; you tease. 
-
-&gt;She blushes a little and pouts. &quot;Meanie.&quot; 
-
-&quot;Oh boo hoo.&quot; 
-
-&gt;&quot;Stooop.&quot; 
-
-&quot;Make me.&quot; 
-
-&gt;&quot;I&#039;ll bite you.&quot; 
-
-&quot;No you won&#039;t.&quot; 
-
-&gt;&quot;Wanna bet?&quot; She asks, flashing her teeth. 
-
-&gt;Okay, you&#039;re sure she&#039;s joking, but...the way she ate that ham steak earlier... 
-&gt;Probably shouldn&#039;t risk that.
-
-&gt;She sees your face and her toothy grin widens.
-
-&gt;&quot;Thought so,&quot; She says, laying her head back down on your chest. 
-&gt;You roll your eyes and shift your weight a little, relaxing and falling quiet after that. 
-&gt;She&#039;s still holding your hand, now looking at it with tired eyes while her thumb rubs your palm. 
-&gt;Her warmth is radiating onto you now, and it the feeling of drowsiness from your long shift at work hits you like a wave. 
-&gt;She scoots up a little bit so she&#039;s now face to face with you, the movement forcing you to turn on your side. 
-&gt;Now she&#039;s laying on her side as well, facing you, her smaller, warm body curled up close to you.
-&gt;Her forehead is resting against yours, and you feel one of her furry hands rest on your cheek. 
-&gt;She kisses your forehead, earning a tired murmur from you. 
-
-&gt;&quot;Goodnight Anon...&quot;
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-&gt;You’re awoken in the middle of the night, but by what you aren’t sure. 
-
-&gt;Glancing at the clock on the DVR, you see it’s 3 am. 
-&gt;With a sigh, you lay your head down again, your tired eyes focusing on Loka. 
-&gt;She’s got her back to you now, her arms drawn up close to her chest. 
-&gt;She’s silent, but as your senses become more alert, you can see she’s shaking slightly. 
-&gt;That grabs your attention. 
-
-“Loka?” 
-
-&gt;You whisper her name softly, scooting close to her, propping yourself up on one elbow so you’re slightly leaning over her. 
-&gt;Her eyes are shut tight, and you can see a few tears flowing from them. 
-&gt;She doesn’t respond, but you can tell she isn’t asleep. 
-&gt;As you run your hand over her furry shoulder, her eyes slowly open. 
-
-“Hey…what’s wrong?” 
-
-&gt;You speak to her quietly and with a gentle voice, not wanting to say anything that might upset her further. 
-&gt;She sniffles and shakes her head, not responding. 
-
-“Loka…Loka, look at me.” 
-
-&gt;You cup her cheek, turning her head so she’s looking at you. 
-&gt;More tears well up in her eyes, which you brush away with your thumb. 
-
-&gt;You can’t begin to imagine what this girl is going through right now. How hard all of this must be for her. 
-&gt;You’re surprised she kept up a good attitude for this long. 
-
-&gt;She turns so she’s facing you, and you lie back down, sliding an arm around her waist and pulling her close. 
-&gt;Her hands cling to your shirt while her tail wraps tightly around you. 
-&gt;You slide your other arm around her, allowing her to rest her head on your bicep while you slowly thread your fingers through her hair. 
-&gt;You can feel her shaking now, and it’s a little heartbreaking. 
-
-“Hey…talk to me, Loka. What is it?”
-
-&gt;She lets out a shaky breath, and when she speaks, her voice is barely a whimper. 
-&gt;”I-I wanna go home…” she says, her breath catching as a few sobs hit her.
-
-&gt;You frown, and tighten your hold on her just a little, slowly rubbing her back. 
-&gt;She whines and takes another shaky breath. “I-I miss my friends…my family…” 
-
-“I know, sweetheart. I know…” 
-
-&gt;She buries her face in your chest, her sobs hitting a little harder. 
-&gt;For a few minutes, all you can do it lay there and hold her while she lets out her sadness and fear, the poor thing shaking like a leaf in your arms. 
-&gt;Eventually she starts to calm down though, and you take the opportunity to wipe her tears away. 
-
-“We’re gonna get you home, Loka.” 
-
-&gt;Her reddened eyes meet yours. 
-&gt;She looks so lost and afraid right now… 
-
-&gt;”H-how?” 
-
-“We’ll figure something out. It’s just gonna take some time.” 
-
-&gt;She nuzzles your chest, sniffling. “Promise me?” 
-
-“I promise, Loka. We’ll get you home.” 
-
-&gt;Her eyes gaze into yours as the two of you lay there, and she lets out a shaky sigh. “O-okay…” 
-&gt;She rests her head on your chest, her hold on you relaxing somewhat. 
-&gt;How long you lay there, you don’t know, but eventually she falls back asleep. 
-&gt;And soon enough, so do you.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-&gt;When you wake up the next morning, it’s to a strange smell. 
-&gt;No, wait, you recognize it… 
-&gt;As your senses come into focus, you get another good wiff. 
-&gt;Yep, you DEFINETLY recognize it. 
-&gt;Something is burning. 
-&gt;And Loka isn’t with you on the couch….
-
-&gt;Oh shit…
-
-“Loka!” 
-
-&gt;You call the fuzzy monster’s name out from the living room, quickly following the smell to the kitchen. 
-&gt;You’re greeted with the sight of the monster in a panic, trying to squelch the flames coming out of a frying pan. 
-&gt;What the hell she burned, you had no clue, but it looked bad. 
-&gt;But then you noticed she was trying to literally pat down the flames with her bare hands. 
-
-“Loka, the hell are you doing?!” 
-
-&gt;You’re justifiably angry, she’s close to burning down your house. 
-&gt;She flinches accidentally knocking the burning frying pan onto the tile floor with a loud clang. 
-
-&gt;”I-I’m sorry! I-I-“ 
-
-“Jesus Christ, toss me the dish towel!” You snap, cutting her off. 
-
-&gt;She does, and you use it so squelch the flames. 
-&gt;Once they’re out, you see the shriveled charcoal remains of bacon left in the pan. 
-&gt;Oh good, a grease fire. 
-&gt;Thank god you woke up when you did. 
-
-&gt;You pick up the pan and set it in the sink under some cold running water, steam rising off of it with a hiss for a moment. 
-&gt;Loka speaks up again, meekly. “S-sorry.” 
-
-&gt;You lean against the counter, rubbing the bridge of your nose. 
-
-“I’d really appreciate it if you didn’t nearly burn down my house next time.” 
-
-&gt;She looks down, ashamed and falling silent. 
-
-“Why exactly were you trying to make bacon, anyways?” 
-
-&gt;”I-I just wanted to make you breakfast…” 
-
-&gt;Okay, you can’t stay mad at that face, that sweet voice. 
-&gt;Especially when she continues. 
-
-&gt;”You…you’ve done a lot for me, and last night…I-I needed that. I just wanted to repay you somehow…” 
-
-&gt;Oh god your heart. 
-
-&gt;”I’m sorry…” 
-
-&gt;You sigh, crossing your arms over your chest. 
-
-&quot;It&#039;s fine Loka, but don&#039;t go starting more fires in my house, okay?&quot; 
-
-&gt;You try to say that with somewhat of a joking tone, but she still looks down and gives a little nod. 
-
-&quot;Also, why were you trying to put it out with your hands? That&#039;s really...&quot; 
-
-&gt;You don&#039;t wanna use the word &quot;retarded&quot;, not to her. 
-
-&quot;..Dangerous.&quot; 
-
-&gt;Good enough. 
-&gt;She looks down at her hands, then shows them to you. 
-&gt;Absolutely no burn marks on her. 
-&gt;Just a little piece of charred bacon that she dusts off. 
-
-&gt;&quot;I&#039;m fireproof,&quot; she says, as if it were common knowledge. 
-
-&quot;What, seriously?&quot; 
-
-&gt;&quot;Mhmm. See?&quot; 
-
-&gt;She straight up puts her hand on the still glowing stove burner, and nothing. Her hand is unscathed. 
-&gt;You can&#039;t even begin to understand how that&#039;s possible. 
-
-&quot;That&#039;s....neat.&quot; 
-
-&gt;&quot;It&#039;s nothing special. You should see what some of the other monsters can do.&quot; 
-
-&quot;Like?&quot; 
-
-&gt;&quot;Turn invisible, breath fire, phase through walls, climb ceilings...&quot; 
-
-&gt;Those are uh...strange attributes to have. 
-&gt;But there was nothing normal about where she came from, or her for that matter. So it wasn&#039;t surprising. 
-
-&gt;She looks at you curiously. &quot;Can you do anything?&quot;
-
-&gt;&#039;Jack off twelve times in a row without stopping,&#039; you THINK, but don&#039;t say. 
-&gt;That would have made for an interesting conversation though. 
-
-&quot;No, not really.&quot; 
-
-&gt;&quot;Nothing?&quot; She asks, her head cocked to the side a little. 
-
-&quot;Nothing. Humans are kind of...boring, as far as our biology goes. As you can probably tell from my lack of horns, fangs, etc...&quot; 
-
-&gt;The monster looks you over, stepping closer and taking one of your arms in your clawed hands. 
-&gt;What she found so interesting, you didn&#039;t know, but she looked at your arm from several different angles. 
-
-&gt;&quot;You look like you&#039;d be easy prey.&quot; 
-
-&quot;Well that&#039;s morbid.&quot; 
-
-&gt;She flashes a tooth grin. &quot;Sorry, it&#039;s not my fault you&#039;re weak,&quot; she teases. 
-
-&gt;Weak? 
-&gt;Weak? 
-&gt;Bitch, you can&#039;t weigh more than 150 soaking wet. 
-
-&quot;Oh, so I&#039;m weak?&quot; 
-
-&gt;Her grin widens, becoming more teasing. &quot;You look like it.&quot; 
-
-&gt;She&#039;s challenging you. 
-&gt;She has made a grave mistake. 
-
-&quot;Oh, you don&#039;t know how wrong you are...&quot; 
-
-&gt;You start moving back for the entrance to the kitchen, and lean against the wall, fingers quickly scratching on it. 
-&gt;Just as you hoped, it gets her attention, her eyes focusing on you hand, then you. 
-&gt;Her tail starts to swish slowly behind her. 
-
-&quot;But if you wanna see for yourself...&quot; 
-
-&gt;Take a few more steps out. 
-&gt;Her toothy grin widens, and she slowly follows, matching your pace. 
-
-&quot;Well, you&#039;re welcome to find out.&quot; 
-
-&gt;You dart into the hall, and though you don&#039;t hear her footsteps, you know she&#039;s following. 
-&gt;Let the game begin. 
-
-&gt;You duck into the first room you see, you&#039;re bedroom, and as quietly as you can crouch behind a dresser, out of sight from the doorway. 
-&gt;Loka is incredibly sneaky and lightfooted, you come to find out, so it&#039;s nearly impossible to pinpoint where she is. 
-
-&gt;A few minutes pass. 
-&gt;You don&#039;t see her, hear her. 
-&gt;Did she give up? 
-&gt;Now you&#039;re a little confused. 
-
-&gt;You leave your hiding spot, inching over to your bed so you can see out into the hall. 
-&gt;Bad move. 
-
-&gt;Suddenly a clawed hand grabs at your ankle, making you jump and yelp in surprise. 
-&gt;She didn&#039;t even have to pull, you fell on your own terms. 
-&gt;As you turn to look for her, she pounces at you from under the bed. 
-&gt;She&#039;s got you pinned, her tail swishing in the hair behind her, beaming a toothy grin at you. 
-
-&gt;&quot;I knew you were weak!&quot; she claims triumphantly. 
-&gt;Her claws are slightly digging into your shoulders, making any struggling useless. 
-&gt;You give. 
-
-&quot;Fine, you got me..&quot;
-
-&gt;Loca grins playfully, her claws starting to knead your shoulders like a cat. 
-&gt;A cat...shark...thing... 
-
-&gt;&quot;Did you really think you&#039;d win? You know how good I am at sneaking.&quot; 
-
-&gt;You smile. 
-
-&quot;Wait, you think I lost?&quot; 
-
-&gt;Her smile falters. She looks a little confused. 
-
-&gt;&quot;Uh...yeah?&quot; 
-
-&quot;Wrong.&quot; 
-
-&gt;&quot;Wha-WOAH!&quot; 
-
-&gt;You flip her over, so now you have her pinned. 
-&gt;No amount of trashing from the fuzzy monster is enough to break your hold. 
-
-&quot;Gonna give up now?&quot; 
-
-&gt;You tease her. 
-&gt;But she doesn&#039;t laugh. 
-&gt;Even under her fur, the blush on her cheeks is evident. 
-&gt;You&#039;ve got both her wrists pinned, and compared to you she&#039;s pretty small. 
-&gt;Her eyes are wide, flustered. 
-&gt;And you feel your own cheeks light up too. 
-
-&gt;&quot;A-Anon?&quot; she asks with a very soft, timid voice.
-
-&quot;Y-yeah?&quot; 
-
-&gt;You feel your heart start to pound in your chest as her claws lightly run over your palms. 
-
-&gt;&quot;Come here...&quot; she whispers, her eyes shyer than you&#039;ve ever seen. 
-&gt;As you lean in closer, she slips one of her hands from your grasp, tenitavely reaching up and threading her fingers through the hair on the back of your head. 
-&gt;Your cheeks feel like they&#039;re on fire, and hers look like they are too. 
-&gt;You&#039;re faces are only a few inches apart now. 
-
-&gt;&quot;Anon...d-do...&quot; she starts shyly, looking down. &quot;Do you have, y-you know...&quot; 
-
-&quot;A girlfriend?&quot; 
-
-&gt;She nods meekly. 
-
-&quot;N-no, I haven&#039;t for a while...&quot; 
-
-&gt;She smiles shyly up at you. &quot;O-oh...heh,&quot; she gives a weak laugh. &quot;I would&#039;ve thought you did...&quot; 
-
-&quot;Me? Of all people?&quot; 
-
-&gt;Her shy smile widens, her eyes meeting yours. &quot;Y-yeah...you...you aren&#039;t bad looking, Anon. F-for a human.&quot; 
-
-&gt;You can&#039;t help but smile a little too at the compliment. 
-
-&quot;Well, you&#039;re not hard on the eyes yourself, Loka. For a monster.&quot;
-
-&gt;You say that with a teasing tone that only makes her blush deepen.
-
-&gt;You continue. 
-
-&quot;I can&#039;t imaging you being single. You&#039;ve gotta have a boyfriend, right?&quot; 
-
-&gt;Your words only get her more and more flustered. 
-&gt;But, of course, that&#039;s your goal. 
-
-&gt;&quot;W-what? Me? N-no...n-never have...&quot; 
-
-&gt;Your smile widens, and you cock an eyebrow. 
-
-&quot;Seriously? Not once?&quot; 
-
-&gt;&quot;N-no...&quot; she whispers. 
-
-&gt;You slowly brush a strand of her hair out of her face. 
-&gt;The heat radiating off of her is telling. 
-
-&quot;So...you&#039;ve never had your first kiss, then?&quot; 
-
-&gt;She shook her head, looking away from you shyly. 
-&gt;You&#039;re fingers run through her hair, then down to her cheek where they rest. 
-&gt;She&#039;s to shy to speak at this point. 
-&gt;You turn her head so she&#039;s looking up at you. 
-&gt;She&#039;s blushing harder than you&#039;ve ever seen. 
-&gt;You smile. 
-
-&quot;Close your eyes.&quot; 
-
-&gt;You can feel her heart start to race, but she does. 
-&gt;You take a moment to gather your nerves. 
-&gt;Then you lean down and give the monster a long, soft kiss. 
-&gt;She lets out a little squeal of surprise, but melts into it almost instantly.
-
-&gt;As you pull away from the kiss, she&#039;s panting, and you can feel her heart pounding. 
-&gt;You grin down at her. 
-
-&quot;There. Now you can say you have.&quot; 
-
-&gt;You tease her, but it doesn&#039;t really seem to register. 
-&gt;Her eyes glance down for a moment before looking back into yours. 
-
-&gt;&quot;C-can you do that again?&quot; She barely whispers out. 
-
-&gt;Well, who were you to deny her that? 
-&gt;You do, kissing her once more. 
-&gt;She lets out a soft whimper as your tongue slips in her mouth. 
-&gt;God, her teeth a razor sharp. 
-&gt;That&#039;s...pretty hot, actually. 
-
-&gt;When you finally pull away again, her body is trembling a little. 
-&gt;You know that little shake in her breath, the way she squirms as your hand slowly runs up her belly under her shirt. 
-
-&gt;&quot;S-shouldn&#039;t we get off the floor?&quot; she asks.
-
-&gt;Getting off the floor would definitely make things easier. 
-&gt;You nod, and the two of you move to your bed. 
-&gt;It’s much more comfortable like this. 
-
-&gt;You continue to kiss the girl, her body trembling slightly under your touch as your fingers lightly trail up her warm, furry stomach. 
-&gt;She lets out a little whimper as your fingers brush over her breasts. 
-&gt;They’re fairly small, but hell, you liked them that way. 
-&gt;Her nipples were hidden under a little bit of fur, but given how aroused she was, they weren’t exactly hard to find. 
-&gt;You begin to caress them, occasionally teasing her nipples with your thumb. 
-&gt;Each and every little move or caress you give her earns a tiny gasp or whimper from the monster. 
-&gt;She’s completely submissive to your touch now, and you’re shocked with how sensitive she is. 
-&gt;Your erection is borderline painful at this point. 
-
-&gt;”A-Anon,” her voice breaks the silence, a hushed whisper. 
-
-&gt;You look down at her, eyebrow raised, and she looks away shyly. 
-
-&gt;”Um…I-I want to continue, b-but…” she trailed off. 
-
-&gt;Your other hand brushes her cheek. 
-
-“But what?” 
-
-&gt;”I-I…I don’t know if I wanna…go all the way just yet….” 
-
-&gt;That was understandable, given she was totally new to this. 
-&gt;You weren’t really disappointed, you just wanted this to be enjoyable for her. 
-&gt;You give her a soft kiss to reassure her before speaking. 
-
-“That’s okay. If you feel like I’m going to far and want me to stop, just tell me. I will.” 
-
-&gt;”O-okay…” she says, her claws running up your back, pulling you back down for another kiss. 
-
-&gt;You figure it’s time to start exploring a little more. 
-&gt;So, as you kiss her back deeply, your right hand glides back down her belly, your middle and forefinger slipping between her legs.
-&gt;She’s soaked, and even that light touch gets a sharp little gasp from her. 
-&gt;You can’t believe how bad she wants it, wants you. 
-
-&gt;You tease her slit with your middle finger, breaking away from the kisses only to nibble lightly on the sensitive skin of her neck. 
-&gt;Her fur makes it a much different experience than your handful of other times, but that&#039;s in no way a bad thing. 
-&gt;Her claws dig into your back, the monster letting out a needy whine. 
-&gt;Though you haven&#039;t gotten a good look, she feels pretty much the same as a human girl anatomy wise. 
-&gt;Hopefully what you picked up in high school still works. 
-
-&gt;You slip your middle finger inside of her, going slow. You didn&#039;t want to hurt her. 
-&gt;But it didn&#039;t take much to get the message across that she could take more. 
-&gt;So in went your ring finger as well, her walls clamping down on your fingers while she clung onto you. 
-
-&gt;&quot;A-Anon...&quot; she whined, her tone making it evident she wanted more. 
-
-&gt;You began to pump your fingers in and out slowly, warming her up so it&#039;d be easier here soon. 
-&gt;It only takes a minute of this and a gradually increasing pace for you to have her worked up. 
-&gt;When you feel a soft spongy area, you know you&#039;ve found her G-spot. 
-&gt;A little higher than you remember, but still in reach. 
-&gt;Now for the fun part. 
-
-&gt;As you kiss her once more, you start focusing your attention there. 
-&gt;Each thrust of your fingers works in a &quot;come here&quot; motion, applying light pressure to the sensitive flesh. 
-&gt;Your palm stimulates her clit and walls with each movement as well, and she breaks the kisses, unable to keep from panting. 
-&gt;Looks like she&#039;s in heaven right now, her eyes slightly rolled back. 
-
-&gt;&quot;T-that feels good..&quot; she whimpers out between pants. 
-&gt;Her claws probably have started to draw blood at this point, but that only arouses you further. 
-&gt;Another minute of fingering and kissing, and her breathing starts to become shallower. 
-&gt;Her walls clamp down and relax in waves on your fingers, in sync with your movements. 
-
-&gt;&quot;A-Anon, I&#039;m close...&quot; she whines. 
-
-&gt;You don&#039;t slow down in the slightest, now adding just a tad bit more pressure to her G-spot with each move. 
-&gt;That sends her over the edge, the monster letting out a loud whine as her sex spasms around your fingers, a small amount of her fluids spraying out, soaking your hand and the bed sheets.
-
-&gt;Her body melts beneath you as she comes off the orgasmic high, panting hard. 
-&gt;Her eyes finally meet yours, a faint glint of something you don&#039;t recognize in them. 
-&gt;When she finally looks down and sees the mess, she blushed bright red and hides her face in her hands. 
-
-&gt;&quot;Oh god, I-I&#039;m sorry...&quot; 
-
-&quot;Don&#039;t be,&quot; you chuckle. &quot;At least I know I didn&#039;t suck at that.&quot; 
-
-&gt;&quot;Y-you really didn&#039;t,&quot; she breathes, her fingers threading through your hair, pulling you in for a deep kiss. 
-&gt;When you break it, she gazes up at you shyly. 
-
-&gt;&quot;I...I wanna do something for you too...&quot; she says, one of her clawed hands running over the painfully obvious bulge in your jeans. &quot;It&#039;s not fair if I get all the fun...&quot; 
-
-&gt;Well, you certainly aren&#039;t about to argue. 
-&gt;Though with those claws and teeth, you had to admit you were a bit hesitant. 
-&gt;But you trusted she&#039;d be careful. 
-&gt;And besides, that slight fear made this all the more arousing for you. 
-
-&gt;It didn&#039;t take long for you to get your pants off, and for the two of you to change positions. 
-&gt;You were sitting on the edge of the bed now, Loka between your legs, holding your cock in her rather small, clawed hands, lightly stroking it. 
-
-&gt;&quot;I...I&#039;m sorry if I&#039;m not to good at this,&quot; she said shyly, brushing a bit of her hair back.
-
-&gt;You give a reassuring smile. 
-&gt;This felt better than jacking it, that&#039;s for sure. 
-&gt;Here the fur really helped, the foreign texture adding stimulation you&#039;d never received before. 
-
-&quot;You&#039;re doing fine,&quot; you assure her. 
-
-&gt;She smiles shyly, looking away now before shifting, moving a little lower. 
-&gt;Her right hand stays at the base of your cock, her cheeks flushing brightly as she opens her mouth slightly
-
-&gt;Those teeth are in plain view. 
-&gt;Essentially, you&#039;re going to get your dick sucked by a shark. 
-&gt;...
-&gt;Nice. 
-
-&gt;The fear only serves to reinforce your diamond hard erection. 
-&gt;Her big eyes look up at you before she hesitantly takes the tip into her mouth, sucking on it lightly. 
-
-&gt;Ohhhkay. That actually felt pretty good. 
-&gt;Your reaction was enough to encourage her to take more of your length in her mouth. 
-&gt;She got about half way before she began to suck and pump the base with her hand at the same time. 
-&gt;Your toes curled from the sensation, a little wave of pleasure shooting through you. 
-&gt;It was better than any other blowjob you&#039;d gotten, and she was clearly aware of her teeth, being extra careful to avoid them.
-
-&quot;F-fuck...&quot; you let out, hands gripping the sheets. 
-
-&gt;She giggles a little, taking a bit more of your cock into her mouth now. 
-&gt;She starts to pick up the pace a little. 
-&gt;Each motion she makes fills your manhood with pleasure. 
-&gt;It only takes a minute or two for you to feel the pressure start to build. 
-&gt;This pressure intensifies as she starts wrapping her long tongue around the length in her mouth, adding a whole new sensation. 
-&gt;You know you aren&#039;t going to last long, but you fight it out for just a little longer. 
-
-&gt;She can see you&#039;re struggling, and she removes her hand from your cock. 
-&gt;Loka starts to take the whole thing in her mouth, moving up and down the length of your cock quickly, sucking hard each time. 
-&gt;When she buries her snout into your crotch and holds it, that&#039;s enough to send you over the edge. 
-&gt;You cum hard, and she lets out a little &quot;mmph!&quot; of shock. 
-&gt;A little dribbled out of the corners of her mouth, but she manages to swallow most, coughing a little as she finally comes off your dick. 
-
-&gt;She wipes at her mouth and giggles. &quot;Well, you were pent up~&quot; 
-
-&gt;That was an understatement. 
-
-&quot;H-holy shit, Loka. That was amazing...&quot; 
-
-&gt;&quot;R-really?&quot; 
-
-&quot;Really.&quot; 
-
-&gt;She smiles bashfully, looking away. 
-&gt;You could tell things were going to get a lot more interesting from here. 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/xwAjZLQ3">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    3 min ago                </div>
-            </li>
-                    <li>
-                <a href="/dqGkThKL">Linear array rotation</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    9 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    47 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

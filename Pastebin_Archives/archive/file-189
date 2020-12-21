@@ -1,487 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Petting Zoo - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Petting Zoo - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/DDB6W2gS" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/DDB6W2gS" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="1GsavduPjZAgG6O-E_WPxuQ6UnhNoF4WznBrqsalbpegXVvukaL45hki5YpDhNq_vVwVTH76Dm64EyrPnOgfxA==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/DDB6W2gS" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/DDB6W2gS" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Cheetah_anon">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Petting Zoo</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Cheetah_anon">Cheetah_anon</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Cheetah_anon" class="message" title="Send a private message to: Cheetah_anon"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 6th of May 2017 08:55:21 AM CDT">May 6th, 2017</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    2,245                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 5.19 KB            </div>
-
-            <div class="right">
-                <a href="/raw/DDB6W2gS" class="btn -small">raw</a>
-                <a href="/dl/DDB6W2gS" class="btn -small">download</a>
-                <a href="/clone/DDB6W2gS" class="btn -small h_800">clone</a>
-                <a href="/embed/DDB6W2gS" class="btn -small h_800">embed</a>
-                <a href="/report/DDB6W2gS" class="btn -small">report</a>
-                <a href="/print/DDB6W2gS" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Petting Zoo</div></li><li class="li1"><div class="de1">&gt;You are Anon and your day has been shite </div></li><li class="li1"><div class="de1">&gt;Angry boss, stupid customers and rainy weather</div></li><li class="li1"><div class="de1">&gt;You are simply longing for your daily treat</div></li><li class="li1"><div class="de1">&gt;Since there are no pets allowed in your apartment building you took the expense and bought a ticket for a year for the local zoo</div></li><li class="li1"><div class="de1">&gt;You drive your bike to the rack and make your way to the entrance</div></li><li class="li1"><div class="de1">&gt;The big sign shines like the doors to heaven</div></li><li class="li1"><div class="de1">&gt;You hold your chip in front of the inlet and step into the building</div></li><li class="li1"><div class="de1">&gt;Ignoring the bigger compartment you make your way towards the petting section</div></li><li class="li1"><div class="de1">&gt;Soon you are standing at an intersection</div></li><li class="li1"><div class="de1">&gt;Small signs indicate which animals are in which boundary</div></li><li class="li1"><div class="de1">&gt;Dogs, cats (small and big), horses, goats and so many other things</div></li><li class="li1"><div class="de1">&gt;Your fingers yearn for something fluffy and your heart craves sweetness, so you make your way towards the female cat section</div></li><li class="li1"><div class="de1">&gt;The warmth of the feline compartment is heavenly on your cold skin, you can feel how your wet hairs are starting to dry</div></li><li class="li1"><div class="de1">&gt;You are standing in a artificial savannah, right next to a small waterhole</div></li><li class="li1"><div class="de1">&gt;Lounging around it are many fluffy figures</div></li><li class="li1"><div class="de1">&gt;Closing in you recognize the big cats, lions and jaguars, even a small chubby cheetah</div></li><li class="li1"><div class="de1">&gt;They were staring at you from the moment you entered and are now slowly coming closer</div></li><li class="li1"><div class="de1">&gt;You pull the small package of dried meat from your pocket and hold it out</div></li><li class="li1"><div class="de1">&gt;This is finally getting their full attention and you are soon swarmed by the anthro girls </div></li><li class="li1"><div class="de1">&gt;&quot;Pet, pet, pet&quot;</div></li><li class="li1"><div class="de1">&gt;They are rubbing themself against your legs, meowing and licking your fingers with their rough tongues</div></li><li class="li1"><div class="de1">&gt;You simply push both hands into the fluffly pile and start rubbing everything in reach</div></li><li class="li1"><div class="de1">&gt;Multiple girls are purring, some are trying to climp up to your face</div></li><li class="li1"><div class="de1">&gt;If they still had their clwas they would rip your shirt to shreds</div></li><li class="li1"><div class="de1">&gt;Soon you find yourself sitting on the soft warm ground, enjoing the fake sun</div></li><li class="li1"><div class="de1">&gt;&quot;Pet, pet, meaow, human fingers yay...&quot;</div></li><li class="li1"><div class="de1">&gt;The girls are clinging to you, this late in the evening there are not many children around to pet them</div></li><li class="li1"><div class="de1">&gt;You can&#039;t wait until its past 10 and you are allowed to get a little bit leweder with them</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;A announcement is signaling the end of the normal visiting hours</div></li><li class="li1"><div class="de1">&gt;A few minute later the girls around you are starting to act weird</div></li><li class="li1"><div class="de1">&gt;The small vibrators directly implanted into their g-spot is quickly making them horny, simulating heat</div></li><li class="li1"><div class="de1">&gt;They soon start mewling louder and louder, rubbing themself harder against you</div></li><li class="li1"><div class="de1">&gt;Your fingers wander over their bodies, finding the nipples now poking out of the fur</div></li><li class="li1"><div class="de1">&gt;You slowly rub them before you switch to more lewd parts, poking and pinching their nethers</div></li><li class="li1"><div class="de1">&gt;Wet pussys greet you while the girls start getting more and more desperate</div></li><li class="li1"><div class="de1">&gt;&quot;Ahhh..please, More..moreaahh..., Dick please...dick..&quot;</div></li><li class="li1"><div class="de1">&gt;Easy girls, easy</div></li><li class="li1"><div class="de1">&gt;You have lost overview about which girls you are currently fingering</div></li><li class="li1"><div class="de1">&gt;Your fingers slide in and out of wet holes, searching for their sensitive spots</div></li><li class="li1"><div class="de1">&gt;Once they shudder and grip tighter, smearing their fluids all over your hand, they are quickly replaced by other girls</div></li><li class="li1"><div class="de1">&gt;They fight over your attention, but since they are so horny and declawed their fight usually descend into lesbian foreplay action</div></li><li class="li1"><div class="de1">&gt;Your face is pressed into the chest of a big lioness, from the size of her balcony you guess that she surly already had a few children</div></li><li class="li1"><div class="de1">&gt;You don&#039;t discriminate and start to lick and suck on the milfs nipples, listening to her mewls</div></li><li class="li1"><div class="de1">&gt;While two girls start to pull down your trousers you wish that you could simply stay here forever</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;It does not take the girls long to strip you down, until you are just as nude as they are</div></li><li class="li1"><div class="de1">&gt;You lay back, snuggling with the milf lioness while the cats start to focus on your erection</div></li><li class="li1"><div class="de1">&gt;Some of the girls don&#039;t seem to know what to do next, but luckily for them and you the experienced ones take over</div></li><li class="li1"><div class="de1">&gt;The jaguar girl with the beautiful spots simply slides your dick deep into her throat and starts to purr</div></li><li class="li1"><div class="de1">&gt;Her paw grabs on of the young panthers and presses her down to your balls</div></li><li class="li1"><div class="de1">&gt;The girls quickly understands and starts to lick your balls</div></li><li class="li1"><div class="de1">&gt;The pantheress is letting your erection slide out of her mouth, only holding your bellend in and sucking on it</div></li><li class="li1"><div class="de1">&gt;You can already feel how the tingling sensation of your climax starts to spread over your body</div></li><li class="li1"><div class="de1">&gt;Your feet, currently holding the two cats between your legs, are twitching</div></li><li class="li1"><div class="de1">&gt;Your toes curl, while your nails start to turn black, the hairs on them grows thicker</div></li><li class="li1"><div class="de1">&gt;It only takes a few moments before your entire body is covered in soft fur, your main hair has extended and turned into a mane</div></li><li class="li1"><div class="de1">&gt;Your climax id shooting white cream all over the two hungry kitties, while you let out a shuddering roar</div></li><li class="li1"><div class="de1">&gt;You relax in your new lion body while your new harem is licking the rest of your semen of your body, some still sucking on your dick</div></li><li class="li1"><div class="de1">&gt;You can feel how your balls are already filling again, thanks to the rough tongues giving them a good bath</div></li><li class="li1"><div class="de1">&gt;Finally you can be with them</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;You open your eyes and stare at the simulated night sky</div></li><li class="li1"><div class="de1">&gt;Back in your human body, surrounded by sleeping cats, some still covered in semen</div></li><li class="li1"><div class="de1">&gt;You are back in your human body and longingly think back to your post orgasm dream</div></li><li class="li1"><div class="de1">&gt;You collect your clothes and make your way home</div></li><li class="li1"><div class="de1">&gt;Tomorrow is another day, another night with the girls</div></li><li class="li1"><div class="de1">&gt;Maybe this time you will take the kangaroos</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Petting Zoo
-&gt;You are Anon and your day has been shite 
-&gt;Angry boss, stupid customers and rainy weather
-&gt;You are simply longing for your daily treat
-&gt;Since there are no pets allowed in your apartment building you took the expense and bought a ticket for a year for the local zoo
-&gt;You drive your bike to the rack and make your way to the entrance
-&gt;The big sign shines like the doors to heaven
-&gt;You hold your chip in front of the inlet and step into the building
-&gt;Ignoring the bigger compartment you make your way towards the petting section
-&gt;Soon you are standing at an intersection
-&gt;Small signs indicate which animals are in which boundary
-&gt;Dogs, cats (small and big), horses, goats and so many other things
-&gt;Your fingers yearn for something fluffy and your heart craves sweetness, so you make your way towards the female cat section
-&gt;The warmth of the feline compartment is heavenly on your cold skin, you can feel how your wet hairs are starting to dry
-&gt;You are standing in a artificial savannah, right next to a small waterhole
-&gt;Lounging around it are many fluffy figures
-&gt;Closing in you recognize the big cats, lions and jaguars, even a small chubby cheetah
-&gt;They were staring at you from the moment you entered and are now slowly coming closer
-&gt;You pull the small package of dried meat from your pocket and hold it out
-&gt;This is finally getting their full attention and you are soon swarmed by the anthro girls 
-&gt;&quot;Pet, pet, pet&quot;
-&gt;They are rubbing themself against your legs, meowing and licking your fingers with their rough tongues
-&gt;You simply push both hands into the fluffly pile and start rubbing everything in reach
-&gt;Multiple girls are purring, some are trying to climp up to your face
-&gt;If they still had their clwas they would rip your shirt to shreds
-&gt;Soon you find yourself sitting on the soft warm ground, enjoing the fake sun
-&gt;&quot;Pet, pet, meaow, human fingers yay...&quot;
-&gt;The girls are clinging to you, this late in the evening there are not many children around to pet them
-&gt;You can&#039;t wait until its past 10 and you are allowed to get a little bit leweder with them
-
-&gt;A announcement is signaling the end of the normal visiting hours
-&gt;A few minute later the girls around you are starting to act weird
-&gt;The small vibrators directly implanted into their g-spot is quickly making them horny, simulating heat
-&gt;They soon start mewling louder and louder, rubbing themself harder against you
-&gt;Your fingers wander over their bodies, finding the nipples now poking out of the fur
-&gt;You slowly rub them before you switch to more lewd parts, poking and pinching their nethers
-&gt;Wet pussys greet you while the girls start getting more and more desperate
-&gt;&quot;Ahhh..please, More..moreaahh..., Dick please...dick..&quot;
-&gt;Easy girls, easy
-&gt;You have lost overview about which girls you are currently fingering
-&gt;Your fingers slide in and out of wet holes, searching for their sensitive spots
-&gt;Once they shudder and grip tighter, smearing their fluids all over your hand, they are quickly replaced by other girls
-&gt;They fight over your attention, but since they are so horny and declawed their fight usually descend into lesbian foreplay action
-&gt;Your face is pressed into the chest of a big lioness, from the size of her balcony you guess that she surly already had a few children
-&gt;You don&#039;t discriminate and start to lick and suck on the milfs nipples, listening to her mewls
-&gt;While two girls start to pull down your trousers you wish that you could simply stay here forever
-
-&gt;It does not take the girls long to strip you down, until you are just as nude as they are
-&gt;You lay back, snuggling with the milf lioness while the cats start to focus on your erection
-&gt;Some of the girls don&#039;t seem to know what to do next, but luckily for them and you the experienced ones take over
-&gt;The jaguar girl with the beautiful spots simply slides your dick deep into her throat and starts to purr
-&gt;Her paw grabs on of the young panthers and presses her down to your balls
-&gt;The girls quickly understands and starts to lick your balls
-&gt;The pantheress is letting your erection slide out of her mouth, only holding your bellend in and sucking on it
-&gt;You can already feel how the tingling sensation of your climax starts to spread over your body
-&gt;Your feet, currently holding the two cats between your legs, are twitching
-&gt;Your toes curl, while your nails start to turn black, the hairs on them grows thicker
-&gt;It only takes a few moments before your entire body is covered in soft fur, your main hair has extended and turned into a mane
-&gt;Your climax id shooting white cream all over the two hungry kitties, while you let out a shuddering roar
-&gt;You relax in your new lion body while your new harem is licking the rest of your semen of your body, some still sucking on your dick
-&gt;You can feel how your balls are already filling again, thanks to the rough tongues giving them a good bath
-&gt;Finally you can be with them
-
-&gt;You open your eyes and stare at the simulated night sky
-&gt;Back in your human body, surrounded by sleeping cats, some still covered in semen
-&gt;You are back in your human body and longingly think back to your post orgasm dream
-&gt;You collect your clothes and make your way home
-&gt;Tomorrow is another day, another night with the girls
-&gt;Maybe this time you will take the kangaroos</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    3 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    30 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    58 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

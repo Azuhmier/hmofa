@@ -1,710 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Crash Course Reupload - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Crash Course Reupload - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/6Wgufci5" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/6Wgufci5" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="PkiXWC-D-20OgK_jb7Sc7pOzTm5P9Hba2vUBak6YTLpdEvgRebKMVFTx2YEp_fqAvvA7Ah29M6m1pDEuOf517A==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/6Wgufci5" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/6Wgufci5" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Guest User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                                    <span class="unlisted" title="Unlisted paste, only people with this link can see this paste."></span>
-                
-                
-                <h1>Crash Course Reupload</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                        a guest                    </div>
-                
-                <div class="date">
-                    <span title="Thursday 27th of June 2019 02:25:19 PM CDT">Jun 27th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    205                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 14.71 KB            </div>
-
-            <div class="right">
-                <a href="/raw/6Wgufci5" class="btn -small">raw</a>
-                <a href="/dl/6Wgufci5" class="btn -small">download</a>
-                <a href="/clone/6Wgufci5" class="btn -small h_800">clone</a>
-                <a href="/embed/6Wgufci5" class="btn -small h_800">embed</a>
-                <a href="/report/6Wgufci5" class="btn -small">report</a>
-                <a href="/print/6Wgufci5" class="btn -small h_800">print</a>
-
-                                    <a href="/diff/6Wgufci5" class="btn -small" title="This paste has a previous version. Click to view the difference.">
-                        diff                    </a>
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Crash course</div></li><li class="li1"><div class="de1">&gt;You whined, tucking your legs to your chest.</div></li><li class="li1"><div class="de1">&gt;Why god? Just why? What did you ever do?</div></li><li class="li1"><div class="de1">&gt;Jane, your best friend, put you in the worst situation ever. Worse then an entire firing squad.</div></li><li class="li1"><div class="de1">&gt;She stumbled upon your preference for humans and set you up for a date with some boy…</div></li><li class="li1"><div class="de1">&gt;Most girls would be excited for such a thing, thankful even… but you…</div></li><li class="li1"><div class="de1">&gt;This will just end bad.</div></li><li class="li1"><div class="de1">&gt;You hum though, thinking about it.</div></li><li class="li1"><div class="de1">&gt;Maybe he’s into Anthro’s? Maybe he likes armadillos? Maybe he plays games and likes movies instead of a run in the park?</div></li><li class="li1"><div class="de1">&gt;Uncurling and standing up, you turned to your mirror.</div></li><li class="li1"><div class="de1">&gt;Giving a winning smile, you looked at yourself.</div></li><li class="li1"><div class="de1">&gt;Black bra holding your DD breasts up, plump and squeezy.~</div></li><li class="li1"><div class="de1">&gt;Tong, sexy and matching colour. And…</div></li><li class="li1"><div class="de1">&gt;You turned, smiling still, but faltering.</div></li><li class="li1"><div class="de1">&gt;A good size and huggable armadillo girl! Not in too bad of shape at all!</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;A plump girl!</div></li><li class="li1"><div class="de1">&gt;You can feel the falter more, sucking your belly in.</div></li><li class="li1"><div class="de1">&gt;Thicc?</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;You looked away form the reflection, whining again and feeling your tail between your legs.</div></li><li class="li1"><div class="de1">&gt;This is going to be a disaster!</div></li><li class="li1"><div class="de1">&gt;You hear your phone, looking to your bed.</div></li><li class="li1"><div class="de1">&gt;Damnit Jane…</div></li><li class="li1"><div class="de1">&gt;You look at your texts, seeing the messages of encouragement and reminders for the date.</div></li><li class="li1"><div class="de1">&gt;Sighing, you ball up again, just wanting to get away form the world.</div></li><li class="li1"><div class="de1">&gt;… Maybe it could be okay, it can’t just to try…</div></li><li class="li1"><div class="de1">&gt;Come on… it could be as good as those double ninja drops form the last raid.</div></li><li class="li1"><div class="de1">&gt;Sitting again, you grab the jeans on the ground.</div></li><li class="li1"><div class="de1">&gt;it can’t be too bad… Jane probably told you what he was getting into!</div></li><li class="li1"><div class="de1">&gt;YEAH! He probably knows what you are like and look like!</div></li><li class="li1"><div class="de1">&gt;This won’t be so bad~</div></li><li class="li1"><div class="de1">&gt;You get your hoddie and go out of your room, going up the stairs.</div></li><li class="li1"><div class="de1">&gt;Living with your parents at 25 is not bad right?</div></li><li class="li1"><div class="de1">&gt;You were in school for graphic design and paid rent… kinda.</div></li><li class="li1"><div class="de1">&gt;No! focus on the date! The date with… with…</div></li><li class="li1"><div class="de1">&gt;Uhhh…</div></li><li class="li1"><div class="de1">&gt;UHHH.</div></li><li class="li1"><div class="de1">&gt;You rip your phone from your pocket as you ride the bus, going back through your texts</div></li><li class="li1"><div class="de1">&gt;Name… name…</div></li><li class="li1"><div class="de1">&gt;HA memes.</div></li><li class="li1"><div class="de1">&gt;FUCK NO. FOCUS.</div></li><li class="li1"><div class="de1">&gt;Namenamenamename?</div></li><li class="li1"><div class="de1">&gt;Looking up, you gasp.</div></li><li class="li1"><div class="de1">&gt;You’re at the mall already? How?</div></li><li class="li1"><div class="de1">&gt;”Hey.”</div></li><li class="li1"><div class="de1">&gt;You feel like you went streaking outside after a bath in the middle of winter, turning.</div></li><li class="li1"><div class="de1">&gt;A human man stands in front of you and… he’s…</div></li><li class="li1"><div class="de1">&gt;OH GOD HE’S HOT</div></li><li class="li1"><div class="de1">&gt;He’s shaven… but he must grown a beard like wolverine!</div></li><li class="li1"><div class="de1">&gt;…Oh shit! He was waiting here for you!</div></li><li class="li1"><div class="de1">&gt;Fuckfuckfuckfuck.</div></li><li class="li1"><div class="de1">&gt;”Nora, right?”</div></li><li class="li1"><div class="de1">&gt;You inhale slightly, squeaking.</div></li><li class="li1"><div class="de1">“U-uhh, yes? A-and you are… uhh.”</div></li><li class="li1"><div class="de1">&gt;FUCK.</div></li><li class="li1"><div class="de1">&gt;He smiles, looking you over</div></li><li class="li1"><div class="de1">&gt;”Anon. Nice to meet you.”</div></li><li class="li1"><div class="de1">&gt;… maybe this will be okay?</div></li><li class="li1"><div class="de1">------------</div></li><li class="li1"><div class="de1">&gt;Maybe you should visit /diy/ and learn how to tie a noose!</div></li><li class="li1"><div class="de1">&gt;You pouted, unable to ball up any tighter.</div></li><li class="li1"><div class="de1">&gt;”NORA! Supper! Pizza with pineapple!”</div></li><li class="li1"><div class="de1">“Okay mom! Thanks!”</div></li><li class="li1"><div class="de1">&gt;gowaypls.</div></li><li class="li1"><div class="de1">&gt;You super fucked up the date.</div></li><li class="li1"><div class="de1">&gt;You stuttered, you slipped and fell, you hardly gave him any attention….</div></li><li class="li1"><div class="de1">&gt;Sniffing, you swallow the lump in your throat.</div></li><li class="li1"><div class="de1">&gt;You just want to die.</div></li><li class="li1"><div class="de1">&gt;The phone goes off again, making your dread the messages.</div></li><li class="li1"><div class="de1">&gt;You just want out of here…</div></li><li class="li1"><div class="de1">&gt;Today is Wednesday…</div></li><li class="li1"><div class="de1">&gt;Opening up, you peak out, looking to your computer.</div></li><li class="li1"><div class="de1">&gt;…Maybe a raid will help… for now.</div></li><li class="li1"><div class="de1">&gt;You reached out, turning on the tower and closing back up.</div></li><li class="li1"><div class="de1">&gt;Pizza too… mmm~ pineapple.</div></li><li class="li1"><div class="de1">&gt;Unballing again, you move to the door and go upstairs, getting a plate and pizza.</div></li><li class="li1"><div class="de1">“Thanks mom.”</div></li><li class="li1"><div class="de1">&gt;”You’re welcome. You went out today! Did you have fun?</div></li><li class="li1"><div class="de1">&gt;Shit.</div></li><li class="li1"><div class="de1">“U-uuhh, yeah, totally. I’m… gonna… yeah.”</div></li><li class="li1"><div class="de1">&gt;You dart back downstairs, hearing your father and stopping.</div></li><li class="li1"><div class="de1">&gt;”This girl…”</div></li><li class="li1"><div class="de1">&gt;”Oh she’s fine. She’s enjoying her time away from school.”</div></li><li class="li1"><div class="de1">&gt;”Yeah… but she can do a little more outside.”</div></li><li class="li1"><div class="de1">&gt;Outside sucks though… there are no dragons.</div></li><li class="li1"><div class="de1">&gt;Going all the way down and sitting at your desk, you smile, opening up the game.</div></li><li class="li1"><div class="de1">&gt;It’s seconds before you join a bunch on ran-dumbs and get on the god of lies raid.</div></li><li class="li1"><div class="de1">&gt;You sighed still, the pizza not helping.</div></li><li class="li1"><div class="de1">&gt;You super fucked up… he was a hot guy too.</div></li><li class="li1"><div class="de1">&gt;Handsome, offered to pay for food, said he drove for a living.</div></li><li class="li1"><div class="de1">&gt;Uber is pretty good pay…</div></li><li class="li1"><div class="de1">&gt;HA, get shirked brawler.</div></li><li class="li1"><div class="de1">&gt;You smiled at the chat, seeing “Troll ninja.”</div></li><li class="li1"><div class="de1">&gt;Your smile goes as you get hit with a crit, the squad wiping as they take agro.</div></li><li class="li1"><div class="de1">&gt;Sighing again, you wait a moment for the healer.</div></li><li class="li1"><div class="de1">“Come on… just LV3 and…”</div></li><li class="li1"><div class="de1">&gt;You gasp, seeing the other area with the boss shine brightly.</div></li><li class="li1"><div class="de1">&gt;LOL</div></li><li class="li1"><div class="de1">&gt;EPIC FAIL</div></li><li class="li1"><div class="de1">&gt;sorryguis</div></li><li class="li1"><div class="de1">&gt;Healer fail</div></li><li class="li1"><div class="de1">“HE JUST LV3’ED ON THE OTHER PLATFROM! AHHHHH!”</div></li><li class="li1"><div class="de1">&gt;Fucking Final Fantasy.</div></li><li class="li1"><div class="de1">&gt;You sighed, grabbing your phone on instinct and flinching.</div></li><li class="li1"><div class="de1">&gt;…Right, you super fucked up.</div></li><li class="li1"><div class="de1">&gt;Opening your phone, you read the messages… what?</div></li><li class="li1"><div class="de1">&gt;’Good going girl! He loves you!’</div></li><li class="li1"><div class="de1">&gt;you look at the sent picture, seeing that Anon wrote to Jane about you.</div></li><li class="li1"><div class="de1">&gt;’Yeah, super shy… but she’s cute, good looking. Maybe once I get past her skittish attitude, she’ll open up more.’</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;AGUYLIKESYOU!</div></li><li class="li1"><div class="de1">&gt;You ball up, squeeing as you fall out of the chair and roll a little bit.</div></li><li class="li1"><div class="de1">&gt;Texting Jane, you grin as you ask what to do.</div></li><li class="li1"><div class="de1">&gt;’Don’t worry, he wants to hand out again. He also said he want’s so show something off to you before you two go out for a late night!’</div></li><li class="li1"><div class="de1">&gt;You cover your face, smiling.</div></li><li class="li1"><div class="de1">&gt;He wants a second date! He must like you!</div></li><li class="li1"><div class="de1">&gt;Maybe he will kiss you!</div></li><li class="li1"><div class="de1">&gt;You never got a kiss before… or a second date…</div></li><li class="li1"><div class="de1">&gt;AND HE’S A HUMAN!</div></li><li class="li1"><div class="de1">&gt;You had a hotspot for humans… anthros were… ew.</div></li><li class="li1"><div class="de1">&gt;Dogs, cats… just ew. Some were hot, but not your kind of thing… Their dicks were even worse.</div></li><li class="li1"><div class="de1">&gt;Humans were just nice and smooth, no bad things to annoy or hurt in the moment.</div></li><li class="li1"><div class="de1">&gt;…You were a /bred/ addict… and with good reason.</div></li><li class="li1"><div class="de1">&gt;… maybe Anon has a smooth chest?</div></li><li class="li1"><div class="de1">&gt;Maybe one with hair?~</div></li><li class="li1"><div class="de1">&gt;looking at your phone again, you see more messages.</div></li><li class="li1"><div class="de1">&gt;You smile, saying yes to Jane giving your number to him.</div></li><li class="li1"><div class="de1">&gt;…Oh god, what if her really likes you? Like, wants to have sex?</div></li><li class="li1"><div class="de1">&gt;no, no… oh god, he might…</div></li><li class="li1"><div class="de1">&gt;He might look and see that you’re not so good under the clothes…</div></li><li class="li1"><div class="de1">&gt;No! happy things! Guys wants a second date! You are having fun raiding!</div></li><li class="li1"><div class="de1">&gt;Looking up, you growl, seeing you lost connection for inactivity.</div></li><li class="li1"><div class="de1">----------</div></li><li class="li1"><div class="de1">&gt;You couldn’t help but beam, being dropped off at the college by the bus.</div></li><li class="li1"><div class="de1">&gt;Okay, maybe you were also scared shitless to even text Anon whenever you looked at a message from him, but still!</div></li><li class="li1"><div class="de1">&gt;Things were looking better! And not one thing could bring you down!</div></li><li class="li1"><div class="de1">&gt;You rounded the corner to your locker your smile plummeting into an open mouth gasp of shock.</div></li><li class="li1"><div class="de1">&gt;Your locker is… oh no.</div></li><li class="li1"><div class="de1">OH NO! NONONONONNONO!</div></li><li class="li1"><div class="de1">&gt;You ripped at the papers, seeing what they said.</div></li><li class="li1"><div class="de1">&gt;Human fucker, Breed bitch freak, mega- oh no fuck that one.</div></li><li class="li1"><div class="de1">&gt;You tore it all down, even the pictures of you and…</div></li><li class="li1"><div class="de1">&gt;HOW? HOW DID THESE GET HERE?!</div></li><li class="li1"><div class="de1">&gt;A too good for the world laugh fills the air before you get shoved into the steel locker, dropping everything and your books.</div></li><li class="li1"><div class="de1">&gt;”Oops, sorry ya freak.”</div></li><li class="li1"><div class="de1">&gt;You grunt, feeling a lump in your throat as you look up.</div></li><li class="li1"><div class="de1">&gt;The black mare flashes a knowing grin, tail flicking you in the face before she walks away.</div></li><li class="li1"><div class="de1">&gt;You want to scream at Ashley… but…</div></li><li class="li1"><div class="de1">&gt;You whine instead, crumpling up before a pair of shoes are at your side.</div></li><li class="li1"><div class="de1">&gt;Looking up, Jane is there, the lioness frowning as she helps you up.</div></li><li class="li1"><div class="de1">&gt;”You okay? I tried to stop her, but…</div></li><li class="li1"><div class="de1">“…This is supposed to be college, not highschool…”</div></li><li class="li1"><div class="de1">&gt;”We both know Ashley is just a bitch, through and through. I’m sorry, you know that she’s got those knuckles, and even then…”</div></li><li class="li1"><div class="de1">&gt;You nodded, feeling queasy at the thought of the two horses, Ashley and Tom.</div></li><li class="li1"><div class="de1">&gt;Lovers through and through, ready to break noses and push people around at any moment.</div></li><li class="li1"><div class="de1">&gt;How either of them were not kicked out of here was beyond you, save for the fact that the odds are that the fight happens outside of the campus.</div></li><li class="li1"><div class="de1">“H-how did she?”</div></li><li class="li1"><div class="de1">&gt;”She spotted you in public, told me everything when I tried to confront her.”</div></li><li class="li1"><div class="de1">&gt;You nod, frowning and wanting to cry.</div></li><li class="li1"><div class="de1">&gt;”Hey, girl… it’s okay.”</div></li><li class="li1"><div class="de1">&gt;Jane smiles, patting your head.</div></li><li class="li1"><div class="de1">&gt;”Anon’s wanting to talk again, he said he was right about breaking through that shell of yours.”</div></li><li class="li1"><div class="de1">&gt;You smile, nodding.</div></li><li class="li1"><div class="de1">“Yeah… thank you again… it’s just so…”</div></li><li class="li1"><div class="de1">&gt;Stressfullembarasssingamazingstupidawsomefu-</div></li><li class="li1"><div class="de1">&gt;”There ya go. Just think, your next date will be great! Tomorrow, right?~”</div></li><li class="li1"><div class="de1">&gt;You smile more, face burning slightly.</div></li><li class="li1"><div class="de1">&gt;”Come on Nora, let’s get going. Fuck Ashley.”</div></li><li class="li1"><div class="de1">&gt;Yeah, fuckin’ bitch.</div></li><li class="li1"><div class="de1">&gt;School thankfully goes so quickly that you barely think of any of it, getting off the bus and getting home</div></li><li class="li1"><div class="de1">&gt;Opening the door, immediately you get called out.</div></li><li class="li1"><div class="de1">&gt;”Nora!”</div></li><li class="li1"><div class="de1">&gt;You tense up, peeking around the corner.</div></li><li class="li1"><div class="de1">&gt;You took all the dished from your room back up… didn’t leave any downloads running… sure as hell knew your mother wouldn’t find any of your… “items”.</div></li><li class="li1"><div class="de1">“Y-yes?”</div></li><li class="li1"><div class="de1">&gt;Your mother smiles, waving as she cooks.</div></li><li class="li1"><div class="de1">&gt;”No trouble! Quit looking so nervous! We are going on a little fun trip tomorrow, so I figure I could get a notice in.~”</div></li><li class="li1"><div class="de1">&gt;Your heart plummets, your mother’s expression changing with yours.</div></li><li class="li1"><div class="de1">&gt;”Nora…”</div></li><li class="li1"><div class="de1">“I… u-um… had some plans with friends….”</div></li><li class="li1"><div class="de1">&gt;Your mother sighs, nodding.</div></li><li class="li1"><div class="de1">&gt;”You are an adult now… but remember, your father’s birthday tomorrow would be a good way to get him to ease up on you. We are going on a little fun outing to watch a race.”</div></li><li class="li1"><div class="de1">&gt;You groan, smacking your head.</div></li><li class="li1"><div class="de1">&gt;You forgot… again…</div></li><li class="li1"><div class="de1">&gt;Not that you really cared… but your father was odd… every time you joined in on outside stuff of family thing he got less… wordy with the things you liked.</div></li><li class="li1"><div class="de1">&gt;It’s not exactly fair that you can’t say anything back whenever he sees you and sighs, complaining about you playing games…</div></li><li class="li1"><div class="de1">“Okay…”</div></li><li class="li1"><div class="de1">&gt;Your mother smiles, nodding.</div></li><li class="li1"><div class="de1">&gt;”I’m sorry, Nora.”</div></li><li class="li1"><div class="de1">“It’s fine…”</div></li><li class="li1"><div class="de1">&gt;No.</div></li><li class="li1"><div class="de1">&gt;It’s not.</div></li><li class="li1"><div class="de1">&gt;You sigh, listening to your mother talk about the event before going to your room and closing the door.</div></li><li class="li1"><div class="de1">&gt;You growled, throwing your books before flopping on the bed.</div></li><li class="li1"><div class="de1">&gt;Stupid. Stupid. Stupid.</div></li><li class="li1"><div class="de1">&gt;You whine… getting things together and texting Anon.</div></li><li class="li1"><div class="de1">&gt;Damn it all…</div></li><li class="li1"><div class="de1">&gt;You swap messages, booting up your computer as you explain and answer things to him.</div></li><li class="li1"><div class="de1">&gt;The next message puzzles you, making you hum.</div></li><li class="li1"><div class="de1">“Go to the race… this works out perfectly… what?”</div></li><li class="li1"><div class="de1">&gt;Works out perfectly…</div></li><li class="li1"><div class="de1">&gt;Oh! Maybe he looked up the event and lives close! He cold get you from the race!</div></li><li class="li1"><div class="de1">&gt;Typing up “okay”, you pause before you press send, biting your lip and humming.</div></li><li class="li1"><div class="de1">&gt;but… your parents…</div></li><li class="li1"><div class="de1">&gt;You gasp as you accidently press send, your fate sealed.</div></li><li class="li1"><div class="de1">&gt;tensing up, you groan, hanging over your bed.</div></li><li class="li1"><div class="de1">&gt;Fuck your life sometimes…</div></li><li class="li1"><div class="de1">----------</div></li><li class="li1"><div class="de1">&gt;You hummed, looking at the gathering crowds.</div></li><li class="li1"><div class="de1">&gt;School was done in a flash leaving you to join your mother and father at this race…</div></li><li class="li1"><div class="de1">&gt;A rally apparently, off-road-ish racing…</div></li><li class="li1"><div class="de1">&gt;So…. Boring RocketLeague where cars go around a few times instead of playing soccer.</div></li><li class="li1"><div class="de1">&gt;…Okay… it was kind of cool… just not you.</div></li><li class="li1"><div class="de1">&gt;You could hear engines revving, your father smiling.</div></li><li class="li1"><div class="de1">&gt;He had an odd obsession with cars, even more with racing.</div></li><li class="li1"><div class="de1">&gt;You honestly just don’t get it.</div></li><li class="li1"><div class="de1">&gt;All of you had arrived early, getting food and seated way before anything started.</div></li><li class="li1"><div class="de1">&gt;Your mother just humored your father, mostly, as he blabbered about cars.</div></li><li class="li1"><div class="de1">&gt;Not that you care, it’s just noise to you.</div></li><li class="li1"><div class="de1">&gt;…You know what? This isn’t so bad. The air is nice, the food is good, and it’s kinda fun to watch the cars once they get going.</div></li><li class="li1"><div class="de1">&gt;”Ohhhh.~ Hey there, Nora! Fancy meeting you here!”</div></li><li class="li1"><div class="de1">&gt;And ruined…</div></li><li class="li1"><div class="de1">&gt;You winced, looking up to see Ashley.</div></li><li class="li1"><div class="de1">&gt;The mare grineed, patting you on the head.</div></li><li class="li1"><div class="de1">&gt;”Oh, is that one of your friends?”</div></li><li class="li1"><div class="de1">“n-“</div></li><li class="li1"><div class="de1">&gt;”Oh yeah! Damn near besties! Pardon the language, just a habit. Right, Friendo?”</div></li><li class="li1"><div class="de1">&gt;She punches you, pretty hard, making you nod.</div></li><li class="li1"><div class="de1">&gt;”U-uhhh yeah.”</div></li><li class="li1"><div class="de1">&gt;Ashley sits right next to you, sneering our of your parents view.</div></li><li class="li1"><div class="de1">&gt;”Human fucking cunt.” She whispers.</div></li><li class="li1"><div class="de1">&gt;God damnit…</div></li><li class="li1"><div class="de1">&gt;You turn away, just trying to focus on the cars.</div></li><li class="li1"><div class="de1">&gt;Thankfully, she leaves you alone, her boyfriend coming along and the two of them getting close.</div></li><li class="li1"><div class="de1">&gt;HOW the hell does no one notice his hands in her pants?</div></li><li class="li1"><div class="de1">&gt;…Damnit… why can’t that be you?</div></li><li class="li1"><div class="de1">&gt;Maybe Anon would… Ohhh.~</div></li><li class="li1"><div class="de1">&gt;You can feel your face heat up, smiling at the thought.</div></li><li class="li1"><div class="de1">&gt;You’d almost want him to do bad things to you, even if a little forcefully...</div></li><li class="li1"><div class="de1">&gt;”GO!”</div></li><li class="li1"><div class="de1">&gt;You jump, watching the cars take off and leave dirt in the air.</div></li><li class="li1"><div class="de1">&gt;Looking to the screen, you watch, smiling.</div></li><li class="li1"><div class="de1">&gt;”Comeon 85! You sexy beast! Win!” Ashley yells.</div></li><li class="li1"><div class="de1">&gt;You watch the giant screen, listening to the cheers and boos.</div></li><li class="li1"><div class="de1">&gt;Ashley aside… whit is kinda fun. Not super fun, but fun!</div></li><li class="li1"><div class="de1">&gt;And better yet! Anon still is somewhere.~</div></li><li class="li1"><div class="de1">&gt;What is he doing right now?</div></li><li class="li1"><div class="de1">&gt;You wander and ponder, thinking of Anon and only pausing when you feel a certain moistness and fire in your legs.</div></li><li class="li1"><div class="de1">&gt;You are so dirty… guy you just met and you can’t help but think of how you want him to do anything to you.</div></li><li class="li1"><div class="de1">&gt;It would be so amazing though, like a doujin~</div></li><li class="li1"><div class="de1">&gt;…God, you need to bust out the dildo again.</div></li><li class="li1"><div class="de1">&gt;”GOoooo!”</div></li><li class="li1"><div class="de1">&gt;”Come on!”</div></li><li class="li1"><div class="de1">&gt;You look up, seeing the cars in the home stretch.</div></li><li class="li1"><div class="de1">&gt;One tears through, well ahead of the rest.</div></li><li class="li1"><div class="de1">&gt;”YES!” Ashley yells.</div></li><li class="li1"><div class="de1">&gt;You flinch back, watching her jump up ad down.</div></li><li class="li1"><div class="de1">&gt;The car spins in victory, doing dohnuts before the driver gets out, waving with his helmet on.</div></li><li class="li1"><div class="de1">&gt;He dashes to another man, the other man turning.</div></li><li class="li1"><div class="de1">&gt;”Our winner is asking someone in seat 85-B to come on down!”</div></li><li class="li1"><div class="de1">&gt;Oh, cool.</div></li><li class="li1"><div class="de1">&gt;”OH god damnit!”</div></li><li class="li1"><div class="de1">&gt;You look, seing Ashly scowl as she looks as her seat.</div></li><li class="li1"><div class="de1">&gt;86-B…</div></li><li class="li1"><div class="de1">&gt;Oh fuck!</div></li><li class="li1"><div class="de1">&gt;You look to your seat, seeing 85-B.</div></li><li class="li1"><div class="de1">&gt;It’s you!?</div></li><li class="li1"><div class="de1">&gt;”Go on, sweetie!”</div></li><li class="li1"><div class="de1">&gt;You look around, seeing the crowd all look at you and cheer.</div></li><li class="li1"><div class="de1">&gt;It’s super odd, all the others clearing a path for you to make your way to the field.</div></li><li class="li1"><div class="de1">&gt;Sure enough, you get there and approach the announcer, seeing the driver next to him.</div></li><li class="li1"><div class="de1">“U-uh. Hey?”</div></li><li class="li1"><div class="de1">&gt;The announcer looks to the driver, smiling.</div></li><li class="li1"><div class="de1">&gt;The driver rips his helmet off, reavealing..!</div></li><li class="li1"><div class="de1">“Anon?!”</div></li><li class="li1"><div class="de1">&gt;”Hey there Nora.~ surprise.”</div></li><li class="li1"><div class="de1">&gt;He grabs you, pulling you into a kiss.</div></li><li class="li1"><div class="de1">&gt;You freeze up, eyes wide.</div></li><li class="li1"><div class="de1">&gt;First: why? Second:</div></li><li class="li1"><div class="de1">&gt;OHMUHGAWDHEIKISSINYOUTHISISLIKETHETIMEINUYASHAANDKIGO-</div></li><li class="li1"><div class="de1">&gt;You can hear the crowd cheer as you close your eyes, feeling like fireworks are going off or something.</div></li><li class="li1"><div class="de1">&gt;Anon breaks the kiss, turning and waving at the crowd.</div></li><li class="li1"><div class="de1">&gt;”I know it’s super sudden and a little much… but you’re surprised, right? Wave!”</div></li><li class="li1"><div class="de1">&gt;You look around, seeing yourself on the screen and waving with a smile.</div></li><li class="li1"><div class="de1">&gt;This is so embarrassing… you are too fat for this…</div></li><li class="li1"><div class="de1">&gt;Why can’t you stop smiling?</div></li><li class="li1"><div class="de1">&gt;You look around, at the cars, the crowd, the screen.</div></li><li class="li1"><div class="de1">&gt;You spot a zoom in of the crowd, catching your parents and their shock.</div></li><li class="li1"><div class="de1">&gt;”Lucky girl!~ your own little trophy?”</div></li><li class="li1"><div class="de1">&gt;”Jusy maybe!”Anon says into the microphone.</div></li><li class="li1"><div class="de1">&gt;You catch Ashley, the mare scowling angrly.</div></li><li class="li1"><div class="de1">&gt;Best. Day. Ever. …of all time.</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Crash course
-&gt;You whined, tucking your legs to your chest.
-&gt;Why god? Just why? What did you ever do?
-&gt;Jane, your best friend, put you in the worst situation ever. Worse then an entire firing squad.
-&gt;She stumbled upon your preference for humans and set you up for a date with some boy…
-&gt;Most girls would be excited for such a thing, thankful even… but you…
-&gt;This will just end bad.
-&gt;You hum though, thinking about it.
-&gt;Maybe he’s into Anthro’s? Maybe he likes armadillos? Maybe he plays games and likes movies instead of a run in the park?
-&gt;Uncurling and standing up, you turned to your mirror.
-&gt;Giving a winning smile, you looked at yourself.
-&gt;Black bra holding your DD breasts up, plump and squeezy.~
-&gt;Tong, sexy and matching colour. And…
-&gt;You turned, smiling still, but faltering.
-&gt;A good size and huggable armadillo girl! Not in too bad of shape at all!
-&gt;…
-&gt;A plump girl!
-&gt;You can feel the falter more, sucking your belly in.
-&gt;Thicc?
-&gt;…
-&gt;You looked away form the reflection, whining again and feeling your tail between your legs.
-&gt;This is going to be a disaster!
-&gt;You hear your phone, looking to your bed.
-&gt;Damnit Jane…
-&gt;You look at your texts, seeing the messages of encouragement and reminders for the date.
-&gt;Sighing, you ball up again, just wanting to get away form the world.
-&gt;… Maybe it could be okay, it can’t just to try…
-&gt;Come on… it could be as good as those double ninja drops form the last raid.
-&gt;Sitting again, you grab the jeans on the ground.
-&gt;it can’t be too bad… Jane probably told you what he was getting into!
-&gt;YEAH! He probably knows what you are like and look like!
-&gt;This won’t be so bad~
-&gt;You get your hoddie and go out of your room, going up the stairs.
-&gt;Living with your parents at 25 is not bad right?
-&gt;You were in school for graphic design and paid rent… kinda.
-&gt;No! focus on the date! The date with… with…
-&gt;Uhhh…
-&gt;UHHH.
-&gt;You rip your phone from your pocket as you ride the bus, going back through your texts
-&gt;Name… name…
-&gt;HA memes.
-&gt;FUCK NO. FOCUS.
-&gt;Namenamenamename?
-&gt;Looking up, you gasp.
-&gt;You’re at the mall already? How?
-&gt;”Hey.”
-&gt;You feel like you went streaking outside after a bath in the middle of winter, turning.
-&gt;A human man stands in front of you and… he’s…
-&gt;OH GOD HE’S HOT
-&gt;He’s shaven… but he must grown a beard like wolverine!
-&gt;…Oh shit! He was waiting here for you!
-&gt;Fuckfuckfuckfuck.
-&gt;”Nora, right?”
-&gt;You inhale slightly, squeaking.
-“U-uhh, yes? A-and you are… uhh.”
-&gt;FUCK.
-&gt;He smiles, looking you over
-&gt;”Anon. Nice to meet you.”
-&gt;… maybe this will be okay?
-------------
-&gt;Maybe you should visit /diy/ and learn how to tie a noose!
-&gt;You pouted, unable to ball up any tighter.
-&gt;”NORA! Supper! Pizza with pineapple!”
-“Okay mom! Thanks!”
-&gt;gowaypls.
-&gt;You super fucked up the date.
-&gt;You stuttered, you slipped and fell, you hardly gave him any attention….
-&gt;Sniffing, you swallow the lump in your throat.
-&gt;You just want to die.
-&gt;The phone goes off again, making your dread the messages.
-&gt;You just want out of here…
-&gt;Today is Wednesday…
-&gt;Opening up, you peak out, looking to your computer.
-&gt;…Maybe a raid will help… for now.
-&gt;You reached out, turning on the tower and closing back up.
-&gt;Pizza too… mmm~ pineapple.
-&gt;Unballing again, you move to the door and go upstairs, getting a plate and pizza.
-“Thanks mom.”
-&gt;”You’re welcome. You went out today! Did you have fun?
-&gt;Shit.
-“U-uuhh, yeah, totally. I’m… gonna… yeah.”
-&gt;You dart back downstairs, hearing your father and stopping.
-&gt;”This girl…”
-&gt;”Oh she’s fine. She’s enjoying her time away from school.”
-&gt;”Yeah… but she can do a little more outside.”
-&gt;Outside sucks though… there are no dragons.
-&gt;Going all the way down and sitting at your desk, you smile, opening up the game.
-&gt;It’s seconds before you join a bunch on ran-dumbs and get on the god of lies raid.
-&gt;You sighed still, the pizza not helping.
-&gt;You super fucked up… he was a hot guy too.
-&gt;Handsome, offered to pay for food, said he drove for a living.
-&gt;Uber is pretty good pay…
-&gt;HA, get shirked brawler.
-&gt;You smiled at the chat, seeing “Troll ninja.”
-&gt;Your smile goes as you get hit with a crit, the squad wiping as they take agro.
-&gt;Sighing again, you wait a moment for the healer.
-“Come on… just LV3 and…”
-&gt;You gasp, seeing the other area with the boss shine brightly.
-&gt;LOL
-&gt;EPIC FAIL
-&gt;sorryguis
-&gt;Healer fail
-“HE JUST LV3’ED ON THE OTHER PLATFROM! AHHHHH!”
-&gt;Fucking Final Fantasy.
-&gt;You sighed, grabbing your phone on instinct and flinching.
-&gt;…Right, you super fucked up.
-&gt;Opening your phone, you read the messages… what?
-&gt;’Good going girl! He loves you!’
-&gt;you look at the sent picture, seeing that Anon wrote to Jane about you.
-&gt;’Yeah, super shy… but she’s cute, good looking. Maybe once I get past her skittish attitude, she’ll open up more.’
-&gt;…
-&gt;AGUYLIKESYOU!
-&gt;You ball up, squeeing as you fall out of the chair and roll a little bit.
-&gt;Texting Jane, you grin as you ask what to do.
-&gt;’Don’t worry, he wants to hand out again. He also said he want’s so show something off to you before you two go out for a late night!’
-&gt;You cover your face, smiling.
-&gt;He wants a second date! He must like you!
-&gt;Maybe he will kiss you!
-&gt;You never got a kiss before… or a second date…
-&gt;AND HE’S A HUMAN!
-&gt;You had a hotspot for humans… anthros were… ew.
-&gt;Dogs, cats… just ew. Some were hot, but not your kind of thing… Their dicks were even worse.
-&gt;Humans were just nice and smooth, no bad things to annoy or hurt in the moment.
-&gt;…You were a /bred/ addict… and with good reason.
-&gt;… maybe Anon has a smooth chest?
-&gt;Maybe one with hair?~
-&gt;looking at your phone again, you see more messages.
-&gt;You smile, saying yes to Jane giving your number to him.
-&gt;…Oh god, what if her really likes you? Like, wants to have sex?
-&gt;no, no… oh god, he might…
-&gt;He might look and see that you’re not so good under the clothes…
-&gt;No! happy things! Guys wants a second date! You are having fun raiding!
-&gt;Looking up, you growl, seeing you lost connection for inactivity.
-----------
-&gt;You couldn’t help but beam, being dropped off at the college by the bus.
-&gt;Okay, maybe you were also scared shitless to even text Anon whenever you looked at a message from him, but still!
-&gt;Things were looking better! And not one thing could bring you down!
-&gt;You rounded the corner to your locker your smile plummeting into an open mouth gasp of shock.
-&gt;Your locker is… oh no.
-OH NO! NONONONONNONO!
-&gt;You ripped at the papers, seeing what they said.
-&gt;Human fucker, Breed bitch freak, mega- oh no fuck that one.
-&gt;You tore it all down, even the pictures of you and…
-&gt;HOW? HOW DID THESE GET HERE?!
-&gt;A too good for the world laugh fills the air before you get shoved into the steel locker, dropping everything and your books.
-&gt;”Oops, sorry ya freak.”
-&gt;You grunt, feeling a lump in your throat as you look up.
-&gt;The black mare flashes a knowing grin, tail flicking you in the face before she walks away.
-&gt;You want to scream at Ashley… but…
-&gt;You whine instead, crumpling up before a pair of shoes are at your side.
-&gt;Looking up, Jane is there, the lioness frowning as she helps you up.
-&gt;”You okay? I tried to stop her, but…
-“…This is supposed to be college, not highschool…”
-&gt;”We both know Ashley is just a bitch, through and through. I’m sorry, you know that she’s got those knuckles, and even then…”
-&gt;You nodded, feeling queasy at the thought of the two horses, Ashley and Tom.
-&gt;Lovers through and through, ready to break noses and push people around at any moment.
-&gt;How either of them were not kicked out of here was beyond you, save for the fact that the odds are that the fight happens outside of the campus.
-“H-how did she?”
-&gt;”She spotted you in public, told me everything when I tried to confront her.”
-&gt;You nod, frowning and wanting to cry.
-&gt;”Hey, girl… it’s okay.”
-&gt;Jane smiles, patting your head.
-&gt;”Anon’s wanting to talk again, he said he was right about breaking through that shell of yours.”
-&gt;You smile, nodding.
-“Yeah… thank you again… it’s just so…”
-&gt;Stressfullembarasssingamazingstupidawsomefu-
-&gt;”There ya go. Just think, your next date will be great! Tomorrow, right?~”
-&gt;You smile more, face burning slightly.
-&gt;”Come on Nora, let’s get going. Fuck Ashley.”
-&gt;Yeah, fuckin’ bitch.
-&gt;School thankfully goes so quickly that you barely think of any of it, getting off the bus and getting home
-&gt;Opening the door, immediately you get called out.
-&gt;”Nora!”
-&gt;You tense up, peeking around the corner.
-&gt;You took all the dished from your room back up… didn’t leave any downloads running… sure as hell knew your mother wouldn’t find any of your… “items”.
-“Y-yes?”
-&gt;Your mother smiles, waving as she cooks.
-&gt;”No trouble! Quit looking so nervous! We are going on a little fun trip tomorrow, so I figure I could get a notice in.~”
-&gt;Your heart plummets, your mother’s expression changing with yours.
-&gt;”Nora…”
-“I… u-um… had some plans with friends….”
-&gt;Your mother sighs, nodding.
-&gt;”You are an adult now… but remember, your father’s birthday tomorrow would be a good way to get him to ease up on you. We are going on a little fun outing to watch a race.”
-&gt;You groan, smacking your head.
-&gt;You forgot… again…
-&gt;Not that you really cared… but your father was odd… every time you joined in on outside stuff of family thing he got less… wordy with the things you liked.
-&gt;It’s not exactly fair that you can’t say anything back whenever he sees you and sighs, complaining about you playing games…
-“Okay…”
-&gt;Your mother smiles, nodding.
-&gt;”I’m sorry, Nora.”
-“It’s fine…”
-&gt;No.
-&gt;It’s not.
-&gt;You sigh, listening to your mother talk about the event before going to your room and closing the door.
-&gt;You growled, throwing your books before flopping on the bed.
-&gt;Stupid. Stupid. Stupid.
-&gt;You whine… getting things together and texting Anon.
-&gt;Damn it all…
-&gt;You swap messages, booting up your computer as you explain and answer things to him.
-&gt;The next message puzzles you, making you hum.
-“Go to the race… this works out perfectly… what?”
-&gt;Works out perfectly…
-&gt;Oh! Maybe he looked up the event and lives close! He cold get you from the race!
-&gt;Typing up “okay”, you pause before you press send, biting your lip and humming.
-&gt;but… your parents…
-&gt;You gasp as you accidently press send, your fate sealed.
-&gt;tensing up, you groan, hanging over your bed.
-&gt;Fuck your life sometimes…
-----------
-&gt;You hummed, looking at the gathering crowds.
-&gt;School was done in a flash leaving you to join your mother and father at this race…
-&gt;A rally apparently, off-road-ish racing…
-&gt;So…. Boring RocketLeague where cars go around a few times instead of playing soccer.
-&gt;…Okay… it was kind of cool… just not you.
-&gt;You could hear engines revving, your father smiling.
-&gt;He had an odd obsession with cars, even more with racing.
-&gt;You honestly just don’t get it.
-&gt;All of you had arrived early, getting food and seated way before anything started.
-&gt;Your mother just humored your father, mostly, as he blabbered about cars.
-&gt;Not that you care, it’s just noise to you.
-&gt;…You know what? This isn’t so bad. The air is nice, the food is good, and it’s kinda fun to watch the cars once they get going.
-&gt;”Ohhhh.~ Hey there, Nora! Fancy meeting you here!”
-&gt;And ruined…
-&gt;You winced, looking up to see Ashley.
-&gt;The mare grineed, patting you on the head.
-&gt;”Oh, is that one of your friends?”
-“n-“
-&gt;”Oh yeah! Damn near besties! Pardon the language, just a habit. Right, Friendo?”
-&gt;She punches you, pretty hard, making you nod.
-&gt;”U-uhhh yeah.”
-&gt;Ashley sits right next to you, sneering our of your parents view.
-&gt;”Human fucking cunt.” She whispers.
-&gt;God damnit…
-&gt;You turn away, just trying to focus on the cars.
-&gt;Thankfully, she leaves you alone, her boyfriend coming along and the two of them getting close.
-&gt;HOW the hell does no one notice his hands in her pants?
-&gt;…Damnit… why can’t that be you?
-&gt;Maybe Anon would… Ohhh.~
-&gt;You can feel your face heat up, smiling at the thought.
-&gt;You’d almost want him to do bad things to you, even if a little forcefully...
-&gt;”GO!”
-&gt;You jump, watching the cars take off and leave dirt in the air.
-&gt;Looking to the screen, you watch, smiling.
-&gt;”Comeon 85! You sexy beast! Win!” Ashley yells.
-&gt;You watch the giant screen, listening to the cheers and boos.
-&gt;Ashley aside… whit is kinda fun. Not super fun, but fun!
-&gt;And better yet! Anon still is somewhere.~
-&gt;What is he doing right now?
-&gt;You wander and ponder, thinking of Anon and only pausing when you feel a certain moistness and fire in your legs.
-&gt;You are so dirty… guy you just met and you can’t help but think of how you want him to do anything to you.
-&gt;It would be so amazing though, like a doujin~
-&gt;…God, you need to bust out the dildo again.
-&gt;”GOoooo!”
-&gt;”Come on!”
-&gt;You look up, seeing the cars in the home stretch.
-&gt;One tears through, well ahead of the rest.
-&gt;”YES!” Ashley yells.
-&gt;You flinch back, watching her jump up ad down.
-&gt;The car spins in victory, doing dohnuts before the driver gets out, waving with his helmet on.
-&gt;He dashes to another man, the other man turning.
-&gt;”Our winner is asking someone in seat 85-B to come on down!”
-&gt;Oh, cool.
-&gt;”OH god damnit!”
-&gt;You look, seing Ashly scowl as she looks as her seat.
-&gt;86-B…
-&gt;Oh fuck!
-&gt;You look to your seat, seeing 85-B.
-&gt;It’s you!?
-&gt;”Go on, sweetie!”
-&gt;You look around, seeing the crowd all look at you and cheer.
-&gt;It’s super odd, all the others clearing a path for you to make your way to the field.
-&gt;Sure enough, you get there and approach the announcer, seeing the driver next to him.
-“U-uh. Hey?”
-&gt;The announcer looks to the driver, smiling.
-&gt;The driver rips his helmet off, reavealing..!
-“Anon?!”
-&gt;”Hey there Nora.~ surprise.”
-&gt;He grabs you, pulling you into a kiss.
-&gt;You freeze up, eyes wide.
-&gt;First: why? Second:
-&gt;OHMUHGAWDHEIKISSINYOUTHISISLIKETHETIMEINUYASHAANDKIGO-
-&gt;You can hear the crowd cheer as you close your eyes, feeling like fireworks are going off or something.
-&gt;Anon breaks the kiss, turning and waving at the crowd.
-&gt;”I know it’s super sudden and a little much… but you’re surprised, right? Wave!”
-&gt;You look around, seeing yourself on the screen and waving with a smile.
-&gt;This is so embarrassing… you are too fat for this…
-&gt;Why can’t you stop smiling?
-&gt;You look around, at the cars, the crowd, the screen.
-&gt;You spot a zoom in of the crowd, catching your parents and their shock.
-&gt;”Lucky girl!~ your own little trophy?”
-&gt;”Jusy maybe!”Anon says into the microphone.
-&gt;You catch Ashley, the mare scowling angrly.
-&gt;Best. Day. Ever. …of all time.</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    8 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    35 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>

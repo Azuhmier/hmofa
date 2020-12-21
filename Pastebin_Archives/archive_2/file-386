@@ -1,533 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>A Day at the Gym - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="A Day at the Gym - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/pskeaWvp" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/pskeaWvp" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="oe_0Cdi7wFvq6rFA6mwhDZgWN_DiwKV9a3VbrSKkxPnKucVkoY_0apCFwh-lB0xlrV9yvoqQxxcCHwycE8Kwuw==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/pskeaWvp" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/pskeaWvp" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/0/13/16/2731843.jpg" alt="Just_A_User">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>A Day at the Gym</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Just_A_User">Just_A_User</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Just_A_User" class="message" title="Send a private message to: Just_A_User"></a>
-                                    
-                <div class="date">
-                    <span title="Thursday 7th of March 2019 05:52:54 PM CDT">Mar 7th, 2019</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    1,929                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 13.10 KB            </div>
-
-            <div class="right">
-                <a href="/raw/pskeaWvp" class="btn -small">raw</a>
-                <a href="/dl/pskeaWvp" class="btn -small">download</a>
-                <a href="/clone/pskeaWvp" class="btn -small h_800">clone</a>
-                <a href="/embed/pskeaWvp" class="btn -small h_800">embed</a>
-                <a href="/report/pskeaWvp" class="btn -small">report</a>
-                <a href="/print/pskeaWvp" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;”Is that... an engagement ring?”</div></li><li class="li1"><div class="de1">&gt;A voice whispers to another</div></li><li class="li1"><div class="de1">&gt;”No way, she’d never marry someone”</div></li><li class="li1"><div class="de1">&gt;”But look at it, it looks so genuine”</div></li><li class="li1"><div class="de1">&gt;The gossiping ladies continue to whisper to one another as they watch the target of their gaze working out all by herself on the bench press</div></li><li class="li1"><div class="de1">&gt;Not just the gossiping girls, however, the entire gym stared at the Rottweiler from the corner of their eyes as they worked out</div></li><li class="li1"><div class="de1">&gt;Any bewildered expressions they had were safely displayed mentally</div></li><li class="li1"><div class="de1">&gt;No one is stupid to be caught giving her a funny look unless they wanna get added to her shit list</div></li><li class="li1"><div class="de1">&gt;Ursula has never shown any interest in relationships in the past, not that they have witnessed at least</div></li><li class="li1"><div class="de1">&gt;All they see her do, nearly every day, is work out at the gym, always by herself</div></li><li class="li1"><div class="de1">&gt;Chat is short and to the point with her</div></li><li class="li1"><div class="de1">&gt;Wanna shoot the shit? Too bad, she isn’t interested, unless you have something of actual value to tell her, she’ll ignore you, politely tell you to leave, and if you don’t, threaten you to leave </div></li><li class="li1"><div class="de1">&gt;And after she’s done, she leaves for her job as security for a multimillionaire corporation’s branch building or some shit</div></li><li class="li1"><div class="de1">&gt;Standing guard in front of the building in a black suit and stereotypical sunglasses, stoic as ever, and still as a statue</div></li><li class="li1"><div class="de1">&gt;Yet all of a sudden she appears with an engagement ring, and acts like nothing happened</div></li><li class="li1"><div class="de1">&gt;Who the hell just swept her like that?</div></li><li class="li1"><div class="de1">&gt;Who the hell has the courage to approach her and unironically ask her hand in marriage?</div></li><li class="li1"><div class="de1">&gt;Especially considering how short tempered she is?</div></li><li class="li1"><div class="de1">&gt;Whoever this is, kudos for taming this wild beast</div></li><li class="li1"><div class="de1">&gt;Some of the patrons remember the time she sent a poor soul to the hospital for daring to flirt, and by her own words, annoy her during her work out, and not take the multiple hints</div></li><li class="li1"><div class="de1">&gt;As in, directly being told</div></li><li class="li1"><div class="de1">&gt;That she wasn’t interested</div></li><li class="li1"><div class="de1">&gt;He never returned to the gym since</div></li><li class="li1"><div class="de1">&gt;And despite being physically assaulted, the guy dared not to sue her in fear that she’d come after him and finish the job</div></li><li class="li1"><div class="de1">&gt;Knowing Ursula, they’re quite sure she would</div></li><li class="li1"><div class="de1">&gt;She’s definitely one that runs out of patience with people real quick despite her apparent stoic nature</div></li><li class="li1"><div class="de1"> &gt;After that debacle some people started assuming she just wasn’t into guys at all, and was instead into girls</div></li><li class="li1"><div class="de1">&gt;As they have observed that anyone from the same gender had an easier time interacting with her </div></li><li class="li1"><div class="de1">&gt;Men were usually ignored and asked to leave unless it was important</div></li><li class="li1"><div class="de1">&gt;While women would be given the chance to speak their mind, and she’d even assist them with working out if asked politely</div></li><li class="li1"><div class="de1">&gt;Now they wonder who this supposed gal is</div></li><li class="li1"><div class="de1">&gt;Looking at how built Ursula is, with her defined muscles and stocky build</div></li><li class="li1"><div class="de1">&gt;Only an even bigger monster could tame that monster of a dog</div></li><li class="li1"><div class="de1">&gt;Shivers run down the collective spines of every gym member at the same time</div></li><li class="li1"><div class="de1">&gt;Making Ursula stop what she was doing for a moment, raising her head to look at all the patrons who stopped out of nowhere in terrifying synchronization with lifted brow, before returning to her reps</div></li><li class="li1"><div class="de1">&gt;The back of their minds tell them they should never meet such demon else they wanna lose their lives</div></li><li class="li1"><div class="de1">&gt;But their curiosity is far too great and overpowers any common sense they have</div></li><li class="li1"><div class="de1">&gt;Not overpowering enough to straight up ask</div></li><li class="li1"><div class="de1">&gt;But overpowering enough to actually want to speak with this person if she ever shows up</div></li><li class="li1"><div class="de1">&gt;And suddenly Ursula stops her reps</div></li><li class="li1"><div class="de1">&gt;They watch as the Rottweiler puts the barbell back on the rack and sits up on the bench, with her toned legs concealed by her tightly fit compression shorts spread out on each side of it</div></li><li class="li1"><div class="de1">&gt;Deep, breaths makes her decently sized chest rise and fall from beneath her sports bra</div></li><li class="li1"><div class="de1">&gt;And it makes some of the men into buff women instantly jealous of whoever scored the dog girl</div></li><li class="li1"><div class="de1">&gt;Ursula then reaches for something within her shorts</div></li><li class="li1"><div class="de1">&gt;Only for her eyes to widen a bit, and her lips to scowl a little as she starts patting herself</div></li><li class="li1"><div class="de1">&gt;Legs and bust, even going as far as to stick her hand right inside her cleavage</div></li><li class="li1"><div class="de1">&gt;And whatever she’s looking for she still didn’t find it, if the deepening scowl is anything to go by</div></li><li class="li1"><div class="de1">&gt;Taking her bag right beside her, she fishes around for this mysterious object, and comes out emptyhanded again</div></li><li class="li1"><div class="de1">&gt;Even letting out an aggravated huff</div></li><li class="li1"><div class="de1">&gt;Knuckles now resting on her hips and a face that screams annoyance, she looks at the rest of the gym members before setting her eyes on the closest one to her</div></li><li class="li1"><div class="de1">&gt;A horse girl running on a treadmill</div></li><li class="li1"><div class="de1">&gt;Said horse girl immediately sets her eyes straight forward, hoping that Ursula did not catch her staring at the engagement ring</div></li><li class="li1"><div class="de1">&gt;”Hey, you”</div></li><li class="li1"><div class="de1">&gt;She calls out, nearly making the horse girl jump out of her skin</div></li><li class="li1"><div class="de1">&gt;”Y-yes?”</div></li><li class="li1"><div class="de1">&gt;She stutters, sweat building up at an alarming rate as she turns her head to face the terrifying Rottweiler</div></li><li class="li1"><div class="de1">&gt;Despite the clear height difference, the equine can’t help but feel intimidated</div></li><li class="li1"><div class="de1">&gt;”Give me your cell phone”</div></li><li class="li1"><div class="de1">&gt;”I- whAAAAAH-“</div></li><li class="li1"><div class="de1">&gt;The mare’s sudden stop on the still moving treadmill at the weird request sends her hooves back, and her face straight into the machine, before it slides her off onto the floor</div></li><li class="li1"><div class="de1">&gt;”Owie”</div></li><li class="li1"><div class="de1">&gt;She sits up, knees touching; forelegs spread up and butt touching the floor, displaying how limber the girl is, as she rubs her reddened snout</div></li><li class="li1"><div class="de1">&gt;”It wasn’t a request”</div></li><li class="li1"><div class="de1">&gt;For the second time the equine’s skeleton almost escapes out of her mouth</div></li><li class="li1"><div class="de1">&gt;She looks up to see the Rottweiler towering her sitting form </div></li><li class="li1"><div class="de1">&gt;”Give me your phone”</div></li><li class="li1"><div class="de1">&gt;She orders</div></li><li class="li1"><div class="de1">&gt;Not wanting to face the wrath of the dog whose fists could probably punch holes through titanium, the horse girl quickly complies</div></li><li class="li1"><div class="de1">&gt;”Y-yeah, sure, h-here you go”</div></li><li class="li1"><div class="de1">&gt;She reaches for her cellphone strapped to her bicep and offers it to Ursula, flinching back when the dog snatches the phone out of her hand and treks back to the bench press</div></li><li class="li1"><div class="de1">&gt;She dials a number on the phone and puts it by her ear</div></li><li class="li1"><div class="de1">&gt;”It’s me Ursula”</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;Did…</div></li><li class="li1"><div class="de1">&gt;Did her voice just go softer?</div></li><li class="li1"><div class="de1">&gt;”I forgot my phone, I’m wondering if you could bring it to me, please”</div></li><li class="li1"><div class="de1">&gt;And she sounds apologetic, what?</div></li><li class="li1"><div class="de1">&gt;”Yes, I’m still at the gym”</div></li><li class="li1"><div class="de1">&gt;…</div></li><li class="li1"><div class="de1">&gt;”Thanks, bye bye”</div></li><li class="li1"><div class="de1">&gt;And she finishes by blowing cute little kisses onto the receiving end of the smart phone, shocking everyone in the gym</div></li><li class="li1"><div class="de1">&gt;And oh shit oh fuck, they couldn’t believe their god damn luck and lack thereof </div></li><li class="li1"><div class="de1">&gt;They’re actually gonna get to see the bitch who tamed the bitch</div></li><li class="li1"><div class="de1">&gt;And possibly die right after</div></li><li class="li1"><div class="de1">&gt;The horse girl is so shocked she doesn’t even react when Ursula throws the phone back at her</div></li><li class="li1"><div class="de1">&gt;Only noticing something when the device hits her on her already hurting snout</div></li><li class="li1"><div class="de1">&gt;”Ow!”</div></li><li class="li1"><div class="de1">&gt;She rubs her nose again, sending the Rottweiler a little annoyed glare that quickly turned into glaring at the ground when Ursula came into eye contact</div></li><li class="li1"><div class="de1">&gt;After that, the canine quickly falls back into her routine, picking the barbell from the rack and starting a set of squats</div></li><li class="li1"><div class="de1">&gt;Unbeknownst to her, while she focused on her exercise, the atmosphere inside the gym grew eerie and tense</div></li><li class="li1"><div class="de1">&gt;Now every single person in there waited with bated breaths for Ursula’s bride to show up</div></li><li class="li1"><div class="de1">&gt;Every second a minute</div></li><li class="li1"><div class="de1">&gt;And every minute an eternity</div></li><li class="li1"><div class="de1">&gt;More and more they grew anxious, the curiosity killing them from the inside</div></li><li class="li1"><div class="de1">&gt;Finally, something happened after a fifteen minutes wait</div></li><li class="li1"><div class="de1">&gt;A human guy, small and skinny, wearing glasses entered from the front door</div></li><li class="li1"><div class="de1">&gt;He was the text book definition of average looking, with his fair skin and slicked back brown hair</div></li><li class="li1"><div class="de1">&gt;White dress shirt, black slacks, and dress shoes complete the look</div></li><li class="li1"><div class="de1">&gt;With the glasses giving him a nerdy flair</div></li><li class="li1"><div class="de1">&gt;Around his shoulders and untied tie and on his forearm a black suit jacket</div></li><li class="li1"><div class="de1">&gt;Immediately his presence was ignored by nearly everyone</div></li><li class="li1"><div class="de1">&gt;That guy, who before they started ignoring looked like he was searching for someone wasn’t the person they were waiting for</div></li><li class="li1"><div class="de1">&gt;So why should they bother watching him?</div></li><li class="li1"><div class="de1">&gt;At best he probably wants to sign up and bulk up to impress a girl or some shit</div></li><li class="li1"><div class="de1">&gt;Seems like they’ll have to wait more than expected to see this mysterious bride</div></li><li class="li1"><div class="de1">&gt;Better to at least focus on working out until she appears</div></li><li class="li1"><div class="de1">&gt;Maybe that way they’ll keep their minds a little bit entertained and not die of anxiousness</div></li><li class="li1"><div class="de1">&gt;”Ursula?”</div></li><li class="li1"><div class="de1">&gt;Kiryu_Nani.jpeg</div></li><li class="li1"><div class="de1">&gt;”Over here”</div></li><li class="li1"><div class="de1">&gt;All heads, no eyes this time, turn to the man they were ignoring to see him making a bee line straight to Ursula</div></li><li class="li1"><div class="de1">&gt;The big Rottweiler puts the barbell down when he approaches</div></li><li class="li1"><div class="de1">&gt;He takes a phone from one of his pockets and hands it to her</div></li><li class="li1"><div class="de1">&gt;”You know? You gotta stop forgetting your phone”</div></li><li class="li1"><div class="de1">&gt;He says with a small smile</div></li><li class="li1"><div class="de1">&gt;”I’m beginning to think you’re doing this on purpose so we can meet up when we’re busy”</div></li><li class="li1"><div class="de1">&gt;And gives her a wink</div></li><li class="li1"><div class="de1">&gt;Ursula gives him a bashful, shy smile, angling her head a bit down</div></li><li class="li1"><div class="de1">&gt;No fucking way</div></li><li class="li1"><div class="de1">&gt;She takes her smartphone, brushing her fingers over his hands and keeping it there as the two stare at each other </div></li><li class="li1"><div class="de1">&gt;”Thanks darling”</div></li><li class="li1"><div class="de1">&gt;She smiles lovingly</div></li><li class="li1"><div class="de1">&gt;Darling?!</div></li><li class="li1"><div class="de1">&gt;He reaches up and cups the sides of her face, before giving her a smooch on the nose, to which she responds with a lick on his own</div></li><li class="li1"><div class="de1">&gt;”Everything for my sweetie”</div></li><li class="li1"><div class="de1">&gt;SWEETIE?!</div></li><li class="li1"><div class="de1">&gt;He continues to hold her face close to his, touching foreheads</div></li><li class="li1"><div class="de1">&gt;”You don’t need to make excuses though, if you want to spend more time, just tell me, okay?”</div></li><li class="li1"><div class="de1">&gt;She closes her eyes, taking in the feeling of his touch, nodding slowly</div></li><li class="li1"><div class="de1">&gt;”Uhum, but this time I forget to bring it”</div></li><li class="li1"><div class="de1">&gt;She leans her face further into his digits</div></li><li class="li1"><div class="de1">&gt;”I see, let’s just hope this doesn’t happen often. I’d hate if something happened and I couldn’t contact you”</div></li><li class="li1"><div class="de1">&gt;A small whine escapes her though</div></li><li class="li1"><div class="de1">&gt;Realizing his warning came off sounding slightly like scolding, the man quickly resolved to fix that </div></li><li class="li1"><div class="de1">&gt;”Shhhhh, I’m not mad dear, mistakes happen”</div></li><li class="li1"><div class="de1">&gt;He gently caresses her muzzle, foreheads still touching</div></li><li class="li1"><div class="de1">&gt;”Remember that day I woke up so tired I fell asleep in the bathroom and got us both late for work?”</div></li><li class="li1"><div class="de1">&gt;He chuckles at the embarrassing memory, before smiling genuinely at the whimsical sound of Ursula’s giggles accompanying the shaking motions of her body</div></li><li class="li1"><div class="de1">&gt;”I do, and I still can’t believe you fell asleep standing up”</div></li><li class="li1"><div class="de1">&gt;She whispers into his ear for no one to hear, eliciting an embarrassed laugh out of him</div></li><li class="li1"><div class="de1">&gt;Then she surprises him by wrapping her arms around his shoulders and pulling him into a hug</div></li><li class="li1"><div class="de1">&gt;He just smiles again and closes his eyes, snaking his own arms around her muscular back and leaning into her</div></li><li class="li1"><div class="de1">&gt;He feels her sighing and pulling him closer, laying her head on his shoulder and nuzzling his face</div></li><li class="li1"><div class="de1">&gt;They stay like that for a while, basking in each other’s touch before Ursula’s eyes snap open and she pulls back looking at him with pursed lips</div></li><li class="li1"><div class="de1">&gt;Wondering what he reaction meant didn’t take long when he noticed he was drenched in sweat and smelling of post-workout Ursula</div></li><li class="li1"><div class="de1">&gt;”Umm…</div></li><li class="li1"><div class="de1">&gt;He hums, looking at himself and his current state</div></li><li class="li1"><div class="de1">&gt;He can’t go to work like that</div></li><li class="li1"><div class="de1">&gt;”You know, I think it’s better if I go now”</div></li><li class="li1"><div class="de1">&gt;He says, pointing back to the gym’s entrance</div></li><li class="li1"><div class="de1">&gt;Ursula scratches her cheek embarrassedly, laughing nervously</div></li><li class="li1"><div class="de1">&gt;”Wouldn’t want to get you banned for illicit activities in the middle of the gym, you know”</div></li><li class="li1"><div class="de1">&gt;He smirks</div></li><li class="li1"><div class="de1">&gt;She purses her lips into a smile and scratches her cheek even faster, a red blush managing to power through the near pitch black and rusty fur of her muzzle</div></li><li class="li1"><div class="de1">&gt;He then surprises her by grabbing the sides of her face and giving her a deep kiss on the lips</div></li><li class="li1"><div class="de1">&gt;She returns the display of affecting with much gusto, wrapping her strong arms around his shoulders again </div></li><li class="li1"><div class="de1">&gt;Their slow, passionate kiss becomes the main attraction in the gym as every single person just stopped even trying to pretend they were working out as they stared at the two opposites sharing fluids with gaping jaws</div></li><li class="li1"><div class="de1">&gt;And when they pull back, Ursula looks like her breath was stolen from her, looking at her lover with her muzzle open and tongue out as she took in deep breaths and an expression that screamed her love for the man in front of her</div></li><li class="li1"><div class="de1">&gt;Her fiancé too looked a little breathless, and he smile before waving at her and turning around</div></li><li class="li1"><div class="de1">&gt;”I have to go now, sweetheart, else I’ll be late for work”</div></li><li class="li1"><div class="de1">&gt;When he’s half way through his turning, her turns back and surprises her again with a peck right on her snoot</div></li><li class="li1"><div class="de1">&gt;”Love you sweet heart, see you later”</div></li><li class="li1"><div class="de1">&gt;And just like that he leaves</div></li><li class="li1"><div class="de1">&gt;Making his way back outside the gym while a love struck Rottweiler waves back at him</div></li><li class="li1"><div class="de1">&gt;What a maelstrom of emotions and situations</div></li><li class="li1"><div class="de1">&gt;They all feel like they just witnessed a miracle happening right in frnt of their eyes with how Ursula acted around her fiancé</div></li><li class="li1"><div class="de1">&gt;Guess they were wrong about Ursula being into girls, because that was definitely not being into girls</div></li><li class="li1"><div class="de1">&gt;”Hey”</div></li><li class="li1"><div class="de1">&gt;And suddenly the atmosphere thickened so much one could feel it crawling through their skin and fur</div></li><li class="li1"><div class="de1">&gt;It left them with a feeling of dread never experienced before in their lives</div></li><li class="li1"><div class="de1">&gt;The temperature dive bombed into negative numbers, and they could’ve sword their could see the white clouds that were their breaths</div></li><li class="li1"><div class="de1">&gt;All of it originating from one place </div></li><li class="li1"><div class="de1">&gt;Ursula had caught them</div></li><li class="li1"><div class="de1">&gt;”Care to explain why you were staring all this time?”</div></li><li class="li1"><div class="de1">&gt;She growls slowly, lifting her fists and menacingly cracking her knuckles</div></li><li class="li1"><div class="de1">&gt;They had a good life</div></li><li class="li1"><div class="de1">&gt;And that’s how the infamous Gym Massacre of 2019 came to be</div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;”Is that... an engagement ring?”
-&gt;A voice whispers to another
-&gt;”No way, she’d never marry someone”
-&gt;”But look at it, it looks so genuine”
-&gt;The gossiping ladies continue to whisper to one another as they watch the target of their gaze working out all by herself on the bench press
-&gt;Not just the gossiping girls, however, the entire gym stared at the Rottweiler from the corner of their eyes as they worked out
-&gt;Any bewildered expressions they had were safely displayed mentally
-&gt;No one is stupid to be caught giving her a funny look unless they wanna get added to her shit list
-&gt;Ursula has never shown any interest in relationships in the past, not that they have witnessed at least
-&gt;All they see her do, nearly every day, is work out at the gym, always by herself
-&gt;Chat is short and to the point with her
-&gt;Wanna shoot the shit? Too bad, she isn’t interested, unless you have something of actual value to tell her, she’ll ignore you, politely tell you to leave, and if you don’t, threaten you to leave 
-&gt;And after she’s done, she leaves for her job as security for a multimillionaire corporation’s branch building or some shit
-&gt;Standing guard in front of the building in a black suit and stereotypical sunglasses, stoic as ever, and still as a statue
-&gt;Yet all of a sudden she appears with an engagement ring, and acts like nothing happened
-&gt;Who the hell just swept her like that?
-&gt;Who the hell has the courage to approach her and unironically ask her hand in marriage?
-&gt;Especially considering how short tempered she is?
-&gt;Whoever this is, kudos for taming this wild beast
-&gt;Some of the patrons remember the time she sent a poor soul to the hospital for daring to flirt, and by her own words, annoy her during her work out, and not take the multiple hints
-&gt;As in, directly being told
-&gt;That she wasn’t interested
-&gt;He never returned to the gym since
-&gt;And despite being physically assaulted, the guy dared not to sue her in fear that she’d come after him and finish the job
-&gt;Knowing Ursula, they’re quite sure she would
-&gt;She’s definitely one that runs out of patience with people real quick despite her apparent stoic nature
- &gt;After that debacle some people started assuming she just wasn’t into guys at all, and was instead into girls
-&gt;As they have observed that anyone from the same gender had an easier time interacting with her 
-&gt;Men were usually ignored and asked to leave unless it was important
-&gt;While women would be given the chance to speak their mind, and she’d even assist them with working out if asked politely
-&gt;Now they wonder who this supposed gal is
-&gt;Looking at how built Ursula is, with her defined muscles and stocky build
-&gt;Only an even bigger monster could tame that monster of a dog
-&gt;Shivers run down the collective spines of every gym member at the same time
-&gt;Making Ursula stop what she was doing for a moment, raising her head to look at all the patrons who stopped out of nowhere in terrifying synchronization with lifted brow, before returning to her reps
-&gt;The back of their minds tell them they should never meet such demon else they wanna lose their lives
-&gt;But their curiosity is far too great and overpowers any common sense they have
-&gt;Not overpowering enough to straight up ask
-&gt;But overpowering enough to actually want to speak with this person if she ever shows up
-&gt;And suddenly Ursula stops her reps
-&gt;They watch as the Rottweiler puts the barbell back on the rack and sits up on the bench, with her toned legs concealed by her tightly fit compression shorts spread out on each side of it
-&gt;Deep, breaths makes her decently sized chest rise and fall from beneath her sports bra
-&gt;And it makes some of the men into buff women instantly jealous of whoever scored the dog girl
-&gt;Ursula then reaches for something within her shorts
-&gt;Only for her eyes to widen a bit, and her lips to scowl a little as she starts patting herself
-&gt;Legs and bust, even going as far as to stick her hand right inside her cleavage
-&gt;And whatever she’s looking for she still didn’t find it, if the deepening scowl is anything to go by
-&gt;Taking her bag right beside her, she fishes around for this mysterious object, and comes out emptyhanded again
-&gt;Even letting out an aggravated huff
-&gt;Knuckles now resting on her hips and a face that screams annoyance, she looks at the rest of the gym members before setting her eyes on the closest one to her
-&gt;A horse girl running on a treadmill
-&gt;Said horse girl immediately sets her eyes straight forward, hoping that Ursula did not catch her staring at the engagement ring
-&gt;”Hey, you”
-&gt;She calls out, nearly making the horse girl jump out of her skin
-&gt;”Y-yes?”
-&gt;She stutters, sweat building up at an alarming rate as she turns her head to face the terrifying Rottweiler
-&gt;Despite the clear height difference, the equine can’t help but feel intimidated
-&gt;”Give me your cell phone”
-&gt;”I- whAAAAAH-“
-&gt;The mare’s sudden stop on the still moving treadmill at the weird request sends her hooves back, and her face straight into the machine, before it slides her off onto the floor
-&gt;”Owie”
-&gt;She sits up, knees touching; forelegs spread up and butt touching the floor, displaying how limber the girl is, as she rubs her reddened snout
-&gt;”It wasn’t a request”
-&gt;For the second time the equine’s skeleton almost escapes out of her mouth
-&gt;She looks up to see the Rottweiler towering her sitting form 
-&gt;”Give me your phone”
-&gt;She orders
-&gt;Not wanting to face the wrath of the dog whose fists could probably punch holes through titanium, the horse girl quickly complies
-&gt;”Y-yeah, sure, h-here you go”
-&gt;She reaches for her cellphone strapped to her bicep and offers it to Ursula, flinching back when the dog snatches the phone out of her hand and treks back to the bench press
-&gt;She dials a number on the phone and puts it by her ear
-&gt;”It’s me Ursula”
-&gt;…
-&gt;Did…
-&gt;Did her voice just go softer?
-&gt;”I forgot my phone, I’m wondering if you could bring it to me, please”
-&gt;And she sounds apologetic, what?
-&gt;”Yes, I’m still at the gym”
-&gt;…
-&gt;”Thanks, bye bye”
-&gt;And she finishes by blowing cute little kisses onto the receiving end of the smart phone, shocking everyone in the gym
-&gt;And oh shit oh fuck, they couldn’t believe their god damn luck and lack thereof 
-&gt;They’re actually gonna get to see the bitch who tamed the bitch
-&gt;And possibly die right after
-&gt;The horse girl is so shocked she doesn’t even react when Ursula throws the phone back at her
-&gt;Only noticing something when the device hits her on her already hurting snout
-&gt;”Ow!”
-&gt;She rubs her nose again, sending the Rottweiler a little annoyed glare that quickly turned into glaring at the ground when Ursula came into eye contact
-&gt;After that, the canine quickly falls back into her routine, picking the barbell from the rack and starting a set of squats
-&gt;Unbeknownst to her, while she focused on her exercise, the atmosphere inside the gym grew eerie and tense
-&gt;Now every single person in there waited with bated breaths for Ursula’s bride to show up
-&gt;Every second a minute
-&gt;And every minute an eternity
-&gt;More and more they grew anxious, the curiosity killing them from the inside
-&gt;Finally, something happened after a fifteen minutes wait
-&gt;A human guy, small and skinny, wearing glasses entered from the front door
-&gt;He was the text book definition of average looking, with his fair skin and slicked back brown hair
-&gt;White dress shirt, black slacks, and dress shoes complete the look
-&gt;With the glasses giving him a nerdy flair
-&gt;Around his shoulders and untied tie and on his forearm a black suit jacket
-&gt;Immediately his presence was ignored by nearly everyone
-&gt;That guy, who before they started ignoring looked like he was searching for someone wasn’t the person they were waiting for
-&gt;So why should they bother watching him?
-&gt;At best he probably wants to sign up and bulk up to impress a girl or some shit
-&gt;Seems like they’ll have to wait more than expected to see this mysterious bride
-&gt;Better to at least focus on working out until she appears
-&gt;Maybe that way they’ll keep their minds a little bit entertained and not die of anxiousness
-&gt;”Ursula?”
-&gt;Kiryu_Nani.jpeg
-&gt;”Over here”
-&gt;All heads, no eyes this time, turn to the man they were ignoring to see him making a bee line straight to Ursula
-&gt;The big Rottweiler puts the barbell down when he approaches
-&gt;He takes a phone from one of his pockets and hands it to her
-&gt;”You know? You gotta stop forgetting your phone”
-&gt;He says with a small smile
-&gt;”I’m beginning to think you’re doing this on purpose so we can meet up when we’re busy”
-&gt;And gives her a wink
-&gt;Ursula gives him a bashful, shy smile, angling her head a bit down
-&gt;No fucking way
-&gt;She takes her smartphone, brushing her fingers over his hands and keeping it there as the two stare at each other 
-&gt;”Thanks darling”
-&gt;She smiles lovingly
-&gt;Darling?!
-&gt;He reaches up and cups the sides of her face, before giving her a smooch on the nose, to which she responds with a lick on his own
-&gt;”Everything for my sweetie”
-&gt;SWEETIE?!
-&gt;He continues to hold her face close to his, touching foreheads
-&gt;”You don’t need to make excuses though, if you want to spend more time, just tell me, okay?”
-&gt;She closes her eyes, taking in the feeling of his touch, nodding slowly
-&gt;”Uhum, but this time I forget to bring it”
-&gt;She leans her face further into his digits
-&gt;”I see, let’s just hope this doesn’t happen often. I’d hate if something happened and I couldn’t contact you”
-&gt;A small whine escapes her though
-&gt;Realizing his warning came off sounding slightly like scolding, the man quickly resolved to fix that 
-&gt;”Shhhhh, I’m not mad dear, mistakes happen”
-&gt;He gently caresses her muzzle, foreheads still touching
-&gt;”Remember that day I woke up so tired I fell asleep in the bathroom and got us both late for work?”
-&gt;He chuckles at the embarrassing memory, before smiling genuinely at the whimsical sound of Ursula’s giggles accompanying the shaking motions of her body
-&gt;”I do, and I still can’t believe you fell asleep standing up”
-&gt;She whispers into his ear for no one to hear, eliciting an embarrassed laugh out of him
-&gt;Then she surprises him by wrapping her arms around his shoulders and pulling him into a hug
-&gt;He just smiles again and closes his eyes, snaking his own arms around her muscular back and leaning into her
-&gt;He feels her sighing and pulling him closer, laying her head on his shoulder and nuzzling his face
-&gt;They stay like that for a while, basking in each other’s touch before Ursula’s eyes snap open and she pulls back looking at him with pursed lips
-&gt;Wondering what he reaction meant didn’t take long when he noticed he was drenched in sweat and smelling of post-workout Ursula
-&gt;”Umm…
-&gt;He hums, looking at himself and his current state
-&gt;He can’t go to work like that
-&gt;”You know, I think it’s better if I go now”
-&gt;He says, pointing back to the gym’s entrance
-&gt;Ursula scratches her cheek embarrassedly, laughing nervously
-&gt;”Wouldn’t want to get you banned for illicit activities in the middle of the gym, you know”
-&gt;He smirks
-&gt;She purses her lips into a smile and scratches her cheek even faster, a red blush managing to power through the near pitch black and rusty fur of her muzzle
-&gt;He then surprises her by grabbing the sides of her face and giving her a deep kiss on the lips
-&gt;She returns the display of affecting with much gusto, wrapping her strong arms around his shoulders again 
-&gt;Their slow, passionate kiss becomes the main attraction in the gym as every single person just stopped even trying to pretend they were working out as they stared at the two opposites sharing fluids with gaping jaws
-&gt;And when they pull back, Ursula looks like her breath was stolen from her, looking at her lover with her muzzle open and tongue out as she took in deep breaths and an expression that screamed her love for the man in front of her
-&gt;Her fiancé too looked a little breathless, and he smile before waving at her and turning around
-&gt;”I have to go now, sweetheart, else I’ll be late for work”
-&gt;When he’s half way through his turning, her turns back and surprises her again with a peck right on her snoot
-&gt;”Love you sweet heart, see you later”
-&gt;And just like that he leaves
-&gt;Making his way back outside the gym while a love struck Rottweiler waves back at him
-&gt;What a maelstrom of emotions and situations
-&gt;They all feel like they just witnessed a miracle happening right in frnt of their eyes with how Ursula acted around her fiancé
-&gt;Guess they were wrong about Ursula being into girls, because that was definitely not being into girls
-&gt;”Hey”
-&gt;And suddenly the atmosphere thickened so much one could feel it crawling through their skin and fur
-&gt;It left them with a feeling of dread never experienced before in their lives
-&gt;The temperature dive bombed into negative numbers, and they could’ve sword their could see the white clouds that were their breaths
-&gt;All of it originating from one place 
-&gt;Ursula had caught them
-&gt;”Care to explain why you were staring all this time?”
-&gt;She growls slowly, lifting her fists and menacingly cracking her knuckles
-&gt;They had a good life
-&gt;And that’s how the infamous Gym Massacre of 2019 came to be</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    9 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    10 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    13 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    14 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    20 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

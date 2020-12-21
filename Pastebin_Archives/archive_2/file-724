@@ -1,568 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Slime and Steel - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta name="robots" content="noindex" />
-    <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Slime and Steel - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/SdGgScF3" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/SdGgScF3" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="lynaCH-wCnaFBnzhJeV36pBKpLwHoN6GM_CXrS0spr3kTep6LdonOdZEHq9BvD2G9y6T72Xw8_Rdx_zsbhTjig==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?44ea9320710903fd141d" rel="stylesheet">
-    </head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id='snhb-pastebin_headerleader-0'></div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/SdGgScF3" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/SdGgScF3" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/themes/pastebin/img/guest.png" alt="Vani11aS33d">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Slime and Steel</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Vani11aS33d">Vani11aS33d</a>
-                                            </div>
-
-                    
-                                             <a href="/message/compose?to=Vani11aS33d" class="message" title="Send a private message to: Vani11aS33d"></a>
-                                    
-                <div class="date">
-                    <span title="Saturday 13th of June 2020 10:04:47 AM CDT">Jun 13th, 2020</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    704                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 32.47 KB            </div>
-
-            <div class="right">
-                <a href="/raw/SdGgScF3" class="btn -small">raw</a>
-                <a href="/dl/SdGgScF3" class="btn -small">download</a>
-                <a href="/clone/SdGgScF3" class="btn -small h_800">clone</a>
-                <a href="/embed/SdGgScF3" class="btn -small h_800">embed</a>
-                <a href="/report/SdGgScF3" class="btn -small">report</a>
-                <a href="/print/SdGgScF3" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">Bit of context: There&#039;s art from the middle ages of knights fighting snails.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Blurb: Sir Anon encounters his long term rival, a snail woman-at-arms. Their duel gets heated and ends differently than how they both expected. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Tags: [HMOFA] [Snail] [tsundere] [middle ages] [historical] [face sitting] [vanilla] [wholesome]</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Slime and Steel: </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">How many times had it been now? Twenty? Thirty? Forty? More? You had lost count, but now you would do the song and dance once again. Standing across the stone bridge was your target. The sun reflected off the hauberk underneath her plane surcoat. One of her gloved hands brandishing a mace while a heater shield rested in the other. The strangest part of her was her head. A helmet obscured most of her face with a mail coif covering her neck. Yet, two eyes protruded from her helmet’s visor on glistening, slimy stalks. Despite being mostly armoured you knew that snail woman from anywhere. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Monsieur Anon, we meet once more.” Her french accent was thick, holding malicious undertones as she glared at you. You could tell what was going to happen next, like so many times before. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Lady Rouanet, what an unpleasant surprise to see you out here.” You nodded, giving an insulting bow to the snail woman. Despite the fact she had no title to her name you mocked her with the term ‘lady’. She snickered as she paced back and forth like a predator sizing up its prey. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“As blunt as always. Is it not strange we keep finding each other alone. I was just enjoying the view until you spoiled it.” She spat as she accusingly raised her mace. You took ahold of your longsword, your grip tightening around the hilt as adrenaline began to flow through your veins. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That says much coming from a slime skinned commoner as yourself.” She stopped her walk, laughing as you drew your blade. The snail woman outstretched her arms as she walked towards you. Setting her boots at the very edge of the bridge. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Your insults mean nothing to me Monsieur Anon. I question your status as a knight after our last square. Now move aside before I sully your reputation once more.” You remembered that fight well. She had removed her boots mid-battle to get better footing of the mud. Easy for her slimy skin to move in the wet muck. She left you laying in the dirt with her cackling voice in the pouring rain. You weren’t going to take an insult from a commoner who saw herself fit to fight a knight. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“The only reason you were victorious last time was cheating. I at least have my honour intact.” You held your fist to your chest, your armour draped in the surcoat bearing your heraldry. She shook her head, snarling as she approached you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Enough talk Monsieur Anon. En Guarde!” You approached her in turn. Stepping onto the bridge to meet the snail woman in the centre. Knowing your sword would struggle to break her mail, you grabbed your weapon at the blade. You’ve used a half sword on her before. She raised her shield, standing at the ready with her mace resting on her shoulder. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You started with a feint. Aiming your blade for her legs. She answered with a retaliatory swing. She was slow as they came. You easily sidestepped the heavy blow. You tried for another jab. Aimed at her forearm. Your blade glanced off her vambraces. She swung again. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Still slow as always.” You laughed as the head of her weapon missed you by a hare’s breath. Still recovering from the swing you dashed behind her. Plunging your blade into her exposed back. She grunted in pain. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Speed says nothing when you can’t use it to its full potential.” She spat as she spun around, her mace aimed directly for your head. You ducked beneath the weapon. You took another stab. She caught the blade with her shield. Taking her off guard you repeated your first manoeuvre. Feigning a stab to her face. She was ready this time. Using her shield to parry the blade. Bringing her mace down once more. You caught her wrist with the edge of your weapon. She hissed in pain as the blade pressed against her slimy skin through her gambeson. You let out a laugh at her expense. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I think that cut says all I need.” Rounet’s stalked eyes glanced down at the cut. She turned her attention back to you. As she approached you, her eyes holding fiery temper. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Merely a scratch, my body heals faster than yours ever could. I could lose my arm and grow it back. The only thing your body’s worth for is warming a bed.” Charging forward, she pushed your blade aside. You once again sidestepped her mace. You shortly contemplated on what she said. Imagining her in a bed, that only drew out a chuckle and an idea for a vicious mockery. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“At least I warm the beds of ladies. Not even a peasant beggar would lie with your slimy frame.” You found yourself laughing at your own joke. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Rouanet roared in rage as she pressed on with her advance. As you dodged her swings with the occasional retaliatory jabs you backed up even further. You had never seen her this angry before. Sure your mockeries were commonplace but you must have struck a serious nerve. You found yourself pressed against the edge of the bridge. Her shield holding you in place as she struck again. You had no room to dodge. Holding up your blade the mace’s impact sent if flying from your grip. Suddenly you felt the crash of her shield against your chest. Sending you over the wall into the flowing river below. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Weighed down by your armour and heavy clothes you struggled to stay above water. You desperately tried to undo the knots and belts of your armour. Throwing off your helmet as you were dragged down. Your lungs screamed for air as you attempted to swim up to no avail. You could feel yourself going dizzy. Was this how you were going to die? Not on the field of battle as a true knight. But in a river, because some snail commoner couldn’t control her temper? Inhaling water was one more step to the end. The world was going darker. Your mind was drifting off. Even if you didn’t embrace it, death had come for you.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Or so you thought. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You slowly opened your eyes, finding yourself in a tent. You felt the warmth of a fire at your bare feet. You had been stripped of your armour and clothing. A wool blanket was the only thing preserving your modesty. A figure sat at the edge of the flames. You tried to sit up. The figure urgently dashed over to be at your side.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No no, don’t try to get up Monsieur Anon.” The French accent was familiar, the snail woman dressed down to her gambeson knelt beside you. You weren’t feeling weak, just a bit dizzy. She placed one of her slimy hands against your forehead. Your breath was weak, yet you managed to get out a question. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Rouanet...where are my clothes?” You asked as you brushed her hand aside and continued to sit up. Her voice continued to pester you.</div></li><li class="li1"><div class="de1"> </div></li><li class="li1"><div class="de1">“Shush now. You nearly drowned, I had to remove your wet clothing.” You spotted bits of your armour and clothing drying by the fire. That’s when you realised something. Looking at the snail woman in her gambeson with her voice filled with worry, you wondered. She could have just left you to drown. Instead, she hauled you out with great effort. Undressed you and kept you dry by the fire. You gazed up at the eyestalks of the woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Rouanet, why did you save me?” She ignored you, instead heading back to the fire. That&#039;s when you smelled the scent of cooking boar in the air. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Would you like something to eat?” She stood beside the fire, her gloved hands holding a dagger ready to slice off some of the cooked meat. You realised your stomach was quite empty, fighting and nearly dying tended to do cause an appetite. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Thank you Miss Rouanet.” She smiled at you, proceeding to hack off bits of the cooked boar. She must have poached it seeing the lands around here belonged to a baron. She must be good with a bow too, even if you’ve never seen her use one. When she arrived back to you she placed a bowl by your shoulder with a knife and spoon. She sat beside you with her meal, it was a whole lettuce.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You were very hefty…I had to leave some armour at the bottom of the river.” She took a large chunk out of the lettuce, making an audible crunching as she swirled the leaves around her mouth. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m surprised you had the strength to pull me out.” You responded, taking a bite of the pork. It didn’t taste special to you, you’ve had pork before whether it be farmed or hunted. Rounet heartily chuckled at your reply. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Maybe you should lose some weight, no wonder I never see you on a horse… Why don’t you have a horse?” She asked the question made you pause as you thought up a way to lie to her. You came up with the usual response. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I prefer to be on foot.” This was a lie but she shrugged in acknowledgment with another mouth full of greenery. For a woman with few bones, she made a lot of noise. It was humorous how manly she was at times, even off the battlefield. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“So ride around and dismount for fighting. No wonder you look tired worn down every time I see you…You aren’t scared of horses are you?” You hitched your breathe at the accusation, she hit the nail on the head and you accidentally showed weakness. Her eyestalks turned to you, as you shook your head desperately. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No.” Her eyes lit up as her mouth slid open with a cheeky grin, still filled with mushed up lettuce as she saw right through your fib. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You are, aren’t you. You’re scared of horses!” She triumphantly raised her tone. You continued to shake your head as you fixed your breathing, accusingly pointing a finger at the snail-woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No, I’m not.” That did little to defuse the situation as she began to giggle, those giggles turned to chuckles and soon she began hysterically laughing, struggling to breath and sit up. Placing down the lettuce she struggled to contain her meal within her mouth. Her eyes tightly shut while leaking tears of amusement. You felt your face heating up at the embarrassment of your greatest fear coming to light. To your sworn rival no less. Suddenly she presented herself with a pretend sword in the air with a bad minstrel tune. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh, the great knight Monsieur Anon. The bravest knight they say. Unless he sees a horse. He’ll turn and run away.” After the intense rhyming mockery you could feel your blood boiling up, you raised your voice at the peasant. You would get up too if you weren’t still naked. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Shut up slime skin, a horse bit me when I was young. At least I don’t eat whole vegetables like a peasant.” Your insult landed on deaf ears overshadowed by Rounet’s loud laughter. It took a while for her to calm herself to laboured chuckles, all the while you could do little to stop her. It took her a while to get back to enjoying her lettuce. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You should be grateful I got you that boar, but now I think about it maybe you should lay off the meat. Lose some fat around your belly. The horse probably bit you because you broke its back…” The horse bit you for no reason but you didn’t feel like arguing. You both returned to awkward silence, you felt a lot better than you did and you could enjoy your pork without heckling over your fear of horses. After finishing the slab of meat you spotted the bow resting by the fire.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Where did you learn to hunt?” Seeing she wasn’t nobility she wouldn’t know hunting and she wasn’t English so she wouldn’t have been taught from a young age how to use a longbow. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“A baron taught me…he was a human like you.” That was not an answer you expected, she’s French if she was taught as a soldier she would’ve been taught how to use a crossbow. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“A baron?” She nodded, swallowing another mouthful of lettuce, her lips pursed as she looked into the still crackling fire. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My mum had a…special relation with the son of the local nobility. I don’t know what he saw in her but it was enough for me to get to know him well. He taught me how to hunt, fight, look after armour and ride a horse. All trying to keep it a secret from his father.” Forbidden relations with peasants did happen, even among your house it happened and it didn’t surprise you. Bastards existed for a reason. You continued to listen to her story, this is the longest you’ve had a meaningful conversation with her. Even if much of it was being ridiculed for your fear of equines. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“When I grew up he had me as a man-at-arms. We fought bandits and went on campaigns.” A smile grew on her lips, her voice growing lighter and softer in tone as she turned to face you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Then one day he left to fight in the crusades. He never came back and left no-one behind to take over.” Her smile ceded, returning to a neutral expression as she gestured around her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Other nobility swept in and took his land, I tried to fight them off with little effect. When it was all over as his estate was robbed and peasants enclosed I took up my mace and left to be a sell sword.” The cycle of life for noble families, some rise and others are extinguished. You’ve known that as you ransacked other lands and watched bloodlines end and new houses formed. You couldn’t help but feel pity for her, even if she nearly killed you about an hour ago. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Is your mother-?” She cut you off before you finished the question.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Died of a sickness before all that. My father died before I was born, plague ended him.” She stopped with another loud crunch of lettuce, pausing before turning her attention back to you. Speaking with a full mouth. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“What are you doing wandering around Europe without a horse anyway?” You vaguely understood past the mouth full of lettuce leaves. Her question wasn’t surprising but it was one you couldn’t answer. You were trying to find an answer just as much as you were looking for a reason. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t really have a reason. I partake in tournaments, sell my sword to local lords and that’s about it. I am currently looking for a lady to be my wife” That last part drew Rounet’s attention, her eyestalks moving around to meet your own with a questioning glare.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Is that so?” You nodded, you were the heir to your family so you would need a woman to continue the family. So far your efforts have nurtured little result. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My father told me that I need to wed someone to continue the house bloodline. So far those efforts have been for naught. Not that I haven’t tried but…courtship has never been my forte. I’d take a sword in my hand on a bloody battlefield any time over a wine-filled goblet in a banquet hall.” You reflected on your journey, you won tournaments yet you lost many more. Of course, you didn’t partake in jousting, but you enjoyed the melee. Seeing fair maidens and ladies in waiting watching from the stands as armour clashed. Yet an image you couldn’t shake off kept recurring in your head, bringing out a chuckle in you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I go out looking for a wife, yet I keep encountering a snail armed with a mace and a bad temper.” She turned to face you, most of her lettuce gone with the dusk sun reflecting off her slippery skin. Her eyestalks angled down as she responded. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Finding a husband hasn’t exactly been on my mind. Most men mistake me as a man or don’t like the fact I’m better at fighting than they are.” You could see that happening, it amused you to the point of a chuckle. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I don’t blame them.” Her eyes shot up again, she reached over. Taking up her mace and threateningly rested it in her lap as she raised an eye to you. She was trying her best to intimidate you, which was hard when she just told you her life story. You raised your hands in defence regardless. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“All I’m saying is that I don’t blame them that you look, act and sound like a snail-man dressed in armour going around picking fights because they couldn’t apologise over spilt ale.” That harkened back to the time you both first met under the candlelight of an inn. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You spilt the ale yourself.” She raised her voice and mace with fire returning to her gaze, you responded in turn. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I didn’t walk into it did I?” Honestly, the events leading up to your first duel were hazy, both in how long ago they were and you had downed several mugs of ale. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You should have been more careful…Was it the spilt ale or the fact I interrupted your story of fighting five men at once to impress that goat-lady?” You had forgotten about the barmaid you were trying to woo by recounting an…exaggerated story. You sat up, making sure the blanket still covered you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“That happened alright.” Rouanet mockingly chuckled once more, rolling her eyes as she lowered her mace. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Sure you took on five warriors yet you can’t take on one snail-woman.” To be fair, those five were rugged peasant militia while you were fresh into the fray. You still took them all down, but you weren’t going to let her insult your fighting capabilities. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“They were drunkards terrorising locals, you’re an experienced man-at-arms trained by nobility.” Her chuckles grew once more as she gestured to you with a mocking elegance to her hand waves. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“All that noble blood can’t stand up to the might of one snail-woman.” You lost it, you bypassed your banter and went straight for what hurt. Raising your voice you twisted around while holding the blanket over your still naked body. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I DIDN’T THINK YOU’D TRY KILL ME TODAY!” Her eyes shot open while her eyestalks harshly focused down upon you. She stood up with her mace at her side while casting aside the last of her lettuce. Her voice raised back to the harshness you were familiar with. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“AND I APOLOGISED FOR THAT! I EVEN SAVED YOU AND YOU NEVER EVEN THANKED ME!” That didn’t do enough as you responded, your anger still begging for release. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I DIDN’T THINK MAKING A COMMENT ABOUT YOU NEVER LYING WITH ANYONE WARRANTED A WATERY GRAVE!” Your response was quick and just as heated, her response was just as fast. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“MAYBE IT’S BECAUSE I WOULD LIKE TO LIE WITH YOU!”</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Well. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">You didn’t expect her to say that. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Rouanet’s eyes softened as she reflected on her own words. Your anger left you, turning to confusion as her eyestalks fell to the ground. Her voice came out as an almost a whisper, her anger gone and replaced with a gentleness you had never heard from her. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I saved you because…I love you.” You were silent as you tried to overcome her words. When you struggled to find a response, Rouanet talked instead. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Monsieur Anon, on my journey you’ve been the only constant. You’ve kept me going this whole time and every day  I hope to run into you again. Even if we exchange insults and shouts I love your voice and tone. At first, I thought it was competition but now I think about you and my heart races. I want to see you again, when I see you again I feel joy. I feel anguish when I have to leave…When I saw you fall into the river I felt my stomach drop so I went in after you.” She fell to her knees, her mace slipping from her grasp as she eyestalks flicked up to meet your gaze. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I”m so sorry.” Suddenly she dashed forward, taking you in a tight hug. Her leather gambeson pressed up against your bare chest while she rested her slick head on your shoulder. Her skin was cold and slimy, but you didn’t focus on that. You were more concerned with the tears flowing from her eyes. You returned the hug, wrapping your arms around the sobbing snail woman. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“This is...very sudden...Miss Rouanet.” She didn’t hear or didn’t care. The snail woman continued to sob against your shoulder for a while. You humoured her, realising how much you meant to her. You watched the sun continue to settle into the horizon with the woman clinging to you. You did remember you were still unclothed save for a blanket. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">After a while, her sobs turned to sniffs and the tears dried up. Her arms still draped over your back while her head was nuzzled against your neck. The blanket still separating you both.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re so warm.” Her voice, so close to your ear it sent a chill down your spine. Meanwhile, you stared into her stalked eyes even if her head was further down. Her skin held a slickness to it which was growing on you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You’re so slimy. Thank you for rescuing me Miss Rouanet. I’ll repay you any way I can.” She cutely giggled, again a noise you had never heard from the snail warrior. Her laughs had always been malicious, joking or sarcastic. Her giggle was something akin to a fair maiden, not the hardened duelist. Even if she had just lowered her facade, it still surprised you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“My pleasure...Say Monsieur Anon, I think I know a way you can repay me for saving your life.” She ran her hands over your chest, suddenly sitting up to gaze over you. Her smile grew as she ran her cold hands up your neck. She came to rest her hand to your cheek, her thumb idly rubbing against your cheekbone. Her friendly tone was somehow more unsettling than her being angry.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I think your warmth can be that prize.” Without waiting for your response she began to undo her gambeson. You caught her attention, grabbing her wrist as she pried off the padded leather to reveal her undershirt beneath. Even with her heartfelt confession, you weren’t sure of this.  </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m sorry Rouanet, what are you?-” She cut you off as she was already removing her undershirt. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m removing my clothes so I may feel your warmth better.” As the many pieces of her clothing came off you realised you had never seen her without her armour. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Her slick brown skin was revealed as the layers of metal, leather and wool came away. Her body, while showing a warrior’s physic, it was strangely alluring to you. Chiselled arms with firm shoulders with tight abdominals leading to long and powerful legs, all marked with scars from past battles. That’s when she revealed the binds holding her shapely breasts. You were wordless as her bosom came into view. Her skin’s texture didn’t matter, nor did the fact a couple hours ago you were duelling her come to mind. Even her kind words earlier didn’t matter. Her breasts weren’t the biggest you had seen but they were soft, yet perky. They were a nice size, large enough to be held yet easy enough to bind when the call of war came.  She rolled onto her back, sliding down her pants to show her nether region hidden behind undergarments. Slick like the rest of her. With most of her modesty gone she slid herself beneath the blanket, pressing her soft, wet skin against you. Sighing contently as her cold, moist form connected with you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">She wrapped her arms around you, her supple breasts spilling over your shoulder and across your arm. You kept telling yourself you were not enjoying this and that it was just a favour for saving your life. Sure she’d just confessed she fell for you but, sure this was just a friend kind of love. You kept saying this as scenario after scenario played out in your head. She’s a commoner. You’re a knight. She’s a snail. Her breasts are very soft. You’re a human. Her round ass looks quite firm. You’re failing in the face of your logic and principles. Pre-marital sex is against the church. You thought this as she had now turned and was pressing her back into you. Her toned shoulder blades against your chest with her slick rear grinding against you. You couldn’t last much longer in the face of rugged beauty. She gasped as you unwillingly drew your other sword with it pushing into the cleft of her ass. You could feel it disappear between plumpness of her cheeks despite her undergarments, snuggly moving between the soft flesh. Her rounded globes pressed down on your length with a pleasant tightness with her slick skin providing no friction. She paused for a moment. Her eyes turned to meet your gaze. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Is that a sword poking me or are you enjoying this Monsieur Anon?” In any other context, you would have come up with a sharp insult or a quick-witted response. You would say something along the lines of thinking about the maid you saw at the inn. But now, you were quiet with your member sandwiched between a snail’s slick and toned posterior. Your response came out slower than you wanted. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’m-I’m sorry Rouanet should-should I just.” You attempted to move away from between the confines of her rump. She chuckled as she helped, rolling back around so you were face to face with the snail. You could still see the smile on her face as she leaned into you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“No, no it’s fine Monsieur Anon.” Wrapping her arms around your head she pulled you into a passionate embrace. The kiss was strange, nothing like the tavern wenches you’d been with. Her lips were cold and slimy, yet that didn’t bother you. You gave in to your libido as you returned allowed her tongue entrance to your mouth. The world seemed to disappear around you, leaving just yourself and Rouanet in each other’s arms. You didn’t care how long the exchange lasted as your tongues lashed and fought for dominance. Like the duels you had neither came out on top. You both gasped for air at the end of it, feeling the tent heating up. Her smile grew as he undid the binds holding her palpable breasts. Her bosoms tumbling forth to the fire’s glow and the night sky. She tossed the binds aside before refocusing on you with soft eyes. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I’ve been waiting a long time for this.” She greedily embraced you once more, grabbing one of your arms to bring to her uncovered mounds. You respected her wish, giving a gentle squeeze to the sound of a pleasured moan. She melted into you with all tension leaving her body. She was smooth and delicate with her bosom soft to your tentative touch. Your other hand was free to roam, sliding down her slippery back and rediscover her rump past the hem of her undergarments. Groping the malleable buttocks to feel the tight muscles beneath the supple layer of fat. Moving around her slim waist you could feel the subtle heat from her loins, dripping in needy arousal, yet she denied your touch. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">Without a word, she pushed you onto your back. Throwing off the blanket while sitting up to look down upon you with a sensual grin. She discarded her underpants with a speed you had never seen in her before, her body bare to the night sky. She quickly slid across your body, resting herself on your chest as she leaned down once more. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“How about you put that dirty mouth to some useful work for once.” You didn’t have time to respond before she raised herself above you. Her warm juices already falling onto your chin. You didn’t wait for her, grabbing her by her lovely curves you pulled her down to your lips. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Alas, that’s...oh my...” You plunged your tongue into her soaked folds, her lower lips running like a waterfall of arousal in response to your licks. She tasted strange, but you could understand why the French eat snails. Her pleasured moans kept you motivated as you lapped at her pulsating walls. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ah...your...tongue is so warm.” You felt Rouanet’s hand grip the back of your head, pushing you further into her dripping depths. You reached around, grabbing her pert buttocks as you pressed further into her. She gripped one of her succulent breasts as she tried and failed to stifle her gasps of pure ecstasy. She started grinding as you matched her gyrations with your exploration of her quivering folds. You felt her grip of her fingers tighten as her breathy cries became louder. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon, I’m...I’m.” Her spasms increased until the dam within her burst. With her long sigh, you were nearly drowned as her juices flowed down her face. Bringing back uncomfortable memories of the recent past. You continued to firmly grip her hips as she fell forward to support herself. Taking a few seconds to steady herself before she slid off to your side. You admired her bare form as she basked in the afterglow of your efforts. Her slick chest heaving while her abs flexed in hardy exhalation. You reached over, running your hands once more through the soft and slimy skin, admiring how soft it felt in your hand. Without a word, you moved on top of her to her questioning gaze. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Monsieur Anon?” You didn’t answer her, instead of tangling your lips with hers. She gasped as she felt you rubbing the head of your length against her needy lips. She squirmed beneath you, gasping and shivering as you teased her. Never letting too much in before you withdrew. You continued to explore her soft curves as she begged for you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Anon...you fucking bastard...put it in already...” You obliged, with the slipperiness of the previous orgasm combined with her already wet skin. You slid between her thighs without resistance.</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Ahh...” With the sharp cry you stopped, Rounet’s breath had hitched in her throat as her mouth stood ajar and her eyes shot open. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Are you alright Rounet?” Placing a hand on her cheek she met your soft gaze. Nodding vigorously as she gasped out her response. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I...just came a little...please keep going.” You stroked her cheek, continuing to slide into her making her moan in delight, her eyestalks standing on end. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">The feeling was peculiar but satisfying. Wrapping herself around you once more she met you as you pushed into her. Her loins were something else. Slippery in all forms with her snail skin feeling like wet clay against your length. Her walls were still lovely, pressing against you with a firm grip. She continued to groan out moans, mewls, gasps and french curses as she moved in time with you. She grasped her breasts, her fingers disappearing into the soft flesh as she cooed in ecstasy. This gave you an idea as she arched her back at the onrush of stimulation. Not pausing your efforts you brushed aside her hands, giving her teat a delicate lick. She grunted in response, shivering as you continued to play with her heaving breasts. Her loins tightened with each stroke of your tongue and you grit your teeth as she tightened around you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Oh mon dieu...you’re...so hot inside me...merde...I’ve never felt better than this.” You hungrily caught her in another sloppy kiss, her moans vibrating throughout your mouth. Her powerful legs wrapped around you, locking her ankles behind your back. The rhythmic hilts became more powerful with each thrust. As her walls clamped down harder you could feel yourself coming closer. Your hips connecting with loud, wet slaps. You sped up your pounding, the little composure she had faltering before you. You too were losing your senses as you rolled into her nethers with great force. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Miss...Rounet...I’m...I’m.” You struggled to talk through the pleasure coursing through your loins and enveloping you. She cut you off as she sped up her gyrations, screaming a response to the heavens. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Inside me please...” With a few final thrusts, you felt her folds come down as she screamed your name to the nigh sky. Her spasming walls were all you needed to reach your climax, filling her up with ropes of thick virility. Her legs pulled you further together, making you one in the glow of your combined orgasm. Her breath became lighter with her grip on you loosening. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“It’s...so warm. I think I’m addicted to you.” She gasped as her embrace slipped, leaving behind shiny marks where she once lay. Her strength leaving as her orgasm played out. You stayed like that, letting her lips drain you dry. You were light-headed as you rested in Rounet’s arms. You withdrew from her quivering folds, leaving a shared trail of juices behind as you fell beside her. She moved with you, her head relaxing against the crook of your neck while her eyestalks rested against your chin. An arm draped over your chest while her legs tangled with yours. As the afterglow of your lovemaking faded away, you chuckled as you remembered something. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“I was right. No peasant would lay with your slimy frame...I did instead.” Rounet smiled as she nuzzled further into you. It all felt comfortable as you rubbed her back. You were still kind of getting over the fact that this woman was once your sworn rival, yet you have just laid with her. Slimy skin pressing against your side. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“You know I’m probably pregnant...we should get married before people start to notice.” What she said was true, you wondered how this would play out. Having to convince your family about your actions with a French commoner. What were they going to do, kick you from the family? You’re the family heir, they need you. </div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“Do you have a day in mind my sweet snail lady?” She locked your lips once more, you were used to the chilled feeling and the slime from her. Even as it seeped through your lips in your embrace</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">“We’ll figure out later Monsieur Anon. Now, I just want to lay with my knight…Even if he’s afraid of horses.”  </div></li></ol>        </div>
-    </div>
-
-    <!--  VIEWDEOS SCRIPT  -->
-    <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">Bit of context: There&#039;s art from the middle ages of knights fighting snails.
-
-Blurb: Sir Anon encounters his long term rival, a snail woman-at-arms. Their duel gets heated and ends differently than how they both expected. 
-
-Tags: [HMOFA] [Snail] [tsundere] [middle ages] [historical] [face sitting] [vanilla] [wholesome]
-
-Slime and Steel: 
-
-How many times had it been now? Twenty? Thirty? Forty? More? You had lost count, but now you would do the song and dance once again. Standing across the stone bridge was your target. The sun reflected off the hauberk underneath her plane surcoat. One of her gloved hands brandishing a mace while a heater shield rested in the other. The strangest part of her was her head. A helmet obscured most of her face with a mail coif covering her neck. Yet, two eyes protruded from her helmet’s visor on glistening, slimy stalks. Despite being mostly armoured you knew that snail woman from anywhere. 
-
-“Monsieur Anon, we meet once more.” Her french accent was thick, holding malicious undertones as she glared at you. You could tell what was going to happen next, like so many times before. 
-
-“Lady Rouanet, what an unpleasant surprise to see you out here.” You nodded, giving an insulting bow to the snail woman. Despite the fact she had no title to her name you mocked her with the term ‘lady’. She snickered as she paced back and forth like a predator sizing up its prey. 
-
-“As blunt as always. Is it not strange we keep finding each other alone. I was just enjoying the view until you spoiled it.” She spat as she accusingly raised her mace. You took ahold of your longsword, your grip tightening around the hilt as adrenaline began to flow through your veins. 
-
-“That says much coming from a slime skinned commoner as yourself.” She stopped her walk, laughing as you drew your blade. The snail woman outstretched her arms as she walked towards you. Setting her boots at the very edge of the bridge. 
-
-“Your insults mean nothing to me Monsieur Anon. I question your status as a knight after our last square. Now move aside before I sully your reputation once more.” You remembered that fight well. She had removed her boots mid-battle to get better footing of the mud. Easy for her slimy skin to move in the wet muck. She left you laying in the dirt with her cackling voice in the pouring rain. You weren’t going to take an insult from a commoner who saw herself fit to fight a knight. 
-
-“The only reason you were victorious last time was cheating. I at least have my honour intact.” You held your fist to your chest, your armour draped in the surcoat bearing your heraldry. She shook her head, snarling as she approached you. 
-
-“Enough talk Monsieur Anon. En Guarde!” You approached her in turn. Stepping onto the bridge to meet the snail woman in the centre. Knowing your sword would struggle to break her mail, you grabbed your weapon at the blade. You’ve used a half sword on her before. She raised her shield, standing at the ready with her mace resting on her shoulder. 
-
-You started with a feint. Aiming your blade for her legs. She answered with a retaliatory swing. She was slow as they came. You easily sidestepped the heavy blow. You tried for another jab. Aimed at her forearm. Your blade glanced off her vambraces. She swung again. 
-
-“Still slow as always.” You laughed as the head of her weapon missed you by a hare’s breath. Still recovering from the swing you dashed behind her. Plunging your blade into her exposed back. She grunted in pain. 
-
-“Speed says nothing when you can’t use it to its full potential.” She spat as she spun around, her mace aimed directly for your head. You ducked beneath the weapon. You took another stab. She caught the blade with her shield. Taking her off guard you repeated your first manoeuvre. Feigning a stab to her face. She was ready this time. Using her shield to parry the blade. Bringing her mace down once more. You caught her wrist with the edge of your weapon. She hissed in pain as the blade pressed against her slimy skin through her gambeson. You let out a laugh at her expense. 
-
-“I think that cut says all I need.” Rounet’s stalked eyes glanced down at the cut. She turned her attention back to you. As she approached you, her eyes holding fiery temper. 
-
-“Merely a scratch, my body heals faster than yours ever could. I could lose my arm and grow it back. The only thing your body’s worth for is warming a bed.” Charging forward, she pushed your blade aside. You once again sidestepped her mace. You shortly contemplated on what she said. Imagining her in a bed, that only drew out a chuckle and an idea for a vicious mockery. 
-
-“At least I warm the beds of ladies. Not even a peasant beggar would lie with your slimy frame.” You found yourself laughing at your own joke. 
-
-Rouanet roared in rage as she pressed on with her advance. As you dodged her swings with the occasional retaliatory jabs you backed up even further. You had never seen her this angry before. Sure your mockeries were commonplace but you must have struck a serious nerve. You found yourself pressed against the edge of the bridge. Her shield holding you in place as she struck again. You had no room to dodge. Holding up your blade the mace’s impact sent if flying from your grip. Suddenly you felt the crash of her shield against your chest. Sending you over the wall into the flowing river below. 
-
-Weighed down by your armour and heavy clothes you struggled to stay above water. You desperately tried to undo the knots and belts of your armour. Throwing off your helmet as you were dragged down. Your lungs screamed for air as you attempted to swim up to no avail. You could feel yourself going dizzy. Was this how you were going to die? Not on the field of battle as a true knight. But in a river, because some snail commoner couldn’t control her temper? Inhaling water was one more step to the end. The world was going darker. Your mind was drifting off. Even if you didn’t embrace it, death had come for you.
-
-Or so you thought. 
-
-You slowly opened your eyes, finding yourself in a tent. You felt the warmth of a fire at your bare feet. You had been stripped of your armour and clothing. A wool blanket was the only thing preserving your modesty. A figure sat at the edge of the flames. You tried to sit up. The figure urgently dashed over to be at your side.
-
-“No no, don’t try to get up Monsieur Anon.” The French accent was familiar, the snail woman dressed down to her gambeson knelt beside you. You weren’t feeling weak, just a bit dizzy. She placed one of her slimy hands against your forehead. Your breath was weak, yet you managed to get out a question. 
-
-“Rouanet...where are my clothes?” You asked as you brushed her hand aside and continued to sit up. Her voice continued to pester you.
- 
-“Shush now. You nearly drowned, I had to remove your wet clothing.” You spotted bits of your armour and clothing drying by the fire. That’s when you realised something. Looking at the snail woman in her gambeson with her voice filled with worry, you wondered. She could have just left you to drown. Instead, she hauled you out with great effort. Undressed you and kept you dry by the fire. You gazed up at the eyestalks of the woman. 
-
-“Rouanet, why did you save me?” She ignored you, instead heading back to the fire. That&#039;s when you smelled the scent of cooking boar in the air. 
-
-“Would you like something to eat?” She stood beside the fire, her gloved hands holding a dagger ready to slice off some of the cooked meat. You realised your stomach was quite empty, fighting and nearly dying tended to do cause an appetite. 
-
-“Thank you Miss Rouanet.” She smiled at you, proceeding to hack off bits of the cooked boar. She must have poached it seeing the lands around here belonged to a baron. She must be good with a bow too, even if you’ve never seen her use one. When she arrived back to you she placed a bowl by your shoulder with a knife and spoon. She sat beside you with her meal, it was a whole lettuce.
-
-“You were very hefty…I had to leave some armour at the bottom of the river.” She took a large chunk out of the lettuce, making an audible crunching as she swirled the leaves around her mouth. 
-
-“I’m surprised you had the strength to pull me out.” You responded, taking a bite of the pork. It didn’t taste special to you, you’ve had pork before whether it be farmed or hunted. Rounet heartily chuckled at your reply. 
-
-“Maybe you should lose some weight, no wonder I never see you on a horse… Why don’t you have a horse?” She asked the question made you pause as you thought up a way to lie to her. You came up with the usual response. 
-
-“I prefer to be on foot.” This was a lie but she shrugged in acknowledgment with another mouth full of greenery. For a woman with few bones, she made a lot of noise. It was humorous how manly she was at times, even off the battlefield. 
-
-“So ride around and dismount for fighting. No wonder you look tired worn down every time I see you…You aren’t scared of horses are you?” You hitched your breathe at the accusation, she hit the nail on the head and you accidentally showed weakness. Her eyestalks turned to you, as you shook your head desperately. 
-
-“No.” Her eyes lit up as her mouth slid open with a cheeky grin, still filled with mushed up lettuce as she saw right through your fib. 
-
-“You are, aren’t you. You’re scared of horses!” She triumphantly raised her tone. You continued to shake your head as you fixed your breathing, accusingly pointing a finger at the snail-woman. 
-
-“No, I’m not.” That did little to defuse the situation as she began to giggle, those giggles turned to chuckles and soon she began hysterically laughing, struggling to breath and sit up. Placing down the lettuce she struggled to contain her meal within her mouth. Her eyes tightly shut while leaking tears of amusement. You felt your face heating up at the embarrassment of your greatest fear coming to light. To your sworn rival no less. Suddenly she presented herself with a pretend sword in the air with a bad minstrel tune. 
-
-“Oh, the great knight Monsieur Anon. The bravest knight they say. Unless he sees a horse. He’ll turn and run away.” After the intense rhyming mockery you could feel your blood boiling up, you raised your voice at the peasant. You would get up too if you weren’t still naked. 
-
-“Shut up slime skin, a horse bit me when I was young. At least I don’t eat whole vegetables like a peasant.” Your insult landed on deaf ears overshadowed by Rounet’s loud laughter. It took a while for her to calm herself to laboured chuckles, all the while you could do little to stop her. It took her a while to get back to enjoying her lettuce. 
-
-“You should be grateful I got you that boar, but now I think about it maybe you should lay off the meat. Lose some fat around your belly. The horse probably bit you because you broke its back…” The horse bit you for no reason but you didn’t feel like arguing. You both returned to awkward silence, you felt a lot better than you did and you could enjoy your pork without heckling over your fear of horses. After finishing the slab of meat you spotted the bow resting by the fire.
-
-“Where did you learn to hunt?” Seeing she wasn’t nobility she wouldn’t know hunting and she wasn’t English so she wouldn’t have been taught from a young age how to use a longbow. 
-
-“A baron taught me…he was a human like you.” That was not an answer you expected, she’s French if she was taught as a soldier she would’ve been taught how to use a crossbow. 
-
-“A baron?” She nodded, swallowing another mouthful of lettuce, her lips pursed as she looked into the still crackling fire. 
-
-“My mum had a…special relation with the son of the local nobility. I don’t know what he saw in her but it was enough for me to get to know him well. He taught me how to hunt, fight, look after armour and ride a horse. All trying to keep it a secret from his father.” Forbidden relations with peasants did happen, even among your house it happened and it didn’t surprise you. Bastards existed for a reason. You continued to listen to her story, this is the longest you’ve had a meaningful conversation with her. Even if much of it was being ridiculed for your fear of equines. 
-
-“When I grew up he had me as a man-at-arms. We fought bandits and went on campaigns.” A smile grew on her lips, her voice growing lighter and softer in tone as she turned to face you. 
-
-“Then one day he left to fight in the crusades. He never came back and left no-one behind to take over.” Her smile ceded, returning to a neutral expression as she gestured around her. 
-
-“Other nobility swept in and took his land, I tried to fight them off with little effect. When it was all over as his estate was robbed and peasants enclosed I took up my mace and left to be a sell sword.” The cycle of life for noble families, some rise and others are extinguished. You’ve known that as you ransacked other lands and watched bloodlines end and new houses formed. You couldn’t help but feel pity for her, even if she nearly killed you about an hour ago. 
-
-“Is your mother-?” She cut you off before you finished the question.
-
-“Died of a sickness before all that. My father died before I was born, plague ended him.” She stopped with another loud crunch of lettuce, pausing before turning her attention back to you. Speaking with a full mouth. 
-
-“What are you doing wandering around Europe without a horse anyway?” You vaguely understood past the mouth full of lettuce leaves. Her question wasn’t surprising but it was one you couldn’t answer. You were trying to find an answer just as much as you were looking for a reason. 
-
-“I don’t really have a reason. I partake in tournaments, sell my sword to local lords and that’s about it. I am currently looking for a lady to be my wife” That last part drew Rounet’s attention, her eyestalks moving around to meet your own with a questioning glare.
-
-“Is that so?” You nodded, you were the heir to your family so you would need a woman to continue the family. So far your efforts have nurtured little result. 
-
-“My father told me that I need to wed someone to continue the house bloodline. So far those efforts have been for naught. Not that I haven’t tried but…courtship has never been my forte. I’d take a sword in my hand on a bloody battlefield any time over a wine-filled goblet in a banquet hall.” You reflected on your journey, you won tournaments yet you lost many more. Of course, you didn’t partake in jousting, but you enjoyed the melee. Seeing fair maidens and ladies in waiting watching from the stands as armour clashed. Yet an image you couldn’t shake off kept recurring in your head, bringing out a chuckle in you. 
-
-“I go out looking for a wife, yet I keep encountering a snail armed with a mace and a bad temper.” She turned to face you, most of her lettuce gone with the dusk sun reflecting off her slippery skin. Her eyestalks angled down as she responded. 
-
-“Finding a husband hasn’t exactly been on my mind. Most men mistake me as a man or don’t like the fact I’m better at fighting than they are.” You could see that happening, it amused you to the point of a chuckle. 
-
-“I don’t blame them.” Her eyes shot up again, she reached over. Taking up her mace and threateningly rested it in her lap as she raised an eye to you. She was trying her best to intimidate you, which was hard when she just told you her life story. You raised your hands in defence regardless. 
-
-“All I’m saying is that I don’t blame them that you look, act and sound like a snail-man dressed in armour going around picking fights because they couldn’t apologise over spilt ale.” That harkened back to the time you both first met under the candlelight of an inn. 
-
-“You spilt the ale yourself.” She raised her voice and mace with fire returning to her gaze, you responded in turn. 
-
-“I didn’t walk into it did I?” Honestly, the events leading up to your first duel were hazy, both in how long ago they were and you had downed several mugs of ale. 
-
-“You should have been more careful…Was it the spilt ale or the fact I interrupted your story of fighting five men at once to impress that goat-lady?” You had forgotten about the barmaid you were trying to woo by recounting an…exaggerated story. You sat up, making sure the blanket still covered you. 
-
-“That happened alright.” Rouanet mockingly chuckled once more, rolling her eyes as she lowered her mace. 
-
-“Sure you took on five warriors yet you can’t take on one snail-woman.” To be fair, those five were rugged peasant militia while you were fresh into the fray. You still took them all down, but you weren’t going to let her insult your fighting capabilities. 
-
-“They were drunkards terrorising locals, you’re an experienced man-at-arms trained by nobility.” Her chuckles grew once more as she gestured to you with a mocking elegance to her hand waves. 
-
-“All that noble blood can’t stand up to the might of one snail-woman.” You lost it, you bypassed your banter and went straight for what hurt. Raising your voice you twisted around while holding the blanket over your still naked body. 
-
-“I DIDN’T THINK YOU’D TRY KILL ME TODAY!” Her eyes shot open while her eyestalks harshly focused down upon you. She stood up with her mace at her side while casting aside the last of her lettuce. Her voice raised back to the harshness you were familiar with. 
-
-“AND I APOLOGISED FOR THAT! I EVEN SAVED YOU AND YOU NEVER EVEN THANKED ME!” That didn’t do enough as you responded, your anger still begging for release. 
-
-“I DIDN’T THINK MAKING A COMMENT ABOUT YOU NEVER LYING WITH ANYONE WARRANTED A WATERY GRAVE!” Your response was quick and just as heated, her response was just as fast. 
-
-“MAYBE IT’S BECAUSE I WOULD LIKE TO LIE WITH YOU!”
-
-Well. 
-
-You didn’t expect her to say that. 
-
-Rouanet’s eyes softened as she reflected on her own words. Your anger left you, turning to confusion as her eyestalks fell to the ground. Her voice came out as an almost a whisper, her anger gone and replaced with a gentleness you had never heard from her. 
-
-“I saved you because…I love you.” You were silent as you tried to overcome her words. When you struggled to find a response, Rouanet talked instead. 
-
-“Monsieur Anon, on my journey you’ve been the only constant. You’ve kept me going this whole time and every day  I hope to run into you again. Even if we exchange insults and shouts I love your voice and tone. At first, I thought it was competition but now I think about you and my heart races. I want to see you again, when I see you again I feel joy. I feel anguish when I have to leave…When I saw you fall into the river I felt my stomach drop so I went in after you.” She fell to her knees, her mace slipping from her grasp as she eyestalks flicked up to meet your gaze. 
-
-“I”m so sorry.” Suddenly she dashed forward, taking you in a tight hug. Her leather gambeson pressed up against your bare chest while she rested her slick head on your shoulder. Her skin was cold and slimy, but you didn’t focus on that. You were more concerned with the tears flowing from her eyes. You returned the hug, wrapping your arms around the sobbing snail woman. 
-
-“This is...very sudden...Miss Rouanet.” She didn’t hear or didn’t care. The snail woman continued to sob against your shoulder for a while. You humoured her, realising how much you meant to her. You watched the sun continue to settle into the horizon with the woman clinging to you. You did remember you were still unclothed save for a blanket. 
-
-After a while, her sobs turned to sniffs and the tears dried up. Her arms still draped over your back while her head was nuzzled against your neck. The blanket still separating you both.
-
-“You’re so warm.” Her voice, so close to your ear it sent a chill down your spine. Meanwhile, you stared into her stalked eyes even if her head was further down. Her skin held a slickness to it which was growing on you. 
-
-“You’re so slimy. Thank you for rescuing me Miss Rouanet. I’ll repay you any way I can.” She cutely giggled, again a noise you had never heard from the snail warrior. Her laughs had always been malicious, joking or sarcastic. Her giggle was something akin to a fair maiden, not the hardened duelist. Even if she had just lowered her facade, it still surprised you. 
-
-“My pleasure...Say Monsieur Anon, I think I know a way you can repay me for saving your life.” She ran her hands over your chest, suddenly sitting up to gaze over you. Her smile grew as she ran her cold hands up your neck. She came to rest her hand to your cheek, her thumb idly rubbing against your cheekbone. Her friendly tone was somehow more unsettling than her being angry.  
-
-“I think your warmth can be that prize.” Without waiting for your response she began to undo her gambeson. You caught her attention, grabbing her wrist as she pried off the padded leather to reveal her undershirt beneath. Even with her heartfelt confession, you weren’t sure of this.  
-
-“I’m sorry Rouanet, what are you?-” She cut you off as she was already removing her undershirt. 
-
-“I’m removing my clothes so I may feel your warmth better.” As the many pieces of her clothing came off you realised you had never seen her without her armour. 
-
-Her slick brown skin was revealed as the layers of metal, leather and wool came away. Her body, while showing a warrior’s physic, it was strangely alluring to you. Chiselled arms with firm shoulders with tight abdominals leading to long and powerful legs, all marked with scars from past battles. That’s when she revealed the binds holding her shapely breasts. You were wordless as her bosom came into view. Her skin’s texture didn’t matter, nor did the fact a couple hours ago you were duelling her come to mind. Even her kind words earlier didn’t matter. Her breasts weren’t the biggest you had seen but they were soft, yet perky. They were a nice size, large enough to be held yet easy enough to bind when the call of war came.  She rolled onto her back, sliding down her pants to show her nether region hidden behind undergarments. Slick like the rest of her. With most of her modesty gone she slid herself beneath the blanket, pressing her soft, wet skin against you. Sighing contently as her cold, moist form connected with you. 
-
-She wrapped her arms around you, her supple breasts spilling over your shoulder and across your arm. You kept telling yourself you were not enjoying this and that it was just a favour for saving your life. Sure she’d just confessed she fell for you but, sure this was just a friend kind of love. You kept saying this as scenario after scenario played out in your head. She’s a commoner. You’re a knight. She’s a snail. Her breasts are very soft. You’re a human. Her round ass looks quite firm. You’re failing in the face of your logic and principles. Pre-marital sex is against the church. You thought this as she had now turned and was pressing her back into you. Her toned shoulder blades against your chest with her slick rear grinding against you. You couldn’t last much longer in the face of rugged beauty. She gasped as you unwillingly drew your other sword with it pushing into the cleft of her ass. You could feel it disappear between plumpness of her cheeks despite her undergarments, snuggly moving between the soft flesh. Her rounded globes pressed down on your length with a pleasant tightness with her slick skin providing no friction. She paused for a moment. Her eyes turned to meet your gaze. 
-
-“Is that a sword poking me or are you enjoying this Monsieur Anon?” In any other context, you would have come up with a sharp insult or a quick-witted response. You would say something along the lines of thinking about the maid you saw at the inn. But now, you were quiet with your member sandwiched between a snail’s slick and toned posterior. Your response came out slower than you wanted. 
-
-“I’m-I’m sorry Rouanet should-should I just.” You attempted to move away from between the confines of her rump. She chuckled as she helped, rolling back around so you were face to face with the snail. You could still see the smile on her face as she leaned into you. 
-
-“No, no it’s fine Monsieur Anon.” Wrapping her arms around your head she pulled you into a passionate embrace. The kiss was strange, nothing like the tavern wenches you’d been with. Her lips were cold and slimy, yet that didn’t bother you. You gave in to your libido as you returned allowed her tongue entrance to your mouth. The world seemed to disappear around you, leaving just yourself and Rouanet in each other’s arms. You didn’t care how long the exchange lasted as your tongues lashed and fought for dominance. Like the duels you had neither came out on top. You both gasped for air at the end of it, feeling the tent heating up. Her smile grew as he undid the binds holding her palpable breasts. Her bosoms tumbling forth to the fire’s glow and the night sky. She tossed the binds aside before refocusing on you with soft eyes. 
-
-“I’ve been waiting a long time for this.” She greedily embraced you once more, grabbing one of your arms to bring to her uncovered mounds. You respected her wish, giving a gentle squeeze to the sound of a pleasured moan. She melted into you with all tension leaving her body. She was smooth and delicate with her bosom soft to your tentative touch. Your other hand was free to roam, sliding down her slippery back and rediscover her rump past the hem of her undergarments. Groping the malleable buttocks to feel the tight muscles beneath the supple layer of fat. Moving around her slim waist you could feel the subtle heat from her loins, dripping in needy arousal, yet she denied your touch. 
-
-Without a word, she pushed you onto your back. Throwing off the blanket while sitting up to look down upon you with a sensual grin. She discarded her underpants with a speed you had never seen in her before, her body bare to the night sky. She quickly slid across your body, resting herself on your chest as she leaned down once more. 
-
-“How about you put that dirty mouth to some useful work for once.” You didn’t have time to respond before she raised herself above you. Her warm juices already falling onto your chin. You didn’t wait for her, grabbing her by her lovely curves you pulled her down to your lips. 
-
-“Alas, that’s...oh my...” You plunged your tongue into her soaked folds, her lower lips running like a waterfall of arousal in response to your licks. She tasted strange, but you could understand why the French eat snails. Her pleasured moans kept you motivated as you lapped at her pulsating walls. 
-
-“Ah...your...tongue is so warm.” You felt Rouanet’s hand grip the back of your head, pushing you further into her dripping depths. You reached around, grabbing her pert buttocks as you pressed further into her. She gripped one of her succulent breasts as she tried and failed to stifle her gasps of pure ecstasy. She started grinding as you matched her gyrations with your exploration of her quivering folds. You felt her grip of her fingers tighten as her breathy cries became louder. 
-
-“Anon, I’m...I’m.” Her spasms increased until the dam within her burst. With her long sigh, you were nearly drowned as her juices flowed down her face. Bringing back uncomfortable memories of the recent past. You continued to firmly grip her hips as she fell forward to support herself. Taking a few seconds to steady herself before she slid off to your side. You admired her bare form as she basked in the afterglow of your efforts. Her slick chest heaving while her abs flexed in hardy exhalation. You reached over, running your hands once more through the soft and slimy skin, admiring how soft it felt in your hand. Without a word, you moved on top of her to her questioning gaze. 
-
-“Monsieur Anon?” You didn’t answer her, instead of tangling your lips with hers. She gasped as she felt you rubbing the head of your length against her needy lips. She squirmed beneath you, gasping and shivering as you teased her. Never letting too much in before you withdrew. You continued to explore her soft curves as she begged for you. 
-
-“Anon...you fucking bastard...put it in already...” You obliged, with the slipperiness of the previous orgasm combined with her already wet skin. You slid between her thighs without resistance.
-
-“Ahh...” With the sharp cry you stopped, Rounet’s breath had hitched in her throat as her mouth stood ajar and her eyes shot open. 
-
-“Are you alright Rounet?” Placing a hand on her cheek she met your soft gaze. Nodding vigorously as she gasped out her response. 
-
-“I...just came a little...please keep going.” You stroked her cheek, continuing to slide into her making her moan in delight, her eyestalks standing on end. 
-
-The feeling was peculiar but satisfying. Wrapping herself around you once more she met you as you pushed into her. Her loins were something else. Slippery in all forms with her snail skin feeling like wet clay against your length. Her walls were still lovely, pressing against you with a firm grip. She continued to groan out moans, mewls, gasps and french curses as she moved in time with you. She grasped her breasts, her fingers disappearing into the soft flesh as she cooed in ecstasy. This gave you an idea as she arched her back at the onrush of stimulation. Not pausing your efforts you brushed aside her hands, giving her teat a delicate lick. She grunted in response, shivering as you continued to play with her heaving breasts. Her loins tightened with each stroke of your tongue and you grit your teeth as she tightened around you. 
-
-“Oh mon dieu...you’re...so hot inside me...merde...I’ve never felt better than this.” You hungrily caught her in another sloppy kiss, her moans vibrating throughout your mouth. Her powerful legs wrapped around you, locking her ankles behind your back. The rhythmic hilts became more powerful with each thrust. As her walls clamped down harder you could feel yourself coming closer. Your hips connecting with loud, wet slaps. You sped up your pounding, the little composure she had faltering before you. You too were losing your senses as you rolled into her nethers with great force. 
-
-“Miss...Rounet...I’m...I’m.” You struggled to talk through the pleasure coursing through your loins and enveloping you. She cut you off as she sped up her gyrations, screaming a response to the heavens. 
-
-“Inside me please...” With a few final thrusts, you felt her folds come down as she screamed your name to the nigh sky. Her spasming walls were all you needed to reach your climax, filling her up with ropes of thick virility. Her legs pulled you further together, making you one in the glow of your combined orgasm. Her breath became lighter with her grip on you loosening. 
-
-“It’s...so warm. I think I’m addicted to you.” She gasped as her embrace slipped, leaving behind shiny marks where she once lay. Her strength leaving as her orgasm played out. You stayed like that, letting her lips drain you dry. You were light-headed as you rested in Rounet’s arms. You withdrew from her quivering folds, leaving a shared trail of juices behind as you fell beside her. She moved with you, her head relaxing against the crook of your neck while her eyestalks rested against your chin. An arm draped over your chest while her legs tangled with yours. As the afterglow of your lovemaking faded away, you chuckled as you remembered something. 
-
-“I was right. No peasant would lay with your slimy frame...I did instead.” Rounet smiled as she nuzzled further into you. It all felt comfortable as you rubbed her back. You were still kind of getting over the fact that this woman was once your sworn rival, yet you have just laid with her. Slimy skin pressing against your side. 
-
-“You know I’m probably pregnant...we should get married before people start to notice.” What she said was true, you wondered how this would play out. Having to convince your family about your actions with a French commoner. What were they going to do, kick you from the family? You’re the family heir, they need you. 
-
-“Do you have a day in mind my sweet snail lady?” She locked your lips once more, you were used to the chilled feeling and the slime from her. Even as it seeped through your lips in your embrace
-
-“We’ll figure out later Monsieur Anon. Now, I just want to lay with my knight…Even if he’s afraid of horses.”  </textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <div id='snhb-pastebin_bottomleader-0'></div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/mjisLWsT">Múltiplos</a>
-                <div class="details">
-                                            C++ |
-                    
-                    21 min ago                </div>
-            </li>
-                    <li>
-                <a href="/zw9exS76">Maior Idade</a>
-                <div class="details">
-                                            C++ |
-                    
-                    22 min ago                </div>
-            </li>
-                    <li>
-                <a href="/v45UzqqF">Web Storage - sessionStorage | login.js</a>
-                <div class="details">
-                                            JavaScript |
-                    
-                    25 min ago                </div>
-            </li>
-                    <li>
-                <a href="/JxHVVf1V">Chromium issue</a>
-                <div class="details">
-                                            Bash |
-                    
-                    26 min ago                </div>
-            </li>
-                    <li>
-                <a href="/KhZberi9">Harley</a>
-                <div class="details">
-                                            C++ |
-                    
-                    32 min ago                </div>
-            </li>
-                    <li>
-                <a href="/cPrtiaNY">Erettsegi 2015 majus</a>
-                <div class="details">
-                                            Python |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/At1K3Ubi">Untitled</a>
-                <div class="details">
-                                            Java |
-                    
-                    2 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/ijinyxUU">Attendance Type Settings Overview</a>
-                <div class="details">
-                                            T-SQL |
-                    
-                    2 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <div id='snhb-pastebin_sidebar-0'></div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-
-                <br>
-
-<!--                                    <a id="ccpa_example" style="cursor: pointer; line-height: 72px;display: none;">Do not share my Personal Information</a>
-                    <script>
-                      __uspapi('setUSPLink', 1, function() {}, "ccpa_example");
-                    </script>
-                -->
-                <br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?44ea9320710903fd141d"></script>
-<script src="/themes/pastebin/js/app.bundle.js?44ea9320710903fd141d"></script>
-</body>
-</html>

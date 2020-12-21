@@ -1,490 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58643-34"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', "UA-58643-34");
-    </script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Napalm a go-go - Pastebin.com</title>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <meta name="description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-    <meta property="og:description" content="Pastebin.com is the number one paste tool since 2002. Pastebin is a website where you can store text online for a set period of time." />
-        <meta property="fb:app_id" content="231493360234820" />
-    <meta property="og:title" content="Napalm a go-go - Pastebin.com" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://pastebin.com/ibJzagSD" />
-    <meta property="og:image" content="https://pastebin.com/i/facebook.png" />
-    <meta property="og:site_name" content="Pastebin" />
-    <meta name="google-site-verification" content="jkUAIOE8owUXu8UXIhRLB9oHJsWBfOgJbZzncqHoF4A" />
-    <link rel="canonical" href="https://pastebin.com/ibJzagSD" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=1.0, user-scalable=yes">
-        <meta name="csrf-param" content="_csrf-frontend">
-<meta name="csrf-token" content="sizq_s9sJMGH-zVu55kRk_-6YSBuqmvsMLJOIbkMHi2DQqStlQMRs_ODUTqpw2XYveAEcgf5KKNd5RgT3lN7Sg==">
-
-<link href="/assets/c093bd59/css/bootstrap.min.css" rel="stylesheet">    
-<link href="/themes/pastebin/css/vendors.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-<link href="/themes/pastebin/css/app.bundle.css?71b0e4248bdf19b8109f" rel="stylesheet">
-    <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    googletag.cmd.push(function() {
-        googletag.defineSlot('/21892923737/pb_header_728x90', [[728, 90], [468, 60], [970, 90]], 'gpt-passback').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_footer_728x90', [[728, 90], [468, 60], [970, 90]], 'div-gpt-ad-1593095439111-0').addService(googletag.pubads());
-        googletag.defineSlot('/21892923737/pb_sidebar_120x600', [[160, 600], [120, 600]], 'div-gpt-ad-1593095572267-0').addService(googletag.pubads());
-        // googletag.pubads().enableSingleRequest();
-        googletag.pubads().disableInitialLoad();
-        googletag.enableServices();
-    });
-</script>
-<script type='text/javascript'>
-    !function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
-
-    // initialize apstag and have apstag set bids on the googletag slots when they are returned to the page
-    apstag.init({
-        pubID: 'fcfacf81-21b4-42d5-b3bd-672af22fe303',
-        adServer: 'googletag',
-        bidTimeout: 2e3
-    });
-    // request the bids for the four googletag slots
-    apstag.fetchBids({
-        slots: [
-            {
-                slotID: 'gpt-passback', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_header_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095439111-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_footer_728x90', //example: //example: /116082170/slot2
-                sizes: [[728, 90], [468, 60], [970, 90]] //example: [[300,250],[300, 600]]
-            },
-            {
-                slotID: 'div-gpt-ad-1593095572267-0', //example: div-gpt-ad-1475102693815-0
-                slotName: '/21892923737/pb_sidebar_120x600', //example: //example: /116082170/slot2
-                sizes: [[160, 600], [120, 600]] //example: [[300,250],[300, 600]]
-            },
-            // {
-            //   slotID: 'enter your slotID',
-            //   slotName: 'enter your DFP ad unit path',
-            //   sizes: [[width, height], [width, height]]
-            // }
-        ]
-    }, function (bids) {
-        // set apstag bids, then trigger the first request to DFP
-        googletag.cmd.push(function () {
-            apstag.setDisplayBids();
-            googletag.pubads().refresh();
-        });
-    });
-</script>
-</head>
-<body class="">
-
-
-
-<div class="wrap">
-
-    <!-- Header -->
-    
-        
-<div class="header">
-    <div class="container">
-        <div class="header__container">
-
-            <!-- left -->
-            <div class="header__left">
-                <a class="header__logo" href="/">
-                    Pastebin                </a>
-
-                <div class="header__links h_1024">
-                                            <a href="/pro" class="pro">GO</a>
-                    
-                    <a href="/doc_api">API</a>
-                    <a href="/tools">tools</a>
-                    <a href="/faq">faq</a>
-                                    </div>
-
-                
-                <a class="header__btn" href="/">
-                    paste                </a>
-            </div>
-
-            <!-- right -->
-            <div class="header__right">
-
-                                    <div class="header_sign">
-                        <a href="/login" class="btn-sign sign-in">Sign in</a>
-                        <a href="/signup" class="btn-sign sign-up">Sign up</a>
-                    </div>
-                
-            </div>
-
-        </div>
-    </div>
-
-</div>
-        
-
-    <div class="container">
-        <div class="content">
-
-            <!-- Leaderboard Below Header -->
-            <div class="special__header">
-    <div id="gpt-passback">
-        <script>
-            googletag.cmd.push(function() { googletag.display("gpt-passback"); });
-        </script>
-    </div>
-</div>
-            <!-- Content -->
-                        
-            
-            
-<link href="https://pastebin.com/themes/pastebin/css/geshi/light/text.css?1596735063" rel="stylesheet">
-
-<div class="post-view">
-
-    <div class="details">
-        <div class="share h_800">
-            <div data-url="https://pastebin.com/ibJzagSD" class="share-btn facebook js-facebook-share" title="Share on Facebook!"><span>SHARE</span></div>
-            <div data-url="https://pastebin.com/ibJzagSD" class="share-btn twitter js-twitter-share" title="Share on Twitter!"><span>TWEET</span></div>
-        </div>
-        <div class="user-icon">
-                            <img src="/cache/img/19/7/8/2940720.jpg" alt="Zig-Zag-specialist">                    </div>
-        <div class="info-bar">
-            <div class="info-top">
-
-                
-                
-                <h1>Napalm a go-go</h1>
-            </div>
-            <div class="info-bottom">
-
-                                    <div class="username">
-                                                    <a href="/u/Zig-Zag-specialist">Zig-Zag-specialist</a>
-                                            </div>
-
-                                            <a href="/pro" class="pro" title="PRO User!"></a>
-                    
-                                             <a href="/message/compose?to=Zig-Zag-specialist" class="message" title="Send a private message to: Zig-Zag-specialist"></a>
-                                    
-                <div class="date">
-                    <span title="Tuesday 24th of April 2018 03:59:10 PM CDT">Apr 24th, 2018</span>
-
-                                    </div>
-
-                <div class="visits" title="Unique visits to this paste">
-                    607                </div>
-
-                <div class="expire" title="When this paste gets automatically deleted">
-                    Never                </div>
-            </div>
-        </div>
-    </div>
-
-                        <div class="page">
-                <div class="content__text -no-padding">
-                    <div class="notice -post-view">
-                        <b>Not a member of Pastebin yet?</b>
-                        <a href="/signup"><b><u>Sign Up</u></b></a>,
-                        it unlocks many cool features!                    </div>
-                </div>
-            </div>
-        
-    
-    <div class="highlighted-code">
-        <div class="top-buttons">
-            <div class="left">
-                <a href="/archive/text" class="btn -small h_800">text</a> 5.81 KB            </div>
-
-            <div class="right">
-                <a href="/raw/ibJzagSD" class="btn -small">raw</a>
-                <a href="/dl/ibJzagSD" class="btn -small">download</a>
-                <a href="/clone/ibJzagSD" class="btn -small h_800">clone</a>
-                <a href="/embed/ibJzagSD" class="btn -small h_800">embed</a>
-                <a href="/report/ibJzagSD" class="btn -small">report</a>
-                <a href="/print/ibJzagSD" class="btn -small h_800">print</a>
-
-                
-                            </div>
-        </div>
-        <div class="source" style=" ">
-            <ol class="text"><li class="li1"><div class="de1">&gt;the choppers and their cargo was definitely the highlight of the week</div></li><li class="li1"><div class="de1">&gt;choppers meant more everything, ammo, letters, food, and sometimes bodies.</div></li><li class="li1"><div class="de1">&gt;specifically fresh recruits who passed the draft</div></li><li class="li1"><div class="de1">&gt;some of the boys protested under their breath, seeing a spotted triangle flying under the stripes</div></li><li class="li1"><div class="de1">&gt;Camp Kinder, the hyena platoons main base.</div></li><li class="li1"><div class="de1">&gt;those fresher than most stumbled off the choppers, while the commander strolled out casually and began directing the anxious staffers to the cargobays</div></li><li class="li1"><div class="de1">&gt;and just as some feared, huge hyenas strolled around, some practically naked, no care for clothing like human women.</div></li><li class="li1"><div class="de1">&gt;But their commander was a different story</div></li><li class="li1"><div class="de1">&gt;dressed to kill in a pressed uniform and beret that hung onto one ear, almost over a cloudy grey eye</div></li><li class="li1"><div class="de1">&gt;from her smile, she was already analyzing her new recruits as she marched over, flanked by two other hyenas</div></li><li class="li1"><div class="de1">&gt;&quot;woo, I can still smell the lawn they cut you boy&#039;s from you&#039;re all so green! LINE UP!&quot;</div></li><li class="li1"><div class="de1">&gt;a brief scramble from the privates before a perfect line was made</div></li><li class="li1"><div class="de1">&gt;the hyenas moved down the line, name and rank, then where they would be stationed</div></li><li class="li1"><div class="de1">&gt;until one particular man caught the commander&#039;s attention</div></li><li class="li1"><div class="de1">&gt;&quot;Name&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;Konroy Nemo&quot;</div></li><li class="li1"><div class="de1">&gt;the commander paused reading his sheet, a thin smile spreading across her muzzle</div></li><li class="li1"><div class="de1">&gt;&quot;Callsign...Hyena?&quot; She snorted, looking from him to clipboard</div></li><li class="li1"><div class="de1">&gt;the stone-faced private nodded &quot;Yes sir&quot;</div></li><li class="li1"><div class="de1">&gt;the commander raised an eyebrow before squaring down to eye-level with him, tapping the top of his head with the clipboard as if measuring him</div></li><li class="li1"><div class="de1">&gt;&quot;hmm, I dunno lad, you look pretty damn short for a Yeen, even a striped or male&quot; she grinned, baring all her teeth</div></li><li class="li1"><div class="de1">&gt;&quot;whatcha think girls, he look yeen to you?&quot; She turned half to her following officers who struggled to keep a straight face </div></li><li class="li1"><div class="de1">&gt;turning back she leaned in close, so he could feel her hot breath and smell the meat between her teeth</div></li><li class="li1"><div class="de1">&gt;&quot; You ever tore a man&#039;s throat out? Drank his blood and snapped his spine while he drowned in his own fluids?&quot;</div></li><li class="li1"><div class="de1">&gt;the new recruit&#039;s face never shifted, only a deep breath made his nostrils flare as he spoke &quot;No sir&quot;</div></li><li class="li1"><div class="de1">&gt;She almost seemed impressed, or disappointed by his lack of reaction</div></li><li class="li1"><div class="de1">&gt;But She would see how long he could keep the stoic act up</div></li><li class="li1"><div class="de1">&gt;tapping his head again as she stood &quot;well let&#039;s see how you live up to that name then greenhorn, Road Burners, Tent 5&quot;</div></li><li class="li1"><div class="de1">&gt;then the list kept moving, until she heel turned back to the line of men and women &quot;Alright Meat, make us proud, dismissed!&quot;</div></li><li class="li1"><div class="de1">&gt;and the scurry began</div></li><li class="li1"><div class="de1">&gt;most fled to their assigned duties, some dragged their feet</div></li><li class="li1"><div class="de1">&gt;it was obvious who was pulled into the fight and who had some sense of duty to it</div></li><li class="li1"><div class="de1">&gt;The commander watched as &quot;Hyena&quot; dutifully marched to his assigned tent</div></li><li class="li1"><div class="de1">&gt;she briefly wondered why such a scrawny body would earn that particular callsign, before moving to address orders and moving to the map tent</div></li><li class="li1"><div class="de1">&nbsp;</div></li><li class="li1"><div class="de1">&gt;Tent 5 was barely even a tent, more a circus of equipment and a large drape over everything</div></li><li class="li1"><div class="de1">&gt;several large hyenas stared him down as he approached, all in various states of undress and longuing on top of their equipment</div></li><li class="li1"><div class="de1">&gt;&quot;Look, new meat&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy smirked, and snorted &quot;You ladies look like you&#039;ve had enough Meat for 10 of me</div></li><li class="li1"><div class="de1">&gt;all of them sat up</div></li><li class="li1"><div class="de1">&gt;&quot; Well, well, this meat has a mouth&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;think you&#039;re funny Meat?&quot;</div></li><li class="li1"><div class="de1">&gt;another hard snort &quot;No, I can&#039;t be funny, your faces alone would outdo any joke</div></li><li class="li1"><div class="de1">&gt;one rolled her eyes, the others let out a growl with a smile full of fangs</div></li><li class="li1"><div class="de1">&gt;&quot;Meat, we could rape you into the mud and leave you to die, you got a lot of nerve&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy snapped, a full stupid smile, almost showing every crooked, stained tooth in his mouth as he started laughing, deep chest laughter that left a little vibration in his chest</div></li><li class="li1"><div class="de1">&gt;&quot;I am...I&#039;m sure you could! But I wouldn&#039;t mind if it got me out of this goddamn army!&quot; Barely managing to talk behind his laughter</div></li><li class="li1"><div class="de1">&gt;they weren&#039;t sure what to make of him, but they hadn&#039;t even noticed how he had slipped through them until he disappeared into the tent</div></li><li class="li1"><div class="de1">&gt;The inside was much like the outside, everything patched together and makeshift</div></li><li class="li1"><div class="de1">&gt;And a bit of hyena fur here and there</div></li><li class="li1"><div class="de1">&gt;tables, chairs, beds, all easily broken down junk</div></li><li class="li1"><div class="de1">&gt;&quot;Hope you like junk Meat, it&#039;s how we move&quot; the women pushed past him, shoving him out of the way.</div></li><li class="li1"><div class="de1">&gt;&quot;Sarge says nothing we can&#039;t remake when we get there, otherwise it&#039;s too heavy&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy smirked &quot;Pragmatic&quot;</div></li><li class="li1"><div class="de1">&gt;&quot;yeah we&#039;ll see how you feel about it when you&#039;re walking through the jungle and you lose your bed&quot;</div></li><li class="li1"><div class="de1">&gt;the group groaned and shook their heads almost collectively, moving around to their respective junk pile</div></li><li class="li1"><div class="de1">&gt;one hyena with large sunglasses waved him over, a large rifle disassembled on the table before her &quot;so, Name?&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy</div></li><li class="li1"><div class="de1">&gt;&quot; Hmm, Shades&quot; she grunted, then started pointing her thumb at the others, naming them.</div></li><li class="li1"><div class="de1">&gt;&quot;Rot, Vomit, Echo, Shock and you already know Sarge&quot; </div></li><li class="li1"><div class="de1">&gt;Konroy blinked stupidly, looking and trying to memorize names to faces before he realized the Commander was standing in the tentflap</div></li><li class="li1"><div class="de1">&gt;&quot;Right, however Hyena, you are to address me as Leader, Matriarch or just Queen if you&#039;ve fucked something up&quot; </div></li><li class="li1"><div class="de1">&gt;immediately she walked over to him, picking him up by his skull and lifting him off the ground to her level</div></li><li class="li1"><div class="de1">&gt;&quot;You WILL keep up, or you will die here no one will come back for You, understood?&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy bit his lip, blood trickling down his chin &quot;Yes...sir&quot;</div></li><li class="li1"><div class="de1">&gt;the Commander smirked and put him down gently before turning to the room &quot;This is Hyena, he will be our new blood since the pencil pushers don&#039;t like an entire hyena squad, keep your claws in and if I hear of any roughhousing without my consent, you&#039;ll get to deal with me&quot;</div></li><li class="li1"><div class="de1">&gt;her voice was as cold as ice and he swore he saw two of them shiver before saluting &quot;Yes Ma&#039;am!&quot;</div></li><li class="li1"><div class="de1">&gt;Konroy dug his nails into his palms, wincing </div></li><li class="li1"><div class="de1">&gt;Shades, closest to him, noticed before Commander walked away</div></li><li class="li1"><div class="de1">&gt;&quot; You nervous?&#039;</div></li><li class="li1"><div class="de1">&gt;he jumped and smiled &quot;its...a nasty habit, gotten me in trouble with humans a lot..&quot;</div></li></ol>        </div>
-    </div>
-
-    <!--  TEST ADS SCRIPT  -->
-    <div style="max-width: 420px; margin: 10px auto;">
-        <script async id="vd200485928" src="https://tags.viewdeos.com/pastebin/player-pastebin-desktop.js"></script>
-    </div>
-
-            <div class="content__title -no-border">
-            RAW Paste Data        </div>
-
-        <textarea class="textarea">&gt;the choppers and their cargo was definitely the highlight of the week
-&gt;choppers meant more everything, ammo, letters, food, and sometimes bodies.
-&gt;specifically fresh recruits who passed the draft
-&gt;some of the boys protested under their breath, seeing a spotted triangle flying under the stripes
-&gt;Camp Kinder, the hyena platoons main base.
-&gt;those fresher than most stumbled off the choppers, while the commander strolled out casually and began directing the anxious staffers to the cargobays
-&gt;and just as some feared, huge hyenas strolled around, some practically naked, no care for clothing like human women.
-&gt;But their commander was a different story
-&gt;dressed to kill in a pressed uniform and beret that hung onto one ear, almost over a cloudy grey eye
-&gt;from her smile, she was already analyzing her new recruits as she marched over, flanked by two other hyenas
-&gt;&quot;woo, I can still smell the lawn they cut you boy&#039;s from you&#039;re all so green! LINE UP!&quot;
-&gt;a brief scramble from the privates before a perfect line was made
-&gt;the hyenas moved down the line, name and rank, then where they would be stationed
-&gt;until one particular man caught the commander&#039;s attention
-&gt;&quot;Name&quot;
-&gt;&quot;Konroy Nemo&quot;
-&gt;the commander paused reading his sheet, a thin smile spreading across her muzzle
-&gt;&quot;Callsign...Hyena?&quot; She snorted, looking from him to clipboard
-&gt;the stone-faced private nodded &quot;Yes sir&quot;
-&gt;the commander raised an eyebrow before squaring down to eye-level with him, tapping the top of his head with the clipboard as if measuring him
-&gt;&quot;hmm, I dunno lad, you look pretty damn short for a Yeen, even a striped or male&quot; she grinned, baring all her teeth
-&gt;&quot;whatcha think girls, he look yeen to you?&quot; She turned half to her following officers who struggled to keep a straight face 
-&gt;turning back she leaned in close, so he could feel her hot breath and smell the meat between her teeth
-&gt;&quot; You ever tore a man&#039;s throat out? Drank his blood and snapped his spine while he drowned in his own fluids?&quot;
-&gt;the new recruit&#039;s face never shifted, only a deep breath made his nostrils flare as he spoke &quot;No sir&quot;
-&gt;She almost seemed impressed, or disappointed by his lack of reaction
-&gt;But She would see how long he could keep the stoic act up
-&gt;tapping his head again as she stood &quot;well let&#039;s see how you live up to that name then greenhorn, Road Burners, Tent 5&quot;
-&gt;then the list kept moving, until she heel turned back to the line of men and women &quot;Alright Meat, make us proud, dismissed!&quot;
-&gt;and the scurry began
-&gt;most fled to their assigned duties, some dragged their feet
-&gt;it was obvious who was pulled into the fight and who had some sense of duty to it
-&gt;The commander watched as &quot;Hyena&quot; dutifully marched to his assigned tent
-&gt;she briefly wondered why such a scrawny body would earn that particular callsign, before moving to address orders and moving to the map tent
-
-&gt;Tent 5 was barely even a tent, more a circus of equipment and a large drape over everything
-&gt;several large hyenas stared him down as he approached, all in various states of undress and longuing on top of their equipment
-&gt;&quot;Look, new meat&quot;
-&gt;Konroy smirked, and snorted &quot;You ladies look like you&#039;ve had enough Meat for 10 of me
-&gt;all of them sat up
-&gt;&quot; Well, well, this meat has a mouth&quot;
-&gt;&quot;think you&#039;re funny Meat?&quot;
-&gt;another hard snort &quot;No, I can&#039;t be funny, your faces alone would outdo any joke
-&gt;one rolled her eyes, the others let out a growl with a smile full of fangs
-&gt;&quot;Meat, we could rape you into the mud and leave you to die, you got a lot of nerve&quot;
-&gt;Konroy snapped, a full stupid smile, almost showing every crooked, stained tooth in his mouth as he started laughing, deep chest laughter that left a little vibration in his chest
-&gt;&quot;I am...I&#039;m sure you could! But I wouldn&#039;t mind if it got me out of this goddamn army!&quot; Barely managing to talk behind his laughter
-&gt;they weren&#039;t sure what to make of him, but they hadn&#039;t even noticed how he had slipped through them until he disappeared into the tent
-&gt;The inside was much like the outside, everything patched together and makeshift
-&gt;And a bit of hyena fur here and there
-&gt;tables, chairs, beds, all easily broken down junk
-&gt;&quot;Hope you like junk Meat, it&#039;s how we move&quot; the women pushed past him, shoving him out of the way.
-&gt;&quot;Sarge says nothing we can&#039;t remake when we get there, otherwise it&#039;s too heavy&quot;
-&gt;Konroy smirked &quot;Pragmatic&quot;
-&gt;&quot;yeah we&#039;ll see how you feel about it when you&#039;re walking through the jungle and you lose your bed&quot;
-&gt;the group groaned and shook their heads almost collectively, moving around to their respective junk pile
-&gt;one hyena with large sunglasses waved him over, a large rifle disassembled on the table before her &quot;so, Name?&quot;
-&gt;Konroy
-&gt;&quot; Hmm, Shades&quot; she grunted, then started pointing her thumb at the others, naming them.
-&gt;&quot;Rot, Vomit, Echo, Shock and you already know Sarge&quot; 
-&gt;Konroy blinked stupidly, looking and trying to memorize names to faces before he realized the Commander was standing in the tentflap
-&gt;&quot;Right, however Hyena, you are to address me as Leader, Matriarch or just Queen if you&#039;ve fucked something up&quot; 
-&gt;immediately she walked over to him, picking him up by his skull and lifting him off the ground to her level
-&gt;&quot;You WILL keep up, or you will die here no one will come back for You, understood?&quot;
-&gt;Konroy bit his lip, blood trickling down his chin &quot;Yes...sir&quot;
-&gt;the Commander smirked and put him down gently before turning to the room &quot;This is Hyena, he will be our new blood since the pencil pushers don&#039;t like an entire hyena squad, keep your claws in and if I hear of any roughhousing without my consent, you&#039;ll get to deal with me&quot;
-&gt;her voice was as cold as ice and he swore he saw two of them shiver before saluting &quot;Yes Ma&#039;am!&quot;
-&gt;Konroy dug his nails into his palms, wincing 
-&gt;Shades, closest to him, noticed before Commander walked away
-&gt;&quot; You nervous?&#039;
-&gt;he jumped and smiled &quot;its...a nasty habit, gotten me in trouble with humans a lot..&quot;</textarea>
-    
-    <!-- Leaderboard Mid Footer -->
-    <div class="special__footer">
-    <!-- /21892923737/pb_footer_728x90 -->
-    <div id="div-gpt-ad-1593095439111-0" style="width: 728px; height: 90px; margin:0 auto;">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095439111-0"); });
-        </script>
-    </div>
-</div>
-</div>
-        </div>
-        <div class="sidebar h_1024">
-            
-<!-- Private Posts -->
-
-<!-- Public Posts -->
-
-                
-    <div class="sidebar__title">
-        <a href="/archive">Public Pastes</a>
-    </div>
-    <ul class="sidebar__menu">
-
-                    <li>
-                <a href="/683W8Bet">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    5 min ago                </div>
-            </li>
-                    <li>
-                <a href="/QZAHqgBF">input.gml</a>
-                <div class="details">
-                                            Game Maker |
-                    
-                    32 min ago                </div>
-            </li>
-                    <li>
-                <a href="/HJprFwNN">Treinamento</a>
-                <div class="details">
-                                            C++ |
-                    
-                    60 min ago                </div>
-            </li>
-                    <li>
-                <a href="/udB5F1X2">Slot</a>
-                <div class="details">
-                                            JSON |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/yLemvufF">Générateur de questionnaire E3C NSI</a>
-                <div class="details">
-                                            HTML |
-                    
-                    1 hour ago                </div>
-            </li>
-                    <li>
-                <a href="/WzEceHRa">Cram-o-Matic</a>
-                <div class="details">
-                                            Ruby |
-                    
-                    3 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/6y6k1Jmm">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-                    <li>
-                <a href="/Qea9Uraw">Untitled</a>
-                <div class="details">
-                                            C++ |
-                    
-                    4 hours ago                </div>
-            </li>
-        
-    </ul>
-            
-
-
-<!-- Skyscraper Right -->
-<div class="special__sidebar">
-    <!-- /21892923737/pb_sidebar_120x600 -->
-    <div id="div-gpt-ad-1593095572267-0">
-        <script>
-            googletag.cmd.push(function() { googletag.display("div-gpt-ad-1593095572267-0"); });
-        </script>
-    </div>
-</div>        </div>
-    </div>
-</div>
-
-<!-- Footer -->
-
-    
-<div class="top-footer">
-    <a class="icon-link -size-24-24 -chrome" href="/tools#chrome" title="Google Chrome Extension"></a>
-    <a class="icon-link -size-24-24 -firefox" href="/tools#firefox" title="Firefox Extension"></a>
-    <a class="icon-link -size-24-24 -iphone" href="/tools#iphone" title="iPhone/iPad Application"></a>
-    <a class="icon-link -size-24-24 -windows" href="/tools#windows" title="Windows Desktop Application"></a>
-    <a class="icon-link -size-24-24 -android" href="/tools#android" title="Android Application"></a>
-    <a class="icon-link -size-24-24 -macos" href="/tools#macos" title="MacOS X Widget"></a>
-    <a class="icon-link -size-24-24 -opera" href="/tools#opera" title="Opera Extension"></a>
-    <a class="icon-link -size-24-24 -unix" href="/tools#pastebincl" title="Linux Application"></a>
-</div>
-
-<footer class="footer">
-    <div class="container">
-        <div class="footer__container">
-
-            <div class="footer__left">
-                <a href="/">create new paste</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                                <a href="/languages">syntax languages</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/archive">archive</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/faq">faq</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/tools">tools</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/night_mode">night mode</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_api">api</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_scraping_api">scraping api</a>
-                <br>
-                <a href="/doc_privacy_statement">privacy statement</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_cookies_policy">cookies policy</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_terms_of_service">terms of service</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/doc_security_disclosure">security disclosure</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/dmca">dmca</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/report-abuse">report abuse</a> <span class="footer__devider">&nbsp;/&nbsp;</span>
-                <a href="/contact">contact</a>
-                <br><br>
-
-                
-<span class="footer__bottom h_800">
-    By using Pastebin.com you agree to our <a href="/doc_cookies_policy">cookies policy</a> to enhance your experience.
-    <br>
-    Site design &amp; logo &copy; 2020 Pastebin; user contributions (pastes) licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="nofollow">cc by-sa 3.0</a>
-</span>
-            </div>
-
-            <div class="footer__right h_1024">
-                                    <a class="icon-link -size-40-40 -facebook-circle" href="https://facebook.com/pastebin" rel="nofollow" title="Like us on Facebook" target="_blank"></a>
-                    <a class="icon-link -size-40-40 -twitter-circle" href="https://twitter.com/pastebin" rel="nofollow" title="Follow us on Twitter" target="_blank"></a>
-                            </div>
-
-        </div>
-    </div>
-</footer>
-    
-
-<!-- Popup messages -->
-
-    
-<div class="popup-container">
-
-    <!-- Cookies Policy -->
-            <div class="popup-box -cookies" data-name="l2c_1">
-            We use cookies for various purposes including analytics. By continuing to use Pastebin, you agree to our use of cookies as described in the <a href="/doc_cookies_policy">Cookies Policy</a>.            &nbsp;<span class="cookie-button js-close-cookies">OK, I Understand</span>
-        </div>
-    
-    <!-- Signup -->
-            <div class="popup-box -pro" data-name="l2c_2_pg">
-            <div class="pro-promo-img">
-                <a href="/signup">
-                    <img src="/themes/pastebin/img/hello.png" alt=""/>
-                </a>
-            </div>
-            <div class="pro-promo-text">
-                Not a member of Pastebin yet?<br/>
-                <a href="/signup"><b>Sign Up</b></a>, it unlocks many cool features!            </div>
-            <div class="close js-close-pro-guest" title="Close Me">&nbsp;</div>
-        </div>
-    
-    <!-- PRO -->
-    
-    <!-- Dark theme -->
-    
-</div>
-    
-
-<!-- Button for scroll page to top -->
-<span class="cd-top"></span>
-
-<script src="/assets/ae9b8d97/jquery.min.js"></script>
-<script src="/assets/1745bc3b/yii.js"></script>
-<script src="/themes/pastebin/js/vendors.bundle.js?71b0e4248bdf19b8109f"></script>
-<script src="/themes/pastebin/js/app.bundle.js?71b0e4248bdf19b8109f"></script>
-</body>
-</html>
