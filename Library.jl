@@ -3967,10 +3967,6 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rvY5mc7T
 ---------------------------------------------------------------------------------------------------------------------------------------
 by Power_of_Alchemy
 
-"Synthetic Restless Space Resort"
-[;jackal; ;canine; ;robot;][;very short story;]X
-https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2FvCN7a2
-
 "A Sudden Lapse of Reason"
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Kp6yDYis
