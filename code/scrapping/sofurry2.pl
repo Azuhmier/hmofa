@@ -1,7 +1,7 @@
 #!/usr/bin/perl;
 use warnings;
 use strict;
-use LWP::Simple;
+#use LWP::Simple;
 use LWP::UserAgent;
 use utf8;
 
