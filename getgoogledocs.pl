@@ -27,7 +27,7 @@ my $response = $ua->get($download_url);
 
 # clean up txt and export to file
 my $txt = $response->decoded_content;
-$txt =~ s///g;
+$txt =~ s/\x{000D}//g;
 $txt =~ s/\n\n\n+/\n\n/g;
 open(my $fh, '+<', 'masterbin.txt') or die;
   print $fh $txt;
@@ -45,7 +45,6 @@ open(my $fh, '+<', 'masterbin.txt') or die;
   }
   truncate $fh, tell($fh) or die;
 close $fh;
-
 ##----- REFFS -----
 ## https://pdf.co/how-to-get-direct-download-links
 ## (not used) https://perlmaven.com/slurp
