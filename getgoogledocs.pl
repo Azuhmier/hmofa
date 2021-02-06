@@ -45,6 +45,7 @@ open(my $fh, '+<', 'masterbin.txt') or die;
   }
   truncate $fh, tell($fh) or die;
 close $fh;
+
 ##----- REFFS -----
 ## https://pdf.co/how-to-get-direct-download-links
 ## (not used) https://perlmaven.com/slurp
