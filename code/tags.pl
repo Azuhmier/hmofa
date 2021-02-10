@@ -26,6 +26,7 @@ my $Result = {};
 #----- FILEPATHS -----{{{1
 my $fname_MasterBin = '../masterbin.txt';
 my $fname_MasterBinXML = '../masterbin.xml';
+my $fname_MasterBinjson = '../masterbin.json';
 
 
 #----- REGEX CONFIG -----{{{1
@@ -104,39 +105,22 @@ for my $key (keys %$dspt) {
 }
 @$reff = sort {@$a[0] cmp @$b[0]} @$reff;
 my $output = {};
-#for (@$reff) {
-#  my $key = @{$_}[1];
-#  my $key_reff = $dspt->{$key};
-#  my @match = $key_reff->{match}->@*;
-#  print @match;
-#  #JKJJHHmy $LN = $match->{LN};
-#  #print $LN;
-##  $output->{$key} = shift $dspt->{$key};
-#}
 for my $a ( reverse $dspt->{author}->{match}->@*) {
   my $lineA = ${$a}{LN};
 
   my $key_reff = $output->{${$a}{contents}};
-  $output->{${$a}{contents}} = {LN => [${$a}{LN}]};
-  $output->{${$a}{contents}}->{titles} = {};
+  $output->{${$a}{contents}} = {LN => ${$a}{LN}};
+  #$output->{${$a}{contents}}->{titles} = {};
   for my $b ( reverse $dspt->{title}->{match}->@*) {
     my $lineB = ${$b}{LN};
-    #print "LINEA: ",$lineA,"\n";
-    #print "LINEB: ",$lineB,"\n";
-    #print "RESULT: ", ($lineA < $lineB);
-    #print "\n";
     if ($lineA < $lineB) {
       my $nameB = ${$b}{contents};
-      $output->{${$a}{contents}}->{title}->{$nameB}->{url}= [];
+      $output->{${$a}{contents}}->{titles}->{$nameB}->{urls}= [];
       for my $c ( reverse $dspt->{url}->{match}->@*) {
         my $lineC = ${$c}{LN};
-        print "LINEB: ",$lineB,"\n";
-        print "LINEC: ",$lineC,"\n";
-        print "RESULT: ", ($lineB < $lineC);
-        print "\n";
         if ($lineB < $lineC) {
           my $nameC = ${$c}{contents};
-          push $output->{${$a}{contents}}->{title}->{$nameB}->{url}->@*, $nameC;
+          push $output->{${$a}{contents}}->{titles}->{$nameB}->{urls}->@*, $nameC;
           pop $dspt->{url}->{match}->@*;
         }
         else {
@@ -150,33 +134,16 @@ for my $a ( reverse $dspt->{author}->{match}->@*) {
     }
   }
 }
-#for ($dspt->{title}->{match}->@*) {
-#  #my $key = @{$_}[1];
-#  my $key_reff = $output->{${$_}{contents}};
-#  $output->{${$_}{contents}} = {LN => [${$_}{LN}]};
-#}
-#for ($dspt->{author}->{match}->@*) {
-#  #my $key = @{$_}[1];
-#  my $key_reff = $output->{${$_}{contents}};
-#  $output->{${$_}{contents}} = {LN => [${$_}{LN}],
-#    titles => [
-#      {df => {
-#        urls => [1,2,3,4]
-#      }},
-#    {qf => {
-#        urls => [1,2,3,4]
-#      }},
-#    ]
-#  };
-#}
-#print @{$_}[0]," ",@{$_}[1],"\n" for @$reff;
-#my $xml = XMLout($dspt);
-#my $json = encode_json $output;
-#print $json;
 my $xml = XMLout($output);
+my $json_obj = JSON->new->allow_nonref;
+my $json = $json_obj->pretty->encode($output);
+#----- WRITING TO FILES -----
 open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
   print $fh_MasterBinXML $xml;
 close($fh_MasterBinXML);
+open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
+  print $fh_MasterBinjson $json;
+close($fh_MasterBinjson);
 #----- SUBROUTINES -----{{{1
 sub uniq {
     my %seen;
