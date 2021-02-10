@@ -19,10 +19,6 @@ use utf8;
 use XML::Simple;
 use JSON;
 
-#----- VARIABLES -----{{{1
-my $Result = {};
-
-
 #----- FILEPATHS -----{{{1
 my $fname_MasterBin = '../masterbin.txt';
 my $fname_MasterBinXML = '../masterbin.xml';
@@ -107,7 +103,6 @@ for my $key (keys %$dspt) {
 my $output = {};
 for my $a ( reverse $dspt->{author}->{match}->@*) {
   my $lineA = ${$a}{LN};
-
   my $key_reff = $output->{${$a}{contents}};
   $output->{${$a}{contents}} = {LN => ${$a}{LN}};
   #$output->{${$a}{contents}}->{titles} = {};
