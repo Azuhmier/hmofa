@@ -50,3 +50,4 @@ close $fh;
 ## https://pdf.co/how-to-get-direct-download-links
 ## (not used) https://perlmaven.com/slurp
 ## (not used) https://metacpan.org/source/MSCHILLI/Net-Google-Drive-Simple-0.03/lib%2FNet%2FGoogle%2FDrive%2FSimple.pm
+## (not used) https://www.perlmonks.org/?node_id=1198601
