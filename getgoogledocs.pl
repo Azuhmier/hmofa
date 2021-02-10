@@ -11,7 +11,7 @@
 # ORGANIZATION: ---
 #      VERSION: 1.0?
 #      Created: https://pdf.co/how-to-get-direct-download-links
-#============================================================
+#===========================================================
 use strict;
 use warnings;
 use LWP::UserAgent;
