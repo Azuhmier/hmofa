@@ -789,7 +789,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/F7A4wCPu
 by Deterna
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Deterna
 
-=============/ The Vixen /=============
+=============/ The Vixen /=============<br>
 <font color="red">The Vixen of Rock</font>
 [;fox;][;comfy; ;m:pov; ;confession of feelings; ;singer; ;love/romance; ;non-smut; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nrPLDcqx
@@ -4530,4 +4530,3 @@ https://www.sofurry.com/view/992230  (Part 5)
 https://www.sofurry.com/view/998655  (Part 6)
 https://www.sofurry.com/view/1011117 (epilogue)
 #A young man follows some friends to a fur and skin tavern. Here, humans and wolven of the city meet, mingle and have sex. The man finds a wolfess who shows him a night he'll never forget. He had always wondered why the people here so willingly shared their city with this other species.
-
