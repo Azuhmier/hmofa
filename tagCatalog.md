@@ -1,4 +1,9 @@
-﻿Catalog of Tagged /HMOFA/ Stories  (WIP)
+﻿```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+Catalog of Tagged /HMOFA/ Stories  (WIP)
 
 DISCLAIMER: This is not and should not be treated as replacement For the master bin created By DEIMOS_LYNX. This is rather a tagged Story Catalog and information dump For /hmofa/ stories. It is not kept updated For new stories. This library is, thus, dependent on his pastebin and his updates.
 
