@@ -275,7 +275,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qdafTfBv<br>
 #Anon is a survivor from a Vault-tec experiment, but he gets caught in a blizzard in the woods or Oregon He takes shelter, but a female deathclaw also wants to stay warm.
 
 "Under Atomic Skies<br>
-[;deathclaw;][;comfy; ;Fallout;]~
+[;deathclaw;][;comfy; ;Fallout;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2k2WwYYj<br>
 #Sequel to Ms Atomic bomb. Anon and Amana flee their home and end up in a new land; the Mojave. together they wander the wastes.
 
@@ -307,7 +307,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kTBRPet1<br>
 #in the year 3030 on the Ringworld of Alpha centuari, a Giant human who was raised by Anthros gets put on parole after a life with the Anthro Mafia, meets his Parole officer and gets a job as a bouncer, while trying to reconcile his own angry tendencies
 
 "Be Coul, Will Travel<br>
-[;cheetah; ;spotless cheetah; ;feline;][;slavery; ;violence; ;adventure; ;post-apocalyptic;]~
+[;cheetah; ;spotless cheetah; ;feline;][;slavery; ;violence; ;adventure; ;post-apocalyptic;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uG7rX7qB<br>
 #After the world ended, people tried to rebuild. Tread does not try to rebuild, he takes what is his. One of those things he takes is a Slave worth quite a bit, A spotless cheetah named Coul.
 
@@ -366,7 +366,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ABWiwgNi<br>
 #Biologist Hunts for bigfoot, but it isn't what he expects
 
 "Bingle annoys everyone<br>
-[][]O~
+[][]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8qG7nS3t<br>
 #This is a discontinued bit of short stories involving a Character called Bingle. Bingle is annoying, obnoxious and a perv. These stories are some of my other characters meeting him and will, dealing with him.
 
@@ -458,11 +458,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WHwbXgXm<br>
 
 =============/ OTHER /=============<br>
 "Light my Fire<br>
-[;wolf; ;tribal; ;canine;][;heat;]~
+[;wolf; ;tribal; ;canine;][;heat;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/baZwEK8s<br>
 
 "It's Not Unusual<br>
-[;coyote; ;scp 2547; ;rule 63;][;temptation;]~
+[;coyote; ;scp 2547; ;rule 63;][;temptation;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PZPg62BR<br>
 
 "Rest Awhile<br>
@@ -485,7 +485,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ps2cgPPc<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QH4y1Q8G<br>
 
 "House of Fun<br>
-[;dog; ;ghost; ;canine;][;spooky; ;oral; ;sex;]X
+[;dog; ;ghost; ;canine;][;spooky; ;oral; ;sex;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Q3MDbxR3<br>
 #Anon decides the spent the night in an abandoned house. After waking up from a dream, he realizes the house wasn't empty after all.
 
@@ -505,7 +505,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tn0v8YFd<br>
 #After a rough day with his girlfriend, Anon turns to his longtime friend for some comfort. It turns into something more.
 
 "Island in the Sun<br>
-[;scalie; ;komodo dragon; ;tribal;][;shipwreck; ;violence;]~
+[;scalie; ;komodo dragon; ;tribal;][;shipwreck; ;violence;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NiBU0f6G<br>
 #After going on a cruise gone wrong, Anon becomes shipwrecked on a strange island. The inhabitants become very interested in their human visitor.
 
@@ -515,7 +515,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HfyvXvPU<br>
 #Anon is accosted by several Gator girls. One manages to find its way into his home. Fun ensues.
 
 "The Diplomat of Diralia<br>
-[;bear; ;polar bear;][;medieval; ;marriage;]X~
+[;bear; ;polar bear;][;medieval; ;marriage;]X~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6eWDcE7n<br>
 #Anon is forced to marry a Polar Bear King's daughter in order to secure peace between the Human and Anthro kingdoms. Over time, romance between the two blossoms.
 
@@ -530,7 +530,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JPhGSai9<br>
 #Anon shares a motel room with three Wolves on a cold, Minnesotan winter night.
 
 "Way Back Home<br>
-[;hybrid; ;nightstalker; ;snakedog;][;comfy; ;Fallout; ;violence; ;desert;]~
+[;hybrid; ;nightstalker; ;snakedog;][;comfy; ;Fallout; ;violence; ;desert;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CXhCjXep<br>
 #Anon tries to track down whatever has been stealing his bosses cattle. He finds a lot more than he bargained for.
 
@@ -633,15 +633,15 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7wjFgGQS<br>
 #Man disproves a sentient cat made of sand while at the beach.
 
 "Kangaroo Courting<br>
-[;kangaroo;][]~
+[;kangaroo;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/B4R0XddZ<br>
 
 "PYR3<br>
-[;scp; ;scp 1471; ;mal0; ;canine;][;comfy; ;CYOA; ;sex;]~
+[;scp; ;scp 1471; ;mal0; ;canine;][;comfy; ;CYOA; ;sex;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wuHeYw39<br>
 
 "Y-4 Simulator<br>
-[;feline; ;cat;][;simulation; ;short story;]~
+[;feline; ;cat;][;simulation; ;short story;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bes0Rtn6<br>
 #A Guest user finds himself logged in to an "interaction simulator" designed to help interspecies relations. But... he never signed up for the beta test...
 
@@ -691,7 +691,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Aq9vi8Fr<br>
 #An amateur hiker wanders the woods one night, only to stumble upon a ritual, much to the fortune of those performing it. A lewd short that serves as a bit of a prequel to Tricky Business.
 
 "Diplopia<br>
-[;sheep;][;sex; ;short story;]X
+[;sheep;][;sex; ;short story;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TKtuY4gS<br>
 #Specimen 4N-0N undergoes rigorous experimentation.
 
@@ -906,7 +906,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nNhvC9Bq<br>
 #Man gets a polar bear roommate
 
 "Fear<br>
-[;canine;][;soldier; ;Afghanistan; ;war; ;violence;]~
+[;canine;][;soldier; ;Afghanistan; ;war; ;violence;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1GYr8icj<br>
 
 "Locker Room Lay-down<br>
@@ -934,12 +934,12 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SzE6yqiN<br>
 #You stumble into a bar right near midnight on New Years Eve. You meet a MILFy cheetah and end up giving the kitty her cream.
 
 "How to save a life<br>
-[;golden retriever; ;dog; ;canine;][;suicidal; ;depression; ;short story; ;bed sharing; ;H/C; ;comforting; ;non-smut;]~
+[;golden retriever; ;dog; ;canine;][;suicidal; ;depression; ;short story; ;bed sharing; ;H/C; ;comforting; ;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AsucLT2K<br>
 #You decide to take your own life. A friendly retriever stops you. You make plans for breakfast and see where it goes.
 
 "Coffee Pawz<br>
-[;wolf; ;canine;][;heat;]~
+[;wolf; ;canine;][;heat;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8VZHK053<br>
 #Take the seat of a female wolf as you join your boyfriend for coffee. Coffee induces heat. Have fun. Kind of fluffy and teasing but sex later on.
 
@@ -1001,7 +1001,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bhCaXj8N<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nswk06rj<br>
 
 "Sled dog science<br>
-[;canine;][]~
+[;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nm4rrBP2<br>
 
 "Buff Bear<br>
@@ -1080,12 +1080,12 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BvJJxme6<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VXa3epge<br>
 
 "/k/anon love bloom<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3FBPMgFr<br>
 #a wolfess and an autist from /k/ wearing power armor face off in a best of 3 wrestling showdown, the wolfess has other plans however
 
 "Atom Bomb Baby<br>
-[;nightstalker;][;comfy;]~
+[;nightstalker;][;comfy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Bf1FQafZ<br>
 #in the Mojave wasteland a Vault dweller is sent on a mission by the big MT to pacify and remove a collar from a deluxe snekdog (Nightstalker from fallout NV)
 
@@ -1119,12 +1119,12 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nq56dhyt<br>
 #A frustrated young man runs away from his home town to make a name for himself. All the while his childhood sweetheart waits for him to come home, and when he does, she has a plan to make him stay.
 
 "Pactbearer<br>
-[;demon; ;yeen; ;hyena;][;contains comfy; ;medieval; ;magic; ;companionship;]O~
+[;demon; ;yeen; ;hyena;][;contains comfy; ;medieval; ;magic; ;companionship;]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/d2NawY3v<br>
 #Demon is magically bonded to knight because his grandmother was a witch and made a pact with the demon.
 
 "Femme Fatale<br>
-[;cat; ;feline;][;sex; ;crime; ;crime underworld; ;mob bosses;]~
+[;cat; ;feline;][;sex; ;crime; ;crime underworld; ;mob bosses;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ANmmmGeL<br>
 #Local peon gets mad mafia cat pussy, but as a result finds that he is thrown into a mafia crime underworld. However the cat was a big wig, so she is watching over him and making sure her fucktoy? Lover? does not get into to much trouble
 
@@ -1139,12 +1139,12 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GR5CRpz9<br>
 #Two lovers let down their rough exteriors and behaviors in a private moment. I would love to describe more but that would ruin the TWEEST.
 
 "Preferred Treatment<br>
-[][;cyberpunk; ;mild body horror; ;named mc; ;harem; ;smut focused;]~
+[][;cyberpunk; ;mild body horror; ;named mc; ;harem; ;smut focused;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rgmLNxaz<br>
 #Now imagine that but in that crazy ASCII font shit every GameFAQ guide used to do. More informative tags to come later and on a per chapter basis, but for now:
 
 "The Touch of Luxury<br>
-[][]O
+[][]O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RQAGpbBM<br>
 #So the basis of The Touch of Luxury was a rich lady plucking up a random nobody for a toy because rich people operate on a different moral scale than us po' folk.
 
@@ -1162,7 +1162,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vzfTZpCk<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3sXEzNiG<br>
 
 "Scars<br>
-[;canine; ;wolf;][;contains comfy;]~
+[;canine; ;wolf;][;contains comfy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/a7P4T0ur<br>
 
 "Not-skaven/Rat girl<br>
@@ -1209,7 +1209,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QHfPtvVz<br>
 http://pastebin.com/sDsnuMB7<br>
 
 "Snake nonsense<br>
-[;snake; ;scalie;][]~
+[;snake; ;scalie;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KcFg2D5D<br>
 
 "Amorous Argentine<br>
@@ -1266,7 +1266,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aY4FH7nX<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DEmjSCsZ<br>
 
 "The Day We Fall<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7SY8UReT<br>
 
 "1939/12/25<br>
@@ -1278,7 +1278,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UYax26HM<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0nvUrR9H<br>
 
 "The Need For Speed<br>
-[;tomboy?; ;Australian shepherd; ;mechanic; ;canine; ;dog;][;racing; ;pit crew;]~
+[;tomboy?; ;Australian shepherd; ;mechanic; ;canine; ;dog;][;racing; ;pit crew;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yuPSFFeD<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -1302,7 +1302,7 @@ https://www.sofurry.com/view/1564260 (Part 5)<br>
 https://www.sofurry.com/view/1569008 (Part 6)<br>
 
 "Priest of Myrrah<br>
-[;wolf; ;canine;][;very long story; ;lovers; ;established relationship; ;sex; ;action; ;adventure;]~
+[;wolf; ;canine;][;very long story; ;lovers; ;established relationship; ;sex; ;action; ;adventure;]~<br>
 https://www.sofurry.com/view/1439224<br>
 
 "My Sunshine<br>
@@ -1319,12 +1319,12 @@ https://www.sofurry.com/view/1397999<br>
 #Man recounts how he met his Undali wife and created a family together?
 
 "Bangaa Thing<br>
-[;bangaa; ;lizard; ;scalie;][;comfy; ;Final Fantasy; ;implied sex; ;non-smut; ;love/romance; ;very short story;]X
+[;bangaa; ;lizard; ;scalie;][;comfy; ;Final Fantasy; ;implied sex; ;non-smut; ;love/romance; ;very short story;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kQZK3ZPK<br>
 #Man recalls how he met and fell in love with his significant lover
 
 "Good Ol' Southern Comfort<br>
-[;raccoon; ;milf; ;older anthro;][;seduction; ;lewd;]X~
+[;raccoon; ;milf; ;older anthro;][;seduction; ;lewd;]X~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5HX5PVWQ<br>
 
 "Wake Me Up Before You Boko<br>
@@ -1337,7 +1337,7 @@ https://www.sofurry.com/view/1404518<br>
 https://www.sofurry.com/view/1382786<br>
 
 "Something About Mal0<br>
-[;scp; ;scp 1471; ;canine;][;non-smut;]X
+[;scp; ;scp 1471; ;canine;][;non-smut;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FgVnbibn<br>
 
 "A Man and a Beast<br>
@@ -1372,11 +1372,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TC6iyU09<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z5pam1Gy<br>
 
 "Love Bites<br>
-[;shark;][;drama; ;blowjob; ;unintentional penis mutilation; ;terminator penis; ;relationship reconciliation; ;BHA universe;]~
+[;shark;][;drama; ;blowjob; ;unintentional penis mutilation; ;terminator penis; ;relationship reconciliation; ;BHA universe;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mW5Fz8nb<br>
 
 "Digital Love<br>
-[;Remanon; ;digimon;][;lewd;]~
+[;Remanon; ;digimon;][;lewd;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KC36Me2u<br>
 
 "Itsy Bitsy Spider<br>
@@ -1388,7 +1388,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bS0RwFxv<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/56jEtnzt<br>
 
 "Kobold Bride<br>
-[;kobold; ;scalie;][;forced together;]~
+[;kobold; ;scalie;][;forced together;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YWURCTkG<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -1410,7 +1410,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gyfAjY5M<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aZCn718h<br>
 
 "A Long Way From Home<br>
-[;Heeler; ;Blue Heeler; ;canine;][;rural; ;sci-fi; ;peril; ;violence; ;flirting;]~
+[;Heeler; ;Blue Heeler; ;canine;][;rural; ;sci-fi; ;peril; ;violence; ;flirting;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AxQmBRH4<br>
 #Summary: A picture is worth a thousand words, and someone’s life.
 
@@ -1444,7 +1444,7 @@ by Lotus_Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/q3uhMT49<br>
 
 "Black Rose<br>
-[;rat; ;rodent; ;skaven;][;ink-eyes fic;]~
+[;rat; ;rodent; ;skaven;][;ink-eyes fic;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n8uYkm0n<br>
 
 "Lamb's Respite<br>
@@ -1452,7 +1452,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n8uYkm0n<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BTpNcxFU<br>
 
 "Underbelly<br>
-[;rodent; ;squirrel; ;snake;][;dystopia; ;prostitution; ;crime underworld; ;crime; ;lone humie in anthro world; ;sex; ;creampie; ;violence; ;cuddling; ;sleeping embrace; ;flirting; ;exhibitionism;]O~
+[;rodent; ;squirrel; ;snake;][;dystopia; ;prostitution; ;crime underworld; ;crime; ;lone humie in anthro world; ;sex; ;creampie; ;violence; ;cuddling; ;sleeping embrace; ;flirting; ;exhibitionism;]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/H5UxcWJe<br>
 #Anon works is part of a anthro crime family in a "sin-city" kind of setting
 
@@ -1462,7 +1462,7 @@ by Zig-Zag-specialist
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Zig-Zag-specialist<br>
 
 "KNIGHT<br>
-[;fox; ;vixen;][;recurring dreams; ;love/romance; ;confession of feelings; ;medieval; ;contemporary; ;questioning reality; ;longing; ;non-smut;]~
+[;fox; ;vixen;][;recurring dreams; ;love/romance; ;confession of feelings; ;medieval; ;contemporary; ;questioning reality; ;longing; ;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bXwspUQx<br>
 #Man has dreams of fighting vixen knight in medieval setting. Next day the vixen from his dream becomes his new boss. The dreams continue. What do they mean? Does she know about them? Why is she acting so strange?
 
@@ -1472,11 +1472,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4EZemGah<br>
 #Last humie on earth would rather die than become a anthro furry.
 
 "Hyenas and Co-Workers<br>
-[;yeen; ;hyena;][;femdom; ;slight femdom; ;m:dubcon; ;dating; ;drama; ;love/romance;]~
+[;yeen; ;hyena;][;femdom; ;slight femdom; ;m:dubcon; ;dating; ;drama; ;love/romance;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wdNi5jKQ<br>
 
 "Napalm a go-go<br>
-[;yeen; ;hyena;][;military; ;non-smut;]~
+[;yeen; ;hyena;][;military; ;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ibJzagSD<br>
 
 "Sweet as Sugar<br>
@@ -1484,7 +1484,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ibJzagSD<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bFq5Ca3U<br>
 
 "Human Resources<br>
-[;wolf;][;oppressed humies; ;medieval; ;fantasy;]~
+[;wolf;][;oppressed humies; ;medieval; ;fantasy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/G8u9frrW<br>
 
 "The neighborhood loser<br>
@@ -1514,7 +1514,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VBX5dy9i<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f2hwxeYq<br>
 
 "Stipendia septemtrionis<br>
-[;fox; ;feline;][;war;]~
+[;fox; ;feline;][;war;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JUPU1BMt<br>
 
 "Quo Usque Pro Amor Ibis<br>
@@ -1526,7 +1526,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pybLS7aJ<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0XUCe1ZW<br>
 
 "Pets: A world of anthro pets.<br>
-[;canine; ;multiple; ;dog; ;doberman; ;milf; ;smaller anthro; ;bear; ;panda bear; ;mult. species;][;oppressed anthros; ;blowjob; ;female masturbation; ;sex; ;vaginal; ;breast sucking; ;handjob; ;cum swallowing; ;vaginal fingering; ;pulling out;]~
+[;canine; ;multiple; ;dog; ;doberman; ;milf; ;smaller anthro; ;bear; ;panda bear; ;mult. species;][;oppressed anthros; ;blowjob; ;female masturbation; ;sex; ;vaginal; ;breast sucking; ;handjob; ;cum swallowing; ;vaginal fingering; ;pulling out;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0UfCcK2A (Part 1)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3FxuBkc6 (Part 2)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kqb8M2Lv (Part 3)<br>
@@ -1560,7 +1560,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b7wxwVwb (Revi
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KqUhxRzv<br>
 
 "Altruistic Intent<br>
-[;rabbit; ;multiple;][;father/daughter; ;emotional;]~
+[;rabbit; ;multiple;][;father/daughter; ;emotional;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9DB0eB6p<br>
 
 "Unnamed<br>
@@ -1576,7 +1576,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8Pfg5n2x<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hxpXxE1h<br>
 
 "Wish for an Anon Husbando<br>
-[;chipmunk;][;comfy; ;non-smut; ;cuddling;]~
+[;chipmunk;][;comfy; ;non-smut; ;cuddling;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/F8sqXnXG<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -1594,11 +1594,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qq845zJy<br>
 #Man goes on a date with his old teacher that he had a fling with in the past.
 
 "The Buzzing Hour<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VQVDqYeN<br>
 
 "Nights of Firefall<br>
-[;canine;][;H/C; ;comforting; ;bed sharing; ;cuddling; ;war;]~
+[;canine;][;H/C; ;comforting; ;bed sharing; ;cuddling; ;war;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TauTPsKD<br>
 
 "Starfire Snipers<br>
@@ -1623,7 +1623,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Comfycreatio
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7Ub0SBJ3<br>
 
 "A Roo'd Awakening<br>
-[;kangaroo; ;smaller anthro; ;insecurity;][;comfy; ;dating; ;love/romance; ;bed sharing; ;long story; ;comforting;]~
+[;kangaroo; ;smaller anthro; ;insecurity;][;comfy; ;dating; ;love/romance; ;bed sharing; ;long story; ;comforting;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/muScjRyj<br>
 
 "Doe you love me?<br>
@@ -1639,16 +1639,16 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/veKLgK48<br>
 by Exro
 
 "And Scene<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/weSPsqvq<br>
 
 "Divide and Conjure (alternate version of Radiating)<br>
-[;kangaroo; ;shy;][;long story; ;fantasy; ;steampunk?; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~
+[;kangaroo; ;shy;][;long story; ;fantasy; ;steampunk?; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8eiKPaQe<br>
 #Man gets excepted to magic school and meets a kangaroo anthro also going to magic school.
 
 "Radiating<br>
-[;feline; ;lynx;][;long story; ;fantasy; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~
+[;feline; ;lynx;][;long story; ;fantasy; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WtV7LpCa<br>
 #Man gets excepted to magic school and meets a lynx anthro also going to magic school.
 
@@ -1657,7 +1657,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WtV7LpCa<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b9BqWvjG<br>
 
 "Seal'd Fate<br>
-[;seal;][]~
+[;seal;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0mS3x99t<br>
 
 "Downward Dog<br>
@@ -1669,7 +1669,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/50jMQMrH<br>
 by Dancing Spider
 
 "A History of Interspecies Relations<br>
-[;cervine; ;deer;][;heat; ;timeskip; ;sci-fi; ;space; ;implied female masturbation; ;incomplete tags;]~
+[;cervine; ;deer;][;heat; ;timeskip; ;sci-fi; ;space; ;implied female masturbation; ;incomplete tags;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QyjFjkWd (Prologue)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iNZzGaTG (chapter 1)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/at80dqQm (chapter 2)<br>
@@ -1706,11 +1706,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tk3bY3GJ<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/72z68Ck9<br>
 
 "The Wild West<br>
-[][;wild west;]~
+[][;wild west;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yv5mz60m<br>
 
 "The Long March Home<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jSUP5sXz<br>
 
 "The Lament of a Man<br>
@@ -1718,11 +1718,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jSUP5sXz<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1JryXrFL<br>
 
 "Dimensions<br>
-[;doe;][;/k/ fic; ;long story;]O~
+[;doe;][;/k/ fic; ;long story;]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fj3t9vV4<br>
 
 "The AniMan<br>
-[;fox;][;non-smut; ;/k/ fic; ;f:attempted rape; ;long story; ;snuggles;]O~
+[;fox;][;non-smut; ;/k/ fic; ;f:attempted rape; ;long story; ;snuggles;]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vdsVKxGM<br>
 
 "The Man, The Myth, and The Machine<br>
@@ -1742,16 +1742,16 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MKJ589Nx<br>
 by SnowboundAlcoholic
 
 "Watchers<br>
-[;mink;][;long story; ;fantasy;]~
+[;mink;][;long story; ;fantasy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UQpJP5H8<br>
 
 "Abyss - HMOFA Eldritch Waifur<br>
-[;monster; ;eldritch; ;canine;][;love/romance; ;creampie; ;vaginal; ;violence; ;shape shifting; ;cuddling; ;suspense;]~
+[;monster; ;eldritch; ;canine;][;love/romance; ;creampie; ;vaginal; ;violence; ;shape shifting; ;cuddling; ;suspense;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QxhwZ5GC<br>
 #Anon is being courted by and eldritch "abomination". He is terrified and cautious at first, but he eventually warms up to her.
 
 "Adapting Corrupted Data<br>
-[;Gatomon;][]X
+[;Gatomon;][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wCW5J8Hi<br>
 
 "High Octane<br>
@@ -1827,7 +1827,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9a3LXeQR<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vE7HEBYJ<br>
 
 "Silver Lining<br>
-[;airships; ;tomboy;][;comfy; ;adventure;]~
+[;airships; ;tomboy;][;comfy; ;adventure;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/B9kuMtmk<br>
 
 "Turkey Shoot: A Doug Story<br>
@@ -1836,7 +1836,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JbCZLyLP<br>
 #A tomboy coyote finds herself in the cockpit of a Hawker Hurricane, staring down the last of her childhood innocence with eight Browning machine guns
 
 "Degeneracy Pressure<br>
-[;fox;][;space; ;sci-fi; ;mystery; ;love/romance; ;second person;]~
+[;fox;][;space; ;sci-fi; ;mystery; ;love/romance; ;second person;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RSRp3uTv<br>
 #A nervous human space geek makes an unlikely friend over HAM radio, and learns the Universe is just as wonderful and just as intimidating as it looks in the Hubble images
 
@@ -1846,11 +1846,11 @@ by Some_mediocre_writer
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/some_mediocre_writer<br>
 
 "A dead man with the rats<br>
-[;skaven; ;rodent; ;rat;][;comfy; ;Krieg guardsman;]~
+[;skaven; ;rodent; ;rat;][;comfy; ;Krieg guardsman;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/r1UvWGxi<br>
 
 "Scavenging for love<br>
-[;vulture; ;avian;][]~
+[;vulture; ;avian;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z5C3iEed<br>
 
 "Brahmin thing for /hmofa/<br>
@@ -1883,11 +1883,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Byzantine_An
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/px0XPYfi<br>
 
 "the Horned Woods<br>
-[][]~O
+[][]~O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6QMqKxwZ<br>
 
 "Day at the Beach<br>
-[][]~O
+[][]~O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D1GzbjrJ<br>
 
 "Tweetfur Meme Story<br>
@@ -1895,7 +1895,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D1GzbjrJ<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AuPx4emP<br>
 
 "A Damn Good Purchase<br>
-[][]~O
+[][]~O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eNDYTsuy<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -1920,7 +1920,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LaRgQ2Ln<br>
 by JacklinMauer
 
 "The Cracked Pearl<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QFW3rU3t<br>
 
 "Set to the tune of Hammock's"Hiding but nobody missed you"<br>
@@ -1981,7 +1981,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Fb0iyf1R<br>
 by Armain
 
 "So The Adventure of Life Goes[rev] On<br>
-[;feline; ;cat;][;comfy;]~
+[;feline; ;cat;][;comfy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4VUvyjTM<br>
 
 "/hmofa/ Sine Nomine Sunt<br>
@@ -2002,7 +2002,7 @@ by Just_A_User
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Just_A_User<br>
 
 "Star Wolf<br>
-[][;Star Fox;]~
+[][;Star Fox;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SNAY1CJU<br>
 
 "A Day at the Gym<br>
@@ -2036,7 +2036,7 @@ by Jageranon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Mr__McSisterfister<br>
 
 "Turning Wrenches Burning Time<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vdCiigpX<br>
 
 "Frostbite<br>
@@ -2106,7 +2106,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/teh_sting_ra
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2XTDMTdE<br>
 
 "The tomboy and the fall of a titan<br>
-[;coyote; ;canine;][;comfy; ;love/romance;]~
+[;coyote; ;canine;][;comfy; ;love/romance;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dGjt4enJ<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2114,7 +2114,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dGjt4enJ<br>
 by Reynaerde
 
 "The Witch's Ball<br>
-[;feline; ;cat;][]~
+[;feline; ;cat;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jzfp68Kj<br>
 
 "In the Witch's Lair<br>
@@ -2155,7 +2155,7 @@ by Kreis
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/crBHtunE<br>
 
 "Of Canines and Cohorts: Second Step<br>
-[;giant; ;dog; ;canine;][]~
+[;giant; ;dog; ;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Gyx8D9gY<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2184,7 +2184,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Witryso<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T8g11iMj<br>
 
 "Anon and Winnie Become E-Celebrities<br>
-[;canine; ;wolf;][]~
+[;canine; ;wolf;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0gSgLd8c<br>
 
 "R. K. Smith and The Treasure of Epicness<br>
@@ -2218,12 +2218,12 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f7JZhErR<br>
 #A man finds a tribal raptor plucked of all her feathers and takes her back to safety.
 
 "Where Kitsune Wait<br>
-[;kitsune;][;magic; ;historical fantasy; ;emotionally damaged protagonist; ;first person;]~
+[;kitsune;][;magic; ;historical fantasy; ;emotionally damaged protagonist; ;first person;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CBaG8ehT<br>
 #It’s about a Viking in Japan meeting Kitsune
 
 "Anon Finds a Way<br>
-[;deinonychus; ;dinosaur; ;feathered raptor; ;raptor;][;second person; ;comfy; ;cuddling; ;oral; ;long story; ;dating; ;cunnilingus; ;emotional; ;love/romance; ;handjob; ;depression; ;drama; ;kissing; ;69;]~
+[;deinonychus; ;dinosaur; ;feathered raptor; ;raptor;][;second person; ;comfy; ;cuddling; ;oral; ;long story; ;dating; ;cunnilingus; ;emotional; ;love/romance; ;handjob; ;depression; ;drama; ;kissing; ;69;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GhPApER2<br>
 #A man and a raptor meet each other. How will things shake out between them?
 
@@ -2246,7 +2246,7 @@ by Dregger
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Dregger<br>
 
 "Hunters and gatherers<br>
-[;feline;][;comfy; ;post-apocalyptic?; ;love/romance; ;adventure;]~
+[;feline;][;comfy; ;post-apocalyptic?; ;love/romance; ;adventure;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EePj8Beq<br>
 
 "Odin's call<br>
@@ -2264,11 +2264,11 @@ by Kaeos
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/kaeos<br>
 
 "Moxy (Formerly Tammy's Tacos)<br>
-[;shark;][;dating; ;love/romance; ;oral;]~
+[;shark;][;dating; ;love/romance; ;oral;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/R8b7YKTv<br>
 
 "Scratch<br>
-[;wolverine; ;shortstack; ;smaller anthro;][;comfy; ;short story; ;established relationship; ;slice of life;]~
+[;wolverine; ;shortstack; ;smaller anthro;][;comfy; ;short story; ;established relationship; ;slice of life;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nvafMmF3<br>
 
 "Bonepaw Gang<br>
@@ -2310,7 +2310,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TMeMhhAZ<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dzhdU2RV<br>
 
 "/PoFg/ stoner raccoon/human<br>
-[;raccoon;][;non-smut;]~
+[;raccoon;][;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HwC5pXxX<br>
 
 "Scurry Onboard<br>
@@ -2366,15 +2366,15 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/g8sj4NZF<br>
 by Jimbrough
 
 "Hyena green (tentatively titled)<br>
-[;yeen; ;hyena;][]~
+[;yeen; ;hyena;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eihYRPpa<br>
 
 "Oh What Big Teeth They Have<br>
-[;wolf; ;canine; ;multiple;][;m:rape;]~
+[;wolf; ;canine; ;multiple;][;m:rape;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X0TKKFbF<br>
 
 "St. Euren's Prison For Women<br>
-[;tiger; ;mult. species;][;buff chuff; ;eventual smut; ;seinfeld; ;inordinate amounts of flexing;]~
+[;tiger; ;mult. species;][;buff chuff; ;eventual smut; ;seinfeld; ;inordinate amounts of flexing;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/95XifvHP<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2382,7 +2382,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/95XifvHP<br>
 by Suunlight
 
 "A Visitor<br>
-[;mosquito; ;insect;][]~
+[;mosquito; ;insect;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Nd088vx9<br>
 
 "A New Home<br>
@@ -2391,7 +2391,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BTCHuvmS<br>
 #Anon gets into a car accident after a series of unfortunate events. He wakes up with his car mysteriously undamaged and without a trail. Everything seems to be normal and exactly the same, that’s when he finds out his hometown population was replaced. Will he be able to cope with the new residents and be with someone on Christmas day?
 
 "Shattered, but not lost<br>
-[;wolf;][;love/romance; ;torture; ;gore; ;hand holding; ;sci-fi;]~
+[;wolf;][;love/romance; ;torture; ;gore; ;hand holding; ;sci-fi;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/knv9iKy2<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2415,7 +2415,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rC8g7zHi<br>
 by Neos_Anon
 
 "Anon and the Gym Lynx<br>
-[;lynx; ;feline;][]~
+[;lynx; ;feline;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/i0539a2N<br>
 
 "Bear and Mouse<br>
@@ -2432,7 +2432,7 @@ by Emma_chan
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/emma_chan<br>
 
 "The Mayor and his Sheep<br>
-[;sheep;][;drama; ;dating; ;f:lonely;]~
+[;sheep;][;drama; ;dating; ;f:lonely;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EYarSjtM<br>
 
 "A Fox and her Kit<br>
@@ -2465,7 +2465,7 @@ by NotEnoughPylons
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3eb5zB2K<br>
 
 "Burning Sands<br>
-[;goddess; ;lion;][;flirting; ;beach;]~
+[;goddess; ;lion;][;flirting; ;beach;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pxx1tdjD<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2503,11 +2503,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EQHsTywu<br>
 by Zombie_Lenin
 
 "There but for the Grace of God<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0vQpSFZQ<br>
 
 "Death Metal Panda<br>
-[;panda bear; ;bear;][]~
+[;panda bear; ;bear;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qr3bKFXz<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2515,11 +2515,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qr3bKFXz<br>
 by PrisMagic
 
 "Stay<br>
-[;magpie; ;avian;][]~
+[;magpie; ;avian;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qE0YmEhM<br>
 
 "Just Another Day<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pch9Uvau<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2527,7 +2527,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pch9Uvau<br>
 by HereticalFungi
 
 "Unpunctual Rescue<br>
-[;canine; ;ghost;][;cult magic; ;feels; ;time travel; ;love/romance; ;violence;]O~
+[;canine; ;ghost;][;cult magic; ;feels; ;time travel; ;love/romance; ;violence;]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/R13qcGfJ (preview)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MaN7p0Lb (summary)<br>
 #A human named Jeffery attempts to help a ghost dog that was murdered years ago.
@@ -2537,11 +2537,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MaN7p0Lb (summ
 by Jesu-Christo
 
 "Michelle, Ma Belle Monstre<br>
-[;scalie; ;dragoness; ;boss; ;jaded; ;independent woman;][;past-relationship baggage;]~
+[;scalie; ;dragoness; ;boss; ;jaded; ;independent woman;][;past-relationship baggage;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/c0ngxB49<br>
 
 "Fear and Loathing in /hmofa/<br>
-[;wolf; ;older anthro; ;canine;][;comforting;]~
+[;wolf; ;older anthro; ;canine;][;comforting;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PCMjW8S5<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2558,7 +2558,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0G1076wa<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/abaLkavv<br>
 
 "The Man From F.L.O.R.I.D.A.<br>
-[;canine; ;siruean;][;mystery; ;m:pov; ;first person; ;novel; ;sex;]~
+[;canine; ;siruean;][;mystery; ;m:pov; ;first person; ;novel; ;sex;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KtzRkkAB<br>
 #A drifting construction worker puts down the beer and picks up a discarded bag, catapulting him into murky events and murder.
 
@@ -2579,11 +2579,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gG0khBT3<br>
 by Falsum_Anon
 
 "The Warrior and the Bard<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SQxWdPiC<br>
 
 "familiar<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s0nDDp5t<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2595,7 +2595,7 @@ by EarLickingGood
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yxwc8j5D<br>
 
 "Beyond the Cogs<br>
-[;rodent; ;rat;][;cyberpunk;]~
+[;rodent; ;rat;][;cyberpunk;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MV10mMqD<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2607,7 +2607,7 @@ by Jack_Dawe
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dL5cB8mh<br>
 
 "The Wolf and the Huntsman<br>
-[;wolf<->werewolf; ;canine; ;wolf; ;werewolf; ;larger anthro;][;love/romance; ;sex; ;established relationship; ;roleplay;]~
+[;wolf<->werewolf; ;canine; ;wolf; ;werewolf; ;larger anthro;][;love/romance; ;sex; ;established relationship; ;roleplay;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ss7K7zXe<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2621,7 +2621,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/14xM0x0H<br>
 #Jackass furboi loses his girl to Anon because he's a dick.
 
 "The HEAT<br>
-[;rabbit; ;lynx; ;mult. species;][;heat; ;m:rape;]~
+[;rabbit; ;lynx; ;mult. species;][;heat; ;m:rape;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ebqTjs2E<br>
 #The Purge /hmofa/ parody, but instead of murder it's anthro women in heat looking for helpless Anons
 
@@ -2645,11 +2645,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qq7H5rqX<br>
 by Siddharta_anon
 
 "Circuit Breaker<br>
-[;scalie; ;snake; ;cobra;][;cyberpunk; ;technomancy; ;plot focused;]~
+[;scalie; ;snake; ;cobra;][;cyberpunk; ;technomancy; ;plot focused;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vybjdxYt<br>
 
 "Trailseeker<br>
-[;scalie; ;snake;][;isekai;]~
+[;scalie; ;snake;][;isekai;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tCB7LCuy<br>
 #Anon is inexplicably summoned into another world (universe?), standard isekai shit except avoiding the stock japaweeb bullshit tropes and no truck-kun killing him.
 
@@ -2659,7 +2659,7 @@ by Dsfargig
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/dsfargig<br>
 
 "BBQ Roommate<br>
-[;wolf; ;canine;][;roommates; ;love/romance;]~
+[;wolf; ;canine;][;roommates; ;love/romance;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3dr4waMe (main story)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fzgBPXQw (extra scene)<br>
 
@@ -2668,7 +2668,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fzgBPXQw (extr
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CDwDXU5B<br>
 
 "Tranquility Gun<br>
-[;canine;][]~
+[;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D48bmiTv<br>
 #A human finds himself in an anthro world by accident. Basically, a nice canine lady lives in a world where humans are creatures of myth (like Bigfoot), and shortly after meeting one, they both discover they are in a different (but very similar) world where humans are a small minority among anthros
 
@@ -2779,7 +2779,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/00XqAhHq<br>
 by FloralPatternedTable
 
 "Mandated Viper GF<br>
-[;snake; ;scalie;][;forced encounter; ;roommates?; ;Xcom;]~
+[;snake; ;scalie;][;forced encounter; ;roommates?; ;Xcom;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cWkbLaCa<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2787,7 +2787,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cWkbLaCa<br>
 by Llamocalypse
 
 "Of Man and Beast<br>
-[;werewolf; ;canine; ;wolf;][;comfy; ;slow burn; ;love/romance; ;cuddling; ;dancing;]~
+[;werewolf; ;canine; ;wolf;][;comfy; ;slow burn; ;love/romance; ;cuddling; ;dancing;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFAKLUS7<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2813,7 +2813,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xut4JcCV<br>
 by StuckAnon
 
 "Apartment in Heat<br>
-[;wolf; ;canine;][;heat;]~
+[;wolf; ;canine;][;heat;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rEK7SJSn<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2821,7 +2821,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rEK7SJSn<br>
 by Break-that-Tide
 
 "Of Rats and Men<br>
-[;rodent; ;rat; ;skaven;][;comfy; ;Warhammer Fantasy; ;sex; ;violence; ;m:dubcon; ;m:dubcon --> m:con; ;mates; ;love/romance; ;medieval; ;fantasy;]~
+[;rodent; ;rat; ;skaven;][;comfy; ;Warhammer Fantasy; ;sex; ;violence; ;m:dubcon; ;m:dubcon --> m:con; ;mates; ;love/romance; ;medieval; ;fantasy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sRk4FADN<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2877,7 +2877,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1jy3Vk9z<br>
 
 =============/ other /===================<br>
 "Blade of Gold, Fangs of Cold<br>
-[;canine; ;wolf;][]~
+[;canine; ;wolf;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnadRWX1<br>
 #A brand new series about a man and the Nordic wolf of the Apocalypse. Can he warm up her cold, slightly murderous heart? Find out in Blade of Gold, Fangs of Cold.
 
@@ -2886,7 +2886,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnadRWX1<br>
 by ChapelGuy
 
 "100 Pages Till Love v.2<br>
-[;shork; ;hybrid;][;comfy; ;relationship focused; ;non-smut; ;roommates; ;love/romance; ;hand holding; ;cuddling; ;lovers in denial;]~
+[;shork; ;hybrid;][;comfy; ;relationship focused; ;non-smut; ;roommates; ;love/romance; ;hand holding; ;cuddling; ;lovers in denial;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hnAn0MWF<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2898,7 +2898,7 @@ by Ago_
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pXrVvGDL<br>
 
 "On the Fringes (Line 168)<br>
-[;scalie; ;viper; ;reptile;][;Xcom; ;violence;]~
+[;scalie; ;viper; ;reptile;][;Xcom; ;violence;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3NGXxFe1<br>
 #A human living by themselves on a farm in the wilderness meets a visitor soon after the fall of Advent.
 
@@ -2965,11 +2965,11 @@ by SticksNTricks
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5JiZHmjU<br>
 
 "Not So Different: Part 1<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9wyHnFb1<br>
 
 "Sa Strašcu<br>
-[;avian; ;bird;][;non-smut;]~
+[;avian; ;bird;][;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ygydiM2A<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2989,7 +2989,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Dk0giASa<br>
 by TequilaPossum
 
 "Oh Fuck, A Bear<br>
-[;bear;][]~
+[;bear;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/puphvnq5<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -2997,7 +2997,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/puphvnq5<br>
 by PyromasterZ
 
 "Bats in Space<br>
-[;bat;][]~
+[;bat;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z3MCt4Eu<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3005,11 +3005,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z3MCt4Eu<br>
 by KilledKella
 
 "Coronation Day<br>
-[;African wild dog; ;canine;][;adventure; ;love/romance;]~
+[;African wild dog; ;canine;][;adventure; ;love/romance;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pu6xFqMC<br>
 
 "The Heartless Ranger<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jFZZfmm1<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3017,7 +3017,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jFZZfmm1<br>
 by polelack
 
 "Pack Life<br>
-[;wolf; ;larger anthro; ;alien; ;canine;][;dubious consent; ;long story; ;dystopia; ;femdom;]~
+[;wolf; ;larger anthro; ;alien; ;canine;][;dubious consent; ;long story; ;dystopia; ;femdom;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VAUwt6F1 (Part 1)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fz5kYNSb (Part 2)<br>
 
@@ -3035,7 +3035,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kHv2aHMt<br>
 by Aisling
 
 "Genkits<br>
-[;bear; ;red panda; ;rodent; ;mouse; ;shortstack; ;smaller anthro;][;love/romance?; ;sci-fi; ;public nudity; ;handjob; ;blowjob; ;cum swallowing; ;anal tonguing;]~
+[;bear; ;red panda; ;rodent; ;mouse; ;shortstack; ;smaller anthro;][;love/romance?; ;sci-fi; ;public nudity; ;handjob; ;blowjob; ;cum swallowing; ;anal tonguing;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nqWbfA0W<br>
 # Anon the son of a human diplomat of the American empire, moves with his family to the city-state of Genkits, a place filled with anthros who are results of genetic engineering. Anon finds the attitudes of anthros toward sex here are very relaxed, not that he's complaining, but one day finds what appears to be possible outlier, a female mouse raised in human society in Canada.
 
@@ -3062,7 +3062,7 @@ by Deimos_Lynx
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Deimos_Lynx<br>
 
 "Dark Kitty<br>
-[;feline; ;lynx;][]~
+[;feline; ;lynx;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0S2QLiLy<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3070,7 +3070,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0S2QLiLy<br>
 by OrganicConstruct
 
 "The Speaker of Gera<br>
-[;wolf; ;canine;][;fantasy; ;medieval;]X~
+[;wolf; ;canine;][;fantasy; ;medieval;]X~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X9UP5fLu<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3078,7 +3078,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X9UP5fLu<br>
 by CruxCrau
 
 "Top 40 Reasons I love You<br>
-[;raccoon;][]~
+[;raccoon;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X0ZtagMx<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3087,7 +3087,7 @@ by A_Smiling_Face
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/A_Smiling_Face<br>
 
 "The Horsemen, Sentinel, and Raven<br>
-[;avian; ;raven;][;sci-fi; ;cuddling;]~
+[;avian; ;raven;][;sci-fi; ;cuddling;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wkP4MbqK<br>
 
 "A New King<br>
@@ -3095,15 +3095,15 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wkP4MbqK<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qsdzw4jK<br>
 
 "The Tribes had Always Warred<br>
-[;wolf;][;medieval; ;love/romance; ;war;]~
+[;wolf;][;medieval; ;love/romance; ;war;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BhPRujGp<br>
 
 "Pretty Kitty Missy<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BBTSSbMS<br>
 
 "Of Equines and Man.<br>
-[;horse;][]~
+[;horse;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GaQZcbTt<br>
 
 "Mr. Green and the Gators<br>
@@ -3123,7 +3123,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/21kmZaR1<br>
 by Hindered
 
 "Identity<br>
-[;deer;][;m:pov; ;contemporary;]~
+[;deer;][;m:pov; ;contemporary;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qPEPUgGy<br>
 #You and a transient doe come to grow fond of one another despite meeting under less-than-ideal circumstances. As the two of you gradually piece together the details of her nebulous background, the consequences become increasingly dire
 
@@ -3132,7 +3132,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qPEPUgGy<br>
 by Scytherfag
 
 "Swords Dance<br>
-[;avian;][;sci-fi;]~
+[;avian;][;sci-fi;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bdYiqYs9<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3140,7 +3140,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bdYiqYs9<br>
 by SlickBoi
 
 "The Intern<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0ri8jxUg<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3148,7 +3148,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0ri8jxUg<br>
 by CozieT
 
 "Cornerian Joggers<br>
-[;lynx;][;Star Fox;]~
+[;lynx;][;Star Fox;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Es2CxBVV<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3156,7 +3156,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Es2CxBVV<br>
 by Sample_Family
 
 "Raised by Humans<br>
-[][;non-smut; ;father/daughter;]~
+[][;non-smut; ;father/daughter;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YJBvwFhE<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3164,7 +3164,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YJBvwFhE<br>
 by Bridge_burner
 
 "Stealing What's Stolen<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VR4zah89<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3181,7 +3181,7 @@ by THAT_GUY23
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/That_Guy23<br>
 
 "Test<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m0hQgNVg<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3197,7 +3197,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Q5MeEPCX<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/raEr8hVq<br>
 
 "A Little Cup of Love (Line 41)<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sGqN9G9X<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3206,7 +3206,7 @@ by Krieger_anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Krieger_anon<br>
 
 "Companion<br>
-[;scalie; ;kobold;][]~
+[;scalie; ;kobold;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iKyVfR0A<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3214,7 +3214,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iKyVfR0A<br>
 by Baronvonbadbeaver
 
 "12 O'Clock Girls<br>
-[;mult. species;][;lewd;]~
+[;mult. species;][;lewd;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3fLJ4PyM<br>
 #It involves biker anthro girls, Anon, motorcycle hooliganism, and some fine local traditions.
 
@@ -3224,7 +3224,7 @@ by CASH25
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/CASH25<br>
 
 "Sugar wasp<br>
-[;wasp; ;insect;][;comfy; ;good samaritan; ;sex; ;roommates; ;love/romance;]~
+[;wasp; ;insect;][;comfy; ;good samaritan; ;sex; ;roommates; ;love/romance;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELPAveuh<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3232,7 +3232,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELPAveuh<br>
 by Pauger
 
 "I've Always Loved You (Line 162)<br>
-[;canine; ;wolf;][]~
+[;canine; ;wolf;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NXjY1eE8<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3244,7 +3244,7 @@ by Jorgimus
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z9ExM6KH<br>
 
 "Wild Worlds<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zSZRuzMm<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3252,7 +3252,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zSZRuzMm<br>
 by Manwho
 
 "RIOT<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5f3btKkF<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3269,7 +3269,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ErJxqDp8<br>
 by Space_Weasel
 
 "Human Inspection Day 1<br>
-[;fox;][]~
+[;fox;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f0MLJzt9<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3277,7 +3277,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f0MLJzt9<br>
 by Rato_Writer
 
 "Blessings of The Great Horny Rat<br>
-[;rodent; ;skaven;][]~
+[;rodent; ;skaven;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fWMLYLBT<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3285,7 +3285,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fWMLYLBT<br>
 by Silverbro
 
 "If There's an Off-Switch<br>
-[][]O~
+[][]O~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QsTi0p9a<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3318,7 +3318,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xj7HLh4C<br>
 by Mac10_and_cheese
 
 "Missing In Action<br>
-[;scalie; ;crocodile;][;Vietnam; ;war; ;firefights;]~
+[;scalie; ;crocodile;][;Vietnam; ;war; ;firefights;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/buZNVdjG<br>
 #Croc ladies in 'Nam
 
@@ -3327,7 +3327,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/buZNVdjG<br>
 by SabreDance
 
 "For What It's Worth<br>
-[][;Vietnam; ;war; ;firefights;]~
+[][;Vietnam; ;war; ;firefights;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n3YLF2xb<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3351,7 +3351,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/t2Wsza5z<br>
 by Phone-Anon
 
 "We're in a Relationship?<br>
-[;kobold; ;lizard; ;scalie;][;pretend relationship; ;love/romance?; ;friends; ;fantasy?; ;lovers in denial?;]~
+[;kobold; ;lizard; ;scalie;][;pretend relationship; ;love/romance?; ;friends; ;fantasy?; ;lovers in denial?;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YpcxSTh1<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3367,7 +3367,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXwr9a5Q<br>
 by 05050H4C
 
 "Unbelonging<br>
-[][]OX~
+[][]OX~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6DLC7yKY<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3375,7 +3375,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6DLC7yKY<br>
 by AngryWino
 
 "SPACE PIRATE FERRETS<br>
-[;ferret; ;multiple;][]~
+[;ferret; ;multiple;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8zzy4MSf (Part 1)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mKhnfemh (Part 2)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/19QDcLsk (Part 3)<br>
@@ -3385,7 +3385,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/19QDcLsk (Part
 by Agmsinbound
 
 "Feel no Fear, Know my Pride<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X1CjPVrA<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3408,7 +3408,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0VRLRnLB (Part
 by CardBoardBox_Knight
 
 "Anon and His Dragon Knight<br>
-[;scalie;][]~
+[;scalie;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dW2Uu58Y<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3416,7 +3416,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dW2Uu58Y<br>
 by Baffled_Anon
 
 "Dawn of the Senseless<br>
-[;canine;][;m/f:pov;]~
+[;canine;][;m/f:pov;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KvgY99iV<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3433,7 +3433,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9DGBiC6C<br>
 by Calmcreek
 
 "doge<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iX3LsKbE<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3457,7 +3457,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h2r78P9z<br>
 by SadAnon
 
 "The mythological Human<br>
-[;sheep; ;dragon; ;scalie;][]~
+[;sheep; ;dragon; ;scalie;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nkBcbdjG<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3465,7 +3465,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nkBcbdjG<br>
 by BiguBossu
 
 "/fit/izen's Wolfish Encounter<br>
-[;wolf; ;canine;][]~
+[;wolf; ;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z2GxRkwL<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3473,7 +3473,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z2GxRkwL<br>
 by Unitedhistory
 
 "Pity party at the forest<br>
-[;otter; ;prostitute;][;non-smut;]~
+[;otter; ;prostitute;][;non-smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k8kBKFTc<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3481,7 +3481,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k8kBKFTc<br>
 by AlfredHitchcock
 
 "Contact<br>
-[;wolf; ;canine;][]~
+[;wolf; ;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T32EtF2m<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3489,7 +3489,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T32EtF2m<br>
 by Shelter_Anon
 
 "Waifur Adoption<br>
-[;canine;][]~
+[;canine;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TDkTx6jZ<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3506,7 +3506,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LaYdGyqi<br>
 by LoudAccident
 
 "The New Hire<br>
-[;scalie; ;snake;][]~
+[;scalie; ;snake;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EskKP2b7<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3514,7 +3514,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EskKP2b7<br>
 by Sneakystar
 
 "Sparks of Aether<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELwG7EzS<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3522,7 +3522,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELwG7EzS<br>
 by N949256593
 
 "OKAMI: Ripples<br>
-[][]~O
+[][]~O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1uyd2ctj<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3538,7 +3538,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5u4mxCe1<br>
 by Metamorphone
 
 "White Knighting<br>
-[;feline; ;cheetah;][;high school;]~
+[;feline; ;cheetah;][;high school;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8YR7ycJz<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3546,7 +3546,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8YR7ycJz<br>
 by Stonetrash
 
 "Ditzune<br>
-[;kitsune; ;fox; ;shortstack; ;milf;][;eventual smut;]~
+[;kitsune; ;fox; ;shortstack; ;milf;][;eventual smut;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hx2CwbHE<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3554,7 +3554,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hx2CwbHE<br>
 by Dankmeme_anon
 
 "No Escape<br>
-[][;non-smut; ;spooky;]~
+[][;non-smut; ;spooky;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tYAHvdxV<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3570,7 +3570,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UXb9DFbY<br>
 by Zedd
 
 "DEADLINE<br>
-[;canine; ;border collie;][;childhood friends; ;racing;]~
+[;canine; ;border collie;][;childhood friends; ;racing;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HaA8TNVX<br>
 #Space racing fic inspired by Madhouse's Redline
 
@@ -3621,7 +3621,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GvKKKvv2<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/anjqWEYR<br>
 
 "FOUND: Tattered Journal (2/2)<br>
-[;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]~
+[;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WrrBt864<br>
 
 =============/ OTHER /===================<br>
@@ -3639,12 +3639,12 @@ by NARRIC
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Narric<br>
 
 "Stars and Gods<br>
-[;tribal; ;lizard/wolf; ;kommodo dragon/wolf; ;hybrid;][;space; ;sci-fi; ;lore; ;scientific/technological jargon; ;m/f:pov; ;mystery; ;alien planet;]~
+[;tribal; ;lizard/wolf; ;kommodo dragon/wolf; ;hybrid;][;space; ;sci-fi; ;lore; ;scientific/technological jargon; ;m/f:pov; ;mystery; ;alien planet;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Sw4N3YNQ<br>
 #A terrible accident occurs, leaving Dr Jack Riviera stranded in an unknown yet inhabited world.
 
 "Quill and Quail<br>
-[;feline;][;prophecy; ;magic; ;m:pov; ;fantasy;]~
+[;feline;][;prophecy; ;magic; ;m:pov; ;fantasy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0vJW8E4V<br>
 #Anon stumbles upon a magical tavern in the forest. Here, he meets Felicity, a feline anthro who accidentally stumbled upon this place while looking for "the man of her dreams". Now both stuck in this "Nexus of worlds", they decide to explore it together and search for a way back to their worlds.
 
@@ -3662,7 +3662,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/U7jeTc7T<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC<br>
 
 "The Crack Back<br>
-[;canine; ;shortstack; ;spaniel; ;two-faced;][;short story; ;vaginal; ;sex; ;creampie; ;rapeplay?; ;rape kink;]X
+[;canine; ;shortstack; ;spaniel; ;two-faced;][;short story; ;vaginal; ;sex; ;creampie; ;rapeplay?; ;rape kink;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC<br>
 
 "Otter Rubs<br>
@@ -3678,7 +3678,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC<br>
 
 "Matrimony War<br>
-[;panther; ;feline;][;war; ;wife;]O
+[;panther; ;feline;][;war; ;wife;]O<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC<br>
 
 "Amazon in the Tundra<br>
@@ -3694,11 +3694,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3g60tMVh<br>
 by Karnazomb
 
 "Core-Chan Fic<br>
-[][]X
+[][]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zxyZsGgR<br>
 
 "Thirsty for Love<br>
-[;camel;][;college; ;lewd; ;friends;]~
+[;camel;][;college; ;lewd; ;friends;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2EEcMF9Q<br>
 #Anon is becoming increasingly attracted to his close camel friend
 
@@ -3707,7 +3707,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2EEcMF9Q<br>
 by Anon_The_Shitposter
 
 "Vanguard Anon and Padmayan Adventures<br>
-[;fox; ;multiple;][;action; ;sci-fi; ;Warhammer 40k; ;gore; ;post-apocalyptic; ;firefights; ;scientific/technological jargon; ;waking up to snuggles; ;comical; ;shenanigans; ;m/f:pov;]~
+[;fox; ;multiple;][;action; ;sci-fi; ;Warhammer 40k; ;gore; ;post-apocalyptic; ;firefights; ;scientific/technological jargon; ;waking up to snuggles; ;comical; ;shenanigans; ;m/f:pov;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Sw4N3YNQ<br>
 #A vanguard, named Galectha, and his anthro fox companion?, named Sunny, travel to a uncharted post-apocalyptic world of fox like creatures called 'Padmayans'. Here they intend to go into disguises as Padmayans to gather information on the planet. However, one female Padmayan is suspicious of them and despite her peers not believing her, she sets out to expose Galectha for what he really is, an xeno.
 
@@ -3716,7 +3716,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Sw4N3YNQ<br>
 by FALs_a_besto
 
 "That Old Black Magic<br>
-[;canine; ;wolf; ;feline; ;lion;][;fighting; ;violence; ;magic; ;adventure; ;fantasy; ;isekai;]~
+[;canine; ;wolf; ;feline; ;lion;][;fighting; ;violence; ;magic; ;adventure; ;fantasy; ;isekai;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qifUgSdr<br>
 #A Belgian Operator get's isekaied into an anthro fantasy world. He meets and falls in love with a wolf, and planned on marrying her. To Anon's misfortune, though, she unknowingly tried dark magic one day and got possessed and ran off. Now Anon is on a mission to find his fiance and save her from the dark magic that controls her.
 
@@ -3770,7 +3770,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kv0ucsMm<br>
 by Mal0_Anon
 
 "Foundation Tales<br>
-[;canine; ;mal0; ;scp;][;sex; ;anal;]~
+[;canine; ;mal0; ;scp;][;sex; ;anal;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uCYE1WYt<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3846,7 +3846,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZyY4jKAB<br>
 by Smoke_Anon
 
 "What's in the Canister? (Line 88)<br>
-[;fennec fox; ;fox;][;BHA universe;]~
+[;fennec fox; ;fox;][;BHA universe;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5W1Cwbs3<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3862,11 +3862,11 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LWn1J4fw<br>
 by Arctozolt
 
 "WIP Arctic Fox Story<br>
-[;arctic fox; ;fox;][]~
+[;arctic fox; ;fox;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vvc3cLHW<br>
 
 "Under Greenland<br>
-[;Greenland shark;][]X~
+[;Greenland shark;][]X~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mtzcG97Z<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3923,7 +3923,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/saX4Yiqr<br>
 by WriteGaf
 
 "Loco for Loka<br>
-[;Loka;][]~
+[;Loka;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aCdD2US6<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -3931,7 +3931,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aCdD2US6<br>
 by d15c0rd
 
 "A Story in Zootopia With Judy Hopps<br>
-[;rabbit; ;Judy Hopps;][;Zootopia;]X
+[;rabbit; ;Judy Hopps;][;Zootopia;]X<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u0692rp2<br>
 
 "A Short Story About Megan<br>
@@ -4097,7 +4097,7 @@ by meklab
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/meklab<br>
 
 "Wolfox<br>
-[;canine; ;wolf; ;worgen; ;larger anthro; ;fox; ;vulpera; ;smaller anthro;][;sex; ;ER; ;World of Warcraft; ;size difference; ;oral; ;erotic brushing;]~
+[;canine; ;wolf; ;worgen; ;larger anthro; ;fox; ;vulpera; ;smaller anthro;][;sex; ;ER; ;World of Warcraft; ;size difference; ;oral; ;erotic brushing;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ziv3t7Q<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -4106,7 +4106,7 @@ by PHI_FI
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Phi_Fi<br>
 
 "Call of the Waifur<br>
-[][;domination; ;new world order; ;femdom?;]~
+[][;domination; ;new world order; ;femdom?;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFyP1jQW<br>
 
 "Hannah the Red Panda<br>
@@ -4114,7 +4114,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFyP1jQW<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AvR4M9JS<br>
 
 "Heartbreak<br>
-[;canine; ;wolf;][;sex; ;m:rape;]~
+[;canine; ;wolf;][;sex; ;m:rape;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A023WBPX<br>
 
 "Hickitsune (Line 161)<br>
@@ -4138,11 +4138,11 @@ by Umbra_Invicta
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mpS9Eqrs<br>
 
 "Isolated<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YFvFdEEv<br>
 
 "First Contact Procedures<br>
-[;alien; ;reptile; ;scalie;][;sci-fi;]~
+[;alien; ;reptile; ;scalie;][;sci-fi;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hq4UTdED<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -4151,7 +4151,7 @@ by Bockwood
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Bockwood<br>
 
 "The Town of Shady Rest<br>
-[][]~
+[][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ARLaNAzD<br>
 
 "Boar-Bait<br>
@@ -4201,7 +4201,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iKZHFXC<br>
 by Boboftheross
 
 "The Thirteenth's Chosen<br>
-[;rodent; ;skaven;][;Warhammer Fantasy;]~
+[;rodent; ;skaven;][;Warhammer Fantasy;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bcFubhRa<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -4209,7 +4209,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bcFubhRa<br>
 by Ashtrek / KrautDyke
 
 "Fleabag & FANG<br>
-[;fox;][;femdom; ;military; ;verbal abuse/insults; ;wrestling; ;lima syndrome;]~
+[;fox;][;femdom; ;military; ;verbal abuse/insults; ;wrestling; ;lima syndrome;]~<br>
 https://www.sofurry.com/view/1662556<br>
 #two jaded veterans from opposite sides of the North American conflict of 2008 find out they have more in common than they’d ever thought, and learn that after the rest of the world has abandoned them, the only thing they truly have left is each other.
 
@@ -4267,7 +4267,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SJhHv22C<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzFs3w1Z<br>
 
 "In the Heat of the Crimson Queen<br>
-[;fox; ;childhood friend;][]~
+[;fox; ;childhood friend;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fD40E9c8<br>
 
 "Late Night Mischief<br>
@@ -4310,7 +4310,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2CzSpEAw<br>
 #Anon gets blackmaild by his vixen boss.
 
 "Melting Point<br>
-[;canine; ;dalmatian; ;dog;][;heat?;]~
+[;canine; ;dalmatian; ;dog;][;heat?;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/83J5Eicd<br>
 #Anon the firefighter heads to the showers, but to his surprise his dalmation coworker wants to join him.
 
@@ -4382,7 +4382,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RU9NWDkj (Part
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4HCQpKjL (Part 2)<br>
 
 "Coco and Bailey<br>
-[;pet; ;canine; ;pet; ;feline;][]~
+[;pet; ;canine; ;pet; ;feline;][]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tc8VxqSW (Chapter 0)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HXcPmseG (Chapter 1)<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cp6f9r4u (Chapter 2)<br>
@@ -4414,7 +4414,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jkMxE1y0<br>
 by mersenniusprime
 
 "Gnoll when to walk away, gnoll when to run<br>
-[;yeen; ;hyena; ;gnoll;][;contains comfy; ;sex; ;m:con <--> m:dubcon; ;m:dubcon; ;sodomy; ;vaginal; ;after sex embrace; ;cunnilingus;]~
+[;yeen; ;hyena; ;gnoll;][;contains comfy; ;sex; ;m:con <--> m:dubcon; ;m:dubcon; ;sodomy; ;vaginal; ;after sex embrace; ;cunnilingus;]~<br>
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uqGXVhdk<br>
 
 "The End of the Hunt<br>
@@ -4476,7 +4476,7 @@ by lakanookie
 https://www.furaffinity.net/user/lakanookie<br>
 
 "Ashrin and Dirac<br>
-[;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;maledom;]~
+[;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;maledom;]~<br>
 https://docs.google.com/document/d/1JAQU96Jp7kmx7618spkVPT6L4XAXtXZX12iFZO4kRQY/edit<br>
 
 -----------------------------------------------------------------------------------------------------------------------------
