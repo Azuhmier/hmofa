@@ -4531,4 +4531,3 @@ https://www.sofurry.com/view/998655  (Part 6)
 https://www.sofurry.com/view/1011117 (epilogue)
 #A young man follows some friends to a fur and skin tavern. Here, humans and wolven of the city meet, mingle and have sex. The man finds a wolfess who shows him a night he'll never forget. He had always wondered why the people here so willingly shared their city with this other species.
 
-*%s/^>\(.*\)/<font color="red">\1<\/font>/
