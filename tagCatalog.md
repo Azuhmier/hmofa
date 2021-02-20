@@ -1,9 +1,4 @@
-﻿```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-Catalog of Tagged /HMOFA/ Stories  (WIP)
+﻿Catalog of Tagged /HMOFA/ Stories  (WIP)
 
 DISCLAIMER: This is not and should not be treated as replacement For the master bin created By DEIMOS_LYNX. This is rather a tagged Story Catalog and information dump For /hmofa/ stories. It is not kept updated For new stories. This library is, thus, dependent on his pastebin and his updates.
 
@@ -12,7 +7,7 @@ NOTE: Please post suggestions, comments and complaints For the formatting and co
 ————————————————————————————————————————————————————————————————————————————————————
 %%%%% Introduction/Key %%%%%
 ————————————————————————————————————————————————————————————————————————————————————
-========================================================
+========================================================<br>
 | TAG SEARCHING |
 
 (1) Find your Desired Tag:
@@ -24,26 +19,26 @@ SPECIES TAG LIST
 (3) Enter the Following where "tagname" is your Desired Tag
 ;tagname;
 
-========================================================
+========================================================<br>
 | TAGLINE TEMPLATE |
 
 [ anthro tags ][ story tags ] symbols
 
-========================================================
+========================================================<br>
 | SYMBOLS |
 
 ~ = story is incomplete
 X = story was deleted, removed, or set to private
 O = story is claimed dead by the author or seems dead due to lack of activity
 
-========================================================
+========================================================<br>
 | TAG OPERANDS |
 
 {Initial tag} -> {Later Tag} = tag changes as story progresses (Ex. feral -> non-feral)
 {Tag A} <-> {Tag B} = tag changes between A and B
 {Gender}:{Tag} = (Ex. {m:dubcon} = the consent of the male was dubious)
 
-========================================================
+========================================================<br>
 | SPECIAL TAGS |
 
 H/C = Hurt/Comfort, refers to the presence of emotional or physical angst of one
@@ -58,7 +53,7 @@ Pseudo-incest = Sex with someone with a familial relationship, but no blood rela
 by Alfa_Barf
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Alfa_Barf
 
-=============/ HAIR OF THE DOG /===================
+=============/ HAIR OF THE DOG /===================<br>
 <font color="red">Hair of the Dog</font>
 [;canine; ;wolf;][;comfy; ;m:pov; ;lewd; ;blowjob; ;sex; ;love/romance; ;intimacy; ;Halloween; ;partying;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QeMG86Kp (Part 1)
@@ -77,7 +72,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iJSNbuLL (part
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NF98YnJY (part 2)
 #A new tale with a new Anon who encounters a white wolfess one night. She's reclusive and cold, but maybe it'll take the affection of a human to get her to open up.
 
-=============/ MINNIE: HIGH VELOCITY COURTING /=============
+=============/ MINNIE: HIGH VELOCITY COURTING /=============<br>
 <font color="red">Reel Quick Dating</font>
 [;German shepherd; ;canine;][;comfy; ;m:pov; ;public sex; ;drama;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mU0CDbCn
@@ -88,7 +83,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mU0CDbCn
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bLyCRBNu
 #Now that Anon and Winny are a happy couple, they get to do all the things couples like to do. Going to the movies is pretty standard, but the German shepherd is never quite happy with "standard".
 
-=============/ OTHER /=============
+=============/ OTHER /=============<br>
 <font color="red">Happiest Place on Fur</font>
 [;canine; ;wolf;][;comfy; ;m:pov; ;love/romance; ;workplace romance; ;sex; ;long story; ;theme park; ;secrecy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/t1LnyMtL
@@ -221,7 +216,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Strong_Anon
 https://strong.sofurry.com/
 https://www.furaffinity.net/user/stronkanon/
 
-=============/ Clara the snow leopard /=============
+=============/ Clara the snow leopard /=============<br>
 <font color="red">College isn't so bad</font>
 [;snow leopard;][;sex; ;love/romance; ;anal; ;boobjob; ;feline; ;blowjob; ;video games;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RGDSxrrz
@@ -242,7 +237,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MGhCFvGf
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZbQHzfLZ
 #Anon from "College isn't so bad' has an adventure with his friends a continuation of a story.
 
-=============/ crocodile waifur /=============
+=============/ crocodile waifur /=============<br>
 <font color="red">Crocodile Rock</font>
 [;crocodile; ;reptile; ;scalie;][;tonguejob; ;boobjob; ;titfuck; ;paizuri; ;tailpulling; ;spanking; ;vaginal; ;sex; ;long tongue; ;inverted nipples;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4y6xpYzR
@@ -253,7 +248,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4y6xpYzR
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T4ff0hwy
 #Christmas has come around. Unfortunately Anon has to work, but that doesn't mean he doesn't have plans to Give Bella the best gift.
 
-=============/ Acid Rain /=============
+=============/ Acid Rain /=============<br>
 <font color="red">Acid Rain: Just a Drop</font>
 [][;prequel;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CykaNgXR
@@ -268,7 +263,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VjQyaumy
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9w1GsWE6
 #After the Events Of Acid rain, Null is tasked to find Star's mother while a new crime faction emerges from the cities underground.
 
-=============/ Deathclaw /=============
+=============/ Deathclaw /=============<br>
 <font color="red">Ms Atomic Bomb</font>
 [;deathclaw;][;comfy; ;Fallout; ;boobjob; ;titfuck; ;forced cuddling; ;lewd; ;blowjob; ;terror; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qdafTfBv
@@ -279,7 +274,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qdafTfBv
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2k2WwYYj
 #Sequel to Ms Atomic bomb. Anon and Amana flee their home and end up in a new land; the Mojave. together they wander the wastes.
 
-=============/ wolverine shortstack /=============
+=============/ wolverine shortstack /=============<br>
 <font color="red">Humanity is dead</font>
 [;wolverine; ;shortstack;][;comfy; ;lewd; ;cuddling; ;snuggles; ;snow; ;survival; ;69; ;sex; ;blowjob; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MyQY0xTc
@@ -290,7 +285,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MyQY0xTc
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/djFCjw15
 #a revisit of the characters from "Humanity Is Dead
 
-=============/ OTHER /=============
+=============/ OTHER /=============<br>
 <font color="red">Here Comes The Sun</font>
 [;bovine; ;cow;][;smothering; ;nipple sucking; ;nipples; ;femdom; ;hand holding; ;sex; ;vaginal; ;thighjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yx6rpd9K
@@ -429,7 +424,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6Q8BqbJ0
 by Wheresmysocks
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/wheresmysocks
 
-=============/ Collie /=============
+=============/ Collie /=============<br>
 <font color="red">The Longest Time</font>
 [;collie; ;canine; ;dog;][;comfy; ;cuddling; ;short story; ;cold; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fHaVYAQU
@@ -445,7 +440,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e7xgrLWJ
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X11yZ6Qz
 #After a rough day at work, Anon is soothed by his Border Collie roommate.
 
-=============/ Time with wolfess /=============
+=============/ Time with wolfess /=============<br>
 <font color="red">Day with a Wolfess</font>
 [;wolf; ;canine; ;tribal;][;comfy; ;camping; ;cuddling; ;nudity; ;forest; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s28WH080
@@ -456,7 +451,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s28WH080
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WHwbXgXm
 #Sequel to Day With a Wolfess; Anon is about to leave his campsite, but is dragged off to the Wolfess's village.
 
-=============/ OTHER /=============
+=============/ OTHER /=============<br>
 <font color="red">Light my Fire</font>
 [;wolf; ;tribal; ;canine;][;heat;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/baZwEK8s
@@ -548,7 +543,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xMJfTNiB
 by Retconned
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Retconned
 
-=============/ Coyote /=============
+=============/ Coyote /=============<br>
 <font color="red">Tricky Business</font>
 [;canine; ;coyote; ;goddess; ;mythological creature;][;comfy; ;love/romance; ;alternate reality; ;second person;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6dQ5T2g8
@@ -559,7 +554,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6dQ5T2g8
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qMjuSePm
 #A green text posted on April first.
 
-=============/ purple boob alien wolf /=============
+=============/ purple boob alien wolf /=============<br>
 <font color="red">Spaced Out</font>
 [;canine; ;larger anthro; ;jackal;][;comfy; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ju0TPznS
@@ -570,7 +565,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ju0TPznS
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7NBZxgJp
 #The direct sequel to Spaced Out. Anon, a stargazer and astronomy consultant, picks up where the first story ended and spends some time with his alien visitor. Comfiness, some occasional lewds, and space shenanigans happen. [warning: contains some feels. caution: it is recommended to read spaced out first if you haven't yet.]
 
-=============/ Cerberus /=============
+=============/ Cerberus /=============<br>
 <font color="red">Painted On</font>
 [;cerberus; ;AI; ;canine;][;alternate reality; ;love/romance; ;large breast; ;blowjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CsAPrDR4
@@ -581,7 +576,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CsAPrDR4
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8c10Aw1B
 #The direct sequel to Spaced Out. Anon, a stargazer and astronomy consultant, picks up where the first story ended and spends some time with his alien visitor. Comfiness, some occasional lewds, and space shenanigans happen. [warning: contains some feels. caution: it is recommended to read spaced out first if you haven't yet.]
 
-=============/ WATCH /=============
+=============/ WATCH /=============<br>
 <font color="red">Being Watched</font>
 [;wolf; ;canine; ;larger anthro; ;large breast;][;comfy; ;love/romance; ;hybrid; ;mystery; ;nudity; ;second person; ;boobjob; ;blowjob; ;busty; ;vaginal; ;contemporary; ;swimsuit; ;couple; ;dating; ;alternate reality;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HMeXnbeb
@@ -592,7 +587,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HMeXnbeb
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PyMZxQEa
 #After meeting a mysterious woman from another world, Anon decides to go after her, making new friends along the way.
 
-=============/ Lena_Lyx /=============
+=============/ Lena_Lyx /=============<br>
 <font color="red">Lena Lynx in: Anniversary Adoration</font>
 [;lynx; ;cartoon; ;feline;][;comfy; ;non-smut; ;established relationship; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZgGVUUr4
@@ -603,7 +598,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZgGVUUr4
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cEUffYPK
 #Anon and his wife celebrate both their marriage anniversary and the anniversary of the end of her favorite old cartoon.
 
-=============/ OTHER /=============
+=============/ OTHER /=============<br>
 <font color="red">Tough luck</font>
 [;cat; ;robot; ;feline;][;very long story; ;flirting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NDFa7gpm
@@ -802,7 +797,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sJiAFxbz
 [;fox;][;Christmas; ;comfy; ;m:pov; ;vixen of rock short sequel; ;love/romance; ;snow; ;non-smut; ;cuddling; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/r0z0ynr9
 
-=============/ other /=============
+=============/ other /=============<br>
 <font color="red">Midnight Sun</font>
 [;feline; ;snow leopard;][;m:pov; ;yakuza; ;fling; ;short story; ;seduction;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m29Avujd
@@ -968,7 +963,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/at9xDwBM
 by Cheetah_Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Cheetah_anon
 
-=============/ CHUBBY Cheetah /=============
+=============/ CHUBBY Cheetah /=============<br>
 <font color="red">Chubby Cheetah</font>
 [;cheetah; ;feline;][;bondage; ;petplay; ;threesome; ;adultery; ;mother/daughter incest; ;incest; ;smut focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wXR1uYKZ
@@ -987,7 +982,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FmArQT2W
 [;cheetah; ;feline;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A0JBKZwk
 
-=============/ other /=============
+=============/ other /=============<br>
 <font color="red">Akari and Mothra</font>
 [;insect; ;moth;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NtgDFUZ0
@@ -1049,7 +1044,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MRXAtrPR
 by Mousguy
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Mousguy
 
-=============/ Chick and Jaz /=============
+=============/ Chick and Jaz /=============<br>
 <font color="red">Chickenman's wild ride</font>
 [;tiger hybrid; ;hybrid; ;feline;][;contains comfy; ;sex; ;love/romance; ;drama; ;long story; ;bed sharing; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/v6Y5yeN9
@@ -1065,7 +1060,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tiLCYDG7
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y7FVLeiQ
 #The Chickenman and His friends Fly to meet Jasmine and her parents, Grant and Olga. festivities and gift giving all around on a wonderful Christmas day
 
-=============/ other /=============
+=============/ other /=============<br>
 <font color="red">Ray of Hope</font>
 [;snakedog; ;nightstalker; ;hybrid;][;violence; ;non-smut; ;rescue; ;slavery; ;implied slave sex; ;gore; ;Fallout;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9GrszLYN
@@ -1222,7 +1217,7 @@ by Sham
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Sham_
 https://shamm.sofurry.com/
 
-=============/ Placid Knoll /=============
+=============/ Placid Knoll /=============<br>
 <font color="red">Enchanted</font>
 [;milf; ;older anthro;][;placid knoll;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WVcUZr1V
@@ -1239,7 +1234,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dmCNwGCE
 [;fox;][;comfy; ;placid knoll;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zfGTgmU0
 
-=============/ Cassie Universe /=============
+=============/ Cassie Universe /=============<br>
 <font color="red">Dream a Little Dream of Me</font>
 [;canine; ;wolf;][;comfy; ;sex; ;vaginal; ;creampie; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KAGWdZPv
@@ -1256,7 +1251,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LSWzeTfy
 [;cheetah; ;blind; ;feline; ;camgirl;][;comfy; ;sex; ;roommates; ;love/romance; ;confession of feelings; ;best friends;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NCreWYk6
 
-=============/ OTHER /=============
+=============/ OTHER /=============<br>
 <font color="red">To Make Love</font>
 [][;poetry; ;very short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aY4FH7nX
@@ -1808,7 +1803,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FpNXRMrn
 by DecoFox
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/DecoFox
 
-=============/ Dare /=============
+=============/ Dare /=============<br>
 <font color="red">You Wouldn't Dare</font>
 [;coyote; ;canine;][;comfy; ;short story; ;childhood friends; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nd1sL12V
@@ -1817,7 +1812,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nd1sL12V
 [;coyote; ;canine;][;comfy; ;short story; ;childhood friends; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bj6ju04K
 
-=============/ other /=============
+=============/ other /=============<br>
 <font color="red">Ground Proximity Waifur Systems</font>
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9a3LXeQR
@@ -2862,7 +2857,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8bZDRTj0
 by Quoth_THE_raven
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/quoth_THE_raven
 
-=============/ Mechanized Memories /===================
+=============/ Mechanized Memories /===================<br>
 <font color="red">Mechanized Memories</font>
 [;feline; ;robot; ;lynx;][;very long story; ;love/romance; ;sci-fi; ;mystery;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZiMrV7Dx
@@ -2875,7 +2870,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AGyqQVuY
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1jy3Vk9z
 
-=============/ other /===================
+=============/ other /===================<br>
 <font color="red">Blade of Gold, Fangs of Cold</font>
 [;canine; ;wolf;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnadRWX1
@@ -3598,7 +3593,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JegzDA6n
 -----------------------------------------------------------------------------------------------------------------------------
 by The_FFI_Database
 
-=============/ The FFI Happenings /===================
+=============/ The FFI Happenings /===================<br>
 <font color="red">TRANSCRIPT OF DOCUMENT DISCOVERED OUTSIDE WACISSA</font>
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][;on the run; ;nefarious government programs; ;pregnancy; ;m:pov; ;suspense;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QnNSXPrg
@@ -3624,7 +3619,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/anjqWEYR
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WrrBt864
 
-=============/ OTHER /===================
+=============/ OTHER /===================<br>
 <font color="red">Misc. Ideas of The Secret Zone</font>
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WwAGxVv1
@@ -4233,7 +4228,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ypneA1WK
 -----------------------------------------------------------------------------------------------------------------------------
 All these stories/Greens are by unknown Authors
 
-=============/ Lulu Universe /===================
+=============/ Lulu Universe /===================<br>
 <font color="red">Problem Child</font>
 [;canine; ;wolf;][;non-smut; ;platonic; ;ghetto; ;feels; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZEaz6Sv
@@ -4246,7 +4241,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZXJLTR7Z (Part
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/87ctsV1D (Part 3)
 #Anon, a high school dropout working a dead end job, adopts a miserable anthro off the streets as his daughter.
 
-=============/Thicc Christmas Felines /===================
+=============/Thicc Christmas Felines /===================<br>
 <font color="red">CRIMBUS TIME BUT LATE BUT OKAY</font>
 [;tiger; ;feline; ;thicc; ;large breast;][;established relationship; ;comfy; ;vaginal fingering; ;vaginal; ;love/romance; ;breast sucking; ;creampie; ;very short story; ;Christmas;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KLH21SGV
@@ -4257,7 +4252,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KLH21SGV
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4GMcMcdw
 #A man makes love to a 53 year old cougar. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1482/09/1482090330330.jpg.
 
-=============/ OTHER /===================
+=============/ OTHER /===================<br>
 <font color="red">Catch of the Day</font>
 [;otter; ;Selonian; ;lion; ;Trianii;][;femdom; ;f/f/m; ;size difference; ;Star Wars; ;larger female; ;muscular female; ;breast sucking; ;oral; ;sex; ;vaginal; ;m:dubcon; ;squirting; ;smothering; ;f:heat;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SJhHv22C
@@ -4530,3 +4525,5 @@ https://www.sofurry.com/view/992230  (Part 5)
 https://www.sofurry.com/view/998655  (Part 6)
 https://www.sofurry.com/view/1011117 (epilogue)
 #A young man follows some friends to a fur and skin tavern. Here, humans and wolven of the city meet, mingle and have sex. The man finds a wolfess who shows him a night he'll never forget. He had always wondered why the people here so willingly shared their city with this other species.
+
+*%s/===$/&<br>/
