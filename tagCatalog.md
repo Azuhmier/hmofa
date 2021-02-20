@@ -59,7 +59,7 @@ by Alfa_Barf
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Alfa_Barf
 
 =============/ HAIR OF THE DOG /===================
-'''julia
+'''ruby
 "Hair of the Dog"<br>
 '''
 [;canine; ;wolf;][;comfy; ;m:pov; ;lewd; ;blowjob; ;sex; ;love/romance; ;intimacy; ;Halloween; ;partying;]
@@ -68,14 +68,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XPS4XxdQ (Part
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pVEpQMCV (Part 3)
 #Anon is snatched away by a (were?)wolfess for a night of fun to show him how much better monsters celebrate their favorite holiday.
 
-'''julia
+'''ruby
 "Hair of the Dog: Monsters and Mistletoe"<br>
 '''
 [;canine; ;wolf;][;comfy; ;m:pov; ;love/romance; ;intimacy; ;Christmas;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/naBAVr2F
 #Volfa's favorite holiday has always been Halloween, but her father seems to have an interest in bringing Christmas to the monster world. It's up to Anon to be Volfa's support while she begrudgingly gives another holiday a fair chance.
 
-'''julia
+'''ruby
 "Hair of the Dog: Cry Wolf"<br>
 '''
 [;canine; ;wolf;][;comfy; ;m:pov; ;love/romance; ;sex; ;lewd; ;Halloween; ;sequel;]
@@ -84,14 +84,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NF98YnJY (part
 #A new tale with a new Anon who encounters a white wolfess one night. She's reclusive and cold, but maybe it'll take the affection of a human to get her to open up.
 
 =============/ MINNIE: HIGH VELOCITY COURTING /=============
-'''julia
+'''ruby
 "Reel Quick Dating"<br>
 '''
 [;German shepherd; ;canine;][;comfy; ;m:pov; ;public sex; ;drama;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mU0CDbCn
 #Anon isn't deterred by bad first impressions when it comes to dating, or even bad second impressions. But when he gives a disinterested German shepherd a chance, he's glad he kept an open mind.
 
-'''julia
+'''ruby
 "Speed Mating"<br>
 '''
 [;canine; ;German shepherd;][;comfy; ;m:pov; ;public sex;]
@@ -99,175 +99,175 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bLyCRBNu
 #Now that Anon and Winny are a happy couple, they get to do all the things couples like to do. Going to the movies is pretty standard, but the German shepherd is never quite happy with "standard".
 
 =============/ OTHER /=============
-'''julia
+'''ruby
 "Happiest Place on Fur"<br>
 '''
 [;canine; ;wolf;][;comfy; ;m:pov; ;love/romance; ;workplace romance; ;sex; ;long story; ;theme park; ;secrecy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/t1LnyMtL
 #Anon has a job with the biggest exporter of dreams-come-true on the planet, but never in his wildest fantasies would he imagine finding anthros underneath the costumes.
 
-'''julia
+'''ruby
 "You Conduit."<br>
 '''
 [;raiju; ;fox?;][;comfy; ;m:pov; ;electric stimuli; ;various physical stimulus; ;buddy story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CRavgKz8
 #Anon encounters a mythological "spark dog" creature named Juitz. He unwittingly has to kick her out of her current home, and sadly it's not the first time it's happened to her. To make things better Anon helps Juitz try to find a new place to live, but he soon finds he has a little bit of magnetism with this electrical canine.
 
-'''julia
+'''ruby
 "Chr0me Where L0ve Sh0uld Be V.2"<br>
 '''
 [;canine; ;wolf; ;cyborg;][;comfy; ;m:pov; ;sex; ;H/C; ;comforting; ;prosthetic; ;cyberpunk;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gu3LDrJV
 #Not everyone can be one of the high-paid heroes of the streets, but Anon manages to be a hero for someone who needs it most.
 
-'''julia
+'''ruby
 "Hellhound of the Morning"<br>
 '''
 [;canine; ;succubus; ;hellhound;][;comfy; ;m:pov; ;sex; ;love/romance; ;lewd; ;m:temptation; ;angels & devils;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8X1aSSvX
 #Not everyone is a tireless saint, and Anon sometimes feels like the world owes him a bit. Enter Sember: a succubus canine who fully agrees with him and has a very tempting proposal to give.
 
-'''julia
+'''ruby
 "First Blood"<br>
 '''
 [;canine; ;hellhound;][;m:pov; ;blood sucking; ;Halloween;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gbyyNx3V
 #In your typical horror fashion, Anon becomes the latest victim of a hellhound's vices as the Halloween night comes to a close.
 
-'''julia
+'''ruby
 "New Anon in Town"<br>
 '''
 [;canine;][;comfy; ;f:pov; ;new guy; ;comforting; ;f:lonely;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/G9qgsSfQ
 #When everyone around town is so happy and nice, how is a dog girl supposed to get a cool guy like Anon?
 
-'''julia
+'''ruby
 "Lovely Wings"<br>
 '''
 [;avian; ;kingfisher;][;comfy; ;m:pov; ;recovery; ;hugs;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TN1CRFrt
 #When Anon takes a spill at the workplace, the quick-to-worry kingfisher responsible tries to make it up to him with a little motherly care.
 
-'''julia
+'''ruby
 "Reigns over Barren Land"<br>
 '''
 [;feline; ;smilodon; ;multiple; ;harem; ;tribal;][;pregnancy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WQkfGFzm
 #Anon is the only male in a tribe of female saber tooth tigers, and his presence alone is enough to put them into heat. Unfortunately, one in particular is not fond of sharing him.
 
-'''julia
+'''ruby
 "Cerinian Sweetheart"<br>
 '''
 [;fox; ;Krystal;][;love/romance; ;vacation; ;celebrity life; ;Star Fox; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KjWM4yny
 #Anon is the luckiest man in Lylat with the world's most popular vixen as his girlfriend. When she's not acting on the hit show "Star Fox", she's never far from her beloved significant other.
 
-'''julia
+'''ruby
 "The Manticore Mutation"<br>
 '''
 [;feral -> non-feral; ;manticore;][;comfy; ;transformation; ;sex; ;therapy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GcqqPgXY
 #Anon’s girlfriend has transformed into a creature of myth, permanently. Although she’s not the same person physically, he’s determined to bring the girl he fell in love with’s mind back out.
 
-'''julia
+'''ruby
 "Super Grooming"<br>
 '''
 [;jackal; ;canine;][;cleaning; ;Reverse transformation; ;comfy; ;grooming;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YXVtt81W
 #Heroes who save the day still have to wash themselves, or at least have a partner like Anon to help them out.
 
-'''julia
+'''ruby
 "A Lady and Her Lord"<br>
 '''
 [;lion; ;feline;][;m:pov; ;renaissance fair; ;angry sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kkQJUhUx
 #Not everyone can get into the spirit of the Renaissance fair, but Anon can help one jouster try to unwind a bit.
 
-'''julia
+'''ruby
 "Roleplay Gone Wrong"<br>
 '''
 [;feline; ;jaguar;][;comfy; ;roleplay; ;chasing; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EccYKM1y
 #Pampered cats can have wild streaks, too. Anon learns this the hard way by indulging his girlfriend's secret kink.
 
-'''julia
+'''ruby
 "Aquaphobia"<br>
 '''
 [;feline; ;tiger;][;comfy; ;water park; ;overcoming fear; ;water hyjinks;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uLbSqGYj
 #Anon takes his tiger girlfriend to a waterpark to help her over her fear of water
 
-'''julia
+'''ruby
 "The Snooze Store"<br>
 '''
 [;feline; ;snow leopard;][;comfy; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rPPzXJDS
 #Some people like to window shop, and others like to go a little further. Anon takes a friend to a furniture store, of all places, and finds some quality bonding time with her in the process.
 
-'''julia
+'''ruby
 "BFG"<br>
 '''
 [;yeen; ;gnoll; ;hyena;][;comfy; ;light D/S; ;impregnation; ;sex; ;bathing;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xKvEc883
 #When Anon is held hostage by a pack of gnolls, he finds that the leader may have her eyes on him for more than one reason.
 
-'''julia
+'''ruby
 "Snow, Spots, and Snuggles"<br>
 '''
 [;yeen; ;hyena;][;comfy; ;body warmth; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/j4660zvN
 #Anon helps his girl get through the frigid, unfamiliar Midwestern winter.
 
-'''julia
+'''ruby
 "Ursa Major"<br>
 '''
 [;bear;][;comfy; ;cuddling; ;hibernation; ;weight gain;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z7wRr7Mz
 #When it's time for hibernation, Anon helps his roommate prepare for her extended slumber.
 
-'''julia
+'''ruby
 "Stacked Up"<br>
 '''
 [;red panda; ;bear;][;comfy; ;card games; ;thicc;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bKFW7hmm
 #Anon has never played the popular card game "Glamor: The Matchmaking", but he's willing to learn if it means getting to know a nerdy, curvaceous red panda girl.
 
-'''julia
+'''ruby
 "Connect the Sweet Spots"<br>
 '''
 [;jaguar; ;feline;][;comfy; ;petting; ;scratches and massages; ;intimacy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YLiQZjJD
 #The greatest reward a firefighting jaguar can receive at the end of a long day is coming home to her Anon for a little bit of pampering, enough to bring the little kitten out of the big cat.
 
-'''julia
+'''ruby
 "Just a Number"<br>
 '''
 [;dog; ;German shepherd/husky; ;hybrid; ;canine;][;comfy; ;dating; ;confidence building; ;minor foodplay; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Mi1gbQvy
 #Anon, finding himself suddenly in a world of anthros, decides it might be his chance to get a fresh start in his love life. There's no shortage in furry girls who have their eyes on him, but it's a lonely canine girl who could use his love and support more than anyone.
 
-'''julia
+'''ruby
 "Ladies' Night"<br>
 '''
 [;n/a;][;comfy; ;slice of life; ;meta; ;crossover;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8MhgSsAH
 #A casual gathering of all the lovely ladies from my pastes in one very self-indulgent bit of wankery. If you can identify them all (excluding the one who has yet to have her own story), then thank you immensely for reading my material.
 
-'''julia
+'''ruby
 "Gamer-oo"<br>
 '''
 [;shy; ;kangaroo;][;comfy; ;video games;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cKFHNUhc
 #The best way to a kangaroo's heart is through her gaming console, as one Anon has to learn to get her to open up more.
 
-'''julia
+'''ruby
 "Soothe and Nail"<br>
 '''
 [;canine; ;wolf;][;comfy; ;non-smut; ;adventure; ;love/romance; ;war; ;violence; ;grooming;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s318iR1P
 #Anon the sellsword is reduced to a lowly groomer when detained by the town guard. His recipient is a wolfess who is also the town's prisoner, though for much more violent reasons. As Anon cleans the wolfess up, he begins to notice the subtle effect she has on him.
 
-'''julia
+'''ruby
 "Last-Minute Courting"<br>
 '''
 [;canine; ;wolf;][;comfy; ;lewd; ;dressing and undressing; ;contrived excuse For deep kissing;]
@@ -282,28 +282,28 @@ https://strong.sofurry.com/
 https://www.furaffinity.net/user/stronkanon/
 
 =============/ Clara the snow leopard /=============
-'''julia
+'''ruby
 "College isn't so bad"<br>
 '''
 [;snow leopard;][;sex; ;love/romance; ;anal; ;boobjob; ;feline; ;blowjob; ;video games;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RGDSxrrz
 #Ex military human meets Nerdy Snow leopard when he goes back to college, in a town that frowns on Human anthro relationships. He learns how to be a civilian again and she learns how the real world works.
 
-'''julia
+'''ruby
 "Moving Day"<br>
 '''
 [;snow leopard; ;feline;][;comfy; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3MUu4Tfx
 #Anon from "college isn't so bad" helps a friend move in with him and Clara
 
-'''julia
+'''ruby
 "Date Night"<br>
 '''
 [;snow leopard; ;tiger; ;feline;][;threesome; ;exhibitionism; ;blowjob; ;vaginal; ;creampie; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MGhCFvGf
 #ANon and Clara have a date night, But Clara brings an unexpected guest
 
-'''julia
+'''ruby
 "New year, New Fun"<br>
 '''
 [;feline;][;cuddling; ;snuggles; ;new years;]
@@ -311,14 +311,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZbQHzfLZ
 #Anon from "College isn't so bad' has an adventure with his friends a continuation of a story.
 
 =============/ crocodile waifur /=============
-'''julia
+'''ruby
 "Crocodile Rock"<br>
 '''
 [;crocodile; ;reptile; ;scalie;][;tonguejob; ;boobjob; ;titfuck; ;paizuri; ;tailpulling; ;spanking; ;vaginal; ;sex; ;long tongue; ;inverted nipples;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4y6xpYzR
 #Anon has moved to the Bayou after losing a number of Jobs and meets a very special person there
 
-'''julia
+'''ruby
 "Crocking Around The Christmas Tree"<br>
 '''
 [;crocodile; ;reptile; ;scalie; ;large breast;][;Christmas; ;sequel; ;smothering; ;kissing; ;cuddling; ;snuggles; ;vaginal; ;thicc;]
@@ -326,20 +326,20 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T4ff0hwy
 #Christmas has come around. Unfortunately Anon has to work, but that doesn't mean he doesn't have plans to Give Bella the best gift.
 
 =============/ Acid Rain /=============
-'''julia
+'''ruby
 "Acid Rain: Just a Drop"<br>
 '''
 [][;prequel;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CykaNgXR
 
-'''julia
+'''ruby
 "Acid Rain"<br>
 '''
 [;opossum; ;shortstack; ;smaller anthro;][;comfy; ;cyberpunk; ;chubby; ;heart shaped pupils; ;neet; ;sex; ;blowjob; ;vaginal; ;sci-fi; ;violence;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VjQyaumy
 #In a cyberpunk world were everyone one has Mechanical Augmentations and implants that are required for modern life, Null is a human who cant have them due to a nervous system disorder, he must make his way through life trying to survive in a world were everything is against him.
 
-'''julia
+'''ruby
 "Acid Rain Vol. II: Purple Rain"<br>
 '''
 [;opossum;][;comfy; ;cyberpunk; ;adventure; ;violence; ;chubby; ;anal; ;sex; ;hand holding;]
@@ -347,14 +347,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9w1GsWE6
 #After the Events Of Acid rain, Null is tasked to find Star's mother while a new crime faction emerges from the cities underground.
 
 =============/ Deathclaw /=============
-'''julia
+'''ruby
 "Ms Atomic Bomb"<br>
 '''
 [;deathclaw;][;comfy; ;Fallout; ;boobjob; ;titfuck; ;forced cuddling; ;lewd; ;blowjob; ;terror; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qdafTfBv
 #Anon is a survivor from a Vault-tec experiment, but he gets caught in a blizzard in the woods or Oregon He takes shelter, but a female deathclaw also wants to stay warm.
 
-'''julia
+'''ruby
 "Under Atomic Skies"<br>
 '''
 [;deathclaw;][;comfy; ;Fallout;]~
@@ -362,14 +362,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2k2WwYYj
 #Sequel to Ms Atomic bomb. Anon and Amana flee their home and end up in a new land; the Mojave. together they wander the wastes.
 
 =============/ wolverine shortstack /=============
-'''julia
+'''ruby
 "Humanity is dead"<br>
 '''
 [;wolverine; ;shortstack;][;comfy; ;lewd; ;cuddling; ;snuggles; ;snow; ;survival; ;69; ;sex; ;blowjob; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MyQY0xTc
 #One of the last surviving humans on earth is a wanderer trying to find a good place to die. he accidentally catches Shortstack wolverine in a snare and stays in her cabin when a blizzard hits
 
-'''julia
+'''ruby
 "More than survival"<br>
 '''
 [;wolverine; ;short;][;comfy; ;short story; ;lewd; ;vaginal; ;shortstack;]
@@ -377,188 +377,188 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/djFCjw15
 #a revisit of the characters from "Humanity Is Dead
 
 =============/ OTHER /=============
-'''julia
+'''ruby
 "Here Comes The Sun"<br>
 '''
 [;bovine; ;cow;][;smothering; ;nipple sucking; ;nipples; ;femdom; ;hand holding; ;sex; ;vaginal; ;thighjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yx6rpd9K
 #Anon's vacation is interrupted by a certain cow anthro who is tired of dealing with creeps. Luckily they get along and shenanigans ensue.
 
-'''julia
+'''ruby
 "Cooking By The Book"<br>
 '''
 [;serval; ;feline;][;comfy; ;cooking; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BZKw8XBj
 #This is just a silly short story of a Serval Waifur who loves to cook but just can't because of her derpiness other short stories will appear with her involving her kitchen antics Enjoy.
 
-'''julia
+'''ruby
 "Around the ring"<br>
 '''
 [;tiger; ;canine; ;wolf;][;cyberpunk; ;threesome; ;sci-fi; ;violence; ;feline; ;anger; ;blowjob; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kTBRPet1
 #in the year 3030 on the Ringworld of Alpha centuari, a Giant human who was raised by Anthros gets put on parole after a life with the Anthro Mafia, meets his Parole officer and gets a job as a bouncer, while trying to reconcile his own angry tendencies
 
-'''julia
+'''ruby
 "Be Coul, Will Travel"<br>
 '''
 [;cheetah; ;spotless cheetah; ;feline;][;slavery; ;violence; ;adventure; ;post-apocalyptic;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uG7rX7qB
 #After the world ended, people tried to rebuild. Tread does not try to rebuild, he takes what is his. One of those things he takes is a Slave worth quite a bit, A spotless cheetah named Coul.
 
-'''julia
+'''ruby
 "A Bit Of Happiness"<br>
 '''
 [;raccoon/snow leopard; ;hybrid;][;comfy; ;dating; ;love/romance; ;BHA universe; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4XhAm55
 #Jack works as an Anonymous placement Agent for the BHA, one afternoon, he hears his co-worker, a Snoon Named Meghan Stone. He helps her get over bullying and over her insecurities.
 
-'''julia
+'''ruby
 "This River Is Wild"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BrbU7nG8
 
-'''julia
+'''ruby
 "Sunburn"<br>
 '''
 [;aardwolf; ;canine;][;comfy; ;roommates; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5JqtatmH
 #Anon has been sent to Africa to help negotiate peace between 2 rival warlords, one Human one anthro. His guide, Akina, a shortstack Aardwolf just happens to not know about personal space.
 
-'''julia
+'''ruby
 "Were It Not For You"<br>
 '''
 [;dog; ;canine;][;comfy; ;sex; ;blowjob; ;amputee; ;bathing; ;snuggles; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z053QsvE
 #Anon is transported to a world full of animals, but how can he cope with losing his family?
 
-'''julia
+'''ruby
 "A Casual Affair"<br>
 '''
 [;lion; ;feline;][;vaginal; ;fingering; ;breasts; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qgQ3EYYu
 #Anon is an anthro Masseuse who has a new customer. Well, kinda, his co worker called in sick and now HE has to cover for her
 
-'''julia
+'''ruby
 "Humans Are Such Easy Prey"<br>
 '''
 [;jersey devil;][;comfy; ;sex; ;terror; ;vaginal; ;femdom; ;nipple piercing; ;claws; ;nipples; ;wings; ;cabin;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AUcKuwsP
 #Anon had decided to live out in the woods as a homesteader, however. something else lurks in the woods
 
-'''julia
+'''ruby
 "Slow dancing in the dark"<br>
 '''
 [;African wild dog; ;canine;][;comfy; ;cuddling; ;comforting; ;H/C;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3eWFs3Cv
 #Short comfy story about anon and his canine girlfriend.
 
-'''julia
+'''ruby
 "Am I Ready For Love, Or Maybe Just A Best Friend?"<br>
 '''
 [;chubby; ;armadillo; ;smaller anthro;][;comfy; ;love/romance; ;creampie;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RbHXR9Rq
 #Anon goes to comfort his childhood friend and fate seems to think they should be more than that.
 
-'''julia
+'''ruby
 "Space Oddity"<br>
 '''
 [;snake; ;viper; ;scalie;][;comfy; ;vaginal; ;deep throat; ;anal; ;femdom; ;cuddling; ;snuggles; ;inverted nipples;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UTVRArtH
 #A Not so serious tale of an anon being abducted I didn't really take time to proof read this story so if there are typos sorry. just lemme know and I'll fix em. literally a short story turned long enjoy.
 
-'''julia
+'''ruby
 "Love Me as Though There Were No Tomorrow"<br>
 '''
 [;hybrid; ;nightstalker; ;snakedog;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MZpX0eYh
 #Former Boomer Anon wanders the Mojave and meets a Deluxe Snekdog named Gracie, together they wander the wastes.
 
-'''julia
+'''ruby
 "A Tale of Ice and Snow"<br>
 '''
 [;twins; ;snow leopard; ;multiple; ;feline;][;threesome; ;hand holding; ;sex; ;heat;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ABWiwgNi
 #Biologist Hunts for bigfoot, but it isn't what he expects
 
-'''julia
+'''ruby
 "Bingle annoys everyone"<br>
 '''
 [][]O~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8qG7nS3t
 #This is a discontinued bit of short stories involving a Character called Bingle. Bingle is annoying, obnoxious and a perv. These stories are some of my other characters meeting him and will, dealing with him.
 
-'''julia
+'''ruby
 "Life Itself"<br>
 '''
 [;feline; ;hybrid;][;blind date; ;drinking; ;date; ;dating; ;drugs; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hMVYagka
 #Anon goes on a blind date and meets a Hybrid girl that he hits it off with however they both have demons that they have to get over
 
-'''julia
+'''ruby
 "Beyond a dream"<br>
 '''
 [;demon; ;wolf; ;canine;][;blowjob; ;sex; ;dreams;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dyEHD5Rh
 #A Human is hunted in his dreams by a wolf demon who needs his light to escape her abyssal Prison.
 
-'''julia
+'''ruby
 "Heal The Wound"<br>
 '''
 [;amputee; ;maned wolf; ;canine;][;comfy; ;cuddling; ;snuggles; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xaMxU9VH
 #Human saves an amputee Maned wolfess from a terrible blind date, they get together for a few dates and grow together as people and help her accept herself again
 
-'''julia
+'''ruby
 "One Knight of Mercy"<br>
 '''
 [;sheep; ;reindeer; ;cervine;][;sex; ;blowjob; ;threesome; ;lewd; ;knight; ;violence; ;medieval; ;fantasy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y2TTn2HP
 #Royal Knight is sent to exterminate or capture Beast people he Spares and captures a wounded reindeer beast woman. he falls in love with her and decides he needs to change the laws regarding beast people
 
-'''julia
+'''ruby
 "The Price of compassion"<br>
 '''
 [;raccoon;][;contains comfy; ;sex; ;lewd; ;buttplug; ;blowjob; ;vaginal; ;anal; ;piercing;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0V4v4USH
 #Man is scooped from his world into a world with humans and anthros. he takes in a homeless Raccoon girl that was eating out of his trash because he hates to see things like that, and he helps heal her past wounds.
 
-'''julia
+'''ruby
 "Up to Bat"<br>
 '''
 [;bat; ;tribal;][;love/romance; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u7K5ysns
 #Anon wants a Bat GF. But how can he get one? a short story
 
-'''julia
+'''ruby
 "Don't Threaten Me With A Good Time"<br>
 '''
 [;horse; ;tattoo;][;sex; ;blowjob; ;club; ;vaginal; ;creampie; ;drinking;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nBYpn0fL
 #Anon goes to the club because of his co workers Maybe he gets lucky?
 
-'''julia
+'''ruby
 "Battle Born"<br>
 '''
 [;robot; ;fox;][;established relationship; ;sex; ;love/romance; ;action; ;firefights;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JdbJhCxf
 #You are Alpha Non, A.non, Handler of an advanced robotic weaponized Anthro named Calamity. Your job is to keep her in line in battle and to relieve stress. you're good at what you do.
 
-'''julia
+'''ruby
 "On the Iron Seas"<br>
 '''
 [;lizard; ;scalie;][;pirates; ;sex; ;love/romance; ;mates;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Fb6di8z1
 #Disgraced naval captain turned pirate attacks a slavers ship unknowingly and offers the slaves the chance to join his crew. pirate stuff ensues
 
-'''julia
+'''ruby
 "Take Me With You"<br>
 '''
 [;panther; ;tribal; ;hybrid; ;feline;][;comfy; ;bathing; ;sex; ;cleaning; ;bikini; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YKGnP0xU
 #Anon is an explorer trying to find a hidden temple, He recruits the help of a local tribal She asks a favor from him in return though.
 
-'''julia
+'''ruby
 "Meet Me In The Woods Tonight"<br>
 '''
 [][]
@@ -570,21 +570,21 @@ by Wheresmysocks
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/wheresmysocks
 
 =============/ Collie /=============
-'''julia
+'''ruby
 "The Longest Time"<br>
 '''
 [;collie; ;canine; ;dog;][;comfy; ;cuddling; ;short story; ;cold; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fHaVYAQU
 #Anon struggles to stay warm on a cold night.
 
-'''julia
+'''ruby
 "Satellite"<br>
 '''
 [;collie; ;canine; ;dog;][;comfy; ;cuddling; ;storm; ;lightning; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e7xgrLWJ
 #Anon calms his Border Collie roommate down after a stressful couple days for her.
 
-'''julia
+'''ruby
 "It's My Life"<br>
 '''
 [;collie; ;canine; ;dog;][;comfy; ;roommates; ;petting; ;comforting; ;cuddling; ;non-smut;]
@@ -592,14 +592,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X11yZ6Qz
 #After a rough day at work, Anon is soothed by his Border Collie roommate.
 
 =============/ Time with wolfess /=============
-'''julia
+'''ruby
 "Day with a Wolfess"<br>
 '''
 [;wolf; ;canine; ;tribal;][;comfy; ;camping; ;cuddling; ;nudity; ;forest; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s28WH080
 #Anon goes on a camping trip and is joined by a local tribal wolfess
 
-'''julia
+'''ruby
 "Night with a wolfess"<br>
 '''
 [;canine; ;wolf; ;tribal;][;comfy; ;cuddling; ;forest; ;camping; ;non-smut;]
@@ -607,123 +607,123 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WHwbXgXm
 #Sequel to Day With a Wolfess; Anon is about to leave his campsite, but is dragged off to the Wolfess's village.
 
 =============/ OTHER /=============
-'''julia
+'''ruby
 "Light my Fire"<br>
 '''
 [;wolf; ;tribal; ;canine;][;heat;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/baZwEK8s
 
-'''julia
+'''ruby
 "It's Not Unusual"<br>
 '''
 [;coyote; ;scp 2547; ;rule 63;][;temptation;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PZPg62BR
 
-'''julia
+'''ruby
 "Rest Awhile"<br>
 '''
 [;wolf; ;canine;][;cuddling; ;short story; ;vaginal; ;love/romance; ;comfy; ;established relationship; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gW7tGG5y
 #Anon and his girlfriend have some "bonding" time.
 
-'''julia
+'''ruby
 "Get Ready"<br>
 '''
 [;wolf; ;canine;][;comfy; ;vaginal; ;oral; ;sex; ;college; ;blowjob; ;cunnilingus; ;facesitting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aQudt8FY
 #After lusting over him for years, a Wolfess finally makes a move on Anon while they're together in their dorm room.
 
-'''julia
+'''ruby
 "I Remember You"<br>
 '''
 [;wolf; ;tribal; ;canine;][;comfy; ;colonial America; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ps2cgPPc
 #Anon is a settler out in colonial America in the middle of the untamed wilderness. Little does he know, something's been watching him these past couple months...
 
-'''julia
+'''ruby
 "And So It Goes"<br>
 '''
 [;wolf; ;tribal; ;canine;][;comfy; ;H/C; ;comforting; ;depression; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QH4y1Q8G
 
-'''julia
+'''ruby
 "House of Fun"<br>
 '''
 [;dog; ;ghost; ;canine;][;spooky; ;oral; ;sex;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Q3MDbxR3
 #Anon decides the spent the night in an abandoned house. After waking up from a dream, he realizes the house wasn't empty after all.
 
-'''julia
+'''ruby
 "Who Can It Be Now?"<br>
 '''
 [;skinwalker;][;comfy; ;innawoods; ;spooky; ;camping; ;forest; ;cave; ;vaginal; ;sex; ;impregnation;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GnaSTtS4
 #An Anon tries to enjoy a weekend getaway in the Appalachians, but something seems determined to share that fun with him.
 
-'''julia
+'''ruby
 "Ain't I Right"<br>
 '''
 [;bear;][;shitpost; ;communism; ;sex; ;noncon?; ;really short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UpzNx5gm
 #Anon is forced to undergo communist conversion therapy by mean of bear pussy
 
-'''julia
+'''ruby
 "It's Your Move"<br>
 '''
 [;badger;][;comfy; ;oral; ;vaginal; ;breakup comfort; ;sex; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tn0v8YFd
 #After a rough day with his girlfriend, Anon turns to his longtime friend for some comfort. It turns into something more.
 
-'''julia
+'''ruby
 "Island in the Sun"<br>
 '''
 [;scalie; ;komodo dragon; ;tribal;][;shipwreck; ;violence;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NiBU0f6G
 #After going on a cruise gone wrong, Anon becomes shipwrecked on a strange island. The inhabitants become very interested in their human visitor.
 
-'''julia
+'''ruby
 "Born on the Bayou"<br>
 '''
 [;scalie; ;alligator;][;exhibitionism; ;swamp; ;greentext; ;vaginal; ;sex; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HfyvXvPU
 #Anon is accosted by several Gator girls. One manages to find its way into his home. Fun ensues.
 
-'''julia
+'''ruby
 "The Diplomat of Diralia"<br>
 '''
 [;bear; ;polar bear;][;medieval; ;marriage;]X~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6eWDcE7n
 #Anon is forced to marry a Polar Bear King's daughter in order to secure peace between the Human and Anthro kingdoms. Over time, romance between the two blossoms.
 
-'''julia
+'''ruby
 "Time of the Season"<br>
 '''
 [;canine; ;German shepherd; ;dog;][;comfy; ;heat; ;cabin; ;forest; ;cuddling; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cRrdphEX
 #Anon and his German Shepard lady friend go for a week-long vacation in her Cabin out in the woods. Unbeknownst to Anon, his friend is about to enter her heat.
 
-'''julia
+'''ruby
 "Anon's Hotel Stop"<br>
 '''
 [;wolf; ;multiple; ;canine;][;comfy; ;warmth sharing; ;cuddling; ;hotel; ;forced cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JPhGSai9
 #Anon shares a motel room with three Wolves on a cold, Minnesotan winter night.
 
-'''julia
+'''ruby
 "Way Back Home"<br>
 '''
 [;hybrid; ;nightstalker; ;snakedog;][;comfy; ;Fallout; ;violence; ;desert;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CXhCjXep
 #Anon tries to track down whatever has been stealing his bosses cattle. He finds a lot more than he bargained for.
 
-'''julia
+'''ruby
 "Anons Anthro Extravaganza"<br>
 '''
 [;canine; ;border collie; ;dog; ;C cups; ;rodent; ;rat;][;comfy; ;vaginal; ;cuddling; ;alcohol; ;party; ;sex; ;marriage; ;bed sharing; ;sniffing; ;contemporary; ;BHA universe; ;blowjob; ;normie temptation; ;flirting; ;scent marking; ;french kissing; ;leaving it In;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7PBjnjwi
 #Anon's friend takes him to a party out in the sticks. Anon discovers that he likes Anthros A LOT more than he thought he did.
 
-'''julia
+'''ruby
 "Soundtrack to a Vacant Life"<br>
 '''
 [][]
@@ -735,14 +735,14 @@ by Retconned
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Retconned
 
 =============/ Coyote /=============
-'''julia
+'''ruby
 "Tricky Business"<br>
 '''
 [;canine; ;coyote; ;goddess; ;mythological creature;][;comfy; ;love/romance; ;alternate reality; ;second person;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6dQ5T2g8
 #A trickster goddess comes to the mortal world in search of a follower... and finds more than that.
 
-'''julia
+'''ruby
 "Storytime with Coyote"<br>
 '''
 [;canine; ;coyote; ;goddess; ;mythological creature;][;April fools story; ;canon?;]
@@ -750,14 +750,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qMjuSePm
 #A green text posted on April first.
 
 =============/ purple boob alien wolf /=============
-'''julia
+'''ruby
 "Spaced Out"<br>
 '''
 [;canine; ;larger anthro; ;jackal;][;comfy; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ju0TPznS
 #Anon, a stargazer, witnesses the Crash of an alien spacecraft. When he investigates, he comes across a survivor. Mutual curiosity and learning about one another's cultures ensues.
 
-'''julia
+'''ruby
 "Purple Veil"<br>
 '''
 [;canine; ;larger anthro; ;jackal;][;comfy; ;vaginal; ;sex; ;love/romance;]
@@ -765,14 +765,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7NBZxgJp
 #The direct sequel to Spaced Out. Anon, a stargazer and astronomy consultant, picks up where the first story ended and spends some time with his alien visitor. Comfiness, some occasional lewds, and space shenanigans happen. [warning: contains some feels. caution: it is recommended to read spaced out first if you haven't yet.]
 
 =============/ Cerberus /=============
-'''julia
+'''ruby
 "Painted On"<br>
 '''
 [;cerberus; ;AI; ;canine;][;alternate reality; ;love/romance; ;large breast; ;blowjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CsAPrDR4
 #Incogneato is a famed furry artist. His favorite image software dies just before he can deliver on a commission, so he downloads an unknown program known as CerberArt. The mascot, an anthro Cerberus, offers art tips and "friendly" suggestions.
 
-'''julia
+'''ruby
 "Second Coat"<br>
 '''
 [;AI; ;cerberus; ;canine;][;love/romance; ;blowjob; ;vaginal; ;alternate reality; ;second person; ;large breast;]
@@ -780,14 +780,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8c10Aw1B
 #The direct sequel to Spaced Out. Anon, a stargazer and astronomy consultant, picks up where the first story ended and spends some time with his alien visitor. Comfiness, some occasional lewds, and space shenanigans happen. [warning: contains some feels. caution: it is recommended to read spaced out first if you haven't yet.]
 
 =============/ WATCH /=============
-'''julia
+'''ruby
 "Being Watched"<br>
 '''
 [;wolf; ;canine; ;larger anthro; ;large breast;][;comfy; ;love/romance; ;hybrid; ;mystery; ;nudity; ;second person; ;boobjob; ;blowjob; ;busty; ;vaginal; ;contemporary; ;swimsuit; ;couple; ;dating; ;alternate reality;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HMeXnbeb
 #Anon finds himself stalked by a mysterious lady from another world. Upon confronting her, he agrees to help her in her observation of the human world. Comfiness ensues. Part 1 of a series.
 
-'''julia
+'''ruby
 "Still Watching"<br>
 '''
 [;wolf; ;canine; ;large breast;][;comfy; ;vaginal; ;mystery; ;love/romance; ;alternate reality; ;second person;]
@@ -795,14 +795,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PyMZxQEa
 #After meeting a mysterious woman from another world, Anon decides to go after her, making new friends along the way.
 
 =============/ Lena_Lyx /=============
-'''julia
+'''ruby
 "Lena Lynx in: Anniversary Adoration"<br>
 '''
 [;lynx; ;cartoon; ;feline;][;comfy; ;non-smut; ;established relationship; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZgGVUUr4
 #Anon and his wife celebrate both their marriage anniversary and the anniversary of the end of her favorite old cartoon.
 
-'''julia
+'''ruby
 "Lena Lynx in: Summertime Stroll"<br>
 '''
 [;lynx; ;cartoon; ;feline;][;comfy; ;non-smut; ;established relationship; ;love/romance;]
@@ -810,142 +810,142 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cEUffYPK
 #Anon and his wife celebrate both their marriage anniversary and the anniversary of the end of her favorite old cartoon.
 
 =============/ OTHER /=============
-'''julia
+'''ruby
 "Tough luck"<br>
 '''
 [;cat; ;robot; ;feline;][;very long story; ;flirting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NDFa7gpm
 
-'''julia
+'''ruby
 "Anything Flora Friend"<br>
 '''
 [;plant; ;feline; ;cat;][;friends; ;non-smut; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ahVvir2E
 #Anon succumbs to telemarketers and buys "Grow a Friend". Gets exactly that.
 
-'''julia
+'''ruby
 "For You, The Bell Tolls"<br>
 '''
 [;bat;][;non-smut; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xUSbYFXq
 #Local man befriends bat who live in a cave.
 
-'''julia
+'''ruby
 "Clean Up Your Act."<br>
 '''
 [;raccoon;][;comfy; ;cleaning; ;short story; ;non-smut; ;flirting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0h70W4nW
 #Anon home is filthy, so the demon of cleanliness come to clean.
 
-'''julia
+'''ruby
 "Your Consenting Mind"<br>
 '''
 [;deer;][;comfy; ;non-smut; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Dknw2BtF
 
-'''julia
+'''ruby
 "A Sandsational Summer"<br>
 '''
 [;fox;][;beach; ;non-smut; ;short story; ;flirting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7wjFgGQS
 #Man disproves a sentient cat made of sand while at the beach.
 
-'''julia
+'''ruby
 "Kangaroo Courting"<br>
 '''
 [;kangaroo;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/B4R0XddZ
 
-'''julia
+'''ruby
 "PYR3"<br>
 '''
 [;scp; ;scp 1471; ;mal0; ;canine;][;comfy; ;CYOA; ;sex;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wuHeYw39
 
-'''julia
+'''ruby
 "Y-4 Simulator"<br>
 '''
 [;feline; ;cat;][;simulation; ;short story;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bes0Rtn6
 #A Guest user finds himself logged in to an "interaction simulator" designed to help interspecies relations. But... he never signed up for the beta test...
 
-'''julia
+'''ruby
 "Sew Very Lost"<br>
 '''
 [;fox;][;sex; ;m:dubcon; ;femdom; ;oral; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VfWYZsEA
 #Anon, lost in the woods, decides following a mysterious red light is a reasonable course of action, and ends up finding what exactly that light is tied to...
 
-'''julia
+'''ruby
 "After Midnight"<br>
 '''
 [;spirit; ;feline;][;supernatural; ;love/romance; ;long story; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n3ZxSVXA
 #The tale of a kindly young man who gets an unexpected visitor in the wee hours of the morning... A rather unique entry in my catalog, After Midnight has a somewhat more melancholy tone at times, but is ultimately meant to be a cozy, uplifting story. It's unique among the CYOAs as the only one that lacks any official art for any characters present.
 
-'''julia
+'''ruby
 "Terminal Condition"<br>
 '''
 [;feline; ;cyborg;][;mild drama; ;emotional; ;mild violence; ;non-smut; ;long story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ABHnteCN
 #Anon, upon losing his job, heads home, only to end up in an abandoned facility. But hey, at least they have Wi-Fi. The tale of a man who awakens in a mysterious lab... and quickly realizes he's not alone. Inspired by a dream, begun on a whim, and intended to end in a single weekend, Terminal Condition quickly ballooned into a full-length feature. It's also my personal favorite finished work, featuring one of my absolute favorite "Retverse" characters. See if you can guess who it is.
 
-'''julia
+'''ruby
 "The Nightly Routine"<br>
 '''
 [][;sex; ;short story; ;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wFQuskVb
 #Anon, despite being easily frightened, develops a habit of listening to horror podcasts every night. He has his reasons...
 
-'''julia
+'''ruby
 "Trenchcats"<br>
 '''
 [;feline; ;cat; ;multiple;][;non-smut; ;humor; ;really short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pqTz30Mi
 #Horny cats want that humie cock, but they are all short and heard that humans only like tall cat ladies.
 
-'''julia
+'''ruby
 "Bones to Pick"<br>
 '''
 [;undead; ;canine; ;dog;][;sex; ;fling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xjXNtrN2
 #Anon calls a mysterious phone number he got from a party he doesn't remember, and agrees to meet the other party at a graveyard, because why not.
 
-'''julia
+'''ruby
 "Dreamcatcher"<br>
 '''
 [][;sex; ;fling?; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/78dEEx2C
 #A dream-eating monster's quest to create the perfect nightmare doesn't quite go as anticipated...
 
-'''julia
+'''ruby
 "The Postern Motel"<br>
 '''
 [;monster; ;canine;][;comfy; ;sex; ;love/romance; ;short story; ;fear boner;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wsb88mUj
 #Anon wakes up in an old motel in the middle of a storm, and soon realizes he's not alone...
 
-'''julia
+'''ruby
 "Capra Is Calling"<br>
 '''
 [;multiple;][;sex; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Aq9vi8Fr
 #An amateur hiker wanders the woods one night, only to stumble upon a ritual, much to the fortune of those performing it. A lewd short that serves as a bit of a prequel to Tricky Business.
 
-'''julia
+'''ruby
 "Diplopia"<br>
 '''
 [;sheep;][;sex; ;short story;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TKtuY4gS
 #Specimen 4N-0N undergoes rigorous experimentation.
 
-'''julia
+'''ruby
 "Aromatherapy"<br>
 '''
 [;feline; ;cat;][;comfy; ;non-insertional sex; ;established relationship; ;really short story;]
 #Anon has a strange condition, not that his wife minds.
 
-'''julia
+'''ruby
 "Aftermarket Parts"<br>
 '''
 [;cyborg?; ;fox; ;robot;][;comfy; ;emotional; ;mild horror; ;sex; ;marriage;]
@@ -957,7 +957,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qfvfGd1a
 by Lurk_Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Lurk_Anon
 
-'''julia
+'''ruby
 "A Claim To My Heart"<br>
 '''
 [;lizard; ;scalie;][;comfy; ;sex; ;suspense; ;violence;]
@@ -965,56 +965,56 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/w18DwaBd (part
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XQtKKayF (part 2)
 #Anon has a new girlfriend, a special lady named Opal. What makes her different to any other girlfriend he's had though? She's an anthro lizard. Things are just fine until Anon goes to visit her home, and another lizard takes an interest in him.
 
-'''julia
+'''ruby
 "Poolboy Blues"<br>
 '''
 [;cougar; ;milf; ;feline; ;older anthro;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wJthx1rp
 #Anon is working as a poolboy/gardener/handyman to earn enough money for school. He starts working for a cougar milf, who may have more in mind for him than just trimming her bush...
 
-'''julia
+'''ruby
 "A White Wedding"<br>
 '''
 [;horse;][;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jctEsZgn
 #While attending a family wedding, a lonely Anon spots an anthro mare in a spot of bother. It doesn't take long for the two to get acquainted... What's a good wedding without a little 'horseplay'?
 
-'''julia
+'''ruby
 "A lot of love to give"<br>
 '''
 [;fox; ;multiple;][;handcuffs;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bN8KA8Wa
 #Anon has a problem, two problems in fact. The two teenage vixen daughters of his love. Can he survive their advances until she gets home? Surely their mother can put them straight...
 
-'''julia
+'''ruby
 "Toni's Frosting"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ukvybktp
 #Lewd one-shot. Toni the Tigress is a bored cereal mascot who travels from place to place promoting a particular brand of frosted morning delight. On one such trip however she catches the eye of a certain someone and its not long before she's singing a very different catchy jingle indeed...
 
-'''julia
+'''ruby
 "Bunny Twist"<br>
 '''
 [;rabbit;][;comfy; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2sr6VnMM
 #Anon goes to visit his friend Lita, the cute anthro bunny, when his regular girlfriend takes him for granted. Lita has a plan to cheer Anon up however, and show him that sometimes the grass really is greener on the other side.
 
-'''julia
+'''ruby
 "A Perfect End To Bad Day"<br>
 '''
 [;skunk;][;comfy; ;established relationship; ;love/romance; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/v620r7di
 #Anon is having a bad day, in his bad life. When he gets home however he doesn't find the usual emptiness waiting for him. He finds something far better. Is it real? Is he going mad? Does he care? The sexy friendly skunk girl will help him find out one way or another...
 
-'''julia
+'''ruby
 "My Lady in Waiting"<br>
 '''
 [;dragon; ;scalie;][;comfy; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e1JRhva3
 #Created in response to a sad picture someone posted of a sad dragon waiting for her prince charming. Anon goes to a castle looking for a maiden but finds only the dragon that was guarding her. Stuff happens. Lewd stuff.
 
-'''julia
+'''ruby
 "Today's Demons are Tomorrow's Angels"<br>
 '''
 [;hare;][;comfy; ;love/romance; ;sex; ;adventure;]
@@ -1022,40 +1022,40 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pJ3TkgzJ (Prol
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/g4z5hZKn (Full story)
 #Anon is a soldier of the Republic, but after dying an unfortunate death he finds himself lost in a form of furry purgatory with a demonic legion on his trail. Can he somehow escape with his soul intact? It will take the help of a certain hare to find out.rn
 
-'''julia
+'''ruby
 "Anon's Hairy Fox Hunt Alternate ending (This ending was made by Strong_Anon, not Lurk_Anon)"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xJLNLtJh
 
-'''julia
+'''ruby
 "Dont Touch the Bingle"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/12T6a447
 
-'''julia
+'''ruby
 "Stitched up"<br>
 '''
 [;feline;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xkgwPhsk
 #Its Halloween and Anon finds himself trapped in an old abandoned house. Something is in there with him however, its coming for him, and it wants his body...
 
-'''julia
+'''ruby
 "Anon's Hairy Fox Hunt"<br>
 '''
 [;fox;][;comfy; ;love/romance; ;sex; ;peril;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/senv9P5c
 #Anon goes to stay with family out in the countryside to rest and recover. While there however he finds more than he bargained for, thanks to a fox named Freja and a dick uncle called Steve...
 
-'''julia
+'''ruby
 "Carefull what you wish for"<br>
 '''
 [][;f:attempted rape; ;m:rape;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vkHKqcj3
 #Anon wants a small anthro girl to dominate, a funky chemical cocktail later and he almost has what he wished for... but fate has other plans... bigger plans...
 
-'''julia
+'''ruby
 "Shoulda fixed the heating"<br>
 '''
 [;scalie; ;lizard;][;comfy;]
@@ -1068,142 +1068,142 @@ by Deterna
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Deterna
 
 =============/ The Vixen /=============<br>
-'''julia
+'''ruby
 "The Vixen of Rock"<br>
 '''
 [;fox;][;comfy; ;m:pov; ;confession of feelings; ;singer; ;love/romance; ;non-smut; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nrPLDcqx
 
-'''julia
+'''ruby
 "Vikki's New Leaf"<br>
 '''
 [;fox;][;comfy; ;m:pov; ;Vikki sequel; ;love/romance; ;non-smut; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sJiAFxbz
 
-'''julia
+'''ruby
 "First Christmas"<br>
 '''
 [;fox;][;Christmas; ;comfy; ;m:pov; ;vixen of rock short sequel; ;love/romance; ;snow; ;non-smut; ;cuddling; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/r0z0ynr9
 
 =============/ other /=============
-'''julia
+'''ruby
 "Midnight Sun"<br>
 '''
 [;feline; ;snow leopard;][;m:pov; ;yakuza; ;fling; ;short story; ;seduction;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m29Avujd
 #Americanrdetective goes after Yakuza crime boss. The crime boss then makes a deal with the detective to not compromise here position in exchange for a good time.
 
-'''julia
+'''ruby
 "Rat Faced"<br>
 '''
 [;rat; ;rodent;][;comfy; ;non-smut; ;short story; ;m:pov; ;cuddling; ;sleeping embrace;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AX9Y6QJp
 #Man comforts rat friend who had too much to drink
 
-'''julia
+'''ruby
 "B-Witched"<br>
 '''
 [;cat?; ;feline;][;comfy; ;m:pov; ;one off; ;witch; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iTu1Jg9n
 #Witch makes love potion for anon.
 
-'''julia
+'''ruby
 "The Lioness Won't Sleep Tonight"<br>
 '''
 [;lion; ;feline;][;m:pov; ;heat; ;roommates; ;fling; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RFFUjzFp
 #Anon comes home from work to his lioness roommate who's in insufferable heat and he makes her feel the love tonight
 
-'''julia
+'''ruby
 "Like the Deserts Miss the Rain"<br>
 '''
 [;lynx; ;feline;][;crush; ;going away; ;sad; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8CuKKc1y
 #A childhood friend of Anon is blue that he's moving away and never had the chance to say there feelings, but will this break the silence?.
 
-'''julia
+'''ruby
 "Pendant of Oak (POEM)"<br>
 '''
 [;white lioness; ;lion; ;feline;][;fantasy; ;sad; ;winter; ;poetry; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QkPyG0Ge
 #Anthro female mourning loss of her human lover
 
-'''julia
+'''ruby
 "The Eternal Fire"<br>
 '''
 [][;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YGL8r0Rw
 #A chemical war broke out and Anon is a lone wanderer in a waste-land, he decides to investigate the company's building who made the chemicals and finds someone else interested as well and finds something that could change everything.
 
-'''julia
+'''ruby
 "The Fire is so Deerlightful COLL"<br>
 '''
 [;reindeer; ;deer; ;cervine;][;comfy; ;Christmas; ;party; ;love/romance; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/naNsjYg2
 #Man cheers up reindeer at a Christmas part
 
-'''julia
+'''ruby
 "2.0 can be a bad as 1 HIATUS"<br>
 '''
 [;scp; ;scp 1471; ;wolf; ;abyssal wolf; ;mal0; ;mal0 ver. 2.0; ;canine;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/a8t9tQAK
 #Anon downloads a mysterious app on his phone in hopes of a girlfriend
 
-'''julia
+'''ruby
 "The Spirit of the Forest"<br>
 '''
 [;wolf; ;tribal; ;native American; ;canine;][;comfy; ;love/romance; ;suspense; ;violence; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/G5y37dgP
 #Anon goes hiking and injuries himself and is taken care of by a native wolfess
 
-'''julia
+'''ruby
 "The Thief of Love"<br>
 '''
 [;khajiit; ;feline;][;comfy; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pv045aNz
 #Dragon born falls in love with a Khajiit
 
-'''julia
+'''ruby
 "The Cherry Sisters"<br>
 '''
 [;lion; ;feline; ;scalie; ;snake; ;saluki; ;horse; ;mult. species;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/505ADYW3
 #Anon gets rejected by a human girl so anthro girls show him what he's been missing
 
-'''julia
+'''ruby
 "The Cost of Loving"<br>
 '''
 [;werewolf; ;canine; ;wolf;][;non-smut; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mF9iiBSD
 #Anon thinks his girlfriend has broken up with him on Halloween but it turns out there's more too it.
 
-'''julia
+'''ruby
 "Cool Cat Helps Her Friend"<br>
 '''
 [;lion; ;feline;][;erotic; ;shitpost; ;facesitting; ;footjob; ;humor;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YXMMvpc9
 
-'''julia
+'''ruby
 "The Empress"<br>
 '''
 [;feline; ;Mirage;][;comfy; ;really short story; ;love/romance; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/x7gACNa5
 
-'''julia
+'''ruby
 "HuMANity Con"<br>
 '''
 [;canine; ;dog;][;contains comfy; ;drama; ;love/romance; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yc8cAanv
 #Anon goes to a human convention and meets a girl with a human fetish.
 
-'''julia
+'''ruby
 "Redwood Pines"<br>
 '''
 [;snow leopard; ;feline;][;contains comfy; ;mystery; ;murder mystery; ;f:attempted rape; ;violence; ;peril; ;suspense; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/22vYwzFn
 
-'''julia
+'''ruby
 "Leaves of autumn"<br>
 '''
 [;yeen; ;hyena;][;comfy; ;love/romance; ;non-smut; ;really short story;]
@@ -1215,96 +1215,96 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3Ei8viBK
 by WinterAnon_
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/WinterAnon_
 
-'''julia
+'''ruby
 "Life of A Pet"<br>
 '''
 [;pet; ;border collie; ;canine;][;really short story; ;non-smut; ;adoption;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/j5XT70Ts
 #Man adopts anthro as pet.
 
-'''julia
+'''ruby
 "Polar warmth"<br>
 '''
 [;curvy; ;Russian; ;DD cup; ;polar bear;][;really short story; ;winter; ;larger anthro; ;roommates; ;cuddling; ;bed sharing; ;warmth sharing; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nNhvC9Bq
 #Man gets a polar bear roommate
 
-'''julia
+'''ruby
 "Fear"<br>
 '''
 [;canine;][;soldier; ;Afghanistan; ;war; ;violence;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1GYr8icj
 
-'''julia
+'''ruby
 "Locker Room Lay-down"<br>
 '''
 [;canine; ;dog; ;dalmatian;][;sex; ;heat; ;fling?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sPCphKJP
 #Anon minding his own business finds a Dalmatian struggling with something. Anon the offers to help.
 
-'''julia
+'''ruby
 "Stable Relationship"<br>
 '''
 [;horse;][;BDSM?; ;established relationship; ;married couple; ;really short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NdP0q0CU
 #Anon and his horse wife have a little fun
 
-'''julia
+'''ruby
 "Primal Sands"<br>
 '''
 [;promiscuous; ;afghan hound; ;canine; ;dog;][;oppressed anthros; ;short story; ;maledom; ;comfort women; ;f:dubcon;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/N39CEtFq
 #soldier in Afghanistan utilized the anthro comfort women as a result of the Arabic slave trade.
 
-'''julia
+'''ruby
 "Boobcat"<br>
 '''
 [;lynx; ;feline;][;established relationship; ;non-smut; ;really short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pF92qUkh
 
-'''julia
+'''ruby
 "Kitty's (Seasonal) Cream"<br>
 '''
 [;cheetah; ;feline;][;oral; ;new years; ;fling?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SzE6yqiN
 #You stumble into a bar right near midnight on New Years Eve. You meet a MILFy cheetah and end up giving the kitty her cream.
 
-'''julia
+'''ruby
 "How to save a life"<br>
 '''
 [;golden retriever; ;dog; ;canine;][;suicidal; ;depression; ;short story; ;bed sharing; ;H/C; ;comforting; ;non-smut;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AsucLT2K
 #You decide to take your own life. A friendly retriever stops you. You make plans for breakfast and see where it goes.
 
-'''julia
+'''ruby
 "Coffee Pawz"<br>
 '''
 [;wolf; ;canine;][;heat;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8VZHK053
 #Take the seat of a female wolf as you join your boyfriend for coffee. Coffee induces heat. Have fun. Kind of fluffy and teasing but sex later on.
 
-'''julia
+'''ruby
 "Safari Deadly"<br>
 '''
 [;feline; ;lion; ;larger anthro;][;short story; ;cunnilingus; ;blowjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/i4zk8ZBh
 #Four nugger abscond with Anon and dump him into the African wilderness. He could come back leading the pride. 4channiness and then sex.
 
-'''julia
+'''ruby
 "Christmas Puppy"<br>
 '''
 [;DD cup; ;canine; ;pet; ;dog;][;oral; ;m:master/f:slave; ;Christmas;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/W5teMgVY
 #An away-from-home Anon gets an early morning package. What's inside might just turn out to be the best Christmas present ever.
 
-'''julia
+'''ruby
 "Want of an Alpha"<br>
 '''
 [;wolf; ;canine;][;comfy; ;established relationship; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2j6T7M97
 #You get a hoodie from your girlfriend. That night, she needs an alpha.
 
-'''julia
+'''ruby
 "Winter Heat"<br>
 '''
 [;wolf; ;canine;][;comfy; ;established relationship; ;sex;]
@@ -1317,107 +1317,107 @@ by Cheetah_Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Cheetah_anon
 
 =============/ CHUBBY Cheetah /=============
-'''julia
+'''ruby
 "Chubby Cheetah"<br>
 '''
 [;cheetah; ;feline;][;bondage; ;petplay; ;threesome; ;adultery; ;mother/daughter incest; ;incest; ;smut focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wXR1uYKZ
 #Constantly being humiliated for your running speed by a cheetah you take the chance of romance with her chubby sister. During your dates you soon find out that she and her mother are kinkier than you thought.
 
-'''julia
+'''ruby
 "Chubby Cheetah 2: Guess who's Back"<br>
 '''
 [;cheetah; ;feline;][;threesome; ;smut focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ssAf1QPV
 #Chubby Cheetah in Africa and Chana's sister gets some human too.
 
-'''julia
+'''ruby
 "Chubby cheetah Short story 1: Chanas breeding"<br>
 '''
 [;cheetah; ;feline;][;sex; ;smut focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FmArQT2W
 
-'''julia
+'''ruby
 "Chubby cheetah Short story 2: “Venus” Holiday Resort"<br>
 '''
 [;cheetah; ;feline;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A0JBKZwk
 
 =============/ other /=============
-'''julia
+'''ruby
 "Akari and Mothra"<br>
 '''
 [;insect; ;moth;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NtgDFUZ0
 
-'''julia
+'''ruby
 "Anon and Me on the Cat planet"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bhCaXj8N
 
-'''julia
+'''ruby
 "Redwood Resort"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nswk06rj
 
-'''julia
+'''ruby
 "Sled dog science"<br>
 '''
 [;canine;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nm4rrBP2
 
-'''julia
+'''ruby
 "Buff Bear"<br>
 '''
 [;bear;][;non-smut; ;comforting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NXJDZ65X
 #Your personal trainer is hiding a dark and troublesome secret. Do you survive her training long enough to learn it ?
 
-'''julia
+'''ruby
 "Slow and steady"<br>
 '''
 [;sloth;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NzkNHd1P
 #Your camping trip with a Sloth gets dangerous when a snowstorm hits
 
-'''julia
+'''ruby
 "Mil(f)k Hunter"<br>
 '''
 [;cow;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CMSLhJyK
 #You are always on the hunt for milk and today you saw a cowgirl worthy of your traps.
 
-'''julia
+'''ruby
 "Petting Zoo"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DDB6W2gS
 #A very special zoo is waiting for you after a long day of work.
 
-'''julia
+'''ruby
 "Competition"<br>
 '''
 [;rat; ;rodent; ;monkey;][;vaginal; ;love/romance?; ;sex toys;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Aj6ABn9R
 #Two girl, one dick. Who will win this pleasure contest and defend the honour of her species
 
-'''julia
+'''ruby
 "Canada Day"<br>
 '''
 [;beaver;][;light bondage;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZSDr1GcZ
 #A beaver is wishing you a happy Canada day, after you just moved there. Get your hockey stick and feast on some maple syrup.
 
-'''julia
+'''ruby
 "Farm life"<br>
 '''
 [;sheep; ;horse; ;multiple;][;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mHfT6TB8
 #Take a tour with your wagon full of sheep to shear them. Give your horses the whip and off you go.
 
-'''julia
+'''ruby
 "Lonely panther girl likes bread"<br>
 '''
 [;panther; ;feline;][;sex;]
@@ -1430,21 +1430,21 @@ by Mousguy
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Mousguy
 
 =============/ Chick and Jaz /=============
-'''julia
+'''ruby
 "Chickenman's wild ride"<br>
 '''
 [;tiger hybrid; ;hybrid; ;feline;][;contains comfy; ;sex; ;love/romance; ;drama; ;long story; ;bed sharing; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/v6Y5yeN9
 #A story about a man who falls in love with a seemingly mentally challenged tiger that slowly shows off how seemingly everyone around them is broken in one way or another, but still shows they're mostly good people on some level. A fair bit of gentle symbolism.
 
-'''julia
+'''ruby
 "Chickoween"<br>
 '''
 [;tiger hybrid; ;feline;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tiLCYDG7
 #Chickenman from "Chickenmans wild ride" got to a Halloween party and due to space magic is able to meet several different characters from other stories and visit some very different places
 
-'''julia
+'''ruby
 "Chickmas"<br>
 '''
 [;tiger hybrid; ;feline;][;Christmas;]
@@ -1452,54 +1452,54 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y7FVLeiQ
 #The Chickenman and His friends Fly to meet Jasmine and her parents, Grant and Olga. festivities and gift giving all around on a wonderful Christmas day
 
 =============/ other /=============
-'''julia
+'''ruby
 "Ray of Hope"<br>
 '''
 [;snakedog; ;nightstalker; ;hybrid;][;violence; ;non-smut; ;rescue; ;slavery; ;implied slave sex; ;gore; ;Fallout;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9GrszLYN
 
-'''julia
+'''ruby
 "Take No Prisoners"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BvJJxme6
 #Something seems odd, but "take no prisoners" is chapter XIII of chickenman.
 
-'''julia
+'''ruby
 "Bedding the Barioth"<br>
 '''
 [;feline;][;comfy; ;Monster Hunter;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VXa3epge
 
-'''julia
+'''ruby
 "/k/anon love bloom"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3FBPMgFr
 #a wolfess and an autist from /k/ wearing power armor face off in a best of 3 wrestling showdown, the wolfess has other plans however
 
-'''julia
+'''ruby
 "Atom Bomb Baby"<br>
 '''
 [;nightstalker;][;comfy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Bf1FQafZ
 #in the Mojave wasteland a Vault dweller is sent on a mission by the big MT to pacify and remove a collar from a deluxe snekdog (Nightstalker from fallout NV)
 
-'''julia
+'''ruby
 "Warmer than metal"<br>
 '''
 [;robot;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tY79FVHd
 #Scavenger picks through scuttled military starships hoping to find stuff to sell, find robotic anthro instead
 
-'''julia
+'''ruby
 "True heroics"<br>
 '''
 [;rodent;][;comfy; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dktCsKae
 #in a quest to rid the world of a Daemon lordess, a Charismatic Librarian is forced front and center to take on the powerful sorceress using his wits
 
-'''julia
+'''ruby
 "Valjah thread green"<br>
 '''
 [;fox;][]
@@ -1510,56 +1510,56 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yJzvMbTU
 by PIXELATED_HOBO
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Pixelated_Hobo
 
-'''julia
+'''ruby
 "Treading Patience"<br>
 '''
 [;otter;][;comfy; ;sex; ;impregnation;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yZKXhaWw
 #After waiting for years, Anon rewards his young paramour with the graduation present she's been dreaming of.
 
-'''julia
+'''ruby
 "Lightning in a Bottle"<br>
 '''
 [;rodent; ;mouse;][;comfy; ;impregnation; ;sex; ;handcuffs; ;backstory; ;childhood friends; ;femdom; ;slight femdom; ;blowjob; ;cunnilingus; ;motel;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nq56dhyt
 #A frustrated young man runs away from his home town to make a name for himself. All the while his childhood sweetheart waits for him to come home, and when he does, she has a plan to make him stay.
 
-'''julia
+'''ruby
 "Pactbearer"<br>
 '''
 [;demon; ;yeen; ;hyena;][;contains comfy; ;medieval; ;magic; ;companionship;]O~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/d2NawY3v
 #Demon is magically bonded to knight because his grandmother was a witch and made a pact with the demon.
 
-'''julia
+'''ruby
 "Femme Fatale"<br>
 '''
 [;cat; ;feline;][;sex; ;crime; ;crime underworld; ;mob bosses;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ANmmmGeL
 #Local peon gets mad mafia cat pussy, but as a result finds that he is thrown into a mafia crime underworld. However the cat was a big wig, so she is watching over him and making sure her fucktoy? Lover? does not get into to much trouble
 
-'''julia
+'''ruby
 "Whiskey Kisses Pt. 1"<br>
 '''
 [;lynx; ;feline;][;comfy; ;long distance; ;sex;]o~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3kGrLCRA
 #Anon goes on a six hour road trip with his coworkers. After dropping them off, he heads over to meet his long distance girlfriend face to face for the first time.
 
-'''julia
+'''ruby
 "Tough to Love"<br>
 '''
 [;canine; ;doberman; ;dog;][;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GR5CRpz9
 #Two lovers let down their rough exteriors and behaviors in a private moment. I would love to describe more but that would ruin the TWEEST.
 
-'''julia
+'''ruby
 "Preferred Treatment"<br>
 '''
 [][;cyberpunk; ;mild body horror; ;named mc; ;harem; ;smut focused;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rgmLNxaz
 #Now imagine that but in that crazy ASCII font shit every GameFAQ guide used to do. More informative tags to come later and on a per chapter basis, but for now:
 
-'''julia
+'''ruby
 "The Touch of Luxury"<br>
 '''
 [][]O
@@ -1571,94 +1571,94 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RQAGpbBM
 by Kaktus-Nsfw
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Kaktus-nsfw
 
-'''julia
+'''ruby
 "Embraced by the Cold"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vzfTZpCk
 
-'''julia
+'''ruby
 "Deathroll in Dade"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3sXEzNiG
 
-'''julia
+'''ruby
 "Scars"<br>
 '''
 [;canine; ;wolf;][;contains comfy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/a7P4T0ur
 
-'''julia
+'''ruby
 "Not-skaven/Rat girl"<br>
 '''
 [;rodent; ;rat;][;contains comfy; ;sex; ;kidnapping; ;fantasy; ;m:dubcon; ;m:dubcon --> m:con; ;medieval; ;vaginal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JgjhMBpp
 #Local man is kidnapped by large rat women for sexual purposes. He eventually likes it
 
-'''julia
+'''ruby
 "Spotted Hyena girl or something"<br>
 '''
 [;yeen; ;hyena;][;comfy; ;sex; ;vaginal; ;prom; ;high school;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0GYT8WLw
 
-'''julia
+'''ruby
 "Sleepy bear or something"<br>
 '''
 [;bear;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/72G042Ug
 
-'''julia
+'''ruby
 "Alien Intimacy"<br>
 '''
 [;semi-feral; ;semi-feral -> non-feral; ;xenomorph; ;alien;][;violence; ;sex; ;peril; ;space; ;action; ;sci-fi; ;marriage; ;very long story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/v4dv1vZp
 
-'''julia
+'''ruby
 "Glass frog or something"<br>
 '''
 [;glass frog; ;amphibian; ;frog;][;comfy; ;blowjob; ;movie; ;dating; ;date; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/erjFzj6B
 
-'''julia
+'''ruby
 "Mountain goat or something"<br>
 '''
 [;goat;][;sex; ;impregnation; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zvRP5Fjg
 #Local man who got lost in woods, is saved by goat, who later makes him compensate her by starting a family together.
 
-'''julia
+'''ruby
 "Bastemon nonsense"<br>
 '''
 [;digimon;][;sex; ;mates; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FH7c359N
 
-'''julia
+'''ruby
 "Family picnic or something"<br>
 '''
 [;elephant;][;comfy; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ci6X57nN
 
-'''julia
+'''ruby
 "Dogs or something"<br>
 '''
 [;dog; ;canine; ;larger anthro;][;comfy; ;sex; ;drunk;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QHfPtvVz
 #Anon's significant other comes home after a night of drinking to meet a worried anon. It plays out like some sort of gender reversal where the anthro is the reckless drunk husband and anon is the worried wife. They mediate the situation with sex.
 
-'''julia
+'''ruby
 "Dofus Simone"<br>
 '''
 [][]
 http://pastebin.com/sDsnuMB7
 
-'''julia
+'''ruby
 "Snake nonsense"<br>
 '''
 [;snake; ;scalie;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KcFg2D5D
 
-'''julia
+'''ruby
 "Amorous Argentine"<br>
 '''
 [;reptile; ;Argentine Tegu; ;lizard; ;tomboy; ;a little thick;][;French kissing; ;brief handjob; ;penetration; ;creampie; ;attempts at vague romance; ;casual modern setting; ;love/romance; ;sex; ;comfy;]
@@ -1671,87 +1671,87 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Sham_
 https://shamm.sofurry.com/
 
 =============/ Placid Knoll /=============
-'''julia
+'''ruby
 "Enchanted"<br>
 '''
 [;milf; ;older anthro;][;placid knoll;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WVcUZr1V
 
-'''julia
+'''ruby
 "Shooting for the Star"<br>
 '''
 [;feline;][;comfy; ;placid knoll;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pB8qa5G4
 
-'''julia
+'''ruby
 "In the Heat of the Night"<br>
 '''
 [;feline;][;comfy; ;placid knoll; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dmCNwGCE
 
-'''julia
+'''ruby
 "Hell-O Nurse."<br>
 '''
 [;fox;][;comfy; ;placid knoll;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zfGTgmU0
 
 =============/ Cassie Universe /=============
-'''julia
+'''ruby
 "Dream a Little Dream of Me"<br>
 '''
 [;canine; ;wolf;][;comfy; ;sex; ;vaginal; ;creampie; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KAGWdZPv
 
-'''julia
+'''ruby
 "Because You're Different"<br>
 '''
 [;canine; ;wolf;][;comfy; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qXQm3iyn
 
-'''julia
+'''ruby
 "Heaven and Hell"<br>
 '''
 [;canine; ;wolf;][;comfy; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LSWzeTfy
 
-'''julia
+'''ruby
 "Smile For The Camera"<br>
 '''
 [;cheetah; ;blind; ;feline; ;camgirl;][;comfy; ;sex; ;roommates; ;love/romance; ;confession of feelings; ;best friends;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NCreWYk6
 
 =============/ OTHER /=============
-'''julia
+'''ruby
 "To Make Love"<br>
 '''
 [][;poetry; ;very short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aY4FH7nX
 
-'''julia
+'''ruby
 "Lucy's Very Fun Adventures"<br>
 '''
 [;shy; ;cat; ;robust build; ;homeless; ;feline;][;mysterious origins; ;friendship;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DEmjSCsZ
 
-'''julia
+'''ruby
 "The Day We Fall"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7SY8UReT
 
-'''julia
+'''ruby
 "1939/12/25"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UYax26HM
 
-'''julia
+'''ruby
 "Late Night Lovin’"<br>
 '''
 [;cheetah; ;feline;][;comfy; ;established relationship; ;vaginal; ;sex; ;love/romance; ;slice of life;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0nvUrR9H
 
-'''julia
+'''ruby
 "The Need For Speed"<br>
 '''
 [;tomboy?; ;Australian shepherd; ;mechanic; ;canine; ;dog;][;racing; ;pit crew;]~
@@ -1763,14 +1763,14 @@ by Bed-man
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Bed-man
 https://www.furaffinity.net/user/bed--man/
 
-'''julia
+'''ruby
 "The Mythic Hunt"<br>
 '''
 [;fox;][;fantasy; ;adventure;]
 https://www.sofurry.com/view/1579518 (Part 1)
 https://www.sofurry.com/view/1588037 (Part 2)
 
-'''julia
+'''ruby
 "Fool's Find"<br>
 '''
 [;scalie; ;lizard;][;fantasy; ;sex; ;long story;]
@@ -1781,83 +1781,83 @@ https://www.sofurry.com/view/1555524 (Part 4)
 https://www.sofurry.com/view/1564260 (Part 5)
 https://www.sofurry.com/view/1569008 (Part 6)
 
-'''julia
+'''ruby
 "Priest of Myrrah"<br>
 '''
 [;wolf; ;canine;][;very long story; ;lovers; ;established relationship; ;sex; ;action; ;adventure;]~
 https://www.sofurry.com/view/1439224
 
-'''julia
+'''ruby
 "My Sunshine"<br>
 '''
 [][;father/daughter; ;non-smut;]
 https://www.sofurry.com/view/1436583
 
-'''julia
+'''ruby
 "Little Drop of Poison"<br>
 '''
 [;kobold; ;smaller anthro; ;scalie;][;comfy; ;love/romance; ;non-smut;]
 https://www.sofurry.com/view/1433750
 
-'''julia
+'''ruby
 "Space Croc"<br>
 '''
 [;scalie; ;crocodile; ;larger anthro;][;short story; ;comfy; ;space; ;space mining; ;cunnilingus; ;sex; ;blowjob; ;anal; ;vaginal; ;spooning; ;after sex embrace; ;impregnation; ;family; ;love/romance; ;cuddling; ;fantasy; ;sci-fi;]
 https://www.sofurry.com/view/1397999
 #Man recounts how he met his Undali wife and created a family together?
 
-'''julia
+'''ruby
 "Bangaa Thing"<br>
 '''
 [;bangaa; ;lizard; ;scalie;][;comfy; ;Final Fantasy; ;implied sex; ;non-smut; ;love/romance; ;very short story;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kQZK3ZPK
 #Man recalls how he met and fell in love with his significant lover
 
-'''julia
+'''ruby
 "Good Ol' Southern Comfort"<br>
 '''
 [;raccoon; ;milf; ;older anthro;][;seduction; ;lewd;]X~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5HX5PVWQ
 
-'''julia
+'''ruby
 "Wake Me Up Before You Boko"<br>
 '''
 [;bokoblin;][;Legend of Zelda; ;medieval; ;fantasy; ;short story; ;blowjob; ;fling; ;throatfuck;]
 https://www.sofurry.com/view/1404518
 #Hyrulian guard takes a nap near the lake
 
-'''julia
+'''ruby
 "If You Give a Moogle a Drink..."<br>
 '''
 [;moogle;][]
 https://www.sofurry.com/view/1382786
 
-'''julia
+'''ruby
 "Something About Mal0"<br>
 '''
 [;scp; ;scp 1471; ;canine;][;non-smut;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FgVnbibn
 
-'''julia
+'''ruby
 "A Man and a Beast"<br>
 '''
 [;wolf; ;werewolf; ;canine;][;short story; ;contains comfy; ;Bloodborne; ;cuddling; ;non-smut; ;fantasy;]
 https://www.sofurry.com/view/1382785
 
-'''julia
+'''ruby
 "Old Dog, New Tricks"<br>
 '''
 [;pomeranian; ;canine; ;single mom; ;dog; ;older anthro; ;milf;][;non-smut;]
 https://www.sofurry.com/view/1382784
 
-'''julia
+'''ruby
 "Now the Hungry Lion Roars"<br>
 '''
 [;feline; ;lion;][]
 https://www.sofurry.com/view/1382783
 #Rando guy 'services' his lioness boss.
 
-'''julia
+'''ruby
 "Hungry Eyes"<br>
 '''
 [;palico; ;smaller anthro; ;feline;][;Monster Hunter; ;medieval; ;fantasy; ;non-smut;]
@@ -1869,43 +1869,43 @@ https://www.sofurry.com/view/1382782
 by Fritewag1
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Fritewag1
 
-'''julia
+'''ruby
 "Messy Memories"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TC6iyU09
 
-'''julia
+'''ruby
 "E1M1"<br>
 '''
 [;rabbit;][;shitpost; ;very short story; ;BHA universe;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z5pam1Gy
 
-'''julia
+'''ruby
 "Love Bites"<br>
 '''
 [;shark;][;drama; ;blowjob; ;unintentional penis mutilation; ;terminator penis; ;relationship reconciliation; ;BHA universe;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mW5Fz8nb
 
-'''julia
+'''ruby
 "Digital Love"<br>
 '''
 [;Remanon; ;digimon;][;lewd;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KC36Me2u
 
-'''julia
+'''ruby
 "Itsy Bitsy Spider"<br>
 '''
 [;spider; ;insect; ;larger anthro; ;taller anthro;][;comfy; ;bullying; ;comforting; ;new apartment; ;sex; ;love/romance; ;vaginal; ;french kissing;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bS0RwFxv
 
-'''julia
+'''ruby
 "Ruth the bat"<br>
 '''
 [;bat; ;nicely padded; ;thicc?;][;comfy; ;roommates; ;friends; ;sex; ;cunnilingus; ;cuddling; ;love/romance; ;after sex embrace; ;french kissing; ;sleeping embrace;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/56jEtnzt
 
-'''julia
+'''ruby
 "Kobold Bride"<br>
 '''
 [;kobold; ;scalie;][;forced together;]~
@@ -1916,58 +1916,58 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YWURCTkG
 by Oliver_Hart
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Oliver_Hart
 
-'''julia
+'''ruby
 "Beating the Heat"<br>
 '''
 [;wolf; ;canine;][;roommates; ;heat; ;blowjob; ;spanking; ;creampie; ;sex; ;love/romance?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ysev4tB5
 
-'''julia
+'''ruby
 "The Leaves of Fall"<br>
 '''
 [;Reverse trap; ;rabbit;][;comfy; ;autumn; ;Halloween; ;slow burn; ;high school; ;adventure; ;comical; ;long story; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gyfAjY5M
 #You've never really 'fit in' with the heavily divided Ranchview High School crowd. Jock, Goth, Prep, Cheerleader, Nerd...you were never any of these. But as Halloween approaches, strange things start happening, and a dark ritual begins with the finding of a curious red book. It's a race against time for you and your friends to stop a group of students from ushering in an age of darkness, and to also figure out just what the hell is wrong with that rabbit.
 
-'''julia
+'''ruby
 "The Pits"<br>
 '''
 [;wolf; ;canine;][;non-smut; ;peril;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aZCn718h
 
-'''julia
+'''ruby
 "A Long Way From Home"<br>
 '''
 [;Heeler; ;Blue Heeler; ;canine;][;rural; ;sci-fi; ;peril; ;violence; ;flirting;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AxQmBRH4
 #Summary: A picture is worth a thousand words, and someone’s life.
 
-'''julia
+'''ruby
 "Liquid Courage"<br>
 '''
 [;cheetah; ;feline;][;sex; ;flirting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/FcRqG5Nc
 #So, there's a human, a cheetah, and some crows in this bar...
 
-'''julia
+'''ruby
 "The illegality of booping"<br>
 '''
 [][;really short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/24ksYbZu
 
-'''julia
+'''ruby
 "STALKER - Getting to know one another"<br>
 '''
 [;fox;][;f:attempted rape; ;prostitution; ;violence;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ci3z3bt2
 
-'''julia
+'''ruby
 "If A Bear Is Hungry"<br>
 '''
 [;promiscuous; ;bear;][;roommates; ;hatefuck; ;gangbang; ;anal; ;facefuck; ;spanking;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BUPe4Mih
 
-'''julia
+'''ruby
 "A Red Winter"<br>
 '''
 [][]
@@ -1977,25 +1977,25 @@ https://oliver-hart.itch.io/a-red-winter
 -----------------------------------------------------------------------------------------------------------------------------
 by Lotus_Anon
 
-'''julia
+'''ruby
 "Drinking to Forget"<br>
 '''
 [;bermecian; ;Freya; ;rodent;][;comfy; ;love/romance; ;sex; ;short story; ;physic powers;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/q3uhMT49
 
-'''julia
+'''ruby
 "Black Rose"<br>
 '''
 [;rat; ;rodent; ;skaven;][;ink-eyes fic;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n8uYkm0n
 
-'''julia
+'''ruby
 "Lamb's Respite"<br>
 '''
 [;lamb; ;smaller anthro; ;avatar of death; ;deity;][;medieval; ;fantasy; ;humor; ;facesitting; ;war; ;cunnilingus; ;fling; ;handjob; ;ball fondling; ;musk; ;short story; ;smut focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BTpNcxFU
 
-'''julia
+'''ruby
 "Underbelly"<br>
 '''
 [;rodent; ;squirrel; ;snake;][;dystopia; ;prostitution; ;crime underworld; ;crime; ;lone humie in anthro world; ;sex; ;creampie; ;violence; ;cuddling; ;sleeping embrace; ;flirting; ;exhibitionism;]O~
@@ -2007,57 +2007,57 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/H5UxcWJe
 by Zig-Zag-specialist
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Zig-Zag-specialist
 
-'''julia
+'''ruby
 "KNIGHT"<br>
 '''
 [;fox; ;vixen;][;recurring dreams; ;love/romance; ;confession of feelings; ;medieval; ;contemporary; ;questioning reality; ;longing; ;non-smut;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bXwspUQx
 #Man has dreams of fighting vixen knight in medieval setting. Next day the vixen from his dream becomes his new boss. The dreams continue. What do they mean? Does she know about them? Why is she acting so strange?
 
-'''julia
+'''ruby
 "End of the Fur"<br>
 '''
 [;n/a;][;very short story; ;suspense; ;mystery; ;hostage situation; ;plot focused;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4EZemGah
 #Last humie on earth would rather die than become a anthro furry.
 
-'''julia
+'''ruby
 "Hyenas and Co-Workers"<br>
 '''
 [;yeen; ;hyena;][;femdom; ;slight femdom; ;m:dubcon; ;dating; ;drama; ;love/romance;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wdNi5jKQ
 
-'''julia
+'''ruby
 "Napalm a go-go"<br>
 '''
 [;yeen; ;hyena;][;military; ;non-smut;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ibJzagSD
 
-'''julia
+'''ruby
 "Sweet as Sugar"<br>
 '''
 [;wasp; ;insect;][;comfy; ;lewd;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bFq5Ca3U
 
-'''julia
+'''ruby
 "Human Resources"<br>
 '''
 [;wolf;][;oppressed humies; ;medieval; ;fantasy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/G8u9frrW
 
-'''julia
+'''ruby
 "The neighborhood loser"<br>
 '''
 [;coyote; ;canine;][;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tyeusf6G
 
-'''julia
+'''ruby
 "Giraffes and hard times"<br>
 '''
 [;giraffe; ;single mom; ;milf;][;vaginal; ;established relationship; ;slice of life; ;sex; ;hotel; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/t3qDpYaS
 
-'''julia
+'''ruby
 "B is for bear(and boner)"<br>
 '''
 [;bear; ;milf; ;single mom; ;older anthro;][;short story; ;flirting; ;humor; ;blowjob; ;cunnilingus; ;vaginal; ;creampie;]
@@ -2069,37 +2069,37 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Vy48Katg
 by LithoCoff
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/lithoCoff
 
-'''julia
+'''ruby
 "A Merchant's Musings"<br>
 '''
 [;canine; ;Nelvaanian;][;prostitution; ;Star Wars; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VBX5dy9i
 
-'''julia
+'''ruby
 "Doom-Squeak"<br>
 '''
 [;skaven; ;rodent; ;smaller anthro;][;sex; ;love/romance?; ;implied impregnation; ;Warhammer Fantasy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f2hwxeYq
 
-'''julia
+'''ruby
 "Stipendia septemtrionis"<br>
 '''
 [;fox; ;feline;][;war;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JUPU1BMt
 
-'''julia
+'''ruby
 "Quo Usque Pro Amor Ibis"<br>
 '''
 [;yeen; ;hyena;][;childhood friends; ;sex; ;love/romance; ;established relationship; ;slice of life;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pybLS7aJ
 
-'''julia
+'''ruby
 "Prequel"<br>
 '''
 [;yeen; ;hyena;][;childhood friends; ;sex; ;love/romance; ;confession of feelings;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0XUCe1ZW
 
-'''julia
+'''ruby
 "Pets: A world of anthro pets."<br>
 '''
 [;canine; ;multiple; ;dog; ;doberman; ;milf; ;smaller anthro; ;bear; ;panda bear; ;mult. species;][;oppressed anthros; ;blowjob; ;female masturbation; ;sex; ;vaginal; ;breast sucking; ;handjob; ;cum swallowing; ;vaginal fingering; ;pulling out;]~
@@ -2116,7 +2116,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cB9mZGfH (Part
 by Idontwantthis
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Idontwantthis
 
-'''julia
+'''ruby
 "Necromouser"<br>
 '''
 [;rodent; ;mouse;][]
@@ -2124,50 +2124,50 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bQf1MN5n (Main
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sV7P7Uc3 (Epilouge)
 #Story is about a necromancer mouse bringing back her human husband and trying to slowly repair him.
 
-'''julia
+'''ruby
 "Hand in Hand"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iu16y4if
 
-'''julia
+'''ruby
 "My Obsession"<br>
 '''
 [;muscular; ;rabbit; ;larger anthro;][;m:rape;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MWchqEnk
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b7wxwVwb (Revised)
 
-'''julia
+'''ruby
 "Dying Hope"<br>
 '''
 [;muscular; ;rabbit; ;larger anthro;][;non-smut; ;cuddling; ;sad; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KqUhxRzv
 
-'''julia
+'''ruby
 "Altruistic Intent"<br>
 '''
 [;rabbit; ;multiple;][;father/daughter; ;emotional;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9DB0eB6p
 
-'''julia
+'''ruby
 "Unnamed"<br>
 '''
 [;raccoon;][;drama; ;pregnancy; ;impregnation;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Vwtm86rB
 
-'''julia
+'''ruby
 "Dalamadur GF Short Greentext"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8Pfg5n2x
 
-'''julia
+'''ruby
 "A Mole in the Community"<br>
 '''
 [;mole;][;non-smut; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hxpXxE1h
 
-'''julia
+'''ruby
 "Wish for an Anon Husbando"<br>
 '''
 [;chipmunk;][;comfy; ;non-smut; ;cuddling;]~
@@ -2178,44 +2178,44 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/F8sqXnXG
 by Coughing_Fit
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Coughing_Fit
 
-'''julia
+'''ruby
 "The Wind in Waiting"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Uue4D0h7
 
-'''julia
+'''ruby
 "Hot for Teacher"<br>
 '''
 [;feline; ;hybrid; ;panther/tiger;][;comfy; ;m/f:pov; ;short story; ;dating; ;non-smut; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qq845zJy
 #Man goes on a date with his old teacher that he had a fling with in the past.
 
-'''julia
+'''ruby
 "The Buzzing Hour"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VQVDqYeN
 
-'''julia
+'''ruby
 "Nights of Firefall"<br>
 '''
 [;canine;][;H/C; ;comforting; ;bed sharing; ;cuddling; ;war;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TauTPsKD
 
-'''julia
+'''ruby
 "Starfire Snipers"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yuv2MNYa
 
-'''julia
+'''ruby
 "Gym Rats and Resolutions"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bSEMDt4q
 
-'''julia
+'''ruby
 "Mange Mane: A Day in the Life"<br>
 '''
 [][]
@@ -2226,25 +2226,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/86eaKsPA
 by Comfycreations
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Comfycreations
 
-'''julia
+'''ruby
 "The Mane Attraction"<br>
 '''
 [;lion; ;feline;][;comfy; ;sex; ;impregnation;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7Ub0SBJ3
 
-'''julia
+'''ruby
 "A Roo'd Awakening"<br>
 '''
 [;kangaroo; ;smaller anthro; ;insecurity;][;comfy; ;dating; ;love/romance; ;bed sharing; ;long story; ;comforting;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/muScjRyj
 
-'''julia
+'''ruby
 "Doe you love me?"<br>
 '''
 [;deer;][;comfy; ;sex; ;creampie;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aJ5nKJW3
 
-'''julia
+'''ruby
 "Beachside comfy greentext"<br>
 '''
 [;panda bear; ;bear;][;comfy;]
@@ -2254,39 +2254,39 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/veKLgK48
 -----------------------------------------------------------------------------------------------------------------------------
 by Exro
 
-'''julia
+'''ruby
 "And Scene"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/weSPsqvq
 
-'''julia
+'''ruby
 "Divide and Conjure (alternate version of Radiating)"<br>
 '''
 [;kangaroo; ;shy;][;long story; ;fantasy; ;steampunk?; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8eiKPaQe
 #Man gets excepted to magic school and meets a kangaroo anthro also going to magic school.
 
-'''julia
+'''ruby
 "Radiating"<br>
 '''
 [;feline; ;lynx;][;long story; ;fantasy; ;adventure; ;action; ;school; ;budding romance?; ;oppressed humies;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WtV7LpCa
 #Man gets excepted to magic school and meets a lynx anthro also going to magic school.
 
-'''julia
+'''ruby
 "Heat Index"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b9BqWvjG
 
-'''julia
+'''ruby
 "Seal'd Fate"<br>
 '''
 [;seal;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0mS3x99t
 
-'''julia
+'''ruby
 "Downward Dog"<br>
 '''
 [;canine; ;dog;][]
@@ -2296,7 +2296,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/50jMQMrH
 -----------------------------------------------------------------------------------------------------------------------------
 by Dancing Spider
 
-'''julia
+'''ruby
 "A History of Interspecies Relations"<br>
 '''
 [;cervine; ;deer;][;heat; ;timeskip; ;sci-fi; ;space; ;implied female masturbation; ;incomplete tags;]~
@@ -2315,79 +2315,79 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mJCABnP7 (chap
 by Durr_anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Durr_anon
 
-'''julia
+'''ruby
 "More than enough"<br>
 '''
 [;dog; ;canine;][;rape; ;comforting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Wuu3Qdg4
 
-'''julia
+'''ruby
 "Out of Place"<br>
 '''
 [;lynx; ;feline;][;sex; ;oral;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MeK6Wafz
 
-'''julia
+'''ruby
 "Pastalavistia"<br>
 '''
 [;lynx; ;feline;][;comfy; ;sex; ;vaginal; ;short story; ;Star Fox;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wEx2CfKf
 
-'''julia
+'''ruby
 "Lexie"<br>
 '''
 [;canine; ;dog;][;f:attempted rape;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tk3bY3GJ
 
-'''julia
+'''ruby
 "Friendly Neighborhood Human (Draft) (Original Content)"<br>
 '''
 [;feline; ;cheetah;][;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/72z68Ck9
 
-'''julia
+'''ruby
 "The Wild West"<br>
 '''
 [][;wild west;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yv5mz60m
 
-'''julia
+'''ruby
 "The Long March Home"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jSUP5sXz
 
-'''julia
+'''ruby
 "The Lament of a Man"<br>
 '''
 [;feline; ;cat;][;very long story; ;non-smut; ;drama; ;action; ;fantasy; ;adventure; ;war; ;cuddling;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1JryXrFL
 
-'''julia
+'''ruby
 "Dimensions"<br>
 '''
 [;doe;][;/k/ fic; ;long story;]O~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fj3t9vV4
 
-'''julia
+'''ruby
 "The AniMan"<br>
 '''
 [;fox;][;non-smut; ;/k/ fic; ;f:attempted rape; ;long story; ;snuggles;]O~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vdsVKxGM
 
-'''julia
+'''ruby
 "The Man, The Myth, and The Machine"<br>
 '''
 [;canine; ;jackal;][;long story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ShQdVBwv
 
-'''julia
+'''ruby
 "Muhreen anon"<br>
 '''
 [;snow leopard; ;feline;][;long story; ;non-smut; ;war; ;action; ;/k/ fic;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kCnK9PTS
 
-'''julia
+'''ruby
 "durr story"<br>
 '''
 [;deer;][;comical; ;humor; ;sex; ;long story;]
@@ -2397,38 +2397,38 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MKJ589Nx
 -----------------------------------------------------------------------------------------------------------------------------
 by SnowboundAlcoholic
 
-'''julia
+'''ruby
 "Watchers"<br>
 '''
 [;mink;][;long story; ;fantasy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UQpJP5H8
 
-'''julia
+'''ruby
 "Abyss - HMOFA Eldritch Waifur"<br>
 '''
 [;monster; ;eldritch; ;canine;][;love/romance; ;creampie; ;vaginal; ;violence; ;shape shifting; ;cuddling; ;suspense;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QxhwZ5GC
 #Anon is being courted by and eldritch "abomination". He is terrified and cautious at first, but he eventually warms up to her.
 
-'''julia
+'''ruby
 "Adapting Corrupted Data"<br>
 '''
 [;Gatomon;][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wCW5J8Hi
 
-'''julia
+'''ruby
 "High Octane"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qhjzcbnW
 
-'''julia
+'''ruby
 "Crash course"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6Wgufci5
 
-'''julia
+'''ruby
 "Room Mates"<br>
 '''
 [;lynx; ;feline;][;comfy; ;sex; ;long story; ;love/romance;]
@@ -2439,49 +2439,49 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rJXkSZr8
 by Snekguy
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dHd9iFCN
 
-'''julia
+'''ruby
 "Pinwheel Remastered"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RpGyQmhE
 
-'''julia
+'''ruby
 "Goetic Justice 2"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wqXJKrH6
 
-'''julia
+'''ruby
 "Goetic Justice"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3ey7dvhz
 
-'''julia
+'''ruby
 "Hot Kofe"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KjYM4TB8
 
-'''julia
+'''ruby
 "Heart of the Mountain"<br>
 '''
 [;dragon; ;scalie; ;larger anthro;][;comfy; ;impregnation; ;transformation; ;offspring; ;violence; ;long story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tNz4ZXw9
 
-'''julia
+'''ruby
 "Leap of faith"<br>
 '''
 [;brute; ;alien; ;larger anthro;][;HALO; ;violence; ;firefights; ;long story; ;comfy; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hq70rPKt
 
-'''julia
+'''ruby
 "Making an Example"<br>
 '''
 [;scalie; ;lizard;][;comfy; ;femdom; ;vaginal; ;cunnilingus;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ty3s23Sk
 
-'''julia
+'''ruby
 "Date with a drifter"<br>
 '''
 [;wolf; ;canine; ;werewolf; ;larger anthro;][;comfy; ;fear boner; ;blowjob; ;sex; ;cunnilingus; ;sleeping embrace; ;love/romance; ;m:noncon --> m:con; ;femdom;]
@@ -2493,45 +2493,45 @@ by DecoFox
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/DecoFox
 
 =============/ Dare /=============
-'''julia
+'''ruby
 "You Wouldn't Dare"<br>
 '''
 [;coyote; ;canine;][;comfy; ;short story; ;childhood friends; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nd1sL12V
 
-'''julia
+'''ruby
 "Laissez Dare"<br>
 '''
 [;coyote; ;canine;][;comfy; ;short story; ;childhood friends; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bj6ju04K
 
 =============/ other /=============
-'''julia
+'''ruby
 "Ground Proximity Waifur Systems"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9a3LXeQR
 
-'''julia
+'''ruby
 "Letters from Akira"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vE7HEBYJ
 
-'''julia
+'''ruby
 "Silver Lining"<br>
 '''
 [;airships; ;tomboy;][;comfy; ;adventure;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/B9kuMtmk
 
-'''julia
+'''ruby
 "Turkey Shoot: A Doug Story"<br>
 '''
 [;canine; ;coyote; ;pilot;][;bittersweet; ;war; ;suspense; ;military;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JbCZLyLP
 #A tomboy coyote finds herself in the cockpit of a Hawker Hurricane, staring down the last of her childhood innocence with eight Browning machine guns
 
-'''julia
+'''ruby
 "Degeneracy Pressure"<br>
 '''
 [;fox;][;space; ;sci-fi; ;mystery; ;love/romance; ;second person;]~
@@ -2543,19 +2543,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RSRp3uTv
 by Some_mediocre_writer
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/some_mediocre_writer
 
-'''julia
+'''ruby
 "A dead man with the rats"<br>
 '''
 [;skaven; ;rodent; ;rat;][;comfy; ;Krieg guardsman;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/r1UvWGxi
 
-'''julia
+'''ruby
 "Scavenging for love"<br>
 '''
 [;vulture; ;avian;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z5C3iEed
 
-'''julia
+'''ruby
 "Brahmin thing for /hmofa/"<br>
 '''
 [;cervine; ;cow;][]
@@ -2565,19 +2565,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZCwSp9Su
 -----------------------------------------------------------------------------------------------------------------------------
 by An_Ca2MgFe5Si8O22OH2
 
-'''julia
+'''ruby
 "Swamp Critters Greentext"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BMQVR7A8
 
-'''julia
+'''ruby
 "Lizard-Kin Sacrifice Greentext"<br>
 '''
 [;scalie;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T3tW0N2s
 
-'''julia
+'''ruby
 "Here to help greentext"<br>
 '''
 [][]
@@ -2588,31 +2588,31 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JyUAPcEv
 by Byzantine_Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Byzantine_Anon
 
-'''julia
+'''ruby
 "Spookfur Test"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/px0XPYfi
 
-'''julia
+'''ruby
 "the Horned Woods"<br>
 '''
 [][]~O
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6QMqKxwZ
 
-'''julia
+'''ruby
 "Day at the Beach"<br>
 '''
 [][]~O
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D1GzbjrJ
 
-'''julia
+'''ruby
 "Tweetfur Meme Story"<br>
 '''
 [;avian;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AuPx4emP
 
-'''julia
+'''ruby
 "A Damn Good Purchase"<br>
 '''
 [][]~O
@@ -2623,19 +2623,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eNDYTsuy
 by ToothAndScale
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/ToothAndScale
 
-'''julia
+'''ruby
 "Crossed Buns"<br>
 '''
 [;rabbit; ;smaller anthro; ;canine; ;husky;][;femdom; ;sex; ;threesome; ;bondage;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CQ5nR3hV
 
-'''julia
+'''ruby
 "Scaredy-Cat"<br>
 '''
 [;feline; ;cat;][;age difference;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YYNmv8sW
 
-'''julia
+'''ruby
 "Piracy and Thievery"<br>
 '''
 [][]
@@ -2645,37 +2645,37 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LaRgQ2Ln
 -----------------------------------------------------------------------------------------------------------------------------
 by JacklinMauer
 
-'''julia
+'''ruby
 "The Cracked Pearl"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QFW3rU3t
 
-'''julia
+'''ruby
 "Set to the tune of Hammock's"Hiding but nobody missed you""<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UAfb59sa
 
-'''julia
+'''ruby
 "Amaroq No Longer"<br>
 '''
 [;Seal;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jg2fncyM
 
-'''julia
+'''ruby
 "Have you seen the News?"<br>
 '''
 [;mouse; ;rodent;][;war; ;love/romance; ;feels; ;sad/tragic; ;violence;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xDXtKwbs
 
-'''julia
+'''ruby
 "Eden's Odyssey"<br>
 '''
 [;fox;][;father/daughter; ;prostitution; ;sex slavery;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gM333tMf
 
-'''julia
+'''ruby
 "Underneath the Armor"<br>
 '''
 [;timber wolf; ;canine; ;wolf;][;contains comfy; ;sex; ;long story; ;plot focused; ;violence; ;contemporary;]
@@ -2685,13 +2685,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/inCJFvrT
 -----------------------------------------------------------------------------------------------------------------------------
 by Albaphet
 
-'''julia
+'''ruby
 "Around the World"<br>
 '''
 [;rodent; ;mouse; ;smaller anthro;][;comfy; ;sex; ;love/romance; ;train; ;early 20th century;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AGajJqUL
 
-'''julia
+'''ruby
 "And Everything Changed"<br>
 '''
 [;feline; ;lion;][;comfy; ;apocalyptic?; ;sex; ;love/romance; ;WWI;]
@@ -2702,25 +2702,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wFWvqNXE
 by Tabletop-Anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Tabletop-Anon
 
-'''julia
+'''ruby
 "Unterland"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/v4stCaUD
 
-'''julia
+'''ruby
 "Back to Back (Voodoo-Hoodoo Time Loop)"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RgE0J0NB
 
-'''julia
+'''ruby
 "Small Greens"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/x6RDm9HX
 
-'''julia
+'''ruby
 "Just Passing Through (Custom Tabletop Inspired Story)"<br>
 '''
 [][]
@@ -2730,25 +2730,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Fb0iyf1R
 -----------------------------------------------------------------------------------------------------------------------------
 by Armain
 
-'''julia
+'''ruby
 "So The Adventure of Life Goes[rev] On"<br>
 '''
 [;feline; ;cat;][;comfy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4VUvyjTM
 
-'''julia
+'''ruby
 "/hmofa/ Sine Nomine Sunt"<br>
 '''
 [][;sci-fi; ;mecha;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ji3Vg5et
 
-'''julia
+'''ruby
 "/hmofa/ So The Adventure of Life Goes On"<br>
 '''
 [;cat; ;feline;][;comfy; ;sex; ;offspring; ;long story; ;family;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vvunSb87
 
-'''julia
+'''ruby
 "/hmofa/ Lynx greentext"<br>
 '''
 [;feline; ;lynx;][;comfy; ;friends; ;sex; ;roommates;]
@@ -2759,44 +2759,44 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vFWBuEhc
 by Just_A_User
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Just_A_User
 
-'''julia
+'''ruby
 "Star Wolf"<br>
 '''
 [][;Star Fox;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SNAY1CJU
 
-'''julia
+'''ruby
 "A Day at the Gym"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pskeaWvp
 
-'''julia
+'''ruby
 "Home is Where You Feel The Most Welcome"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wHzGTw0x
 
-'''julia
+'''ruby
 "After-School Bullying"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/10GcPpx9
 
-'''julia
+'''ruby
 "Just Another Day At School"<br>
 '''
 [;scalie; ;Suzie;][;Deltarune; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/F420MaPZ
 #Kris and Suzie get it on.
 
-'''julia
+'''ruby
 "Surfin'n Fuckin"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MH3WiDfw
 
-'''julia
+'''ruby
 "Stray"<br>
 '''
 [][]
@@ -2807,19 +2807,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wPkcJ9Yk
 by Jageranon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Mr__McSisterfister
 
-'''julia
+'''ruby
 "Turning Wrenches Burning Time"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vdCiigpX
 
-'''julia
+'''ruby
 "Frostbite"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QC0n0pPX
 
-'''julia
+'''ruby
 "Green Mountain."<br>
 '''
 [;fox;][;comfy; ;love/romance; ;sex; ;violence;]
@@ -2830,43 +2830,43 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tjYUKeK0
 by ROTHY
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/ROTHY
 
-'''julia
+'''ruby
 "Touch Fluffy Neck"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wBSTSdRy
 
-'''julia
+'''ruby
 "Tasty Morsel"<br>
 '''
 [;rodent;][;m:dubcon;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kiqU8VW2
 
-'''julia
+'''ruby
 "Magna Opus"<br>
 '''
 [;wolf; ;canine;][;very short story; ;comfy; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/00f8treU
 
-'''julia
+'''ruby
 "Violets for Sue"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tkqKBzP4
 
-'''julia
+'''ruby
 "Affectionate Retsuko"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qydm7wwB
 
-'''julia
+'''ruby
 "Scarlet at the Cathouse"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fFhHDrkn
 
-'''julia
+'''ruby
 "+1 Rot"<br>
 '''
 [][;corruption; ;femdom;]
@@ -2876,19 +2876,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sJeb4iC9
 -----------------------------------------------------------------------------------------------------------------------------
 by Maschalismos
 
-'''julia
+'''ruby
 "It's getting hot in here."<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/33qVPRxE
 
-'''julia
+'''ruby
 "The hunter and his prey"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qp9CQB5E
 
-'''julia
+'''ruby
 "Night at the fairgrounds"<br>
 '''
 [][]
@@ -2899,13 +2899,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6aft8JqJ
 by DB777
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/teh_sting_ray
 
-'''julia
+'''ruby
 "The Fire is so Deerlightful COLLAB"<br>
 '''
 [;deer;][;comfy; ;sex; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2XTDMTdE
 
-'''julia
+'''ruby
 "The tomboy and the fall of a titan"<br>
 '''
 [;coyote; ;canine;][;comfy; ;love/romance;]~
@@ -2915,19 +2915,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dGjt4enJ
 -----------------------------------------------------------------------------------------------------------------------------
 by Reynaerde
 
-'''julia
+'''ruby
 "The Witch's Ball"<br>
 '''
 [;feline; ;cat;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jzfp68Kj
 
-'''julia
+'''ruby
 "In the Witch's Lair"<br>
 '''
 [;feline; ;cat;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Jn1kJ59Y
 
-'''julia
+'''ruby
 "Proper Care of Construction Equipment"<br>
 '''
 [;feline; ;larger anthro; ;size difference; ;tiger;][]
@@ -2938,25 +2938,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1Zf9VrKV
 by Digiridoguy
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Digiridoguy
 
-'''julia
+'''ruby
 "Freelance Christmas Cheer Dealer"<br>
 '''
 [;donkey;][;Christmas; ;comfy; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mSZPcj5y
 
-'''julia
+'''ruby
 "Foggy Ewe"<br>
 '''
 [;sheep;][;first person;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CtPKgV85
 
-'''julia
+'''ruby
 "It takes me nowhere"<br>
 '''
 [;feline; ;caracal;][;non-consensual kissing;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mxpHQm2g
 
-'''julia
+'''ruby
 "Its okay to be boring on christmas"<br>
 '''
 [][;Christmas;]
@@ -2966,13 +2966,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/r4TVcLEt
 -----------------------------------------------------------------------------------------------------------------------------
 by Kreis
 
-'''julia
+'''ruby
 "Of Canines and Cohorts"<br>
 '''
 [;giant; ;dog; ;canine;][;comfy; ;sex; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/crBHtunE
 
-'''julia
+'''ruby
 "Of Canines and Cohorts: Second Step"<br>
 '''
 [;giant; ;dog; ;canine;][]~
@@ -2982,19 +2982,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Gyx8D9gY
 -----------------------------------------------------------------------------------------------------------------------------
 by Spaceface
 
-'''julia
+'''ruby
 "The cats in the H.A.T."<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CYy4UPcN
 
-'''julia
+'''ruby
 "Meta-WOLFED"<br>
 '''
 [;canine; ;wolf;][;comfy; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uM2wNNMJ
 
-'''julia
+'''ruby
 "Prey"<br>
 '''
 [][]
@@ -3005,19 +3005,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TJPg1Qes
 by Witryso
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Witryso
 
-'''julia
+'''ruby
 "Jewel of the Sea"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T8g11iMj
 
-'''julia
+'''ruby
 "Anon and Winnie Become E-Celebrities"<br>
 '''
 [;canine; ;wolf;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0gSgLd8c
 
-'''julia
+'''ruby
 "R. K. Smith and The Treasure of Epicness"<br>
 '''
 [][]
@@ -3027,19 +3027,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8Gfmu0hX
 -----------------------------------------------------------------------------------------------------------------------------
 by TrashMan
 
-'''julia
+'''ruby
 "Study Break"<br>
 '''
 [;gazelle; ;cervine;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fciRpvKM
 
-'''julia
+'''ruby
 "Pasture Daze"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3ukfDLsk
 
-'''julia
+'''ruby
 "Noblesse Oblige: W&W"<br>
 '''
 [][]
@@ -3050,41 +3050,41 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D7UE7UKc
 by Somethingaboutsharks
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/somethingaboutsharks
 
-'''julia
+'''ruby
 "Plucked Raptor"<br>
 '''
 [;dinosaur; ;raptor;][;comfy; ;short story; ;greentext;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f7JZhErR
 #A man finds a tribal raptor plucked of all her feathers and takes her back to safety.
 
-'''julia
+'''ruby
 "Where Kitsune Wait"<br>
 '''
 [;kitsune;][;magic; ;historical fantasy; ;emotionally damaged protagonist; ;first person;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CBaG8ehT
 #It’s about a Viking in Japan meeting Kitsune
 
-'''julia
+'''ruby
 "Anon Finds a Way"<br>
 '''
 [;deinonychus; ;dinosaur; ;feathered raptor; ;raptor;][;second person; ;comfy; ;cuddling; ;oral; ;long story; ;dating; ;cunnilingus; ;emotional; ;love/romance; ;handjob; ;depression; ;drama; ;kissing; ;69;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GhPApER2
 #A man and a raptor meet each other. How will things shake out between them?
 
-'''julia
+'''ruby
 "Wedding The Dragon"<br>
 '''
 [;dragon; ;big breasts; ;large breast; ;thicc;][;third person; ;marriage; ;drama; ;fantasy; ;magic; ;novel length story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cdXb9pYU
 #A noble who has evaded arranged marriages for years is suddenly thrust into an inescapable wedding, the very day it's set to happen. When he and his family meet the bride, it turns out he's not the only one blindsided by the exact details.
 
-'''julia
+'''ruby
 "Sixfold Path of Submission"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2kpSQHvJ
 
-'''julia
+'''ruby
 "Hibiki Getting WALLED Shitpost"<br>
 '''
 [][]
@@ -3095,19 +3095,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/K4VJvMFF
 by Dregger
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Dregger
 
-'''julia
+'''ruby
 "Hunters and gatherers"<br>
 '''
 [;feline;][;comfy; ;post-apocalyptic?; ;love/romance; ;adventure;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EePj8Beq
 
-'''julia
+'''ruby
 "Odin's call"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hPwSRHA8
 
-'''julia
+'''ruby
 "Deserted but not forgotten"<br>
 '''
 [;fox;][;contains comfy; ;medieval; ;fantasy; ;rape; ;gore; ;violence; ;war; ;adventure;]
@@ -3119,24 +3119,24 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2fe5BsyG
 by Kaeos
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/kaeos
 
-'''julia
+'''ruby
 "Moxy (Formerly Tammy's Tacos)"<br>
 '''
 [;shark;][;dating; ;love/romance; ;oral;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/R8b7YKTv
 
-'''julia
+'''ruby
 "Scratch"<br>
 '''
 [;wolverine; ;shortstack; ;smaller anthro;][;comfy; ;short story; ;established relationship; ;slice of life;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nvafMmF3
 
-'''julia
+'''ruby
 "Bonepaw Gang"<br>
 '''
 [][;high school;]
 
-'''julia
+'''ruby
 "Tea house Troubles"<br>
 '''
 [;rabbit;][;sex;]
@@ -3145,19 +3145,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nvafMmF3
 -----------------------------------------------------------------------------------------------------------------------------
 by SOFT-GOAT-BOOBIES
 
-'''julia
+'''ruby
 "Schoolyard Crush(Halloween Special)"<br>
 '''
 [;yeen; ;hyena;][;comfy; ;very short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zpzJD4zQ
 
-'''julia
+'''ruby
 "Schoolyard Crush"<br>
 '''
 [;yeen; ;larger anthro; ;bully?; ;hyena;][;comfy; ;sex; ;dating; ;love/romance; ;vaginal; ;oral; ;handjob; ;femdom; ;slight femdom; ;high school;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8MhU8M4b
 
-'''julia
+'''ruby
 "gay story about goat boobies (Not gay)"<br>
 '''
 [;goat;][]
@@ -3167,31 +3167,31 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cfsABtTR
 -----------------------------------------------------------------------------------------------------------------------------
 by DandySpider
 
-'''julia
+'''ruby
 "Mongoose and Cobra Clan"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RqARaYEE
 
-'''julia
+'''ruby
 "/hmofa/ female anthro fighting league"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TMeMhhAZ
 
-'''julia
+'''ruby
 "/yeen/ sold to hyena brothel"<br>
 '''
 [;pseudo penis; ;yeen; ;hyena;][;contains comfy; ;femdom; ;brothel; ;m:dubcon;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dzhdU2RV
 
-'''julia
+'''ruby
 "/PoFg/ stoner raccoon/human"<br>
 '''
 [;raccoon;][;non-smut;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HwC5pXxX
 
-'''julia
+'''ruby
 "Scurry Onboard"<br>
 '''
 [][]
@@ -3201,7 +3201,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BiCs97jf
 -----------------------------------------------------------------------------------------------------------------------------
 by DaWeirdo
 
-'''julia
+'''ruby
 "Royal Rising"<br>
 '''
 [;pregnant; ;rat; ;rodent;][;comfy; ;established relationship; ;slice of life; ;sex; ;love/romance;]
@@ -3211,13 +3211,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dJAYfrXn
 -----------------------------------------------------------------------------------------------------------------------------
 by Tious
 
-'''julia
+'''ruby
 "A Rainy Day"<br>
 '''
 [;feline;][;comfy; ;lynx; ;cuddling; ;childhood friends; ;love/romance; ;storm; ;comforting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2sRcUs5u
 
-'''julia
+'''ruby
 "Misty Morning"<br>
 '''
 [;lynx; ;feline;][;comfy; ;cuddling; ;sex; ;love/romance; ;childhood friends; ;storm; ;comforting; ;french kissing; ;confession of feelings; ;creampie; ;purring; ;sleeping embrace;]
@@ -3227,31 +3227,31 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3UmUNMhT
 -----------------------------------------------------------------------------------------------------------------------------
 by Happy_Guy
 
-'''julia
+'''ruby
 "Bun Worldbuilding Rant"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XD1Ru9jV
 
-'''julia
+'''ruby
 "Monkey Wrench"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Nric0013
 
-'''julia
+'''ruby
 "Ms. Spaniel"<br>
 '''
 [;canine; ;dog;][;Star Fox;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tQHNJQLV
 
-'''julia
+'''ruby
 "Lylat Cruise"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0H242CCw
 
-'''julia
+'''ruby
 "Ms. Holtzer"<br>
 '''
 [][]
@@ -3261,19 +3261,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/g8sj4NZF
 -----------------------------------------------------------------------------------------------------------------------------
 by Jimbrough
 
-'''julia
+'''ruby
 "Hyena green (tentatively titled)"<br>
 '''
 [;yeen; ;hyena;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eihYRPpa
 
-'''julia
+'''ruby
 "Oh What Big Teeth They Have"<br>
 '''
 [;wolf; ;canine; ;multiple;][;m:rape;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X0TKKFbF
 
-'''julia
+'''ruby
 "St. Euren's Prison For Women"<br>
 '''
 [;tiger; ;mult. species;][;buff chuff; ;eventual smut; ;seinfeld; ;inordinate amounts of flexing;]~
@@ -3283,20 +3283,20 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/95XifvHP
 -----------------------------------------------------------------------------------------------------------------------------
 by Suunlight
 
-'''julia
+'''ruby
 "A Visitor"<br>
 '''
 [;mosquito; ;insect;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Nd088vx9
 
-'''julia
+'''ruby
 "A New Home"<br>
 '''
 [][;Christmas; ;love/romance; ;hand holding; ;family;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BTCHuvmS
 #Anon gets into a car accident after a series of unfortunate events. He wakes up with his car mysteriously undamaged and without a trail. Everything seems to be normal and exactly the same, that’s when he finds out his hometown population was replaced. Will he be able to cope with the new residents and be with someone on Christmas day?
 
-'''julia
+'''ruby
 "Shattered, but not lost"<br>
 '''
 [;wolf;][;love/romance; ;torture; ;gore; ;hand holding; ;sci-fi;]~
@@ -3306,19 +3306,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/knv9iKy2
 -----------------------------------------------------------------------------------------------------------------------------
 by Raid_Anon
 
-'''julia
+'''ruby
 "Raid over me (STRONG)"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jh1mGYF8
 
-'''julia
+'''ruby
 "Bat at it again"<br>
 '''
 [;bat;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3Q3zHGcb
 
-'''julia
+'''ruby
 "Wolfu story"<br>
 '''
 [;promiscuous; ;wolf; ;canine;][]
@@ -3328,19 +3328,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rC8g7zHi
 -----------------------------------------------------------------------------------------------------------------------------
 by Neos_Anon
 
-'''julia
+'''ruby
 "Anon and the Gym Lynx"<br>
 '''
 [;lynx; ;feline;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/i0539a2N
 
-'''julia
+'''ruby
 "Bear and Mouse"<br>
 '''
 [;mouse; ;rodent;][;prostitute/client; ;rough sex; ;sex; ;medieval; ;fantasy; ;maledom; ;bathing; ;prostitution;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/06FDpYFP
 
-'''julia
+'''ruby
 "Bear and Mouse Part 2"<br>
 '''
 [;mouse; ;rodent;][;prostitute/client -> lovers; ;lovers; ;sex; ;rough sex; ;violence; ;maledom; ;medieval; ;fantasy; ;adventure; ;love/romance?;]
@@ -3351,19 +3351,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mA9Zypcb
 by Emma_chan
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/emma_chan
 
-'''julia
+'''ruby
 "The Mayor and his Sheep"<br>
 '''
 [;sheep;][;drama; ;dating; ;f:lonely;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EYarSjtM
 
-'''julia
+'''ruby
 "A Fox and her Kit"<br>
 '''
 [;widow; ;vixen; ;fox;][;shota; ;sex; ;pseudo-incest;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XBkXjSmY
 
-'''julia
+'''ruby
 "A special 'gift'"<br>
 '''
 [;widow; ;vixen; ;fox;][;shota; ;sex; ;pseudo-incest;]
@@ -3374,13 +3374,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e7mEe5wM
 by Kitty_D
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Kitty_D
 
-'''julia
+'''ruby
 "You're Always So Warm"<br>
 '''
 [;lizard; ;tribal; ;cloaca; ;scalie; ;larger anthro; ;no breast;][;Pathfinder; ;femdom; ;comfy; ;childhood friends; ;sex; ;love/romance; ;flirting; ;fantasy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f9XJGXFG
 
-'''julia
+'''ruby
 "You Haven’t Lost Your Touch"<br>
 '''
 [;spider; ;HARK;][;comfy; ;established relationship; ;sex; ;slice of life; ;married couple;]
@@ -3390,13 +3390,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VmJAe9Zp
 -----------------------------------------------------------------------------------------------------------------------------
 by NotEnoughPylons
 
-'''julia
+'''ruby
 "I Need It"<br>
 '''
 [;tomboy; ;dog; ;canine;][;comfy; ;heat; ;f:pov; ;sex; ;roommates;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3eb5zB2K
 
-'''julia
+'''ruby
 "Burning Sands"<br>
 '''
 [;goddess; ;lion;][;flirting; ;beach;]~
@@ -3406,19 +3406,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pxx1tdjD
 -----------------------------------------------------------------------------------------------------------------------------
 by Interloperr
 
-'''julia
+'''ruby
 "Catlady action"<br>
 '''
 [;feline; ;cat;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tw5PU9HU
 
-'''julia
+'''ruby
 "Human x kobold"<br>
 '''
 [;kobold; ;smaller anthro; ;scalie;][;comfy; ;medieval; ;fantasy; ;sex; ;love/romance?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CKpBENVV
 
-'''julia
+'''ruby
 "Cuckshit mare edition"<br>
 '''
 [;horse;][;fantasy; ;f:cucked; ;short story; ;vaginal; ;creampie; ;impregnation;]
@@ -3430,13 +3430,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/00ZFXzp3
 by Dontcha
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Dontcha
 
-'''julia
+'''ruby
 "Warm Feelings on a Rainy Day"<br>
 '''
 [][;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5ptSHHpZ
 
-'''julia
+'''ruby
 "Some mouse story"<br>
 '''
 [;rodent; ;mouse;][]
@@ -3446,13 +3446,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EQHsTywu
 -----------------------------------------------------------------------------------------------------------------------------
 by Zombie_Lenin
 
-'''julia
+'''ruby
 "There but for the Grace of God"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0vQpSFZQ
 
-'''julia
+'''ruby
 "Death Metal Panda"<br>
 '''
 [;panda bear; ;bear;][]~
@@ -3462,13 +3462,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qr3bKFXz
 -----------------------------------------------------------------------------------------------------------------------------
 by PrisMagic
 
-'''julia
+'''ruby
 "Stay"<br>
 '''
 [;magpie; ;avian;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qE0YmEhM
 
-'''julia
+'''ruby
 "Just Another Day"<br>
 '''
 [][]~
@@ -3478,7 +3478,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pch9Uvau
 -----------------------------------------------------------------------------------------------------------------------------
 by HereticalFungi
 
-'''julia
+'''ruby
 "Unpunctual Rescue"<br>
 '''
 [;canine; ;ghost;][;cult magic; ;feels; ;time travel; ;love/romance; ;violence;]O~
@@ -3490,13 +3490,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MaN7p0Lb (summ
 -----------------------------------------------------------------------------------------------------------------------------
 by Jesu-Christo
 
-'''julia
+'''ruby
 "Michelle, Ma Belle Monstre"<br>
 '''
 [;scalie; ;dragoness; ;boss; ;jaded; ;independent woman;][;past-relationship baggage;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/c0ngxB49
 
-'''julia
+'''ruby
 "Fear and Loathing in /hmofa/"<br>
 '''
 [;wolf; ;older anthro; ;canine;][;comforting;]~
@@ -3507,38 +3507,38 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/PCMjW8S5
 by Happy_Dragon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Happy_Dragon
 
-'''julia
+'''ruby
 "She's an American Girl"<br>
 '''
 [;canine; ;dog;][;sex; ;dating; ;drama;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0G1076wa
 
-'''julia
+'''ruby
 "Don’t Fuck Up"<br>
 '''
 [][;drama;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/abaLkavv
 
-'''julia
+'''ruby
 "The Man From F.L.O.R.I.D.A."<br>
 '''
 [;canine; ;siruean;][;mystery; ;m:pov; ;first person; ;novel; ;sex;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KtzRkkAB
 #A drifting construction worker puts down the beer and picks up a discarded bag, catapulting him into murky events and murder.
 
-'''julia
+'''ruby
 "A New Father"<br>
 '''
 [;canine; ;siruean;][;Christmas; ;intimacy; ;love/romance; ;third person; ;short story;]
 #Small towns don't have a lot of singles, and kids make it more challenging.  The right weather evens life out.
 
-'''julia
+'''ruby
 "Priya's Place"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/g6K44tTD
 
-'''julia
+'''ruby
 "When I Found You"<br>
 '''
 [;ursine; ;grizzly bear; ;bear;][;wholesome; ;camping; ;third  person; ;short story; ;young love; ;best friends; ;vaginal;]
@@ -3548,13 +3548,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gG0khBT3
 -----------------------------------------------------------------------------------------------------------------------------
 by Falsum_Anon
 
-'''julia
+'''ruby
 "The Warrior and the Bard"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SQxWdPiC
 
-'''julia
+'''ruby
 "familiar"<br>
 '''
 [][]~
@@ -3564,13 +3564,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/s0nDDp5t
 -----------------------------------------------------------------------------------------------------------------------------
 by EarLickingGood
 
-'''julia
+'''ruby
 "HMOFA Learns to get along"<br>
 '''
 [;Remanon;][;gangbang; ;humor; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Yxwc8j5D
 
-'''julia
+'''ruby
 "Beyond the Cogs"<br>
 '''
 [;rodent; ;rat;][;cyberpunk;]~
@@ -3580,13 +3580,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MV10mMqD
 -----------------------------------------------------------------------------------------------------------------------------
 by Jack_Dawe
 
-'''julia
+'''ruby
 "Don't Unwrap Until Christmas"<br>
 '''
 [;coyote; ;canine;][;comfy; ;love/romance; ;dating; ;sex toys; ;confidence building; ;college; ;BDSM; ;nerds; ;Christmas;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dL5cB8mh
 
-'''julia
+'''ruby
 "The Wolf and the Huntsman"<br>
 '''
 [;wolf<->werewolf; ;canine; ;wolf; ;werewolf; ;larger anthro;][;love/romance; ;sex; ;established relationship; ;roleplay;]~
@@ -3597,14 +3597,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Ss7K7zXe
 by Somejackass
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/somejackass
 
-'''julia
+'''ruby
 "/hmofa/ leaving a furboi?"<br>
 '''
 [;avian;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/14xM0x0H
 #Jackass furboi loses his girl to Anon because he's a dick.
 
-'''julia
+'''ruby
 "The HEAT"<br>
 '''
 [;rabbit; ;lynx; ;mult. species;][;heat; ;m:rape;]~
@@ -3616,14 +3616,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ebqTjs2E
 by ACrazyWizard
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/ACrazyWizard
 
-'''julia
+'''ruby
 "Student of the Sultry Tome"<br>
 '''
 [;horse; ;wings;][;fantasy; ;short story; ;magic; ;fantasy; ;blowjob; ;edging; ;bondage; ;vaginal; ;sex; ;creampie;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5evxF3Ma
 #Anon is an apprentice scribe to Ofelia, Matriarch of Words and today she has an entirely new task for him to do.
 
-'''julia
+'''ruby
 "The Mare with the Black Blade"<br>
 '''
 [;horse; ;larger anthro;][;fantasy; ;short story; ;blowjob; ;boobjob; ;large breast; ;creampie; ;sleeping embrace; ;cuddling;]
@@ -3634,13 +3634,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qq7H5rqX
 -----------------------------------------------------------------------------------------------------------------------------
 by Siddharta_anon
 
-'''julia
+'''ruby
 "Circuit Breaker"<br>
 '''
 [;scalie; ;snake; ;cobra;][;cyberpunk; ;technomancy; ;plot focused;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vybjdxYt
 
-'''julia
+'''ruby
 "Trailseeker"<br>
 '''
 [;scalie; ;snake;][;isekai;]~
@@ -3652,20 +3652,20 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tCB7LCuy
 by Dsfargig
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/dsfargig
 
-'''julia
+'''ruby
 "BBQ Roommate"<br>
 '''
 [;wolf; ;canine;][;roommates; ;love/romance;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3dr4waMe (main story)
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fzgBPXQw (extra scene)
 
-'''julia
+'''ruby
 "Two Lines"<br>
 '''
 [;wolf; ;canine;][;very short story; ;pregnancy; ;love/romance; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CDwDXU5B
 
-'''julia
+'''ruby
 "Tranquility Gun"<br>
 '''
 [;canine;][]~
@@ -3676,13 +3676,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/D48bmiTv
 -----------------------------------------------------------------------------------------------------------------------------
 by Tactimage
 
-'''julia
+'''ruby
 "War Wives"<br>
 '''
 [;bear;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/E8SekneU
 
-'''julia
+'''ruby
 "War Wives Pt 2"<br>
 '''
 [;bear;][]
@@ -3692,13 +3692,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/x9Dm2wLn
 -----------------------------------------------------------------------------------------------------------------------------
 by Green_Field
 
-'''julia
+'''ruby
 "DrungFug"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hg5kbWBu
 
-'''julia
+'''ruby
 "BHA : Getting Adjusted"<br>
 '''
 [][]
@@ -3708,13 +3708,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bH2GwFJX
 -----------------------------------------------------------------------------------------------------------------------------
 by Judge451
 
-'''julia
+'''ruby
 "Trip to the Mountains"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RNGfMhR7
 
-'''julia
+'''ruby
 "Irish Love"<br>
 '''
 [][]
@@ -3724,13 +3724,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/th9cBZDZ
 -----------------------------------------------------------------------------------------------------------------------------
 by ToBeContinued
 
-'''julia
+'''ruby
 "That Sinking Feeling"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qqDDBikN
 
-'''julia
+'''ruby
 "A Wild Night Out"<br>
 '''
 [][]
@@ -3740,13 +3740,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nMT738A6
 -----------------------------------------------------------------------------------------------------------------------------
 by Ratman_Stan
 
-'''julia
+'''ruby
 "Anything for a (yew)"<br>
 '''
 [;rodent;][;sex; ;chance encounter; ;post-apocalyptic?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Z75H52sb
 
-'''julia
+'''ruby
 "Anything for a Yew: Chapter 4"<br>
 '''
 [;rodent;][;violence; ;f:attempted rape; ;gore;]
@@ -3757,13 +3757,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UBCNP3pW
 by MEGANON
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/MEGANON
 
-'''julia
+'''ruby
 "Tribal Thing for HMoFA"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bKiG77bn
 
-'''julia
+'''ruby
 "Sibling Rivalry"<br>
 '''
 [;feline; ;cat;][;pseudo-incest; ;lewd;]
@@ -3773,35 +3773,35 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6W7jhsjg
 -----------------------------------------------------------------------------------------------------------------------------
 by Flex_Puke
 
-'''julia
+'''ruby
 "The Nurse Who Loved Me"<br>
 '''
 [;rodent; ;rat; ;nurse;][;femdom; ;gentle femdom; ;bittersweet; ;sex; ;loving sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zVxp53bY
 #A heroin addict checks into a methadone clinic for rehab, and meets the girl of his dreams.
 
-'''julia
+'''ruby
 "The New Master"<br>
 '''
 [;harem; ;multiple;][;historical drama; ;period piece; ;boobjob; ;pheromones; ;spanking; ;missionary; ;love/romance; ;light femdom; ;femdom; ;trauma; ;cunnilingus;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X8eLiZv5
 #An American living in Italy moves back home after an opportunity comes to own a plantation where insect-anthros are kept as slaves. He tackles with the moral quandary of owning slaves, while trying to give them a better life.
 
-'''julia
+'''ruby
 "The End"<br>
 '''
 [;canine; ;milf; ;direwolf; ;larger anthro; ;wolf; ;older anthro;][;Western; ;light femdom; ;femdom; ;bloodplay; ;69; ;missionary; ;love/romance; ;supernatural; ;gore; ;action; ;violence; ;Gothic horror;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kpz2gdif
 #A young man travels to California to find a mysterious gunslinger who will help him find the man who killed his family.
 
-'''julia
+'''ruby
 "Intolerance"<br>
 '''
 [;insect; ;spider;][;overcoming fear; ;oneshot; ;behavior modification;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/THS4iQKQ
 #A man who is deathly afraid of spiders goes to see a psychiatrist who specializes in his phobia, and get more than he bargained for
 
-'''julia
+'''ruby
 "Undertow"<br>
 '''
 [][;neo-noir; ;crime; ;drama; ;violence;]
@@ -3812,7 +3812,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/00XqAhHq
 -----------------------------------------------------------------------------------------------------------------------------
 by FloralPatternedTable
 
-'''julia
+'''ruby
 "Mandated Viper GF"<br>
 '''
 [;snake; ;scalie;][;forced encounter; ;roommates?; ;Xcom;]~
@@ -3822,7 +3822,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cWkbLaCa
 -----------------------------------------------------------------------------------------------------------------------------
 by Llamocalypse
 
-'''julia
+'''ruby
 "Of Man and Beast"<br>
 '''
 [;werewolf; ;canine; ;wolf;][;comfy; ;slow burn; ;love/romance; ;cuddling; ;dancing;]~
@@ -3833,7 +3833,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFAKLUS7
 by Mister_Smisser
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Mister_Smisser
 
-'''julia
+'''ruby
 "Paranoid"<br>
 '''
 [;scp; ;canine; ;scp 1471;][;contains comfy; ;sex; ;m:dubcon; ;being stalked; ;alone; ;fear boner;]
@@ -3844,7 +3844,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RJhXVmHg
 by Sunny_Side_Up
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Sunny_Side_Up
 
-'''julia
+'''ruby
 "Your Neighbourhood Spaceman"<br>
 '''
 [;scalie; ;lizard;][]
@@ -3854,7 +3854,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xut4JcCV
 -----------------------------------------------------------------------------------------------------------------------------
 by StuckAnon
 
-'''julia
+'''ruby
 "Apartment in Heat"<br>
 '''
 [;wolf; ;canine;][;heat;]~
@@ -3864,7 +3864,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rEK7SJSn
 -----------------------------------------------------------------------------------------------------------------------------
 by Break-that-Tide
 
-'''julia
+'''ruby
 "Of Rats and Men"<br>
 '''
 [;rodent; ;rat; ;skaven;][;comfy; ;Warhammer Fantasy; ;sex; ;violence; ;m:dubcon; ;m:dubcon --> m:con; ;mates; ;love/romance; ;medieval; ;fantasy;]~
@@ -3874,7 +3874,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sRk4FADN
 -----------------------------------------------------------------------------------------------------------------------------
 by Coastal_anon
 
-'''julia
+'''ruby
 "Silent Night"<br>
 '''
 [;horse;][;comfy;]
@@ -3884,7 +3884,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/arSy8jBs
 -----------------------------------------------------------------------------------------------------------------------------
 by shittywriteranon
 
-'''julia
+'''ruby
 "Starburst"<br>
 '''
 [][]
@@ -3894,7 +3894,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ihFidBHq (Prol
 -----------------------------------------------------------------------------------------------------------------------------
 by VespertineJack
 
-'''julia
+'''ruby
 "Starkind: Defy the Dark"<br>
 '''
 [][]
@@ -3905,7 +3905,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u9fN0y70
 by TheShotgunScout
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/TheShotgunScout
 
-'''julia
+'''ruby
 "BE PREPARED"<br>
 '''
 [;feline;][;comfy; ;innawoods;]
@@ -3917,26 +3917,26 @@ by Quoth_THE_raven
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/quoth_THE_raven
 
 =============/ Mechanized Memories /===================
-'''julia
+'''ruby
 "Mechanized Memories"<br>
 '''
 [;feline; ;robot; ;lynx;][;very long story; ;love/romance; ;sci-fi; ;mystery;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZiMrV7Dx
 
-'''julia
+'''ruby
 "Mechanized Memories 1.5 - Epilogue: Eile A-SIDE/B-SIDE"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AGyqQVuY
 
-'''julia
+'''ruby
 "Mechanized Memories 1.5 - Epilogue: Eunomia"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1jy3Vk9z
 
 =============/ other /===================
-'''julia
+'''ruby
 "Blade of Gold, Fangs of Cold"<br>
 '''
 [;canine; ;wolf;][]~
@@ -3947,7 +3947,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnadRWX1
 -----------------------------------------------------------------------------------------------------------------------------
 by ChapelGuy
 
-'''julia
+'''ruby
 "100 Pages Till Love v.2"<br>
 '''
 [;shork; ;hybrid;][;comfy; ;relationship focused; ;non-smut; ;roommates; ;love/romance; ;hand holding; ;cuddling; ;lovers in denial;]~
@@ -3957,13 +3957,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hnAn0MWF
 -----------------------------------------------------------------------------------------------------------------------------
 by Ago_
 
-'''julia
+'''ruby
 "The Knight's Ward"<br>
 '''
 [;dragoness; ;dragoness <-> dragon; ;dragon; ;scalie;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/pXrVvGDL
 
-'''julia
+'''ruby
 "On the Fringes (Line 168)"<br>
 '''
 [;scalie; ;viper; ;reptile;][;Xcom; ;violence;]~
@@ -3975,19 +3975,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3NGXxFe1
 by Jathma
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Jathma
 
-'''julia
+'''ruby
 "The Shape of Pandas"<br>
 '''
 [;panda bear; ;bear;][;sex; ;love/romance; ;friends;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eZrfAAVp
 
-'''julia
+'''ruby
 "/hmofa/ versus Arctos"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XRi8aFG5
 
-'''julia
+'''ruby
 "/hmofa/ Meeting the Locals (No Translation for this Tongue)"<br>
 '''
 [][]
@@ -3998,7 +3998,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MCmvQPWP
 by CaptainKeen
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/CaptainKeen
 
-'''julia
+'''ruby
 "Strange Journey(Not the one in Antarctica with demons)"<br>
 '''
 [][]
@@ -4008,25 +4008,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NZEKfktN
 -----------------------------------------------------------------------------------------------------------------------------
 by Encased
 
-'''julia
+'''ruby
 "Unwilling"<br>
 '''
 [][;femdom;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fEDEauMc
 
-'''julia
+'''ruby
 "The Running Mare"<br>
 '''
 [][;femdom;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VLHJB9Bf
 
-'''julia
+'''ruby
 "Leela"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ksmmSHE
 
-'''julia
+'''ruby
 "Buying Bras"<br>
 '''
 [][]
@@ -4036,7 +4036,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hTyuRGgN
 -----------------------------------------------------------------------------------------------------------------------------
 by Mrpseudonym
 
-'''julia
+'''ruby
 "Yeen Story for Anon on /hmofa/"<br>
 '''
 [;yeen; ;amputee; ;hyena;][;comfy; ;established relationship;]
@@ -4046,19 +4046,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/XRRjJg0t
 -----------------------------------------------------------------------------------------------------------------------------
 by SticksNTricks
 
-'''julia
+'''ruby
 "The Roman: Passions"<br>
 '''
 [;goddess; ;deer; ;cervine;][;fantasy; ;sex; ;encounter; ;mates?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5JiZHmjU
 
-'''julia
+'''ruby
 "Not So Different: Part 1"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9wyHnFb1
 
-'''julia
+'''ruby
 "Sa Strašcu"<br>
 '''
 [;avian; ;bird;][;non-smut;]~
@@ -4068,13 +4068,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ygydiM2A
 -----------------------------------------------------------------------------------------------------------------------------
 by Simmsimulacra
 
-'''julia
+'''ruby
 "Lost and Longing in Lustria"<br>
 '''
 [;lizard; ;multiple; ;harem; ;scalie;][;polygamy; ;fantasy; ;marriage;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/G2xS77Ac
 
-'''julia
+'''ruby
 "Honey, I Fucked A Lizard"<br>
 '''
 [;scalie;][]
@@ -4084,7 +4084,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Dk0giASa
 -----------------------------------------------------------------------------------------------------------------------------
 by TequilaPossum
 
-'''julia
+'''ruby
 "Oh Fuck, A Bear"<br>
 '''
 [;bear;][]~
@@ -4094,7 +4094,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/puphvnq5
 -----------------------------------------------------------------------------------------------------------------------------
 by PyromasterZ
 
-'''julia
+'''ruby
 "Bats in Space"<br>
 '''
 [;bat;][]~
@@ -4104,13 +4104,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z3MCt4Eu
 -----------------------------------------------------------------------------------------------------------------------------
 by KilledKella
 
-'''julia
+'''ruby
 "Coronation Day"<br>
 '''
 [;African wild dog; ;canine;][;adventure; ;love/romance;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pu6xFqMC
 
-'''julia
+'''ruby
 "The Heartless Ranger"<br>
 '''
 [][]~
@@ -4120,7 +4120,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jFZZfmm1
 -----------------------------------------------------------------------------------------------------------------------------
 by polelack
 
-'''julia
+'''ruby
 "Pack Life"<br>
 '''
 [;wolf; ;larger anthro; ;alien; ;canine;][;dubious consent; ;long story; ;dystopia; ;femdom;]~
@@ -4131,7 +4131,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fz5kYNSb (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by Clueless_Writer
 
-'''julia
+'''ruby
 "Pack hunters"<br>
 '''
 [;dinosaur; ;raptor; ;multiple;][;creampie; ;facesitting; ;sex; ;cunnilingus; ;blowjob; ;sniffing; ;camping; ;threesome; ;established relationship; ;m:pov; ;short story; ;chasing;]
@@ -4142,7 +4142,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kHv2aHMt
 -----------------------------------------------------------------------------------------------------------------------------
 by Aisling
 
-'''julia
+'''ruby
 "Genkits"<br>
 '''
 [;bear; ;red panda; ;rodent; ;mouse; ;shortstack; ;smaller anthro;][;love/romance?; ;sci-fi; ;public nudity; ;handjob; ;blowjob; ;cum swallowing; ;anal tonguing;]~
@@ -4154,7 +4154,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nqWbfA0W
 by Scavanon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Scavanon
 
-'''julia
+'''ruby
 "The Hitchhiker"<br>
 '''
 [;shortstack; ;insect; ;cricket-like; ;smaller anthro; ;multiple; ;non-human vagina;][;chance encounter; ;pheromone-induced sex; ;cute; ;group-sex; ;harem; ;cunnilingus; ;erotic belly rubs; ;womb penetration; ;creampie; ;femdom; ;maledom; ;slight femdom; ;space; ;space ship; ;love/romance; ;sci-fi; ;lore-heavy; ;violence; ;blood; ;gore;]
@@ -4164,7 +4164,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5TSUvuQ3
 -----------------------------------------------------------------------------------------------------------------------------
 by LAWLEIOUS
 
-'''julia
+'''ruby
 "Squeak in the Night"<br>
 '''
 [;semi-feral; ;semi-feral -> non-feral; ;mouse; ;rodent;][;comfy; ;sex; ;good samaritan; ;roommates; ;love/romance;]
@@ -4175,7 +4175,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/x1PDDSvv
 by Deimos_Lynx
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Deimos_Lynx
 
-'''julia
+'''ruby
 "Dark Kitty"<br>
 '''
 [;feline; ;lynx;][]~
@@ -4185,7 +4185,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0S2QLiLy
 -----------------------------------------------------------------------------------------------------------------------------
 by OrganicConstruct
 
-'''julia
+'''ruby
 "The Speaker of Gera"<br>
 '''
 [;wolf; ;canine;][;fantasy; ;medieval;]X~
@@ -4195,7 +4195,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X9UP5fLu
 -----------------------------------------------------------------------------------------------------------------------------
 by CruxCrau
 
-'''julia
+'''ruby
 "Top 40 Reasons I love You"<br>
 '''
 [;raccoon;][]~
@@ -4206,49 +4206,49 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X0ZtagMx
 by A_Smiling_Face
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/A_Smiling_Face
 
-'''julia
+'''ruby
 "The Horsemen, Sentinel, and Raven"<br>
 '''
 [;avian; ;raven;][;sci-fi; ;cuddling;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wkP4MbqK
 
-'''julia
+'''ruby
 "A New King"<br>
 '''
 [;feline; ;liones;][;m:pov; ;milf; ;harem;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Qsdzw4jK
 
-'''julia
+'''ruby
 "The Tribes had Always Warred"<br>
 '''
 [;wolf;][;medieval; ;love/romance; ;war;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BhPRujGp
 
-'''julia
+'''ruby
 "Pretty Kitty Missy"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/BBTSSbMS
 
-'''julia
+'''ruby
 "Of Equines and Man."<br>
 '''
 [;horse;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GaQZcbTt
 
-'''julia
+'''ruby
 "Mr. Green and the Gators"<br>
 '''
 [;scalie; ;alligator;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/MSxTkjJC
 
-'''julia
+'''ruby
 "I-77"<br>
 '''
 [;scalie; ;feline; ;mountain lion;][;war;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ez3GC1jD
 
-'''julia
+'''ruby
 "Jaguar Feathers"<br>
 '''
 [][]
@@ -4258,7 +4258,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/21kmZaR1
 -----------------------------------------------------------------------------------------------------------------------------
 by Hindered
 
-'''julia
+'''ruby
 "Identity"<br>
 '''
 [;deer;][;m:pov; ;contemporary;]~
@@ -4269,7 +4269,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qPEPUgGy
 -----------------------------------------------------------------------------------------------------------------------------
 by Scytherfag
 
-'''julia
+'''ruby
 "Swords Dance"<br>
 '''
 [;avian;][;sci-fi;]~
@@ -4279,7 +4279,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bdYiqYs9
 -----------------------------------------------------------------------------------------------------------------------------
 by SlickBoi
 
-'''julia
+'''ruby
 "The Intern"<br>
 '''
 [][]~
@@ -4289,7 +4289,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0ri8jxUg
 -----------------------------------------------------------------------------------------------------------------------------
 by CozieT
 
-'''julia
+'''ruby
 "Cornerian Joggers"<br>
 '''
 [;lynx;][;Star Fox;]~
@@ -4299,7 +4299,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Es2CxBVV
 -----------------------------------------------------------------------------------------------------------------------------
 by Sample_Family
 
-'''julia
+'''ruby
 "Raised by Humans"<br>
 '''
 [][;non-smut; ;father/daughter;]~
@@ -4309,7 +4309,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YJBvwFhE
 -----------------------------------------------------------------------------------------------------------------------------
 by Bridge_burner
 
-'''julia
+'''ruby
 "Stealing What's Stolen"<br>
 '''
 [][]~
@@ -4319,7 +4319,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VR4zah89
 -----------------------------------------------------------------------------------------------------------------------------
 by ThisIsARealAccount
 
-'''julia
+'''ruby
 "Advent Provides"<br>
 '''
 [][]
@@ -4330,7 +4330,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QQKVQ5CZ
 by THAT_GUY23
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/That_Guy23
 
-'''julia
+'''ruby
 "Test"<br>
 '''
 [][]~
@@ -4340,19 +4340,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m0hQgNVg
 -----------------------------------------------------------------------------------------------------------------------------
 by Bottytanics
 
-'''julia
+'''ruby
 "Ta petite feuille."<br>
 '''
 [;canine;][;short story; ;violence; ;other language (French); ;ER;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Q5MeEPCX
 
-'''julia
+'''ruby
 "Deep Dark Desires"<br>
 '''
 [;raptor; ;feathered raptor);][;video games; ;teasing; ;grinding;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/raEr8hVq
 
-'''julia
+'''ruby
 "A Little Cup of Love (Line 41)"<br>
 '''
 [][]~
@@ -4363,7 +4363,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sGqN9G9X
 by Krieger_anon
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Krieger_anon
 
-'''julia
+'''ruby
 "Companion"<br>
 '''
 [;scalie; ;kobold;][]~
@@ -4373,7 +4373,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iKyVfR0A
 -----------------------------------------------------------------------------------------------------------------------------
 by Baronvonbadbeaver
 
-'''julia
+'''ruby
 "12 O'Clock Girls"<br>
 '''
 [;mult. species;][;lewd;]~
@@ -4385,7 +4385,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3fLJ4PyM
 by CASH25
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/CASH25
 
-'''julia
+'''ruby
 "Sugar wasp"<br>
 '''
 [;wasp; ;insect;][;comfy; ;good samaritan; ;sex; ;roommates; ;love/romance;]~
@@ -4395,7 +4395,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELPAveuh
 -----------------------------------------------------------------------------------------------------------------------------
 by Pauger
 
-'''julia
+'''ruby
 "I've Always Loved You (Line 162)"<br>
 '''
 [;canine; ;wolf;][]~
@@ -4405,13 +4405,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NXjY1eE8
 -----------------------------------------------------------------------------------------------------------------------------
 by Jorgimus
 
-'''julia
+'''ruby
 "The Motorknight"<br>
 '''
 [;wolf; ;canine;][;adventure; ;good samaritan; ;love/romance; ;violence; ;non-smut; ;violence;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z9ExM6KH
 
-'''julia
+'''ruby
 "Wild Worlds"<br>
 '''
 [][]~
@@ -4421,7 +4421,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zSZRuzMm
 -----------------------------------------------------------------------------------------------------------------------------
 by Manwho
 
-'''julia
+'''ruby
 "RIOT"<br>
 '''
 [][]~
@@ -4432,7 +4432,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5f3btKkF
 by Gordon61
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/gORdON61
 
-'''julia
+'''ruby
 "Bee Anthro"<br>
 '''
 [;insect; ;bee;][]
@@ -4442,7 +4442,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ErJxqDp8
 -----------------------------------------------------------------------------------------------------------------------------
 by Space_Weasel
 
-'''julia
+'''ruby
 "Human Inspection Day 1"<br>
 '''
 [;fox;][]~
@@ -4452,7 +4452,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/f0MLJzt9
 -----------------------------------------------------------------------------------------------------------------------------
 by Rato_Writer
 
-'''julia
+'''ruby
 "Blessings of The Great Horny Rat"<br>
 '''
 [;rodent; ;skaven;][]~
@@ -4462,7 +4462,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fWMLYLBT
 -----------------------------------------------------------------------------------------------------------------------------
 by Silverbro
 
-'''julia
+'''ruby
 "If There's an Off-Switch"<br>
 '''
 [][]O~
@@ -4473,7 +4473,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QsTi0p9a
 by An_On
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/An_On
 
-'''julia
+'''ruby
 "Anon and the Circus: Complete"<br>
 '''
 [][]
@@ -4483,7 +4483,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UYYWfMt6
 -----------------------------------------------------------------------------------------------------------------------------
 by Kyrise
 
-'''julia
+'''ruby
 "knight and the cat"<br>
 '''
 [;felind;][;short story; ;fantasy;]
@@ -4493,7 +4493,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UFuxPiVs
 -----------------------------------------------------------------------------------------------------------------------------
 by Jumk
 
-'''julia
+'''ruby
 "The Hunting Mouse"<br>
 '''
 [;rodent; ;mouse;][]
@@ -4503,7 +4503,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xj7HLh4C
 -----------------------------------------------------------------------------------------------------------------------------
 by Mac10_and_cheese
 
-'''julia
+'''ruby
 "Missing In Action"<br>
 '''
 [;scalie; ;crocodile;][;Vietnam; ;war; ;firefights;]~
@@ -4514,7 +4514,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/buZNVdjG
 -----------------------------------------------------------------------------------------------------------------------------
 by SabreDance
 
-'''julia
+'''ruby
 "For What It's Worth"<br>
 '''
 [][;Vietnam; ;war; ;firefights;]~
@@ -4524,7 +4524,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n3YLF2xb
 -----------------------------------------------------------------------------------------------------------------------------
 by Derpyderps
 
-'''julia
+'''ruby
 "Kindness of a stranger. /Hmofa/"<br>
 '''
 [][]
@@ -4534,7 +4534,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHWHG853
 ----------------------------------------------------------------------------------------------------------------------------
 by Taby
 
-'''julia
+'''ruby
 "Piano Man"<br>
 '''
 [;yeen; ;hyena;][;slice of life?; ;love/romance;]
@@ -4544,7 +4544,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/t2Wsza5z
 -----------------------------------------------------------------------------------------------------------------------------
 by Phone-Anon
 
-'''julia
+'''ruby
 "We're in a Relationship?"<br>
 '''
 [;kobold; ;lizard; ;scalie;][;pretend relationship; ;love/romance?; ;friends; ;fantasy?; ;lovers in denial?;]~
@@ -4554,7 +4554,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YpcxSTh1
 -----------------------------------------------------------------------------------------------------------------------------
 by Mightypoohead
 
-'''julia
+'''ruby
 "Trying it out"<br>
 '''
 [][]
@@ -4564,7 +4564,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXwr9a5Q
 -----------------------------------------------------------------------------------------------------------------------------
 by 05050H4C
 
-'''julia
+'''ruby
 "Unbelonging"<br>
 '''
 [][]OX~
@@ -4574,7 +4574,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6DLC7yKY
 -----------------------------------------------------------------------------------------------------------------------------
 by AngryWino
 
-'''julia
+'''ruby
 "SPACE PIRATE FERRETS"<br>
 '''
 [;ferret; ;multiple;][]~
@@ -4586,7 +4586,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/19QDcLsk (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by Agmsinbound
 
-'''julia
+'''ruby
 "Feel no Fear, Know my Pride"<br>
 '''
 [][]~
@@ -4597,7 +4597,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X1CjPVrA
 by Obsidian_Owl
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Obsidian_Owl
 
-'''julia
+'''ruby
 "Anon-san's Escort"<br>
 '''
 [;shy; ;canine;][;comfy; ;dating; ;sex; ;Japan; ;love/romance;]
@@ -4613,7 +4613,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0VRLRnLB (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by CardBoardBox_Knight
 
-'''julia
+'''ruby
 "Anon and His Dragon Knight"<br>
 '''
 [;scalie;][]~
@@ -4623,7 +4623,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dW2Uu58Y
 -----------------------------------------------------------------------------------------------------------------------------
 by Baffled_Anon
 
-'''julia
+'''ruby
 "Dawn of the Senseless"<br>
 '''
 [;canine;][;m/f:pov;]~
@@ -4633,7 +4633,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KvgY99iV
 -----------------------------------------------------------------------------------------------------------------------------
 by EmpanadaAnon
 
-'''julia
+'''ruby
 "Workout"<br>
 '''
 [;canine; ;larger anthro; ;doberman;][;heat; ;sex; ;cunnilingus; ;vaginal; ;creampie;]
@@ -4644,7 +4644,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9DGBiC6C
 -----------------------------------------------------------------------------------------------------------------------------
 by Calmcreek
 
-'''julia
+'''ruby
 "doge"<br>
 '''
 [][]~
@@ -4654,7 +4654,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/iX3LsKbE
 -----------------------------------------------------------------------------------------------------------------------------
 by Crybaby_Anon
 
-'''julia
+'''ruby
 "Stranded"<br>
 '''
 [;tribal; ;canine; ;wolf;][;comfy; ;sex; ;mates; ;short story;]
@@ -4664,7 +4664,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mEtKnCUx
 -----------------------------------------------------------------------------------------------------------------------------
 by Trichotic
 
-'''julia
+'''ruby
 "Adventures of #A0382916"<br>
 '''
 [][]
@@ -4674,7 +4674,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h2r78P9z
 -----------------------------------------------------------------------------------------------------------------------------
 by SadAnon
 
-'''julia
+'''ruby
 "The mythological Human"<br>
 '''
 [;sheep; ;dragon; ;scalie;][]~
@@ -4684,7 +4684,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/nkBcbdjG
 -----------------------------------------------------------------------------------------------------------------------------
 by BiguBossu
 
-'''julia
+'''ruby
 "/fit/izen's Wolfish Encounter"<br>
 '''
 [;wolf; ;canine;][]~
@@ -4694,7 +4694,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/z2GxRkwL
 -----------------------------------------------------------------------------------------------------------------------------
 by Unitedhistory
 
-'''julia
+'''ruby
 "Pity party at the forest"<br>
 '''
 [;otter; ;prostitute;][;non-smut;]~
@@ -4704,7 +4704,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k8kBKFTc
 -----------------------------------------------------------------------------------------------------------------------------
 by AlfredHitchcock
 
-'''julia
+'''ruby
 "Contact"<br>
 '''
 [;wolf; ;canine;][]~
@@ -4714,7 +4714,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/T32EtF2m
 -----------------------------------------------------------------------------------------------------------------------------
 by Shelter_Anon
 
-'''julia
+'''ruby
 "Waifur Adoption"<br>
 '''
 [;canine;][]~
@@ -4725,7 +4725,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TDkTx6jZ
 by YFHA
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/YFHA
 
-'''julia
+'''ruby
 "The HEL Jumper"<br>
 '''
 [;feline;][;novel Length story;]
@@ -4735,7 +4735,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LaYdGyqi
 -----------------------------------------------------------------------------------------------------------------------------
 by LoudAccident
 
-'''julia
+'''ruby
 "The New Hire"<br>
 '''
 [;scalie; ;snake;][]~
@@ -4745,7 +4745,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EskKP2b7
 -----------------------------------------------------------------------------------------------------------------------------
 by Sneakystar
 
-'''julia
+'''ruby
 "Sparks of Aether"<br>
 '''
 [][]~
@@ -4755,7 +4755,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ELwG7EzS
 -----------------------------------------------------------------------------------------------------------------------------
 by N949256593
 
-'''julia
+'''ruby
 "OKAMI: Ripples"<br>
 '''
 [][]~O
@@ -4765,7 +4765,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1uyd2ctj
 -----------------------------------------------------------------------------------------------------------------------------
 by Suspicious_Package
 
-'''julia
+'''ruby
 "Der Hündin Offizier"<br>
 '''
 [;canine; ;doberman;][;lewd;]
@@ -4775,7 +4775,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5u4mxCe1
 -----------------------------------------------------------------------------------------------------------------------------
 by Metamorphone
 
-'''julia
+'''ruby
 "White Knighting"<br>
 '''
 [;feline; ;cheetah;][;high school;]~
@@ -4785,7 +4785,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8YR7ycJz
 -----------------------------------------------------------------------------------------------------------------------------
 by Stonetrash
 
-'''julia
+'''ruby
 "Ditzune"<br>
 '''
 [;kitsune; ;fox; ;shortstack; ;milf;][;eventual smut;]~
@@ -4795,7 +4795,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hx2CwbHE
 -----------------------------------------------------------------------------------------------------------------------------
 by Dankmeme_anon
 
-'''julia
+'''ruby
 "No Escape"<br>
 '''
 [][;non-smut; ;spooky;]~
@@ -4805,7 +4805,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/tYAHvdxV
 -----------------------------------------------------------------------------------------------------------------------------
 by Time_Trial
 
-'''julia
+'''ruby
 "So Much Like Her"<br>
 '''
 [;husky; ;younger anthro;][;pseudo-incest; ;love/romance; ;vaginal; ;blowjob ;]
@@ -4815,7 +4815,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UXb9DFbY
 -----------------------------------------------------------------------------------------------------------------------------
 by Zedd
 
-'''julia
+'''ruby
 "DEADLINE"<br>
 '''
 [;canine; ;border collie;][;childhood friends; ;racing;]~
@@ -4826,13 +4826,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HaA8TNVX
 -----------------------------------------------------------------------------------------------------------------------------
 by Mattariel
 
-'''julia
+'''ruby
 "Firebrand"<br>
 '''
 [;rodent; ;mouse; ;tomboy;][;comfy; ;childhood friends; ;sex; ;confession of feelings; ;cuddling; ;love/romance; ;condom;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ydPiM7Y
 
-'''julia
+'''ruby
 "Pariah (Firebrand 2)"<br>
 '''
 [;rodent; ;mouse; ;tomboy;][;drama; ;childhood friends; ;sex; ;love/romance;]
@@ -4842,7 +4842,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/d38vt93n
 -----------------------------------------------------------------------------------------------------------------------------
 by McDoogle
 
-'''julia
+'''ruby
 "Beginner's Luck"<br>
 '''
 [;canine;][;comfy; ;blowjob; ;Two Kinds; ;love/romance;]
@@ -4853,51 +4853,51 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JegzDA6n
 by The_FFI_Database
 
 =============/ The FFI Happenings /===================
-'''julia
+'''ruby
 "TRANSCRIPT OF DOCUMENT DISCOVERED OUTSIDE WACISSA"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][;on the run; ;nefarious government programs; ;pregnancy; ;m:pov; ;suspense;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QnNSXPrg
 #Anon is kidnapped by the nefarious Government Agency FFI to forcefully undergo morally questionable things with unwilling anthro females. A jailbreak happens and now he is on the run with some female anthros he escaped with.
 
-'''julia
+'''ruby
 "The Eye on the FFI"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/25UaaPH3
 
-'''julia
+'''ruby
 "EVIDENCE FOR UPCOMING OPERATION #10028"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DhZLELSF
 
-'''julia
+'''ruby
 "ADDENDUM TO OPERATION #10028"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GvKKKvv2
 
-'''julia
+'''ruby
 "FOUND: Tattered Journal (1/2)"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/anjqWEYR
 
-'''julia
+'''ruby
 "FOUND: Tattered Journal (2/2)"<br>
 '''
 [;mult. species; ;feline; ;lion; ;insect; ;ant; ;shark; ;yeen; ;hyena; ;sheep;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WrrBt864
 
 =============/ OTHER /===================
-'''julia
+'''ruby
 "Misc. Ideas of The Secret Zone"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WwAGxVv1
 
-'''julia
+'''ruby
 "Honeyed Hearts"<br>
 '''
 [;insect; ;bee;][]
@@ -4908,76 +4908,76 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CRyjb7hU
 by NARRIC
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Narric
 
-'''julia
+'''ruby
 "Stars and Gods"<br>
 '''
 [;tribal; ;lizard/wolf; ;kommodo dragon/wolf; ;hybrid;][;space; ;sci-fi; ;lore; ;scientific/technological jargon; ;m/f:pov; ;mystery; ;alien planet;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Sw4N3YNQ
 #A terrible accident occurs, leaving Dr Jack Riviera stranded in an unknown yet inhabited world.
 
-'''julia
+'''ruby
 "Quill and Quail"<br>
 '''
 [;feline;][;prophecy; ;magic; ;m:pov; ;fantasy;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/0vJW8E4V
 #Anon stumbles upon a magical tavern in the forest. Here, he meets Felicity, a feline anthro who accidentally stumbled upon this place while looking for "the man of her dreams". Now both stuck in this "Nexus of worlds", they decide to explore it together and search for a way back to their worlds.
 
-'''julia
+'''ruby
 "Princess of the Silver Screen"<br>
 '''
 [;moth; ;insect; ;celebrity;][;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/VZGwA8sa
 
-'''julia
+'''ruby
 "What Character Creation Leads To"<br>
 '''
 [;scalie; ;lizard;][;oneshot; ;video games; ;dream girl; ;bed sharing; ;cuddling; ;breastplay; ;vaginal; ;sex; ;creampie; ;after sex embrace; ;love/romance; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/U7jeTc7T
 #Anon creates his perfect gaming waifur and it comes to life
 
-'''julia
+'''ruby
 "Milf Bun"<br>
 '''
 [;rabbit; ;milf;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "The Crack Back"<br>
 '''
 [;canine; ;shortstack; ;spaniel; ;two-faced;][;short story; ;vaginal; ;sex; ;creampie; ;rapeplay?; ;rape kink;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "Otter Rubs"<br>
 '''
 [;otter;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "Undersea Encounter"<br>
 '''
 [;fish; ;anglerfish;][;french kissing; ;domination; ;scuba diving;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "Limber Lioness"<br>
 '''
 [;liones; ;feline;][;yoga; ;ice tea; ;about to make a confession; ;non-smut; ;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "Matrimony War"<br>
 '''
 [;panther; ;feline;][;war; ;wife;]O
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GHUYVYEC
 
-'''julia
+'''ruby
 "Amazon in the Tundra"<br>
 '''
 [][;CYOA-Like; ;Community Driven/Written; ;Game-like; ;fantasy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qudcMryc
 
-'''julia
+'''ruby
 "Space Dust"<br>
 '''
 [;insect; ;moth; ;alien;][;sci-fi; ;Questionable Faceless Overlords; ;isolation;]
@@ -4987,13 +4987,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3g60tMVh
 -----------------------------------------------------------------------------------------------------------------------------
 by Karnazomb
 
-'''julia
+'''ruby
 "Core-Chan Fic"<br>
 '''
 [][]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zxyZsGgR
 
-'''julia
+'''ruby
 "Thirsty for Love"<br>
 '''
 [;camel;][;college; ;lewd; ;friends;]~
@@ -5004,7 +5004,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2EEcMF9Q
 -----------------------------------------------------------------------------------------------------------------------------
 by Anon_The_Shitposter
 
-'''julia
+'''ruby
 "Vanguard Anon and Padmayan Adventures"<br>
 '''
 [;fox; ;multiple;][;action; ;sci-fi; ;Warhammer 40k; ;gore; ;post-apocalyptic; ;firefights; ;scientific/technological jargon; ;waking up to snuggles; ;comical; ;shenanigans; ;m/f:pov;]~
@@ -5015,7 +5015,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Sw4N3YNQ
 -----------------------------------------------------------------------------------------------------------------------------
 by FALs_a_besto
 
-'''julia
+'''ruby
 "That Old Black Magic"<br>
 '''
 [;canine; ;wolf; ;feline; ;lion;][;fighting; ;violence; ;magic; ;adventure; ;fantasy; ;isekai;]~
@@ -5026,13 +5026,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qifUgSdr
 -----------------------------------------------------------------------------------------------------------------------------
 by SUB_ANON
 
-'''julia
+'''ruby
 "Decennial"<br>
 '''
 [;cervine?; ;eldritch?; ;multiple breast; ;skull Head; ;larger anthro;][;vaginal; ;established relationship; ;short story; ;married couple; ;tentacles; ;comfy; ;foreplay; ;fangs; ;chasing; ;scritches; ;petting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rPgQkvw5
 
-'''julia
+'''ruby
 "Arrestedo"<br>
 '''
 [;doberman; ;canine; ;dog;][;sex; ;anal; ;very mild pet play; ;femdom; ;bondage;]
@@ -5042,7 +5042,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aJJdZgpZ
 -----------------------------------------------------------------------------------------------------------------------------
 by Sum_fag
 
-'''julia
+'''ruby
 "Humble Pie"<br>
 '''
 [;otter;][;comfy; ;sex; ;childhood friends; ;cunnilingus; ;vaginal; ;condom; ;french kissing; ;love/romance;]
@@ -5052,7 +5052,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xeheVdcN
 -----------------------------------------------------------------------------------------------------------------------------
 by Draggron
 
-'''julia
+'''ruby
 "Crocodile Comfort"<br>
 '''
 [;reptile; ;crocodile;][;sex; ;vaginal; ;cowgirl position; ;femdom; ;wholesome; ;role-reversal; ;big moods; ;anxiety; ;comfort; ;french kissing; ;consensual domination; ;big moods;]
@@ -5063,7 +5063,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xaJRVWwh
 -----------------------------------------------------------------------------------------------------------------------------
 by CudaBen
 
-'''julia
+'''ruby
 "How I, Met You"<br>
 '''
 [][]
@@ -5073,7 +5073,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jGqQmF34
 -----------------------------------------------------------------------------------------------------------------------------
 by Nineball
 
-'''julia
+'''ruby
 "The Pursuit of Pleasure"<br>
 '''
 [][]
@@ -5083,7 +5083,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/kv0ucsMm
 -----------------------------------------------------------------------------------------------------------------------------
 by Mal0_Anon
 
-'''julia
+'''ruby
 "Foundation Tales"<br>
 '''
 [;canine; ;mal0; ;scp;][;sex; ;anal;]~
@@ -5093,20 +5093,20 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uCYE1WYt
 -----------------------------------------------------------------------------------------------------------------------------
 by Aimbot.exe
 
-'''julia
+'''ruby
 "Raine is Rigged to Blow"<br>
 '''
 [;wolf;][;f:pov; Two Kinds; ;sex; ;vaginal; ;cunnilingus; ;love/romance; ;contains amohf; ;sleeping embrace; ;short story; ;french kissing; ;f:pov;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WCQptBjr
 #Raine finally gets to indulge her feelings with Red.
 
-'''julia
+'''ruby
 "Rose Experiences the Human Way of Things"<br>
 '''
 [;canine;][;Two Kinds;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mNARzKdz
 
-'''julia
+'''ruby
 "Raine's Lingerie Incident"<br>
 '''
 [;canine; ;wolf;][;Two Kinds; ;love/romance; ;comfy;]
@@ -5117,7 +5117,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CTSpWcRP (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by Genwyn
 
-'''julia
+'''ruby
 "A Central Suburban Breeze"<br>
 '''
 [;German shepherd; ;canine;][;sex; ;vaginal; ;cunnilingus; ;short story; ;love/romance; ;undressing;]
@@ -5127,13 +5127,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/esNFihGC
 -----------------------------------------------------------------------------------------------------------------------------
 by Tin_Foiled_Anon
 
-'''julia
+'''ruby
 "She Lives While I Sleep"<br>
 '''
 [;reptile;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vrkq6YMe
 
-'''julia
+'''ruby
 "The Monster in the Closet"<br>
 '''
 [;Loka;][;cuddling; ;Mosters inc;]
@@ -5144,13 +5144,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/7Zma5Tb7
 by Changed_Daily
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Changed_Daily
 
-'''julia
+'''ruby
 "Anon Hatefucks a Coworker"<br>
 '''
 [;wolf; ;canine;][;hatefuck; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6vQKr6AH
 
-'''julia
+'''ruby
 "Best Friend"<br>
 '''
 [;lynx; ;feline;][;love/romance; ;party; ;non-smut; ;confession of feelings; ;dancing; ;beach; ;club;]
@@ -5160,7 +5160,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gaW3kgy4
 -----------------------------------------------------------------------------------------------------------------------------
 by Big_Gay_Skeleton
 
-'''julia
+'''ruby
 "No Hetero"<br>
 '''
 [;dog; ;rottweiler; ;lesbian; ;muscular;][;roommates; ;orientation play; ;heat play; ;oral; ;cunnilingus; ;dom/sub; ;objectification; ;short story;]
@@ -5171,7 +5171,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rLkyun8v
 -----------------------------------------------------------------------------------------------------------------------------
 by StabbyTheSnowman
 
-'''julia
+'''ruby
 "Unexpected Christmas Gifts"<br>
 '''
 [;horse; ;large antrho;][;comfy; ;very short story; ;sex; ;childhood friends; ;Christmas;]
@@ -5181,7 +5181,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZyY4jKAB
 -----------------------------------------------------------------------------------------------------------------------------
 by Smoke_Anon
 
-'''julia
+'''ruby
 "What's in the Canister? (Line 88)"<br>
 '''
 [;fennec fox; ;fox;][;BHA universe;]~
@@ -5191,7 +5191,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5W1Cwbs3
 -----------------------------------------------------------------------------------------------------------------------------
 by Artifexcaloris
 
-'''julia
+'''ruby
 "The Queen of the Palace of Paper"<br>
 '''
 [;wasp;][]
@@ -5201,13 +5201,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LWn1J4fw
 -----------------------------------------------------------------------------------------------------------------------------
 by Arctozolt
 
-'''julia
+'''ruby
 "WIP Arctic Fox Story"<br>
 '''
 [;arctic fox; ;fox;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vvc3cLHW
 
-'''julia
+'''ruby
 "Under Greenland"<br>
 '''
 [;Greenland shark;][]X~
@@ -5217,7 +5217,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mtzcG97Z
 -----------------------------------------------------------------------------------------------------------------------------
 by P-lucky
 
-'''julia
+'''ruby
 "Unexpected Consequences - Loka"<br>
 '''
 [;Loka;][]
@@ -5227,13 +5227,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ekvRv7eX
 -----------------------------------------------------------------------------------------------------------------------------
 by ColonTwo
 
-'''julia
+'''ruby
 "Service"<br>
 '''
 [;horse;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gKfyXJi7
 
-'''julia
+'''ruby
 "My Waspu"<br>
 '''
 [;wasp;][]
@@ -5243,26 +5243,26 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1gmMUSJU
 -----------------------------------------------------------------------------------------------------------------------------
 by Bear_Anon
 
-'''julia
+'''ruby
 "[HMOFA] A Touch of Grace"<br>
 '''
 [;hyena; ;yeen;][;short story; ;childhood friends; ;femdom; ;sex; ;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m3W7aH9T
 #Anon helps his hyena friend train and they reveal their feelings for eachother
 
-'''julia
+'''ruby
 "Gamer Gator"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnhckHDn
 
-'''julia
+'''ruby
 "Gator Snuggles"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4eVYJrL
 
-'''julia
+'''ruby
 "A Feline's Fancy"<br>
 '''
 [][]
@@ -5272,7 +5272,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LRhZrCcM
 -----------------------------------------------------------------------------------------------------------------------------
 by iwannarobowife
 
-'''julia
+'''ruby
 "Easter Bunny Wife"<br>
 '''
 [;rabbit;][]
@@ -5282,7 +5282,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/saX4Yiqr
 -----------------------------------------------------------------------------------------------------------------------------
 by WriteGaf
 
-'''julia
+'''ruby
 "Loco for Loka"<br>
 '''
 [;Loka;][]~
@@ -5292,13 +5292,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aCdD2US6
 -----------------------------------------------------------------------------------------------------------------------------
 by d15c0rd
 
-'''julia
+'''ruby
 "A Story in Zootopia With Judy Hopps"<br>
 '''
 [;rabbit; ;Judy Hopps;][;Zootopia;]X
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u0692rp2
 
-'''julia
+'''ruby
 "A Short Story About Megan"<br>
 '''
 [;canine; ;maned wolf;][]
@@ -5308,19 +5308,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/50vAjQyT
 -----------------------------------------------------------------------------------------------------------------------------
 by Anon_2O
 
-'''julia
+'''ruby
 "Serenade"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvQvpK87
 
-'''julia
+'''ruby
 "Mary and Anon"<br>
 '''
 [;canine; ;maned wolf;][;sex; ;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rxTkqy4g
 
-'''julia
+'''ruby
 "Just Neighbors"<br>
 '''
 [;fox;][;sex;]
@@ -5330,13 +5330,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rvY5mc7T
 -----------------------------------------------------------------------------------------------------------------------------
 by Power_of_Alchemy
 
-'''julia
+'''ruby
 "A Sudden Lapse of Reason"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Kp6yDYis
 
-'''julia
+'''ruby
 "Where Did All the Time Go?"<br>
 '''
 [][]
@@ -5346,7 +5346,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJDw5gtN
 -----------------------------------------------------------------------------------------------------------------------------
 by DS_Anon
 
-'''julia
+'''ruby
 "Tailborne Federal Penitentiary"<br>
 '''
 [][]
@@ -5357,7 +5357,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RMupWGBA
 by plotrobert
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/plotrobert
 
-'''julia
+'''ruby
 "Rouge Story"<br>
 '''
 [;bat; ;Rouge;][;Sonic the Hedgehog;]
@@ -5367,7 +5367,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n7Y9diDd
 -----------------------------------------------------------------------------------------------------------------------------
 by SteelandFlames
 
-'''julia
+'''ruby
 "Destiny in the Desert"<br>
 '''
 [][]
@@ -5377,7 +5377,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EFVnsNZy
 -----------------------------------------------------------------------------------------------------------------------------
 by Red-Nine
 
-'''julia
+'''ruby
 "End of Active Obligated Service"<br>
 '''
 [][]
@@ -5387,31 +5387,31 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hdaamdda
 -----------------------------------------------------------------------------------------------------------------------------
 by HerrKaluen
 
-'''julia
+'''ruby
 "Breaking What's Survived"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cuxYvCUy
 
-'''julia
+'''ruby
 "A Sudden Rush"<br>
 '''
 [][;femdom;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UiYC7H69
 
-'''julia
+'''ruby
 "Zahra's Mistake"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXVjdekD
 
-'''julia
+'''ruby
 "Dimitri's Roundabout"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jM0YSfzx
 
-'''julia
+'''ruby
 "Greentext Collection"<br>
 '''
 [][]
@@ -5421,7 +5421,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Zhek5FWg
 -----------------------------------------------------------------------------------------------------------------------------
 by Miru
 
-'''julia
+'''ruby
 "Victorian 2"<br>
 '''
 [][]
@@ -5432,7 +5432,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZEv8Qiad (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by jears
 
-'''julia
+'''ruby
 "Defrosted"<br>
 '''
 [][]
@@ -5444,25 +5444,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wqfUEXmc (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by Hypericum
 
-'''julia
+'''ruby
 "Cold Light"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJT1prpe
 
-'''julia
+'''ruby
 "7989-72"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Xgzqvi0K
 
-'''julia
+'''ruby
 "A Black Cat (Line 28)"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y94fqxCN
 
-'''julia
+'''ruby
 "O Queen, my Queen (Line 46)"<br>
 '''
 [][]
@@ -5472,7 +5472,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bbjyG8B5
 -----------------------------------------------------------------------------------------------------------------------------
 by Akaece
 
-'''julia
+'''ruby
 "Rehabilitation"<br>
 '''
 [][;hypnosis/mind control;]
@@ -5483,25 +5483,25 @@ https://mcstories.com/RehabilitationAkaece/RehabilitationAkaece.html
 by Vani11aS33d
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Vani11aS33d
 
-'''julia
+'''ruby
 "Slime and Steel"<br>
 '''
 [;slug; ;insect;][;sex; ;romance/love; ;fantasy; ;medieval; ;comfy; ;impregnation;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SdGgScF3
 
-'''julia
+'''ruby
 "In the Bear's Den"<br>
 '''
 [;bear;][;femdom; ;historical; ;soviet; ;shitpost;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eV0EKcXq
 
-'''julia
+'''ruby
 "The Florica"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uyhxrCJ8
 
-'''julia
+'''ruby
 "Ride in the Drakwald (Complete)"<br>
 '''
 [][]
@@ -5512,7 +5512,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yjyyee1g
 by meklab
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/meklab
 
-'''julia
+'''ruby
 "Wolfox"<br>
 '''
 [;canine; ;wolf; ;worgen; ;larger anthro; ;fox; ;vulpera; ;smaller anthro;][;sex; ;ER; ;World of Warcraft; ;size difference; ;oral; ;erotic brushing;]~
@@ -5523,25 +5523,25 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ziv3t7Q
 by PHI_FI
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Phi_Fi
 
-'''julia
+'''ruby
 "Call of the Waifur"<br>
 '''
 [][;domination; ;new world order; ;femdom?;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFyP1jQW
 
-'''julia
+'''ruby
 "Hannah the Red Panda"<br>
 '''
 [;bear; ;red panda;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AvR4M9JS
 
-'''julia
+'''ruby
 "Heartbreak"<br>
 '''
 [;canine; ;wolf;][;sex; ;m:rape;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A023WBPX
 
-'''julia
+'''ruby
 "Hickitsune (Line 161)"<br>
 '''
 [][]
@@ -5551,7 +5551,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cb8Cx6Nv
 -----------------------------------------------------------------------------------------------------------------------------
 by AWF
 
-'''julia
+'''ruby
 "Canonically Uncanon"<br>
 '''
 [;Tempest the Dolphin; ;Dolphin;][;Sonic the Hedgehog; ;sex;]
@@ -5561,19 +5561,19 @@ https://archiveofourown.org/works/23635330
 -----------------------------------------------------------------------------------------------------------------------------
 by Umbra_Invicta
 
-'''julia
+'''ruby
 "Scarred"<br>
 '''
 [;German shepherd;][;H/C; ;comforting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mpS9Eqrs
 
-'''julia
+'''ruby
 "Isolated"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YFvFdEEv
 
-'''julia
+'''ruby
 "First Contact Procedures"<br>
 '''
 [;alien; ;reptile; ;scalie;][;sci-fi;]~
@@ -5584,13 +5584,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hq4UTdED
 by Bockwood
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u/Bockwood
 
-'''julia
+'''ruby
 "The Town of Shady Rest"<br>
 '''
 [][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ARLaNAzD
 
-'''julia
+'''ruby
 "Boar-Bait"<br>
 '''
 [][]
@@ -5600,7 +5600,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3DG1LBKG
 -----------------------------------------------------------------------------------------------------------------------------
 by Cobal Blue Sphere
 
-'''julia
+'''ruby
 "Garrison-Duty"<br>
 '''
 [;worgen; ;canine; ;wolf;][;fantasy; ;comfy; ;World of Warcraft; ;sex; ;long story; ;violence; ;military;]
@@ -5611,7 +5611,7 @@ https://www.fanfiction.net/s/13324067/1/Garrison-Duty
 -----------------------------------------------------------------------------------------------------------------------------
 by CephalonLewd
 
-'''julia
+'''ruby
 "Coiled with Torque"<br>
 '''
 [;scalie; ;Torque; ;viper; ;snake;][;Xcom; ;sex;]
@@ -5621,7 +5621,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/w7NADBbF
 -----------------------------------------------------------------------------------------------------------------------------
 by HierophantHerp
 
-'''julia
+'''ruby
 "Heart of the Shark"<br>
 '''
 [][]
@@ -5632,13 +5632,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fnieMmjh (Part
 -----------------------------------------------------------------------------------------------------------------------------
 by InvisanonReborn
 
-'''julia
+'''ruby
 "Carter's Streets - Revised Edition"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b9gnmMy5
 
-'''julia
+'''ruby
 "Apart"<br>
 '''
 [][]
@@ -5648,7 +5648,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iKZHFXC
 -----------------------------------------------------------------------------------------------------------------------------
 by Boboftheross
 
-'''julia
+'''ruby
 "The Thirteenth's Chosen"<br>
 '''
 [;rodent; ;skaven;][;Warhammer Fantasy;]~
@@ -5658,7 +5658,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bcFubhRa
 -----------------------------------------------------------------------------------------------------------------------------
 by Ashtrek / KrautDyke
 
-'''julia
+'''ruby
 "Fleabag & FANG"<br>
 '''
 [;fox;][;femdom; ;military; ;verbal abuse/insults; ;wrestling; ;lima syndrome;]~
@@ -5669,7 +5669,7 @@ https://www.sofurry.com/view/1662556
 -----------------------------------------------------------------------------------------------------------------------------
 by 4largebucketsofcoom
 
-'''julia
+'''ruby
 "HMOFA High"<br>
 '''
 [][]
@@ -5679,7 +5679,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NsVLbHyX
 -----------------------------------------------------------------------------------------------------------------------------
 by AzimuthFlirt
 
-'''julia
+'''ruby
 "A Small Haul"<br>
 '''
 [;mouse; ;size difference; ;smaller anthro;][;fantasy;]
@@ -5690,14 +5690,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ypneA1WK
 All these stories/Greens are by unknown Authors
 
 =============/ Lulu Universe /===================
-'''julia
+'''ruby
 "Problem Child"<br>
 '''
 [;canine; ;wolf;][;non-smut; ;platonic; ;ghetto; ;feels; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZEaz6Sv
 #Anon, a teacher, decided to help one of his students who is having a hard time living on the streets and forms a platonic student/teacher bond with her.
 
-'''julia
+'''ruby
 "Lulu story"<br>
 '''
 [;canine; ;dog;][;ghetto; ;feels; ;platonic; ;non-smut;]
@@ -5707,14 +5707,14 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/87ctsV1D (Part
 #Anon, a high school dropout working a dead end job, adopts a miserable anthro off the streets as his daughter.
 
 =============/Thicc Christmas Felines /===================
-'''julia
+'''ruby
 "CRIMBUS TIME BUT LATE BUT OKAY"<br>
 '''
 [;tiger; ;feline; ;thicc; ;large breast;][;established relationship; ;comfy; ;vaginal fingering; ;vaginal; ;love/romance; ;breast sucking; ;creampie; ;very short story; ;Christmas;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KLH21SGV
 #Anon makes love to his wife during the holiday season. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1467/35/1467351055396.jpg.
 
-'''julia
+'''ruby
 "WOMEN AND GETTING READY FOR THINGS AMIRITE"<br>
 '''
 [;cougar; ;feline; ;thicc; ;large breast; ;older anthro;][;short story; ;breast fondling; ;vaginal; ;creampie; ;established relationship; ;Christmas;]
@@ -5722,186 +5722,186 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4GMcMcdw
 #A man makes love to a 53 year old cougar. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1482/09/1482090330330.jpg.
 
 =============/ OTHER /===================
-'''julia
+'''ruby
 "Catch of the Day"<br>
 '''
 [;otter; ;Selonian; ;lion; ;Trianii;][;femdom; ;f/f/m; ;size difference; ;Star Wars; ;larger female; ;muscular female; ;breast sucking; ;oral; ;sex; ;vaginal; ;m:dubcon; ;squirting; ;smothering; ;f:heat;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SJhHv22C
 
-'''julia
+'''ruby
 "The Knight and the Rabbits"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzFs3w1Z
 
-'''julia
+'''ruby
 "In the Heat of the Crimson Queen"<br>
 '''
 [;fox; ;childhood friend;][]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fD40E9c8
 
-'''julia
+'''ruby
 "Late Night Mischief"<br>
 '''
 [;shark; ;lesbian;][;comfy; ;friends; ;confession of feelings; ;breast sucking; ;cuddling; ;sex; ;breakup comfort; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k92zjehX
 #Anon cheers up his lesbian friend after a rough break up.
 
-'''julia
+'''ruby
 "Hail to the King"<br>
 '''
 [;Greenland shark; ;shark;][;established relationship; ;slice of life; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sUJPcPtJ
 
-'''julia
+'''ruby
 "Hyena-chan"<br>
 '''
 [;yeen; ;hyena;][;comfy; ;confession of feelings; ;prom; ;short story; ;high school;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e4RzEg2b
 
-'''julia
+'''ruby
 "Give Up, Give In"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NEeyE23X
 
-'''julia
+'''ruby
 "Roomies"<br>
 '''
 [;raccoon;][;comfy; ;roommates; ;confession of feelings; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qEFkUs0P
 
-'''julia
+'''ruby
 "Mary's First Day"<br>
 '''
 [;canine;][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xEQRiGzC
 
-'''julia
+'''ruby
 "Mistakes"<br>
 '''
 [][]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QdNXQJ5D
 
-'''julia
+'''ruby
 "The Forest Gypsy"<br>
 '''
 [;goat;][;fantasy; ;vaginal; ;handjob; ;impregnation; ;creampie; ;breast sucking; ;slight femdom; ;femdom;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JGR4LKBW
 #A boy from a prudish village stumbles upon a caravan of anthro goats, or goat "devils" according to his elders, and one of them teaches him how to live deliciously.
 
-'''julia
+'''ruby
 "Stuck"<br>
 '''
 [;fox;][;f:cucked; ;short story; ;sex; ;creampie;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2CzSpEAw
 #Anon gets blackmaild by his vixen boss.
 
-'''julia
+'''ruby
 "Melting Point"<br>
 '''
 [;canine; ;dalmatian; ;dog;][;heat?;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/83J5Eicd
 #Anon the firefighter heads to the showers, but to his surprise his dalmation coworker wants to join him.
 
-'''julia
+'''ruby
 "Your average date with a hydra"<br>
 '''
 [;scalie; ;hydra; ;larger anthro; ;large breast; ;F cup; ;thicc; ;monster;][;blowjob; ;m:rimming; ;cum swallowing; ;femdom; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1Uk9kKR1
 #Anon scores a hot date with a multiple headed hydra anthro and now they are going back to his place to perform acts of unspeakable lewdness.
 
-'''julia
+'''ruby
 "Studies in Anthro-pology"<br>
 '''
 [;feline;][;comfy;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzpY7qLc
 
-'''julia
+'''ruby
 "Ruff Ryders"<br>
 '''
 [;canine; ;dog;][;sad/tragic;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/q6SjT2sG
 
-'''julia
+'''ruby
 "Yes You May"<br>
 '''
 [;red panda; ;bear;][;comfy; ;blowjob;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WJxBkBeN
 
-'''julia
+'''ruby
 "Red panda story"<br>
 '''
 [;red panda; ;bear;][;comfy; ;sex; ;established relationship;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SwChxEbA
 
-'''julia
+'''ruby
 "Wendigo story"<br>
 '''
 [;monster; ;wendigo; ;cervine; ;large breast;][;short story; ;69; ;blowjob; ;cunnilingus; ;boobjob; ;anal; ;vaginal; ;creampie; ;french kissing; ;leaving it In; ;fling?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uY3k4aiz
 #Anon gets lost and bones a cryptic.
 
-'''julia
+'''ruby
 "A Night with Sharkgirls."<br>
 '''
 [;shark; ;multiple;][;short story; ;undressing; ;breast sucking; ;cunnilingus; ;cyberpunk; ;rimming; ;blowjob; ;sleeping together; ;threesome?; ;cum swallowing; ;voyeurism;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9gjEJE1E
 #Anon meets two shark girls mods at a bar: one is small and petite and the other large and muscular. They go somewhere private and give new meaning to the phrase "man eating shark".
 
-'''julia
+'''ruby
 "Nightwing and Orca"<br>
 '''
 [;orca;][;short story; ;non-smut; ;love/romance;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/V1T1r7i6
 
-'''julia
+'''ruby
 "Of aliens and competition"<br>
 '''
 [;rabbit; ;smaller anthro;][;very short story; ;non-consensual kissing; ;femdom; ;blowjob; ;facesitting; ;vaginal; ;love/romance?;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1em8bzKG
 #A year since the world fell to female alien anthros, anon is condemned to participate in a "gladitorial mating game" against a female rabbit for his crime of fraternizing with a female human (his wife).
 
-'''julia
+'''ruby
 "Hornet's Nest"<br>
 '''
 [;insect; ;wasp;][;very short story; ;massages; ;cuddling; ;established relationship; ;love/romance; ;comfy; ;slice of life; ;non-smut;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bkMUtFcr
 #Anon's wasp fiance helps ease his stress after a long they at work.
 
-'''julia
+'''ruby
 "Summoning a Date"<br>
 '''
 [;goat; ;demon;][;very short story; ;non-smut; ;courting;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YDCJJHjg
 #Anon summons a date.
 
-'''julia
+'''ruby
 "Fenneko gets the ape dick"<br>
 '''
 [;fox;][;fling?; ;sex;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zRz2X0Uj
 
-'''julia
+'''ruby
 "The Way"<br>
 '''
 [][;shitpost; ;very short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mEuWwar9
 
-'''julia
+'''ruby
 "Space Lizard"<br>
 '''
 [;lizard; ;scalie;][;sad/tragic;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gYj5ASWP
 
-'''julia
+'''ruby
 "This must be what hilary clinton feels right now"<br>
 '''
 [][;f:cucked; ;femanon;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RU9NWDkj (Part 1)
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4HCQpKjL (Part 2)
 
-'''julia
+'''ruby
 "Coco and Bailey"<br>
 '''
 [;pet; ;canine; ;pet; ;feline;][]~
@@ -5919,7 +5919,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZTCpVd8 (Chap
 ————————————————————————————————————————————————————————————————————————————————————
 by Smutomancer
 
-'''julia
+'''ruby
 "Small Medium at Large"<br>
 '''
 [;ratling; ;rodent; ;rat;][;contains comfy; ;sex; ;femdom; ;short story; ;Warhammer 40k; ;m:dubcon;]
@@ -5929,7 +5929,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2qZdhrsC
 -----------------------------------------------------------------------------------------------------------------------------
 by SMOLKOBOLD
 
-'''julia
+'''ruby
 "Friends With Vermin"<br>
 '''
 [;rodent; ;smaller anthro;][;contains comfy; ;short story; ;fantasy; ;medieval; ;handjob; ;m:rape; ;femdom; ;spooning; ;sleeping embrace; ;biting;]
@@ -5939,13 +5939,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jkMxE1y0
 -----------------------------------------------------------------------------------------------------------------------------
 by mersenniusprime
 
-'''julia
+'''ruby
 "Gnoll when to walk away, gnoll when to run"<br>
 '''
 [;yeen; ;hyena; ;gnoll;][;contains comfy; ;sex; ;m:con <--> m:dubcon; ;m:dubcon; ;sodomy; ;vaginal; ;after sex embrace; ;cunnilingus;]~
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uqGXVhdk
 
-'''julia
+'''ruby
 "The End of the Hunt"<br>
 '''
 [;tarrasque; ;cannot speak;][;comfy; ;femdom; ;sex; ;love/romance?;]
@@ -5955,19 +5955,19 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KVyEecwF
 -----------------------------------------------------------------------------------------------------------------------------
 by teether
 
-'''julia
+'''ruby
 "School Yard Tussle"<br>
 '''
 [;yeen; ;hyena;][;really short story; ;dating; ;date; ;fist fight; ;high school; ;non-smut; ;role-reversal;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/j4NWrvqX
 
-'''julia
+'''ruby
 "Chloe’s Human"<br>
 '''
 [;yeen; ;hyena;][;contains comfy; ;high school; ;non-smut; ;bullying; ;musk; ;love/romance; ;m:noncon; ;m:noncon --> m:con; ;short story;]
 https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvN1hySZ
 
-'''julia
+'''ruby
 "Chloe's Family (Sequel to Chloe's Human)"<br>
 '''
 [;yeen; ;hyena;][;contains comfy; ;high school; ;musk; ;role-reversal; ;short story; ;love/romance;]
@@ -5977,13 +5977,13 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DfD5Q5EB
 -----------------------------------------------------------------------------------------------------------------------------
 by Baron03
 
-'''julia
+'''ruby
 "Among the Wolves"<br>
 '''
 [;canine; ;wolf; ;tribal;][;sex; ;childhood friends; ;coming of age; ;long story;]
 https://www.sofurry.com/view/554042
 
-'''julia
+'''ruby
 "Crossing Stars"<br>
 '''
 [;fox/wolf;][;post-apocalyptic; ;military; ;sex; ;sci-fi;]
@@ -5994,7 +5994,7 @@ https://www.sofurry.com/view/601634
 by Fox_XD
 https://www.furaffinity.net/user/foxxd/
 
-'''julia
+'''ruby
 "Skial & Kater"<br>
 '''
 [;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;sex; ;femdom;]
@@ -6007,7 +6007,7 @@ https://www.furaffinity.net/view/30877563/ (part 4)
 -----------------------------------------------------------------------------------------------------------------------------
 by Pofg_anon
 
-'''julia
+'''ruby
 "Ratgirl request"<br>
 '''
 [;rodent; ;rat;][;pofg; ;love/romance; ;blowjob; ;cunnilingus; ;cum swallowing; ;vaginal fingering; ;creampie; ;short story; ;cuddling;]
@@ -6019,7 +6019,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X1LmJ8PC
 by lakanookie
 https://www.furaffinity.net/user/lakanookie
 
-'''julia
+'''ruby
 "Ashrin and Dirac"<br>
 '''
 [;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;maledom;]~
@@ -6029,7 +6029,7 @@ https://docs.google.com/document/d/1JAQU96Jp7kmx7618spkVPT6L4XAXtXZX12iFZO4kRQY/
 -----------------------------------------------------------------------------------------------------------------------------
 by Doctor Nowak
 
-'''julia
+'''ruby
 "Polaroid"<br>
 '''
 [;canine;][;sex; ;vaginal; ;creampie; ;love/romance; ;doggystyle; ;high school;]
@@ -6039,7 +6039,7 @@ https://www.sofurry.com/view/4177
 -----------------------------------------------------------------------------------------------------------------------------
 by MAL0_ANON
 
-'''julia
+'''ruby
 "Spectre"<br>
 '''
 [;scp; ;Mal0;][;vaginal; ;oral; ;public; ;invisible girl; ;exhibitionalism; ;suicide;]
@@ -6049,7 +6049,7 @@ https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pz6kDhwA
 -----------------------------------------------------------------------------------------------------------------------------
 by Robert Baird
 
-'''julia
+'''ruby
 "The Odds"<br>
 '''
 [;canine; ;Belgian tervuren; ;tomboy;][;comfy; ;sex; ;vaginal; ;creampie; ;high school; ;love/romance; ;short story;]
@@ -6062,7 +6062,7 @@ https://capthavoc123.sofurry.com/
 -----------------------------------------------------------------------------------------------------------------------------
 by capthavoc123
 
-'''julia
+'''ruby
 "Alpha Bitch"<br>
 '''
 [;German shepard; ;canine; ;bully;][;creampie; ;love/romance; ;slight femdom; ;femdom; ;sex;]
@@ -6073,7 +6073,7 @@ https://www.sofurry.com/view/643513
 -----------------------------------------------------------------------------------------------------------------------------
 by OneDirtyDog
 
-'''julia
+'''ruby
 "Fur and Skin"<br>
 '''
 [;wolf; ;canine; ;tribal?;][;love/romance; ;sex; ;comfy; ;long story; ;marriage; ;offspring; ;creampie; ;impregnation; ;slight drama;]
