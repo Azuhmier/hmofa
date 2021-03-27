@@ -139,6 +139,13 @@ close($fh_MasterBinXML);
 open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
   print $fh_MasterBinjson $json;
 close($fh_MasterBinjson);
+
+#----- META -----{{{1
+my $cmd = q{sed -n 's/^>\(.*\)/\1/p' ../masterbin.txt > ../story_list.txt};
+system($cmd);
+my $cmd2 = q{sed -n 's/^[Bb]y \(.*\)/\1/p' ../masterbin.txt > ../author_list.txt};
+system($cmd2);
+
 #----- SUBROUTINES -----{{{1
 sub uniq {
     my %seen;
