@@ -19,13 +19,11 @@ use utf8;
 use XML::Simple;
 use JSON;
 use Data::Dumper;
-use Storable qw(dclone);
 
 #----- FILEPATHS -----{{{1
 my $fname_MasterBin = '../masterbin.txt';
 my $fname_MasterBinXML = '../masterbin.xml';
 my $fname_MasterBinjson = '../masterbin.json';
-my $fname_MasterBin2json = '../masterbin2.json';
 
 
 #----- REGEX CONFIG -----{{{1
@@ -132,37 +130,10 @@ for my $a ( reverse $dspt->{author}->{match}->@*) {
     }
   }
 }
-#print Dumper($output);
-#----- BEAUTIFY -----
-
-my $DP_output = dclone($output); # Deep Copy of $output
-my $output2 = [];                # New Better Hash
-for my $author (keys %$DP_output) {
-  #print $author, "\n";
-  my @titles;
-  for my $title (keys %{$DP_output->{$author}->{titles}}) {
-    #print $title, "\n";
-    my %title_hash = ( 
-      title => $title,
-      urls => $DP_output->{$author}->{titles}->{$title}->{urls},
-    );
-    push @titles, \%title_hash;
-  }
-  my %author_hash = ( 
-    author => $author,
-    titles => \@titles,
-    LineNumber => $DP_output->{$author}->{LN},
-  );
-
-  push @$output2, \%author_hash;
-}
-#print Dumper($output2);
-#----- EXTERNAL DATASTRUCTS -----
+print Dumper($output);
 my $xml = XMLout($output);
 my $json_obj = JSON->new->allow_nonref;
 my $json = $json_obj->pretty->encode($output);
-my $json_obj2 = JSON->new->allow_nonref;
-my $json2 = $json_obj2->pretty->encode($output2);
 #----- WRITING TO FILES -----
 open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
   print $fh_MasterBinXML $xml;
@@ -170,9 +141,6 @@ close($fh_MasterBinXML);
 open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
   print $fh_MasterBinjson $json;
 close($fh_MasterBinjson);
-open(my $fh_MasterBin2json, '>' , $fname_MasterBin2json) or die $!;
-  print $fh_MasterBin2json $json2;
-close($fh_MasterBin2json);
 
 #----- META -----{{{1
 my $cmd = q{sed -n 's/^>\(.*\)/\1/p' ../masterbin.txt > ../story_list.txt};
