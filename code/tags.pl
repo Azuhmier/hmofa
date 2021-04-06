@@ -133,7 +133,6 @@ for my $a ( reverse $dspt->{author}->{match}->@*) {
 }
 #print Dumper($output);
 #----- BEAUTIFY -----
-
 my $DP_output = dclone($output); # Deep Copy of $output
 my $output2 = [];                # New Better Hash
 for my $author (keys %$DP_output) {
@@ -159,7 +158,7 @@ for my $author (keys %$DP_output) {
 #----- EXTERNAL DATASTRUCTS -----
 #==|| XML
 my $xml = XMLout($output);
-my $xml2 = XMLout($output2);
+my $xml2 = XMLout($output2,NoAttr => 1);
 #==|| JSON
 my $json_obj = JSON->new->allow_nonref;
 my $json = $json_obj->pretty->encode($output);
