@@ -153,6 +153,7 @@ for my $author (keys %$DP_output) {
 
   push @$output2, \%author_hash;
 }
+$output2 = {authors => $output2};
 #print Dumper($output2);
 #----- EXTERNAL DATASTRUCTS -----{{{1
 #==|| XML
