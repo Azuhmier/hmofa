@@ -147,7 +147,7 @@ for my $author (keys %$DP_output) {
   }
   my %author_hash = ( 
     author => $author,
-    titles => \@titles,
+    stories => \@titles,
     LineNumber => $DP_output->{$author}->{LN},
   );
 
