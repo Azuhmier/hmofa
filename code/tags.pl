@@ -132,17 +132,16 @@ for my $a ( reverse $dspt->{author}->{match}->@*) {
   }
 }
 #print Dumper($output);
-#----- BEAUTIFY -----
+#----- BEAUTIFY -----{{{1
 my $DP_output = dclone($output); # Deep Copy of $output
 my $output2 = [];                # New Better Hash
 for my $author (keys %$DP_output) {
-  #print $author, "\n";
   my @titles;
   for my $title (keys %{$DP_output->{$author}->{titles}}) {
-    #print $title, "\n";
+    my @urls = reverse @{$DP_output->{$author}->{titles}->{$title}->{urls}}; # descending order
     my %title_hash = ( 
       title => $title,
-      urls => $DP_output->{$author}->{titles}->{$title}->{urls},
+      urls => \@urls,
     );
     push @titles, \%title_hash;
   }
@@ -155,7 +154,7 @@ for my $author (keys %$DP_output) {
   push @$output2, \%author_hash;
 }
 #print Dumper($output2);
-#----- EXTERNAL DATASTRUCTS -----
+#----- EXTERNAL DATASTRUCTS -----{{{1
 #==|| XML
 my $xml = XMLout($output);
 my $xml2 = XMLout($output2,NoAttr => 1);
@@ -164,7 +163,7 @@ my $json_obj = JSON->new->allow_nonref;
 my $json = $json_obj->pretty->encode($output);
 my $json_obj2 = JSON->new->allow_nonref;
 my $json2 = $json_obj2->pretty->encode($output2);
-#----- WRITING TO FILES -----
+#----- WRITING TO FILES -----{{{1
 open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
   print $fh_MasterBinXML $xml2;
 close($fh_MasterBinXML);
