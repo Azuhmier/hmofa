@@ -157,14 +157,17 @@ for my $author (keys %$DP_output) {
 }
 #print Dumper($output2);
 #----- EXTERNAL DATASTRUCTS -----
+#==|| XML
 my $xml = XMLout($output);
+my $xml2 = XMLout($output2);
+#==|| JSON
 my $json_obj = JSON->new->allow_nonref;
 my $json = $json_obj->pretty->encode($output);
 my $json_obj2 = JSON->new->allow_nonref;
 my $json2 = $json_obj2->pretty->encode($output2);
 #----- WRITING TO FILES -----
 open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
-  print $fh_MasterBinXML $xml;
+  print $fh_MasterBinXML $xml2;
 close($fh_MasterBinXML);
 open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
   print $fh_MasterBinjson $json2;
