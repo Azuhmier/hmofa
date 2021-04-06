@@ -25,7 +25,6 @@ use Storable qw(dclone);
 my $fname_MasterBin = '../masterbin.txt';
 my $fname_MasterBinXML = '../masterbin.xml';
 my $fname_MasterBinjson = '../masterbin.json';
-my $fname_MasterBin2json = '../masterbin2.json';
 
 
 #----- REGEX CONFIG -----{{{1
@@ -168,11 +167,8 @@ open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
   print $fh_MasterBinXML $xml;
 close($fh_MasterBinXML);
 open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
-  print $fh_MasterBinjson $json;
+  print $fh_MasterBinjson $json2;
 close($fh_MasterBinjson);
-open(my $fh_MasterBin2json, '>' , $fname_MasterBin2json) or die $!;
-  print $fh_MasterBin2json $json2;
-close($fh_MasterBin2json);
 
 #----- META -----{{{1
 my $cmd = q{sed -n 's/^>\(.*\)/\1/p' ../masterbin.txt > ../story_list.txt};
