@@ -163,6 +163,7 @@ my $xml2 = XMLout($output2,NoAttr => 1);
 my $json_obj = JSON->new->allow_nonref;
 my $json = $json_obj->pretty->encode($output);
 my $json_obj2 = JSON->new->allow_nonref;
+$json_obj2 = $json_obj2->canonical([1]);
 my $json2 = $json_obj2->pretty->encode($output2);
 #----- WRITING TO FILES -----{{{1
 open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
