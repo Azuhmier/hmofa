@@ -30,7 +30,7 @@ $ua->agent('Mozilla/5.0');
 my $response_masterbin  = $ua->get($url_masterbin);
 my $response_tagCatalog = $ua->get($url_tagCatalog);
 
-##----- CLEAN UP TXT AND EXPORT TO FILE -----{{{1
+#----- CLEAN UP TXT AND EXPORT TO FILE -----{{{1
 # masterbin
 fetch2file ([
   {
@@ -43,7 +43,7 @@ fetch2file ([
   }
 ]);
 
-##----- SUBROUTINES -----{{{1
+#----- SUBROUTINES -----{{{1
 sub fetch2file {
   my $argList = shift;
   for my $args ($argList->@*) {
@@ -70,7 +70,7 @@ sub fetch2file {
   }
 }
 
-##----- REFFS -----{{{1
+#----- REFFS -----{{{1
 ## https://pdf.co/how-to-get-direct-download-links
 ## (not used) https://perlmaven.com/slurp
 ## (not used) https://metacpan.org/source/MSCHILLI/Net-Google-Drive-Simple-0.03/lib%2FNet%2FGoogle%2FDrive%2FSimple.pm
