@@ -1,0 +1,8 @@
+Shorten URL via git.io
+  curl -s -i https://git.io -F "URL" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
+  Example:
+    ~$curl -s -i https://git.io -F "url=https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NKkhT1pd" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
+    https://git.io/J3Xym
+Quering the enviroment
+  git config --get remote.origin.url
+  git remote show origin
