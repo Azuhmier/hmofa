@@ -6,3 +6,12 @@ Shorten URL via git.io
 Quering the enviroment
   git config --get remote.origin.url
   git remote show origin
+
+Removing newlines
+  cat -v
+  tr -d '\n'
+  perl -pe 'chomp if EOF'
+  perl -pe 'chomp'
+Teeing and Piping to stdout
+  tee /dev/tty
+  tee >&1
