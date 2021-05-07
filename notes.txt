@@ -1,5 +1,7 @@
 Shorten URL via git.io
   curl -s -i https://git.io -F "URL" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
+  - even if you delete the file the shorten url still points to the same place in the repo
+    so if you put the file back the link will lead to it.
   Example:
     ~$curl -s -i https://git.io -F "url=https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NKkhT1pd" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
     https://git.io/J3Xym
@@ -15,3 +17,4 @@ Removing newlines
 Teeing and Piping to stdout
   tee /dev/tty
   tee >&1
+
