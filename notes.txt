@@ -8,7 +8,7 @@ Shorten URL via git.io
 Quering the enviroment
   git config --get remote.origin.url
   git remote show origin
-
+  git log -p
 Removing newlines
   cat -v
   tr -d '\n'
