@@ -1,5 +1,11 @@
 Shorten URL via git.io
-  curl -s -i https://git.io -F "URL" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
+  curl -s -i https://git.io -F "URL"   \\
+    | grep Location                    \\
+    | sed -n 's/Location: \(.*\)/\1/p' \\
+    | tr -d '\n'                       \\
+    | tee /dev/tty                     \\
+    | tr -d '\r\n'                     \\
+    | pbcopy
   - even if you delete the file the shorten url still points to the same place in the repo
     so if you put the file back the link will lead to it.
   Example:
@@ -17,4 +23,5 @@ Removing newlines
 Teeing and Piping to stdout
   tee /dev/tty
   tee >&1
-
+Misc
+  if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
