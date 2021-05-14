@@ -24,73 +24,72 @@ my $fname_IN = '../tagCatalog.txt';
 #----- REGEX CONFIG -----{{{1
 my $dspt = {
   section => {
-    order => '1a',
+    order => '1',
     re => qr/^\s*%+\s*(.*?)\s*%+/,
     match => [],
   },
   author => {
-    order => '2a',
+    order => '1.1',
     re => qr/^\s*[Bb]y\s+(.*)/,
     match => [],
   },
   series => {
-    order => '3a',
+    order => '1.1.1',
     re => qr/^=+\/\s*(.*)\s*\/=+/,
     match => [],
   },
   title => {
-    order => '4a',
+    order => '1.1.1.1',
     re => qr/^\s*>\s*(.*)/,
     match => [],
   },
-  tags => {
-    order => '5a',
-    re => qr/^\s*(\[.*)/,
-    match => [],
-  },
   url => {
-    order => '5b',
+    order => '1.1.1.2',
     re => qr/(https?:\/\/[^\s]+)\s+(.*)/,
     match => [],
   },
+  tags => {
+    order => '1.1.1.3',
+    re => qr/^\s*(\[.*)/,
+    match => [],
+  },
   description => {
-    order => '5c',
+    order => '1.1.1.4',
     re => qr/^#(.*)/,
     match => [],
   },
 };
 
-my @a = grep {$dspt->{$_}->{order} } keys %$dspt;
-
-print Dumper(\@a);
 #----- Main -----{{{1
 my $capture_hash = file2hash( $fname_IN );
 #my $formated_hash = formatHash( $capture_hash, $dspt );
+
+my @a = grep {$dspt->{$_}->{order} } keys %$dspt;
+print Dumper(\@a);
 
 #----- Subroutines -----{{{1
 sub file2hash {
   my $fname = shift @_;
   my $output;
+
   open( my $fh, '<', $fname )  #Open Masterbin for reading
     or die $!;
 
-    while ( my $line = <$fh> ) {
+  while ( my $line = <$fh> ) {
 
-      for my $obj_key ( keys %$dspt ) {
-        my $obj = $dspt->{$obj_key};
+    for my $obj_key ( keys %$dspt ) {
+      my $obj = $dspt->{$obj_key};
 
-        if ( $line =~ /$obj->{re}/ ) {
-          my $match = {
-            LN       => $.,
-            $obj_key => $1, };
-          push  $output->{$obj_key}->@*, $match;
+      if ( $line =~ /$obj->{re}/ ) {
+        my $match = {
+          LN       => $.,
+          $obj_key => $1, };
 
-        }
+        push  $output->{$obj_key}->@*, $match;
       }
     }
-
+  }
   close($fh);
-
   return $output;
 }
 
