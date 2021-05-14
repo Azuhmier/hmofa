@@ -53,6 +53,7 @@ sub fetch2file {
     $response =~ s/\n\n\n+/\n\n/g;
     open(my $fh, '+<',$fname) or die;
       print $fh $response;
+      truncate $fh, tell($fh) or die;
       seek $fh,0,0 or die;
       my @COPY;
       while (my $line = <$fh>) {
