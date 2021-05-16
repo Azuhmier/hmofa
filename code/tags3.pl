@@ -1,25 +1,21 @@
 #!/usr/bin/env perl
 #============================================================
 #
-#        FILE: tags.pl
-#       USAGE: perl ./tags.pl
+#        FILE: tags3.pl
+#       USAGE: perl ./tags3.pl
 #  DESCRIPTION: ---
 #       AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
-#      Created: Sun 12/20/20 16:47:38
 #===========================================================
-
 use strict;
 use warnings;
 use utf8;
 use XML::Simple;
 use JSON;
-use Data::Dumper;
-$Data::Dumper::Indent = 1;
 use Storable qw(dclone);
+use Data::Dumper;
 
 #----- FILEPATHS -----{{{1
 my $fname_IN = '../tagCatalog.txt';
-
 
 #----- REGEX CONFIG -----{{{1
 my $dspt = {
@@ -31,6 +27,9 @@ my $dspt = {
   author => {
     order => '1.1',
     re => qr/^\s*[Bb]y\s+(.*)/,
+    partion => {
+      attribute => qr/\((.*)\)/,
+    },
     match => [],
   },
   series => {
@@ -41,16 +40,25 @@ my $dspt = {
   title => {
     order => '1.1.1.1',
     re => qr/^\s*>\s*(.*)/,
+    partion => {
+      attribute => qr/\((.*)\)/,
+    },
     match => [],
   },
   url => {
     order => '1.1.1.2',
     re => qr/(https?:\/\/[^\s]+)\s+(.*)/,
+    partion => {
+      attribute => qr/(\(.*\))/,
+    },
     match => [],
   },
   tags => {
     order => '1.1.1.3',
     re => qr/^\s*(\[.*)/,
+    partion => {
+      attribute => qr/\((.*)\)/,
+    },
     match => [],
   },
   description => {
@@ -58,16 +66,79 @@ my $dspt = {
     re => qr/^#(.*)/,
     match => [],
   },
+  test => {
+    order => '2',
+    match => [],
+  },
+  test2 => {
+    order => '2.1',
+    match => [],
+  },
+  test3 => {
+    order => '2.1.1',
+    match => [],
+  },
+  test4 => {
+    order => '2.1.1.1',
+    match => [],
+  },
+  test5 => {
+    order => '2.1.1.2',
+    match => [],
+  },
+  test6 => {
+    order => '2.1.1.2.1',
+    match => [],
+  },
 };
 
 #----- Main -----{{{1
-my $capture_hash = file2hash( $fname_IN );
-#my $formated_hash = formatHash( $capture_hash, $dspt );
-
-my @a = grep {$dspt->{$_}->{order} } keys %$dspt;
-print Dumper(\@a);
+my $capture_hash  = file2hash( $fname_IN );
+my $formated_hash = hash_delegate( { capture_hash => $capture_hash, dspt => $dspt } );
 
 #----- Subroutines -----{{{1
+sub hash_delegate {
+  my $args = shift @_;
+  my $capture_hash = $args->{capture_hash};
+  my $dspt         = $args->{dspt};
+
+  #my $reff   = generate_reffHash($dspt);
+  my $reff   = grep {
+  print Dumper($reff);
+
+  my $output = leveler ( {
+    capture_hash => $capture_hash,
+    dspt         => $dspt,
+    reff         => $reff, } );
+}
+
+sub leveler {
+  my $args = shift @_;
+  my $capture_hash = $args->{capture_hash};
+  my $dspt         = $args->{dspt};
+  my $reff         = $args->{reff};
+
+  my $dial    =  exists $args->{dial} ? $args->{dial} : [4,1];
+  my $pointer =  exists $args->{pointer} ? $args->{pointer} : [1];
+
+  #my @level_keys  = grep { scalar $reff->{$_}->@* == $dial->[0] } keys %$reff;
+  #my @point_keys = grep { scalar $reff->{$_}->@* == [1,1] } keys %$reff;
+
+
+  #my %level = $reff->%{@level_keys};
+  #my %point = $reff->%{@point_keys};
+  #print Dumper(\%level);
+  #print Dumper(\%point);
+}
+
+sub generate_reffHash {
+  my $dspt = shift @_;
+  my $output;
+  for my $key (keys %$dspt) { $output->{$key} = $dspt->{$key}->{order} }
+  #$output->%* = map { $_ => [ split /\./, $output->{$_} ] } keys %$output;
+  return $output;
+}
+
 sub file2hash {
   my $fname = shift @_;
   my $output;
@@ -80,7 +151,7 @@ sub file2hash {
     for my $obj_key ( keys %$dspt ) {
       my $obj = $dspt->{$obj_key};
 
-      if ( $line =~ /$obj->{re}/ ) {
+      if ($obj->{re} && $line =~ /$obj->{re}/ ) {
         my $match = {
           LN       => $.,
           $obj_key => $1, };
@@ -92,6 +163,7 @@ sub file2hash {
   close($fh);
   return $output;
 }
+
 
 sub formated_hash {
   my $capture_hash = shift @_;
@@ -139,8 +211,6 @@ sub formated_hash {
   }
 }
 
-sub generate_reffHash {
-}
 ##----- BEAUTIFY -----{{{1
 #  my $DP_output = dclone($output); # Deep Copy of $output
 #  my $output2 = [];                # New Better Hash
