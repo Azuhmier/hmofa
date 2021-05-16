@@ -9,10 +9,13 @@
 use strict;
 use warnings;
 use utf8;
-use XML::Simple;
 use JSON;
 use Storable qw(dclone);
 use Data::Dumper;
+
+##Assumptions
+# no backslashes in dspt key names
+# all dspt key names are unique
 
 #----- FILEPATHS -----{{{1
 my $fname_IN = '../tagCatalog.txt';
@@ -28,42 +31,45 @@ my $dspt = {
     order => '1.1',
     re => qr/^\s*[Bb]y\s+(.*)/,
     partion => {
-      attribute => qr/\((.*)\)/,
+      author_attribute => qr/\((.*)\)/,
     },
     match => [],
   },
   series => {
     order => '1.1.1',
-    re => qr/^=+\/\s*(.*)\s*\/=+/,
+    re => qr/^\s*=+\/\s*(.*)\s*\/=+/,
     match => [],
   },
   title => {
     order => '1.1.1.1',
     re => qr/^\s*>\s*(.*)/,
     partion => {
-      attribute => qr/\((.*)\)/,
-    },
-    match => [],
-  },
-  url => {
-    order => '1.1.1.2',
-    re => qr/(https?:\/\/[^\s]+)\s+(.*)/,
-    partion => {
-      attribute => qr/(\(.*\))/,
+      title_attribute => qr/\((.*)\)/,
     },
     match => [],
   },
   tags => {
-    order => '1.1.1.3',
+    order => '1.1.1.1.1',
     re => qr/^\s*(\[.*)/,
     partion => {
-      attribute => qr/\((.*)\)/,
+      anthro  => qr/(?x) ^\[  ([^\[\]])\+ \]\[/,
+      general => qr/(?x) \]\[ ([^\[\]])\+ \]/,
+      ops     => qr/(?x) \]   ([^\[\]])\+ $/,
+      all     => [ qw( anthro general ) ],
+    },
+    match => [],
+  },
+  url => {
+    order => '1.1.1.1.2',
+    re => qr/^\s*(https?:\/\/[^\s]+)\s+\((.*)\)/,
+    partion => {
+      label => [ qw( \2 ) ],,
     },
     match => [],
   },
   description => {
-    order => '1.1.1.4',
-    re => qr/^#(.*)/,
+    order => '1.1.1.1.3',
+    re => qr/^\s*#(.*)/,
     match => [],
   },
   test => {
@@ -92,9 +98,11 @@ my $dspt = {
   },
 };
 
+
 #----- Main -----{{{1
 my $capture_hash  = file2hash( $fname_IN );
 my $formated_hash = hash_delegate( { capture_hash => $capture_hash, dspt => $dspt } );
+
 
 #----- Subroutines -----{{{1
 sub hash_delegate {
@@ -102,41 +110,86 @@ sub hash_delegate {
   my $capture_hash = $args->{capture_hash};
   my $dspt         = $args->{dspt};
 
-  #my $reff   = generate_reffHash($dspt);
-  my $reff   = grep {
-  print Dumper($reff);
-
-  my $output = leveler ( {
+  my $output = leveler ({
     capture_hash => $capture_hash,
     dspt         => $dspt,
-    reff         => $reff, } );
+  });
 }
+
+
+sub getPoint {
+  my $dspt  = shift @_;
+  my $point = shift @_;
+  my $point_str = join '.', $point->@*;
+  my @match = grep { $dspt->{$_}->{order} =~ /^$point_str$/ } keys $dspt->%*;
+
+  if ( !$match[0] ) {
+    return 0;
+  }
+  elsif ( scalar @match > 1 ) {
+    die("more than one objects have the point: \'${point_str}\', for ${0} at line: ".__LINE__);
+  }
+  else {
+    return $match[0];
+  }
+}
+
 
 sub leveler {
   my $args = shift @_;
   my $capture_hash = $args->{capture_hash};
   my $dspt         = $args->{dspt};
-  my $reff         = $args->{reff};
+  my $point        =  exists $args->{point} ? $args->{point} : [1];
 
-  my $dial    =  exists $args->{dial} ? $args->{dial} : [4,1];
-  my $pointer =  exists $args->{pointer} ? $args->{pointer} : [1];
+  my $obj;
+  #----- Exists? -----
+  if ( getPoint($dspt, $point) ) {
+    $obj = getPoint($dspt, $point);
+    print "object \'${obj}\' exists\n";
+  }
+  else {
+    my $point_str = join '.', $point->@*;
+    die("Point \'${point_str}\' does not exist, for ${0} at line: ".__LINE__) 
+  }
+
+  #----- Child? -----
+  push $point->@*, 1;
+  if ( getPoint($dspt, $point) ) {
+    my $child = getPoint($dspt, $point);
+    print "object \'${obj}\' has child \'${child}\'\n";
+    #my $output = leveler ({
+    #  capture_hash => $capture_hash,
+    #  dspt         => $dspt,
+    #  point        => $point,
+    #});
+  }
+  else { pop $point->@*, 1 }
+
+  #----- Sybling? -----
+  $point->[-1]++;
+  if ( getPoint($dspt, $point) ) {
+    my $sybling = getPoint($dspt, $point);
+    print "object \'${obj}\' has sybling \'${sybling}\'\n";
+  }
+  else { $point->[-1]-- }
+
+
+
+
+
+  #my $output = leveler ( {
+  #  capture_hash => $capture_hash,
+  #  dspt         => $dspt,
+  #  pointer      => $pointer,
+  #});
 
   #my @level_keys  = grep { scalar $reff->{$_}->@* == $dial->[0] } keys %$reff;
   #my @point_keys = grep { scalar $reff->{$_}->@* == [1,1] } keys %$reff;
-
-
+  #my $dial    =  exists $args->{dial} ? $args->{dial} : [4,1];
   #my %level = $reff->%{@level_keys};
   #my %point = $reff->%{@point_keys};
   #print Dumper(\%level);
   #print Dumper(\%point);
-}
-
-sub generate_reffHash {
-  my $dspt = shift @_;
-  my $output;
-  for my $key (keys %$dspt) { $output->{$key} = $dspt->{$key}->{order} }
-  #$output->%* = map { $_ => [ split /\./, $output->{$_} ] } keys %$output;
-  return $output;
 }
 
 sub file2hash {
