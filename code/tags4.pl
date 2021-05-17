@@ -23,30 +23,29 @@ my $fname_IN = '../tagCatalog.txt';
 #----- REGEX CONFIG -----{{{1
 my $dspt = {
   section => {
+    name => 'sections',
     order => '1',
     re => qr/^\s*%+\s*(.*?)\s*%+/,
-    match => [],
   },
   author => {
+    name => 'authors',
     order => '1.1',
     re => qr/^\s*[Bb]y\s+(.*)/,
     partion => {
       author_attribute => qr/\((.*)\)/,
     },
-    match => [],
   },
   series => {
     order => '1.1.1',
     re => qr/^\s*=+\/\s*(.*)\s*\/=+/,
-    match => [],
   },
   title => {
+    name => 'stories',
     order => '1.1.1.1',
     re => qr/^\s*>\s*(.*)/,
     partion => {
       title_attribute => qr/\((.*)\)/,
     },
-    match => [],
   },
   tags => {
     order => '1.1.1.1.1',
@@ -57,63 +56,55 @@ my $dspt = {
       ops     => qr/(?x) \]   ([^\[\]])\+ $/,
       all     => [ qw( anthro general ) ],
     },
-    match => [],
   },
   url => {
+    name => 'urls',
     order => '1.1.1.1.2',
     re => qr/^\s*(https?:\/\/[^\s]+)\s+\((.*)\)/,
     partion => {
       label => [ qw( \2 ) ],,
     },
-    match => [],
   },
   description => {
     order => '1.1.1.1.3',
     re => qr/^\s*#(.*)/,
-    match => [],
   },
   test => {
     order => '2',
-    match => [],
   },
   test2 => {
     order => '2.1',
-    match => [],
   },
   test3 => {
     order => '2.1.1',
-    match => [],
   },
   test4 => {
     order => '2.1.1.1',
-    match => [],
   },
   test5 => {
     order => '2.1.1.2',
-    match => [],
   },
   test6 => {
     order => '2.1.1.2.1',
-    match => [],
   },
   test33 => {
     order => '2.1.2',
-    match => [],
   },
   test333 => {
     order => '2.1.2.1',
-    match => [],
   },
 };
 
 
 #----- Main -----{{{1
 my $capture_hash  = file2hash( $fname_IN );
+#print Dumper($capture_hash);
 my $formated_hash = hash_delegate( { capture_hash => $capture_hash, dspt => $dspt } );
 print Dumper($formated_hash);
 
 
 #----- Subroutines -----{{{1
+#----- hash_delegate -----{{{2
 sub hash_delegate {
   my $args = shift @_;
   my $capture_hash = $args->{capture_hash};
@@ -127,6 +118,86 @@ sub hash_delegate {
 }
 
 
+#----- leveler -----{{{2
+sub leveler {
+  my $data = shift @_;
+  if ( !exists $data->{reff}   ) { $data->{reff}   = {} }
+  if ( !exists $data->{point}  ) { $data->{point}  = [] }
+  if ( !exists $data->{result} ) { $data->{result} = {} }
+
+  #----- Exists? -----
+  my $obj = getObj( $data->@{'dspt', 'point'} );
+  if ( !$obj ) { return }
+
+  #----- Sweep Level -----
+  my $lvl_reff;
+  while ( $obj ) {
+    print "\'${obj}\'\n";
+
+    #----- Parent? -----
+    if ( exists $data->{parent} ) {
+      print "  PARENT found: \'".$data->{parent}."\', will POPULATE\n";
+      my $parent = $data->{parent};
+
+      #----- lvl_reff? -----
+      if ( !defined $lvl_reff ) {
+        $data->{reff}->{$parent} = {};                       # 'reff.parent' --> {}    , declare 'reff' reference
+        $data->{reff}            = $data->{reff}->{$parent}; # 'reff' --> 'reff.parent', set 'reff' to 'reff.parent' reference
+        $lvl_reff                = $data->{reff};            # 'lvl_reff' --> 'reff'   , set 'lvl_reff' to 'reff.parent'' reference
+      }
+      #----- Polulate Parent Members -----
+      populate($obj, $data);
+
+      #----- Linewise -----
+      $lvl_reff->{$obj} = {};                                # 'lvl_reff.obj' --> {}   , declare 'lvl_reff.obj' refference
+      linewise($data);
+
+    }
+    else {
+      print "  No PARENT found, will NOT POPULATE\n";
+      $data->{result} = {};              # 'result' -- > {}   , Declare 'result' reference
+      $data->{reff}   = $data->{result}; # 'reff' --> 'result', set 'reff' to 'result' reference
+    }
+
+    #----- CHILDS? -----
+    print "  CHILDS for: \'${obj}\'\n";
+
+    $data->{parent} = $obj;     # set 'parent' to current 'obj'
+    push $data->{point}->@*, 1; # Go to Order Address of the first CHILD
+    leveler($data);             # Recurse into CHILD
+    pop $data->{point}->@*, 1;  # Restore previous Order Address
+    $data->{reff} = $lvl_reff;  # 'reff' --> 'lvl_reff', return 'reff' to...
+                                # ...'lvl_reff' as program ascends to top of hash after recursion
+
+    print "  END of CHILDS for: \'${obj}\'\n";
+
+    #----- SYBLINGS? -----
+    if   ( scalar $data->{point}->@* ) { $data->{point}->[-1]++ }
+    else                               { last }
+    $obj = getObj( $data->@{'dspt', 'point'} );                   # set 'obj' to new 'obj' (next SYBLINGO)
+
+  }
+  return $data->{result};
+}
+
+
+#----- populate -----{{{2
+sub populate {
+
+  my $obj  = shift @_;
+  my $data = shift @_;
+  #print Dumper($data->{capture_hash}->{$obj});
+
+}
+
+
+#----- linewise -----{{{2
+sub linewise {
+  my $data = shift @_;
+}
+
+
+#----- getObj -----{{{2
 sub getObj {
   my $dspt  = shift @_;
   my $point = shift @_;
@@ -143,61 +214,7 @@ sub getObj {
   }
 }
 
-
-sub leveler {
-  my $args = shift @_;
-  my $data =  $args;
-  $data->{result} = exists $args->{result} ? $args->{result} : {};
-  $data->{reff}   = exists $args->{reff}   ? $args->{reff}   : {};
-  $data->{point}  = exists $args->{point}  ? $args->{point}  : [];
-
-  my $obj = getObj( $data->{dspt}, $data->{point} );
-  my $mat;
-
-  #----- Exists? -----
-  if   ( $obj ) { }
-  else          { return }
-
-  #----- Sybling? -----
-  while ( $obj ) {
-    print "\'${obj}\'\n";
-
-    #----- Populate Parent -----
-    if (exists $data->{parent} ) {
-      my $parent = $data->{parent};
-      print "  PARENT found: \'${parent}\', will POPULATE\n";
-
-      if ( !defined $mat ) {
-        $data->{reff}->{$parent}={};
-        $data->{reff} = $data->{reff}->{$parent};
-        $mat = $data->{reff};
-      }
-
-      $mat->{$obj}={};
-    }
-    else {
-      print "  No PARENT found, will NOT POPULATE\n";
-      #$data->{result}->{save} = 1;
-      $data->{result} = {};
-      $data->{reff} = $data->{result};
-    }
-
-    #----- CHILDS? -----
-    print "  CHILDS for: \'${obj}\'\n";
-    $data->{parent} = $obj;
-    push $data->{point}->@*, 1;
-    leveler($data);
-    pop $data->{point}->@*, 1;
-    $data->{reff} = $mat;
-    print "  END of CHILDS for: \'${obj}\'\n";
-    if ( scalar $data->{point}->@* ) { $data->{point}->[-1]++ }
-    else { last }
-    $obj = getObj( $data->{dspt}, $data->{point} );
-  }
-  return $data->{result};;
-}
-
-
+#----- file2hash -----{{{2
 sub file2hash {
   my $fname = shift @_;
   my $output;
@@ -210,11 +227,11 @@ sub file2hash {
     for my $obj_key ( keys %$dspt ) {
       my $obj = $dspt->{$obj_key};
 
-      if ($obj->{re} && $line =~ /$obj->{re}/ ) {
+      if ( $obj->{re} && $line =~ /$obj->{re}/ ) {
         my $match = {
           LN       => $.,
-          $obj_key => $1, };
-
+          $obj_key => $1,
+        };
         push  $output->{$obj_key}->@*, $match;
       }
     }
