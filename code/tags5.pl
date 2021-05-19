@@ -105,7 +105,7 @@ my $dspt = {
 my $capture_hash  = file2hash( $fname_IN );
 
 #----- TESTS -----
-my $num = 2;
+my $num = 1;
 $capture_hash->{test} = [
   {
     'LN' => 76,
@@ -136,20 +136,20 @@ $capture_hash->{test3} = [
     'test3' => 'MINNIE: HIGH VELOCITY COURTING '
   },
 ];
-#for my $key ( keys $capture_hash->%* ) {
-#  if ( exists $capture_hash->{$key}->[$num] ) {
-#    $capture_hash->{$key}->@* = $capture_hash->{$key}->@[0..$num];
-#    #$capture_hash->{$key}->@* = map { delete $_->{LN} } $capture_hash->{$key}->@*;
-#  }
-#  else {
-#    my @array = $capture_hash->{$key}->@*;
-#    $capture_hash->{$key}->@* = $capture_hash->{$key}->@[0..$#array];
-#    #$capture_hash->{$key}->@* = map { delete $_->{LN} } $capture_hash->{$key}->@*;
-#  }
-#}
+for my $key ( keys $capture_hash->%* ) {
+  if ( exists $capture_hash->{$key}->[$num] ) {
+    $capture_hash->{$key}->@* = $capture_hash->{$key}->@[0..$num];
+    #$capture_hash->{$key}->@* = map { delete $_->{LN} } $capture_hash->{$key}->@*;
+  }
+  else {
+    my @array = $capture_hash->{$key}->@*;
+    $capture_hash->{$key}->@* = $capture_hash->{$key}->@[0..$#array];
+    #$capture_hash->{$key}->@* = map { delete $_->{LN} } $capture_hash->{$key}->@*;
+  }
+}
 
 my $formated_hash = hash_delegate( { capture_hash => $capture_hash, dspt => $dspt } );
-#print Dumper($formated_hash);
+print Dumper($formated_hash);
 
 
 #----- Subroutines -----{{{1
@@ -181,7 +181,7 @@ sub leveler {
   #----- Sweep Obj -----
   my $lvl_reff;
   while ( $obj ) {
-    #print "\nCurrent Obj: \'${obj}\'\n";
+    print "\nCurrent Obj: \'${obj}\'\n";
 
     #----- lvl_reff? -----
     unless ( defined $lvl_reff ) { $lvl_reff->@* = get_Lvl_reff($data); }
@@ -224,44 +224,10 @@ sub divyMatches {
     my $data = shift @_;
     my $obj  = shift @_;
     my $match_name = getname( $data->{dspt}, $obj );
-    my $pond    = dclone( $data->{capture_hash}->{$obj} );
+    my $matches    = dclone( $data->{capture_hash}->{$obj} );
 
     #----- DIVY MATCHES -----
-    if (scalar $data->{point}->@* != 1) {
-      my $ind = (scalar $data->{reff}->@*) - 1;
-      for my $reff ( reverse $data->{reff}->@*) {
-        my $line_reff = $reff->{LN};
-        my $bucket;
-        for my $match ( reverse $pond->@*) {
-          my $line_match = $match->{LN};
-          if ($line_match > $line_reff) {
-            #print $ind,"\n";
-            #print $line_match." > ".$line_reff,"\n";
-            my $catch = pop $pond->@*;
-            push $bucket->@*, $catch;
-          }
-          else {
-            last;
-          }
-        }
-        if ($bucket) {
-          #print Dumper( $data->{reff} );
-          $bucket->@* = reverse $bucket->@*;
-          $data->{reff}->[$ind]->{$match_name} = $bucket;
-          #print Dumper( $data->{reff} );
-          splice($data->{reff}->@*,$ind,1,$bucket->@*);
-          #print Dumper( $data->{reff} );
-        }
-        $ind--;
-      }
-    }
-    else {
-      $data->{reff}->[0]->{$match_name} = $pond;
-      splice($data->{reff}->@*,0,1,$pond->@*);
-    }
-    #----- update reff -----
-    #$data->{reff}->[0]->{$match_name} = $pond;
-    #splice($data->{reff}->@*,0,1,$pond->@*);
+    $data->{reff}->[0]->{$match_name} = $matches;
     return $match_name;
 }
 
@@ -272,7 +238,8 @@ sub populate {
 
   if ($obj ne 'TOP' && ( exists $data->{capture_hash}->{$obj}) ) {
 
-    divyMatches($data,$obj);
+    my $match_name = divyMatches($data,$obj);
+    unshift $data->{reff}->@*, $data->{reff}->[0]->{$match_name}->@*;
   }
 }
 
