@@ -16,9 +16,11 @@ use Data::Dumper;
 ##Assumptions
 # no backslashes in dspt key names
 # all dspt key names are unique
+# partions patterns are independent of order
 
 #----- FILEPATHS -----{{{1
-my $fname_IN = '../tagCatalog.txt';
+#my $fname_IN = '../tagCatalog.txt';
+my $fname_IN = '../masterbin.txt';
 
 #----- REGEX CONFIG -----{{{1
 my $dspt = {
@@ -26,13 +28,14 @@ my $dspt = {
     name => 'SECTIONS',
     order => '1',
     re => qr/^\s*%+\s*(.*?)\s*%+/,
+    exclude => ['Introduction/Key', 'Stories from outside /hmofa/'],
   },
   author => {
     name => 'AUTHORS',
     order => '1.1',
     re => qr/^\s*[Bb]y\s+(.*)/,
     partion => {
-      author_attribute => qr/\((.*)\)/,
+      author_attribute => [ qr/\((.*)\)/ ],
     },
   },
   series => {
@@ -45,7 +48,7 @@ my $dspt = {
     order => '1.1.1.1',
     re => qr/^\s*>\s*(.*)/,
     partion => {
-      title_attribute => qr/\((.*)\)/,
+      title_attribute => [ qr/\s*\((.*)\)/ ],
     },
   },
   tags => {
@@ -53,25 +56,24 @@ my $dspt = {
     order => '1.1.1.1.1',
     re => qr/^\s*(\[.*)/,
     partion => {
-      anthro  => qr/(?x) ^\[  ([^\[\]])\+ \]\[/,
-      general => qr/(?x) \]\[ ([^\[\]])\+ \]/,
-      ops     => qr/(?x) \]   ([^\[\]])\+ $/,
-      all     => [ qw( anthro general ) ],
+      anthro  => [ qr/(?x) ^\[  ([^\[\]]*)/     , 1, [';',','] ],
+      general => [ qr/(?x) \]\[ ([^\[\]]*) \]/  , 2, [';',','] ],
+      ops     => [ qr/(?x) ([^\[\]]*) $/   , 3],
     },
     scalar => 1,
   },
   url => {
     name => 'URLS',
     order => '1.1.1.1.2',
-    re => qr/^\s*(https?:\/\/[^\s]+)\s+\((.*)\)/,
+    re => qr/^\s*(https?:\/\/[^\s]+)\s*/,
     partion => {
-      label => [ qw( \2 ) ],,
+      url_attribute => [ qr/\((.*)\)/ ],
     },
   },
   description => {
     name => 'DESCRIPTIONS',
     order => '1.1.1.1.3',
-    re => qr/^\s*#(.*)/,
+    re =>  qr/^\s*#(.*)/,
     scalar => 1,
   },
   test => {
@@ -104,7 +106,7 @@ my $dspt = {
 #----- Main -----{{{1
 my $capture_hash  = file2hash( $fname_IN );
 
-#----- TESTS -----
+#----- TESTS -----{{{2
 my $num = 2;
 $capture_hash->{test} = [
   {
@@ -147,9 +149,28 @@ $capture_hash->{test3} = [
 #    #$capture_hash->{$key}->@* = map { delete $_->{LN} } $capture_hash->{$key}->@*;
 #  }
 #}
-
+#----- Output -----{{{2
 my $formated_hash = hash_delegate( { capture_hash => $capture_hash, dspt => $dspt } );
-#print Dumper($formated_hash);
+$Data::Dumper::Indent = 1;
+$Data::Dumper::Sortkeys = sub {
+  my ($hash) = @_;
+  return [
+    sort {
+      my $order_a = getOrder($dspt,$a);
+      my $order_b = getOrder($dspt,$b);
+      if ($a eq 'LN' || $b eq 'raw') {
+        1;
+      }
+      elsif ($a eq 'raw' || $b eq 'LN') {
+        0;
+      }
+      else {
+        $order_a cmp $order_b;
+      }
+    } keys %$hash
+  ];
+};
+print Dumper($formated_hash);
 
 
 #----- Subroutines -----{{{1
@@ -214,16 +235,86 @@ sub getname {
 }
 
 
+#-----| getObjFromName ----{{{2
+sub getObjFromName {
+  my $dspt = shift @_;
+  my $name = shift @_;
+  if ( exists $dspt->{$name} ) { return $name }
+  else {
+    my @keys  = grep { exists $dspt->{$_}->{name} } keys $dspt->%*;
+    if (scalar @keys) {
+      my @match = grep { $dspt->{$_}->{name} eq $name } @keys;
+      return $match[0];
+    }
+    else {
+      return 0;
+    }
+  }
+}
+
+
+#-----| getOrder ----{{{2
+sub getOrder {
+  my $dspt = shift @_;
+  my $arg  = shift @_;
+  my $obj  = getObjFromName($dspt,$arg);
+  my $order;
+  return $obj ? $dspt->{$obj}->{order} : 'z';
+}
+
+
 #-----| get_Lvl_reff -----{{{2
 sub get_Lvl_reff {
   my $data = shift @_;
   return $data->{reff}->@*;
 }
 
+
+#-----| addPartion() -----{{{2
+sub addPartion {
+  my $data  = shift @_;
+  my $obj   = shift @_;
+  my $catch = shift @_;
+  my $raw = $catch->{$obj};
+  my $flag;
+  for my $attrib (keys $data->{dspt}->{$obj}->{partion}->%*) {
+    $catch->{$obj} =~ s/$data->{dspt}->{$obj}->{partion}->{$attrib}->[0]//g;
+    if ($1 && $1 ne '') {
+      $flag = 1;
+      $catch->{$attrib} = $1;
+      if (scalar $data->{dspt}->{$obj}->{partion}->{$attrib}->@* == 3) {
+        genTags($data,$obj,$catch,$attrib); 
+      }
+    }
+  }
+  if ($flag) {
+    $catch->{raw} = $raw;
+  }
+  unless ($catch->{$obj}) { delete $catch->{$obj} }
+  return 1;
+
+}
+
+
+#-----| genTags() -----{{{2
+sub genTags {
+  my $data   = shift @_;
+  my $obj    = shift @_;
+  my $catch  = shift @_;
+  my $attrib = shift @_;
+  my @delims = $data->{dspt}->{$obj}->{partion}->{$attrib}->[2][0];
+  for my $delim (@delims[1 .. $#delims]) { $catch->{$attrib} =~ s/$delim/$delims[0]/g;}
+
+  $catch->{$attrib} =~ s/$delims[0](\w+)/$1/g;
+  $catch->{$attrib} = [ split /\s*$delims[0]\s*/, $catch->{$attrib} ];
+}
+
+#-----| divyMatches -----{{{2
 sub divyMatches {
     my $data = shift @_;
     my $obj  = shift @_;
     my $match_name = getname( $data->{dspt}, $obj );
+
     my $pond    = dclone( $data->{capture_hash}->{$obj} );
 
     #----- DIVY MATCHES -----
@@ -235,9 +326,8 @@ sub divyMatches {
         for my $match ( reverse $pond->@*) {
           my $line_match = $match->{LN};
           if ($line_match > $line_reff) {
-            #print $ind,"\n";
-            #print $line_match." > ".$line_reff,"\n";
             my $catch = pop $pond->@*;
+            addPartion($data,$obj,$catch);
             push $bucket->@*, $catch;
           }
           else {
@@ -245,12 +335,9 @@ sub divyMatches {
           }
         }
         if ($bucket) {
-          #print Dumper( $data->{reff} );
           $bucket->@* = reverse $bucket->@*;
           $data->{reff}->[$ind]->{$match_name} = $bucket;
-          #print Dumper( $data->{reff} );
           splice($data->{reff}->@*,$ind,1,$bucket->@*);
-          #print Dumper( $data->{reff} );
         }
         $ind--;
       }
@@ -259,9 +346,6 @@ sub divyMatches {
       $data->{reff}->[0]->{$match_name} = $pond;
       splice($data->{reff}->@*,0,1,$pond->@*);
     }
-    #----- update reff -----
-    #$data->{reff}->[0]->{$match_name} = $pond;
-    #splice($data->{reff}->@*,0,1,$pond->@*);
     return $match_name;
 }
 
