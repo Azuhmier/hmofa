@@ -10,34 +10,11 @@ use strict;
 use warnings;
 use utf8;
 use JSON;
+use List::Util;
 use Storable qw(dclone);
-use Data::Dumper;
-my $dspt;
-$Data::Dumper::Sortkeys = sub {
-  my ($hash) = @_;
-  return [
-    sort {
-      my $order_a = getOrder($dspt,$a);
-      my $order_b = getOrder($dspt,$b);
-      if ($a eq 'LN' && $b eq 'raw') {
-        1;
-      }
-      elsif ($a eq 'raw' && $b eq 'LN') {
-        0;
-      }
-      elsif ($b eq 'raw' || $b eq 'LN') {
-        0;
-      }
-      elsif ($a eq 'raw' || $a eq 'LN') {
-        1;
-      }
-      else {
-        $order_a cmp $order_b;
-      }
-    } keys %$hash
-  ];
-};
-$Data::Dumper::Indent = 2;
+
+
+
 
 ##Assumptions
 # no backslashes in dspt key names
@@ -46,12 +23,8 @@ $Data::Dumper::Indent = 2;
 # each child type only belongs to only one object type
 # Cannot have key named "TOP" 
 
-#----- FILEPATHS -----{{{1
-my $fname_IN = '../tagCatalog.txt';
-#my $fname_IN = '../masterbin.txt';
-
 #----- REGEX CONFIG -----{{{1
-$dspt = {
+my $dspt = {
   section => {
     name    => 'SECTIONS',
     order   => '1',
@@ -132,6 +105,8 @@ $dspt = {
 
 
 #----- Main -----{{{1
+my $fname_IN = '../tagCatalog.txt';
+#my $fname_IN = '../masterbin.txt';
 my $capture_hash  = file2hash( $fname_IN );
 
 #----- TESTS -----{{{2
@@ -184,7 +159,34 @@ my $formated_hash = delegate($data);
 
 
 #----- Subroutines -----{{{1
-#-----| hash_delegate -----{{{2
+#-----| file2hash() -----{{{2
+sub file2hash {
+  my $fname = shift @_;
+  my $output;
+
+  open( my $fh, '<', $fname )  #Open Masterbin for reading
+    or die $!;
+
+  while ( my $line = <$fh> ) {
+
+    for my $obj_key ( keys %$dspt ) {
+      my $obj = $dspt->{$obj_key};
+
+      if ( $obj->{re} && $line =~ /$obj->{re}/ ) {
+        my $match = {
+          LN       => $.,
+          $obj_key => $1,
+        };
+        push  $output->{$obj_key}->@*, $match;
+      }
+    }
+  }
+  close($fh);
+  return $output;
+}
+
+
+#-----| hash_delegate() -----{{{2
 sub delegate {
   print "start DELEGATE\n";
   my $data = shift @_;
@@ -195,142 +197,130 @@ sub delegate {
 }
 
 
-#-----| getIndent -----{{{2
-sub getIndent {
-  my $data = shift @_;
-  my $line = shift @_;
-  my $log  = shift @_;
-  my $cnt  = shift @_;
-  $cnt = $cnt ? $cnt : 0;
-  $log = $log ? 0 : 1;
-  my $lvl = scalar $data->{point}->@*;
-  if ($lvl) {return "    " x ($lvl+$log+$cnt)}
-  else {return $log ? "    "."    "x$cnt: "". "    "x$cnt}
-}
-
-
-#-----| leveler -----{{{2
+#-----| leveler() -----{{{2
 sub leveler {
   my $data = shift @_;
   unless ( exists $data->{point}  ) { $data->{point}  = [] }
   unless ( exists $data->{stack}  ) { $data->{stack}  = [] }
   unless ( exists $data->{result} ) { $data->{result} = {} }
   unless ( exists $data->{reff}   ) { $data->{reff}   = [ $data->{result} ] }
-  #print getIndent($data, __LINE__, 1)."----------------------------------\n";
-  print getIndent($data, __LINE__, 1)."start LEVELER at point: ".getPointStr($data)."\n";
+  message("Start LEVELER at (" . getPointStr($data).")", $data, __LINE__, 0, 1, 1);
 
-  #----- Exists? -----
+  #----- Checking existance of OBJ at point -----
+  message( "Checking for OBJ", $data, __LINE__, 0, 0, 1 );
   my $obj = getObj( $data->@{'dspt', 'point'} );
-  print getIndent($data, __LINE__)."checking for existance of obj at the given point\n";
   if ( !$obj ) {
-    print getIndent($data, __LINE__)."...does not exists.\n";
-    print getIndent($data, __LINE__)."Exiting LEVLER instance.\n";
+    message( "..does not exist: OBJ", $data, __LINE__, 0, 0, 1 );
+    message( "Exiting LEVLER instance", $data, __LINE__, 0, 0, 1 );
     return;
   }
-  print getIndent($data, __LINE__)."...exists: \'${obj}\'\n";
+  message( "..exists OBJ: \'${obj}\'", $data, __LINE__, 0, 0, 1 );
 
   #----- Sweep Obj -----
   my $lvl_reff;
   while ( $obj ) {
-    print getIndent($data, __LINE__)."selecting Obj: \'${obj}\'\n";
+    message( "Selecting OBJ: \'${obj}\'", $data, __LINE__, 0, 0, 1 );
 
-    #----- lvl_reff? -----
-    print getIndent($data, __LINE__)."checking status of lvl_reff\n";
+    #----- Checking status of lvl_reff -----
+    message( "Checking for LVL_REFF", $data, __LINE__, 0, 0, 1 );
     unless ( defined $lvl_reff ) {
-      print getIndent($data, __LINE__)."...not defined!\n";
+      message("..not defined: 'lvl_reff'", $data, __LINE__, 0, 0, 1 );
       $lvl_reff->@* = get_Lvl_reff($data);
-      print getIndent($data, __LINE__)."seting lvl_reff to ".$lvl_reff."\n";
+      message("..setting 'lvl_reff' to 'Data->{reff}'", $data, __LINE__, 0, 0, 1 );
     }
     else {
-      print getIndent($data, __LINE__)."...defined\n";
-      print getIndent($data, __LINE__)."keeping lvl_reff as ".$lvl_reff."\n";
+      message( "..defined: 'lvl_reff'", $data, __LINE__, 0, 0, 1 );
     }
 
     #----- Populate -----
-    populate($data, $obj);
+    populate( $data, $obj );
 
-    #----- CHILDS? -----
-    print getIndent($data, __LINE__)."Check for CHILDREN\n";
-    print getIndent($data, __LINE__)."Descend current point: ". getPointStr($data) ." by 1 level\n";
+    #----- Check for Children? -----
+    message( "Checking for CHILDREN", $data, __LINE__, 0, 0, 1 );
+    message( "..Descend point (" . getPointStr($data) . ") by 1 level", $data, __LINE__, 0, 0, 1 );
     push $data->{point}->@*, 1;
-    print getIndent($data, __LINE__, 1)."...new point at ". getPointStr($data) ."\n";
-    leveler($data);
-    print getIndent($data, __LINE__, 1)."Ascend current point: ". getPointStr($data) ." by 1 level\n";
+    message( "..new point: (" . getPointStr($data) . ")", $data, __LINE__, 0, 0, 1, 1 );
+    leveler( $data );
+    message( "..Ascend point (" . getPointStr($data) . ") by 1 level", $data, __LINE__, 0, 0, 1, 1 );
     pop $data->{point}->@*, 1;
-    print getIndent($data, __LINE__)."...new point at ". getPointStr($data) ."\n";
-    print getIndent($data, __LINE__)."returing data_reff at ".$data->{reff}." to lvl_reff\n";
+    message( "..new point: (" . getPointStr($data) . ")", $data, __LINE__, 1, 0, 1, 1);
+    message( "..Returning data_reff at to lvl_reff", $data, __LINE__, 0, 0, 1 );
     $data->{reff}->@* = $lvl_reff->@*;
-    print getIndent($data, __LINE__)."...data_reff is now ".$data->{reff}."\n";
 
-    #----- SYBLINGS? -----
-    print getIndent($data, __LINE__)."Check for SYBLINGS\n";
+    #----- Check for SYBLINGS? -----
+    message( "Checking for SYBLINGS", $data, __LINE__, 0, 0, 1 );
     if ( scalar $data->{point}->@* ) {
-      print getIndent($data, __LINE__)."increase current point: ". getPointStr($data) ." by 1\n";
+      message( "..increase point (". getPointStr($data) .") by 1", $data, __LINE__, 0, 0, 1 );
       $data->{point}->[-1]++;
-      print getIndent($data, __LINE__)."...new point at ". getPointStr($data). "\n";
+      message( "..new point:  (" . getPointStr($data) . ")", $data, __LINE__, 0, 0, 1 );
     }
     else {
-      print getIndent($data, __LINE__)."can not increase current point " . getPointStr($data) . "\n";
-      print getIndent($data, __LINE__)."Exiting LEVLER instance.\n";
+      message( "..can not increase point (" . getPointStr($data), $data, __LINE__, 0, 0, 1 );
+      message( "Exiting LEVLER", $data, __LINE__, 0, 0, 1 );
       last;
     }
     $obj = getObj( $data->@{'dspt', 'point'} ); # set 'obj' to new 'obj' (next SYBLINGO)
     unless ($obj) {
-      print getIndent($data, __LINE__)."no syblings exists at point found\n";
-      print getIndent($data, __LINE__)."Exiting LEVLER instance.\n";
+      message("..does not exist: SYBLING", $data, __LINE__, 0, 0, 1);
+      message("Exiting LEVLER", $data, __LINE__, 0, 0, 1);
     }
     else {
-      print getIndent($data, __LINE__)."sybling found\n";
+      message("..exists SYBLING: \'${obj}\'", $data, __LINE__, 0, 0, 1);
     }
   }
   return $data->{result};
 }
 
-#-----| getPointStr -----{{{2
-sub getPointStr {
+#-----| populate() -----{{{2
+sub populate {
   my $data = shift @_;
-  return $data->{point}->[0] ? join '.', $data->{point}->@* : 0;
-}
-#-----| getname ----{{{2
-sub getname {
-  my $dspt = shift @_;
   my $obj  = shift @_;
-  my $name = exists $dspt->{$obj}->{name} ? $dspt->{$obj}->{name} : $obj;
-  return $name;
-}
-
-
-#-----| getObjFromName ----{{{2
-sub getObjFromName {
-  my $dspt = shift @_;
-  my $name = shift @_;
-  if ( exists $dspt->{$name} ) { return $name }
+  message("start POPULATE for '${obj}'", $data, __LINE__, 0, 0, 1 );
+  if ( $obj ne 'TOP' && exists $data->{capture_hash}->{$obj} ) {
+    divyMatches( $data, $obj );
+  }
   else {
-    my @keys  = grep { exists $dspt->{$_}->{name} } keys $dspt->%*;
-    if (scalar @keys) {
-      my @match = grep { $dspt->{$_}->{name} eq $name } @keys;
-      return $match[0];
-    }
-    else {
-      return 0;
-    }
+    message("..cannot populate for '${obj}'", $data, __LINE__, 1, 0, 1 );
+    message("Exiting POPULATE", $data, __LINE__, 1, 0, 1 );
   }
 }
 
 
-#-----| getOrder ----{{{2
-sub getOrder {
-  my $dspt = shift @_;
-  my $arg  = shift @_;
-  my $obj  = getObjFromName( $dspt, $arg );
-  return $obj ? $dspt->{$obj}->{order} : 'z';
-}
+#-----| divyMatches() -----{{{2
+sub divyMatches {
+    my $data = shift @_;
+    my $obj  = shift @_;
+    my $name = getname( $data->{dspt}, $obj );
+    my $pond = dclone( ${$data}{capture_hash}->{$obj} );
+    message( "start DIVY_MATCHES for '${obj}'", $data, __LINE__, 1, 0, 1 );
 
+    #----- DIVY MATCHES -----
+    my $ind = ( scalar ${$data}{reff}->@* ) - 1;
+    for my $reff ( reverse ${$data}{reff}->@*) {
+      message("Selecting reff index (${ind}) at line ".( $reff->{LN} ?  $reff->{LN} : 0 ), $data, __LINE__, 2, 0, 1 );
+      my $bucket;
+      for my $match ( reverse $pond->@* ) {
+        if ( $match->{LN} > ( $reff->{LN} ?  $reff->{LN} : 0 ) ) {
+          message( "..found: line ".$match->{LN}, $data, __LINE__, 2, 0, 1 );
+          my $catch = pop $pond->@*;
+          addPartion( $data, $obj, $catch );
+          push $bucket->@*, $catch;
+        }
+        else {
+          message("..not found: MATCH", $data, __LINE__, 2, 0, 1 );
+          last;
+        }
+      }
+      if ( $bucket ) {
+        $bucket->@* = reverse $bucket->@*;
 
-#-----| get_Lvl_reff -----{{{2
-sub get_Lvl_reff {
-  my $data = shift @_;
-  return $data->{reff}->@*;
+        ${$data}{reff}->[$ind]->{$name} = $bucket;
+        splice( ${$data}{reff}->@*, $ind, 1, $bucket->@* );
+
+      }
+      $ind--;
+    }
+    return $name;
 }
 
 
@@ -374,75 +364,56 @@ sub genTags {
 }
 
 
-#-----| decho -----{{{2
-sub decho {
-  my $var = shift @_;
-  my $output = Data::Dumper->Dump([$var], ['reff']);
-  $output =~ s/\s*[\}][,;]*\s*(\n)/$1/g;
-  $output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
-  #$output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
-  return $output;
+#----- Utilities -----{{{1
+#-----| getPointStr() -----{{{2
+sub getPointStr {
+  my $data = shift @_;
+  return $data->{point}->[0] ? join '.', $data->{point}->@* : 0;
+}
+#-----| getname() ----{{{2
+sub getname {
+  my $dspt = shift @_;
+  my $obj  = shift @_;
+  my $name = exists $dspt->{$obj}->{name} ? $dspt->{$obj}->{name} : $obj;
+  return $name;
 }
 
 
-#-----| divyMatches -----{{{2
-sub divyMatches {
-    my $data = shift @_;
-    my $obj  = shift @_;
-    my $name = getname( $data->{dspt}, $obj );
-    my $pond = dclone( ${$data}{capture_hash}->{$obj} );
-
-    #----- DIVY MATCHES -----
-    if (1) {
-    #if ( scalar ${$data}{point}->@* != 1 ) {
-      my $ind = ( scalar ${$data}{reff}->@* ) - 1;
-      for my $reff ( reverse ${$data}{reff}->@*) {
-        my $bucket;
-        for my $match ( reverse $pond->@* ) {
-          if ( $match->{LN} > ( $reff->{LN} ?  $reff->{LN} : 0 ) ) {
-            my $catch = pop $pond->@*;
-            addPartion( $data, $obj, $catch );
-            push $bucket->@*, $catch;
-          }
-          else {
-            last;
-          }
-        }
-        if ( $bucket ) {
-          $bucket->@* = reverse $bucket->@*;
-
-          ${$data}{reff}->[$ind]->{$name} = $bucket;
-          splice( ${$data}{reff}->@*, $ind, 1, $bucket->@* );
-
-        }
-        $ind--;
-      }
+#-----| getObjFromName() ----{{{2
+sub getObjFromName {
+  my $dspt = shift @_;
+  my $name = shift @_;
+  if ( exists $dspt->{$name} ) { return $name }
+  else {
+    my @keys  = grep { exists $dspt->{$_}->{name} } keys $dspt->%*;
+    if (scalar @keys) {
+      my @match = grep { $dspt->{$_}->{name} eq $name } @keys;
+      return $match[0];
     }
     else {
-      ${$data}{reff}->[0]->{$name} = $pond;
-      splice( ${$data}{reff}->@*, 0, 1, $pond->@* );
+      return 0;
     }
-    return $name;
+  }
 }
 
 
-#-----| populate -----{{{2
-sub populate {
+#-----| getOrder() ----{{{2
+sub getOrder {
+  my $dspt = shift @_;
+  my $arg  = shift @_;
+  my $obj  = getObjFromName( $dspt, $arg );
+  return $obj ? $dspt->{$obj}->{order} : 'z';
+}
+
+
+#-----| get_Lvl_reff() -----{{{2
+sub get_Lvl_reff {
   my $data = shift @_;
-  my $obj  = shift @_;
-  print getIndent($data, __LINE__)."start POPULATE\n";
-  if ( $obj ne 'TOP' && exists $data->{capture_hash}->{$obj} ) {
-    print getIndent($data,__LINE__,undef,1)."start DIVY_MATCHES\n";
-    divyMatches( $data, $obj );
-  }
-  else {
-    print getIndent($data,__LINE__,undef,1)."cannot populate for point ".getPointStr($data)."\n";
-    print getIndent($data,__LINE__,undef,1)."Exiting POPULATE\n";
-  }
+  return $data->{reff}->@*;
 }
 
 
-#-----| getObj -----{{{2
+#-----| getObj() -----{{{2
 sub getObj {
   my $dspt  = shift @_;
   my $point = shift @_;
@@ -459,41 +430,83 @@ sub getObj {
   }
 }
 
-#-----| file2hash -----{{{2
-sub file2hash {
-  my $fname = shift @_;
-  my $output;
 
-  open( my $fh, '<', $fname )  #Open Masterbin for reading
-    or die $!;
+#-----| decho() -----{{{2
+sub decho {
+  my $var = shift @_;
 
-  while ( my $line = <$fh> ) {
+  #----- Data::Dumper  -----{{{3
+  use Data::Dumper;
 
-    for my $obj_key ( keys %$dspt ) {
-      my $obj = $dspt->{$obj_key};
+  $Data::Dumper::Sortkeys = sub {
+    my ( $hash ) = @_;
+    return [
+      sort {
+        my $order_a = getOrder( $dspt, $a );
+        my $order_b = getOrder( $dspt, $b );
+        if ( $a eq 'LN' && $b eq 'raw' ) {
+          1;
+        }
+        elsif ( $a eq 'raw' && $b eq 'LN' ) {
+          0;
+        }
+        elsif ( $b eq 'raw' || $b eq 'LN' ) {
+          0;
+        }
+        elsif ( $a eq 'raw' || $a eq 'LN' ) {
+          1;
+        }
+        else {
+          $order_a cmp $order_b;
+        }
+      } keys %$hash
+    ];
+  };
 
-      if ( $obj->{re} && $line =~ /$obj->{re}/ ) {
-        my $match = {
-          LN       => $.,
-          $obj_key => $1,
-        };
-        push  $output->{$obj_key}->@*, $match;
-      }
-    }
-  }
-  close($fh);
+  $Data::Dumper::Indent = 2; #}}}
+
+  my $output = Data::Dumper->Dump( [$var], ['reff'] );
+  $output =~ s/\s*[\}][,;]*\s*(\n)/$1/g;
+  $output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
+  #$output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
   return $output;
 }
 
 
-#----- checkCapture -----{{{2
+#-----| message() -----{{{2
+sub message {
+  my $mes   = shift @_;
+  my $data  = shift @_;
+  my $line  = shift @_;
+  my $cnt   = shift @_;
+
+  my $start = shift @_;
+  $start = $start ? 0 : 1;
+
+
+  my $disable_LN = shift @_;
+  my $line_mes = "";
+  unless ( $disable_LN ) { $line_mes = " at line ${line}." }
+
+  my $offset = shift @_;
+  $offset = $offset ? $offset : 0;
+
+  my $indent = "  ";
+  my $lvl = scalar $data->{point}->@* ?  scalar $data->{point}->@* : 0;
+  $indent = $indent x ( $cnt + $start + $lvl - $offset );
+  print $indent . $mes . $line_mes . "\n";
+}
+
+
+#----- Checks -----{{{1
+#-----| checkCapture() -----{{{2
 sub checkCapture {
   print "checking CAPTURE\n";
   print "...ok\n";
 }
 
 
-#-----| checkDspt -----{{{2
+#-----| checkDspt() -----{{{2
 sub checkDspt {
   print "checking DSPT\n";
   print "...ok\n";
