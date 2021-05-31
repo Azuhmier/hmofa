@@ -13,15 +13,14 @@ use JSON;
 use List::Util;
 use Storable qw(dclone);
 
-
-
-
 ##Assumptions
-# no backslashes in dspt key names
-# all dspt key names are unique
-# partions patterns are independent of order
-# each child type only belongs to only one object type
-# Cannot have key named "TOP" 
+# - no backslashes in dspt key names
+# - all dspt key names are unique
+# - partions patterns are independent of order
+# - each child type only belongs to only one object type
+# - Cannot have key named "TOP" 
+# - all prior levels must have lne numbers after the lowest line number of the
+#   first level.
 
 #----- REGEX CONFIG -----{{{1
 my $dspt = {
@@ -153,7 +152,13 @@ $capture_hash->{test3} = [
 #  }
 #}
 #----- Output -----{{{2
-my $data = { capture_hash => $capture_hash, dspt => $dspt} ;
+my $data = { 
+  capture_hash  => $capture_hash, 
+  dspt          => $dspt,
+  result        => {},
+  verbose       => 1,
+  lineNums      => 1,
+};
 my $formated_hash = delegate($data);
 #print Dumper($formated_hash);
 
@@ -297,17 +302,32 @@ sub divyMatches {
     #----- DIVY MATCHES -----
     my $ind = ( scalar ${$data}{reff}->@* ) - 1;
     for my $reff ( reverse ${$data}{reff}->@*) {
-      message("Selecting reff index (${ind}) at line ".( $reff->{LN} ?  $reff->{LN} : 0 ), $data, __LINE__, 2, 0, 1 );
+      #----- Check for reff line numbers -----
+      message("Checking for reff line number", $data, __LINE__, 2, 0, 1 );
+      my $line_reff;
+      if ($reff->{LN}) {
+        $line_reff = $reff->{LN};
+        message("..exists reff line number at '${line_reff}'", $data, __LINE__, 2, 0, 1 );
+      }
+      else {
+        $line_reff = 0;
+        message("..does not exists: reff line number", $data, __LINE__, 2, 0, 1 );
+        message("..setting reff line number to '${line_reff}'", $data, __LINE__, 2, 0, 1 );
+      }
+      my $line_reff = $reff->{LN} ?  $reff->{LN} : 0;
+      message("Selecting reff index (${ind}) at line " . $line_reff, $data, __LINE__, 2, 0, 1 );
       my $bucket;
       for my $match ( reverse $pond->@* ) {
-        if ( $match->{LN} > ( $reff->{LN} ?  $reff->{LN} : 0 ) ) {
-          message( "..found: line ".$match->{LN}, $data, __LINE__, 2, 0, 1 );
+        message("Selecting match  at line '" . $match->{LN} . "'", $data, __LINE__, 3, 0, 1 );
+        if ( $match->{LN} > $line_reff ) {
+          message( "..found: line_match '" . $match->{LN} . "' > line_reff '${line_reff}'", $data, __LINE__, 3, 0, 1 );
           my $catch = pop $pond->@*;
           addPartion( $data, $obj, $catch );
           push $bucket->@*, $catch;
         }
         else {
-          message("..not found: MATCH", $data, __LINE__, 2, 0, 1 );
+          message( "..not found: line_match '" . $match->{LN} . "' > line_reff '${line_reff}'", $data, __LINE__, 3, 0, 1 );
+
           last;
         }
       }
@@ -318,8 +338,12 @@ sub divyMatches {
         splice( ${$data}{reff}->@*, $ind, 1, $bucket->@* );
 
       }
+      message("Deincrementing reff index (${ind}) by 1", $data, __LINE__, 2, 0, 1 );
       $ind--;
+      message("..new index at (${ind})", $data, __LINE__, 2, 0, 1 );
     }
+    message("Iteration through reff indices is complete", $data, __LINE__, 2, 0, 1 );
+    message("Exiting DIVY_MATCHES", $data, __LINE__, 2, 0, 1 );
     return $name;
 }
 
@@ -331,20 +355,40 @@ sub addPartion {
   my $catch = shift @_;
   my $raw = $catch->{$obj};
   my $flag;
-  for my $attrib (keys $data->{dspt}->{$obj}->{partion}->%*) {
-    $catch->{$obj} =~ s/$data->{dspt}->{$obj}->{partion}->{$attrib}->[0]//g;
-    if ($1 && $1 ne '') {
-      $flag = 1;
-      $catch->{$attrib} = $1;
-      if (scalar $data->{dspt}->{$obj}->{partion}->{$attrib}->@* == 3) {
-        genTags($data,$obj,$catch,$attrib);
+  message( "start ADD_PARTION for '${obj}'", $data, __LINE__, 3, 0, 1 );
+  message( "Checking for PARTION"          , $data, __LINE__, 4, 0, 1 );
+  if ( exists $data->{dspt}->{$obj}->{partion} ) {
+    message( "..exists: PARTION" , $data, __LINE__, 4, 0, 1 );
+    for my $attrib (keys $data->{dspt}->{$obj}->{partion}->%*) {
+      message( "Selecting ATTRIB '${attrib}'", $data, __LINE__, 5, 0, 1 );
+      message( "Searching for ATTRIB match"  , $data, __LINE__, 5, 0, 1 );
+      $catch->{$obj} =~ s/$data->{dspt}->{$obj}->{partion}->{$attrib}->[0]//g;
+      if ($1 && $1 ne '') {
+        $flag = 1;
+        $catch->{$attrib} = $1;
+        message( "..Found: '".$catch->{$attrib}."'"  , $data, __LINE__, 5, 0, 1 );
+        message( "Checking for Additianol Partioning", $data, __LINE__, 5, 0, 1 );
+        if (scalar $data->{dspt}->{$obj}->{partion}->{$attrib}->@* == 3) {
+          message( "..Found: Additional partioning"  , $data, __LINE__, 5, 0, 1 );
+          genTags($data,$obj,$catch,$attrib);
+        }
+        else {
+          message( "..not Found: Additional partioning", $data, __LINE__, 5, 0, 1 );
+        }
+      }
+      else {
+        message( "..not Found: ATTRIB", $data, __LINE__, 5, 0, 1);
       }
     }
+    if ($flag) {
+      $catch->{raw} = $raw;
+    }
+    unless ($catch->{$obj}) { delete $catch->{$obj} }
   }
-  if ($flag) {
-    $catch->{raw} = $raw;
+  else {
+    message( "..does not exists: PARTION", $data, __LINE__, 4, 0, 1 );
   }
-  unless ($catch->{$obj}) { delete $catch->{$obj} }
+  message("Exiting ADD_PARTION", $data, __LINE__, 4, 0, 1 );
   return 1;
 
 }
@@ -357,10 +401,12 @@ sub genTags {
   my $catch  = shift @_;
   my $attrib = shift @_;
   my @delims = $data->{dspt}->{$obj}->{partion}->{$attrib}->[2][0];
+  message( "Start GEN_TAGS", $data, __LINE__, 5, 0, 1 );
   for my $delim (@delims[1 .. $#delims]) { $catch->{$attrib} =~ s/$delim/$delims[0]/g;}
 
   $catch->{$attrib} =~ s/$delims[0](\w+)/$1/g;
   $catch->{$attrib} = [ split /\s*$delims[0]\s*/, $catch->{$attrib} ];
+  message("Exiting GEN_TAGS", $data, __LINE__, 6, 0, 1 );
 }
 
 
