@@ -4,19 +4,19 @@ tags3.pl
     - all dspt key names are unique
   Starting Paradigm
     Error Checking
-      - Accountability = ( #lines captured / #lines ), can set 
-        threshold to min accountability, either global, total, 
+      - Accountability = ( #lines captured / #lines ), can set
+        threshold to min accountability, either global, total,
         or local to obj
   Steps
     1) capture_hash via dspt; linear & dynamic
     2) predicable iteration through dspt; iterating along point address
        (ex. 1.1.2.12), descending levels from left to right. point addresses
-       differing in number of decimals are parent/child, while those with the 
+       differing in number of decimals are parent/child, while those with the
        same number of decimals are siblings
     3) evolved from 3, now we go from one ref to array of reffs.
 
   Model
-    - 
+    -
 
 Shorten URL via git.io
   curl -s -i https://git.io -F "URL"   \\
@@ -45,3 +45,14 @@ Teeing and Piping to stdout
   tee >&1
 Misc
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
+  problemo
+     'TAGS' => [
+            {
+              'anthro' => [
+                            'pet',
+                            'canine',
+                            'pet',
+                            'feline',
+                            '~'
+              'raw' => '[;pet; ;canine; ;pet; ;feline;][]~',
+              'LN' => 4310
