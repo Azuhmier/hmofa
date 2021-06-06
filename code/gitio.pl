@@ -26,7 +26,7 @@ if ( !$args->{'silent'} ) { print $output, "\n" }
 sub ParseArgs {
   my @args = @{shift @_};
 
-  #Parameters
+  ## Parameters
   my %valid_urls = (
     io => 'https://git.io/',
     raw => 'https://raw.githubusercontent.com/' );
@@ -34,7 +34,7 @@ sub ParseArgs {
     clipboard => '-cb',
     slient => '-s' );
 
-  #Option Check
+  ## Option Check
   my %opts;
   for my $arg ( @args[0..$#args-1] ) {
     my @match = grep { $arg =~ /\Q$valid_opts{$_}\E/ } keys %valid_opts;
@@ -45,13 +45,13 @@ sub ParseArgs {
       die( "'$arg' is not a valid option ${0} line ", __LINE__, "\n" );
   }
 
-  #URL must be valid and last
+  ## URL must be valid and last
   my @match = grep { $args[-1] =~ /^\Q$valid_urls{$_}\E/  } keys %valid_urls;
   my $url   = scalar @match == 1 ? $args[-1] :
       die( "URL is invalid or not the last argument! called at ${0} line ", __LINE__, "\n" );
   my $type  = $match[0];
 
-  #Return Hash
+  ## Return Hash
   return {
     URL  => $url,
     type => $type,
@@ -62,23 +62,23 @@ sub ParseArgs {
 sub constructCMD {
   my %args = %{shift @_};
   my $CMD;
-  #xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ##
   if ($args->{'type'} =~ 'raw') {
     $CMD = q{curl -s -i https://git.io -F "url=}.$args->{'URL'}.q{" };
   }
   else {
     $CMD = q{curl -s -i }.$args->{'URL'};
   }
-  #xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ##
   my $cmd2 = q{ | grep Location        \\
     | sed -n 's/Location: \(.*\)/\1/p' \\
     | tr -d '\n'                       \\
     | tee /dev/tty                     \\
     | tr -d '\r\n' };
-  #xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ##
   my $cmd3 = !$args->{'clipboard'} ? '' : '| pbcopy';
-  #xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ##
   $CMD = $CMD.$cmd2.$cmd3;
-  #xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  ##
   return $CMD;
 }
