@@ -169,9 +169,11 @@ for my $a ( reverse $dspt->{author}->{match}->@*) {
 #----- WRITING TO FILES -----{{{1
   open(my $fh_MasterBinXML, '>' , $fname_MasterBinXML) or die $!;
     print $fh_MasterBinXML $xml2;
+    truncate $fh_MasterBinXML, tell($fh_MasterBinXML) or die;
   close($fh_MasterBinXML);
   open(my $fh_MasterBinjson, '>' , $fname_MasterBinjson) or die $!;
     print $fh_MasterBinjson $json2;
+    truncate $fh_MasterBinjson, tell($fh_MasterBinjson) or die;
   close($fh_MasterBinjson);
 
 #----- META -----{{{1
