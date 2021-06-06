@@ -25,7 +25,6 @@ use Storable qw(dclone);
 
 
 
-#------------------------------------------------------
 # DSPT Configuration {{{1
 #------------------------------------------------------
 my $dspt = {
@@ -130,8 +129,7 @@ my $data = {
     lineNums => 1,
 };
 my $dataHash = delegate($data);
-print decho($dataHash);
-
+print decho($data, $dataHash);
 
 
 
@@ -179,8 +177,7 @@ sub delegate {
     mes("DELEGATE", $data, 0, 1, 1);
 
     # checks
-    checkMatches( $data->{matches} );
-    checkDspt( $data->{dspt} );
+    init($data);
 
     # convert
     my $DataHash = leveler( $data );
@@ -314,6 +311,7 @@ sub divyMatches {
                     mes("..True", $data, 4, 0, 1 );
                     mes("..Will add capture_array element to bucket", $data, 4, 0, 1 );
                     my $match = pop $pond->@*;
+                    $match->{point} = join '.', $data->{point}->@*; #for sorting
                     genAttributes( $data, $match );
                     mes("Adding capture_array element to bucket", $data, 4, 0, 1 );
                     push $bucket->@*, $match;
@@ -370,7 +368,12 @@ sub genAttributes {
         mes("Begin attributes_hash iteration", $data, 5, 0, 1);
 
         # Iterate through attributeDSPT
-        for my $attrib (keys $attributesDSPT->%*) {
+        my @attributesOrderArray = sort {
+            # essentially 'undef cmp undef' with some elements
+            $attributesDSPT->{$a}->[1] cmp $attributesDSPT->{$b}->[1];
+            } keys $attributesDSPT->%*;
+        for my $attrib (@attributesOrderArray) {
+        #for my $attrib (keys $attributesDSPT->%*) {
             mes("==Selecting ATTRIBUTE== '${attrib}'", $data, 6, 0, 1);
             mes("Searching for ATTRIBUTE match in '".$match->{ $objKey }."'", $data, 7, 0, 1);
             $match->{ $objKey } =~ s/$attributesDSPT->{ $attrib }->[ 0 ]//g;
@@ -483,33 +486,38 @@ sub getObjKeyFromName {
 #===| getOrder() {{{2
 sub getOrder {
     # pointStr
-    my $data     = shift @_;
-    my $pointStr = getPointStr( $data );
-
-    # objKey
-    my $keyName   = shift @_;
-    my $objKey    = getObjKeyFromName( $data, $keyName );
-    my $objReff   = $data->{dspt}->{$objKey};
-
+    my $data       = shift @_;
+    my $keyName    = shift @_;
+    my $objKey     = getObjKeyFromName( $data, $keyName );
+    my $pointStr   = getPointStr( $data );
+    my $parentKey  = getObjKey( $data );
+    my $parentReff = $data->{dspt}->{$parentKey};
     # Parent and Children
+
     if ($objKey) {
+        my $objReff = $data->{dspt}->{$objKey};
+        $pointStr   = $objReff->{order};
     }
 
     # Attributes
-    elsif (exists $objReff->{attributes}->{$keyName}) {
-        my $attributeReff = $objReff->{attributes}->{$keyName};
+    elsif (exists $parentReff->{attributes}->{$keyName}) {
+        my $attributeReff = $parentReff->{attributes}->{$keyName};
         my $cnt;
         if (exists $attributeReff->[1]) {
-          $cnt = $attributeReff->[1];
+            $cnt = $attributeReff->[1];
         }
         else {
-          $cnt = 1;
+            $cnt = 1;
         }
-      for (1 .. $cnt) { $pointStr = changePointStrInd( $pointStr, -1 ) }
+        for (my $i = 1; $i <= $cnt; $i++) { 
+            $pointStr = changePointStrInd( $pointStr, 1 );
+        }
     }
-
-    print "kkkk ${objKey}\n";
-    print "kkkk ${pointStr}\n";
+    else {
+        if ($keyName eq 'raw')   {$pointStr = '5.1.1.1.1.1.1.1.1.1.1'}
+        if ($keyName eq 'LN')    {$pointStr = '5.1.1.1.1.1.1.1.1.1.2'}
+        if ($keyName eq 'point') {$pointStr = '5.1.1.1.1.1.1.1.1.1.3'}
+    }
     return $pointStr;
 }
 
@@ -521,8 +529,8 @@ sub getLvlReffArray {
 }
 
 
-#===| changePointStrInd() {{{2
-sub changePointStr {
+#===| changePointStrLvl() {{{2
+sub changePointStrLvl {
     my @point = split '.', shift @_;
     my $op    = shift @_;
     if ($op) { push @point, 1 }
@@ -531,14 +539,15 @@ sub changePointStr {
 
 
 }
-#===| changePointStrLvL() {{{2
-sub changePointStr {
-    my @point = split '.', shift @_;
-    my $op    = shift @_;
+#===| changePointStrInd() {{{2
+sub changePointStrInd {
+    my $pointStr = shift @_;
+    my @point    = split /\./, $pointStr;
+    my $op       = shift @_;
     if ($op) { $point[-1]++ }
     else     { $point[-1]-- }
-    return join '.', @point;
-
+    $pointStr = join '.', @point;
+    return $pointStr;
 }
 
 
@@ -563,31 +572,25 @@ sub getObjKey {
 
 #===| decho() {{{2
 sub decho {
+    my $data = shift @_;
     my $var = shift @_;
-
     # Data::Dumper {{{3
     use Data::Dumper;
     $Data::Dumper::Sortkeys = sub {
         my $hash = shift @_;
-        return [
-            sort {
-                my $order_a = getOrder( $data, $a );
-                my $order_b = getOrder( $data, $b );
-                print "-----\n";
-                if    ($a eq 'LN' and $b eq 'raw') { 1 }
-                elsif ($a eq 'raw' and $b eq 'LN') { 0 }
-                elsif ($b eq 'raw' or $b eq 'LN')  { 0 }
-                elsif ($a eq 'raw' or $a eq 'LN')  { 1 }
-                else                               { $order_a cmp $order_b }
-            } keys %$hash
-        ];
+        $data->{point} = [ split /\./, $hash->{point} ];
+        return [ sort {
+                my $order_a = getOrder( $data, $a);
+                my $order_b = getOrder( $data, $b);
+                $order_a cmp $order_b;
+            } keys %$hash ];
     };
     $Data::Dumper::Indent = 2;
     my $output = Data::Dumper->Dump( [$var], ['reffArray'] ); #}}}
 
     # substitutions
-    $output =~ s/\s*[\}][,;]*\s*(\n)/$1/g;
-    $output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
+    #$output =~ s/\s*[\}][,;]*\s*(\n)/$1/g;
+    #$output =~ s/\s*[\]][,;]*\s*(\n)/$1/g;
     return $output;
 }
 
@@ -622,8 +625,15 @@ sub mes {
 #------------------------------------------------------
 # Checks {{{1
 #------------------------------------------------------
+#===| init() {{{2
+sub init {
+  my $data = shift @_;
+  checkMatches( $data );
+  checkDspt( $data );
+}
 #===| checkMatches() {{{2
 sub checkMatches {
+    my $data = shift @_;
     mes("Starting CHECK_MATCHES", $data, 0, 1, 1);
     mes("...ok", $data, 0, 0, 1);
 }
@@ -631,6 +641,7 @@ sub checkMatches {
 
 #===| checkDspt() {{{2
 sub checkDspt {
+    my $data = shift @_;
     mes("Starting CHECK_DSPT", $data, 0, 1, 1);
     mes("...ok", $data, 0, 0, 1);
 }
