@@ -17,7 +17,9 @@ tags3.pl
 
   Model
     -
-
+  Misc
+    '[]' should show up as tags
+    the substitution problem
 Shorten URL via git.io
   curl -s -i https://git.io -F "URL"   \\
     | grep Location                    \\

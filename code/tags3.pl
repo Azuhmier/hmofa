@@ -9,13 +9,12 @@
 use strict;
 use warnings;
 use utf8;
-#use JSON;
-use JSON::PP;
-use List::Util;
+#use List::Util;
 use Storable qw(dclone);
-use Hash::Ordered;
-#use Tie::Hash::MultiValueOrdered;
-#use JSON::MultiValueOrdered;
+#use Hash::Ordered;
+use JSON::PP;
+#use YAML;
+#use XML::Simple;
 
 #  Assumptions
 #    - no backslashes in dspt key names
@@ -29,131 +28,86 @@ use Hash::Ordered;
 
 
 
-# DSPT Configuration {{{1
-#------------------------------------------------------
-my $dspt = {
-    section => {
-        name    => 'SECTIONS',
-        order   => '1',
-        re      => qr/^\s*%+\s*(.*?)\s*%+/,
-        exclude => [ 'Introduction/Key', 'Stories from outside /hmofa/' ],
-    },
-    author => {
-        name    => 'AUTHORS',
-        order   => '1.1',
-        re      => qr/^\s*[Bb]y\s+(.*)/,
-        attributes => {
-            author_attribute => [ qr/\s+\((.*)\)/ ],
-        },
-    },
-    series => {
-        name  => 'SERIES',
-        order => '1.1.1',
-        re    => qr/^\s*=+\/\s*(.*)\s*\/=+/,
-    },
-    title => {
-        name    => 'STORIES',
-        order   => '1.1.1.1',
-        re      => qr/^\s*>\s*(.*)/,
-        attributes => {
-            title_attribute => [ qr/\s+\((.*)\)/ ],
-        },
-    },
-    tags => {
-        name    => 'TAGS',
-        order   => '1.1.1.1.1',
-        re      => qr/^\s*(\[.*)/,
-        scalar  => 1,
-        attributes => {
-            anthro  => [ qr/(?x) ^\[  ([^\[\]]*)/     , 1, [';',','] ],
-            general => [ qr/(?x) \]\[ ([^\[\]]*) \]/  , 2, [';',','] ],
-            ops     => [ qr/(?x) ([^\[\]]*) $/        , 3],
-        },
-    },
-    url => {
-        name    => 'URLS',
-        order   => '1.1.1.1.2',
-        re      => qr/^\s*(http.*)/,
-        attributes => {
-            url_attribute => [ qr/\s*\((.*)\)/ ],
-        },
-    },
-    description => {
-        name   => 'DESCRIPTIONS',
-        order  => '1.1.1.1.3',
-        re     =>  qr/^\s*#(.*)/,
-        scalar => 1,
-    },
-    test => {
-        order => '2',
-    },
-    test2 => {
-        order => '2.1',
-    },
-    test3 => {
-        order => '2.1.1',
-    },
-    test4 => {
-        order => '2.1.1.1',
-    },
-    test5 => {
-        order => '2.1.1.2',
-    },
-    test6 => {
-        order => '2.1.1.2.1',
-    },
-    test33 => {
-        order => '2.1.2',
-    },
-    test333 => {
-        order => '2.1.2.1',
-    },
-};
-
-
-
-
-#------------------------------------------------------
 # Main {{{1
 #------------------------------------------------------
 ## filepaths
 my $fnameIN  = '../tagCatalog.txt';
 #my $fnameIN  = '../masterbin.txt';
 
+##  decode json
+use constant JSON_FILE => './json/dspt.json';
+my $dspt = do {
+    open my $fh, '<', JSON_FILE;
+    local $/;
+    decode_json(<$fh>);
+};
+for my $obj (keys $dspt->%*) {
+    for my $key (keys $dspt->{$obj}->%*) {
+        if ($key eq 're') { 
+            $dspt->{$obj}->{re} = qr/$dspt->{$obj}->{re}/;
+        }
+        if ($key eq 'attributes') {
+            for my $attrib (keys $dspt->{$obj}->{attributes}->%*) {
+                $dspt->{$obj}->{attributes}->{$attrib}->[0] = qr/$dspt->{$obj}->{attributes}->{$attrib}->[0]/;
+            }
+        }
+    }
+}
+
 ## get matches from txt file
-my $matches = file2hash($fnameIN);
+my $matches = file2hash($fnameIN, $dspt);
 test($matches);
 
 ## turn matches into data hash
 my $data = {
     matches  => $matches,
     dspt     => $dspt,
-    result   => {},
-    verbose  => 1,
+    verbose  => 0,
     lineNums => 1,
 };
-my $dataHash = delegate($data);
-#print decho($data, $dataHash);
+delegate($data);
 
-##  encode jsons
-my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-my $enable = $json_obj->get_convert_blessed;
-$json_obj = $json_obj->allow_blessed(['true']);
-#$json_obj = $json_obj->canonical(['true']);
+##  encode and write to file
+my $flagg=0;
+{
+  my $filename = './json/hmofa.json';
+  my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+  $json_obj = $json_obj->allow_blessed(['true']);
+  $json_obj->sort_by( sub {
+      unless($flagg > 2) {
+            #no strict 'refs';
+            #print Dumper(\%main::);
+            #print Dumper(\@keys);
+            #print Dumper(\%JSON::PP::);
+            #print Dumper(\@JSON::PP::array);
+            #print Dumper(\%JSON::PP::array_to_json);
 
-$json_obj->sort_by( sub { 
-    $JSON::PP::order_a = getOrder( $data, $JSON::PP::a);
-    $JSON::PP::order_b = getOrder( $data, $JSON::PP::b);
-    $JSON::PP::order_a cmp $JSON::PP::order_b;
-  });
-my $json  = $json_obj->encode($data->{result});
+            #foreach my $entry ( keys %main:: )
+            #{
+            #    print "$entry\n";
+            #}
+            $flagg++;
+      }
+      my $hash = dclone($_[0]);
+      #my @keys = keys $var->%*;
+      if ($hash->{point}) {
+          $data->{point} = [ split /\./, $hash->{point} ];
+      }
+      else {
+        $data->{point} = [];
+      }
+      $JSON::PP::order_a = getOrder( $data, $JSON::PP::a);
+      $JSON::PP::order_b = getOrder( $data, $JSON::PP::b);
+      $JSON::PP::order_a cmp $JSON::PP::order_b;
+    });
+  my $json  = $json_obj->encode($data->{result});
+  open( my $fh, '>' ,$filename ) or die $!;
+      print $fh $json;
+      truncate $fh, tell( $fh ) or die;
+  close( $fh );
+}
 
-##  write jsons to file
-my $filename = './jsons/hmofa.json';
-open( my $fh_hmofaJson, '>' ,$filename ) or die $!;
-    print $fh_hmofaJson $json;
-    truncate $fh_hmofaJson, tell( $fh_hmofaJson ) or die;
-close( $fh_hmofaJson );
+
 
 
 #------------------------------------------------------
@@ -163,6 +117,7 @@ close( $fh_hmofaJson );
 sub file2hash {
     #
     my $fname = shift @_;
+    my $dspt  = shift @_;
     my $output;
 
     #
@@ -395,8 +350,8 @@ sub genAttributes {
         for my $attrib (@attributesOrderArray) {
         #for my $attrib (keys $attributesDSPT->%*) {
             mes("==Selecting ATTRIBUTE== '${attrib}'", $data, 6, 0, 1);
-            mes("Searching for ATTRIBUTE match in '".$match->{ $objKey }."'", $data, 7, 0, 1);
-            $match->{ $objKey } =~ s/$attributesDSPT->{ $attrib }->[ 0 ]//g;
+            mes("Searching for ATTRIBUTE match in '".$match->{$objKey}."'", $data, 7, 0, 1);
+            $match->{ $objKey } =~ s/$attributesDSPT->{$attrib}->[0]//;
 
             #
             if ($1 && $1 ne '') {
@@ -548,6 +503,8 @@ sub getOrder {
         if ($keyName eq 'LN')    {$pointStr = '5.1.1.1.1.1.1.1.1.1.2'}
         if ($keyName eq 'point') {$pointStr = '5.1.1.1.1.1.1.1.1.1.3'}
     }
+    #print "kkkk ${nameKey}\n";
+    #print "kkkk ${pointStr}\n";
     return $pointStr;
 }
 
@@ -618,28 +575,32 @@ sub mes {
     ##
     my $mes   = shift @_;
     my $data  = shift @_;
-    my $cnt   = shift @_;
 
     ##
-    my $start = shift @_;
-    $start = $start ? 0 : 1;
+    if ($data->{verbose}) {
+        my $cnt   = shift @_;
 
-    ##
-    my $disable_LN = shift @_;
+        ##
+        my $start = shift @_;
+        $start = $start ? 0 : 1;
 
-    ##
-    my $offset = shift @_;
-    $offset = $offset ? $offset : 0;
+        ##
+        my $disable_LN = shift @_;
 
-    ##
-    my $indent = "  ";
-    my $lvl = 0;
-    if (exists $data->{point}) { 
-        $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
-                                           : 0;
+        ##
+        my $offset = shift @_;
+        $offset = $offset ? $offset : 0;
+
+        ##
+        my $indent = "  ";
+        my $lvl = 0;
+        if (exists $data->{point}) { 
+            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
+                                               : 0;
+        }
+        $indent = $indent x ($cnt + $start + $lvl - $offset);
+        print $indent . $mes . "\n";
     }
-    $indent = $indent x ($cnt + $start + $lvl - $offset);
-    print $indent . $mes . "\n";
 }
 
 
