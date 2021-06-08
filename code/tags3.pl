@@ -60,6 +60,7 @@ delegate({
 #------------------------------------------------------
 # Subroutines {{{1
 #------------------------------------------------------
+
 #===| delegate() {{{2
 sub delegate {
     ## Args
@@ -97,7 +98,7 @@ sub getDspt {
     };
     for my $obj (keys $dspt->%*) {
         for my $key (keys $dspt->{$obj}->%*) {
-            if ($key eq 're') { 
+            if ($key eq 're') {
                 $dspt->{$obj}->{re} = qr/$dspt->{$obj}->{re}/;
             }
             if ($key eq 'attributes') {
@@ -151,10 +152,10 @@ sub getMatches {
 #===| leveler() {{{2
 sub leveler {
     ## Args
-    my $data = shift @_; 
+    my $data = shift @_;
     mes("LEVELER at (".getPointStr($data).")", $data, 0, 1, 1);
 
-    ## check existance of OBJ at point 
+    ## check existance of OBJ at point
     my $objKey = getObjKey( $data );
     mes("Checking for OBJ", $data, 0, 0, 1);
     unless ($objKey) {
@@ -164,7 +165,7 @@ sub leveler {
     }
     mes("..exists OBJ: \'${objKey}\'", $data, 0, 0, 1);
 
-    #
+    ##
     my $levelReffArray;
     while ($objKey) {
         mes("==Selecting OBJ== \'${objKey}\'", $data, 0, 0, 1);
@@ -217,6 +218,7 @@ sub leveler {
     return $data->{result};
 }
 
+
 #===| populate() {{{2
 sub populate {
     my $data    = shift @_;
@@ -235,14 +237,14 @@ sub populate {
 #===| divyMatches() {{{2
 sub divyMatches {
 
-        #
+        ##
         my $data    = shift @_;
         my $obj_key = getObjKey( $data );
         my $name    = getname( $data );
         my $pond    = dclone( ${$data}{matches}->{$obj_key} );
         mes("DIVY_MATCHES for '${obj_key}'", $data, 1, 0, 1);
 
-        #
+        ##
         my $ind = ( scalar ${$data}{reffArray}->@* ) - 1;
         mes("Begin reverse iteration through reffArray", $data, 2, 0, 1);
         for my $reff (reverse ${$data}{reffArray}->@*) {
@@ -399,36 +401,22 @@ sub delimitAttribute {
     ];
     mes("Returning GEN_TAGS", $data, 8, 0, 1);
 }
-#===| delimitAttribute() {{{2
-sub encodeResult {
-  my $data  = shift @_;
-  my $fname = $data->{fileNames}->{output};
-  {
-    my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-    $json_obj = $json_obj->allow_blessed(['true']);
-    $json_obj->sort_by( sub {
-        $JSON::PP::order_a = getOrder( $data, $JSON::PP::a, $_[0]);
-        $JSON::PP::order_b = getOrder( $data, $JSON::PP::b, $_[0]);
-        $JSON::PP::order_a cmp $JSON::PP::order_b;
-        });
-    my $json  = $json_obj->encode($data->{result});
-    open( my $fh, '>' ,$fname ) or die $!;
-        print $fh $json;
-        truncate $fh, tell( $fh ) or die;
-    close( $fh );
-  }
-}
+
+
 
 
 #------------------------------------------------------
 # Utilities {{{1
 #------------------------------------------------------
+
 #===| getPointStr() {{{2
 sub getPointStr {
     my $data = shift @_;
     return ($data->{point}->[0]) ? join '.', $data->{point}->@*
                                  : 0;
 }
+
+
 #===| getname() {{{2
 sub getname {
     my $data    = shift @_;
@@ -488,7 +476,7 @@ sub getOrder {
         else {
             $cnt = 1;
         }
-        for (my $i = 1; $i <= $cnt; $i++) { 
+        for (my $i = 1; $i <= $cnt; $i++) {
             $pointStr = changePointStrInd( $pointStr, 1 );
         }
     }
@@ -519,6 +507,8 @@ sub changePointStrLvl {
     return $point;
 
 }
+
+
 #===| changePointStrInd() {{{2
 sub changePointStrInd {
     my $pointStr = shift @_;
@@ -596,7 +586,7 @@ sub mes {
         ##
         my $indent = "  ";
         my $lvl = 0;
-        if (exists $data->{point}) { 
+        if (exists $data->{point}) {
             $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
                                                : 0;
         }
@@ -611,6 +601,7 @@ sub mes {
 #------------------------------------------------------
 # Checks {{{1
 #------------------------------------------------------
+
 #===| init() {{{2
 sub init {
   my $data = shift @_;
@@ -638,6 +629,8 @@ sub init {
   unless ($data->{fileNames}->{output}) {}
 
 }
+
+
 #===| checkMatches() {{{2
 sub checkMatches {
     my $data = shift @_;
@@ -704,4 +697,62 @@ sub test {
     ##    #$matches->{$key}->@* = map { delete $_->{LN} } $matches->{$key}->@*;
     ##  }
     #}
-    }
+}
+
+
+
+
+#------------------------------------------------------
+# Dynamic {{{1
+#------------------------------------------------------
+#===| getReservedKey() {{{2
+sub getReservedKey {
+    my $data  = shift @_;
+    my $key_in = shift @_;
+    my %reservedKeys = (
+        LN    => 'LN',
+        point => 'point',
+        raw   => 'raw',
+        trash => 'trash',
+        miss  => 'miss',
+    );
+    return $reservedKeys{$key_in};
+}
+
+
+
+
+#------------------------------------------------------
+# ENCODINGZ {{{3
+#------------------------------------------------------
+#===| encodeResult() {{{2
+sub encodeResult {
+  my $data  = shift @_;
+  my $fname = $data->{fileNames}->{output};
+  {
+    my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+    $json_obj = $json_obj->allow_blessed(['true']);
+    $json_obj->sort_by( sub {
+        $JSON::PP::order_a = getOrder( $data, $JSON::PP::a, $_[0]);
+        $JSON::PP::order_b = getOrder( $data, $JSON::PP::b, $_[0]);
+        $JSON::PP::order_a cmp $JSON::PP::order_b;
+        });
+    my $json  = $json_obj->encode($data->{result});
+    open( my $fh, '>' ,$fname ) or die $!;
+        print $fh $json;
+        truncate $fh, tell( $fh ) or die;
+    close( $fh );
+  }
+}
+
+
+
+
+#------------------------------------------------------
+# REGEX
+#------------------------------------------------------
+
+#===| regex() {{{2
+sub regex {
+    my $data = shift @_;
+}
