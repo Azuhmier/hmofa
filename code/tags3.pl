@@ -30,82 +30,29 @@ use JSON::PP;
 
 # Main {{{1
 #------------------------------------------------------
-## filepaths
-my $fnameIN  = '../tagCatalog.txt';
-#my $fnameIN  = '../masterbin.txt';
-
-##  decode json
-use constant JSON_FILE => './json/dspt.json';
-my $dspt = do {
-    open my $fh, '<', JSON_FILE;
-    local $/;
-    decode_json(<$fh>);
-};
-for my $obj (keys $dspt->%*) {
-    for my $key (keys $dspt->{$obj}->%*) {
-        if ($key eq 're') { 
-            $dspt->{$obj}->{re} = qr/$dspt->{$obj}->{re}/;
-        }
-        if ($key eq 'attributes') {
-            for my $attrib (keys $dspt->{$obj}->{attributes}->%*) {
-                $dspt->{$obj}->{attributes}->{$attrib}->[0] = qr/$dspt->{$obj}->{attributes}->{$attrib}->[0]/;
-            }
-        }
-    }
-}
-
-## get matches from txt file
-my $matches = file2hash($fnameIN, $dspt);
-test($matches);
-
-## turn matches into data hash
-my $data = {
-    matches  => $matches,
-    dspt     => $dspt,
+## tagCatalog
+delegate({
+    fileNames => {
+        fname  => '../tagCatalog.txt',
+        output => './json/hmofa.json',
+        dspt   => './json/dspt.json',
+    },
+    name     => 'hmofa',
     verbose  => 0,
     lineNums => 1,
-};
-delegate($data);
+});
 
-##  encode and write to file
-my $flagg=0;
-{
-  my $filename = './json/hmofa.json';
-  my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-  $json_obj = $json_obj->allow_blessed(['true']);
-  $json_obj->sort_by( sub {
-      unless($flagg > 2) {
-            #no strict 'refs';
-            #print Dumper(\%main::);
-            #print Dumper(\@keys);
-            #print Dumper(\%JSON::PP::);
-            #print Dumper(\@JSON::PP::array);
-            #print Dumper(\%JSON::PP::array_to_json);
-
-            #foreach my $entry ( keys %main:: )
-            #{
-            #    print "$entry\n";
-            #}
-            $flagg++;
-      }
-      my $hash = dclone($_[0]);
-      #my @keys = keys $var->%*;
-      if ($hash->{point}) {
-          $data->{point} = [ split /\./, $hash->{point} ];
-      }
-      else {
-        $data->{point} = [];
-      }
-      $JSON::PP::order_a = getOrder( $data, $JSON::PP::a);
-      $JSON::PP::order_b = getOrder( $data, $JSON::PP::b);
-      $JSON::PP::order_a cmp $JSON::PP::order_b;
-    });
-  my $json  = $json_obj->encode($data->{result});
-  open( my $fh, '>' ,$filename ) or die $!;
-      print $fh $json;
-      truncate $fh, tell( $fh ) or die;
-  close( $fh );
-}
+## masterbin
+delegate({
+    fileNames => {
+        fname  => '../masterbin.txt',
+        output => './json/masterbin.json',
+        dspt   => './json/dspt.json',
+    },
+    name     => 'masterbin',
+    verbose  => 0,
+    lineNums => 1,
+});
 
 
 
@@ -113,25 +60,77 @@ my $flagg=0;
 #------------------------------------------------------
 # Subroutines {{{1
 #------------------------------------------------------
+#===| delegate() {{{2
+sub delegate {
+    ## Args
+    my $data = shift @_;
+    mes("DELEGATE", $data, 0, 1, 1);
+
+    ## checks
+    init($data);
+
+    ## dspt
+    getDspt($data);
+    checkDspt( $data );
+
+    ## matches
+    file2hash($data);
+    checkMatches($data);
+
+    ## convert
+    my $DataHash = leveler($data);
+
+    ## encode
+    encodeResult($data);
+    mes("Returning DELEGATE", $data, 0, 1, 1);
+    #print decho($data, $data->{result});
+}
+
+
+#===| getdspt {{{2
+sub getDspt {
+    my $data = shift @_;
+    my $dspt = do {
+        open my $fh, '<', $data->{fileNames}->{dspt};
+        local $/;
+        decode_json(<$fh>);
+    };
+    for my $obj (keys $dspt->%*) {
+        for my $key (keys $dspt->{$obj}->%*) {
+            if ($key eq 're') { 
+                $dspt->{$obj}->{re} = qr/$dspt->{$obj}->{re}/;
+            }
+            if ($key eq 'attributes') {
+                for my $attrib (keys $dspt->{$obj}->{attributes}->%*) {
+                    $dspt->{$obj}->{attributes}->{$attrib}->[0] = qr/$dspt->{$obj}->{attributes}->{$attrib}->[0]/;
+                }
+            }
+        }
+    }
+    $data->{dspt} = $dspt;
+}
+
+
 #===| file2hash() {{{2
 sub file2hash {
-    #
-    my $fname = shift @_;
-    my $dspt  = shift @_;
+    ##
+    my $data = shift @_;
+    my $fname = $data->{fileNames}->{fname};
+    my $dspt  = $data->{dspt};
     my $output;
 
-    #
+    ##
     open( my $fh, '<', $fname )
         or die $!;
 
-    #
+    ##
     while (my $line = <$fh>) {
 
-        #
+        ##
         for my $objKey (keys %$dspt) {
             my $obj = $dspt->{$objKey};
 
-            #
+            ##
             if ($obj->{ re } and $line =~ /$obj->{re}/) {
                 my $match = {
                     LN       => $.,
@@ -142,25 +141,10 @@ sub file2hash {
         }
     }
 
-    #
+    ##
     close( $fh );
-    return $output;
-}
-
-
-#===| delegate() {{{2
-sub delegate {
-    ## Args
-    my $data = shift @_;
-    mes("DELEGATE", $data, 0, 1, 1);
-
-    ## checks
-    init($data);
-
-    ## convert
-    my $DataHash = leveler( $data );
-    mes("Returning DELEGATE", $data, 0, 1, 1);
-    return $DataHash;
+    test($output);
+    $data->{matches} = $output;
 }
 
 
@@ -415,23 +399,30 @@ sub delimitAttribute {
     ];
     mes("Returning GEN_TAGS", $data, 8, 0, 1);
 }
-
-
+#===| delimitAttribute() {{{2
+sub encodeResult {
+  my $data  = shift @_;
+  my $fname = $data->{fileNames}->{output};
+  {
+    my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+    $json_obj = $json_obj->allow_blessed(['true']);
+    $json_obj->sort_by( sub {
+        $JSON::PP::order_a = getOrder( $data, $JSON::PP::a, $_[0]);
+        $JSON::PP::order_b = getOrder( $data, $JSON::PP::b, $_[0]);
+        $JSON::PP::order_a cmp $JSON::PP::order_b;
+        });
+    my $json  = $json_obj->encode($data->{result});
+    open( my $fh, '>' ,$fname ) or die $!;
+        print $fh $json;
+        truncate $fh, tell( $fh ) or die;
+    close( $fh );
+  }
+}
 
 
 #------------------------------------------------------
 # Utilities {{{1
 #------------------------------------------------------
-#===| sortKeys() #{{{2
-sub sortKeys {
-  my $hash = shift @_;
-  $data->{point} = [ split /\./, $hash->{point} ];
-  return [ sort {
-          my $order_a = getOrder( $data, $a);
-          my $order_b = getOrder( $data, $b);
-          $order_a cmp $order_b;
-      } keys %$hash ];
-}
 #===| getPointStr() {{{2
 sub getPointStr {
     my $data = shift @_;
@@ -473,6 +464,9 @@ sub getOrder {
     ## pointStr
     my $data       = shift @_;
     my $keyName    = shift @_;
+    my $hash       = shift @_;
+    if ($hash->{point}) { $data->{point} = [ split /\./, $hash->{point} ]; }
+    else                { $data->{point} = []; }
     my $objKey     = getObjKeyFromName( $data, $keyName );
     my $pointStr   = getPointStr( $data );
     my $parentKey  = getObjKey( $data );
@@ -563,8 +557,16 @@ sub decho {
 
     ## Data::Dumper
     use Data::Dumper;
-    $Data::Dumper::Sortkeys = \&sortKeys;
     $Data::Dumper::Indent = 2;
+    $Data::Dumper::Sortkeys = ( sub {
+        my $hash = shift @_;
+        return [ sort {
+                my $order_a = getOrder( $data, $a, $_[0]);
+                my $order_b = getOrder( $data, $b, $_[0]);
+                $order_a cmp $order_b;
+            } keys %$hash ];
+        });
+    ##
     my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
     return $output;
 }
@@ -614,24 +616,26 @@ sub init {
   my $data = shift @_;
 
   ## Argument Checks
-  unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
-  checkMatches( $data );
-  unless ($data->{dspt}) { die("User did not provide 'dspt' argument  at ${0} at line: ".__LINE__)}
-  checkDspt( $data );
+  unless ($data->{fileNames}->{fname}) {die("User did not provide 'fname' argument  at ${0} at line: ".__LINE__)}
+  unless ($data->{fileNames}->{dspt})  {die("User did not provide 'dspt' argument  at ${0} at line: ".__LINE__)}
 
   ## Initiate variables
-  unless (exists $data->{point}    ) { $data->{point}     = []                  }
-      else {warn "WARNING!: 'point' is already defined by user at ${0} at line: ".__LINE__}
-  unless (exists $data->{result}   ) { $data->{result}    = {}                  }
-      else {warn "WARNING!: 'result' is already defined by user at ${0} at line: ".__LINE__}
-  unless (exists $data->{reffArray}) { $data->{reffArray} = [ $data->{result} ] }
-      else {warn "WARNING!: 'reffArray' is already defined by user at ${0} at line: ".__LINE__}
-  unless (exists $data->{meta}     ) { $data->{meta}      = {}                  }
-      else {warn "WARNING!: 'meta' is already defined by user at ${0} at line: ".__LINE__}
+  unless (exists $data->{point}) {$data->{point} = []}
+  else   {warn "WARNING!: 'point' is already defined by user at ${0} at line: ".__LINE__}
+
+  unless (exists $data->{result}) {$data->{result} = {}}
+  else   {warn "WARNING!: 'result' is already defined by user at ${0} at line: ".__LINE__}
+
+  unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
+  else   {warn "WARNING!: 'reffArray' is already defined by user at ${0} at line: ".__LINE__}
+
+  unless (exists $data->{meta}) {$data->{meta} = {}}
+  else   {warn "WARNING!: 'meta' is already defined by user at ${0} at line: ".__LINE__}
 
   ## options
-  unless ($data->{verbose}) {}
-  unless ($data->{lineNums}) {}
+  unless ($data->{verbose})             {}
+  unless ($data->{lineNums})            {}
+  unless ($data->{fileNames}->{output}) {}
 
 }
 #===| checkMatches() {{{2
@@ -639,6 +643,7 @@ sub checkMatches {
     my $data = shift @_;
     my $matches = $data->{matches};
     mes("Starting CHECK_MATCHES", $data, 0, 1, 1);
+    #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
     mes("...ok", $data, 0, 0, 1);
 }
 
