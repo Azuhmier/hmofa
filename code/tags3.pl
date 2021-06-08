@@ -9,12 +9,12 @@
 use strict;
 use warnings;
 use utf8;
-#use List::Util;
 use Storable qw(dclone);
-#use Hash::Ordered;
 use JSON::PP;
-#use YAML;
-#use XML::Simple;
+use YAML;
+use XML::Simple;
+#use Hash::Ordered;
+#use List::Util;
 
 #  Assumptions
 #    - no backslashes in dspt key names
@@ -74,11 +74,11 @@ sub delegate {
     checkDspt( $data );
 
     ## matches
-    file2hash($data);
+    getMatches($data);
     checkMatches($data);
 
     ## convert
-    my $DataHash = leveler($data);
+    leveler($data);
 
     ## encode
     encodeResult($data);
@@ -111,8 +111,8 @@ sub getDspt {
 }
 
 
-#===| file2hash() {{{2
-sub file2hash {
+#===| getMatches() {{{2
+sub getMatches {
     ##
     my $data = shift @_;
     my $fname = $data->{fileNames}->{fname};
