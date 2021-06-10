@@ -21,6 +21,7 @@ use XML::Simple;
 #    - all dspt key names are unique
 #    - attribute patterns are independent of order
 #    - each child type only belongs to only one object type
+#    - Cannot have key named "TOP"
 #    - all prior levels must have line numbers after the lowest line number of the
 #      first level.
 
@@ -30,25 +31,28 @@ use XML::Simple;
 # Main {{{1
 #------------------------------------------------------
 
-## global parameters
-my $divy     = 0;
+##
+my $populate = 1;
+my $divy     = 1;
 my $attribs  = 1;
 my $delims   = 1;
 
 
-## tagCatalog {{{2
+## tagCatalog
 delegate({
     fileNames => {
         fname  => '../tagCatalog.txt',
         output => './json/hmofa2.json',
-        dspt   => './json/deimos.json',
+        dspt   => './json/dspt.json',
     },
     name     => 'hmofa',
-    verbose  => 0,
+    point    => [1],
+    verbose  => 1,
     lineNums => 1,
-    supress  => 1,
+    supress  => 0,
     process => {
-        divy     => 1,
+        populate => $populate,
+        divy     => $divy,
         attribs  => $attribs,
         delims   => $delims,
         write    => 1,
@@ -56,22 +60,23 @@ delegate({
 });
 
 
-# masterbin {{{2
+## masterbin
 delegate({
     fileNames => {
         fname  => '../masterbin.txt',
-        output => './json/masterbin2.json',
-        dspt   => './json/deimos.json',
+        output => './json/masterbin.json',
+        dspt   => './json/dspt.json',
     },
     name     => 'masterbin',
     verbose  => 0,
     lineNums => 1,
     supress  => 1,
     process => {
-        divy     => 1,
+        populate => $populate,
+        divy     => $divy,
         attribs  => $attribs,
         delims   => $delims,
-        write    => 1,
+        write    => 0,
     },
 });
 
@@ -83,7 +88,6 @@ delegate({
 
 #===| delegate() {{{2
 sub delegate {
-
     ## Args
     my $data = shift @_;
     mes("Starting DELEGATE", $data, 0, 1, 1);
@@ -93,11 +97,11 @@ sub delegate {
 
     ## dspt
     getDspt($data);
-    validate_Dspt( $data );
+    checkDspt( $data );
 
     ## matches
     getMatches($data);
-    validate_Matches($data);
+    checkMatches($data);
 
     ## convert
     leveler($data);
@@ -111,15 +115,12 @@ sub delegate {
 
 #===| getdspt {{{2
 sub getDspt {
-
     my $data = shift @_;
-
     my $dspt = do {
         open my $fh, '<', $data->{fileNames}->{dspt};
         local $/;
         decode_json(<$fh>);
     };
-
     for my $obj (keys $dspt->%*) {
         for my $key (keys $dspt->{$obj}->%*) {
             if ($key eq 're') {
@@ -138,7 +139,6 @@ sub getDspt {
 
 #===| getMatches() {{{2
 sub getMatches {
-
     ##
     my $data = shift @_;
     my $fname = $data->{fileNames}->{fname};
@@ -176,34 +176,41 @@ sub getMatches {
 
 #===| leveler() {{{2
 # iterates in 2 dimensions the order of the dspt
+# undefined point mean 'TOP'
 sub leveler {
-
+    ## Args
     my $data = shift @_;
     mes("LEVELER at (".getPointStr($data).")", $data, 0, 1, 1);
 
     ## check existance of OBJ at current point
     my $objKey   = getObjKey( $data );
+    my $pointStr = getPointStr( $data );
+    mes("Checking for OBJ", $data, 0, 0, 1);
     unless ($objKey) {
-        mes("..obj does not exist!", $data, 0, 0, 1);
+    #unless ($pointStr) {
+        mes("..does not exist: OBJ", $data, 0, 0, 1);
         mes("Returning LEVLER", $data, 0, 0, 1);
         return;
     }
-    mes("..exists: \'${objKey}\'", $data, 0, 0, 1);
+    mes("..exists OBJ: \'${objKey}\'", $data, 0, 0, 1);
 
-    ## Reverence Arrary for the current recursion
-    my $recursionReffArray;
+    ##
+    my $levelReffArray;
     while ($objKey) {
+    #while ($pointStr) {
+        mes("==Selecting OBJ== \'${objKey}\'", $data, 0, 0, 1);
 
-        ## Checking existance of recursionReffArray
-        unless (defined $recursionReffArray) {
-            mes("..not defined: 'recursionReffArray'", $data, 0, 0, 1);
-            $recursionReffArray->@* = getLvlReffArray( $data );
-            mes("..setting 'recursionReffArray' to 'reffArray'", $data, 0, 0, 1);
+        ## Checking existance of levelReffArray
+        mes("Checking for levelReffArray", $data, 0, 0, 1);
+        unless (defined $levelReffArray) {
+            mes("..not defined: 'levelReffArray'", $data, 0, 0, 1);
+            $levelReffArray->@* = getLvlReffArray( $data );
+            mes("..setting 'levelReffArray' to 'Data->{reffArray}'", $data, 0, 0, 1);
         }
-        else { mes("..defined: 'recursionReffArray'", $data, 0, 0, 1); }
+        else { mes("..defined: 'levelReffArray'", $data, 0, 0, 1); }
 
-        ## checkMatches
-        checkMatches( $data );
+        ## Populate
+        populate( $data );
 
         ## Check for CHILDREN
         mes("Checking for CHILDREN", $data, 0, 0, 1);
@@ -214,8 +221,8 @@ sub leveler {
         mes("..Ascend point (".getPointStr($data).") by 1 level", $data, 0, 0, 1, 1);
         changePointStrLvl($data->{point}, 0);
         mes("..new point: (".getPointStr($data).")", $data, 1, 0, 1, 1);
-        mes("..Returning reffArray at to recursionReffArray", $data, 0, 0, 1);
-        $data->{reffArray}->@* = $recursionReffArray->@*;
+        mes("..Returning data_reffArray at to levelReffArray", $data, 0, 0, 1);
+        $data->{reffArray}->@* = $levelReffArray->@*;
 
         ## Check for SYBLINGS
         mes("Checking for SYBLINGS", $data, 0, 0, 1);
@@ -232,29 +239,28 @@ sub leveler {
 
         ##
         $objKey = getObjKey( $data );
+        $pointStr = getPointStr( $data );
         unless ($objKey) {
+        #unless ($pointStr) {
             mes("..does not exist: SYBLING", $data, 0, 0, 1);
             mes("Returning LEVLER", $data, 0, 0, 1);
         }
-        else { mes("..exists : \'${objKey}\'", $data, 0, 0, 1); }
+        else { mes("..exists SYBLING: \'${objKey}\'", $data, 0, 0, 1); }
     }
     return $data->{result};
 }
 
 
-#===| checkMatches() {{{2
-sub checkMatches {
-
+#===| populate() {{{2
+sub populate {
     my $data    = shift @_;
     my $objKey = getObjKey( $data );
-    mes("CHECK_MATCHES for '${objKey}'", $data, 0, 0, 1);
-
-    if (exists $data->{matches}->{$objKey}) {
-        mes("..matches exists for '${objKey}'", $data, 1, 0, 1);
+    mes("POPULATE for '${objKey}'", $data, 0, 0, 1);
+    if ($objKey ne 'TOP' and exists $data->{matches}->{$objKey}) {
         divyMatches( $data );
     }
     else {
-        mes("..no matches exists for '${objKey}'", $data, 1, 0, 1);
+        mes("..cannot populate for '${objKey}'", $data, 1, 0, 1);
         mes("Returning POPULATE", $data, 1, 0, 1);
     }
 }
@@ -267,9 +273,8 @@ sub divyMatches {
     my $data    = shift @_;
     my $obj_key = getObjKey( $data );
     mes("DIVY_MATCHES for '${obj_key}'", $data, 1, 0, 1);
-
     if ($data->{process}->{divy}) {
-        my $groupName    = getGroupName( $data );
+        my $name    = getname( $data );
         my $pond    = dclone( ${$data}{matches}->{$obj_key} );
 
         ##
@@ -318,7 +323,7 @@ sub divyMatches {
                 $bucket->@* = reverse $bucket->@*;
 
                 #
-                ${$data}{reffArray}->[$ind]->{$groupName} = $bucket;
+                ${$data}{reffArray}->[$ind]->{$name} = $bucket;
                 mes("Replacing reffArray element with Capture_array slice", $data, 2, 0, 1);
                 splice( ${$data}{reffArray}->@*, $ind, 1, $bucket->@* );
 
@@ -330,9 +335,9 @@ sub divyMatches {
         }
         mes("Iteration through reffArray indices is complete", $data, 2, 0, 1);
         mes("Returning DIVY_MATCHES", $data, 2, 0, 1);
-        return $groupName;
+        return $name;
     }
-    else { mes("..disabled by user", $data, 2, 0, 1) }
+    else { mes("...disabled by user", $data, 2, 0, 1) }
 }
 
 
@@ -441,43 +446,32 @@ sub delimitAttribute {
 
 #===| getPointStr() {{{2
 sub getPointStr {
-    # return CURRENT POINT
-    # return '0' if CURRENT POINT doesn't exist!
-
     my $data = shift @_;
-    return ($data->{point}->[0]) ? join('.', $data->{point}->@*)
+    return ($data->{point}->[0]) ? join '.', $data->{point}->@*
                                  : 0;
 }
 
 
-#===| getGroupName() {{{2
-sub getGroupName {
-    # return GROUP_NAME at current point.
-    # return 'getObjKey()' if GROUP_NAME doesn't exist!
-
-    my $data      = shift @_;
-    my $objKey    = getObjKey($data);
-    my $dspt      = $data->{dspt};
-    my $groupName = exists ($dspt->{$objKey}->{groupName}) ? $dspt->{$objKey}->{groupName}
-                                                           : $objKey;
-    return $groupName;
-
+#===| getname() {{{2
+sub getname {
+    my $data    = shift @_;
+    my $dspt    = $data->{dspt};;
+    my $obj_key = getObjKey( $data );
+    my $name    = exists ($dspt->{$obj_key}->{name}) ? $dspt->{$obj_key}->{name}
+                                                     : $obj_key;
+    return $name;
 }
 
 
 #===| getObjKey() {{{2
+# undefined point mean 'TOP'
 sub getObjKey {
-    # return OBJECT_KEY at current point
-    # return '0' if CURRENT_POINT doesn't exist!
-    # return '0' if OBJECT_KEY doesn't exist!
-
-
     my $data      = shift @_;
     my $dspt      = $data->{dspt};
     my $point     = $data->{point};
     my $point_str = join( '.', $point->@* );
 
-    if ($point_str eq '') { return 0 }
+    if ($point_str eq '') { return 'TOP' }
 
     else {
         my @match = grep { $dspt->{$_}->{order} =~ /^$point_str$/ } keys $dspt->%*;
@@ -486,33 +480,40 @@ sub getObjKey {
         elsif  (scalar @match > 1) { die("more than one objects have the point: \'${point_str}\', for ${0} at line: ".__LINE__) }
         else                       { return $match[0] }
     }
+}
 
+
+#===| getObjKeyFromName() {{{2
+sub getObjKeyFromName {
+    my $data = shift @_;
+    my $dspt = $data->{dspt};
+    my $name = shift @_;
+    if (exists $dspt->{$name}) { return $name }
+    else {
+        my @keys  = grep { exists $dspt->{$_}->{name} } keys $dspt->%*;
+        if (scalar @keys) {
+            my @match = grep { $dspt->{$_}->{name} eq $name } @keys;
+            return $match[0];
+        }
+        else {
+            return 0;
+        }
+    }
 }
 
 
 #===| getOrder() {{{2
 sub getOrder {
-    # return POINT_STRING if KEY_NAME is an OBJECT_KEY
-    # return '0' if POINT_STRING doesn't exist!
-    # return '0' if OBJECT_KEY doesn't exist!
-
     ## pointStr
     my $data       = shift @_;
     my $keyName    = shift @_;
     my $hash       = shift @_;
-
     if ($hash->{point}) { $data->{point} = [ split /\./, $hash->{point} ]; }
     else                { $data->{point} = []; }
-
-    my $objKey     = getObjKeyFromGroupName( $data, $keyName );
+    my $objKey     = getObjKeyFromName( $data, $keyName );
     my $pointStr   = getPointStr( $data );
     my $parentKey  = getObjKey( $data );
     my $parentReff = $data->{dspt}->{$parentKey};
-    #print "------------\n";
-    #print "kkkk           Name: ${keyName}\n";
-    #print "kkkk    KeyFromName: ${objKey}\n";
-    #print "kkkk        poinstr: ${pointStr}\n";
-    #print "kkkk      parentKey: ${parentKey}\n";
     ## Parent and Children
 
     if ($objKey) {
@@ -539,38 +540,14 @@ sub getOrder {
         if ($keyName eq 'LN')    {$pointStr = '5.1.1.1.1.1.1.1.1.1.2'}
         if ($keyName eq 'point') {$pointStr = '5.1.1.1.1.1.1.1.1.1.3'}
     }
-    #print "kkkk    New poinstr: ${pointStr}\n";
+    #print "kkkk ${nameKey}\n";
+    #print "kkkk ${pointStr}\n";
     return $pointStr;
-}
-
-
-#===| getObjKeyFromGroupName() {{{2
-sub getObjKeyFromGroupName {
-    # return GROUP_NAME if it is an OBJECT_KEY
-    # return OBJECT_KEY that contains GROUP_NAME
-    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
-    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
-
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt};
-    my $groupName = shift @_;
-
-    if (exists $dspt->{$groupName}) { return $groupName }
-    else {
-        my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
-        if (scalar @keys) {
-            my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
-            if ($match[0]) { return $match[0] }
-            else { return 0 }
-        }
-        else { return 0 }
-    }
 }
 
 
 #===| getLvlReffArray() {{{2
 sub getLvlReffArray {
-
     my $data = shift @_;
     return $data->{reffArray}->@*;
 }
@@ -578,13 +555,10 @@ sub getLvlReffArray {
 
 #===| changePointStrLvl() {{{2
 sub changePointStrLvl {
-
     my $point = shift @_;
     my $op    = shift @_;
-
     if ($op) { push $point->@*, 1 }
     else     { pop $point->@*, 1 }
-
     return $point;
 
 }
@@ -592,23 +566,18 @@ sub changePointStrLvl {
 
 #===| changePointStrInd() {{{2
 sub changePointStrInd {
-
     my $pointStr = shift @_;
     my @point    = split /\./, $pointStr;
     my $op       = shift @_;
-
     if ($op) { $point[-1]++ }
     else     { $point[-1]-- }
-
     $pointStr = join '.', @point;
-
     return $pointStr;
 }
 
 
 #===| decho() {{{2
 sub decho {
-
     my $data = shift @_;
     my $var = shift @_;
 
@@ -623,7 +592,6 @@ sub decho {
                 $order_a cmp $order_b;
             } keys %$hash ];
         });
-
     ##
     my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
     return $output;
@@ -632,7 +600,6 @@ sub decho {
 
 #===| mes() {{{2
 sub mes {
-
     ##
     my $mes   = shift @_;
     my $data  = shift @_;
@@ -655,12 +622,10 @@ sub mes {
         ##
         my $indent = "  ";
         my $lvl = 0;
-
         if (exists $data->{point}) {
             $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
                                                : 0;
         }
-
         $indent = $indent x ($cnt + $start + $lvl - $offset);
         print $indent . $mes . "\n";
     }
@@ -675,16 +640,15 @@ sub mes {
 
 #===| init() {{{2
 sub init {
-
   my $data = shift @_;
-  mes("Starting INIT", $data, 0, 0, 1);
+  mes("Starting INIT", $data, 0, 1, 1);
 
   ## Argument Checks
   unless ($data->{fileNames}->{fname}) {die("User did not provide 'fname' argument  at ${0} at line: ".__LINE__)}
   unless ($data->{fileNames}->{dspt})  {die("User did not provide 'dspt' argument  at ${0} at line: ".__LINE__)}
 
   ## Initiate variables
-  unless (exists $data->{point}) {$data->{point} = [1]}
+  unless (exists $data->{point}) {$data->{point} = []}
   else   {warn "WARNING!: 'point' is already defined by user at ${0} at line: ".__LINE__}
 
   unless (exists $data->{result}) {$data->{result} = {}}
@@ -700,37 +664,34 @@ sub init {
   unless ($data->{verbose})             {}
   unless ($data->{lineNums})            {}
   unless ($data->{fileNames}->{output}) {}
-  mes("..ok", $data, 0, 0, 1);
+  mes("...ok", $data, 0, 0, 1);
 
 }
 
 
-#===| validate_Matches() {{{2
-sub validate_Matches {
-
+#===| checkMatches() {{{2
+sub checkMatches {
     my $data = shift @_;
     my $matches = $data->{matches};
     mes("Starting CHECK_MATCHES", $data, 0, 1, 1);
     #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
-    mes("..ok", $data, 0, 0, 1);
+    mes("...ok", $data, 0, 0, 1);
 }
 
 
-#===| validate_Dspt() {{{2
-sub validate_Dspt {
-
+#===| checkDspt() {{{2
+sub checkDspt {
     my $data = shift @_;
     my $dspt = $data->{dspt};
     my %hash = (
     );
     mes("Starting CHECK_DSPT", $data, 0, 1, 1);
-    mes("..ok", $data, 0, 0, 1);
+    mes("...ok", $data, 0, 0, 1);
 }
 
 
 #===| test() {{{2
 sub test {
-
     my $num = 2;
     my $matches = shift @_;
     $matches->{test} = [
@@ -784,7 +745,6 @@ sub test {
 #------------------------------------------------------
 #===| getReservedKey() {{{2
 sub getReservedKey {
-
     my $data  = shift @_;
     my $key_in = shift @_;
     my %reservedKeys = (
@@ -794,14 +754,12 @@ sub getReservedKey {
         trash => 'trash',
         miss  => 'miss',
     );
-
     return $reservedKeys{$key_in};
 }
 
 
 #===| getSymbolValue {{{2
 sub getSymbolValue {
-
     my $data   = shift @_;
     my $symbol = shift @_;
     my %symbolTable = (
@@ -809,11 +767,9 @@ sub getSymbolValue {
         deleted => 'X',
         abandoned =>'O',
     );
-
     for my $key (keys %symbolTable) {
       if ($symbol = $symbolTable{$key}) { return $key }
     }
-
     return 0;
 }
 
@@ -822,10 +778,8 @@ sub getSymbolValue {
 #------------------------------------------------------
 #===| encodeResult() {{{2
 sub encodeResult {
-
     my $data  = shift @_;
     mes("Starting ENCODE_RESULT", $data, 0, 1, 1);
-
     if  ($data->{process}->{write}) {
         my $fname = $data->{fileNames}->{output};
         {
@@ -842,9 +796,9 @@ sub encodeResult {
                 truncate $fh, tell( $fh ) or die;
             close( $fh );
         }
-        mes("..ok", $data, 0, 1, 1);
+        mes("...ok", $data, 0, 1, 1);
     }
-    else { mes("..disabled by user", $data, 0, 1, 1) }
+    else { mes("...disabled by user", $data, 0, 1, 1) }
 }
 
 
@@ -856,6 +810,5 @@ sub encodeResult {
 
 #===| regex() {{{2
 sub regex {
-
     my $data = shift @_;
 }
