@@ -18,11 +18,11 @@ use XML::Simple;
 
 #  Assumptions
 #    - no backslashes in dspt key names
-#    - all dspt key names are unique
-#    - attribute patterns are independent of order
+#    - all first level dspt key names are unique
+#    - attribute patterns are not independent order
 #    - each child type only belongs to only one object type
 #    - all prior levels must have line numbers after the lowest line number of the
-#      first level.
+#      first level that has an existant point string.
 
 
 
