@@ -36,17 +36,19 @@ my $attribs  = 1;
 my $delims   = 1;
 
 
-## tagCatalog {{{2
+# tagCatalog {{{2
 delegate({
     fileNames => {
         fname  => '../tagCatalog.txt',
         output => './json/hmofa2.json',
         dspt   => './json/deimos.json',
     },
-    name     => 'hmofa',
-    verbose  => 0,
-    lineNums => 1,
-    supress  => 1,
+    name       => 'hmofa',
+    verbose    => 0,
+    supress    => 1,
+    sort       => 0,
+    lineNums   => 1,
+    everything => 0,
     process => {
         divy     => 1,
         attribs  => $attribs,
@@ -63,10 +65,12 @@ delegate({
         output => './json/masterbin2.json',
         dspt   => './json/deimos.json',
     },
-    name     => 'masterbin',
-    verbose  => 0,
-    lineNums => 1,
-    supress  => 1,
+    name       => 'masterbin',
+    verbose    => 0,
+    supress    => 1,
+    sort       => 0,
+    lineNums   => 1,
+    everything => 0,
     process => {
         divy     => 1,
         attribs  => $attribs,
@@ -153,17 +157,26 @@ sub getMatches {
     while (my $line = <$fh>) {
 
         ##
+        my $flag;
         for my $objKey (keys %$dspt) {
             my $obj = $dspt->{$objKey};
 
             ##
             if ($obj->{ re } and $line =~ /$obj->{re}/) {
                 my $match = {
-                    LN       => $.,
+                    LN      => $.,
                     $objKey => $1,
                 };
                 push  $output->{$objKey}->@*, $match;
+                $flag=1;
             }
+        }
+        unless ($flag) {
+            my $match = {
+                LN      => $.,
+                miss => $line,
+            };
+            push  $output->{miss}->@*, $match;
         }
     }
 
@@ -208,11 +221,11 @@ sub leveler {
         ## Check for CHILDREN
         mes("Checking for CHILDREN", $data, 0, 0, 1);
         mes("..Descend point (".getPointStr($data).") by 1 level", $data, 0, 0, 1);
-        changePointStrLvl($data->{point}, 1);
+        changePointLvl($data->{point}, 1);
         mes("..new point: (".getPointStr($data).")", $data, 0, 0, 1, 1);
         leveler( $data );
         mes("..Ascend point (".getPointStr($data).") by 1 level", $data, 0, 0, 1, 1);
-        changePointStrLvl($data->{point}, 0);
+        changePointLvl($data->{point}, 0);
         mes("..new point: (".getPointStr($data).")", $data, 1, 0, 1, 1);
         mes("..Returning reffArray at to recursionReffArray", $data, 0, 0, 1);
         $data->{reffArray}->@* = $recursionReffArray->@*;
@@ -439,108 +452,26 @@ sub delimitAttribute {
 # Utilities {{{1
 #------------------------------------------------------
 
-#===| getPointStr() {{{2
-sub getPointStr {
-    # return CURRENT POINT
-    # return '0' if CURRENT POINT doesn't exist!
-
-    my $data = shift @_;
-    return ($data->{point}->[0]) ? join('.', $data->{point}->@*)
-                                 : 0;
-}
-
-
-#===| getGroupName() {{{2
-sub getGroupName {
-    # return GROUP_NAME at current point.
-    # return 'getObjKey()' if GROUP_NAME doesn't exist!
-
-    my $data      = shift @_;
-    my $objKey    = getObjKey($data);
-    my $dspt      = $data->{dspt};
-    my $groupName = exists ($dspt->{$objKey}->{groupName}) ? $dspt->{$objKey}->{groupName}
-                                                           : $objKey;
-    return $groupName;
-
-}
-
-
 #===| getObjKey() {{{2
 sub getObjKey {
     # return OBJECT_KEY at current point
     # return '0' if CURRENT_POINT doesn't exist!
-    # return '0' if OBJECT_KEY doesn't exist!
-
+    # return '0' if OBJECT_KEY doesn't exist for CURRENT_POINT!
 
     my $data      = shift @_;
     my $dspt      = $data->{dspt};
     my $point     = $data->{point};
-    my $point_str = join( '.', $point->@* );
+    my $pointStr  = join( '.', $point->@* );
 
-    if ($point_str eq '') { return 0 }
-
+    if ($pointStr eq '') { die("pointStr cannot be an empty string! In ${0} at line: ".__LINE__) }
     else {
-        my @match = grep { $dspt->{$_}->{order} =~ /^$point_str$/ } keys $dspt->%*;
+        my @match = grep { $dspt->{$_}->{order} =~ /^$pointStr$/ } keys $dspt->%*;
 
         unless ($match[0])         { return 0 }
-        elsif  (scalar @match > 1) { die("more than one objects have the point: \'${point_str}\', for ${0} at line: ".__LINE__) }
+        elsif  (scalar @match > 1) { die("more than one objects have the point: \'${pointStr}\'! In ${0} at line: ".__LINE__) }
         else                       { return $match[0] }
     }
 
-}
-
-
-#===| getOrder() {{{2
-sub getOrder {
-    # return POINT_STRING if KEY_NAME is an OBJECT_KEY
-    # return '0' if POINT_STRING doesn't exist!
-    # return '0' if OBJECT_KEY doesn't exist!
-
-    ## pointStr
-    my $data       = shift @_;
-    my $keyName    = shift @_;
-    my $hash       = shift @_;
-
-    if ($hash->{point}) { $data->{point} = [ split /\./, $hash->{point} ]; }
-    else                { $data->{point} = []; }
-
-    my $objKey     = getObjKeyFromGroupName( $data, $keyName );
-    my $pointStr   = getPointStr( $data );
-    my $parentKey  = getObjKey( $data );
-    my $parentReff = $data->{dspt}->{$parentKey};
-    #print "------------\n";
-    #print "kkkk           Name: ${keyName}\n";
-    #print "kkkk    KeyFromName: ${objKey}\n";
-    #print "kkkk        poinstr: ${pointStr}\n";
-    #print "kkkk      parentKey: ${parentKey}\n";
-    ## Parent and Children
-
-    if ($objKey) {
-        my $objReff = $data->{dspt}->{$objKey};
-        $pointStr   = $objReff->{order};
-    }
-
-    ## Attributes
-    elsif (exists $parentReff->{attributes}->{$keyName}) {
-        my $attributeReff = $parentReff->{attributes}->{$keyName};
-        my $cnt;
-        if (exists $attributeReff->[1]) {
-            $cnt = $attributeReff->[1];
-        }
-        else {
-            $cnt = 1;
-        }
-        for (my $i = 1; $i <= $cnt; $i++) {
-            $pointStr = changePointStrInd( $pointStr, 1 );
-        }
-    }
-    else {
-        if ($keyName eq 'raw')   {$pointStr = '5.1.1.1.1.1.1.1.1.1.1'}
-        if ($keyName eq 'LN')    {$pointStr = '5.1.1.1.1.1.1.1.1.1.2'}
-        if ($keyName eq 'point') {$pointStr = '5.1.1.1.1.1.1.1.1.1.3'}
-    }
-    #print "kkkk    New poinstr: ${pointStr}\n";
-    return $pointStr;
 }
 
 
@@ -568,6 +499,93 @@ sub getObjKeyFromGroupName {
 }
 
 
+#===| getGroupName() {{{2
+sub getGroupName {
+    # return GROUP_NAME at current point.
+    # return 'getObjKey()' if GROUP_NAME doesn't exist!
+
+    my $data      = shift @_;
+    my $objKey    = getObjKey($data);
+    my $dspt      = $data->{dspt};
+    my $groupName = exists ($dspt->{$objKey}->{groupName}) ? $dspt->{$objKey}->{groupName}
+                                                           : $objKey;
+    unless ($groupName) { die("groupName was returned empty or '0'! In ${0} at line: ".__LINE__) }
+    return $groupName;
+
+}
+
+
+#===| getPointStr() {{{2
+sub getPointStr {
+    # return CURRENT POINT
+    # return '0' if CURRENT POINT doesn't exist!
+
+    my $data = shift @_;
+    my $pointStr = join('.', $data->{point}->@*);
+    return ($pointStr ne '') ? $pointStr
+                             : die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__);
+}
+
+
+#===| getPointStrForKey() {{{2
+sub getPointStrForKey {
+    # return 'pointStr' if 'key' is an 'objKey'
+    # die if 'pointStr' is '0' or doesn't exist!
+    # return '0' if 'objKey' doesn't exist!
+
+    my $data   = shift @_;
+    my $key    = shift @_;
+    my $hash   = shift @_; # single level hash, only needed for Attributes
+                           # and Reserved Keys
+    my $objKey = getObjKeyFromGroupName($data, $key); # Is 'key' an object key?
+
+    ## PARENT and CHILDREN
+    if ($objKey) {
+        my $pointStr = $data->{dspt}->{$objKey}->{order};
+        unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+        return $pointStr;
+    }
+
+    ## Attributes and Reserved Keys
+    else {
+
+        ## Set 'data->{point}'
+        if ($hash->{point}) { $data->{point} = [split /\./, $hash->{point}] }
+        else                { $data->{point} = [0] }
+
+        my $pointStr     = getPointStr($data);
+        my $hashObjKey   = getObjKey($data);
+        my $hashDsptReff = $data->{dspt}->{$hashObjKey};
+
+        ## ATTRIBUTES
+        if (exists $hashDsptReff->{attributes}->{$key}) {
+
+            my $attributeDsptReff = $hashDsptReff->{attributes}->{$key};
+            my $cnt;
+
+            ##
+            if (exists $attributeDsptReff->[1]) { $cnt = $attributeDsptReff->[1] }
+            else                                { $cnt = 1 }
+
+            ##
+            for (my $i = 1; $i <= $cnt; $i++)   { $pointStr = changePointStrInd($pointStr, 1) }
+
+            unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+            return $pointStr;
+        }
+
+        ## RESERVED KEYS
+        else {
+            if ($key eq 'raw')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.1' }
+            if ($key eq 'LN')    { $pointStr = '5.1.1.1.1.1.1.1.1.1.2' }
+            if ($key eq 'point') { $pointStr = '5.1.1.1.1.1.1.1.1.1.3' }
+            unless ($pointStr)   { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+            return $pointStr;
+        }
+    }
+}
+
+
 #===| getLvlReffArray() {{{2
 sub getLvlReffArray {
 
@@ -576,8 +594,8 @@ sub getLvlReffArray {
 }
 
 
-#===| changePointStrLvl() {{{2
-sub changePointStrLvl {
+#===| changePointLvl() {{{2
+sub changePointLvl {
 
     my $point = shift @_;
     my $op    = shift @_;
@@ -593,15 +611,15 @@ sub changePointStrLvl {
 #===| changePointStrInd() {{{2
 sub changePointStrInd {
 
-    my $pointStr = shift @_;
+    my $pointStr = ($_[0] ne '') ? $_[0]
+                                 : { die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__) };
     my @point    = split /\./, $pointStr;
-    my $op       = shift @_;
+    my $op       = $_[1];
 
     if ($op) { $point[-1]++ }
     else     { $point[-1]-- }
 
     $pointStr = join '.', @point;
-
     return $pointStr;
 }
 
@@ -618,8 +636,8 @@ sub decho {
     $Data::Dumper::Sortkeys = ( sub {
         my $hash = shift @_;
         return [ sort {
-                my $order_a = getOrder( $data, $a, $_[0]);
-                my $order_b = getOrder( $data, $b, $_[0]);
+                my $order_a = getPointStrForKey( $data, $a, $_[0]);
+                my $order_b = getPointStrForKey( $data, $b, $_[0]);
                 $order_a cmp $order_b;
             } keys %$hash ];
         });
@@ -680,21 +698,21 @@ sub init {
   mes("Starting INIT", $data, 0, 0, 1);
 
   ## Argument Checks
-  unless ($data->{fileNames}->{fname}) {die("User did not provide 'fname' argument  at ${0} at line: ".__LINE__)}
-  unless ($data->{fileNames}->{dspt})  {die("User did not provide 'dspt' argument  at ${0} at line: ".__LINE__)}
+  unless ($data->{fileNames}->{fname}) { die("User did not provide 'fname' argument! In ${0} at line: ".__LINE__)}
+  unless ($data->{fileNames}->{dspt})  { die("User did not provide 'dspt' argument! In ${0} at line: ".__LINE__)}
 
   ## Initiate variables
   unless (exists $data->{point}) {$data->{point} = [1]}
-  else   {warn "WARNING!: 'point' is already defined by user at ${0} at line: ".__LINE__}
+  else   {warn "WARNING!: 'point' is already defined by user! In ${0} at line: ".__LINE__}
 
   unless (exists $data->{result}) {$data->{result} = {}}
-  else   {warn "WARNING!: 'result' is already defined by user at ${0} at line: ".__LINE__}
+  else   {warn "WARNING!: 'result' is already defined by user! In ${0} at line: ".__LINE__}
 
   unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
-  else   {warn "WARNING!: 'reffArray' is already defined by user at ${0} at line: ".__LINE__}
+  else   {warn "WARNING!: 'reffArray' is already defined by user! In ${0} at line: ".__LINE__}
 
   unless (exists $data->{meta}) {$data->{meta} = {}}
-  else   {warn "WARNING!: 'meta' is already defined by user at ${0} at line: ".__LINE__}
+  else   {warn "WARNING!: 'meta' is already defined by user! In ${0} at line: ".__LINE__}
 
   ## options
   unless ($data->{verbose})             {}
@@ -832,10 +850,11 @@ sub encodeResult {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj = $json_obj->allow_blessed(['true']);
             $json_obj->sort_by( sub {
-                $JSON::PP::order_a = getOrder( $data, $JSON::PP::a, $_[0]);
-                $JSON::PP::order_b = getOrder( $data, $JSON::PP::b, $_[0]);
+                $JSON::PP::order_a = getPointStrForKey( $data, $JSON::PP::a, $_[0]);
+                $JSON::PP::order_b = getPointStrForKey( $data, $JSON::PP::b, $_[0]);
                 $JSON::PP::order_a cmp $JSON::PP::order_b;
                 });
+            #my $json  = $json_obj->encode($data->{result});
             my $json  = $json_obj->encode($data->{result});
             open( my $fh, '>' ,$fname ) or die $!;
                 print $fh $json;
