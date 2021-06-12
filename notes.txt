@@ -45,6 +45,8 @@ Removing newlines
 Teeing and Piping to stdout
   tee /dev/tty
   tee >&1
+Jq
+  cat ./json/hmofa2.json | jq 'walk(if type == "object" then with_entries(select(.key | test("LN") | not)) else . end)' | less
 Misc
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
   problemo
