@@ -21,10 +21,11 @@ use Storable qw(dclone);
 #------------------------------------------------------
 # MAIN {{{1
 #------------------------------------------------------
+my $gitIo     = getJson('./json/gitIO.json');
 my $masterbin = getJson('./json/masterbin2.json');
 my $catalog   = getJson('./json/hmofa2.json');
 
-my $PATTERN = 'STORIES';
+my $PATTERN = 'URLS';
 #my $PATTERN = 'point';
 my $list = getAllValuesForKey($PATTERN, $catalog, 1);
 my $list2 = getAllValuesForKey($PATTERN, $masterbin, 1);
