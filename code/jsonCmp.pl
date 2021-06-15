@@ -34,125 +34,96 @@ my $data = init({
 
 
 # ===| simple listing {{{2
-{
-    my ($data, $diffs)  = genDiff(
-        $data,
-        [
-            'series',
-        ],
-    );
-
-
-    ## Output
-    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
-    my @LIST  = ();
-    my @list0 = map { '0 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[0]->@*;
-    my @list1 = map { '1 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[1]->@*;
-    push( @LIST, @list0);
-    push( @LIST, @list1);
-    print "\n\n\n\n===============================\n";
-    print $_, "\n" for sort { substr($a,2) cmp substr($b,2) } @LIST;
-}
+delegate(
+    $data,
+    {
+        objs => ['series'],
+    },
+);
 
 
 # ===| relative listing #1: Author and Stories {{{2
-{
-    my ($data, $diffs)  = genDiff(
-        $data,
-        [
-            'author',
-            'title',
-        ],
-    );
+delegate(
+    $data,
+    {
+        objs => ['author', 'title'],
+    },
+);
 
-    ## Outputs
-    my $obj2  = getObjFromGroupNameKey($data, $data->{objs}->[1]);
-    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
-    my @list  = ();
-    my @list0 = map {  $_->{$obj} . ' || 0 ' . $_->{$obj2} . " || " .  $_->{LN} } $diffs->[0]->@*;
-    my @list1 = map {  $_->{$obj} . ' || 1 ' . $_->{$obj2} . " || " .  $_->{LN} } $diffs->[1]->@*;
-    push( @list, @list0);
-    push( @list, @list1);
-    print "\n\n\n\n===============================\n";
-    print $_, "\n" for sort {
-        my $aa  = $a;
-        my $bb  = $b;
-        my $aa2 = $a;
-        my $bb2 = $b;
-        $aa2 =~ s/^.*?\|\|\s//g;
-        $bb2 =~ s/^.*?\|\|\s//g;
-        $aa cmp $bb || substr($aa2,2) cmp substr($bb2,2);
-    } @list;
-}
+
+# ===| relative listing #2: Only show obj_1 additions {{{2
 
 
 # ===| List with External Data: gitIO.json {{{2
-{
-    my ($data, $diffs)  = genDiff(
-        $data,
-        [
-            'url',
-        ],
-    );
+delegate(
+    $data,
+    {
+        objs  => ['url'],
+        sub_0 => genFilter({
+                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+                    dspt    => $data->{dspt}->{gitIO},
+        }),
+    },
+);
 
 
-    ## Output
-    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
-    my @LIST  = ();
-    my @list0 = map { '0 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[0]->@*;
-    my @list1 = map { '1 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[1]->@*;
-    push( @LIST, @list0);
-    push( @LIST, @list1);
-    print "\n\n\n\n===============================\n";
-    print $_, "\n" for sort { substr($a,2) cmp substr($b,2) } @LIST;
-}
+# ===| Exstended listing #1: Excluding object instances based on user specified pattern  {{{2
 
 
-# ===| complex listing #2: attributes {{{2
-{
-    print "\n\n\n\n===============================\n";
-}
+# ===| Exstended listing #2: Custom Sort  {{{2
 
 
-# ===| complex listing #2: recursive listing {{{2
-{
-    print "\n\n\n\n===============================\n";
-}
+# ===| Complex listing #1: attributes  {{{2
 
 
-
-
-#------------------------------------------------------
+# ===| TEST {{{2
+delegate(
+    $data,
+    {
+        objs  => ['title', 'url'],
+        sub_0 => genFilter({
+                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+                    dspt    => $data->{dspt}->{gitIO},
+        }),
+    },
+);
 # subroutines {{{1
 #------------------------------------------------------
 
-#===| getName() {{{2
-sub getName {
-    my $obj  = shift @_;
-    my $dspt = shift @_;
-    my $name = $dspt->{$obj}->{groupName};
-    return ($name) ? $name
-                   : $obj;
+#===| init() {{{2
+sub init {
+    my $data = shift @_;
+    $data->{hash} = [ map { getJson($_) } $data->{hash}->@* ];
+    $data->{dspt} = {
+        map {
+          $_ =~ m/(\w+)\.json$/;
+          my $key = $1;
+          $key => getJson($_); } $data->{dspt}->@*
+    };
+    return $data;
+
 }
 
 
-#===| genDiff() {{{2
-sub genDiff {
+#------------------------------------------------------
+#===| delegate() {{{2
+sub delegate {
 
     my $data         = shift @_;
-    $data->{objs}    = shift @_;
-    $data->{objs}    = [ map { getName( $_, $data->{dspt}->{deimos}) } $data->{objs}->@* ];
-    my $solo = ($data->{objs}->[1]) ? 0 : 1;
+    my $ARGS         = shift @_;
+    my $solo = ($ARGS->{objs}->[1]) ? 0 : 1;
     my @lists;
 
+    my $sub_0 = 0;
+    if (exists $ARGS->{sub_0}) {$sub_0 = $ARGS->{sub_0}}
     ## LISTS
     for my $hash ($data->{hash}->@*) {
         my $list = getAllValuesForKey(
             $data,
             {
               hash        => dclone($hash),
-              obj_0       => $data->{objs}->[0],
-              obj_1       => $data->{objs}->[1],
+              obj_0       => $ARGS->{objs}->[0],
+              obj_1       => $ARGS->{objs}->[1],
               sliceEnable => $solo ? 1 : 0,
             },
         );
@@ -160,9 +131,9 @@ sub genDiff {
             $list = biFlat(
                 $data,
                 {
-                    list  => $list,,
-                    obj_0 => $data->{objs}->[0],
-                    obj_1 => $data->{objs}->[1],
+                    list  => $list,
+                    obj_0 => $ARGS->{objs}->[0],
+                    obj_1 => $ARGS->{objs}->[1],
                 }
             );
         }
@@ -174,13 +145,22 @@ sub genDiff {
         $data,
         {
             hashList => [ @lists ],
-            obj_0    => $data->{objs}->[0],
-            obj_1    => $data->{objs}->[1],
+            obj_0    => $ARGS->{objs}->[0],
+            obj_1    => $ARGS->{objs}->[1],
+            sub_0    => $sub_0,
         }
     );
 
 
-    return ( $data, $diffs );
+    ## Outputs
+    formatToSTDOUT(
+        $data,
+        {
+            objs  => [$ARGS->{objs}->[0], $ARGS->{objs}->[1]],
+            diffs => $diffs,
+            sub_0 => $sub_0,
+        }
+    );
 }
 
 
@@ -190,8 +170,8 @@ sub getAllValuesForKey {
     my $ARGS        = shift @_;
     my $hash        = $ARGS->{hash};
     my $sliceEnable = $ARGS->{sliceEnable};
-    my $obj_0       = $ARGS->{obj_0};
-    my $obj_1       = $ARGS->{obj_1};
+    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
+    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
     my $matches;
 
     ##  HASH?
@@ -281,8 +261,8 @@ sub biFlat {
     my $data  = shift @_;
     my $ARGS  = shift @_;
     my $hash  = $ARGS->{list};
-    my $obj_0 = $ARGS->{obj_0};
-    my $obj_1 = $ARGS->{obj_1};;
+    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
+    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
 
     my $flatHash = [];
     my $parentObj = getObjFromGroupNameKey($data, $obj_0);
@@ -302,8 +282,9 @@ sub getDiffs {
     my $data = shift @_;
     my $ARGS = shift @_;
     my $hashList = $ARGS->{hashList};
-    my $obj_0 = $ARGS->{obj_0};
-    my $obj_1 = $ARGS->{obj_1};
+    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
+    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
+    my $sub_0 = $ARGS->{sub_0};
         my $ind_0 = 0;
         for my $part_0 ( @{ dclone($hashList->[0]) } ) {
             my $ind_1 = 0;
@@ -315,6 +296,10 @@ sub getDiffs {
                 }
                 else {
                     @match = grep { $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
+                }
+                if ($sub_0) {
+                    $part_0->{$match[0]} = $sub_0->($part_0->{$match[0]});
+                    $part_1->{$match[0]} = $sub_0->($part_1->{$match[0]});
                 }
                 if (lc $part_0->{$match[0]} eq lc $part_1->{$match[0]}) {
                     splice $hashList->[0]->@*, $ind_0, 1;
@@ -329,6 +314,113 @@ sub getDiffs {
         }
 
     return [ [grep {$_} $hashList->[0]->@*] , [grep {$_} $hashList->[1]->@*] ];
+}
+
+
+#===| formatToSTDOUT() {{{2
+sub formatToSTDOUT {
+    my $data  = shift @_;
+    my $ARGS  = shift @_;
+    my $obj_0 = $ARGS->{objs}->[0];
+    my $obj_1 = $ARGS->{objs}->[1];
+    my $diffs = $ARGS->{diffs};
+    my $sub_0 = $ARGS->{sub_0};
+    my @LIST  = ();
+
+    if ($obj_1) {
+        my @list0;
+        my @list1;
+        if ($sub_0) {
+            @list0 = map {  '0 ' . $_->{$obj_0} . ' || ' . $sub_0->($_->{$obj_1}) . " || " .  $_->{LN} } $diffs->[0]->@*;
+            @list1 = map {  '1 ' . $_->{$obj_0} . ' || ' . $sub_0->($_->{$obj_1}) . " || " .  $_->{LN} } $diffs->[1]->@*;
+        }
+        else {
+            @list0 = map {  '0 ' . $_->{$obj_0} . ' || ' . $_->{$obj_1} . " || " .  $_->{LN} } $diffs->[0]->@*;
+            @list1 = map {  '1 ' . $_->{$obj_0} . ' || ' . $_->{$obj_1} . " || " .  $_->{LN} } $diffs->[1]->@*;
+        }
+        push( @LIST, @list0);
+        push( @LIST, @list1);
+        print "\n\n\n\n===============================\n";
+        print $_, "\n" for sort {
+
+            my $aa  = $a;
+            my $bb  = $b;
+
+            ## num
+            $aa =~ s/^(\d)\s+//;
+            my $num_a = $1;
+            $bb =~ s/^(\d)\s+//;
+            my $num_b = $1;
+
+            ## obj_0
+            $aa =~ s/^(.*?)\s\|\|\s//;
+            my $obj0_a = $1;
+            $bb =~ s/^(.*?)\s\|\|\s//;
+            my $obj0_b = $1;
+
+            ## obj_1
+            $aa =~ s/^(.*?)\s\|\|\s//;
+            my $obj1_a = $1;
+            $bb =~ s/^(.*?)\s\|\|\s//;
+            my $obj1_b = $1;
+
+            $obj0_a cmp $obj0_b || $num_a cmp $num_b || $obj1_a cmp $obj1_b;
+        } @LIST;
+    }
+    else {
+        my @list0;
+        my @list1;
+        if ($sub_0) {
+            @list0 = map { '0 ' . $sub_0->($_->{$obj_0}) . " || " .  $_->{LN}} $diffs->[0]->@*;
+            @list1 = map { '1 ' . $sub_0->($_->{$obj_0}) . " || " .  $_->{LN}} $diffs->[1]->@*;
+        }
+        else {
+            @list0 = map { '0 ' . $_->{$obj_0} . " || " .  $_->{LN}} $diffs->[0]->@*;
+            @list1 = map { '1 ' . $_->{$obj_0} . " || " .  $_->{LN}} $diffs->[1]->@*;
+        }
+        push( @LIST, @list0);
+        push( @LIST, @list1);
+        print "\n\n\n\n===============================\n";
+        print $_, "\n" for sort {
+            my $aa  = $a;
+            my $bb  = $b;
+
+            ## num
+            $aa =~ s/^(\d)\s+//;
+            my $num_a = $1;
+            $bb =~ s/^(\d)\s+//;
+            my $num_b = $1;
+
+            ## obj_0
+            $aa =~ s/^(.*?)\s\|\|\s//;
+            my $obj0_a = $1;
+            $bb =~ s/^(.*?)\s\|\|\s//;
+            my $obj0_b = $1;
+
+            $num_a cmp $num_b || $obj0_a cmp $obj0_b;
+        } @LIST;
+    }
+}
+
+
+
+
+# UTILITIES {{{1
+#------------------------------------------------------
+#===| filter() {{{2
+sub genFilter {
+    my $ARGS    = shift @_;
+    my $dspt    = $ARGS->{dspt};
+    my $obj     = $ARGS->{obj};
+    my $pattern = $ARGS->{pattern};
+
+    return sub {
+        my $raw = shift @_;
+        if ($raw =~ $pattern) {
+            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
+        }
+        else { return $raw }
+    };
 }
 
 
@@ -364,31 +456,18 @@ sub getJson {
     return $hash
 }
 
-#===| extConvert() {{{2
-print extConvert('https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RbHXR9Rq', $data->{dspt}->{gitIO}),"\n";
-sub extConvert {
-    my $raw = shift @_;
-    my $dspt = shift @_;
-    if ($raw =~ m?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E.*?) {
-        $raw =~ m/(\w{8})$/;
-        return $dspt->{$1};
+
+#===| getName() {{{2
+sub getName {
+    my $obj  = shift @_;
+    if ($obj) {
+        my $dspt = shift @_;
+        my $name = $dspt->{$obj}->{groupName};
+        return ($name) ? $name
+                       : $obj;
     }
-    else { return $raw }
+    else { return 0 }
 }
 
-
-#===| init() {{{2
-sub init {
-    my $data = shift @_;
-    $data->{hash} = [ map { getJson($_) } $data->{hash}->@* ];
-    $data->{dspt} = { 
-        map {
-          $_ =~ m/(\w+)\.json$/;
-          my $key = $1;
-          $key => getJson($_); } $data->{dspt}->@*
-    };
-    return $data;
-
-}
 
 
