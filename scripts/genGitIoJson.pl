@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 #============================================================
 #
-#         FILE: extjsons.pl
+#         FILE: genGitIoJson.pl
 #       AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
 #  DESCRIPTION:
 #      Created: Sat 06/12/21 14:04:27

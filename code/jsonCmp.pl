@@ -11,6 +11,16 @@ use strict;
 use JSON;
 use Data::Dumper;
 use Storable qw(dclone);
+use List::MoreUtils qw(uniq);
+use Array::Diff;
+use List::Util;
+use Array::Utils;
+use Data::Compare;
+use Data::Structure::Util;
+## NOT WORKING
+#use Data::Diff;
+#use Data::Match;
+
 
 #  Assumptions
 #    - all jsons were generated with dspts with identical objs, orders, and attributes
@@ -33,11 +43,15 @@ my $data = init({
 });
 
 
+
 # ===| simple listing {{{2
 delegate(
     $data,
     {
         objs => ['series'],
+        process => {
+            disableDiffs => 1,
+        },
     },
 );
 
@@ -47,6 +61,9 @@ delegate(
     $data,
     {
         objs => ['author', 'title'],
+        process => {
+            disableDiffs => 1,
+        },
     },
 );
 
@@ -63,6 +80,23 @@ delegate(
                     pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
                     dspt    => $data->{dspt}->{gitIO},
         }),
+        process => {
+            disableDiffs => 1,
+        },
+    },
+);
+
+delegate(
+    $data,
+    {
+        objs  => ['title', 'url'],
+        sub_0 => genFilter({
+                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+                    dspt    => $data->{dspt}->{gitIO},
+        }),
+        process => {
+            disableDiffs => 1,
+        },
     },
 );
 
@@ -77,16 +111,99 @@ delegate(
 
 
 # ===| TEST {{{2
-delegate(
-    $data,
+
+my $catalog   = $data->{hash}->[0]->{SECTIONS}->[1]->{ getName('author', $data->{dspt}->{deimos} ) };
+my $masterbin = $data->{hash}->[1]->{AUTHORS};
+my $sub = genFilter({
+            pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+            dspt    => $data->{dspt}->{gitIO},
+});
+
+use Data::Walk;
+    my $max_depth = 20;
+    sub not_too_deep {
+        if ($Data::Walk::depth > $max_depth) {
+        return ();
+        } else {
+        return @_;
+        }
+    }
+    my @array;
+    sub do_something {
+        #NOTE: $Data::Walk::index is even then $_ is a hash key. If it is odd, then $_ is a hash value.
+        #print "---------------\n";
+        if ($Data::Walk::type eq 'HASH') {
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'SERIES') {
+                 my $hash = $Data::Walk::container;
+                 my @stories;
+                 for my $part ($hash->{SERIES}->@*) {
+                     push @stories, $part->{STORIES}->@*;
+                 }
+                 unless (exists $hash->{STORIES}) {$hash->{STORIES} = []}
+                 push $hash->{STORIES}->@*, @stories;
+                 delete $hash->{SERIES};
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'TAGS') {
+                 my $hash = $Data::Walk::container;
+                 delete $hash->{TAGS};
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'DESCRIPTIONS') {
+                 my $hash = $Data::Walk::container;
+                 delete $hash->{DESCRIPTIONS};
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'LN') {
+                 my $hash = $Data::Walk::container;
+                 delete $hash->{LN};
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'raw') {
+                 my $hash = $Data::Walk::container;
+                 delete $hash->{raw};
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'url') {
+                 my $hash = $Data::Walk::container;
+                 $hash->{url} = $sub->($hash->{url});
+            }
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'point') {
+                 my $hash = $Data::Walk::container;
+                 push @array, $hash->{point};
+                 delete $hash->{point};
+            }
+        }
+    }
+    walkdepth { wanted => \&do_something, preprocess => \&not_too_deep }, $masterbin;
+    print $_,"\n" for sort {$a cmp $b} uniq(@array);
+    @array = ();
+    walkdepth { wanted => \&do_something, preprocess => \&not_too_deep }, $catalog;
+    print $_,"\n" for sort {$a cmp $b} uniq(@array);
+
+use Deep::Hash::Utils;
     {
-        objs  => ['title', 'url'],
-        sub_0 => genFilter({
-                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-                    dspt    => $data->{dspt}->{gitIO},
-        }),
-    },
-);
+      local $\ = "\n";
+      while (my @list = Deep::Hash::Utils::reach($masterbin)) {
+          print "@list";
+      }
+    }
+
+use Hash::Diff;
+    #my %c = %{ Hash::Diff::diff( $data->{hash}->[0], $data->{hash}->[1] ) };
+    #print Dumper \%c;
+
+use Data::Search;
+    #$Data::Dumper::Useqq=1;
+    #$Data::Dumper::Terse=1;
+    #for my $wanted ( qw( point ) ) {
+    #    my @results = Data::Search::datasearch(
+    #        data   => $data->{hash}->[0],
+    #        search => 'keys',
+    #        find   => qr{ \A $wanted \z }msx,
+    #        return => 'container',
+    #    );
+    #
+    #    #print "Found key '$wanted' in these hashrefs: ", Dumper @results;
+    #}
+
+use Data::Find;
+
 # subroutines {{{1
 #------------------------------------------------------
 
@@ -139,28 +256,28 @@ sub delegate {
         }
         push @lists, $list;
     }
+    unless ($ARGS->{process}->{disableDiffs}) {
+        ## DIFFS
+        my $diffs = getDiffs(
+            $data,
+            {
+                hashList => [ @lists ],
+                obj_0    => $ARGS->{objs}->[0],
+                obj_1    => $ARGS->{objs}->[1],
+                sub_0    => $sub_0,
+            }
+        );
 
-    ## DIFFS
-    my $diffs = getDiffs(
-        $data,
-        {
-            hashList => [ @lists ],
-            obj_0    => $ARGS->{objs}->[0],
-            obj_1    => $ARGS->{objs}->[1],
-            sub_0    => $sub_0,
-        }
-    );
-
-
-    ## Outputs
-    formatToSTDOUT(
-        $data,
-        {
-            objs  => [$ARGS->{objs}->[0], $ARGS->{objs}->[1]],
-            diffs => $diffs,
-            sub_0 => $sub_0,
-        }
-    );
+        ## Outputs
+        formatToSTDOUT(
+            $data,
+            {
+                objs  => [$ARGS->{objs}->[0], $ARGS->{objs}->[1]],
+                diffs => $diffs,
+                sub_0 => $sub_0,
+            }
+        );
+    }
 }
 
 
@@ -279,41 +396,52 @@ sub biFlat {
 
 #===| getDiffs() {{{2
 sub getDiffs {
-    my $data = shift @_;
-    my $ARGS = shift @_;
+    my $data     = shift @_;
+    my $ARGS     = shift @_;
     my $hashList = $ARGS->{hashList};
-    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
-    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
-    my $sub_0 = $ARGS->{sub_0};
-        my $ind_0 = 0;
-        for my $part_0 ( @{ dclone($hashList->[0]) } ) {
-            my $ind_1 = 0;
-            for my $part_1  (@{ dclone($hashList->[1]) } ) {
-                my @match;
-                if ($obj_1) {
-                    my $parent = getObjFromGroupNameKey($data, $obj_0);
-                    @match = grep { $_ ne $parent and $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
-                }
-                else {
-                    @match = grep { $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
-                }
-                if ($sub_0) {
-                    $part_0->{$match[0]} = $sub_0->($part_0->{$match[0]});
-                    $part_1->{$match[0]} = $sub_0->($part_1->{$match[0]});
-                }
-                if (lc $part_0->{$match[0]} eq lc $part_1->{$match[0]}) {
-                    splice $hashList->[0]->@*, $ind_0, 1;
-                    splice $hashList->[1]->@*, $ind_1, 1;
-                    $ind_0 -= 1;
-                    $ind_1 -= 1;
-                    last;
-                }
-                $ind_1++;
-            }
-            $ind_0++;
-        }
+    my $obj_0    = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
+    my $obj_1    = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
+    my $sub_0    = $ARGS->{sub_0};
 
-    return [ [grep {$_} $hashList->[0]->@*] , [grep {$_} $hashList->[1]->@*] ];
+    my $ind_0 = 0;
+    my @parts_0 = @{ dclone($hashList->[0]) };
+    my @parts_1 = @{ dclone($hashList->[1]) };
+
+    my $child;
+    if ($obj_1) { $child  = getObjFromGroupNameKey($data, $obj_1); }
+    else        { $child  = getObjFromGroupNameKey($data, $obj_0); }
+
+    @parts_0 = sort { $a->{$child} cmp $b->{$child} } @parts_0;
+    @parts_1 = sort { $a->{$child} cmp $b->{$child} } @parts_1;
+    for my $part_0 (@parts_0) {
+
+        my $ind_1 = 0;
+        for my $part_1  (@parts_1) {
+            my @match;
+            if ($obj_1) {
+                my $parent = getObjFromGroupNameKey($data, $obj_0);
+                @match = grep { $_ ne $parent and $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
+            }
+            else {
+                @match = grep { $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
+            }
+            if ($sub_0) {
+                $part_0->{$match[0]} = $sub_0->($part_0->{$match[0]});
+                $part_1->{$match[0]} = $sub_0->($part_1->{$match[0]});
+            }
+            if (lc $part_0->{$match[0]} eq lc $part_1->{$match[0]}) {
+                splice $hashList->[0]->@*, $ind_0, 1;
+                splice $hashList->[1]->@*, $ind_1, 1;
+                $ind_0 -= 1;
+                $ind_1 -= 1;
+                last;
+            }
+            $ind_1++;
+        }
+        $ind_0++;
+    }
+
+    return [ $hashList->[0] , $hashList->[1] ];
 }
 
 
