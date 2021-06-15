@@ -30,7 +30,7 @@ use XML::Simple;
 delegate({
     fileNames => {
         fname  => '../tagCatalog.txt',
-        output => './json/hmofa2.json',
+        output => './json/catalog.json',
         dspt   => './json/deimos.json',
     },
     process => {
@@ -52,7 +52,7 @@ delegate({
 delegate({
     fileNames => {
         fname  => '../masterbin.txt',
-        output => './json/masterbin2.json',
+        output => './json/masterbin.json',
         dspt   => './json/deimos.json',
     },
     process => {
@@ -62,7 +62,7 @@ delegate({
         write    => 1,
     },
     name       => 'masterbin',
-    verbose    => 0,
+    verbose    => 1,
     supress    => 1,
     sort       => 1,
     lineNums   => 1,
@@ -272,8 +272,8 @@ sub divyMatches {
     mes("DIVY_MATCHES for '${obj_key}'", $data, 1, 0, 1);
 
     if ($data->{process}->{divy}) {
-        my $groupName    = getGroupName( $data );
-        my $pond    = dclone( ${$data}{matches}->{$obj_key} );
+        my $groupName = getGroupName( $data );
+        my $pond      = dclone( ${$data}{matches}->{$obj_key} );
 
         ##
         my $ind = ( scalar ${$data}{reffArray}->@* ) - 1;
@@ -286,18 +286,19 @@ sub divyMatches {
             my $reff_lineNum;
             if ($reff->{LN}) {
                 $reff_lineNum = $reff->{LN};
-                mes("..exists", $data, 3, 0, 1);
+                mes("..exists: ${reff_lineNum}", $data, 3, 0, 1);
             }
             else {
                 $reff_lineNum = 0;
                 mes("..does not exists", $data, 3, 0, 1 );
                 mes("..setting reff_lineNum to '${reff_lineNum}'", $data, 3, 0, 1 );
             }
-            #
+
+            ##
             my $bucket;
             mes("Begin reverse iteration through Capture_Array", $data, 3, 0, 1);
             for my $match (reverse $pond->@*) {
-                mes("==Selecting capture_array element== at line# '".$match->{LN}."'", $data, 3, 0, 1);
+                mes("==Selecting capture_array '${obj_key}' element== at line# '".$match->{LN}."'", $data, 3, 0, 1);
                 mes("checking if match_lineNum > reff_lineNum", $data, 4, 0, 1);
                 if ($match->{LN} > $reff_lineNum) {
                     mes("..True", $data, 4, 0, 1 );
@@ -315,18 +316,24 @@ sub divyMatches {
             }
 
             ## Check if bucket i
-            mes("Finished iteration through Capture_Array", $data, 2, 0, 1);
+            mes("Finished iteration through '${obj_key}' Capture_Array", $data, 2, 0, 1);
             mes("Checking if bucket is empty",  $data, 2, 0, 1);
             if ($bucket) {
+                mes("..bucket is not empty ${reff_lineNum}",  $data, 2, 0, 1);
                 $bucket->@* = reverse $bucket->@*;
 
                 #
                 ${$data}{reffArray}->[$ind]->{$groupName} = $bucket;
-                mes("Replacing reffArray element with Capture_array slice", $data, 2, 0, 1);
-                splice( ${$data}{reffArray}->@*, $ind, 1, $bucket->@* );
+                my $ref = ${$data}{reffArray}->[$ind];
+                mes("Adjoining reffArray element with Capture_array slice", $data, 2, 0, 1);
+                #splice( ${$data}{reffArray}->@*, $ind, 1, $bucket->@* );
+                splice( ${$data}{reffArray}->@*, $ind, 1, ($ref, $bucket->@*) );
 
             }
-            else { mes("Deincrementing reffArray index (${ind}) by 1", $data, 2, 0, 1) }
+            else {
+                mes("..bucket is empty!",  $data, 2, 0, 1);
+                mes("Deincrementing reffArray index (${ind}) by 1", $data, 2, 0, 1);
+            }
             mes("Deincrementing reffArray index (${ind}) by 1", $data, 2, 0, 1 );
             $ind--;
             mes("..new index at (${ind})", $data, 2, 0, 1 );

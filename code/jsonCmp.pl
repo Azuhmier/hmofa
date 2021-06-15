@@ -17,52 +17,66 @@ use Storable qw(dclone);
 
 
 
-
 # MAIN {{{1
 #------------------------------------------------------
 
-my $data;
-$data->{dspt}    = getJson('./json/deimos.json');
-my $gitIo        = getJson('./json/gitIO.json');
-my $masterbin    = getJson('./json/masterbin2.json');
-my $catalog      = getJson('./json/hmofa2.json');
+# ===| init {{{2
+my $data = init({
+    dspt => [
+        './json/deimos.json',
+        './json/gitIO.json'
+    ],
+    hash => [
+       './json/catalog.json',
+       './json/masterbin.json',
+    ],
+});
 
-## simple listing
+
+# ===| simple listing {{{2
 {
-    my $PATTERN  = 'SERIES';
-    my $list0  = getAllValuesForKey($data, $PATTERN, dclone($catalog), 1);
-    my $list1 = getAllValuesForKey($data, $PATTERN, dclone($masterbin), 1);
-    my $diffs = getDiffs($data, [$list0, $list1]);
-    my $obj = getObjFromGroupNameKey($data, $PATTERN);
-    my @list = ();
+    my ($data, $diffs)  = genDiff(
+        $data,
+        [
+            'series',
+        ],
+    );
+
+
+    ## Output
+    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
+    my @LIST  = ();
     my @list0 = map { '0 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[0]->@*;
     my @list1 = map { '1 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[1]->@*;
-    push( @list, @list0);
-    push( @list, @list1);
-    print $_, "\n" for sort { substr($a,2) cmp substr($b,2) } @list;
+    push( @LIST, @list0);
+    push( @LIST, @list1);
+    print "\n\n\n\n===============================\n";
+    print $_, "\n" for sort { substr($a,2) cmp substr($b,2) } @LIST;
 }
 
-## relative listing
+
+# ===| relative listing #1: Author and Stories {{{2
 {
-    print "\n===================\n";
-    my $PATTERN  = 'AUTHORS';
-    my $PATTERN2 = 'STORIES';
-    my $list0  = getAllValuesForKey($data, $PATTERN, dclone($catalog), 0, $PATTERN2, 1);
-    my $list1  = getAllValuesForKey($data, $PATTERN, dclone($masterbin), 0, $PATTERN2, 1);
-    my $list0_flat = biFlat($data, $list0, $PATTERN, $PATTERN2);
-    my $list1_flat = biFlat($data, $list1, $PATTERN, $PATTERN2);
-    my $diffs = getDiffs($data, [$list0_flat, $list1_flat], $PATTERN);
-    my $obj2 = getObjFromGroupNameKey($data, $PATTERN2);
-    my $obj = getObjFromGroupNameKey($data, $PATTERN);
-    my @list = ();
+    my ($data, $diffs)  = genDiff(
+        $data,
+        [
+            'author',
+            'title',
+        ],
+    );
+
+    ## Outputs
+    my $obj2  = getObjFromGroupNameKey($data, $data->{objs}->[1]);
+    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
+    my @list  = ();
     my @list0 = map {  $_->{$obj} . ' || 0 ' . $_->{$obj2} . " || " .  $_->{LN} } $diffs->[0]->@*;
     my @list1 = map {  $_->{$obj} . ' || 1 ' . $_->{$obj2} . " || " .  $_->{LN} } $diffs->[1]->@*;
     push( @list, @list0);
     push( @list, @list1);
-    print $_, "\n" for @list;
+    print "\n\n\n\n===============================\n";
     print $_, "\n" for sort {
-        my $aa = $a;
-        my $bb = $b;
+        my $aa  = $a;
+        my $bb  = $b;
         my $aa2 = $a;
         my $bb2 = $b;
         $aa2 =~ s/^.*?\|\|\s//g;
@@ -72,21 +86,37 @@ my $catalog      = getJson('./json/hmofa2.json');
 }
 
 
-## List with External Data: gitIO.json
+# ===| List with External Data: gitIO.json {{{2
 {
-    print "\n===================\n";
+    my ($data, $diffs)  = genDiff(
+        $data,
+        [
+            'url',
+        ],
+    );
+
+
+    ## Output
+    my $obj   = getObjFromGroupNameKey($data, $data->{objs}->[0]);
+    my @LIST  = ();
+    my @list0 = map { '0 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[0]->@*;
+    my @list1 = map { '1 ' . $_->{$obj} . " || " .  $_->{LN}} $diffs->[1]->@*;
+    push( @LIST, @list0);
+    push( @LIST, @list1);
+    print "\n\n\n\n===============================\n";
+    print $_, "\n" for sort { substr($a,2) cmp substr($b,2) } @LIST;
 }
 
 
-## complex listing #2: attributes
+# ===| complex listing #2: attributes {{{2
 {
-    print "\n===================\n";
+    print "\n\n\n\n===============================\n";
 }
 
 
-## complex listing #2: recursive listing
+# ===| complex listing #2: recursive listing {{{2
 {
-    print "\n===================\n";
+    print "\n\n\n\n===============================\n";
 }
 
 
@@ -96,17 +126,169 @@ my $catalog      = getJson('./json/hmofa2.json');
 # subroutines {{{1
 #------------------------------------------------------
 
+#===| getName() {{{2
+sub getName {
+    my $obj  = shift @_;
+    my $dspt = shift @_;
+    my $name = $dspt->{$obj}->{groupName};
+    return ($name) ? $name
+                   : $obj;
+}
+
+
+#===| genDiff() {{{2
+sub genDiff {
+
+    my $data         = shift @_;
+    $data->{objs}    = shift @_;
+    $data->{objs}    = [ map { getName( $_, $data->{dspt}->{deimos}) } $data->{objs}->@* ];
+    my $solo = ($data->{objs}->[1]) ? 0 : 1;
+    my @lists;
+
+    ## LISTS
+    for my $hash ($data->{hash}->@*) {
+        my $list = getAllValuesForKey(
+            $data,
+            {
+              hash        => dclone($hash),
+              obj_0       => $data->{objs}->[0],
+              obj_1       => $data->{objs}->[1],
+              sliceEnable => $solo ? 1 : 0,
+            },
+        );
+        unless ($solo) {
+            $list = biFlat(
+                $data,
+                {
+                    list  => $list,,
+                    obj_0 => $data->{objs}->[0],
+                    obj_1 => $data->{objs}->[1],
+                }
+            );
+        }
+        push @lists, $list;
+    }
+
+    ## DIFFS
+    my $diffs = getDiffs(
+        $data,
+        {
+            hashList => [ @lists ],
+            obj_0    => $data->{objs}->[0],
+            obj_1    => $data->{objs}->[1],
+        }
+    );
+
+
+    return ( $data, $diffs );
+}
+
+
+#===| getAllValuesForKey() {{{2
+sub getAllValuesForKey {
+    my $data        = shift @_;
+    my $ARGS        = shift @_;
+    my $hash        = $ARGS->{hash};
+    my $sliceEnable = $ARGS->{sliceEnable};
+    my $obj_0       = $ARGS->{obj_0};
+    my $obj_1       = $ARGS->{obj_1};
+    my $matches;
+
+    ##  HASH?
+    if (ref $hash eq 'HASH') {
+        for my $key (keys $hash->%*) {
+            if ($key eq $obj_0) {
+                my @catch = $hash->{$key}->@*;
+
+                ## SLICE
+                if ($sliceEnable) {
+                    for my $part (@catch) {
+                        for my $key (keys $part->%*) {
+                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
+                            elsif ($key eq 'point')              { delete $part->{$key} }
+                        }
+                    }
+                }
+
+                ## Relative
+                if ($obj_1) {
+                    for my $part (@catch) {
+                        my $childs = getAllValuesForKey(
+                           $data,
+                           {
+                             hash        => $part,
+                             obj_0       => $obj_1,
+                             sliceEnable => 1,
+                           },
+                        );
+                        for my $key (keys $part->%*) {
+                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
+                            elsif ($key eq 'point')              { delete $part->{$key} }
+                        }
+                        $part->{$obj_1} = $childs;
+                    }
+                }
+
+                push $matches->@*, @catch;
+            }
+            else {
+                my $catch = getAllValuesForKey(
+                    $data,
+                    {
+                      hash        => $hash->{$key},
+                      obj_0       => $obj_0,
+                      obj_1       => $obj_1,
+                      sliceEnable => $sliceEnable,
+                    },
+                );
+                if ($catch) {
+                    push $matches->@*, $catch->@*;
+                }
+            }
+        }
+    }
+
+    ##  ARRAY?
+    elsif (ref $hash eq 'ARRAY') {
+        for my $part ($hash->@*) {
+            my $catch = getAllValuesForKey(
+                $data,
+                {
+                  hash        => $part,
+                  obj_0       => $obj_0,
+                  obj_1       => $obj_1,
+                  sliceEnable => $sliceEnable,
+                },
+            );
+            if ($catch) {
+                push $matches->@*, $catch->@*;
+            }
+        }
+    }
+
+
+    ##  OTHER
+    else {
+        my $type = ref $hash;
+        if ($type) {print $type, "\n"}
+    }
+    return $matches;
+}
+
+
 #===| biFlat() {{{2
 sub biFlat {
-    my $data = shift @_;
-    my $hash = shift @_;
-    my $PATTERN = shift @_;
-    my $PATTERN2 = shift @_;
+    my $data  = shift @_;
+    my $ARGS  = shift @_;
+    my $hash  = $ARGS->{list};
+    my $obj_0 = $ARGS->{obj_0};
+    my $obj_1 = $ARGS->{obj_1};;
+
     my $flatHash = [];
-    my $parentObj = getObjFromGroupNameKey($data, $PATTERN);
+    my $parentObj = getObjFromGroupNameKey($data, $obj_0);
     for my $parent ($hash->@*) {
         my $parentName = $parent->{$parentObj};
-        for my $child ($parent->{$PATTERN2}->@*) {
+        for my $child ($parent->{$obj_1}->@*) {
             $child->{$parentObj} = $parentName;
             push $flatHash->@*, $child;
         }
@@ -118,15 +300,17 @@ sub biFlat {
 #===| getDiffs() {{{2
 sub getDiffs {
     my $data = shift @_;
-    my $hashList = shift @_;
-    my $PATTERN = shift @_;
+    my $ARGS = shift @_;
+    my $hashList = $ARGS->{hashList};
+    my $obj_0 = $ARGS->{obj_0};
+    my $obj_1 = $ARGS->{obj_1};
         my $ind_0 = 0;
         for my $part_0 ( @{ dclone($hashList->[0]) } ) {
             my $ind_1 = 0;
             for my $part_1  (@{ dclone($hashList->[1]) } ) {
                 my @match;
-                if ($PATTERN) {
-                    my $parent = getObjFromGroupNameKey($data, $PATTERN);
+                if ($obj_1) {
+                    my $parent = getObjFromGroupNameKey($data, $obj_0);
                     @match = grep { $_ ne $parent and $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
                 }
                 else {
@@ -148,6 +332,27 @@ sub getDiffs {
 }
 
 
+#===| getObjFromGroupNameKey() {{{2
+sub getObjFromGroupNameKey {
+    # return GROUP_NAME if it is an OBJECT_KEY
+    # return OBJECT_KEY that contains GROUP_NAME
+    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
+    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
+
+    my $data      = shift @_;
+    my $dspt      = $data->{dspt}->{deimos};
+    my $groupName = shift @_;
+
+    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
+    if (scalar @keys) {
+        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
+        if ($match[0]) { return $match[0] }
+        else { return 0 }
+    }
+    else { return 0 }
+}
+
+
 #===| getJson() {{{2
 sub getJson {
     my $fname = shift @_;
@@ -159,94 +364,31 @@ sub getJson {
     return $hash
 }
 
-
-#===| getAllValuesForKey() {{{2
-sub getAllValuesForKey {
-    my $data        = shift @_;
-    my $PATTERN     = shift @_;
-    my $var         = shift @_;
-    my $sliceEnable = shift @_;
-    my $PATTERN2    = shift @_;
-    my $relEnable   = shift @_;
-    my $matches;
-
-    ##  HASH?
-    if (ref $var eq 'HASH') {
-        for my $key (keys $var->%*) {
-            if ($key eq $PATTERN) {
-                my @catch = $var->{$key}->@*;
-
-                ## SLICE
-                if ($sliceEnable) {
-                    for my $part (@catch) {
-                        for my $key (keys $part->%*) {
-                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                            elsif ($key eq 'point')              { delete $part->{$key} }
-                        }
-                    }
-                }
-
-                ## Relative
-                if ($relEnable and not $sliceEnable) {
-                    for my $part (@catch) {
-                      #print $part, "\n";
-                       my $childs = getAllValuesForKey($data, $PATTERN2, $part, 1);
-                        for my $key (keys $part->%*) {
-                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                            elsif ($key eq 'point')              { delete $part->{$key} }
-                        }
-                        $part->{$PATTERN2} = $childs;
-                    }
-                }
-
-                push $matches->@*, @catch;
-            }
-            else {
-                my $catch = getAllValuesForKey($data, $PATTERN, $var->{$key}, $sliceEnable, $PATTERN2, $relEnable);
-                if ($catch) {
-                    push $matches->@*, $catch->@*;
-                }
-            }
-        }
+#===| extConvert() {{{2
+print extConvert('https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RbHXR9Rq', $data->{dspt}->{gitIO}),"\n";
+sub extConvert {
+    my $raw = shift @_;
+    my $dspt = shift @_;
+    if ($raw =~ m?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E.*?) {
+        $raw =~ m/(\w{8})$/;
+        return $dspt->{$1};
     }
-
-    ##  ARRAY?
-    elsif (ref $var eq 'ARRAY') {
-        for my $part ($var->@*) {
-            my $catch = getAllValuesForKey($data, $PATTERN, $part, $sliceEnable, $PATTERN2, $relEnable);
-            if ($catch) {
-                push $matches->@*, $catch->@*;
-            }
-        }
-    }
-
-
-    ##  OTHER
-    else {
-        my $type = ref $var;
-        if ($type) {print $type, "\n"}
-    }
-
-    return $matches;
+    else { return $raw }
 }
 
 
-#===| getObjFromGroupNameKey() {{{2
-sub getObjFromGroupNameKey {
-    # return GROUP_NAME if it is an OBJECT_KEY
-    # return OBJECT_KEY that contains GROUP_NAME
-    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
-    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
+#===| init() {{{2
+sub init {
+    my $data = shift @_;
+    $data->{hash} = [ map { getJson($_) } $data->{hash}->@* ];
+    $data->{dspt} = { 
+        map {
+          $_ =~ m/(\w+)\.json$/;
+          my $key = $1;
+          $key => getJson($_); } $data->{dspt}->@*
+    };
+    return $data;
 
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt};
-    my $groupName = shift @_;
-
-    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
-    if (scalar @keys) {
-        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
-        if ($match[0]) { return $match[0] }
-        else { return 0 }
-    }
-    else { return 0 }
 }
+
+
