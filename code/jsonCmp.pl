@@ -12,11 +12,11 @@ use JSON;
 use Data::Dumper;
 use Storable qw(dclone);
 use List::MoreUtils qw(uniq);
-use Array::Diff;
 use List::Util;
 use Array::Utils;
 use Data::Compare;
 use Data::Structure::Util;
+use feature 'state';
 ## NOT WORKING
 #use Data::Diff;
 #use Data::Match;
@@ -30,18 +30,16 @@ use Data::Structure::Util;
 # MAIN {{{1
 #------------------------------------------------------
 
-# ===| init {{{2
 my $data = init({
-    dspt => [
-        './json/deimos.json',
+    dspt => './json/deimos.json',
+    external => [
         './json/gitIO.json'
     ],
     hash => [
-       './json/catalog.json',
-       './json/masterbin.json',
+        './json/catalog.json',
+        './json/masterbin.json',
     ],
 });
-
 
 
 # ===| simple listing {{{2
@@ -56,7 +54,7 @@ delegate(
 );
 
 
-# ===| relative listing #1: Author and Stories {{{2
+# ===| relative listing {{{2
 delegate(
     $data,
     {
@@ -68,17 +66,14 @@ delegate(
 );
 
 
-# ===| relative listing #2: Only show obj_1 additions {{{2
-
-
-# ===| List with External Data: gitIO.json {{{2
+# ===| using external data: gitIO.json {{{2
 delegate(
     $data,
     {
         objs  => ['url'],
         sub_0 => genFilter({
                     pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-                    dspt    => $data->{dspt}->{gitIO},
+                    dspt    => $data->{external}->{gitIO},
         }),
         process => {
             disableDiffs => 1,
@@ -92,7 +87,7 @@ delegate(
         objs  => ['title', 'url'],
         sub_0 => genFilter({
                     pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-                    dspt    => $data->{dspt}->{gitIO},
+                    dspt    => $data->{external}->{gitIO},
         }),
         process => {
             disableDiffs => 1,
@@ -101,92 +96,205 @@ delegate(
 );
 
 
-# ===| Exstended listing #1: Excluding object instances based on user specified pattern  {{{2
-
-
-# ===| Exstended listing #2: Custom Sort  {{{2
-
-
-# ===| Complex listing #1: attributes  {{{2
-
-
 # ===| TEST {{{2
 
-my $catalog   = $data->{hash}->[0]->{SECTIONS}->[1]->{ getName('author', $data->{dspt}->{deimos} ) };
+my $catalog   = $data->{hash}->[0]->{SECTIONS}->[1]->{ getGroupName($data, 'author') };
+    my $catalog_contents = dclone $catalog;
+    $catalog = {};
+    $catalog->{contents}=$catalog_contents;
+    $catalog->{reff}=$catalog;
 my $masterbin = $data->{hash}->[1]->{AUTHORS};
+    my $masterbin_contents = dclone $masterbin;
+    $masterbin = {};
+    $masterbin->{contents} = $masterbin_contents;
+    $masterbin->{reff}=$masterbin;
 my $sub = genFilter({
-            pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-            dspt    => $data->{dspt}->{gitIO},
+    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+    dspt    => $data->{external}->{gitIO},
 });
-
 use Data::Walk;
-    my $max_depth = 20;
-    sub not_too_deep {
-        if ($Data::Walk::depth > $max_depth) {
-        return ();
-        } else {
-        return @_;
+    #===|| subs {{{3
+    sub removeKey {
+        my $arg   = shift @_;
+        my $key   = shift @_;
+        my $key2   = shift @_;
+        my $index = shift @_;
+        my $hash  = shift @_;
+        if ( ($index % 2 == 0) and $arg eq 'SERIES') {
+             my $hash = $Data::Walk::container;
+             my @stories;
+             for my $part ($hash->{$key}->@*) {
+                 push @stories, $part->{$key2}->@*;
+             }
+             unless (exists $hash->{$key2}) {$hash->{$key2} = []}
+             push $hash->{$key2}->@*, @stories;
+             delete $hash->{$key};
         }
     }
-    my @array;
-    sub do_something {
-        #NOTE: $Data::Walk::index is even then $_ is a hash key. If it is odd, then $_ is a hash value.
-        #print "---------------\n";
+
+    sub filter {
+        my $arg   = shift @_;
+        my $key   = shift @_;
+        my $index = shift @_;
+        my $hash  = shift @_;
+        my $sub0   = shift @_;
+        if ( ($index % 2 == 0) and $arg eq $key) {
+             $hash->{$arg} = $sub0->($hash->{$arg});
+        }
+    }
+
+    sub deleteKey {
+        my $arg   = shift @_;
+        my $key   = shift @_;
+        my $index = shift @_;
+        my $hash  = shift @_;
+        if ( ($index % 2 == 0) and $arg eq $key) {
+             delete $hash->{$arg};
+        }
+    }
+
+    sub post {
+       #print Dumper @_;
+       #print $Data::Walk::depth,"\n";
+    }
+
+    sub pre {
+        #print Dumper @_;
+        #print $Data::Walk::depth,"\n";
+        if ($Data::Walk::depth > 20) { return () }
+        else                         { return @_ }
+    }
+
+    sub sort_Keys {
+        my $arg   = shift @_;
+        my $key   = shift @_;
+        my $key2  = shift @_;
+        my $index = shift @_;
+        my $hash  = shift @_;
+        if ( ($index % 2 == 0) and $arg eq $key) {
+             $hash->{$key} = [ sort { $a->{$key2} cmp $b->{$key2} } $hash->{$key}->@* ];
+        }
+    }
+
+
+    sub sort_All_Keys {
+        my $key = shift @_;
+        my $index = shift @_;
+        my $hash  = shift @_;
+        if ( ($index % 2) == 0 and ref $hash->{$key} eq 'ARRAY') {
+            my $obj = getLvlObj($data, $hash->{$key}->[0]);
+            $hash->{$key} = [ sort {
+                lc $a->{$obj} cmp lc $b->{$obj};
+            } $hash->{$key}->@* ];
+        }
+    }
+    #}}}
+    #===|| walker() {{{3
+    sub walker {
         if ($Data::Walk::type eq 'HASH') {
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'SERIES') {
+            sort_Keys($_, 'STORIES','title', $Data::Walk::index, $Data::Walk::container);
+            #removeKey( $_, 'SERIES', 'STORIES', $Data::Walk::index, $Data::Walk::container);
+            #removeKey( $_, 'AUTHORS', 'STORIES', $Data::Walk::index, $Data::Walk::container);
+            deleteKey( $_, 'TAGS', $Data::Walk::index, $Data::Walk::container);
+            deleteKey( $_, 'DESCRIPTIONS', $Data::Walk::index, $Data::Walk::container);
+            deleteKey( $_, 'LN', $Data::Walk::index, $Data::Walk::container);
+            #deleteKey( $_, 'URLS', $Data::Walk::index, $Data::Walk::container);
+            deleteKey( $_, 'raw', $Data::Walk::index, $Data::Walk::container);
+            filter( $_, 'url', $Data::Walk::index, $Data::Walk::container, $sub);
+        }
+    }
+    #}}}
+    #===|| walker3() {{{3
+    sub walker3 {
+        if ($Data::Walk::type eq 'HASH') {
+            sort_All_Keys($_,$Data::Walk::index, $Data::Walk::container);
+        }
+    }
+    #}}}
+    #===|| walker4() {{{3
+    sub walker4 {
+        if ($Data::Walk::type eq 'HASH') {
+            sort_All_Keys($_,$Data::Walk::index, $Data::Walk::container);
+        }
+    }
+    #}}}
+    #===|| slicer() {{{3
+    sub slicer {
+        state $reff;
+        if ($Data::Walk::type eq 'HASH') {
+            sort_Keys($_, 'STORIES','title', $Data::Walk::index, $Data::Walk::container);
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'reff') {
                  my $hash = $Data::Walk::container;
-                 my @stories;
-                 for my $part ($hash->{SERIES}->@*) {
-                     push @stories, $part->{STORIES}->@*;
-                 }
-                 unless (exists $hash->{STORIES}) {$hash->{STORIES} = []}
-                 push $hash->{STORIES}->@*, @stories;
-                 delete $hash->{SERIES};
+                 $reff = $hash->{reff};
+                 $reff->{slice} = [];
             }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'TAGS') {
+            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'author') {
                  my $hash = $Data::Walk::container;
-                 delete $hash->{TAGS};
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'DESCRIPTIONS') {
-                 my $hash = $Data::Walk::container;
-                 delete $hash->{DESCRIPTIONS};
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'LN') {
-                 my $hash = $Data::Walk::container;
-                 delete $hash->{LN};
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'raw') {
-                 my $hash = $Data::Walk::container;
-                 delete $hash->{raw};
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'url') {
-                 my $hash = $Data::Walk::container;
-                 $hash->{url} = $sub->($hash->{url});
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'point') {
-                 my $hash = $Data::Walk::container;
-                 push @array, $hash->{point};
-                 delete $hash->{point};
+                 push $reff->{slice}->@*, $hash->{STORIES}->@*;
             }
         }
     }
-    walkdepth { wanted => \&do_something, preprocess => \&not_too_deep }, $masterbin;
-    print $_,"\n" for sort {$a cmp $b} uniq(@array);
-    @array = ();
-    walkdepth { wanted => \&do_something, preprocess => \&not_too_deep }, $catalog;
-    print $_,"\n" for sort {$a cmp $b} uniq(@array);
+    #}}}
+
+    walkdepth { wanted => \&walker, preprocess => \&pre, postprocess => \&post }, $masterbin;
+    walkdepth { wanted => \&walker, preprocess => \&pre, postprocess => \&post }, $catalog;
+    walk      { wanted => \&walker3}, $masterbin->{contents};
+    walk      { wanted => \&walker3}, $catalog->{contents};
+
+    my $masterbin_slice;
+    my $catalog_slice;
+    my $var = 0;
+    if ($var == 1) {
+
+        walk { wanted => \&slicer, preprocess => \&pre, postprocess => \&post }, $masterbin;
+            $masterbin_slice = $masterbin->{slice};
+        walk { wanted => \&slicer, preprocess => \&pre, postprocess => \&post }, $catalog;
+            $catalog_slice   = $catalog->{slice};
+
+        $masterbin_slice = [ sort {$a->{title} cmp $b->{title}} $masterbin_slice->@* ];
+        $catalog_slice   = [ sort {$a->{title} cmp $b->{title}} $catalog_slice->@* ];
+    }
+    else {
+        $masterbin_slice = $masterbin->{contents};
+        $catalog_slice   =  $catalog->{contents};
+    }
+
+    walk { wanted => \&walker3}, $masterbin->{contents};
+    walk { wanted => \&walker3}, $catalog->{contents};
+
 
 use Deep::Hash::Utils;
+    my @array_0;
+    my @array_1;
     {
       local $\ = "\n";
-      while (my @list = Deep::Hash::Utils::reach($masterbin)) {
-          print "@list";
+      while (my @list = Deep::Hash::Utils::reach($catalog_slice)) {
+         push @array_0, grep {$_ =~ 'raw'} (join ' ',@list);
+         my $list_0 =  "0 @list";
+         #print $list_0;
+
+      }
+      while (my @list = Deep::Hash::Utils::reach($masterbin_slice)) {
+         push @array_1, grep {$_ =~ 'raw'} (join ' ',@list);
+         my $list_1 =  "1 @list";
+         #print $list_1;
       }
     }
 
+
+
+use Array::Diff;
+    @array_0 = sort {substr($a,2) cmp substr($b,2)} @array_0;
+    @array_1 = sort {substr($a,2) cmp substr($b,2)} @array_1;
+    my $diff =  Array::Diff->diff(\@array_0, \@array_1);
+    #print Dumper $diff;
+
+
 use Hash::Diff;
-    #my %c = %{ Hash::Diff::diff( $data->{hash}->[0], $data->{hash}->[1] ) };
-    #print Dumper \%c;
+    $catalog = $catalog_slice;
+    $masterbin = $masterbin_slice;
+    #my %c = %{ Hash::Diff::diff( {a => $masterbin}, {a => $catalog} ) };
+    #    print Dumper \%c;
 
 use Data::Search;
     #$Data::Dumper::Useqq=1;
@@ -204,25 +312,25 @@ use Data::Search;
 
 use Data::Find;
 
-# subroutines {{{1
+# SUBROUTINES {{{1
 #------------------------------------------------------
 
 #===| init() {{{2
 sub init {
     my $data = shift @_;
     $data->{hash} = [ map { getJson($_) } $data->{hash}->@* ];
-    $data->{dspt} = {
+    $data->{dspt} = getJson($data->{dspt});
+    $data->{external} = {
         map {
           $_ =~ m/(\w+)\.json$/;
-          my $key = $1;
-          $key => getJson($_); } $data->{dspt}->@*
+          $1 => getJson($_);
+        } $data->{external}->@*
     };
     return $data;
 
 }
 
 
-#------------------------------------------------------
 #===| delegate() {{{2
 sub delegate {
 
@@ -287,8 +395,8 @@ sub getAllValuesForKey {
     my $ARGS        = shift @_;
     my $hash        = $ARGS->{hash};
     my $sliceEnable = $ARGS->{sliceEnable};
-    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
-    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
+    my $obj_0       = getGroupName($data, $ARGS->{obj_0});
+    my $obj_1       = getGroupName($data, $ARGS->{obj_1});
     my $matches;
 
     ##  HASH?
@@ -302,7 +410,6 @@ sub getAllValuesForKey {
                     for my $part (@catch) {
                         for my $key (keys $part->%*) {
                             if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                            elsif ($key eq 'point')              { delete $part->{$key} }
                         }
                     }
                 }
@@ -320,7 +427,6 @@ sub getAllValuesForKey {
                         );
                         for my $key (keys $part->%*) {
                             if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                            elsif ($key eq 'point')              { delete $part->{$key} }
                         }
                         $part->{$obj_1} = $childs;
                     }
@@ -378,8 +484,8 @@ sub biFlat {
     my $data  = shift @_;
     my $ARGS  = shift @_;
     my $hash  = $ARGS->{list};
-    my $obj_0       = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
-    my $obj_1       = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
+    my $obj_0       = getGroupName($data, $ARGS->{obj_0});
+    my $obj_1       = getGroupName($data, $ARGS->{obj_1});
 
     my $flatHash = [];
     my $parentObj = getObjFromGroupNameKey($data, $obj_0);
@@ -399,23 +505,23 @@ sub getDiffs {
     my $data     = shift @_;
     my $ARGS     = shift @_;
     my $hashList = $ARGS->{hashList};
-    my $obj_0    = getName($ARGS->{obj_0}, $data->{dspt}->{deimos});
-    my $obj_1    = getName($ARGS->{obj_1}, $data->{dspt}->{deimos});
+    my $obj_0    = getGroupName($data, $ARGS->{obj_0});
+    my $obj_1    = getGroupName($data, $ARGS->{obj_1});
     my $sub_0    = $ARGS->{sub_0};
 
-    my $ind_0 = 0;
-    my @parts_0 = @{ dclone($hashList->[0]) };
-    my @parts_1 = @{ dclone($hashList->[1]) };
 
     my $child;
     if ($obj_1) { $child  = getObjFromGroupNameKey($data, $obj_1); }
     else        { $child  = getObjFromGroupNameKey($data, $obj_0); }
 
-    @parts_0 = sort { $a->{$child} cmp $b->{$child} } @parts_0;
-    @parts_1 = sort { $a->{$child} cmp $b->{$child} } @parts_1;
+    my $ind_0 = 0;
+    my @parts_0 = @{ dclone($hashList->[0]) };
+    #@parts_0 = sort { $a->{$child} cmp $b->{$child} } @parts_0;
     for my $part_0 (@parts_0) {
 
         my $ind_1 = 0;
+        my @parts_1 = @{ dclone($hashList->[1]) };
+        #@parts_1 = sort { $a->{$child} cmp $b->{$child} } @parts_1;
         for my $part_1  (@parts_1) {
             my @match;
             if ($obj_1) {
@@ -535,6 +641,218 @@ sub formatToSTDOUT {
 
 # UTILITIES {{{1
 #------------------------------------------------------
+
+#===| getObj() {{{2
+sub getObj {
+    # return OBJECT_KEY at current point
+    # return '0' if CURRENT_POINT doesn't exist!
+    # return '0' if OBJECT_KEY doesn't exist for CURRENT_POINT!
+
+    my $data      = shift @_;
+    my $dspt      = $data->{dspt};
+    my $point     = $data->{point};
+    my $pointStr  = join( '.', $point->@* );
+
+    if ($pointStr eq '') { die("pointStr cannot be an empty string! In ${0} at line: ".__LINE__) }
+    else {
+        my @match = grep { $dspt->{$_}->{order} =~ /^$pointStr$/ } keys $dspt->%*;
+
+        unless ($match[0])         { return 0 }
+        elsif  (scalar @match > 1) { die("more than one objects have the point: \'${pointStr}\'! In ${0} at line: ".__LINE__) }
+        else                       { return $match[0] }
+    }
+
+}
+
+
+#===| getObjFromUniqeKey() {{{2
+sub getObjFromUniqeKey {
+  my $data = shift @_;
+  my $key  = shift @_;
+
+  if    (exists $data->{dspt}->{$key})        { return $data->{dspt}->{$key}->{order} }
+  elsif (getObjFromGroupNameKey($data, $key)) { return $data->{dspt}->{getObjFromGroupNameKey($data, $key)}->{order} }
+  else                                        { return 0 }
+}
+
+
+#===| getObjFromGroupNameKey() {{{2
+sub getObjFromGroupNameKey {
+    # return GROUP_NAME if it is an OBJECT_KEY
+    # return OBJECT_KEY that contains GROUP_NAME
+    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
+    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
+
+    my $data      = shift @_;
+    my $dspt      = $data->{dspt};
+    my $groupName = shift @_;
+
+    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
+    if (scalar @keys) {
+        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
+        if ($match[0]) { return $match[0] }
+        else { return 0 }
+    }
+    else { return 0 }
+}
+
+
+#===| getLvlObj {{{2
+sub getLvlObj {
+    my $data = shift @_;
+    my $hash = shift @_;
+    for (keys $hash->%*) {
+         if ( exists $data->{dspt}->{$_} ) {return $_}
+    }
+}
+
+
+#===| getGroupName() {{{2
+sub getGroupName {
+    # return GROUP_NAME at current point.
+    # return 'getObj()' if GROUP_NAME doesn't exist!
+
+    my $data      = shift @_;
+    my $obj      = shift @_;
+    my $dspt      = $data->{dspt};
+    if ($obj) {
+        my $groupName = exists ($dspt->{$obj}->{groupName}) ? $dspt->{$obj}->{groupName}
+                                                            : $obj;
+        unless ($groupName) { die("groupName was returned empty or '0'! In ${0} at line: ".__LINE__) }
+        return $groupName;
+    }
+    else { return 0 }
+
+}
+
+
+#===| getPointStr() {{{2
+sub getPointStr {
+    # return CURRENT POINT
+    # return '0' if poinStr is an empty string!
+
+    my $data = shift @_;
+    my $pointStr = join('.', $data->{point}->@*);
+    return ($pointStr ne '') ? $pointStr
+                             : 0;
+}
+
+
+#===| genPointStrForRedundantKey() {{{2
+sub genPointStrForRedundantKey {
+    # return 'pointStr' if 'key' is an 'objKey'
+    # die if 'pointStr' is '0' or doesn't exist!
+    # return '0' if 'objKey' doesn't exist!
+
+    my $data   = shift @_;
+    my $key    = shift @_;
+    my $hash   = shift @_; # single level hash, only needed for Attributes
+                           # and Reserved Keys
+
+    ## Set 'data->{point}'
+    my $lvlObj =  getLvlObj($data, $hash);
+    $data->{point} = [split /\./, $data->{dspt}->{$lvlObj}->{order}];
+
+    my $pointStr     = getPointStr($data);
+    my $hashObjKey   = getObj($data);
+    my $hashDsptReff = $data->{dspt}->{$hashObjKey};
+
+    ## ATTRIBUTES
+    if (exists $hashDsptReff->{attributes}->{$key}) {
+
+        my $attributeDsptReff = $hashDsptReff->{attributes}->{$key};
+        my $cnt;
+
+        if (exists $attributeDsptReff->[1]) { $cnt = $attributeDsptReff->[1] }
+        else                                { $cnt = 1 }
+
+        for (my $i = 1; $i <= $cnt; $i++)   { $pointStr = changePointStrInd($pointStr, 1) }
+
+        unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+        return $pointStr;
+    }
+
+    ## RESERVED KEYS
+    #elsif (isReservedKey($key)) {
+    elsif (1) {
+        if ($key eq 'raw')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.1' }
+        if ($key eq 'LN')    { $pointStr = '5.1.1.1.1.1.1.1.1.1.2' }
+        if ($key eq 'point') { $pointStr = '5.1.1.1.1.1.1.1.1.1.3' }
+        if ($key eq 'libName')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.4' }
+        unless ($pointStr)   { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+        return $pointStr;
+    }
+
+    ## INVALID KEY
+    else {}
+}
+
+
+#===| changePointLvl() {{{2
+sub changePointLvl {
+
+    my $point = shift @_;
+    my $op    = shift @_;
+
+    if ($op) { push $point->@*, 1 }
+    else     { pop $point->@*, 1 }
+
+    return $point;
+
+}
+
+
+#===| changePointStrInd() {{{2
+sub changePointStrInd {
+
+    my $pointStr = ($_[0] ne '') ? $_[0]
+                                 : { die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__) };
+    my @point    = split /\./, $pointStr;
+    my $op       = $_[1];
+
+    if ($op) { $point[-1]++ }
+    else     { $point[-1]-- }
+
+    $pointStr = join '.', @point;
+    return $pointStr;
+}
+
+
+#===| cmpKeys() {{{2
+sub cmpKeys {
+  my $data  = shift @_;
+  my $key_a = shift @_;
+  my $key_b = shift @_;
+  my $hash  = shift @_;
+
+  my $pointStr_a = getObjFromUniqeKey($data, $key_a);
+  my $pointStr_b = getObjFromUniqeKey($data, $key_b);
+
+  unless ($pointStr_a) { $pointStr_a = genPointStrForRedundantKey( $data, $key_a, $hash) }
+  unless ($pointStr_b) { $pointStr_b = genPointStrForRedundantKey( $data, $key_b, $hash) }
+
+  return $pointStr_a cmp $pointStr_b;
+}
+
+
+
+
+# MISC {{{1
+#------------------------------------------------------
+
+
+#===| getJson() {{{2
+sub getJson {
+    my $fname = shift @_;
+    my $hash = do {
+        open my $fh, '<', $fname;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $hash
+}
+
+
 #===| filter() {{{2
 sub genFilter {
     my $ARGS    = shift @_;
@@ -552,50 +870,39 @@ sub genFilter {
 }
 
 
-#===| getObjFromGroupNameKey() {{{2
-sub getObjFromGroupNameKey {
-    # return GROUP_NAME if it is an OBJECT_KEY
-    # return OBJECT_KEY that contains GROUP_NAME
-    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
-    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
-
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt}->{deimos};
-    my $groupName = shift @_;
-
-    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
-    if (scalar @keys) {
-        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
-        if ($match[0]) { return $match[0] }
-        else { return 0 }
-    }
-    else { return 0 }
-}
-
-
-#===| getJson() {{{2
-sub getJson {
-    my $fname = shift @_;
-    my $hash = do {
-        open my $fh, '<', $fname;
-        local $/;
-        decode_json(<$fh>);
-    };
-    return $hash
-}
-
-
-#===| getName() {{{2
-sub getName {
-    my $obj  = shift @_;
-    if ($obj) {
-        my $dspt = shift @_;
-        my $name = $dspt->{$obj}->{groupName};
-        return ($name) ? $name
-                       : $obj;
-    }
-    else { return 0 }
-}
-
-
-
+# NOTES {{{1
+#------------------------------------------------------
+#{
+#  obj => '',
+#  groupName => [...],
+#  groupName1 => [...],
+#  groupName2 => [...],
+#  meta => '',
+#}
+#  keys $a == keys $b
+#  $a->{$obj} == $b->{$obj}
+#  $a->{meta} == $b->{meta}
+#
+#
+#[
+#  {$obj},
+#  'scalar',
+#]
+#  @a == @b
+#  $a->[$ind]->$obj == $b->[$ind]->$obj
+#  $a->[$ind]->{$key} == $b->[$ind]->{$key}
+#
+#meta
+#  keys $a == keys $b
+#  values $a == values $b
+#    if scalar
+#        $meta_a->{$a} == keys $meta_b->{$b}
+#    if ref 'ARRAY'
+#        @a == @b
+#    if ref 'HASH'
+#        $meta_a->{$a} == keys $meta_b->{$b}
+#
+#ERRORS
+#- $a != $b
+#- $a = $b->{$key}
+#- $a = $c->[0]->{$key} && $a == $b
