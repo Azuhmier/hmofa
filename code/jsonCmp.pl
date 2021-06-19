@@ -43,67 +43,67 @@ my $data = init({
 
 
 # ===| simple listing {{{2
-delegate(
-    $data,
-    {
-        objs => ['series'],
-        process => {
-            disableDiffs => 1,
-        },
-    },
-);
+#delegate(
+#    $data,
+#    {
+#        objs => ['series'],
+#        process => {
+#            disableDiffs => 1,
+#        },
+#    },
+#);
 
 
 # ===| relative listing {{{2
-delegate(
-    $data,
-    {
-        objs => ['author', 'title'],
-        process => {
-            disableDiffs => 1,
-        },
-    },
-);
-
+#delegate(
+#    $data,
+#    {
+#        objs => ['author', 'title'],
+#        process => {
+#            disableDiffs => 1,
+#        },
+#    },
+#);
+#
 
 # ===| using external data: gitIO.json {{{2
-delegate(
-    $data,
-    {
-        objs  => ['url'],
-        sub_0 => genFilter({
-                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-                    dspt    => $data->{external}->{gitIO},
-        }),
-        process => {
-            disableDiffs => 1,
-        },
-    },
-);
-
-delegate(
-    $data,
-    {
-        objs  => ['title', 'url'],
-        sub_0 => genFilter({
-                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-                    dspt    => $data->{external}->{gitIO},
-        }),
-        process => {
-            disableDiffs => 1,
-        },
-    },
-);
-
+#delegate(
+#    $data,
+#    {
+#        objs  => ['url'],
+#        sub_0 => genFilter({
+#                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+#                    dspt    => $data->{external}->{gitIO},
+#        }),
+#        process => {
+#            disableDiffs => 1,
+#        },
+#    },
+#);
+#
+#delegate(
+#    $data,
+#    {
+#        objs  => ['title', 'url'],
+#        sub_0 => genFilter({
+#                    pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+#                    dspt    => $data->{external}->{gitIO},
+#        }),
+#        process => {
+#            disableDiffs => 1,
+#        },
+#    },
+#);
+#
 
 # ===| TEST {{{2
 
-my $catalog   = $data->{hash}->[0]->{SECTIONS}->[1]->{ getGroupName($data, 'author') };
+my $catalog   = $data->{hash}->[0]->{SECTIONS}->[1];
     my $catalog_contents = dclone $catalog;
     $catalog = {};
     $catalog->{contents}=$catalog_contents;
     $catalog->{reff}=$catalog;
-my $masterbin = $data->{hash}->[1]->{AUTHORS};
+my $masterbin = $data->{hash}->[1];
     my $masterbin_contents = dclone $masterbin;
     $masterbin = {};
     $masterbin->{contents} = $masterbin_contents;
@@ -120,7 +120,7 @@ use Data::Walk;
         my $key2   = shift @_;
         my $index = shift @_;
         my $hash  = shift @_;
-        if ( ($index % 2 == 0) and $arg eq 'SERIES') {
+        if ( ($index % 2 == 0) and $arg eq $key) {
              my $hash = $Data::Walk::container;
              my @stories;
              for my $part ($hash->{$key}->@*) {
@@ -131,7 +131,6 @@ use Data::Walk;
              delete $hash->{$key};
         }
     }
-
     sub filter {
         my $arg   = shift @_;
         my $key   = shift @_;
@@ -142,7 +141,6 @@ use Data::Walk;
              $hash->{$arg} = $sub0->($hash->{$arg});
         }
     }
-
     sub deleteKey {
         my $arg   = shift @_;
         my $key   = shift @_;
@@ -152,169 +150,108 @@ use Data::Walk;
              delete $hash->{$arg};
         }
     }
-
-    sub post {
-       #print Dumper @_;
-       #print $Data::Walk::depth,"\n";
-    }
-
-    sub pre {
-        #print Dumper @_;
-        #print $Data::Walk::depth,"\n";
-        if ($Data::Walk::depth > 20) { return () }
-        else                         { return @_ }
-    }
-
-    sub sort_Keys {
-        my $arg   = shift @_;
-        my $key   = shift @_;
-        my $key2  = shift @_;
-        my $index = shift @_;
-        my $hash  = shift @_;
-        if ( ($index % 2 == 0) and $arg eq $key) {
-             $hash->{$key} = [ sort { $a->{$key2} cmp $b->{$key2} } $hash->{$key}->@* ];
-        }
-    }
-
-
     sub sort_All_Keys {
         my $key = shift @_;
         my $index = shift @_;
         my $hash  = shift @_;
         if ( ($index % 2) == 0 and ref $hash->{$key} eq 'ARRAY') {
-            my $obj = getLvlObj($data, $hash->{$key}->[0]);
-            $hash->{$key} = [ sort {
-                lc $a->{$obj} cmp lc $b->{$obj};
-            } $hash->{$key}->@* ];
+            my $checkobj = getLvlObj($data, $hash->{$key}->[0]);
+            if ($checkobj) {
+                $hash->{$key} = [ sort {
+                    my $obj_a = getLvlObj($data, $a);
+                    my $obj_b = getLvlObj($data, $b);
+                    if ($obj_a ne $obj_b) {
+                        lc $data->{dspt}->{$obj_a}->{order} cmp lc $data->{dspt}->{$obj_b}->{order}
+                    } else {
+                        lc $a->{$obj_a} cmp lc $b->{$obj_b}
+                    }
+                } $hash->{$key}->@* ];
+            }
         }
     }
     #}}}
-    #===|| walker() {{{3
+
     sub walker {
         if ($Data::Walk::type eq 'HASH') {
-            sort_Keys($_, 'STORIES','title', $Data::Walk::index, $Data::Walk::container);
-            #removeKey( $_, 'SERIES', 'STORIES', $Data::Walk::index, $Data::Walk::container);
-            #removeKey( $_, 'AUTHORS', 'STORIES', $Data::Walk::index, $Data::Walk::container);
-            deleteKey( $_, 'TAGS', $Data::Walk::index, $Data::Walk::container);
-            deleteKey( $_, 'DESCRIPTIONS', $Data::Walk::index, $Data::Walk::container);
             deleteKey( $_, 'LN', $Data::Walk::index, $Data::Walk::container);
-            #deleteKey( $_, 'URLS', $Data::Walk::index, $Data::Walk::container);
             deleteKey( $_, 'raw', $Data::Walk::index, $Data::Walk::container);
             filter( $_, 'url', $Data::Walk::index, $Data::Walk::container, $sub);
         }
     }
-    #}}}
-    #===|| walker3() {{{3
+    sub walker2 {
+        if ($Data::Walk::type eq 'HASH') {
+            deleteKey( $_, 'LN', $Data::Walk::index, $Data::Walk::container);
+            deleteKey( $_, 'raw', $Data::Walk::index, $Data::Walk::container);
+            #deleteKey( $_, 'URLS', $Data::Walk::index, $Data::Walk::container);
+            #deleteKey( $_, 'TAGS', $Data::Walk::index, $Data::Walk::container);
+            #removeKey( $_, 'SERIES', 'STORIES', $Data::Walk::index, $Data::Walk::container);
+            filter( $_, 'url', $Data::Walk::index, $Data::Walk::container, $sub);
+        }
+    }
     sub walker3 {
         if ($Data::Walk::type eq 'HASH') {
-            sort_All_Keys($_,$Data::Walk::index, $Data::Walk::container);
+            sort_All_Keys($_, $Data::Walk::index, $Data::Walk::container);
         }
     }
-    #}}}
-    #===|| walker4() {{{3
-    sub walker4 {
-        if ($Data::Walk::type eq 'HASH') {
-            sort_All_Keys($_,$Data::Walk::index, $Data::Walk::container);
-        }
-    }
-    #}}}
-    #===|| slicer() {{{3
-    sub slicer {
-        state $reff;
-        if ($Data::Walk::type eq 'HASH') {
-            sort_Keys($_, 'STORIES','title', $Data::Walk::index, $Data::Walk::container);
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'reff') {
-                 my $hash = $Data::Walk::container;
-                 $reff = $hash->{reff};
-                 $reff->{slice} = [];
-            }
-            if ( ($Data::Walk::index % 2 == 0) and $_ eq 'author') {
-                 my $hash = $Data::Walk::container;
-                 push $reff->{slice}->@*, $hash->{STORIES}->@*;
-            }
-        }
-    }
-    #}}}
+    walkdepth { wanted => \&walker}, $masterbin->{contents};
+    walkdepth { wanted => \&walker2}, $catalog->{contents};
 
-    walkdepth { wanted => \&walker, preprocess => \&pre, postprocess => \&post }, $masterbin;
-    walkdepth { wanted => \&walker, preprocess => \&pre, postprocess => \&post }, $catalog;
     walk      { wanted => \&walker3}, $masterbin->{contents};
     walk      { wanted => \&walker3}, $catalog->{contents};
 
-    my $masterbin_slice;
-    my $catalog_slice;
-    my $var = 0;
-    if ($var == 1) {
-
-        walk { wanted => \&slicer, preprocess => \&pre, postprocess => \&post }, $masterbin;
-            $masterbin_slice = $masterbin->{slice};
-        walk { wanted => \&slicer, preprocess => \&pre, postprocess => \&post }, $catalog;
-            $catalog_slice   = $catalog->{slice};
-
-        $masterbin_slice = [ sort {$a->{title} cmp $b->{title}} $masterbin_slice->@* ];
-        $catalog_slice   = [ sort {$a->{title} cmp $b->{title}} $catalog_slice->@* ];
-    }
-    else {
-        $masterbin_slice = $masterbin->{contents};
-        $catalog_slice   =  $catalog->{contents};
-    }
-
-    walk { wanted => \&walker3}, $masterbin->{contents};
-    walk { wanted => \&walker3}, $catalog->{contents};
-
-
-use Deep::Hash::Utils;
-    my @array_0;
-    my @array_1;
-    {
-      local $\ = "\n";
-      while (my @list = Deep::Hash::Utils::reach($catalog_slice)) {
-         push @array_0, grep {$_ =~ 'raw'} (join ' ',@list);
-         my $list_0 =  "0 @list";
-         #print $list_0;
-
-      }
-      while (my @list = Deep::Hash::Utils::reach($masterbin_slice)) {
-         push @array_1, grep {$_ =~ 'raw'} (join ' ',@list);
-         my $list_1 =  "1 @list";
-         #print $list_1;
-      }
-    }
-
-
-
-use Array::Diff;
-    @array_0 = sort {substr($a,2) cmp substr($b,2)} @array_0;
-    @array_1 = sort {substr($a,2) cmp substr($b,2)} @array_1;
-    my $diff =  Array::Diff->diff(\@array_0, \@array_1);
-    #print Dumper $diff;
-
-
-use Hash::Diff;
-    $catalog = $catalog_slice;
-    $masterbin = $masterbin_slice;
-    #my %c = %{ Hash::Diff::diff( {a => $masterbin}, {a => $catalog} ) };
-    #    print Dumper \%c;
-
-use Data::Search;
-    #$Data::Dumper::Useqq=1;
-    #$Data::Dumper::Terse=1;
-    #for my $wanted ( qw( point ) ) {
-    #    my @results = Data::Search::datasearch(
-    #        data   => $data->{hash}->[0],
-    #        search => 'keys',
-    #        find   => qr{ \A $wanted \z }msx,
-    #        return => 'container',
-    #    );
-    #
-    #    #print "Found key '$wanted' in these hashrefs: ", Dumper @results;
-    #}
-
-use Data::Find;
+    combine($data, $catalog, $catalog);
 
 # SUBROUTINES {{{1
 #------------------------------------------------------
+#===| combine() {{{2
+sub combine {
+    my $data   = shift @_;
+    my $hash_0 = shift @_;
+    my $hash_1 = shift @_;
+    #my $sub = \&walker4;
+    $data->{reff} = [$hash_1->{contents}];
+    $Data::Dumper::Maxdepth=2;
 
+    my $sub = sub {
+        no warnings 'uninitialized';
+        my $item      = $_;
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $container = $Data::Walk::container;
+        my $depth     = $Data::Walk::depth;
+        my $lvl       = $depth-2;
+        unless ($depth == 1) {
+            if ($type eq 'HASH') {
+                if ($index % 2 == 0) {
+                    my $lvlReff = $data->{reff}->[$lvl];
+                    print "--------\n";
+                    print " Item: $item\n";
+                    print "  lvl: $lvl $type\n";
+                    print "  Obj: ".getLvlObj($data, $container)."\n";
+                    print "  Obj: ".getLvlObj($data, $lvlReff)."\n";
+                    print "thing1: $container->{getLvlObj($data, $container)}\n";
+                    print "thing2: $lvlReff->{getLvlObj($data, $lvlReff)}\n";
+                    print "Index: ".($index)."\n";
+                    $data->{reff}->[$lvl+1] = $data->{reff}->[$lvl]->{$_};
+                }
+            } elsif ($type eq 'ARRAY') {
+                my $lvlReff = $data->{reff}->[$lvl];
+                print "--------\n";
+                print "  lvl: $lvl $type\n";
+                print " Item: $item\n";
+                print "  Obj: ".getLvlObj($data, $item)."\n";
+                print " Obj2: ".getLvlObj($data, $lvlReff->[$index])."\n";
+                print " thing1: $container->[$index]\n";
+                print " thing2: $lvlReff->[$index]\n";
+                print "  lvl: $lvl\n";
+                print "Index: ".($index)."\n";
+                $data->{reff}->[$lvl+1] = $data->{reff}->[$lvl]->[$index];
+            } else { }
+        }
+        $data->{lvl}=$lvl;
+    };
+    walk { wanted => $sub }, $hash_0->{contents};
+}
 #===| init() {{{2
 sub init {
     my $data = shift @_;
@@ -701,8 +638,10 @@ sub getObjFromGroupNameKey {
 sub getLvlObj {
     my $data = shift @_;
     my $hash = shift @_;
-    for (keys $hash->%*) {
-         if ( exists $data->{dspt}->{$_} ) {return $_}
+    if (ref $hash eq 'HASH') {
+        for (keys $hash->%*) {
+             if ( exists $data->{dspt}->{$_} ) {return $_}
+        }
     }
 }
 

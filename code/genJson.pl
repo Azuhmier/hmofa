@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 #============================================================
 #
-#         FILE: tags3.pl
-#        USAGE: perl ./tags3.pl
+#         FILE: genJson.pl
+#        USAGE: perl ./genJson.pl
 #   DESCRIPTION: ---
 #        AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
 #===========================================================
@@ -541,8 +541,10 @@ sub getObjFromGroupNameKey {
 sub getLvlObj {
     my $data = shift @_;
     my $hash = shift @_;
-    for (keys $hash->%*) {
-         if ( exists $data->{dspt}->{$_} ) {return $_}
+    if (ref $hash eq 'HASH') {
+        for (keys $hash->%*) {
+             if ( exists $data->{dspt}->{$_} ) {return $_}
+        }
     }
 }
 
