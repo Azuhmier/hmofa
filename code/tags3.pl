@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 #============================================================
 #
-#         FILE: genJson.pl
-#        USAGE: perl ./genJson.pl
+#         FILE: tags3.pl
+#        USAGE: perl ./tags3.pl
 #   DESCRIPTION: ---
 #        AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
 #===========================================================
@@ -13,6 +13,8 @@ use Storable qw(dclone);
 use JSON::PP;
 use YAML;
 use XML::Simple;
+#use Hash::Ordered;
+#use List::Util;
 
 #  Assumptions
 #    - all first level dspt keys and their group names are unique
@@ -683,33 +685,33 @@ sub cmpKeys {
 #===| init() {{{2
 sub init {
 
-  my $data = shift @_;
-  mes("Starting INIT", $data, 0, 0, 1);
+    my $data = shift @_;
+    mes("Starting INIT", $data, 0, 0, 1);
 
-  ## Argument Checks
-  unless ($data->{fileNames}->{fname}) { die("User did not provide 'fname' argument! In ${0} at line: ".__LINE__)}
-  unless ($data->{fileNames}->{dspt})  { die("User did not provide 'dspt' argument! In ${0} at line: ".__LINE__)}
+    ## Argument Checks
+    unless ($data->{fileNames}->{fname}) { die("User did not provide 'fname' argument! In ${0} at line: ".__LINE__)}
+    unless ($data->{fileNames}->{dspt})  { die("User did not provide 'dspt' argument! In ${0} at line: ".__LINE__)}
 
-  ## Initiate variables
-  unless (exists $data->{point}) {$data->{point} = [1]}
-  else   {warn "WARNING!: 'point' is already defined by user! In ${0} at line: ".__LINE__}
+    ## Initiate variables
+    unless (exists $data->{point}) {$data->{point} = [1]}
+    else   {warn "WARNING!: 'point' is already defined by user! In ${0} at line: ".__LINE__}
 
-  unless (exists $data->{result}) {$data->{result} = {libName => $data->{name}}}
-  else   {warn "WARNING!: 'result' is already defined by user! In ${0} at line: ".__LINE__}
+    unless (exists $data->{result}) {$data->{result} = {libName => $data->{name}}}
+    else   {warn "WARNING!: 'result' is already defined by user! In ${0} at line: ".__LINE__}
 
-  unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
-  else   {warn "WARNING!: 'reffArray' is already defined by user! In ${0} at line: ".__LINE__}
+    unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
+    else   {warn "WARNING!: 'reffArray' is already defined by user! In ${0} at line: ".__LINE__}
 
-  unless (exists $data->{meta}) {$data->{meta} = {}}
-  else   {warn "WARNING!: 'meta' is already defined by user! In ${0} at line: ".__LINE__}
+    unless (exists $data->{meta}) {$data->{meta} = {}}
+    else   {warn "WARNING!: 'meta' is already defined by user! In ${0} at line: ".__LINE__}
 
-  ## options
-  unless ($data->{verbose})             {}
-  unless ($data->{meta})                {}
-  unless ($data->{lineNums})            {}
-  unless ($data->{fileNames}->{output}) {}
-  mes("..ok", $data, 0, 0, 1);
-  setReservedKeys($data);
+    ## options
+    unless ($data->{verbose})             {}
+    unless ($data->{meta})                {}
+    unless ($data->{lineNums})            {}
+    unless ($data->{fileNames}->{output}) {}
+    mes("..ok", $data, 0, 0, 1);
+    setReservedKeys($data);
 
 }
 
