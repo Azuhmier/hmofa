@@ -119,7 +119,7 @@ my $sub = genFilter({
 });
 
 #use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
-BEGIN { unshift(@INC, ($ENV{HOME}.'/hmofa/hmofa/code/lib')) }
+#BEGIN { unshift(@INC, ($ENV{HOME}.'/hmofa/hmofa/code/lib')) }
 use Data::Walk;
 
     sub walker {
@@ -176,6 +176,8 @@ sub combine {
       my @children = @_;
       my $lvl      = $Data::Walk::depth - 2;
       my $type     = $Data::Walk::type;
+
+      ## HASH
       if ($type eq 'HASH') {
           unless (exists $data->{pointer}) { $data->{pointer} = [0] }
           else {
@@ -190,27 +192,39 @@ sub combine {
               if ($cnt & 1) { $container->{$children[$cnt - 1]} = $part }
               $cnt++;
           }
-          print "PRE: ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*) :0)." $index $type\n";
+          my $obj = getLvlObj($data, $container);
+          print "\nPRE ".$obj."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 :0)." $index\n";
           print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
           print "  ".Dumper $lvlReff;
           print "  ".Dumper $container;
-          for my $key (keys $container->%*) {
-               if (ref $container->{$key} ne 'HASH'
-               and ref $container->{$key} ne 'ARRAY'
-               and ref $lvlReff eq 'ARRAY') {
+          #my $flag;
+          #for my $key (keys $container->%*) {
+          #     if (ref $container->{$key} ne 'HASH'
+          #     and ref $container->{$key} ne 'ARRAY'
+          #     and ref $lvlReff eq 'ARRAY') {
+          #         print "  Key_1: $key\n";
+          #         print "  Key_2: " , ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ' , "\n";
+          #         print "  Value_1: $container->{$key}\n";
+          #         print "  Value_2: $lvlReff->[$index]->{$key}\n";
+          #         $flag = 1;
+          #     }
+          #}
+          if (ref $lvlReff eq 'ARRAY') {
+                   my $key = $obj;
                    print "  Key_1: $key\n";
                    print "  Key_2: " , ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ' , "\n";
                    print "  Value_1: $container->{$key}\n";
                    print "  Value_2: $lvlReff->[$index]->{$key}\n";
-               }
           }
 
+      ## ARRAY
       } elsif ($type eq 'ARRAY') {
           my $index    = $data->{pointer}->[$lvl];
           my $lvlReff = $data->{reff}->[$lvl+1];
           my $container = [ @children ];
+          my $obj = getLvlObj($data, $container->[0]);
 
-          print "PRE: ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*) : 0)." $index $type\n";
+          print "\nPRE ".getGroupName($data,$obj)."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 : 0)." $index\n";
           print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
           print "  ".Dumper $lvlReff;
           print "  ".Dumper $container;
@@ -220,8 +234,8 @@ sub combine {
               my $obj_2 = getLvlObj($data, $lvlReff->[$cnt]);
               print "  Item1: $part\n";
               print "  Item2: $lvlReff->[$cnt]\n";
-              print "  Obj1: $obj_1\n";
-              print "  Obj1: $obj_2\n";
+              print "  Obj1: " . ($obj_1 ? $obj_1 : 'NULL')."\n";
+              print "  Obj1: " . ($obj_2 ? $obj_2 : 'NULL')."\n";
 
               my $thing1;
               if ($obj_1) {$thing1 = $container->[$cnt]->{getLvlObj($data, $container->[$cnt])}
@@ -270,11 +284,13 @@ sub combine {
               pop $data->{pointer}->@* for (0..$cnt);
             }
 
+            ## HASH
             if ($type eq 'HASH') {
                 unless ($index & 1) {
                     $data->{pointer}->[$lvl] = $index/2;
                     my $lvlReff = $data->{reff}->[$lvl];
-                    print "WANT $item $lvl ".($index/2)." in $type\n";
+                    my $obj_1 = getLvlObj($data, $container);
+                    print "\nWANT $item in $obj_1-$type $lvl ".($index/2)."\n";
                     print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
                     print "  Obj1: ".getLvlObj($data, $container)."\n";
                     print "  Obj2: ".getLvlObj($data, $lvlReff)."\n";
@@ -282,16 +298,18 @@ sub combine {
                     print "  thing2: $lvlReff->{getLvlObj($data, $lvlReff)}\n";
                     $data->{reff}->[$lvl+1] = $lvlReff->{$_};
                 }
+
+            ## ARRAY
             } elsif ($type eq 'ARRAY') {
                 $data->{pointer}->[$lvl] = $index;
                 my $lvlReff = $data->{reff}->[$lvl];
                 my $obj_1 = getLvlObj($data, $item);
                 my $obj_2 = getLvlObj($data, $lvlReff->[$index]);
-                print "WANT PART $lvl $index in $type\n";
+                print "\nWANT $obj_1 $index in ".getGroupName($data,$obj_1)."-"."$type $lvl $index\n";
                 print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
                 print "  Item: $item\n";
-                print "  Obj1: ".$obj_1."\n";
-                print "  Obj2: ".$obj_2."\n";
+                print "  Obj1: " . ($obj_1 ? $obj_1 : 'NULL')."\n";
+                print "  Obj1: " . ($obj_2 ? $obj_2 : 'NULL')."\n";
 
                 my $thing1;
                 if ($obj_1) {$thing1 = $container->[$index]->{getLvlObj($data, $container->[$index])}
