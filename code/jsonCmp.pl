@@ -153,196 +153,292 @@ use Data::Walk;
     walkdepth { wanted => \&walker2}, $catalog->{contents};
     sortHash($data,$catalog);
     sortHash($data,$masterbin);
-    #combine( $data, $catalog, $masterbin );
-    combine( $data, $catalog, $catalog );
+    combine( $data, $catalog, $masterbin );
+    #combine( $data, $catalog, $catalog );
 
 
 
 
 # SUBROUTINES {{{1
 #------------------------------------------------------
+
 #===| combine() {{{2
+# Start ''
+# Pre Hash   ''->{...}
+# Want Hash  {...}->{key_n} == ''
+# '' == ? [...] || {...} for (keys {...})
+# Pre Array  ''->[...]
+# Want Array [...]->[ind_m] == ''
+# '' == ? {...} || [...] for ([...])
+
+# Pre Array  ''->[...]                     || shift/unshift hashes
+# [...]->[n] for ([...])
+    # Pre Hash   [...]->[n]                || shift/unshift keys
+    # Want Array [...]->[n]
+    # {...}->{key} for (keys {...")
+        # Want Hash  {...}->{key_n} == ''
+
+# Pre Array  ''->[...]                     || shift/unshift hashes
+# [...]->[n] for ([...])
+    # Want ArrayPart [...]->[n]
+
+# Pre Hash   [...]->[n]                || shift/unshift keys
+# {...}->{key} for (keys {...})
+    # Want HashKey {...}->{key}
+
+# [...]->[n] for ([...])
+    # Want ArrayPart [...]->[n]
+# {...}->{key} for (keys {...})
+    # Want HashKey {...}->{key}
+
 sub combine {
     no warnings 'uninitialized';
     my $data   = shift @_;
     my $hash_0 = shift @_;
     my $hash_1 = shift @_;
-    $Data::Dumper::Maxdepth = 1;
+    $Data::Dumper::Maxdepth = 2;
     $data->{reff} = [ $hash_1->{contents} ];
 
-    # ===|| sub2->() {{{3
-    my $sub2 = sub {
+    # ===|| preprocess->() {{{3
+    my $preprocess = sub {
 
-      my @children = @_;
-      my $lvl      = $Data::Walk::depth - 2;
-      my $type     = $Data::Walk::type;
+        ##
+        my @children = @_;
+        my $lvl      = $Data::Walk::depth - 2;
+        my $type     = $Data::Walk::type;
 
-      ## HASH
-      if ($type eq 'HASH') {
-          unless (exists $data->{pointer}) { $data->{pointer} = [0] }
-          else {
-              unless (exists $data->{pointer}->[$lvl]) { $data->{pointer}->[$lvl] = 0 }
-              else                                     { $data->{pointer}->[$lvl]++ }
-          }
-          my $index    = $data->{pointer}->[$lvl];
-          my $lvlReff = $data->{reff}->[$lvl];
-          my $container;
-          my $cnt = 0;
-          for my $part (@children) {
-              if ($cnt & 1) { $container->{$children[$cnt - 1]} = $part }
-              $cnt++;
-          }
-          my $obj = getLvlObj($data, $container);
-          print "\nPRE ".$obj."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 :0)." $index\n";
-          print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
-          print "  ".Dumper $lvlReff;
-          print "  ".Dumper $container;
-          #my $flag;
-          #for my $key (keys $container->%*) {
-          #     if (ref $container->{$key} ne 'HASH'
-          #     and ref $container->{$key} ne 'ARRAY'
-          #     and ref $lvlReff eq 'ARRAY') {
-          #         print "  Key_1: $key\n";
-          #         print "  Key_2: " , ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ' , "\n";
-          #         print "  Value_1: $container->{$key}\n";
-          #         print "  Value_2: $lvlReff->[$index]->{$key}\n";
-          #         $flag = 1;
-          #     }
-          #}
-          if (ref $lvlReff eq 'ARRAY') {
-                   my $key = $obj;
-                   print "  Key_1: $key\n";
-                   print "  Key_2: " , ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ' , "\n";
-                   print "  Value_1: $container->{$key}\n";
-                   print "  Value_2: $lvlReff->[$index]->{$key}\n";
-          }
+        ## Pre HASH
+        if ($type eq 'HASH') {
+            unless (exists $data->{pointer}) { $data->{pointer} = [0] }
+            else {
+                unless (exists $data->{pointer}->[$lvl]) { $data->{pointer}->[$lvl] = 0 }
+                else                                     { $data->{pointer}->[$lvl]++ }
+            }
+            my $index   = $data->{pointer}->[$lvl];
+            my $lvlReff = $data->{reff}->[$lvl];
 
-      ## ARRAY
-      } elsif ($type eq 'ARRAY') {
-          my $index    = $data->{pointer}->[$lvl];
-          my $lvlReff = $data->{reff}->[$lvl+1];
-          my $container = [ @children ];
-          my $obj = getLvlObj($data, $container->[0]);
+            my $container;
+            my $cnt = 0;
+            for my $part (@children) {
+                if ($cnt & 1) { $container->{ $children[$cnt - 1] } = $part }
+                $cnt++;
+            }
 
-          print "\nPRE ".getGroupName($data,$obj)."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 : 0)." $index\n";
-          print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
-          print "  ".Dumper $lvlReff;
-          print "  ".Dumper $container;
-          my $cnt = 0;
-          for my $part (@children) {
-              my $obj_1 = getLvlObj($data, $part);
-              my $obj_2 = getLvlObj($data, $lvlReff->[$cnt]);
-              print "  Item1: $part\n";
-              print "  Item2: $lvlReff->[$cnt]\n";
-              print "  Obj1: " . ($obj_1 ? $obj_1 : 'NULL')."\n";
-              print "  Obj1: " . ($obj_2 ? $obj_2 : 'NULL')."\n";
+            my $obj = getLvlObj($data, $container);
+            my $vaar = scalar @{$data->{pointer}} ? ( scalar @{$data->{pointer}} ) - 1 : 0;
+            print "\nPRE ".$obj."-".$type." ".$vaar." $index\n";
+            print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
+            my $hash_1 = $container;
+            my $hash_2 = $lvlReff;
 
-              my $thing1;
-              if ($obj_1) {$thing1 = $container->[$cnt]->{getLvlObj($data, $container->[$cnt])}
-              } else { $thing1 = 'NULL'}
-              print "  thing1: $thing1\n";
+            if (ref $lvlReff eq 'ARRAY') {
+                my $key = $obj;
+                my $key2 = ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ';
+                print "  Key_1: $key\n";
+                print "  Key_2: $key2\n";
+                print "  Value_1: $container->{$key}\n";
+                print "  Value_2: $lvlReff->[$index]->{$key}\n";
+                $hash_2 = $lvlReff->[$index];
+            }
 
-              my $thing2;
-              if ($obj_2) {$thing2 = $lvlReff->[$cnt]->{getLvlObj($data, $lvlReff->[$cnt])}
-              } else { $thing2 = 'NULL'}
-              print "  thing2: $thing2\n";
+            #COMBINE KEYS
+            my @keys_1 = sort {lc $a cmp lc $b} keys %{$hash_1};
+            my @keys_2 = sort {lc $a cmp lc $b} keys %{$hash_2};
+            while (scalar @keys_1 or scalar @keys_2) {
+                my $bool = lc $keys_1[0] cmp lc $keys_2[0];
+                if (!$keys_1[0]) {
+                    unshift @keys_1, $keys_2[0];
+                } elsif (!$keys_2[0]) {
+                    unshift @keys_2, $keys_1[0];
+                } elsif ($bool and $bool != -1) {
+                    unshift @keys_1, $keys_2[0];
+                    $hash_1->{$keys_2[0]} = $hash_2->{$keys_2[0]};
+                } elsif ($bool == -1) {
+                    unshift @keys_2, $keys_1[0];
+                    $hash_2->{$keys_1[0]} = $hash_1->{$keys_1[0]};
+                } else {
+                    shift @keys_1;
+                    shift @keys_2;
+                }
+            }
+            undef @children;
+            for my $key (sort keys %{$hash_1}) {
+                push @children, ($key, $hash_1->{$key});
+            }
+            return @children;
 
-              if ($obj_1 and $obj_2) {
-                  my $bool =  ($thing1 cmp $thing2);
-                  if ($bool and $bool != -1) {
-                    #unshift $container->@*, $lvlReff->[$index];
+        ## Pre ARRAY
+        } elsif ($type eq 'ARRAY') {
+            my $index   = $data->{pointer}->[$lvl];
+            my $lvlReff = $data->{reff}->[$lvl+1];
+            my $container = [ @children ];
+            my $obj = getLvlObj($data, $container->[0]);
 
+            print "\nPRE ".getGroupName($data,$obj)."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 : 0)." $index\n";
+            print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
 
-                  } elsif ($bool == -1) {
-                    #unshift $lvlReff->@*, $container->[$index];
+            my @array_1;
+            my @array_2;
+            if ( getLvlObj($data, $children[0]) ) {
+                @array_1     =  @children;
+                @array_2     = @{$lvlReff};
+                @children    = ();
+                $lvlReff->@* = ();
+                while (scalar @array_1 or scalar @array_2) {
+                    my $obj_1 = getLvlObj($data, $array_1[0]);
+                    my $obj_2 = getLvlObj($data, $array_2[0]);
 
-                  } else {
-                  }
-              }
-              $cnt++;
-          }
-      }
+                    my $thing1;
+                    if ($obj_1) { $thing1 = $array_1[0]->{$obj_1}; }
+                    my $thing2;
+                    if ($obj_2) { $thing2 = $array_2[0]->{$obj_2}; }
 
-      return @_;
+                    my $bool = $thing1 cmp $thing2;
+                    if (!$array_1[0]) {
+                        unshift @array_1, $array_2[0];
+                    } elsif (!$array_2[0]) {
+                        unshift @array_2, $array_1[0];
+                    } elsif ($bool == -1) {
+                        unshift @array_2, $array_1[0];
+                    } elsif ($bool and $bool != -1) {
+                        unshift @array_1, $array_2[0];
+                    } else {
+                      push @children, (shift @array_1);
+                      push $lvlReff->@*, (shift @array_2);
+                    }
+                }
+            } else {
+                @array_1 = sort {lc $a cmp lc $b} @children;
+                @array_2 = sort {lc $a cmp lc $b} @{$lvlReff};
+                @children = ();
+                $lvlReff->@* =();
+                while (scalar @array_1 or scalar @array_2) {
+                    my $bool = lc $array_1[0] cmp lc $array_2[0];
+                    if ( !$array_1[0]) {
+                       unshift @array_1, $array_2[0];
+                    } elsif ( !$array_2[0]) {
+                       unshift  @array_2, $array_1[0];
+                    } elsif ($bool and $bool != -1) {
+                       unshift @array_1, $array_2[0];
+                    } elsif ($bool == -1) {
+                       unshift  @array_2, $array_1[0];
+                    } else {
+                      push @children, (shift @array_1);
+                      push $lvlReff->@*, (shift @array_2);
+                    }
+                }
+            }
+            my $cnt = 0;
+            for my $part (@children) {
+                my $obj_1 = getLvlObj($data, $part);
+                my $obj_2 = getLvlObj($data, $lvlReff->[$cnt]);
+                print "  Item1: $part\n";
+                print "  Item2: $lvlReff->[$cnt]\n";
+                print "  Obj1: " .$obj_1."\n";
+                print "  Obj1: " .$obj_2."\n";
+
+                my $thing1;
+                if ($obj_1) {
+                    $thing1 = $children[$cnt]->{ getLvlObj($data, $children[$cnt]) }
+                }
+                print "  thing1: $thing1\n";
+
+                my $thing2;
+                if ($obj_2) {
+                    $thing2 = $lvlReff->[$cnt]->{ getLvlObj($data, $lvlReff->[$cnt]) }
+                }
+                print "  thing2: $thing2\n";
+
+                $cnt++;
+            }
+
+            return @children;
+        } else {
+            return @_;
+        }
     };
 
 
-    # ===|| sub->() {{{3
-    my $sub = sub {
-        no warnings 'uninitialized';
+    # ===|| wanted->() {{{3
+    my $wanted = sub {
+
+        ##
+        #no warnings 'uninitialized';
         my $item      = $_;
         my $type      = $Data::Walk::type;
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
-        my $depth     = $Data::Walk::depth;
-        my $key       = $Data::Walk::key;
-        my $lvl       = $depth-2;
+        my $lvl       = $Data::Walk::depth-2;
 
-        unless ($depth == 1) {
-            if ($lvl < $data->{inx} ) {
-              my $cnt = $data->{inx} - $lvl;
-              pop $data->{pointer}->@* for (0..$cnt);
+        if ($lvl != -1) {
+
+            my $prior_lvl = ( scalar @{$data->{pointer}} ) - 1;
+            if ($lvl < $prior_lvl) {
+                my $cnt = $prior_lvl - $lvl;
+                pop @{$data->{pointer}} for (0..$cnt);
             }
 
             ## HASH
             if ($type eq 'HASH') {
                 unless ($index & 1) {
                     $data->{pointer}->[$lvl] = $index/2;
+
                     my $lvlReff = $data->{reff}->[$lvl];
-                    my $obj_1 = getLvlObj($data, $container);
-                    print "\nWANT $item in $obj_1-$type $lvl ".($index/2)."\n";
-                    print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
-                    print "  Obj1: ".getLvlObj($data, $container)."\n";
-                    print "  Obj2: ".getLvlObj($data, $lvlReff)."\n";
-                    print "  thing1: $container->{getLvlObj($data, $container)}\n";
-                    print "  thing2: $lvlReff->{getLvlObj($data, $lvlReff)}\n";
-                    $data->{reff}->[$lvl+1] = $lvlReff->{$_};
+                    my $obj_1   = getLvlObj($data, $container);
+                    my $obj_2   = getLvlObj($data, $lvlReff);
+                    print "\nWANT $item in $obj_1-$type $lvl ".$data->{pointer}->[$lvl]."\n";
+                    print "  PointStr: ".join('.', @{$data->{pointer}}),"\n";
+                    print "  Obj1: $obj_1\n";
+                    print "  Obj2: $obj_2\n";
+                    print "  thing1: $container->{ getLvlObj($data, $container) }\n";
+                    print "  thing2: $lvlReff->{ getLvlObj($data, $lvlReff) }\n";
+                    $data->{reff}->[$lvl + 1] = $lvlReff->{$_};
                 }
 
             ## ARRAY
             } elsif ($type eq 'ARRAY') {
                 $data->{pointer}->[$lvl] = $index;
                 my $lvlReff = $data->{reff}->[$lvl];
-                my $obj_1 = getLvlObj($data, $item);
-                my $obj_2 = getLvlObj($data, $lvlReff->[$index]);
-                print "\nWANT $obj_1 $index in ".getGroupName($data,$obj_1)."-"."$type $lvl $index\n";
-                print "  PointStr: ".join('.', $data->{pointer}->@*),"\n";
+                my $obj_1   = getLvlObj($data, $item);
+                my $obj_2   = getLvlObj($data, $lvlReff->[$index]);
+                print "\nWANT $obj_1 $index in " . getGroupName($data, $obj_1) . "-" . "$type $lvl $index\n";
+                print "  PointStr: ".join('.', @{$data->{pointer}}),"\n";
                 print "  Item: $item\n";
                 print "  Obj1: " . ($obj_1 ? $obj_1 : 'NULL')."\n";
                 print "  Obj1: " . ($obj_2 ? $obj_2 : 'NULL')."\n";
 
                 my $thing1;
-                if ($obj_1) {$thing1 = $container->[$index]->{getLvlObj($data, $container->[$index])}
-                } else { $thing1 = 'NULL'}
-                print "  thing1: $thing1\n";
+                if ($obj_1) {
+                    $thing1 = $container->[$index]->{ getLvlObj($data, $container->[$index]) }
+                } else {
+                    $thing1 = 'NULL'
+                } print "  thing1: $thing1\n";
 
                 my $thing2;
-                if ($obj_2) {$thing2 = $lvlReff->[$index]->{getLvlObj($data, $lvlReff->[$index])}
-                } else { $thing2 = 'NULL'}
-                print "  thing2: $thing2\n";
+                if ($obj_2) {
+                    $thing2 = $lvlReff->[$index]->{getLvlObj($data, $lvlReff->[$index])}
+                } else {
+                    $thing2 = 'NULL'
+                } print "  thing2: $thing2\n";
 
                 if ($obj_1 and $obj_2) {
-                    my $bool =  ($thing1 cmp $thing2);
+                    my $bool = ($thing1 cmp $thing2);
                     if ($bool and $bool != -1) {
-                        unshift $container->@*, $lvlReff->[$index];
-
-
+                        #unshift @{$container}, $lvlReff->[$index];
                     } elsif ($bool == -1) {
-                        unshift $lvlReff->@*, $container->[$index];
-
+                        #unshift @{$lvlReff}, $container->[$index];
                     } else {
                     }
                 }
-
                 $data->{reff}->[$lvl+1] = $lvlReff->[$index];
-            } else { die("Hash contains a reff that is neither hash or array! In ${0} at line: ".__LINE__) }
-            $data->{inx} = $lvl;
+            } else {
+                die("Hash contains a reff that is neither hash or array! In ${0} at line: ".__LINE__)
+            }
         }
-
     };
     #}}}
 
-    walk { wanted => $sub, preprocess => $sub2}, $hash_0->{contents};
+    walk { wanted => $wanted, preprocess => $preprocess}, $hash_0->{contents};
     #walk { wanted => $sub}, $hash_0->{contents};
 }
 
