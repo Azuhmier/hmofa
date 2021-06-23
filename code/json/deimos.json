@@ -37,6 +37,7 @@
       "order" : "1.1.1.1.1",
       "groupName" : "TAGS",
       "re" : "^\\s*(\\[.*)",
+      "plural" : "1",
       "attributes" : {
          "anthro" : [
             "(?x) ^\\[  ([^\\[\\]]*)",
@@ -59,7 +60,6 @@
       "order" : "1.1.1.1.2",
       "re" : "^\\s*(http.*)",
       "groupName" : "URLS",
-      "plural": "1",
       "attributes" : {
          "url_attribute" : [
             "\\s*\\((.*)\\)"
