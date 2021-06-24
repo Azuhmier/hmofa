@@ -2,141 +2,153 @@
 
 #============================================================
 #
-#         FILE: jsonCmp.pl
-#  DESCRIPTION:
+#         FILE: jsonCombine.pl
+#        USAGE: ./genJson.pl
+#  DESCRIPTION: ---
 #       AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
-#      Created: Sat 06/12/21 17:34:34
+#      Created: Wed 06/23/21 12:03:43
 #============================================================
 
 my $start = time;
 use warnings;
 use strict;
-use JSON;
+use JSON::PP;
 use Data::Dumper;
 use Storable qw(dclone);
 my $duration1 = time - $start;
 use Time::HiRes qw(time);
 
 #  Assumptions
-#    - all jsons were generated with dspts with identical objs, orders, and attributes
-
-
 
 # MAIN {{{1
 #------------------------------------------------------
 {
-        my $data = init({
-            dspt => './json/deimos.json',
-            external => [
-                './json/gitIO.json'
-            ],
-            hash => [
+    my $data = init({
+        fileNames => {
+            fname  => [
                 './json/catalog.json',
                 './json/masterbin.json',
             ],
-        });
+            output => './json/hmofa_lib.json',
+            dspt   => './json/deimos.json',
+            external => [
+                './json/gitIO.json'
+            ],
+        },
+        process => {
+            write => 1,
+        },
+        sort    => 1,
+        verbose => 0,
+    });
 
-        my $duration1_1 = time - $start;
-        my $catalog = $data->{hash}->[0]->{SECTIONS}->[1];
-            my $catalog_contents = dclone $catalog;
-            $catalog             = {};
-            $catalog->{contents} = $catalog_contents;
-            $catalog->{reff}     = $catalog;
-            $catalog->{contents}->{libName}  = 'masterbin';
-            delete $catalog->{contents}->{section};
+    my $duration1_1 = time - $start;
+    my $catalog = $data->{hash}->[0]->{SECTIONS}->[1];
+        my $catalog_contents = dclone $catalog;
+        $catalog             = {};
+        $catalog->{contents} = $catalog_contents;
+        $catalog->{reff}     = $catalog;
+        $catalog->{contents}->{libName}  = 'masterbin';
+        delete $catalog->{contents}->{section};
 
-        my $duration1_2 = time - $start;
-        my $masterbin = $data->{hash}->[1];
-            my $masterbin_contents = dclone $masterbin;
-            $masterbin             = {};
-            $masterbin->{contents} = $masterbin_contents;
-            $masterbin->{reff}     = $masterbin;
+    my $duration1_2 = time - $start;
+    my $masterbin = $data->{hash}->[1];
+        my $masterbin_contents = dclone $masterbin;
+        $masterbin             = {};
+        $masterbin->{contents} = $masterbin_contents;
+        $masterbin->{reff}     = $masterbin;
 
-        my $sub = genFilter({
-            pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
-            dspt    => $data->{external}->{gitIO},
-        });
+    my $sub = genFilter({
+        pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+        dspt    => $data->{external}->{gitIO},
+    });
 
-        #use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
-        #BEGIN { unshift(@INC, ($ENV{HOME}.'/hmofa/hmofa/code/lib')) }
-        use Data::Walk;
+    use Data::Walk;
 
-            sub walker {
-                my $type      = $Data::Walk::type;
-                my $index     = $Data::Walk::index;
-                my $container = $Data::Walk::container;
-                if ($type eq 'HASH') {
-                    deleteKey( $_, 'LN',     $index, $Data::Walk::container);
-                    deleteKey( $_, 'raw',    $index, $Data::Walk::container);
-                    deleteKey( $_, 'test33', $index, $Data::Walk::container);
-                    deleteKey( $_, 'test3',  $index, $Data::Walk::container);
-                    deleteKey( $_, 'test',   $index, $Data::Walk::container);
-                    filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
-                }
+        sub walker {
+            my $type      = $Data::Walk::type;
+            my $index     = $Data::Walk::index;
+            my $container = $Data::Walk::container;
+            if ($type eq 'HASH') {
+                deleteKey( $_, 'LN',     $index, $Data::Walk::container);
+                deleteKey( $_, 'raw',    $index, $Data::Walk::container);
+                deleteKey( $_, 'test33', $index, $Data::Walk::container);
+                deleteKey( $_, 'test3',  $index, $Data::Walk::container);
+                deleteKey( $_, 'test',   $index, $Data::Walk::container);
+                filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
             }
+        }
 
-            sub walker2 {
-                my $type      = $Data::Walk::type;
-                my $index     = $Data::Walk::index;
-                my $container = $Data::Walk::container;
-                if ($type eq 'HASH') {
-                    deleteKey ( $_, 'LN',                $index, $container);
-                    deleteKey ( $_, 'raw',               $index, $container);
-                    removeKey( $_, 'SERIES', 'STORIES', $index, $container);
-                    #deleteKey ( $_, 'URLS',               $index, $container);
-                    #deleteKey ( $_, 'TAGS',               $index, $container);
-                    filter    ( $_, 'url',               $index, $container, $sub);
-                }
+        sub walker2 {
+            my $type      = $Data::Walk::type;
+            my $index     = $Data::Walk::index;
+            my $container = $Data::Walk::container;
+            if ($type eq 'HASH') {
+                deleteKey ( $_, 'LN',                $index, $container);
+                deleteKey ( $_, 'raw',               $index, $container);
+                removeKey( $_, 'SERIES', 'STORIES', $index, $container);
+                deleteKey ( $_, 'url_attribute',               $index, $container);
+                #deleteKey ( $_, 'URLS',               $index, $container);
+                #deleteKey ( $_, 'TAGS',               $index, $container);
+                filter    ( $_, 'url',               $index, $container, $sub);
             }
+        }
 
-            my $duration1_3 = time - $start;
-            walkdepth { wanted => \&walker} ,  $masterbin->{contents};
-            walkdepth { wanted => \&walker2}, $catalog->{contents};
-            my $duration2 = time - $start;
-            sortHash($data,$catalog);
-            sortHash($data,$masterbin);
-            my $duration3 = time - $start;
-            #combine( $data, $catalog, $masterbin );
-            combine( $data, $masterbin, $catalog );
-            #combine( $data, $catalog, $catalog );
-            my $duration3_1 = time - $start;
-            #print Dumper $masterbin->{contents};
-            my $fname = './json/hmofa_lib.json';
-            my $hashu = dclone($catalog->{contents});
-            {
-                my $json_obj = JSON->new->pretty->allow_nonref;
-                $json_obj = $json_obj->allow_blessed(['true']);
-                print Dumper $hashu;
-                my $json  = $json_obj->encode($hashu);
-                open( my $fh, '>' ,$fname ) or die $!;
-                    print $fh $json;
-                    truncate $fh, tell( $fh ) or die;
-                close( $fh );
-            }
+        my $duration1_3 = time - $start;
+        walkdepth { wanted => \&walker} ,  $masterbin->{contents};
+        walkdepth { wanted => \&walker2}, $catalog->{contents};
+        my $duration2 = time - $start;
+        sortHash($data,$catalog);
+        sortHash($data,$masterbin);
+        my $duration3 = time - $start;
+        combine( $data, $masterbin, $catalog );
+        #combine( $data, $catalog, $masterbin );
+        #combine( $data, $catalog, $catalog );
+        my $duration3_1 = time - $start;
+        encodeResult($data, dclone($masterbin->{contents}));
 
-            my $duration4 = time - $start;
-            print "\nExecution Time: $duration1 s\n";
-            print "\nExecution Time: $duration1_1 s\n";
-              print "  ".($duration1_1-$duration1)."s\n";
-            print "\nExecution Time: $duration1_2 s\n";
-              print "  ".($duration1_2-$duration1_1)."s\n";
-            print "\nExecution Time: $duration1_3 s\n";
-              print "  ".($duration1_3-$duration1_2)."s\n";
-            print "\nExecution Time: $duration2 s\n";
-              print "  ".($duration2-$duration1_3)."s\n";
-            print "\nExecution Time: $duration3 s\n";
-              print "  ".($duration3-$duration2)."s\n";
-            print "\nExecution Time: $duration3_1 s\n";
-              print "  ".($duration3_1-$duration3)."s\n";
-            print "\nExecution Time: $duration4 s\n";
-              print "  ".($duration4-$duration3_1)."s\n";
+        my $duration4 = time - $start;
+        print "\nExecution Time: $duration1 s\n";
+        print "\nExecution Time: $duration1_1 s\n";
+          print "  ".($duration1_1-$duration1)."s\n";
+        print "\nExecution Time: $duration1_2 s\n";
+          print "  ".($duration1_2-$duration1_1)."s\n";
+        print "\nExecution Time: $duration1_3 s\n";
+          print "  ".($duration1_3-$duration1_2)."s\n";
+        print "\nExecution Time: $duration2 s\n";
+          print "  ".($duration2-$duration1_3)."s\n";
+        print "\nExecution Time: $duration3 s\n";
+          print "  ".($duration3-$duration2)."s\n";
+        print "\nExecution Time: $duration3_1 s\n";
+          print "  ".($duration3_1-$duration3)."s\n";
+        print "\nExecution Time: $duration4 s\n";
+          print "  ".($duration4-$duration3_1)."s\n";
 }
-
-
 
 
 # SUBROUTINES {{{1
 #------------------------------------------------------
+
+#===| init() {{{2
+sub init {
+    my $data = shift @_;
+    $data->{hash} = [ map { getJson($_) } $data->{fileNames}->{fname}->@* ];
+    $data->{dspt} = getJson($data->{fileNames}->{dspt});
+    $data->{external} = {
+        map {
+          $_ =~ m/(\w+)\.json$/;
+          $1 => getJson($_);
+        } $data->{fileNames}->{external}->@*
+    };
+    validate_Dspt( $data );
+    return $data;
+}
+
+
+#===| delegate() {{{2
+sub delegate {
+}
+
 
 #===| combine() {{{2
 sub combine {
@@ -144,6 +156,7 @@ sub combine {
     my $data   = shift @_;
     my $hash_0 = shift @_;
     my $hash_1 = shift @_;
+    $Data::Dumper::Maxdepth = 2;
     $data->{reff2} = [ $hash_0->{contents} ];
     $data->{reff}  = [ $hash_1->{contents} ];
 
@@ -169,7 +182,6 @@ sub combine {
                 if ($cnt & 1) { $container->{ $children[$cnt - 1] } = $part }
                 $cnt++;
             }
-            #print Dumper $container;
 
             my $obj = getLvlObj($data, $container);
             my $vaar = scalar @{$data->{pointer}} ? ( scalar @{$data->{pointer}} ) - 1 : 0;
@@ -195,8 +207,10 @@ sub combine {
                 my $bool = lc $keys_1[0] cmp lc $keys_2[0];
                 if (!$keys_1[0]) {
                     unshift @keys_1, $keys_2[0];
+                    $hash_1->{$keys_2[0]} = $hash_2->{$keys_2[0]};
                 } elsif (!$keys_2[0]) {
                     unshift @keys_2, $keys_1[0];
+                    $hash_2->{$keys_1[0]} = $hash_1->{$keys_1[0]};
                 } elsif ($bool and $bool != -1) {
                     unshift @keys_1, $keys_2[0];
                     $hash_1->{$keys_2[0]} = $hash_2->{$keys_2[0]};
@@ -208,6 +222,11 @@ sub combine {
                     shift @keys_2;
                 }
             }
+
+            #if ($lvl != -1) {
+            #    $lvlReff->[$index]->%* = $hash_2->%*;
+            #    $lvlReff2->[$index]->%* = $hash_1->%*;
+            #}
 
             undef @children;
             for my $key (sort keys %{$hash_1}) {
@@ -363,6 +382,18 @@ sub combine {
                     print "  Obj2: $obj_2\n";
                     print "  thing1: $thing_1\n";
                     print "  thing2: $thing_2\n";
+                    print "  thing11: $lvlReff2->{$item}\n";
+                    print "  thing22: $lvlReff->{$item}\n";
+
+                    if (ref $lvlReff2->{$item} ne 'ARRAY'
+                    and ref $lvlReff2->{$item} ne 'HASH'
+                    and ref $lvlReff->{$item} ne 'ARRAY'
+                    and ref $lvlReff->{$item} ne 'HASH'
+                    and $lvlReff->{$item} ne $lvlReff2->{$item} )
+                    {
+                        die $!
+                    }
+
                     $data->{reff}->[$lvl + 1] = $lvlReff->{$_};
                     $data->{reff2}->[$lvl + 1] = $lvlReff2->{$_};
                 }
@@ -406,6 +437,36 @@ sub combine {
 
     walk { wanted => $wanted, preprocess => $preprocess}, $hash_0->{contents};
 }
+
+#===| encodeResult() {{{2
+sub encodeResult {
+
+    my $data  = shift @_;
+    my $hash  = shift @_;
+    #mes("Starting ENCODE_RESULT", $data, 0, 1, 1);
+
+    if  ($data->{process}->{write}) {
+        my $fname = $data->{fileNames}->{output};
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj = $json_obj->allow_blessed(['true']);
+            if ($data->{sort}) {
+              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
+            }
+            my $json  = $json_obj->encode($hash);
+            open( my $fh, '>' ,$fname ) or die $!;
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close( $fh );
+        }
+        #mes("..ok", $data, 0, 1, 1);
+    }
+    #else { mes("..disabled by user", $data, 0, 1, 1) }
+}
+
+
+# UTILITIES {{{1
+#------------------------------------------------------
 
 #===| sortHash(){{{2
 sub sortHash {
@@ -466,19 +527,6 @@ sub removeKey {
 }
 
 
-#===| filter(){{{2
-sub filter {
-    my $arg   = shift @_;
-    my $key   = shift @_;
-    my $index = shift @_;
-    my $hash  = shift @_;
-    my $sub0   = shift @_;
-    if ( ($index % 2 == 0) and $arg eq $key) {
-         $hash->{$arg} = $sub0->($hash->{$arg});
-    }
-}
-
-
 #===| deleteKey(){{{2
 sub deleteKey {
     my $arg   = shift @_;
@@ -491,20 +539,91 @@ sub deleteKey {
 }
 
 
-#===| init() {{{2
-sub init {
-    my $data = shift @_;
-    $data->{hash} = [ map { getJson($_) } $data->{hash}->@* ];
-    $data->{dspt} = getJson($data->{dspt});
-    $data->{external} = {
-        map {
-          $_ =~ m/(\w+)\.json$/;
-          $1 => getJson($_);
-        } $data->{external}->@*
-    };
-    validate_Dspt( $data );
-    return $data;
+#===| waltzer() {{{2
+sub waltzer {
+    my $type      = $Data::Walk::type;
+    my $index     = $Data::Walk::index;
+    my $container = $Data::Walk::container;
+    if ($type eq 'HASH') {
+        #deleteKey( $_, 'LN',     $index, $Data::Walk::container);
+        #deleteKey( $_, 'raw',    $index, $Data::Walk::container);
+        #deleteKey( $_, 'test33', $index, $Data::Walk::container);
+        #deleteKey( $_, 'test3',  $index, $Data::Walk::container);
+        #deleteKey( $_, 'test',   $index, $Data::Walk::container);
+        #filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
+    }
+}
+# NOTES {{{1
+#------------------------------------------------------
+# OBJ: Json Combining Agent
+# PROPERTIES:
+#   HASH
+# PUBLIC:
+#   init()
+#   combine()
+# PRIVATE:
+# INHERITANCE: Controller
 
+# OBJ: Json Comparing Agent
+# PROPERTIES:
+# PUBLIC:
+#   init()
+# PRIVATE:
+# INHERITANCE: Controller
+
+# OBJ: Json Writing Agent
+# PROPERTIES:
+#    HASH
+# PUBLIC:
+#   init()
+# PRIVATE:
+# INHERITANCE: Controller
+# SHARED {{{1
+#------------------------------------------------------
+
+#===| setReservedKeys() {{{2
+sub setReservedKeys {
+  my $data = shift @_;
+  my $reservedKeys = {
+        raw   => [ 'raw', 1 ],
+        trash => [ 'trash', 2 ],
+        LN    => [ 'LN', 3 ],
+        miss  => [ 'miss', 4 ],
+        miss  => [ 'LIBS', 5 ],
+        miss  => [ 'libName', 6 ],
+  };
+  $data->{reservedKeys} = $reservedKeys;
+}
+
+
+#===| isReservedKey() {{{2
+sub isReservedKey {
+
+    my %reservedKeys = (
+        LN    => 'LN',
+        raw   => 'raw',
+        trash => 'trash',
+        miss  => 'miss',
+    );
+
+    my $data = shift @_;
+    my $key  = shift @_;
+    my @matches = grep { $_ eq $reservedKeys{$_} } keys %reservedKeys;
+    if ($matches[0])    {return 1}
+    else                {return 0}
+}
+
+
+#===| filter(){{{2
+sub filter {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    my $sub0   = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         $hash->{$arg} = $sub0->($hash->{$arg});
+    }
 }
 
 
@@ -520,321 +639,6 @@ sub validate_Dspt {
         groupName => 'LIBS',
     };
 }
-
-
-#===| delegate() {{{2
-sub delegate {
-
-    my $data         = shift @_;
-    my $ARGS         = shift @_;
-    my $solo = ($ARGS->{objs}->[1]) ? 0 : 1;
-    my @lists;
-
-    my $sub_0 = 0;
-    if (exists $ARGS->{sub_0}) {$sub_0 = $ARGS->{sub_0}}
-    ## LISTS
-    for my $hash ($data->{hash}->@*) {
-        my $list = getAllValuesForKey(
-            $data,
-            {
-              hash        => dclone($hash),
-              obj_0       => $ARGS->{objs}->[0],
-              obj_1       => $ARGS->{objs}->[1],
-              sliceEnable => $solo ? 1 : 0,
-            },
-        );
-        unless ($solo) {
-            $list = biFlat(
-                $data,
-                {
-                    list  => $list,
-                    obj_0 => $ARGS->{objs}->[0],
-                    obj_1 => $ARGS->{objs}->[1],
-                }
-            );
-        }
-        push @lists, $list;
-    }
-    unless ($ARGS->{process}->{disableDiffs}) {
-        ## DIFFS
-        my $diffs = getDiffs(
-            $data,
-            {
-                hashList => [ @lists ],
-                obj_0    => $ARGS->{objs}->[0],
-                obj_1    => $ARGS->{objs}->[1],
-                sub_0    => $sub_0,
-            }
-        );
-
-        ## Outputs
-        formatToSTDOUT(
-            $data,
-            {
-                objs  => [$ARGS->{objs}->[0], $ARGS->{objs}->[1]],
-                diffs => $diffs,
-                sub_0 => $sub_0,
-            }
-        );
-    }
-}
-
-
-#===| getAllValuesForKey() {{{2
-sub getAllValuesForKey {
-    my $data        = shift @_;
-    my $ARGS        = shift @_;
-    my $hash        = $ARGS->{hash};
-    my $sliceEnable = $ARGS->{sliceEnable};
-    my $obj_0       = getGroupName($data, $ARGS->{obj_0});
-    my $obj_1       = getGroupName($data, $ARGS->{obj_1});
-    my $matches;
-
-    ##  HASH?
-    if (ref $hash eq 'HASH') {
-        for my $key (keys $hash->%*) {
-            if ($key eq $obj_0) {
-                my @catch = $hash->{$key}->@*;
-
-                ## SLICE
-                if ($sliceEnable) {
-                    for my $part (@catch) {
-                        for my $key (keys $part->%*) {
-                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                        }
-                    }
-                }
-
-                ## Relative
-                if ($obj_1) {
-                    for my $part (@catch) {
-                        my $childs = getAllValuesForKey(
-                           $data,
-                           {
-                             hash        => $part,
-                             obj_0       => $obj_1,
-                             sliceEnable => 1,
-                           },
-                        );
-                        for my $key (keys $part->%*) {
-                            if    (ref $part->{$key} eq 'ARRAY') { delete $part->{$key} }
-                        }
-                        $part->{$obj_1} = $childs;
-                    }
-                }
-
-                push $matches->@*, @catch;
-            }
-            else {
-                my $catch = getAllValuesForKey(
-                    $data,
-                    {
-                      hash        => $hash->{$key},
-                      obj_0       => $obj_0,
-                      obj_1       => $obj_1,
-                      sliceEnable => $sliceEnable,
-                    },
-                );
-                if ($catch) {
-                    push $matches->@*, $catch->@*;
-                }
-            }
-        }
-    }
-
-    ##  ARRAY?
-    elsif (ref $hash eq 'ARRAY') {
-        for my $part ($hash->@*) {
-            my $catch = getAllValuesForKey(
-                $data,
-                {
-                  hash        => $part,
-                  obj_0       => $obj_0,
-                  obj_1       => $obj_1,
-                  sliceEnable => $sliceEnable,
-                },
-            );
-            if ($catch) {
-                push $matches->@*, $catch->@*;
-            }
-        }
-    }
-
-
-    ##  OTHER
-    else {
-        my $type = ref $hash;
-        if ($type) {print $type, "\n"}
-    }
-    return $matches;
-}
-
-
-#===| biFlat() {{{2
-sub biFlat {
-    my $data  = shift @_;
-    my $ARGS  = shift @_;
-    my $hash  = $ARGS->{list};
-    my $obj_0       = getGroupName($data, $ARGS->{obj_0});
-    my $obj_1       = getGroupName($data, $ARGS->{obj_1});
-
-    my $flatHash = [];
-    my $parentObj = getObjFromGroupNameKey($data, $obj_0);
-    for my $parent ($hash->@*) {
-        my $parentName = $parent->{$parentObj};
-        for my $child ($parent->{$obj_1}->@*) {
-            $child->{$parentObj} = $parentName;
-            push $flatHash->@*, $child;
-        }
-    }
-    return $flatHash;
-}
-
-
-#===| getDiffs() {{{2
-sub getDiffs {
-    my $data     = shift @_;
-    my $ARGS     = shift @_;
-    my $hashList = $ARGS->{hashList};
-    my $obj_0    = getGroupName($data, $ARGS->{obj_0});
-    my $obj_1    = getGroupName($data, $ARGS->{obj_1});
-    my $sub_0    = $ARGS->{sub_0};
-
-
-    my $child;
-    if ($obj_1) { $child  = getObjFromGroupNameKey($data, $obj_1); }
-    else        { $child  = getObjFromGroupNameKey($data, $obj_0); }
-
-    my $ind_0 = 0;
-    my @parts_0 = @{ dclone($hashList->[0]) };
-    #@parts_0 = sort { $a->{$child} cmp $b->{$child} } @parts_0;
-    for my $part_0 (@parts_0) {
-
-        my $ind_1 = 0;
-        my @parts_1 = @{ dclone($hashList->[1]) };
-        #@parts_1 = sort { $a->{$child} cmp $b->{$child} } @parts_1;
-        for my $part_1  (@parts_1) {
-            my @match;
-            if ($obj_1) {
-                my $parent = getObjFromGroupNameKey($data, $obj_0);
-                @match = grep { $_ ne $parent and $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
-            }
-            else {
-                @match = grep { $_ ne 'LN' and  $_ !~ /attrib/ and $_ !~ /raw/} keys $part_1->%*;
-            }
-            if ($sub_0) {
-                $part_0->{$match[0]} = $sub_0->($part_0->{$match[0]});
-                $part_1->{$match[0]} = $sub_0->($part_1->{$match[0]});
-            }
-            if (lc $part_0->{$match[0]} eq lc $part_1->{$match[0]}) {
-                splice $hashList->[0]->@*, $ind_0, 1;
-                splice $hashList->[1]->@*, $ind_1, 1;
-                $ind_0 -= 1;
-                $ind_1 -= 1;
-                last;
-            }
-            $ind_1++;
-        }
-        $ind_0++;
-    }
-
-    return [ $hashList->[0] , $hashList->[1] ];
-}
-
-
-#===| formatToSTDOUT() {{{2
-sub formatToSTDOUT {
-    my $data  = shift @_;
-    my $ARGS  = shift @_;
-    my $obj_0 = $ARGS->{objs}->[0];
-    my $obj_1 = $ARGS->{objs}->[1];
-    my $diffs = $ARGS->{diffs};
-    my $sub_0 = $ARGS->{sub_0};
-    my @LIST  = ();
-
-    if ($obj_1) {
-        my @list0;
-        my @list1;
-        if ($sub_0) {
-            @list0 = map {  '0 ' . $_->{$obj_0} . ' || ' . $sub_0->($_->{$obj_1}) . " || " .  $_->{LN} } $diffs->[0]->@*;
-            @list1 = map {  '1 ' . $_->{$obj_0} . ' || ' . $sub_0->($_->{$obj_1}) . " || " .  $_->{LN} } $diffs->[1]->@*;
-        }
-        else {
-            @list0 = map {  '0 ' . $_->{$obj_0} . ' || ' . $_->{$obj_1} . " || " .  $_->{LN} } $diffs->[0]->@*;
-            @list1 = map {  '1 ' . $_->{$obj_0} . ' || ' . $_->{$obj_1} . " || " .  $_->{LN} } $diffs->[1]->@*;
-        }
-        push( @LIST, @list0);
-        push( @LIST, @list1);
-        print "\n\n\n\n===============================\n";
-        print $_, "\n" for sort {
-
-            my $aa  = $a;
-            my $bb  = $b;
-
-            ## num
-            $aa =~ s/^(\d)\s+//;
-            my $num_a = $1;
-            $bb =~ s/^(\d)\s+//;
-            my $num_b = $1;
-
-            ## obj_0
-            $aa =~ s/^(.*?)\s\|\|\s//;
-            my $obj0_a = $1;
-            $bb =~ s/^(.*?)\s\|\|\s//;
-            my $obj0_b = $1;
-
-            ## obj_1
-            $aa =~ s/^(.*?)\s\|\|\s//;
-            my $obj1_a = $1;
-            $bb =~ s/^(.*?)\s\|\|\s//;
-            my $obj1_b = $1;
-
-            $obj0_a cmp $obj0_b || $num_a cmp $num_b || $obj1_a cmp $obj1_b;
-        } @LIST;
-    }
-    else {
-        my @list0;
-        my @list1;
-        if ($sub_0) {
-            @list0 = map { '0 ' . $sub_0->($_->{$obj_0}) . " || " .  $_->{LN}} $diffs->[0]->@*;
-            @list1 = map { '1 ' . $sub_0->($_->{$obj_0}) . " || " .  $_->{LN}} $diffs->[1]->@*;
-        }
-        else {
-            @list0 = map { '0 ' . $_->{$obj_0} . " || " .  $_->{LN}} $diffs->[0]->@*;
-            @list1 = map { '1 ' . $_->{$obj_0} . " || " .  $_->{LN}} $diffs->[1]->@*;
-        }
-        push( @LIST, @list0);
-        push( @LIST, @list1);
-        print "\n\n\n\n===============================\n";
-        print $_, "\n" for sort {
-            my $aa  = $a;
-            my $bb  = $b;
-
-            ## num
-            $aa =~ s/^(\d)\s+//;
-            my $num_a = $1;
-            $bb =~ s/^(\d)\s+//;
-            my $num_b = $1;
-
-            ## obj_0
-            $aa =~ s/^(.*?)\s\|\|\s//;
-            my $obj0_a = $1;
-            $bb =~ s/^(.*?)\s\|\|\s//;
-            my $obj0_b = $1;
-
-            $num_a cmp $num_b || $obj0_a cmp $obj0_b;
-        } @LIST;
-    }
-}
-
-
-
-
-# UTILITIES {{{1
-#------------------------------------------------------
-
-# MISC {{{1
-#------------------------------------------------------
 
 
 #===| getJson() {{{2
@@ -866,45 +670,6 @@ sub genFilter {
 }
 
 
-# NOTES {{{1
-#------------------------------------------------------
-#{
-#  obj => '',
-#  groupName => [...],
-#  groupName1 => [...],
-#  groupName2 => [...],
-#  meta => '',
-#}
-#  keys $a == keys $b
-#  $a->{$obj} == $b->{$obj}
-#  $a->{meta} == $b->{meta}
-#
-#
-#[
-#  {$obj},
-#  'scalar',
-#]
-#  @a == @b
-#  $a->[$ind]->$obj == $b->[$ind]->$obj
-#  $a->[$ind]->{$key} == $b->[$ind]->{$key}
-#
-#meta
-#  keys $a == keys $b
-#  values $a == values $b
-#    if scalar
-#        $meta_a->{$a} == keys $meta_b->{$b}
-#    if ref 'ARRAY'
-#        @a == @b
-#    if ref 'HASH'
-#        $meta_a->{$a} == keys $meta_b->{$b}
-#
-#ERRORS
-#- $a != $b
-#- $a = $b->{$key}
-#- $a = $c->[0]->{$key} && $a == $b
-
-# SHARED {{{1
-#------------------------------------------------------
 #===| getObj() {{{2
 sub getObj {
     # return OBJECT_KEY at current point
@@ -1100,5 +865,64 @@ sub cmpKeys {
 }
 
 
+#===| decho() {{{2
+sub decho {
+
+    my $data = shift @_;
+    my $var = shift @_;
+
+    ## Data::Dumper
+    use Data::Dumper;
+    $Data::Dumper::Indent = 2;
+    $Data::Dumper::Sortkeys = ( sub {
+        my $hash = shift @_;
+        return [ sort {
+                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
+                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
+                $order_a cmp $order_b;
+            } keys %$hash ];
+        });
+
+    ##
+    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
+    return $output;
+}
+
+
+#===| mes() {{{2
+sub mes {
+
+    ##
+    my $mes   = shift @_;
+    my $data  = shift @_;
+
+    ##
+    if ($data->{verbose}) {
+        my $cnt   = shift @_;
+
+        ##
+        my $start = shift @_;
+        $start = $start ? 0 : 1;
+
+        ##
+        my $disable_LN = shift @_;
+
+        ##
+        my $offset = shift @_;
+        $offset = $offset ? $offset : 0;
+
+        ##
+        my $indent = "  ";
+        my $lvl = 0;
+
+        if (exists $data->{point}) {
+            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
+                                               : 0;
+        }
+
+        $indent = $indent x ($cnt + $start + $lvl - $offset);
+        print $indent . $mes . "\n";
+    }
+}
 
 

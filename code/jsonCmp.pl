@@ -3,7 +3,8 @@
 #============================================================
 #
 #         FILE: jsonCmp.pl
-#  DESCRIPTION:
+#        USAGE: ./jsonCmp.pl
+#  DESCRIPTION: ---
 #       AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
 #      Created: Sat 06/12/21 17:34:34
 #============================================================
@@ -11,7 +12,7 @@
 my $start = time;
 use warnings;
 use strict;
-use JSON;
+use JSON::PP;
 use Data::Dumper;
 use Storable qw(dclone);
 my $duration1 = time - $start;
@@ -28,8 +29,6 @@ use Time::HiRes qw(time);
 
 #  Assumptions
 #    - all jsons were generated with dspts with identical objs, orders, and attributes
-
-
 
 # MAIN {{{1
 #------------------------------------------------------
@@ -101,21 +100,10 @@ use Time::HiRes qw(time);
 
     # ===| output{{{2
 }
+
+
 # SUBROUTINES {{{1
 #------------------------------------------------------
-
-#===| filter(){{{2
-sub filter {
-    my $arg   = shift @_;
-    my $key   = shift @_;
-    my $index = shift @_;
-    my $hash  = shift @_;
-    my $sub0   = shift @_;
-    if ( ($index % 2 == 0) and $arg eq $key) {
-         $hash->{$arg} = $sub0->($hash->{$arg});
-    }
-}
-
 
 #===| init() {{{2
 sub init {
@@ -131,20 +119,6 @@ sub init {
     validate_Dspt( $data );
     return $data;
 
-}
-
-
-#===| validate_Dspt() {{{2
-sub validate_Dspt {
-
-    my $data = shift @_;
-    my $dspt = $data->{dspt};
-    my %hash = (
-    );
-    $data->{dspt}->{libName} = {
-        order => 0,
-        groupName => 'LIBS',
-    };
 }
 
 
@@ -454,41 +428,8 @@ sub formatToSTDOUT {
 }
 
 
-
-
 # UTILITIES {{{1
 #------------------------------------------------------
-
-# MISC {{{1
-#------------------------------------------------------
-#===| getJson() {{{2
-sub getJson {
-    my $fname = shift @_;
-    my $hash = do {
-        open my $fh, '<', $fname;
-        local $/;
-        decode_json(<$fh>);
-    };
-    return $hash
-}
-
-
-#===| filter() {{{2
-sub genFilter {
-    my $ARGS    = shift @_;
-    my $dspt    = $ARGS->{dspt};
-    my $obj     = $ARGS->{obj};
-    my $pattern = $ARGS->{pattern};
-
-    return sub {
-        my $raw = shift @_;
-        if ($raw =~ $pattern) {
-            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
-        }
-        else { return $raw }
-    };
-}
-
 
 # NOTES {{{1
 #------------------------------------------------------
@@ -528,6 +469,96 @@ sub genFilter {
 #- $a = $c->[0]->{$key} && $a == $b
 # Shared {{{1
 #------------------------------------------------------
+
+#===| setReservedKeys() {{{2
+sub setReservedKeys {
+  my $data = shift @_;
+  my $reservedKeys = {
+        raw   => [ 'raw', 1 ],
+        trash => [ 'trash', 2 ],
+        LN    => [ 'LN', 3 ],
+        miss  => [ 'miss', 4 ],
+        miss  => [ 'LIBS', 5 ],
+        miss  => [ 'libName', 6 ],
+  };
+  $data->{reservedKeys} = $reservedKeys;
+}
+
+
+#===| isReservedKey() {{{2
+sub isReservedKey {
+
+    my %reservedKeys = (
+        LN    => 'LN',
+        raw   => 'raw',
+        trash => 'trash',
+        miss  => 'miss',
+    );
+
+    my $data = shift @_;
+    my $key  = shift @_;
+    my @matches = grep { $_ eq $reservedKeys{$_} } keys %reservedKeys;
+    if ($matches[0])    {return 1}
+    else                {return 0}
+}
+
+
+#===| filter(){{{2
+sub filter {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    my $sub0   = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         $hash->{$arg} = $sub0->($hash->{$arg});
+    }
+}
+
+
+#===| validate_Dspt() {{{2
+sub validate_Dspt {
+
+    my $data = shift @_;
+    my $dspt = $data->{dspt};
+    my %hash = (
+    );
+    $data->{dspt}->{libName} = {
+        order => 0,
+        groupName => 'LIBS',
+    };
+}
+
+
+#===| getJson() {{{2
+sub getJson {
+    my $fname = shift @_;
+    my $hash = do {
+        open my $fh, '<', $fname;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $hash
+}
+
+
+#===| filter() {{{2
+sub genFilter {
+    my $ARGS    = shift @_;
+    my $dspt    = $ARGS->{dspt};
+    my $obj     = $ARGS->{obj};
+    my $pattern = $ARGS->{pattern};
+
+    return sub {
+        my $raw = shift @_;
+        if ($raw =~ $pattern) {
+            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
+        }
+        else { return $raw }
+    };
+}
+
+
 #===| getObj() {{{2
 sub getObj {
     # return OBJECT_KEY at current point
@@ -723,5 +754,64 @@ sub cmpKeys {
 }
 
 
+#===| decho() {{{2
+sub decho {
+
+    my $data = shift @_;
+    my $var = shift @_;
+
+    ## Data::Dumper
+    use Data::Dumper;
+    $Data::Dumper::Indent = 2;
+    $Data::Dumper::Sortkeys = ( sub {
+        my $hash = shift @_;
+        return [ sort {
+                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
+                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
+                $order_a cmp $order_b;
+            } keys %$hash ];
+        });
+
+    ##
+    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
+    return $output;
+}
+
+
+#===| mes() {{{2
+sub mes {
+
+    ##
+    my $mes   = shift @_;
+    my $data  = shift @_;
+
+    ##
+    if ($data->{verbose}) {
+        my $cnt   = shift @_;
+
+        ##
+        my $start = shift @_;
+        $start = $start ? 0 : 1;
+
+        ##
+        my $disable_LN = shift @_;
+
+        ##
+        my $offset = shift @_;
+        $offset = $offset ? $offset : 0;
+
+        ##
+        my $indent = "  ";
+        my $lvl = 0;
+
+        if (exists $data->{point}) {
+            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
+                                               : 0;
+        }
+
+        $indent = $indent x ($cnt + $start + $lvl - $offset);
+        print $indent . $mes . "\n";
+    }
+}
 
 

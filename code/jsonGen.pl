@@ -1,23 +1,22 @@
 #!/usr/bin/env perl
 #============================================================
 #
-#         FILE: genJson.pl
-#        USAGE: perl ./genJson.pl
+#         FILE: jsonGen.pl
+#        USAGE: ./jsonGen.pl
 #   DESCRIPTION: ---
 #        AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
+#       Created: sprig 2021
 #===========================================================
 use strict;
 use warnings;
 use utf8;
 use Storable qw(dclone);
 use JSON::PP;
-use YAML;
 use XML::Simple;
+use YAML;
 
 #  Assumptions
 #    - all first level dspt keys and their group names are unique
-
-
 
 
 # MAIN {{{1
@@ -68,10 +67,42 @@ use XML::Simple;
 }
 
 
-
-
 # SUBROUTINES {{{1
 #------------------------------------------------------
+
+#===| init() {{{2
+sub init {
+
+  my $data = shift @_;
+  mes("Starting INIT", $data, 0, 0, 1);
+
+  ## Argument Checks
+  unless ($data->{fileNames}->{fname}) { die("User did not provide 'fname' argument! In ${0} at line: ".__LINE__)}
+  unless ($data->{fileNames}->{dspt})  { die("User did not provide 'dspt' argument! In ${0} at line: ".__LINE__)}
+
+  ## Initiate variables
+  unless (exists $data->{point}) {$data->{point} = [1]}
+  else   {warn "WARNING!: 'point' is already defined by user! In ${0} at line: ".__LINE__}
+
+  unless (exists $data->{result}) {$data->{result} = { libName => $data->{name} }}
+  else   {warn "WARNING!: 'result' is already defined by user! In ${0} at line: ".__LINE__}
+
+  unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
+  else   {warn "WARNING!: 'reffArray' is already defined by user! In ${0} at line: ".__LINE__}
+
+  unless (exists $data->{meta}) {$data->{meta} = {}}
+  else   {warn "WARNING!: 'meta' is already defined by user! In ${0} at line: ".__LINE__}
+
+  ## options
+  unless ($data->{verbose})             {}
+  unless ($data->{meta})                {}
+  unless ($data->{lineNums})            {}
+  unless ($data->{fileNames}->{output}) {}
+  mes("..ok", $data, 0, 0, 1);
+  setReservedKeys($data);
+
+}
+
 
 #===| delegate() {{{2
 sub delegate {
@@ -448,8 +479,6 @@ sub delimitAttribute {
 }
 
 
-
-
 #===| encodeResult() {{{2
 sub encodeResult {
 
@@ -476,48 +505,6 @@ sub encodeResult {
 }
 
 
-
-
-# UTILITIES {{{1
-#------------------------------------------------------
-
-# CHECKS {{{1
-#------------------------------------------------------
-
-#===| init() {{{2
-sub init {
-
-  my $data = shift @_;
-  mes("Starting INIT", $data, 0, 0, 1);
-
-  ## Argument Checks
-  unless ($data->{fileNames}->{fname}) { die("User did not provide 'fname' argument! In ${0} at line: ".__LINE__)}
-  unless ($data->{fileNames}->{dspt})  { die("User did not provide 'dspt' argument! In ${0} at line: ".__LINE__)}
-
-  ## Initiate variables
-  unless (exists $data->{point}) {$data->{point} = [1]}
-  else   {warn "WARNING!: 'point' is already defined by user! In ${0} at line: ".__LINE__}
-
-  unless (exists $data->{result}) {$data->{result} = {libName => $data->{name}}}
-  else   {warn "WARNING!: 'result' is already defined by user! In ${0} at line: ".__LINE__}
-
-  unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
-  else   {warn "WARNING!: 'reffArray' is already defined by user! In ${0} at line: ".__LINE__}
-
-  unless (exists $data->{meta}) {$data->{meta} = {}}
-  else   {warn "WARNING!: 'meta' is already defined by user! In ${0} at line: ".__LINE__}
-
-  ## options
-  unless ($data->{verbose})             {}
-  unless ($data->{meta})                {}
-  unless ($data->{lineNums})            {}
-  unless ($data->{fileNames}->{output}) {}
-  mes("..ok", $data, 0, 0, 1);
-  setReservedKeys($data);
-
-}
-
-
 #===| validate_Matches() {{{2
 sub validate_Matches {
 
@@ -525,22 +512,6 @@ sub validate_Matches {
     my $matches = $data->{matches};
     mes("Starting CHECK_MATCHES", $data, 0, 1, 1);
     #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
-    mes("..ok", $data, 0, 0, 1);
-}
-
-
-#===| validate_Dspt() {{{2
-sub validate_Dspt {
-
-    my $data = shift @_;
-    my $dspt = $data->{dspt};
-    my %hash = (
-    );
-    mes("Starting CHECK_DSPT", $data, 0, 1, 1);
-    $data->{dspt}->{libName} = {
-        order => 0,
-        groupName => 'LIBS',
-    };
     mes("..ok", $data, 0, 0, 1);
 }
 
@@ -594,77 +565,6 @@ sub test {
 }
 
 
-
-
-# VERBOSE {{{1
-#------------------------------------------------------
-
-#===| decho() {{{2
-sub decho {
-
-    my $data = shift @_;
-    my $var = shift @_;
-
-    ## Data::Dumper
-    use Data::Dumper;
-    $Data::Dumper::Indent = 2;
-    $Data::Dumper::Sortkeys = ( sub {
-        my $hash = shift @_;
-        return [ sort {
-                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
-                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
-                $order_a cmp $order_b;
-            } keys %$hash ];
-        });
-
-    ##
-    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
-    return $output;
-}
-
-
-#===| mes() {{{2
-sub mes {
-
-    ##
-    my $mes   = shift @_;
-    my $data  = shift @_;
-
-    ##
-    if ($data->{verbose}) {
-        my $cnt   = shift @_;
-
-        ##
-        my $start = shift @_;
-        $start = $start ? 0 : 1;
-
-        ##
-        my $disable_LN = shift @_;
-
-        ##
-        my $offset = shift @_;
-        $offset = $offset ? $offset : 0;
-
-        ##
-        my $indent = "  ";
-        my $lvl = 0;
-
-        if (exists $data->{point}) {
-            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
-                                               : 0;
-        }
-
-        $indent = $indent x ($cnt + $start + $lvl - $offset);
-        print $indent . $mes . "\n";
-    }
-}
-
-
-
-
-# MISC {{{1
-#------------------------------------------------------
-
 #===| getLvlReffArray() {{{2
 sub getLvlReffArray {
 
@@ -672,6 +572,55 @@ sub getLvlReffArray {
     return $data->{reffArray}->@*;
 }
 
+
+# NOTES {{{1
+#------------------------------------------------------
+# OBJ: Hash
+# PROPERTIES:
+#    UID
+#    dspt
+#    contents
+#    point
+#    reff
+# PUBLIC:
+#    init()
+#    decode()
+#    encode()
+# PRIVATE:
+#    genUID()
+# INHERITANCE: Controller
+
+# OBJ: Json Generation Agent
+# PROPERTIES:
+#    HASH
+# PUBLIC:
+#    init()
+#    delegate()
+#    getMatches()
+#    leveler()
+# PRIVATE:
+#    divy()
+#    genAttribs()
+# INHERITANCE: Controller
+
+# OBJ: Controller
+# PROPERTIES:
+#    HASH
+#    meta
+#    options
+#    -   processes
+# PUBLIC:
+#    init()
+#    delegate()
+#    getOptions()
+#    getMeta()
+# PRIVATE:
+#    genMeta()
+#    setOptions()
+# UTILITIES {{{1
+#------------------------------------------------------
+# SHARED {{{1
+#------------------------------------------------------
 
 #===| setReservedKeys() {{{2
 sub setReservedKeys {
@@ -706,8 +655,49 @@ sub isReservedKey {
 }
 
 
-# SHARED {{{1
-#------------------------------------------------------
+#===| validate_Dspt() {{{2
+sub validate_Dspt {
+
+    my $data = shift @_;
+    my $dspt = $data->{dspt};
+    my %hash = (
+    );
+    $data->{dspt}->{libName} = {
+        order => 0,
+        groupName => 'LIBS',
+    };
+}
+
+
+#===| getJson() {{{2
+sub getJson {
+    my $fname = shift @_;
+    my $hash = do {
+        open my $fh, '<', $fname;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $hash
+}
+
+
+#===| filter() {{{2
+sub genFilter {
+    my $ARGS    = shift @_;
+    my $dspt    = $ARGS->{dspt};
+    my $obj     = $ARGS->{obj};
+    my $pattern = $ARGS->{pattern};
+
+    return sub {
+        my $raw = shift @_;
+        if ($raw =~ $pattern) {
+            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
+        }
+        else { return $raw }
+    };
+}
+
+
 #===| getObj() {{{2
 sub getObj {
     # return OBJECT_KEY at current point
@@ -903,5 +893,64 @@ sub cmpKeys {
 }
 
 
+#===| decho() {{{2
+sub decho {
+
+    my $data = shift @_;
+    my $var = shift @_;
+
+    ## Data::Dumper
+    use Data::Dumper;
+    $Data::Dumper::Indent = 2;
+    $Data::Dumper::Sortkeys = ( sub {
+        my $hash = shift @_;
+        return [ sort {
+                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
+                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
+                $order_a cmp $order_b;
+            } keys %$hash ];
+        });
+
+    ##
+    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
+    return $output;
+}
+
+
+#===| mes() {{{2
+sub mes {
+
+    ##
+    my $mes   = shift @_;
+    my $data  = shift @_;
+
+    ##
+    if ($data->{verbose}) {
+        my $cnt   = shift @_;
+
+        ##
+        my $start = shift @_;
+        $start = $start ? 0 : 1;
+
+        ##
+        my $disable_LN = shift @_;
+
+        ##
+        my $offset = shift @_;
+        $offset = $offset ? $offset : 0;
+
+        ##
+        my $indent = "  ";
+        my $lvl = 0;
+
+        if (exists $data->{point}) {
+            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
+                                               : 0;
+        }
+
+        $indent = $indent x ($cnt + $start + $lvl - $offset);
+        print $indent . $mes . "\n";
+    }
+}
 
 
