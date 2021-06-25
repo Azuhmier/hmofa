@@ -38,6 +38,7 @@
       "groupName" : "TAGS",
       "re" : "^\\s*(\\[.*)",
       "plural" : "1",
+      "partion" : "1",
       "attributes" : {
          "anthro" : [
             "(?x) ^\\[  ([^\\[\\]]*)",

@@ -24,7 +24,7 @@ use lib ($ENV{HOME} . '/hmofa/hmofa/code/lib/');
 # MAIN {{{1
 #------------------------------------------------------
 {
-    my $opts = genOpts({ sort => 1, write => 0, divy => [1,1], attribs => [0], verbose =>1});
+    my $opts = genOpts({ sort => 1, write => 1, divy => [1], attribs => [1], verbose =>1});
 
     # ===| tagCatalog {{{2
     delegate({
@@ -228,61 +228,64 @@ sub init {
 sub divyMatches {
 
     my $data = shift @_;
-    my $obj_key = getObj( $data );
+    my $reffArray = $data->{reffArray};
+    my $matches   = $data->{matches};
+    my $opts      = $data->{opts};
 
-    if ($data->{opts}->{divy}->[0]) {
-        my $pond      = dclone(${$data}{matches}->{$obj_key});
-        my $groupName = getGroupName($data, $obj_key);
+    if ($opts->{divy}->[0]) {
+        my $obj       = getObj( $data );
+        my $pond      = dclone($matches->{$obj});
+        my $groupName = getGroupName($data, $obj);
 
-        my $ind = ( scalar ${$data}{reffArray}->@* ) - 1;
-        for my $reff (reverse ${$data}{reffArray}->@*) {
-            my $lvlObj  = getLvlObj($data,$reff);
-            my $lvlItem = $reff->{getLvlObj($data,$reff)};
+        my $ind = ( scalar $reffArray->@* ) - 1;
+        for my $reff (reverse $reffArray->@*) {
+            my $lvlObj  = getLvlObj($data, $reff);
+            my $lvlItem = $reff->{ $lvlObj };
 
             ## Check existance of line# at reff
-            my $reff_lineNum;
-            if ($reff->{LN}) { $reff_lineNum = $reff->{LN} }
-            else             { $reff_lineNum = 0 }
+            my $reff_lineNum = ($reff->{LN}) ? $reff->{LN} : 0;
 
             ## Debug
-            mes("IDX-$ind $obj_key -> $lvlObj", $data, 1)
-                if $data->{opts}->{divy}->[1] and $data->{opts}->{divy}->[1] == 1;
+            mes("IDX-$ind $obj -> $lvlObj", $data, 1)
+                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
             mes("[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
-                if $data->{opts}->{divy}->[1] and $data->{opts}->{divy}->[1] == 1;
+                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
 
             my $bucket;
             my $flag=0;
             for my $match (reverse $pond->@*) {
+
                 if ($match->{LN} > $reff_lineNum) {
                     my $match = pop $pond->@*;
 
                     ## debug
-                    unless ($data->{opts}->{divy}->[1]) {
-                        mes("IDX-$ind $lvlObj -> $obj_key", $data, 1)
+                    unless ($opts->{divy}->[1]) {
+                        mes("IDX-$ind $lvlObj -> $obj", $data, 1)
                             if !$flag;
                     }
-                    unless ($data->{opts}->{divy}->[1]) {
+                    unless ($opts->{divy}->[1]) {
                         mes("[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
                             if !$flag
                     }
-                    mes("($match->{LN}) <$obj_key> $match->{$obj_key}", $data, 4);
 
                     ## Attrbutes
+                    mes("($match->{LN}) <$obj> $match->{$obj}", $data, 4)
+                        if $data->{dspt}->{$obj}->{partion};
                     genAttributes( $data, $match );
+                    mes("($match->{LN}) <$obj> $match->{$obj}", $data, 4)
+                        unless $data->{dspt}->{$obj}->{partion};
                     push $bucket->@*, $match;
 
-                } else {
-                    last;
-                }
+                } else { last }
+
                 $flag++;
             }
 
             ## Check if bucket is empty
             if ($bucket) {
                 $bucket->@* = reverse $bucket->@*;
-                ${$data}{reffArray}->[$ind]->{$groupName} = $bucket;
-                my $ref = ${$data}{reffArray}->[$ind];
-                splice( ${$data}{reffArray}->@*, $ind, 1, ($ref, $bucket->@*) );
+                $reffArray->[$ind]->{$groupName} = $bucket;
+                splice( $reffArray->@*, $ind, 1, ($reffArray->[$ind], $bucket->@*) );
             }
             $ind--;
         }
@@ -294,80 +297,56 @@ sub divyMatches {
 #===| genAttributes() {{{2
 sub genAttributes {
 
-    ## Object Reff
     my $data    = shift @_;
     my $objKey  = getObj( $data );
     my $objReff = $data->{dspt}->{$objKey};
-    if ($data->{opts}->{attribs}->[0]) {
+    my $opts    = $data->{opts};
+    if ($opts->{attribs}->[0]) {
 
-        #Save UnAttributed Match
+        ## Save UnAttributed Match
         my $match = shift @_;
         my $raw   = $match->{$objKey};
 
-        #
         my $flag;
-        mes("ADD_ATTRIBUTES", $data);
-        mes("==Using Match_Str== '$match->{$objKey}'", $data);
-        mes("Checking for attributes key", $data);
         if (exists $objReff->{attributes}) {
             my $attributesDSPT = $objReff->{attributes};
-            mes("..exists", $data);
-            mes("Begin attributes_hash iteration", $data);
 
             ## Iterate through attributeDSPT
             my @attributesOrderArray = sort {
-                ## essentially 'undef cmp undef' with some elements
                 $attributesDSPT->{$a}->[1] cmp $attributesDSPT->{$b}->[1];
                 } keys $attributesDSPT->%*;
-            for my $attrib (@attributesOrderArray) {
-                mes("==Selecting ATTRIBUTE== '${attrib}'", $data);
-                mes("Searching for ATTRIBUTE match in '".$match->{$objKey}."'", $data);
-                $match->{ $objKey } =~ s/$attributesDSPT->{$attrib}->[0]//;
 
-                #
+            for my $attrib (@attributesOrderArray) {
+                my $attrReff = $attributesDSPT->{$attrib};
+                #mes("${attrib}", $data, 5);
+                $match->{ $objKey } =~ s/$attrReff->[0]//;
+
                 if ($1 && $1 ne '') {
                     $match->{$attrib} = $1;
                     $flag = 1;
-                    mes("..Found: '" . $match->{$attrib} . "'", $data);
-                    mes("Set 'STR_MODIFIED' flag", $data);
-                    mes("Removing ATTRIBUTE match from string", $data);
-                    mes("..New Match_Str: '" . $match->{$objKey} . "'", $data);
-                    mes("Checking for Additianol Partioning", $data);
+                    mes("|${attrib}|", $data, 6, 1);
+                    mes(" '".$match->{$attrib}."'", $data, -1);
+                    #mes("Match_Str: '" . $match->{$objKey} . "'", $data,5);
 
-                    #
-                    if (scalar $attributesDSPT->{ $attrib }->@* == 3) {
-                        mes("..Found!", $data);
+                    if (scalar $attrReff->@* == 3) {
                         delimitAttribute($data, $attrib, $match);
                     }
-                    else { mes("..not Found!", $data) }
                 }
-                else { mes("..not Found!", $data) }
             }
-            mes( "Check for 'STR_MODIFIED' flag", $data);
 
-            #
-            if ( $flag ) {
-                    mes("..Exists", $data);
-                    mes("Adding original str to RAW key of current reff_hash", $data);
-                $match->{raw} = $raw;
-            }
-            else { mes("..does not Exists", $data); }
+            if ( $flag ) { $match->{raw} = $raw; }
 
-            #
             unless ($match->{$objKey}) {
-              #mes("Deleting Empty Match_Str", $data, 6, 0, 1);
-              #delete $match->{ $objKey }
-              mes("populating Empty Match_Str", $data);
-              $match->{$objKey} = [];
-              for my $attrib (@attributesOrderArray) {
-                  if (exists $match->{$attrib}) {
-                      push $match->{$objKey}->@*, $match->{$attrib}->@*;
-                  }
-              }
+                #mes("Deleting Empty Match_Str", $data, 6, 0, 1);
+                #delete $match->{ $objKey }
+                $match->{$objKey} = [];
+                for my $attrib (@attributesOrderArray) {
+                    if (exists $match->{$attrib}) {
+                        push $match->{$objKey}->@*, $match->{$attrib}->@*;
+                    }
+                }
             }
         }
-        else { mes("..does not exists", $data); }
-        mes("Returning ADD_attributes", $data);
     }
 }
 
@@ -387,13 +366,11 @@ sub delimitAttribute {
                                        : '';
 
     ## Split and Grep Attribute Match-
-    mes("DELIMIT_ATTRIBUTE for attribute '${attributeKey}'", $data);
     my $match = shift @_;
     $match->{$attributeKey} = [
         grep { $_ ne '' }
         split( /$delimsRegex/, $match->{$attributeKey} )
     ];
-    mes("Returning GEN_TAGS", $data);
 }
 
 
@@ -831,10 +808,12 @@ sub mes {
     my $data  = shift @_;
 
     if ($data->{opts}->{verbose}) {
-        my $cnt  = shift @_;
-        my $indent = "    ";
+        my $cnt             = shift @_;
+        my $NewLineDisable  = shift @_;
+        my $indent          = "    ";
+        my $newline         = !($NewLineDisable) ? "\n" : "";
         if ($cnt) { $indent = $indent x (1 + $cnt) }
-        print $indent . $mes . "\n";
+        print $indent . $mes . $newline;
     }
 }
 
