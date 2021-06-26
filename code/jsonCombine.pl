@@ -553,51 +553,13 @@ sub waltzer {
         #filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
     }
 }
-# NOTES {{{1
+# HASH {{{1
 #------------------------------------------------------
-# OBJ: Json Combining Agent
-# PROPERTIES:
-#   HASH
-# PUBLIC:
-#   init()
-#   combine()
-# PRIVATE:
-# INHERITANCE: Controller
-
-# OBJ: Json Comparing Agent
-# PROPERTIES:
-# PUBLIC:
-#   init()
-# PRIVATE:
-# INHERITANCE: Controller
-
-# OBJ: Json Writing Agent
-# PROPERTIES:
-#    HASH
-# PUBLIC:
-#   init()
-# PRIVATE:
-# INHERITANCE: Controller
-# SHARED {{{1
-#------------------------------------------------------
-
-#===| setReservedKeys() {{{2
-sub setReservedKeys {
-  my $data = shift @_;
-  my $reservedKeys = {
-        raw   => [ 'raw', 1 ],
-        trash => [ 'trash', 2 ],
-        LN    => [ 'LN', 3 ],
-        miss  => [ 'miss', 4 ],
-        miss  => [ 'LIBS', 5 ],
-        miss  => [ 'libName', 6 ],
-  };
-  $data->{reservedKeys} = $reservedKeys;
-}
-
 
 #===| isReservedKey() {{{2
 sub isReservedKey {
+
+    my ($data, $key) = @_;
 
     my %reservedKeys = (
         LN    => 'LN',
@@ -606,24 +568,9 @@ sub isReservedKey {
         miss  => 'miss',
     );
 
-    my $data = shift @_;
-    my $key  = shift @_;
     my @matches = grep { $_ eq $reservedKeys{$_} } keys %reservedKeys;
     if ($matches[0])    {return 1}
     else                {return 0}
-}
-
-
-#===| filter(){{{2
-sub filter {
-    my $arg   = shift @_;
-    my $key   = shift @_;
-    my $index = shift @_;
-    my $hash  = shift @_;
-    my $sub0   = shift @_;
-    if ( ($index % 2 == 0) and $arg eq $key) {
-         $hash->{$arg} = $sub0->($hash->{$arg});
-    }
 }
 
 
@@ -641,19 +588,7 @@ sub validate_Dspt {
 }
 
 
-#===| getJson() {{{2
-sub getJson {
-    my $fname = shift @_;
-    my $hash = do {
-        open my $fh, '<', $fname;
-        local $/;
-        decode_json(<$fh>);
-    };
-    return $hash
-}
-
-
-#===| filter() {{{2
+#===| genfilter() {{{2
 sub genFilter {
     my $ARGS    = shift @_;
     my $dspt    = $ARGS->{dspt};
@@ -690,38 +625,6 @@ sub getObj {
         else                       { return $match[0] }
     }
 
-}
-
-
-#===| getObjFromUniqeKey() {{{2
-sub getObjFromUniqeKey {
-  my $data = shift @_;
-  my $key  = shift @_;
-
-  if    (exists $data->{dspt}->{$key})        { return $data->{dspt}->{$key}->{order} }
-  elsif (getObjFromGroupNameKey($data, $key)) { return $data->{dspt}->{getObjFromGroupNameKey($data, $key)}->{order} }
-  else                                        { return 0 }
-}
-
-
-#===| getObjFromGroupNameKey() {{{2
-sub getObjFromGroupNameKey {
-    # return GROUP_NAME if it is an OBJECT_KEY
-    # return OBJECT_KEY that contains GROUP_NAME
-    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
-    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
-
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt};
-    my $groupName = shift @_;
-
-    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
-    if (scalar @keys) {
-        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
-        if ($match[0]) { return $match[0] }
-        else { return 0 }
-    }
-    else { return 0 }
 }
 
 
@@ -768,56 +671,6 @@ sub getPointStr {
 }
 
 
-#===| genPointStrForRedundantKey() {{{2
-sub genPointStrForRedundantKey {
-    # return 'pointStr' if 'key' is an 'objKey'
-    # die if 'pointStr' is '0' or doesn't exist!
-    # return '0' if 'objKey' doesn't exist!
-
-    my $data   = shift @_;
-    my $key    = shift @_;
-    my $hash   = shift @_; # single level hash, only needed for Attributes
-                           # and Reserved Keys
-
-    ## Set 'data->{point}'
-    my $lvlObj =  getLvlObj($data, $hash);
-    $data->{point} = [split /\./, $data->{dspt}->{$lvlObj}->{order}];
-
-    my $pointStr     = getPointStr($data);
-    my $hashObjKey   = getObj($data);
-    my $hashDsptReff = $data->{dspt}->{$hashObjKey};
-
-    ## ATTRIBUTES
-    if (exists $hashDsptReff->{attributes}->{$key}) {
-
-        my $attributeDsptReff = $hashDsptReff->{attributes}->{$key};
-        my $cnt;
-
-        if (exists $attributeDsptReff->[1]) { $cnt = $attributeDsptReff->[1] }
-        else                                { $cnt = 1 }
-
-        for (my $i = 1; $i <= $cnt; $i++)   { $pointStr = changePointStrInd($pointStr, 1) }
-
-        unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
-        return $pointStr;
-    }
-
-    ## RESERVED KEYS
-    #elsif (isReservedKey($key)) {
-    elsif (1) {
-        if ($key eq 'raw')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.1' }
-        if ($key eq 'LN')    { $pointStr = '5.1.1.1.1.1.1.1.1.1.2' }
-        if ($key eq 'point') { $pointStr = '5.1.1.1.1.1.1.1.1.1.3' }
-        if ($key eq 'libName')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.4' }
-        unless ($pointStr)   { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
-        return $pointStr;
-    }
-
-    ## INVALID KEY
-    else {}
-}
-
-
 #===| changePointLvl() {{{2
 sub changePointLvl {
 
@@ -850,20 +703,102 @@ sub changePointStrInd {
 
 #===| cmpKeys() {{{2
 sub cmpKeys {
-  my $data  = shift @_;
-  my $key_a = shift @_;
-  my $key_b = shift @_;
-  my $hash  = shift @_;
+    my $data  = shift @_;
+    my $key_a = shift @_;
+    my $key_b = shift @_;
+    my $hash  = shift @_;
 
-  my $pointStr_a = getObjFromUniqeKey($data, $key_a);
-  my $pointStr_b = getObjFromUniqeKey($data, $key_b);
+    my $pointStr_a = getObjFromUniqeKey($data, $key_a);
+    my $pointStr_b = getObjFromUniqeKey($data, $key_b);
 
-  unless ($pointStr_a) { $pointStr_a = genPointStrForRedundantKey( $data, $key_a, $hash) }
-  unless ($pointStr_b) { $pointStr_b = genPointStrForRedundantKey( $data, $key_b, $hash) }
+    unless ($pointStr_a) { $pointStr_a = genPointStrForRedundantKey( $data, $key_a, $hash) }
+    unless ($pointStr_b) { $pointStr_b = genPointStrForRedundantKey( $data, $key_b, $hash) }
 
-  return $pointStr_a cmp $pointStr_b;
+    return $pointStr_a cmp $pointStr_b;
+
+    #===|| getObjFromUniqeKey() {{{3
+    sub getObjFromUniqeKey {
+        my $data = shift @_;
+        my $key  = shift @_;
+
+        if    (exists $data->{dspt}->{$key})        { return $data->{dspt}->{$key}->{order} }
+        elsif (getObjFromGroupName($data, $key))    { return $data->{dspt}->{getObjFromGroupName($data, $key)}->{order} }
+        else                                        { return 0 }
+        #===| getObjFromGroupName() {{{4
+        sub getObjFromGroupName {
+            # return GROUP_NAME if it is an OBJECT_KEY
+            # return OBJECT_KEY that contains GROUP_NAME
+            # return '0' if no OBJECT_KEY contains a GROUP_NAME!
+            # return '0' if no OBJECTY_KEY contains GROUP_NAME!
+
+            my $data      = shift @_;
+            my $dspt      = $data->{dspt};
+            my $groupName = shift @_;
+
+            my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
+            if (scalar @keys) {
+                my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
+                if ($match[0]) { return $match[0] }
+                else { return 0 }
+            }
+            else { return 0 }
+        }
+
+
+    }
+    #===|| genPointStrForRedundantKey() {{{3
+    sub genPointStrForRedundantKey {
+        # return 'pointStr' if 'key' is an 'objKey'
+        # die if 'pointStr' is '0' or doesn't exist!
+        # return '0' if 'objKey' doesn't exist!
+
+        my $data   = shift @_;
+        my $key    = shift @_;
+        my $hash   = shift @_; # single level hash, only needed for Attributes
+                               # and Reserved Keys
+
+        ## Set 'data->{point}'
+        my $lvlObj =  getLvlObj($data, $hash);
+        $data->{point} = [split /\./, $data->{dspt}->{$lvlObj}->{order}];
+
+        my $pointStr     = getPointStr($data);
+        my $hashObjKey   = getObj($data);
+        my $hashDsptReff = $data->{dspt}->{$hashObjKey};
+
+        ## ATTRIBUTES
+        if (exists $hashDsptReff->{attributes}->{$key}) {
+
+            my $attributeDsptReff = $hashDsptReff->{attributes}->{$key};
+            my $cnt;
+
+            if (exists $attributeDsptReff->[1]) { $cnt = $attributeDsptReff->[1] }
+            else                                { $cnt = 1 }
+
+            for (my $i = 1; $i <= $cnt; $i++)   { $pointStr = changePointStrInd($pointStr, 1) }
+
+            unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+            return $pointStr;
+        }
+
+        ## RESERVED KEYS
+        #elsif (isReservedKey($key)) {
+        elsif (1) {
+            if ($key eq 'raw')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.1' }
+            if ($key eq 'LN')    { $pointStr = '5.1.1.1.1.1.1.1.1.1.2' }
+            if ($key eq 'point') { $pointStr = '5.1.1.1.1.1.1.1.1.1.3' }
+            if ($key eq 'libName')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.4' }
+            unless ($pointStr)   { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
+            return $pointStr;
+        }
+
+        ## INVALID KEY
+        else {}
+    }
 }
 
+
+# INHERITED {{{1
+#------------------------------------------------------
 
 #===| decho() {{{2
 sub decho {
@@ -889,40 +824,97 @@ sub decho {
 }
 
 
-#===| mes() {{{2
-sub mes {
+#===| encodeResult() {{{2
+sub encodeResult {
 
-    ##
-    my $mes   = shift @_;
     my $data  = shift @_;
-
-    ##
-    if ($data->{verbose}) {
-        my $cnt   = shift @_;
-
-        ##
-        my $start = shift @_;
-        $start = $start ? 0 : 1;
-
-        ##
-        my $disable_LN = shift @_;
-
-        ##
-        my $offset = shift @_;
-        $offset = $offset ? $offset : 0;
-
-        ##
-        my $indent = "  ";
-        my $lvl = 0;
-
-        if (exists $data->{point}) {
-            $lvl = (scalar $data->{point}->@*) ? scalar $data->{point}->@*
-                                               : 0;
+    if  ($data->{opts}->{write}) {
+        my $fname = $data->{fileNames}->{output};
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj = $json_obj->allow_blessed(['true']);
+            if ($data->{opts}->{sort}) {
+              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
+            }
+            my $json  = $json_obj->encode($data->{result});
+            open( my $fh, '>' ,$fname ) or die $!;
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close( $fh );
         }
-
-        $indent = $indent x ($cnt + $start + $lvl - $offset);
-        print $indent . $mes . "\n";
     }
 }
 
 
+#===| filter(){{{2
+sub filter {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    my $sub0   = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         $hash->{$arg} = $sub0->($hash->{$arg});
+    }
+}
+
+
+#===| getJson() {{{2
+sub getJson {
+    my $fname = shift @_;
+    my $hash = do {
+        open my $fh, '<', $fname;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $hash
+}
+
+
+#===| mes() {{{2
+sub mes {
+
+    my $mes   = shift @_;
+    my $data  = shift @_;
+
+    if ($data->{opts}->{verbose}) {
+        my $cnt             = shift @_;
+        my $NewLineDisable  = shift @_;
+        my $silent  = shift @_;
+        my $indent          = "    ";
+        my $newline         = !($NewLineDisable) ? "\n" : "";
+        if ($cnt) { $indent = $indent x (1 + $cnt) }
+        unless ($silent) {
+            print $indent . $mes . $newline;
+        } else {
+            return $indent . $mes . $newline;
+        }
+    }
+}
+
+
+# NOTES {{{1
+#------------------------------------------------------
+# OBJ: Json Combining Agent
+# PROPERTIES:
+#   HASH
+# PUBLIC:
+#   init()
+#   combine()
+# PRIVATE:
+# INHERITANCE: Controller
+
+# OBJ: Json Comparing Agent
+# PROPERTIES:
+# PUBLIC:
+#   init()
+# PRIVATE:
+# INHERITANCE: Controller
+
+# OBJ: Json Writing Agent
+# PROPERTIES:
+#    HASH
+# PUBLIC:
+#   init()
+# PRIVATE:
+# INHERITANCE: Controller

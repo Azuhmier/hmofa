@@ -14,8 +14,6 @@ use Storable qw(dclone);
 use JSON::PP;
 use XML::Simple;
 use YAML;
-use lib ($ENV{HOME} . '/hmofa/hmofa/code/lib/');
-    use Hmofa::Hash;
 
 #  Assumptions
 #    - all first level dspt keys and their group names are unique
@@ -24,12 +22,20 @@ use lib ($ENV{HOME} . '/hmofa/hmofa/code/lib/');
 # MAIN {{{1
 #------------------------------------------------------
 {
-    my $opts = genOpts({ sort => 1, write => 1, divy => [1], attribs => [1], verbose =>1});
+    my $opts = genOpts({
+        sort    => 1,
+        write   => 1,
+        divy    => [1,1],
+        attribs => [1,1],
+        verbose => 0,
+        display => 0,
+    });
 
-    # ===| tagCatalog {{{2
+    ## tagCatalog
     delegate({
-        name => 'catalog',
         opts => $opts,
+        name => 'catalog',
+        preserve => { section => ['Introduction/Key'] },
         fileNames => {
             fname  => '../tagCatalog.txt',
             output => './json/catalog.json',
@@ -38,10 +44,10 @@ use lib ($ENV{HOME} . '/hmofa/hmofa/code/lib/');
     });
 
 
-    # ===| masterbin {{{2
+    ## masterbin
     delegate({
-        name => 'masterbin',
         opts => $opts,
+        name => 'masterbin',
         fileNames => {
             fname  => '../masterbin.txt',
             output => './json/masterbin.json',
@@ -53,6 +59,57 @@ use lib ($ENV{HOME} . '/hmofa/hmofa/code/lib/');
 
 # PUBLIC {{{1
 #------------------------------------------------------
+
+#===| delegate() {{{2
+sub delegate {
+
+    my $data = shift @_;
+
+    ## checks
+    init($data);
+
+    ## matches
+    getMatches($data);
+    validate_Matches($data);
+
+    ## convert
+    leveler($data,\&checkMatches);
+
+    ## encode
+    encodeResult($data);
+
+    ## ===|| output {{{
+    if ($data->{opts}->{display}) { print decho($data->{result}, 0) };
+    {
+        ## Matches Meta
+        my $matches_Meta = $data->{meta}->{matches};
+        my $max = length longest(keys $matches_Meta->%*);
+
+        ## Verbose
+        print "\nSummary: $data->{name}\n";
+        for my $obj (sort keys $matches_Meta->%*) {
+            printf "%${max}s: %s\n", ($obj, $matches_Meta->{$obj}->{count});
+        }
+
+        ## Subs
+        sub longest {
+            my $max = -1;
+            my $max_ref;
+            for (@_) {
+                if (length > $max) {  # no temp variable, length() twice is faster
+                    $max = length;
+                    $max_ref = \$_;   # avoid any copying
+                }
+            }
+            $$max_ref
+        }
+    }
+    #}}}
+
+    return $data;
+}
+
+
 #===| genOpts() {{{2
 sub genOpts {
     my $ARGS = shift @_;
@@ -74,52 +131,6 @@ sub genOpts {
     };
     $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
     return $defaults;
-}
-
-
-#===| getMatches() {{{2
-sub getMatches {
-
-    ##
-    my $data = shift @_;
-    my $fname = $data->{fileNames}->{fname};
-    my $dspt  = $data->{dspt};
-    my $output;
-
-    ##
-    open( my $fh, '<', $fname )
-        or die $!;
-
-    ##
-    while (my $line = <$fh>) {
-
-        ##
-        my $flag;
-        for my $objKey (keys %$dspt) {
-            my $obj = $dspt->{$objKey};
-
-            ##
-            if ($obj->{re} and $line =~ /$obj->{re}/) {
-                my $match = {
-                    LN      => $.,
-                    $objKey => $1,
-                };
-                push  $output->{$objKey}->@*, $match;
-                $flag=1;
-            }
-        }
-        unless ($flag) {
-            my $match = {
-                LN      => $.,
-                miss => $line,
-            };
-            push  $output->{miss}->@*, $match;
-        }
-    }
-
-    ##
-    close( $fh );
-    $data->{matches} = $output;
 }
 
 
@@ -164,421 +175,133 @@ sub leveler {
 }
 
 
-#===| checkMatches() {{{2
-sub checkMatches {
-
-    my $data    = shift @_;
-    my $objKey = getObj( $data );
-
-    if (exists $data->{matches}->{$objKey}) {
-        divyMatches( $data );
-    }
-}
-
-
-#===| encodeResult() {{{2
-sub encodeResult {
-
-    my $data  = shift @_;
-    if  ($data->{opts}->{write}) {
-        my $fname = $data->{fileNames}->{output};
-        {
-            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-            $json_obj = $json_obj->allow_blessed(['true']);
-            if ($data->{opts}->{sort}) {
-              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
-            }
-            my $json  = $json_obj->encode($data->{result});
-            open( my $fh, '>' ,$fname ) or die $!;
-                print $fh $json;
-                truncate $fh, tell( $fh ) or die;
-            close( $fh );
-        }
-    }
-}
-
-
-# PRIVATE {{{1
-#------------------------------------------------------
-#===| init() {{{2
-sub init {
-
-  my $data = shift @_;
-
-  # ---|| properties |---{{{3
-  unless (exists $data->{point})     { $data->{point}     = [1] }
-      else {warn "WARNING!: 'point' is already defined by user!"}
-  unless (exists $data->{result})    { $data->{result}    = {libName => $data->{name}} }
-      else {warn "WARNING!: 'result' is already defined by user!"}
-  unless (exists $data->{reffArray}) { $data->{reffArray} = [$data->{result}] }
-      else {warn "WARNING!: 'reffArray' is already defined by user!"}
-  unless (exists $data->{meta})      { $data->{meta}      = {} }
-      else {warn "WARNING!: 'meta' is already defined by user!"}
-  genReservedKeys($data);
-
-  # ---|| filenames |---{{{3
-  unless ($data->{fileNames}->{dspt})   {die "User did not provide filename for 'dspt'!"}
-      genDspt($data);
-      validate_Dspt($data);
-  unless ($data->{fileNames}->{fname})  {die "User did not provide filename for 'fname'!"}
-  unless ($data->{fileNames}->{output}) {die "User did not provide filename for 'output'!"}
-  #}}}
-}
-#===| divyMatches() {{{2
-sub divyMatches {
-
-    my $data = shift @_;
-    my $reffArray = $data->{reffArray};
-    my $matches   = $data->{matches};
-    my $opts      = $data->{opts};
-
-    if ($opts->{divy}->[0]) {
-        my $obj       = getObj( $data );
-        my $pond      = dclone($matches->{$obj});
-        my $groupName = getGroupName($data, $obj);
-
-        my $ind = ( scalar $reffArray->@* ) - 1;
-        for my $reff (reverse $reffArray->@*) {
-            my $lvlObj  = getLvlObj($data, $reff);
-            my $lvlItem = $reff->{ $lvlObj };
-
-            ## Check existance of line# at reff
-            my $reff_lineNum = ($reff->{LN}) ? $reff->{LN} : 0;
-
-            ## Debug
-            mes("IDX-$ind $obj -> $lvlObj", $data, 1)
-                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
-            mes("[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
-                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
-
-            my $bucket;
-            my $flag=0;
-            for my $match (reverse $pond->@*) {
-
-                if ($match->{LN} > $reff_lineNum) {
-                    my $match = pop $pond->@*;
-
-                    ## debug
-                    unless ($opts->{divy}->[1]) {
-                        mes("IDX-$ind $lvlObj -> $obj", $data, 1)
-                            if !$flag;
-                    }
-                    unless ($opts->{divy}->[1]) {
-                        mes("[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
-                            if !$flag
-                    }
-
-                    ## Attrbutes
-                    mes("($match->{LN}) <$obj> $match->{$obj}", $data, 4)
-                        if $data->{dspt}->{$obj}->{partion};
-                    genAttributes( $data, $match );
-                    mes("($match->{LN}) <$obj> $match->{$obj}", $data, 4)
-                        unless $data->{dspt}->{$obj}->{partion};
-                    push $bucket->@*, $match;
-
-                } else { last }
-
-                $flag++;
-            }
-
-            ## Check if bucket is empty
-            if ($bucket) {
-                $bucket->@* = reverse $bucket->@*;
-                $reffArray->[$ind]->{$groupName} = $bucket;
-                splice( $reffArray->@*, $ind, 1, ($reffArray->[$ind], $bucket->@*) );
-            }
-            $ind--;
-        }
-        return $groupName;
-    }
-}
-
-
-#===| genAttributes() {{{2
-sub genAttributes {
-
-    my $data    = shift @_;
-    my $objKey  = getObj( $data );
-    my $objReff = $data->{dspt}->{$objKey};
-    my $opts    = $data->{opts};
-    if ($opts->{attribs}->[0]) {
-
-        ## Save UnAttributed Match
-        my $match = shift @_;
-        my $raw   = $match->{$objKey};
-
-        my $flag;
-        if (exists $objReff->{attributes}) {
-            my $attributesDSPT = $objReff->{attributes};
-
-            ## Iterate through attributeDSPT
-            my @attributesOrderArray = sort {
-                $attributesDSPT->{$a}->[1] cmp $attributesDSPT->{$b}->[1];
-                } keys $attributesDSPT->%*;
-
-            for my $attrib (@attributesOrderArray) {
-                my $attrReff = $attributesDSPT->{$attrib};
-                #mes("${attrib}", $data, 5);
-                $match->{ $objKey } =~ s/$attrReff->[0]//;
-
-                if ($1 && $1 ne '') {
-                    $match->{$attrib} = $1;
-                    $flag = 1;
-                    mes("|${attrib}|", $data, 6, 1);
-                    mes(" '".$match->{$attrib}."'", $data, -1);
-                    #mes("Match_Str: '" . $match->{$objKey} . "'", $data,5);
-
-                    if (scalar $attrReff->@* == 3) {
-                        delimitAttribute($data, $attrib, $match);
-                    }
-                }
-            }
-
-            if ( $flag ) { $match->{raw} = $raw; }
-
-            unless ($match->{$objKey}) {
-                #mes("Deleting Empty Match_Str", $data, 6, 0, 1);
-                #delete $match->{ $objKey }
-                $match->{$objKey} = [];
-                for my $attrib (@attributesOrderArray) {
-                    if (exists $match->{$attrib}) {
-                        push $match->{$objKey}->@*, $match->{$attrib}->@*;
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-#===| delimitAttribute() {{{2
-sub delimitAttribute {
-
-    ## Attributes
-    my $data           = shift @_;
-    my $objKey         = getObj($data);
-    my $attributesDSPT = $data->{dspt}->{$objKey}->{attributes};
-
-    ## Regex for Attribute Delimiters
-    my $attributeKey = shift @_;
-    my $delims       = join '', $attributesDSPT->{$attributeKey}->[2][0];
-    my $delimsRegex  = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
-                                       : '';
-
-    ## Split and Grep Attribute Match-
-    my $match = shift @_;
-    $match->{$attributeKey} = [
-        grep { $_ ne '' }
-        split( /$delimsRegex/, $match->{$attributeKey} )
-    ];
-}
-
-
-#===| validate_Matches() {{{2
-sub validate_Matches {
-
-    my $data = shift @_;
-    my $matches = $data->{matches};
-    #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
-}
-
-
-#===| gendspt {{{2
-sub genDspt {
-
-    my $data = shift @_;
-    my $dspt = do {
-        open my $fh, '<', $data->{fileNames}->{dspt};
-        local $/;
-        decode_json(<$fh>);
-    };
-
-    ## Generate Regex's
-    for my $obj (keys $dspt->%*) {
-
-        my %objHash = %{ $dspt->{$obj} };
-        for my $key (keys %objHash) {
-            if ($key eq 're') { $objHash{re} = qr/$objHash{re}/ }
-            if ($key eq 'attributes') {
-
-                my %attribHash = %{ $objHash{attributes} };
-                for my $attrib (keys %attribHash) {
-                    $attribHash{$attrib}->[0] = qr/$attribHash{$attrib}->[0]/;
-                }
-            }
-        }
-    }
-    $data->{dspt} = $dspt;
-}
-
-
-#===| delegate() {{{2
-sub delegate {
-
-    my $data = shift @_;
-
-    ## checks
-    init($data);
-
-    ## matches
-    getMatches($data);
-    validate_Matches($data);
-
-    ## convert
-    leveler($data,\&checkMatches);
-
-    ## encode
-    encodeResult($data);
-    if ($data->{opts}->{display}) { print decho($data, $data->{result}) };
-    return $data;
-}
-
-
-# NOTES {{{1
-#------------------------------------------------------
-# OBJ: Hash
-# PROPERTIES:
-#    UID
-#    dspt
-#    contents
-#    point
-#    reff
-# PUBLIC:
-#    init()
-#    decode()
-#    encode()
-# PRIVATE:
-#    genUID()
-# INHERITANCE: Controller
-
-# OBJ: Json Generation Agent
-# PROPERTIES:
-#    HASH
-# PUBLIC:
-#    init()
-#    delegate()
-#    getMatches()
-#    leveler()
-# PRIVATE:
-#    divy()
-#    genAttribs()
-# INHERITANCE: Controller
-
-# OBJ: Controller
-# PROPERTIES:
-#    HASH
-#    meta
-#    options
-#    -   processes
-# PUBLIC:
-#    init()
-#    delegate()
-#    getOptions()
-#    getMeta()
-# PRIVATE:
-#    genMeta()
-#    setOptions()
 # UTILITIES {{{1
 #------------------------------------------------------
-# SHARED {{{1
-#------------------------------------------------------
-#===| getParent() {{{2
-sub getParent {
-    my $data = shift @_;
-    my $dspt = $data->{dspt};
-    my $PointStr = join '.', $data->{point}->@[0 .. $data->{point}->$#* - 1 ];
-    my @matches  = grep {$dspt->{$_}->{order} eq $PointStr } keys %{$dspt};
-    return $matches[0];
-}
 
-#===| genReservedKeys() {{{2
-sub genReservedKeys {
+#===| cmpKeys() {{{2
+sub cmpKeys {
+    my ($data, $key_a, $key_b, $hash) = @_;
 
-    my $data = shift @_;
-    my $ARGS = shift @_;
-    my $defaults = {
-        raw      => [ 'raw',     1 ],
-        trash    => [ 'trash',   2 ],
-        LN       => [ 'LN',      3 ],
-        miss     => [ 'miss',    4 ],
-        libName  => [ 'libName', 5 ],
-    };
-    $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
+    my $pointStr_a = getPointStr_FromUniqeKey($data, $key_a) ? getPointStr_FromUniqeKey($data, $key_a)
+                                                             : genPointStr_ForRedundantKey($data, $key_a, $hash);
+    my $pointStr_b = getPointStr_FromUniqeKey($data, $key_b) ? getPointStr_FromUniqeKey($data, $key_b)
+                                                             : genPointStr_ForRedundantKey($data, $key_b, $hash);
+    return $pointStr_a cmp $pointStr_b;
 
-    ## check for duplicates: keys
-    my @keys  = sort map  {$defaults->{$_}->[0]} keys %{$defaults};
-    my %DupesKeys;
-    for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
+    #===|| getPointStr_FromUniqeKey() {{{3
+    sub getPointStr_FromUniqeKey {
+        my ($data, $key)  = @_;
 
-    ## check for duplicates: order numbers
-    my @order = sort map {$defaults->{$_}->[1]} keys %{$defaults};
-    my %DupesOrderNum;
-    for (@order) { die "Reserved keys cannot have identical orders!" if $DupesOrderNum{$_}++ }
+        if    (exists $data->{dspt}->{$key})        { return $data->{dspt}->{$key}->{order} }
+        elsif (getObj_FromGroupName($data, $key))   { return $data->{dspt}->{getObj_FromGroupName($data, $key)}->{order} }
+        else                                        { return 0 }
+        #===| getObj_FromGroupName() {{{4
+        sub getObj_FromGroupName {
+            # return GROUP_NAME if it is an OBJECT_KEY
+            # return OBJECT_KEY that contains GROUP_NAME
+            # return '0' if no OBJECT_KEY contains a GROUP_NAME!
+            # return '0' if no OBJECTY_KEY contains GROUP_NAME!
 
-    $data->{reservedKeys} = $defaults;
-}
+            my $data      = shift @_;
+            my $dspt      = $data->{dspt};
+            my $groupName = shift @_;
 
-
-#===| isReservedKey() {{{2
-sub isReservedKey {
-    my ($data, $key)  = @_;
-    my $resvKeys      = $data->{reservedKeys};
-
-    my @matches  = grep { $key eq $resvKeys->{$_}->[0] } keys %{$resvKeys};
-
-    return $matches[0] ? 1 : 0;
-}
-
-
-#===| validate_Dspt() {{{2
-sub validate_Dspt {
-
-    my $data = shift @_;
-    my $dspt = $data->{dspt};
-    my %hash = (
-    );
-
-    $dspt->{libName} = {
-        order => 0,
-        groupName => 'LIBS',
-    };
-
-    ## check for duplicates: order
-    my @keys  = sort map { $dspt->{$_}->{order} } keys %{$dspt};
-    my %DupesKeys;
-    for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
-
-    ## check for use of gaps
-
-}
-
-
-#===| getJson() {{{2
-sub getJson {
-    my $fname = shift @_;
-    my $hash = do {
-        open my $fh, '<', $fname;
-        local $/;
-        decode_json(<$fh>);
-    };
-    return $hash
-}
-
-
-#===| filter() {{{2
-sub genFilter {
-    my $ARGS    = shift @_;
-    my $dspt    = $ARGS->{dspt};
-    my $obj     = $ARGS->{obj};
-    my $pattern = $ARGS->{pattern};
-
-    return sub {
-        my $raw = shift @_;
-        if ($raw =~ $pattern) {
-            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
+            my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
+            if (scalar @keys) {
+                my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
+                if ($match[0]) { return $match[0] }
+                else { return 0 }
+            }
+            else { return 0 }
         }
-        else { return $raw }
-    };
+
+
+    }
+    #===|| genPointStr_ForRedundantKey() {{{3
+    sub genPointStr_ForRedundantKey {
+        # return 'pointStr' if 'key' is an 'objKey'
+        # die if 'pointStr' is '0' or doesn't exist!
+        # return '0' if 'objKey' doesn't exist!
+
+        my ($data, $key, $hash)  = @_;
+
+        ## Set 'data->{point}'
+        my $lvlObj     =  getLvlObj($data, $hash);
+        $data->{point} = [split /\./, $data->{dspt}->{$lvlObj}->{order}];
+
+        ## Query 'data->{point}'
+        my $pointStr      = getPointStr($data);
+        my $hash_ObjKey   = getObj($data);
+        my $hash_DsptReff = $data->{dspt}->{$hash_ObjKey};
+
+        ## ATTRIBUTES
+        if (exists $hash_DsptReff->{attributes}->{$key}) {
+
+            my $attr_DsptReff = $hash_DsptReff->{attributes}->{$key};
+            my $cnt;
+
+            $cnt = exists $attr_DsptReff->[1] ? $attr_DsptReff->[1]
+                                              : 1;
+
+            for (my $i = 1; $i <= $cnt; $i++) { $pointStr = changePointStrInd($pointStr, 1) }
+
+            if ($pointStr) { return $pointStr }
+            else           { die "pointStr $pointStr doesn't exist or is equal to '0'!" }
+        }
+
+        ## RESERVED KEYS
+        elsif (isReservedKey($data, $key)) {
+            my $first     = join '.', $data->{point}->@[0 .. $data->{point}->$#* -1];
+            my $pointEnd  = $data->{point}->[-1];
+            my $order     = $data->{reservedKeys}->{$key}->[1];
+            my $attrs_DsptReff = exists $hash_DsptReff->{attributes} ? $hash_DsptReff->{attributes}
+                                                                     : 0;
+            if ($attrs_DsptReff->{$key}) {
+                my @orders = map {$attrs_DsptReff->{$_}->[1]} keys $attrs_DsptReff->%*;
+                my $attr   = ( sort { $b cmp $a } @orders)[0];
+                my $end    = $order + $attr + $pointEnd;
+                $pointStr  = $first . $end;
+            } else {
+                my $end    = $order . $pointEnd;
+                $pointStr  = $first . $end;
+            }
+
+            return $pointStr;
+        }
+
+        ## INVALID KEY
+        else {die "Invalid Key: $key."}
+    }
+}
+
+
+#===| changePointLvl() {{{2
+sub changePointLvl {
+
+    my $point = shift @_;
+    my $op    = shift @_;
+
+    if ($op) { push $point->@*, 1 }
+    else     { pop $point->@*, 1 }
+
+    return $point;
+
+}
+
+
+#===| changePointStrInd() {{{2
+sub changePointStrInd {
+
+    my $pointStr = ($_[0] ne '') ? $_[0]
+                                 : { die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__) };
+    my @point    = split /\./, $pointStr;
+    my $op       = $_[1];
+
+    if ($op) { $point[-1]++ }
+    else     { $point[-1]-- }
+
+    $pointStr = join '.', @point;
+    return $pointStr;
 }
 
 
@@ -602,38 +325,6 @@ sub getObj {
         else                       { return $match[0] }
     }
 
-}
-
-
-#===| getObjFromUniqeKey() {{{2
-sub getObjFromUniqeKey {
-  my $data = shift @_;
-  my $key  = shift @_;
-
-  if    (exists $data->{dspt}->{$key})        { return $data->{dspt}->{$key}->{order} }
-  elsif (getObjFromGroupNameKey($data, $key)) { return $data->{dspt}->{getObjFromGroupNameKey($data, $key)}->{order} }
-  else                                        { return 0 }
-}
-
-
-#===| getObjFromGroupNameKey() {{{2
-sub getObjFromGroupNameKey {
-    # return GROUP_NAME if it is an OBJECT_KEY
-    # return OBJECT_KEY that contains GROUP_NAME
-    # return '0' if no OBJECT_KEY contains a GROUP_NAME!
-    # return '0' if no OBJECTY_KEY contains GROUP_NAME!
-
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt};
-    my $groupName = shift @_;
-
-    my @keys  = grep { exists $dspt->{$_}->{groupName} } keys $dspt->%*;
-    if (scalar @keys) {
-        my @match = grep { $dspt->{$_}->{groupName} eq $groupName } @keys;
-        if ($match[0]) { return $match[0] }
-        else { return 0 }
-    }
-    else { return 0 }
 }
 
 
@@ -680,124 +371,480 @@ sub getPointStr {
 }
 
 
-#===| genPointStrForRedundantKey() {{{2
-sub genPointStrForRedundantKey {
-    # return 'pointStr' if 'key' is an 'objKey'
-    # die if 'pointStr' is '0' or doesn't exist!
-    # return '0' if 'objKey' doesn't exist!
+#===| isReservedKey() {{{2
+sub isReservedKey {
+    my ($data, $key)  = @_;
+    my $resvKeys      = $data->{reservedKeys};
 
-    my $data   = shift @_;
-    my $key    = shift @_;
-    my $hash   = shift @_; # single level hash, only needed for Attributes
-                           # and Reserved Keys
+    my @matches  = grep { $key eq $resvKeys->{$_}->[0] } keys %{$resvKeys};
 
-    ## Set 'data->{point}'
-    my $lvlObj =  getLvlObj($data, $hash);
-    $data->{point} = [split /\./, $data->{dspt}->{$lvlObj}->{order}];
+    return $matches[0] ? 1 : 0;
+}
 
-    my $pointStr     = getPointStr($data);
-    my $hashObjKey   = getObj($data);
-    my $hashDsptReff = $data->{dspt}->{$hashObjKey};
 
-    ## ATTRIBUTES
-    if (exists $hashDsptReff->{attributes}->{$key}) {
+# PRIVATE {{{1
+#------------------------------------------------------
 
-        my $attributeDsptReff = $hashDsptReff->{attributes}->{$key};
-        my $cnt;
+#===| gendspt {{{2
+sub genDspt {
 
-        if (exists $attributeDsptReff->[1]) { $cnt = $attributeDsptReff->[1] }
-        else                                { $cnt = 1 }
+    my $data = shift @_;
+    my $dspt = do {
+        open my $fh, '<', $data->{fileNames}->{dspt};
+        local $/;
+        decode_json(<$fh>);
+    };
 
-        for (my $i = 1; $i <= $cnt; $i++)   { $pointStr = changePointStrInd($pointStr, 1) }
+    ## Generate Regex's
+    for my $obj (keys $dspt->%*) {
 
-        unless ($pointStr) { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
-        return $pointStr;
+        my %objHash = %{ $dspt->{$obj} };
+        for my $key (keys %objHash) {
+            if ($key eq 're') { $objHash{re} = qr/$objHash{re}/ }
+            if ($key eq 'attributes') {
+
+                my %attribHash = %{ $objHash{attributes} };
+                for my $attrib (keys %attribHash) {
+                    $attribHash{$attrib}->[0] = qr/$attribHash{$attrib}->[0]/;
+                }
+            }
+        }
     }
 
-    ## RESERVED KEYS
-    #elsif (isReservedKey($key)) {
-    elsif (1) {
-        if ($key eq 'raw')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.1' }
-        if ($key eq 'LN')    { $pointStr = '5.1.1.1.1.1.1.1.1.1.2' }
-        if ($key eq 'point') { $pointStr = '5.1.1.1.1.1.1.1.1.1.3' }
-        if ($key eq 'libName')   { $pointStr = '5.1.1.1.1.1.1.1.1.1.4' }
-        unless ($pointStr)   { die("pointStr (${pointStr}) doesn't exisst or is equal to '0'! In ${0} at line: ".__LINE__) }
-        return $pointStr;
+    ## preserve
+    if (exists $data->{preserve}) {
+        for my $obj (keys $data->{preserve}->%*) {
+            $dspt->{$obj}->{preserve}->@* = $data->{preserve}->{$obj}->@*;
+        }
+        delete $data->{preserve};
+    }
+    $data->{dspt} = dclone($dspt);
+}
+
+
+#===| genReservedKeys() {{{2
+sub genReservedKeys {
+
+    my $data = shift @_;
+    my $ARGS = shift @_;
+    my $defaults = {
+        preserve => [ 'preserve', 1 ],
+        raw      => [ 'raw',      2 ],
+        trash    => [ 'trash',    3 ],
+        LN       => [ 'LN',       4 ],
+        point    => [ 'point',    5 ],
+        miss     => [ 'miss',     6 ],
+        libName  => [ 'libName',  7 ],
+    };
+    $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
+
+    ## check for duplicates: keys
+    my @keys  = sort map  {$defaults->{$_}->[0]} keys %{$defaults};
+    my %DupesKeys;
+    for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
+
+    ## check for duplicates: order numbers
+    my @order = sort map {$defaults->{$_}->[1]} keys %{$defaults};
+    my %DupesOrderNum;
+    for (@order) { die "Reserved keys cannot have identical orders!" if $DupesOrderNum{$_}++ }
+
+    $data->{reservedKeys} = $defaults;
+}
+
+
+#===| init() {{{2
+sub init {
+
+  my $data = shift @_;
+
+  # ---|| properties |---{{{3
+  unless (exists $data->{point})     { $data->{point}     = [1] }
+      else {warn "WARNING!: 'point' is already defined by user!"}
+  unless (exists $data->{result})    { $data->{result}    = {libName => $data->{name}} }
+      else {warn "WARNING!: 'result' is already defined by user!"}
+  unless (exists $data->{reffArray}) { $data->{reffArray} = [$data->{result}] }
+      else {warn "WARNING!: 'reffArray' is already defined by user!"}
+  unless (exists $data->{meta})      { $data->{meta}      = {} }
+      else {warn "WARNING!: 'meta' is already defined by user!"}
+  genReservedKeys($data);
+
+  # ---|| filenames |---{{{3
+  unless ($data->{fileNames}->{dspt})   {die "User did not provide filename for 'dspt'!"}
+      genDspt($data);
+      validate_Dspt($data);
+  unless ($data->{fileNames}->{fname})  {die "User did not provide filename for 'fname'!"}
+  unless ($data->{fileNames}->{output}) {die "User did not provide filename for 'output'!"}
+  #}}}
+}
+#===| validate_Dspt() {{{2
+sub validate_Dspt {
+
+    my $data = shift @_;
+    my $dspt = $data->{dspt};
+    my %hash = (
+    );
+
+    $dspt->{libName} = {
+        order => 0,
+        groupName => 'LIBS',
+    };
+
+    ## check for duplicates: order
+    my @keys  = sort map { $dspt->{$_}->{order} } keys %{$dspt};
+    my %DupesKeys;
+    for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
+
+    ## META
+    $data->{meta}->{dspt} = {};
+    my $dspt_meta = $data->{meta}->{dspt};
+
+
+    my @orders = map {$dspt->{$_}->{order}} keys %$dspt;
+    $dspt_meta->{max} = (
+        sort {
+            length $b <=> length $a
+            ||
+            substr($b, -1) <=> substr($a, -1)
+        } @orders
+    )[0];
+}
+
+
+#===| validate_Matches() {{{2
+sub validate_Matches {
+
+    my $data         = shift @_;
+    my $dspt         = $data->{dspt};
+    my $matches      = $data->{matches};
+
+    ## META
+    $data->{meta}->{matches} = {};
+    my $matches_meta = $data->{meta}->{matches};
+    for my $obj (keys $dspt->%*, 'miss') {
+        my $obj_matches = $matches->{$obj};
+        $matches_meta->{$obj} = {};
+        my $obj_meta    = $matches_meta->{$obj};
+        if ($obj_matches) {
+            $obj_meta->{count} = scalar $obj_matches->@*;
+        } else {
+            $obj_meta->{count} = 0;
+        }
     }
 
-    ## INVALID KEY
-    else {}
+    ## Preserve
+    $data->{preserve} = [];
+    for my $obj (keys %$dspt) {
+        my $obj_Preserve = $dspt->{$obj}->{preserve};
+        if ($obj_Preserve) {
+            for my $item (@$obj_Preserve) {
+                my $obj_matches = $data->{matches}->{$obj};
+                my $HASH = (grep {$_->{$obj} eq $item} @$obj_matches)[0];
+                my $LN = $HASH->{LN};
+
+
+                {
+                    my @objs = grep {
+                        length $$dspt{$_}->{order} == length $$dspt{$obj}->{order}
+                        and
+                        $$dspt{$_}->{order} ne '0'
+                    } keys %$dspt;
+                    push @$obj_matches, $matches->@{@objs}->@*;
+
+                }
+
+                my $HASH2 = (grep {$_->{LN} > $LN} @$obj_matches)[0];
+                my $LN2 = $HASH2 ? $HASH2->{LN}
+                                 : 0;
+
+                push $data->{preserve}->@*,[$LN,$LN2];
+            }
+        }
+    }
+
+    #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
 }
 
 
-#===| changePointLvl() {{{2
-sub changePointLvl {
+# EXTERNAL {{{1
+#------------------------------------------------------
 
-    my $point = shift @_;
-    my $op    = shift @_;
+#===| checkMatches() {{{2
+sub checkMatches {
 
-    if ($op) { push $point->@*, 1 }
-    else     { pop $point->@*, 1 }
+    my $data    = shift @_;
+    my $objKey = getObj( $data );
 
-    return $point;
-
+    if (exists $data->{matches}->{$objKey}) {
+        divyMatches( $data );
+    }
 }
 
 
-#===| changePointStrInd() {{{2
-sub changePointStrInd {
+#===| delimitAttribute() {{{2
+sub delimitAttribute {
 
-    my $pointStr = ($_[0] ne '') ? $_[0]
-                                 : { die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__) };
-    my @point    = split /\./, $pointStr;
-    my $op       = $_[1];
+    ## Attributes
+    my $data           = shift @_;
+    my $objKey         = getObj($data);
+    my $attributesDSPT = $data->{dspt}->{$objKey}->{attributes};
 
-    if ($op) { $point[-1]++ }
-    else     { $point[-1]-- }
+    ## Regex for Attribute Delimiters
+    my $attributeKey = shift @_;
+    my $delims       = join '', $attributesDSPT->{$attributeKey}->[2][0];
+    my $delimsRegex  = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
+                                       : '';
 
-    $pointStr = join '.', @point;
-    return $pointStr;
+    ## Split and Grep Attribute Match-
+    my $match = shift @_;
+    $match->{$attributeKey} = [
+        grep { $_ ne '' }
+        split( /$delimsRegex/, $match->{$attributeKey} )
+    ];
 }
 
 
-#===| cmpKeys() {{{2
-sub cmpKeys {
-  my $data  = shift @_;
-  my $key_a = shift @_;
-  my $key_b = shift @_;
-  my $hash  = shift @_;
+#===| divyMatches() {{{2
+sub divyMatches {
 
-  my $pointStr_a = getObjFromUniqeKey($data, $key_a);
-  my $pointStr_b = getObjFromUniqeKey($data, $key_b);
+    my $data = shift @_;
+    my $reffArray = $data->{reffArray};
+    my $matches   = $data->{matches};
+    my $opts      = $data->{opts};
 
-  unless ($pointStr_a) { $pointStr_a = genPointStrForRedundantKey( $data, $key_a, $hash) }
-  unless ($pointStr_b) { $pointStr_b = genPointStrForRedundantKey( $data, $key_b, $hash) }
+    if ($opts->{divy}->[0]) {
+        my $obj       = getObj( $data );
+        my $pond      = dclone($matches->{$obj});
+        my $groupName = getGroupName($data, $obj);
 
-  return $pointStr_a cmp $pointStr_b;
+        my $ind = ( scalar $reffArray->@* ) - 1;
+        for my $reff (reverse $reffArray->@*) {
+            my $lvlObj      = getLvlObj($data, $reff);
+            my $lvlItem     = $reff->{$lvlObj};
+            my $reff_lineNum = ($reff->{LN}) ? $reff->{LN}
+                                             : 0;
+
+            ## Debug {{{
+            mes( "IDX-$ind $obj -> $lvlObj", $data, 1)
+                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
+            mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
+                if $opts->{divy}->[1] and $opts->{divy}->[1] == 1;
+            #}}}
+
+
+            my $bucket;
+            my $flag=0;
+            my $prev_match_lineNum;
+            for my $match (reverse $pond->@*) {
+
+                ## Preserve
+                my $presFlag=0;
+                for my $part ($data->{preserve}->@*) {
+                    my $LN = $part->[0];
+                    my $LN2 = $part->[1];
+                    if ($LN2) {
+                        $presFlag=1 if $match->{LN} >= $LN and $match->{LN} < $LN2;
+                    } else {
+                        $presFlag=1 if $match->{LN} >= $LN;
+                    }
+                }
+
+                if ($match->{LN} > $reff_lineNum and !$presFlag) {
+                    my $match     = pop $pond->@*;
+                    my $attrDebug = genAttributes( $data, $match );
+                    push $bucket->@*, $match;
+
+                    ## Debug {{{
+                    unless ($flag++) {
+                        mes( "IDX-$ind $obj -> $lvlObj", $data, 1)
+                            unless ($opts->{divy}->[1]);
+                        mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, 4)
+                            unless ($opts->{divy}->[1]);
+                    }
+
+                    mes( "($match->{LN}) <$obj> $match->{$obj}", $data, 4)
+                        if $data->{dspt}->{$obj}->{partion};
+                    mes( "($match->{LN}) <$obj> $match->{$obj}", $data, 4)
+                        unless $data->{dspt}->{$obj}->{partion};
+
+                    if (scalar $attrDebug->@* and $opts->{attribs}->[1]) {mes("$_",$data,-1,1) for $attrDebug->@*}
+                    #}}}
+
+                } else { last }
+                $prev_match_lineNum = $match->{LN};
+            }
+
+            ## Check if bucket is empty
+            if ($bucket) {
+                $bucket->@* = reverse $bucket->@*;
+                $reffArray->[$ind]->{$groupName} = $bucket;
+                splice( $reffArray->@*, $ind, 1, ($reffArray->[$ind], $bucket->@*) );
+            }
+            $ind--;
+        }
+        return $groupName;
+    }
 }
 
+#===| genAttributes() {{{2
+sub genAttributes {
+
+    my $data    = shift @_;
+    my $opts    = $data->{opts};
+    my $debug   = [];
+
+    if ($opts->{attribs}->[0]) {
+
+        my $obj     = getObj($data);
+        my $objReff = $data->{dspt}->{$obj};
+        my $match = shift @_;
+        $match->{raw} = $match->{$obj};
+
+        if (exists $objReff->{attributes}) {
+            my $attrDSPT = $objReff->{attributes};
+            my @attrOrderArray = sort {
+                $attrDSPT->{$a}->[1] cmp $attrDSPT->{$b}->[1];
+                } keys $attrDSPT->%*;
+
+            for my $attrib (@attrOrderArray) {
+                my $attrReff = $attrDSPT->{$attrib};
+                $match->{ $obj } =~ s/$attrReff->[0]//;
+
+                if ($1 && $1 ne '') {
+                    $match->{$attrib} = $1;
+
+                    ## Debug {{{
+                    push $debug->@*, mes("|${attrib}|", $data, 6, 1, 1);
+                    push $debug->@*, mes(" '".$match->{$attrib}."'", $data, -1, 0, 1);
+                    #}}}
+
+                    if (scalar $attrReff->@* == 3) {
+                        delimitAttribute($data, $attrib, $match);
+                    }
+                }
+            }
+
+
+            unless ($match->{$obj}) {
+                $match->{$obj} = [];
+                for my $attrib (@attrOrderArray) {
+                    if (exists $match->{$attrib}) {
+                        push $match->{$obj}->@*, $match->{$attrib}->@*;
+                    }
+                }
+            }
+        }
+    }
+    return $debug;
+}
+
+
+#===| getMatches() {{{2
+sub getMatches {
+
+    my $data = shift @_;
+    my $fname = $data->{fileNames}->{fname};
+    my $dspt  = $data->{dspt};
+    my $output;
+
+    open( my $fh, '<', $fname )
+        or die $!;
+
+    while (my $line = <$fh>) {
+
+        my $flag;
+        for my $objKey (keys %$dspt) {
+            my $obj = $dspt->{$objKey};
+
+            if ($obj->{re} and $line =~ /$obj->{re}/) {
+                my $match = {
+                    LN      => $.,
+                    $objKey => $1,
+                };
+                push  $output->{$objKey}->@*, $match;
+                $flag=1;
+            }
+        }
+        unless ($flag) {
+            my $match = {
+                LN      => $.,
+                miss => $line,
+            };
+            push  $output->{miss}->@*, $match;
+        }
+    }
+
+    close( $fh );
+    $data->{matches} = $output;
+}
+
+
+# INHERITED {{{1
+#------------------------------------------------------
 
 #===| decho() {{{2
 sub decho {
 
-    my $data = shift @_;
-    my $var = shift @_;
+    my $var    = shift @_;
+    my $depth  = shift @_;
+    my $data   = shift @_;
 
-    ## Data::Dumper
     use Data::Dumper;
     $Data::Dumper::Indent = 2;
-    $Data::Dumper::Sortkeys = ( sub {
-        my $hash = shift @_;
-        return [ sort {
-                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
-                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
-                $order_a cmp $order_b;
-            } keys %$hash ];
+    $Data::Dumper::Maxdepth = $depth if $depth;
+    if ($data) {
+        $Data::Dumper::Sortkeys = ( sub {
         });
+    }
 
-    ##
-    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
+    my $output = Data::Dumper->Dump( [$var], ['reffArray']);
     return $output;
+}
+
+
+#===| encodeResult() {{{2
+sub encodeResult {
+
+    my $data  = shift @_;
+    if  ($data->{opts}->{write}) {
+        my $fname = $data->{fileNames}->{output};
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj = $json_obj->allow_blessed(['true']);
+            if ($data->{opts}->{sort}) {
+              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
+            }
+            my $json  = $json_obj->encode($data->{result});
+            open( my $fh, '>' ,$fname ) or die $!;
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close( $fh );
+        }
+    }
+}
+
+
+#===| filter(){{{2
+sub filter {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    my $sub0   = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         $hash->{$arg} = $sub0->($hash->{$arg});
+    }
+}
+
+
+#===| getJson() {{{2
+sub getJson {
+    my $fname = shift @_;
+    my $hash = do {
+        open my $fh, '<', $fname;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $hash
 }
 
 
@@ -810,11 +857,64 @@ sub mes {
     if ($data->{opts}->{verbose}) {
         my $cnt             = shift @_;
         my $NewLineDisable  = shift @_;
+        my $silent  = shift @_;
         my $indent          = "    ";
         my $newline         = !($NewLineDisable) ? "\n" : "";
         if ($cnt) { $indent = $indent x (1 + $cnt) }
-        print $indent . $mes . $newline;
+        unless ($silent) {
+            print $indent . $mes . $newline;
+        } else {
+            return $indent . $mes . $newline;
+        }
     }
 }
 
 
+# NOTES {{{1
+#------------------------------------------------------
+
+# OBJ: Hash
+# PROPERTIES:
+#    UID
+#    dspt
+#    contents
+#    point
+#    reff
+# PUBLIC:
+#    init()
+#    decode()
+#    encode()
+# PRIVATE:
+#    genUID()
+# INHERITANCE: Controller
+
+# OBJ: Json Generation Agent
+# PROPERTIES:
+#    HASH
+# PUBLIC:
+#    init()
+#    delegate()
+#    getMatches()
+#    leveler()
+# PRIVATE:
+#    divy()
+#    genAttribs()
+# INHERITANCE: Controller
+
+# OBJ: Controller
+# PROPERTIES:
+#    HASH
+#    meta
+#    options
+#    -   processes
+# PUBLIC:
+#    init()
+#    delegate()
+#    getOptions()
+#    getMeta()
+# PRIVATE:
+#    genMeta()
+#    setOptions()
+
+#$ perl -d:NYTProf ./jsonGen.pl
+#$  nytprofhtml --open
