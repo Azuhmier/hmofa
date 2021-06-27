@@ -556,24 +556,6 @@ sub waltzer {
 # HASH {{{1
 #------------------------------------------------------
 
-#===| isReservedKey() {{{2
-sub isReservedKey {
-
-    my ($data, $key) = @_;
-
-    my %reservedKeys = (
-        LN    => 'LN',
-        raw   => 'raw',
-        trash => 'trash',
-        miss  => 'miss',
-    );
-
-    my @matches = grep { $_ eq $reservedKeys{$_} } keys %reservedKeys;
-    if ($matches[0])    {return 1}
-    else                {return 0}
-}
-
-
 #===| validate_Dspt() {{{2
 sub validate_Dspt {
 
@@ -821,28 +803,6 @@ sub decho {
     ##
     my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
     return $output;
-}
-
-
-#===| encodeResult() {{{2
-sub encodeResult {
-
-    my $data  = shift @_;
-    if  ($data->{opts}->{write}) {
-        my $fname = $data->{fileNames}->{output};
-        {
-            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-            $json_obj = $json_obj->allow_blessed(['true']);
-            if ($data->{opts}->{sort}) {
-              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
-            }
-            my $json  = $json_obj->encode($data->{result});
-            open( my $fh, '>' ,$fname ) or die $!;
-                print $fh $json;
-                truncate $fh, tell( $fh ) or die;
-            close( $fh );
-        }
-    }
 }
 
 
