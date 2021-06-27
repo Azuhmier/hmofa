@@ -14,9 +14,11 @@ use Storable qw(dclone);
 use JSON::PP;
 use XML::Simple;
 use YAML;
+use Data::Walk;
 
 #  Assumptions
 #    - all first level dspt keys and their group names are unique
+# -
 
 
 # MAIN {{{1
@@ -32,7 +34,7 @@ use YAML;
     });
 
     ## tagCatalog
-    delegate({
+    my $data1 = delegate({
         opts => $opts,
         name => 'catalog',
         preserve => { section => ['Introduction/Key'] },
@@ -45,7 +47,7 @@ use YAML;
 
 
     ## masterbin
-    delegate({
+    my $data2 = delegate({
         opts => $opts,
         name => 'masterbin',
         fileNames => {
@@ -54,11 +56,62 @@ use YAML;
             dspt   => './json/deimos.json',
         },
     });
+    genWriteArray($data1);
 }
 
 
 # PUBLIC {{{1
 #------------------------------------------------------
+
+#===| genWriteArray(){{{2
+sub genWriteArray {
+    my $data = shift;
+    my $result = dclone($data->{result});
+    $data->{seen} = {};
+    ## %dresser {{{
+    my %dresser = (
+        title   => {
+            title => '>',
+            title => [' (',')'],
+        },
+        author  => {
+          author => 'By ',
+          author_attribute => [' (',')'],
+        },
+        series  => ['=====', '====='],
+        section => [
+            '------------------------------------------------------------------------------------------------------------------------------\n',
+            '---------------------------------------------------%',
+            '%--------------------------------------------------\n',
+            '------------------------------------------------------------------------------------------------------------------------------',
+        ],
+        tags => {
+            anthro => ['[',']'],
+            general => ['[',']'],
+            general => [''],
+        },
+        url => {
+            url => '',
+            url_attribute => [' (',')'],
+        },
+        description => '#',
+    ); #}}}
+    #===||walker() {{{
+    my $sub = sub {
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $container = $Data::Walk::container;
+        if ($type eq 'HASH') {
+            my $obj = getLvlObj($data,$container);
+            unless ($data->{seen}->{$container->{$obj}}++) {
+              #print Dumper($container->{$obj});
+            }
+        }
+        if ($type eq 'ARRAY') {
+        }
+    }; #}}}
+    walkdepth { wanted => $sub},  $result;
+}
 
 #===| delegate() {{{2
 sub delegate {
