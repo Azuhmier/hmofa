@@ -33,6 +33,7 @@
       "order" : "1.1.1.1.1",
       "groupName" : "TAGS",
       "re" : "^\\s*(\\[.*)",
+      "partion" : "0",
       "attributes" : {
          "anthro" : [
             "(?x) ^\\[  ([^\\[\\]]*)",
@@ -45,7 +46,7 @@
             [ ";", "," ]
          ],
          "ops" : [
-            "(?x) ([^\\[\\]]*) $",
+            "(?x) ([^\\[\\]]+) $",
             3,
             [""]
          ]
@@ -53,7 +54,7 @@
    },
    "url" : {
       "order" : "1.1.1.1.2",
-      "re" : "^\\s*(http.*)",
+      "re" : "^\\s*(http.+)",
       "groupName" : "URLS",
       "attributes" : {
          "url_attribute" : [
