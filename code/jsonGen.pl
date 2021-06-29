@@ -29,7 +29,7 @@ use Data::Walk;
         write   => 1,
         divy    => [1,1],
         attribs => [1,1],
-        verbose => 0,
+        verbose => 1,
         display => 0,
     });
 
@@ -65,52 +65,128 @@ use Data::Walk;
 
 #===| genWriteArray(){{{2
 sub genWriteArray {
-    my $data = shift;
+    my $data   = shift;
     my $result = dclone($data->{result});
+    my $dspt   = $data->{dspt};
     $data->{seen} = {};
-    ## %dresser {{{
+
+    # %dresser {{{
     my %dresser = (
         title   => {
-            title => '>',
-            title => [' (',')'],
+            title           => ["\n>"],
+            title_attribute => [' (',')'],
         },
         author  => {
-          author => 'By ',
+          author           => ["\n------------------------------------------------------------------------------------------------------------------------------\nBy "],
           author_attribute => [' (',')'],
         },
-        series  => ['=====', '====='],
-        section => [
-            '------------------------------------------------------------------------------------------------------------------------------\n',
-            '---------------------------------------------------%',
-            '%--------------------------------------------------\n',
-            '------------------------------------------------------------------------------------------------------------------------------',
-        ],
+        series  => {
+            series => ["\n=====", '====='],
+        },
+        section => {
+            section => [
+                "\n------------------------------------------------------------------------------------------------------------------------------\n---------------------------------------------------%",
+                "%--------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
+            ],
+        },
         tags => {
-            anthro => ['[',']'],
-            general => ['[',']'],
-            general => [''],
+            anthro  => ['[', ']', ';', ';', ' '],
+            general => ['[', ']', ';', ';', ' '],
+            ops => [],
         },
         url => {
-            url => '',
+            url           => [],
             url_attribute => [' (',')'],
         },
-        description => '#',
+        description => {
+            description => ['#'],
+        },
     ); #}}}
-    #===||walker() {{{
-    my $sub = sub {
+    ## APPEND DSPT {{{
+    for my $obj (keys %$dspt) {
+        my $objReff   = $dspt->{$obj};
+        my $dressReff = $dresser{$obj};
+        $objReff->{dress} = $dressReff;
+    }
+    #}}}
+    # $preprocess {{{
+    my $preprocess = sub {
+        my @children = @_;
+        my $type     = $Data::Walk::type;
+
+        if ($type eq 'HASH') {
+            my $container; my $cnt = 0; for my $part (@children) {
+                if ($cnt & 1) { $container->{ $children[$cnt - 1] } = $part }
+                $cnt++;
+            }
+            undef @children;
+            for my $key ( sort {cmpKeys($data, $a, $b, $container) } keys %{$container}) {
+                push @children, ($key, $container->{$key});
+            }
+            return @children;
+        } else {
+            return @children;
+        }
+
+    }; #}}}
+    # $wanted {{{
+    my $wanted = sub {
         my $type      = $Data::Walk::type;
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
         if ($type eq 'HASH') {
-            my $obj = getLvlObj($data,$container);
-            unless ($data->{seen}->{$container->{$obj}}++) {
-              #print Dumper($container->{$obj});
+            my $obj    = getLvlObj($data,$container);
+            my $dspt   = $data->{dspt};
+            my $objRef = $dspt->{$obj};
+            my $item   = $container->{$obj};
+            my $dressRef = $objRef->{dress};
+            my $arrayFlag;
+            unless ($data->{seen}->{$item}++) {
+                #mes("$obj $item",$data);
+                if (ref $item ne 'ARRAY') {
+                    $item  =  $dressRef->{$obj}->[0].$item if $dressRef->{$obj}->[0];
+                    $item .=  $dressRef->{$obj}->[1]       if $dressRef->{$obj}->[1];
+                } else { $arrayFlag = 1 }
+                my $attrRefs = getAttrReffs($data, $obj);
+                my $attrArray;
+                if ($attrRefs) {
+                    my $attrType = ($objRef->{partion}) ? 'partion' : 'append';
+                    #mes("    Attrs: ".$attrRefs,$data);
+                    #mes(" AttrType: ".$attrType,$data);
+                    for my $key (sort {$attrRefs->{$a}->[1] cmp $attrRefs->{$b}->[1]} keys %$attrRefs) {
+                        my $attrItem = $container->{$key};
+                        if ($attrItem) {
+                            if ($arrayFlag) {
+                                my @array;
+                                for my $part (@$attrItem) {
+                                    $part  =  $dressRef->{$key}->[2].$part if $dressRef->{$key}->[2];
+                                    $part .=  $dressRef->{$key}->[3] if $dressRef->{$key}->[3];
+                                    push @array, $part;
+                                }
+                                if ($dressRef->{$key}->[4]) {
+                                    $attrItem = join $dressRef->{$key}->[4], @array;
+                                } else {
+                                    $attrItem = join '', @array;
+                                }
+                            }
+                            $attrItem  =  $dressRef->{$key}->[0].$attrItem if $dressRef->{$key}->[0];
+                            $attrItem .=  $dressRef->{$key}->[1] if $dressRef->{$key}->[1];
+                            #mes("$key $attrItem",$data);
+                            push @$attrArray, $attrItem;
+
+                        }
+                    }
+                }
+                my $str = $arrayFlag ? join '', @$attrArray
+                                     : $attrArray ? $item . join '', @$attrArray
+                                                  : $item;
+                #mes("   STRING: ".$str ,$data);
+                mes($str ,$data,-1);
             }
         }
-        if ($type eq 'ARRAY') {
-        }
     }; #}}}
-    walkdepth { wanted => $sub},  $result;
+
+    walkdepth { wanted => $wanted, preprocess => $preprocess},  $result;
 }
 
 #===| delegate() {{{2
@@ -288,7 +364,8 @@ sub cmpKeys {
         my $hash_DsptReff = $data->{dspt}->{$hash_ObjKey};
 
         ## ATTRIBUTES
-        if (exists $hash_DsptReff->{attributes}->{$key}) {
+        #if (exists $hash_DsptReff->{attributes}->{$key}) {
+        if ((exists $hash_DsptReff->{attributes}) and (exists $hash_DsptReff->{attributes}->{$key})) {
 
             my $attr_DsptReff = $hash_DsptReff->{attributes}->{$key};
             my $cnt;
@@ -309,7 +386,7 @@ sub cmpKeys {
             my $order     = $data->{reservedKeys}->{$key}->[1];
             my $attrs_DsptReff = exists $hash_DsptReff->{attributes} ? $hash_DsptReff->{attributes}
                                                                      : 0;
-            if ($attrs_DsptReff->{$key}) {
+            if ($attrs_DsptReff and $attrs_DsptReff->{$key}) {
                 my @orders = map {$attrs_DsptReff->{$_}->[1]} keys $attrs_DsptReff->%*;
                 my $attr   = ( sort { $b cmp $a } @orders)[0];
                 my $end    = $order + $attr + $pointEnd;
@@ -355,6 +432,16 @@ sub changePointStrInd {
 
     $pointStr = join '.', @point;
     return $pointStr;
+}
+
+
+#===| getAttrReffs(){{{2
+sub getAttrReffs {
+    my ($data, $obj) = @_;
+    my $objReff = $data->{dspt}->{$obj};
+    my $attrReff = (exists $objReff->{attributes}) ? $objReff->{attributes}
+                                                   : 0;
+    return $attrReff;
 }
 
 
@@ -421,6 +508,21 @@ sub getPointStr {
     my $pointStr = join('.', $data->{point}->@*);
     return ($pointStr ne '') ? $pointStr
                              : 0;
+}
+
+
+#===| isAttr(){{{2
+sub isAttr {
+    my ($data, $lvlObj, $key) = @_;
+    my $attrRef = getAttrReffs($data,$lvlObj);
+    if ($attrRef) {
+        my $attr = (grep {$_ eq $key} keys %$attrRef)[0];
+        return ($attr) ? $attrRef->{$attr}
+                       : 0;
+    }
+    else {
+        return 0;
+    }
 }
 
 
@@ -760,10 +862,13 @@ sub genAttributes {
 
             for my $attrib (@attrOrderArray) {
                 my $attrReff = $attrDSPT->{$attrib};
-                $match->{ $obj } =~ s/$attrReff->[0]//;
-
-                if ($1 && $1 ne '') {
-                    $match->{$attrib} = $1;
+                my $sucess = $match->{ $obj } =~ s/$attrReff->[0]//;
+                my $fish = {};
+                $fish->{caught} = $1 if $1;
+                if ($sucess and !$1) {$fish->{caught} = '' }
+                #if ($fish->{caught} && $fish->{caught} ne '') {
+                if ($fish->{caught} || exists $fish->{caught}) {
+                    $match->{$attrib} = $fish->{caught};
 
                     ## Debug {{{
                     push $debug->@*, mes("|${attrib}|", $data, 6, 1, 1);
@@ -812,6 +917,7 @@ sub getMatches {
                 my $match = {
                     LN      => $.,
                     $objKey => $1,
+                    raw     => $line,
                 };
                 push  $output->{$objKey}->@*, $match;
                 $flag=1;
@@ -904,13 +1010,8 @@ sub getJson {
 #===| mes() {{{2
 sub mes {
 
-    my $mes   = shift @_;
-    my $data  = shift @_;
-
+    my ($mes,$data,$cnt,$NewLineDisable,$silent,$indent) = @_;
     if ($data->{opts}->{verbose}) {
-        my $cnt             = shift @_;
-        my $NewLineDisable  = shift @_;
-        my $silent  = shift @_;
         my $indent          = "    ";
         my $newline         = !($NewLineDisable) ? "\n" : "";
         if ($cnt) { $indent = $indent x (1 + $cnt) }
