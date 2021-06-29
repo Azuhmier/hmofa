@@ -33,7 +33,7 @@
       "order" : "1.1.1.1.1",
       "groupName" : "TAGS",
       "re" : "^\\s*(\\[.*)",
-      "partion" : "0",
+      "partion" : "1",
       "attributes" : {
          "anthro" : [
             "(?x) ^\\[  ([^\\[\\]]*)",
