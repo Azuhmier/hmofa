@@ -15,7 +15,7 @@ use JSON::PP;
 use XML::Simple;
 use YAML;
 use Data::Walk;
-
+no warnings 'uninitialized';
 
 #  Assumptions
 #    - all first level dspt keys and their group names are unique
@@ -34,8 +34,19 @@ use Data::Walk;
         display => 0,
     });
 
+    ## masterbin
+    delegate({
+        opts => $opts,
+        name => 'masterbin',
+        fileNames => {
+            fname  => '../masterbin.txt',
+            output => './json/masterbin.json',
+            dspt   => './json/deimos.json',
+        },
+    });
+
     ## tagCatalog
-    my $data1 = delegate({
+    delegate({
         opts => $opts,
         name => 'catalog',
         preserve => { section => ['Introduction/Key'] },
@@ -47,16 +58,6 @@ use Data::Walk;
     });
 
 
-    ## masterbin
-    my $data2 = delegate({
-        opts => $opts,
-        name => 'masterbin',
-        fileNames => {
-            fname  => '../masterbin.txt',
-            output => './json/masterbin.json',
-            dspt   => './json/deimos.json',
-        },
-    });
 }
 
 
@@ -92,9 +93,6 @@ sub delegate {
     genWriteArray($data);
 
     ## ===|| output {{{
-    print "{{" ."{\n";
-    print $_ for $data->{debug}->@*;
-    print "}}" ."}\n";
 
     if ($data->{opts}->{display}) { print decho($data->{result}, 0) };
     {
@@ -121,6 +119,7 @@ sub delegate {
             $$max_ref
         }
     }
+    print $_ for $data->{debug}->@*;
     #}}}
     return $data;
 }
@@ -142,6 +141,8 @@ sub init {
       else {warn "WARNING!: 'meta' is already defined by user!"}
   unless (exists $data->{debug})     {$data->{debug}     = []}
       else {warn "WARNING!: 'debug' is already defined by user!"}
+  unless (exists $data->{index})     {$data->{index}     = []}
+      else {warn "WARNING!: 'index' is already defined by user!"}
   genReservedKeys($data);
 
   # ---|| filenames |---{{{3
@@ -593,15 +594,19 @@ sub genWriteArray {
     my $result = dclone($data->{result});
     my $dspt   = $data->{dspt};
     $data->{seen} = {};
+    mes("{{"."{", $data, [1]);
 
     # %dresser {{{
     my %dresser = (
+        libName => {
+            libName => ['',''],
+        },
         title   => {
-            title           => ["\n>"],
+            title           => ["\n>",''],
             title_attribute => [' (',')'],
         },
         author  => {
-          author           => ["\n------------------------------------------------------------------------------------------------------------------------------\nBy "],
+          author           => ["\n------------------------------------------------------------------------------------------------------------------------------\nBy ",''],
           author_attribute => [' (',')'],
         },
         series  => {
@@ -616,102 +621,159 @@ sub genWriteArray {
         tags => {
             anthro  => ['[', ']', ';', ';', ' '],
             general => ['[', ']', ';', ';', ' '],
-            ops => [],
+            ops     => ['', '', '', '', ''],
         },
         url => {
-            url           => [],
+            url           => ['',''],
             url_attribute => [' (',')'],
         },
         description => {
-            description => ['#'],
+            description => ['#',''],
         },
     ); #}}}
-    ## APPEND DSPT {{{
+    ## append DSPT {{{
     for my $obj (keys %$dspt) {
-        my $objReff   = $dspt->{$obj};
-        my $dressReff = $dresser{$obj};
-        $objReff->{dress} = $dressReff;
+        my $objDspt       = $dspt->{$obj};
+        my $dressRef      = $dresser{$obj};
+        $objDspt->{dresser} = $dressRef;
     }
     #}}}
     # $preprocess {{{
     my $preprocess = sub {
+
         my @children = @_;
         my $type     = $Data::Walk::type;
 
         if ($type eq 'HASH') {
-            my $container = {}; my $cnt = 0; for my $part (@children) {
-                if ($cnt & 1) { $container->{ $children[$cnt - 1] } = $part }
+
+            ## Tranform array to hash
+            my $objHash = {};
+            my $cnt = 0;
+            for (@children) {
+                $objHash->{$children[$cnt - 1]} = $_ if ($cnt & 1);
                 $cnt++;
             }
-            undef @children;
-            for my $key ( sort {cmpKeys($data, $a, $b, $container) } keys %{$container}) {
-                push @children, ($key, $container->{$key});
+
+            ## Tranform hash to array whilst sorting keys
+            @children = ();
+            for (sort { cmpKeys( $data, $a, $b, $objHash) } keys %{$objHash}) {
+                push @children, ($_, $objHash->{$_});
             }
-            return @children;
-        } else {
-            return @children;
+
         }
+
+        return @children;
 
     }; #}}}
     # $wanted {{{
     my $wanted = sub {
-        my $type      = $Data::Walk::type;
-        my $container = $Data::Walk::container;
+        my $type  = $Data::Walk::type;
+        my $index = $Data::Walk::index;
+        my $depth = $Data::Walk::depth;
+        my $lvl   = $depth - 2;
+        my $prior_lvl = (scalar $data->{index}->@*) - 1;
+        if ($lvl < $prior_lvl) {
+            my $cnt = $prior_lvl - $lvl;
+            if (scalar $data->{index}->@* != 1) {
+                pop @{$data->{index}} for (0..$cnt);
+            }
+        }
+
+        ## HASH
         if ($type eq 'HASH') {
-            my $obj      = getLvlObj($data, $container);
-            my $item     = $container->{$obj};
-            my $dspt     = $data->{dspt};
-            my $objRef   = $dspt->{$obj};
-            my $dressRef = $objRef->{dress};
-            my $arrayFlag;
+
+            my $objHash = $Data::Walk::container;
+            my $obj     = getLvlObj($data, $objHash);
+            my $item    = $objHash->{$obj};
+
+            #$data->{index}->[$lvl] = $index/2;
+            $data->{index}->[$lvl] = $obj;
+
             unless ($data->{seen}->{$item}++) {
 
-                if (ref $item ne 'ARRAY') {
-                    my $dressRef_obj = $dressRef->{$obj};
-                    $item  =  $dressRef_obj->[0].$item if $dressRef_obj->[0];
-                    $item .=  $dressRef_obj->[1]       if $dressRef_obj->[1];
-                } else {$arrayFlag = 1}
+                my $objDspt  = $data->{dspt}->{$obj};
+                my $dresser  = $objDspt->{dresser};
 
-                ## Attributes
-                my $attrRefs = getAttrReffs($data, $obj);
-                my $attrArray = [];
-                if ($attrRefs) {
-                    my $attrType = ($objRef->{partion}) ? 'partion' : 'append';
-                    mes("Attrs: ".$attrRefs, $data);
-                    mes("AttrType: ".$attrType, $data);
-                    for my $key (sort { $attrRefs->{$a}->[1] cmp $attrRefs->{$b}->[1] } keys %$attrRefs) {
-                        my $attrItem = $container->{$key};
-                        if ($attrItem) {
-                            if ($arrayFlag) {
-                                my @array;
+                ## debug {{{
+                my $debug = [];
+                push @$debug, mes("PointStr: ".join('.', $data->{index}->@*), $data, [1,0,1]);
+                push @$debug, mes("<$obj> $item", $data, [1,0,1]);
+                ## }}}
+
+                ## String
+                my $string = '';
+                if (ref $item ne 'ARRAY') {
+                    $string = $dresser->{$obj}->[0]
+                            . $item
+                            . $dresser->{$obj}->[1];
+                }
+
+                ## Attributes String
+                my $attributes_String = '';
+                my $attrDspt = getAttrDspt($data, $obj);
+                if ($attrDspt) {
+
+                    ## debug {{{
+                    {
+                        my $mes = join ', ', sort { cmpKeys( $data, $a, $b, $objHash)
+                                             } keys %$attrDspt;
+                        push @$debug, mes("|Attrs| ".$mes, $data, [1,0,1]);
+                    }
+                    #}}}
+
+                    for my $attr (sort { $attrDspt->{$a}->[1]
+                                         cmp
+                                         $attrDspt->{$b}->[1] } keys %$attrDspt) {
+
+                        ## Check existance of attributes
+                        if (exists $objHash->{$attr}) {
+                            my $attrItem = $objHash->{$attr};
+
+                            ## Item Arrays
+                            if (exists $attrDspt->{$attr}->[2]) {
+
+                                my @itemPartArray = ();
                                 for my $part (@$attrItem) {
-                                    $part  =  $dressRef->{$key}->[2].$part if $dressRef->{$key}->[2];
-                                    $part .=  $dressRef->{$key}->[3]       if $dressRef->{$key}->[3];
-                                    push @array, $part;
+                                    $part = $dresser->{$attr}->[2]
+                                          . $part
+                                          . $dresser->{$attr}->[3];
+                                    push @itemPartArray, $part;
                                 }
-                                if ($dressRef->{$key}->[4]) {
-                                    $attrItem = join $dressRef->{$key}->[4], @array;
-                                } else {
-                                    $attrItem = join '', @array;
-                                }
+                                $attrItem = join $dresser->{$attr}->[4], @itemPartArray;
                             }
-                            $attrItem  =  $dressRef->{$key}->[0].$attrItem if $dressRef->{$key}->[0];
-                            $attrItem .=  $dressRef->{$key}->[1] if $dressRef->{$key}->[1];
-                            mes("$key $attrItem", $data);
-                            push @$attrArray, $attrItem;
+
+                            $attributes_String .= $dresser->{$attr}->[0]
+                                                . $attrItem
+                                                . $dresser->{$attr}->[1];
+
+                            ## debug {{{
+                            push @$debug, mes("|$attr| $attrItem", $data, [1,0,1]);
+                            #}}}
+
                         }
                     }
                 }
-                my $str = $arrayFlag ? join '', @$attrArray
-                                     : $attrArray ? $item . join '', @$attrArray
-                                                  : $item;
-                mes($str ,$data, [-1]);
-                mes("<$obj> $item", $data, [1]);
+
+                ## String Concatenation
+                $string = ($string) ? $string . $attributes_String
+                                    : $attributes_String;
+
+                ## debug {{{
+                mes($string ,$data, [-1]);
+                mes($_, $data, [-1,1]) for @$debug;
+                #}}}
+
             }
+
+        ## ARRAY
+        } elsif ($type eq 'ARRAY') {
+            $data->{index}->[$lvl] = $index;
         }
+
     }; #}}}
 
     walkdepth { wanted => $wanted, preprocess => $preprocess},  $result;
+    mes("}}"."}", $data, [1]);
 }
 
 # UTILITIES {{{1
@@ -902,13 +964,13 @@ sub genOpts {
 }
 
 
-#===| getAttrReffs(){{{2
-sub getAttrReffs {
+#===| getAttrDspt(){{{2
+sub getAttrDspt {
     my ($data, $obj) = @_;
-    my $objReff = $data->{dspt}->{$obj};
-    my $attrReff = (exists $objReff->{attributes}) ? $objReff->{attributes}
+    my $objDspt = $data->{dspt}->{$obj};
+    my $attrDspt = (exists $objDspt->{attributes}) ? $objDspt->{attributes}
                                                    : 0;
-    return $attrReff;
+    return $attrDspt;
 }
 
 
@@ -993,10 +1055,10 @@ sub getPointStr {
 #===| isAttr(){{{2
 sub isAttr {
     my ($data, $lvlObj, $key) = @_;
-    my $attrRef = getAttrReffs($data,$lvlObj);
-    if ($attrRef) {
-        my $attr = (grep {$_ eq $key} keys %$attrRef)[0];
-        return ($attr) ? $attrRef->{$attr}
+    my $attrDspt = getAttrDspt($data,$lvlObj);
+    if ($attrDspt) {
+        my $attr = (grep {$_ eq $key} keys %$attrDspt)[0];
+        return ($attr) ? $attrDspt->{$attr}
                        : 0;
     }
     else {
@@ -1018,8 +1080,7 @@ sub isReservedKey {
 
 #===| mes() {{{2
 sub mes {
-    #my ($mes,$data,$cnt,$NewLineDisable,$silent,$indent) = @_;
-    my ($mes, $data, $opts, $bool)      = @_;
+    my ($mes, $data, $opts, $bool) = @_;
     my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
     my $debug                           = $data->{debug};
 
@@ -1032,9 +1093,7 @@ sub mes {
 
         $mes                = $indent . $mes . $newline;
 
-        push $data->{debug}->@*, $mes;
-
-        #print $mes unless $silent;
+        push $data->{debug}->@*, $mes unless $silent;
         return $mes;
     }
 

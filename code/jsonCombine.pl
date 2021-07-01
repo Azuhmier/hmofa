@@ -353,10 +353,10 @@ sub combine {
     # ===|| wanted->() {{{3
     my $wanted = sub {
         ##
-        my $item      = $_;
-        my $type      = $Data::Walk::type;
-        my $index     = $Data::Walk::index;
-        my $lvl       = $Data::Walk::depth-2;
+        my $item  = $_;
+        my $type  = $Data::Walk::type;
+        my $index = $Data::Walk::index;
+        my $lvl   = $Data::Walk::depth-2;
 
         if ($lvl != -1) {
 
