@@ -2,7 +2,7 @@
    "section" : {
       "order" : "1",
       "groupName" : "SECTIONS",
-      "re" : "^\\s*%+\\s*(.*?)\\s*%+"
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+"
    },
    "author" : {
       "order" : "1.1",
