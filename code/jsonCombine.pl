@@ -43,20 +43,21 @@ use Time::HiRes qw(time);
     });
 
     my $duration1_1 = time - $start;
-    my $catalog = $data->{hash}->[0]->{SECTIONS}->[1];
+    my $catalog = $data->{hash}->[0]->{SECTIONS}->[0];
         my $catalog_contents = dclone $catalog;
         $catalog             = {};
         $catalog->{contents} = $catalog_contents;
         $catalog->{reff}     = $catalog;
-        $catalog->{contents}->{libName}  = 'masterbin';
+        $catalog->{contents}->{libName}  = 'catalog';
         delete $catalog->{contents}->{section};
 
     my $duration1_2 = time - $start;
-    my $masterbin = $data->{hash}->[1];
+    my $masterbin = $data->{hash}->[1]->{SECTIONS}->[0];
         my $masterbin_contents = dclone $masterbin;
         $masterbin             = {};
         $masterbin->{contents} = $masterbin_contents;
         $masterbin->{reff}     = $masterbin;
+        $catalog->{contents}->{libName}  = 'masterbin';
 
     my $sub = genFilter({
         pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
@@ -156,7 +157,7 @@ sub combine {
     my $data   = shift @_;
     my $hash_0 = shift @_;
     my $hash_1 = shift @_;
-    $Data::Dumper::Maxdepth = 2;
+    #$Data::Dumper::Maxdepth = 2;
     $data->{reff2} = [ $hash_0->{contents} ];
     $data->{reff}  = [ $hash_1->{contents} ];
 
@@ -200,6 +201,8 @@ sub combine {
                 $hash_2 = $lvlReff->[$index];
             }
 
+            if (join('.', $data->{pointer}->@*) =~ '0.1.0') {print Dumper $hash_1}
+            if (join('.', $data->{pointer}->@*) =~ '0.1.0') {print Dumper $hash_2}
             #COMBINE KEYS
             my @keys_1 = sort {lc $a cmp lc $b} keys %{$hash_1};
             my @keys_2 = sort {lc $a cmp lc $b} keys %{$hash_2};
@@ -353,10 +356,10 @@ sub combine {
     # ===|| wanted->() {{{3
     my $wanted = sub {
         ##
-        my $item  = $_;
-        my $type  = $Data::Walk::type;
-        my $index = $Data::Walk::index;
-        my $lvl   = $Data::Walk::depth-2;
+        my $item      = $_;
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $lvl       = $Data::Walk::depth-2;
 
         if ($lvl != -1) {
 

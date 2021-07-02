@@ -15,6 +15,7 @@ use JSON::PP;
 use XML::Simple;
 use YAML;
 use Data::Walk;
+use List::Util qw( uniq );
 no warnings 'uninitialized';
 
 #  Assumptions
@@ -38,6 +39,7 @@ no warnings 'uninitialized';
     delegate({
         opts => $opts,
         name => 'masterbin',
+        preserve => { section => ['FOREWORD'] },
         fileNames => {
             fname  => '../masterbin.txt',
             output => './json/masterbin.json',
@@ -82,7 +84,15 @@ sub delegate {
     ## matches
     getMatches($data);
     validate_Matches($data);
+    $data->{matches2}->%* =
+        map { map { $_->{LN} => $_->{ getLvlObj($data, $_) ? getLvlObj($data, $_) : 'miss' }
+                  } $data->{matches}->{$_}->@*
+            } keys $data->{matches}->%*;
 
+    $data->{matches3}->%* =
+        map { map { $_->{LN} => $_->{ exists $_->{raw} ? 'raw' : 'miss' }
+                  } $data->{matches}->{$_}->@*
+            } keys $data->{matches}->%*;
     ## convert
     leveler($data,\&checkMatches);
 
@@ -299,9 +309,9 @@ sub getMatches {
 #===| validate_Matches() {{{2
 sub validate_Matches {
 
-    my $data         = shift @_;
-    my $dspt         = $data->{dspt};
-    my $matches      = $data->{matches};
+    my $data    = shift @_;
+    my $dspt    = $data->{dspt};
+    my $matches = $data->{matches};
 
     ## META
     $data->{meta}->{matches} = {};
@@ -318,36 +328,64 @@ sub validate_Matches {
     }
 
     ## Preserve
+
     $data->{preserve} = [];
+
     for my $obj (keys %$dspt) {
-        my $obj_Preserve = $dspt->{$obj}->{preserve};
-        if ($obj_Preserve) {
-            for my $item (@$obj_Preserve) {
-                my $obj_matches = $data->{matches}->{$obj};
-                my $HASH = (grep {$_->{$obj} eq $item} @$obj_matches)[0];
-                my $LN = $HASH->{LN};
+        my $objDspt = $dspt->{$obj};
 
+        if (exists $objDspt->{preserve}) {
+            my $objPreserve = $objDspt->{preserve};
 
-                {
-                    my @objs = grep {
-                        length $$dspt{$_}->{order} == length $$dspt{$obj}->{order}
-                        and
-                        $$dspt{$_}->{order} ne '0'
-                    } keys %$dspt;
-                    push @$obj_matches, $matches->@{@objs}->@*;
+            for my $item (@$objPreserve) {
+                my $obj_matches = dclone($matches->{$obj});
+                my $HASH = ( grep { $_->{$obj} eq $item } @$obj_matches )[0];
+                if ($HASH) {
+                    my $LN = $HASH->{LN};
+                    my $eligible_matches = [];
 
+                    {
+                        my @objs = grep { length $$dspt{$_}->{order}
+                                          ==
+                                          length $$dspt{$obj}->{order}
+                                          and
+                                          $$dspt{$_}->{order} ne '0'
+                                        } keys %$dspt;
+                        @$eligible_matches = sort {$a->{LN} <=> $b->{LN}} $matches->@{@objs}->@*;
+
+                    }
+
+                    my $HASH2;
+                    for (@$eligible_matches) {
+                        if ( $_->{LN} > $LN ) {
+                            $HASH2 = $_;
+                            last;
+                        }
+                    }
+                    $LN = ($LN) ? $LN : 0;
+                    my $LN2 = ($HASH2) ? $HASH2->{LN} : 0;
+                    push $data->{preserve}->@*,[$LN,$LN2];
                 }
-
-                my $HASH2 = (grep {$_->{LN} > $LN} @$obj_matches)[0];
-                my $LN2 = $HASH2 ? $HASH2->{LN}
-                                 : 0;
-
-                push $data->{preserve}->@*,[$LN,$LN2];
             }
         }
     }
 
-    #unless ($data->{matches}) { die("User did not provide 'matches' argument at ${0} at line: ".__LINE__) }
+    my $length = 1;
+    my @objs   = ();
+    my $flag   = 0;
+    while (!$flag) {
+        @objs = grep { length $$dspt{$_}->{order} == $length
+                          and
+                          $$dspt{$_}->{order} ne '0'
+                      } keys %$dspt;
+        $flag = scalar (grep {exists $matches->{$_} } @objs);
+        $length++;
+    }
+
+    my $firstObj = ( sort {$a->{LN} <=> $b->{LN}} $matches->@{@objs}->@* )[0];
+    my $LN  = 0;
+    my $LN2 = $firstObj->{LN};
+    push $data->{preserve}->@*,[$LN,$LN2];
 }
 
 
@@ -593,8 +631,20 @@ sub genWriteArray {
     my $data   = shift;
     my $result = dclone($data->{result});
     my $dspt   = $data->{dspt};
+
     $data->{seen} = {};
-    mes("{{"."{", $data, [1]);
+    $data->{childs} = {};
+    $data->{hook} = [];
+    mes("{{"."{", $data, [-1]);
+
+    my @lineNums = map {($_->[0]..$_->[1])} $data->{preserve}->@*;
+    my @strArray = map {$data->{matches3}->{$_}} uniq( sort { $a <=> $b }@lineNums);
+    for (@strArray) {
+        my $line = $_;
+        mes($line, $data, [-1,1]);
+    }
+    # SERIES override BOL '\n' of stories
+    # SECTIONS override BOL '\n' and '-------' of AUTHORS
 
     # %dresser {{{
     my %dresser = (
@@ -606,7 +656,7 @@ sub genWriteArray {
             title_attribute => [' (',')'],
         },
         author  => {
-          author           => ["\n------------------------------------------------------------------------------------------------------------------------------\nBy ",''],
+          author           => ["\n------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------\nBy ",''],
           author_attribute => [' (',')'],
         },
         series  => {
@@ -643,6 +693,9 @@ sub genWriteArray {
 
         my @children = @_;
         my $type     = $Data::Walk::type;
+        my $index    = $Data::Walk::index;
+        my $depth    = $Data::Walk::depth;
+        my $lvl      = $depth - 2;
 
         if ($type eq 'HASH') {
 
@@ -661,7 +714,6 @@ sub genWriteArray {
             }
 
         }
-
         return @children;
 
     }; #}}}
@@ -680,24 +732,35 @@ sub genWriteArray {
         }
 
         ## HASH
-        if ($type eq 'HASH') {
-
+        if ($type eq 'HASH' and $lvl >= 0) {
             my $objHash = $Data::Walk::container;
             my $obj     = getLvlObj($data, $objHash);
             my $item    = $objHash->{$obj};
 
-            #$data->{index}->[$lvl] = $index/2;
-            $data->{index}->[$lvl] = $obj;
-
-            unless ($data->{seen}->{$item}++) {
-
+            if ($_ eq $obj) {
                 my $objDspt  = $data->{dspt}->{$obj};
                 my $dresser  = $objDspt->{dresser};
 
+                $data->{childs}->{$obj}++;
+                my $segmentRef = \$data->{childs}->{$obj};
+                my $point = split /\./, $data->{dspt}->{$obj}->{order};
+                my $ind = ($point eq '0') ? 0
+                                          : scalar $point;
+                $data->{hook}->[$ind] = $segmentRef;
+                if ( (scalar $data->{hook}->@*) > ($ind + 1) ) {
+                    $data->{hook}->@[($ind+1) .. $data->{hook}->$#*] =
+                    map { $data->{hook}->[$_]->$* = 0;
+                          $data->{hook}->[$_]
+                        } (($ind+1) .. $data->{hook}->$#*);
+                }
+                $data->{index}->[$lvl/2] = [getGroupName($data,$obj), $segmentRef];
+                $data->{index}->@* = grep {defined $_} $data->{index}->@*;
+                my @indArray = map {$_->[0] . "[".$_->[1]->$*."]" } $data->{index}->@*;
+
                 ## debug {{{
                 my $debug = [];
-                push @$debug, mes("PointStr: ".join('.', $data->{index}->@*), $data, [1,0,1]);
-                push @$debug, mes("<$obj> $item", $data, [1,0,1]);
+                #push @$debug, mes("PointStr: ".join('.', @indArray), $data, [1,0,1]);
+                #push @$debug, mes("<$obj> $item", $data, [1,0,1]);
                 ## }}}
 
                 ## String
@@ -717,7 +780,7 @@ sub genWriteArray {
                     {
                         my $mes = join ', ', sort { cmpKeys( $data, $a, $b, $objHash)
                                              } keys %$attrDspt;
-                        push @$debug, mes("|Attrs| ".$mes, $data, [1,0,1]);
+                                             #push @$debug, mes("|Attrs| ".$mes, $data, [1,0,1]);
                     }
                     #}}}
 
@@ -747,7 +810,7 @@ sub genWriteArray {
                                                 . $dresser->{$attr}->[1];
 
                             ## debug {{{
-                            push @$debug, mes("|$attr| $attrItem", $data, [1,0,1]);
+                            #push @$debug, mes("|$attr| $attrItem", $data, [1,0,1]);
                             #}}}
 
                         }
@@ -764,16 +827,12 @@ sub genWriteArray {
                 #}}}
 
             }
-
-        ## ARRAY
-        } elsif ($type eq 'ARRAY') {
-            $data->{index}->[$lvl] = $index;
         }
 
     }; #}}}
 
     walkdepth { wanted => $wanted, preprocess => $preprocess},  $result;
-    mes("}}"."}", $data, [1]);
+    mes("}}"."}", $data, [-1]);
 }
 
 # UTILITIES {{{1
