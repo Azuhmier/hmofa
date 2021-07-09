@@ -62,10 +62,14 @@ sub fetch2file {
         $line =~ s/\s+(\n)$/$1/; # '\s' includes newlines, contrary to what it does in vim
         push @COPY, $line;
       }
+      my $copy = join '', @COPY;
+      $copy =~ s/\n+\z//;
+      $copy =~ s/(\N)\z/$1\n/s;
       seek $fh,0,0 or die;
-      for my $line (@COPY) {
-        print $fh $line;
-      }
+      print $fh $copy;
+      #for my $line (@COPY) {
+      #  print $fh $line;
+      #}
       truncate $fh, tell($fh) or die;
     close $fh;
   }
