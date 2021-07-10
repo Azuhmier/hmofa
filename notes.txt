@@ -60,3 +60,5 @@ Misc
                             '~'
               'raw' => '[;pet; ;canine; ;pet; ;feline;][]~',
               'LN' => 4310
+Debug
+    perl -d:NYTProf ~/hmofa/hmofa/code/jsonGen.pl && nytprofhtml --open

@@ -99,15 +99,14 @@ sub delegate {
         ## matches
         getMatches($data);
         validate_Matches($data);
-        $data->{matches2}->%* =
-            map { map { $_->{LN} => $_->{ getLvlObj($data, $_) ? getLvlObj($data, $_) : 'miss' }
+        $data->{matches4}->%* =
+            map { map { $_->{LN} => $_
                       } $data->{matches}->{$_}->@*
                 } keys $data->{matches}->%*;
 
-        $data->{matches3}->%* =
-            map { map { $_->{LN} => $_->{ exists $_->{raw} ? 'raw' : 'miss' }
-                      } $data->{matches}->{$_}->@*
-                } keys $data->{matches}->%*;
+                #$data->{matches4}->{2}->%* = ();
+                #print $data->{matches4}->{2}->%*;
+
         ## convert
         leveler($data,\&checkMatches);
 
@@ -124,7 +123,7 @@ sub delegate {
         seek $fh,0,0 or die;
         close $fh;
 
-        ## ===|| output {{{
+        ## output {{{
 
         if ($data->{opts}->{display}) { print decho($data->{result}, 0) };
         if ($delegate_opts->[1]) {
@@ -154,6 +153,64 @@ sub delegate {
         print $_ for $data->{debug}->@*;
         if ($data->{opts}->{write}->[1] == 2) { print Dumper($data->{pointy})   }
         #}}}
+
+        ## WRITE {{{
+        my $headDir = './data';
+        my $dirname = $headDir.'/'.$data->{result}->{libName};
+        mkdir $headDir if (!-d './data');
+        mkdir $dirname if (!-d $dirname);
+
+        ## META
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj    = $json_obj->allow_blessed(['true']);
+            my $json     = $json_obj->encode($data->{meta});
+            my $fname    = $dirname.'/meta.json';
+            open my $fh, '>', $fname or die "Error in opening file $fname\n";
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close $fh;
+        }
+        ## RESULT
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj    = $json_obj->allow_blessed(['true']);
+            my $json     = $json_obj->encode($data->{result});
+            my $fname    = $dirname.'/'.$data->{result}->{libName}.'.json';
+            open my $fh, '>', $fname or die "Error in opening file $fname\n";
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close $fh;
+        }
+        ## MATCHES
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj    = $json_obj->allow_blessed(['true']);
+            my $json     = $json_obj->encode($data->{matches});
+            my $fname    = $dirname.'/matches.json';
+            open my $fh, '>', $fname or die "Error in opening file $fname\n";
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close $fh;
+        }
+        ## MATCHES4
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj    = $json_obj->allow_blessed(['true']);
+            my $json     = $json_obj->encode($data->{matches4});
+            my $fname    = $dirname.'/matches4.json';
+            open my $fh, '>', $fname or die "Error in opening file $fname\n";
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close $fh;
+        }
+
+        opendir my $dh, $headDir or die "Error in opening dir $headDir\n";
+            while (readdir $dh) {}
+        closedir $dh;
+        # }}}
+
+
         return $data;
     }
 }
@@ -193,13 +250,14 @@ sub genReservedKeys {
     my $data = shift @_;
     my $ARGS = shift @_;
     my $defaults = {
-        preserve => [ 'preserve', 1 ],
-        raw      => [ 'raw',      2 ],
-        trash    => [ 'trash',    3 ],
-        LN       => [ 'LN',       4 ],
-        point    => [ 'point',    5 ],
-        miss     => [ 'miss',     6 ],
-        libName  => [ 'libName',  7 ],
+        NULL     => [ 'NULL',     1 ],
+        preserve => [ 'preserve', 2 ],
+        raw      => [ 'raw',      3 ],
+        trash    => [ 'trash',    4 ],
+        LN       => [ 'LN',       5 ],
+        point    => [ 'point',    6 ],
+        miss     => [ 'miss',     7 ],
+        libName  => [ 'libName',  8 ],
     };
     $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
 
@@ -215,7 +273,6 @@ sub genReservedKeys {
 
     $data->{reservedKeys} = $defaults;
 }
-
 
 #===| gendspt {{{2
 sub genDspt {
@@ -352,8 +409,7 @@ sub validate_Matches {
         $meta_matches_obj->{count} = $matches_obj ? scalar @$matches_obj : 0;
     }
 
-    ## Preserve
-
+    ## Preserve {{{
     $data->{preserve} = [];
 
     for my $obj (keys %$dspt) {
@@ -370,6 +426,7 @@ sub validate_Matches {
                     my $eligible_matches = [];
 
                     {
+                        ## get all $objs of the same lvl as the preserved obj;
                         my @objs = grep { length $$dspt{$_}->{order}
                                           ==
                                           length $$dspt{$obj}->{order}
@@ -387,7 +444,7 @@ sub validate_Matches {
                             last;
                         }
                     }
-                    $LN = ($LN) ? $LN : 0;
+                    $LN     = ($LN) ? $LN : 0;
                     my $LN2 = ($HASH2) ? $HASH2->{LN} : 0;
                     push $data->{preserve}->@*,[$LN,$LN2];
                 }
@@ -411,6 +468,7 @@ sub validate_Matches {
     my $LN  = 0;
     my $LN2 = $firstObj->{LN};
     push $data->{preserve}->@*,[$LN,$LN2];
+    #}}}
 }
 
 
@@ -485,59 +543,64 @@ sub checkMatches {
 sub divyMatches {
 
     my $data      = shift @_;
-    my $reffArray = $data->{reffArray};
+    my $refArray = $data->{reffArray};
     my $matches   = $data->{matches};
-    my $divy_opts = $data->{opts}->{divy};
+    my $opts_divy = $data->{opts}->{divy};
 
-    if ($divy_opts->[0]) {
-        my $obj       = getObj($data);
-        my $pond      = dclone($matches->{$obj});
-        my $groupName = getGroupName($data, $obj);
+    if ($opts_divy->[0]) {
+        my $obj          = getObj($data);
+        my $matches_obj  = dclone($matches->{$obj});
+        my $objGroupName = getGroupName($data, $obj);
 
-        my $ind = (scalar @$reffArray) - 1;
-        for my $reff (reverse $reffArray->@*) {
-            my $lvlObj      = getLvlObj($data, $reff);
-            my $lvlItem     = $reff->{$lvlObj};
-            my $reff_lineNum = ($reff->{LN}) ? $reff->{LN} : 0;
+        ## refArray LOOP
+        my $ind = (scalar @$refArray) - 1;
+        for my $ref (reverse @$refArray) {
+            last if !(scalar $matches_obj);
+            my $lvlObj  = getLvlObj($data, $ref);
+            my $lvlItem = $ref->{$lvlObj};
+            my $ref_LN  = ($ref->{LN}) ? $ref->{LN} : 0;
 
             ## Debug {{{
             mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
-                if $divy_opts->[1] == 2;
-            mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, [4])
-                if $divy_opts->[1] == 2;
+                if $opts_divy->[1] == 2;
+            mes( "[$ref_LN] <".$lvlObj."> ".$lvlItem, $data, [4])
+                if $opts_divy->[1] == 2;
             #}}}
 
-            my $bucket;
+            ## matches_obj LOOP
+            my $childObjs;
             my $flag = 0;
             my $prev_match_lineNum;
-            for my $match (reverse $pond->@*) {
+            for my $match (reverse @$matches_obj) {
+                next unless $match;
 
-                ## Preserve
-                my $presFlag=0;
+                ## Preserve {{{
+                my $presFlag = 0;
                 for my $part ($data->{preserve}->@*) {
-                    my $LN = $part->[0];
+                    my $LN  = $part->[0];
                     my $LN2 = $part->[1];
                     if ($LN2) {
-                        $presFlag=1 if $match->{LN} >= $LN and $match->{LN} < $LN2;
+                        $presFlag = 1 if $match->{LN} >= $LN and $match->{LN} < $LN2;
                     } else {
-                        $presFlag=1 if $match->{LN} >= $LN;
+                        $presFlag = 1 if $match->{LN} >= $LN;
                     }
                 }
+                #}}}
 
-                if ($match->{LN} > $reff_lineNum and !$presFlag) {
-                    my $match     = pop $pond->@*;
+                if ($match->{LN} > $ref_LN and !$presFlag) {
+                    my $match     = pop @$matches_obj;
                     my $attrDebug = genAttributes( $data, $match );
-                    push $bucket->@*, $match;
+                    push @$childObjs, $match;
 
                     ## Debug {{{
                     unless ($flag++) {
                         mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
-                            if ($divy_opts->[1] == 1);
-                        mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, [4])
-                            if ($divy_opts->[1] == 1);
+                            if ($opts_divy->[1] == 1);
+                        mes( "[$ref_LN] <".$lvlObj."> ".$lvlItem, $data, [4])
+                            if ($opts_divy->[1] == 1);
                     }
 
-                    if ($divy_opts->[1]) {
+                    if ($opts_divy->[1]) {
                         mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
                             if $data->{dspt}->{$obj}->{partion};
                         mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
@@ -551,99 +614,15 @@ sub divyMatches {
                 $prev_match_lineNum = $match->{LN};
             }
 
-            ## Check if bucket is empty
-            if ($bucket) {
-                $bucket->@* = reverse $bucket->@*;
-                $reffArray->[$ind]->{$groupName} = $bucket;
-                splice( $reffArray->@*, $ind, 1, ($reffArray->[$ind], $bucket->@*) );
+            ## Check if childObjs is empty
+            if ($childObjs) {
+                @$childObjs = reverse @$childObjs;
+                $refArray->[$ind]->{$objGroupName} = $childObjs;
+                splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs) );
             }
             $ind--;
         }
-        return $groupName;
-    }
-}
-
-#===| divyMatches2() {{{2
-sub divyMatches2 {
-
-    my $data      = shift @_;
-    my $reffArray = $data->{reffArray};
-    my $matches   = $data->{matches};
-    my $divy_opts = $data->{opts}->{divy};
-
-    if ($divy_opts->[0]) {
-        my $obj       = getObj( $data );
-        my $pond      = dclone($matches->{$obj});
-        my $groupName = getGroupName($data, $obj);
-
-        my $ind = ( scalar $reffArray->@* ) - 1;
-        for my $reff (reverse $reffArray->@*) {
-            my $lvlObj      = getLvlObj($data, $reff);
-            my $lvlItem     = $reff->{$lvlObj};
-            my $reff_lineNum = ($reff->{LN}) ? $reff->{LN}
-                                             : 0;
-
-            ## Debug {{{
-            mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
-                if $divy_opts->[1] == 2;
-            mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, [4])
-                if $divy_opts->[1] == 2;
-            #}}}
-
-
-            my $bucket;
-            my $flag=0;
-            my $prev_match_lineNum;
-            for my $match (reverse $pond->@*) {
-
-                ## Preserve
-                my $presFlag=0;
-                for my $part ($data->{preserve}->@*) {
-                    my $LN = $part->[0];
-                    my $LN2 = $part->[1];
-                    if ($LN2) {
-                        $presFlag=1 if $match->{LN} >= $LN and $match->{LN} < $LN2;
-                    } else {
-                        $presFlag=1 if $match->{LN} >= $LN;
-                    }
-                }
-
-                if ($match->{LN} > $reff_lineNum and !$presFlag) {
-                    my $match     = pop $pond->@*;
-                    my $attrDebug = genAttributes( $data, $match );
-                    push $bucket->@*, $match;
-
-                    ## Debug {{{
-                    unless ($flag++) {
-                        mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
-                            if ($divy_opts->[1] == 1);
-                        mes( "[$reff_lineNum] <".$lvlObj."> ".$lvlItem, $data, [4])
-                            if ($divy_opts->[1] == 1);
-                    }
-
-                    if ($divy_opts->[1]) {
-                        mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
-                            if $data->{dspt}->{$obj}->{partion};
-                        mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
-                            unless $data->{dspt}->{$obj}->{partion};
-                    }
-
-                    if (scalar $attrDebug->@* and $data->{opts}->{attribs}->[1]) { mes("$_",$data,[-1, 1]) for $attrDebug->@* }
-                    #}}}
-
-                } else { last }
-                $prev_match_lineNum = $match->{LN};
-            }
-
-            ## Check if bucket is empty
-            if ($bucket) {
-                $bucket->@* = reverse $bucket->@*;
-                $reffArray->[$ind]->{$groupName} = $bucket;
-                splice( $reffArray->@*, $ind, 1, ($reffArray->[$ind], $bucket->@*) );
-            }
-            $ind--;
-        }
-        return $groupName;
+        return $objGroupName;
     }
 }
 
@@ -773,7 +752,7 @@ sub genWriteArray {
         my @lineNums = map {($_->[0]..$_->[1])} $data->{preserve}->@*;
         @lineNums = sort {$a <=> $b} @lineNums;
         pop @lineNums for (0..2);
-        my @strArray = map {$data->{matches3}->{$_}} uniq(@lineNums);
+        my @strArray = map {$data->{matches4}->{$_}->{ exists $data->{matches4}->{$_}->{raw} ? 'raw' : 'miss' } } uniq(@lineNums);
 
         ## debug {{{
         mes("{{"."{", $data, [-1])

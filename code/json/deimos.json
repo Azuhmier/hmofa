@@ -69,5 +69,8 @@
       "groupName" : "DESCRIPTIONS",
       "re" : "^\\s*#(.*)",
       "scalar" : "1"
+   },
+   "NULL" : {
+      "re" : "\\*"
    }
 }
