@@ -1721,11 +1721,6 @@ sub combine {
                 }
             }
 
-            #if ($lvl != -1) {
-            #    $lvlReff->[$index]->%* = $hash_2->%*;
-            #    $lvlReff2->[$index]->%* = $hash_1->%*;
-            #}
-
             undef @children;
             for my $key (sort keys %{$hash_1}) {
                 push @children, ($key, $hash_1->{$key});
