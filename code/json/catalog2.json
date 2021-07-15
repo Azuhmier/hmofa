@@ -1,6 +1,177 @@
 {
    "SECTIONS" : [
       {
+         "section" : "Introduction/Key",
+         "preserve" : [
+            {
+               "miss" : "\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\n",
+               "LN" : 19
+            },
+            {
+               "miss" : "========================================================\n",
+               "LN" : 20
+            },
+            {
+               "miss" : "| TAG SEARCHING |\n",
+               "LN" : 21
+            },
+            {
+               "miss" : "\n",
+               "LN" : 22
+            },
+            {
+               "miss" : "(1) Find your Desired Tag:\n",
+               "LN" : 23
+            },
+            {
+               "miss" : "COMPLETE TAG LIST\n",
+               "LN" : 24
+            },
+            {
+               "miss" : "SPECIES TAG LIST\n",
+               "LN" : 25
+            },
+            {
+               "miss" : "\n",
+               "LN" : 26
+            },
+            {
+               "miss" : "(2) Hold Down the Ctrl Key and Press the f Key (ctrl + f)\n",
+               "LN" : 27
+            },
+            {
+               "miss" : "\n",
+               "LN" : 28
+            },
+            {
+               "miss" : "(3) Enter the Following where \"tagname\" is your Desired Tag\n",
+               "LN" : 29
+            },
+            {
+               "miss" : ";tagname;\n",
+               "LN" : 30
+            },
+            {
+               "miss" : "\n",
+               "LN" : 31
+            },
+            {
+               "miss" : "========================================================\n",
+               "LN" : 32
+            },
+            {
+               "miss" : "| TAGLINE TEMPLATE |\n",
+               "LN" : 33
+            },
+            {
+               "miss" : "\n",
+               "LN" : 34
+            },
+            {
+               "miss" : "[ anthro tags ][ story tags ] symbols\n",
+               "LN" : 35
+            },
+            {
+               "miss" : "\n",
+               "LN" : 36
+            },
+            {
+               "miss" : "========================================================\n",
+               "LN" : 37
+            },
+            {
+               "miss" : "| SYMBOLS |\n",
+               "LN" : 38
+            },
+            {
+               "miss" : "\n",
+               "LN" : 39
+            },
+            {
+               "miss" : "~ = story is incomplete\n",
+               "LN" : 40
+            },
+            {
+               "miss" : "X = story was deleted, removed, or set to private\n",
+               "LN" : 41
+            },
+            {
+               "miss" : "O = story is claimed dead by the author or seems dead due to lack of activity\n",
+               "LN" : 42
+            },
+            {
+               "miss" : "\n",
+               "LN" : 43
+            },
+            {
+               "miss" : "========================================================\n",
+               "LN" : 44
+            },
+            {
+               "miss" : "| TAG OPERANDS |\n",
+               "LN" : 45
+            },
+            {
+               "miss" : "\n",
+               "LN" : 46
+            },
+            {
+               "miss" : "{Initial tag} -> {Later Tag} = tag changes as story progresses (Ex. feral -> non-feral)\n",
+               "LN" : 47
+            },
+            {
+               "miss" : "{Tag A} <-> {Tag B} = tag changes between A and B\n",
+               "LN" : 48
+            },
+            {
+               "miss" : "{Gender}:{Tag} = (Ex. {m:dubcon} = the consent of the male was dubious)\n",
+               "LN" : 49
+            },
+            {
+               "miss" : "\n",
+               "LN" : 50
+            },
+            {
+               "miss" : "========================================================\n",
+               "LN" : 51
+            },
+            {
+               "miss" : "| SPECIAL TAGS |\n",
+               "LN" : 52
+            },
+            {
+               "miss" : "\n",
+               "LN" : 53
+            },
+            {
+               "miss" : "H/C = Hurt/Comfort, refers to the presence of emotional or physical angst of one\n",
+               "LN" : 54
+            },
+            {
+               "miss" : "character followed By emotional or physical comfort By another.\n",
+               "LN" : 55
+            },
+            {
+               "miss" : "fling = a one night stand (aka casual sex)\n",
+               "LN" : 56
+            },
+            {
+               "miss" : "Pseudo-incest = Sex with someone with a familial relationship, but no blood relationship.\n",
+               "LN" : 57
+            },
+            {
+               "miss" : "\n",
+               "LN" : 58
+            },
+            {
+               "miss" : "\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\n",
+               "LN" : 59
+            }
+         ],
+         "raw" : "Introduction/Key",
+         "LN" : 18
+      },
+      {
          "section" : "Story Catalogue",
          "AUTHORS" : [
             {
@@ -26035,6 +26206,80 @@
                "author" : "Changed_Daily",
                "STORIES" : [
                   {
+                     "title" : "Grabbing It By the Horns",
+                     "TAGS" : [
+                        {
+                           "tags" : [
+                              "goat",
+                              "fantasy",
+                              "oral",
+                              "vaginal",
+                              "sex",
+                              "rough sex",
+                              "domination",
+                              "dirty talk"
+                           ],
+                           "anthro" : [
+                              "goat"
+                           ],
+                           "general" : [
+                              "fantasy",
+                              "oral",
+                              "vaginal",
+                              "sex",
+                              "rough sex",
+                              "domination",
+                              "dirty talk"
+                           ],
+                           "raw" : "[;goat;][;fantasy; ;oral; ;vaginal; ;sex; ;rough sex; ;domination; ;dirty talk;]",
+                           "LN" : 3765
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://archiveofourown.org/works/30587507",
+                           "raw" : "https://archiveofourown.org/works/30587507",
+                           "LN" : 3766
+                        }
+                     ],
+                     "raw" : "Grabbing It By the Horns",
+                     "LN" : 3764
+                  },
+                  {
+                     "title" : "Secrets of the Don",
+                     "TAGS" : [
+                        {
+                           "tags" : [
+                              "rat",
+                              "rodent",
+                              "mafia",
+                              "romance",
+                              "slow burn"
+                           ],
+                           "anthro" : [
+                              "rat",
+                              "rodent"
+                           ],
+                           "general" : [
+                              "mafia",
+                              "romance",
+                              "slow burn"
+                           ],
+                           "raw" : "[;rat; ;rodent;][;mafia; ;romance; ;slow burn;]",
+                           "LN" : 3769
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://archiveofourown.org/works/28151856",
+                           "raw" : "https://archiveofourown.org/works/28151856",
+                           "LN" : 3770
+                        }
+                     ],
+                     "raw" : "Secrets of the Don",
+                     "LN" : 3768
+                  },
+                  {
                      "title" : "Anon Hatefucks a Coworker",
                      "TAGS" : [
                         {
@@ -26053,18 +26298,18 @@
                               "sex"
                            ],
                            "raw" : "[;wolf; ;canine;][;hatefuck; ;sex;]",
-                           "LN" : 3765
+                           "LN" : 3773
                         }
                      ],
                      "URLS" : [
                         {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6vQKr6AH",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/6vQKr6AH",
-                           "LN" : 3766
+                           "url" : "https://archiveofourown.org/works/28153605H",
+                           "raw" : "https://archiveofourown.org/works/28153605H",
+                           "LN" : 3774
                         }
                      ],
                      "raw" : "Anon Hatefucks a Coworker",
-                     "LN" : 3764
+                     "LN" : 3772
                   },
                   {
                      "title" : "Best Friend",
@@ -26095,18 +26340,18 @@
                               "club"
                            ],
                            "raw" : "[;lynx; ;feline;][;love/romance; ;party; ;non-smut; ;confession of feelings; ;dancing; ;beach; ;club;]",
-                           "LN" : 3769
+                           "LN" : 3777
                         }
                      ],
                      "URLS" : [
                         {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gaW3kgy4",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gaW3kgy4",
-                           "LN" : 3770
+                           "url" : "https://archiveofourown.org/works/28154172",
+                           "raw" : "https://archiveofourown.org/works/28154172",
+                           "LN" : 3778
                         }
                      ],
                      "raw" : "Best Friend",
-                     "LN" : 3768
+                     "LN" : 3776
                   }
                ],
                "raw" : "Changed_Daily",
@@ -26150,29 +26395,29 @@
                               "short story"
                            ],
                            "raw" : "[;dog; ;rottweiler; ;lesbian; ;muscular;][;roommates; ;orientation play; ;heat play; ;oral; ;cunnilingus; ;dom/sub; ;objectification; ;short story;]",
-                           "LN" : 3777
+                           "LN" : 3785
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rLkyun8v",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rLkyun8v",
-                           "LN" : 3778
+                           "LN" : 3786
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "lesbian rottie gets eaten out by human male roommate",
                            "raw" : "lesbian rottie gets eaten out by human male roommate",
-                           "LN" : 3779
+                           "LN" : 3787
                         }
                      ],
                      "raw" : "No Hetero",
-                     "LN" : 3776
+                     "LN" : 3784
                   }
                ],
                "raw" : "Big_Gay_Skeleton",
-               "LN" : 3774
+               "LN" : 3782
             },
             {
                "author" : "StabbyTheSnowman",
@@ -26202,22 +26447,22 @@
                               "Christmas"
                            ],
                            "raw" : "[;horse; ;large antrho;][;comfy; ;very short story; ;sex; ;childhood friends; ;Christmas;]",
-                           "LN" : 3786
+                           "LN" : 3794
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZyY4jKAB",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZyY4jKAB",
-                           "LN" : 3787
+                           "LN" : 3795
                         }
                      ],
                      "raw" : "Unexpected Christmas Gifts",
-                     "LN" : 3785
+                     "LN" : 3793
                   }
                ],
                "raw" : "StabbyTheSnowman",
-               "LN" : 3783
+               "LN" : 3791
             },
             {
                "author" : "Smoke_Anon",
@@ -26243,22 +26488,22 @@
                               "~"
                            ],
                            "raw" : "[;fennec fox; ;fox;][;BHA universe;]~",
-                           "LN" : 3794
+                           "LN" : 3802
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5W1Cwbs3",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5W1Cwbs3",
-                           "LN" : 3795
+                           "LN" : 3803
                         }
                      ],
                      "raw" : "What's in the Canister?",
-                     "LN" : 3793
+                     "LN" : 3801
                   }
                ],
                "raw" : "Smoke_Anon",
-               "LN" : 3791
+               "LN" : 3799
             },
             {
                "author" : "Artifexcaloris",
@@ -26275,22 +26520,22 @@
                            ],
                            "general" : [],
                            "raw" : "[;wasp;][]",
-                           "LN" : 3802
+                           "LN" : 3810
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LWn1J4fw",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LWn1J4fw",
-                           "LN" : 3803
+                           "LN" : 3811
                         }
                      ],
                      "raw" : "The Queen of the Palace of Paper",
-                     "LN" : 3801
+                     "LN" : 3809
                   }
                ],
                "raw" : "Artifexcaloris",
-               "LN" : 3799
+               "LN" : 3807
             },
             {
                "author" : "Arctozolt",
@@ -26313,18 +26558,18 @@
                               "~"
                            ],
                            "raw" : "[;arctic fox; ;fox;][]~",
-                           "LN" : 3810
+                           "LN" : 3818
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vvc3cLHW",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/vvc3cLHW",
-                           "LN" : 3811
+                           "LN" : 3819
                         }
                      ],
                      "raw" : "WIP Arctic Fox Story",
-                     "LN" : 3809
+                     "LN" : 3817
                   },
                   {
                      "title" : "Under Greenland",
@@ -26344,22 +26589,22 @@
                               "~"
                            ],
                            "raw" : "[;Greenland shark;][]X~",
-                           "LN" : 3814
+                           "LN" : 3822
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mtzcG97Z",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mtzcG97Z",
-                           "LN" : 3815
+                           "LN" : 3823
                         }
                      ],
                      "raw" : "Under Greenland",
-                     "LN" : 3813
+                     "LN" : 3821
                   }
                ],
                "raw" : "Arctozolt",
-               "LN" : 3807
+               "LN" : 3815
             },
             {
                "author" : "P-lucky",
@@ -26376,22 +26621,22 @@
                            ],
                            "general" : [],
                            "raw" : "[;Loka;][]",
-                           "LN" : 3822
+                           "LN" : 3830
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ekvRv7eX",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ekvRv7eX",
-                           "LN" : 3823
+                           "LN" : 3831
                         }
                      ],
                      "raw" : "Unexpected Consequences - Loka",
-                     "LN" : 3821
+                     "LN" : 3829
                   }
                ],
                "raw" : "P-lucky",
-               "LN" : 3819
+               "LN" : 3827
             },
             {
                "author" : "ColonTwo",
@@ -26408,18 +26653,18 @@
                            ],
                            "general" : [],
                            "raw" : "[;horse;][]",
-                           "LN" : 3830
+                           "LN" : 3838
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gKfyXJi7",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gKfyXJi7",
-                           "LN" : 3831
+                           "LN" : 3839
                         }
                      ],
                      "raw" : "Service",
-                     "LN" : 3829
+                     "LN" : 3837
                   },
                   {
                      "title" : "My Waspu",
@@ -26433,22 +26678,22 @@
                            ],
                            "general" : [],
                            "raw" : "[;wasp;][]",
-                           "LN" : 3834
+                           "LN" : 3842
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1gmMUSJU",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1gmMUSJU",
-                           "LN" : 3835
+                           "LN" : 3843
                         }
                      ],
                      "raw" : "My Waspu",
-                     "LN" : 3833
+                     "LN" : 3841
                   }
                ],
                "raw" : "ColonTwo",
-               "LN" : 3827
+               "LN" : 3835
             },
             {
                "author" : "Bear_Anon",
@@ -26484,70 +26729,28 @@
                               "love/romance"
                            ],
                            "raw" : "[;hyena; ;yeen; ;tomboy;][;short story; ;childhood friends; ;femdom; ;sex; ;comfy; ;biting; ;love/romance;]",
-                           "LN" : 3842
+                           "LN" : 3850
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m3W7aH9T",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/m3W7aH9T",
-                           "LN" : 3843
+                           "LN" : 3851
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "Anon helps his hyena friend train and they reveal their feelings for eachother",
                            "raw" : "Anon helps his hyena friend train and they reveal their feelings for eachother",
-                           "LN" : 3844
-                        }
-                     ],
-                     "raw" : "[HMOFA] A Touch of Grace",
-                     "LN" : 3841
-                  },
-                  {
-                     "title" : "Gamer Gator",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 3847
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnhckHDn",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnhckHDn",
-                           "LN" : 3848
-                        }
-                     ],
-                     "raw" : "Gamer Gator",
-                     "LN" : 3846
-                  },
-                  {
-                     "title" : "Gator Snuggles",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 3851
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4eVYJrL",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4eVYJrL",
                            "LN" : 3852
                         }
                      ],
-                     "raw" : "Gator Snuggles",
-                     "LN" : 3850
+                     "raw" : "[HMOFA] A Touch of Grace",
+                     "LN" : 3849
                   },
                   {
-                     "title" : "A Feline's Fancy",
+                     "title" : "Gamer Gator",
                      "TAGS" : [
                         {
                            "tags" : [],
@@ -26559,17 +26762,59 @@
                      ],
                      "URLS" : [
                         {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LRhZrCcM",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LRhZrCcM",
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnhckHDn",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/TnhckHDn",
                            "LN" : 3856
                         }
                      ],
-                     "raw" : "A Feline's Fancy",
+                     "raw" : "Gamer Gator",
                      "LN" : 3854
+                  },
+                  {
+                     "title" : "Gator Snuggles",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 3859
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4eVYJrL",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/h4eVYJrL",
+                           "LN" : 3860
+                        }
+                     ],
+                     "raw" : "Gator Snuggles",
+                     "LN" : 3858
+                  },
+                  {
+                     "title" : "A Feline's Fancy",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 3863
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LRhZrCcM",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LRhZrCcM",
+                           "LN" : 3864
+                        }
+                     ],
+                     "raw" : "A Feline's Fancy",
+                     "LN" : 3862
                   }
                ],
                "raw" : "Bear_Anon",
-               "LN" : 3839
+               "LN" : 3847
             },
             {
                "author" : "iwannarobowife",
@@ -26586,22 +26831,22 @@
                            ],
                            "general" : [],
                            "raw" : "[;rabbit;][]",
-                           "LN" : 3863
+                           "LN" : 3871
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/saX4Yiqr",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/saX4Yiqr",
-                           "LN" : 3864
+                           "LN" : 3872
                         }
                      ],
                      "raw" : "Easter Bunny Wife",
-                     "LN" : 3862
+                     "LN" : 3870
                   }
                ],
                "raw" : "iwannarobowife",
-               "LN" : 3860
+               "LN" : 3868
             },
             {
                "author" : "WriteGaf",
@@ -26622,22 +26867,22 @@
                               "~"
                            ],
                            "raw" : "[;Loka;][]~",
-                           "LN" : 3871
+                           "LN" : 3879
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aCdD2US6",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/aCdD2US6",
-                           "LN" : 3872
+                           "LN" : 3880
                         }
                      ],
                      "raw" : "Loco for Loka",
-                     "LN" : 3870
+                     "LN" : 3878
                   }
                ],
                "raw" : "WriteGaf",
-               "LN" : 3868
+               "LN" : 3876
             },
             {
                "author" : "d15c0rd",
@@ -26663,18 +26908,18 @@
                               "X"
                            ],
                            "raw" : "[;rabbit; ;Judy Hopps;][;Zootopia;]X",
-                           "LN" : 3879
+                           "LN" : 3887
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u0692rp2",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/u0692rp2",
-                           "LN" : 3880
+                           "LN" : 3888
                         }
                      ],
                      "raw" : "A Story in Zootopia With Judy Hopps",
-                     "LN" : 3878
+                     "LN" : 3886
                   },
                   {
                      "title" : "A Short Story About Megan",
@@ -26690,22 +26935,22 @@
                            ],
                            "general" : [],
                            "raw" : "[;canine; ;maned wolf;][]",
-                           "LN" : 3883
+                           "LN" : 3891
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/50vAjQyT",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/50vAjQyT",
-                           "LN" : 3884
+                           "LN" : 3892
                         }
                      ],
                      "raw" : "A Short Story About Megan",
-                     "LN" : 3882
+                     "LN" : 3890
                   }
                ],
                "raw" : "d15c0rd",
-               "LN" : 3876
+               "LN" : 3884
             },
             {
                "author" : "Anon_2O",
@@ -26718,18 +26963,18 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3891
+                           "LN" : 3899
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvQvpK87",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvQvpK87",
-                           "LN" : 3892
+                           "LN" : 3900
                         }
                      ],
                      "raw" : "Serenade",
-                     "LN" : 3890
+                     "LN" : 3898
                   },
                   {
                      "title" : "Mary and Anon",
@@ -26750,18 +26995,18 @@
                               "comfy"
                            ],
                            "raw" : "[;canine; ;maned wolf;][;sex; ;comfy;]",
-                           "LN" : 3895
+                           "LN" : 3903
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rxTkqy4g",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rxTkqy4g",
-                           "LN" : 3896
+                           "LN" : 3904
                         }
                      ],
                      "raw" : "Mary and Anon",
-                     "LN" : 3894
+                     "LN" : 3902
                   },
                   {
                      "title" : "Just Neighbors",
@@ -26778,22 +27023,22 @@
                               "sex"
                            ],
                            "raw" : "[;fox;][;sex;]",
-                           "LN" : 3899
+                           "LN" : 3907
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rvY5mc7T",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/rvY5mc7T",
-                           "LN" : 3900
+                           "LN" : 3908
                         }
                      ],
                      "raw" : "Just Neighbors",
-                     "LN" : 3898
+                     "LN" : 3906
                   }
                ],
                "raw" : "Anon_2O",
-               "LN" : 3888
+               "LN" : 3896
             },
             {
                "author" : "Power_of_Alchemy",
@@ -26806,18 +27051,18 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3907
+                           "LN" : 3915
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Kp6yDYis",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Kp6yDYis",
-                           "LN" : 3908
+                           "LN" : 3916
                         }
                      ],
                      "raw" : "A Sudden Lapse of Reason",
-                     "LN" : 3906
+                     "LN" : 3914
                   },
                   {
                      "title" : "Where Did All the Time Go?",
@@ -26827,22 +27072,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3911
+                           "LN" : 3919
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJDw5gtN",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJDw5gtN",
-                           "LN" : 3912
+                           "LN" : 3920
                         }
                      ],
                      "raw" : "Where Did All the Time Go?",
-                     "LN" : 3910
+                     "LN" : 3918
                   }
                ],
                "raw" : "Power_of_Alchemy",
-               "LN" : 3904
+               "LN" : 3912
             },
             {
                "author" : "DS_Anon",
@@ -26855,22 +27100,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3919
+                           "LN" : 3927
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RMupWGBA",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RMupWGBA",
-                           "LN" : 3920
+                           "LN" : 3928
                         }
                      ],
                      "raw" : "Tailborne Federal Penitentiary",
-                     "LN" : 3918
+                     "LN" : 3926
                   }
                ],
                "raw" : "DS_Anon",
-               "LN" : 3916
+               "LN" : 3924
             },
             {
                "author" : "plotrobert",
@@ -26892,22 +27137,22 @@
                               "Sonic the Hedgehog"
                            ],
                            "raw" : "[;bat; ;Rouge;][;Sonic the Hedgehog;]",
-                           "LN" : 3927
+                           "LN" : 3935
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n7Y9diDd",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/n7Y9diDd",
-                           "LN" : 3928
+                           "LN" : 3936
                         }
                      ],
                      "raw" : "Rouge Story",
-                     "LN" : 3926
+                     "LN" : 3934
                   }
                ],
                "raw" : "plotrobert",
-               "LN" : 3924
+               "LN" : 3932
             },
             {
                "author" : "SteelandFlames",
@@ -26920,22 +27165,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3935
+                           "LN" : 3943
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EFVnsNZy",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/EFVnsNZy",
-                           "LN" : 3936
+                           "LN" : 3944
                         }
                      ],
                      "raw" : "Destiny in the Desert",
-                     "LN" : 3934
+                     "LN" : 3942
                   }
                ],
                "raw" : "SteelandFlames",
-               "LN" : 3932
+               "LN" : 3940
             },
             {
                "author" : "Red-Nine",
@@ -26961,22 +27206,22 @@
                               "~"
                            ],
                            "raw" : "[;canine; ;collie;][;childhood friends;]~",
-                           "LN" : 3943
+                           "LN" : 3951
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hdaamdda",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/hdaamdda",
-                           "LN" : 3944
+                           "LN" : 3952
                         }
                      ],
                      "raw" : "End of Active Obligated Service",
-                     "LN" : 3942
+                     "LN" : 3950
                   }
                ],
                "raw" : "Red-Nine",
-               "LN" : 3940
+               "LN" : 3948
             },
             {
                "author" : "HerrKaluen",
@@ -26989,18 +27234,18 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3951
+                           "LN" : 3959
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cuxYvCUy",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/cuxYvCUy",
-                           "LN" : 3952
+                           "LN" : 3960
                         }
                      ],
                      "raw" : "Breaking What's Survived",
-                     "LN" : 3950
+                     "LN" : 3958
                   },
                   {
                      "title" : "A Sudden Rush",
@@ -27014,63 +27259,21 @@
                               "femdom"
                            ],
                            "raw" : "[][;femdom;]",
-                           "LN" : 3955
+                           "LN" : 3963
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UiYC7H69",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/UiYC7H69",
-                           "LN" : 3956
-                        }
-                     ],
-                     "raw" : "A Sudden Rush",
-                     "LN" : 3954
-                  },
-                  {
-                     "title" : "Zahra's Mistake",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 3959
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXVjdekD",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXVjdekD",
-                           "LN" : 3960
-                        }
-                     ],
-                     "raw" : "Zahra's Mistake",
-                     "LN" : 3958
-                  },
-                  {
-                     "title" : "Dimitri's Roundabout",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 3963
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jM0YSfzx",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jM0YSfzx",
                            "LN" : 3964
                         }
                      ],
-                     "raw" : "Dimitri's Roundabout",
+                     "raw" : "A Sudden Rush",
                      "LN" : 3962
                   },
                   {
-                     "title" : "Greentext Collection",
+                     "title" : "Zahra's Mistake",
                      "TAGS" : [
                         {
                            "tags" : [],
@@ -27082,17 +27285,59 @@
                      ],
                      "URLS" : [
                         {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Zhek5FWg",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Zhek5FWg",
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXVjdekD",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AXVjdekD",
                            "LN" : 3968
                         }
                      ],
-                     "raw" : "Greentext Collection",
+                     "raw" : "Zahra's Mistake",
                      "LN" : 3966
+                  },
+                  {
+                     "title" : "Dimitri's Roundabout",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 3971
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jM0YSfzx",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jM0YSfzx",
+                           "LN" : 3972
+                        }
+                     ],
+                     "raw" : "Dimitri's Roundabout",
+                     "LN" : 3970
+                  },
+                  {
+                     "title" : "Greentext Collection",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 3975
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Zhek5FWg",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Zhek5FWg",
+                           "LN" : 3976
+                        }
+                     ],
+                     "raw" : "Greentext Collection",
+                     "LN" : 3974
                   }
                ],
                "raw" : "HerrKaluen",
-               "LN" : 3948
+               "LN" : 3956
             },
             {
                "author" : "Miru",
@@ -27112,7 +27357,7 @@
                               "femdom"
                            ],
                            "raw" : "[;horse;][;femdom;]",
-                           "LN" : 3975
+                           "LN" : 3983
                         }
                      ],
                      "URLS" : [
@@ -27120,21 +27365,21 @@
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fxDR8x0Z",
                            "url_attribute" : "Part 1",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fxDR8x0Z (Part 1)",
-                           "LN" : 3976
+                           "LN" : 3984
                         },
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZEv8Qiad",
                            "url_attribute" : "Part 2",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZEv8Qiad (Part 2)",
-                           "LN" : 3977
+                           "LN" : 3985
                         }
                      ],
                      "raw" : "Victorian (Because Your Mine).",
-                     "LN" : 3974
+                     "LN" : 3982
                   }
                ],
                "raw" : "Miru",
-               "LN" : 3972
+               "LN" : 3980
             },
             {
                "author" : "jears",
@@ -27147,7 +27392,7 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3984
+                           "LN" : 3992
                         }
                      ],
                      "URLS" : [
@@ -27155,27 +27400,27 @@
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sUfRbFV8",
                            "url_attribute" : "Part 1",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sUfRbFV8 (Part 1)",
-                           "LN" : 3985
+                           "LN" : 3993
                         },
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iwm9JSM",
                            "url_attribute" : "Part 2",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iwm9JSM (Part 2)",
-                           "LN" : 3986
+                           "LN" : 3994
                         },
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wqfUEXmc",
                            "url_attribute" : "Part 3",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/wqfUEXmc (Part 3)",
-                           "LN" : 3987
+                           "LN" : 3995
                         }
                      ],
                      "raw" : "Defrosted",
-                     "LN" : 3983
+                     "LN" : 3991
                   }
                ],
                "raw" : "jears",
-               "LN" : 3981
+               "LN" : 3989
             },
             {
                "author" : "Hypericum",
@@ -27188,64 +27433,21 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 3994
+                           "LN" : 4002
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJT1prpe",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/LJT1prpe",
-                           "LN" : 3995
-                        }
-                     ],
-                     "raw" : "Cold Light",
-                     "LN" : 3993
-                  },
-                  {
-                     "title" : "7989-72",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 3998
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Xgzqvi0K",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Xgzqvi0K",
-                           "LN" : 3999
-                        }
-                     ],
-                     "raw" : "7989-72",
-                     "LN" : 3997
-                  },
-                  {
-                     "title" : "A Black Cat",
-                     "TAGS" : [
-                        {
-                           "tags" : [],
-                           "anthro" : [],
-                           "general" : [],
-                           "raw" : "[][]",
-                           "LN" : 4002
-                        }
-                     ],
-                     "URLS" : [
-                        {
-                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y94fqxCN",
-                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y94fqxCN",
                            "LN" : 4003
                         }
                      ],
-                     "title_attribute" : "Line 28",
-                     "raw" : "A Black Cat (Line 28)",
+                     "raw" : "Cold Light",
                      "LN" : 4001
                   },
                   {
-                     "title" : "O Queen, my Queen",
+                     "title" : "7989-72",
                      "TAGS" : [
                         {
                            "tags" : [],
@@ -27257,18 +27459,61 @@
                      ],
                      "URLS" : [
                         {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Xgzqvi0K",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Xgzqvi0K",
+                           "LN" : 4007
+                        }
+                     ],
+                     "raw" : "7989-72",
+                     "LN" : 4005
+                  },
+                  {
+                     "title" : "A Black Cat",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 4010
+                        }
+                     ],
+                     "URLS" : [
+                        {
+                           "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y94fqxCN",
+                           "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/y94fqxCN",
+                           "LN" : 4011
+                        }
+                     ],
+                     "title_attribute" : "Line 28",
+                     "raw" : "A Black Cat (Line 28)",
+                     "LN" : 4009
+                  },
+                  {
+                     "title" : "O Queen, my Queen",
+                     "TAGS" : [
+                        {
+                           "tags" : [],
+                           "anthro" : [],
+                           "general" : [],
+                           "raw" : "[][]",
+                           "LN" : 4014
+                        }
+                     ],
+                     "URLS" : [
+                        {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bbjyG8B5",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bbjyG8B5",
-                           "LN" : 4007
+                           "LN" : 4015
                         }
                      ],
                      "title_attribute" : "Line 46",
                      "raw" : "O Queen, my Queen (Line 46)",
-                     "LN" : 4005
+                     "LN" : 4013
                   }
                ],
                "raw" : "Hypericum",
-               "LN" : 3991
+               "LN" : 3999
             },
             {
                "author" : "Akaece",
@@ -27285,22 +27530,22 @@
                               "hypnosis/mind control"
                            ],
                            "raw" : "[][;hypnosis/mind control;]",
-                           "LN" : 4014
+                           "LN" : 4022
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://mcstories.com/RehabilitationAkaece/RehabilitationAkaece.html",
                            "raw" : "https://mcstories.com/RehabilitationAkaece/RehabilitationAkaece.html",
-                           "LN" : 4015
+                           "LN" : 4023
                         }
                      ],
                      "raw" : "Rehabilitation",
-                     "LN" : 4013
+                     "LN" : 4021
                   }
                ],
                "raw" : "Akaece",
-               "LN" : 4011
+               "LN" : 4019
             },
             {
                "author" : "VanillaTin",
@@ -27332,18 +27577,18 @@
                               "impregnation"
                            ],
                            "raw" : "[;slug; ;insect;][;sex; ;romance/love; ;fantasy; ;medieval; ;comfy; ;impregnation;]",
-                           "LN" : 4022
+                           "LN" : 4030
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SdGgScF3",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SdGgScF3",
-                           "LN" : 4023
+                           "LN" : 4031
                         }
                      ],
                      "raw" : "Slime and Steel",
-                     "LN" : 4021
+                     "LN" : 4029
                   },
                   {
                      "title" : "In the Bear's Den",
@@ -27366,18 +27611,18 @@
                               "shitpost"
                            ],
                            "raw" : "[;bear;][;femdom; ;historical; ;soviet; ;shitpost;]",
-                           "LN" : 4026
+                           "LN" : 4034
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eV0EKcXq",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eV0EKcXq",
-                           "LN" : 4027
+                           "LN" : 4035
                         }
                      ],
                      "raw" : "In the Bear's Den",
-                     "LN" : 4025
+                     "LN" : 4033
                   },
                   {
                      "title" : "The Florica",
@@ -27387,18 +27632,18 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4030
+                           "LN" : 4038
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uyhxrCJ8",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uyhxrCJ8",
-                           "LN" : 4031
+                           "LN" : 4039
                         }
                      ],
                      "raw" : "The Florica",
-                     "LN" : 4029
+                     "LN" : 4037
                   },
                   {
                      "title" : "Ride in the Drakwald",
@@ -27408,24 +27653,24 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4034
+                           "LN" : 4042
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yjyyee1g",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/yjyyee1g",
-                           "LN" : 4035
+                           "LN" : 4043
                         }
                      ],
                      "title_attribute" : "COMPLETE",
                      "raw" : "Ride in the Drakwald (COMPLETE)",
-                     "LN" : 4033
+                     "LN" : 4041
                   }
                ],
                "author_attribute" : "Vani11aS33d",
                "raw" : "VanillaTin (Vani11aS33d)",
-               "LN" : 4019
+               "LN" : 4027
             },
             {
                "author" : "meklab",
@@ -27471,22 +27716,22 @@
                               "~"
                            ],
                            "raw" : "[;canine; ;wolf; ;worgen; ;larger anthro; ;fox; ;vulpera; ;smaller anthro;][;sex; ;ER; ;World of Warcraft; ;size difference; ;oral; ;erotic brushing;]~",
-                           "LN" : 4042
+                           "LN" : 4050
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ziv3t7Q",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/8ziv3t7Q",
-                           "LN" : 4043
+                           "LN" : 4051
                         }
                      ],
                      "raw" : "Wolfox",
-                     "LN" : 4041
+                     "LN" : 4049
                   }
                ],
                "raw" : "meklab",
-               "LN" : 4039
+               "LN" : 4047
             },
             {
                "author" : "PHI_FI",
@@ -27511,18 +27756,18 @@
                               "~"
                            ],
                            "raw" : "[][;domination; ;new world order; ;femdom;]~",
-                           "LN" : 4050
+                           "LN" : 4058
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFyP1jQW",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sFyP1jQW",
-                           "LN" : 4051
+                           "LN" : 4059
                         }
                      ],
                      "raw" : "Call of the Waifur",
-                     "LN" : 4049
+                     "LN" : 4057
                   },
                   {
                      "title" : "Hannah the Red Panda",
@@ -27538,18 +27783,18 @@
                            ],
                            "general" : [],
                            "raw" : "[;bear; ;red panda;][]",
-                           "LN" : 4054
+                           "LN" : 4062
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AvR4M9JS",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/AvR4M9JS",
-                           "LN" : 4055
+                           "LN" : 4063
                         }
                      ],
                      "raw" : "Hannah the Red Panda",
-                     "LN" : 4053
+                     "LN" : 4061
                   },
                   {
                      "title" : "Heartbreak",
@@ -27576,18 +27821,18 @@
                               "~"
                            ],
                            "raw" : "[;canine; ;wolf;][;sex; ;m:rape; ;femdom;]~",
-                           "LN" : 4058
+                           "LN" : 4066
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A023WBPX",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/A023WBPX",
-                           "LN" : 4059
+                           "LN" : 4067
                         }
                      ],
                      "raw" : "Heartbreak",
-                     "LN" : 4057
+                     "LN" : 4065
                   },
                   {
                      "title" : "Hickitsune",
@@ -27597,22 +27842,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4062
+                           "LN" : 4070
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cb8Cx6Nv",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cb8Cx6Nv",
-                           "LN" : 4063
+                           "LN" : 4071
                         }
                      ],
                      "raw" : "Hickitsune",
-                     "LN" : 4061
+                     "LN" : 4069
                   }
                ],
                "raw" : "PHI_FI",
-               "LN" : 4047
+               "LN" : 4055
             },
             {
                "author" : "AWF",
@@ -27636,22 +27881,22 @@
                               "sex"
                            ],
                            "raw" : "[;Tempest the Dolphin; ;Dolphin;][;Sonic the Hedgehog; ;sex;]",
-                           "LN" : 4070
+                           "LN" : 4078
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://archiveofourown.org/works/23635330",
                            "raw" : "https://archiveofourown.org/works/23635330",
-                           "LN" : 4071
+                           "LN" : 4079
                         }
                      ],
                      "raw" : "Canonically Uncanon",
-                     "LN" : 4069
+                     "LN" : 4077
                   }
                ],
                "raw" : "AWF",
-               "LN" : 4067
+               "LN" : 4075
             },
             {
                "author" : "Umbra_Invicta",
@@ -27673,18 +27918,18 @@
                               "comforting"
                            ],
                            "raw" : "[;German shepherd;][;H/C; ;comforting;]",
-                           "LN" : 4078
+                           "LN" : 4086
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mpS9Eqrs",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mpS9Eqrs",
-                           "LN" : 4079
+                           "LN" : 4087
                         }
                      ],
                      "raw" : "Scarred",
-                     "LN" : 4077
+                     "LN" : 4085
                   },
                   {
                      "title" : "Isolated",
@@ -27699,18 +27944,18 @@
                               "~"
                            ],
                            "raw" : "[][]~",
-                           "LN" : 4082
+                           "LN" : 4090
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YFvFdEEv",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YFvFdEEv",
-                           "LN" : 4083
+                           "LN" : 4091
                         }
                      ],
                      "raw" : "Isolated",
-                     "LN" : 4081
+                     "LN" : 4089
                   },
                   {
                      "title" : "First Contact Procedures",
@@ -27735,22 +27980,22 @@
                               "~"
                            ],
                            "raw" : "[;alien; ;reptile; ;scalie;][;sci-fi;]~",
-                           "LN" : 4086
+                           "LN" : 4094
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hq4UTdED",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Hq4UTdED",
-                           "LN" : 4087
+                           "LN" : 4095
                         }
                      ],
                      "raw" : "First Contact Procedures",
-                     "LN" : 4085
+                     "LN" : 4093
                   }
                ],
                "raw" : "Umbra_Invicta",
-               "LN" : 4075
+               "LN" : 4083
             },
             {
                "author" : "Bockwood",
@@ -27768,18 +28013,18 @@
                               "~"
                            ],
                            "raw" : "[][]~",
-                           "LN" : 4094
+                           "LN" : 4102
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ARLaNAzD",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ARLaNAzD",
-                           "LN" : 4095
+                           "LN" : 4103
                         }
                      ],
                      "raw" : "The Town of Shady Rest",
-                     "LN" : 4093
+                     "LN" : 4101
                   },
                   {
                      "title" : "Boar-Bait",
@@ -27789,22 +28034,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4098
+                           "LN" : 4106
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3DG1LBKG",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/3DG1LBKG",
-                           "LN" : 4099
+                           "LN" : 4107
                         }
                      ],
                      "raw" : "Boar-Bait",
-                     "LN" : 4097
+                     "LN" : 4105
                   }
                ],
                "raw" : "Bockwood",
-               "LN" : 4091
+               "LN" : 4099
             },
             {
                "author" : "Cobalt Blue Sphere",
@@ -27840,29 +28085,29 @@
                               "military"
                            ],
                            "raw" : "[;worgen; ;canine; ;wolf;][;fantasy; ;comfy; ;World of Warcraft; ;sex; ;long story; ;violence; ;military;]",
-                           "LN" : 4106
+                           "LN" : 4114
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.fanfiction.net/s/13324067/1/Garrison-Duty",
                            "raw" : "https://www.fanfiction.net/s/13324067/1/Garrison-Duty",
-                           "LN" : 4107
+                           "LN" : 4115
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "The rank and file have feelings too, even if they aren't destined for the spotlight. Most would consider Lunarfall Garrison the last place for such things to be explored, particularly after the expedition's disastrous first steps, but tense times and harsh places are sometimes the best proving ground for a lasting bond.",
                            "raw" : "The rank and file have feelings too, even if they aren't destined for the spotlight. Most would consider Lunarfall Garrison the last place for such things to be explored, particularly after the expedition's disastrous first steps, but tense times and harsh places are sometimes the best proving ground for a lasting bond.",
-                           "LN" : 4108
+                           "LN" : 4116
                         }
                      ],
                      "raw" : "Garrison-Duty",
-                     "LN" : 4105
+                     "LN" : 4113
                   }
                ],
                "raw" : "Cobalt Blue Sphere",
-               "LN" : 4103
+               "LN" : 4111
             },
             {
                "author" : "CephalonLewd",
@@ -27890,22 +28135,22 @@
                               "sex"
                            ],
                            "raw" : "[;scalie; ;Torque; ;viper; ;snake;][;Xcom; ;sex;]",
-                           "LN" : 4115
+                           "LN" : 4123
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://archiveofourown.org/works/24274066",
                            "raw" : "https://archiveofourown.org/works/24274066",
-                           "LN" : 4116
+                           "LN" : 4124
                         }
                      ],
                      "raw" : "Coiled with Torque",
-                     "LN" : 4114
+                     "LN" : 4122
                   }
                ],
                "raw" : "CephalonLewd",
-               "LN" : 4112
+               "LN" : 4120
             },
             {
                "author" : "HierophantHerp",
@@ -27918,7 +28163,7 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4123
+                           "LN" : 4131
                         }
                      ],
                      "URLS" : [
@@ -27926,21 +28171,21 @@
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CefTXmK6",
                            "url_attribute" : "Part 1",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/CefTXmK6 (Part 1)",
-                           "LN" : 4124
+                           "LN" : 4132
                         },
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fnieMmjh",
                            "url_attribute" : "Part 2",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fnieMmjh (Part 2)",
-                           "LN" : 4125
+                           "LN" : 4133
                         }
                      ],
                      "raw" : "Heart of the Shark",
-                     "LN" : 4122
+                     "LN" : 4130
                   }
                ],
                "raw" : "HierophantHerp",
-               "LN" : 4120
+               "LN" : 4128
             },
             {
                "author" : "InvisanonReborn",
@@ -27953,18 +28198,18 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4132
+                           "LN" : 4140
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b9gnmMy5",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/b9gnmMy5",
-                           "LN" : 4133
+                           "LN" : 4141
                         }
                      ],
                      "raw" : "Carter's Streets - Revised Edition",
-                     "LN" : 4131
+                     "LN" : 4139
                   },
                   {
                      "title" : "Apart",
@@ -27974,22 +28219,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4136
+                           "LN" : 4144
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iKZHFXC",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4iKZHFXC",
-                           "LN" : 4137
+                           "LN" : 4145
                         }
                      ],
                      "raw" : "Apart",
-                     "LN" : 4135
+                     "LN" : 4143
                   }
                ],
                "raw" : "InvisanonReborn",
-               "LN" : 4129
+               "LN" : 4137
             },
             {
                "author" : "Boboftheross",
@@ -28015,22 +28260,22 @@
                               "~"
                            ],
                            "raw" : "[;rodent; ;skaven;][;Warhammer Fantasy;]~",
-                           "LN" : 4144
+                           "LN" : 4152
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bcFubhRa",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bcFubhRa",
-                           "LN" : 4145
+                           "LN" : 4153
                         }
                      ],
                      "raw" : "The Thirteenth's Chosen",
-                     "LN" : 4143
+                     "LN" : 4151
                   }
                ],
                "raw" : "Boboftheross",
-               "LN" : 4141
+               "LN" : 4149
             },
             {
                "author" : "Ashtrek / KrautDyke",
@@ -28062,29 +28307,29 @@
                               "~"
                            ],
                            "raw" : "[;fox;][;femdom; ;military; ;verbal abuse/insults; ;wrestling; ;lima syndrome;]~",
-                           "LN" : 4152
+                           "LN" : 4160
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/1662556",
                            "raw" : "https://www.sofurry.com/view/1662556",
-                           "LN" : 4153
+                           "LN" : 4161
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "two jaded veterans from opposite sides of the North American conflict of 2008 find out they have more in common than they\u00e2\u0080\u0099d ever thought, and learn that after the rest of the world has abandoned them, the only thing they truly have left is each other.",
                            "raw" : "two jaded veterans from opposite sides of the North American conflict of 2008 find out they have more in common than they\u00e2\u0080\u0099d ever thought, and learn that after the rest of the world has abandoned them, the only thing they truly have left is each other.",
-                           "LN" : 4154
+                           "LN" : 4162
                         }
                      ],
                      "raw" : "Fleabag & FANG",
-                     "LN" : 4151
+                     "LN" : 4159
                   }
                ],
                "raw" : "Ashtrek / KrautDyke",
-               "LN" : 4149
+               "LN" : 4157
             },
             {
                "author" : "4largebucketsofcoom",
@@ -28097,22 +28342,22 @@
                            "anthro" : [],
                            "general" : [],
                            "raw" : "[][]",
-                           "LN" : 4161
+                           "LN" : 4169
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NsVLbHyX",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NsVLbHyX",
-                           "LN" : 4162
+                           "LN" : 4170
                         }
                      ],
                      "raw" : "HMOFA High",
-                     "LN" : 4160
+                     "LN" : 4168
                   }
                ],
                "raw" : "4largebucketsofcoom",
-               "LN" : 4158
+               "LN" : 4166
             },
             {
                "author" : "AzimuthFlirt",
@@ -28136,22 +28381,22 @@
                               "fantasy"
                            ],
                            "raw" : "[;mouse; ;size difference; ;smaller anthro;][;fantasy;]",
-                           "LN" : 4169
+                           "LN" : 4177
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ypneA1WK",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ypneA1WK",
-                           "LN" : 4170
+                           "LN" : 4178
                         }
                      ],
                      "raw" : "A Small Haul",
-                     "LN" : 4168
+                     "LN" : 4176
                   }
                ],
                "raw" : "AzimuthFlirt",
-               "LN" : 4166
+               "LN" : 4174
             },
             {
                "author" : "Anonymous",
@@ -28184,25 +28429,25 @@
                                     "short story"
                                  ],
                                  "raw" : "[;canine; ;wolf;][;non-smut; ;platonic; ;ghetto; ;feels; ;short story;]",
-                                 "LN" : 4178
+                                 "LN" : 4186
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZEaz6Sv",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZEaz6Sv",
-                                 "LN" : 4179
+                                 "LN" : 4187
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon, a teacher, decided to help one of his students who is having a hard time living on the streets and forms a platonic student/teacher bond with her.",
                                  "raw" : "Anon, a teacher, decided to help one of his students who is having a hard time living on the streets and forms a platonic student/teacher bond with her.",
-                                 "LN" : 4180
+                                 "LN" : 4188
                               }
                            ],
                            "raw" : "Problem Child",
-                           "LN" : 4177
+                           "LN" : 4185
                         },
                         {
                            "title" : "Lulu story",
@@ -28227,7 +28472,7 @@
                                     "non-smut"
                                  ],
                                  "raw" : "[;canine; ;dog;][;ghetto; ;feels; ;platonic; ;non-smut;]",
-                                 "LN" : 4183
+                                 "LN" : 4191
                               }
                            ],
                            "URLS" : [
@@ -28235,34 +28480,34 @@
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jG9ubmyv",
                                  "url_attribute" : "Part 1",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jG9ubmyv (Part 1)",
-                                 "LN" : 4184
+                                 "LN" : 4192
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZXJLTR7Z",
                                  "url_attribute" : "Part 2",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ZXJLTR7Z (Part 2)",
-                                 "LN" : 4185
+                                 "LN" : 4193
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/87ctsV1D",
                                  "url_attribute" : "Part 3",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/87ctsV1D (Part 3)",
-                                 "LN" : 4186
+                                 "LN" : 4194
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon, a high school dropout working a dead end job, adopts a miserable anthro off the streets as his daughter.",
                                  "raw" : "Anon, a high school dropout working a dead end job, adopts a miserable anthro off the streets as his daughter.",
-                                 "LN" : 4187
+                                 "LN" : 4195
                               }
                            ],
                            "raw" : "Lulu story",
-                           "LN" : 4182
+                           "LN" : 4190
                         }
                      ],
                      "raw" : "Lulu Universe",
-                     "LN" : 4176
+                     "LN" : 4184
                   },
                   {
                      "series" : "Thicc Christmas Felines",
@@ -28304,25 +28549,25 @@
                                     "Christmas"
                                  ],
                                  "raw" : "[;tiger; ;feline; ;thicc; ;large breast;][;established relationship; ;comfy; ;vaginal fingering; ;vaginal; ;love/romance; ;breast sucking; ;creampie; ;very short story; ;Christmas;]",
-                                 "LN" : 4191
+                                 "LN" : 4199
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KLH21SGV",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KLH21SGV",
-                                 "LN" : 4192
+                                 "LN" : 4200
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon makes love to his wife during the holiday season. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1467/35/1467351055396.jpg.",
                                  "raw" : "Anon makes love to his wife during the holiday season. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1467/35/1467351055396.jpg.",
-                                 "LN" : 4193
+                                 "LN" : 4201
                               }
                            ],
                            "raw" : "CRIMBUS TIME BUT LATE BUT OKAY",
-                           "LN" : 4190
+                           "LN" : 4198
                         },
                         {
                            "title" : "WOMEN AND GETTING READY FOR THINGS AMIRITE",
@@ -28357,29 +28602,29 @@
                                     "Christmas"
                                  ],
                                  "raw" : "[;cougar; ;feline; ;thicc; ;large breast; ;older anthro;][;short story; ;breast fondling; ;vaginal; ;creampie; ;established relationship; ;Christmas;]",
-                                 "LN" : 4196
+                                 "LN" : 4204
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4GMcMcdw",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4GMcMcdw",
-                                 "LN" : 4197
+                                 "LN" : 4205
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "A man makes love to a 53 year old cougar. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1482/09/1482090330330.jpg.",
                                  "raw" : "A man makes love to a 53 year old cougar. Inspired by http://s2.desu-usergeneratedcontent.xyz/trash/image/1482/09/1482090330330.jpg.",
-                                 "LN" : 4198
+                                 "LN" : 4206
                               }
                            ],
                            "raw" : "WOMEN AND GETTING READY FOR THINGS AMIRITE",
-                           "LN" : 4195
+                           "LN" : 4203
                         }
                      ],
                      "raw" : "Thicc Christmas Felines",
-                     "LN" : 4189
+                     "LN" : 4197
                   },
                   {
                      "series" : "OTHER",
@@ -28431,18 +28676,18 @@
                                     "f:heat"
                                  ],
                                  "raw" : "[;otter; ;Selonian; ;lion; ;Trianii;][;femdom; ;f/f/m; ;size difference; ;Star Wars; ;larger female; ;muscular female; ;breast sucking; ;oral; ;sex; ;vaginal; ;m:dubcon; ;squirting; ;smothering; ;f:heat;]",
-                                 "LN" : 4202
+                                 "LN" : 4210
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SJhHv22C",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SJhHv22C",
-                                 "LN" : 4203
+                                 "LN" : 4211
                               }
                            ],
                            "raw" : "Catch of the Day",
-                           "LN" : 4201
+                           "LN" : 4209
                         },
                         {
                            "title" : "The Knight and the Rabbits",
@@ -28452,18 +28697,18 @@
                                  "anthro" : [],
                                  "general" : [],
                                  "raw" : "[][]",
-                                 "LN" : 4206
+                                 "LN" : 4214
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzFs3w1Z",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzFs3w1Z",
-                                 "LN" : 4207
+                                 "LN" : 4215
                               }
                            ],
                            "raw" : "The Knight and the Rabbits",
-                           "LN" : 4205
+                           "LN" : 4213
                         },
                         {
                            "title" : "In the Heat of the Crimson Queen",
@@ -28483,18 +28728,18 @@
                                     "~"
                                  ],
                                  "raw" : "[;fox; ;childhood friend;][]~",
-                                 "LN" : 4210
+                                 "LN" : 4218
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fD40E9c8",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fD40E9c8",
-                                 "LN" : 4211
+                                 "LN" : 4219
                               }
                            ],
                            "raw" : "In the Heat of the Crimson Queen",
-                           "LN" : 4209
+                           "LN" : 4217
                         },
                         {
                            "title" : "Late Night Mischief",
@@ -28527,25 +28772,25 @@
                                     "love/romance"
                                  ],
                                  "raw" : "[;shark; ;lesbian;][;comfy; ;friends; ;confession of feelings; ;breast sucking; ;cuddling; ;sex; ;breakup comfort; ;love/romance;]",
-                                 "LN" : 4214
+                                 "LN" : 4222
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k92zjehX",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/k92zjehX",
-                                 "LN" : 4215
+                                 "LN" : 4223
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon cheers up his lesbian friend after a rough break up.",
                                  "raw" : "Anon cheers up his lesbian friend after a rough break up.",
-                                 "LN" : 4216
+                                 "LN" : 4224
                               }
                            ],
                            "raw" : "Late Night Mischief",
-                           "LN" : 4213
+                           "LN" : 4221
                         },
                         {
                            "title" : "Hail to the King",
@@ -28568,18 +28813,18 @@
                                     "sex"
                                  ],
                                  "raw" : "[;Greenland shark; ;shark;][;established relationship; ;slice of life; ;sex;]",
-                                 "LN" : 4219
+                                 "LN" : 4227
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sUJPcPtJ",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/sUJPcPtJ",
-                                 "LN" : 4220
+                                 "LN" : 4228
                               }
                            ],
                            "raw" : "Hail to the King",
-                           "LN" : 4218
+                           "LN" : 4226
                         },
                         {
                            "title" : "Hyena-chan",
@@ -28606,18 +28851,18 @@
                                     "high school"
                                  ],
                                  "raw" : "[;yeen; ;hyena;][;comfy; ;confession of feelings; ;prom; ;short story; ;high school;]",
-                                 "LN" : 4223
+                                 "LN" : 4231
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e4RzEg2b",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/e4RzEg2b",
-                                 "LN" : 4224
+                                 "LN" : 4232
                               }
                            ],
                            "raw" : "Hyena-chan",
-                           "LN" : 4222
+                           "LN" : 4230
                         },
                         {
                            "title" : "Give Up, Give In",
@@ -28627,18 +28872,18 @@
                                  "anthro" : [],
                                  "general" : [],
                                  "raw" : "[][]",
-                                 "LN" : 4227
+                                 "LN" : 4235
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NEeyE23X",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NEeyE23X",
-                                 "LN" : 4228
+                                 "LN" : 4236
                               }
                            ],
                            "raw" : "Give Up, Give In",
-                           "LN" : 4226
+                           "LN" : 4234
                         },
                         {
                            "title" : "Roomies",
@@ -28661,18 +28906,18 @@
                                     "sex"
                                  ],
                                  "raw" : "[;raccoon;][;comfy; ;roommates; ;confession of feelings; ;sex;]",
-                                 "LN" : 4231
+                                 "LN" : 4239
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qEFkUs0P",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/qEFkUs0P",
-                                 "LN" : 4232
+                                 "LN" : 4240
                               }
                            ],
                            "raw" : "Roomies",
-                           "LN" : 4230
+                           "LN" : 4238
                         },
                         {
                            "title" : "Mary's First Day",
@@ -28686,18 +28931,18 @@
                                  ],
                                  "general" : [],
                                  "raw" : "[;canine;][]",
-                                 "LN" : 4235
+                                 "LN" : 4243
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xEQRiGzC",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/xEQRiGzC",
-                                 "LN" : 4236
+                                 "LN" : 4244
                               }
                            ],
                            "raw" : "Mary's First Day",
-                           "LN" : 4234
+                           "LN" : 4242
                         },
                         {
                            "title" : "Mistakes",
@@ -28707,18 +28952,18 @@
                                  "anthro" : [],
                                  "general" : [],
                                  "raw" : "[][]",
-                                 "LN" : 4239
+                                 "LN" : 4247
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QdNXQJ5D",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/QdNXQJ5D",
-                                 "LN" : 4240
+                                 "LN" : 4248
                               }
                            ],
                            "raw" : "Mistakes",
-                           "LN" : 4238
+                           "LN" : 4246
                         },
                         {
                            "title" : "The Forest Gypsy",
@@ -28749,25 +28994,25 @@
                                     "femdom"
                                  ],
                                  "raw" : "[;goat;][;fantasy; ;vaginal; ;handjob; ;impregnation; ;creampie; ;breast sucking; ;slight femdom; ;femdom;]",
-                                 "LN" : 4243
+                                 "LN" : 4251
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JGR4LKBW",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/JGR4LKBW",
-                                 "LN" : 4244
+                                 "LN" : 4252
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "A boy from a prudish village stumbles upon a caravan of anthro goats, or goat \"devils\" according to his elders, and one of them teaches him how to live deliciously.",
                                  "raw" : "A boy from a prudish village stumbles upon a caravan of anthro goats, or goat \"devils\" according to his elders, and one of them teaches him how to live deliciously.",
-                                 "LN" : 4245
+                                 "LN" : 4253
                               }
                            ],
                            "raw" : "The Forest Gypsy",
-                           "LN" : 4242
+                           "LN" : 4250
                         },
                         {
                            "title" : "Stuck",
@@ -28790,25 +29035,25 @@
                                     "creampie"
                                  ],
                                  "raw" : "[;fox;][;f:cucked; ;short story; ;sex; ;creampie;]",
-                                 "LN" : 4248
+                                 "LN" : 4256
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2CzSpEAw",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2CzSpEAw",
-                                 "LN" : 4249
+                                 "LN" : 4257
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon gets blackmaild by his vixen boss.",
                                  "raw" : "Anon gets blackmaild by his vixen boss.",
-                                 "LN" : 4250
+                                 "LN" : 4258
                               }
                            ],
                            "raw" : "Stuck",
-                           "LN" : 4247
+                           "LN" : 4255
                         },
                         {
                            "title" : "Melting Point",
@@ -28833,25 +29078,25 @@
                                     "~"
                                  ],
                                  "raw" : "[;canine; ;dalmatian; ;dog;][;heat?;]~",
-                                 "LN" : 4253
+                                 "LN" : 4261
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/83J5Eicd",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/83J5Eicd",
-                                 "LN" : 4254
+                                 "LN" : 4262
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon the firefighter heads to the showers, but to his surprise his dalmation coworker wants to join him.",
                                  "raw" : "Anon the firefighter heads to the showers, but to his surprise his dalmation coworker wants to join him.",
-                                 "LN" : 4255
+                                 "LN" : 4263
                               }
                            ],
                            "raw" : "Melting Point",
-                           "LN" : 4252
+                           "LN" : 4260
                         },
                         {
                            "title" : "Your average date with a hydra",
@@ -28888,25 +29133,25 @@
                                     "short story"
                                  ],
                                  "raw" : "[;scalie; ;hydra; ;larger anthro; ;large breast; ;F cup; ;thicc; ;monster;][;blowjob; ;m:rimming; ;cum swallowing; ;femdom; ;short story;]",
-                                 "LN" : 4258
+                                 "LN" : 4266
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1Uk9kKR1",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1Uk9kKR1",
-                                 "LN" : 4259
+                                 "LN" : 4267
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon scores a hot date with a multiple headed hydra anthro and now they are going back to his place to perform acts of unspeakable lewdness.",
                                  "raw" : "Anon scores a hot date with a multiple headed hydra anthro and now they are going back to his place to perform acts of unspeakable lewdness.",
-                                 "LN" : 4260
+                                 "LN" : 4268
                               }
                            ],
                            "raw" : "Your average date with a hydra",
-                           "LN" : 4257
+                           "LN" : 4265
                         },
                         {
                            "title" : "Studies in Anthro-pology",
@@ -28923,18 +29168,18 @@
                                     "comfy"
                                  ],
                                  "raw" : "[;feline;][;comfy;]",
-                                 "LN" : 4263
+                                 "LN" : 4271
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzpY7qLc",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/GzpY7qLc",
-                                 "LN" : 4264
+                                 "LN" : 4272
                               }
                            ],
                            "raw" : "Studies in Anthro-pology",
-                           "LN" : 4262
+                           "LN" : 4270
                         },
                         {
                            "title" : "Ruff Ryders",
@@ -28953,18 +29198,18 @@
                                     "sad/tragic"
                                  ],
                                  "raw" : "[;canine; ;dog;][;sad/tragic;]",
-                                 "LN" : 4267
+                                 "LN" : 4275
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/q6SjT2sG",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/q6SjT2sG",
-                                 "LN" : 4268
+                                 "LN" : 4276
                               }
                            ],
                            "raw" : "Ruff Ryders",
-                           "LN" : 4266
+                           "LN" : 4274
                         },
                         {
                            "title" : "Yes You May",
@@ -28985,18 +29230,18 @@
                                     "blowjob"
                                  ],
                                  "raw" : "[;red panda; ;bear;][;comfy; ;blowjob;]",
-                                 "LN" : 4271
+                                 "LN" : 4279
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WJxBkBeN",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/WJxBkBeN",
-                                 "LN" : 4272
+                                 "LN" : 4280
                               }
                            ],
                            "raw" : "Yes You May",
-                           "LN" : 4270
+                           "LN" : 4278
                         },
                         {
                            "title" : "Red panda story",
@@ -29019,18 +29264,18 @@
                                     "established relationship"
                                  ],
                                  "raw" : "[;red panda; ;bear;][;comfy; ;sex; ;established relationship;]",
-                                 "LN" : 4275
+                                 "LN" : 4283
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SwChxEbA",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/SwChxEbA",
-                                 "LN" : 4276
+                                 "LN" : 4284
                               }
                            ],
                            "raw" : "Red panda story",
-                           "LN" : 4274
+                           "LN" : 4282
                         },
                         {
                            "title" : "Wendigo story",
@@ -29073,25 +29318,25 @@
                                     "fling?"
                                  ],
                                  "raw" : "[;monster; ;wendigo; ;cervine; ;large breast;][;short story; ;69; ;blowjob; ;cunnilingus; ;boobjob; ;anal; ;vaginal; ;creampie; ;french kissing; ;leaving it In; ;fling?;]",
-                                 "LN" : 4279
+                                 "LN" : 4287
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uY3k4aiz",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uY3k4aiz",
-                                 "LN" : 4280
+                                 "LN" : 4288
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon gets lost and bones a cryptic.",
                                  "raw" : "Anon gets lost and bones a cryptic.",
-                                 "LN" : 4281
+                                 "LN" : 4289
                               }
                            ],
                            "raw" : "Wendigo story",
-                           "LN" : 4278
+                           "LN" : 4286
                         },
                         {
                            "title" : "A Night with Sharkgirls.",
@@ -29130,25 +29375,25 @@
                                     "voyeurism"
                                  ],
                                  "raw" : "[;shark; ;multiple;][;short story; ;undressing; ;breast sucking; ;cunnilingus; ;cyberpunk; ;rimming; ;blowjob; ;sleeping together; ;threesome?; ;cum swallowing; ;voyeurism;]",
-                                 "LN" : 4284
+                                 "LN" : 4292
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9gjEJE1E",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/9gjEJE1E",
-                                 "LN" : 4285
+                                 "LN" : 4293
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon meets two shark girls mods at a bar: one is small and petite and the other large and muscular. They go somewhere private and give new meaning to the phrase \"man eating shark\".",
                                  "raw" : "Anon meets two shark girls mods at a bar: one is small and petite and the other large and muscular. They go somewhere private and give new meaning to the phrase \"man eating shark\".",
-                                 "LN" : 4286
+                                 "LN" : 4294
                               }
                            ],
                            "raw" : "A Night with Sharkgirls.",
-                           "LN" : 4283
+                           "LN" : 4291
                         },
                         {
                            "title" : "Nightwing x Orca",
@@ -29169,18 +29414,18 @@
                                     "love/romance"
                                  ],
                                  "raw" : "[;orca;][;short story; ;non-smut; ;love/romance;]",
-                                 "LN" : 4289
+                                 "LN" : 4297
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/V1T1r7i6",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/V1T1r7i6",
-                                 "LN" : 4290
+                                 "LN" : 4298
                               }
                            ],
                            "raw" : "Nightwing x Orca",
-                           "LN" : 4288
+                           "LN" : 4296
                         },
                         {
                            "title" : "Of aliens and competition",
@@ -29211,25 +29456,25 @@
                                     "love/romance?"
                                  ],
                                  "raw" : "[;rabbit; ;smaller anthro;][;very short story; ;non-consensual kissing; ;femdom; ;blowjob; ;facesitting; ;vaginal; ;love/romance?;]",
-                                 "LN" : 4293
+                                 "LN" : 4301
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1em8bzKG",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/1em8bzKG",
-                                 "LN" : 4294
+                                 "LN" : 4302
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "A year since the world fell to female alien anthros, anon is condemned to participate in a \"gladitorial mating game\" against a female rabbit for his crime of fraternizing with a female human (his wife).",
                                  "raw" : "A year since the world fell to female alien anthros, anon is condemned to participate in a \"gladitorial mating game\" against a female rabbit for his crime of fraternizing with a female human (his wife).",
-                                 "LN" : 4295
+                                 "LN" : 4303
                               }
                            ],
                            "raw" : "Of aliens and competition",
-                           "LN" : 4292
+                           "LN" : 4300
                         },
                         {
                            "title" : "Hornet's Nest",
@@ -29262,25 +29507,25 @@
                                     "non-smut"
                                  ],
                                  "raw" : "[;insect; ;wasp;][;very short story; ;massages; ;cuddling; ;established relationship; ;love/romance; ;comfy; ;slice of life; ;non-smut;]",
-                                 "LN" : 4298
+                                 "LN" : 4306
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bkMUtFcr",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bkMUtFcr",
-                                 "LN" : 4299
+                                 "LN" : 4307
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon's wasp fiance helps ease his stress after a long they at work.",
                                  "raw" : "Anon's wasp fiance helps ease his stress after a long they at work.",
-                                 "LN" : 4300
+                                 "LN" : 4308
                               }
                            ],
                            "raw" : "Hornet's Nest",
-                           "LN" : 4297
+                           "LN" : 4305
                         },
                         {
                            "title" : "Summoning a Date",
@@ -29303,25 +29548,25 @@
                                     "courting"
                                  ],
                                  "raw" : "[;goat; ;demon;][;very short story; ;non-smut; ;courting;]",
-                                 "LN" : 4303
+                                 "LN" : 4311
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YDCJJHjg",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/YDCJJHjg",
-                                 "LN" : 4304
+                                 "LN" : 4312
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon summons a date.",
                                  "raw" : "Anon summons a date.",
-                                 "LN" : 4305
+                                 "LN" : 4313
                               }
                            ],
                            "raw" : "Summoning a Date",
-                           "LN" : 4302
+                           "LN" : 4310
                         },
                         {
                            "title" : "Fenneko gets the ape dick",
@@ -29340,18 +29585,18 @@
                                     "sex"
                                  ],
                                  "raw" : "[;fox;][;fling?; ;sex;]",
-                                 "LN" : 4308
+                                 "LN" : 4316
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zRz2X0Uj",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/zRz2X0Uj",
-                                 "LN" : 4309
+                                 "LN" : 4317
                               }
                            ],
                            "raw" : "Fenneko gets the ape dick",
-                           "LN" : 4307
+                           "LN" : 4315
                         },
                         {
                            "title" : "The Way",
@@ -29367,18 +29612,18 @@
                                     "very short story"
                                  ],
                                  "raw" : "[][;shitpost; ;very short story;]",
-                                 "LN" : 4312
+                                 "LN" : 4320
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mEuWwar9",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/mEuWwar9",
-                                 "LN" : 4313
+                                 "LN" : 4321
                               }
                            ],
                            "raw" : "The Way",
-                           "LN" : 4311
+                           "LN" : 4319
                         },
                         {
                            "title" : "Space Lizard",
@@ -29397,18 +29642,18 @@
                                     "sad/tragic"
                                  ],
                                  "raw" : "[;lizard; ;scalie;][;sad/tragic;]",
-                                 "LN" : 4316
+                                 "LN" : 4324
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gYj5ASWP",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/gYj5ASWP",
-                                 "LN" : 4317
+                                 "LN" : 4325
                               }
                            ],
                            "raw" : "Space Lizard",
-                           "LN" : 4315
+                           "LN" : 4323
                         },
                         {
                            "title" : "This must be what hillary clinton feels right now",
@@ -29424,7 +29669,7 @@
                                     "femanon"
                                  ],
                                  "raw" : "[][;f:cucked; ;femanon;]",
-                                 "LN" : 4320
+                                 "LN" : 4328
                               }
                            ],
                            "URLS" : [
@@ -29432,17 +29677,17 @@
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RU9NWDkj",
                                  "url_attribute" : "Part 1",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/RU9NWDkj (Part 1)",
-                                 "LN" : 4321
+                                 "LN" : 4329
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4HCQpKjL",
                                  "url_attribute" : "Part 2",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/4HCQpKjL (Part 2)",
-                                 "LN" : 4322
+                                 "LN" : 4330
                               }
                            ],
                            "raw" : "This must be what hillary clinton feels right now",
-                           "LN" : 4319
+                           "LN" : 4327
                         },
                         {
                            "title" : "Coco and Bailey",
@@ -29466,7 +29711,7 @@
                                     "~"
                                  ],
                                  "raw" : "[;pet; ;canine; ;pet; ;feline;][]~",
-                                 "LN" : 4325
+                                 "LN" : 4333
                               }
                            ],
                            "URLS" : [
@@ -29474,67 +29719,67 @@
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tc8VxqSW",
                                  "url_attribute" : "Chapter 0",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Tc8VxqSW (Chapter 0)",
-                                 "LN" : 4326
+                                 "LN" : 4334
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HXcPmseG",
                                  "url_attribute" : "Chapter 1",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/HXcPmseG (Chapter 1)",
-                                 "LN" : 4327
+                                 "LN" : 4335
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cp6f9r4u",
                                  "url_attribute" : "Chapter 2",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Cp6f9r4u (Chapter 2)",
-                                 "LN" : 4328
+                                 "LN" : 4336
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5Dbkeqn7",
                                  "url_attribute" : "Chapter 3",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/5Dbkeqn7 (Chapter 3)",
-                                 "LN" : 4329
+                                 "LN" : 4337
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eeq1DSP8",
                                  "url_attribute" : "Chapter 4",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/eeq1DSP8 (Chapter 4)",
-                                 "LN" : 4330
+                                 "LN" : 4338
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ezsj2qLM",
                                  "url_attribute" : "Chapter 5",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/ezsj2qLM (Chapter 5)",
-                                 "LN" : 4331
+                                 "LN" : 4339
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/a8yb0wW9",
                                  "url_attribute" : "Chapter 6",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/a8yb0wW9 (Chapter 6)",
-                                 "LN" : 4332
+                                 "LN" : 4340
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dDs1mbyQ",
                                  "url_attribute" : "Chapter 6.5",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/dDs1mbyQ (Chapter 6.5)",
-                                 "LN" : 4333
+                                 "LN" : 4341
                               },
                               {
                                  "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZTCpVd8",
                                  "url_attribute" : "Chapter 7",
                                  "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/fZTCpVd8 (Chapter 7)",
-                                 "LN" : 4334
+                                 "LN" : 4342
                               }
                            ],
                            "raw" : "Coco and Bailey",
-                           "LN" : 4324
+                           "LN" : 4332
                         }
                      ],
                      "raw" : "OTHER",
-                     "LN" : 4200
+                     "LN" : 4208
                   }
                ],
                "raw" : "Anonymous",
-               "LN" : 4174
+               "LN" : 4182
             }
          ],
          "raw" : "Story Catalogue",
@@ -29575,22 +29820,22 @@
                               "m:dubcon"
                            ],
                            "raw" : "[;ratling; ;rodent; ;rat;][;contains comfy; ;sex; ;femdom; ;short story; ;Warhammer 40k; ;m:dubcon;]",
-                           "LN" : 4342
+                           "LN" : 4350
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2qZdhrsC",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/2qZdhrsC",
-                           "LN" : 4343
+                           "LN" : 4351
                         }
                      ],
                      "raw" : "Small Medium at Large",
-                     "LN" : 4341
+                     "LN" : 4349
                   }
                ],
                "raw" : "Smutomancer",
-               "LN" : 4339
+               "LN" : 4347
             },
             {
                "author" : "SMOLKOBOLD",
@@ -29630,22 +29875,22 @@
                               "biting"
                            ],
                            "raw" : "[;rodent; ;smaller anthro;][;contains comfy; ;short story; ;fantasy; ;medieval; ;handjob; ;m:rape; ;femdom; ;spooning; ;sleeping embrace; ;biting;]",
-                           "LN" : 4350
+                           "LN" : 4358
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jkMxE1y0",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/jkMxE1y0",
-                           "LN" : 4351
+                           "LN" : 4359
                         }
                      ],
                      "raw" : "Friends With Vermin",
-                     "LN" : 4349
+                     "LN" : 4357
                   }
                ],
                "raw" : "SMOLKOBOLD",
-               "LN" : 4347
+               "LN" : 4355
             },
             {
                "author" : "mersenniusprime",
@@ -29687,18 +29932,18 @@
                               "~"
                            ],
                            "raw" : "[;yeen; ;hyena; ;gnoll;][;contains comfy; ;sex; ;m:con <--> m:dubcon; ;m:dubcon; ;sodomy; ;vaginal; ;after sex embrace; ;cunnilingus;]~",
-                           "LN" : 4358
+                           "LN" : 4366
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uqGXVhdk",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/uqGXVhdk",
-                           "LN" : 4359
+                           "LN" : 4367
                         }
                      ],
                      "raw" : "Gnoll when to walk away, gnoll when to run",
-                     "LN" : 4357
+                     "LN" : 4365
                   },
                   {
                      "title" : "The End of the Hunt",
@@ -29723,22 +29968,22 @@
                               "love/romance?"
                            ],
                            "raw" : "[;tarrasque; ;cannot speak;][;comfy; ;femdom; ;sex; ;love/romance?;]",
-                           "LN" : 4362
+                           "LN" : 4370
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KVyEecwF",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/KVyEecwF",
-                           "LN" : 4363
+                           "LN" : 4371
                         }
                      ],
                      "raw" : "The End of the Hunt",
-                     "LN" : 4361
+                     "LN" : 4369
                   }
                ],
                "raw" : "mersenniusprime",
-               "LN" : 4355
+               "LN" : 4363
             },
             {
                "author" : "teether",
@@ -29772,18 +30017,18 @@
                               "role-reversal"
                            ],
                            "raw" : "[;yeen; ;hyena;][;really short story; ;dating; ;date; ;fist fight; ;high school; ;non-smut; ;role-reversal;]",
-                           "LN" : 4370
+                           "LN" : 4378
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/j4NWrvqX",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/j4NWrvqX",
-                           "LN" : 4371
+                           "LN" : 4379
                         }
                      ],
                      "raw" : "School Yard Tussle",
-                     "LN" : 4369
+                     "LN" : 4377
                   },
                   {
                      "title" : "Chloe\u00e2\u0080\u0099s Human",
@@ -29820,18 +30065,18 @@
                               "femdom"
                            ],
                            "raw" : "[;yeen; ;hyena;][;contains comfy; ;high school; ;non-smut; ;bullying; ;musk; ;love/romance; ;m:noncon; ;m:noncon --> m:con; ;short story; ;femdom;]",
-                           "LN" : 4374
+                           "LN" : 4382
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvN1hySZ",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/bvN1hySZ",
-                           "LN" : 4375
+                           "LN" : 4383
                         }
                      ],
                      "raw" : "Chloe\u00e2\u0080\u0099s Human",
-                     "LN" : 4373
+                     "LN" : 4381
                   },
                   {
                      "title" : "Chloe\u00e2\u0080\u0099s Family",
@@ -29862,23 +30107,23 @@
                               "femdom"
                            ],
                            "raw" : "[;yeen; ;hyena;][;contains comfy; ;high school; ;musk; ;role-reversal; ;short story; ;love/romance; ;femdom;]",
-                           "LN" : 4378
+                           "LN" : 4386
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DfD5Q5EB",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/DfD5Q5EB",
-                           "LN" : 4379
+                           "LN" : 4387
                         }
                      ],
                      "title_attribute" : "Sequel to Chloe's Human",
                      "raw" : "Chloe\u00e2\u0080\u0099s Family (Sequel to Chloe's Human)",
-                     "LN" : 4377
+                     "LN" : 4385
                   }
                ],
                "raw" : "teether",
-               "LN" : 4367
+               "LN" : 4375
             },
             {
                "author" : "Baron03",
@@ -29908,18 +30153,18 @@
                               "long story"
                            ],
                            "raw" : "[;canine; ;wolf; ;tribal;][;sex; ;childhood friends; ;coming of age; ;long story;]",
-                           "LN" : 4386
+                           "LN" : 4394
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/554042",
                            "raw" : "https://www.sofurry.com/view/554042",
-                           "LN" : 4387
+                           "LN" : 4395
                         }
                      ],
                      "raw" : "Among the Wolves",
-                     "LN" : 4385
+                     "LN" : 4393
                   },
                   {
                      "title" : "Crossing Stars",
@@ -29942,22 +30187,22 @@
                               "sci-fi"
                            ],
                            "raw" : "[;fox/wolf;][;post-apocalyptic; ;military; ;sex; ;sci-fi;]",
-                           "LN" : 4390
+                           "LN" : 4398
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/601634",
                            "raw" : "https://www.sofurry.com/view/601634",
-                           "LN" : 4391
+                           "LN" : 4399
                         }
                      ],
                      "raw" : "Crossing Stars",
-                     "LN" : 4389
+                     "LN" : 4397
                   }
                ],
                "raw" : "Baron03",
-               "LN" : 4383
+               "LN" : 4391
             },
             {
                "author" : "Fox_XD",
@@ -29987,7 +30232,7 @@
                               "femdom"
                            ],
                            "raw" : "[;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;sex; ;femdom;]",
-                           "LN" : 4398
+                           "LN" : 4406
                         }
                      ],
                      "URLS" : [
@@ -29995,33 +30240,33 @@
                            "url" : "https://www.furaffinity.net/view/22705814/",
                            "url_attribute" : "Part 1",
                            "raw" : "https://www.furaffinity.net/view/22705814/ (Part 1)",
-                           "LN" : 4399
+                           "LN" : 4407
                         },
                         {
                            "url" : "https://www.furaffinity.net/view/22706096/",
                            "url_attribute" : "Part 2",
                            "raw" : "https://www.furaffinity.net/view/22706096/ (Part 2)",
-                           "LN" : 4400
+                           "LN" : 4408
                         },
                         {
                            "url" : "https://www.furaffinity.net/view/22706328/",
                            "url_attribute" : "Part 3",
                            "raw" : "https://www.furaffinity.net/view/22706328/ (Part 3)",
-                           "LN" : 4401
+                           "LN" : 4409
                         },
                         {
                            "url" : "https://www.furaffinity.net/view/30877563/",
                            "url_attribute" : "part 4",
                            "raw" : "https://www.furaffinity.net/view/30877563/ (part 4)",
-                           "LN" : 4402
+                           "LN" : 4410
                         }
                      ],
                      "raw" : "Skial & Kater",
-                     "LN" : 4397
+                     "LN" : 4405
                   }
                ],
                "raw" : "Fox_XD",
-               "LN" : 4395
+               "LN" : 4403
             },
             {
                "author" : "Pofg_anon",
@@ -30059,29 +30304,29 @@
                               "cuddling"
                            ],
                            "raw" : "[;rodent; ;rat;][;pofg; ;love/romance; ;blowjob; ;cunnilingus; ;cum swallowing; ;vaginal fingering; ;creampie; ;short story; ;cuddling;]",
-                           "LN" : 4409
+                           "LN" : 4417
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X1LmJ8PC",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/X1LmJ8PC",
-                           "LN" : 4410
+                           "LN" : 4418
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "Anon becomes a pet to a rat girl and as time passes the young rodent starts to see Anon as much more than a domesticated companion.",
                            "raw" : "Anon becomes a pet to a rat girl and as time passes the young rodent starts to see Anon as much more than a domesticated companion.",
-                           "LN" : 4411
+                           "LN" : 4419
                         }
                      ],
                      "raw" : "Ratgirl request",
-                     "LN" : 4408
+                     "LN" : 4416
                   }
                ],
                "raw" : "Pofg_anon",
-               "LN" : 4406
+               "LN" : 4414
             },
             {
                "author" : "lakanookie",
@@ -30113,22 +30358,22 @@
                               "~"
                            ],
                            "raw" : "[;skaven; ;rodent;][;Warhammer Fantasy; ;medieval; ;fantasy; ;maledom;]~",
-                           "LN" : 4418
+                           "LN" : 4426
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://docs.google.com/document/d/1JAQU96Jp7kmx7618spkVPT6L4XAXtXZX12iFZO4kRQY/edit",
                            "raw" : "https://docs.google.com/document/d/1JAQU96Jp7kmx7618spkVPT6L4XAXtXZX12iFZO4kRQY/edit",
-                           "LN" : 4419
+                           "LN" : 4427
                         }
                      ],
                      "raw" : "Ashrin and Dirac",
-                     "LN" : 4417
+                     "LN" : 4425
                   }
                ],
                "raw" : "lakanookie",
-               "LN" : 4415
+               "LN" : 4423
             },
             {
                "author" : "Doctor Nowak",
@@ -30158,22 +30403,22 @@
                               "high school"
                            ],
                            "raw" : "[;canine;][;sex; ;vaginal; ;creampie; ;love/romance; ;doggystyle; ;high school;]",
-                           "LN" : 4426
+                           "LN" : 4434
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/4177",
                            "raw" : "https://www.sofurry.com/view/4177",
-                           "LN" : 4427
+                           "LN" : 4435
                         }
                      ],
                      "raw" : "Polaroid",
-                     "LN" : 4425
+                     "LN" : 4433
                   }
                ],
                "raw" : "Doctor Nowak",
-               "LN" : 4423
+               "LN" : 4431
             },
             {
                "author" : "MAL0_ANON",
@@ -30205,22 +30450,22 @@
                               "suicide"
                            ],
                            "raw" : "[;scp; ;Mal0;][;vaginal; ;oral; ;public; ;invisible girl; ;exhibitionalism; ;suicide;]",
-                           "LN" : 4434
+                           "LN" : 4442
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pz6kDhwA",
                            "raw" : "https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/Pz6kDhwA",
-                           "LN" : 4435
+                           "LN" : 4443
                         }
                      ],
                      "raw" : "Spectre",
-                     "LN" : 4433
+                     "LN" : 4441
                   }
                ],
                "raw" : "MAL0_ANON",
-               "LN" : 4431
+               "LN" : 4439
             },
             {
                "author" : "Robert Baird",
@@ -30256,29 +30501,29 @@
                               "short story"
                            ],
                            "raw" : "[;canine; ;Belgian tervuren; ;tomboy;][;comfy; ;sex; ;vaginal; ;creampie; ;high school; ;love/romance; ;short story;]",
-                           "LN" : 4442
+                           "LN" : 4450
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/843055/guest",
                            "raw" : "https://www.sofurry.com/view/843055/guest",
-                           "LN" : 4443
+                           "LN" : 4451
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "\"Terminally geeky\" Joel Silver has almost everything. Friends. Hobbies. A 486 with 16 megs of RAM. But now he's falling for a classmate, and there's just one problem: see, she's a dog...",
                            "raw" : "\"Terminally geeky\" Joel Silver has almost everything. Friends. Hobbies. A 486 with 16 megs of RAM. But now he's falling for a classmate, and there's just one problem: see, she's a dog...",
-                           "LN" : 4444
+                           "LN" : 4452
                         }
                      ],
                      "raw" : "The Odds",
-                     "LN" : 4441
+                     "LN" : 4449
                   }
                ],
                "raw" : "Robert Baird",
-               "LN" : 4439
+               "LN" : 4447
             },
             {
                "author" : "capthavoc123",
@@ -30310,29 +30555,29 @@
                               "sex"
                            ],
                            "raw" : "[;German shepard; ;canine; ;bully;][;creampie; ;love/romance; ;slight femdom; ;femdom; ;sex;]",
-                           "LN" : 4451
+                           "LN" : 4459
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://www.sofurry.com/view/643513",
                            "raw" : "https://www.sofurry.com/view/643513",
-                           "LN" : 4452
+                           "LN" : 4460
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "Kenneth is your typical nerdy human male, recently graduated from high school and ready to move on to college to prepare for the rest of his life. But, due to an unfortunate mix-up, he finds himself enrolled in a college for furs! No problem, right? A college is a college. But when an upperclassmen bully sets her sights on him as her next target for torment, he may find that his unconventional college won't do as well as he thought.",
                            "raw" : "Kenneth is your typical nerdy human male, recently graduated from high school and ready to move on to college to prepare for the rest of his life. But, due to an unfortunate mix-up, he finds himself enrolled in a college for furs! No problem, right? A college is a college. But when an upperclassmen bully sets her sights on him as her next target for torment, he may find that his unconventional college won't do as well as he thought.",
-                           "LN" : 4453
+                           "LN" : 4461
                         }
                      ],
                      "raw" : "Alpha Bitch",
-                     "LN" : 4450
+                     "LN" : 4458
                   }
                ],
                "raw" : "capthavoc123",
-               "LN" : 4448
+               "LN" : 4456
             },
             {
                "author" : "OneDirtyDog",
@@ -30372,7 +30617,7 @@
                               "slight drama"
                            ],
                            "raw" : "[;wolf; ;canine; ;tribal?;][;love/romance; ;sex; ;comfy; ;long story; ;marriage; ;offspring; ;creampie; ;impregnation; ;slight drama;]",
-                           "LN" : 4460
+                           "LN" : 4468
                         }
                      ],
                      "URLS" : [
@@ -30380,64 +30625,64 @@
                            "url" : "https://www.sofurry.com/view/1030805",
                            "url_attribute" : "prequel",
                            "raw" : "https://www.sofurry.com/view/1030805 (prequel)",
-                           "LN" : 4461
+                           "LN" : 4469
                         },
                         {
                            "url" : "https://www.sofurry.com/view/980957",
                            "url_attribute" : "Part 1",
                            "raw" : "https://www.sofurry.com/view/980957 (Part 1)",
-                           "LN" : 4462
+                           "LN" : 4470
                         },
                         {
                            "url" : "https://www.sofurry.com/view/984041",
                            "url_attribute" : "Part 2",
                            "raw" : "https://www.sofurry.com/view/984041 (Part 2)",
-                           "LN" : 4463
+                           "LN" : 4471
                         },
                         {
                            "url" : "https://www.sofurry.com/view/985950",
                            "url_attribute" : "Part 3",
                            "raw" : "https://www.sofurry.com/view/985950 (Part 3)",
-                           "LN" : 4464
+                           "LN" : 4472
                         },
                         {
                            "url" : "https://www.sofurry.com/view/988454",
                            "url_attribute" : "Part 4",
                            "raw" : "https://www.sofurry.com/view/988454 (Part 4)",
-                           "LN" : 4465
+                           "LN" : 4473
                         },
                         {
                            "url" : "https://www.sofurry.com/view/992230",
                            "url_attribute" : "Part 5",
                            "raw" : "https://www.sofurry.com/view/992230 (Part 5)",
-                           "LN" : 4466
+                           "LN" : 4474
                         },
                         {
                            "url" : "https://www.sofurry.com/view/998655",
                            "url_attribute" : "Part 6",
                            "raw" : "https://www.sofurry.com/view/998655 (Part 6)",
-                           "LN" : 4467
+                           "LN" : 4475
                         },
                         {
                            "url" : "https://www.sofurry.com/view/1011117",
                            "url_attribute" : "epilogue",
                            "raw" : "https://www.sofurry.com/view/1011117 (epilogue)",
-                           "LN" : 4468
+                           "LN" : 4476
                         }
                      ],
                      "DESCRIPTIONS" : [
                         {
                            "description" : "A young man follows some friends to a fur and skin tavern. Here, humans and wolven of the city meet, mingle and have sex. The man finds a wolfess who shows him a night he'll never forget. He had always wondered why the people here so willingly shared their city with this other species.",
                            "raw" : "A young man follows some friends to a fur and skin tavern. Here, humans and wolven of the city meet, mingle and have sex. The man finds a wolfess who shows him a night he'll never forget. He had always wondered why the people here so willingly shared their city with this other species.",
-                           "LN" : 4469
+                           "LN" : 4477
                         }
                      ],
                      "raw" : "Fur and Skin",
-                     "LN" : 4459
+                     "LN" : 4467
                   }
                ],
                "raw" : "OneDirtyDog",
-               "LN" : 4457
+               "LN" : 4465
             },
             {
                "author" : "Haremanon",
@@ -30465,22 +30710,22 @@
                               "short story"
                            ],
                            "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;nsfw; ;very; ;short story;]",
-                           "LN" : 4476
+                           "LN" : 4484
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/TG4ChLIb",
                            "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/TG4ChLIb",
-                           "LN" : 4477
+                           "LN" : 4485
                         }
                      ],
                      "raw" : "How Fang's Mom Figured it Out.",
-                     "LN" : 4475
+                     "LN" : 4483
                   }
                ],
                "raw" : "Haremanon",
-               "LN" : 4473
+               "LN" : 4481
             },
             {
                "author" : "Examanon",
@@ -30510,24 +30755,24 @@
                               "~"
                            ],
                            "raw" : "[;fang; ;Stella; ;dinosaur;][;Snoot Game; ;nsfw;]~",
-                           "LN" : 4484
+                           "LN" : 4492
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XLxxwQ4L",
                            "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XLxxwQ4L",
-                           "LN" : 4485
+                           "LN" : 4493
                         },
                         {
                            "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/yGxiBIzD",
                            "url_attribute" : "alt",
                            "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/yGxiBIzD (alt)",
-                           "LN" : 4486
+                           "LN" : 4494
                         }
                      ],
                      "raw" : "Bad Bitch Stella",
-                     "LN" : 4483
+                     "LN" : 4491
                   },
                   {
                      "title" : "Hanging Out Till The End",
@@ -30548,22 +30793,22 @@
                               "nsfw"
                            ],
                            "raw" : "[;Fem-Reed; ;dinosaur;][;Snoot Game; ;nsfw;]",
-                           "LN" : 4489
+                           "LN" : 4497
                         }
                      ],
                      "URLS" : [
                         {
                            "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ST521DjZ",
                            "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ST521DjZ",
-                           "LN" : 4490
+                           "LN" : 4498
                         }
                      ],
                      "raw" : "Hanging Out Till The End",
-                     "LN" : 4488
+                     "LN" : 4496
                   }
                ],
                "raw" : "Examanon",
-               "LN" : 4481
+               "LN" : 4489
             },
             {
                "author" : "Anonymous",
@@ -30600,18 +30845,18 @@
                                     "~"
                                  ],
                                  "raw" : "[;Fang; ;Trish; ;dinosaur;][;Snoot; ;Game; ;nsfw; ;humaned;]~",
-                                 "LN" : 4498
+                                 "LN" : 4506
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/eG5EmZLJ",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/eG5EmZLJ",
-                                 "LN" : 4499
+                                 "LN" : 4507
                               }
                            ],
                            "raw" : "Some Race-Play Fetishist's Smut Fiction",
-                           "LN" : 4497
+                           "LN" : 4505
                         },
                         {
                            "title" : "Stella Hangout",
@@ -30632,18 +30877,18 @@
                                     "sfw"
                                  ],
                                  "raw" : "[;Stella; ;dinosaur;][;Snoot Game; ;sfw;]",
-                                 "LN" : 4502
+                                 "LN" : 4510
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vTJ1QABB",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vTJ1QABB",
-                                 "LN" : 4503
+                                 "LN" : 4511
                               }
                            ],
                            "raw" : "Stella Hangout",
-                           "LN" : 4501
+                           "LN" : 4509
                         },
                         {
                            "title" : "Fang's Jeaolusy",
@@ -30668,18 +30913,18 @@
                                     "~"
                                  ],
                                  "raw" : "[;Fang; ;Fem-Reed; ;dinosaur;][;Snoot Game;]~",
-                                 "LN" : 4506
+                                 "LN" : 4514
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/PWwEUDxJ",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/PWwEUDxJ",
-                                 "LN" : 4507
+                                 "LN" : 4515
                               }
                            ],
                            "raw" : "Fang's Jeaolusy",
-                           "LN" : 4505
+                           "LN" : 4513
                         },
                         {
                            "title" : "Reed(a) and Anon Brojob it up!",
@@ -30700,18 +30945,18 @@
                                     "semi-nsfw"
                                  ],
                                  "raw" : "[;Fem-Reed; ;dinosaur;][;Snoot Game; ;semi-nsfw;]",
-                                 "LN" : 4510
+                                 "LN" : 4518
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/fL5mRbIa",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/fL5mRbIa",
-                                 "LN" : 4511
+                                 "LN" : 4519
                               }
                            ],
                            "raw" : "Reed(a) and Anon Brojob it up!",
-                           "LN" : 4509
+                           "LN" : 4517
                         },
                         {
                            "title" : "A Reedy Mix-Up",
@@ -30736,7 +30981,7 @@
                                     "~"
                                  ],
                                  "raw" : "[;Fem-Reed; ;dinosaur;][;Snoot Game; ;semi-nsfw;]~",
-                                 "LN" : 4514
+                                 "LN" : 4522
                               }
                            ],
                            "URLS" : [
@@ -30744,24 +30989,24 @@
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/2CoQTDpK",
                                  "url_attribute" : "ch.1",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/2CoQTDpK (ch.1)",
-                                 "LN" : 4515
+                                 "LN" : 4523
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/bK5mjbRY",
                                  "url_attribute" : "ch.2",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/bK5mjbRY (ch.2)",
-                                 "LN" : 4516
+                                 "LN" : 4524
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Anon and Reed were supposed to hang out. Instead, the human gets quite the surprise.",
                                  "raw" : "Anon and Reed were supposed to hang out. Instead, the human gets quite the surprise.",
-                                 "LN" : 4517
+                                 "LN" : 4525
                               }
                            ],
                            "raw" : "A Reedy Mix-Up",
-                           "LN" : 4513
+                           "LN" : 4521
                         },
                         {
                            "title" : "An Alternate Grim Dark",
@@ -30784,18 +31029,18 @@
                                     "short story"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;nsfw; ;short story;]",
-                                 "LN" : 4520
+                                 "LN" : 4528
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XTpwBJjY",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XTpwBJjY",
-                                 "LN" : 4521
+                                 "LN" : 4529
                               }
                            ],
                            "raw" : "An Alternate Grim Dark",
-                           "LN" : 4519
+                           "LN" : 4527
                         },
                         {
                            "title" : "Doomer Lucy",
@@ -30816,18 +31061,18 @@
                                     "semi-nsfw"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;semi-nsfw;]",
-                                 "LN" : 4524
+                                 "LN" : 4532
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/mTwygDZB",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/mTwygDZB",
-                                 "LN" : 4525
+                                 "LN" : 4533
                               }
                            ],
                            "raw" : "Doomer Lucy",
-                           "LN" : 4523
+                           "LN" : 4531
                         },
                         {
                            "title" : "Ending 0.5 - Betrayal",
@@ -30850,18 +31095,18 @@
                                     "very short story"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;sfw; ;very short story;]",
-                                 "LN" : 4528
+                                 "LN" : 4536
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ufpmSTBK",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ufpmSTBK",
-                                 "LN" : 4529
+                                 "LN" : 4537
                               }
                            ],
                            "raw" : "Ending 0.5 - Betrayal",
-                           "LN" : 4527
+                           "LN" : 4535
                         },
                         {
                            "title" : "Alternate Ending 1",
@@ -30884,7 +31129,7 @@
                                     "very short story"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;sfw; ;very short story;]",
-                                 "LN" : 4532
+                                 "LN" : 4540
                               }
                            ],
                            "URLS" : [
@@ -30892,17 +31137,17 @@
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/GSwylBYL",
                                  "url_attribute" : "Blackpill Version",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/GSwylBYL (Blackpill Version)",
-                                 "LN" : 4533
+                                 "LN" : 4541
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/bb5UDDqB",
                                  "url_attribute" : "Bloomer Version",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/bb5UDDqB (Bloomer Version)",
-                                 "LN" : 4534
+                                 "LN" : 4542
                               }
                            ],
                            "raw" : "Alternate Ending 1",
-                           "LN" : 4531
+                           "LN" : 4539
                         },
                         {
                            "title" : "Ending 2 - A Better End",
@@ -30925,7 +31170,7 @@
                                     "~"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game;]~",
-                                 "LN" : 4537
+                                 "LN" : 4545
                               }
                            ],
                            "URLS" : [
@@ -30933,36 +31178,36 @@
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/qC4wyQwR",
                                  "url_attribute" : "ch. 1",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/qC4wyQwR (ch. 1)",
-                                 "LN" : 4538
+                                 "LN" : 4546
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/DTIB3ABR",
                                  "url_attribute" : "ch. 2",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/DTIB3ABR (ch. 2)",
-                                 "LN" : 4539
+                                 "LN" : 4547
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/uSwAULrK",
                                  "url_attribute" : "ch. 3",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/uSwAULrK (ch. 3)",
-                                 "LN" : 4540
+                                 "LN" : 4548
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/zaw3FSgY",
                                  "url_attribute" : "ch. 4",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/zaw3FSgY (ch. 4)",
-                                 "LN" : 4541
+                                 "LN" : 4549
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "Two weeks after ending 2, Anon decides to face his demons and fix all of his past mistakes.",
                                  "raw" : "Two weeks after ending 2, Anon decides to face his demons and fix all of his past mistakes.",
-                                 "LN" : 4542
+                                 "LN" : 4550
                               }
                            ],
                            "raw" : "Ending 2 - A Better End",
-                           "LN" : 4536
+                           "LN" : 4544
                         },
                         {
                            "title" : "Ending 3 - Anon and The Dino-Tykes",
@@ -30981,18 +31226,18 @@
                                     "sfw"
                                  ],
                                  "raw" : "[;Fang dinosaur;][;Snoot Game; ;sfw;]",
-                                 "LN" : 4545
+                                 "LN" : 4553
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vHhmDBZK",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vHhmDBZK",
-                                 "LN" : 4546
+                                 "LN" : 4554
                               }
                            ],
                            "raw" : "Ending 3 - Anon and The Dino-Tykes",
-                           "LN" : 4544
+                           "LN" : 4552
                         },
                         {
                            "title" : "Ending 3 - Light Inside",
@@ -31017,18 +31262,18 @@
                                     "~"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;sfw;]~",
-                                 "LN" : 4549
+                                 "LN" : 4557
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vGhUxDKI",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/vGhUxDKI",
-                                 "LN" : 4550
+                                 "LN" : 4558
                               }
                            ],
                            "raw" : "Ending 3 - Light Inside",
-                           "LN" : 4548
+                           "LN" : 4556
                         },
                         {
                            "title" : "Exhibitionism",
@@ -31051,18 +31296,18 @@
                                     "very short story"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;semi-nsfw; ;very short story;]",
-                                 "LN" : 4553
+                                 "LN" : 4561
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ufhyRRrR",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ufhyRRrR",
-                                 "LN" : 4554
+                                 "LN" : 4562
                               }
                            ],
                            "raw" : "Exhibitionism",
-                           "LN" : 4552
+                           "LN" : 4560
                         },
                         {
                            "title" : "First Time",
@@ -31085,18 +31330,18 @@
                                     "short story"
                                  ],
                                  "raw" : "[;Fang; ;dinosaur;][;Snoot Game; ;nsfw; ;short story;]",
-                                 "LN" : 4557
+                                 "LN" : 4565
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/nChiyBCb",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/nChiyBCb",
-                                 "LN" : 4558
+                                 "LN" : 4566
                               }
                            ],
                            "raw" : "First Time",
-                           "LN" : 4556
+                           "LN" : 4564
                         },
                         {
                            "title" : "A Suprise Visit",
@@ -31119,7 +31364,7 @@
                                     "~"
                                  ],
                                  "raw" : "[;Trish; ;dinosaur;][;Snoot Game;]~",
-                                 "LN" : 4561
+                                 "LN" : 4569
                               }
                            ],
                            "URLS" : [
@@ -31127,29 +31372,29 @@
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/be4USDCJ",
                                  "url_attribute" : "ch. 1",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/be4USDCJ (ch. 1)",
-                                 "LN" : 4562
+                                 "LN" : 4570
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XTpWjDIY",
                                  "url_attribute" : "ch. 1, alt",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/XTpWjDIY (ch. 1, alt)",
-                                 "LN" : 4563
+                                 "LN" : 4571
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/OOpmHbwb",
                                  "url_attribute" : "ch. 2",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/OOpmHbwb (ch. 2)",
-                                 "LN" : 4564
+                                 "LN" : 4572
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/iap2FBbK",
                                  "url_attribute" : "ch. 3",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/iap2FBbK (ch. 3)",
-                                 "LN" : 4565
+                                 "LN" : 4573
                               }
                            ],
                            "raw" : "A Suprise Visit",
-                           "LN" : 4560
+                           "LN" : 4568
                         },
                         {
                            "title" : "What if",
@@ -31168,7 +31413,7 @@
                                     "sfw"
                                  ],
                                  "raw" : "[;Fang, dinosaur;][;Snoot Game; ;sfw;]",
-                                 "LN" : 4568
+                                 "LN" : 4576
                               }
                            ],
                            "URLS" : [
@@ -31176,66 +31421,66 @@
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/6bwWBRKT",
                                  "url_attribute" : "prologue",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/6bwWBRKT (prologue)",
-                                 "LN" : 4569
+                                 "LN" : 4577
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/GOgyRRLK",
                                  "url_attribute" : "ch. 1",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/GOgyRRLK (ch. 1)",
-                                 "LN" : 4570
+                                 "LN" : 4578
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/uPw2UJDT",
                                  "url_attribute" : "ch. 2",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/uPw2UJDT (ch. 2)",
-                                 "LN" : 4571
+                                 "LN" : 4579
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ST4GgJqL",
                                  "url_attribute" : "ch. 3",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ST4GgJqL (ch. 3)",
-                                 "LN" : 4572
+                                 "LN" : 4580
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/CGxUCBoY",
                                  "url_attribute" : "ch. 4",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/CGxUCBoY (ch. 4)",
-                                 "LN" : 4573
+                                 "LN" : 4581
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/qHxwVZrB",
                                  "url_attribute" : "ch. 5",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/qHxwVZrB (ch. 5)",
-                                 "LN" : 4574
+                                 "LN" : 4582
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/PfhUBRYL",
                                  "url_attribute" : "ch. 6",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/PfhUBRYL (ch. 6)",
-                                 "LN" : 4575
+                                 "LN" : 4583
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ySpUDDpY",
                                  "url_attribute" : "ch. 7",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/ySpUDDpY (ch. 7)",
-                                 "LN" : 4576
+                                 "LN" : 4584
                               },
                               {
                                  "url" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/SS4AzLTL",
                                  "url_attribute" : "epilogue",
                                  "raw" : "https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/SS4AzLTL (epilogue)",
-                                 "LN" : 4577
+                                 "LN" : 4585
                               }
                            ],
                            "DESCRIPTIONS" : [
                               {
                                  "description" : "What if the Anon from ending 4 ended up in Ending 2?",
                                  "raw" : "What if the Anon from ending 4 ended up in Ending 2?",
-                                 "LN" : 4578
+                                 "LN" : 4586
                               }
                            ],
                            "raw" : "What if",
-                           "LN" : 4567
+                           "LN" : 4575
                         },
                         {
                            "title" : "Misc Small Snoot Greens",
@@ -31256,31 +31501,101 @@
                                     "storybin"
                                  ],
                                  "raw" : "[;multiple; ;dinosaur;][;Snoot Game; ;storybin;]",
-                                 "LN" : 4581
+                                 "LN" : 4589
                               }
                            ],
                            "URLS" : [
                               {
                                  "url" : "https://ghostbin.com/paste/d7VKq/snoot",
                                  "raw" : "https://ghostbin.com/paste/d7VKq/snoot",
-                                 "LN" : 4582
+                                 "LN" : 4590
                               }
                            ],
                            "raw" : "Misc Small Snoot Greens",
-                           "LN" : 4580
+                           "LN" : 4588
                         }
                      ],
                      "raw" : "Snoot Game",
-                     "LN" : 4496
+                     "LN" : 4504
                   }
                ],
                "raw" : "Anonymous",
-               "LN" : 4494
+               "LN" : 4502
             }
          ],
          "raw" : "Stories from outside /hmofa/",
-         "LN" : 4337
+         "LN" : 4345
       }
    ],
-   "libName" : "catalog"
+   "libName" : "catalog",
+   "preserve" : [
+      {
+         "miss" : "\u00ef\u00bb\u00bfCatalog of Tagged /HMOFA/ Stories  (WIP)\n",
+         "LN" : 1
+      },
+      {
+         "miss" : "\n",
+         "LN" : 2
+      },
+      {
+         "miss" : "NOTE: Please post suggestions, comments and complaints For the formatting and contents of this paste In the thread along with the link to this paste, so I can find your post In the archive. Also If you're a writer of one of the stories feel free to PM me to request to remove, change, and/or add tags to your story.\n",
+         "LN" : 3
+      },
+      {
+         "miss" : "\n",
+         "LN" : 4
+      },
+      {
+         "miss" : "UPDATE:  https://github.com/Azuhmier/hmofa/tree/master/code\n",
+         "LN" : 5
+      },
+      {
+         "miss" : "* Generate hashes\n",
+         "LN" : 6
+      },
+      {
+         "miss" : "* Resolve hashes\n",
+         "LN" : 7
+      },
+      {
+         "miss" : "* Combine hashes\n",
+         "LN" : 8
+      },
+      {
+         "miss" : "* Write with hashes\n",
+         "LN" : 9
+      },
+      {
+         "miss" : "* Sync hashes\n",
+         "LN" : 10
+      },
+      {
+         "miss" : "* Resume tagging\n",
+         "LN" : 11
+      },
+      {
+         "miss" : "UPDATE NOTES:\n",
+         "LN" : 12
+      },
+      {
+         "miss" : "* New Masterbin made from (current masterbin + catalog)  json with tags: https://github.com/Azuhmier/hmofa/blob/master/code/json/hmofa_lib.json . The quality of this json is suspect, and I need to do more testing before I can use it. This is more of a \u00e2\u0080\u009cProof of concept\u00e2\u0080\u009d at the moment\n",
+         "LN" : 13
+      },
+      {
+         "miss" : "* Looking into if I can edit a googledoc from the commandline, would be nice to do that instead of copy/pasteing everytime I changed something like I did back on pastebin.\n",
+         "LN" : 14
+      },
+      {
+         "miss" : "\n",
+         "LN" : 15
+      },
+      {
+         "miss" : "Alt: https://github.com/Azuhmier/hmofa/blob/master/tagCatalog.txt\n",
+         "LN" : 16
+      },
+      {
+         "miss" : "\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\u00e2\u0080\u0094\n",
+         "LN" : 17
+      }
+   ]
 }

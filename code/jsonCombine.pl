@@ -9,14 +9,11 @@
 #      Created: Wed 06/23/21 12:03:43
 #============================================================
 
-my $start = time;
 use warnings;
 use strict;
 use JSON::PP;
 use Data::Dumper;
 use Storable qw(dclone);
-my $duration1 = time - $start;
-use Time::HiRes qw(time);
 
 #  Assumptions
 
@@ -42,8 +39,7 @@ use Time::HiRes qw(time);
         verbose => 0,
     });
 
-    my $duration1_1 = time - $start;
-    my $catalog = $data->{hash}->[0]->{SECTIONS}->[0];
+    my $catalog = $data->{hash}->[0]->{SECTIONS}->[1];
         my $catalog_contents = dclone $catalog;
         $catalog             = {};
         $catalog->{contents} = $catalog_contents;
@@ -51,8 +47,7 @@ use Time::HiRes qw(time);
         $catalog->{contents}->{libName}  = 'catalog';
         delete $catalog->{contents}->{section};
 
-    my $duration1_2 = time - $start;
-    my $masterbin = $data->{hash}->[1]->{SECTIONS}->[0];
+    my $masterbin = $data->{hash}->[1]->{SECTIONS}->[1];
         my $masterbin_contents = dclone $masterbin;
         $masterbin             = {};
         $masterbin->{contents} = $masterbin_contents;
@@ -95,35 +90,14 @@ use Time::HiRes qw(time);
             }
         }
 
-        my $duration1_3 = time - $start;
         walkdepth { wanted => \&walker} ,  $masterbin->{contents};
         walkdepth { wanted => \&walker2}, $catalog->{contents};
-        my $duration2 = time - $start;
         sortHash($data,$catalog);
         sortHash($data,$masterbin);
-        my $duration3 = time - $start;
         combine( $data, $masterbin, $catalog );
         #combine( $data, $catalog, $masterbin );
         #combine( $data, $catalog, $catalog );
-        my $duration3_1 = time - $start;
         encodeResult($data, dclone($masterbin->{contents}));
-
-        my $duration4 = time - $start;
-        print "\nExecution Time: $duration1 s\n";
-        print "\nExecution Time: $duration1_1 s\n";
-          print "  ".($duration1_1-$duration1)."s\n";
-        print "\nExecution Time: $duration1_2 s\n";
-          print "  ".($duration1_2-$duration1_1)."s\n";
-        print "\nExecution Time: $duration1_3 s\n";
-          print "  ".($duration1_3-$duration1_2)."s\n";
-        print "\nExecution Time: $duration2 s\n";
-          print "  ".($duration2-$duration1_3)."s\n";
-        print "\nExecution Time: $duration3 s\n";
-          print "  ".($duration3-$duration2)."s\n";
-        print "\nExecution Time: $duration3_1 s\n";
-          print "  ".($duration3_1-$duration3)."s\n";
-        print "\nExecution Time: $duration4 s\n";
-          print "  ".($duration4-$duration3_1)."s\n";
 }
 
 
@@ -143,11 +117,6 @@ sub init {
     };
     validate_Dspt( $data );
     return $data;
-}
-
-
-#===| delegate() {{{2
-sub delegate {
 }
 
 
@@ -785,30 +754,6 @@ sub cmpKeys {
 # INHERITED {{{1
 #------------------------------------------------------
 
-#===| decho() {{{2
-sub decho {
-
-    my $data = shift @_;
-    my $var = shift @_;
-
-    ## Data::Dumper
-    use Data::Dumper;
-    $Data::Dumper::Indent = 2;
-    $Data::Dumper::Sortkeys = ( sub {
-        my $hash = shift @_;
-        return [ sort {
-                my $order_a = genPointStrForRedundantKey( $data, $a, $_[0]);
-                my $order_b = genPointStrForRedundantKey( $data, $b, $_[0]);
-                $order_a cmp $order_b;
-            } keys %$hash ];
-        });
-
-    ##
-    my $output = Data::Dumper->Dump( [$var], ['reffArray'] );
-    return $output;
-}
-
-
 #===| filter(){{{2
 sub filter {
     my $arg   = shift @_;
@@ -856,28 +801,3 @@ sub mes {
 }
 
 
-# NOTES {{{1
-#------------------------------------------------------
-# OBJ: Json Combining Agent
-# PROPERTIES:
-#   HASH
-# PUBLIC:
-#   init()
-#   combine()
-# PRIVATE:
-# INHERITANCE: Controller
-
-# OBJ: Json Comparing Agent
-# PROPERTIES:
-# PUBLIC:
-#   init()
-# PRIVATE:
-# INHERITANCE: Controller
-
-# OBJ: Json Writing Agent
-# PROPERTIES:
-#    HASH
-# PUBLIC:
-#   init()
-# PRIVATE:
-# INHERITANCE: Controller

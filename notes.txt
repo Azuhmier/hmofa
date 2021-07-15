@@ -47,6 +47,15 @@ Teeing and Piping to stdout
   tee >&1
 Jq
   cat ./json/hmofa2.json | jq 'walk(if type == "object" then with_entries(select(.key | test("LN") | not)) else . end)' | less
+PYTHON
+  https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip
+  https://stackoverflow.com/questions/65866417/pip-install-failing-on-python2/65866547#65866547
+  The correct get-pip.py file for python2 has been moved to https://bootstrap.pypa.io/pip/2.7/get-pip.py
+  curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+  sudo python2 get-pip.py
+  /usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
+GoogleDocApis
+
 Misc
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
   problemo
