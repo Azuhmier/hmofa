@@ -19,14 +19,10 @@ use List::Util qw( uniq );
 no warnings 'uninitialized';
 my $erreno;
 
-#  Assumptions
-#    - all first level dspt keys and their group names are unique
-# -
-
-
 # MAIN {{{1
 #------------------------------------------------------
 {
+    ## OPTS {{{
     my $opts = genOpts({
         ## Processes
         all      => [1,0],
@@ -46,19 +42,24 @@ my $erreno;
         ## MISC
         sort    => 1,
     });
+    #}}}
 
+    ## DELEGATES {{{
     ## masterbin
     delegate({
         opts => $opts,
         name => 'masterbin',
         preserve => {
+            libName => [
+                ['',[0]],
+            ],
             section => [
-                ['FOREWORD',[1,1,1]],
+                ['FOREWORD',[1]],
             ],
         },
         fileNames => {
             fname  => '../masterbin.txt',
-            output => './json/masterbin.json',
+            output => './json/masterbin2.json',
             dspt   => './json/deimos.json',
         },
     });
@@ -68,18 +69,105 @@ my $erreno;
         opts => $opts,
         name => 'catalog',
         preserve => {
+            libName => [
+                ['',[0]],
+            ],
             section => [
                 ['Introduction/Key',[1,1,1]],
             ],
         },
         fileNames => {
             fname  => '../tagCatalog.txt',
-            output => './json/catalog.json',
+            output => './json/catalog2.json',
             dspt   => './json/deimos.json',
         },
     });
+    #}}}
+
+    ## COMBINE {{{
+    my $db = init2({
+        fileNames => {
+            fname => [
+                './data/catalog/catalog.json',
+                './data/masterbin/masterbin.json',
+            ],
+            external => [
+                './json/gitIO.json'
+            ],
+            output => './json/hmofa_lib.json',
+            dspt => './json/deimos.json',
+        },
+        process => {
+            write => 1,
+        },
+        sort => 1,
+        verbose => 0,
+    });
 
 
+    my $catalog = $db->{hash}->[0]->{SECTIONS}->[1];
+        my $catalog_contents = dclone $catalog;
+        $catalog             = {};
+        $catalog->{contents} = $catalog_contents;
+        $catalog->{reff}     = $catalog;
+        $catalog->{contents}->{libName}  = 'catalog';
+        delete $catalog->{contents}->{section};
+
+    my $masterbin = $db->{hash}->[1]->{SECTIONS}->[1];
+        my $masterbin_contents = dclone $masterbin;
+        $masterbin             = {};
+        $masterbin->{contents} = $masterbin_contents;
+        $masterbin->{reff}     = $masterbin;
+        $catalog->{contents}->{libName}  = 'masterbin';
+
+    my $sub = genFilter({
+        pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
+        dspt    => $db->{external}->{gitIO},
+    });
+    sub walker {
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $container = $Data::Walk::container;
+        if ($type eq 'HASH') {
+            deleteKey( $_, 'LN',     $index, $Data::Walk::container);
+            deleteKey( $_, 'raw',    $index, $Data::Walk::container);
+            deleteKey( $_, 'test33', $index, $Data::Walk::container);
+            deleteKey( $_, 'test3',  $index, $Data::Walk::container);
+            deleteKey( $_, 'test',   $index, $Data::Walk::container);
+            deleteKey( $_, 'miss',   $index, $Data::Walk::container);
+            deleteKey( $_, 'preserve',   $index, $Data::Walk::container);
+            deleteKey( $_, 'preserves',   $index, $Data::Walk::container);
+            filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
+        }
+    }
+
+    sub walker2 {
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $container = $Data::Walk::container;
+        if ($type eq 'HASH') {
+            deleteKey ( $_, 'LN',                $index, $container);
+            deleteKey ( $_, 'raw',               $index, $container);
+            removeKey( $_, 'SERIES', 'STORIES', $index, $container);
+            deleteKey ( $_, 'url_attribute',               $index, $container);
+            deleteKey( $_, 'miss',   $index, $Data::Walk::container);
+            deleteKey( $_, 'preserve',   $index, $Data::Walk::container);
+            deleteKey( $_, 'preserves',   $index, $Data::Walk::container);
+            #deleteKey ( $_, 'URLS',               $index, $container);
+            #deleteKey ( $_, 'TAGS',               $index, $container);
+            filter    ( $_, 'url',               $index, $container, $sub);
+        }
+    }
+
+    walkdepth { wanted => \&walker} ,  $masterbin->{contents};
+    walkdepth { wanted => \&walker2}, $catalog->{contents};
+    sortHash($db,$catalog);
+    sortHash($db,$masterbin);
+    combine( $db, $masterbin, $catalog );
+        ##combine( $data, $catalog, $masterbin );
+        ##combine( $data, $catalog, $catalog );
+        #encodeResult($data, dclone($masterbin->{contents}));
+    # }}}
 }
 
 
@@ -129,7 +217,6 @@ sub delegate {
 
         ## output {{{
 
-        if ($data->{opts}->{display}) { print decho($data->{result}, 0) };
         if ($delegate_opts->[1]) {
             ## Matches Meta
             my $matches_Meta = $data->{meta}->{matches};
@@ -219,6 +306,17 @@ sub delegate {
                 truncate $fh, tell( $fh ) or die;
             close $fh;
         }
+        ## MATCHES_CLONE
+        {
+            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
+            $json_obj    = $json_obj->allow_blessed(['true']);
+            my $json     = $json_obj->encode($data->{dspt});
+            my $fname    = $dirname.'/dspt.json';
+            open my $fh, '>', $fname or die "Error in opening file $fname\n";
+                print $fh $json;
+                truncate $fh, tell( $fh ) or die;
+            close $fh;
+        }
 
         opendir my $dh, $headDir or die "Error in opening dir $headDir\n";
             while (readdir $dh) {}
@@ -273,7 +371,8 @@ sub genReservedKeys {
         LN        => [ 'LN',        6 ],
         point     => [ 'point',     7 ],
         miss      => [ 'miss',      8 ],
-        libName   => [ 'libName',   9 ],
+        MISS      => [ 'MISS',      9 ],
+        libName   => [ 'libName',   10 ],
     };
     $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
 
@@ -299,6 +398,9 @@ sub genDspt {
         local $/;
         decode_json(<$fh>);
     };
+
+    $dspt->{libName} = { order =>'0', groupName =>'LIBS'};
+    $dspt->{miss} = { order =>'-1', groupName =>'miss'};
 
     ## Generate Regex's
     for my $obj (keys $dspt->%*) {
@@ -333,16 +435,10 @@ sub validate_Dspt {
 
     my $data = shift @_;
     my $dspt = $data->{dspt};
-    my %hash = (
-    );
-
-    $dspt->{libName} = {
-        order => '0',
-        groupName => 'LIBS',
-    };
+    my %hash = ();
 
     ## check for duplicates: order
-    my @keys  = sort map { $dspt->{$_}->{order} } keys %{$dspt};
+    my @keys  = sort map { exists $dspt->{$_}->{order} and  $dspt->{$_}->{order} } keys %{$dspt};
     my %DupesKeys;
     for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
 
@@ -498,7 +594,7 @@ sub checkMatches {
 #===| divyMatches() {{{2
 sub divyMatches {
 
-    my $data          = shift @_;
+    my $data               = shift @_;
     my $dspt          = $data->{dspt};
     my $refArray      = $data->{reffArray};
     my $matches       = $data->{matches_clone};
@@ -517,15 +613,18 @@ sub divyMatches {
         ## refArray LOOP
         my $ind = (scalar @$refArray) - 1;
         for my $ref (reverse @$refArray) {
-            last if !(scalar $matches_obj);
+            #last if !(scalar $matches_obj);
+            my @MATCHES;
             my $lvlObj      = getLvlObj($data, $ref);
             my $dspt_lvlObj = $dspt->{$lvlObj};
             my $lvlItem     = $ref->{$lvlObj};
             my $ref_LN      = ($ref->{LN}) ? $ref->{LN} : 0;
-            my $match_ARRAY = $matches_obj;
+            my $match_ARRAY;
+            @$match_ARRAY = @$matches_obj;
             @$match_ARRAY = grep {exists $_->{LN}} @$match_ARRAY;
+            push @MATCHES, $match_ARRAY;
 
-            ## Preserve
+            ## Preserve {{{
             my $preserve_obj;
             my $presFlag = 0;
             if (exists $dspt_lvlObj->{preserve}) {
@@ -543,10 +642,27 @@ sub divyMatches {
                             }
                         }
                     }
-                    @$match_ARRAY = grep {$_->{LN} < $LN} @$matches_ALL;
+                    @$match_ARRAY = grep {exists $_->{LN} and $_->{LN} < $LN} @$matches_ALL;
+                    $MATCHES[0] = $match_ARRAY;
+                } elsif ($preserve_obj->[0]->[0] eq '' and scalar @$preserve_obj == 1) {
+                    my $LN;
+                    my $size = $lvlObj eq 'libName' ? 0 : scalar split /\./, $dspt_lvlObj->{order};
+                    $size++;
+                    my @elegible_obj = grep { exists $dspt->{$_}->{order} and scalar (split /\./, $dspt->{$_}->{order}) == $size and $dspt->{$_}->{order} ne '0'} keys %$dspt;
+                    $LN = $ref_LN;
+                    for my $obj (@elegible_obj) {
+                        for my $item ($data->{matches}->{$obj}->@*) {
+                            if ($item->{LN} > $LN) {
+                                $LN = $item->{LN};
+                                last;
+                            }
+                        }
+                    }
+                    my $pres_ARRAY = [ grep {exists $_->{LN} and $_->{LN} < $LN and  $_->{LN} > $ref_LN} @$matches_ALL];
+                    push @MATCHES, $pres_ARRAY;
                 }
             }
-
+            #}}}
 
             ## Debug {{{
             mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
@@ -556,56 +672,80 @@ sub divyMatches {
             #}}}
 
             ## matches_obj LOOP
-            my $childObjs;
-            my $flag = 0;
-            my $prev_match_LN;
-            for my $match (reverse @$match_ARRAY) {
-                next unless $match;
+            my $cnt;
+            for my $array (@MATCHES) {
+                $cnt++;
+                my $partial_flag;
+                $partial_flag = 1 if $cnt > 1;
+                $obj = 'miss' if $cnt > 1;
+                @$match_ARRAY = @$array;
 
-                if ($match->{LN} > $ref_LN) {
-                    my $match;
+                my $childObjs;
+                my $flag = 0;
+                for my $match (reverse @$match_ARRAY) {
+                    next unless $match;
+                    #print Dumper($match) if (scalar (split /\./, $dspt_lvlObj->{order}) == 1);
+
+                    if ($match->{LN} > $ref_LN) {
+                        my $match;
+                        if ($presFlag) {
+                           $match = pop @$match_ARRAY;
+                        } elsif ($partial_flag) {
+                           $match = pop @$match_ARRAY;
+                        } else {
+                           $match = pop @$matches_obj;
+                        }
+                        my $attrDebug = genAttributes( $data, $match, [$partial_flag, $presFlag]);
+                        if ($presFlag || $partial_flag) {
+                            my $obj = getLvlObj($data,$match);
+                            unless (exists $match->{miss}) {
+                                delete $match->{$obj};
+                                $match->{miss} = $match->{raw};
+                                delete $match->{raw};
+                            }
+                        }
+                        push @$childObjs, $match;
+
+                        ## Debug {{{
+                        unless ($flag++) {
+                            mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
+                                if ($opts_divy->[1] == 1);
+                            mes( "[$ref_LN] <".$lvlObj."> ".$lvlItem, $data, [4])
+                                if ($opts_divy->[1] == 1);
+                        }
+
+                        if ($opts_divy->[1]) {
+                            mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
+                                if $data->{dspt}->{$obj}->{partion};
+                            mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
+                                unless $data->{dspt}->{$obj}->{partion};
+                        }
+
+                        if (scalar $attrDebug->@* and $data->{opts}->{attribs}->[1]) { mes("$_",$data,[-1, 1]) for $attrDebug->@* }
+                        #}}}
+
+                    } else { last }
+                }
+
+                ## Check if childObjs is empty
+                if ($childObjs) {
+                    my $childObjs_Clone = dclone($childObjs);
                     if ($presFlag) {
-                       $match = pop @$matches_ALL;
-                     } else {
-                       $match = pop @$matches_obj;
+                        @$childObjs_Clone = reverse @$childObjs_Clone;
+                        unless (exists $refArray->[$ind]->{preserve}) { $refArray->[$ind]->{preserve} = [] }
+                        @$childObjs_Clone = map {$data->{matches4}->{$_->{LN}} } @$childObjs_Clone;
+                        my $ref = dclone($childObjs_Clone);
+                        push $refArray->[$ind]->{preserve}->@*, @$ref;
+                          #push $refArray->[$ind]->{preserve}->@*, @$childObjs_Clone;
+                    } elsif ($partial_flag) {
+                        @$childObjs_Clone = reverse @$childObjs_Clone;
+                        $refArray->[$ind]->{preserve} = $childObjs_Clone;
+                        splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs_Clone) );
+                    } else {
+                        @$childObjs_Clone = reverse @$childObjs_Clone;
+                        $refArray->[$ind]->{$objGroupName} = $childObjs_Clone;
+                        splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs_Clone) );
                     }
-                    my $attrDebug = genAttributes( $data, $match );
-                    push @$childObjs, $match;
-
-                    ## Debug {{{
-                    unless ($flag++) {
-                        mes( "IDX-$ind $obj -> $lvlObj", $data, [1])
-                            if ($opts_divy->[1] == 1);
-                        mes( "[$ref_LN] <".$lvlObj."> ".$lvlItem, $data, [4])
-                            if ($opts_divy->[1] == 1);
-                    }
-
-                    if ($opts_divy->[1]) {
-                        mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
-                            if $data->{dspt}->{$obj}->{partion};
-                        mes( "($match->{LN}) <$obj> $match->{$obj}", $data, [4])
-                            unless $data->{dspt}->{$obj}->{partion};
-                    }
-
-                    if (scalar $attrDebug->@* and $data->{opts}->{attribs}->[1]) { mes("$_",$data,[-1, 1]) for $attrDebug->@* }
-                    #}}}
-
-                } else { last }
-                $prev_match_LN = $match->{LN};
-            }
-
-            ## Check if childObjs is empty
-            if ($childObjs) {
-                my $childObjs_Clone = dclone($childObjs);
-                if ($presFlag) {
-                    unless (exists $refArray->[$ind]->{preserve}) { $refArray->[$ind]->{preserve} = [] }
-                    @$childObjs_Clone = map {$data->{matches4}->{$_->{LN}} } @$childObjs_Clone;
-                    push $refArray->[$ind]->{preserve}->@*, @$childObjs_Clone;
-                    for my $hashRef (@$childObjs) { %$hashRef = () }
-                } else {
-                    @$childObjs_Clone = reverse @$childObjs_Clone;
-                    $refArray->[$ind]->{$objGroupName} = $childObjs_Clone;
-                    splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs_Clone) );
                     for my $hashRef (@$childObjs) { %$hashRef = () }
                 }
             }
@@ -618,18 +758,19 @@ sub divyMatches {
 #===| genAttributes() {{{2
 sub genAttributes {
 
-    my $data      = shift @_;
+    my $data  = shift @_;
+    my $match = shift @_;
+    my $flags = shift @_;
     my $attr_opts = $data->{opts}->{attribs};
 
     ## Debug {{{
     my $debug     = [];
     #}}}
 
-    if ($attr_opts->[0]) {
+    if ($attr_opts->[0] and !$flags->[0] and !$flags->[1]) {
 
         my $obj     = getObj($data);
         my $objReff = $data->{dspt}->{$obj};
-        my $match = shift @_;
         $match->{raw} = $match->{$obj};
 
         if (exists $objReff->{attributes}) {
@@ -747,12 +888,18 @@ sub genWriteArray {
                 miss => [
                     '',
                     '',
+                    '',
+                    '',
+                    '',
+                    1,
+                    1,
+                    'section'
                 ],
             },
             libName => {
                 libName => [
                     '',
-                    ''
+                    '',
                 ],
             },
             title => {
@@ -793,6 +940,12 @@ sub genWriteArray {
                 section => [
                     "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
                     " %-------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
+                    '',
+                    '',
+                    '',
+                    1,
+                    2,
+                    'miss'
                 ],
             },
             tags => {
@@ -841,6 +994,12 @@ sub genWriteArray {
                 miss => [
                     '',
                     '',
+                    '',
+                    '',
+                    '',
+                    1,
+                    1,
+                    'section'
                 ],
             },
             libName => {
@@ -890,6 +1049,12 @@ sub genWriteArray {
                 section => [
                     "\n——————————————————————————————————————————————————————————————————————————————————\n%%%%% ",
                     " %%%%%\n——————————————————————————————————————————————————————————————————————————————————",
+                    '',
+                    '',
+                    '',
+                    1,
+                    2,
+                    'miss'
                 ],
             },
             tags => {
@@ -960,7 +1125,9 @@ sub genWriteArray {
                 ## Tranform hash to array whilst sorting keys
                 @children = ();
                 for (sort {
-                            if    ($a eq 'libName') {-1}
+                            if    ($a eq 'preserve' and $b ne 'libName' and $b ne 'section') {-1}
+                            elsif ($b eq 'preserve' and $a ne 'libName' and $a ne 'section') {1}
+                            elsif    ($a eq 'libName') {-1}
                             elsif ($b eq 'libName') {1}
                             elsif ($a eq 'SERIES' and $b eq 'STORIES') {1}
                             elsif ($b eq 'SERIES' and $a eq 'STORIES') {-1}
@@ -1092,23 +1259,46 @@ sub genWriteArray {
                     $string = ($string) ? $string . $attributes_String
                                         : $attributes_String;
 
+                    my $emptyFlag;
                     if (exists $data->{pointy2}->[-2] and exists $dresser->{$obj}->[5]) {
-                        if ($data->{pointy2}->[-2]->[0] < $data->{pointy2}->[-1]->[0]) {
-                            my $cnt = $dresser->{$obj}->[6];
-                            if ($dresser->{$obj}->[7] and $data->{pointy2}->[-2]->[1] eq $dresser->{$obj}->[7]) {
+                        my $previousObj      = $data->{pointy2}->[-2]->[1];
+                        my $previousObjOrder = $data->{pointy2}->[-2]->[0];
+                        my $cnt              = $dresser->{$obj}->[6];
+                        my $objOrder         = $data->{pointy2}->[-1]->[0];
+                        if ($previousObjOrder < $objOrder) {
+                          #print $obj if $obj eq 'miss';
+                          #print $string if $obj eq 'miss';
+                            if ($dresser->{$obj}->[7] and $previousObj eq $dresser->{$obj}->[7]) {
                                 $string =~ s/.*\n// for (1 .. $cnt);
+                                #print "(($string))" if $string eq '';
+                                $emptyFlag = 1 if $string eq '';
                             } elsif (!$dresser->{$obj}->[7]) {
                                 $string =~ s/.*\n// for (1 .. $cnt);
                             }
                         }
-                        elsif ($data->{pointy2}->[-2]->[0] > $data->{pointy2}->[-1]->[0]) {
+                        elsif ($previousObjOrder > $objOrder) {
+                            if ($dresser->{$obj}->[7] and $previousObj eq $dresser->{$obj}->[7]) {
+                                $string =~ s/.*\n// for (1 .. $cnt);
+                            }
+                        }
+                        elsif ($previousObjOrder == $objOrder and $previousObj eq 'miss') {
+                            if ($dresser->{$obj}->[7] and $previousObj eq $dresser->{$obj}->[7]) {
+                                $string =~ s/.*\n// for (1 .. $cnt);
+                            }
+                        }
+                        elsif ($previousObjOrder == $objOrder and $obj eq 'miss') {
+                            if ($dresser->{$obj}->[7] and $previousObj eq $dresser->{$obj}->[7]) {
+                                $string =~ s/.*\n// for (1 .. $cnt);
+                            }
                         }
                     }
 
-                    push @$writeArray, $string if $obj ne 'libName';
+                    chomp $string if $obj eq 'miss';
+                    #print "MISS {$string}\n" if $obj eq 'miss';
+                    #print "SECTION {$string}\n" if $obj eq 'section';
+                    unless ($emptyFlag) { push @$writeArray, $string if $obj ne 'libName'}
 
                     ## debug {{{
-
                     mes($string ,$data, [-1])
                         if $write_opts->[1] and $lvl != 0;
 
@@ -1118,7 +1308,6 @@ sub genWriteArray {
                         $erreno = "ERROR: Scalar obj '$obj' was repeated!";
                         die;
                     }
-
                     #}}}
 
                 }
@@ -1261,26 +1450,6 @@ sub changePointStrInd {
 
     $pointStr = join '.', @point;
     return $pointStr;
-}
-
-
-#===| decho() {{{2
-sub decho {
-
-    my $var    = shift @_;
-    my $depth  = shift @_;
-    my $data   = shift @_;
-
-    use Data::Dumper;
-    $Data::Dumper::Indent = 2;
-    $Data::Dumper::Maxdepth = $depth if $depth;
-    if ($data) {
-        $Data::Dumper::Sortkeys = ( sub {
-        });
-    }
-
-    my $output = Data::Dumper->Dump( [$var], ['reffArray']);
-    return $output;
 }
 
 
@@ -1458,3 +1627,415 @@ sub mes {
 
 
 
+# OTHER {{{1
+#------------------------------------------------------
+
+#===| init2() {{{2
+sub init2 {
+    my $db = shift @_;
+    $db->{hash} = [ map { getJson($_) } $db->{fileNames}->{fname}->@* ];
+    $db->{dspt} = getJson($db->{fileNames}->{dspt});
+    $db->{external} = {
+        map {
+          $_ =~ m/(\w+)\.json$/;
+          $1 => getJson($_);
+        } $db->{fileNames}->{external}->@*
+    };
+    validate_Dspt( $db );
+    return $db;
+}
+
+
+#===| combine() {{{2
+sub combine {
+    no warnings 'uninitialized';
+    use Data::Dumper;
+    my $data   = shift @_;
+    my $hash_0 = shift @_;
+    my $hash_1 = shift @_;
+    $data->{reff2} = [ $hash_0->{contents} ];
+    $data->{reff}  = [ $hash_1->{contents} ];
+
+    # ===|| preprocess->() {{{3
+    my $preprocess = sub {
+
+        ##
+        my @children = @_;
+        my $lvl      = $Data::Walk::depth - 2;
+        my $type     = $Data::Walk::type;
+
+        ## Pre HASH
+        if ($type eq 'HASH') {
+            unless (exists $data->{pointer}) { $data->{pointer} = [0] }
+            else {
+                unless (exists $data->{pointer}->[$lvl]) { $data->{pointer}->[$lvl] = 0 }
+                else                                     { $data->{pointer}->[$lvl]++ }
+            }
+
+            my $lvlReff  = $data->{reff}->[$lvl];
+            my $lvlReff2 = $data->{reff2}->[$lvl];
+            my $container; my $cnt = 0; for my $part (@children) {
+                if ($cnt & 1) { $container->{ $children[$cnt - 1] } = $part }
+                $cnt++;
+            }
+
+            my $obj = getLvlObj($data, $container);
+            my $vaar = scalar @{$data->{pointer}} ? ( scalar @{$data->{pointer}} ) - 1 : 0;
+            my $index   = $data->{pointer}->[$lvl];
+            print "\nPRE ".$obj."-".$type." ".$vaar." $index\n";
+            print " PointStr: ".join('.', $data->{pointer}->@*),"\n";
+
+            my $hash_1 = $container;
+            my $hash_2 = $lvlReff; if (ref $lvlReff eq 'ARRAY') {
+                my $key  = $obj;
+                my $key2 = ( exists $lvlReff->[$index]->{$key} ) ? $key : ' ';
+                print "    Key_1: $key\n";
+                print "    Key_2: $key2\n";
+                print "  Value_1: $container->{$key}\n";
+                print "  Value_2: $lvlReff->[$index]->{$key}\n";
+                $hash_2 = $lvlReff->[$index];
+            }
+
+            if (join('.', $data->{pointer}->@*) =~ '0.1.0') {print Dumper($hash_1)}
+            if (join('.', $data->{pointer}->@*) =~ '0.1.0') {print Dumper($hash_2)}
+            #COMBINE KEYS
+            my @keys_1 = sort {lc $a cmp lc $b} keys %{$hash_1};
+            my @keys_2 = sort {lc $a cmp lc $b} keys %{$hash_2};
+            while (scalar @keys_1 or scalar @keys_2) {
+                my $bool = lc $keys_1[0] cmp lc $keys_2[0];
+                if (!$keys_1[0]) {
+                    unshift @keys_1, $keys_2[0];
+                    $hash_1->{$keys_2[0]} = $hash_2->{$keys_2[0]};
+                } elsif (!$keys_2[0]) {
+                    unshift @keys_2, $keys_1[0];
+                    $hash_2->{$keys_1[0]} = $hash_1->{$keys_1[0]};
+                } elsif ($bool and $bool != -1) {
+                    unshift @keys_1, $keys_2[0];
+                    $hash_1->{$keys_2[0]} = $hash_2->{$keys_2[0]};
+                } elsif ($bool == -1) {
+                    unshift @keys_2, $keys_1[0];
+                    $hash_2->{$keys_1[0]} = $hash_1->{$keys_1[0]};
+                } else {
+                    shift @keys_1;
+                    shift @keys_2;
+                }
+            }
+
+            #if ($lvl != -1) {
+            #    $lvlReff->[$index]->%* = $hash_2->%*;
+            #    $lvlReff2->[$index]->%* = $hash_1->%*;
+            #}
+
+            undef @children;
+            for my $key (sort keys %{$hash_1}) {
+                push @children, ($key, $hash_1->{$key});
+            }
+            return @children;
+
+        ## Pre ARRAY
+        } elsif ($type eq 'ARRAY') {
+            my $index      = $data->{pointer}->[$lvl];
+            my $lvlReff    = $data->{reff}->[$lvl+1];
+            my $lvlReff2   = $data->{reff2}->[$lvl+1];
+
+            my $flag1; if (!$lvlReff)  {$flag1 = 1}
+            my $flag2; if (!$lvlReff2) {$flag2 = 2}
+            if ($flag1 && $flag2) {
+                die $!;
+            } elsif ($flag1) {
+                my $obj = getLvlObj($data, $lvlReff2->[0]);
+                $data->{reff}->[$lvl]->{ getGroupName($data,$obj) } = dclone($lvlReff2);
+                $data->{reff}->[$lvl + 1] = $data->{reff}->[$lvl]->{ getGroupName($data,$obj) };
+                $lvlReff = $data->{reff}->[$lvl + 1];
+            } elsif ($flag2) {
+                my $obj = getLvlObj($data, $lvlReff->[0]);
+                $data->{reff2}->[$lvl]->{ getGroupName($data,$obj) } = dclone($lvlReff);
+                $data->{reff2}->[$lvl + 1] = $data->{reff2}->[$lvl]->{ getGroupName($data,$obj) };
+                $lvlReff2 = $data->{reff2}->[$lvl + 1];
+            }
+
+            my $container  = [ @children ];
+            my $obj       = getLvlObj($data, $container->[0]);
+            print "\nPRE ".getGroupName($data,$obj)."-".$type." ".( (scalar $data->{pointer}->@*) ? (scalar $data->{pointer}->@*)-1 : 0)." $index\n";
+            print " PointStr: ".join('.', $data->{pointer}->@*),"\n";
+
+            my @array_1;
+            my @array_2;
+            if ( getLvlObj($data, $children[0]) ) {
+
+                my $array_11     =  dclone(\@children);
+                my $array_22     =  dclone(\@{$lvlReff});
+                @array_1     =  $array_11->@*;
+                @array_2     =  $array_22->@*;
+                @children    = ();
+                $lvlReff->@* = ();
+                while (scalar @array_1 or scalar @array_2) {
+                    my $obj_1 = getLvlObj($data, $array_1[0]);
+                    my $obj_2 = getLvlObj($data, $array_2[0]);
+
+                    my $thing1;
+                    if ($obj_1 and $array_1[0]) { $thing1 = $array_1[0]->{$obj_1}; }
+                    my $thing2;
+                    if ($obj_2 and $array_2[0]) { $thing2 = $array_2[0]->{$obj_2}; }
+
+                    my $bool = $thing1 cmp $thing2;
+                    if (!$array_1[0]) {
+                        unshift @array_1, $array_2[0];
+                    } elsif (!$array_2[0]) {
+                        unshift @array_2, $array_1[0];
+                    } elsif ($bool == -1) {
+                        unshift @array_2, $array_1[0];
+                    } elsif ($bool and $bool != -1) {
+                        unshift @array_1, $array_2[0];
+                    } else {
+                      push @children, (shift @array_1);
+                      push $lvlReff->@*, (shift @array_2);
+                      #if ($obj eq 'tags') {last}
+                      if (ref $children[0]->{$obj} eq 'ARRAY') {last}
+                    }
+                }
+            } else {
+                my $array_11     =  dclone(\@children);
+                my $array_22     =  dclone(\@{$lvlReff});
+                @array_1         =  $array_11->@*;
+                @array_2         =  $array_22->@*;
+                @array_1         = sort {lc $a cmp lc $b} @array_1;
+                @array_2         = sort {lc $a cmp lc $b} @array_2;
+                @children        = ();
+                @{$lvlReff}      = ();
+                while (scalar @array_1 or scalar @array_2) {
+                    my $bool = lc $array_1[0] cmp lc $array_2[0];
+                    if ( !$array_1[0]) {
+                       unshift @array_1, $array_2[0];
+                    } elsif ( !$array_2[0]) {
+                       unshift  @array_2, $array_1[0];
+                    } elsif ($bool and $bool != -1) {
+                       unshift @array_1, $array_2[0];
+                    } elsif ($bool == -1) {
+                       unshift  @array_2, $array_1[0];
+                    } else {
+                      push @children, (shift @array_1);
+                      push $lvlReff->@*, (shift @array_2);
+                    }
+                }
+            }
+            my $cnt = 0;
+            for my $part (@children) {
+                my $obj_1 = getLvlObj($data, $part);
+                my $obj_2 = getLvlObj($data, $lvlReff->[$cnt]);
+                print "     Item1: $part\n";
+                print "     Item2: $lvlReff->[$cnt]\n";
+                print "      Obj1: " .$obj_1."\n";
+                print "      Obj2: " .$obj_2."\n";
+
+                my $thing1;
+                if ($obj_1) {
+                    $thing1 = $children[$cnt]->{ getLvlObj($data, $children[$cnt]) }
+                } print "  thing1: $thing1\n";
+
+                my $thing2;
+                if ($obj_2) {
+                    $thing2 = $lvlReff->[$cnt]->{ getLvlObj($data, $lvlReff->[$cnt]) }
+                } print "  thing2: $thing2\n";
+
+                $cnt++;
+            }
+            $lvlReff2->@* = @children;
+            return @children;
+        } else {
+            return @_;
+        }
+    };
+
+
+    # ===|| wanted->() {{{3
+    my $wanted = sub {
+        ##
+        my $item      = $_;
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $lvl       = $Data::Walk::depth-2;
+
+        if ($lvl != -1) {
+
+            my $prior_lvl = ( scalar @{$data->{pointer}} ) - 1;
+            if ($lvl < $prior_lvl) {
+                my $cnt = $prior_lvl - $lvl;
+                pop @{$data->{pointer}} for (0..$cnt);
+            }
+
+            ## HASH
+            if ($type eq 'HASH') {
+                unless ($index & 1) {
+                    $data->{pointer}->[$lvl] = $index/2;
+                    my $lvlReff  = $data->{reff}->[$lvl];
+                    my $lvlReff2 = $data->{reff2}->[$lvl];
+                    my $obj_1    = getLvlObj($data, $lvlReff2);
+                    my $obj_2    = getLvlObj($data, $lvlReff);
+                    my $thing_1  = $lvlReff2->{ getLvlObj($data, $lvlReff2) };
+                    my $thing_2  = $lvlReff->{ getLvlObj($data, $lvlReff) };
+                    print "\nWANT $item in $obj_1-$type $lvl ".$data->{pointer}->[$lvl]."\n";
+                    print " PointStr: ".join('.', @{$data->{pointer}}),"\n";
+                    print "  obj1: $obj_1\n";
+                    print "  obj2: $obj_2\n";
+                    print " item1: $thing_1\n";
+                    print " item2: $thing_2\n";
+                    print " item1: $lvlReff2->{$item}\n";
+                    print " item2: $lvlReff->{$item}\n";
+
+                    if (ref $lvlReff2->{$item} ne 'ARRAY'
+                    and ref $lvlReff2->{$item} ne 'HASH'
+                    and ref $lvlReff->{$item}  ne 'ARRAY'
+                    and ref $lvlReff->{$item}  ne 'HASH'
+                    and $lvlReff->{$item}      ne $lvlReff2->{$item} )
+                    {
+                        print $lvlReff->{$item} ." ne ". $lvlReff2->{$item}."\n";
+                        die $!
+                    }
+
+                    $data->{reff}->[$lvl + 1] = $lvlReff->{$_};
+                    $data->{reff2}->[$lvl + 1] = $lvlReff2->{$_};
+                }
+
+            ## ARRAY
+            } elsif ($type eq 'ARRAY') {
+                $data->{pointer}->[$lvl] = $index;
+
+                my $lvlReff  = $data->{reff}->[$lvl];
+                my $lvlReff2 = $data->{reff2}->[$lvl];
+                my $obj_1   = getLvlObj($data, $item);
+                my $obj_2   = getLvlObj($data, $lvlReff->[$index]);
+
+                print "\nWANT $obj_1 $index in " . getGroupName($data, $obj_1) . "-" . "$type $lvl $index\n";
+                print "  PointStr: ".join('.', @{$data->{pointer}}),"\n";
+                print "      Item: $item\n";
+                print "      Obj1: $obj_1\n";
+                print "      Obj2: $obj_2\n";
+
+                my $thing1; if ($obj_1) {
+                  $thing1 = $lvlReff2->[$index]->{$obj_1}
+                } print "    thing1: $thing1\n";
+
+                my $thing2; if ($obj_2) {
+                    $thing2 = $lvlReff->[$index]->{$obj_2}
+                } print "    thing2: $thing2\n";
+
+                unless ($thing1 eq $thing2) {
+                    die("Fuckie Wuckie! In ${0} at line: ".__LINE__)
+                }
+
+                $data->{reff}->[$lvl+1] = $lvlReff->[$index];
+                $data->{reff2}->[$lvl+1] = $lvlReff2->[$index];
+
+            } else {
+                die("Hash contains a reff that is neither hash or array! In ${0} at line: ".__LINE__)
+            }
+        }
+    };
+    #}}}
+
+    walk { wanted => $wanted, preprocess => $preprocess}, $hash_0->{contents};
+}
+
+#===| genfilter() {{{2
+sub genFilter {
+    my $ARGS    = shift @_;
+    my $dspt    = $ARGS->{dspt};
+    my $obj     = $ARGS->{obj};
+    my $pattern = $ARGS->{pattern};
+
+    return sub {
+        my $raw = shift @_;
+        if ($raw =~ $pattern) {
+            return ($dspt->{$1}) ? $dspt->{$1} : $raw;
+        }
+        else { return $raw }
+    };
+}
+
+
+#===| sortHash(){{{2
+sub sortHash {
+    my ($data, $hash) = @_;
+
+
+    #===| sortSub->(){{3
+    my $sortSub = sub {
+        my $key = shift @_;
+        my $index = shift @_;
+        my $container  = shift @_;
+        if ( ($index % 2) == 0 and ref $container->{$key} eq 'ARRAY') {
+            my $checkobj = getLvlObj($data, $container->{$key}->[0]);
+            if ($checkobj) {
+                $container->{$key} = [ sort {
+                    my $obj_a = getLvlObj($data, $a);
+                    my $obj_b = getLvlObj($data, $b);
+                    if ($obj_a ne $obj_b) {
+                        lc $data->{dspt}->{$obj_a}->{order} cmp lc $data->{dspt}->{$obj_b}->{order}
+                    } else {
+                        lc $a->{$obj_a} cmp lc $b->{$obj_b}
+                    }
+                } $container->{$key}->@* ];
+            }
+        }
+    };
+
+    my $sub = sub {
+        my $type      = $Data::Walk::type;
+        my $index     = $Data::Walk::index;
+        my $container = $Data::Walk::container;
+        if ($type eq 'HASH') {
+            $sortSub->($_, $index, $container);
+        }
+    };
+
+    walk { wanted => $sub}, $hash->{contents};
+}
+
+
+#===| removeKey(){{{2
+sub removeKey {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $key2   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         my $hash = $Data::Walk::container;
+         my @stories;
+         for my $part ($hash->{$key}->@*) {
+             push @stories, $part->{$key2}->@*;
+         }
+         unless (exists $hash->{$key2}) {$hash->{$key2} = []}
+         push $hash->{$key2}->@*, @stories;
+         delete $hash->{$key};
+    }
+}
+
+
+#===| deleteKey(){{{2
+sub deleteKey {
+    my $arg   = shift @_;
+    my $key   = shift @_;
+    my $index = shift @_;
+    my $hash  = shift @_;
+    if ( ($index % 2 == 0) and $arg eq $key) {
+         delete $hash->{$arg};
+    }
+}
+
+
+#===| waltzer() {{{2
+sub waltzer {
+    my $type      = $Data::Walk::type;
+    my $index     = $Data::Walk::index;
+    my $container = $Data::Walk::container;
+    if ($type eq 'HASH') {
+        #deleteKey( $_, 'LN',     $index, $Data::Walk::container);
+        #deleteKey( $_, 'raw',    $index, $Data::Walk::container);
+        #deleteKey( $_, 'test33', $index, $Data::Walk::container);
+        #deleteKey( $_, 'test3',  $index, $Data::Walk::container);
+        #deleteKey( $_, 'test',   $index, $Data::Walk::container);
+        #filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
+    }
+}
