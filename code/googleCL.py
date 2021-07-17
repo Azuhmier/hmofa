@@ -40,6 +40,7 @@ def main():
     document = service.documents().get(documentId=DOCUMENT_ID).execute()
 
     print('The title of the document is: {}'.format(document.get('title')))
+    print('The title of the document is: {}'.format(document.get('body')))
     # Format and append to doc
     completed_tasks = [1]
     for i in completed_tasks:

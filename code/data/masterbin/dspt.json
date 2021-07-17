@@ -1,13 +1,23 @@
 {
+   "series" : {
+      "order" : "1.1.1",
+      "container" : "1",
+      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+      "groupName" : "SERIES",
+      "dresser" : {
+         "series" : [
+            "===== ",
+            " ====="
+         ]
+      }
+   },
    "libName" : {
-      "order" : "0",
       "dresser" : {
          "libName" : [
             "",
             ""
          ]
       },
-      "groupName" : "LIBS",
       "preserve" : [
          [
             "",
@@ -15,16 +25,74 @@
                0
             ]
          ]
-      ]
+      ],
+      "groupName" : "LIBS",
+      "order" : "0"
+   },
+   "tags" : {
+      "order" : "1.1.1.1.1",
+      "dresser" : {
+         "ops" : [
+            "",
+            "",
+            "",
+            "",
+            ""
+         ],
+         "anthro" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
+         ],
+         "general" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
+         ]
+      },
+      "scalar" : "1",
+      "groupName" : "TAGS",
+      "partion" : "1",
+      "attributes" : {
+         "ops" : [
+            null,
+            3,
+            [
+               ""
+            ]
+         ],
+         "general" : [
+            null,
+            2,
+            [
+               ";",
+               ","
+            ]
+         ],
+         "anthro" : [
+            null,
+            1,
+            [
+               ";",
+               ","
+            ]
+         ]
+      },
+      "re" : "^\\s*(\\[.*)"
    },
    "url" : {
+      "order" : "1.1.1.1.2",
       "attributes" : {
          "url_attribute" : [
             null
          ]
       },
-      "re" : "^\\s*(http.+)",
       "groupName" : "URLS",
+      "re" : "^\\s*(http.+)",
       "dresser" : {
          "url_attribute" : [
             " (",
@@ -34,34 +102,34 @@
             "",
             ""
          ]
-      },
-      "order" : "1.1.1.1.2"
+      }
    },
-   "title" : {
+   "author" : {
+      "order" : "1.1",
       "dresser" : {
-         "title_attribute" : [
+         "author_attribute" : [
             " (",
             ")"
          ],
-         "title" : [
-            ">",
+         "author" : [
+            "--------------------------------------------------------------------------------------------------------------\nBy ",
             "",
             "",
             "",
-            ""
+            "",
+            1,
+            3
          ]
       },
-      "groupName" : "STORIES",
-      "order" : "1.1.1.1",
       "attributes" : {
-         "title_attribute" : [
+         "author_attribute" : [
             null
          ]
       },
-      "re" : "^\\s*>\\s*(.*)"
+      "re" : "^\\s*[Bb]y\\s+(.*)",
+      "groupName" : "AUTHORS"
    },
    "section" : {
-      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
       "order" : "1",
       "preserve" : [
          [
@@ -83,105 +151,48 @@
             "miss"
          ]
       },
-      "groupName" : "SECTIONS"
+      "groupName" : "SECTIONS",
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+"
    },
-   "series" : {
+   "description" : {
+      "order" : "1.1.1.1.3",
+      "groupName" : "DESCRIPTIONS",
+      "re" : "^\\s*#(.*)",
       "dresser" : {
-         "series" : [
-            "===== ",
-            " ====="
-         ]
-      },
-      "groupName" : "SERIES",
-      "order" : "1.1.1",
-      "container" : "1",
-      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+"
-   },
-   "author" : {
-      "order" : "1.1",
-      "dresser" : {
-         "author_attribute" : [
-            " (",
-            ")"
-         ],
-         "author" : [
-            "--------------------------------------------------------------------------------------------------------------\nBy ",
-            "",
-            "",
-            "",
-            "",
-            1,
-            3
-         ]
-      },
-      "groupName" : "AUTHORS",
-      "re" : "^\\s*[Bb]y\\s+(.*)",
-      "attributes" : {
-         "author_attribute" : [
-            null
-         ]
-      }
-   },
-   "tags" : {
-      "partion" : "1",
-      "dresser" : {
-         "ops" : [
-            "",
-            "",
-            "",
-            "",
+         "description" : [
+            "#",
             ""
-         ],
-         "anthro" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
-         ],
-         "general" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
          ]
       },
-      "order" : "1.1.1.1.1",
-      "scalar" : "1",
-      "groupName" : "TAGS",
-      "attributes" : {
-         "ops" : [
-            null,
-            3,
-            [
-               ""
-            ]
-         ],
-         "anthro" : [
-            null,
-            1,
-            [
-               ";",
-               ","
-            ]
-         ],
-         "general" : [
-            null,
-            2,
-            [
-               ";",
-               ","
-            ]
-         ]
-      },
-      "re" : "^\\s*(\\[.*)"
+      "scalar" : "1"
    },
    "NULL" : {
       "dresser" : null
    },
+   "title" : {
+      "attributes" : {
+         "title_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "STORIES",
+      "re" : "^\\s*>\\s*(.*)",
+      "dresser" : {
+         "title_attribute" : [
+            " (",
+            ")"
+         ],
+         "title" : [
+            ">",
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      "order" : "1.1.1.1"
+   },
    "miss" : {
-      "groupName" : "miss",
       "dresser" : {
          "miss" : [
             "",
@@ -194,18 +205,7 @@
             "section"
          ]
       },
+      "groupName" : "miss",
       "order" : "-1"
-   },
-   "description" : {
-      "scalar" : "1",
-      "re" : "^\\s*#(.*)",
-      "dresser" : {
-         "description" : [
-            "#",
-            ""
-         ]
-      },
-      "groupName" : "DESCRIPTIONS",
-      "order" : "1.1.1.1.3"
    }
 }
