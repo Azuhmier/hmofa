@@ -25,79 +25,79 @@ use Data::Dumper;
 # MAIN {{{1
 #------------------------------------------------------
 {
-    # OPTS {{{
-        my $opts = genOpts({
-            ## Processes
-            all      => [1,0],
-            leveler  => [1,0],
-            divy     => [1,0],
-            attribs  => [1,0],
-            delims   => [1,0],
-            encode   => [1,0],
-            write    => [1,0],
-            delegate => [1,0],
-
-            ## STDOUT
-            verbose  => 1,
-            display  => 0,
-            lineNums => 0,
-
-            ## MISC
-            sort    => 1,
-        });
+    ## OPTS {{{
+    #    my $opts = genOpts({
+    #        ## Processes
+    #        all      => [1,0],
+    #        leveler  => [1,1],
+    #        divy     => [1,0],
+    #        attribs  => [1,0],
+    #        delims   => [1,0],
+    #        encode   => [1,0],
+    #        write    => [1,0],
+    #        delegate => [1,0],
+    #
+    #        ## STDOUT
+    #        verbose  => 1,
+    #        display  => 0,
+    #        lineNums => 0,
+    #
+    #        ## MISC
+    #        sort    => 1,
+    #    });
     my $opts2 = genOpts2({
         ## Processes
-        combine  => [1,2,1,1,1],
+        combine  => [1,1,1,1,1],
         encode   => [1,0],
         write    => [1,0],
         delegate => [1,0],
 
         ## STDOUT
-        verbose  => 0,
+        verbose  => 1,
 
         ## MISC
         sort    => 1,
     });
     #}}}
 
-    # DELEGATES {{{
-    # masterbin
-        delegate({
-            opts => $opts,
-            name => 'masterbin',
-            preserve => {
-                libName => [
-                    ['',[0]],
-                ],
-                section => [
-                    ['FOREWORD',[1]],
-                ],
-            },
-            fileNames => {
-                fname  => '../masterbin.txt',
-                output => './json/masterbin.json',
-                dspt   => './json/deimos.json',
-            },
-        });
-
-        ## tagCatalog
-        delegate({
-            opts => $opts,
-            name => 'catalog',
-            preserve => {
-                libName => [
-                    ['',[0]],
-                ],
-                section => [
-                    ['Introduction/Key',[1,1,1]],
-                ],
-            },
-            fileNames => {
-                fname  => '../tagCatalog.txt',
-                output => './json/catalog.json',
-                dspt   => './json/deimos.json',
-            },
-        });
+    ## DELEGATES {{{
+    ## masterbin
+    #    delegate({
+    #        opts => $opts,
+    #        name => 'masterbin',
+    #        preserve => {
+    #            libName => [
+    #                ['',[0]],
+    #            ],
+    #            section => [
+    #                ['FOREWORD',[1]],
+    #            ],
+    #        },
+    #        fileNames => {
+    #            fname  => '../masterbin.txt',
+    #            output => './json/masterbin.json',
+    #            dspt   => './json/deimos.json',
+    #        },
+    #    });
+    #
+    #    ## tagCatalog
+    #    delegate({
+    #        opts => $opts,
+    #        name => 'catalog',
+    #        preserve => {
+    #            libName => [
+    #                ['',[0]],
+    #            ],
+    #            section => [
+    #                ['Introduction/Key',[1,1,1]],
+    #            ],
+    #        },
+    #        fileNames => {
+    #            fname  => '../tagCatalog.txt',
+    #            output => './json/catalog.json',
+    #            dspt   => './json/deimos.json',
+    #        },
+    #    });
 
      delegate2({
          opts => $opts2,
@@ -1285,7 +1285,6 @@ sub delegate2 {
         my $catalog_contents = dclone($catalog);
         $catalog             = {};
         $catalog->{contents} = $catalog_contents;
-        $catalog->{contents}->{libName} = 'hmofa_lib';
         $catalog->{reff}     = $catalog;
         #$catalog->{contents}->{libName}  = 'catalog';
         delete $catalog->{contents}->{section};
@@ -1294,7 +1293,6 @@ sub delegate2 {
         my $masterbin_contents = dclone($masterbin);
         $masterbin             = {};
         $masterbin->{contents} = $masterbin_contents;
-        $masterbin->{contents}->{libName} = 'hmofa_lib';
         $masterbin->{reff}     = $masterbin;
         #$catalog->{contents}->{libName}  = 'masterbin';
         delete $masterbin->{contents}->{section};
@@ -1357,22 +1355,19 @@ sub delegate2 {
 #===| init2() {{{2
 sub init2 {
     my $db = shift @_;
-    unless (exists $db->{debug})        {$db->{debug} = []}
+    unless (exists $db->{debug}) {$db->{debug} = []}
         else {warn "WARNING!: 'debug' is already defined by user!"}
-    unless (exists $db->{meta})         {$db->{meta} = {}}
+    unless (exists $db->{meta}) {$db->{meta} = {}}
         else {warn "WARNING!: 'meta' is already defined by user!"}
-    unless ($db->{fileNames}->{dspt}) {die "User did not provide filename for 'dspt'!"}
-        genReservedKeys($db);
-        genDspt($db);
-        validate_Dspt($db);
-        #$db->{dspt} = getJson($db->{fileNames}->{dspt});
     $db->{hash} = [ map { getJson($_) } $db->{fileNames}->{fname}->@* ];
+    $db->{dspt} = getJson($db->{fileNames}->{dspt});
     $db->{external} = {
         map {
           $_ =~ m/(\w+)\.json$/;
           $1 => getJson($_);
         } $db->{fileNames}->{external}->@*
     };
+    validate_Dspt( $db );
     return $db;
 }
 
@@ -1381,103 +1376,104 @@ sub init2 {
 sub combine {
 
     my ($db, $hash_0, $hash_1) = @_;
-    $db->{pointer} = [0] unless (exists $db->{pointer});
     $db->{reff_0}  = [ $hash_0->{contents} ]; my $reff_0 = $db->{reff_0};
     $db->{reff_1}  = [ $hash_1->{contents} ]; my $reff_1 = $db->{reff_1};
+    $db->{pointer} = [0] unless (exists $db->{pointer});
     $db->{hook}    = [];
+    $db->{pointy}  = [];
 
 
     # ===|| preprocess->() {{{3
     my $preprocess = sub {
 
-        my $pointer  = $db->{pointer};
-        my @children = @_;
-        my $lvl      = $Data::Walk::depth - 2;
-        my $type     = $Data::Walk::type;
-        my $cmbOpts  = $db->{opts}->{combine};
+        my @children   = @_;
+        my $cmbOpts    = $db->{opts}->{combine};
+        my $lvl        = $Data::Walk::depth - 2;
+        my $type       = $Data::Walk::type;
+        my $pointer    = $db->{pointer};
 
         ## Pre HASH
         if ($type eq 'HASH') {
 
-            $pointer->[$lvl]            = (exists $pointer->[$lvl] and $lvl != -1) ? ++$pointer->[$lvl]
-                                                                                   : 0;
+            $pointer->[$lvl]            = (exists $pointer->[$lvl]) ? ++$pointer->[$lvl] : 0;
             my $lvlPoint                = \$pointer->[$lvl];
-            my $index                   = $$lvlPoint;
             my ($lvlReff_0, $lvlReff_1) = ($reff_0->[$lvl], $reff_1->[$lvl]);
 
-            ## Configure lvlHashes
-            #     'Pre ARRAY' executes before 'Pre HASH'; thus all hashes
-            #     encountered should have identical lvlObjs. Only exception
-            #     is for top object. They must be specfied correctly before
-            #     starting the combine subroutine.
-            my ($lvlHash_0, $lvlHash_1, $lvlObj) = (undef, undef, undef);
-            if (ref $lvlReff_1 eq 'ARRAY') {
-                $lvlHash_0    = $lvlReff_0->[$index];
-                $lvlObj  = getLvlObj($db, $lvlHash_0); die unless $lvlObj;
-                $lvlHash_1    = $lvlReff_1->[$index];
-                ## Debug {{{
-                mes("\nPRE $lvlObj-$type $lvl $index", $db,[-1]);
-                mes(" PointStr: ".join('.', @$pointer), $db);
-                mes("lvlReff_0: $lvlReff_0 ($lvl, ".($index).")", $db);
-                mes("lvlHash_0: $lvlHash_0", $db);
-                mes("lvlReff_1: $lvlReff_1 ($lvl, ".($index).")", $db);
-                mes("lvlHash_1: $lvlHash_1", $db);
-                mes("    obj_0: $lvlObj - $lvlHash_0->{$lvlObj}", $db);
-                mes("    obj_1: $lvlObj - $lvlHash_1->{$lvlObj}", $db);
-                # }}}
-            } else {
-                $lvlHash_0    = $lvlReff_0;
-                $lvlObj  = getLvlObj($db, $lvlHash_0); die unless $lvlObj;
-                $lvlHash_1    = $lvlReff_1;
-                ## Debug {{{
-                mes("\nPRE $lvlObj-$type $lvl $index", $db,[-1]);
-                mes(" PointStr: ".join('.', @$pointer), $db);
-                mes("lvlReff_0: $lvlReff_0 ($lvl, ".($index).")", $db);
-                mes("lvlHash_0: $lvlHash_0", $db);
-                mes("lvlReff_1: $lvlReff_1 ($lvl, ".($index).")", $db);
-                mes("lvlHash_1: $lvlHash_1", $db);
-                mes("    obj_0: $lvlObj - $lvlHash_0->{$lvlObj}", $db);
-                mes("    obj_1: $lvlObj - $lvlHash_1->{$lvlObj}", $db);
-                # }}}
+            ## Convert Array to Hash
+            my ($hash_0, $cnt) = (undef, 0);
+            for my $part (@children) {
+                if ($cnt & 1) {$hash_0->{$children[$cnt-1]} = $part}
+                $cnt++;
             }
 
+            my $lvlObj_0  = getLvlObj($db, $hash_0);
+            my $index = $$lvlPoint;
+            my $vaar  = scalar @$pointer ? (scalar @$pointer) - 1 : 0;
+
+            ## Debug {{{
+            #push $db->{pointy}->@*, mes("\nPRE ".$lvlObj_0."-".$type." ".$vaar." $index", $db,[-1,1,1]);
+            mes("\nPRE ".$lvlObj_0."-".$type." ".$vaar." $index", $db,[-1]);
+            mes(" PointStr: ".join('.', @$pointer), $db);
+            # }}}
+
+            my $hash_1 = $lvlReff_1; if (ref $lvlReff_1 eq 'ARRAY') {
+                my $lvlObj_1 = (exists $lvlReff_1->[$index]->{$lvlObj_0}) ? $lvlObj_0 : ' ';
+                $hash_1   = $lvlReff_1->[$index];
+                $lvlReff_0->[$index] = $hash_0;
+
+                ## Debug {{{
+                #mes("lvlReff_0: ($lvl, $index) $lvlReff_0->[$index]", $db);
+                #mes("lvlReff_1: ($lvl, $index) $lvlReff_1->[$index]", $db);
+                #mes("   hash_0: $hash_0",              $db);
+                #mes("   hash_1: $hash_1",              $db);
+                #mes(" lvlObj_0: $lvlObj_0",            $db);
+                mes("    obj_0: $lvlObj_0",            $db);
+                mes("    obj_1: $lvlObj_1",            $db);
+                mes("   item_0: $hash_0->{$lvlObj_0}", $db);
+                mes("   item_1: $hash_1->{$lvlObj_0}", $db);
+                # }}}
+
+            }
 
             ## COMBINE KEYS
-            my @keys_0 = sort {lc $a cmp lc $b} keys %$lvlHash_0;
-            my @keys_1 = sort {lc $a cmp lc $b} keys %$lvlHash_1;
+            my @keys_0 = sort {lc $a cmp lc $b} keys %$hash_0;
+            my @keys_1 = sort {lc $a cmp lc $b} keys %$hash_1;
             while (scalar @keys_0 or scalar @keys_1) {
                 my $key_0 = $keys_0[0];
                 my $key_1 = $keys_1[0];
                 my $bool  = lc $key_0 cmp lc $key_1;
                 if ( (!$key_0 || ( $bool and $bool != -1)) and $key_1 ) {
                     unshift @keys_0, $key_1;
-                    $lvlHash_0->{$key_1} = $lvlHash_1->{$key_1};
+                    $hash_0->{$key_1} = $hash_1->{$key_1};
                 } elsif ( (!$key_1 || ( $bool == -1)) and $key_0 ) {
                     unshift @keys_1, $key_0;
-                    $lvlHash_1->{$key_0} = $lvlHash_0->{$key_0};
+                    $hash_1->{$key_0} = $hash_0->{$key_0};
                 } else {
                     shift @keys_0;
                     shift @keys_1;
                 }
                 ## Debug {{{
+                #mes($hash_0->{$key_0}->[0]->{url},$db) if $key_0 eq 'URLS';
+                #mes($hash_1->{$key_1}->[0]->{url},$db) if $key_1 eq 'URLS';
                 mes("    ------------",              $db,[2],$cmbOpts->[1] == 2);
-                mes("    key_0: $key_0 - $lvlHash_0->{$key_0}", $db,[2],$cmbOpts->[1] == 2);
-                mes("    key_1: $key_1 - $lvlHash_1->{$key_1}", $db,[2],$cmbOpts->[1] == 2);
+                mes("     key_0: $key_0",            $db,[2],$cmbOpts->[1] == 2);
+                mes("     key_1: $key_1",            $db,[2],$cmbOpts->[1] == 2);
+                mes("    item_0: $hash_0->{$key_0}", $db,[2],$cmbOpts->[1] == 2);
+                mes("    item_1: $hash_1->{$key_1}", $db,[2],$cmbOpts->[1] == 2);
                 # }}}
             }
 
             # convert hash back into array
             undef @children;
-            for my $key (sort keys %$lvlHash_0) {
-                push @children, ($key, $lvlHash_0->{$key});
+            for my $key (sort keys %$hash_0) {
+                push @children, ($key, $hash_0->{$key});
             }
             return @children;
 
         ## Pre ARRAY
         } elsif ($type eq 'ARRAY') {
 
-            my $lvlPoint = \$pointer->[$lvl];
-            my $index = $$lvlPoint;
+            my $index = $pointer->[$lvl];
 
             ##
             my $lvlReff_0 = $reff_0->[$lvl+1];
@@ -1503,10 +1499,11 @@ sub combine {
             my $obj = getLvlObj($db, $children[0]);
 
             ## Debug {{{
-            mes("\nPRE ".getGroupName($db,$obj)."-".$type." ".($lvl+1)." $index",$db,[-1]);
+            mes("\nPRE ".getGroupName($db,$obj)."-".$type." ".( (scalar @$pointer) ? (scalar @$pointer)-1 : 0)." $index",$db,[-1]);
+            #push $db->{pointy}->@*, mes("\nPRE ".getGroupName($db,$obj)."-".$type." ".( (scalar @$pointer) ? (scalar @$pointer)-1 : 0)." $index",$db,[-1,1,1]);
             mes(" PointStr: ".join('.', @$pointer),$db);
-            mes("lvlReff_0: $lvlReff_0 (".($lvl+1).", ".($index).")", $db);
-            mes("lvlReff_1: $lvlReff_1 (".($lvl+1).", ".($index).")", $db);
+            #mes($hash_1->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS}->[0]->{url}."k",$db,[0,0,0]);
+            #pop $db->{debug}->@*;
             # }}}
 
             ## objArray
@@ -1599,21 +1596,22 @@ sub combine {
     # ===|| wanted->() {{{3
     my $wanted = sub {
 
-        my $pointer = $db->{pointer};
-        my $item    = $_;
+        my $item  = $_;
+        my $type  = $Data::Walk::type;
+        my $index = $Data::Walk::index;
         my $lvl     = $Data::Walk::depth-2;
-        my $index   = $Data::Walk::index;
-        my $type    = $Data::Walk::type;
-        my $cmbOpts = $db->{opts}->{combine};
+        my $cmbOpts   = $db->{opts}->{combine};
 
         unless ($lvl == -1) {
 
-            my $prior_lvl = (scalar @$pointer)-1;
+            my $prior_lvl = ( scalar $db->{pointer}->@* ) - 1;
+            my $pointer   = $db->{pointer};
+            my $lvlReff_0 = $reff_0->[$lvl];
+            my $lvlReff_1 = $reff_1->[$lvl];
+
             if ($prior_lvl > $lvl) {
                 pop @$pointer for ( 0 .. ($prior_lvl - $lvl) );
             }
-            my $lvlReff_0 = $reff_0->[$lvl];
-            my $lvlReff_1 = $reff_1->[$lvl];
 
             ## HASH
             if ($type eq 'HASH') {
@@ -1630,10 +1628,11 @@ sub combine {
 
                     ## Debug {{{
                     mes("\nWANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],$db,[-1],$cmbOpts->[2]);
+                    #push $db->{pointy}->@*, mes("\nWANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],$db,[-1,1,1],$cmbOpts->[2]);
                     mes(" PointStr: ".join('.', @$pointer),$db,[0],$cmbOpts->[2]);
-                    mes("lvlReff_0: $lvlReff_0 ($lvl, ".($index/2).")" , $db,[0],$cmbOpts->[2]);
-                    mes("lvlReff_1: $lvlReff_1 ($lvl, ".($index/2).")" , $db,[0],$cmbOpts->[2]);
-                    mes("      obj: $obj_0",     $db,[0],$cmbOpts->[2]);
+                    #mes("lvlReff_0: ($lvl, ".($index/2).") $lvlReff_0", $db,[0],$cmbOpts->[2]);
+                    #mes("lvlReff_1: ($lvl, ".($index/2).") $lvlReff_1", $db,[0],$cmbOpts->[2]);
+                    mes("    obj_0: $obj_0",     $db,[0],$cmbOpts->[2]);
                     mes("   item_0: $item_0",    $db,[0],$cmbOpts->[2]);
                     mes("   item_1: $item_1",    $db,[0],$cmbOpts->[2]);
                     #mes(" lvlObj_0: $lvlObj_0",  $db,[0],$cmbOpts->[2]);
@@ -1667,17 +1666,18 @@ sub combine {
                 my $lvlObj_1     = getLvlObj($db, $lvlReff_1->[$index]);
                 my $lvlItem_0    = $lvlObj_0 ? $lvlReff_0->[$index]->{$lvlObj_0} : undef;
                 my $lvlItem_1    = $lvlObj_1 ? $lvlReff_1->[$index]->{$lvlObj_1} : undef;
-                my $groupName    = getGroupName($db, $lvlObj_0);
 
                 ## Debug {{{
-                mes("\nWANT $lvlObj_0 $index in $groupName-$type $lvl $index", $db,[-1],$cmbOpts->[2]);
-                mes(" PointStr: ".join('.', @$pointer), $db,[0],$cmbOpts->[2]);
-                mes("lvlReff_0: $lvlReff_0 ($lvl, ".($index).")", $db,[0],$cmbOpts->[2]);
-                mes("lvlReff_1: $lvlReff_1 ($lvl, ".($index).")", $db,[0],$cmbOpts->[2]);
-                mes("    Obj: $lvlObj_0",  $db,[0],$cmbOpts->[2]);
-                #mes("    Obj_1: $lvlObj_1",  $db,[0],$cmbOpts->[2]);
-                mes("   item_0: $lvlItem_0", $db,[0],$cmbOpts->[2]);
-                mes("   item_1: $lvlItem_1", $db,[0],$cmbOpts->[2]);
+                mes("\nWANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index", $db,[-1],$cmbOpts->[2]);
+                #push $db->{pointy}->@*, mes("\nWANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index", $db,[-1,1,1],$cmbOpts->[2]);
+                mes("  PointStr: ".join('.', @$pointer), $db,[0],$cmbOpts->[2]);
+                mes(" lvlReff_0: ($lvl, $index) $lvlReff_0->[$index]",$db,[0],$cmbOpts->[2]);
+                mes(" lvlReff_1: ($lvl, $index) $lvlReff_1->[$index]",$db,[0],$cmbOpts->[2]);
+                #mes("      hash: $hash",      $db,[0],$cmbOpts->[2]);
+                mes("  Obj_0: $lvlObj_0",  $db,[0],$cmbOpts->[2]);
+                mes("  Obj_1: $lvlObj_1",  $db,[0],$cmbOpts->[2]);
+                mes(" item_0: $lvlItem_0", $db,[0],$cmbOpts->[2]);
+                mes(" item_1: $lvlItem_1", $db,[0],$cmbOpts->[2]);
                 # }}}
 
                 ## CHECKS
@@ -1807,7 +1807,7 @@ sub cmpKeys {
         }
 
         ## INVALID KEY
-        else { die "Invalid Key: $key." }
+        else {die "Invalid Key: $key."}
     }
 }
 
