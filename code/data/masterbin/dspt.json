@@ -1,15 +1,42 @@
 {
-   "series" : {
-      "order" : "1.1.1",
-      "container" : "1",
-      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
-      "groupName" : "SERIES",
+   "title" : {
+      "re" : "^\\s*>\\s*(.*)",
+      "groupName" : "STORIES",
+      "order" : "1.1.1.1",
       "dresser" : {
-         "series" : [
-            "===== ",
-            " ====="
+         "title" : [
+            ">",
+            "",
+            "",
+            "",
+            ""
+         ],
+         "title_attribute" : [
+            " (",
+            ")"
+         ]
+      },
+      "attributes" : {
+         "title_attribute" : [
+            null
          ]
       }
+   },
+   "miss" : {
+      "dresser" : {
+         "miss" : [
+            "",
+            "",
+            "",
+            "",
+            "",
+            1,
+            1,
+            "section"
+         ]
+      },
+      "groupName" : "miss",
+      "order" : "-1"
    },
    "libName" : {
       "dresser" : {
@@ -18,6 +45,8 @@
             ""
          ]
       },
+      "groupName" : "LIBS",
+      "order" : "0",
       "preserve" : [
          [
             "",
@@ -25,87 +54,29 @@
                0
             ]
          ]
-      ],
-      "groupName" : "LIBS",
-      "order" : "0"
-   },
-   "tags" : {
-      "order" : "1.1.1.1.1",
-      "dresser" : {
-         "ops" : [
-            "",
-            "",
-            "",
-            "",
-            ""
-         ],
-         "anthro" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
-         ],
-         "general" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
-         ]
-      },
-      "scalar" : "1",
-      "groupName" : "TAGS",
-      "partion" : "1",
-      "attributes" : {
-         "ops" : [
-            null,
-            3,
-            [
-               ""
-            ]
-         ],
-         "general" : [
-            null,
-            2,
-            [
-               ";",
-               ","
-            ]
-         ],
-         "anthro" : [
-            null,
-            1,
-            [
-               ";",
-               ","
-            ]
-         ]
-      },
-      "re" : "^\\s*(\\[.*)"
+      ]
    },
    "url" : {
-      "order" : "1.1.1.1.2",
       "attributes" : {
          "url_attribute" : [
             null
          ]
       },
-      "groupName" : "URLS",
-      "re" : "^\\s*(http.+)",
       "dresser" : {
-         "url_attribute" : [
-            " (",
-            ")"
-         ],
          "url" : [
             "",
             ""
+         ],
+         "url_attribute" : [
+            " (",
+            ")"
          ]
-      }
+      },
+      "groupName" : "URLS",
+      "order" : "1.1.1.1.2",
+      "re" : "^\\s*(http.+)"
    },
    "author" : {
-      "order" : "1.1",
       "dresser" : {
          "author_attribute" : [
             " (",
@@ -127,10 +98,37 @@
          ]
       },
       "re" : "^\\s*[Bb]y\\s+(.*)",
-      "groupName" : "AUTHORS"
+      "groupName" : "AUTHORS",
+      "order" : "1.1"
+   },
+   "description" : {
+      "scalar" : "1",
+      "groupName" : "DESCRIPTIONS",
+      "order" : "1.1.1.1.3",
+      "re" : "^\\s*#(.*)",
+      "dresser" : {
+         "description" : [
+            "#",
+            ""
+         ]
+      }
+   },
+   "series" : {
+      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+      "container" : "1",
+      "groupName" : "SERIES",
+      "order" : "1.1.1",
+      "dresser" : {
+         "series" : [
+            "===== ",
+            " ====="
+         ]
+      }
+   },
+   "NULL" : {
+      "dresser" : null
    },
    "section" : {
-      "order" : "1",
       "preserve" : [
          [
             "FOREWORD",
@@ -139,6 +137,9 @@
             ]
          ]
       ],
+      "order" : "1",
+      "groupName" : "SECTIONS",
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
       "dresser" : {
          "section" : [
             "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
@@ -150,62 +151,61 @@
             2,
             "miss"
          ]
-      },
-      "groupName" : "SECTIONS",
-      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+"
+      }
    },
-   "description" : {
-      "order" : "1.1.1.1.3",
-      "groupName" : "DESCRIPTIONS",
-      "re" : "^\\s*#(.*)",
-      "dresser" : {
-         "description" : [
-            "#",
-            ""
-         ]
-      },
-      "scalar" : "1"
-   },
-   "NULL" : {
-      "dresser" : null
-   },
-   "title" : {
+   "tags" : {
+      "order" : "1.1.1.1.1",
       "attributes" : {
-         "title_attribute" : [
-            null
+         "general" : [
+            null,
+            2,
+            [
+               ";",
+               ","
+            ]
+         ],
+         "anthro" : [
+            null,
+            1,
+            [
+               ";",
+               ","
+            ]
+         ],
+         "ops" : [
+            null,
+            3,
+            [
+               ""
+            ]
          ]
       },
-      "groupName" : "STORIES",
-      "re" : "^\\s*>\\s*(.*)",
       "dresser" : {
-         "title_attribute" : [
-            " (",
-            ")"
+         "anthro" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
          ],
-         "title" : [
-            ">",
+         "ops" : [
+            "",
             "",
             "",
             "",
             ""
+         ],
+         "general" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
          ]
       },
-      "order" : "1.1.1.1"
-   },
-   "miss" : {
-      "dresser" : {
-         "miss" : [
-            "",
-            "",
-            "",
-            "",
-            "",
-            1,
-            1,
-            "section"
-         ]
-      },
-      "groupName" : "miss",
-      "order" : "-1"
+      "scalar" : "1",
+      "groupName" : "TAGS",
+      "partion" : "1",
+      "re" : "^\\s*(\\[.*)"
    }
 }
