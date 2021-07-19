@@ -54,9 +54,12 @@ PYTHON
   curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
   sudo python2 get-pip.py
   /usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
-GoogleDocApis
+
+PERL DEBUGGER
+  perl
 
 Misc
+  perl -de1 (interactive perl console)
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
   problemo
      'TAGS' => [

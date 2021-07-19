@@ -187,9 +187,8 @@ sub delegate2 {
     walkdepth { wanted => $walker2}, $catalog->{contents};
     sortHash($db, $catalog);
     sortHash($db, $masterbin);
-    #print "kkkkkkk\n";
+    print "kkkkkkkkk\n";
     combine($db, $masterbin, $catalog );
-
     return $db;
 }
 
@@ -232,24 +231,21 @@ sub combine {
         my $lvl        = $Data::Walk::depth - 2;
         my $type       = $Data::Walk::type;
         my $pointer    = $db->{pointer};
+        for my $ref (@children) {
+            print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+            print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+        }
 
-        #print $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS}->[1]->{url}, "\n";
-        #print $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2], "\n";
-        unless (exists $db->{fucker}) {
-          $db->{fucker} = $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2];
-          #print $db->{fucker}, "!!!!!!!!!!\n";
-        }
-        if ($hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2] ne $db->{fucker}) {
-            $db->{fucker} = $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2];
-            #print $db->{fucker}, "!!!!!!!!!!\n";
-        }
-        #print Dumper($hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS});
         ## Pre HASH
         if ($type eq 'HASH') {
 
             $pointer->[$lvl]            = (exists $pointer->[$lvl]) ? ++$pointer->[$lvl] : 0;
             my $lvlPoint                = \$pointer->[$lvl];
             my ($lvlReff_0, $lvlReff_1) = ($reff_0->[$lvl], $reff_1->[$lvl]);
+            for my $ref (@children) {
+                print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+            }
 
             ## Convert Array to Hash
             my ($hash_0, $cnt) = (undef, 0);
@@ -307,22 +303,26 @@ sub combine {
             }
 
             # convert hash back into array
+            #print $db->{fucker5},"\n" if exists $db->{fucker5} and $db->{fucker5};
+            #undef $db->{fucker5};
+            for my $ref (@children) {
+                print "$ref ".__LINE__."\n" if "$ref" eq $db->{fucker3};
+            }
             undef @children;
+            for my $ref (@children) {
+                print "$ref ".__LINE__."\n" if "$ref" eq $db->{fucker3};
+            }
             for my $key (sort keys %$hash_0) {
                 push @children, ($key, $hash_0->{$key});
             }
-            #if ( (join '.', $db->{pointer}->@*) eq '0.175.0.22.3') {
-            #    print "    PRE ".$lvlObj_0."-".$type." ".$lvl." $index","\n";
-            #    print "        PointStr: ".join('.', @$pointer)."\n";;
-            #}
-            #if ( (join '.', $db->{pointer}->@*) eq '0.176.0.2.2') {
-            #    print "    PRE ".$lvlObj_0."-".$type." ".$lvl." $index","\n";
-            #    print "        PointStr: ".join('.', @$pointer)."\n";;
-            #}
             return @children;
 
         ## Pre ARRAY
         } elsif ($type eq 'ARRAY') {
+            for my $ref (@children) {
+                print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+            }
             my $index = $pointer->[$lvl];
             my $flaggot;
             if ( (join '.', $db->{pointer}->@*) eq '0.176.0') {
@@ -361,23 +361,20 @@ sub combine {
             if ($obj) {
 
                 mes(" PointStr: ".join('.', @$pointer),$db,[0],1,$flaggot) if $flaggot;
-                #print "    $db->{fucker2}\n" if $flaggot;
-                #print "    $db->{fucker3}\n" if $flaggot;
-                #print "    $db->{fucker4}\n" if $flaggot;
                 print "    PRE ".getGroupName($db,$obj)."-"."$type $lvl  $index","\n" if $flaggot;
                 my @objArray_0 =  sort {$a->{$obj} cmp $b->{$obj} } @{dclone(\@children)};
                 my @objArray_1 =  sort {$a->{$obj} cmp $b->{$obj} } @{dclone(\@$lvlReff_1)};
-                print "        PointStr: ".join('.', @$pointer)."\n" if $flaggot;
-                print "        BALL\n" if $flaggot;
                 if ($flaggot) {
+                    print "        PointStr: ".join('.', @$pointer)."\n";
+                    print "        BALL\n";
                     for my $hash (@children) {
                       if ($hash->{title} =~ 'Ball') { print "        $hash ()()()\n"}
                     }
-                }
-                if ($flaggot) {
                     for my $hash (@objArray_0) {
                       if ($hash->{title} =~ 'Ball') { print "        $hash )()()(\n"}
                     }
+                    print "        $db->{fucker3}\n";
+                    print "        $db->{fucker4}\n";
                 }
                 @children      = ();
                 @$lvlReff_1    = ();
@@ -405,8 +402,6 @@ sub combine {
                             die;
                         }
                     }
-                    #if ($objHash_0->{title} =~ 'Ball'and $flaggot) { print "        $objHash_0 %%\n"}
-                    #if ($objHash_1->{title} =~ 'Ball'and $flaggot) { print "        $objHash_1 %%\n"}
                     mes("-----------",          $db,[2],$cmbOpts->[1] == 2);
                     mes("     item_0: $item_0", $db,[2],$cmbOpts->[1] == 2);
                     mes("     item_1: $item_1", $db,[2],$cmbOpts->[1] == 2);
@@ -416,8 +411,16 @@ sub combine {
             } else {
                 my @array_0 = sort {lc $a cmp lc $b} @{dclone(\@children)};
                 my @array_1 = sort {lc $a cmp lc $b} @{dclone(\@{$lvlReff_1})};
+                for my $ref (@children) {
+                    print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                    print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+                }
                 @children   = ();
                 @$lvlReff_1 = ();
+                for my $ref (@children) {
+                    print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                    print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+                }
 
                 while (scalar @array_0 or scalar @array_1) {
                     my $part_0 = $array_0[0];
@@ -439,6 +442,10 @@ sub combine {
 
             ## Debug {{{
             my $cnt = 0;
+            for my $ref (@children) {
+                print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
+            }
             for my $part (@children) {
                 my $obj_0  = getLvlObj($db, $part);
                 my $obj_1  = getLvlObj($db, $lvlReff_1->[$cnt]);
@@ -457,32 +464,25 @@ sub combine {
             }
             # }}}
 
-            #print "        $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]\n" if $flaggot;
             @$lvlReff_0 = @children;
-            #print "        $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]\n" if $flaggot;
             if ( (join '.', $db->{pointer}->@*) eq '0.175.0') {
                 print "    PRE ".getGroupName($db,$obj)."-"."$type $lvl  $index","\n";
                 print "        PointStr: ".join('.', @$pointer)."\n";;
                 print "        COYOTE\n";
                 for my $hash (@children) {
                   if ($hash->{title} =~ 'Coyote') {
+                      my $var = $hhash_0->{contents}->{AUTHORS}->[175]->{STORIES}->[22];
                       print "        $hash\n";
-                      #$db->{fucker2} = $hash;
-                      $db->{fucker4} = Scalar::Util::refaddr($hash);
+                      print "        $var\n";
                       $db->{fucker3} = "$hash";
+                      $db->{fucker4} = Scalar::Util::refaddr($hash);
+                      $db->{fucker5} = $hash;
                   }
                 }
             }
-            if ( (join '.', $db->{pointer}->@*) eq '0.176.0') {
-                #print "    PRE ".getGroupName($db,$obj)."-"."$type $lvl  $index","\n";
-                #print "        $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]\n" if $flaggot;
-                #for my $hash (@children) {
-                #  if ($hash->{title} =~ 'Ball') { print "        $hash\n"}
-                #}
-            }
-            if ( (join '.', $db->{pointer}->@*) eq '0.175.0.22.3') {
-                print "    PRE ".getGroupName($db,$obj)."-"."$type $lvl  $index","\n";
-                print "        PointStr: ".join('.', @$pointer)."\n";;
+            for my $ref (@children) {
+                print "$ref ".__LINE__." " if "$ref" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$ref" eq $db->{fucker3};
             }
             return @children;
         } else { return @_ }
@@ -492,8 +492,6 @@ sub combine {
     # ===|| wanted->() {{{3
     my $wanted = sub {
 
-        #print $hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS}->[1]->{url}, "\n";
-        #print Dumper($hhash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS});
         my $item    = $_;
         my $type    = $Data::Walk::type;
         my $index   = $Data::Walk::index;
@@ -506,6 +504,8 @@ sub combine {
             my $pointer   = $db->{pointer};
             my $lvlReff_0 = $reff_0->[$lvl];
             my $lvlReff_1 = $reff_1->[$lvl];
+            print "$item ".__LINE__." " if "$item" eq $db->{fucker3};
+            print join('.', @$pointer)."\n" if "$item" eq $db->{fucker3};
 
             if ($prior_lvl > $lvl) {
                 pop @$pointer for ( 0 .. ($prior_lvl - $lvl) );
@@ -523,18 +523,6 @@ sub combine {
                     my $lvlObj_1  = getLvlObj($db, $lvlReff_1);
                     my $lvlItem_0 = $lvlReff_0->{$lvlObj_0};
                     my $lvlItem_1 = $lvlReff_1->{$lvlObj_1};
-                    #if ( (join '.', $db->{pointer}->@*) eq '0.175.0.22.3') {
-                    #    print "    WANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],"\n";
-                    #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                    #}
-                    #if ( (join '.', $db->{pointer}->@*) eq '0.176.1') {
-                    #    print "    WANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],"\n";
-                    #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                    #}
-                    #if ( (join '.', $db->{pointer}->@*) eq '0.176.0.2') {
-                    #    print "    WANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],"\n";
-                    #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                    #}
 
                     ## Debug {{{
                     mes("\nWANT $obj_0 in $lvlObj_0-$type $lvl ".$pointer->[$lvl],$db,[-1],$cmbOpts->[2]);
@@ -551,6 +539,8 @@ sub combine {
 
             ## ARRAY
             } elsif ($type eq 'ARRAY') {
+                print "$item ".__LINE__." " if "$item" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$item" eq $db->{fucker3};
 
                 $pointer->[$lvl] = $index;
                 my $hash         = $item;
@@ -558,21 +548,6 @@ sub combine {
                 my $lvlObj_1     = getLvlObj($db, $lvlReff_1->[$index]);
                 my $lvlItem_0    = $lvlObj_0 ? $lvlReff_0->[$index]->{$lvlObj_0} : undef;
                 my $lvlItem_1    = $lvlObj_1 ? $lvlReff_1->[$index]->{$lvlObj_1} : undef;
-                #if ( (join '.', $db->{pointer}->@*) eq '0.175.0.21.3') {
-                #    print "    WANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index","\n";;
-                #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                #    print "        $lvlObj_0\n";
-                #}
-                #if ( (join '.', $db->{pointer}->@*) eq '0.176.0.2') {
-                #    print "    WANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index","\n";;
-                #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                #    print "        $lvlItem_0\n";
-                #}
-                #if ( (join '.', $db->{pointer}->@*) eq '0.175.0.22') {
-                #    print "    WANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index","\n";;
-                #    print "        PointStr: ".join('.', @$pointer)."\n";;
-                #    print "        $lvlItem_0\n";
-                #}
 
                 ## Debug {{{
                 mes("\nWANT $lvlObj_0 $index in " . getGroupName($db, $lvlObj_0) . "-" . "$type $lvl $index", $db,[-1],$cmbOpts->[2]);
@@ -588,8 +563,14 @@ sub combine {
                 ## CONFIGURE REFFS
                 $reff_1->[$lvl+1] = $lvlReff_1->[$index];
                 $reff_0->[$lvl+1] = $lvlReff_0->[$index];
+                print "$item ".__LINE__." " if "$item" eq $db->{fucker3};
+                print join('.', @$pointer)."\n" if "$item" eq $db->{fucker3};
 
             }
+            print "$item ".__LINE__." " if "$item" eq $db->{fucker3};
+            print join('.', @$pointer)."\n" if "$item" eq $db->{fucker3};
+            print $db->{fucker5},"\n" if exists $db->{fucker5} and $db->{fucker5};
+            undef $db->{fucker5};
         }
     };
     #}}}
