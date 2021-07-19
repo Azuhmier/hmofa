@@ -54,7 +54,7 @@ use Data::Dumper;
         delegate => [1,0],
 
         ## STDOUT
-        verbose  => 0,
+        verbose  => 1,
 
         ## MISC
         sort    => 1,
@@ -1697,7 +1697,6 @@ sub combine {
 
     {
 
-      Dumper($hash_0->{contents}->{AUTHORS}->[176]->{STORIES}->[2]->{URLS});
         my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
         $json_obj = $json_obj->allow_blessed(['true']);
         if ($db->{opts}->{sort}) {
