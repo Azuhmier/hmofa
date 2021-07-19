@@ -152,7 +152,7 @@ sub delegate2 {
         dspt    => $db->{external}->{gitIO},
     });
 
-    ## Walkers {{{
+    ### Walkers {{{
     my $walker = sub {
         my $type      = $Data::Walk::type;
         my $index     = $Data::Walk::index;
