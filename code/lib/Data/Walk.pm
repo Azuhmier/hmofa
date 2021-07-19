@@ -150,6 +150,9 @@ sub __recurse {
 
     ## WANTED and RECURSION
     unless ($options->{bydepth}) { local $_ = $item; $options->{wanted}->($item); }
+    if (ref $item eq 'HASH' and $item->{title} eq 'Storytime with Coyote') {print $item," coyo walker\n"}
+    if (ref $item eq 'HASH' and $item->{title} =~ "The Witch's Ball") {print $item," ball walker\n"}
+    #if (@children && ($options->{follow} || !$seen)) {
     if (@children && ($options->{follow} || !$seen)) {
         local ($container, $type, $index);
         $type      = $data_type;
