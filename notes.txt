@@ -1,7 +1,29 @@
 tags3.pl
+  Defintions
+    o          obj's dspt index
+    k          obj's data hash index
+    k          obj's data array index
+    dspt
+    part       member of an array
+    value      a value belonging to a key-value pair in a hash
+    point      o.o.o
+    pointer    x.x.x.x.x.x k.a.k.a.k.a
+    lvl        scalar x.x.x.x.x.x
+    pli        x.x.x.x.[x], pointer level index
+    reff
+    lvlReff    ref at lvl
+    Pre
+    Want
   Assumptions
+    General
     - no backslashes in dspt key names
     - all dspt key names are unique
+    - all hashes are parts of arrays
+    - all arrays are values in hashes
+    - all scalars are values or parts of hashes or arrays respectively
+    - all hashes represent an object
+    Combine
+    - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
   Starting Paradigm
     Error Checking
       - Accountability = ( #lines captured / #lines ), can set
@@ -16,61 +38,72 @@ tags3.pl
     3) evolved from 3, now we go from one ref to array of reffs.
 
   Model
-    -
+    %obj {
+    |      $obj: $item,
+    |    @attrs: <$_, [@_], ...>,
+    |    @child: <[@obj]>
+    |     @meta: <$LN, $raw, ...>,
+    }
+    $lvl
+    $index
+    $reff     $reff->[$lvl]
+    $pointer  $pointer->[$lvl]
+    $lvlreff  $lvlreff->[$index]
+
+    combine
+      SUB |Data type|args|lvl_Reff|obj                                |lvl|index|pli                  |lvlReff|post
+      PRE  @_        @_                                                ++  -1    pli                   %
+      WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
+      PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
+      WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
+
   Misc
     '[]' should show up as tags
     the substitution problem
-Shorten URL via git.io
-  curl -s -i https://git.io -F "URL"   \\
-    | grep Location                    \\
-    | sed -n 's/Location: \(.*\)/\1/p' \\
-    | tr -d '\n'                       \\
-    | tee /dev/tty                     \\
-    | tr -d '\r\n'                     \\
-    | pbcopy
-  - even if you delete the file the shorten url still points to the same place in the repo
-    so if you put the file back the link will lead to it.
-  Example:
-    ~$curl -s -i https://git.io -F "url=https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NKkhT1pd" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
-    https://git.io/J3Xym
-Quering the enviroment
+Git
   git config --get remote.origin.url
   git remote show origin
   git log -p
-Removing newlines
-  cat -v
-  tr -d '\n'
-  perl -pe 'chomp if EOF'
-  perl -pe 'chomp'
-Teeing and Piping to stdout
-  tee /dev/tty
-  tee >&1
-Jq
-  cat ./json/hmofa2.json | jq 'walk(if type == "object" then with_entries(select(.key | test("LN") | not)) else . end)' | less
-PYTHON
-  https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip
-  https://stackoverflow.com/questions/65866417/pip-install-failing-on-python2/65866547#65866547
-  The correct get-pip.py file for python2 has been moved to https://bootstrap.pypa.io/pip/2.7/get-pip.py
-  curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
-  sudo python2 get-pip.py
-  /usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
-
-PERL DEBUGGER
-  perl
-
 Misc
-  perl -de1 (interactive perl console)
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
-  problemo
-     'TAGS' => [
-            {
-              'anthro' => [
-                            'pet',
-                            'canine',
-                            'pet',
-                            'feline',
-                            '~'
-              'raw' => '[;pet; ;canine; ;pet; ;feline;][]~',
-              'LN' => 4310
-Debug
-    perl -d:NYTProf ~/hmofa/hmofa/code/jsonGen.pl && nytprofhtml --open
+  Jq
+    cat ./json/hmofa2.json | jq 'walk(if type == "object" then with_entries(select(.key | test("LN") | not)) else . end)' | less
+  Shorten URL via git.io
+    curl -s -i https://git.io -F "URL"   \\
+      | grep Location                    \\
+      | sed -n 's/Location: \(.*\)/\1/p' \\
+      | tr -d '\n'                       \\
+      | tee /dev/tty                     \\
+      | tr -d '\r\n'                     \\
+      | pbcopy
+    - even if you delete the file the shorten url still points to the same place in the repo
+      so if you put the file back the link will lead to it.
+    Example:
+      ~$curl -s -i https://git.io -F "url=https://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/NKkhT1pd" | grep Location | sed -n 's/Location: \(.*\)/\1/p'
+      https://git.io/J3Xym
+  Removing newlines
+    cat -v
+    tr -d '\n'
+    perl -pe 'chomp if EOF'
+    perl -pe 'chomp'
+  Teeing and Piping to stdout
+    tee /dev/tty
+    tee >&1
+  PYTHON
+    https://stackoverflow.com/questions/2812520/dealing-with-multiple-python-versions-and-pip
+    https://stackoverflow.com/questions/65866417/pip-install-failing-on-python2/65866547#65866547
+    The correct get-pip.py file for python2 has been moved to https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+    sudo python2 get-pip.py
+    /usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
+
+  PERL
+    my var = f() // die;
+    my var = f() || die;
+    defined (my var = f()) or die;
+    !!$var     # force boolean context
+    0 + $var   # force numeric context
+    '' . $var  # force string context
+  PERL DEBUGGER
+    perl
+    perl -de1 (interactive perl console)
