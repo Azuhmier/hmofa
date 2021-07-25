@@ -431,42 +431,6 @@ sub formatToSTDOUT {
 # UTILITIES {{{1
 #------------------------------------------------------
 
-# NOTES {{{1
-#------------------------------------------------------
-#{
-#  obj => '',
-#  groupName => [...],
-#  groupName1 => [...],
-#  groupName2 => [...],
-#  meta => '',
-#}
-#  keys $a == keys $b
-#  $a->{$obj} == $b->{$obj}
-#  $a->{meta} == $b->{meta}
-#
-#
-#[
-#  {$obj},
-#  'scalar',
-#]
-#  @a == @b
-#  $a->[$ind]->$obj == $b->[$ind]->$obj
-#  $a->[$ind]->{$key} == $b->[$ind]->{$key}
-#
-#meta
-#  keys $a == keys $b
-#  values $a == values $b
-#    if scalar
-#        $meta_a->{$a} == keys $meta_b->{$b}
-#    if ref 'ARRAY'
-#        @a == @b
-#    if ref 'HASH'
-#        $meta_a->{$a} == keys $meta_b->{$b}
-#
-#ERRORS
-#- $a != $b
-#- $a = $b->{$key}
-#- $a = $c->[0]->{$key} && $a == $b
 # Shared {{{1
 #------------------------------------------------------
 

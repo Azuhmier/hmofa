@@ -15,9 +15,16 @@ use JSON::PP;
 use XML::Simple;
 use YAML;
 use Data::Dumper;
-$Data::Dumper::Maxdepth = 1;
-use List::Util qw( uniq );
+use List::Util;
+use Array::Utils;
+use Data::Compare;
 no warnings 'uninitialized';
+use Deep::Hash::Utils qw(reach slurp nest deepvalue);
+use Data::Structure::Util qw(
+  has_utf8 utf8_off utf8_on unbless get_blessed get_refs
+  has_circular_ref circular_off signature
+);
+use List::Util qw( uniq );
 my $erreno;
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
 use Data::Walk;
@@ -40,7 +47,7 @@ sub mes;
             delegate => [1,0],
 
             ## STDOUT
-            verbose  => 1,
+            verbose  => 0,
             display  => 0,
             lineNums => 0,
 
@@ -49,7 +56,7 @@ sub mes;
         });
     my $opts2 = genOpts2({
         ## Processes
-        combine  => [1,1,3,0,0],
+        combine  => [1,1,3,1,0],
         # 1
         # 2
         # 3
@@ -59,7 +66,7 @@ sub mes;
         delegate => [1,0],
 
         ## STDOUT
-        verbose  => 1,
+        verbose  => 0,
 
         ## MISC
         sort    => 1,
@@ -1286,6 +1293,37 @@ sub delegate2 {
 
     ## checks
     init2($db);
+    ## cmp {{{
+    #{
+    #    my @output;
+    #    my @output2;
+    #    local $\ = "\n";
+    #    while (my @list = reach($db->{hash}[0])) {
+    #        push @output, "@list[-2,-1]";
+    #        push @output2, "@list";
+    #    }
+    #    while (my @list = reach($db->{hash}[1])) {
+    #        push @output, "@list[-2,-1]";
+    #        push @output2, "@list";
+    #    }
+    #    my %seen;
+    #    #print $_ for @output;
+    #    for my $match (@output) {
+    #        $seen{$match}[0]++;
+    #        my $a = shift @output2;
+    #        push $seen{$match}[1]->@*, $a;
+    #        push $seen{$match}[2]->@*, $match;
+    #    }
+    #    my @array = map { $seen{$_} }sort {$seen{$a}[0] <=> $seen{$b}[0] } grep { ($seen{$_}[2][0] =~ /^title /) and $seen{$_}[0] > 1} keys %seen;
+    #    for my $part (@array) {
+    #        print "------------","\n";
+    #        for my $a ($part->[1]->@*) {
+    #            print $a;
+    #        }
+    #    }
+    #    #for my $app (0 .. $seen{$_}[1]->$*) { print $seen{$_}[0] ."$seen{$_}[$app]"; } for sort {$seen{$a}[0] <=> $seen{$b}[0] } grep { ($seen{$_}[1][0] =~ /title \w+$/) and $seen{$_}[0] > 1}keys %seen;
+    #}
+    # }}}
 
     my $catalog = $db->{hash}[0]{SECTIONS}[1];
         my $catalog_contents          = dclone($catalog);
@@ -1347,8 +1385,9 @@ sub delegate2 {
     walkdepth { wanted => $walker2}, $catalog->{contents};
     sortHash($db,$catalog);
     sortHash($db,$masterbin);
-    my $new_hash = combine( $db, $masterbin, $catalog );
-    #my $new_hash = combine( $db, $catalog, $masterbin );
+
+    #my $new_hash = combine( $db, $masterbin, $catalog );
+    my $new_hash = combine( $db, $catalog, $masterbin );
 
     ## output
     print $_ for $db->{debug}->@*;
@@ -1416,6 +1455,7 @@ sub combine {
         ## Pre HASH {{{4
         if ($type eq 'HASH') {
 
+            ## config pointer
             $pointer->[$lvl] = (exists $pointer->[$lvl] and $lvl != -1) ?++$pointer->[$lvl] :0;
             my $prior_lvl    = (scalar @$pointer) - 1;
             if ($prior_lvl > $lvl and $lvl > -1) {
@@ -1430,44 +1470,60 @@ sub combine {
 
             my $lvlHash_0 = ($lvl != -1) ?$lvlReff_0->[$pli] :$lvlReff_0;
             my $lvlHash_1 = ($lvl != -1) ?$lvlReff_1->[$pli] :$lvlReff_1;
-            mes $lvlHash_0, $db;
-            mes $lvlHash_1, $db;
             die if $lvlHash_0 eq $lvlHash_1;
-
-            my $obj       = getLvlObj($db, $lvlHash_0) || die;
+            my $obj = getLvlObj($db, $lvlHash_0) || die;
 
             ## Verbose {{{
-            mes("----------------------------------------", $db, [-1]);
-            mes("[$pointStr] PRE $type",                    $db, [-1]);
+            mes("----------------------------------------", $db, [-1], $cmbOpts->[2]);
+            mes("[$pointStr] PRE $type",                    $db, [-1], $cmbOpts->[2]);
             # }}}
 
             ## COMBINE Keys {{{
+
+            ## sort by keys
             my @keys_0 = sort {lc $a cmp lc $b} keys %$lvlHash_0;
             my @keys_1 = sort {lc $a cmp lc $b} keys %$lvlHash_1;
 
             while (scalar @keys_0 or scalar @keys_1) {
+
+                ## BOOL
                 my $key_0 = $keys_0[0];
                 my $key_1 = $keys_1[0];
-                my $bool  = lc $key_0 cmp lc $key_1;
-                if ( (!$key_0 || ( $bool and $bool != -1)) and $key_1 ) {
+                my $bool;
+                if    (!$key_0 and !$key_1) { die }
+                elsif (!$key_0)             { $bool = 1 }
+                elsif (!$key_1)             { $bool = -1 }
+                else                        { $bool = lc $key_0 cmp lc $key_1 }
+
+                ## DIVY
+                if ($bool and $bool != -1) {
                     unshift @keys_0, $key_1;
                     my $ref = ref $lvlHash_1->{$key_1};
-                    if ($ref) {
-                        $lvlHash_0->{$key_1} = dclone($lvlHash_1->{$key_1});
-                    } else {
-                        $lvlHash_0->{$key_1} = $lvlHash_1->{$key_1};
-                    }
-                } elsif ( (!$key_1 || ( $bool == -1)) and $key_0 ) {
+                    $lvlHash_0->{$key_1} = $ref ?dclone($lvlHash_1->{$key_1})
+                                                :$lvlHash_1->{$key_1};
+                    ## Verbose {{{
+                    mes "0-------", $db, [0], $cmbOpts->[2] >= 3;
+                    mes "-",        $db, [0], $cmbOpts->[2] >= 3;
+                    mes "$key_1",   $db, [0], $cmbOpts->[2] >= 3;
+                    # }}}
+                } elsif ($bool == -1) {
                     unshift @keys_1, $key_0;
                     my $ref = ref $lvlHash_0->{$key_0};
-                    if ($ref) {
-                        $lvlHash_1->{$key_0} = dclone($lvlHash_0->{$key_0});
-                    } else {
-                        $lvlHash_1->{$key_0} = $lvlHash_0->{$key_0};
-                    }
+                    $lvlHash_1->{$key_0} = $ref ?dclone($lvlHash_0->{$key_0})
+                                                :$lvlHash_0->{$key_0};
+                    ## Verbose {{{
+                    mes "1-------", $db, [0], $cmbOpts->[2] >= 3;
+                    mes "$key_0",   $db, [0], $cmbOpts->[2] >= 3;
+                    mes "-",        $db, [0], $cmbOpts->[2] >= 3;
+                    # }}}
                 } else {
                     shift @keys_0;
                     shift @keys_1;
+                    ## Verbose {{{
+                    mes "1-------", $db, [0], $cmbOpts->[2] >= 2;
+                    mes "{$key_0}", $db, [0], $cmbOpts->[2] >= 2;
+                    mes "{$key_1}", $db, [0], $cmbOpts->[2] >= 2;
+                    # }}}
                 }
                 ## Verbose {{{
                 mes "    ------------",                         $db, [2], $cmbOpts->[1] == 2;
@@ -1496,7 +1552,8 @@ sub combine {
 
             my $lvlArray_0 = $lvlReff_0->{$pli};
             my $lvlArray_1 = $lvlReff_1->{$pli};
-            my $obj        = getLvlObj($db, $lvlArray_0->[0]);
+            die if $lvlArray_0 eq $lvlArray_1;
+            my $obj = getLvlObj($db, $lvlArray_0->[0]);
 
             ## Verbose {{{
             mes("[$pointStr] PRE $type", $db, [-1]);
@@ -1506,109 +1563,99 @@ sub combine {
             if ($obj) {
 
                 ## sort by $lvlObjs
-                my @objArray_0 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_0;
-                my @objArray_1 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_1;
-                @$lvlArray_0 = ();
-                @$lvlArray_1 = ();
-
-                my $seen;
-                while (scalar @objArray_0 or scalar @objArray_1) {
-
-                    ## Get $lvlObj
-                    my $objHash_0 = $objArray_0[0];
-                    my $objHash_1 = $objArray_1[0];
-                    my $obj_0     = getLvlObj($db, $objArray_0[0]);
-                    my $obj_1     = getLvlObj($db, $objArray_1[0]);
-
-                    my $item_0    = ($obj_0 and $objHash_0) ?$objHash_0->{$obj_0} : undef;
-                    my $item_1    = ($obj_1 and $objHash_1) ?$objHash_1->{$obj_1} : undef;
-                    my $bool;
-
-                    if    (!$objArray_0[0] and !$objArray_1[0]) { die }
-                    elsif (!$objArray_0[0])                     { $bool = 1 }
-                    elsif (!$objArray_1[0])                     { $bool = -1 }
-                    else                                        { $bool = $item_0 cmp $item_1 }
-
-                    ## Don't compare array refs
-                    if ($objArray_0[0] and ref $objArray_0[0]{$obj} eq 'ARRAY') {$bool = 0}
-                    die if ($objHash_0 ne $objArray_0[0]);
-                    die if ($objHash_1 ne $objArray_1[0]);
-
-                    if ($bool and $bool != -1) {
-                        unshift @objArray_0, dclone $objHash_1;
-                        ## Verbose {{{
-                        mes "0-------", $db, [0], $cmbOpts->[2] >= 3;
-                        mes "-" , $db, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_1" , $db, [0], $cmbOpts->[2] >= 3;
-                        # }}}
-                    } elsif ($bool == -1) {
-                        unshift @objArray_1, dclone $objHash_0;
-                        ## Verbose {{{
-                        mes "1-------", $db, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_0" , $db, [0], $cmbOpts->[2] >= 3;
-                        mes "-" , $db, [0], $cmbOpts->[2] >= 3;
-                        # }}}
-                    } else {
-                        die unless $item_0 and $item_1;
-                        die if $objArray_0[0] eq $objArray_1[0];
-                        push @$lvlArray_0, (shift @objArray_0);
-                        push @$lvlArray_1, (shift @objArray_1);
-                        ## Verbose {{{
-                        mes "---------", $db, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_0}", $db, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_1}", $db, [0], $cmbOpts->[2] >= 2;
-                        # }}}
-                        if ($lvlArray_0->[0] and ref $lvlArray_0->[0]{$obj} eq 'ARRAY') {last}
-                        if ($obj_0 and $obj_0 eq 'author' and ${seen}->{$item_0}++) {
-                            mes("DUPLICATE: $item_0",$db);
-                            die;
-                        }
-                    }
-                }
-                die if $lvlArray_0 eq $lvlArray_1;
-            # }}}
-
-            ## COMBINE Arrays {{{5
-            } else {
-
-                #sort by parts
-                my @array_0 = sort {lc $a cmp lc $b} @$lvlArray_0;
-                my @array_1 = sort {lc $a cmp lc $b} @$lvlArray_1;
+                my @array_0 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_0;                  ## OBJ
+                my @array_1 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_1;                  ## OBJ
                 @$lvlArray_0 = ();
                 @$lvlArray_1 = ();
 
                 while (scalar @array_0 or scalar @array_1) {
 
-                    my $part_0 = $array_0[0];
-                    my $part_1 = $array_1[0];
+
+                    ## BOOL
+                    my $objHash_0 = $array_0[0];                                               ## OBJ
+                    my $objHash_1 = $array_1[0];                                               ## OBJ
+                    my $item_0    = $objHash_0 ?$objHash_0->{$obj} : undef;                    ## OBJ
+                    my $item_1    = $objHash_1 ?$objHash_1->{$obj} : undef;                    ## OBJ
                     my $bool;
+                    if    (!$item_0 and !$item_1) { die }
+                    elsif (!$item_0)              { $bool = 1 }
+                    elsif (!$item_1)              { $bool = -1 }
+                    else                          { $bool = $item_0 cmp $item_1 }
 
-                    if    (!$part_0 and !$part_1) { die }
-                    elsif (!$part_0)              { $bool = 1 }
-                    elsif (!$part_1)              { $bool = -1 }
-                    else                          { $bool = lc $part_0 cmp lc $part_1 }
+                    ## Don't compare array refs
+                    if ($array_0[0] and ref $array_0[0]{$obj} eq 'ARRAY') {$bool = 0}          ## OBJ
 
+                    ## DIVY
                     if ($bool and $bool != -1) {
-                        unshift @array_0, $part_1;
+                        unshift @array_0, dclone $objHash_1;                                   ## OBJ
                         ## Verbose {{{
                         mes "0-------", $db, [0], $cmbOpts->[2] >= 3;
                         mes "-",        $db, [0], $cmbOpts->[2] >= 3;
-                        mes "$part_1",  $db, [0], $cmbOpts->[2] >= 3;
+                        mes "$item_1",  $db, [0], $cmbOpts->[2] >= 3;
                         # }}}
                     } elsif ($bool == -1) {
-                        unshift @array_1, $part_0;
+                        unshift @array_1, dclone $objHash_0;                                   ## OBJ
                         ## Verbose {{{
                         mes "1-------", $db, [0], $cmbOpts->[2] >= 3;
-                        mes "$part_0",  $db, [0], $cmbOpts->[2] >= 3;
+                        mes "$item_0",  $db, [0], $cmbOpts->[2] >= 3;
                         mes "-",        $db, [0], $cmbOpts->[2] >= 3;
                         # }}}
                     } else {
                         push @$lvlArray_0, (shift @array_0);
                         push @$lvlArray_1, (shift @array_1);
                         ## Verbose {{{
-                        mes "1-------", $db, [0], $cmbOpts->[2] >= 2;
-                        mes "$part_0",  $db, [0], $cmbOpts->[2] >= 2;
-                        mes "$part_1",  $db, [0], $cmbOpts->[2] >= 2;
+                        mes "---------", $db, [0], $cmbOpts->[2] >= 2;
+                        mes "{$item_0}", $db, [0], $cmbOpts->[2] >= 2;
+                        mes "{$item_1}", $db, [0], $cmbOpts->[2] >= 2;
+                        # }}}
+                        if ($lvlArray_0->[0] and ref $lvlArray_0->[0]{$obj} eq 'ARRAY') {last} ## OBJ
+                    }
+                }
+                die if $lvlArray_0 eq $lvlArray_1;                                             ## OBJ
+            # }}}
+
+            ## COMBINE Arrays {{{5
+            } else {
+
+                #sort by parts
+                my @array_0 = sort {lc $a cmp lc $b} @$lvlArray_0;                      ## PART
+                my @array_1 = sort {lc $a cmp lc $b} @$lvlArray_1;                      ## PART
+                @$lvlArray_0 = ();
+                @$lvlArray_1 = ();
+
+                while (scalar @array_0 or scalar @array_1) {
+
+                    ## BOOL
+                    my $item_0 = $array_0[0];                                           ## PART
+                    my $item_1 = $array_1[0];                                           ## PART
+                    my $bool;
+                    if    (!$item_0 and !$item_1) { die }
+                    elsif (!$item_0)              { $bool = 1 }
+                    elsif (!$item_1)              { $bool = -1 }
+                    else                          { $bool = $item_0 cmp $item_1 }
+
+                    ## DIVY
+                    if ($bool and $bool != -1) {
+                        unshift @array_0, $item_1;                                      ## PART
+                        ## Verbose {{{
+                        mes "0-------", $db, [0], $cmbOpts->[2] >= 3;
+                        mes "-",        $db, [0], $cmbOpts->[2] >= 3;
+                        mes "$item_1",  $db, [0], $cmbOpts->[2] >= 3;
+                        # }}}
+                    } elsif ($bool == -1) {
+                        unshift @array_1, $item_0;                                      ## PART
+                        ## Verbose {{{
+                        mes "1-------", $db, [0], $cmbOpts->[2] >= 3;
+                        mes "$item_0",  $db, [0], $cmbOpts->[2] >= 3;
+                        mes "-",        $db, [0], $cmbOpts->[2] >= 3;
+                        # }}}
+                    } else {
+                        push @$lvlArray_0, (shift @array_0);
+                        push @$lvlArray_1, (shift @array_1);
+                        ## Verbose {{{
+                        mes "1-------",  $db, [0], $cmbOpts->[2] >= 2;
+                        mes "{$item_0}", $db, [0], $cmbOpts->[2] >= 2;
+                        mes "{$item_1}", $db, [0], $cmbOpts->[2] >= 2;
                         # }}}
                     }
                 }
@@ -1619,14 +1666,13 @@ sub combine {
             mes("-----------------------------------------------------", $db,[-1]) unless $obj;
             # }}}
 
+            $reff_0->[$lvl+1]->@* = @$lvlArray_0;
             @children = @$lvlArray_0;
-            $reff_0->[$lvl+1]->@* = @children;
             return @children;
         # }}}
 
         } else { return @_ }
     };
-
 
     # ===|| wanted->() {{{3
     my $wanted = sub {
@@ -1639,12 +1685,12 @@ sub combine {
         my $index   = $Data::Walk::index;
 
         unless ($lvl == -1) {
-
+          ## configure pointer
             my $prior_lvl = (scalar @$pointer) - 1;
             if ($prior_lvl > $lvl) {
                 pop @$pointer for ( 0 .. ($prior_lvl - $lvl) );
             }
-            ## lvlReffs are now Hash/Scalar
+
             my $lvlReff_0 = $reff_0->[$lvl];
             my $lvlReff_1 = $reff_1->[$lvl];
             die if $lvlReff_0 eq $lvlReff_1;
@@ -1652,7 +1698,6 @@ sub combine {
             ## Want Array/Scalar in HASH {{{4
             if ($type eq 'HASH') {
                 unless ($index & 1) {
-
 
                     my $obj_0        = $item;
                     my $item_0       = $lvlReff_0->{$obj_0};
@@ -1666,8 +1711,6 @@ sub combine {
                     ## Verbose {{{
                     mes("-----------------------------------------------------", $db,[-1]);
                     mes("[$pointStr] WANT in $type", $db, [-1], $cmbOpts->[2]);
-                    mes("lvlReff_0: $lvlReff_0",     $db, [0],  $cmbOpts->[4]);
-                    mes("lvlReff_1: $lvlReff_1",     $db, [0],  $cmbOpts->[4]);
                     mes("      obj: $obj_0",         $db, [0],  $cmbOpts->[3]);
                     mes("   item_0: $item_0",        $db, [0],  $cmbOpts->[3]);
                     mes("   item_1: $item_1",        $db, [0],  $cmbOpts->[3]);
@@ -1705,8 +1748,6 @@ sub combine {
 
                 ## Debug {{{
                 mes("[$pointStr] WANT in $type", $db, [-1], $cmbOpts->[2]);
-                mes("lvlReff_0: $lvlReff_0",     $db, [0],  $cmbOpts->[4]);
-                mes("lvlReff_1: $lvlReff_1",     $db, [0],  $cmbOpts->[4]);
                 mes("    Obj: $lvlObj_0",        $db, [0],  $cmbOpts->[3]);
                 mes("   item_0: $lvlItem_0",     $db, [0],  $cmbOpts->[3]);
                 mes("   item_1: $lvlItem_1",     $db, [0],  $cmbOpts->[3]);

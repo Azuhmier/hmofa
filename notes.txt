@@ -2,7 +2,7 @@ tags3.pl
   Defintions
     o          obj's dspt index
     k          obj's data hash index
-    k          obj's data array index
+    a          obj's data array index
     dspt
     part       member of an array
     value      a value belonging to a key-value pair in a hash
@@ -14,6 +14,32 @@ tags3.pl
     lvlReff    ref at lvl
     Pre
     Want
+    Objects @*(unique/- member check); @*(author(alias)-title-url(url_attributes) link); @$*(obj count  check);
+      containers @(depth priority)
+      - section
+      - series
+      tags $(intra redundancy check)
+      - tags @*(title-tagline link)
+      - description
+      identifiers
+      - libName @$(inter/intra duplicate check)
+      - author  @$(inter/intra duplicate check)
+      - title   @(inter duplicate check)
+    Attributes @(attribute line up)
+      tag-like $(intra redundancy check)
+      - author_attribute $(alias query)
+      - title_attribute
+      - anthro  $(anthro query)
+      - general $(general query)
+      - ops     $(ops query)
+      ordering $(order check)
+      - url_attribute $(story section/type query)
+    Other
+      - preserve
+      - LN
+      - raw
+      - miss
+
   Assumptions
     General
     - no backslashes in dspt key names
@@ -56,7 +82,18 @@ tags3.pl
       WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
       PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
       WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
+    Duplicates
+    Contrast
+      libName hmofa_lib
+      N.{n}...X.{x}
+      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
+      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
+      LIBS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
+      LIBS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
+      schema
+      - depth priority
 
+      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}.url_attribute{ch.1}
   Misc
     '[]' should show up as tags
     the substitution problem
