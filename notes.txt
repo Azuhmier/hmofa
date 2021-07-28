@@ -3,11 +3,16 @@ tags3.pl
     o          obj's dspt index
     k          obj's data hash index
     a          obj's data array index
+    i          item
+    O          obj groupname
     dspt
     part       member of an array
     value      a value belonging to a key-value pair in a hash
     point      o.o.o
     pointer    x.x.x.x.x.x k.a.k.a.k.a
+    pointer2   x.x.x.x.x.x O.i.O.i.O.i
+    pointer3   x.x.x.x.x.x O.a.O.a.O.a
+    direct Ref {
     lvl        scalar x.x.x.x.x.x
     pli        x.x.x.x.[x], pointer level index
     reff
@@ -64,34 +69,34 @@ tags3.pl
     3) evolved from 3, now we go from one ref to array of reffs.
 
   Model
-    %obj {
-    |      $obj: $item,
-    |    @attrs: <$_, [@_], ...>,
-    |    @child: <[@obj]>
-    |     @meta: <$LN, $raw, ...>,
-    }
-    $lvl
-    $index
-    $reff     $reff->[$lvl]
-    $pointer  $pointer->[$lvl]
-    $lvlreff  $lvlreff->[$index]
-
+    terms
+      %obj {
+      |      $obj: $item,
+      |    @attrs: <$_, [@_], ...>,
+      |    @child: <[@obj]>
+      |     @meta: <$LN, $raw, ...>,
+      }
+      $lvl
+      $index
+      $reff     $reff->[$lvl]
+      $pointer  $pointer->[$lvl]
+      $lvlreff  $lvlreff->[$index]
+    divy
+    preservation
     combine
       SUB |Data type|args|lvl_Reff|obj                                |lvl|index|pli                  |lvlReff|post
       PRE  @_        @_                                                ++  -1    pli                   %
       WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
       PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
       WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
-    Duplicates
-    Contrast
+    duplicates
+    contrast
       libName hmofa_lib
       N.{n}...X.{x}
       LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
       LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
       LIBS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
       LIBS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
-      schema
-      - depth priority
 
       LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}.url_attribute{ch.1}
   Misc
@@ -135,8 +140,9 @@ Misc
     /usr/local/opt/python@3.9/bin/python3.9 -m pip install --upgrade pip
 
   PERL
-    my var = f() // die;
-    my var = f() || die;
+    my $result = do { ($var{a} // "") =~ m//} die; #doesn't genertate key a with empty hash, like 'exists'
+    my $var = f() // die; #checks def
+    my $var = f() || die #checks true
     defined (my var = f()) or die;
     !!$var     # force boolean context
     0 + $var   # force numeric context
