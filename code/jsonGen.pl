@@ -38,9 +38,10 @@ sub mes;
     # ;opts
         my $opts = genOpts({
             ## Processes
-            all      => [1,0],
+            delegate => [1,1,0,0,0],
             leveler  => [1,1,0,0,0],
-            divy     => [1,1,0,0,0,0,0,0,0],
+            divy     => [1,1,0,0,0,0,0,0],
+            write    => [1,1,1,0,0.0,0,0],
             #1 general
             #2 matches
             #3 Preserves
@@ -52,12 +53,6 @@ sub mes;
             attribs  => [1,0,0,0,0],
             delims   => [1,0,0,0,0],
             encode   => [1,0,0,0,0],
-            write    => [1,1,1,0,0],
-            #1
-            #2
-            #3
-            #4
-            delegate => [1,1,0,0,0],
 
             ## STDOUT
             verbose  => 1,
@@ -154,7 +149,7 @@ sub delegate {
 
         ## verbose 1 #{{{
         mes "$data->{name} {{"."{",                $data, [-1], $delegate_opts->[1];
-        mes "Generating   $data->{name} {{"."{", $data, [0], $delegate_opts->[1]; #}}}
+        mes "Generating $data->{name} {{"."{", $data, [-1], $delegate_opts->[1]; #}}}
 
         ## sigtrap
         $SIG{__DIE__} = sub {
@@ -181,7 +176,7 @@ sub delegate {
         encodeResult($data);
 
         ## verbose 1 {{{
-        mes "}"."}}", $data, [0], $delegate_opts->[1]; #}}}
+        mes "}"."}}", $data, [-1], $delegate_opts->[1]; #}}}
 
         ## write
         my $writeArray = genWriteArray($data);
@@ -515,7 +510,7 @@ sub leveler {
         while ($objKey) {
 
             ## verbose {{{
-            mes(getPointStr($data)." $objKey", $data, [1], $leveler_opts->[1]); #}}}
+            mes getPointStr($data)." $objKey", $data, [0], $leveler_opts->[1]; #}}}
 
             ## Checking existance of recursionReffArray
             unless (defined $recursionReffArray) { $recursionReffArray->@* = $data->{reffArray}->@* }
@@ -580,6 +575,7 @@ sub divyMatches {
             my $lvlObj  = getLvlObj($data, $ref);
             my $ref_LN  = $ref->{LN} ?$ref->{LN} :0;
             my @MATCHES = ([ @$matches_obj ]);
+
             ## --- PRESERVE{{{
             my $lvlPreserve = $dspt->{$lvlObj}{preserve} // undef;
             my $F_inclusive = 0;
@@ -612,22 +608,11 @@ sub divyMatches {
 
                     ## LN
                     my $LN = $ref_LN;
-                    ## verbose 3,3{{{
-                    mes "IDX-$ind preserve -> $lvlObj", $data,[1], $opts_divy->[3];
-                    mes "($LN)",                        $data,[4], $opts_divy->[3]; #}}}
                     for my $obj (@elegible_obj) {
                         for my $item ($data->{matches}{$obj}->@*) {
                             if ($item->{LN} > $LN) {
-                                ## verbose 3,3{{{
-                                mes "[$item->{LN}] ",       $data,[4,1], $opts_divy->[3];
-                                mes "<$obj> $item->{$obj}", $data,[-1], $opts_divy->[3] == 2; #}}}
                                 $LN = $item->{LN}; last;
                             }
-                            ## verbose 3,3{{{
-                            else {
-                                mes " $item->{LN}  ",       $data,[4,1], $opts_divy->[3];
-                                mes "<$obj> $item->{$obj}", $data,[-1], $opts_divy->[3] == 2;
-                            } #}}}
                         }
                     }
 
@@ -664,16 +649,13 @@ sub divyMatches {
                     else                { push @MATCHES, $pres_ARRAY}
                 }
             } #}}}
-            ## verbose 2,3 {{{
-            #my $prev_obj = '' if $opts_divy->[4] == 2;
-            mes "IDX-$ind $obj -> $lvlObj",          $data, [1] if $opts_divy->[2] == 3;
-            mes "[$ref_LN] <".$lvlObj."> ".$ref->{$lvlObj}, $data, [4] if $opts_divy->[2] == 3; #}}}
 
             ## --- MATCH ARRAYS LOOP
             my $cnt;
             for my $array (@MATCHES) {
                 $cnt++;
                 my $F_partial = ($cnt > 1) ?1 :0;
+
                 ## verbose: mes 0{{{
                 my $mes = []; #}}}
 
@@ -697,24 +679,11 @@ sub divyMatches {
                         my $match = pop @{ $F_inclusive || $F_partial ?$array :$matches_obj };
                         my $attrDebug = genAttributes( $data, $match, [$F_partial, $F_inclusive]);
                         push @$childObjs, $match;
-                        ## verbose 2,2{{{
-                        unless ($F++) {
-                            mes( "[LN$ref_LN, $ind] $obj -> $lvlObj: $ref->{$lvlObj}", $data, [1], $opts_divy->[2] == 2);
-                        }
-                        my $LL = $match->{LN};
-                        mes "(".$LL.") <$obj> ".($match->{$obj} // 'undef'), $data, [4], $opts_divy->[2] == 3
-                            if $data->{dspt}->{$obj}{partion};
-                        mes "(".$LL.") <$obj> ".($match->{$obj} // 'undef'), $data, [4], $opts_divy->[2] == 3
-                            unless $data->{dspt}{$obj}{partion};
-
-                        if (scalar $attrDebug->@* and $data->{opts}{attribs}[1]) {
-                            mes "$_", $data, [-1, 1] for $attrDebug->@*;
-                        } #}}}
                     } else { last } #}}}
                     ## verbose 1,1 {{{
                     if ($obj ne $prev_obj) {
-                        push @$mes, mes "$obj -> $lvlObj", $data, [2,0,1], $opts_divy->[1] == 1;
-                        push @$mes, mes "[$ref_LN, $ind]", $data, [2,0,1], $opts_divy->[6] == 1;
+                        push @$mes, mes "$obj -> $lvlObj", $data, [1,0,1], $opts_divy->[1] == 1;
+                        push @$mes, mes "[$ref_LN, $ind]", $data, [1,0,1], $opts_divy->[6] == 1;
                     } $prev_obj = $obj; #}}}
                 } #}}}
                 ## --- MATCHES TO REFARRAY {{{
@@ -740,7 +709,7 @@ sub divyMatches {
 
                     # verbose 1,1{{{
                     if ($mes and scalar @$mes) {
-                        mes "$_", $data, [0,1,0], $opts_divy->[1] == 1 for @$mes;
+                        mes "$_", $data, [-1,1,0], $opts_divy->[1] == 1 for @$mes;
                     } #}}}
 
                 } #}}}
@@ -874,8 +843,7 @@ sub genWriteArray {
         $db->{childs}    = {};   my $childs    = $db->{childs};
 
         ## verbose 1{{{
-        mes "Writing $db->{name}", $db, [0,1], $write_opts->[1];
-        mes " {{"."{",             $db, [0], $write_opts->[1];
+        mes "Writing $db->{name} {{"."{", $db, [-1], $write_opts->[1];
         # }}}
 
         ## %dresser {{{
@@ -1168,11 +1136,7 @@ sub genWriteArray {
                         $db, [0], $write_opts->[2]; #}}}
 
                     ## verbose 4{{{
-                    my $debug = [];
-                    #if ($write_opts->[1] == 4) {
-                    #    push @$debug, mes("<$obj> $container->{$obj}", $db, [1,0,1]);
-                    #    push @$debug, mes("lvl: " . $lvl,              $db, [1,0,1]);
-                    #} ## }}}
+                    my $debug = []; #}}}
 
                     ## --- String: d0, d1 #{{{
                     my $str = '';
@@ -1293,7 +1257,7 @@ sub genWriteArray {
             my $S0 = " " x (11 - length $obj);
             mes("  $obj ${S0} $childs->{$obj}", $db, [0]) if $write_opts->[1];
         }
-        mes("}}"."}", $db, [0]) if $write_opts->[1];
+        mes("}}"."}", $db, [-1]) if $write_opts->[1];
    }
    return $writeArray ?$writeArray :0;
 }
