@@ -1,35 +1,35 @@
 {
-   "section" : "MASTERBIN",
+   "libName" : "hmofa_lib",
    "AUTHORS" : [
       {
          "author" : "(You).",
          "STORIES" : [
             {
                "title" : "/HMOFA/ Colab story",
+               "title_attribute" : "Edit Code: \"Ana\"",
                "URLS" : [
                   {
                      "url" : "https://rentry.co/pynpz"
                   }
-               ],
-               "title_attribute" : "Edit Code: \"Ana\""
+               ]
             },
             {
                "title" : "/HMoFA/ Collab Story #2",
+               "title_attribute" : "Edit Code: \"Belfast",
                "URLS" : [
                   {
                      "url" : "https://rentry.co/abtvx"
                   }
-               ],
-               "title_attribute" : "Edit Code: \"Belfast"
+               ]
             },
             {
                "title" : "/hmofa/ Collab Story #3",
+               "title_attribute" : "Code: Anaheim",
                "URLS" : [
                   {
                      "url" : "https://rentry.co/hkwmv"
                   }
-               ],
-               "title_attribute" : "Code: Anaheim"
+               ]
             }
          ]
       },
@@ -617,6 +617,7 @@
          "STORIES" : [
             {
                "title" : "On the Fringes",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -650,8 +651,7 @@
                   {
                      "description" : "A human living by themselves on a farm in the wilderness meets a visitor soon after the fall of Advent."
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "The Knight's Ward",
@@ -1699,6 +1699,7 @@
             },
             {
                "title" : "Reel Quick Dating",
+               "title_attribute" : "parts 1 and 2",
                "TAGS" : [
                   {
                      "tags" : [
@@ -1730,8 +1731,7 @@
                   {
                      "description" : "(1)Anon isn't deterred by bad first impressions when it comes to dating, or even bad second impressions. But when he gives a disinterested German shepherd a chance, he's glad he kept an open mind.(2)Now that Anon and Winny are a happy couple, they get to do all the things couples like to do. Going to the movies is pretty standard, but the German shepherd is never quite happy with \"standard\"."
                   }
-               ],
-               "title_attribute" : "parts 1 and 2"
+               ]
             },
             {
                "title" : "Reigns over Barren Land",
@@ -2210,6 +2210,7 @@
          "STORIES" : [
             {
                "title" : "Anon and the Circus",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -2221,8 +2222,7 @@
                   {
                      "url" : "https://git.io/J3jtZ"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             }
          ]
       },
@@ -2267,6 +2267,7 @@
       },
       {
          "author" : "Anon_2O",
+         "author_attribute" : "wetchop",
          "STORIES" : [
             {
                "title" : "Just Neighbors",
@@ -2339,8 +2340,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "wetchop"
+         ]
       },
       {
          "author" : "Anon_The_Shitposter",
@@ -3037,6 +3037,7 @@
             },
             {
                "title" : "Of aliens and competition",
+               "title_attribute" : "light gyaku ntr",
                "TAGS" : [
                   {
                      "tags" : [
@@ -3074,8 +3075,7 @@
                   {
                      "description" : "A year since the world fell to female alien anthros, anon is condemned to participate in a \"gladitorial mating game\" against a female rabbit for his crime of fraternizing with a female human (his wife)."
                   }
-               ],
-               "title_attribute" : "light gyaku ntr"
+               ]
             },
             {
                "title" : "Problem Child",
@@ -3152,6 +3152,7 @@
             },
             {
                "title" : "Roomies",
+               "title_attribute" : "Rikki hug and fug",
                "TAGS" : [
                   {
                      "tags" : [
@@ -3176,8 +3177,7 @@
                   {
                      "url" : "https://git.io/Js8SB"
                   }
-               ],
-               "title_attribute" : "Rikki hug and fug"
+               ]
             },
             {
                "title" : "Ruff Ryders",
@@ -3205,6 +3205,7 @@
             },
             {
                "title" : "Space Lizard",
+               "title_attribute" : "Working title",
                "TAGS" : [
                   {
                      "tags" : [
@@ -3225,8 +3226,7 @@
                   {
                      "url" : "https://git.io/Js8SZ"
                   }
-               ],
-               "title_attribute" : "Working title"
+               ]
             },
             {
                "title" : "Stuck",
@@ -3285,6 +3285,7 @@
             },
             {
                "title" : "Summoning a Date",
+               "title_attribute" : "revised/reworked/the first one was lazy",
                "TAGS" : [
                   {
                      "tags" : [
@@ -3314,8 +3315,7 @@
                   {
                      "description" : "Anon summons a date."
                   }
-               ],
-               "title_attribute" : "revised/reworked/the first one was lazy"
+               ]
             },
             {
                "title" : "The Forest Gypsy",
@@ -3430,12 +3430,12 @@
             },
             {
                "title" : "Untitled",
+               "title_attribute" : "Shark story",
                "URLS" : [
                   {
                      "url" : "https://git.io/Js8yN"
                   }
-               ],
-               "title_attribute" : "Shark story"
+               ]
             },
             {
                "title" : "Untitled Snoot Game Short",
@@ -3553,6 +3553,7 @@
             },
             {
                "title" : "Yes You May",
+               "title_attribute" : "May x Anon",
                "TAGS" : [
                   {
                      "tags" : [
@@ -3575,8 +3576,7 @@
                   {
                      "url" : "https://git.io/Js8Sx"
                   }
-               ],
-               "title_attribute" : "May x Anon"
+               ]
             },
             {
                "title" : "Your average date with a hydra",
@@ -4343,6 +4343,7 @@
             },
             {
                "title" : "Little Drop of Poison",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -4372,8 +4373,7 @@
                   {
                      "url" : "https://www.sofurry.com/view/1433750"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "Merchant's Return",
@@ -4769,6 +4769,7 @@
          "STORIES" : [
             {
                "title" : "/fit/izen's Wolfish Encounter",
+               "title_attribute" : "Unfinished",
                "TAGS" : [
                   {
                      "tags" : [
@@ -4790,8 +4791,7 @@
                   {
                      "url" : "https://git.io/Js8yO"
                   }
-               ],
-               "title_attribute" : "Unfinished"
+               ]
             }
          ]
       },
@@ -4873,6 +4873,7 @@
          "STORIES" : [
             {
                "title" : "A Little Cup of Love",
+               "title_attribute" : "Line 41",
                "TAGS" : [
                   {
                      "tags" : [
@@ -4889,8 +4890,7 @@
                   {
                      "url" : "https://git.io/J39Dx"
                   }
-               ],
-               "title_attribute" : "Line 41"
+               ]
             },
             {
                "title" : "Deep Dark Desires",
@@ -5246,6 +5246,7 @@
          "STORIES" : [
             {
                "title" : "Strange Journey",
+               "title_attribute" : "Not the one in Antarctica with demons",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -5257,8 +5258,7 @@
                   {
                      "url" : "https://git.io/J3MuA"
                   }
-               ],
-               "title_attribute" : "Not the one in Antarctica with demons"
+               ]
             }
          ]
       },
@@ -5599,6 +5599,7 @@
       },
       {
          "author" : "ChaserTech",
+         "author_attribute" : "CT_Anon",
          "STORIES" : [
             {
                "title" : "Date With a Tigress",
@@ -5616,8 +5617,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "CT_Anon"
+         ]
       },
       {
          "author" : "Cheetah_Anon",
@@ -7402,6 +7402,7 @@
          "STORIES" : [
             {
                "title" : "Kindness of a stranger. /Hmofa/",
+               "title_attribute" : "fin",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -7416,8 +7417,7 @@
                   {
                      "url" : "https://git.io/JZ91f"
                   }
-               ],
-               "title_attribute" : "fin"
+               ]
             }
          ]
       },
@@ -7426,6 +7426,7 @@
          "STORIES" : [
             {
                "title" : "2.0 can be a bad as 1",
+               "title_attribute" : "HIATUS",
                "TAGS" : [
                   {
                      "tags" : [
@@ -7461,8 +7462,7 @@
                   {
                      "description" : "Anon downloads a mysterious app on his phone in hopes of a girlfriend"
                   }
-               ],
-               "title_attribute" : "HIATUS"
+               ]
             },
             {
                "title" : "B-Witched",
@@ -7575,6 +7575,7 @@
             },
             {
                "title" : "Golden Forest",
+               "title_attribute" : "Leaves of autumn",
                "TAGS" : [
                   {
                      "tags" : [
@@ -7606,8 +7607,7 @@
                   {
                      "description" : "Anon takes his tomboy hyena friend for a walk when he confess his love to her"
                   }
-               ],
-               "title_attribute" : "Leaves of autumn"
+               ]
             },
             {
                "title" : "HuMANity Con",
@@ -7718,6 +7718,7 @@
             },
             {
                "title" : "Pendant of Oak",
+               "title_attribute" : "POEM",
                "TAGS" : [
                   {
                      "tags" : [
@@ -7753,8 +7754,7 @@
                   {
                      "description" : "Anthro female mourning loss of her human lover"
                   }
-               ],
-               "title_attribute" : "POEM"
+               ]
             },
             {
                "title" : "Rat Faced",
@@ -8473,6 +8473,7 @@
          "STORIES" : [
             {
                "title" : "A Wolf's guide to Human Courtship",
+               "title_attribute" : "from BBQ Roomate",
                "TAGS" : [
                   {
                      "tags" : [
@@ -8504,8 +8505,7 @@
                      "url" : "https://git.io/J3Maq",
                      "url_attribute" : "main story"
                   }
-               ],
-               "title_attribute" : "from BBQ Roomate"
+               ]
             },
             {
                "title" : "Tranquility Gun",
@@ -8673,6 +8673,7 @@
             },
             {
                "title" : "Friendly Neighborhood Human (Draft)",
+               "title_attribute" : "Original Content",
                "TAGS" : [
                   {
                      "tags" : [
@@ -8693,8 +8694,7 @@
                   {
                      "url" : "https://git.io/J3MaK"
                   }
-               ],
-               "title_attribute" : "Original Content"
+               ]
             },
             {
                "title" : "Lexie",
@@ -8722,6 +8722,7 @@
             },
             {
                "title" : "More than enough",
+               "title_attribute" : "Original content, Draft",
                "TAGS" : [
                   {
                      "tags" : [
@@ -8744,8 +8745,7 @@
                   {
                      "url" : "https://git.io/J3May"
                   }
-               ],
-               "title_attribute" : "Original content, Draft"
+               ]
             },
             {
                "title" : "Muhreen anon",
@@ -9013,6 +9013,7 @@
          "STORIES" : [
             {
                "title" : "Beyond the Cogs",
+               "title_attribute" : "WIP Chapter one",
                "TAGS" : [
                   {
                      "tags" : [
@@ -9037,8 +9038,7 @@
                   {
                      "url" : "https://git.io/J3h0R"
                   }
-               ],
-               "title_attribute" : "WIP Chapter one"
+               ]
             },
             {
                "title" : "HMOFA Learns to get along",
@@ -9342,6 +9342,7 @@
             },
             {
                "title" : "Divide and Conjure",
+               "title_attribute" : "alternate version of Radiating",
                "TAGS" : [
                   {
                      "tags" : [
@@ -9385,8 +9386,7 @@
                   {
                      "description" : "Man gets excepted to magic school and meets a kangaroo anthro also going to magic school."
                   }
-               ],
-               "title_attribute" : "alternate version of Radiating"
+               ]
             },
             {
                "title" : "Downward Dog",
@@ -10375,6 +10375,7 @@
             },
             {
                "title" : "The Man From F.L.O.R.I.D.A.",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -10460,8 +10461,7 @@
                   {
                      "description" : "A drifting construction worker puts down the beer and picks up a discarded bag, catapulting him into murky events and murder."
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "The Smile of the Tiger",
@@ -10614,6 +10614,7 @@
          "STORIES" : [
             {
                "title" : "Unpunctual Rescue",
+               "title_attribute" : "scrapped Ghost Pupper story",
                "TAGS" : [
                   {
                      "tags" : [
@@ -10658,8 +10659,7 @@
                   {
                      "description" : "A human named Jeffery attempts to help a ghost dog that was murdered years ago."
                   }
-               ],
-               "title_attribute" : "scrapped Ghost Pupper story"
+               ]
             }
          ]
       },
@@ -10855,6 +10855,7 @@
             },
             {
                "title" : "A Black Cat",
+               "title_attribute" : "Line 28",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -10866,8 +10867,7 @@
                   {
                      "url" : "https://git.io/J39Mc"
                   }
-               ],
-               "title_attribute" : "Line 28"
+               ]
             },
             {
                "title" : "Cold Light",
@@ -10886,6 +10886,7 @@
             },
             {
                "title" : "O Queen, my Queen",
+               "title_attribute" : "Line 46",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -10897,8 +10898,7 @@
                   {
                      "url" : "https://git.io/J39Ml"
                   }
-               ],
-               "title_attribute" : "Line 46"
+               ]
             }
          ]
       },
@@ -11045,6 +11045,7 @@
             },
             {
                "title" : "Hand in Hand",
+               "title_attribute" : "Annabelle Mightypoohead fic",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -11059,8 +11060,7 @@
                   {
                      "url" : "https://www.sofurry.com/view/1613412"
                   }
-               ],
-               "title_attribute" : "Annabelle Mightypoohead fic"
+               ]
             },
             {
                "title" : "My Obsession",
@@ -11141,6 +11141,7 @@
             },
             {
                "title" : "Thanatophobia",
+               "title_attribute" : "April 1st",
                "URLS" : [
                   {
                      "url" : "https://archiveofourown.org/works/30397557"
@@ -11148,8 +11149,7 @@
                   {
                      "url" : "https://www.sofurry.com/view/1702169"
                   }
-               ],
-               "title_attribute" : "April 1st"
+               ]
             },
             {
                "title" : "Unnamed",
@@ -11359,6 +11359,7 @@
          "STORIES" : [
             {
                "title" : "Don't Unwrap Until Christmas",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -11395,8 +11396,7 @@
                   {
                      "url" : "https://git.io/J3hMw"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "The Wolf and the Huntsman",
@@ -11688,6 +11688,7 @@
          "STORIES" : [
             {
                "title" : "/hmofa/ Meeting the Locals",
+               "title_attribute" : "No Translation for this Tongue",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -11699,8 +11700,7 @@
                   {
                      "url" : "https://git.io/J3jqb"
                   }
-               ],
-               "title_attribute" : "No Translation for this Tongue"
+               ]
             },
             {
                "title" : "/hmofa/ versus Arctos",
@@ -11821,6 +11821,7 @@
          "STORIES" : [
             {
                "title" : "Hyena green",
+               "title_attribute" : "tentatively titled",
                "TAGS" : [
                   {
                      "tags" : [
@@ -11842,8 +11843,7 @@
                   {
                      "url" : "https://git.io/J3pAj"
                   }
-               ],
-               "title_attribute" : "tentatively titled"
+               ]
             },
             {
                "title" : "Oh What Big Teeth They Have",
@@ -12120,6 +12120,7 @@
             },
             {
                "title" : "Star Wolf",
+               "title_attribute" : "WIP",
                "TAGS" : [
                   {
                      "tags" : [
@@ -12139,8 +12140,7 @@
                   {
                      "url" : "https://git.io/Js8yJ"
                   }
-               ],
-               "title_attribute" : "WIP"
+               ]
             },
             {
                "title" : "Stray",
@@ -12198,6 +12198,7 @@
             },
             {
                "title" : "Moxy",
+               "title_attribute" : "Formerly Tammy's Tacos",
                "TAGS" : [
                   {
                      "tags" : [
@@ -12224,8 +12225,7 @@
                   {
                      "url" : "https://git.io/J3h0e"
                   }
-               ],
-               "title_attribute" : "Formerly Tammy's Tacos"
+               ]
             },
             {
                "title" : "Scratch",
@@ -12561,6 +12561,7 @@
             },
             {
                "title" : "How about those spooky spindly shadowy sinister senoritas?",
+               "title_attribute" : "HATSSSSSS",
                "URLS" : [
                   {
                      "url" : "https://archiveofourown.org/works/28076361"
@@ -12689,11 +12690,11 @@
                      "url" : "https://www.sofurry.com/view/1727559",
                      "url_attribute" : "ch. 31"
                   }
-               ],
-               "title_attribute" : "HATSSSSSS"
+               ]
             },
             {
                "title" : "Mountains aren\u00e2\u0080\u0099t so Bad",
+               "title_attribute" : "Mountain goat or something",
                "TAGS" : [
                   {
                      "tags" : [
@@ -12724,11 +12725,11 @@
                   {
                      "description" : "Local man who got lost in woods, is saved by goat, who later makes him compensate her by starting a family together."
                   }
-               ],
-               "title_attribute" : "Mountain goat or something"
+               ]
             },
             {
                "title" : "Rat\u00e2\u0080\u0099s Den",
+               "title_attribute" : "Not-skaven/Rat girl",
                "TAGS" : [
                   {
                      "tags" : [
@@ -12771,11 +12772,11 @@
                   {
                      "description" : "Local man is kidnapped by large rat women for sexual purposes. He eventually likes it"
                   }
-               ],
-               "title_attribute" : "Not-skaven/Rat girl"
+               ]
             },
             {
                "title" : "Scars",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -12863,8 +12864,7 @@
                      "url" : "https://www.sofurry.com/view/1716134",
                      "url_attribute" : "ch. 15"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "Sleepy bear or something",
@@ -12955,12 +12955,12 @@
             },
             {
                "title" : "untitled gator MILF thing",
+               "title_attribute" : "Abandoned - 3/28/2020",
                "URLS" : [
                   {
                      "url" : "https://git.io/J3hRC"
                   }
-               ],
-               "title_attribute" : "Abandoned - 3/28/2020"
+               ]
             }
          ]
       },
@@ -13084,12 +13084,12 @@
          "STORIES" : [
             {
                "title" : "Guard Duty",
+               "title_attribute" : "Line ???",
                "URLS" : [
                   {
                      "url" : "https://git.io/J3MVm"
                   }
-               ],
-               "title_attribute" : "Line ???"
+               ]
             }
          ]
       },
@@ -13343,12 +13343,12 @@
          "STORIES" : [
             {
                "title" : "Guard Duty",
+               "title_attribute" : "Fan Rewrite",
                "URLS" : [
                   {
                      "url" : "https://ghostbin.com/paste/vTAxw"
                   }
-               ],
-               "title_attribute" : "Fan Rewrite"
+               ]
             }
          ]
       },
@@ -13511,6 +13511,7 @@
             },
             {
                "title" : "Prequel",
+               "title_attribute" : "Anon x Hyena",
                "TAGS" : [
                   {
                      "tags" : [
@@ -13537,11 +13538,11 @@
                   {
                      "url" : "https://git.io/Js81N"
                   }
-               ],
-               "title_attribute" : "Anon x Hyena"
+               ]
             },
             {
                "title" : "Quo Usque Pro Amor Ibis",
+               "title_attribute" : "Anon x Hyena",
                "TAGS" : [
                   {
                      "tags" : [
@@ -13570,8 +13571,7 @@
                   {
                      "url" : "https://git.io/Js81A"
                   }
-               ],
-               "title_attribute" : "Anon x Hyena"
+               ]
             },
             {
                "title" : "Stipendia septemtrionis",
@@ -14051,6 +14051,7 @@
             },
             {
                "title" : "Anon's Hairy Fox Hunt Alternate ending",
+               "title_attribute" : "This ending was made by Strong_Anon, not Lurk_Anon",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -14062,8 +14063,7 @@
                   {
                      "url" : "https://git.io/J3hza"
                   }
-               ],
-               "title_attribute" : "This ending was made by Strong_Anon, not Lurk_Anon"
+               ]
             },
             {
                "title" : "Bunny Twist",
@@ -14312,12 +14312,12 @@
             },
             {
                "title" : "Touch the...",
+               "title_attribute" : "tags- cow, noncon, mind fuckery",
                "URLS" : [
                   {
                      "url" : "https://git.io/Js379"
                   }
-               ],
-               "title_attribute" : "tags- cow, noncon, mind fuckery"
+               ]
             }
          ]
       },
@@ -14742,16 +14742,17 @@
             },
             {
                "title" : "Making It: Act 1",
+               "title_attribute" : "ratfolk",
                "URLS" : [
                   {
                      "url" : "https://www.sofurry.com/view/1509589",
                      "url_attribute" : "Act 1"
                   }
-               ],
-               "title_attribute" : "ratfolk"
+               ]
             },
             {
                "title" : "Pariah",
+               "title_attribute" : "Firebrand 2",
                "TAGS" : [
                   {
                      "tags" : [
@@ -14783,13 +14784,13 @@
                   {
                      "url" : "https://www.sofurry.com/view/1487625"
                   }
-               ],
-               "title_attribute" : "Firebrand 2"
+               ]
             }
          ]
       },
       {
          "author" : "McDoogly",
+         "author_attribute" : "McDoogle",
          "STORIES" : [
             {
                "title" : "Beginner's Luck",
@@ -14819,8 +14820,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "McDoogle"
+         ]
       },
       {
          "author" : "Metamorphone",
@@ -14877,6 +14877,7 @@
       },
       {
          "author" : "Miru",
+         "author_attribute" : "Mirukane",
          "STORIES" : [
             {
                "title" : "Victorian (Because Your Mine).",
@@ -14906,8 +14907,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "Mirukane"
+         ]
       },
       {
          "author" : "Mister_Smisser",
@@ -14952,6 +14952,7 @@
       },
       {
          "author" : "Mornin Dove",
+         "author_attribute" : "Digiridoguy",
          "STORIES" : [
             {
                "title" : "Buccaneers of Black Pond",
@@ -15142,6 +15143,7 @@
             },
             {
                "title" : "We Didn't Start the Fire",
+               "title_attribute" : "p. 14",
                "TAGS" : [
                   {
                      "tags" : [
@@ -15166,8 +15168,7 @@
                   {
                      "url" : "https://catbox.moe/c/mxs6cc"
                   }
-               ],
-               "title_attribute" : "p. 14"
+               ]
             },
             {
                "title" : "What Happens at Spacial Combat Training...",
@@ -15190,8 +15191,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "Digiridoguy"
+         ]
       },
       {
          "author" : "Mousguy",
@@ -15523,21 +15523,21 @@
          "STORIES" : [
             {
                "title" : "Maiden Voyage",
+               "title_attribute" : "From The Whitemane Collection",
                "URLS" : [
                   {
                      "url" : "https://docs.google.com/document/d/1LvkkTDoS5elYTJIYNlERkqERgSIs2sMNJFBgexQNKQ0"
                   }
-               ],
-               "title_attribute" : "From The Whitemane Collection"
+               ]
             },
             {
                "title" : "The Princess and the Paladin",
+               "title_attribute" : "Cont. from \"The elf hurried after his companion.\"",
                "URLS" : [
                   {
                      "url" : "https://docs.google.com/document/d/1GgSmiBsuAwGMPhi5l5L2RrfomEJSANlM--EZ84mAQk8"
                   }
-               ],
-               "title_attribute" : "Cont. from \"The elf hurried after his companion.\""
+               ]
             }
          ]
       },
@@ -16025,21 +16025,21 @@
             },
             {
                "title" : "Milf Bun",
+               "title_attribute" : "Thread Req 2",
                "URLS" : [
                   {
                      "url" : "https://git.io/J3pCd"
                   }
-               ],
-               "title_attribute" : "Thread Req 2"
+               ]
             },
             {
                "title" : "Otter Rubs",
+               "title_attribute" : "Thread Req 1",
                "URLS" : [
                   {
                      "url" : "https://git.io/J3pCQ"
                   }
-               ],
-               "title_attribute" : "Thread Req 1"
+               ]
             },
             {
                "title" : "Princess of the Silver Screen",
@@ -16570,6 +16570,7 @@
             },
             {
                "title" : "The Leaves of Fall",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -16843,8 +16844,7 @@
                   {
                      "description" : "You've never really 'fit in' with the heavily divided Ranchview High School crowd. Jock, Goth, Prep, Cheerleader, Nerd...you were never any of these. But as Halloween approaches, strange things start happening, and a dark ritual begins with the finding of a curious red book. It's a race against time for you and your friends to stop a group of students from ushering in an age of darkness, and to also figure out just what the hell is wrong with that rabbit."
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "The Leaves of Fall: Autumn Flowers",
@@ -17177,12 +17177,12 @@
             },
             {
                "title" : "Hobo's Writing FAQ for /hmofa/",
+               "title_attribute" : "Updates as Needed",
                "URLS" : [
                   {
                      "url" : "https://git.io/Js8Dz"
                   }
-               ],
-               "title_attribute" : "Updates as Needed"
+               ]
             },
             {
                "title" : "Lightning in a Bottle",
@@ -17238,6 +17238,7 @@
             },
             {
                "title" : "Pactbearer",
+               "title_attribute" : "Story cancelled",
                "TAGS" : [
                   {
                      "tags" : [
@@ -17282,8 +17283,7 @@
                   {
                      "description" : "Demon is magically bonded to knight because his grandmother was a witch and made a pact with the demon."
                   }
-               ],
-               "title_attribute" : "Story cancelled"
+               ]
             },
             {
                "title" : "Preferred Treatment",
@@ -17323,6 +17323,7 @@
             },
             {
                "title" : "The Touch of Luxury",
+               "title_attribute" : "Abandonware",
                "TAGS" : [
                   {
                      "tags" : [
@@ -17344,8 +17345,7 @@
                   {
                      "description" : "So the basis of The Touch of Luxury was a rich lady plucking up a random nobody for a toy because rich people operate on a different moral scale than us po' folk."
                   }
-               ],
-               "title_attribute" : "Abandonware"
+               ]
             },
             {
                "title" : "Tough to Love",
@@ -17460,6 +17460,7 @@
          "STORIES" : [
             {
                "title" : "I've Always Loved You",
+               "title_attribute" : "Line 162",
                "TAGS" : [
                   {
                      "tags" : [
@@ -17481,8 +17482,7 @@
                   {
                      "url" : "https://git.io/J39DA"
                   }
-               ],
-               "title_attribute" : "Line 162"
+               ]
             }
          ]
       },
@@ -17967,6 +17967,7 @@
             },
             {
                "title" : "Raid over me",
+               "title_attribute" : "STRONG",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -17978,8 +17979,7 @@
                   {
                      "url" : "https://git.io/Js3yF"
                   }
-               ],
-               "title_attribute" : "STRONG"
+               ]
             },
             {
                "title" : "Wolfu story",
@@ -19392,6 +19392,7 @@
          "STORIES" : [
             {
                "title" : "Schoolyard Crush",
+               "title_attribute" : "Halloween Special",
                "TAGS" : [
                   {
                      "tags" : [
@@ -19414,8 +19415,7 @@
                   {
                      "url" : "https://git.io/Js8y3"
                   }
-               ],
-               "title_attribute" : "Halloween Special"
+               ]
             },
             {
                "title" : "Schoolyard Crush",
@@ -19465,6 +19465,7 @@
             },
             {
                "title" : "gay story about goat boobies",
+               "title_attribute" : "Not gay",
                "TAGS" : [
                   {
                      "tags" : [
@@ -19480,8 +19481,7 @@
                   {
                      "url" : "https://git.io/Js8yn"
                   }
-               ],
-               "title_attribute" : "Not gay"
+               ]
             }
          ]
       },
@@ -20548,12 +20548,12 @@
          "STORIES" : [
             {
                "title" : "Birds of Prey",
+               "title_attribute" : "Hetero Edition",
                "URLS" : [
                   {
                      "url" : "https://snekguy.com/stories/pinwheel/birds-of-prey/birds-of-prey-hetero-edition/"
                   }
-               ],
-               "title_attribute" : "Hetero Edition"
+               ]
             },
             {
                "title" : "Date with a Drifter",
@@ -21011,6 +21011,7 @@
          "STORIES" : [
             {
                "title" : "A dead man with the rats",
+               "title_attribute" : "Skaven x Krieg guardsman",
                "TAGS" : [
                   {
                      "tags" : [
@@ -21039,8 +21040,7 @@
                   {
                      "url" : "https://git.io/J3hB1"
                   }
-               ],
-               "title_attribute" : "Skaven x Krieg guardsman"
+               ]
             },
             {
                "title" : "Brahmin thing for /hmofa/",
@@ -21065,6 +21065,7 @@
             },
             {
                "title" : "Scavenging for love",
+               "title_attribute" : "Vulture",
                "TAGS" : [
                   {
                      "tags" : [
@@ -21086,8 +21087,7 @@
                   {
                      "url" : "https://git.io/J3hBy"
                   }
-               ],
-               "title_attribute" : "Vulture"
+               ]
             }
          ]
       },
@@ -21120,6 +21120,7 @@
             },
             {
                "title" : "The HEAT",
+               "title_attribute" : "The Purge /hmofa/ Parody",
                "TAGS" : [
                   {
                      "tags" : [
@@ -21153,8 +21154,7 @@
                   {
                      "description" : "The Purge /hmofa/ parody, but instead of murder it's anthro women in heat looking for helpless Anons"
                   }
-               ],
-               "title_attribute" : "The Purge /hmofa/ Parody"
+               ]
             }
          ]
       },
@@ -21315,6 +21315,7 @@
             },
             {
                "title" : "Wedding The Dragon",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [
@@ -21360,8 +21361,7 @@
                   {
                      "description" : "A noble who has evaded arranged marriages for years is suddenly thrust into an inescapable wedding, the very day it's set to happen. When he and his family meet the bride, it turns out he's not the only one blindsided by the exact details."
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "Where Kitsune Wait",
@@ -23800,6 +23800,7 @@
          "STORIES" : [
             {
                "title" : "Back to Back",
+               "title_attribute" : "Voodoo-Hoodoo Time Loop",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -23811,11 +23812,11 @@
                   {
                      "url" : "https://git.io/Js3y9"
                   }
-               ],
-               "title_attribute" : "Voodoo-Hoodoo Time Loop"
+               ]
             },
             {
                "title" : "Just Passing Through",
+               "title_attribute" : "Custom Tabletop Inspired Story",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -23828,8 +23829,7 @@
                      "url" : "https://git.io/Js3y7",
                      "url_attribute" : "Chapters 1-9"
                   }
-               ],
-               "title_attribute" : "Custom Tabletop Inspired Story"
+               ]
             },
             {
                "title" : "Small Greens",
@@ -23848,6 +23848,7 @@
             },
             {
                "title" : "Unterland",
+               "title_attribute" : "Picked Back Up",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -23859,8 +23860,7 @@
                   {
                      "url" : "https://git.io/Js3yD"
                   }
-               ],
-               "title_attribute" : "Picked Back Up"
+               ]
             }
          ]
       },
@@ -23971,6 +23971,7 @@
       },
       {
          "author" : "Tetchy_",
+         "author_attribute" : "Mr_Shoggoth",
          "STORIES" : [
             {
                "title" : "Accidental Summoning",
@@ -24029,8 +24030,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "Mr_Shoggoth"
+         ]
       },
       {
          "author" : "ThatGuy1313",
@@ -24389,6 +24389,7 @@
          "STORIES" : [
             {
                "title" : "She Lives While I Sleep",
+               "title_attribute" : "Reptilian",
                "TAGS" : [
                   {
                      "tags" : [
@@ -24407,11 +24408,11 @@
                   {
                      "url" : "https://git.io/JZ9PX"
                   }
-               ],
-               "title_attribute" : "Reptilian"
+               ]
             },
             {
                "title" : "The Monster in the Closet",
+               "title_attribute" : "a Loka Story",
                "TAGS" : [
                   {
                      "tags" : [
@@ -24435,8 +24436,7 @@
                   {
                      "url" : "https://git.io/JZ9iY"
                   }
-               ],
-               "title_attribute" : "a Loka Story"
+               ]
             }
          ]
       },
@@ -24576,15 +24576,16 @@
       },
       {
          "author" : "Toga",
+         "author_attribute" : "Ago",
          "STORIES" : [
             {
                "title" : "On the Fringes",
+               "title_attribute" : "COMPLETE",
                "URLS" : [
                   {
                      "url" : "https://archiveofourown.org/works/28141665"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "The Knight's Ward",
@@ -24594,8 +24595,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "Ago"
+         ]
       },
       {
          "author" : "ToothAndScale",
@@ -24936,6 +24936,7 @@
       },
       {
          "author" : "VanillaTin",
+         "author_attribute" : "Vani11aS33d",
          "STORIES" : [
             {
                "title" : "In the Bear's Den",
@@ -24973,6 +24974,7 @@
             },
             {
                "title" : "Ride in the Drakwald",
+               "title_attribute" : "COMPLETE",
                "TAGS" : [
                   {
                      "tags" : [],
@@ -24999,8 +25001,7 @@
                      "url" : "https://www.sofurry.com/view/1610554",
                      "url_attribute" : "part 3"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "Slime and Steel",
@@ -25064,8 +25065,7 @@
                   }
                ]
             }
-         ],
-         "author_attribute" : "Vani11aS33d"
+         ]
       },
       {
          "author" : "VespertineJack",
@@ -27070,6 +27070,7 @@
          "STORIES" : [
             {
                "title" : "Death Metal Panda",
+               "title_attribute" : "Unfinished",
                "TAGS" : [
                   {
                      "tags" : [
@@ -27091,8 +27092,7 @@
                   {
                      "url" : "https://git.io/Js8yl"
                   }
-               ],
-               "title_attribute" : "Unfinished"
+               ]
             },
             {
                "title" : "There but for the Grace of God",
@@ -27199,12 +27199,12 @@
          "STORIES" : [
             {
                "title" : "Bunstalker",
+               "title_attribute" : "COMPLETE",
                "URLS" : [
                   {
                      "url" : "https://archiveofourown.org/works/29528511"
                   }
-               ],
-               "title_attribute" : "COMPLETE"
+               ]
             },
             {
                "title" : "Cold Sleds and Hot Shreds",
@@ -27513,12 +27513,12 @@
             },
             {
                "title" : "Oh No",
+               "title_attribute" : "complete",
                "URLS" : [
                   {
                      "url" : "https://archiveofourown.org/works/28812837"
                   }
-               ],
-               "title_attribute" : "complete"
+               ]
             },
             {
                "title" : "Parts and Labour",
@@ -27535,12 +27535,12 @@
          "STORIES" : [
             {
                "title" : "The Non-Canonical Adventures of Contraband Man",
+               "title_attribute" : "Line 143",
                "URLS" : [
                   {
                      "url" : "https://git.io/J3Xym"
                   }
-               ],
-               "title_attribute" : "Line 143"
+               ]
             }
          ]
       },
