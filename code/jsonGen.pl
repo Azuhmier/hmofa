@@ -147,11 +147,7 @@ sub delegate {
     my $delegate_opts = $data->{opts}{delegate};
     if ($delegate_opts->[0]) {
 
-        ## verbose 1 #{{{
-        mes "$data->{name} {{"."{",                $data, [-1], $delegate_opts->[1];
-        mes "Generating $data->{name} {{"."{", $data, [-1], $delegate_opts->[1]; #}}}
-
-        ## sigtrap
+        ## --- sigtrap
         $SIG{__DIE__} = sub {
             if ($data and exists $data->{debug}) {
                 print $_ for $data->{debug}->@*;
@@ -159,26 +155,32 @@ sub delegate {
             }
         };
 
-        ## checks
+        ## verbose 1 #{{{
+        mes "$data->{name} {{"."{",                $data, [-1], $delegate_opts->[1];
+        mes "Generating $data->{name} {{"."{", $data, [-1], $delegate_opts->[1]; #}}}
+
+        ## --- checks
         init($data);
 
-        ## matches
+        ## --- matches
         getMatches($data);
         validate_Matches($data);
         $data->{matches4}->%* =
             map { map { $_->{LN} => $_
                       } $data->{matches_clone}{$_}->@*
                 } keys $data->{matches_clone}->%*;
-        ## convert
+
+        ## --- convert
         leveler($data,\&checkMatches);
 
-        ## encode
+        ## --- encode
         encodeResult($data);
 
         ## verbose 1 {{{
+        mes "------------------------", $data, [-1], $delegate_opts->[1];
         mes "}"."}}", $data, [-1], $delegate_opts->[1]; #}}}
 
-        ## write
+        ## --- write array {{{
         my $writeArray = genWriteArray($data);
         open my $fh, '>', './result/'.$data->{result}{libName}.'.txt' or die $!;
         for (@$writeArray) {
@@ -186,41 +188,24 @@ sub delegate {
         }
         truncate $fh, tell($fh) or die;
         seek $fh,0,0 or die;
-        close $fh;
+        close $fh; #}}}
 
         ## verbose 1 {{{
         mes "}"."}}", $data, [-1], $delegate_opts->[1]; #}}}
 
-        ## output {{{
+        ## --- output {{{
 
         if ($delegate_opts->[1]) {
             ## Matches Meta
             my $matches_Meta = $data->{meta}{matches};
             my $max = length longest(keys $matches_Meta->%*);
 
-            ## Verbose
-            #print "\nSummary: $data->{name}\n";
-            #for my $obj (sort keys $matches_Meta->%*) {
-            #    printf "%${max}s: %s\n", ($obj, $matches_Meta->{$obj}{count});
-            #}
-
             ## Subs
-            sub longest {
-                my $max = -1;
-                my $max_ref;
-                for (@_) {
-                    if (length > $max) {  # no temp variable, length() twice is faster
-                        $max = length;
-                        $max_ref = \$_;   # avoid any copying
-                    }
-                }
-                $$max_ref
-            }
         }
         print $_ for $data->{debug}->@*;
         #}}}
 
-        ## WRITE {{{
+        ## --- WRITE {{{
         my $headDir = './data';
         my $dirname = $headDir.'/'.$data->{result}{libName};
         mkdir $headDir if (!-d './data');
@@ -593,7 +578,7 @@ sub divyMatches {
 
                 unless ($F) {
 
-                    ## ELEIGBLE_OBJ
+                    ## --- ELEIGBLE_OBJ
                     my @elegible_obj = grep {
                         exists $dspt->{$_}{order}
                             and
@@ -606,7 +591,7 @@ sub divyMatches {
                         ((scalar (split /\./, $dspt->{$lvlObj}{order})) + $correction)
                     } keys %$dspt;
 
-                    ## LN
+                    ## --- LN
                     my $LN = $ref_LN;
                     for my $obj (@elegible_obj) {
                         for my $item ($data->{matches}{$obj}->@*) {
@@ -616,7 +601,7 @@ sub divyMatches {
                         }
                     }
 
-                    ## PRES ARRAY
+                    ## --- PRES ARRAY
                     my $pres_ARRAY = [
                         grep {
                             exists $_->{LN}
@@ -627,7 +612,7 @@ sub divyMatches {
                         } @$matches_ALL
                     ];
 
-                    ## PRES ARRAY CLEANUP
+                    ## --- PRES ARRAY CLEANUP
                     for my $hash (@$pres_ARRAY) {
                         next if exists $hash->{preserve};
                         my $obj = getLvlObj($data,$hash);
@@ -644,7 +629,7 @@ sub divyMatches {
                             } keys %$hash;
                     }
 
-                    ## MATCHES
+                    ## --- MATCHES
                     if ($F_inclusive) { $MATCHES[0] = $pres_ARRAY}
                     else                { push @MATCHES, $pres_ARRAY}
                 }
@@ -1065,6 +1050,7 @@ sub genWriteArray {
             $objDspt->{dresser} = $dressRef;
         }
         #}}}
+
         # ===| $preprocess_sorted {{{
         my $preprocess_sorted = sub {
 
@@ -1114,7 +1100,8 @@ sub genWriteArray {
                             my $cnt = $prior_lvl - $lvl;
                             pop @$pointer for (0 .. $cnt);
                         }
-                    } $pointer->[$lvl] = $obj; #}}}
+                    } 
+                    $pointer->[$lvl] = "<$obj>$container->{$obj}";
 
                     ## verbose 2{{{
                     # the lvl can not increase while the objlvl decreases
@@ -1129,14 +1116,16 @@ sub genWriteArray {
                         $F1 = 1;
                     }
 
-                    my $pointStr = join '.', @$pointer;
-                    my $S0 = " " x (47 - length $pointStr);
+                    my $pointStr = reverse join '.', @$pointer;
+                    $pointStr =~ s/^.*?(?=>)//;
+                    $pointStr = reverse $pointStr;
+                    my $S0 = " " x (160 - length $pointStr);
                     my $S1 = " " x (9 - length $objOrder);
-                    mes "[$F1, $lvl] $objOrder ${S1} $pointStr ${S0} $container->{$obj}",
+                    my $item = (ref $container->{$obj} eq 'ARRAY') ? join "", $container->{$obj->@*}
+                                                                   : $container->{$obj};
+                    mes "[$F1, $lvl] $objOrder ${S1} $pointStr ${S0} $item",
                         $db, [0], $write_opts->[2]; #}}}
-
-                    ## verbose 4{{{
-                    my $debug = []; #}}}
+                    #}}}
 
                     ## --- String: d0, d1 #{{{
                     my $str = '';
@@ -1251,13 +1240,15 @@ sub genWriteArray {
         }; #}}}
 
         walkdepth { preprocess => $preprocess_sorted, wanted => $wanted },  $result;
-        mes("-------------------------", $db, [0]) if $write_opts->[1];
-        mes("SUMMARY", $db, [0]) if $write_opts->[1];
+
+        ## verbose 1 #{{{
+        mes "-" x 20, $db, [0], $write_opts->[1];
+        mes "SUMMARY", $db, [0], $write_opts->[1];
         for my $obj (sort {$childs->{$a} <=> $childs->{$b}} keys $childs->%*) {
             my $S0 = " " x (11 - length $obj);
-            mes("  $obj ${S0} $childs->{$obj}", $db, [0]) if $write_opts->[1];
+            mes "  $obj ${S0} $childs->{$obj}", $db, [0], $write_opts->[1];
         }
-        mes("}}"."}", $db, [-1]) if $write_opts->[1];
+        mes "}}"."}", $db, [-1], $write_opts->[1]; #}}}
    }
    return $writeArray ?$writeArray :0;
 }
@@ -2301,6 +2292,18 @@ sub isReservedKey {
 }
 
 
+#===| longest() {{{2
+sub longest {
+    my $max = -1;
+    my $max_ref;
+    for (@_) {
+        if (length > $max) {  # no temp variable, length() twice is faster
+            $max = length;
+            $max_ref = \$_;   # avoid any copying
+        }
+    }
+    $$max_ref
+}
 #===| mes() {{{2
 sub mes {
     my ($mes, $data, $opts, $bool) = @_;

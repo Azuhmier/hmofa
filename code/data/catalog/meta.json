@@ -1,7 +1,16 @@
 {
    "matches" : {
-      "section" : {
-         "count" : 3
+      "NULL" : {
+         "count" : 0
+      },
+      "series" : {
+         "count" : 42
+      },
+      "preserve" : {
+         "count" : 1558
+      },
+      "tags" : {
+         "count" : 800
       },
       "title" : {
          "count" : 799
@@ -9,26 +18,17 @@
       "libName" : {
          "count" : 0
       },
-      "series" : {
-         "count" : 42
+      "url" : {
+         "count" : 888
       },
       "description" : {
          "count" : 265
       },
-      "NULL" : {
-         "count" : 0
+      "section" : {
+         "count" : 3
       },
       "author" : {
          "count" : 236
-      },
-      "tags" : {
-         "count" : 800
-      },
-      "preserve" : {
-         "count" : 1558
-      },
-      "url" : {
-         "count" : 888
       }
    },
    "dspt" : {
