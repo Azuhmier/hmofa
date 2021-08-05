@@ -1,0 +1,183 @@
+{
+   "tags" : {
+      "attributes" : {
+         "ops" : [
+            null,
+            3,
+            [
+               ""
+            ]
+         ],
+         "general" : [
+            null,
+            2,
+            [
+               ";",
+               ","
+            ]
+         ],
+         "anthro" : [
+            null,
+            1,
+            [
+               ";",
+               ","
+            ]
+         ]
+      },
+      "order" : "1.1.1.1.1",
+      "dresser" : null,
+      "groupName" : "TAGS",
+      "re" : "^\\s*(\\[.*)",
+      "scalar" : "1",
+      "partion" : "1"
+   },
+   "title" : {
+      "dresser" : {
+         "title_attribute" : [
+            " (",
+            ")"
+         ],
+         "title" : [
+            ">",
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      "re" : "^\\s*>\\s*(.*)",
+      "order" : "1.1.1.1",
+      "attributes" : {
+         "title_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "STORIES"
+   },
+   "NULL" : {
+      "dresser" : null
+   },
+   "description" : {
+      "groupName" : "DESCRIPTIONS",
+      "order" : "1.1.1.1.3",
+      "re" : "^\\s*#(.*)",
+      "scalar" : "1",
+      "dresser" : null
+   },
+   "url" : {
+      "re" : "^\\s*(http.+)",
+      "dresser" : {
+         "url_attribute" : [
+            " (",
+            ")"
+         ],
+         "url" : [
+            "",
+            ""
+         ]
+      },
+      "attributes" : {
+         "url_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "URLS",
+      "order" : "1.1.1.1.2"
+   },
+   "section" : {
+      "dresser" : {
+         "section" : [
+            "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
+            " %-------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            {
+               "preserve" : 2
+            }
+         ]
+      },
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
+      "order" : "1",
+      "preserve" : [
+         [
+            "FOREWORD",
+            [
+               1
+            ]
+         ]
+      ],
+      "groupName" : "SECTIONS"
+   },
+   "libName" : {
+      "preserve" : [
+         [
+            "",
+            [
+               0
+            ]
+         ]
+      ],
+      "order" : 0,
+      "groupName" : "LIBS",
+      "dresser" : {
+         "libName" : [
+            "",
+            ""
+         ]
+      }
+   },
+   "preserve" : {
+      "dresser" : {
+         "preserve" : [
+            "",
+            "",
+            "",
+            "",
+            "",
+            {
+               "section" : 1
+            }
+         ]
+      },
+      "groupName" : "PRESERVE",
+      "order" : "-1"
+   },
+   "series" : {
+      "groupName" : "SERIES",
+      "container" : "1",
+      "order" : "1.1.1",
+      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+      "dresser" : {
+         "series" : [
+            "===== ",
+            " ====="
+         ]
+      }
+   },
+   "author" : {
+      "attributes" : {
+         "author_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "AUTHORS",
+      "order" : "1.1",
+      "re" : "^\\s*[Bb]y\\s+(.*)",
+      "dresser" : {
+         "author_attribute" : [
+            " (",
+            ")"
+         ],
+         "author" : [
+            "--------------------------------------------------------------------------------------------------------------\nBy ",
+            "",
+            "",
+            "",
+            "",
+            3
+         ]
+      }
+   }
+}

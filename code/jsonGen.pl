@@ -12,68 +12,125 @@ use warnings;
 use utf8;
 use Storable qw(dclone);
 use JSON::PP;
-use XML::Simple;
-use YAML;
 use Data::Dumper;
-use List::Util;
-use Data::Nested;
-use Array::Utils;
-use Data::Compare;
-use Deep::Hash::Utils qw(reach slurp nest deepvalue);
-use Data::Structure::Util qw(
-  has_utf8 utf8_off utf8_on unbless get_blessed get_refs
-  has_circular_ref circular_off signature
-);
 use List::Util qw( uniq );
-my $erreno;
-use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
 use Data::Walk;
+use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
+
+my $erreno;
+my $CONFIG = '~/.hmofa';
 sub mes;
 
 
 # MAIN {{{1
 #------------------------------------------------------
 {
-    # OPTS {{{
+    ## --- DRESSERS  {{{
+    ## dresser_M {{{
+        my $dresser_M = {
+            libName => {libName => ['', '']},
+            preserve => {
+                preserve => ['', '', '', '', '', {section => 1}],
+            },
+            title => {
+                title           => [">", '', '', '', ''],
+                title_attribute => [' (', ')'],
+            },
+            author => {
+              author           => [('-'x110)."\nBy ", '', '', '', '', 3],
+              author_attribute => [' (', ')'],
+            },
+            series => {
+                series => ["===== " , ' ====='],
+            },
+            section => {
+                section => [
+                    "\n".('-'x126)."\n".('-'x53)."% ",
+                    " %".('-'x49)."\n".('-'x126),
+                    '',
+                    '',
+                    '',
+                    {preserve => 2},
+                ],
+            },
+            url => {
+                url           => ['', '',],
+                url_attribute => [' (', ')',],
+            },
+        }; #}}}
+    ## dresser_C {{{
+        my $dresser_C = {
+            libName => {libName => ['', '']},
+            preserve => {
+                preserve => ['', '', '', '', '', { section => 1 }],
+            },
+            title => {
+                title           => ["\n>", '', '', '', '', {series => 1}],
+                title_attribute => [' (', ')'],
+            },
+            author => {
+              author => [
+                  "\n".('-' x 125)."\n".('-' x 125)."\nby ",
+                  '',
+                  '',
+                  '',
+                  '',
+                  3,
+              ],
+              author_attribute => [' (', ')'],
+            },
+            series  => {
+                series => ["\n=============/ ", " /============="],
+            },
+            section => {
+                section => [
+                    "\n".('—' x 82)."\n%%%%% ",
+                    " %%%%%\n".('—' x 82),
+                    '',
+                    '',
+                    '',
+                    {preserve => 2},
+                ],
+            },
+            tags => {
+                anthro  => ['[', ']', ';', ';', ' '],
+                general => ['[', ']', ';', ';', ' '],
+                ops     => ['', '', '', '', ''],
+            },
+            url => {
+                url           => ['', ''],
+                url_attribute => [' (', ')'],
+            },
+            description => {
+                description => ['#', ''],
+            },
+        }; #}}}
+    #}}}
+    ## --- OPTS {{{
     # ;opts
         my $opts = genOpts({
             ## Processes
-            delegate => [1,1,0,0,0],
-            leveler  => [1,1,0,0,0],
-            divy     => [1,1,0,0,0,0,0,0],
-            write    => [1,1,1,0,0.0,0,0],
-            #1 general
-            #2 matches
-            #3 Preserves
-            #4 shorthand
-            #5
-            #6
-            #7
-            #8 shorthand
-            attribs  => [1,0,0,0,0],
-            delims   => [1,0,0,0,0],
-            encode   => [1,0,0,0,0],
+            delegate => [1,1,0,0,0,0,0,0],
+            leveler  => [1,0,0,0,0,0,0,0],
+            divy     => [1,0,0,0,0,0,0,0],
+            write    => [1,1,0,0,0.0,0,0],
+            attribs  => [1,0,0,0,0,0,0,0],
+            delims   => [1,0,0,0,0,0,0,0],
+            encode   => [1,0,0,0,0,0,0,0],
 
             ## STDOUT
             verbose  => 1,
-            display  => 0,
-            lineNums => 0,
 
             ## MISC
             sort    => 1,
         });
     my $opts2 = genOpts2({
         ## Processes
-        #combine  => [1,1,3,1,0],
-        combine  => [1,0,0,0,0],
-        # 1
-        # 2
-        # 3
-        # 4 refs
-        encode   => [1,0,0,0,0],
-        write    => [1,0,0,0,0],
-        delegate => [1,0,0,0,0],
-        cmp      => [1,0,0,0,0],
+        combine  => [1,0,0,0,0,0,0,0],
+        encode   => [1,0,0,0,0,0,0,0],
+        write    => [1,0,0,0,0,0,0,0],
+        delegate => [1,0,0,0,0,0,0,0],
+        cmp      => [1,0,0,0,0,0,0,0],
 
         ## STDOUT
         verbose  => 1,
@@ -82,19 +139,15 @@ sub mes;
         sort    => 1,
     });
     #}}}
-
-    # DELEGATES {{{
-    # masterbin
+    ## --- DELEGATES {{{
+    ## masterbin
         delegate({
-            opts => $opts,
-            name => 'masterbin',
+            opts     => $opts,
+            name     => 'masterbin',
+            dresser  => $dresser_M,
             preserve => {
-                libName => [
-                    ['',[0]],
-                ],
-                section => [
-                    ['FOREWORD',[1]],
-                ],
+                libName => [ ['', [0]], ],
+                section => [ ['FOREWORD', [1]], ],
             },
             fileNames => {
                 fname  => '../masterbin.txt',
@@ -103,17 +156,14 @@ sub mes;
             },
         });
 
-        ## tagCatalog
+      ## tagCatalog
         delegate({
-            opts => $opts,
-            name => 'catalog',
+            opts     => $opts,
+            name     => 'catalog',
+            dresser  => $dresser_C,
             preserve => {
-                libName => [
-                    ['',[0]],
-                ],
-                section => [
-                    ['Introduction/Key',[1,1,1]],
-                ],
+                libName => [ ['',[0]], ],
+                section => [ ['Introduction/Key', [1,1,1]], ],
             },
             fileNames => {
                 fname  => '../tagCatalog.txt',
@@ -122,11 +172,12 @@ sub mes;
             },
         });
 
+     ## hmofa_lib
      delegate2({
          opts => $opts2,
          name => 'hmofa_llib',
          fileNames => {
-             fname    => ['./data/catalog/catalog.json', './data/masterbin/masterbin.json',],
+             fname    => ['./db/catalog/catalog.json', './db/masterbin/masterbin.json',],
              output   => './json/hmofa_lib.json',
              dspt     => './json/deimos.json',
              external => ['./json/gitIO.json'],
@@ -143,79 +194,64 @@ sub mes;
 #===| delegate() {{{2
 sub delegate {
 
-    my $data = shift @_;
-    my $delegate_opts = $data->{opts}{delegate};
+    my $db = shift @_;
+    my $delegate_opts = $db->{opts}{delegate};
     if ($delegate_opts->[0]) {
 
-        ## --- sigtrap
+
+        ## --- sigtrap {{{
         $SIG{__DIE__} = sub {
-            if ($data and exists $data->{debug}) {
-                print $_ for $data->{debug}->@*;
+            if ($db and exists $db->{debug}) {
+                print $_ for $db->{debug}->@*;
                 print $erreno if $erreno;
             }
-        };
-
+        }; #}}}
+        ## --- checks  #{{{
+        init($db); # }}}
         ## verbose 1 #{{{
-        mes "$data->{name} {{"."{",                $data, [-1], $delegate_opts->[1];
-        mes "Generating $data->{name} {{"."{", $data, [-1], $delegate_opts->[1]; #}}}
-
-        ## --- checks
-        init($data);
-
-        ## --- matches
-        getMatches($data);
-        validate_Matches($data);
-        $data->{matches4}->%* =
-            map { map { $_->{LN} => $_
-                      } $data->{matches_clone}{$_}->@*
-                } keys $data->{matches_clone}->%*;
-
-        ## --- convert
-        leveler($data,\&checkMatches);
-
-        ## --- encode
-        encodeResult($data);
-
-        ## verbose 1 {{{
-        mes "------------------------", $data, [-1], $delegate_opts->[1];
-        mes "}"."}}", $data, [-1], $delegate_opts->[1]; #}}}
-
+        mes "\n...Generating $db->{name}", $db, [-1], $delegate_opts->[1]; #}}}
+        ## --- matches {{{
+        getMatches($db);
+        $db->{matchesByLine}->%* =
+            map {
+                map {
+                    $_->{LN} => $_
+                } $db->{matches}{$_}->@*
+            } keys $db->{matches}->%*; #}}}
+        ## --- convert #{{{
+        leveler($db,\&checkMatches); # }}}
+        ## --- encode  #{{{
+        encodeResult($db); # }}}
         ## --- write array {{{
-        my $writeArray = genWriteArray($data);
-        open my $fh, '>', './result/'.$data->{result}{libName}.'.txt' or die $!;
+        my $writeArray = genWriteArray($db);
+        open my $fh, '>', './result/'.$db->{result}{libName}.'.txt' or die $!;
         for (@$writeArray) {
             print $fh $_,"\n";
         }
         truncate $fh, tell($fh) or die;
         seek $fh,0,0 or die;
         close $fh; #}}}
-
-        ## verbose 1 {{{
-        mes "}"."}}", $data, [-1], $delegate_opts->[1]; #}}}
-
         ## --- output {{{
 
         if ($delegate_opts->[1]) {
             ## Matches Meta
-            my $matches_Meta = $data->{meta}{matches};
+            my $matches_Meta = $db->{meta}{matches};
             my $max = length longest(keys $matches_Meta->%*);
 
             ## Subs
         }
-        print $_ for $data->{debug}->@*;
         #}}}
-
         ## --- WRITE {{{
-        my $headDir = './data';
-        my $dirname = $headDir.'/'.$data->{result}{libName};
-        mkdir $headDir if (!-d './data');
+        my $headDir = './db';
+        my $dirname = $headDir.'/'.$db->{result}{libName};
+        mkdir $headDir if (!-d './db');
         mkdir $dirname if (!-d $dirname);
 
         ## META
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{meta});
+            my $json     = $json_obj->encode($db->{meta});
             my $fname    = $dirname.'/meta.json';
             open my $fh, '>', $fname or die "Error in opening file $fname\n";
                 print $fh $json;
@@ -226,8 +262,8 @@ sub delegate {
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{result});
-            my $fname    = $dirname.'/'.$data->{result}->{libName}.'.json';
+            my $json     = $json_obj->encode($db->{result});
+            my $fname    = $dirname.'/'.$db->{result}->{libName}.'.json';
             open my $fh, '>', $fname or die "Error in opening file $fname\n";
                 print $fh $json;
                 truncate $fh, tell( $fh ) or die;
@@ -237,40 +273,29 @@ sub delegate {
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{matches});
+            my $json     = $json_obj->encode($db->{matches});
             my $fname    = $dirname.'/matches.json';
             open my $fh, '>', $fname or die "Error in opening file $fname\n";
                 print $fh $json;
                 truncate $fh, tell( $fh ) or die;
             close $fh;
         }
-        ## MATCHES4
+        ## MATCHESBYLINE
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{matches4});
-            my $fname    = $dirname.'/matches4.json';
+            my $json     = $json_obj->encode($db->{matchesByLine});
+            my $fname    = $dirname.'/matchesByLine.json';
             open my $fh, '>', $fname or die "Error in opening file $fname\n";
                 print $fh $json;
                 truncate $fh, tell( $fh ) or die;
             close $fh;
         }
-        ## MATCHES_CLONE
+        ## DSPT
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{matches_clone});
-            my $fname    = $dirname.'/matches_clone.json';
-            open my $fh, '>', $fname or die "Error in opening file $fname\n";
-                print $fh $json;
-                truncate $fh, tell( $fh ) or die;
-            close $fh;
-        }
-        ## MATCHES_CLONE
-        {
-            my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
-            $json_obj    = $json_obj->allow_blessed(['true']);
-            my $json     = $json_obj->encode($data->{dspt});
+            my $json     = $json_obj->encode($db->{dspt});
             my $fname    = $dirname.'/dspt.json';
             open my $fh, '>', $fname or die "Error in opening file $fname\n";
                 print $fh $json;
@@ -282,8 +307,18 @@ sub delegate {
             while (readdir $dh) {}
         closedir $dh;
         # }}}
+        ## verbose 1 #{{{
+        my $max = 22;
+        mes "...summarizing $db->{name}",   $db, [-1], $delegate_opts->[1];
+        mes "KEY ".(' 'x($max-3))." VALUE", $db, [0], $delegate_opts->[1];
+        mes "- ".(' 'x($max-1))." -",       $db, [0], $delegate_opts->[1];
+        for my $key (sort {$a cmp $b} keys $db->%*) {
+            my $S0 = " " x ($max - length $key);
+            mes "$key ${S0} $db->{$key}", $db, [0], $delegate_opts->[1];
+        }
+        print $_ for $db->{debug}->@*; #}}}
 
-        return $data;
+        return $db;
     }
 }
 
@@ -291,35 +326,34 @@ sub delegate {
 #===| init() {{{2
 sub init {
 
-  my $data = shift @_;
+  my $db = shift @_;
 
-  # ---|| properties |---{{{3
-  unless (exists $data->{point})     {$data->{point}     = [1]}
+  ## --- properties {{{3
+  unless (exists $db->{point})     {$db->{point}     = [1]}
       else {warn "WARNING!: 'point' is already defined by user!"}
-  unless (exists $data->{result})    {$data->{result}    = {libName => $data->{name}}}
+  unless (exists $db->{result})    {$db->{result}    = {libName => $db->{name}}}
       else {warn "WARNING!: 'result' is already defined by user!"}
-  unless (exists $data->{reffArray}) {$data->{reffArray} = [$data->{result}]}
+  unless (exists $db->{reffArray}) {$db->{reffArray} = [$db->{result}]}
       else {warn "WARNING!: 'reffArray' is already defined by user!"}
-  unless (exists $data->{meta})      {$data->{meta}      = {}}
+  unless (exists $db->{meta})      {$db->{meta}      = {}}
       else {warn "WARNING!: 'meta' is already defined by user!"}
-  unless (exists $data->{debug})     {$data->{debug}     = []}
+  unless (exists $db->{debug})     {$db->{debug}     = []}
       else {warn "WARNING!: 'debug' is already defined by user!"}
-  unless (exists $data->{pointer})     {$data->{pointer}     = []}
+  unless (exists $db->{pointer})   {$db->{pointer}   = []}
       else {warn "WARNING!: 'index' is already defined by user!"}
-  genReservedKeys($data);
+  genReservedKeys($db);
 
-  # ---|| filenames |---{{{3
-  unless ($data->{fileNames}{dspt})   {die "User did not provide filename for 'dspt'!"}
-      genDspt($data);
-      validate_Dspt($data);
-  unless ($data->{fileNames}{fname})  {die "User did not provide filename for 'fname'!"}
-  unless ($data->{fileNames}{output}) {die "User did not provide filename for 'output'!"}
-  #}}}
+  ## --- fnames {{{3
+  unless ($db->{fileNames}{dspt})   {die "User did not provide filename for 'dspt'!"}
+      genDspt($db);
+      validate_Dspt($db);
+  unless ($db->{fileNames}{fname})  {die "User did not provide filename for 'fname'!"}
+  unless ($db->{fileNames}{output}) {die "User did not provide filename for 'output'!"} #}}}
 }
 #===| genReservedKeys() {{{2
 sub genReservedKeys {
 
-    my $data = shift @_;
+    my $db = shift @_;
     my $ARGS = shift @_;
     my $defaults = {
         raw       => [ 'raw',       1 ],
@@ -337,15 +371,15 @@ sub genReservedKeys {
     my %DupesOrderNum;
     for (@order) { die "Reserved keys cannot have identical orders!" if $DupesOrderNum{$_}++ }
 
-    $data->{reservedKeys} = $defaults;
+    $db->{reservedKeys} = $defaults;
 }
 
 #===| gendspt {{{2
 sub genDspt {
 
-    my $data = shift @_;
+    my $db = shift @_;
     my $dspt = do {
-        open my $fh, '<', $data->{fileNames}{dspt};
+        open my $fh, '<', $db->{fileNames}{dspt};
         local $/;
         decode_json(<$fh>);
     };
@@ -370,21 +404,21 @@ sub genDspt {
     }
 
     ## preserve
-    if (exists $data->{preserve}) {
-       my $preserve = $data->{preserve};
+    if (exists $db->{preserve}) {
+       my $preserve = $db->{preserve};
         for my $obj (keys %$preserve) {
             my $preserve_obj          = dclone($preserve->{$obj});
             $dspt->{$obj}{preserve}->@* = @$preserve_obj;
         }
-        delete $data->{preserve};
+        delete $db->{preserve};
     }
-    $data->{dspt} = dclone($dspt);
+    $db->{dspt} = dclone($dspt);
 }
 #===| validate_Dspt() {{{2
 sub validate_Dspt {
 
-    my $data = shift @_;
-    my $dspt = $data->{dspt};
+    my $db = shift @_;
+    my $dspt = $db->{dspt};
     my %hash = ();
 
     ## check for duplicates: order
@@ -393,8 +427,8 @@ sub validate_Dspt {
     for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
 
     ## META
-    $data->{meta}{dspt} = {};
-    my $dspt_meta = $data->{meta}{dspt};
+    $db->{meta}{dspt} = {};
+    my $dspt_meta = $db->{meta}{dspt};
 
 
     my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
@@ -411,112 +445,88 @@ sub validate_Dspt {
 #===| getMatches() {{{2
 sub getMatches {
 
-    my $data = shift @_;
-    my $fname = $data->{fileNames}{fname};
-    my $dspt  = $data->{dspt};
-    my $output;
+    my $db = shift @_;
+    my $dspt = $db->{dspt};
 
-    open( my $fh, '<', $fname )
+    ## --- open tgt file for regex parsing
+    open my $fh, '<', $db->{fileNames}{fname}
         or die $!;
+    {
+        while (my $line = <$fh>) {
 
-    while (my $line = <$fh>) {
+            ## --- Regex LOOP
+            my $F;
+            for my $obj (keys %$dspt) {
+                if ($dspt->{$obj}{re} and $line =~ /$dspt->{$obj}{re}/) {
+                    $F=1;
+                    my $match = {
+                        LN   => $.,
+                        $obj => $1,
+                        raw  => $line,
+                    }; push $db->{matches}{$obj}->@*, $match;
+                }
+            }
 
-        my $flag;
-        for my $objKey (keys %$dspt) {
-            my $obj = $dspt->{$objKey};
-
-            if ($obj->{re} and $line =~ /$obj->{re}/) {
+            ## --- Put MISSES in PRESERVES
+            unless ($F) {
                 my $match = {
                     LN      => $.,
-                    $objKey => $1,
-                    raw     => $line,
-                };
-                push  $output->{$objKey}->@*, $match;
-                $flag=1;
+                    preserve => $line,
+                }; push $db->{matches}{preserve}->@*, $match;
             }
         }
-        unless ($flag) {
-            my $match = {
-                LN      => $.,
-                preserve => $line,
-            };
-            push  $output->{preserve}->@*, $match;
-        }
-    }
+    } close $fh ;
 
-    close( $fh );
-    $data->{matches} = $output;
-}
-
-
-
-#===| validate_Matches() {{{2
-sub validate_Matches {
-
-    my $data    = shift @_;
-    my $dspt    = $data->{dspt};
-    my $matches = $data->{matches};
-    my $meta    = $data->{meta};
-    $data->{matches_clone} = dclone($matches);
-
-    ## MATCHES META
-    $meta->{matches} = {};
-    my $meta_matches = $meta->{matches};
-
+    ## -- utilize regex matches
+    $db->{static}{matches} = dclone($db->{matches});
     for my $obj (keys %$dspt, 'preserve') {
-
-        $meta_matches->{$obj}      = {};
-        my $meta_matches_obj       = $meta_matches->{$obj};
-
-        my $matches_obj            = $matches->{$obj};
-        $meta_matches_obj->{count} = $matches_obj ? scalar @$matches_obj : 0;
+        $db->{meta}{matches}{$obj}{count} = $db->{matches}{$obj} ? scalar $db->{matches}{$obj}->@*
+                                                                 : 0;
     }
-}
 
+}
 
 
 #===| leveler() {{{2
 # iterates in 2 dimensions the order of the dspt
 sub leveler {
 
-    my $data = shift @_;
-    my $sub  = shift @_;
-    my $leveler_opts = $data->{opts}{leveler};
+    my ($db,$sub) = @_;
+    my $opts_leveler = $db->{opts}{leveler};
 
-    if ($leveler_opts->[0]) {
+    if ($opts_leveler->[0]) {
 
         ## check existance of OBJ at current point
-        my $objKey = getObj( $data );
-        unless ($objKey) { return }
-
+        my $obj = getObj( $db );
+        unless ($obj) { return }
 
         ## Reverence Arrary for the current recursion
         my $recursionReffArray;
-        while ($objKey) {
+        while ($obj) {
 
-            ## verbose {{{
-            mes getPointStr($data)." $objKey", $data, [0], $leveler_opts->[1]; #}}}
+            ## verbose 1 {{{
+            mes getPointStr($db)." $obj", $db, [0], $opts_leveler->[1]; #}}}
 
             ## Checking existance of recursionReffArray
-            unless (defined $recursionReffArray) { $recursionReffArray->@* = $data->{reffArray}->@* }
+            unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{reffArray}->@* }
 
             ## checkMatches
-            $sub->( $data );
+            $sub->( $db );
 
             ## Check for CHILDREN
-            changePointLvl($data->{point}, 1);
-            leveler( $data, $sub);
-            changePointLvl($data->{point});
-            $data->{reffArray}->@* = $recursionReffArray->@*;
+            changePointLvl($db->{point}, 1);
+            leveler( $db, $sub);
+            changePointLvl($db->{point});
+            $db->{reffArray}->@* = $recursionReffArray->@*;
 
             ## Check for SYBLINGS
-            if (scalar $data->{point}->@*) {
-                $data->{point}[-1]++;
+            if (scalar $db->{point}->@*) {
+                $db->{point}[-1]++;
             } else { last }
 
-            $objKey = getObj($data);
+            $obj = getObj($db);
         }
-        return $data->{result};
+        return $db->{result};
     }
 }
 
@@ -524,57 +534,62 @@ sub leveler {
 #===| checkMatches() {{{2
 sub checkMatches {
 
-    my $data = shift @_;
-    my $obj  = getObj($data);
+    my $db = shift @_;
+    my $obj  = getObj($db);
     my $divier  = \&divyMatches;
 
-    if (exists $data->{matches}{$obj}) {
-        $divier->($data);
+    if (exists $db->{matches}{$obj}) {
+        $divier->($db);
     }
 }
 
 
 #===| divyMatches() {{{2
 sub divyMatches {
-    my $data = shift @_;
-    my $opts_divy = $data->{opts}{divy};
 
+    my $db = shift @_;
+    my $opts_divy = $db->{opts}{divy};
     if ($opts_divy->[0]) {
-        my $obj  = getObj($data);
-        my $dspt = $data->{dspt};
-        my $matches_obj = [ grep {exists $_->{LN}} $data->{matches_clone}{$obj}->@* ];
-        my $matches_ALL = [
+
+        my $obj  = getObj($db);
+        my $dspt = $db->{dspt};
+        my $objMatches = [
+            grep {
+                exists $_->{LN}
+            } $db->{matches}{$obj}->@* ];
+        my $matchesByLine = [
             grep {exists $_->{LN}}
-            map  {$data->{matches4}->{$_}}
+            map  {$db->{matchesByLine}->{$_}}
             sort {$a<=>$b}
-            keys $data->{matches4}->%*
+            keys $db->{matchesByLine}->%*
         ];
-        ## verbose: prev_obj 0 {{{
+
+        ## verbose: prev_(lvl)obj 0 {{{
         my $prev_lvlObj = '';
         my $prev_obj = ''; #}}}
 
         ## --- REFARRAY LOOP
-        my $refArray = $data->{reffArray};
+        my $refArray = $db->{reffArray};
         my $ind = (scalar @$refArray) - 1;
         for my $ref (reverse @$refArray) {
-            my $lvlObj  = getLvlObj($data, $ref);
+            my $lvlObj  = getLvlObj($db, $ref);
             my $ref_LN  = $ref->{LN} ?$ref->{LN} :0;
-            my @MATCHES = ([ @$matches_obj ]);
+            my @MATCHES = ([ @$objMatches ]);
 
             ## --- PRESERVE{{{
             my $lvlPreserve = $dspt->{$lvlObj}{preserve} // undef;
-            my $F_inclusive = 0;
-
+            my $F_inclusive=0;
             if ($lvlPreserve) {
-                my $correction;
-                my $F;
 
                 ## INCLUSIVE/EXCLUSIVE
+                my $F;
+                my $correction;
                 if ( (grep { $_->[0] eq $ref->{$lvlObj} } @$lvlPreserve)[0] ) {
-                    $F_inclusive = 1; $correction = 0;
+                    $F_inclusive=1;
+                    $correction=0;
                 } elsif ($lvlPreserve->[0][0] eq '' && scalar @$lvlPreserve == 1) {
-                    $correction = ($lvlObj eq 'libName') ?0 :1;
-                } else { $F = 1 }
+                    $correction=($lvlObj eq 'libName') ?0 :1;
+                } else { $F=1 }
 
                 unless ($F) {
 
@@ -584,17 +599,15 @@ sub divyMatches {
                             and
                         $_ ne 'preserve'
                             and
-                        $dspt->{$_}{order}
-                            and
                         scalar (split /\./, $dspt->{$_}{order})
                             ==
-                        ((scalar (split /\./, $dspt->{$lvlObj}{order})) + $correction)
+                        scalar (split /\./, $dspt->{$lvlObj}{order}) + $correction
                     } keys %$dspt;
 
                     ## --- LN
                     my $LN = $ref_LN;
                     for my $obj (@elegible_obj) {
-                        for my $item ($data->{matches}{$obj}->@*) {
+                        for my $item ($db->{static}{matches}{$obj}->@*) {
                             if ($item->{LN} > $LN) {
                                 $LN = $item->{LN}; last;
                             }
@@ -609,13 +622,13 @@ sub divyMatches {
                             $_->{LN} < $LN
                                 &&
                             ($F_inclusive ?1 :$_->{LN} > $ref_LN)
-                        } @$matches_ALL
+                        } @$matchesByLine
                     ];
 
                     ## --- PRES ARRAY CLEANUP
                     for my $hash (@$pres_ARRAY) {
                         next if exists $hash->{preserve};
-                        my $obj = getLvlObj($data,$hash);
+                        my $obj = getLvlObj($db,$hash);
                         $hash->{preserve} = $hash->{raw};
                         #delete $hash->{$obj};
                         %$hash =
@@ -631,7 +644,7 @@ sub divyMatches {
 
                     ## --- MATCHES
                     if ($F_inclusive) { $MATCHES[0] = $pres_ARRAY}
-                    else                { push @MATCHES, $pres_ARRAY}
+                    else              { push @MATCHES, $pres_ARRAY}
                 }
             } #}}}
 
@@ -649,7 +662,7 @@ sub divyMatches {
                 my $F = 0;
                 for my $match (reverse @$array) {
                     next unless $match;
-                    $obj = exists $match->{preserve} ?'preserve' :getLvlObj($data, $match);
+                    $obj = exists $match->{preserve} ?'preserve' :getLvlObj($db, $match);
 
                     ## CHECKS
                     unless ($match->{LN}) {
@@ -661,14 +674,14 @@ sub divyMatches {
 
                     ## --- MATCH FOUND {{{
                     if ($match->{LN} > $ref_LN) {
-                        my $match = pop @{ $F_inclusive || $F_partial ?$array :$matches_obj };
-                        my $attrDebug = genAttributes( $data, $match, [$F_partial, $F_inclusive]);
+                        my $match = pop @{ $F_inclusive || $F_partial ?$array :$objMatches };
+                        my $attrDebug = genAttributes( $db, $match, [$F_partial, $F_inclusive]);
                         push @$childObjs, $match;
                     } else { last } #}}}
                     ## verbose 1,1 {{{
                     if ($obj ne $prev_obj) {
-                        push @$mes, mes "$obj -> $lvlObj", $data, [1,0,1], $opts_divy->[1] == 1;
-                        push @$mes, mes "[$ref_LN, $ind]", $data, [1,0,1], $opts_divy->[6] == 1;
+                        push @$mes, mes "$obj -> $lvlObj", $db, [1,0,1], $opts_divy->[1] == 1;
+                        push @$mes, mes "[$ref_LN, $ind]", $db, [1,0,1], $opts_divy->[6] == 1;
                     } $prev_obj = $obj; #}}}
                 } #}}}
                 ## --- MATCHES TO REFARRAY {{{
@@ -679,12 +692,12 @@ sub divyMatches {
                         unless (exists $refArray->[$ind]{PRESERVE}) {
                             $refArray->[$ind]{PRESERVE} = []
                         }
-                        @$childObjsClone = map {$data->{matches4}{$_->{LN}} } @$childObjsClone;
+                        @$childObjsClone = map {$db->{matchesByLine}{$_->{LN}} } @$childObjsClone;
                         my $ref = dclone($childObjsClone);
                         push $refArray->[$ind]{PRESERVE}->@*, @$ref;
 
                     } else {
-                        my $groupName =  $F_partial ?'PRESERVE' :getGroupName($data, $obj);
+                        my $groupName =  $F_partial ?'PRESERVE' :getGroupName($db, $obj);
                         $refArray->[$ind]{$groupName} = $childObjsClone;
                         splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjsClone) );
 
@@ -694,7 +707,7 @@ sub divyMatches {
 
                     # verbose 1,1{{{
                     if ($mes and scalar @$mes) {
-                        mes "$_", $data, [-1,1,0], $opts_divy->[1] == 1 for @$mes;
+                        mes "$_", $db, [-1,1,0], $opts_divy->[1] == 1 for @$mes;
                     } #}}}
 
                 } #}}}
@@ -707,10 +720,10 @@ sub divyMatches {
 #===| genAttributes() {{{2
 sub genAttributes {
 
-    my $data  = shift @_;
+    my $db  = shift @_;
     my $match = shift @_;
     my $flags = shift @_;
-    my $attr_opts = $data->{opts}{attribs};
+    my $attr_opts = $db->{opts}{attribs};
 
     ## verbose {{{
     my $debug     = [];
@@ -718,8 +731,8 @@ sub genAttributes {
 
     if ($attr_opts->[0] and !$flags->[0] and !$flags->[1]) {
 
-        my $obj       = getObj($data);
-        my $objReff   = $data->{dspt}{$obj};
+        my $obj       = getObj($db);
+        my $objReff   = $db->{dspt}{$obj};
         $match->{raw} = $match->{$obj};
 
         if (exists $objReff->{attributes}) {
@@ -739,13 +752,13 @@ sub genAttributes {
 
                     # verbose {{{
                     if ($attr_opts->[1] == 1) {
-                        push $debug->@*, mes("|${attrib}|",              $data, [6, 1, 1], $attr_opts->[1] == 1);
-                        push $debug->@*, mes(" '".$match->{$attrib}."'", $data, [-1, 0, 1], $attr_opts->[1] == 1);
+                        push $debug->@*, mes("|${attrib}|",              $db, [6, 1, 1], $attr_opts->[1] == 1);
+                        push $debug->@*, mes(" '".$match->{$attrib}."'", $db, [-1, 0, 1], $attr_opts->[1] == 1);
                     }
                     #}}}
 
                     if (scalar $attrReff->@* == 3) {
-                        delimitAttribute($data, $attrib, $match);
+                        delimitAttribute($db, $attrib, $match);
                     }
                 }
             }
@@ -769,9 +782,9 @@ sub genAttributes {
 sub delimitAttribute {
 
     ## Attributes
-    my $data           = shift @_;
-    my $objKey         = getObj($data);
-    my $attributesDSPT = $data->{dspt}{$objKey}{attributes};
+    my $db           = shift @_;
+    my $objKey         = getObj($db);
+    my $attributesDSPT = $db->{dspt}{$objKey}{attributes};
 
     ## Regex for Attribute Delimiters
     my $attributeKey = shift @_;
@@ -791,16 +804,16 @@ sub delimitAttribute {
 #===| encodeResult() {{{2
 sub encodeResult {
 
-    my $data  = shift @_;
-    if  ($data->{opts}{encode}[0]) {
-        my $fname = $data->{fileNames}{output};
+    my $db  = shift @_;
+    if  ($db->{opts}{encode}[0]) {
+        my $fname = $db->{fileNames}{output};
         {
             my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
             $json_obj = $json_obj->allow_blessed(['true']);
-            if ($data->{opts}{sort}) {
-              $json_obj->sort_by( sub { cmpKeys( $data, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
+            if ($db->{opts}{sort}) {
+              $json_obj->sort_by( sub { cmpKeys( $db, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
             }
-            my $json  = $json_obj->encode($data->{result});
+            my $json  = $json_obj->encode($db->{result});
             open( my $fh, '>' ,$fname ) or die $!;
                 print $fh $json;
                 truncate $fh, tell( $fh ) or die;
@@ -819,6 +832,7 @@ sub genWriteArray {
     my $write_opts = $db->{opts}{write};
     my $writeArray;
     my $verbose;
+    my %dresser = $db->{dresser}->%*;
 
     if ($write_opts->[0]) {
         $db->{pointer}   = [0];  my $pointer   = $db->{pointer};
@@ -828,222 +842,11 @@ sub genWriteArray {
         $db->{childs}    = {};   my $childs    = $db->{childs};
 
         ## verbose 1{{{
-        mes "Writing $db->{name} {{"."{", $db, [-1], $write_opts->[1];
+        mes "...Writing $db->{name}", $db, [-1], $write_opts->[1];
         # }}}
 
-        ## %dresser {{{
-        my %dresser = (
-            preserve => {
-                preserve => [
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    {
-                        section => 1
-                    },
-                ],
-            },
-            libName => {
-                libName => [
-                    '',
-                    '',
-                ],
-            },
-            title => {
-                title => [
-                    ">",
-                    '',
-                    '',
-                    '',
-                    '',
-                ],
-                title_attribute => [
-                    ' (',
-                    ')',
-                ],
-            },
-            author => {
-              author => [
-                  "--------------------------------------------------------------------------------------------------------------\nBy ",
-                  '',
-                  '',
-                  '',
-                  '',
-                  3,
-              ],
-              author_attribute => [
-                  ' (',
-                  ')',
-              ],
-            },
-            series  => {
-                series => [
-                    "===== "
-                    , ' ====='
-                ],
-            },
-            section => {
-                section => [
-                    "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
-                    " %-------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
-                    '',
-                    '',
-                    '',
-                    {
-                        preserve => 2
-                    },
-                ],
-            },
-            tags => {
-                anthro  => [
-                    '[',
-                    ']',
-                    ';',
-                    ';',
-                    ' ',
-                ],
-                general => [
-                    '[',
-                    ']',
-                    ';',
-                    ';',
-                    ' ',
-                ],
-                ops => [
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                ],
-            },
-            url => {
-                url => [
-                    '',
-                    '',
-                ],
-                url_attribute => [
-                    ' (',
-                    ')',
-                ],
-            },
-            description => {
-                description => [
-                    '#',
-                    '',
-                ],
-            },
-        ); #}}}
-        ## %dresser2 {{{
-        my %dresser2 = (
-            preserve => {
-                preserve => [
-                    '',
-                    '',
-                    '',
-                    '',
-                    '',
-                    {
-                        section => 1
-                    },
-                ],
-            },
-            libName => {
-                libName => [
-                    '',
-                    '',
-                ],
-            },
-            title => {
-                title => [
-                    "\n>",
-                    '',
-                    '',
-                    '',
-                    '',
-                    {
-                        series => 1
-                    },
-                ],
-                title_attribute => [
-                    ' (',
-                    ')',
-                ],
-            },
-            author => {
-              author => [
-                  "\n-----------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------------------\nby ",
-                  '',
-                  '',
-                  '',
-                  '',
-                  3,
-              ],
-              author_attribute => [
-                  ' (',
-                  ')',
-              ],
-            },
-            series  => {
-                series => [
-                    "\n=============/ ",
-                    " /=============",
-                ],
-            },
-            section => {
-                section => [
-                    "\n——————————————————————————————————————————————————————————————————————————————————\n%%%%% ",
-                    " %%%%%\n——————————————————————————————————————————————————————————————————————————————————",
-                    '',
-                    '',
-                    '',
-                    {
-                        preserve => 2
-                    },
-                ],
-            },
-            tags => {
-                anthro  => [
-                    '[',
-                    ']',
-                    ';',
-                    ';',
-                    ' ',
-                ],
-                general => ['[',
-                    ']',
-                    ';',
-                    ';',
-                    ' ',
-                ],
-                ops     => ['',
-                    '',
-                    '',
-                    '',
-                    '',
-                ],
-            },
-            url => {
-                url           => [
-                    '',
-                    '',
-                ],
-                url_attribute => [
-                    ' (',
-                    ')',
-                ],
-            },
-            description => {
-                description => [
-                    '#',
-                    ''
-                ],
-            },
-        ); #}}}
         ## append DSPT {{{
-        if ($db->{result}->{libName} eq 'catalog') {%dresser = %dresser2}
+        #if ($db->{result}->{libName} eq 'catalog') {%dresser = %dresser2}
         for my $obj (keys %$dspt) {
             my $objDspt         = $dspt->{$obj};
             my $dressRef        = $dresser{$obj};
@@ -1100,12 +903,12 @@ sub genWriteArray {
                             my $cnt = $prior_lvl - $lvl;
                             pop @$pointer for (0 .. $cnt);
                         }
-                    } 
-                    $pointer->[$lvl] = "<$obj>$container->{$obj}";
+                    } $pointer->[$lvl] = $obj;
 
                     ## verbose 2{{{
                     # the lvl can not increase while the objlvl decreases
                     # the lvl can not decrease while the objlvl increases
+
                     $childs->{$obj}++;
                     my $objOrder = $db->{dspt}{$obj}{order};
 
@@ -1114,15 +917,14 @@ sub genWriteArray {
                         #@$point = split /\./, $objOrder;
                         $db->{point}->@* = split /\./, $objOrder;
                         $F1 = 1;
-                    }
+                    } my $pointStr = join '.', @$pointer;
 
-                    my $pointStr = reverse join '.', @$pointer;
-                    $pointStr =~ s/^.*?(?=>)//;
-                    $pointStr = reverse $pointStr;
-                    my $S0 = " " x (160 - length $pointStr);
+                    my $S0 = " " x (47 - length $pointStr);
                     my $S1 = " " x (9 - length $objOrder);
-                    my $item = (ref $container->{$obj} eq 'ARRAY') ? join "", $container->{$obj->@*}
+                    my $item = (ref $container->{$obj} eq 'ARRAY') ? '['.(join ', ', $container->{$obj}->@*).']'
                                                                    : $container->{$obj};
+                    #$item = $container->{$obj};
+
                     mes "[$F1, $lvl] $objOrder ${S1} $pointStr ${S0} $item",
                         $db, [0], $write_opts->[2]; #}}}
                     #}}}
@@ -1242,13 +1044,13 @@ sub genWriteArray {
         walkdepth { preprocess => $preprocess_sorted, wanted => $wanted },  $result;
 
         ## verbose 1 #{{{
-        mes "-" x 20, $db, [0], $write_opts->[1];
-        mes "SUMMARY", $db, [0], $write_opts->[1];
+        my $max = 11;
+        mes "OBJ ".(' 'x($max-3))." CNT", $db, [0], $write_opts->[1];
+        mes "- ".(' 'x($max-1))." -",     $db, [0], $write_opts->[1];
         for my $obj (sort {$childs->{$a} <=> $childs->{$b}} keys $childs->%*) {
-            my $S0 = " " x (11 - length $obj);
-            mes "  $obj ${S0} $childs->{$obj}", $db, [0], $write_opts->[1];
-        }
-        mes "}}"."}", $db, [-1], $write_opts->[1]; #}}}
+            my $S0 = " " x ($max - length $obj);
+            mes "$obj ${S0} $childs->{$obj}", $db, [0], $write_opts->[1];
+        }#}}}
    }
    return $writeArray ?$writeArray :0;
 }
@@ -1257,268 +1059,352 @@ sub delegate2 {
 
     my $db = shift @_;
 
-    ## sigtrap
+    ## --- sigtrap #{{{
     $SIG{__DIE__} = sub {
         if ($db and exists $db->{debug}) {
             print $_ for $db->{debug}->@*;
             print $erreno if $erreno;
         }
-    };
+    };#}}}
 
-    ## checks
-    init2($db);
+    ## --- checks #{{{
+    init2($db);#}}}
 
-    ## cmp {{{
+    ## --- cmp {{{
+    my $catalog   = dclone $db->{hash}[0];
+    my $masterbin = dclone $db->{hash}[1];
     {
-        my $cmpOpt = $db->{opts}{cmp};
+        ## SETUP #{{{
+        my $cmpOpt    = $db->{opts}{cmp};#}}}
 
-        ## REMOVE PRESERVES
-        my $catalog   = dclone $db->{hash}[0];
+        ## REMOVE PRESERVES {{{
+        delete $masterbin->{PRESERVE};
+        delete $catalog->{PRESERVE};
         my $SECTIONS0 = $catalog->{SECTIONS};
-        @$SECTIONS0   = map { $SECTIONS0->[$_] } (1 .. $SECTIONS0->$#*);
-        my $masterbin = dclone $db->{hash}[1];
         my $SECTIONS1 = $masterbin->{SECTIONS};
-        @$SECTIONS1   = map { $SECTIONS1->[$_] } (1 .. $SECTIONS1->$#*);
+        @$SECTIONS0   = map { $SECTIONS0->[$_] } (1 .. $SECTIONS0->$#*);
+        @$SECTIONS1   = map { $SECTIONS1->[$_] } (1 .. $SECTIONS1->$#*);#}}}
 
+        ## --- UO - LO {{{
 
-        ## TAKE A LOOK
-        my $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        my $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        my @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        my @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        my @STORIES0 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES0;
-        my @STORIES1 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES1;
-        mes "\n==================",              $db, [-1], $cmpOpt->[1];
-        mes "%% TAKE A LOOK %%",                 $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}",  $db, [-1], $cmpOpt->[1]) for @STORIES1;
-        mes "---------",                         $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}",  $db, [-1], $cmpOpt->[1]) for @STORIES0;
+        ## SETUP #{{{
+        my $lo    = 'title';  my $LO = getGroupName($db,$lo);
+        my $uo    = 'series'; my $UO = getGroupName($db,$uo);
+        my $co    = 'author'; my $CO = getGroupName($db,$co);
+        my $uo_uw = 'other';
+        my $COs   = [$SECTIONS0->[0]{$CO}, $SECTIONS1->[0]{$CO}];
+        my @UOs;
+        my @LOs;
+        my @COs; #}}}
 
-
-        ## REMOVE UNWANTED SECTIONS
-        my @AUTHORS0 = grep { exists $_->{SERIES} and (grep {$_->{series} =~ /other/i} $_->{SERIES}->@*)[0] } @$AUTHORS0;
-        my @AUTHORS1 = grep { exists $_->{SERIES} and (grep {$_->{series} =~ /other/i} $_->{SERIES}->@*)[0] } @$AUTHORS1;
-        for my $author (@AUTHORS0) {
-            my @OTHERS = map {$_->{STORIES}->@*} grep {$_->{series} =~ /other/i} $author->{SERIES}->@*;
-            push $author->{STORIES}->@*, @OTHERS;
-            $author->{SERIES}->@* = grep {$_->{series} !~ /other/i} $author->{SERIES}->@*;
+        ## TAKE A LOOK # {{{
+        @UOs = (); for my $CO_ (@$COs) {
+            my $UO_;
+            @$UO_ =
+                map {
+                    $_->{$UO}->@*
+                }
+                grep {
+                    exists $_->{$UO}
+                } @$CO_;
+            push @UOs, $UO_;
         }
-        for my $author (@AUTHORS1) {
-            my @OTHERS = map {$_->{STORIES}->@*} grep {$_->{series} =~ /other/i} $author->{SERIES}->@*;
-            push $author->{STORIES}->@*, @OTHERS;
-            $author->{SERIES}->@* = grep {$_->{series} !~ /other/i} $author->{SERIES}->@*;
+        @LOs = (); for my $UO_ (@UOs) { my @LO_ =
+            map {
+                {$uo => "[$_->{$uo}]"},
+                $_->{$LO}->@*,
+            } @$UO_;
+            push @LOs, \@LO_;
         }
 
+        ## verbose 1{{{
+        mes "\n==================",        $db, [-1], $cmpOpt->[1];
+        mes "%% TAKE A LOOK %%",           $db, [-1], $cmpOpt->[1];
+        for my $LO_ (@LOs) {
+            mes( $_->{$uo} || "    $_->{$lo}", $db, [0],  $cmpOpt->[1]) for @$LO_;
+            mes "---------",                   $db, [0],  $cmpOpt->[1];
+        }#}}}
+        #}}}
 
-        ## TAKE ANOTHER LOOK
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES0;
-        @STORIES1 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES1;
-        mes "\n==================",             $db, [-1], $cmpOpt->[1];
-        mes "%% TAKE A LOOK %%",                $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES1;
-        mes "---------",                        $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES0;
+        ## REMOVE UNWANTED UOs #{{{
+        @COs = (); for my $CO_ (@$COs) {
+            my $CO__;
+            @$CO__ = @$CO_;
+            @$CO__ =
+                grep {
+                    exists $_->{$UO}
+                        and
+                    (grep {
+                        $_->{$uo} =~ /$uo_uw/i
+                    } $_->{$UO}->@*)[0]
+                } @$CO__;
+            push @COs, [@$CO__];
+        }
 
+        for my $CO_ (@COs) {
+            for my $co (@$CO_) {
+                my @LOs = map { $_->{$LO}->@*} grep { $_->{$uo} =~ /$uo_uw/i } $co->{$UO}->@*;
+                push $co->{$LO}->@*, @LOs;
+                $co->{$UO}->@* = grep { $_->{$uo} !~ /$uo_uw/i } $co->{$UO}->@*;
+            }
+        } #}}}
 
-        ## LOOK FOR INTRA DUPLICATES
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0 = map { $_->{STORIES}->@* } @SERIES0;
-        @STORIES1 = map { $_->{STORIES}->@* } @SERIES1;
-        my %seen0; $seen0{$_}++ for @STORIES0;
-        die if (grep {$seen0{$_} > 1} keys %seen0)[0];
-        my %seen1; $seen1{$_}++ for @STORIES1;
-        die if (grep {$seen1{$_} > 1} keys %seen1)[0];
+        ## LOOK FOR dupes FOR LO #{{{
+        @UOs = (); for my $CO_ (@$COs) {
+            my $UO_;
+            @$UO_ =
+                map {
+                    $_->{$UO}->@*
+                }
+                grep {
+                    exists $_->{$UO}
+                } @$CO_;
+            push @UOs, $UO_;
+        }
+        @LOs = (); for my $UO_ (@UOs) { my @LO_ =
+            map {
+                $_->{$LO}->@*
+            } @$UO_;
+            push @LOs, \@LO_;
+        }
+        # intra
+        my @seens; for my $LO_ (@LOs) {
+            my $seen_;
+            for (@$LO_) {
+                $seen_->{$_->{$lo}}++; 
+                die if $seen_->{$_->{$lo}} > 1 }
+            push @seens, $seen_;
+        }
+        # inter
+        my %seen; $seen{$_->{$lo}}++ for ($LOs[0]->@*, $LOs[1]->@*);
+        ## verbose {{{
+        mes "\n==================",       $db, [-1], $cmpOpt->[1];
+        mes "%% LOOK FOR INTER dupes %%", $db, [-1], $cmpOpt->[1];
+        my @dupes = grep {$seen{$_} > 1} keys %seen;
+        mes "$_",                         $db, [0], $cmpOpt->[1] for @dupes; #}}}
+        #}}}
 
+        ## GET SERIES LO FOR dupes #{{{
+        for my $UO_ (@UOs) { @$UO_ =
+            grep {
+                (grep {
+                    my $lo_ = $_->{$lo};
+                    (grep {
+                        $lo_ eq $_
+                    } @dupes)[0]
+                } $_->{$LO}->@*)[0]
+            } @$UO_
+        }
+        ## verbose {{{
+        mes "\n==================",         $db, [-1], $cmpOpt->[1];
+        mes "%% GET UO TITLE FOR dupes %%", $db, [-1], $cmpOpt->[1];
+        for my $UO_ (@UOs) {
+            mes $_->{$uo},  $db, [0], $cmpOpt->[1] for @$UO_;
+            mes "---------", $db, [0], $cmpOpt->[1];
+        } #}}}
+        #}}}
 
-        ## LOOK FOR INTER DUPLICATES
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0 = map { $_->{STORIES}->@* } @SERIES0;
-        @STORIES1 = map { $_->{STORIES}->@* } @SERIES1;
-        my %seen;
-        my @STORIES = (@STORIES0, @STORIES1);
-        $seen{$_->{title}}++ for @STORIES;
-        mes "\n==================",            $db, [-1], $cmpOpt->[1];
-        mes "%% LOOK FOR INTER DUPLICATES %%", $db, [-1], $cmpOpt->[1];
-        my @duplicates = grep {$seen{$_} > 1} keys %seen;
-        mes "$_",                              $db, [-1], $cmpOpt->[1] for @duplicates;
+        ## SEE IF dupes ARE THE ONLY MEMBERS OF THEIR UO #{{{
+        for my $UO_ (@UOs) { 
+            my $seen_ = shift @seens;
+            @$UO_ =
+                grep {
+                    %$seen_ = ();
+                    $seen_->{$_}++ for @dupes;
+                    for my $lo_ ($_->{$LO}->@*) {
+                        $seen_->{$lo_->{$lo}}++
+                    }
+                    (grep {
+                        $seen_->{$_->{$lo}} == 1
+                    } $_->{$LO}->@*)[0]
+                } @$UO_;
+        }
+        ## verbose {{{
+        mes "\n==================",                                $db, [-1], $cmpOpt->[1];
+        mes "%% SEE IF dupes ARE THE OLNY MEMBERS OF THEIR UO %%", $db, [-1], $cmpOpt->[1];
+        for my $UO_ (@UOs) {
+            mes $_->{$uo},  $db, [0], $cmpOpt->[1] for @$UO_;
+            mes "---------", $db, [0], $cmpOpt->[1];
+        } #}}}
+        #}}}
 
-
-        ## GET SERIES TITLE FOR DUPLICATES
-        @SERIES0 = grep { (grep { my $title = $_->{title}; (grep {$title eq $_} @duplicates)[0]; } $_->{STORIES}->@*)[0] } @SERIES0;
-        @SERIES1 = grep { (grep { my $title = $_->{title}; (grep {$title eq $_} @duplicates)[0]; } $_->{STORIES}->@*)[0] } @SERIES1;
-        mes "\n==================",                  $db, [-1], $cmpOpt->[1];
-        mes "%% GET SERIES TITLE FOR DUPLICATES %%", $db, [-1], $cmpOpt->[1];
-        mes  $_->{series},                           $db, [-1], $cmpOpt->[1] for @SERIES0;
-        mes "---------",                             $db, [-1], $cmpOpt->[1];
-        mes  $_->{series},                           $db, [-1], $cmpOpt->[1] for @SERIES1;
-
-        ## SEE IF DUPLICATES ARE THE OLNY MEMBERS OF THEIR SERIES
-        @SERIES0 = grep { %seen0 = (); $seen0{$_}++ for @duplicates; for my $aa ($_->{STORIES}->@*) {$seen0{$aa->{title}}++}; (grep {$seen0{$_->{title}} == 1 } $_->{STORIES}->@*)[0]; } @SERIES0;
-        @SERIES1 = grep { %seen1 = (); $seen1{$_}++ for @duplicates; for my $aa ($_->{STORIES}->@*) {$seen1{$aa->{title}}++}; (grep {$seen1{$_->{title}} == 1 } $_->{STORIES}->@*)[0]; } @SERIES1;
-        mes "\n==================",                                         $db, [-1], $cmpOpt->[1];
-        mes "%% SEE IF DUPLICATES ARE THE OLNY MEMBERS OF THEIR SERIES %%", $db, [-1], $cmpOpt->[1];
-        mes  $_->{series},                                                  $db, [-1], $cmpOpt->[1] for @SERIES0;
-        mes "---------",                                                    $db, [-1], $cmpOpt->[1];
-        mes  $_->{series},                                                  $db, [-1], $cmpOpt->[1] for @SERIES1;
-
-        ## CHECK IF SERIES ARE THE SAME
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @SERIES0  = grep { (grep { my $title = $_->{title}; (grep {$title eq $_} @duplicates)[0]; } $_->{STORIES}->@*)[0] } @SERIES0;
-        @SERIES1  = grep { (grep { my $title = $_->{title}; (grep {$title eq $_} @duplicates)[0]; } $_->{STORIES}->@*)[0] } @SERIES1;
-        my @SERIES = (@SERIES0, @SERIES1);
-        %seen = ();
-        $seen{$_->{series}}++ for @SERIES;
+        ## CHECK IF UO ARE THE SAME #{{{
+        @UOs = (); for my $CO_ (@$COs) {
+            my $UO_;
+            @$UO_ =
+                map {
+                    $_->{$UO}->@*
+                }
+                grep {
+                    exists $_->{$UO}
+                } @$CO_;
+            push @UOs, $UO_;
+        }
+        for my $UO_ (@UOs) { @$UO_ =
+            grep {
+                (grep {
+                    my $lo_ = $_->{$lo};
+                    (grep {
+                        $lo_ eq $_
+                    } @dupes)[0]
+                } $_->{$LO}->@*)[0]
+            } @$UO_
+        }
+        %seen = (); $seen{$_->{$uo}}++ for ($UOs[0]->@*,$UOs[1]->@*);
         my @CONFLICTS = grep {$seen{$_} == 1} keys %seen;
-        mes "\n==================",               $db, [-1], $cmpOpt->[1];
-        mes "%% CHECK IF SERIES ARE THE SAME %%", $db, [-1], $cmpOpt->[1];
-        mes  $_,                                  $db, [-1], $cmpOpt->[1] for @CONFLICTS;
+        ## verbose {{{
+        mes "\n==================",           $db, [-1], $cmpOpt->[1];
+        mes "%% CHECK IF UO ARE THE SAME %%", $db, [-1], $cmpOpt->[1];
+        mes  $_,                              $db, [0],  $cmpOpt->[1] for @CONFLICTS;#}}}
+        #}}}
 
-        ## CREATE SERIES PAIR CONFLICTS
-        my @TODO0 = grep { my $series = $_->{series}; ( grep{ $_ eq $series } @CONFLICTS)[0]; } @SERIES0;
-        my @TODO1 = grep { my $series = $_->{series}; ( grep{ $_ eq $series } @CONFLICTS)[0]; } @SERIES1;
+        ## CREATE UO PAIR CONFLICTS #{{{
+        my @TODOs;
+        for my $UO_ (@UOs) {
+            my $TODO_;
+            @$TODO_ =
+                grep {
+                    my $uo_ = $_->{$uo};
+                    (grep{
+                        $_ eq $uo_
+                    } @CONFLICTS)[0]
+                } @$UO_;
+                push @TODOs, $TODO_;
+        }
         my @TODO;
-        for my $series0 (@TODO0) {
-            my @stories0 = $series0->{STORIES}->@*;
-            my $series1  = (grep { (grep { my $story1 = $_->{title}; (grep {$_->{title} eq $story1} @stories0)[0]; } $_->{STORIES}->@*)[0] } @TODO1)[0];
-            push @TODO, [$series0, $series1];
+        for my $uo0 ($TODOs[0]->@*) {
+            $LOs[0]->@* = $uo0->{$LO}->@*;
+            my $uo1  =
+                (grep {
+                    (grep {
+                        my $lo1 = $_->{$lo};
+                        (grep {
+                            $_->{$lo} eq $lo1
+                        } $LOs[0]->@*)[0]
+                    } $_->{$LO}->@*)[0]
+                } $TODOs[1]->@*)[0];
+            push @TODO, [$uo0, $uo1];
         }
-        mes "\n==================",              $db, [-1], $cmpOpt->[1];
-        mes "|CREATE SERIES PAIR CONFLICTS|",    $db, [-1], $cmpOpt->[1];
-        mes "$_->[0]{series}, $_->[1]{series}",  $db, [-1], $cmpOpt->[1] for @TODO;
+        ## verbose {{{
+        mes "\n==================",       $db, [-1], $cmpOpt->[1];
+        mes "|CREATE UO PAIR CONFLICTS|", $db, [-1], $cmpOpt->[1];
+        mes "$_->[0]{$uo}, $_->[1]{$uo}", $db, [0], $cmpOpt->[1] for @TODO;#}}}
+        #}}}
 
-
-        ## IF NOT DELELTE SECTION BY LIB PRIORITY
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
+        ## IF NOT DELELTE SECTION BY LIB PRIORITY #{{{
         for my $hash (@TODO) {
-            my $author  = (grep { (grep{ $_->{series} eq $hash->[0]{series} } $_->{SERIES}->@*)[0] } @$AUTHORS0)[0];
-            my $series0 = (grep { $_->{series} eq $hash->[0]{series} } $author->{SERIES}->@*)[0];
-            $series0->{series} = $hash->[1]{series};
+            my $co_ = (grep { (grep{ $_->{$uo} eq $hash->[0]{$uo} } $_->{$UO}->@*)[0] } $COs[0]->@*)[0];
+            my $uo0 = (grep { $_->{$uo} eq $hash->[0]{$uo} } $co_->{$UO}->@*)[0];
+            $uo0->{$uo} = $hash->[1]{$uo}
         }
 
-        ## TAKE ANOTHER LOOK
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES0;
-        @STORIES1 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES1;
-        mes "\n==================",             $db, [-1], $cmpOpt->[1];
-        mes "%% TAKE A LOOK %%",                $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES1;
-        mes "---------",                        $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES0;
+        ## GET LO THAT NEED TO BE REMOVED IN EACH HASH
+        @LOs = (); for my $UO_ (@UOs) { my @LO_ =
+            map {
+                {$uo => "[$_->{$uo}]"},
+                $_->{$LO}->@*,
+            } @$UO_;
+            push @LOs, \@LO_;
+        }
 
-        ## GET STORIES THAT NEED TO BE REMOVED IN EACH HASH
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        my @toDel1;
-        my @SEC_STORIES0 = map { [$_, $_->{STORIES}] } map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @STORIES1        = map { $_->{STORIES}->@* } grep { exists $_->{STORIES} } @$AUTHORS1;
-        for my $part0 (@SEC_STORIES0) {
-            my $ele;
-            for my $story0 ($part0->[1]->@*) {
-                push @$ele, (grep {$_->{title} eq $story0->{title}} @STORIES1)[0];
+        my @toDels;
+        for (0,1) {
+            my $ind = $_;
+            my @SEC_LO_ =
+                map  { [$_, $_->{$LO}]  }
+                map  { $_->{$UO}->@*    }
+                grep { exists $_->{$UO} }
+                $COs->[($ind ^= 1)]->@*;
+            $LOs[$_]->@* =
+                map  { $_->{$LO}->@*    }
+                grep { exists $_->{$LO} }
+                $COs->[$_]->@*;
+            my @toDel_;
+            for my $part_ (@SEC_LO_) {
+                my $ele;
+                for my $lo_ ($part_->[1]->@*) {
+                    push @$ele,
+                        (grep {
+                            $_->{$lo} eq $lo_->{$lo}
+                        } $LOs[$_]->@*)[0]
+                }
+                push @toDel_, [$part_->[0], $ele] if scalar @$ele;
             }
-            push @toDel1, [$part0->[0], $ele] if scalar @$ele;
+            push @toDels, \@toDel_;
         }
-        my @toDel0;
-        my @SEC_STORIES1 = map { [$_, $_->{STORIES}] } map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0        = map { $_->{STORIES}->@* } grep { exists $_->{STORIES} } @$AUTHORS0;
-        for my $part1 (@SEC_STORIES1) {
-            my $ele;
-            for my $story1 ($part1->[1]->@*) {
-                push @$ele, (grep {$_->{title} eq $story1->{title}} @STORIES0)[0];
+        ## verbose {{{
+        mes "\n==================",                              $db, [-1], $cmpOpt->[1];
+        mes "%% GET lo THAT NEED TO BE REMOVED IN EACH HASH %%", $db, [-1], $cmpOpt->[1];
+        for my $toDel_ (@toDels) {
+            for my $part (@$toDel_) {
+                mes "[$part->[0]{$uo}]", $db, [0], $cmpOpt->[1];
+                mes "    ($_->{$lo})",   $db, [0], $cmpOpt->[1] for $part->[1]->@*;
             }
-            push @toDel0, [$part1->[0], $ele] if scalar @$ele;
-        }
-        mes "\n==================",                                   $db, [-1], $cmpOpt->[1];
-        mes "%% GET STORIES THAT NEED TO BE REMOVED IN EACH HASH %%", $db, [-1], $cmpOpt->[1];
-        for my $part (@toDel0) {
-            mes "[$part->[0]{series}]", $db, [-1], $cmpOpt->[1];
-            mes "    ($_->{title})",       $db, [-1], $cmpOpt->[1] for $part->[1]->@*;
-        }
-        mes "---------",                $db, [-1], $cmpOpt->[1];
-        for my $part (@toDel1) {
-            mes "[$part->[0]{series}]", $db, [-1], $cmpOpt->[1];
-            mes  "    ($_->{title})",      $db, [-1], $cmpOpt->[1] for $part->[1]->@*;
-        }
+            mes "---------",             $db, [0], $cmpOpt->[1];
+        } #}}}
+        #}}}
 
-        ## DELETE STORIES BASED ON DEPTH PRIORITY I EACH LIB
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        for my $part0 (@toDel0) {
-            my $stories = dclone $part0->[1];
-            my $author  = (grep { (grep { my $story = $_; (grep {$story->{title} eq $_->{title}} @$stories)[0]; } $_->{STORIES}->@*)[0] } @$AUTHORS0)[0];
-            push $author->{SERIES}->@*, {series => $part0->[0]{series}, STORIES => $stories};
-            $author->{STORIES}->@* = grep { my $story = $_; !(grep {$story->{title} eq $_->{title}} @$stories)[0]; } $author->{STORIES}->@*;
-        }
-
-        for my $part1 (@toDel1) {
-            my $stories = dclone $part1->[1];
-            my $author  = (grep { (grep { my $story = $_; (grep {$story->{title} eq $_->{title}} @$stories)[0]; } $_->{STORIES}->@*)[0] } @$AUTHORS1)[0];
-            push $author->{SERIES}->@*, {series => $part1->[0]{series}, STORIES => $stories};
-            $author->{STORIES}->@* = grep { my $story = $_; !(grep {$story->{title} eq $_->{title}} @$stories)[0]; } $author->{STORIES}->@*;
-        }
-
-        ## TAKE ANOTHER LOOK
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1  = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        @STORIES0 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES0;
-        @STORIES1 = map { {series => "[$_->{series}]"} ,$_->{STORIES}->@* } @SERIES1;
-        mes "\n==================",             $db, [-1], $cmpOpt->[1];
-        mes "%% TAKE A LOOK %%",                $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES1;
-        mes "---------",                        $db, [-1], $cmpOpt->[1];
-        mes( $_->{series} || "    $_->{title}", $db, [-1], $cmpOpt->[1]) for @STORIES0;
-
-        ## MAKE SURE THINGS ARE EQUAL
-        $AUTHORS0 = $SECTIONS0->[0]{AUTHORS};
-        $AUTHORS1 = $SECTIONS1->[0]{AUTHORS};
-        @SERIES0 = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS0;
-        @SERIES1 = map { $_->{SERIES}->@* } grep { exists $_->{SERIES} } @$AUTHORS1;
-        for my $series0 (@SERIES0) {
-            my $series1 = (grep {$_->{series} eq $series0->{series}} @SERIES1)[0] || die;
-            for my $story0 ($series0->{STORIES}->@*) {
-                my $story1 = (grep {$_->{title} eq $story0->{title}} $series0->{STORIES}->@*)[0] || die;
+        ## DELETE LO BASED ON DEPTH PRIORITY I EACH LIB #{{{
+        $SECTIONS0 = $catalog->{SECTIONS};
+        $SECTIONS1 = $masterbin->{SECTIONS};
+        $COs   = [$SECTIONS0->[0]{$CO}, $SECTIONS1->[0]{$CO}];
+        $Data::Dumper::Maxdepth=3;
+        my $cnt = 0;
+        for my $toDel_ (@toDels) {
+            for my $part (@$toDel_) {
+                my $LO_ = dclone $part->[1];
+                my $CO_ = $COs->[$cnt];
+                my $co_  =
+                    (grep {
+                        (grep {
+                            my $lo_ = $_;
+                            (grep {
+                                $lo_->{$lo} eq $_->{$lo}
+                            } @$LO_)[0]
+                        } $_->{$LO}->@*)[0]
+                    } @$CO_)[0];
+                my @LOs_ =
+                    grep {
+                        my $lo_ = $_;
+                        (grep {
+                            $lo_->{$lo} eq $_->{$lo}
+                        } @$LO_)[0];
+                    } $co_->{$LO}->@*;
+                push $co_->{$UO}->@*, {$uo => $part->[0]{$uo}, $LO => \@$LO_};
+                $co_->{$LO}->@* =
+                    grep {
+                        my $lo_ = $_;
+                        !(grep {
+                            $lo_->{$lo} eq $_->{$lo}
+                        } @$LO_)[0];
+                    } $co_->{$LO}->@*;
             }
-        }
+            $cnt++;
+        } #}}}
 
+        ## MAKE SURE THINGS ARE EQUAL #{{{
+        for my $uo0 ($UOs[0]->@*) {
+            my $uo1 = (grep {$_->{$uo} eq $uo0->{$uo}} $UOs[1]->@*)[0] || die;
+            for my $lo0 ($uo0->{$LO}->@*) {
+                my $lo1 = (grep {$_->{$lo} eq $lo0->{$lo}} $uo0->{$LO}->@*)[0] || die} }#}}}
 
-    }
-    # }}}
+        #}}}
+    }#}}}
 
-    my $catalog = $db->{hash}[0]{SECTIONS}[1];
+    ## --- Combine {{{
+    #my $catalog = $db->{hash}[0];
         my $catalog_contents          = dclone($catalog);
         $catalog                      = {};
         $catalog->{contents}          = $catalog_contents;
         $catalog->{contents}{libName} = 'hmofa_lib';
-        $catalog->{reff}              = $catalog;
-        #$catalog->{contents}->{libName}  = 'catalog';
-        delete $catalog->{contents}{section};
+        $catalog->{contents}{SECTIONS}[0]{section} = 'masterbin';
 
-    my $masterbin = $db->{hash}[1]{SECTIONS}[1];
+    #my $masterbin = $db->{hash}[1];
         my $masterbin_contents            = dclone($masterbin);
         $masterbin                        = {};
         $masterbin->{contents}            = $masterbin_contents;
         $masterbin->{contents}->{libName} = 'hmofa_lib';
-        $masterbin->{reff}                = $masterbin;
-        #$catalog->{contents}->{libName}  = 'masterbin';
-        delete $masterbin->{contents}{section};
+        $masterbin->{contents}{SECTIONS}[0]{section} = 'masterbin';
 
     my $sub = genFilter({
         pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
@@ -1531,11 +1417,11 @@ sub delegate2 {
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
         if ($type eq 'HASH') {
-            deleteKey( $_, 'LN',     $index, $Data::Walk::container);
-            deleteKey( $_, 'raw',    $index, $Data::Walk::container);
-            removeKey( $_, 'SERIES', 'STORIES', $index, $container);
-            deleteKey( $_, 'preserve',   $index, $Data::Walk::container);
-            filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
+            deleteKey( $_, 'LN',                $index, $container);
+            deleteKey( $_, 'raw',               $index, $container);
+            #removeKey( $_, 'SERIES', 'STORIES', $index, $container);
+            #deleteKey( $_, 'preserve',          $index, $container);
+            filter   ( $_, 'url',               $index, $container, $sub);
         }
     };
 
@@ -1544,14 +1430,12 @@ sub delegate2 {
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
         if ($type eq 'HASH') {
-            deleteKey ( $_, 'LN',                $index, $container);
-            deleteKey ( $_, 'raw',               $index, $container);
-            removeKey( $_, 'SERIES', 'STORIES', $index, $container);
-            deleteKey ( $_, 'url_attribute',               $index, $container);
-            deleteKey( $_, 'preserve',   $index, $Data::Walk::container);
-            #deleteKey ( $_, 'URLS',               $index, $container);
-            #deleteKey ( $_, 'TAGS',               $index, $container);
-            filter    ( $_, 'url',               $index, $container, $sub);
+            deleteKey( $_, 'LN',                $index, $container);
+            deleteKey( $_, 'raw',               $index, $container);
+            #removeKey( $_, 'SERIES', 'STORIES', $index, $container);
+            deleteKey( $_, 'url_attribute',     $index, $container);
+            #deleteKey( $_, 'preserve',          $index, $container);
+            filter   ( $_, 'url',               $index, $container, $sub);
         }
     };
     # }}}
@@ -1562,9 +1446,18 @@ sub delegate2 {
     sortHash($db,$masterbin);
 
     #my $new_hash = combine( $db, $masterbin, $catalog );
-    my $new_hash = combine( $db, $catalog, $masterbin );
+    $db->{result} = combine( $db, $catalog, $masterbin );
+    ##}}}
 
-    ## output
+    ## --- Validate {{{
+    my @oo = (
+        dclone $catalog->{contents},
+        dclone $masterbin->{contents},
+        dclone $db->{result}{contents},
+    );
+    #}}}
+
+    ## --- output #{{{
     print $_ for $db->{debug}->@*;
     {
         my $json_obj = JSON::PP->new->ascii->pretty->allow_nonref;
@@ -1572,13 +1465,13 @@ sub delegate2 {
         if ($db->{opts}{sort}) {
             $json_obj->sort_by( sub { cmpKeys( $db, $JSON::PP::a, $JSON::PP::b, $_[0] ); } );
         }
-        my $json  = $json_obj->encode($new_hash->{contents});
+        my $json  = $json_obj->encode($db->{result}{contents});
 
         open my $fh, '>', $db->{fileNames}{output} or die;
             print $fh $json;
             truncate $fh, tell( $fh ) or die;
         close $fh
-    }
+    } #}}}
 
     return $db;
 }
@@ -1951,31 +1844,31 @@ sub combine {
 
 #===| cmpKeys() {{{2
 sub cmpKeys {
-    my ($data, $key_a, $key_b, $hash, $opts) = @_;
+    my ($db, $key_a, $key_b, $hash, $opts) = @_;
 
     # save point if already defined
-    my @save = exists $data->{point} ?$data->{point}->@* :();
+    my @save = exists $db->{point} ?$db->{point}->@* :();
 
-    my $pointStr_a = getPointStr_FromUniqeKey($data, $key_a) ? getPointStr_FromUniqeKey($data, $key_a)
-                                                             : genPointStr_ForRedundantKey($data, $key_a, $hash);
-    my $pointStr_b = getPointStr_FromUniqeKey($data, $key_b) ? getPointStr_FromUniqeKey($data, $key_b)
-                                                             : genPointStr_ForRedundantKey($data, $key_b, $hash);
+    my $pointStr_a = getPointStr_FromUniqeKey($db, $key_a) ? getPointStr_FromUniqeKey($db, $key_a)
+                                                             : genPointStr_ForRedundantKey($db, $key_a, $hash);
+    my $pointStr_b = getPointStr_FromUniqeKey($db, $key_b) ? getPointStr_FromUniqeKey($db, $key_b)
+                                                             : genPointStr_ForRedundantKey($db, $key_b, $hash);
     my @point_a = split /\./, $pointStr_a;
     my @point_b = split /\./, $pointStr_b;
 
     ## NEGITIVE ORDERS
     if ($point_a[-1] < $point_a[-1]*-1) {
-        $pointStr_a = genPointStr_ForRedundantKey($data, $key_a, $hash,1);
+        $pointStr_a = genPointStr_ForRedundantKey($db, $key_a, $hash,1);
         @point_a = split /\./, $pointStr_a;
     }
     if ($point_b[-1] < $point_b[-1]*-1) {
-        $pointStr_b = genPointStr_ForRedundantKey($data, $key_b, $hash,1);
+        $pointStr_b = genPointStr_ForRedundantKey($db, $key_b, $hash,1);
         @point_b = split /\./, $pointStr_b;
     }
 
     my $len_a   =  scalar @point_a;
     my $len_b   =  scalar @point_b;
-    my $lvlObj  = getLvlObj($data,$hash);
+    my $lvlObj  = getLvlObj($db,$hash);
     my $bool = $len_a <=> $len_b || $point_a[-1] <=> $point_b[-1];
 
     ## verbose {{{
@@ -1990,26 +1883,26 @@ sub cmpKeys {
 
     # reinstate saved point or delete it if it wasn't defied
     if (scalar @save) {
-        $data->{point}->@* = @save;
+        $db->{point}->@* = @save;
     } else {
-        delete $data->{point};
+        delete $db->{point};
     }
 
     return $bool;
 
     #===|| getPointStr_FromUniqeKey() {{{3
     sub getPointStr_FromUniqeKey {
-        my ($data, $key)  = @_;
+        my ($db, $key)  = @_;
 
-        if    (exists $data->{dspt}{$key})          { return $data->{dspt}{$key}{order} }
-        elsif (getObj_FromGroupName($data, $key))   { return $data->{dspt}{getObj_FromGroupName($data, $key)}{order} }
+        if    (exists $db->{dspt}{$key})          { return $db->{dspt}{$key}{order} }
+        elsif (getObj_FromGroupName($db, $key))   { return $db->{dspt}{getObj_FromGroupName($db, $key)}{order} }
         else                                        { return 0 }
 
         #===| getObj_FromGroupName() {{{4
         sub getObj_FromGroupName {
 
-            my $data      = shift @_;
-            my $dspt      = $data->{dspt};
+            my $db      = shift @_;
+            my $dspt      = $db->{dspt};
             my $groupName = shift @_;
 
             my @keys  = grep { exists $dspt->{$_}{groupName} } keys $dspt->%*;
@@ -2023,12 +1916,12 @@ sub cmpKeys {
     #===|| genPointStr_ForRedundantKey() {{{3
     sub genPointStr_ForRedundantKey {
 
-        my ($data, $key, $hash, $F)  = @_;
+        my ($db, $key, $hash, $F)  = @_;
 
-        my $lvlObj     =  getLvlObj($data, $hash);
-        $data->{point} = [ split /\./, $data->{dspt}{$lvlObj}{order} ];
-        my $pointStr   = getPointStr($data);
-        my $dspt_obj   = $data->{dspt}{getObj($data)};
+        my $lvlObj     =  getLvlObj($db, $hash);
+        $db->{point} = [ split /\./, $db->{dspt}{$lvlObj}{order} ];
+        my $pointStr   = getPointStr($db);
+        my $dspt_obj   = $db->{dspt}{getObj($db)};
 
         ## --- ATTRIBUTES
         if ((exists $dspt_obj->{attributes}) and (exists $dspt_obj->{attributes}{$key})) {
@@ -2041,23 +1934,23 @@ sub cmpKeys {
             else           { die "pointStr $pointStr doesn't exist or is equal to '0'!" }
 
         ## --- RESERVED KEYS and NEGITIVE ORDERS
-        } elsif (isReservedKey($data, $key) or $F) {
-            my $first = join '.', $data->{point}->@[0 .. ($data->{point}->$#* - 1)];
-            my $pointEnd = $data->{point}[-1];
+        } elsif (isReservedKey($db, $key) or $F) {
+            my $first = join '.', $db->{point}->@[0 .. ($db->{point}->$#* - 1)];
+            my $pointEnd = $db->{point}[-1];
 
             # order
             my $order;
             if ($F) {
-                my $obj = getObj_FromGroupName($data,$key) ?getObj_FromGroupName($data,$key)
+                my $obj = getObj_FromGroupName($db,$key) ?getObj_FromGroupName($db,$key)
                                                            :$key;
-                my @point = split /\./, $data->{dspt}{$obj}{order};
+                my @point = split /\./, $db->{dspt}{$obj}{order};
                 my $resvMax = 0;
-                for (keys $data->{reservedKeys}->%*) {
-                    my $resvOrder = $data->{reservedKeys}{$_}[1];
+                for (keys $db->{reservedKeys}->%*) {
+                    my $resvOrder = $db->{reservedKeys}{$_}[1];
                     $resvMax = $resvOrder if $resvMax < $resvOrder;
                 }
                 $order = $point[-1]*-1 + $resvMax;
-            } else { $order = $data->{reservedKeys}{$key}[1] }
+            } else { $order = $db->{reservedKeys}{$key}[1] }
 
             # genPoinstr
             my $dspt_attr = exists $dspt_obj->{attributes} ?$dspt_obj->{attributes} :0;
@@ -2075,7 +1968,7 @@ sub cmpKeys {
             } return $pointStr;
 
         ## --- lvl 0
-        } elsif (exists $data->{dspt}{$key} and $data->{dspt}{$key}{order} == 0 ) {
+        } elsif (exists $db->{dspt}{$key} and $db->{dspt}{$key}{order} == 0 ) {
             return 0;
 
         ## --- INVALID KEY
@@ -2133,21 +2026,19 @@ sub genOpts {
     my $defaults = {
 
         ## Processes
-        delegate => [1,0,0,0,0,0,0,0,0],
-        leveler  => [1,0,0,0,0,0,0,0,0],
-        divy     => [1,0,0,0,0,0,0,0,0],
-        attribs  => [1,0,0,0,0,0,0,0,0],
-        delims   => [1,0,0,0,0,0,0,0,0],
-        encode   => [1,0,0,0,0,0,0,0,0],
-        write    => [1,0,0,0,0,0,0,0,0],
+        delegate => [1,0,0,0,0,0,0,0],
+        leveler  => [1,0,0,0,0,0,0,0],
+        divy     => [1,0,0,0,0,0,0,0],
+        attribs  => [1,0,0,0,0,0,0,0],
+        delims   => [1,0,0,0,0,0,0,0],
+        encode   => [1,0,0,0,0,0,0,0],
+        write    => [1,0,0,0,0,0,0,0],
 
         ## STDOUT
-        verbose  => [0,0,0,0,0,0,0,0,0],
-        display  => [0,0,0,0,0,0,0,0,0],
-        lineNums => [0,0,0,0,0,0,0,0,0],
+        verbose  => 0,
 
         ## MISC
-        sort     => [0,0,0,0,0,0,0,0,0],
+        sort     => 0,
     };
     $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
     return $defaults;
@@ -2160,18 +2051,17 @@ sub genOpts2 {
     my $defaults = {
 
         ## Processes
-        combine  => [1,0,0,0,0,0,0,0,0],
-        encode   => [1,0,0,0,0,0,0,0,0],
-        write    => [1,0,0,0,0,0,0,0,0],
-        cmp      => [1,0,0,0,0,0,0,0,0],
+        delegate => [1,0,0,0,0,0,0,0],
+        combine  => [1,0,0,0,0,0,0,0],
+        encode   => [1,0,0,0,0,0,0,0],
+        write    => [1,0,0,0,0,0,0,0],
+        cmp      => [1,0,0,0,0,0,0,0],
 
         ## STDOUT
-        verbose  => [0,0,0,0,0,0,0,0,0],
-        display  => [0,0,0,0,0,0,0,0,0],
-        lineNums => [0,0,0,0,0,0,0,0,0],
+        verbose  => 0,
 
         ## MISC
-        sort     => [0,0,0,0,0,0,0,0,0],
+        sort     => 0,
     };
     $defaults->{$_} = $ARGS->{$_}  for keys %{$ARGS};
     return $defaults;
@@ -2180,8 +2070,8 @@ sub genOpts2 {
 
 #===| getAttrDspt(){{{2
 sub getAttrDspt {
-    my ($data, $obj) = @_;
-    my $objDspt = $data->{dspt}{$obj};
+    my ($db, $obj) = @_;
+    my $objDspt = $db->{dspt}{$obj};
     my $attrDspt = (exists $objDspt->{attributes}) ? $objDspt->{attributes}
                                                    : 0;
     return $attrDspt;
@@ -2193,9 +2083,9 @@ sub getGroupName {
     # return GROUP_NAME at current point.
     # return 'getObj()' if GROUP_NAME doesn't exist!
 
-    my $data = shift @_;
+    my $db = shift @_;
     my $obj  = shift @_;
-    my $dspt = $data->{dspt};
+    my $dspt = $db->{dspt};
     if ($obj) {
         my $groupName = exists ($dspt->{$obj}{groupName}) ? $dspt->{$obj}{groupName}
                                                           : $obj;
@@ -2221,35 +2111,34 @@ sub getJson {
 
 #===| getLvlObj {{{2
 sub getLvlObj {
-    my $data = shift @_;
+    my $db = shift @_;
     my $hash = shift @_;
     if (ref $hash eq 'HASH') {
         for (keys $hash->%*) {
-             if ( exists $data->{dspt}{$_} ) {return $_}
+             if ( exists $db->{dspt}{$_} ) {return $_}
         }
     }
 }
 
 
 #===| getObj() {{{2
+# return OBJECT at current point
+# return '0' if OBJECT doesn't exist for CURRENT_POINT!
+# die if POINT_STR generated from CURRENT_POINT is an empty string!
 sub getObj {
-    # return OBJECT_KEY at current point
-    # return '0' if CURRENT_POINT doesn't exist!
-    # return '0' if OBJECT_KEY doesn't exist for CURRENT_POINT!
 
-    my $data      = shift @_;
-    my $dspt      = $data->{dspt};
-    my $point     = $data->{point};
-    my $pointStr  = join( '.', $point->@* );
+    my $db       = shift @_;
+    my $dspt     = $db->{dspt};
+    my $pointStr = join( '.', $db->{point}->@* );
 
-    if ($pointStr eq '') { die("pointStr cannot be an empty string! In ${0} at line: ".__LINE__) }
-    else {
-        my @match = grep { ($dspt->{$_}{order} // "") =~ /^$pointStr$/ } keys $dspt->%*;
+    die "pointStr cannot be an empty string!" if $pointStr eq '';
 
-        unless ($match[0])         { return 0 }
-        elsif  (scalar @match > 1) { die("more than one objects have the point: \'${pointStr}\'! In ${0} at line: ".__LINE__) }
-        else                       { return $match[0] }
-    }
+    my $match =
+        (grep {
+            ($dspt->{$_}{order} // "") =~ /^$pointStr$/
+        } keys $dspt->%*)[0];
+
+    return ($match // 0 );
 
 }
 
@@ -2268,8 +2157,8 @@ sub getPointStr {
 
 #===| isAttr(){{{2
 sub isAttr {
-    my ($data, $lvlObj, $key) = @_;
-    my $attrDspt = getAttrDspt($data,$lvlObj);
+    my ($db, $lvlObj, $key) = @_;
+    my $attrDspt = getAttrDspt($db,$lvlObj);
     if ($attrDspt) {
         my $attr = (grep {$_ eq $key} keys %$attrDspt)[0];
         return ($attr) ? $attrDspt->{$attr}
@@ -2283,8 +2172,8 @@ sub isAttr {
 
 #===| isReservedKey() {{{2
 sub isReservedKey {
-    my ($data, $key)  = @_;
-    my $resvKeys      = $data->{reservedKeys};
+    my ($db, $key)  = @_;
+    my $resvKeys      = $db->{reservedKeys};
 
     my @matches  = grep { $key eq $resvKeys->{$_}[0] } keys %{$resvKeys};
 
@@ -2306,10 +2195,10 @@ sub longest {
 }
 #===| mes() {{{2
 sub mes {
-    my ($mes, $data, $opts, $bool) = @_;
+    my ($mes, $db, $opts, $bool) = @_;
     $bool = 1 unless scalar @_ >= 4;
 
-    if ($data->{opts}->{verbose} and $bool) {
+    if ($db->{opts}->{verbose} and $bool) {
         my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
         my $indent = "    ";
 
@@ -2317,7 +2206,7 @@ sub mes {
              . $mes
              . ( !($NewLineDisable) ? "\n" : "" );
 
-        push $data->{debug}->@*, $mes unless $silent;
+        push $db->{debug}->@*, $mes unless $silent;
         return $mes;
     }
 }
@@ -2346,7 +2235,7 @@ sub genFilter {
 
 #===| sortHash(){{{2
 sub sortHash {
-    my ($data, $hash) = @_;
+    my ($db, $hash) = @_;
 
 
     #===| sortSub->(){{3
@@ -2355,13 +2244,13 @@ sub sortHash {
         my $index = shift @_;
         my $container  = shift @_;
         if ( ($index % 2) == 0 and ref $container->{$key} eq 'ARRAY') {
-            my $checkobj = getLvlObj($data, $container->{$key}[0]);
+            my $checkobj = getLvlObj($db, $container->{$key}[0]);
             if ($checkobj) {
                 $container->{$key} = [ sort {
-                    my $obj_a = getLvlObj($data, $a);
-                    my $obj_b = getLvlObj($data, $b);
+                    my $obj_a = getLvlObj($db, $a);
+                    my $obj_b = getLvlObj($db, $b);
                     if ($obj_a ne $obj_b) {
-                        lc $data->{dspt}{$obj_a}{order} cmp lc $data->{dspt}{$obj_b}{order}
+                        lc $db->{dspt}{$obj_a}{order} cmp lc $db->{dspt}{$obj_b}{order}
                     } else {
                         lc $a->{$obj_a} cmp lc $b->{$obj_b}
                     }
