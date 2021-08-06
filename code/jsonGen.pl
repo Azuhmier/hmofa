@@ -16,7 +16,6 @@ use Data::Dumper;
 use List::Util qw( uniq );
 use Data::Walk;
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
-
 my $erreno;
 my $CONFIG = '~/.hmofa';
 sub mes;
@@ -117,9 +116,10 @@ sub mes;
             attribs  => [1,0,0,0,0,0,0,0],
             delims   => [1,0,0,0,0,0,0,0],
             encode   => [1,0,0,0,0,0,0,0],
+            prsv     => [1,0,0,0,0,0,0,0],
 
             ## STDOUT
-            verbose  => 1,
+            verbose  => 0,
 
             ## MISC
             sort    => 1,
@@ -133,7 +133,7 @@ sub mes;
         cmp      => [1,0,0,0,0,0,0,0],
 
         ## STDOUT
-        verbose  => 1,
+        verbose  => 0,
 
         ## MISC
         sort    => 1,
@@ -146,8 +146,8 @@ sub mes;
             name     => 'masterbin',
             dresser  => $dresser_M,
             preserve => {
-                libName => [ ['', [0]], ],
-                section => [ ['FOREWORD', [1]], ],
+                libName => [ [''], ],
+                section => [ ['FOREWORD'], ],
             },
             fileNames => {
                 fname  => '../masterbin.txt',
@@ -162,8 +162,8 @@ sub mes;
             name     => 'catalog',
             dresser  => $dresser_C,
             preserve => {
-                libName => [ ['',[0]], ],
-                section => [ ['Introduction/Key', [1,1,1]], ],
+                libName => [ [''], ],
+                section => [ ['Introduction/Key'], ],
             },
             fileNames => {
                 fname  => '../tagCatalog.txt',
@@ -211,17 +211,11 @@ sub delegate {
         ## verbose 1 #{{{
         mes "\n...Generating $db->{name}", $db, [-1], $delegate_opts->[1]; #}}}
         ## --- matches {{{
-        getMatches($db);
-        $db->{matchesByLine}->%* =
-            map {
-                map {
-                    $_->{LN} => $_
-                } $db->{matches}{$_}->@*
-            } keys $db->{matches}->%*; #}}}
+        getMatches($db); #}}}
         ## --- convert #{{{
-        leveler($db,\&checkMatches); # }}}
+        leveler($db,\&checkMatches); #}}}
         ## --- encode  #{{{
-        encodeResult($db); # }}}
+        encodeResult($db); #}}}
         ## --- write array {{{
         my $writeArray = genWriteArray($db);
         open my $fh, '>', './result/'.$db->{result}{libName}.'.txt' or die $!;
@@ -329,25 +323,24 @@ sub init {
   my $db = shift @_;
 
   ## --- properties {{{3
-  unless (exists $db->{point})     {$db->{point}     = [1]}
+  unless (exists $db->{point}    ) {$db->{point}     = [1]}
       else {warn "WARNING!: 'point' is already defined by user!"}
-  unless (exists $db->{result})    {$db->{result}    = {libName => $db->{name}}}
+  unless (exists $db->{result}   ) {$db->{result}    = { libName => $db->{name}} }
       else {warn "WARNING!: 'result' is already defined by user!"}
   unless (exists $db->{reffArray}) {$db->{reffArray} = [$db->{result}]}
       else {warn "WARNING!: 'reffArray' is already defined by user!"}
-  unless (exists $db->{meta})      {$db->{meta}      = {}}
+  unless (exists $db->{meta}     ) {$db->{meta}      = {}}
       else {warn "WARNING!: 'meta' is already defined by user!"}
-  unless (exists $db->{debug})     {$db->{debug}     = []}
+  unless (exists $db->{debug}    ) {$db->{debug}     = []}
       else {warn "WARNING!: 'debug' is already defined by user!"}
-  unless (exists $db->{pointer})   {$db->{pointer}   = []}
+  unless (exists $db->{pointer}  ) {$db->{pointer}   = []}
       else {warn "WARNING!: 'index' is already defined by user!"}
   genReservedKeys($db);
 
   ## --- fnames {{{3
-  unless ($db->{fileNames}{dspt})   {die "User did not provide filename for 'dspt'!"}
+  unless ($db->{fileNames}{dspt}  ) {die "User did not provide filename for 'dspt'!"  }
       genDspt($db);
-      validate_Dspt($db);
-  unless ($db->{fileNames}{fname})  {die "User did not provide filename for 'fname'!"}
+  unless ($db->{fileNames}{fname} ) {die "User did not provide filename for 'fname'!" }
   unless ($db->{fileNames}{output}) {die "User did not provide filename for 'output'!"} #}}}
 }
 #===| genReservedKeys() {{{2
@@ -384,10 +377,10 @@ sub genDspt {
         decode_json(<$fh>);
     };
 
-    $dspt->{libName} = { order =>'0', groupName =>'LIBS'};
+    $dspt->{libName}  = { order =>'0', groupName =>'LIBS'};
     $dspt->{preserve} = { order =>'-1', groupName =>'PRESERVE'};
 
-    ## Generate Regex's
+    ## --- Generate Regex's #{{{3
     for my $obj (keys %$dspt) {
 
         my %objHash = $dspt->{$obj}->%*;
@@ -403,42 +396,39 @@ sub genDspt {
         }
     }
 
-    ## preserve
+    ## --- preserve #{{{3
     if (exists $db->{preserve}) {
-       my $preserve = $db->{preserve};
-        for my $obj (keys %$preserve) {
-            my $preserve_obj          = dclone($preserve->{$obj});
-            $dspt->{$obj}{preserve}->@* = @$preserve_obj;
+        for my $obj (keys $db->{preserve}->%*) {
+            $dspt->{$obj}{preserve}->@* =
+                map {
+                    $_, ($_->[0] eq '') ?0 :1
+                } $db->{preserve}{$obj}->@*;
         }
-        delete $db->{preserve};
-    }
-    $db->{dspt} = dclone($dspt);
-}
-#===| validate_Dspt() {{{2
-sub validate_Dspt {
+    } delete $db->{preserve};
 
-    my $db = shift @_;
-    my $dspt = $db->{dspt};
-    my %hash = ();
+    ## --- VALIDATE {{{3
+    # check for duplicates: order
+    my @keys  =
+        sort
+        map {
+            exists $dspt->{$_}{order}
+                and
+            $dspt->{$_}{order}
+        } keys %{$dspt};
+    my %dupes;
+    for (@keys) { die "Cannot have duplicate reserved keys!" if $dupes{$_}++ }
 
-    ## check for duplicates: order
-    my @keys  = sort map { exists $dspt->{$_}{order} and  $dspt->{$_}{order} } keys %{$dspt};
-    my %DupesKeys;
-    for (@keys) { die "Cannot have duplicate reserved keys!" if $DupesKeys{$_}++ }
-
-    ## META
-    $db->{meta}{dspt} = {};
-    my $dspt_meta = $db->{meta}{dspt};
-
-
+    ## --- META {{{3
     my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
-    $dspt_meta->{max} = (
+    $db->{meta}{dspt}{max} = (
         sort {
             length $b <=> length $a
-            ||
+                ||
             substr($b, -1) <=> substr($a, -1);
         } @orders
-    )[0];
+    )[0]; #}}}
+
+    $db->{dspt} = $dspt;
 }
 
 
@@ -452,14 +442,17 @@ sub getMatches {
     open my $fh, '<', $db->{fileNames}{fname}
         or die $!;
     {
+        my $F_prsv = [0, 'NULL'];
+        my $prev;
         while (my $line = <$fh>) {
 
             ## --- Regex LOOP
-            my $F;
+            my $match;
             for my $obj (keys %$dspt) {
                 if ($dspt->{$obj}{re} and $line =~ /$dspt->{$obj}{re}/) {
-                    $F=1;
-                    my $match = {
+                    next if isPrsv($db,$obj,$1,\$F_prsv) or $F_prsv->[0];
+
+                    $match = {
                         LN   => $.,
                         $obj => $1,
                         raw  => $line,
@@ -468,21 +461,30 @@ sub getMatches {
             }
 
             ## --- Put MISSES in PRESERVES
-            unless ($F) {
-                my $match = {
-                    LN      => $.,
+            unless ($match) {
+                $match = {
+                    LN       => $.,
                     preserve => $line,
                 }; push $db->{matches}{preserve}->@*, $match;
             }
+            $prev = $match;
         }
     } close $fh ;
 
     ## -- utilize regex matches
     $db->{static}{matches} = dclone($db->{matches});
     for my $obj (keys %$dspt, 'preserve') {
-        $db->{meta}{matches}{$obj}{count} = $db->{matches}{$obj} ? scalar $db->{matches}{$obj}->@*
-                                                                 : 0;
+        $db->{meta}{matches}{$obj}{count} =
+            ($db->{matches}{$obj}) ? scalar $db->{matches}{$obj}->@*
+                                   : 0;
     }
+
+    $db->{matchesByLine}->%* =
+        map {
+            map {
+                $_->{LN} => $_
+            } $db->{matches}{$_}->@*
+        } keys $db->{matches}->%*;
 
 }
 
@@ -553,16 +555,11 @@ sub divyMatches {
 
         my $obj  = getObj($db);
         my $dspt = $db->{dspt};
-        my $objMatches = [
+        my $matchesByLine = $db->{matchesByLine};
+        my @objMatches =
             grep {
                 exists $_->{LN}
-            } $db->{matches}{$obj}->@* ];
-        my $matchesByLine = [
-            grep {exists $_->{LN}}
-            map  {$db->{matchesByLine}->{$_}}
-            sort {$a<=>$b}
-            keys $db->{matchesByLine}->%*
-        ];
+            } $db->{matches}{$obj}->@*;
 
         ## verbose: prev_(lvl)obj 0 {{{
         my $prev_lvlObj = '';
@@ -570,152 +567,197 @@ sub divyMatches {
 
         ## --- REFARRAY LOOP
         my $refArray = $db->{reffArray};
-        my $ind = (scalar @$refArray) - 1;
+        my $ind      = (scalar @$refArray) - 1;
         for my $ref (reverse @$refArray) {
             my $lvlObj  = getLvlObj($db, $ref);
             my $ref_LN  = $ref->{LN} ?$ref->{LN} :0;
-            my @MATCHES = ([ @$objMatches ]);
+            my @MATCHES = (\@objMatches);
 
-            ## --- PRESERVE{{{
-            my $lvlPreserve = $dspt->{$lvlObj}{preserve} // undef;
+            ## --- PRESERVE
             my $F_inclusive=0;
-            if ($lvlPreserve) {
-
-                ## INCLUSIVE/EXCLUSIVE
-                my $F;
-                my $correction;
-                if ( (grep { $_->[0] eq $ref->{$lvlObj} } @$lvlPreserve)[0] ) {
-                    $F_inclusive=1;
-                    $correction=0;
-                } elsif ($lvlPreserve->[0][0] eq '' && scalar @$lvlPreserve == 1) {
-                    $correction=($lvlObj eq 'libName') ?0 :1;
-                } else { $F=1 }
-
-                unless ($F) {
-
-                    ## --- ELEIGBLE_OBJ
-                    my @elegible_obj = grep {
-                        exists $dspt->{$_}{order}
-                            and
-                        $_ ne 'preserve'
-                            and
-                        scalar (split /\./, $dspt->{$_}{order})
-                            ==
-                        scalar (split /\./, $dspt->{$lvlObj}{order}) + $correction
-                    } keys %$dspt;
-
-                    ## --- LN
-                    my $LN = $ref_LN;
-                    for my $obj (@elegible_obj) {
-                        for my $item ($db->{static}{matches}{$obj}->@*) {
-                            if ($item->{LN} > $LN) {
-                                $LN = $item->{LN}; last;
-                            }
-                        }
-                    }
-
-                    ## --- PRES ARRAY
-                    my $pres_ARRAY = [
-                        grep {
-                            exists $_->{LN}
-                                &&
-                            $_->{LN} < $LN
-                                &&
-                            ($F_inclusive ?1 :$_->{LN} > $ref_LN)
-                        } @$matchesByLine
-                    ];
-
-                    ## --- PRES ARRAY CLEANUP
-                    for my $hash (@$pres_ARRAY) {
-                        next if exists $hash->{preserve};
-                        my $obj = getLvlObj($db,$hash);
-                        $hash->{preserve} = $hash->{raw};
-                        #delete $hash->{$obj};
-                        %$hash =
-                            map {
-                                $_ => $hash->{$_}
-                            }
-                            grep {
-                                $_ ne $obj
-                                    and
-                                $_ ne 'raw'
-                            } keys %$hash;
-                    }
-
-                    ## --- MATCHES
-                    if ($F_inclusive) { $MATCHES[0] = $pres_ARRAY}
-                    else              { push @MATCHES, $pres_ARRAY}
-                }
-            } #}}}
+            my $F_prsv=0;
+            ($F_inclusive, @MATCHES) = getPrsv($db, $ref, $F_inclusive, \@objMatches,  $matchesByLine, @MATCHES);
 
             ## --- MATCH ARRAYS LOOP
-            my $cnt;
             for my $array (@MATCHES) {
-                $cnt++;
-                my $F_partial = ($cnt > 1) ?1 :0;
+
+                next unless scalar @$array;
+
+                my $F_exclusive = (
+                    !$F_inclusive
+                        and
+                    exists $array->[0]{preserve}
+                ) ?1 :0;
 
                 ## verbose: mes 0{{{
                 my $mes = []; #}}}
 
                 ## --- MATCHES LOOP {{{
                 my $childObjs;
-                my $F = 0;
                 for my $match (reverse @$array) {
-                    next unless $match;
-                    $obj = exists $match->{preserve} ?'preserve' :getLvlObj($db, $match);
 
-                    ## CHECKS
-                    unless ($match->{LN}) {
-                        $erreno = "$lvlObj ERROR!: undef match->{LN} at $0 line ".__LINE__;
-                        die }
+                    next unless $match;
+
+                    $obj = exists $match->{preserve} ?'preserve'
+                                                     :getLvlObj($db, $match);
+
+                    # CHECKS
                     unless (exists $match->{$obj}) {
                         $erreno = "ERROR!: undef match->{obj} at $0 line ".__LINE__;
+                        die }
+                    unless ($match->{LN}) {
+                        $erreno = "$lvlObj,$obj ERROR!: undef match->{LN} at $0 line ".__LINE__;
                         die }
 
                     ## --- MATCH FOUND {{{
                     if ($match->{LN} > $ref_LN) {
-                        my $match = pop @{ $F_inclusive || $F_partial ?$array :$objMatches };
-                        my $attrDebug = genAttributes( $db, $match, [$F_partial, $F_inclusive]);
+                        my $match     = pop @$array;
+                        my $attrDebug = genAttributes( $db, $match, [$F_exclusive, $F_inclusive]);
                         push @$childObjs, $match;
                     } else { last } #}}}
+
                     ## verbose 1,1 {{{
                     if ($obj ne $prev_obj) {
                         push @$mes, mes "$obj -> $lvlObj", $db, [1,0,1], $opts_divy->[1] == 1;
                         push @$mes, mes "[$ref_LN, $ind]", $db, [1,0,1], $opts_divy->[6] == 1;
                     } $prev_obj = $obj; #}}}
+
                 } #}}}
                 ## --- MATCHES TO REFARRAY {{{
                 if ($childObjs) {
-                    my $childObjsClone = [ reverse @{ dclone($childObjs) } ];
+                    my @aaa = reverse @{dclone $childObjs};
 
                     if ($F_inclusive) {
-                        unless (exists $refArray->[$ind]{PRESERVE}) {
-                            $refArray->[$ind]{PRESERVE} = []
-                        }
-                        @$childObjsClone = map {$db->{matchesByLine}{$_->{LN}} } @$childObjsClone;
-                        my $ref = dclone($childObjsClone);
+                        $refArray->[$ind]{PRESERVE} = []
+                            unless exists $refArray->[$ind]{PRESERVE};
+                        @aaa = map { $db->{matchesByLine}{$_->{LN}} } @aaa;
+                        my $ref = dclone [@aaa];
                         push $refArray->[$ind]{PRESERVE}->@*, @$ref;
 
                     } else {
-                        my $groupName =  $F_partial ?'PRESERVE' :getGroupName($db, $obj);
-                        $refArray->[$ind]{$groupName} = $childObjsClone;
-                        splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjsClone) );
-
+                        my $groupName = $F_exclusive ?'PRESERVE'
+                                                     :getGroupName($db, $obj);
+                        $refArray->[$ind]{$groupName} = [@aaa];
+                        splice( @$refArray, $ind, 1, ($refArray->[$ind], @aaa) );
                     }
-
-                    for my $hashRef (@$childObjs) { %$hashRef = () }
 
                     # verbose 1,1{{{
                     if ($mes and scalar @$mes) {
                         mes "$_", $db, [-1,1,0], $opts_divy->[1] == 1 for @$mes;
                     } #}}}
 
-                } #}}}
+                } %$_ = () for @$childObjs; #}}}
 
             } $ind--;
         }
     }
 }
+
+#===| isPrsv() {{{2
+sub isPrsv {
+    my ($db, $obj, $match, $FR_prsv) = @_;
+    my $dspt       = $db->{dspt};
+    my $opts_prsv  = $db->{opts}{prsv};
+    if ($opts_prsv->[0]) {
+        if (exists $dspt->{$obj}{preserve}) {
+            my $prsv = $dspt->{$obj}{preserve};
+            if (
+                (grep { $_ eq $match} $prsv->[0]->@*)[0]
+                    or
+                $prsv->[0][0] eq ''
+            ){
+                print "<$obj> $match\n";
+                $$FR_prsv ^= 1;
+            }
+        }
+    }
+    return 0;
+}
+
+
+#===| getPrsv() {{{2
+sub getPrsv {
+
+    my ($db, $ref, $F_inclusive, $objMatches, $matchesByLine, @MATCHES) = @_;
+    my $dspt          = $db->{dspt};
+    my $opts_prsv     = $db->{opts}{prsv};
+    if ($opts_prsv->[0]) {
+
+        my $lvlObj        = getLvlObj($db, $ref);
+        if (exists $dspt->{$lvlObj}{preserve}) {
+
+            my $lvlPrsv       = $dspt->{$lvlObj}{preserve};
+            if (
+                (grep {
+                    $_ eq $ref->{$lvlObj}
+                } $lvlPrsv->[0]->@*)[0]
+                    or
+                $lvlPrsv->[0][0] eq ''
+            ) {
+
+                my $ref_LN        = $ref->{LN} ?$ref->{LN} :0;
+                $F_inclusive      = $lvlPrsv->[1];
+
+                ## --- ELEIGBLE_OBJ
+                my $correction = ($F_inclusive) ?0
+                                                :($lvlObj eq 'libName') ?0
+                                                                        :1;
+                my @elegible_obj = grep {
+                    exists $dspt->{$_}{order}
+                        and
+                    $_ ne 'preserve'
+                        and
+                    scalar (split /\./, $dspt->{$_}{order})
+                        ==
+                    scalar (split /\./, $dspt->{$lvlObj}{order}) + $correction
+                } keys %$dspt;
+
+                ## --- LN
+                my $LN = $ref_LN;
+                for my $obj (@elegible_obj) {
+                    for my $item ($db->{static}{matches}{$obj}->@*) {
+                        if ($item->{LN} > $LN) {
+                            $LN = $item->{LN}; last;
+                        }
+                    }
+                }
+
+                ## --- PRSV ARRAY
+                my $prsv_ARRAY = [
+                    grep {
+                        exists $_->{LN}
+                            &&
+                        $_->{LN} < $LN
+                            &&
+                        ($F_inclusive ?1 :$_->{LN}>$ref_LN)
+                    }
+                    map  {$matchesByLine->{$_}}
+                    sort {$a<=>$b} keys %$matchesByLine
+                ];
+
+                ## --- PRES ARRAY CLEANUP
+                for my $hash (@$prsv_ARRAY) {
+                    next if exists $hash->{preserve};
+                    my $obj = getLvlObj($db,$hash);
+                    $hash->{preserve} = $hash->{raw};
+                    %$hash =
+                        map  { $_ => $hash->{$_} }
+                        grep {
+                            $_ ne $obj
+                                and
+                            $_ ne 'raw'
+                        } keys %$hash;
+                }
+                ## --- MATCHES
+                if ($F_inclusive) { $MATCHES[0] = $prsv_ARRAY}
+                else              { push @MATCHES, $prsv_ARRAY}
+            }
+        }
+    }
+
+    return ($F_inclusive, @MATCHES);
+}
+
 
 #===| genAttributes() {{{2
 sub genAttributes {
@@ -1479,7 +1521,9 @@ sub delegate2 {
 
 #===| init2() {{{2
 sub init2 {
+
     my $db = shift @_;
+
     unless (exists $db->{debug})        {$db->{debug} = []}
         else {warn "WARNING!: 'debug' is already defined by user!"}
     unless (exists $db->{meta})         {$db->{meta} = {}}
@@ -1487,15 +1531,15 @@ sub init2 {
     unless ($db->{fileNames}->{dspt}) {die "User did not provide filename for 'dspt'!"}
         genReservedKeys($db);
         genDspt($db);
-        validate_Dspt($db);
-        #$db->{dspt} = getJson($db->{fileNames}->{dspt});
+
     $db->{hash} = [ map { getJson($_) } $db->{fileNames}{fname}->@* ];
     $db->{external} = {
         map {
-          $_ =~ m/(\w+)\.json$/;
-          $1 => getJson($_);
+            $_ =~ m/(\w+)\.json$/;
+            $1 => getJson($_);
         } $db->{fileNames}{external}->@*
     };
+
     return $db;
 }
 
@@ -2033,6 +2077,7 @@ sub genOpts {
         delims   => [1,0,0,0,0,0,0,0],
         encode   => [1,0,0,0,0,0,0,0],
         write    => [1,0,0,0,0,0,0,0],
+        prsv     => [1,0,0,0,0,0,0,0],
 
         ## STDOUT
         verbose  => 0,

@@ -1,13 +1,92 @@
 {
-   "tags" : {
+   "url" : {
+      "re" : "^\\s*(http.+)",
       "attributes" : {
-         "ops" : [
-            null,
-            3,
-            [
-               ""
-            ]
+         "url_attribute" : [
+            null
+         ]
+      },
+      "dresser" : {
+         "url_attribute" : [
+            " (",
+            ")"
          ],
+         "url" : [
+            "",
+            ""
+         ]
+      },
+      "groupName" : "URLS",
+      "order" : "1.1.1.1.2"
+   },
+   "series" : {
+      "container" : "1",
+      "dresser" : {
+         "series" : [
+            "===== ",
+            " ====="
+         ]
+      },
+      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+      "order" : "1.1.1",
+      "groupName" : "SERIES"
+   },
+   "libName" : {
+      "order" : 0,
+      "groupName" : "LIBS",
+      "preserve" : [
+         [
+            ""
+         ],
+         0
+      ],
+      "dresser" : {
+         "libName" : [
+            "",
+            ""
+         ]
+      }
+   },
+   "author" : {
+      "order" : "1.1",
+      "groupName" : "AUTHORS",
+      "attributes" : {
+         "author_attribute" : [
+            null
+         ]
+      },
+      "re" : "^\\s*[Bb]y\\s+(.*)",
+      "dresser" : {
+         "author_attribute" : [
+            " (",
+            ")"
+         ],
+         "author" : [
+            "--------------------------------------------------------------------------------------------------------------\nBy ",
+            "",
+            "",
+            "",
+            "",
+            3
+         ]
+      }
+   },
+   "NULL" : {
+      "dresser" : null
+   },
+   "description" : {
+      "dresser" : null,
+      "re" : "^\\s*#(.*)",
+      "groupName" : "DESCRIPTIONS",
+      "order" : "1.1.1.1.3",
+      "scalar" : "1"
+   },
+   "tags" : {
+      "partion" : "1",
+      "groupName" : "TAGS",
+      "order" : "1.1.1.1.1",
+      "dresser" : null,
+      "attributes" : {
          "general" : [
             null,
             2,
@@ -23,110 +102,17 @@
                ";",
                ","
             ]
+         ],
+         "ops" : [
+            null,
+            3,
+            [
+               ""
+            ]
          ]
       },
-      "order" : "1.1.1.1.1",
-      "dresser" : null,
-      "groupName" : "TAGS",
       "re" : "^\\s*(\\[.*)",
-      "scalar" : "1",
-      "partion" : "1"
-   },
-   "title" : {
-      "dresser" : {
-         "title_attribute" : [
-            " (",
-            ")"
-         ],
-         "title" : [
-            ">",
-            "",
-            "",
-            "",
-            ""
-         ]
-      },
-      "re" : "^\\s*>\\s*(.*)",
-      "order" : "1.1.1.1",
-      "attributes" : {
-         "title_attribute" : [
-            null
-         ]
-      },
-      "groupName" : "STORIES"
-   },
-   "NULL" : {
-      "dresser" : null
-   },
-   "description" : {
-      "groupName" : "DESCRIPTIONS",
-      "order" : "1.1.1.1.3",
-      "re" : "^\\s*#(.*)",
-      "scalar" : "1",
-      "dresser" : null
-   },
-   "url" : {
-      "re" : "^\\s*(http.+)",
-      "dresser" : {
-         "url_attribute" : [
-            " (",
-            ")"
-         ],
-         "url" : [
-            "",
-            ""
-         ]
-      },
-      "attributes" : {
-         "url_attribute" : [
-            null
-         ]
-      },
-      "groupName" : "URLS",
-      "order" : "1.1.1.1.2"
-   },
-   "section" : {
-      "dresser" : {
-         "section" : [
-            "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
-            " %-------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
-            "",
-            "",
-            "",
-            {
-               "preserve" : 2
-            }
-         ]
-      },
-      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
-      "order" : "1",
-      "preserve" : [
-         [
-            "FOREWORD",
-            [
-               1
-            ]
-         ]
-      ],
-      "groupName" : "SECTIONS"
-   },
-   "libName" : {
-      "preserve" : [
-         [
-            "",
-            [
-               0
-            ]
-         ]
-      ],
-      "order" : 0,
-      "groupName" : "LIBS",
-      "dresser" : {
-         "libName" : [
-            "",
-            ""
-         ]
-      }
+      "scalar" : "1"
    },
    "preserve" : {
       "dresser" : {
@@ -144,40 +130,50 @@
       "groupName" : "PRESERVE",
       "order" : "-1"
    },
-   "series" : {
-      "groupName" : "SERIES",
-      "container" : "1",
-      "order" : "1.1.1",
-      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+   "title" : {
+      "groupName" : "STORIES",
+      "order" : "1.1.1.1",
       "dresser" : {
-         "series" : [
-            "===== ",
-            " ====="
-         ]
-      }
-   },
-   "author" : {
-      "attributes" : {
-         "author_attribute" : [
-            null
-         ]
-      },
-      "groupName" : "AUTHORS",
-      "order" : "1.1",
-      "re" : "^\\s*[Bb]y\\s+(.*)",
-      "dresser" : {
-         "author_attribute" : [
+         "title_attribute" : [
             " (",
             ")"
          ],
-         "author" : [
-            "--------------------------------------------------------------------------------------------------------------\nBy ",
+         "title" : [
+            ">",
             "",
             "",
             "",
-            "",
-            3
+            ""
          ]
-      }
+      },
+      "attributes" : {
+         "title_attribute" : [
+            null
+         ]
+      },
+      "re" : "^\\s*>\\s*(.*)"
+   },
+   "section" : {
+      "groupName" : "SECTIONS",
+      "order" : "1",
+      "dresser" : {
+         "section" : [
+            "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
+            " %-------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            {
+               "preserve" : 2
+            }
+         ]
+      },
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
+      "preserve" : [
+         [
+            "FOREWORD"
+         ],
+         1
+      ]
    }
 }
