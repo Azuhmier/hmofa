@@ -188,8 +188,6 @@ sub mes;
         });
     print `./diff.sh`;
 }
-my $run_time = time - $^T;
-print "Job took $run_time seconds\n";
 # SUBROUTINES {{{1
 #------------------------------------------------------
 
@@ -447,7 +445,15 @@ sub genDspt {
                 ||
             substr($b, -1) <=> substr($a, -1);
         } @orders
-    )[0]; #}}}
+    )[0];
+    ## --- META {{{3
+    $dspt->{NULL}{groupNames} = {
+        map  { $dspt->{$_}{groupName} => $_  }
+        grep { exists $dspt->{$_}{groupName} }
+        keys %$dspt
+    };
+
+    #}}}
 
     $db->{dspt} = $dspt;
 }
@@ -1888,9 +1894,9 @@ sub cmpKeys {
     my @save = exists $db->{point} ?$db->{point}->@* :();
 
     my $pointStr_a = getPointStr_FromUniqeKey($db, $key_a) ? getPointStr_FromUniqeKey($db, $key_a)
-                                                             : genPointStr_ForRedundantKey($db, $key_a, $hash);
+                                                           : genPointStr_ForRedundantKey($db, $key_a, $hash);
     my $pointStr_b = getPointStr_FromUniqeKey($db, $key_b) ? getPointStr_FromUniqeKey($db, $key_b)
-                                                             : genPointStr_ForRedundantKey($db, $key_b, $hash);
+                                                           : genPointStr_ForRedundantKey($db, $key_b, $hash);
     my @point_a = split /\./, $pointStr_a;
     my @point_b = split /\./, $pointStr_b;
 
@@ -1938,17 +1944,9 @@ sub cmpKeys {
 
         #===| getObj_FromGroupName() {{{4
         sub getObj_FromGroupName {
-
-            my $db      = shift @_;
-            my $dspt      = $db->{dspt};
-            my $groupName = shift @_;
-
-            my @keys  = grep { exists $dspt->{$_}{groupName} } keys $dspt->%*;
-            if (scalar @keys) {
-                my @match = grep { $dspt->{$_}{groupName} eq $groupName } @keys;
-                if ($match[0]) { return $match[0] }
-                else { return 0 }
-            } else { return 0 }
+            my ($db, $groupName) = @_;
+            my $dspt = $db->{dspt};
+            return $dspt->{NULL}{groupNames}{$groupName} // 0;
         }
     }
     #===|| genPointStr_ForRedundantKey() {{{3
