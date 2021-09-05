@@ -6,7 +6,7 @@
 #   DESCRIPTION: ---
 #        AUTHOR: Azuhmier (aka taganon), azuhmier@gmail.com
 #       Created: sprig 2021
-#===========================================================
+#==========================================================
 use strict;
 use warnings;
 use utf8;

@@ -106,6 +106,7 @@ Git
   git config --get remote.origin.url
   git remote show origin
   git log -p
+  git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD
 Misc
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
   Jq
@@ -150,5 +151,4 @@ Misc
   PERL DEBUGGER
     perl
     perl -de1 (interactive perl console)
-  GITHUN TOKEN
 SCRATCH
