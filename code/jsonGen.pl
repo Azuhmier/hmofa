@@ -844,7 +844,7 @@ sub sweeper {
             my $key       = $_;
 
             if ($Data::Walk::type eq 'HASH' and $lvl >= 0) {
-                my $obj = getLvlObj($db, $container);
+                my $obj = getLvlObj($db,$container);
                 if ($key eq $obj) {
                     my $drsr  = $dspt->{$obj}{drsr};
 
@@ -873,8 +873,6 @@ sub sweeper {
                         }
                     }
                     push @$refMap, [[@$pointer],[@$pointer2],[@$pointer3]];
-
-
                     ## verbose 2 {{{4
                     # the lvl can not increase while the objlvl decreases
                     # the lvl can not decrease while the objlvl increases
@@ -923,8 +921,8 @@ sub sweeper {
             my $S0 = " " x ($max - length $obj);
             mes "$obj ${S0} $childs->{$obj}", $db, [0], $db->{opts}{swpr}[1];
         }#}}}
-
    }
+
    if ($dry) { return dclone [$result, $refMap, $ATTRS] }
    else      { return $writeArray // 0   }
 }
@@ -1448,17 +1446,19 @@ sub combiner {
 
     ## --- Validate {{{3
 
-    my @hashes = (
+    my @aDBHs = (
         $db->{static}{hash}[0],  #catalog
         $db->{static}{hash}[1],  #masterbin
         $db->{result}{contents}, #hmofaLib
     );
 
-    #strs array
+    #DCLR @a*
     my @aSTRS  = ();
     my @aATTRS = ();
-    for my $hash (@hashes) {
-        my $part = sweeper($db, $hash, 1);
+
+    #sweeper
+    for my $dbh (@aDBHs) {
+        my $part = sweeper($db,$dbh,1);
 
         #obj strings
         my @strs =
