@@ -236,7 +236,7 @@ sub hasher {
         if ($delegate_opts->[1]) {
             ## Matches Meta
             my $matches_Meta = $db->{meta}{matches};
-            my $max = length longest(keys $matches_Meta->%*);
+            my $max = length _longest(keys $matches_Meta->%*);
 
             ## Subs
         }
@@ -523,7 +523,7 @@ sub leveler {
     if ($opts_leveler->[0]) {
 
         ## check existance of OBJ at current point
-        my $obj = getObj( $db );
+        my $obj = _getObj( $db );
         unless ($obj) { return }
 
         ## Reverence Arrary for the current recursion
@@ -531,7 +531,7 @@ sub leveler {
         while ($obj) {
 
             ## verbose 1 {{{
-            mes getPointStr($db)." $obj", $db, [0], $opts_leveler->[1]; #}}}
+            mes _getPointStr($db)." $obj", $db, [0], $opts_leveler->[1]; #}}}
 
             ## Checking existance of recursionReffArray
             unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{reffArray}->@* }
@@ -550,15 +550,15 @@ sub leveler {
                 $db->{point}[-1]++;
             } else { last }
 
-            $obj = getObj($db);
+            $obj = _getObj($db);
         }
         ## --- Preserves
-        if (getPointStr($db) eq '1.1.1.1.4') {
+        if (_getPointStr($db) eq '1.1.1.1.4') {
             $db->{point}->@* = (-1);
 
             ## verbose 1 {{{
-            $obj = getObj( $db );
-            mes getPointStr($db)." $obj", $db, [0], $opts_leveler->[1]; #}}}
+            $obj = _getObj( $db );
+            mes _getPointStr($db)." $obj", $db, [0], $opts_leveler->[1]; #}}}
 
             divyMatches($db);
         }
@@ -572,7 +572,7 @@ sub leveler {
 sub checkMatches {
 
     my $db = shift @_;
-    my $obj  = getObj($db);
+    my $obj  = _getObj($db);
     my $divier  = \&divyMatches;
 
     if (exists $db->{matches}{$obj}) {
@@ -588,7 +588,7 @@ sub divyMatches {
     my $opts_divy = $db->{opts}{divy};
     if ($opts_divy->[0]) {
 
-        my $obj  = getObj($db);
+        my $obj  = _getObj($db);
         my $dspt = $db->{dspt};
         my @objMatches = $db->{matches}{$obj}->@*;
 
@@ -596,7 +596,7 @@ sub divyMatches {
         my $refArray = $db->{reffArray};
         my $ind      = (scalar @$refArray) - 1;
         for my $ref (reverse @$refArray) {
-            my $lvlObj  = getLvlObj($db, $ref);
+            my $lvlObj  = _getLvlObj($db, $ref);
             my $ref_LN  = $ref->{LN} ?$ref->{LN} :0;
 
             ## verbose 1 {{{
@@ -703,7 +703,7 @@ sub genAttributes {
 
     if ($attrOPTS->[0]) {
 
-        my $obj       = getObj($db);
+        my $obj       = _getObj($db);
         my $objDSPT   = $db->{dspt}{$obj};
         $match->{raw} = $match->{$obj};
 
@@ -744,7 +744,7 @@ sub delimitAttr {
 
     ## Attributes
     my $db       = shift @_;
-    my $objKey   = getObj($db);
+    my $objKey   = _getObj($db);
     my $attrDSPT = $db->{dspt}{$objKey}{attributes};
 
     ## Regex for Attribute Delimiters
@@ -764,6 +764,39 @@ sub delimitAttr {
 sub encodeResult {
 
     my $db  = shift @_;
+
+    #proof of concept {{{3
+    $db->{result}{'.'}  = \$db->{result};
+    $db->{result}{'..'} = \$db;
+
+    $db->{result}{TAGS} = [
+        \$db->{result}{TAGS},
+        \$db->{result},
+        1,
+    ];
+
+    my $circ_ref = $db->{circ_array};
+    push @$circ_ref, \$db->{result};
+    push @$circ_ref, \$db->{result}{TAGS};
+    for my $ref (@$circ_ref) {
+        my $rt = ref $$ref;
+        if ($rt eq 'HASH') {
+            my $href = $$ref;
+            delete $href->{'.'};
+            delete $href->{'..'};
+        } elsif ($rt eq 'ARRAY'){
+            my $aref = $$ref;
+            my $sz = scalar @$aref;
+            if ($sz > 2) {
+                @$aref = $aref->@[2 .. $aref->$#*];
+            } else {
+                @$aref = ();
+            }
+        }
+    }
+    delete $db->{result}->{TAGS};#}}}
+
+
     if  ($db->{opts}{encode}[0]) {
         my $fname = $db->{fileNames}{output};
         {
@@ -783,7 +816,7 @@ sub encodeResult {
 sub sweeper {
 
     my ($db, $result, $dry) = @_;
-    my $dspt       = $db->{dspt};
+    my $dspt = $db->{dspt};
 
     #return values
     my $writeArray = []; #psuedo-boolean
@@ -796,6 +829,7 @@ sub sweeper {
         $db->{pointer2}   = [ 0]; my $pointer2 = $db->{pointer2};
         $db->{pointer3}   = [ 0]; my $pointer3 = $db->{pointer3};
         $db->{point}      = [-1]; my $point    = $db->{point};
+        #_write2array vars
         $db->{objChain}   = [  ]; my $objChain = $db->{objChain};
         $db->{childs}     = {};   my $childs   = $db->{childs};
         $dspt->{$_}{drsr} = $db->{drsr}{$_} for keys %$dspt;
@@ -844,12 +878,12 @@ sub sweeper {
             my $key       = $_;
 
             if ($Data::Walk::type eq 'HASH' and $lvl >= 0) {
-                my $obj = getLvlObj($db,$container);
+                my $obj = _getLvlObj($db,$container);
                 if ($key eq $obj) {
                     my $drsr  = $dspt->{$obj}{drsr};
 
                     ## --- POINTERS #{{{4
-                    crctPnter($db,$lvl); # pop pointer if ascending levels
+                    _crctPnter($db,$lvl); # pop pointer if ascending levels
 
                     #pointer 1/2
                     $pointer->[$lvl]  = $obj;
@@ -864,7 +898,7 @@ sub sweeper {
 
                     ## ATTRS {{{4
                     for my $key (keys %$container) {
-                        if (isAttr($db,$obj,$key)) {
+                        if (_isAttr($db,$obj,$key)) {
                             my $attrItem = $container->{$key};
                             my $attrRef  = ref $container->{$key};
                             my $fmtdAttr = ($attrRef eq 'ARRAY') ?"[".(join ', ', sort @$attrItem)."]"
@@ -872,6 +906,7 @@ sub sweeper {
                             push @$ATTRS,"<$obj>$fmtdItem<$key>$fmtdAttr";
                         }
                     }
+                    ## REFMAP {{{4
                     push @$refMap, [[@$pointer],[@$pointer2],[@$pointer3]];
                     ## verbose 2 {{{4
                     # the lvl can not increase while the objlvl decreases
@@ -879,7 +914,7 @@ sub sweeper {
                     $childs->{$obj}++;
                     my $objOrder = $dspt->{$obj}{order};
 
-                    my $F1 = 0; if (getPointStr($db) ne $objOrder) {
+                    my $F1 = 0; if (_getPointStr($db) ne $objOrder) {
                         $db->{point}->@* = split /\./, $objOrder;
                         $F1 = 1;
                     } my $pointStr = join '.', @$pointer;
@@ -900,7 +935,7 @@ sub sweeper {
 
 
                     ## --- Write Array {{{4
-                    write2array($db, $container, $writeArray, $lvl, $result) unless $dry;
+                    _write2array($db, $container, $writeArray, $lvl, $result) unless $dry;
 
                     ## --- CHECKS {{{4
                     if ($db->{$obj}{scalar} and $objChain->[-2][1] eq $obj) {
@@ -923,13 +958,13 @@ sub sweeper {
         }#}}}
    }
 
-   if ($dry) { return dclone [$result, $refMap, $ATTRS] }
+   if ($dry) { return dclone [$refMap, $ATTRS] }
    else      { return $writeArray // 0   }
 }
 
 
-#===| write2array() {{{2
-sub write2array {
+#===| _write2array() {{{2
+sub _write2array {
     my ($db, $container, $writeArray, $lvl, $result) = @_;
     my $write_opts = $db->{opts}{write};
 
@@ -938,7 +973,7 @@ sub write2array {
         my $point     = $db->{point};
         my $objChain  = $db->{objChain};
         my $childs    = $db->{childs};
-        my $obj       = getLvlObj($db, $container);
+        my $obj       = _getLvlObj($db, $container);
         my $dspt      = $db->{dspt};
         my $drsr      = $dspt->{$obj}{drsr};
 
@@ -1444,63 +1479,8 @@ sub combiner {
     $db->{static}{hash}[1] = dclone $masterbin->{contents};
     $db->{result} = combine( $db, $catalog, $masterbin );
 
-    ## --- Validate {{{3
-
-    my @aDBHs = (
-        $db->{static}{hash}[0],  #catalog
-        $db->{static}{hash}[1],  #masterbin
-        $db->{result}{contents}, #hmofaLib
-    );
-
-    #DCLR @a*
-    my @aSTRS  = ();
-    my @aATTRS = ();
-
-    #sweeper
-    for my $dbh (@aDBHs) {
-        my $part = sweeper($db,$dbh,1);
-
-        #obj strings
-        my @strs =
-            map { $_ }
-            sort map { join '.', $_->@* }
-            map { $_->[2] }
-            $part->[1]->@*;
-        my %seen = ();
-        for (@strs) { mes $_, $db if $seen{$_}++ }
-        push @aSTRS, [@strs];
-
-        #attr strings
-        my $attrs = $part->[2];
-        push @aATTRS, $attrs;
-
-        #verbose #{{{
-        mes "-"x10, $db, [-1];
-        mes scalar $aSTRS[-1]->@*, $db;
-        mes scalar $aATTRS[-1]->@*, $db;#}}}
-    }
-
-    #obj strs analy
-    my @old  = uniq ($aSTRS[0]->@*,  $aSTRS[1]->@*);
-    my @new  = $aSTRS[2]->@*;
-    my @bin  = sort (@old, @new);
-    my %seen = (); $seen{$_}++ for @bin;
-    my @miss = sort grep {$seen{$_} == 1} keys %seen;
-    #verbose #{{{
-    mes "\n\n=========", $db, [-1];
-    mes "$_", $db for @miss;#}}}
-    die if scalar @miss;
-
-    #attr strs analy
-    @old  = uniq ($aATTRS[0]->@*,  $aATTRS[1]->@*);
-    @new  = $aATTRS[2]->@*;
-    @bin  = sort (@old, @new);
-    %seen = (); $seen{$_}++ for @bin;
-    @miss = sort grep {$seen{$_} == 1} keys %seen;
-    #verbose #{{{
-    mes "\n\n=========", $db, [-1];
-    mes "$_", $db for @miss;#}}}
-    die if scalar @miss;
+    ## --- validate {{{3
+    validate($db);
 
     ## --- output #{{{3
     print $_ for $db->{debug}->@*;
@@ -1581,7 +1561,7 @@ sub combine {
             my $lvlHash_0 = ($lvl != -1) ?$lvlReff_0->[$pli] :$lvlReff_0;
             my $lvlHash_1 = ($lvl != -1) ?$lvlReff_1->[$pli] :$lvlReff_1;
             die if $lvlHash_0 eq $lvlHash_1;
-            my $obj = getLvlObj($db, $lvlHash_0) || die;
+            my $obj = _getLvlObj($db, $lvlHash_0) || die;
 
             ## Verbose {{{
             mes("----------------------------------------", $db, [-1], $cmbOpts->[2]);
@@ -1663,7 +1643,7 @@ sub combine {
             my $lvlArray_0 = $lvlReff_0->{$pli};
             my $lvlArray_1 = $lvlReff_1->{$pli};
             die if $lvlArray_0 eq $lvlArray_1;
-            my $obj = getLvlObj($db, $lvlArray_0->[0]);
+            my $obj = _getLvlObj($db, $lvlArray_0->[0]);
 
             ## Verbose {{{
             mes("[$pointStr] PRE $type", $db, [-1], $cmbOpts->[1]);
@@ -1849,8 +1829,8 @@ sub combine {
                 my $pli          = $index;
                 $pointer->[$lvl] = $pli;
                 my $hash         = $item;
-                my $lvlObj_0     = getLvlObj($db, $hash);
-                my $lvlObj_1     = getLvlObj($db, $lvlReff_1->[$pli]);
+                my $lvlObj_0     = _getLvlObj($db, $hash);
+                my $lvlObj_1     = _getLvlObj($db, $lvlReff_1->[$pli]);
                 my $lvlItem_0    = $lvlObj_0 ?$lvlReff_0->[$pli]->{$lvlObj_0} : undef;
                 my $lvlItem_1    = $lvlObj_1 ?$lvlReff_1->[$pli]->{$lvlObj_1} : undef;
                 my $groupName    = getGroupName($db, $lvlObj_0);
@@ -1883,6 +1863,63 @@ sub combine {
     return $hash_0;
 }
 
+#===| validate() {{{2
+# checks if 'cb' object has children and a result hash; if true, checks if attr
+# and obj strs are conserved b/w the result hash and the child hashes
+sub validate {
+    my $cb = shift @_;
+    my @hashes = (
+        $cb->{static}{hash}[0]  // die, #catalog
+        $cb->{static}{hash}[1]  // die, #masterbin
+        $cb->{result}{contents} // die, #hmofaLib
+    );
+    ## hash audit #{{{
+    my @aSTRS  = ();
+    my @aATTRS = ();
+    for my $hash (@hashes) {
+        my $stuff  = sweeper($cb,$hash,1);
+        my $refMap = $stuff->[0];
+        my $attrs  = $stuff->[1];
+
+        #obj strings
+        my @obj_strs =
+            sort map { join '.', $_->@* }
+            map { $_->[2] }
+            @$refMap;
+
+        #check for dupes
+        my %seen = (); for (@obj_strs) { mes $_, $cb if $seen{$_}++ }
+
+        #all STRS
+        push @aSTRS, [@obj_strs];
+        push @aATTRS, $attrs;
+
+        #verbose #{{{
+        mes "-"x10, $cb, [-1];
+        mes scalar $aSTRS[-1]->@*, $cb;
+        mes scalar $aATTRS[-1]->@*, $cb;#}}}
+    } #}}}
+    isConserved($cb,\@aSTRS,'obj');
+    isConserved($cb,\@aATTRS,'attr');
+    ## --- isConserved {{{3
+    sub isConserved {
+        my ($cb, $arg, $type)   = @_;
+        my @old  = uniq ($arg->[0]->@*,  $arg->[1]->@*);
+        my @new  = $arg->[2]->@*;
+
+        my @bin  = sort (@old, @new);
+        my %seen = (); $seen{$_}++ for @bin;
+        my @miss = sort grep { $seen{$_} == 1 } keys %seen;
+
+        #verbose #{{{
+        if (scalar @miss) {
+            mes "$_", $cb for @miss;#}}}
+            die if scalar @miss;
+        } else {
+            mes "...no unique $type of parent or childs hash", $cb, [-1];
+        }#}}}
+    }#}}}
+}
 # UTILITIES {{{1
 #------------------------------------------------------
 
@@ -1893,26 +1930,26 @@ sub cmpKeys {
     # save point if already defined
     my @save = exists $db->{point} ?$db->{point}->@* :();
 
-    my $pointStr_a = getPointStr_FromUniqeKey($db, $key_a) ? getPointStr_FromUniqeKey($db, $key_a)
-                                                           : genPointStr_ForRedundantKey($db, $key_a, $hash);
-    my $pointStr_b = getPointStr_FromUniqeKey($db, $key_b) ? getPointStr_FromUniqeKey($db, $key_b)
-                                                           : genPointStr_ForRedundantKey($db, $key_b, $hash);
+    my $pointStr_a = _getPointStr_FromUniqeKey($db, $key_a) ? _getPointStr_FromUniqeKey($db, $key_a)
+                                                           : _genPointStr_ForRedundantKey($db, $key_a, $hash);
+    my $pointStr_b = _getPointStr_FromUniqeKey($db, $key_b) ? _getPointStr_FromUniqeKey($db, $key_b)
+                                                           : _genPointStr_ForRedundantKey($db, $key_b, $hash);
     my @point_a = split /\./, $pointStr_a;
     my @point_b = split /\./, $pointStr_b;
 
     ## NEGITIVE ORDERS
     if ($point_a[-1] < $point_a[-1]*-1) {
-        $pointStr_a = genPointStr_ForRedundantKey($db, $key_a, $hash,1);
+        $pointStr_a = _genPointStr_ForRedundantKey($db, $key_a, $hash,1);
         @point_a = split /\./, $pointStr_a;
     }
     if ($point_b[-1] < $point_b[-1]*-1) {
-        $pointStr_b = genPointStr_ForRedundantKey($db, $key_b, $hash,1);
+        $pointStr_b = _genPointStr_ForRedundantKey($db, $key_b, $hash,1);
         @point_b = split /\./, $pointStr_b;
     }
 
     my $len_a   =  scalar @point_a;
     my $len_b   =  scalar @point_b;
-    my $lvlObj  = getLvlObj($db,$hash);
+    my $lvlObj  = _getLvlObj($db,$hash);
     my $bool = $len_a <=> $len_b || $point_a[-1] <=> $point_b[-1];
 
     ## verbose {{{
@@ -1934,30 +1971,30 @@ sub cmpKeys {
 
     return $bool;
 
-    #===|| getPointStr_FromUniqeKey() {{{3
-    sub getPointStr_FromUniqeKey {
+    #===|| _getPointStr_FromUniqeKey() {{{3
+    sub _getPointStr_FromUniqeKey {
         my ($db, $key)  = @_;
 
         if    (exists $db->{dspt}{$key})          { return $db->{dspt}{$key}{order} }
-        elsif (getObj_FromGroupName($db, $key))   { return $db->{dspt}{getObj_FromGroupName($db, $key)}{order} }
+        elsif (_getObj_FromGroupName($db, $key))   { return $db->{dspt}{_getObj_FromGroupName($db, $key)}{order} }
         else                                        { return 0 }
 
-        #===| getObj_FromGroupName() {{{4
-        sub getObj_FromGroupName {
+        #===| _getObj_FromGroupName() {{{4
+        sub _getObj_FromGroupName {
             my ($db, $groupName) = @_;
             my $dspt = $db->{dspt};
             return $dspt->{NULL}{groupNames}{$groupName} // 0;
         }
     }
-    #===|| genPointStr_ForRedundantKey() {{{3
-    sub genPointStr_ForRedundantKey {
+    #===|| _genPointStr_ForRedundantKey() {{{3
+    sub _genPointStr_ForRedundantKey {
 
         my ($db, $key, $hash, $F)  = @_;
 
-        my $lvlObj     =  getLvlObj($db, $hash);
+        my $lvlObj     =  _getLvlObj($db, $hash);
         $db->{point} = [ split /\./, $db->{dspt}{$lvlObj}{order} ];
-        my $pointStr   = getPointStr($db);
-        my $dspt_obj   = $db->{dspt}{getObj($db)};
+        my $pointStr   = _getPointStr($db);
+        my $dspt_obj   = $db->{dspt}{_getObj($db)};
 
         ## --- ATTRIBUTES
         if ((exists $dspt_obj->{attributes}) and (exists $dspt_obj->{attributes}{$key})) {
@@ -1970,14 +2007,14 @@ sub cmpKeys {
             else           { die "pointStr $pointStr doesn't exist or is equal to '0'!" }
 
         ## --- RESERVED KEYS and NEGITIVE ORDERS
-        } elsif (isReservedKey($db, $key) or $F) {
+        } elsif (_isReservedKey($db, $key) or $F) {
             my $first = join '.', $db->{point}->@[0 .. ($db->{point}->$#* - 1)];
             my $pointEnd = $db->{point}[-1];
 
             # order
             my $order;
             if ($F) {
-                my $obj = getObj_FromGroupName($db,$key) ?getObj_FromGroupName($db,$key)
+                my $obj = _getObj_FromGroupName($db,$key) ?_getObj_FromGroupName($db,$key)
                                                            :$key;
                 my @point = split /\./, $db->{dspt}{$obj}{order};
                 my $resvMax = 0;
@@ -2119,7 +2156,7 @@ sub getAttrDspt {
 #===| getGroupName() {{{2
 sub getGroupName {
     # return GROUP_NAME at current point.
-    # return 'getObj()' if GROUP_NAME doesn't exist!
+    # return '_getObj()' if GROUP_NAME doesn't exist!
 
     my $db = shift @_;
     my $obj  = shift @_;
@@ -2147,8 +2184,8 @@ sub getJson {
 }
 
 
-#===| getLvlObj {{{2
-sub getLvlObj {
+#===| _getLvlObj {{{2
+sub _getLvlObj {
     my $db = shift @_;
     my $hash = shift @_;
     if (ref $hash eq 'HASH') {
@@ -2159,11 +2196,11 @@ sub getLvlObj {
 }
 
 
-#===| getObj() {{{2
+#===| _getObj() {{{2
 # return OBJECT at current point
 # return '0' if OBJECT doesn't exist for CURRENT_POINT!
 # die if POINT_STR generated from CURRENT_POINT is an empty string!
-sub getObj {
+sub _getObj {
 
     my $db       = shift @_;
     my $dspt     = $db->{dspt};
@@ -2181,8 +2218,8 @@ sub getObj {
 }
 
 
-#===| getPointStr() {{{2
-sub getPointStr {
+#===| _getPointStr() {{{2
+sub _getPointStr {
     # return CURRENT POINT
     # return '0' if poinStr is an empty string!
 
@@ -2193,8 +2230,8 @@ sub getPointStr {
 }
 
 
-#===| isAttr(){{{2
-sub isAttr {
+#===| _isAttr(){{{2
+sub _isAttr {
     my ($db, $lvlObj, $key) = @_;
     my $attrDspt = getAttrDspt($db,$lvlObj);
     if ($attrDspt) {
@@ -2208,8 +2245,8 @@ sub isAttr {
 }
 
 
-#===| isReservedKey() {{{2
-sub isReservedKey {
+#===| _isReservedKey() {{{2
+sub _isReservedKey {
     my ($db, $key)  = @_;
     my $resvKeys      = $db->{reservedKeys};
 
@@ -2219,8 +2256,8 @@ sub isReservedKey {
 }
 
 
-#===| longest() {{{2
-sub longest {
+#===| _longest() {{{2
+sub _longest {
     my $max = -1;
     my $max_ref;
     for (@_) {
@@ -2231,29 +2268,9 @@ sub longest {
     }
     $$max_ref
 }
-#===| mes() {{{2
-sub mes {
-    my ($mes, $db, $opts, $bool) = @_;
-    $bool = 1 unless scalar @_ >= 4;
-
-    if ($db->{opts}->{verbose} and $bool) {
-        my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
-        my $indent = "    ";
-
-        $mes = ( $cnt ? $indent x (1 + $cnt) : $indent )
-             . $mes
-             . ( !($NewLineDisable) ? "\n" : "" );
-
-        push $db->{debug}->@*, $mes unless $silent;
-        return $mes;
-    }
-}
-
-
-
-#===| crctPnter() {{{2
+#===| _crctPnter() {{{2
 # pop pointer if ascending levels
-sub crctPnter {
+sub _crctPnter {
 
     my ($db,$lvl) = @_;
 
@@ -2274,6 +2291,26 @@ sub crctPnter {
     }
 
 }
+
+
+#===| mes() {{{2
+sub mes {
+    my ($mes, $db, $opts, $bool) = @_;
+    $bool = 1 unless scalar @_ >= 4;
+
+    if ($db->{opts}->{verbose} and $bool) {
+        my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
+        my $indent = "    ";
+
+        $mes = ( $cnt ? $indent x (1 + $cnt) : $indent )
+             . $mes
+             . ( !($NewLineDisable) ? "\n" : "" );
+
+        push $db->{debug}->@*, $mes unless $silent;
+        return $mes;
+    }
+}
+
 
 
 # OTHER {{{1
@@ -2307,11 +2344,11 @@ sub sortHash {
         my $index = shift @_;
         my $container  = shift @_;
         if ( ($index % 2) == 0 and ref $container->{$key} eq 'ARRAY') {
-            my $checkobj = getLvlObj($db, $container->{$key}[0]);
+            my $checkobj = _getLvlObj($db, $container->{$key}[0]);
             if ($checkobj) {
                 $container->{$key} = [ sort {
-                    my $obj_a = getLvlObj($db, $a);
-                    my $obj_b = getLvlObj($db, $b);
+                    my $obj_a = _getLvlObj($db, $a);
+                    my $obj_b = _getLvlObj($db, $b);
                     if ($obj_a ne $obj_b) {
                         lc $db->{dspt}{$obj_a}{order} cmp lc $db->{dspt}{$obj_b}{order}
                     } else {

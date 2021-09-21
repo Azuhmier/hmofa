@@ -1,114 +1,34 @@
-tags3.pl
-  Defintions
-    o          obj's dspt index
-    k          obj's data hash index
-    a          obj's data array index
-    i          item
-    O          obj groupname
-    dspt
-    part       member of an array
-    value      a value belonging to a key-value pair in a hash
-    point      o.o.o
-    pointer    x.x.x.x.x.x k.a.k.a.k.a
-    pointer2   x.x.x.x.x.x O.i.O.i.O.i
-    pointer3   x.x.x.x.x.x O.a.O.a.O.a
-    direct Ref {
-    lvl        scalar x.x.x.x.x.x
-    pli        x.x.x.x.[x], pointer level index
-    reff
-    lvlReff    ref at lvl
-    Pre
-    Want
-    Objects @*(unique/- member check); @*(author(alias)-title-url(url_attributes) link); @$*(obj count  check);
-      containers @(depth priority)
-      - section
-      - series
-      tags $(intra redundancy check)
-      - tags @*(title-tagline link)
-      - description
-      identifiers
-      - libName @$(inter/intra duplicate check)
-      - author  @$(inter/intra duplicate check)
-      - title   @(inter duplicate check)
-    Attributes @(attribute line up)
-      tag-like $(intra redundancy check)
-      - author_attribute $(alias query)
-      - title_attribute
-      - anthro  $(anthro query)
-      - general $(general query)
-      - ops     $(ops query)
-      ordering $(order check)
-      - url_attribute $(story section/type query)
-    Other
-      - preserve
-      - LN
-      - raw
-      - miss
-
-  Assumptions
-    General
-    - no backslashes in dspt key names
-    - all dspt key names are unique
-    - all hashes are parts of arrays
-    - all arrays are values in hashes
-    - all scalars are values or parts of hashes or arrays respectively
-    - all hashes represent an object
-    Combine
-    - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
-  Starting Paradigm
-    Error Checking
-      - Accountability = ( #lines captured / #lines ), can set
-        threshold to min accountability, either global, total,
-        or local to obj
-  Steps
-    1) capture_hash via dspt; linear & dynamic
-    2) predicable iteration through dspt; iterating along point address
-       (ex. 1.1.2.12), descending levels from left to right. point addresses
-       differing in number of decimals are parent/child, while those with the
-       same number of decimals are siblings
-    3) evolved from 3, now we go from one ref to array of reffs.
-
-  Model
-    terms
-      %obj {
-      |      $obj: $item,
-      |    @attrs: <$_, [@_], ...>,
-      |    @child: <[@obj]>
-      |     @meta: <$LN, $raw, ...>,
-      }
-      $lvl
-      $index
-      $reff     $reff->[$lvl]
-      $pointer  $pointer->[$lvl]
-      $lvlreff  $lvlreff->[$index]
-    divy
-    preservation
-    combine
-      SUB |Data type|args|lvl_Reff|obj                                |lvl|index|pli                  |lvlReff|post
-      PRE  @_        @_                                                ++  -1    pli                   %
-      WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
-      PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
-      WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
-    duplicates
-    contrast
-      libName hmofa_lib
-      N.{n}...X.{x}
-      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
-      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
-      LIBS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
-      LIBS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
-
-      LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}.url_attribute{ch.1}
-  Misc
-    '[]' should show up as tags
-    the substitution problem
+Defintions
+  o          obj's dspt index
+  k          obj's data hash index
+  a          obj's data array index
+  i          item
+  O          obj groupname
+  dspt
+  part       member of an array
+  value      a value belonging to a key-value pair in a hash
+  point      o.o.o
+  pointer    x.x.x.x.x.x k.a.k.a.k.a
+  pointer2   x.x.x.x.x.x O.i.O.i.O.i
+  pointer3   x.x.x.x.x.x O.a.O.a.O.a
+  direct Ref {
+  lvl        scalar x.x.x.x.x.x
+  pli        x.x.x.x.[x], pointer level index
+  reff
+  lvlReff    ref at lvl
+  Pre
+  Want
 Git
   git config --get remote.origin.url
   git remote show origin
   git log -p
   git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD
+    https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAgQAQ&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F33360043%2Fgit-error-need-to-remove-large-file&usg=AOvVaw3lRsptJG12vql04DiMGusm
+    https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAMQAQ&url=https%3A%2F%2Fthomas-cokelaer.info%2Fblog%2F2018%2F02%2Fgit-how-to-remove-a-big-file-wrongly-committed%2F&usg=AOvVaw23yMnKIDfmpDGPObWIx-7E
 Misc
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
+  '[]' should show up as tags
+  the substitution problem
   Jq
     cat ./json/hmofa2.json | jq 'walk(if type == "object" then with_entries(select(.key | test("LN") | not)) else . end)' | less
   Shorten URL via git.io
@@ -151,4 +71,141 @@ Misc
   PERL DEBUGGER
     perl
     perl -de1 (interactive perl console)
-SCRATCH
+terms
+  %obj {
+  |      $obj: $item,
+  |    @attrs: <$_, [@_], ...>,
+  |    @child: <[@obj]>
+  |     @meta: <$LN, $raw, ...>,
+  }
+  $lvl
+  $index
+  $reff     $reff->[$lvl]
+  $pointer  $pointer->[$lvl]
+  $lvlreff  $lvlreff->[$index]
+combine
+  SUB |Data type|args|lvl_Reff|obj                                |lvl|index|pli                  |lvlReff|post
+  PRE  @_        @_                                                ++  -1    pli                   %
+  WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
+  PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
+  WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
+contrast
+  libName hmofa_lib
+  N.{n}...X.{x}
+  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
+  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
+  LIBS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
+  LIBS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
+  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}.url_attribute{ch.1}
+HASH ARCHITECT
+
+  - Accountability = ( #lines captured / #lines ), can set
+    threshold to min accountability, either global, total,
+    or local to obj
+  - Objects @*(unique/- member check); @*(author(alias)-title-url(url_attributes) link); @$*(obj count  check);
+    containers @(depth priority)
+    - section
+    - series
+    tags $(intra redundancy check)
+    - tags @*(title-tagline link)
+    - description
+    identifiers
+    - libName @$(inter/intra duplicate check)
+    - author  @$(inter/intra duplicate check)
+    - title   @(inter duplicate check)
+  - Attributes @(attribute line up)
+    tag-like $(intra redundancy check)
+    - author_attribute $(alias query)
+    - title_attribute
+    - anthro  $(anthro query)
+    - general $(general query)
+    - ops     $(ops query)
+    ordering $(order check)
+    - url_attribute $(story section/type query)
+
+
+  - no '\' keys
+  - unique obj keys
+  - all '{}' are parts of '[]', except for top.
+  - all '[]' are values in '{}', except for top '[]' (if exists).
+  - all '$_' are values/parts of '{}'/'[]'
+  - all '{}' represent an obj
+  - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
+  - duplicates: file dir based duplicate checking
+  - hasher obj
+    - meta
+      - name
+      - version
+      - statistics
+    - circ. reff array
+    - contents
+  - format
+    - $a->{obj}    = obj_name
+    - $a->{value}  = obj_value
+    - $a->{childs} = {child_1: CHILDS_1}
+    - circular reffs
+      Parent
+      - $a->{OBJ} = $b ==> $b->[num] = $c
+      - $c->{..}  = $b ==> $b->[1]  = $a
+      self
+      - $b->[0] = $b
+      - $c->{.} = $c
+  - concepts
+    - attributes
+    - divy
+    - genopt
+    - groupname
+    - leveler
+    - miss
+    - null
+    - order
+    - pointer, pntstr, pntlvls
+    - preserves
+    - regular expression
+    - reserve keys
+    - scalar
+    - sorting, tied hash
+    - tags
+
+
+  $ main_controller
+    - cli
+    $ hoarder
+      - sql_client
+      - version control
+      - history
+      @ home_dir
+    $ webber
+      $ scrapper
+      $ upload/downloader
+    $ masher
+      $ hasher
+        - hash obj
+        - circuler reffs (., .., ...)
+        # txt -> json & json -> txt
+        # remove/add circuler reffs
+        # load dspt
+        # self check
+          - duplicates
+        $ writer
+          @ wrtMode: txt, markdown
+          @ output file
+        @ pointer
+        @ indx
+        @ name
+        @ dspt
+      $ comparator/combiner
+        - check sameness of dspts
+        - duplicates
+      @ hash_num
+      @ hash_buf
+      @ file_buf
+
+Steps
+  1) capture_hash via dspt; linear & dynamic
+  2) predicable iteration through dspt; iterating along point address
+     (ex. 1.1.2.12), descending levels from left to right. point addresses
+     differing in number of decimals are parent/child, while those with the
+     same number of decimals are siblings
+  3) evolved from 3, now we go from one ref to array of reffs.
+
