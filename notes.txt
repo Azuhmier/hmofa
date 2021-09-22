@@ -176,8 +176,8 @@ HASH ARCHITECT
       - history
       @ home_dir
     $ webber
-      $ scrapper
-      $ upload/downloader
+      @ scrapper
+      @ upload/downloader
     $ masher
       $ hasher
         - hash obj
@@ -187,14 +187,14 @@ HASH ARCHITECT
         # load dspt
         # self check
           - duplicates
-        $ writer
+        @ writer
           @ wrtMode: txt, markdown
           @ output file
         @ pointer
         @ indx
         @ name
         @ dspt
-      $ comparator/combiner
+      @ comparator/combiner
         - check sameness of dspts
         - duplicates
       @ hash_num

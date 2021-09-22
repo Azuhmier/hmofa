@@ -222,7 +222,7 @@ sub hasher {
         encodeResult($db);
 
         ## --- write array {{{3
-        my $writeArray = sweeper($db, $db->{result}) || die;
+        my $writeArray = _sweeper($db, $db->{result}) || die;
         open my $fh, '>', './result/'.$db->{result}{libName}.'.txt' or die $!;
         for (@$writeArray) {
             print $fh $_,"\n";
@@ -812,10 +812,10 @@ sub encodeResult {
 }
 
 
-#===| sweeper(){{{2
-sub sweeper {
+#===| _sweeper(){{{2
+sub _sweeper {
 
-    my ($db, $result, $dry) = @_;
+    my ($db, $result, $dry, $addReffs) = @_;
     my $dspt = $db->{dspt};
 
     #return values
@@ -881,9 +881,9 @@ sub sweeper {
                 my $obj = _getLvlObj($db,$container);
                 if ($key eq $obj) {
                     my $drsr  = $dspt->{$obj}{drsr};
+                    _crctPnter($db,$lvl); # pop pointer if ascending levels
 
                     ## --- POINTERS #{{{4
-                    _crctPnter($db,$lvl); # pop pointer if ascending levels
 
                     #pointer 1/2
                     $pointer->[$lvl]  = $obj;
@@ -1494,6 +1494,15 @@ sub combiner {
             truncate $fh, tell( $fh ) or die;
         close $fh
     }#}}}
+    ## --- write array {{{3
+    #my $writeArray = _sweeper($db, $db->{result}) || die;
+    #open my $fh, '>', './result/'.$db->{result}{libName}.'.txt' or die $!;
+    #for (@$writeArray) {
+    #    print $fh $_,"\n";
+    #}
+    #truncate $fh, tell($fh) or die;
+    #seek $fh,0,0 or die;
+    #close $fh;
 
     return $db;
 }
@@ -1877,7 +1886,7 @@ sub validate {
     my @aSTRS  = ();
     my @aATTRS = ();
     for my $hash (@hashes) {
-        my $stuff  = sweeper($cb,$hash,1);
+        my $stuff  = _sweeper($cb,$hash,1);
         my $refMap = $stuff->[0];
         my $attrs  = $stuff->[1];
 
