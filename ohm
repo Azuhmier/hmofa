@@ -3,24 +3,134 @@ use warnings;
 use strict;
 use File::Glob;
 use Cwd;
+use Data::Dumper;
 
-my $CWD = Cwd::cwd();
-my $CONFIG_DIR = glob '~/.hmofa/.config';
-my $BASE_DIR = 0;
+#------------------------------------------------------
+# MAIN {{{1
+#------------------------------------------------------
 {
-    open my $fh, '<', $CONFIG_DIR
-        or die 'something happened';
-    while (my $line = <$fh>)  {
-        if ($line =~ m/^BASE=(.*)/) {
-            $BASE_DIR = glob $1;
-            last;
+    ## ARGS
+    my $args = parseArgs(\@ARGV);
+
+    ## SETUP
+    my $CWD = Cwd::cwd();
+    my $CONFIG_DIR = glob '~/.ohm/.config';
+    my $BASE_DIR = 0;
+    {
+        open my $fh, '<', $CONFIG_DIR
+            or die 'something happened';
+        while (my $line = <$fh>)  {
+            if ($line =~ m/^BASE=(.*)/) {
+                $BASE_DIR = glob $1;
+                last;
+            }
         }
     }
+    my $LIB_DIR = $BASE_DIR.'/lib';
+
+    print $BASE_DIR,"\n";
+    print $LIB_DIR,"\n";
+    print $CWD,"\n";
+    print "\n";
+
 }
-my $LIB_DIR = $BASE_DIR.'/lib';
 
-print $BASE_DIR,"\n";
-print $LIB_DIR,"\n";
-print $CWD,"\n";
-print "\n";
 
+#------------------------------------------------------
+# SUBROUTINES {{{1
+#------------------------------------------------------
+sub parseArgs { #{{{1
+# Parses CLI args based on given parameters in specified hashes:
+# - indice '1' is min number of arguments
+# - indice '2' is max number of arguments, -1 means infinite
+
+    my @args = @{shift @_};
+    my %conditions = (
+        no_args => '1',
+    );
+
+    ## check if user supplied arguments
+    if ($args[0]) {
+
+        #CMDLETS
+        my %valid_cmdlets = (
+            init    => ['init',0,0],
+            status  => ['st',0,0],
+            combine => ['cmb',2,4],
+            hash    => ['hash',1,4],
+
+        );
+        for my $key (keys %valid_cmdlets) {
+            push $valid_cmdlets{$key}->@*, $key;
+            my $altKey = $valid_cmdlets{$key}->[0];
+            $valid_cmdlets{$altKey} = $valid_cmdlets{$key};
+        }
+        #OPTIONS
+        my %valid_opts = (
+            v => ['version',0,0],
+            V => ['verbose',0,0],
+            h => ['help',0,0],
+            o => ['output',1,1]
+        );
+
+        my $F_opts_args;
+        my $F_cmdlet_args;
+        my $min = 0;
+        my $max = 0;
+        my $fun;
+        my $cnt = 0;
+        my $indx = -1;
+        for my $arg (@args) {
+            $indx++;
+            if ($F_opts_args and $arg !~ /^-/) {
+                $cnt++;
+                $F_opts_args--;
+                print "- $arg\n";
+            } elsif ($F_cmdlet_args and $arg !~ /^-/) {
+                $cnt++;
+                $F_cmdlet_args--;
+                print "- $arg\n";
+            } elsif ($arg =~ /^-/) {
+                die "min number of args, '$min', for '$fun' was not given" if $cnt < $min;
+                $arg =~ s/-(\w+)/$1/;
+                while ($arg =~ /\w/) {
+                    $arg =~ s/(\w)//;
+                    my $opt = $1;
+                    if (exists $valid_opts{$opt}) {
+                        $fun = $opt;
+                        $min = $valid_opts{$opt}->[1];
+                        $max = $valid_opts{$opt}->[2];
+                        $F_opts_args = $max;
+                        $cnt = 0;
+                        print $opt,"\n";
+                    } else {
+                        die "ERROR: invalid option '$opt'!";
+                    }
+                }
+            } else {
+                die "min number of args, '$min', for '$fun' was not given" if $cnt < $min;
+                if (exists $valid_cmdlets{$arg}) {
+                    $fun = $arg;
+                    $min = $valid_cmdlets{$arg}->[1];
+                    $max = $valid_cmdlets{$arg}->[2];
+                    $F_cmdlet_args = $max;
+                    $cnt = 0;
+                    print $valid_cmdlets{$arg}->[3],"\n";
+                } else {
+                    die "ERROR: invalid cmdlet '$arg'!";
+                }
+            }
+            die "min number of args, '$min', for '$fun' was not given" if $#args == $indx and $min > $cnt;
+        }
+
+    } else {
+        if ($conditions{no_args}) {
+        } else {
+            die 'ERROR: user did not supply command arguments!';
+        }
+
+    }
+
+    ## CONSTRUCT
+
+}

@@ -34,8 +34,7 @@ unless ($args->{'silent'}) { print "${output}\n" }
 # subroutines {{{1
 #------------------------------------------------------
 
-#===| ParseArgs() {{{2
-sub ParseArgs {
+sub ParseArgs { #{{{2
 
     my @args = @{shift @_};
 
@@ -77,8 +76,7 @@ sub ParseArgs {
 }
 
 
-#===| constructCMD() {{{2
-sub constructCMD {
+sub constructCMD { #{{{2
 
     my %args = %{shift @_};
     my $CMD;

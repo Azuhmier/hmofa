@@ -1,10 +1,50 @@
 {
-   "tags" : {
-      "scalar" : "1",
-      "order" : "1.1.1.1.1",
-      "partion" : "1",
-      "drsr" : null,
+   "libName" : {
+      "drsr" : {
+         "libName" : [
+            "",
+            ""
+         ]
+      },
+      "preserve" : [
+         [
+            ""
+         ],
+         "section"
+      ],
+      "order" : "0",
+      "groupName" : "LIBS"
+   },
+   "url" : {
+      "order" : "1.1.1.1.2",
+      "drsr" : {
+         "url" : [
+            "",
+            ""
+         ],
+         "url_attribute" : [
+            " (",
+            ")"
+         ]
+      },
       "re" : null,
+      "attributes" : {
+         "url_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "URLS"
+   },
+   "description" : {
+      "drsr" : null,
+      "order" : "1.1.1.1.3",
+      "groupName" : "DESCRIPTIONS",
+      "scalar" : "1",
+      "re" : null
+   },
+   "tags" : {
+      "partion" : "1",
+      "groupName" : "TAGS",
       "attributes" : {
          "ops" : [
             null,
@@ -33,87 +73,19 @@
             null
          ]
       },
-      "groupName" : "TAGS"
-   },
-   "url" : {
-      "re" : null,
-      "order" : "1.1.1.1.2",
-      "attributes" : {
-         "url_attribute" : [
-            null
-         ]
-      },
-      "drsr" : {
-         "url_attribute" : [
-            " (",
-            ")"
-         ],
-         "url" : [
-            "",
-            ""
-         ]
-      },
-      "groupName" : "URLS"
-   },
-   "preserve" : {
-      "order" : "-1",
-      "groupName" : "PRESERVE",
-      "drsr" : {
-         "preserve" : [
-            "",
-            "",
-            "",
-            "",
-            "",
-            {
-               "section" : 1
-            }
-         ]
-      }
-   },
-   "series" : {
-      "order" : "1.1.1",
-      "re" : null,
-      "container" : "1",
-      "groupName" : "SERIES",
-      "drsr" : {
-         "series" : [
-            "===== ",
-            " ====="
-         ]
-      }
-   },
-   "description" : {
       "scalar" : "1",
-      "order" : "1.1.1.1.3",
       "re" : null,
       "drsr" : null,
-      "groupName" : "DESCRIPTIONS"
-   },
-   "libName" : {
-      "groupName" : "LIBS",
-      "drsr" : {
-         "libName" : [
-            "",
-            ""
-         ]
-      },
-      "order" : "0",
-      "preserve" : [
-         [
-            ""
-         ],
-         "section"
-      ]
+      "order" : "1.1.1.1.1"
    },
    "author" : {
-      "order" : "1.1",
-      "re" : null,
+      "groupName" : "AUTHORS",
       "attributes" : {
          "author_attribute" : [
             null
          ]
       },
+      "re" : null,
       "drsr" : {
          "author_attribute" : [
             " (",
@@ -128,39 +100,45 @@
             3
          ]
       },
-      "groupName" : "AUTHORS"
+      "order" : "1.1"
    },
-   "title" : {
-      "groupName" : "STORIES",
+   "preserve" : {
+      "groupName" : "PRESERVE",
       "drsr" : {
-         "title" : [
-            ">",
+         "preserve" : [
             "",
             "",
             "",
-            ""
-         ],
-         "title_attribute" : [
-            " (",
-            ")"
+            "",
+            "",
+            {
+               "section" : 1
+            }
          ]
       },
-      "attributes" : {
-         "title_attribute" : [
-            null
-         ]
-      },
-      "order" : "1.1.1.1",
-      "re" : null
+      "order" : "-1"
+   },
+   "NULL" : {
+      "drsr" : null,
+      "groupNames" : {
+         "AUTHORS" : "author",
+         "SECTIONS" : "section",
+         "SERIES" : "series",
+         "TAGS" : "tags",
+         "STORIES" : "title",
+         "LIBS" : "libName",
+         "URLS" : "url",
+         "DESCRIPTIONS" : "description",
+         "PRESERVE" : "preserve"
+      }
    },
    "section" : {
-      "order" : "1",
       "preserve" : [
          [
             "FOREWORD"
          ]
       ],
-      "re" : null,
+      "order" : "1",
       "drsr" : {
          "section" : [
             "\n------------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------% ",
@@ -173,20 +151,42 @@
             }
          ]
       },
+      "re" : null,
       "groupName" : "SECTIONS"
    },
-   "NULL" : {
-      "groupNames" : {
-         "AUTHORS" : "author",
-         "DESCRIPTIONS" : "description",
-         "SERIES" : "series",
-         "SECTIONS" : "section",
-         "URLS" : "url",
-         "STORIES" : "title",
-         "PRESERVE" : "preserve",
-         "TAGS" : "tags",
-         "LIBS" : "libName"
+   "series" : {
+      "re" : null,
+      "container" : "1",
+      "groupName" : "SERIES",
+      "order" : "1.1.1",
+      "drsr" : {
+         "series" : [
+            "===== ",
+            " ====="
+         ]
+      }
+   },
+   "title" : {
+      "re" : null,
+      "attributes" : {
+         "title_attribute" : [
+            null
+         ]
       },
-      "drsr" : null
+      "groupName" : "STORIES",
+      "order" : "1.1.1.1",
+      "drsr" : {
+         "title" : [
+            ">",
+            "",
+            "",
+            "",
+            ""
+         ],
+         "title_attribute" : [
+            " (",
+            ")"
+         ]
+      }
    }
 }

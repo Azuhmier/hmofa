@@ -1,37 +1,10 @@
 {
-   "author" : {
-      "groupName" : "AUTHORS",
+   "title" : {
       "drsr" : {
-         "author_attribute" : [
+         "title_attribute" : [
             " (",
             ")"
          ],
-         "author" : [
-            "\n-----------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------------------\nby ",
-            "",
-            "",
-            "",
-            "",
-            3
-         ]
-      },
-      "attributes" : {
-         "author_attribute" : [
-            null
-         ]
-      },
-      "order" : "1.1",
-      "re" : null
-   },
-   "title" : {
-      "re" : null,
-      "order" : "1.1.1.1",
-      "attributes" : {
-         "title_attribute" : [
-            null
-         ]
-      },
-      "drsr" : {
          "title" : [
             "\n>",
             "",
@@ -41,27 +14,42 @@
             {
                "series" : 1
             }
-         ],
-         "title_attribute" : [
-            " (",
-            ")"
          ]
       },
-      "groupName" : "STORIES"
+      "order" : "1.1.1.1",
+      "groupName" : "STORIES",
+      "attributes" : {
+         "title_attribute" : [
+            null
+         ]
+      },
+      "re" : null
+   },
+   "series" : {
+      "order" : "1.1.1",
+      "drsr" : {
+         "series" : [
+            "\n=============/ ",
+            " /============="
+         ]
+      },
+      "re" : null,
+      "container" : "1",
+      "groupName" : "SERIES"
    },
    "NULL" : {
-      "drsr" : null,
       "groupNames" : {
-         "AUTHORS" : "author",
-         "DESCRIPTIONS" : "description",
-         "SERIES" : "series",
          "SECTIONS" : "section",
-         "STORIES" : "title",
-         "PRESERVE" : "preserve",
+         "AUTHORS" : "author",
+         "SERIES" : "series",
          "TAGS" : "tags",
          "LIBS" : "libName",
-         "URLS" : "url"
-      }
+         "STORIES" : "title",
+         "URLS" : "url",
+         "DESCRIPTIONS" : "description",
+         "PRESERVE" : "preserve"
+      },
+      "drsr" : null
    },
    "section" : {
       "drsr" : {
@@ -76,57 +64,17 @@
             }
          ]
       },
-      "groupName" : "SECTIONS",
-      "re" : null,
+      "order" : "1",
       "preserve" : [
          [
             "Introduction/Key"
          ]
       ],
-      "order" : "1"
-   },
-   "description" : {
-      "re" : null,
-      "order" : "1.1.1.1.3",
-      "scalar" : "1",
-      "groupName" : "DESCRIPTIONS",
-      "drsr" : {
-         "description" : [
-            "#",
-            ""
-         ]
-      }
-   },
-   "libName" : {
-      "drsr" : {
-         "libName" : [
-            "",
-            ""
-         ]
-      },
-      "groupName" : "LIBS",
-      "preserve" : [
-         [
-            ""
-         ],
-         "section"
-      ],
-      "order" : "0"
-   },
-   "series" : {
-      "order" : "1.1.1",
-      "re" : null,
-      "container" : "1",
-      "drsr" : {
-         "series" : [
-            "\n=============/ ",
-            " /============="
-         ]
-      },
-      "groupName" : "SERIES"
+      "groupName" : "SECTIONS",
+      "re" : null
    },
    "preserve" : {
-      "groupName" : "PRESERVE",
+      "order" : "-1",
       "drsr" : {
          "preserve" : [
             "",
@@ -139,29 +87,10 @@
             }
          ]
       },
-      "order" : "-1"
-   },
-   "url" : {
-      "order" : "1.1.1.1.2",
-      "re" : null,
-      "attributes" : {
-         "url_attribute" : [
-            null
-         ]
-      },
-      "drsr" : {
-         "url" : [
-            "",
-            ""
-         ],
-         "url_attribute" : [
-            " (",
-            ")"
-         ]
-      },
-      "groupName" : "URLS"
+      "groupName" : "PRESERVE"
    },
    "tags" : {
+      "partion" : "1",
       "re" : null,
       "attributes" : {
          "ops" : [
@@ -194,8 +123,14 @@
       "groupName" : "TAGS",
       "scalar" : "1",
       "order" : "1.1.1.1.1",
-      "partion" : "1",
       "drsr" : {
+         "ops" : [
+            "",
+            "",
+            "",
+            "",
+            ""
+         ],
          "tags" : [],
          "anthro" : [
             "[",
@@ -204,19 +139,84 @@
             ";",
             " "
          ],
-         "ops" : [
-            "",
-            "",
-            "",
-            "",
-            ""
-         ],
          "general" : [
             "[",
             "]",
             ";",
             ";",
             " "
+         ]
+      }
+   },
+   "author" : {
+      "drsr" : {
+         "author_attribute" : [
+            " (",
+            ")"
+         ],
+         "author" : [
+            "\n-----------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------------------\nby ",
+            "",
+            "",
+            "",
+            "",
+            3
+         ]
+      },
+      "order" : "1.1",
+      "attributes" : {
+         "author_attribute" : [
+            null
+         ]
+      },
+      "groupName" : "AUTHORS",
+      "re" : null
+   },
+   "url" : {
+      "order" : "1.1.1.1.2",
+      "drsr" : {
+         "url_attribute" : [
+            " (",
+            ")"
+         ],
+         "url" : [
+            "",
+            ""
+         ]
+      },
+      "re" : null,
+      "groupName" : "URLS",
+      "attributes" : {
+         "url_attribute" : [
+            null
+         ]
+      }
+   },
+   "description" : {
+      "re" : null,
+      "scalar" : "1",
+      "groupName" : "DESCRIPTIONS",
+      "order" : "1.1.1.1.3",
+      "drsr" : {
+         "description" : [
+            "#",
+            ""
+         ]
+      }
+   },
+   "libName" : {
+      "groupName" : "LIBS",
+      "order" : "0",
+      "preserve" : [
+         [
+            ""
+         ],
+         "section"
+      ],
+      "drsr" : {
+         "libName" : [
+            "",
+            ""
          ]
       }
    }

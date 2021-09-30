@@ -132,13 +132,21 @@ HASH ARCHITECT
   - all '{}' represent an obj
   - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
   - duplicates: file dir based duplicate checking
-  - hasher obj
+  ov
+    - tgt hash
+    - tgt dir
+    - hash buffers (main, cmb, cmp, etc, )
+  - db
+    - dspt
+      - drsr
+      - prsvs
+    - result
+    - cfa
+    - pointer
     - meta
       - name
-      - version
-      - statistics
-    - circ. reff array
-    - contents
+      - stats
+      - versions
   - format
     - $a->{obj}    = obj_name
     - $a->{value}  = obj_value
@@ -209,3 +217,12 @@ Steps
      same number of decimals are siblings
   3) evolved from 3, now we go from one ref to array of reffs.
 
+ohm
+  c
+  c a
+  c -o
+  c a -o
+  c -o a
+  c a -o a
+checks
+  saninty checks
