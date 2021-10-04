@@ -12,4 +12,5 @@ diff -u <(sort ./json/hmofa_lib3.json | sed 's/,$//') <(sort ./json/hmofa_lib.js
 #txt file diff
 diff -u ~/hmofa/hmofa/tagCatalog.txt ./result/catalog.txt
 diff -u ~/hmofa/hmofa/masterbin.txt  ./result/masterbin.txt
+diff -u ./result/hmofa_lib.txt ./result/hmofa_lib2.txt
 

@@ -68,9 +68,6 @@ Misc
     !!$var     # force boolean context
     0 + $var   # force numeric context
     '' . $var  # force string context
-  PERL DEBUGGER
-    perl
-    perl -de1 (interactive perl console)
 terms
   %obj {
   |      $obj: $item,
@@ -226,3 +223,8 @@ ohm
   c a -o a
 checks
   saninty checks
+PERL DEBUGGER
+  perl
+  perl -de1 (interactive perl console)
+  perl -MDebug::Trace _sweeper ./json.pl
+  perl -dTrace ./json.pl

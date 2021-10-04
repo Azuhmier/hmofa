@@ -8,6 +8,13 @@ me to be more dynamic when it comes to such transient media forms as pastebin.
 So as one could guess, I have been doing major overhauls to the project with
 new objectives.
 
+TODO
+- standardize ov, db
+- transfer and append preserves
+- devlop delgate/controller architecture and initiate with ohm
+- change hash arcitecture; slowly making way to implementing it on the profiler
+- fix gitio.pl
+- change from procedural to OOP
 
 https://github.com/Azuhmier/hmofa
 ohm - omni hash manipulator

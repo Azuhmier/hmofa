@@ -156,10 +156,10 @@ sub mes;
     # ;opts
         my $opts = genOpts({
             ## Processes
-            delegate => [1,0,0,0,0,0,0,0],
+            delegate => [1,1,0,0,0,0,0,0],
             leveler  => [1,0,0,0,0,0,0,0],
             divy     => [1,0,0,0,0,0,0,0],
-            swpr     => [1,1,1,0,0.0,0,0],
+            swpr     => [1,0,0,0,0.0,0,0],
             write    => [1,0,0,0,0.0,0,0],
             attribs  => [1,0,0,0,0,0,0,0],
             delims   => [1,0,0,0,0,0,0,0],
@@ -167,7 +167,7 @@ sub mes;
             prsv     => [1,0,0,0,0,0,0,0],
 
             ## STDOUT
-            verbose  => 0,
+            verbose  => 1,
 
             ## MISC
             sort    => 0,
@@ -224,11 +224,11 @@ sub mes;
     ## hmofa_lib
         masher({
             opts => $opts2,
-            name => 'hmofa_llib',
+            name => 'hmofa_lib',
             drsr  => $drsr_H,
             fileNames => {
                 fname    => ['./db/catalog/catalog.json', './db/masterbin/masterbin.json',],
-                output   => './json/hmofa_lib3.json',
+                output   => './json/hmofa_lib.json',
                 dspt     => './json/deimos.json',
                 external => ['./json/gitIO.json'],
             },
@@ -239,21 +239,33 @@ sub mes;
 #------------------------------------------------------
 
 #===| hasher() {{{2
+# Args
+    # dspt
+    # dsr
+    # name
+    # opts
+    # output json
+    # prsv
+    # txt file
+# decode
+    # from json
+# encode
+    # matches
+    # convert
+    # encode
+# write
+     # txt file from json
 sub hasher {
 
     my $db = shift @_;
     my $delegate_opts = $db->{opts}{delegate};
+    $SIG{__DIE__} = sub {
+        if ($db and exists $db->{debug}) {
+            print $_ for $db->{debug}->@*;
+            print $erreno if $erreno;
+        }
+    };
     if ($delegate_opts->[0]) {
-
-        ## --- sigtrap {{{3
-        $SIG{__DIE__} = sub {
-            if ($db and exists $db->{debug}) {
-                print $_ for $db->{debug}->@*;
-                print $erreno if $erreno;
-            }
-        };
-
-        ## --- checks  #{{{3
         _init($db);
 
         ## verbose 1 #{{{
@@ -271,11 +283,14 @@ sub hasher {
         ## --- write array {{{3
         my $writeArray = _sweeper($db) || die;
         open my $fh, '>', './result/'.$db->{result}{libName}.'.txt' or die $!;
-        for (@$writeArray) {
-            print $fh $_,"\n";
+        {
+            #binmode($fh, "encoding(UTF-8)");
+            for (@$writeArray) {
+                print $fh $_,"\n";
+            }
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
         }
-        truncate $fh, tell($fh) or die;
-        seek $fh,0,0 or die;
         close $fh;
 
         ## --- output {{{3
@@ -367,12 +382,12 @@ sub hasher {
 
         ## verbose 1 #{{{3
         my $max = 22;
-        mes "...summarizing $db->{name}",   $db, [-1], $delegate_opts->[1];
-        mes "KEY ".(' 'x($max-3))." VALUE", $db, [0], $delegate_opts->[1];
-        mes "- ".(' 'x($max-1))." -",       $db, [0], $delegate_opts->[1];
+        mes "...summarizing $db->{name}",   $db, [-1], $delegate_opts->[2];
+        mes "KEY ".(' 'x($max-3))." VALUE", $db, [0], $delegate_opts->[2];
+        mes "- ".(' 'x($max-1))." -",       $db, [0], $delegate_opts->[2];
         for my $key (sort {$a cmp $b} keys $db->%*) {
             my $S0 = " " x ($max - length $key);
-            mes "$key ${S0} $db->{$key}", $db, [0], $delegate_opts->[1];
+            mes "$key ${S0} $db->{$key}", $db, [0], $delegate_opts->[2];
         }
         print $_ for $db->{debug}->@*; #}}}
 
@@ -595,39 +610,43 @@ sub encodeResult {
 
 
 #===| masher() {{{2
+# ARGS
+    # direcorty
+    # directory
+    # hash list
+# cmp
+# cmb
 sub masher {
-# - directory
-# - hash list
-# - cmp/combine
 
     my $ov = shift @_;
-
     $SIG{__DIE__} = sub {
         if ($ov and exists $ov->{debug}) {
             print $_ for $ov->{debug}->@*;
             print $erreno if $erreno;
         }
     };
-
     _init2($ov);
 
-    ## --- cmp {{{3
     my $catalog   = dclone $ov->{hash}[0];
     my $masterbin = dclone $ov->{hash}[1];
-    {
-        ## SETUP {{{4
-        my $cmpOpt    = $ov->{opts}{cmp};
 
-        ## REMOVE PRESERVES {{{4
+    ## --- cmp {{{3
+    # takes hash list; clones them; removes prsvs (remember parent) and
+    # equalizes them with
+    # verbose; interactive
+    {
+        #top prsv removed
         delete $masterbin->{PRESERVE};
         delete $catalog->{PRESERVE};
+
         my $SECTIONS0 = $catalog->{SECTIONS};
         my $SECTIONS1 = $masterbin->{SECTIONS};
-        @$SECTIONS0   = map { $SECTIONS0->[$_] } (1 .. $SECTIONS0->$#*);
-        @$SECTIONS1   = map { $SECTIONS1->[$_] } (1 .. $SECTIONS1->$#*);
+
+        # section prsv removed
+        @$SECTIONS0 = map { $SECTIONS0->[$_] } (1 .. $SECTIONS0->$#*);
+        @$SECTIONS1 = map { $SECTIONS1->[$_] } (1 .. $SECTIONS1->$#*);
 
         ## --- UO - LO {{{4
-
         ## SETUP {{{5
         my $lo    = 'title';  my $LO = _getGroupName($ov,$lo);
         my $uo    = 'series'; my $UO = _getGroupName($ov,$uo);
@@ -659,11 +678,11 @@ sub masher {
         }
 
         ## verbose 1 {{{6
-        mes "\n==================",        $ov, [-1], $cmpOpt->[1];
-        mes "%% TAKE A LOOK %%",           $ov, [-1], $cmpOpt->[1];
+        mes "\n==================",        $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% TAKE A LOOK %%",           $ov, [-1], $ov->{opts}{cmp}->[1];
         for my $LO_ (@LOs) {
-            mes( $_->{$uo} || "    $_->{$lo}", $ov, [0],  $cmpOpt->[1]) for @$LO_;
-            mes "---------",                   $ov, [0],  $cmpOpt->[1];
+            mes( $_->{$uo} || "    $_->{$lo}", $ov, [0],  $ov->{opts}{cmp}->[1]) for @$LO_;
+            mes "---------",                   $ov, [0],  $ov->{opts}{cmp}->[1];
         }
 
         ## REMOVE UNWANTED UOs {{{5
@@ -718,10 +737,10 @@ sub masher {
         # inter
         my %seen; $seen{$_->{$lo}}++ for ($LOs[0]->@*, $LOs[1]->@*);
         ## verbose {{{6
-        mes "\n==================",       $ov, [-1], $cmpOpt->[1];
-        mes "%% LOOK FOR INTER dupes %%", $ov, [-1], $cmpOpt->[1];
+        mes "\n==================",       $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% LOOK FOR INTER dupes %%", $ov, [-1], $ov->{opts}{cmp}->[1];
         my @dupes = grep {$seen{$_} > 1} keys %seen;
-        mes "$_",                         $ov, [0], $cmpOpt->[1] for @dupes;
+        mes "$_",                         $ov, [0], $ov->{opts}{cmp}->[1] for @dupes;
 
         ## GET SERIES LO FOR dupes #{{{5
         for my $UO_ (@UOs) { @$UO_ =
@@ -735,11 +754,11 @@ sub masher {
             } @$UO_
         }
         ## verbose {{{6
-        mes "\n==================",         $ov, [-1], $cmpOpt->[1];
-        mes "%% GET UO TITLE FOR dupes %%", $ov, [-1], $cmpOpt->[1];
+        mes "\n==================",         $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% GET UO TITLE FOR dupes %%", $ov, [-1], $ov->{opts}{cmp}->[1];
         for my $UO_ (@UOs) {
-            mes $_->{$uo},  $ov, [0], $cmpOpt->[1] for @$UO_;
-            mes "---------", $ov, [0], $cmpOpt->[1];
+            mes $_->{$uo},  $ov, [0], $ov->{opts}{cmp}->[1] for @$UO_;
+            mes "---------", $ov, [0], $ov->{opts}{cmp}->[1];
         }
 
         ## SEE IF dupes ARE THE ONLY MEMBERS OF THEIR UO {{{5
@@ -758,11 +777,11 @@ sub masher {
                 } @$UO_;
         }
         ## verbose {{{6
-        mes "\n==================",                                $ov, [-1], $cmpOpt->[1];
-        mes "%% SEE IF dupes ARE THE OLNY MEMBERS OF THEIR UO %%", $ov, [-1], $cmpOpt->[1];
+        mes "\n==================",                                $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% SEE IF dupes ARE THE OLNY MEMBERS OF THEIR UO %%", $ov, [-1], $ov->{opts}{cmp}->[1];
         for my $UO_ (@UOs) {
-            mes $_->{$uo},  $ov, [0], $cmpOpt->[1] for @$UO_;
-            mes "---------", $ov, [0], $cmpOpt->[1];
+            mes $_->{$uo},  $ov, [0], $ov->{opts}{cmp}->[1] for @$UO_;
+            mes "---------", $ov, [0], $ov->{opts}{cmp}->[1];
         }
 
         ## CHECK IF UO ARE THE SAME #{{{5
@@ -790,9 +809,9 @@ sub masher {
         %seen = (); $seen{$_->{$uo}}++ for ($UOs[0]->@*,$UOs[1]->@*);
         my @CONFLICTS = grep {$seen{$_} == 1} keys %seen;
         ## verbose {{{6
-        mes "\n==================",           $ov, [-1], $cmpOpt->[1];
-        mes "%% CHECK IF UO ARE THE SAME %%", $ov, [-1], $cmpOpt->[1];
-        mes  $_,                              $ov, [0],  $cmpOpt->[1] for @CONFLICTS;
+        mes "\n==================",           $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% CHECK IF UO ARE THE SAME %%", $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes  $_,                              $ov, [0],  $ov->{opts}{cmp}->[1] for @CONFLICTS;
 
         ## CREATE UO PAIR CONFLICTS #{{{5
         my @TODOs;
@@ -822,9 +841,9 @@ sub masher {
             push @TODO, [$uo0, $uo1];
         }
         ## verbose {{{6
-        mes "\n==================",       $ov, [-1], $cmpOpt->[1];
-        mes "|CREATE UO PAIR CONFLICTS|", $ov, [-1], $cmpOpt->[1];
-        mes "$_->[0]{$uo}, $_->[1]{$uo}", $ov, [0], $cmpOpt->[1] for @TODO;
+        mes "\n==================",       $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "|CREATE UO PAIR CONFLICTS|", $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "$_->[0]{$uo}, $_->[1]{$uo}", $ov, [0], $ov->{opts}{cmp}->[1] for @TODO;
 
         ## IF NOT DELELTE SECTION BY LIB PRIORITY #{{{5
         for my $hash (@TODO) {
@@ -868,14 +887,14 @@ sub masher {
             push @toDels, \@toDel_;
         }
         ## verbose {{{6
-        mes "\n==================",                              $ov, [-1], $cmpOpt->[1];
-        mes "%% GET lo THAT NEED TO BE REMOVED IN EACH HASH %%", $ov, [-1], $cmpOpt->[1];
+        mes "\n==================",                              $ov, [-1], $ov->{opts}{cmp}->[1];
+        mes "%% GET lo THAT NEED TO BE REMOVED IN EACH HASH %%", $ov, [-1], $ov->{opts}{cmp}->[1];
         for my $toDel_ (@toDels) {
             for my $part (@$toDel_) {
-                mes "[$part->[0]{$uo}]", $ov, [0], $cmpOpt->[1];
-                mes "    ($_->{$lo})",   $ov, [0], $cmpOpt->[1] for $part->[1]->@*;
+                mes "[$part->[0]{$uo}]", $ov, [0], $ov->{opts}{cmp}->[1];
+                mes "    ($_->{$lo})",   $ov, [0], $ov->{opts}{cmp}->[1] for $part->[1]->@*;
             }
-            mes "---------",             $ov, [0], $cmpOpt->[1];
+            mes "---------",             $ov, [0], $ov->{opts}{cmp}->[1];
         }
 
         ## DELETE LO BASED ON DEPTH PRIORITY I EACH LIB #{{{5
@@ -924,34 +943,30 @@ sub masher {
 
     }
 
-    ## --- Combine {{{3
-        my $catalog_contents          = dclone($catalog);
-        $catalog                      = {};
-        $catalog->{contents}          = $catalog_contents;
-        $catalog->{contents}{libName} = 'hmofa_lib';
-        $catalog->{contents}{SECTIONS}[0]{section} = 'masterbin';
+    ## --- refurbish hashes {{{3
+    #creates 'contents' key for non-writable structures;
+    $catalog = { result => $catalog };
+    $catalog->{result}{libName} = $ov->{name};
+    $catalog->{result}{SECTIONS}[0]{section} = 'masterbin';
 
-        my $masterbin_contents            = dclone($masterbin);
-        $masterbin                        = {};
-        $masterbin->{contents}            = $masterbin_contents;
-        $masterbin->{contents}->{libName} = 'hmofa_lib';
-        $masterbin->{contents}{SECTIONS}[0]{section} = 'masterbin';
+    $masterbin = { result => $masterbin };
+    $masterbin->{result}->{libName} = $ov->{name};
+    $masterbin->{result}{SECTIONS}[0]{section} = 'masterbin';
 
-    my $sub = genFilter({
+    my $sub = _genFilter({
         pattern => qr?\Qhttps://raw.githubusercontent.com/Azuhmier/hmofa/master/archive_7/\E(\w{8})?,
         dspt    => $ov->{external}{gitIO},
     });
 
-    ## --- Walkers {{{3
+    ## --- Combine {{{3
+    ## --- Walkers {{{4
     my $walker = sub {
         my $type      = $Data::Walk::type;
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
         if ($type eq 'HASH') {
-            deleteKey( $_, 'LN',                $index, $container);
-            deleteKey( $_, 'raw',               $index, $container);
-            #removeKey( $_, 'SERIES', 'STORIES', $index, $container);
-            #deleteKey( $_, 'preserve',          $index, $container);
+            _deleteKey( $_, 'LN',                $index, $container);
+            _deleteKey( $_, 'raw',               $index, $container);
             filter   ( $_, 'url',               $index, $container, $sub);
         }
     };
@@ -961,23 +976,20 @@ sub masher {
         my $index     = $Data::Walk::index;
         my $container = $Data::Walk::container;
         if ($type eq 'HASH') {
-            deleteKey( $_, 'LN',                $index, $container);
-            deleteKey( $_, 'raw',               $index, $container);
-            #removeKey( $_, 'SERIES', 'STORIES', $index, $container);
-            deleteKey( $_, 'url_attribute',     $index, $container);
-            #deleteKey( $_, 'preserve',          $index, $container);
+            _deleteKey( $_, 'LN',                $index, $container);
+            _deleteKey( $_, 'raw',               $index, $container);
+            _deleteKey( $_, 'url_attribute',     $index, $container);
             filter   ( $_, 'url',               $index, $container, $sub);
         }
-    };
+    };#}}}
 
-    walkdepth { wanted => $walker} ,  $masterbin->{contents};
-    walkdepth { wanted => $walker2}, $catalog->{contents};
-    sortHash($ov,$catalog);
-    sortHash($ov,$masterbin);
+    walkdepth { wanted => $walker} ,  $masterbin->{result};
+    walkdepth { wanted => $walker2}, $catalog->{result};
+    _sortHash($ov,$catalog);
+    _sortHash($ov,$masterbin);
 
-    #my $new_hash = combine( $ov, $masterbin, $catalog );
-    $ov->{static}{hash}[0]{result} = dclone $catalog->{contents};
-    $ov->{static}{hash}[1]{result} = dclone $masterbin->{contents};
+    $ov->{static}{hash}[0]{result} = dclone $catalog->{result};
+    $ov->{static}{hash}[1]{result} = dclone $masterbin->{result};
     $ov->{static}{hash}[0]{dspt} = dclone $ov->{dspt};
     $ov->{static}{hash}[1]{dspt} = dclone $ov->{dspt};
     $ov->{static}{hash}[0]{opts} = dclone $ov->{opts};
@@ -985,7 +997,7 @@ sub masher {
     $ov->{static}{hash}[0]{name} = 'catalog';
     $ov->{static}{hash}[1]{name} = 'masterbin';
     $ov->{result} = combine( $ov, $catalog, $masterbin );
-    $ov->{result} = dclone $ov->{result}{contents};
+    $ov->{result} = dclone $ov->{result}{result};
 
     $ov->{dspt} = getJson('/Users/azuhmier/hmofa/hmofa/code/db/catalog/dspt.json');
 
@@ -1004,10 +1016,10 @@ sub masher {
         close $fh
     }#}}}
     ## --- write array {{{3
-    $ov->{contents} = dclone $ov->{result};
-    sortHash($ov,$ov);
-    $ov->{result} = dclone $ov->{contents};
-    delete $ov->{contents};
+    $ov->{result} = dclone $ov->{result};
+    _sortHash($ov,$ov);
+    $ov->{result} = dclone $ov->{result};
+    #delete $ov->{contents};
     my $writeArray = _sweeper($ov) || die;
     open my $fh, '>', './result/'.$ov->{result}{libName}.'.txt' or die $!;
     {
@@ -1019,8 +1031,7 @@ sub masher {
         seek $fh,0,0 or die;
     }
     close $fh;#}}}
-
-    ## SETUP
+    ## --- WRITE {{{
     my $CONFIG_DIR = glob '~/.ohm/.config';
     my $PWD = 0;
     {
@@ -1034,19 +1045,28 @@ sub masher {
         }
     }
 
-    my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
+    #my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
+    #}}}
 
     return $ov;
 }
 
 
 #===| combine() {{{2
+## args
+#  - hash
+#      - contents
+#  - ov
+#      - reff_0
+#      - reff_1
+#      - pointer
+#          - lvl
 sub combine {
 
     my ($ov, $hash_0, $hash_1) = @_;
     unless (exists $ov->{pointer}) { $ov->{pointer} = [0] };
-    $ov->{reff_0}  = [ $hash_0->{contents} ]; my $reff_0 = $ov->{reff_0};
-    $ov->{reff_1}  = [ $hash_1->{contents} ]; my $reff_1 = $ov->{reff_1};
+    $ov->{reff_0}  = [ $hash_0->{result} ]; my $reff_0 = $ov->{reff_0};
+    $ov->{reff_1}  = [ $hash_1->{result} ]; my $reff_1 = $ov->{reff_1};
 
 
     # ===|| preprocess->() {{{3
@@ -1061,7 +1081,7 @@ sub combine {
         ## Pre HASH {{{4
         if ($type eq 'HASH') {
 
-            ## config pointer
+            ## config pointer{{{
             $pointer->[$lvl] = (exists $pointer->[$lvl] and $lvl != -1) ?++$pointer->[$lvl] :0;
             my $prior_lvl    = (scalar @$pointer) - 1;
             if ($prior_lvl > $lvl and $lvl > -1) {
@@ -1077,12 +1097,7 @@ sub combine {
             my $lvlHash_0 = ($lvl != -1) ?$lvlReff_0->[$pli] :$lvlReff_0;
             my $lvlHash_1 = ($lvl != -1) ?$lvlReff_1->[$pli] :$lvlReff_1;
             die if $lvlHash_0 eq $lvlHash_1;
-            my $obj = _getLvlObj($ov, $lvlHash_0) || die;
-
-            ## Verbose {{{
-            mes("----------------------------------------", $ov, [-1], $cmbOpts->[2]);
-            mes("[$pointStr] PRE $type",                    $ov, [-1], $cmbOpts->[2]);
-            # }}}
+            my $obj = _getLvlObj($ov, $lvlHash_0) || die;#}}}
 
             ## COMBINE Keys {{{
 
@@ -1107,35 +1122,15 @@ sub combine {
                     my $ref = ref $lvlHash_1->{$key_1};
                     $lvlHash_0->{$key_1} = $ref ?dclone($lvlHash_1->{$key_1})
                                                 :$lvlHash_1->{$key_1};
-                    ## Verbose {{{
-                    mes "0-------", $ov, [0], $cmbOpts->[2] >= 3;
-                    mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                    mes "$key_1",   $ov, [0], $cmbOpts->[2] >= 3;
-                    # }}}
                 } elsif ($bool == -1) {
                     unshift @keys_1, $key_0;
                     my $ref = ref $lvlHash_0->{$key_0};
                     $lvlHash_1->{$key_0} = $ref ?dclone($lvlHash_0->{$key_0})
                                                 :$lvlHash_0->{$key_0};
-                    ## Verbose {{{
-                    mes "1-------", $ov, [0], $cmbOpts->[2] >= 3;
-                    mes "$key_0",   $ov, [0], $cmbOpts->[2] >= 3;
-                    mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                    # }}}
                 } else {
                     shift @keys_0;
                     shift @keys_1;
-                    ## Verbose {{{
-                    mes "1-------", $ov, [0], $cmbOpts->[2] >= 2;
-                    mes "{$key_0}", $ov, [0], $cmbOpts->[2] >= 2;
-                    mes "{$key_1}", $ov, [0], $cmbOpts->[2] >= 2;
-                    # }}}
                 }
-                ## Verbose {{{
-                mes "    ------------",                         $ov, [2], $cmbOpts->[1] == 2;
-                mes "    key_0: $key_0 - $lvlHash_0->{$key_0}", $ov, [2], $cmbOpts->[1] == 2 if $key_0;
-                mes "    key_1: $key_1 - $lvlHash_1->{$key_1}", $ov, [2], $cmbOpts->[1] == 2 if $key_1;
-                # }}}
             }
             # }}}
 
@@ -1161,18 +1156,12 @@ sub combine {
             die if $lvlArray_0 eq $lvlArray_1;
             my $obj = _getLvlObj($ov, $lvlArray_0->[0]);
 
-            ## Verbose {{{
-            mes("[$pointStr] PRE $type", $ov, [-1], $cmbOpts->[1]);
-            # }}}
-
             ## COMBINE Obj_Arrays {{{5
             if ($obj) {
 
                 ## sort by $lvlObjs
                 my @array_0 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_0;                  ## OBJ
-                #@array_0 =  sort {lc $a cmp lc $b} @array_0;                  ## OBJ
                 my @array_1 =  sort {$a->{$obj} cmp $b->{$obj}} @$lvlArray_1;                  ## OBJ
-                #@array_1 =  sort {lc $a cmp lc $b} @array_1;                  ## OBJ
                 @$lvlArray_0 = ();
                 @$lvlArray_1 = ();
 
@@ -1196,26 +1185,11 @@ sub combine {
                     ## DIVY
                     if ($bool and $bool != -1) {
                         unshift @array_0, dclone $objHash_1;                                   ## OBJ
-                        ## Verbose {{{
-                        mes "0-------", $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_1",  $ov, [0], $cmbOpts->[2] >= 3;
-                        # }}}
                     } elsif ($bool == -1) {
                         unshift @array_1, dclone $objHash_0;                                   ## OBJ
-                        ## Verbose {{{
-                        mes "1-------", $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_0",  $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                        # }}}
                     } else {
                         push @$lvlArray_0, (shift @array_0);
                         push @$lvlArray_1, (shift @array_1);
-                        ## Verbose {{{
-                        mes "---------", $ov, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_0}", $ov, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_1}", $ov, [0], $cmbOpts->[2] >= 2;
-                        # }}}
                         if ($lvlArray_0->[0] and ref $lvlArray_0->[0]{$obj} eq 'ARRAY') {last} ## OBJ
                     }
                 }
@@ -1245,33 +1219,14 @@ sub combine {
                     ## DIVY
                     if ($bool and $bool != -1) {
                         unshift @array_0, $item_1;                                      ## PART
-                        ## Verbose {{{
-                        mes "0-------", $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_1",  $ov, [0], $cmbOpts->[2] >= 3;
-                        # }}}
                     } elsif ($bool == -1) {
                         unshift @array_1, $item_0;                                      ## PART
-                        ## Verbose {{{
-                        mes "1-------", $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "$item_0",  $ov, [0], $cmbOpts->[2] >= 3;
-                        mes "-",        $ov, [0], $cmbOpts->[2] >= 3;
-                        # }}}
                     } else {
                         push @$lvlArray_0, (shift @array_0);
                         push @$lvlArray_1, (shift @array_1);
-                        ## Verbose {{{
-                        mes "1-------",  $ov, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_0}", $ov, [0], $cmbOpts->[2] >= 2;
-                        mes "{$item_1}", $ov, [0], $cmbOpts->[2] >= 2;
-                        # }}}
                     }
                 }
             }
-            # }}}
-
-            ## Verbose {{{
-            mes("-----------------------------------------------------", $ov,[-1], $cmbOpts->[1]) unless $obj;
             # }}}
 
             $reff_0->[$lvl+1]->@* = @$lvlArray_0;
@@ -1316,14 +1271,6 @@ sub combine {
 
                     my $pointStr     = join('.', @$pointer);
 
-                    ## Verbose {{{
-                    mes("-----------------------------------------------------", $ov,[-1], $cmbOpts->[1]);
-                    mes("[$pointStr] WANT in $type", $ov, [-1], $cmbOpts->[2]);
-                    mes("      obj: $obj_0",         $ov, [0],  $cmbOpts->[3]);
-                    mes("   item_0: $item_0",        $ov, [0],  $cmbOpts->[3]);
-                    mes("   item_1: $item_1",        $ov, [0],  $cmbOpts->[3]);
-                    # }}}
-
                     ## CHECKS
                     if (ref $item_0 ne 'ARRAY'
                     and ref $item_0 ne 'HASH'
@@ -1354,13 +1301,6 @@ sub combine {
                 my $groupName    = _getGroupName($ov, $lvlObj_0);
                 my $pointStr     = join('.', @$pointer);
 
-                ## verbose {{{
-                mes("[$pointStr] WANT in $type",          $ov, [-1], $cmbOpts->[2]);
-                mes("      Obj: $lvlObj_0",               $ov, [0],  $cmbOpts->[3]);
-                mes("   item_0: ".($lvlItem_0 // "NONE"), $ov, [0],  $cmbOpts->[3]);
-                mes("   item_1: ".($lvlItem_1 // "NONE"), $ov, [0],  $cmbOpts->[3]);
-                # }}}
-
                 ## CHECKS
                 if ($lvlItem_0 and $lvlItem_1 and $lvlItem_0 ne $lvlItem_1 and (ref $lvlItem_0 ne 'ARRAY') and (ref $lvlItem_1 ne 'ARRAY')) {
                   die("Fuckie Wuckie! In ${0} at line: ".__LINE__)
@@ -1376,7 +1316,7 @@ sub combine {
     };
     #}}}
 
-    walk { wanted => $wanted, preprocess => $preprocess}, $hash_0->{contents};
+    walk { wanted => $wanted, preprocess => $preprocess}, $hash_0->{result};
 
     return $hash_0;
 }
@@ -1963,12 +1903,17 @@ sub _init2 {
         else {warn "WARNING!: 'debug' is already defined by user!"}
     unless (exists $ov->{meta}) {$ov->{meta} = {}}
         else {warn "WARNING!: 'meta' is already defined by user!"}
+
+    ## check 'dspt', if no 'dspt' then use dspt of args, if args conflice or at
+    #least one doesn't contain a dspt throw error unless 'fall to default'
+    #option is on
     unless ($ov->{fileNames}->{dspt}) {
         die "User did not provide filename for 'dspt'!"}
 
-    _genReservedKeys($ov);
-    _genDspt($ov);
+    _genReservedKeys($ov); # hasher method
+    _genDspt($ov);         # hasher method
 
+    ## send filenames to hasher object
     $ov->{hash} = [
         map { getJson($_) }
         $ov->{fileNames}{fname}->@*
@@ -2445,8 +2390,8 @@ sub _crctPnter {
 # OTHER {{{1
 #------------------------------------------------------
 
-#===| genfilter() {{{2
-sub genFilter {
+#===| _genfilter() {{{2
+sub _genFilter {
     my $ARGS    = shift @_;
     my $dspt    = $ARGS->{dspt};
     my $obj     = $ARGS->{obj};
@@ -2462,8 +2407,8 @@ sub genFilter {
 }
 
 
-#===| sortHash(){{{2
-sub sortHash {
+#===| _sortHash(){{{2
+sub _sortHash {
     my ($db, $hash) = @_;
 
 
@@ -2497,12 +2442,12 @@ sub sortHash {
         }
     };
 
-    walk { wanted => $sub}, $hash->{contents};
+    walk { wanted => $sub}, $hash->{result};
 }
 
 
-#===| removeKey(){{{2
-sub removeKey {
+#===| _removeKey(){{{2
+sub _removeKey {
     my $arg   = shift @_;
     my $key   = shift @_;
     my $key2  = shift @_;
@@ -2521,8 +2466,8 @@ sub removeKey {
 }
 
 
-#===| deleteKey(){{{2
-sub deleteKey {
+#===| _deleteKey(){{{2
+sub _deleteKey {
     my $arg   = shift @_;
     my $key   = shift @_;
     my $index = shift @_;
@@ -2533,17 +2478,3 @@ sub deleteKey {
 }
 
 
-#===| _waltzer() {{{2
-sub waltzer {
-    my $type      = $Data::Walk::type;
-    my $index     = $Data::Walk::index;
-    my $container = $Data::Walk::container;
-    if ($type eq 'HASH') {
-        #deleteKey( $_, 'LN',     $index, $Data::Walk::container);
-        #deleteKey( $_, 'raw',    $index, $Data::Walk::container);
-        #deleteKey( $_, 'test33', $index, $Data::Walk::container);
-        #deleteKey( $_, 'test3',  $index, $Data::Walk::container);
-        #deleteKey( $_, 'test',   $index, $Data::Walk::container);
-        #filter   ( $_, 'url',    $index, $Data::Walk::container, $sub);
-    }
-}
