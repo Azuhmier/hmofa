@@ -1,13 +1,32 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
+use feature qw(say);
+use JSON;
 
-my $answer = 42;
+our $var;
+local $var;
+my %hash = (
+    a => {
+        a => 1,
+        b => 2,
+        c => 3,
+    },
+    b => {
+        a => 1,
+        b => 2,
+        c => 3,
+    },
+    c => {
+        a => 1,
+        b => 2,
+        c => 3,
+    },
+);
 
-if ($answer == 6 * 9) {
-    print "everything is running fine.\n";
-} else {
-    warn "there must be a bug somewhere...\n";
-}
+my $json = JSON::XS->new->utf8->encode ({a => [1,2]});
+my $json4 = JSON::XS->new->encode(\%hash);
 
+do {};
+do {};

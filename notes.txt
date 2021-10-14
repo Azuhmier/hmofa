@@ -1,23 +1,3 @@
-Defintions
-  o          obj's dspt index
-  k          obj's data hash index
-  a          obj's data array index
-  i          item
-  O          obj groupname
-  dspt
-  part       member of an array
-  value      a value belonging to a key-value pair in a hash
-  point      o.o.o
-  pointer    x.x.x.x.x.x k.a.k.a.k.a
-  pointer2   x.x.x.x.x.x O.i.O.i.O.i
-  pointer3   x.x.x.x.x.x O.a.O.a.O.a
-  direct Ref {
-  lvl        scalar x.x.x.x.x.x
-  pli        x.x.x.x.[x], pointer level index
-  reff
-  lvlReff    ref at lvl
-  Pre
-  Want
 Git
   git config --get remote.origin.url
   git remote show origin
@@ -68,32 +48,6 @@ Misc
     !!$var     # force boolean context
     0 + $var   # force numeric context
     '' . $var  # force string context
-terms
-  %obj {
-  |      $obj: $item,
-  |    @attrs: <$_, [@_], ...>,
-  |    @child: <[@obj]>
-  |     @meta: <$LN, $raw, ...>,
-  }
-  $lvl
-  $index
-  $reff     $reff->[$lvl]
-  $pointer  $pointer->[$lvl]
-  $lvlreff  $lvlreff->[$index]
-combine
-  SUB |Data type|args|lvl_Reff|obj                                |lvl|index|pli                  |lvlReff|post
-  PRE  @_        @_                                                ++  -1    pli                   %
-  WANT @$        $_            $_                                  lvl index index/2               %       $reff->[$lvl+1] = $lvlReff->{$item};
-  PRE  %         @_            getLvlObj($db,$lvlReff_0->[$pli])   lvl -1    (E_pli&&lvl!=-1)?++:0 @
-  WANT %$        $_                                                lvl index index                 @       $reff->[$lvl+1] = $lvlReff->[$index];
-contrast
-  libName hmofa_lib
-  N.{n}...X.{x}
-  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
-  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
-  LIBS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}
-  LIBS{masterbin}.AUTHORS{alfabarf}.STORIES{Hair of the dog}.URLS{http.url.com}
-  LIBS{masterbin}.SECTIONS{masterbin}.AUTHORS{alfabarf}.SERIES{Hair of the dog}.STORIES{Hair of the dog}.URLS{http.url.com}.url_attribute{ch.1}
 HASH ARCHITECT
 
   - Accountability = ( #lines captured / #lines ), can set
@@ -206,14 +160,6 @@ HASH ARCHITECT
       @ hash_buf
       @ file_buf
 
-Steps
-  1) capture_hash via dspt; linear & dynamic
-  2) predicable iteration through dspt; iterating along point address
-     (ex. 1.1.2.12), descending levels from left to right. point addresses
-     differing in number of decimals are parent/child, while those with the
-     same number of decimals are siblings
-  3) evolved from 3, now we go from one ref to array of reffs.
-
 ohm
   c
   c a
@@ -221,10 +167,26 @@ ohm
   c a -o
   c -o a
   c a -o a
-checks
-  saninty checks
 PERL DEBUGGER
   perl
   perl -de1 (interactive perl console)
   perl -MDebug::Trace _sweeper ./json.pl
   perl -dTrace ./json.pl
+
+- The mutators for flags all return the JSON object again and thus calls can be
+chained
+
+obj loop
+  $obj=obj
+prsv
+  $obj=''
+is_prsv
+  $obj == FR_prsv->{obj}
+  !FR_prsv->{F}
+
+
+obj
+FR_prsv->{F}
+FR_prsv->{obj}
+prsv->[1]
+prsv->[0]
