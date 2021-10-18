@@ -190,3 +190,47 @@ FR_prsv->{F}
 FR_prsv->{obj}
 prsv->[1]
 prsv->[0]
+
+$db = {
+    debug => [],
+    dspt => {}
+    m => {}
+    matches => {}
+    meta => {}
+    opts => {},
+    result => {}
+}
+$db = {
+    debug => [],
+    matches => {}
+    meta => {}
+    result => {}
+    m => {
+        reffArray => [$db->{result}],
+        point => [1],
+        pointer => [];
+    }
+    dspt => {
+        %$dspt,
+        meta => {
+            ord_max => $max,
+            ord_limit => $limit,
+            ord_map => {}
+        }
+    }
+    opts => {
+        name => 'hmofa_lib',
+        args => $args,
+        drsr => $drsr_C,
+        prsv => {
+            till => ['section', 1]
+        },
+        fnames => {
+            input => './hmofa_lib.json',
+            dspt => './deimos.json',
+            output => './db',
+        },
+    },
+}
+
+- perl debugger set $SIG{__DIE__}; it would be undef upon normal exectuion of the script

@@ -6,8 +6,8 @@
    "author" : {
       "order" : "1.1",
       "re" : "^\\s*[Bb]y\\s+(.*)",
-      "attributes" : {
-         "author_attribute" : [
+      "attr" : {
+         "author_attr" : [
             "\\s+\\(([^\\(\\)]*)\\)\\s*$"
          ]
       }
@@ -20,8 +20,8 @@
    "title" : {
       "order" : "1.1.1.1",
       "re" : "^\\s*>\\s*(.*)",
-      "attributes" : {
-         "title_attribute" : [
+      "attr" : {
+         "title_attr" : [
             "\\s+\\(([^\\(\\)]*?)\\)\\s*$"
          ]
       }
@@ -31,7 +31,7 @@
       "re" : "^\\s*(\\[.*)",
       "partion" : "1",
       "scalar" : "1",
-      "attributes" : {
+      "attr" : {
          "anthro" : [
             "(?x) ^\\[  ([^\\[\\]]*)",
             1,
@@ -52,8 +52,8 @@
    "url" : {
       "order" : "1.1.1.1.2",
       "re" : "^\\s*(http.+)",
-      "attributes" : {
-         "url_attribute" : [
+      "attr" : {
+         "url_attr" : [
             "\\s*\\((.*)\\)"
          ]
       }

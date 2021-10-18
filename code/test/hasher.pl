@@ -12,64 +12,21 @@ use warnings;
 use utf8;
 use Storable qw(dclone);
 use JSON::XS;
-use Data::Dumper;
-use List::Util qw( uniq );
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
+use Data::Walk;
+
 my $erreno;
 my $CONFIG = '~/.hmofa';
 sub mes;
 
-$db = {
-    debug => [],
-    dspt => {}
-    m => {}
-    matches => {}
-    meta => {}
-    opts => {},
-    result => {}
-}
-$db = {
-    debug => [],
-    matches => {}
-    meta => {}
-    result => {}
-    m => {
-        reffArray => [$db->{result}],
-        point => [1],
-        pointer => [];
-    }
-    dspt => {
-        %$dspt,
-        meta => {
-            ord_max => $max,
-            ord_limit => $limit,
-            ord_map => {}
-        }
-    }
-    opts => {
-        name => 'hmofa_lib',
-        args => $args,
-        drsr => $drsr_C,
-        prsv => {
-            till => ['section', 1]
-        },
-        fnames => {
-            input => './hmofa_lib.json',
-            dspt => './deimos.json',
-            output => './db',
-        },
-    },
-}
-
 # MAIN {{{1
 #------------------------------------------------------
 {
-    ## --- DRESSERS  {{{
     ## drsr_M {{{
         my $drsr_M = {
             libName => {libName => ['', '']},
-            preserve => {
-                preserve => ['', '', '', '', '', {section => 1}],
+            prsv => {
+                prsv => ['', '', '', '', '', {section => 1}],
             },
             title => {
                 title           => [">", '', '', '', ''],
@@ -89,7 +46,7 @@ $db = {
                     '',
                     '',
                     '',
-                    {preserve => 2},
+                    {prsv => 2},
                 ],
             },
             url => {
@@ -100,8 +57,8 @@ $db = {
     ## drsr_C {{{
         my $drsr_C = {
             libName => {libName => ['', '']},
-            preserve => {
-                preserve => ['', '', '', '', '', { section => 1 }],
+            prsv => {
+                prsv => ['', '', '', '', '', { section => 1 }],
             },
             title => {
                 title           => ["\n>", '', '', '', '', {series => 1}],
@@ -128,7 +85,7 @@ $db = {
                     '',
                     '',
                     '',
-                    {preserve => 2},
+                    {prsv => 2},
                 ],
             },
             tags => {
@@ -147,8 +104,8 @@ $db = {
     ## drsr_H {{{
         my $drsr_H = {
             libName => {libName => ['', '']},
-            preserve => {
-                preserve => ['', '', '', '', '', { section => 1 }],
+            prsv => {
+                prsv => ['', '', '', '', '', { section => 1 }],
             },
             title => {
                 title           => ["\n`", '`', '', '', '', {series => 1}],
@@ -175,7 +132,7 @@ $db = {
                     '',
                     '',
                     '',
-                    {preserve => 2},
+                    {prsv => 2},
                 ],
             },
             tags => {
@@ -191,60 +148,33 @@ $db = {
                 description => ['*', '*'],
             },
         }; #}}}
-    #}}}
-    ## Opts
+
     my $args = {
         attribs  => '01',
         delims   => '01',
         prsv     => '01',
         mes      => '01',
     };
-    ## masterbin
-        hasher({
-            name => 'masterbin',
-            args => $args,
-            drsr => $drsr_M,
-            prsv => {
-                till => ['section', 1]
-            },
-            fnames => {
-                input => './masterbin.txt',
-                dspt => './deimos.json',
-                output => './db',
-            },
-        });
 
-    ## tagCatalog
-        hasher({
-            name => 'catalog',
-            args => $args,
-            drsr => $drsr_C,
-            prsv => {
-                till => ['section', 1]
-            },
-            fnames => {
-                input => './catalog.txt',
-                dspt => './deimos.json',
-                output => './db',
-            },
-        });
+    my $name = 'catalog';
 
-    ## hmofa_lib
-        hasher({
-            name => 'hmofa_lib',
-            args => $args,
-            drsr => $drsr_C,
-            prsv => {
-                till => ['section', 1]
-            },
-            fnames => {
-                input => './hmofa_lib.json',
-                dspt => './deimos.json',
-                output => './db',
-            },
-        });
+    hasher({
+        name => $name,
+        args => $args,
+        drsr => $drsr_C,
+        prsv => {
+            till => ['section', 1]
+        },
+        fnames => {
+            input => "./$name.txt",
+            dspt => './deimos.json',
+            output => './db',
+        },
+    });
 
 }
+
+
 # SUBROUTINES {{{1
 #------------------------------------------------------
 
@@ -322,14 +252,14 @@ sub genDspt {
         my $objDSPT = $dspt->{$obj};
         for my $key (keys %$objDSPT) {
             if ($key eq 're') { $objDSPT->{re} = qr/$objDSPT->{re}/ }
-            if ($key eq 'attributes') {
+            if ($key eq 'attr') {
 
-                my $attrDSPT = $objDSPT->{attributes};
-                for my $attr (keys %$attrDSPT) {
-                    $attrDSPT->{$attr}[0] = qr/$attrDSPT->{$attr}[0]/;
-                    if (scalar $attrDSPT->{$attr}->@* >= 3) {
-                        my $delims = join '', $attrDSPT->{$attr}[2][0];
-                        $attrDSPT->{$attr}[3] = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
+                my $dspt_attr = $objDSPT->{attr};
+                for my $attr (keys %$dspt_attr) {
+                    $dspt_attr->{$attr}[0] = qr/$dspt_attr->{$attr}[0]/;
+                    if (scalar $dspt_attr->{$attr}->@* >= 3) {
+                        my $delims = join '', $dspt_attr->{$attr}[2][0];
+                        $dspt_attr->{$attr}[3] = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
                                               : '';
                     }
                 }
@@ -365,6 +295,12 @@ sub genDspt {
     $pntstr[$#pntstr]++;
     $dspt->{meta}{ord_limit} = join '.', @pntstr;
 
+    # ordMap 
+    $dspt->{meta}{ord_map}->%* = 
+        map  {$dspt->{$_}{order} => $_}
+        grep {exists $dspt->{$_}{order} }
+        keys %$dspt;
+
     $db->{dspt} = $dspt;
     return $db;
 }
@@ -383,7 +319,7 @@ sub getMatches {
     my $dspt = $db->{dspt};
 
     ## --- open tgt file for regex parsing
-    open my $fh, '<', $db->{fnames}{input}
+    open my $fh, '<', $db->{opts}{fnames}{input}
         or die $!;
     {
         my $FR_prsv = {
@@ -405,25 +341,31 @@ sub getMatches {
                     $match = {
                         obj => $obj,
                         val => $1,
-                        raw => $line,
-                        LN  => $.,
+                        meta => {
+                            raw => $line,
+                            LN  => $.,
+                        },
                     }; push $db->{matches}{objs}{$obj}->@*, $match;
                 }
             }
             ## --- PRESERVES
             if (!$match and _isPrsv($db,'NULL','',$FR_prsv)) {
                 $match = {
-                    obj => 'preserve',
+                    obj => 'prsv',
                     val => $line,
-                    LN  => $.,
-                }; push $db->{matches}{objs}{preserve}->@*, $match;
+                    meta => {
+                        LN  => $.,
+                    },
+                }; push $db->{matches}{objs}{prsv}->@*, $match;
 
             ## --- MISS
             } elsif (!$match) {
                 $match = {
                     obj => 'miss',
                     val => $line,
-                    LN  => $.,
+                    meta => {
+                        LN  => $.,
+                    },
                 }; push $db->{matches}{miss}->@*, $match;
             }
         }
@@ -450,7 +392,10 @@ sub divy {
 
     my $db = shift @_;
 
-    $db->{result} = { libName => $db->{opts}{name}};
+    $db->{result} = {
+        val => $db->{opts}{name},
+        obj => 'libname',
+    };
     $db->{m} = {};
 
     $db->{m}{reffArray} = [$db->{result}];
@@ -478,10 +423,10 @@ sub _leveler {
     while ($obj) {
 
         ## Checking existance of recursionReffArray
-        unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{reffArray}->@* }
+        unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{m}{reffArray}->@* }
 
         ## divy
-        divyMatches( $db );
+        _divyMatches( $db );
 
         ## Check for CHILDREN
         _changePointLvl($db->{m}{point}, 1);
@@ -500,7 +445,7 @@ sub _leveler {
     if (_getPointStr($db) eq $db->{dspt}{meta}{ord_limit}) {
         $db->{m}{point}->@* = (-1);
 
-        divyMatches($db);
+        _divyMatches($db);
     }
 
     return $db;
@@ -525,21 +470,22 @@ sub _divyMatches {
 
     my $db = shift @_;
     my $obj = _getObj($db); #db->get_obj()
-    my @objMatches = $db->{m}{matches}{objs}{$obj}->@*;
+    return unless exists $db->{matches}{objs}{$obj};
+    my @objMatches = $db->{matches}{objs}{$obj}->@*;
 
     ## --- REFARRAY LOOP
     my $refArray = $db->{m}{reffArray};
     my $ind = (scalar @$refArray) - 1;
     for my $ref (reverse @$refArray) {
-        my $ref_LN = $ref->{LN} // 0;
+        my $ref_LN = $ref->{meta}{LN} // 0;
 
         ## --- MATCHES LOOP
         my $childObjs;
         for my $match (reverse @objMatches) {
 
-            if ($match->{LN} > $ref_LN) {
+            if ($match->{meta}{LN} > $ref_LN) {
                 my $match = pop @objMatches;
-                genAttributes( $db, $match);
+                _genAttributes( $db, $match);
                 push @$childObjs, $match;
 
             } else { last }
@@ -564,36 +510,37 @@ sub _divyMatches {
 #===| _genAttributes() {{{2
 sub _genAttributes {
 
-    my $db  = shift @_;
-    my $match = shift @_;
+    my ($db, $match) = @_;
+    #my $db = shift @_;
+    #my $match = shift @_;
 
     my $obj       = _getObj($db);
-    $match->{raw} = $match->{$obj};
+    $match->{meta}{raw} = $match->{$obj};
 
-    if (exists $db->{dspt}{$obj}{attributes}) {
-        my $attrDSPT = $db->{dspt}{$obj}{attributes};
-        my @attrORDS = sort {
-            $attrDSPT->{$a}[1] cmp $attrDSPT->{$b}[1];
-            } keys $attrDSPT->%*;
+    if (exists $db->{dspt}{$obj}{attr}) {
+        my $dspt_attr = $db->{dspt}{$obj}{attr};
+        my @ATTRS = sort {
+            $dspt_attr->{$a}[1] cmp $dspt_attr->{$b}[1];
+            } keys %$dspt_attr;
 
-        for my $attr (@attrORDS) {
-            my $sucess   = $match->{$obj} =~ s/$attrDSPT->{$attr}[0]//;
+        for my $attr (@ATTRS) {
+            my $sucess   = $match->{val} =~ s/$dspt_attr->{$attr}[0]//;
             my $fish     = {};
             $fish->{caught} = $1 if $1;
             if ($sucess and !$1) {$fish->{caught} = '' }
             if ($fish->{caught} || exists $fish->{caught}) {
-                $match->{$attr} = $fish->{caught};
+                $match->{attr}{$attr} = $fish->{caught};
 
-                if (scalar $attrDSPT->{$attr}->@* >= 3) {
+                if (scalar $dspt_attr->{$attr}->@* >= 3) {
                     _delimitAttr($db, $attr, $match);
                 }
             }
         }
-        unless ($match->{$obj}) {
-            $match->{$obj} = [];
-            for my $attr(@attrORDS) {
-                if (exists $match->{$attr}) {
-                    push $match->{$obj}->@*, $match->{$attr}->@*;
+        unless ($match->{val}) {
+            $match->{val} = [];
+            for my $attr(@ATTRS) {
+                if (exists $match->{attr}{$attr}) {
+                    push $match->{val}->@*, $match->{attr}{$attr}->@*;
                 }
             }
         }
@@ -606,17 +553,17 @@ sub _delimitAttr {
     ## Attributes
     my $db       = shift @_;
     my $objKey   = _getObj($db);
-    my $attrDSPT = $db->{dspt}{$objKey}{attributes};
+    my $dspt_attr = $db->{dspt}{$objKey}{attr};
 
     ## Regex for Attribute Delimiters
     my $attr = shift @_;
-    my $delimsRegex = $attrDSPT->{$attr}[3];
+    my $delimsRegex = $dspt_attr->{$attr}[3];
 
     ## Split and Grep Attribute Match-
     my $match = shift @_;
-    $match->{$attr} = [
+    $match->{attr}{$attr} = [
         grep { $_ ne '' }
-        split( /$delimsRegex/, $match->{$attr} )
+        split( /$delimsRegex/, $match->{attr}{$attr} )
     ];
 }
 
@@ -711,4 +658,135 @@ sub _longest {
     $$max_ref
 }
 #------------------------------------------------------
+
+#===| _write2array() {{{2
+sub _write2array {
+    my ($db, $container, $writeArray, $lvl, $result) = @_;
+    my $write_opts = $db->{opts}{write};
+
+    if ($write_opts->[0]) {
+        my $pointer   = $db->{pointer};
+        my $point     = $db->{point};
+        my $objChain  = $db->{objChain};
+        my $childs    = $db->{childs};
+        my $obj       = _getLvlObj($db, $container);
+        my $dspt      = $db->{dspt};
+        my $drsr      = $dspt->{$obj}{drsr};
+
+        ## verbose 2 {{{3
+        my $S0 = ' ' x (13 - length $obj);
+        mes "<$obj> $S0 $container->{$obj}", $db, [0], $write_opts->[2];
+
+        ## --- String: d0, d1 #{{{3
+        my $str = '';
+        my $ref = ref $container->{$obj};
+        if ($ref ne 'ARRAY') {
+            $str .= $drsr->{$obj}[0]
+                 . $container->{$obj}
+                 . $drsr->{$obj}[1];
+        }
+
+        ## verbose 3 {{{4
+        mes "<$obj> $S0 $str", $db, [0], $write_opts->[3];
+
+        ## --- Attributes String: d0, d1, d2, d3, d4{{{3
+        my $attrStr = '';
+        my $attrDspt = _getAttrDspt($db, $obj);
+        if ($attrDspt) {
+
+            for my $attr (
+                sort {
+                    $attrDspt->{$a}[1]
+                        cmp
+                    $attrDspt->{$b}[1]
+                } keys %$attrDspt
+            ) {
+
+                ## Check existence of attributes
+                if (exists $container->{$attr}) {
+                    my $attrItem = $container->{$attr};
+
+                    ## Item Arrays
+                    if (exists $attrDspt->{$attr}[2]) {
+                        my @itemPartArray = ();
+                        for my $part (@$attrItem) {
+                            $part = $drsr->{$attr}[2]
+                                  . $part
+                                  . $drsr->{$attr}[3];
+                            push @itemPartArray, $part;
+                        }
+                        $attrItem = join $drsr->{$attr}[4], @itemPartArray;
+                    }
+
+                    $attrStr .= $drsr->{$attr}[0]
+                             . $attrItem
+                             . $drsr->{$attr}[1];
+
+                }
+            }
+        }
+
+        ## --- Line Striping: d5,d6 #{{{3
+        my $F_empty;
+        push @$objChain, [ $lvl, $obj ];
+        if (exists $objChain->[-2] and exists $drsr->{$obj}[5]) {
+
+            my $prevObj = $objChain->[-2][1];
+            my $prevLvl = $objChain->[-2][0];
+
+            my $ref = ref $drsr->{$obj}[5];
+            my $tgtObjs = ($ref eq 'HASH') ?$drsr->{$obj}[5]
+                                           :0;
+
+            ## strip lines only after target object
+            if ($tgtObjs && exists $tgtObjs->{$prevObj}) {
+                my $cnt = $tgtObjs->{$prevObj};
+
+                # descending lvl
+                if ($prevLvl < $lvl) {
+                    $str =~ s/.*\n// for (1 .. $cnt);
+                    $F_empty = 1 if $str eq '';
+                }
+
+                # ascending lvl
+                elsif ($prevLvl > $lvl) {
+                    $str =~ s/.*\n// for (1 .. $cnt);
+                }
+
+                # maintaining lvl
+                elsif ($prevLvl == $lvl) {
+
+                    # Preserve
+                    if ($obj eq 'preserve') {
+                        $str =~ s/.*\n// for (1 .. $cnt);
+                    }
+
+                    # Post Preserve
+                    elsif ($prevObj eq 'preserve') {
+                        $str =~ s/.*\n// for (1 .. $cnt);
+                    }
+                }
+            }
+
+            ## strip lines after all objects
+            # descending lvl
+            elsif (!$tgtObjs and $prevLvl < $lvl) {
+                my $cnt = $drsr->{$obj}[5];
+                $str =~ s/.*\n// for (1 .. $cnt);
+            }
+
+        }
+
+        ## --- String Concatenation {{{3
+        $str = ($str) ?$str . $attrStr
+                      :$attrStr;
+        chomp $str if $obj eq 'preserve';
+
+        ## verbose 4 {{{4
+        mes "<$obj> $S0 $str", $db, [0], $write_opts->[4];#}}}
+        #}}}
+
+        unless ($F_empty) { push @$writeArray, $str if $obj ne 'libName'}
+    }
+}
 
