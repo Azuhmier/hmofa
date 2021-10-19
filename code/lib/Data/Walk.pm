@@ -44,7 +44,7 @@ sub __recurse;
 
 sub walk {
     my ($options, @args) = @_;
-   
+
     unless (UNIVERSAL::isa($options, 'HASH')) {
         $options = { wanted => $options };
     }
@@ -91,7 +91,7 @@ sub __walk {
         __recurse $options, $item;
         ++$index;
     }
-    
+
     return 1;
 }
 
@@ -99,7 +99,7 @@ sub __recurse {
     my ($options, $item) = @_;
 
     ++$depth;
-    
+
     my @children;
     my $data_type = '';
 
@@ -112,7 +112,7 @@ sub __recurse {
         # Avoid fancy overloading stuff.
         bless $item if $blessed;
         $address = Scalar::Util::refaddr($item);
-    
+
         $seen = $options->{seen}->{$address}++;
 
         if (UNIVERSAL::isa ($item, 'HASH')) {
@@ -122,7 +122,7 @@ sub __recurse {
         } else {
             $data_type = '';
         }
-    
+
         if ('ARRAY' eq $data_type || 'HASH' eq $data_type) {
             local $index = -1;
             local $type = $data_type;
@@ -133,15 +133,15 @@ sub __recurse {
             } else {
                 @children = %{$item};
             }
-        
+
             if ('ARRAY' eq $data_type) {
-                @children = $options->{preprocess} (@{$item}) 
+                @children = $options->{preprocess} (@{$item})
                         if $options->{preprocess};
             } else {
                 local $container = \@children;
-                @children = $options->{preprocess} (@children) 
+                @children = $options->{preprocess} (@children)
                         if $options->{preprocess};
-                @children = $options->{preprocess_hash} (@children) 
+                @children = $options->{preprocess_hash} (@children)
                         if $options->{preprocess_hash};
             }
         } else {
@@ -197,15 +197,15 @@ Data::Walk - Traverse Perl data structures
 
 =head1 SYNOPSIS
 
- use Data::Walk;    
+ use Data::Walk;
  walk \&wanted, @items_to_walk;
 
- use Data::Walk;    
+ use Data::Walk;
  walkdepth \&wanted, @items_to_walk;
-    
- use Data::Walk;    
+
+ use Data::Walk;
  walk { wanted => \&process, follow => 1 }, $self;
-    
+
 =head1 DESCRIPTION
 
 The above synopsis bears an amazing similarity to File::Find(3pm)
@@ -217,7 +217,7 @@ Perl data structures, for deep copying or comparing, for recursive
 deletion of data, or ...
 
 If you are impatient and already familiar with File::Find(3pm),
-you can skip the following documentation and proceed with 
+you can skip the following documentation and proceed with
 L</"DIFFERENCES TO FILE::FIND">.
 
 =head1 FUNCTIONS
@@ -231,8 +231,8 @@ The module exports two functions by default:
   walk \&wanted, @items;
   walk \%options, @items;
 
-As the name suggests, the function traverses the items in the order 
-they are given.  For every object visited, it calls the &wanted 
+As the name suggests, the function traverses the items in the order
+they are given.  For every object visited, it calls the &wanted
 subroutine.  See L</"THE WANTED FUNCTION"> for details.
 
 =item B<walkdepth>
@@ -249,7 +249,7 @@ your friend.
 
 =head1 OPTIONS
 
-The first argument to C<walk()> and C<walkdepth()> is either a 
+The first argument to C<walk()> and C<walkdepth()> is either a
 code reference to your &wanted function, or a hash reference
 describing the operations to be performed for each visited
 node.
@@ -281,18 +281,18 @@ The list is a shallow copy of the data contained in the original
 structure.  You can therefore safely delete items in it, without
 affecting the original data.
 
-The behavior is identical for regular arrays and hashes, so you 
-probably want to coerce the list passed as an argument into a hash 
+The behavior is identical for regular arrays and hashes, so you
+probably want to coerce the list passed as an argument into a hash
 then.  The variable $Data::Walk::type will contain the string
 "HASH" if the currently inspected node is a hash.
 
-You can use the preprocessing function to sort the items 
-contained or to filter out unwanted items.  The order is also preserved 
+You can use the preprocessing function to sort the items
+contained or to filter out unwanted items.  The order is also preserved
 for hashes!
 
 =item B<preprocess_hash>
 
-The value should be a code reference.  The code is executed 
+The value should be a code reference.  The code is executed
 right after an eventual I<preprocess_hash> handler, but only
 if the current container is a hash.  It is skipped for regular
 arrays.
@@ -317,7 +317,7 @@ imply an infinite loop!
 
 Please note that the &wanted function is also called for nodes
 that have already been visited!  The effect of I<follow> is to
-suppress descending into subnodes.  
+suppress descending into subnodes.
 
 =back
 
@@ -387,7 +387,7 @@ These variables should not be modified.
 =head1 DIFFERENCES TO FILE::FIND
 
 The API of Data::Walk(3pm) tries to mimic the API of File::Find(3pm)
-to a certain extent.  If you are already familiar with File::Find(3pm) 
+to a certain extent.  If you are already familiar with File::Find(3pm)
 you will find it very easy to use Data::Walk(3pm).  Even the
 documentation for Data::Walk(3pm) is in parts similar or identcal
 to that of File::Find(3pm).
@@ -402,14 +402,14 @@ Data::Walk(3pm) passes lists of variables.
 
 =head2 Function Names
 
-Instead of C<find()> and C<finddepth()>, Data::Walk(3pm) uses 
-C<walk()> and C<walkdepth()>, like the smart reader 
+Instead of C<find()> and C<finddepth()>, Data::Walk(3pm) uses
+C<walk()> and C<walkdepth()>, like the smart reader
 has already guessed after reading the L</"SYNOPSIS">.
 
 =head2 Variables
 
-The variable $Data::Walk::container is vaguely equivalent to 
-$File::Find::dir.  All other variables are specific to the 
+The variable $Data::Walk::container is vaguely equivalent to
+$File::Find::dir.  All other variables are specific to the
 corresponding module.
 
 =head2 Wanted Function
@@ -432,7 +432,7 @@ are skipped.
 
 =head1 EXAMPLES
 
-Following are some recipies for common tasks.  
+Following are some recipies for common tasks.
 
 =head2 Recurse To Maximum Depth
 
