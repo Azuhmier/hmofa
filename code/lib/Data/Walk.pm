@@ -20,29 +20,23 @@
 # USA.
 
 package Data::Walk;
-
 use strict;
 use 5.004;
-
 use Scalar::Util;
 
 require Exporter;
-
 use vars qw ($VERSION @ISA @EXPORT);
-
 $VERSION = '2.01';
-@ISA = qw (Exporter);
-@EXPORT = qw (walk walkdepth);
+@ISA     = qw (Exporter);
+@EXPORT  = qw (walk walkdepth);
 
-use vars qw ($container $type $seen $address $depth $index $key);
-
-# Forward declarations.
+use vars qw ($index $container $type $depth $address $seen $key);
 sub walk;
 sub walkdepth;
 sub __walk;
 sub __recurse;
 
-sub walk {
+sub walk {#{{{1
     my ($options, @args) = @_;
 
     unless (UNIVERSAL::isa($options, 'HASH')) {
@@ -52,26 +46,25 @@ sub walk {
     __walk ($options, @args);
 }
 
-sub walkdepth {
+sub walkdepth {#{{{1
     my ($options, @args) = @_;
 
     unless (UNIVERSAL::isa($options, 'HASH')) {
         $options = { wanted => $options };
-    }
-
-    $options->{bydepth} = 1;
+    } $options->{bydepth} = 1;
 
     __walk ($options, @args);
 }
 
-sub __walk {
+sub __walk {#{{{1
     my ($options, @args) = @_;
-
     $options->{seen} = {};
 
     local $index = 0;
-    foreach my $item (@args) {
+    for my $item (@args) {
         local ($container, $type, $depth);
+
+        # aquire initial 'container' and 'type'
         if (ref $item) {
             if (UNIVERSAL::isa ($item, 'HASH')) {
                 $container = $item;
@@ -87,15 +80,18 @@ sub __walk {
             $container = \@args;
             $type = 'ARRAY';
         }
+
+        # Start recursion
         $depth = 0;
         __recurse $options, $item;
         ++$index;
+
     }
 
     return 1;
 }
 
-sub __recurse {
+sub __recurse { #{{{1
     my ($options, $item) = @_;
 
     ++$depth;
@@ -115,6 +111,7 @@ sub __recurse {
 
         $seen = $options->{seen}->{$address}++;
 
+        # Determine data type.
         if (UNIVERSAL::isa ($item, 'HASH')) {
             $data_type = 'HASH';
         } elsif (UNIVERSAL::isa ($item, 'ARRAY')) {
@@ -123,19 +120,24 @@ sub __recurse {
             $data_type = '';
         }
 
+        # pre-process - obtain children
         if ('ARRAY' eq $data_type || 'HASH' eq $data_type) {
             local $index = -1;
             local $type = $data_type;
             local $container = $item;
 
+            # Default
             if ('ARRAY' eq $data_type) {
-                @children = @{$item};
+                my $start = exists $item->[0]{'.'} ?1 :0;
+                @children = $item->@[$start .. $item->$#*];
             } else {
-                @children = %{$item};
+                @children = exists $item->{childs} ?%{$item->{childs}}
+                                                   :();
             }
 
+            # pre-processes
             if ('ARRAY' eq $data_type) {
-                @children = $options->{preprocess} (@{$item})
+                @children = $options->{preprocess} (@children)
                         if $options->{preprocess};
             } else {
                 local $container = \@children;
@@ -144,6 +146,7 @@ sub __recurse {
                 @children = $options->{preprocess_hash} (@children)
                         if $options->{preprocess_hash};
             }
+
         } else {
             $data_type = '';
         }
@@ -152,18 +155,21 @@ sub __recurse {
         bless $item, $ref if $blessed;
     }
 
+    # wanted - walk
     unless ($options->{bydepth}) {
         local $_ = $item;
         $options->{wanted}->($item);
     }
 
+
+    # Recurse with children
     if (@children && ($options->{follow} || !$seen)) {
         local ($container, $type, $index);
-        $type = $data_type;
+        $type      = $data_type;
         $container = $item;
         $index = 0;
 
-        foreach my $child (@children) {
+        for my $child (@children) {
             if ($type eq 'HASH' && $index & 1) {
                 $key = $children[$index - 1];
             } else {
@@ -174,11 +180,13 @@ sub __recurse {
         }
     }
 
+    # wanted - walkdepth
     if ($options->{bydepth}) {
         local $_ = $item;
         $options->{wanted}->($item);
     }
 
+    # postprocess
     if ($data_type) {
         local ($container, $type, $index) = ($item, $data_type, -1);
         $options->{postprocess}->() if $options->{postprocess};
@@ -186,11 +194,12 @@ sub __recurse {
 
     --$depth;
     # void
-}
+}#}}}
 
 
 1;
 
+# POD{{{1
 =head1 NAME
 
 Data::Walk - Traverse Perl data structures

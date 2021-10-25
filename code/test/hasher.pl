@@ -30,11 +30,11 @@ sub mes;
             },
             title => {
                 title           => [">", '', '', '', ''],
-                title_attribute => [' (', ')'],
+                title_attr => [' (', ')'],
             },
             author => {
               author           => [('-'x110)."\nBy ", '', '', '', '', 3],
-              author_attribute => [' (', ')'],
+              author_attr => [' (', ')'],
             },
             series => {
                 series => ["===== " , ' ====='],
@@ -51,7 +51,7 @@ sub mes;
             },
             url => {
                 url           => ['', '',],
-                url_attribute => [' (', ')',],
+                url_attr => [' (', ')',],
             },
         }; #}}}
     ## drsr_C {{{
@@ -62,7 +62,7 @@ sub mes;
             },
             title => {
                 title           => ["\n>", '', '', '', '', {series => 1}],
-                title_attribute => [' (', ')'],
+                title_attr => [' (', ')'],
             },
             author => {
               author => [
@@ -73,7 +73,7 @@ sub mes;
                   '',
                   3,
               ],
-              author_attribute => [' (', ')'],
+              author_attr => [' (', ')'],
             },
             series  => {
                 series => ["\n=============/ ", " /============="],
@@ -95,7 +95,7 @@ sub mes;
             },
             url => {
                 url           => ['', ''],
-                url_attribute => [' (', ')'],
+                url_attr => [' (', ')'],
             },
             description => {
                 description => ['#', ''],
@@ -186,10 +186,23 @@ sub hasher {
     genDspt($db,'pathtodspt');
     getMatches($db,'pathtomatches');
     divy($db);
+    genReff($db);
+    __genWrite($db);
+
+    my $writeArray = $db->{stdout};
+    open my $fh, '>', './result/'.$db->{result}{val}.'.txt' or die $!;
+    {
+        #binmode($fh, "encoding(UTF-8)");
+        for (@$writeArray) {
+            print $fh $_,"\n";
+        }
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+    }
+    close $fh;
 
     return $db;
 }
-
 
 #===| _init() {{{2
 sub _init {
@@ -394,7 +407,7 @@ sub divy {
 
     $db->{result} = {
         val => $db->{opts}{name},
-        obj => 'libname',
+        obj => 'libName',
     };
     $db->{m} = {};
 
@@ -659,134 +672,192 @@ sub _longest {
 }
 #------------------------------------------------------
 
-#===| _write2array() {{{2
-sub _write2array {
-    my ($db, $container, $writeArray, $lvl, $result) = @_;
-    my $write_opts = $db->{opts}{write};
+#===| genReff() {{{2
+sub genReff {
+    my $db = shift @_;
+    my %seen;
+    walk (
+        {
+            wanted => sub {
+                my $type      = $Data::Walk::type;
+                my $index     = $Data::Walk::index;
+                my $container = $Data::Walk::container;
+                my $item      = $_;
+                if (ref $item eq 'HASH') {
 
-    if ($write_opts->[0]) {
-        my $pointer   = $db->{pointer};
-        my $point     = $db->{point};
-        my $objChain  = $db->{objChain};
-        my $childs    = $db->{childs};
-        my $obj       = _getLvlObj($db, $container);
-        my $dspt      = $db->{dspt};
-        my $drsr      = $dspt->{$obj}{drsr};
+                    my $obj = $item->{obj} // 'NULL';
+                    # need to have NULL be error or something
 
-        ## verbose 2 {{{3
-        my $S0 = ' ' x (13 - length $obj);
-        mes "<$obj> $S0 $container->{$obj}", $db, [0], $write_opts->[2];
+                    $seen{$obj}++;
+                    $item->{circ}{'.'}   = $item;
+                    $item->{circ}{'..'}  = $container // 'NULL';
 
-        ## --- String: d0, d1 #{{{3
-        my $str = '';
-        my $ref = ref $container->{$obj};
-        if ($ref ne 'ARRAY') {
-            $str .= $drsr->{$obj}[0]
-                 . $container->{$obj}
-                 . $drsr->{$obj}[1];
-        }
-
-        ## verbose 3 {{{4
-        mes "<$obj> $S0 $str", $db, [0], $write_opts->[3];
-
-        ## --- Attributes String: d0, d1, d2, d3, d4{{{3
-        my $attrStr = '';
-        my $attrDspt = _getAttrDspt($db, $obj);
-        if ($attrDspt) {
-
-            for my $attr (
-                sort {
-                    $attrDspt->{$a}[1]
-                        cmp
-                    $attrDspt->{$b}[1]
-                } keys %$attrDspt
-            ) {
-
-                ## Check existence of attributes
-                if (exists $container->{$attr}) {
-                    my $attrItem = $container->{$attr};
-
-                    ## Item Arrays
-                    if (exists $attrDspt->{$attr}[2]) {
-                        my @itemPartArray = ();
-                        for my $part (@$attrItem) {
-                            $part = $drsr->{$attr}[2]
-                                  . $part
-                                  . $drsr->{$attr}[3];
-                            push @itemPartArray, $part;
-                        }
-                        $attrItem = join $drsr->{$attr}[4], @itemPartArray;
-                    }
-
-                    $attrStr .= $drsr->{$attr}[0]
-                             . $attrItem
-                             . $drsr->{$attr}[1];
-
+                } elsif (ref $_ eq 'ARRAY'){
+                    unshift @$_, {
+                        '.'   => $_,
+                        '..'  => $container // 'NULL',
+                    };
                 }
-            }
-        }
-
-        ## --- Line Striping: d5,d6 #{{{3
-        my $F_empty;
-        push @$objChain, [ $lvl, $obj ];
-        if (exists $objChain->[-2] and exists $drsr->{$obj}[5]) {
-
-            my $prevObj = $objChain->[-2][1];
-            my $prevLvl = $objChain->[-2][0];
-
-            my $ref = ref $drsr->{$obj}[5];
-            my $tgtObjs = ($ref eq 'HASH') ?$drsr->{$obj}[5]
-                                           :0;
-
-            ## strip lines only after target object
-            if ($tgtObjs && exists $tgtObjs->{$prevObj}) {
-                my $cnt = $tgtObjs->{$prevObj};
-
-                # descending lvl
-                if ($prevLvl < $lvl) {
-                    $str =~ s/.*\n// for (1 .. $cnt);
-                    $F_empty = 1 if $str eq '';
-                }
-
-                # ascending lvl
-                elsif ($prevLvl > $lvl) {
-                    $str =~ s/.*\n// for (1 .. $cnt);
-                }
-
-                # maintaining lvl
-                elsif ($prevLvl == $lvl) {
-
-                    # Preserve
-                    if ($obj eq 'preserve') {
-                        $str =~ s/.*\n// for (1 .. $cnt);
-                    }
-
-                    # Post Preserve
-                    elsif ($prevObj eq 'preserve') {
-                        $str =~ s/.*\n// for (1 .. $cnt);
-                    }
-                }
-            }
-
-            ## strip lines after all objects
-            # descending lvl
-            elsif (!$tgtObjs and $prevLvl < $lvl) {
-                my $cnt = $drsr->{$obj}[5];
-                $str =~ s/.*\n// for (1 .. $cnt);
-            }
-
-        }
-
-        ## --- String Concatenation {{{3
-        $str = ($str) ?$str . $attrStr
-                      :$attrStr;
-        chomp $str if $obj eq 'preserve';
-
-        ## verbose 4 {{{4
-        mes "<$obj> $S0 $str", $db, [0], $write_opts->[4];#}}}
-        #}}}
-
-        unless ($F_empty) { push @$writeArray, $str if $obj ne 'libName'}
-    }
+            },
+            preprocess => sub {
+                my $type = $Data::Walk::type;
+                my $lvl  = $Data::Walk::depth;
+                my @children = @_;
+                if ($type eq 'HASH') {
+                } else { }
+                return @children;
+            },
+        },
+        $db->{result}
+    );
+    return $db;
 }
 
+#===| __genwrite() {{{2
+sub __genWrite {
+    my $db = shift @_;
+    my $dspt = $db->{dspt};
+    $db->{m}{prevDepth} = '';
+    $db->{m}{prevObj} = 'NULL';
+    walk(
+        {
+            wanted => sub {
+                my $item       = $_;
+                if (ref $item eq 'HASH' && $item->{obj} ne 'libName') {
+                    my $container  = $Data::Walk::container;
+                    my $depth      = $Data::Walk::depth;
+                    my $obj        = $item->{obj};
+                    my $drsr       = $db->{opts}{drsr}{$obj};
+
+                    my $str        = '';
+
+                    ## --- String: d0, d1 #{{{3
+                    if (ref $item->{val} ne 'ARRAY') {
+                        $str .= $drsr->{$obj}[0]
+                             .  $item->{val}
+                             .  $drsr->{$obj}[1];
+                    }
+
+                    ## --- Attributes String: d0, d1, d2, d3, d4{{{3
+                    my $attrStr = '';
+                    # this should be solved in sweep
+                    my $attrDspt = $dspt->{$obj}{attr};
+                    if ($attrDspt) {
+                        for my $attr (
+                            sort {
+                                $attrDspt->{$a}[1]
+                                    cmp
+                                $attrDspt->{$b}[1]
+                            } keys %$attrDspt
+                        ) {
+
+                            ## Check existence of attributes
+                            if (exists $item->{attr}{$attr}) {
+                                my $attrItem = $item->{attr}{$attr} // '';
+
+                                ## Item Arrays
+                                if (exists $attrDspt->{$attr}[2]) {
+                                    my @itemPartArray = ();
+                                    for my $part (@$attrItem) {
+                                        $part = $drsr->{$attr}[2]
+                                              . $part
+                                              . $drsr->{$attr}[3];
+                                        push @itemPartArray, $part;
+                                    }
+                                    $attrItem = join $drsr->{$attr}[4], @itemPartArray;
+                                }
+
+                                $attrStr .= $drsr->{$attr}[0]
+                                         .  $attrItem
+                                         .  $drsr->{$attr}[1];
+
+                            }
+                        }
+                    }
+
+                    ## --- Line Striping: d5,d6 #{{{3
+                    my $F_empty;
+                    if (exists $drsr->{$obj}[5] and $db->{m}{prevDepth}) {
+
+                        my $prevObj   = $db->{m}{prevObj};
+                        my $prevDepth = $db->{m}{prevDepth};
+
+                        my $ref = ref $drsr->{$obj}[5];
+                        my $tgtObjs = ($ref eq 'HASH') ?$drsr->{$obj}[5]
+                                                       :0;
+
+                        ## strip lines only after target object
+                        if ($tgtObjs && exists $tgtObjs->{$prevObj}) {
+                            my $cnt = $tgtObjs->{$prevObj};
+
+                            # descending lvl
+                            if ($prevDepth < $depth) {
+                                $str =~ s/.*\n// for (1 .. $cnt);
+                                $F_empty = 1 if $str eq '';
+                            }
+
+                            # ascending lvl
+                            elsif ($prevDepth > $depth) {
+                                $str =~ s/.*\n// for (1 .. $cnt);
+                            }
+
+                            # maintaining lvl
+                            elsif ($prevDepth == $depth) {
+
+                                # Preserve
+                                if ($obj eq 'prsv') {
+                                    $str =~ s/.*\n// for (1 .. $cnt);
+                                }
+
+                                # Post Preserve
+                                elsif ($prevObj eq 'prsv') {
+                                    $str =~ s/.*\n// for (1 .. $cnt);
+                                }
+                            }
+                        }
+
+                        ## strip lines after all objects
+                        # descending lvl
+                        elsif (!$tgtObjs and $prevDepth < $depth) {
+                            my $cnt = $drsr->{$obj}[5];
+                            $str =~ s/.*\n// for (1 .. $cnt);
+                        }
+
+                    }
+
+                    ## --- String Concatenation {{{3
+                    $str = ($str) ?$str . $attrStr
+                                  :$attrStr;
+                    chomp $str if $obj eq 'prsv';
+
+                    #}}}
+                    unless ($F_empty) { push $db->{stdout}->@*, $str if $obj ne 'libName'}
+                    $db->{m}{prevDepth} = $depth;
+                    $db->{m}{prevObj}   = $obj;
+                }
+            },
+            preprocess => sub {
+                my $type = $Data::Walk::type;
+                my @children = @_;
+                if ($type eq 'HASH') {
+                    my @values   = map {$children[$_]} grep {$_ & 1} (0..$#children);
+                    my @keys = map {$children[$_]} grep {!($_ & 1)} (0..$#children);
+                    my @var    = map {[$keys[$_],$values[$_]]} (0..$#keys);
+                    @children =
+                        map {@$_}
+                        sort {
+                            if (scalar (split /\./, $dspt->{$b->[0]}{order}) != scalar (split /\./,$dspt->{$a->[0]}{order})) {
+                                join '', $dspt->{$b->[0]}{order} cmp join '', $dspt->{$a->[0]}{order}
+                            } else {
+                                join '', $dspt->{$a->[0]}{order} cmp join '', $dspt->{$b->[0]}{order}
+                            }
+                        }
+                        @var;
+                }
+                return @children;
+            },
+        },
+        $db->{result}
+    );
+    return $db;
+}
