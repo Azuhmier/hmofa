@@ -22,153 +22,24 @@ sub mes;
 # MAIN {{{1
 #------------------------------------------------------
 {
-    ## drsr_M {{{
-        my $drsr_M = {
-            libName => {libName => ['', '']},
-            prsv => {
-                prsv => ['', '', '', '', '', {section => 1}],
-            },
-            title => {
-                title           => [">", '', '', '', ''],
-                title_attr => [' (', ')'],
-            },
-            author => {
-              author           => [('-'x110)."\nBy ", '', '', '', '', 3],
-              author_attr => [' (', ')'],
-            },
-            series => {
-                series => ["===== " , ' ====='],
-            },
-            section => {
-                section => [
-                    "\n".('-'x126)."\n".('-'x53)."% ",
-                    " %".('-'x49)."\n".('-'x126),
-                    '',
-                    '',
-                    '',
-                    {prsv => 2},
-                ],
-            },
-            url => {
-                url           => ['', '',],
-                url_attr => [' (', ')',],
-            },
-        }; #}}}
-    ## drsr_C {{{
-        my $drsr_C = {
-            libName => {libName => ['', '']},
-            prsv => {
-                prsv => ['', '', '', '', '', { section => 1 }],
-            },
-            title => {
-                title           => ["\n>", '', '', '', '', {series => 1}],
-                title_attr => [' (', ')'],
-            },
-            author => {
-              author => [
-                  "\n".('-' x 125)."\n".('-' x 125)."\nby ",
-                  '',
-                  '',
-                  '',
-                  '',
-                  3,
-              ],
-              author_attr => [' (', ')'],
-            },
-            series  => {
-                series => ["\n=============/ ", " /============="],
-            },
-            section => {
-                section => [
-                    "\n".('—' x 82)."\n%%%%% ",
-                    " %%%%%\n".('—' x 82),
-                    '',
-                    '',
-                    '',
-                    {prsv => 2},
-                ],
-            },
-            tags => {
-                anthro  => ['[', ']', ';', ';', ' '],
-                general => ['[', ']', ';', ';', ' '],
-                ops     => ['', '', '', '', ''],
-            },
-            url => {
-                url           => ['', ''],
-                url_attr => [' (', ')'],
-            },
-            description => {
-                description => ['#', ''],
-            },
-        }; #}}}
-    ## drsr_H {{{
-        my $drsr_H = {
-            libName => {libName => ['', '']},
-            prsv => {
-                prsv => ['', '', '', '', '', { section => 1 }],
-            },
-            title => {
-                title           => ["\n`", '`', '', '', '', {series => 1}],
-                title_attribute => [' (', ')'],
-            },
-            author => {
-              author => [
-                  "\n‌\n\n".('-' x 3)."\n\n".('-' x 3)."\n"."#####",
-                  '',
-                  '',
-                  '',
-                  '',
-                  3,
-              ],
-              author_attribute => [' (', ')'],
-            },
-            series  => {
-                series => ["\n-> **=== ", " ===** <-"],
-            },
-            section => {
-                section => [
-                    "\n!!!info\n    ##",
-                    "",
-                    '',
-                    '',
-                    '',
-                    {prsv => 2},
-                ],
-            },
-            tags => {
-                anthro  => ['[', ']', ';', ';', ' '],
-                general => ['[', ']', ';', ';', ' '],
-                ops     => ['', '', '', '', ''],
-            },
-            url => {
-                url           => ['', ''],
-                url_attribute => [' (', ')'],
-            },
-            description => {
-                description => ['*', '*'],
-            },
-        }; #}}}
-
-    my $args = {
-        attribs  => '01',
-        delims   => '01',
-        prsv     => '01',
-        mes      => '01',
-    };
-
     my $name = 'catalog';
 
     hasher({
         name => $name,
-        args => $args,
-        drsr => $drsr_C,
         prsv => {
             till => ['section', 1]
         },
         fnames => {
             input => "./$name.txt",
             dspt => './deimos.json',
-            output => './db',
+            output => './result',
+            drsr => './drsr_C.json',
+        },
+        args => {
+            attribs  => '01',
+            delims   => '01',
+            prsv     => '01',
+            mes      => '01',
         },
     });
 
@@ -181,7 +52,7 @@ sub mes;
 #===| hasher() {{{2
 sub hasher {
 
-    my $db = _init(shift @_);
+    my $db = __init(shift @_);
 
     genDspt($db,'pathtodspt');
     getMatches($db,'pathtomatches');
@@ -189,62 +60,24 @@ sub hasher {
     genReff($db);
     __genWrite($db);
 
-    my $writeArray = $db->{stdout};
-    open my $fh, '>', './result/'.$db->{result}{val}.'.txt' or die $!;
     {
-        #binmode($fh, "encoding(UTF-8)");
-        for (@$writeArray) {
-            print $fh $_,"\n";
-        }
-        truncate $fh, tell($fh) or die;
-        seek $fh,0,0 or die;
+        my $writeArray = $db->{stdout};
+        open my $fh, '>', './result/'.$db->{result}{val}.'.txt' or die $!;
+            #binmode($fh, "encoding(UTF-8)");
+            for (@$writeArray) {
+                print $fh $_,"\n";
+            }
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
     }
-    close $fh;
+
+    my $cmd = `diff ./catalog.txt ./result/catalog.txt`;
+    print $cmd;
+
 
     return $db;
 }
-
-#===| _init() {{{2
-sub _init {
-
-    my $db = {};
-
-    # --- properties
-    $db->{opts} = {};
-    $db->{debug} = [];
-
-    # --- ERRENO
-    $SIG{__DIE__} = sub {
-        print $_ for $db->{debug}->@*;
-        print $erreno if $erreno;
-    };
-
-    # --- OPTS
-    my $opts = shift @_;
-    unless ($opts->{name}) {die "User did not provide 'Name'!"};
-    unless ($opts->{drsr}) {die "User did not provide 'drsr'!"};
-    unless ($opts->{prsv}) {die "User did not provide 'prsv'!"};
-    unless ($opts->{fnames}{dspt}) {die "User did not provide filename for 'dspt'!"};
-    unless ($opts->{fnames}{input}) {die "User did not provide filename for 'fname'!"};
-    unless (exists $opts->{fnames}{output}) {
-        $opts->{fnames}{output} = './';
-    }
-
-    #args
-    my $defaults = {
-        attribs  => '01',
-        delims   => '01',
-        prsv     => '01',
-        mes      => '01',
-    };
-    $defaults->{$_} = $opts->{args}{$_} for keys $opts->{args}->%*;
-    $opts->{args} = $defaults;
-
-    $db->{opts} = $opts;
-
-    return $db;
-}
-
 
 #===| genDspt() {{{2
 sub genDspt {
@@ -256,7 +89,7 @@ sub genDspt {
         decode_json(<$fh>);
     };
 
-    $dspt->{libName} = { order =>'0'};
+    $dspt->{lib} = { order =>'0'};
     $dspt->{prsv} = { order =>'-1'};
 
     ## --- Generate Regexs
@@ -295,7 +128,7 @@ sub genDspt {
     ## --- META
     # max
     my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
-    $dspt->{meta}{ord_max} = (
+    $db->{meta}{dspt}{ord_max} = (
         sort {
             length $b <=> length $a
                 ||
@@ -304,17 +137,34 @@ sub genDspt {
     )[0];
 
     # limit
-    my @pntstr = split /\./, $dspt->{meta}{ord_max};
+    my @pntstr = split /\./, $db->{meta}{dspt}{ord_max};
     $pntstr[$#pntstr]++;
-    $dspt->{meta}{ord_limit} = join '.', @pntstr;
+    $db->{meta}{dspt}{ord_limit} = join '.', @pntstr;
 
-    # ordMap 
-    $dspt->{meta}{ord_map}->%* = 
+    # ordMap
+    $db->{meta}{dspt}{ord_map}->%* =
         map  {$dspt->{$_}{order} => $_}
         grep {exists $dspt->{$_}{order} }
         keys %$dspt;
 
+    # drsr
+    my $drsr = do {
+        open my $fh, '<', $db->{opts}{fnames}{drsr}
+            or die;
+        local $/;
+        decode_json(<$fh>);
+    };
+    for my $obj (keys %$drsr) {
+        $dspt->{$obj} // die;
+        $dspt->{$obj}{drsr} = $drsr->{$obj};
+        for my $attr (grep {$_ ne $obj} keys $drsr->{$obj}->%*) {
+            $dspt->{$obj}{attr}{$attr} // die;
+
+        }
+    }
+
     $db->{dspt} = $dspt;
+
     return $db;
 }
 
@@ -407,7 +257,7 @@ sub divy {
 
     $db->{result} = {
         val => $db->{opts}{name},
-        obj => 'libName',
+        obj => 'lib',
     };
     $db->{m} = {};
 
@@ -415,263 +265,12 @@ sub divy {
     $db->{m}{point} = [1];
     $db->{m}{pointer} = [];
 
-    _leveler($db);
+    __leveler($db);
 
     delete $db->{m};
 
     return $db;
 }
-#===| _leveler() {{{2
-# iterates in 2 dimensions the order of the dspt
-sub _leveler {
-
-    my ($db) = @_;
-
-    ## check existance of OBJ at current point
-    my $obj = _getObj( $db );
-    unless ($obj) { return }
-
-    ## Reverence Arrary for the current recursion
-    my $recursionReffArray;
-    while ($obj) {
-
-        ## Checking existance of recursionReffArray
-        unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{m}{reffArray}->@* }
-
-        ## divy
-        _divyMatches( $db );
-
-        ## Check for CHILDREN
-        _changePointLvl($db->{m}{point}, 1);
-        _leveler($db);
-        _changePointLvl($db->{m}{point});
-        $db->{m}{reffArray}->@* = $recursionReffArray->@*;
-
-        ## Check for SYBLINGS
-        if (scalar $db->{m}{point}->@*) {
-            $db->{m}{point}[-1]++;
-        } else { last }
-
-        $obj = _getObj($db);
-    }
-    ## Preserves
-    if (_getPointStr($db) eq $db->{dspt}{meta}{ord_limit}) {
-        $db->{m}{point}->@* = (-1);
-
-        _divyMatches($db);
-    }
-
-    return $db;
-}
-
-
-#===| _checkMatches() {{{2
-sub _checkMatches {
-
-    my $db = shift @_;
-    my $obj  = _getObj($db);
-    my $divier  = \&divyMatches;
-
-    if (exists $db->{matches}{$obj}) {
-        $divier->($db);
-    }
-}
-
-
-#===| _divyMatches() {{{2
-sub _divyMatches {
-
-    my $db = shift @_;
-    my $obj = _getObj($db); #db->get_obj()
-    return unless exists $db->{matches}{objs}{$obj};
-    my @objMatches = $db->{matches}{objs}{$obj}->@*;
-
-    ## --- REFARRAY LOOP
-    my $refArray = $db->{m}{reffArray};
-    my $ind = (scalar @$refArray) - 1;
-    for my $ref (reverse @$refArray) {
-        my $ref_LN = $ref->{meta}{LN} // 0;
-
-        ## --- MATCHES LOOP
-        my $childObjs;
-        for my $match (reverse @objMatches) {
-
-            if ($match->{meta}{LN} > $ref_LN) {
-                my $match = pop @objMatches;
-                _genAttributes( $db, $match);
-                push @$childObjs, $match;
-
-            } else { last }
-        }
-
-        ## --- MATCHES TO REF ARRAY
-        # todo: while loop that checks neighboring LN, and corrects if
-        # necessary
-        if ($childObjs) {
-
-            @$childObjs = reverse @$childObjs;
-            $refArray->[$ind]{childs}{$obj} = $childObjs;
-
-            #add matches to ref array
-            splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs) );
-        }
-
-        $ind--;
-    }
-}
-
-#===| _genAttributes() {{{2
-sub _genAttributes {
-
-    my ($db, $match) = @_;
-    #my $db = shift @_;
-    #my $match = shift @_;
-
-    my $obj       = _getObj($db);
-    $match->{meta}{raw} = $match->{$obj};
-
-    if (exists $db->{dspt}{$obj}{attr}) {
-        my $dspt_attr = $db->{dspt}{$obj}{attr};
-        my @ATTRS = sort {
-            $dspt_attr->{$a}[1] cmp $dspt_attr->{$b}[1];
-            } keys %$dspt_attr;
-
-        for my $attr (@ATTRS) {
-            my $sucess   = $match->{val} =~ s/$dspt_attr->{$attr}[0]//;
-            my $fish     = {};
-            $fish->{caught} = $1 if $1;
-            if ($sucess and !$1) {$fish->{caught} = '' }
-            if ($fish->{caught} || exists $fish->{caught}) {
-                $match->{attr}{$attr} = $fish->{caught};
-
-                if (scalar $dspt_attr->{$attr}->@* >= 3) {
-                    _delimitAttr($db, $attr, $match);
-                }
-            }
-        }
-        unless ($match->{val}) {
-            $match->{val} = [];
-            for my $attr(@ATTRS) {
-                if (exists $match->{attr}{$attr}) {
-                    push $match->{val}->@*, $match->{attr}{$attr}->@*;
-                }
-            }
-        }
-    }
-}
-
-#===| _delimitAttr() {{{2
-sub _delimitAttr {
-
-    ## Attributes
-    my $db       = shift @_;
-    my $objKey   = _getObj($db);
-    my $dspt_attr = $db->{dspt}{$objKey}{attr};
-
-    ## Regex for Attribute Delimiters
-    my $attr = shift @_;
-    my $delimsRegex = $dspt_attr->{$attr}[3];
-
-    ## Split and Grep Attribute Match-
-    my $match = shift @_;
-    $match->{attr}{$attr} = [
-        grep { $_ ne '' }
-        split( /$delimsRegex/, $match->{attr}{$attr} )
-    ];
-}
-
-
-
-#===| mes() {{{2
-sub mes {
-    my ($mes, $db, $opts, $bool) = @_;
-    $bool = 1 unless scalar @_ >= 4;
-
-    if ($db->{opts}->{verbose} and $bool) {
-        my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
-        my $indent = "    ";
-
-        $mes = ( $cnt ? $indent x (1 + $cnt) : $indent )
-             . $mes
-             . ( !($NewLineDisable) ? "\n" : "" );
-
-        push $db->{debug}->@*, $mes unless $silent;
-        return $mes;
-    }
-}
-
-
-
-#===| _changePointLvl() {{{2
-sub _changePointLvl {
-
-    my $point = shift @_;
-    my $op    = shift @_;
-
-    if ($op) { push $point->@*, 1 }
-    else     { pop $point->@*, 1 }
-
-    return $point;
-
-}
-
-
-#===| _changePointStrInd() {{{2
-sub _changePointStrInd {
-
-    my $pointStr = ($_[0] ne '') ?$_[0]
-                                 :{ die("pointStr cannot be an empty str! In ${0} at line: ".__LINE__) };
-    my @point    = split /\./, $pointStr;
-    my $op       = $_[1];
-
-    if ($op) { $point[-1]++ }
-    else     { $point[-1]-- }
-
-    $pointStr = join '.', @point;
-    return $pointStr;
-}
-
-
-#===| _getObj() {{{2
-# return OBJECT at current point
-# return '0' if OBJECT doesn't exist for CURRENT_POINT!
-# die if POINT_STR generated from CURRENT_POINT is an empty string!
-sub _getObj {
-
-    my $db = shift @_;
-    my $pntstr = join( '.', $db->{m}{point}->@* )
-        or  die "pointStr cannot be an empty string!";
-    return $db->{dspt}{meta}{ord_map}{$pntstr} // 0;
-
-}
-
-
-#===| _getPointStr() {{{2
-sub _getPointStr {
-    # return CURRENT POINT
-    # return '0' if poinStr is an empty string!
-
-    my $db = shift @_;
-    my $pointStr = join('.', $db->{m}{point}->@*);
-    return ($pointStr ne '') ? $pointStr
-                             : 0;
-}
-
-
-#===| _longest() {{{2
-sub _longest {
-    my $max = -1;
-    my $max_ref;
-    for (@_) {
-        if (length > $max) {  # no temp variable, length() twice is faster
-            $max = length;
-            $max_ref = \$_;   # avoid any copying
-        }
-    }
-    $$max_ref
-}
-#------------------------------------------------------
-
 #===| genReff() {{{2
 sub genReff {
     my $db = shift @_;
@@ -713,6 +312,271 @@ sub genReff {
     return $db;
 }
 
+#===| mes() {{{2
+sub mes {
+    my ($mes, $db, $opts, $bool) = @_;
+    $bool = 1 unless scalar @_ >= 4;
+
+    if ($db->{opts}->{verbose} and $bool) {
+        my ($cnt, $NewLineDisable, $silent) = @$opts if $opts;
+        my $indent = "    ";
+
+        $mes = ( $cnt ? $indent x (1 + $cnt) : $indent )
+             . $mes
+             . ( !($NewLineDisable) ? "\n" : "" );
+
+        push $db->{debug}->@*, $mes unless $silent;
+        return $mes;
+    }
+}
+
+
+
+#===| __init() {{{2
+sub __init {
+
+    my $db = {};
+
+    # --- properties
+    $db->{opts} = {};
+    $db->{debug} = [];
+
+    # --- ERRENO
+    $SIG{__DIE__} = sub {
+        print $_ for $db->{debug}->@*;
+        print $erreno if $erreno;
+    };
+
+    # --- OPTS
+    my $opts = shift @_;
+    unless ($opts->{name}) {die "User did not provide 'Name'!"};
+    unless ($opts->{prsv}) {die "User did not provide 'prsv'!"};
+    unless ($opts->{fnames}{drsr}) {die "User did not provide 'drsr'!"};
+    unless ($opts->{fnames}{dspt}) {die "User did not provide filename for 'dspt'!"};
+    unless ($opts->{fnames}{input}) {die "User did not provide filename for 'fname'!"};
+    unless (exists $opts->{fnames}{output}) {
+        $opts->{fnames}{output} = './';
+    }
+
+    #args
+    my $defaults = {
+        attribs  => '01',
+        delims   => '01',
+        prsv     => '01',
+        mes      => '01',
+    };
+    $defaults->{$_} = $opts->{args}{$_} for keys $opts->{args}->%*;
+    $opts->{args} = $defaults;
+
+
+    $db->{opts} = $opts;
+
+    return $db;
+}
+
+
+#===| __leveler() {{{2
+# iterates in 2 dimensions the order of the dspt
+sub __leveler {
+
+    my ($db) = @_;
+
+    ## check existance of OBJ at current point
+    my $obj = __getObj( $db );
+    unless ($obj) { return }
+
+    ## Reverence Arrary for the current recursion
+    my $recursionReffArray;
+    while ($obj) {
+
+        ## Checking existance of recursionReffArray
+        unless (defined $recursionReffArray) { $recursionReffArray->@* = $db->{m}{reffArray}->@* }
+
+        ## divy
+        __divyMatches( $db );
+
+        ## Check for CHILDREN
+        __changePointLvl($db->{m}{point}, 1);
+        __leveler($db);
+        __changePointLvl($db->{m}{point});
+        $db->{m}{reffArray}->@* = $recursionReffArray->@*;
+
+        ## Check for SYBLINGS
+        if (scalar $db->{m}{point}->@*) {
+            $db->{m}{point}[-1]++;
+        } else { last }
+
+        $obj = __getObj($db);
+    }
+    ## Preserves
+    if (__getPointStr($db) eq $db->{meta}{dspt}{ord_limit}) {
+        $db->{m}{point}->@* = (-1);
+
+        __divyMatches($db);
+    }
+
+    return $db;
+}
+
+
+#===| __divyMatches() {{{2
+sub __divyMatches {
+
+    my $db = shift @_;
+    my $obj = __getObj($db); #db->get_obj()
+    return unless exists $db->{matches}{objs}{$obj};
+    my @objMatches = $db->{matches}{objs}{$obj}->@*;
+
+    ## --- REFARRAY LOOP
+    my $refArray = $db->{m}{reffArray};
+    my $ind = (scalar @$refArray) - 1;
+    for my $ref (reverse @$refArray) {
+        my $ref_LN = $ref->{meta}{LN} // 0;
+
+        ## --- MATCHES LOOP
+        my $childObjs;
+        for my $match (reverse @objMatches) {
+
+            if ($match->{meta}{LN} > $ref_LN) {
+                my $match = pop @objMatches;
+                __genAttributes( $db, $match);
+                push @$childObjs, $match;
+
+            } else { last }
+        }
+
+        ## --- MATCHES TO REF ARRAY
+        # todo: while loop that checks neighboring LN, and corrects if
+        # necessary
+        if ($childObjs) {
+
+            @$childObjs = reverse @$childObjs;
+            $refArray->[$ind]{childs}{$obj} = $childObjs;
+
+            #add matches to ref array
+            splice( @$refArray, $ind, 1, ($refArray->[$ind], @$childObjs) );
+        }
+
+        $ind--;
+    }
+}
+
+#===| __genAttributes() {{{2
+sub __genAttributes {
+
+    my ($db, $match) = @_;
+    #my $db = shift @_;
+    #my $match = shift @_;
+
+    my $obj       = __getObj($db);
+    $match->{meta}{raw} = $match->{$obj};
+
+    if (exists $db->{dspt}{$obj}{attr}) {
+        my $dspt_attr = $db->{dspt}{$obj}{attr};
+        my @ATTRS = sort {
+            $dspt_attr->{$a}[1] cmp $dspt_attr->{$b}[1];
+            } keys %$dspt_attr;
+
+        for my $attr (@ATTRS) {
+            my $sucess   = $match->{val} =~ s/$dspt_attr->{$attr}[0]//;
+            my $fish     = {};
+            $fish->{caught} = $1 if $1;
+            if ($sucess and !$1) {$fish->{caught} = '' }
+            if ($fish->{caught} || exists $fish->{caught}) {
+                $match->{attr}{$attr} = $fish->{caught};
+
+                if (scalar $dspt_attr->{$attr}->@* >= 3) {
+                    __delimitAttr($db, $attr, $match);
+                }
+            }
+        }
+        unless ($match->{val}) {
+            $match->{val} = [];
+            for my $attr(@ATTRS) {
+                if (exists $match->{attr}{$attr}) {
+                    push $match->{val}->@*, $match->{attr}{$attr}->@*;
+                }
+            }
+        }
+    }
+}
+
+#===| __delimitAttr() {{{2
+sub __delimitAttr {
+
+    ## Attributes
+    my $db       = shift @_;
+    my $objKey   = __getObj($db);
+    my $dspt_attr = $db->{dspt}{$objKey}{attr};
+
+    ## Regex for Attribute Delimiters
+    my $attr = shift @_;
+    my $delimsRegex = $dspt_attr->{$attr}[3];
+
+    ## Split and Grep Attribute Match-
+    my $match = shift @_;
+    $match->{attr}{$attr} = [
+        grep { $_ ne '' }
+        split( /$delimsRegex/, $match->{attr}{$attr} )
+    ];
+}
+
+
+
+#===| __changePointLvl() {{{2
+sub __changePointLvl {
+
+    my $point = shift @_;
+    my $op    = shift @_;
+
+    if ($op) { push $point->@*, 1 }
+    else     { pop $point->@*, 1 }
+
+    return $point;
+
+}
+
+
+#===| __getObj() {{{2
+# return OBJECT at current point
+# return '0' if OBJECT doesn't exist for CURRENT_POINT!
+# die if POINT_STR generated from CURRENT_POINT is an empty string!
+sub __getObj {
+
+    my $db = shift @_;
+    my $pntstr = join( '.', $db->{m}{point}->@* )
+        or  die "pointStr cannot be an empty string!";
+    return $db->{meta}{dspt}{ord_map}{$pntstr} // 0;
+
+}
+
+
+#===| __getPointStr() {{{2
+sub __getPointStr {
+    # return CURRENT POINT
+    # return '0' if poinStr is an empty string!
+
+    my $db = shift @_;
+    my $pointStr = join('.', $db->{m}{point}->@*);
+    return ($pointStr ne '') ? $pointStr
+                             : 0;
+}
+
+
+#===| __longest() {{{2
+sub __longest {
+    my $max = -1;
+    my $max_ref;
+    for (@_) {
+        if (length > $max) {  # no temp variable, length() twice is faster
+            $max = length;
+            $max_ref = \$_;   # avoid any copying
+        }
+    }
+    $$max_ref
+}
+#------------------------------------------------------
+
 #===| __genwrite() {{{2
 sub __genWrite {
     my $db = shift @_;
@@ -723,11 +587,11 @@ sub __genWrite {
         {
             wanted => sub {
                 my $item       = $_;
-                if (ref $item eq 'HASH' && $item->{obj} ne 'libName') {
+                if (ref $item eq 'HASH' && $item->{obj} ne 'lib') {
                     my $container  = $Data::Walk::container;
                     my $depth      = $Data::Walk::depth;
                     my $obj        = $item->{obj};
-                    my $drsr       = $db->{opts}{drsr}{$obj};
+                    my $drsr       = $db->{dspt}{$obj}{drsr};
 
                     my $str        = '';
 
@@ -831,7 +695,7 @@ sub __genWrite {
                     chomp $str if $obj eq 'prsv';
 
                     #}}}
-                    unless ($F_empty) { push $db->{stdout}->@*, $str if $obj ne 'libName'}
+                    unless ($F_empty) { push $db->{stdout}->@*, $str if $obj ne 'lib'}
                     $db->{m}{prevDepth} = $depth;
                     $db->{m}{prevObj}   = $obj;
                 }
