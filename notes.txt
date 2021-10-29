@@ -223,12 +223,11 @@ $db = {
 }
 
 - perl debugger set $SIG{__DIE__}; it would be undef upon normal exectuion of the script
+
 todo
 - checks
   - sync drsr and dspt
-- sort
 - prsv
-- CLI
 - ohmrc
 - OOP
 - verbose

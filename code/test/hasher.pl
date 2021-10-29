@@ -12,7 +12,7 @@ use warnings;
 use utf8;
 use Storable qw(dclone);
 use JSON::XS;
-use lib ($ENV{HOME}.'/hmofa/hmofa/code/lib');
+use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
 
 my $erreno;
@@ -310,6 +310,13 @@ sub genReff {
         $db->{result}
     );
     return $db;
+}
+
+#===| chg_drsr() {{{2
+sub chg_drsr {
+}
+#===| chg_dspt() {{{2
+sub chg_dspt {
 }
 
 #===| mes() {{{2
