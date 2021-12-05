@@ -74,6 +74,15 @@ sub __init { #{{{1
     };
 }
 
+sub __checkChgArgs { #{{{1
+    my ($arg, $cond, $type) = @_;
+    unless ( defined $arg ) {
+        croak( (caller(1))[3] . " requires an input" );
+    } elsif (ref $arg ne $cond) {
+        croak( (caller(1))[3] . " requires a $type" );
+    }
+}
+
 sub __genUniqueDir { #{{{1
     my $dir = shift @_;
     my $cnt = 0;

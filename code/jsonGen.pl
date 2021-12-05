@@ -1023,7 +1023,7 @@ sub masher {
     my $writeArray = _sweeper($ov) || die;
     open my $fh, '>', './result/'.$ov->{result}{libName}.'.txt' or die $!;
     {
-        binmode($fh, "encoding(UTF-8)");
+        #binmode($fh, "encoding(UTF-8)");
         for (@$writeArray) {
             print $fh $_,"\n";
         }
@@ -1045,7 +1045,7 @@ sub masher {
         }
     }
 
-    #my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
+    my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
     #}}}
 
     return $ov;

@@ -312,13 +312,6 @@ sub genReff {
     return $db;
 }
 
-#===| chg_drsr() {{{2
-sub chg_drsr {
-}
-#===| chg_dspt() {{{2
-sub chg_dspt {
-}
-
 #===| mes() {{{2
 sub mes {
     my ($mes, $db, $opts, $bool) = @_;
