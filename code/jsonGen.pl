@@ -233,6 +233,18 @@ sub mes;
                 external => ['./json/gitIO.json'],
             },
         });
+    ## hmofa_lib
+        masher({
+            opts => $opts2,
+            name => 'libby',
+            drsr  => $drsr_C,
+            fileNames => {
+                fname    => ['./db/catalog/catalog.json', './db/masterbin/masterbin.json',],
+                output   => './json/libby.json',
+                dspt     => './json/deimos.json',
+                external => ['./json/gitIO.json'],
+            },
+        });
     print `./diff.sh`;
 }
 # SUBROUTINES {{{1
@@ -1045,7 +1057,7 @@ sub masher {
         }
     }
 
-    my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
+    #my $result = `{ printf "[TOC]\n"; cat ./result/hmofa_lib.txt;} | rentry edit -p ${PWD} -u hmofa`;
     #}}}
 
     return $ov;

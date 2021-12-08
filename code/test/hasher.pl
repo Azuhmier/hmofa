@@ -57,6 +57,17 @@ sub hasher {
     genDspt($db,'pathtodspt');
     getMatches($db,'pathtomatches');
     divy($db);
+    {
+        my $json_obj = JSON::XS->new->ascii->pretty->allow_nonref;
+        $json_obj    = $json_obj->allow_blessed(['true']);
+        my $json     = $json_obj->encode($db->{result});
+        my $fname    = './'.$db->{result}->{val}.'_part'.'.json';
+        open my $fh, '>', $fname or die "Error in opening file $fname\n";
+            print $fh $json;
+            truncate $fh, tell( $fh ) or die;
+        close $fh;
+    }
+
     genReff($db);
     __genWrite($db);
 
