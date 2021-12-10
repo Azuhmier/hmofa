@@ -1,58 +1,58 @@
 {
-   "prsv" : {
-      "place_holder" : [
-         0,
-         ""
-      ],
+   "url" : {
+      "place_holder" : {
+         "enable" : 0,
+         "children" : []
+      },
       "sort" : -1
-   },
-   "series" : {
-      "sort" : -1,
-      "place_holder" : [
-         0,
-         ""
-      ]
-   },
-   "section" : {
-      "sort" : -1,
-      "place_holder" : [
-         0,
-         ""
-      ]
    },
    "description" : {
-      "place_holder" : [
-         0,
-         ""
-      ],
+      "place_holder" : {
+         "children" : [],
+         "enable" : 0
+      },
       "sort" : -1
    },
-   "author" : {
-      "place_holder" : [
-         0,
-         ""
-      ],
+   "prsv" : {
+      "place_holder" : {
+         "children" : [],
+         "enable" : 0
+      },
       "sort" : -1
-   },
-   "url" : {
-      "sort" : -1,
-      "place_holder" : [
-         0,
-         ""
-      ]
-   },
-   "tags" : {
-      "sort" : -1,
-      "place_holder" : [
-         0,
-         ""
-      ]
    },
    "title" : {
       "sort" : -1,
-      "place_holder" : [
-         1,
-         "tags"
-      ]
+      "place_holder" : {
+         "enable" : 1,
+         "children" : ["tags"]
+      }
+   },
+   "author" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "children" : []
+      }
+   },
+   "tags" : {
+      "sort" : -1,
+      "place_holder" : {
+         "children" : [],
+         "enable" : 0
+      }
+   },
+   "section" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "children" : []
+      }
+   },
+   "series" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "children" : []
+      }
    }
 }

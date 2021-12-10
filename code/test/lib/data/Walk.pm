@@ -19,6 +19,9 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307,
 # USA.
 
+# This is Not the Original found here: https://github.com/gflohr/Data-Walk/blob/master/lib/Data/Walk.pm.
+# This is a modified version of it
+
 package Data::Walk;
 use strict;
 use 5.004;

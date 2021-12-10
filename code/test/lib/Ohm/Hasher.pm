@@ -150,7 +150,10 @@ sub gen_config { #{{{1
             drsr => {},
             mask => {
                 sort => -1,
-                place_holder => [0, ''],
+                place_holder => {
+                    enable => 0,
+                    children => []
+                },
             },
         );
         return $configs{$arg};
@@ -372,7 +375,7 @@ sub __check_matches { #{{{1
         delete $self->{stdout};
         $self->__get_matches;
         $self->__divy();
-        $self->__sweep(['reffs','popl']);
+        $self->__sweep(['reffs','plhd']);
         $self->__genWrite();
         $self->write();
         #$self->validate();
@@ -386,7 +389,7 @@ sub __check_matches { #{{{1
             local $/;
             decode_json(<$fh>);
         };
-        $self->__sweep(['reffs','matches','popl']);
+        $self->__sweep(['reffs','matches','plhd']);
         $self->__genWrite();
         $self->write();
         #$self->validate();
@@ -403,10 +406,10 @@ sub __sweep { #{{{1
     my $sub_list = {
         reffs   => \&gen_reffs,
         matches => \&gen_matches,
-        popl => \&populate,
+        plhd => \&place_holder,
     };
 
-    $self->{m} = exists $self->{m} ?die " key 'm' is already defined"
+    $self->{m} = exists $self->{m} ?die "key 'm' is already defined for obj $self->{name}"
                                    :{};
 
     walk (
@@ -416,7 +419,7 @@ sub __sweep { #{{{1
                     $sub_list->{$name}->($self);
                 }
             },
-            preprocess => sub {return @_}
+            #preprocess => sub {return @_}
         }, $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
     );
 
@@ -431,7 +434,7 @@ sub __sweep { #{{{1
         my $item      = $_;
         my $container = $Data::Walk::container;
 
-        if (ref $item eq 'HASH') {
+        if ( UNIVERSAL::isa($item, 'HASH') ) {
             my $obj = $item->{obj} // 'NULL'; # need to have NULL be
                                               # error or something
 
@@ -439,7 +442,7 @@ sub __sweep { #{{{1
             $item->{circ}{'..'}  = $container // 'NULL';
             push $self->{circ}->@*, $item->{circ};
 
-        } elsif (ref $item eq 'ARRAY'){
+        } elsif ( UNIVERSAL::isa($item, 'ARRAY') ) {
             unshift @$item, {
                 '.'   => $_,
                 '..'  => $container // 'NULL',
@@ -459,47 +462,48 @@ sub __sweep { #{{{1
         my $item      = $_;
         my $container = $Data::Walk::container;
 
-        if (ref $item eq 'HASH' and exists $item->{obj}) {
+        if ( UNIVERSAL::isa($item, 'HASH') ) {
             my $obj = $item->{obj};
             push $self->{matches}{objs}{ $obj }->@*, $item;
         }
 
     }
-
-    sub populate { #{{{2
+    sub place_holder { #{{{2
 
         my $self  = shift @_;
+        my $item  = $_;
 
-        my $item      = $_;
-
-        if ( ref $item eq 'HASH' and exists $item->{obj} ) {
+        if ( UNIVERSAL::isa($item, 'HASH') ) {
 
             my $obj     = $item->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask};
+            my $objMask = $self->{dspt}{$obj}{mask} || return 1;
 
-            if ( $objMask->{place_holder}[0] ) {
-                my $child = $objMask->{place_holder}[1];
+            if ( $objMask->{place_holder}{enable} ) {
 
-                unless ( (grep { $_ eq $child } keys $item->{childs}->%*)[0] ) {
+                my $children = $objMask->{place_holder}{children};
+                for my $child ( @$children ) {
 
-                    my $child_ov = $item->{childs}{$child}[0] = {};
+                    unless ( (grep { $_ eq $child } keys $item->{childs}->%*)[0] ) {
 
-                    $child_ov->%* = (
-                        obj => $child,
-                        val => [],
-                        meta => {
-                            LN => undef,
-                            raw => undef,
-                        },
-                    );
+                        my $childItem = $item->{childs}{$child}[0] = {};
 
-                    my $childDspt = $self->{dspt}{$child};
-                    if ( exists $childDspt->{attr} ) {
-                        for my $attr ( keys $childDspt->{attr}->%* ) {
-                            if (exists $childDspt->{attr}{$attr}[2]) {
-                                $child_ov->{attr}{$attr} = [];
-                            } else {
-                                $child_ov->{attr}{$attr} = '';
+                        $childItem->%* = (
+                            obj => $child,
+                            val => [],
+                            meta => {
+                                LN => undef,
+                                raw => undef,
+                            },
+                        );
+
+                        my $childDspt = $self->{dspt}{$child};
+                        if ( exists $childDspt->{attr} ) {
+                            for my $attr ( keys $childDspt->{attr}->%* ) {
+                                if (exists $childDspt->{attr}{$attr}[2]) {
+                                    $childItem->{attr}{$attr} = [];
+                                } else {
+                                    $childItem->{attr}{$attr} = '';
+                                }
                             }
                         }
                     }
