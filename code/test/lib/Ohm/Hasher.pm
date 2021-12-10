@@ -105,7 +105,8 @@ sub new { #{{{1
             input => $_[1],
             dspt  => $_[2],
             drsr  => $_[3],
-            prsv  => $_[4],
+            mask  => $_[4],
+            prsv  => $_[5],
         };
     }
 
@@ -121,19 +122,39 @@ sub new { #{{{1
     return $self;
 }
 
-sub gen_config {
-    my ( $self, $arg ) = @_;
-    my %configs = (
-        dspt => '',
-        drsr => '',
-        mask => {
-            sort => -1,
-            place_holders => 1;,
-        },
-    )
-    $configs{$arg}
+sub gen_config { #{{{1
 
-    return $self
+    my ( $self, $arg, $fname ) = @_;
+    my @objs = grep { exists $self->{dspt}{$_}{drsr} } keys $self->{dspt}->%*;
+
+    my $config;
+    for my $obj ( @objs ) {
+        $config->{$obj} = dclone configs($arg);
+    }
+
+    my $json = JSON::XS->new->allow_nonref->pretty->encode( $config );
+    my $dir  = '/Users/azuhmier/hmofa/hmofa/code/test/';
+
+    open my $fh, '>:utf8', $dir.$fname.'.json' or die $!;
+        print $fh $json;
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+    close $fh;
+
+    return $self;
+
+    sub configs {
+        my $arg = shift @_;
+        my %configs = (
+            dspt => {},
+            drsr => {},
+            mask => {
+                sort => -1,
+                place_holder => [0, ''],
+            },
+        );
+        return $configs{$arg};
+    }
 }
 sub write { #{{{1
     my ( $self, $args ) = @_;
@@ -176,6 +197,11 @@ sub __init { #{{{1
     my $paths_drsr = delete $args->{drsr};
     __checkChgArgs( $paths_drsr,'','string scalar' );
     $self->{paths}{drsr} = $paths_drsr;
+
+    # MASK
+    my $paths_mask = delete $args->{mask};
+    __checkChgArgs( $paths_mask,'','string scalar' );
+    $self->{paths}{mask} = $paths_mask;
 
 
     #%--------OTHER ARGS--------#
@@ -312,6 +338,18 @@ sub __gen_dspt { #{{{1
         }
     }
 
+    # mask
+    my $mask = do {
+        open my $fh, '<:utf8', $self->{paths}{mask}
+            or die;
+        local $/;
+        decode_json(<$fh>);
+    };
+    for my $obj (keys %$mask) {
+        $dspt->{$obj} // die;
+        $dspt->{$obj}{mask} = $mask->{$obj};
+    }
+
     $self->{dspt} = $dspt;
 
     return $self;
@@ -408,7 +446,6 @@ sub __sweep { #{{{1
             };
             push $self->{circ}->@*, $item->[0];
         }
-        return $self;
     }
 
     sub gen_matches { #{{{2
@@ -427,37 +464,48 @@ sub __sweep { #{{{1
             push $self->{matches}{objs}{ $obj }->@*, $item;
         }
 
-        return $self;
     }
 
     sub populate { #{{{2
 
-        my ( $self, $args ) = @_;
+        my $self  = shift @_;
 
         my $item      = $_;
-        my $container = $Data::Walk::container;
-        my $parent    = 'title';
-        my $child     = 'tags';
 
         if ( ref $item eq 'HASH' and exists $item->{obj} ) {
-            if ( $item->{obj} eq $parent ) {
-                unless ( ( grep { $_ eq $child } keys $item->{childs}->%* )[0] ) {
-                    $item->{childs}{$child}[0] = {
+
+            my $obj     = $item->{obj};
+            my $objMask = $self->{dspt}{$obj}{mask};
+
+            if ( $objMask->{place_holder}[0] ) {
+                my $child = $objMask->{place_holder}[1];
+
+                unless ( (grep { $_ eq $child } keys $item->{childs}->%*)[0] ) {
+
+                    my $child_ov = $item->{childs}{$child}[0] = {};
+
+                    $child_ov->%* = (
                         obj => $child,
                         val => [],
-                        attr => {
-                            anthro => [],
-                            general =>[],
-                        },
                         meta => {
                             LN => undef,
                             raw => undef,
                         },
-                    };
+                    );
+
+                    my $childDspt = $self->{dspt}{$child};
+                    if ( exists $childDspt->{attr} ) {
+                        for my $attr ( keys $childDspt->{attr}->%* ) {
+                            if (exists $childDspt->{attr}{$attr}[2]) {
+                                $child_ov->{attr}{$attr} = [];
+                            } else {
+                                $child_ov->{attr}{$attr} = '';
+                            }
+                        }
+                    }
                 }
             }
         }
-        return $self;
     }
 }
 
@@ -897,6 +945,7 @@ sub __genWrite { #{{{1
         },
         $self->{hash}
     );
+    delete $self->{m};
     return $self;
 }
 sub __longest { #{{{1
