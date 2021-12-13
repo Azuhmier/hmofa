@@ -224,5 +224,14 @@ chained
 todo
   - exists key vs if(key-value)
     exists key
+      - undefined keys
+      - object/child/attr keys
+      - hash
     if key-value
+      - pre-defined keys
+      - object dspt/drsr/mask keys
+  - {key => ref}
+  - {key => empty ref}
+  - {key => undef}
+  - {}
   - meta should not be in the same keys with obj, neither should null

@@ -2,20 +2,20 @@
    "url" : {
       "place_holder" : {
          "enable" : 0,
-         "children" : []
+         "childs" : []
       },
       "sort" : -1
    },
    "description" : {
       "place_holder" : {
-         "children" : [],
+         "childs" : [],
          "enable" : 0
       },
       "sort" : -1
    },
    "prsv" : {
       "place_holder" : {
-         "children" : [],
+         "childs" : [],
          "enable" : 0
       },
       "sort" : -1
@@ -24,20 +24,20 @@
       "sort" : -1,
       "place_holder" : {
          "enable" : 1,
-         "children" : ["tags"]
+         "childs" : ["tags"]
       }
    },
    "author" : {
       "sort" : -1,
       "place_holder" : {
          "enable" : 0,
-         "children" : []
+         "childs" : []
       }
    },
    "tags" : {
       "sort" : -1,
       "place_holder" : {
-         "children" : [],
+         "childs" : [],
          "enable" : 0
       }
    },
@@ -45,14 +45,14 @@
       "sort" : -1,
       "place_holder" : {
          "enable" : 0,
-         "children" : []
+         "childs" : []
       }
    },
    "series" : {
       "sort" : -1,
       "place_holder" : {
          "enable" : 0,
-         "children" : []
+         "childs" : []
       }
    }
 }

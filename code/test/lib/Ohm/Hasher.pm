@@ -14,8 +14,9 @@
 package Ohm::Hasher;
 use strict;
 use warnings;
-use Cwd;
 use utf8;
+use feature 'current_sub';
+use Cwd;
 use File::Basename;
 use JSON::XS;
 use Storable qw(dclone);
@@ -23,6 +24,7 @@ use Carp qw(croak carp);
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
+use Hash::Flatten qw(:all);
 my $erreno;
 
 sub get_sum { #{{{1
@@ -123,42 +125,100 @@ sub new { #{{{1
 }
 
 sub gen_config { #{{{1
+    #generates complex configurations
+    my ( $self, $args ) = @_;
 
-    my ( $self, $arg, $fname ) = @_;
-    my @objs = grep { exists $self->{dspt}{$_}{drsr} } keys $self->{dspt}->%*;
-
-    my $config;
-    for my $obj ( @objs ) {
-        $config->{$obj} = dclone configs($arg);
+    my $bp_name   = $args->{bp_name};
+    my $init_hash = $args->{init_hash};
+    my @EXL_KEYS = ();
+    if (exists $args->{exclude_keys}) {
+        @EXL_KEYS = $args->{exclude_keys}->@*;
     }
 
-    my $json = JSON::XS->new->allow_nonref->pretty->encode( $config );
-    my $dir  = '/Users/azuhmier/hmofa/hmofa/code/test/';
+    my $bp = dclone $self->__gen_bp($bp_name) // die;
 
-    open my $fh, '>:utf8', $dir.$fname.'.json' or die $!;
-        print $fh $json;
-        truncate $fh, tell($fh) or die;
-        seek $fh,0,0 or die;
-    close $fh;
+    my $populate = sub { #{{{2
+        my ( $self, $bp, $config, $OBJ ) = @_;
 
-    return $self;
+        my $type    = delete $bp->{type} // return $config;
+        #die if $type ne 'config';
+        my $fill    = delete $bp->{fill} // die;
+        my $general = delete $bp->{general};
+        my $member  = delete $bp->{member};
+        $config  = dclone $general if $general;
 
-    sub configs {
-        my $arg = shift @_;
-        my %configs = (
-            dspt => {},
-            drsr => {},
-            mask => {
-                sort => -1,
-                place_holder => {
-                    enable => 0,
-                    children => []
-                },
-            },
-        );
-        return $configs{$arg};
+
+        if ( %$member ) {
+
+            my @KEYS;
+            if ($OBJ) {
+                @KEYS = keys $self->{dspt}{$OBJ}{attr}->%*;
+                push @KEYS, $OBJ if $fill->[1];
+            } else {
+                @KEYS = keys $self->{dspt}->%*;
+            }
+
+            for my $key ( @KEYS ) {
+                $config->{$key} = __SUB__->(
+                    $self,
+                    dclone $member,
+                    $config->{$key},
+                    $key,
+                );
+            }
+        }
+
+        for my $key ( keys %$bp ) {
+            $config->{$key} = __SUB__->(
+                $self,
+                dclone $bp->{$key},
+                $config->{$key},
+                $OBJ,
+            );
+        }
+
+        if ($config eq 'HASH') {
+            my $flatConfig  = flatten(dclone $general) if $general;
+            my $flatConfig2 = flatten $config;
+            for my $key (keys %$flatConfig) {
+                $flatConfig2->{$key} = $flatConfig->{$key};
+            }
+            return unflatten $flatConfig2;
+        } else {
+            return $config;
+        }
+        #return $config;
+    }; #}}}
+
+    my $config = $populate->($self, $bp, {});
+    if ($init_hash) {
+        my $flatConfig  = flatten $init_hash;
+        my $flatConfig2 = flatten $config;
+        for my $key (keys %$flatConfig) {
+            $flatConfig2->{$key} = $flatConfig->{$key};
+        }
+        for my $key (@EXL_KEYS) {
+            delete $flatConfig2->{$key};
+        }
+        $config = unflatten $flatConfig2;
+
+        for my $key (@EXL_KEYS) {
+            delete $config->{$key};
+        }
     }
+    return $config;
+
+    #my $json = JSON::XS->new->allow_nonref->pretty->encode( $config );
+    #my $dir  = '/Users/azuhmier/hmofa/hmofa/code/test/';
+    #
+    #open my $fh, '>:utf8', $dir.$fname.'.json' or die $!;
+    #    print $fh $json;
+    #    truncate $fh, tell($fh) or die;
+    #    seek $fh,0,0 or die;
+    #close $fh;
+
 }
+
 sub write { #{{{1
     my ( $self, $args ) = @_;
     my $writeArray = $self->{stdout};
@@ -170,6 +230,201 @@ sub write { #{{{1
         truncate $fh, tell($fh) or die;
         seek $fh,0,0 or die;
     close $fh;
+}
+
+sub __gen_bp { #{{{1
+    my ( $self, $bp_name ) = @_;
+    my %bps = (
+        objhash => {
+            type => 'struct',
+            fill => [''],
+            member => {},
+            general => {
+                obj => undef,
+                val => undef,
+                childs => {},
+                attrs  => {},
+                meta   => {},
+                circs  => {
+                    '.'  => undef,
+                    '..' => undef,
+                },
+            },
+        },
+        meta => {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general => {
+                dspt => {
+                   ord_limit => undef,
+                   ord_map => undef,
+                   ord_max => undef,
+                },
+            },
+        },
+        params => {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general => {
+                attribs => 1,
+                delims => 1,
+                mes => 1,
+                prsv => 1,
+            },
+        },
+        paths => {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general => {
+                drsr => undef,
+                dspt => undef,
+                input => undef,
+                mask => undef,
+                output => undef,
+            },
+        },
+        prsv => {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general => {
+                till => [
+                    'section',
+                    0,
+                ],
+            },
+        },
+        self => {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general => {
+                circs => [],
+                dspt => {},
+                hash => {},
+                matches => {},
+                meta => {},
+                name => undef,
+                stdout => [],
+                params => {},
+                paths  => {},
+                prsv => {},
+            },
+        },
+        matches => {
+            type => 'config',
+            fill => ['obj'],
+            member => {},
+            general => {
+                miss => [],
+                objs => {},
+            },
+            objs => {
+                type => 'config',
+                fill => ['obj'],
+                general => {},
+                member => {
+                    type => 'config',
+                    fill => ['obj'],
+                    general => [],
+                    member => {},
+                },
+            },
+        },
+        drsr => {
+            type => 'config',
+            fill => ['obj'],
+            general => {},
+            member => {
+                type => 'config',
+                fill => ['attr',1],
+                general => {},
+                member => {
+                    type => 'config',
+                    fill => [''],
+                    member => {},
+                    general => {
+                        r => '',
+                        l => '',
+                        dr => '',
+                        dl => '',
+                        n => '',
+                        o => {},
+                    },
+                },
+            },
+        },
+        dspt => {
+            type => 'config',
+            fill => [''],
+            general => {
+                lib => {
+                    order => 0,
+                },
+                prsv => {
+                    order => -1,
+                    mask => {},
+                    drsr => {},
+                },
+            },
+            member => {
+                type => 'config',
+                fill => ['obj'],
+                member => {},
+                general => {
+                    re => undef,
+                    order => undef,
+                    attrs => {},
+                    drsr  => {},
+                    mask  => {},
+                },
+                attrs => {
+                    type => 'config',
+                    fill => ['attr'],
+                    general => {},
+                    member => {
+                        type => 'config',
+                        fill => ['attr'],
+                        member => {},
+                        general => {
+                            re => undef,
+                            ord => undef,
+                            delims => [],
+                        },
+                    },
+                },
+            },
+        },
+        mask => {
+            fill => ['obj'],
+            type => 'config',
+            general => {
+                lib => {},
+                prsv => {},
+            },
+            member => {
+                fill => ['obj'],
+                type => 'config',
+                member => {},
+                general => {
+                    supress => {
+                        all => 0,
+                        vals => [],
+                    },
+                    sort => -1,
+                    place_holder => {
+                        enable => 0,
+                        childs => [],
+                    },
+                },
+            },
+        },
+    );
+
+    return dclone $bps{lc $bp_name};
 }
 
 sub __init { #{{{1
@@ -220,10 +475,10 @@ sub __init { #{{{1
     # PARAMS - PRAMEMTERS
     my $params = delete $args->{params};
     my $defaults = {
-        attribs  => '01',
-        delims   => '01',
-        prsv     => '01',
-        mes      => '01',
+        attribs  => '1',
+        delims   => '1',
+        prsv     => '1',
+        mes      => '1',
     };
     $defaults->{$_} = $params->{$_} for keys %$params;
     $self->{params} = $defaults;
@@ -406,11 +661,10 @@ sub __sweep { #{{{1
     my $sub_list = {
         reffs   => \&gen_reffs,
         matches => \&gen_matches,
-        plhd => \&place_holder,
+        plhd    => \&place_holder,
     };
 
-    $self->{m} = exists $self->{m} ?die "key 'm' is already defined for obj $self->{name}"
-                                   :{};
+    $self->{m} = {};
 
     walk (
         {
@@ -419,7 +673,6 @@ sub __sweep { #{{{1
                     $sub_list->{$name}->($self);
                 }
             },
-            #preprocess => sub {return @_}
         }, $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
     );
 
@@ -427,31 +680,36 @@ sub __sweep { #{{{1
     return $self;
 
     sub gen_reffs { #{{{2
+    # inherits from Data::Walk module
+
         my ( $self, $args ) = @_;
 
         $self->{circ} = [] unless exists $self->{circ};
 
-        my $item      = $_;
-        my $container = $Data::Walk::container;
 
-        if ( UNIVERSAL::isa($item, 'HASH') ) {
-            my $obj = $item->{obj} // 'NULL'; # need to have NULL be
+        if ( UNIVERSAL::isa($_, 'HASH') ) {
+            my $objHash = $_;
+            my $objArr  = $Data::Walk::container;
+            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
                                               # error or something
 
-            $item->{circ}{'.'}   = $item;
-            $item->{circ}{'..'}  = $container // 'NULL';
-            push $self->{circ}->@*, $item->{circ};
+            $objHash->{circ}{'.'}   = $objHash;
+            $objHash->{circ}{'..'}  = $objArr // 'NULL';
+            push $self->{circ}->@*, $objHash->{circ};
 
-        } elsif ( UNIVERSAL::isa($item, 'ARRAY') ) {
-            unshift @$item, {
+        } elsif ( UNIVERSAL::isa($_, 'ARRAY') ) {
+            my $objArr = $_;
+            my $ParentHash  = $Data::Walk::container;
+            unshift @$objArr, {
                 '.'   => $_,
-                '..'  => $container // 'NULL',
+                '..'  => $ParentHash // 'NULL',
             };
-            push $self->{circ}->@*, $item->[0];
+            push $self->{circ}->@*, $objArr->[0];
         }
     }
 
     sub gen_matches { #{{{2
+    # inherits from Data::Walk module
 
         my ( $self, $args ) = @_;
 
@@ -459,50 +717,46 @@ sub __sweep { #{{{1
             $self->{matches} = { objs => {}, miss => [{a => 2}] }
         }
 
-        my $item      = $_;
-        my $container = $Data::Walk::container;
-
-        if ( UNIVERSAL::isa($item, 'HASH') ) {
-            my $obj = $item->{obj};
-            push $self->{matches}{objs}{ $obj }->@*, $item;
+        if ( UNIVERSAL::isa($_, 'HASH') ) {
+            my $objHash = $_;
+            my $obj = $objHash->{obj};
+            push $self->{matches}{objs}{ $obj }->@*, $objHash;
         }
 
     }
+
     sub place_holder { #{{{2
+    # inherits from Data::Walk module
 
-        my $self  = shift @_;
-        my $item  = $_;
+        my $self = shift @_;
 
-        if ( UNIVERSAL::isa($item, 'HASH') ) {
+        if ( UNIVERSAL::isa($_, 'HASH') ) {
 
-            my $obj     = $item->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask} || return 1;
+            my $objHash = $_;
+            my $obj     = $objHash->{obj};
+            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
 
             if ( $objMask->{place_holder}{enable} ) {
 
-                my $children = $objMask->{place_holder}{children};
-                for my $child ( @$children ) {
+                for my $child ( $objMask->{place_holder}{childs}->@* ) {
 
-                    unless ( (grep { $_ eq $child } keys $item->{childs}->%*)[0] ) {
+                    unless ( exists $objHash->{childs}{$child} ) {
 
-                        my $childItem = $item->{childs}{$child}[0] = {};
-
-                        $childItem->%* = (
+                        my $childHash = $objHash->{childs}{$child}[0] = {};
+                        %$childHash = (
                             obj => $child,
                             val => [],
-                            meta => {
-                                LN => undef,
-                                raw => undef,
-                            },
+                            meta => undef,
                         );
 
+                        # attributes
                         my $childDspt = $self->{dspt}{$child};
-                        if ( exists $childDspt->{attr} ) {
+                        if ( defined $childDspt->{attr} ) {
                             for my $attr ( keys $childDspt->{attr}->%* ) {
                                 if (exists $childDspt->{attr}{$attr}[2]) {
-                                    $childItem->{attr}{$attr} = [];
+                                    $childHash->{attr}{$attr} = [];
                                 } else {
-                                    $childItem->{attr}{$attr} = '';
+                                    $childHash->{attr}{$attr} = '';
                                 }
                             }
                         }
@@ -603,13 +857,22 @@ sub __divy { #{{{1
 
     my ( $self, $args ) = @_;
 
-    $self->{hash} = {
-        val => $self->{name},
-        obj => 'lib',
-    };
+    #initiate hash
+    $self->{hash} = $self->gen_config({
+        init_hash => {
+            val => $self->{name},
+            obj => 'lib',
+         },
+        bp_name => 'objHash',
+        exclude_keys => ['circs'],
+    });
+    #$self->{hash} = {
+    #    val => $self->{name},
+    #    obj => 'lib',
+    #};
 
-    $self->{m}            = {};
-    $self->{m}{reffArray} = [ $self->{hash} ];
+    # method variables
+    $self->{m}{reffArray} = [$self->{hash}];
     $self->{m}{point}     = [1];
     $self->{m}{pointer}   = [];
 
@@ -618,184 +881,182 @@ sub __divy { #{{{1
     delete $self->{m};
 
     return $self;
-        sub __leveler { #{{{2
-        # iterates in 2 dimensions the order of the dspt
 
-            my ( $self ) = @_;
+    sub __leveler { #{{{2
+    # iterates in 2 dimensions the order of the dspt
 
-            ## check existance of OBJ at current point
-            my $obj = __getObj( $self );
-            return unless $obj;
+        my ( $self ) = @_;
 
-            ## Reverence Arrary for the current recursion
-            my $recursionReffArray;
-            while ( $obj ) {
+        ## check existance of OBJ at current point
+        my $obj = __getObj( $self );
+        return unless $obj;
 
-                ## Checking existance of recursionReffArray
-                unless ( defined $recursionReffArray ) {
-                    $recursionReffArray->@* = $self->{m}{reffArray}->@*
-                }
+        ## Reverence Arrary for the current recursion
+        my $recursionReffArray;
+        while ( $obj ) {
 
-                ## divy
-                __divyMatches( $self );
+            ## Checking existance of recursionReffArray
+            unless ( defined $recursionReffArray ) {
+                $recursionReffArray->@* = $self->{m}{reffArray}->@*
+            }
 
-                ## Check for CHILDREN
-                __changePointLvl( $self->{m}{point}, 1 );
-                __leveler( $self );
-                __changePointLvl( $self->{m}{point });
-                $self->{m}{reffArray}->@* = $recursionReffArray->@*;
+            ## divy
+            __divyMatches( $self );
 
-                ## Check for SYBLINGS
-                if ( scalar $self->{m}{point}->@* ) {
-                    $self->{m}{point}[-1]++;
+            ## Check for CHILDREN
+            __changePointLvl( $self->{m}{point}, 1 );
+            __leveler( $self );
+            __changePointLvl( $self->{m}{point });
+            $self->{m}{reffArray}->@* = $recursionReffArray->@*;
+
+            ## Check for SYBLINGS
+            if ( scalar $self->{m}{point}->@* ) {
+                $self->{m}{point}[-1]++;
+            } else { last }
+
+            $obj = __getObj( $self );
+
+        }
+        ## Preserves
+        if ( __getPointStr( $self ) eq $self->{meta}{dspt}{ord_limit} ) {
+            $self->{m}{point}->@* = (-1);
+            __divyMatches( $self );
+        }
+
+        return $self;
+    }
+
+
+    sub __divyMatches { #{{{2
+
+        my ( $self ) = @_;
+        my $obj = __getObj( $self );
+
+        return unless exists $self->{matches}{objs}{$obj};
+        my @objMatches = $self->{matches}{objs}{$obj}->@*;
+
+        ## --- REFARRAY LOOP
+        my $refArray = $self->{m}{reffArray};
+        my $ind = ( scalar @$refArray ) - 1;
+        for my $ref ( reverse @$refArray ) {
+            my $ref_LN = $ref->{meta}{LN} // 0;
+
+            ## --- MATCHES LOOP
+            my $childObjs;
+            for my $match ( reverse @objMatches ) {
+
+                if ( $match->{meta}{LN} > $ref_LN ) {
+                    my $match = pop @objMatches;
+                    __genAttributes( $self, $match );
+                    push @$childObjs, $match;
+
                 } else { last }
-
-                $obj = __getObj( $self );
-
-            }
-            ## Preserves
-            if ( __getPointStr( $self ) eq $self->{meta}{dspt}{ord_limit} ) {
-                $self->{m}{point}->@* = (-1);
-
-                __divyMatches( $self );
             }
 
-            return $self;
+            ## --- MATCHES TO REF ARRAY
+            # todo: while loop that checks neighboring LN, and corrects if
+            # necessary
+            if ( $childObjs ) {
+
+                @$childObjs = reverse @$childObjs;
+                $refArray->[$ind]{childs}{$obj} = $childObjs;
+
+                #add matches to ref array
+                splice( @$refArray, $ind, 1, ( $refArray->[$ind], @$childObjs ) );
+            }
+
+            $ind--;
         }
+    }
 
+    sub __genAttributes { #{{{2
 
-        sub __divyMatches { #{{{2
+        my ($self, $match) = @_;
 
-            my ( $self ) = @_;
-            my $obj = __getObj( $self );
+        my $obj = $self->__getObj;
+        $match->{meta}{raw} = $match->{$obj};
 
-            return unless exists $self->{matches}{objs}{$obj};
-            my @objMatches = $self->{matches}{objs}{$obj}->@*;
+        if (exists $self->{dspt}{$obj}{attr}) {
+            my $attrsDspt = $self->{dspt}{$obj}{attr};
+            my @ATTRS = sort {
+                $attrsDspt->{$a}[1] cmp $attrsDspt->{$b}[1];
+                } keys %$attrsDspt;
 
-            ## --- REFARRAY LOOP
-            my $refArray = $self->{m}{reffArray};
-            my $ind = ( scalar @$refArray ) - 1;
-            for my $ref ( reverse @$refArray ) {
-                my $ref_LN = $ref->{meta}{LN} // 0;
+            for my $attr (@ATTRS) {
+                my $success = $match->{val} =~ s/$attrsDspt->{$attr}[0]//;
+                if ( $success ) {
+                    $match->{attr}{$attr} = $1;
 
-                ## --- MATCHES LOOP
-                my $childObjs;
-                for my $match ( reverse @objMatches ) {
-
-                    if ( $match->{meta}{LN} > $ref_LN ) {
-                        my $match = pop @objMatches;
-                        __genAttributes( $self, $match );
-                        push @$childObjs, $match;
-
-                    } else { last }
-                }
-
-                ## --- MATCHES TO REF ARRAY
-                # todo: while loop that checks neighboring LN, and corrects if
-                # necessary
-                if ( $childObjs ) {
-
-                    @$childObjs = reverse @$childObjs;
-                    $refArray->[$ind]{childs}{$obj} = $childObjs;
-
-                    #add matches to ref array
-                    splice( @$refArray, $ind, 1, ( $refArray->[$ind], @$childObjs ) );
-                }
-
-                $ind--;
-            }
-        }
-
-        sub __genAttributes { #{{{2
-
-            my ($self, $match) = @_;
-            #my $self = shift @_;
-            #my $match = shift @_;
-
-            my $obj       = __getObj($self);
-            $match->{meta}{raw} = $match->{$obj};
-
-            if (exists $self->{dspt}{$obj}{attr}) {
-                my $dspt_attr = $self->{dspt}{$obj}{attr};
-                my @ATTRS = sort {
-                    $dspt_attr->{$a}[1] cmp $dspt_attr->{$b}[1];
-                    } keys %$dspt_attr;
-
-                for my $attr (@ATTRS) {
-                    my $success = $match->{val} =~ s/$dspt_attr->{$attr}[0]//;
-                    if ( $success ) {
-                        $match->{attr}{$attr} = $1;
-
-                        if (scalar $dspt_attr->{$attr}->@* >= 3) {
-                            __delimitAttr($self, $attr, $match);
-                        }
+                    if (scalar $attrsDspt->{$attr}->@* >= 3) {
+                        $self->__delimitAttr($attr, $match);
                     }
                 }
-                unless ($match->{val}) {
-                    $match->{val} = [];
-                    for my $attr(@ATTRS) {
-                        if (exists $match->{attr}{$attr}) {
-                            push $match->{val}->@*, $match->{attr}{$attr}->@*;
-                        }
+            }
+            unless ($match->{val}) {
+                $match->{val} = [];
+                for my $attr(@ATTRS) {
+                    if (exists $match->{attr}{$attr}) {
+                        push $match->{val}->@*, $match->{attr}{$attr}->@*;
                     }
                 }
             }
         }
+    }
 
-        sub __delimitAttr { #{{{2
+    sub __delimitAttr { #{{{2
 
-            ## Attributes
-            my ( $self , $attr, $match ) = @_;
-            my $objKey   = __getObj( $self );
-            my $dspt_attr = $self->{dspt}{$objKey}{attr};
+        ## Attributes
+        my ( $self , $attr, $match ) = @_;
+        my $objKey   = __getObj( $self );
+        my $dspt_attr = $self->{dspt}{$objKey}{attr};
 
-            ## Regex for Attribute Delimiters
-            my $delimsRegex = $dspt_attr->{$attr}[3];
+        ## Regex for Attribute Delimiters
+        my $delimsRegex = $dspt_attr->{$attr}[3];
 
-            ## Split and Grep Attribute Match-
-            $match->{attr}{$attr} = [
-                grep { $_ ne '' }
-                split( /$delimsRegex/, $match->{attr}{$attr} )
-            ];
-        }
-
-
-
-        sub __changePointLvl { #{{{2
-
-            my $point = shift @_;
-            my $op    = shift @_;
-
-            if ($op) { push $point->@*, 1 }
-            else     { pop $point->@*, 1 }
-
-            return $point;
-
-        }
+        ## Split and Grep Attribute Match-
+        $match->{attr}{$attr} = [
+            grep { $_ ne '' }
+            split( /$delimsRegex/, $match->{attr}{$attr} )
+        ];
+    }
 
 
-        sub __getObj { #{{{2
-        # return OBJECT at current point
-        # return '0' if OBJECT doesn't exist for CURRENT_POINT!
-        # die if POINT_STR generated from CURRENT_POINT is an empty string!
 
-            my ( $self ) = @_;
-            my $pntstr = join( '.', $self->{m}{point}->@* )
-                or  die "pointStr cannot be an empty string!";
-            return $self->{meta}{dspt}{ord_map}{$pntstr} // 0;
+    sub __changePointLvl { #{{{2
 
-        }
+        my $point = shift @_;
+        my $op    = shift @_;
+
+        if ($op) { push $point->@*, 1 }
+        else     { pop $point->@*, 1 }
+
+        return $point;
+
+    }
 
 
-        sub __getPointStr { #{{{2
-            # return CURRENT POINT
-            # return '0' if poinStr is an empty string!
+    sub __getObj { #{{{2
+    # return OBJECT at current point
+    # return '0' if OBJECT doesn't exist for CURRENT_POINT!
+    # die if POINT_STR generated from CURRENT_POINT is an empty string!
 
-            my $self = shift @_;
-            my $pointStr = join('.', $self->{m}{point}->@*);
-            return ($pointStr ne '') ? $pointStr
-                                     : 0;
-        }
+        my ( $self ) = @_;
+        my $pntstr = join( '.', $self->{m}{point}->@* )
+            or  die "pointStr cannot be an empty string!";
+        return $self->{meta}{dspt}{ord_map}{$pntstr} // 0;
+
+    }
+
+
+    sub __getPointStr { #{{{2
+        # return CURRENT POINT
+        # return '0' if poinStr is an empty string!
+
+        my $self = shift @_;
+        my $pointStr = join('.', $self->{m}{point}->@*);
+        return ($pointStr ne '') ? $pointStr
+                                 : 0;
+    }
 
 
 }
@@ -952,6 +1213,28 @@ sub __genWrite { #{{{1
     delete $self->{m};
     return $self;
 }
+
+sub __validate {
+    my ( $self, $args ) = @_;
+    ##INITS
+    # txt -> json -> txt
+    # json -> txt -> json
+    # +
+    # -
+
+    #CHANGE
+    # json1 -> txt1 -> txt1* -> json2 -> txt2
+    # see if the txt files are the same
+    # flatten jsons and find unique btw them
+    # +
+    # -
+
+}
+
+sub __rm_reff {
+    my ($self, $args);
+}
+
 sub __longest { #{{{1
     my $max = -1;
     my $max_ref;
