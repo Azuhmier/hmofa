@@ -1,0 +1,1650 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="418" onload="init(evt)" viewBox="0 0 1200 418" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details, svg;
+	function init(evt) { 
+		details = document.getElementById("details").firstChild; 
+		svg = document.getElementsByTagName("svg")[0];
+		searching = 0;
+	}
+
+	// mouse-over for info
+	function s(info) { details.nodeValue = "sub " + info; }
+	function c() { details.nodeValue = ' '; }
+
+	// functions
+	function find_child(parent, name, attr) {
+		var children = parent.childNodes;
+		for (var i=0; i<children.length;i++) {
+			if (children[i].tagName == name)
+				return (attr != undefined) ? children[i].attributes[attr].value : children[i];
+		}
+		return;
+	}
+	function orig_save(e, attr, val) {
+		if (e.attributes["_orig_"+attr] != undefined) return;
+		if (e.attributes[attr] == undefined) return;
+		if (val == undefined) val = e.attributes[attr].value;
+		e.setAttribute("_orig_"+attr, val);
+	}
+	function orig_load(e, attr) {
+		if (e.attributes["_orig_"+attr] == undefined) return;
+		e.attributes[attr].value = e.attributes["_orig_"+attr].value;
+		e.removeAttribute("_orig_"+attr);
+	}
+	function update_text(e) {
+		var r = find_child(e, "rect");
+		var t = find_child(e, "text");
+		var w = parseFloat(r.attributes["width"].value) -3;
+		var txt = find_child(e, "title").textContent.replace(/\([^(]*\)/,"");
+		t.attributes["x"].value = parseFloat(r.attributes["x"].value) +3;
+		
+		// Smaller than this size won't fit anything
+		if (w < 2*12*0.59) {
+			t.textContent = "";
+			return;
+		}
+		
+		t.textContent = txt;
+		// Fit in full text width
+		if (/^ *$/.test(txt) || t.getSubStringLength(0, txt.length) < w)
+			return;
+		
+		for (var x=txt.length-2; x>0; x--) {
+			if (t.getSubStringLength(0, x+2) <= w) { 
+				t.textContent = txt.substring(0,x) + "..";
+				return;
+			}
+		}
+		t.textContent = "";
+	}
+
+	// zoom
+	function zoom_reset(e) {
+		if (e.attributes != undefined) {
+			orig_load(e, "x");
+			orig_load(e, "width");
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_reset(c[i]);
+		}
+	}
+	function zoom_child(e, x, ratio) {
+		if (e.attributes != undefined) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = (parseFloat(e.attributes["x"].value) - x - 10) * ratio + 10;
+				if(e.tagName == "text") e.attributes["x"].value = find_child(e.parentNode, "rect", "x") + 3;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseFloat(e.attributes["width"].value) * ratio;
+			}
+		}
+		
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_child(c[i], x-10, ratio);
+		}
+	}
+	function zoom_parent(e) {
+		if (e.attributes) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = 10;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseInt(svg.width.baseVal.value) - (10*2);
+			}
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_parent(c[i]);
+		}
+	}
+	function zoom(node) { 
+		var attr = find_child(node, "rect").attributes;
+		var width = parseFloat(attr["width"].value);
+		var xmin = parseFloat(attr["x"].value);
+		var xmax = parseFloat(xmin + width);
+		var ymin = parseFloat(attr["y"].value);
+		var ratio = (svg.width.baseVal.value - 2*10) / width;
+		
+		// XXX: Workaround for JavaScript float issues (fix me)
+		var fudge = 0.0001;
+		
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "1.0";
+		
+		var el = document.getElementsByTagName("g");
+		for(var i=0;i<el.length;i++){
+			var e = el[i];
+			var a = find_child(e, "rect").attributes;
+			var ex = parseFloat(a["x"].value);
+			var ew = parseFloat(a["width"].value);
+			// Is it an ancestor
+			if (0 == 0) {
+				var upstack = parseFloat(a["y"].value) > ymin;
+			} else {
+				var upstack = parseFloat(a["y"].value) < ymin;
+			}
+			if (upstack) {
+				// Direct ancestor
+				if (ex <= xmin && (ex+ew+fudge) >= xmax) {
+					e.style["opacity"] = "0.5";
+					zoom_parent(e);
+					e.onclick = function(e){unzoom(); zoom(this);};
+					update_text(e);
+				}
+				// not in current path
+				else
+					e.style["display"] = "none";
+			}
+			// Children maybe
+			else {
+				// no common path
+				if (ex < xmin || ex + fudge >= xmax) {
+					e.style["display"] = "none";
+				}
+				else {
+					zoom_child(e, xmin, ratio);
+					e.onclick = function(e){zoom(this);};
+					update_text(e);
+				}
+			}
+		}
+	}
+	function unzoom() {
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "0.0";
+		
+		var el = document.getElementsByTagName("g");
+		for(i=0;i<el.length;i++) {
+			el[i].style["display"] = "block";
+			el[i].style["opacity"] = "1";
+			zoom_reset(el[i]);
+			update_text(el[i]);
+		}
+	}	
+
+	// search
+	function reset_search() {
+		var el = document.getElementsByTagName("rect");
+		for (var i=0; i < el.length; i++){
+			orig_load(el[i], "fill")
+		}
+	}
+	function search_prompt() {
+		if (!searching) {
+			var term = prompt("Enter a search term (regexp " +
+			    "allowed, eg: ^ext4_)", "");
+			if (term != null) {
+				search(term)
+			}
+		} else {
+			reset_search();
+			searching = 0;
+			var searchbtn = document.getElementById("search");
+			searchbtn.style["opacity"] = "0.1";
+			searchbtn.firstChild.nodeValue = "Search"
+		}
+	}
+	function search(term) {
+		var re = new RegExp(term);
+		var el = document.getElementsByTagName("g");
+		for (var i=0; i < el.length; i++){
+			var e = el[i];
+			if (e.attributes["class"].value == "func_g") {
+				// Scrape the function name from the onmouseover
+				// callback text. This is a little dirty.
+				var func = e.attributes["onmouseover"].value;
+				if (func != null) {
+					func = func.substr(3);
+					func = func.replace(/ .*/, "");
+					var r = find_child(e, "rect");
+					if (r == null) {
+						// the rect might be wrapped in an anchor
+						// if nameattr href is being used
+						if (r = find_child(e, "a")) {
+						    r = find_child(r, "rect");
+						}
+					}
+				}
+				if (func != null && r != null &&
+				    func.match(re)) {
+					orig_save(r, "fill");
+					r.attributes["fill"].value =
+					    "rgb(230,0,230)";
+					searching = 1;
+				}
+			}
+		}
+		if (searching) {
+			var searchbtn = document.getElementById("search");
+			searchbtn.style["opacity"] = "1.0";
+			searchbtn.firstChild.nodeValue = "Reset Search"
+		}
+	}
+	function searchover(e) {
+		var searchbtn = document.getElementById("search");
+		searchbtn.style["opacity"] = "1.0";
+	}
+	function searchout(e) {
+		var searchbtn = document.getElementById("search");
+		if (searching) {
+			searchbtn.style["opacity"] = "1.0";
+		} else {
+			searchbtn.style["opacity"] = "0.1";
+		}
+	}
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="418.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600.00" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10.00" y="401" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<text text-anchor="" x="10.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="unzoom" onclick="unzoom()" style="opacity:0.0;cursor:pointer" >Reset Zoom</text>
+<text text-anchor="" x="1090.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="search" onmouseover="searchover()" onmouseout="searchout()" onclick="search_prompt()" style="opacity:0.1;cursor:pointer" >Search</text>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (454,200 microseconds, 25.26%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (454,200 microseconds, 25.26%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="130.5" y="241" width="298.1" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="133.47" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (11,754 microseconds, 0.65%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (11,754 microseconds, 0.65%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1109.1" y="81" width="7.7" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1112.10" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (454,587 microseconds, 25.28%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (454,587 microseconds, 25.28%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="130.2" y="257" width="298.4" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="133.24" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (269 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (269 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="418.7" y="177" width="0.1" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="421.65" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (415 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (415 microseconds, 0.02%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1177.3" y="305" width="0.3" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1180.34" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@26 (9,936 microseconds, 0.55%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@26 (9,936 microseconds, 0.55%)</title><a xlink:href="Hasher-pm-6-line.html#26" target="_top"><rect x="1171.7" y="337" width="6.5" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="1174.69" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (7,592 microseconds, 0.42%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (7,592 microseconds, 0.42%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="419.3" y="193" width="5.0" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="422.31" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__check_matches (1,478,656 microseconds, 82.24%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__check_matches (1,478,656 microseconds, 82.24%)</title><a xlink:href="Hasher-pm-6-line.html#679" target="_top"><rect x="10.0" y="337" width="970.5" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="13.04" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__check_matches</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (652 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (652 microseconds, 0.04%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="951.2" y="161" width="0.4" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="954.19" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (1,661 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (1,661 microseconds, 0.09%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="38.6" y="209" width="1.0" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="41.55" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (423,630 microseconds, 23.56%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (423,630 microseconds, 23.56%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="141.3" y="193" width="278.0" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="144.28" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (14,029 microseconds, 0.78%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (14,029 microseconds, 0.78%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="921.1" y="129" width="9.2" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="924.08" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (193,926 microseconds, 10.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (193,926 microseconds, 10.79%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="273" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.12" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (349,313 microseconds, 19.43%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (349,313 microseconds, 19.43%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="704.1" y="161" width="229.2" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="707.05" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (1,809 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (1,809 microseconds, 0.10%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="377.0" y="129" width="1.2" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="380.00" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__leveler (160,257 microseconds, 8.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__leveler (160,257 microseconds, 8.91%)</title><a xlink:href="Hasher-pm-6-line.html#947" target="_top"><rect x="20.3" y="289" width="105.2" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="23.29" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (245 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (245 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="427.4" y="193" width="0.1" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="430.35" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (253 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (253 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="962.1" y="177" width="0.1" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="965.06" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (62,870 microseconds, 3.50%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (62,870 microseconds, 3.50%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="285.2" y="129" width="41.3" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="288.22" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Dat..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (323 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (323 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1133.6" y="193" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1136.56" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (186,028 microseconds, 10.35%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (186,028 microseconds, 10.35%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1011.7" y="209" width="122.1" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1014.69" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (2,371 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (2,371 microseconds, 0.13%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="361.9" y="113" width="1.6" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="364.90" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (6,201 microseconds, 0.34%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (6,201 microseconds, 0.34%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="917.0" y="113" width="4.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="920.01" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (75,230 microseconds, 4.18%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (75,230 microseconds, 4.18%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="791.2" y="129" width="49.4" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="794.18" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('overload::BEGIN@81 (1,575 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>overload::BEGIN@81 (1,575 microseconds, 0.09%)</title><a xlink:href="overload-pm-15-line.html#81" target="_top"><rect x="1159.0" y="289" width="1.0" height="15.0" fill="rgb(235,165,33)" rx="2" ry="2" />
+<text text-anchor="" x="1162.00" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (344 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (344 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="839.7" y="113" width="0.2" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="842.70" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (449,850 microseconds, 25.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (449,850 microseconds, 25.02%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="132.4" y="209" width="295.3" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="135.44" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (4,380 microseconds, 0.24%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (4,380 microseconds, 0.24%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="424.3" y="193" width="2.9" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="427.29" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('JSON::XS::BEGIN@100 (7,200 microseconds, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>JSON::XS::BEGIN@100 (7,200 microseconds, 0.40%)</title><a xlink:href="JSON-XS-pm-12-line.html#100" target="_top"><rect x="1155.3" y="321" width="4.8" height="15.0" fill="rgb(235,145,34)" rx="2" ry="2" />
+<text text-anchor="" x="1158.35" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Cwd::CORE:fteexec (480 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Cwd::CORE:fteexec (480 microseconds, 0.03%)</title><a xlink:href="Cwd-pm-9-line.html#Cwd__CORE_fteexec" target="_top"><rect x="1150.5" y="321" width="0.4" height="15.0" fill="rgb(237,115,35)" rx="2" ry="2" />
+<text text-anchor="" x="1153.54" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (366 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (366 microseconds, 0.02%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1171.4" y="305" width="0.2" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1174.38" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (1,853 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (1,853 microseconds, 0.10%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="876.7" y="129" width="1.2" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="879.72" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::BEGIN@28 (4,709 microseconds, 0.26%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::BEGIN@28 (4,709 microseconds, 0.26%)</title><a xlink:href="Walk-pm-28-line.html#28" target="_top"><rect x="1174.5" y="321" width="3.1" height="15.0" fill="rgb(235,94,33)" rx="2" ry="2" />
+<text text-anchor="" x="1177.52" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (18,622 microseconds, 1.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (18,622 microseconds, 1.04%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="854.9" y="113" width="12.3" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="857.93" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (618 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (618 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="944.8" y="129" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="947.77" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('JSON::XS::BEGIN@90 (1,566 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>JSON::XS::BEGIN@90 (1,566 microseconds, 0.09%)</title><a xlink:href="JSON-XS-pm-12-line.html#90" target="_top"><rect x="1160.1" y="321" width="1.0" height="15.0" fill="rgb(236,145,34)" rx="2" ry="2" />
+<text text-anchor="" x="1163.08" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (226 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (226 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="962.2" y="177" width="0.2" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="965.23" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:subst (1,476 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:subst (1,476 microseconds, 0.08%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_subst" target="_top"><rect x="39.8" y="209" width="1.0" height="15.0" fill="rgb(237,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="42.82" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@2 (3,745 microseconds, 0.21%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::BEGIN@2 (3,745 microseconds, 0.21%)</title><a xlink:href="playground-pl-1-line.html#2" target="_top"><rect x="1134.4" y="353" width="2.5" height="15.0" fill="rgb(240,83,39)" rx="2" ry="2" />
+<text text-anchor="" x="1137.39" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__getObj (2,213 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__getObj (2,213 microseconds, 0.12%)</title><a xlink:href="Hasher-pm-6-line.html#1100" target="_top"><rect x="40.8" y="209" width="1.4" height="15.0" fill="rgb(228,129,26)" rx="2" ry="2" />
+<text text-anchor="" x="43.78" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:open (351 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:open (351 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_open" target="_top"><rect x="976.5" y="305" width="0.2" height="15.0" fill="rgb(250,129,49)" rx="2" ry="2" />
+<text text-anchor="" x="979.52" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (193,985 microseconds, 10.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (193,985 microseconds, 10.79%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="305" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.08" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@3 (1,333 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::BEGIN@3 (1,333 microseconds, 0.07%)</title><a xlink:href="playground-pl-1-line.html#3" target="_top"><rect x="1136.9" y="353" width="0.8" height="15.0" fill="rgb(239,83,37)" rx="2" ry="2" />
+<text text-anchor="" x="1139.85" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (28,546 microseconds, 1.59%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (28,546 microseconds, 1.59%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="805.1" y="113" width="18.7" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="808.08" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,847 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,847 microseconds, 0.10%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1130.4" y="145" width="1.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1133.35" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (8,427 microseconds, 0.47%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (8,427 microseconds, 0.47%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="945.2" y="145" width="5.5" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="948.17" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (911 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (911 microseconds, 0.05%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="418.1" y="177" width="0.6" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="421.05" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (193,872 microseconds, 10.78%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (193,872 microseconds, 10.78%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="257" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.15" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::unflatten (301 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::unflatten (301 microseconds, 0.02%)</title><a xlink:href="Flatten-pm-32-line.html#70" target="_top"><rect x="127.8" y="273" width="0.2" height="15.0" fill="rgb(247,146,46)" rx="2" ry="2" />
+<text text-anchor="" x="130.80" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@5 (62,539 microseconds, 3.48%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::BEGIN@5 (62,539 microseconds, 3.48%)</title><a xlink:href="playground-pl-1-line.html#5" target="_top"><rect x="1140.3" y="353" width="41.1" height="15.0" fill="rgb(235,83,33)" rx="2" ry="2" />
+<text text-anchor="" x="1143.34" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >mai..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__getObj (570 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__getObj (570 microseconds, 0.03%)</title><a xlink:href="Hasher-pm-6-line.html#1100" target="_top"><rect x="24.3" y="241" width="0.4" height="15.0" fill="rgb(228,129,26)" rx="2" ry="2" />
+<text text-anchor="" x="27.29" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (76,852 microseconds, 4.27%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (76,852 microseconds, 4.27%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="879.9" y="145" width="50.4" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="882.85" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,406 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,406 microseconds, 0.08%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="866.2" y="97" width="1.0" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="869.23" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__walk (454,786 microseconds, 25.29%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__walk (454,786 microseconds, 25.29%)</title><a xlink:href="Walk-pm-28-line.html#62" target="_top"><rect x="130.2" y="289" width="298.4" height="15.0" fill="rgb(232,94,29)" rx="2" ry="2" />
+<text text-anchor="" x="133.16" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__walk</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__genWrite (457,745 microseconds, 25.46%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__genWrite (457,745 microseconds, 25.46%)</title><a xlink:href="Hasher-pm-6-line.html#1126" target="_top"><rect x="128.2" y="321" width="300.4" height="15.0" fill="rgb(240,129,38)" rx="2" ry="2" />
+<text text-anchor="" x="131.22" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__genWrite</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (1,869 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (1,869 microseconds, 0.10%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="323.5" y="113" width="1.2" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="326.49" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (2,811 microseconds, 0.16%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (2,811 microseconds, 0.16%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="928.4" y="113" width="1.9" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="931.45" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (604 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (604 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="840.2" y="113" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="843.16" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (56,499 microseconds, 3.14%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (56,499 microseconds, 3.14%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="326.5" y="129" width="37.1" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="329.49" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (8,101 microseconds, 0.45%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (8,101 microseconds, 0.45%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1119.8" y="97" width="5.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1122.80" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (375 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (375 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="962.4" y="177" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="965.37" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (6,552 microseconds, 0.36%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (6,552 microseconds, 0.36%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="955.9" y="161" width="4.3" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="958.94" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (3,004 microseconds, 0.17%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (3,004 microseconds, 0.17%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="853.0" y="113" width="1.9" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="855.96" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::flatten (3,442 microseconds, 0.19%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::flatten (3,442 microseconds, 0.19%)</title><a xlink:href="Flatten-pm-32-line.html#51" target="_top"><rect x="125.5" y="289" width="2.3" height="15.0" fill="rgb(247,146,46)" rx="2" ry="2" />
+<text text-anchor="" x="128.52" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (4,440 microseconds, 0.25%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (4,440 microseconds, 0.25%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="817.9" y="81" width="2.9" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="820.92" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::walk (480,619 microseconds, 26.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::walk (480,619 microseconds, 26.73%)</title><a xlink:href="Walk-pm-28-line.html#42" target="_top"><rect x="654.4" y="305" width="315.5" height="15.0" fill="rgb(232,94,29)" rx="2" ry="2" />
+<text text-anchor="" x="657.44" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::walk</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,008 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,008 microseconds, 0.06%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1115.7" y="49" width="0.6" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1118.67" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (215,200 microseconds, 11.97%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (215,200 microseconds, 11.97%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="239.0" y="145" width="141.2" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="241.98" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__rec..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (114,527 microseconds, 6.37%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (114,527 microseconds, 6.37%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1054.5" y="129" width="75.2" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1057.50" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Has..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::write (16,157 microseconds, 0.90%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::write (16,157 microseconds, 0.90%)</title><a xlink:href="Hasher-pm-6-line.html#222" target="_top"><rect x="969.9" y="321" width="10.6" height="15.0" fill="rgb(240,129,38)" rx="2" ry="2" />
+<text text-anchor="" x="972.87" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (220 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (220 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="418.8" y="177" width="0.2" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="421.83" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (155,413 microseconds, 8.64%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (155,413 microseconds, 8.64%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1029.6" y="161" width="102.0" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1032.57" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:print (5,622 microseconds, 0.31%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:print (5,622 microseconds, 0.31%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_print" target="_top"><rect x="976.7" y="305" width="3.7" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="979.75" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (194,002 microseconds, 10.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (194,002 microseconds, 10.79%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="321" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.07" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (2,768 microseconds, 0.15%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (2,768 microseconds, 0.15%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="960.2" y="161" width="1.9" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="963.24" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__divyMatches (799 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__divyMatches (799 microseconds, 0.04%)</title><a xlink:href="Hasher-pm-6-line.html#992" target="_top"><rect x="24.7" y="257" width="0.5" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="27.72" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (69,475 microseconds, 3.86%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (69,475 microseconds, 3.86%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1079.5" y="113" width="45.6" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1082.52" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (260 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (260 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="403.6" y="145" width="0.2" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="406.64" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (31,684 microseconds, 1.76%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (31,684 microseconds, 1.76%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="900.3" y="129" width="20.8" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="903.29" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (8,490 microseconds, 0.47%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (8,490 microseconds, 0.47%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="962.6" y="193" width="5.6" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="965.62" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (2,212 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (2,212 microseconds, 0.12%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="375.5" y="113" width="1.5" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="378.54" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (513 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (513 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="419.0" y="177" width="0.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="421.97" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,791 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,791 microseconds, 0.10%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="835.8" y="81" width="1.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="838.84" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (315 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (315 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="323.0" y="97" width="0.2" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="326.02" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (1,083 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (1,083 microseconds, 0.06%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="388.3" y="145" width="0.7" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="391.30" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (172,961 microseconds, 9.62%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (172,961 microseconds, 9.62%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1019.8" y="177" width="113.5" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1022.82" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::_..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (2,616 microseconds, 0.15%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (2,616 microseconds, 0.15%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1161.1" y="321" width="1.8" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1164.14" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__divyMatches (6,636 microseconds, 0.37%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__divyMatches (6,636 microseconds, 0.37%)</title><a xlink:href="Hasher-pm-6-line.html#992" target="_top"><rect x="20.3" y="273" width="4.4" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="23.32" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (1,215 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (1,215 microseconds, 0.07%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="938.9" y="145" width="0.8" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="941.90" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (307 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (307 microseconds, 0.02%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1150.9" y="321" width="0.2" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1153.89" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (50,443 microseconds, 2.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (50,443 microseconds, 2.81%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="607.9" y="305" width="33.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="610.90" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Oh..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::BEGIN@24 (1,969 microseconds, 0.11%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::BEGIN@24 (1,969 microseconds, 0.11%)</title><a xlink:href="Flatten-pm-32-line.html#24" target="_top"><rect x="1180.0" y="321" width="1.3" height="15.0" fill="rgb(242,146,40)" rx="2" ry="2" />
+<text text-anchor="" x="1183.05" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::see (216,006 microseconds, 12.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::see (216,006 microseconds, 12.01%)</title><a xlink:href="Hasher-pm-6-line.html#235" target="_top"><rect x="992.6" y="353" width="141.8" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="995.63" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::see</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (2,942 microseconds, 0.16%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (2,942 microseconds, 0.16%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="964.8" y="177" width="2.0" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="967.84" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@18 (2,488 microseconds, 0.14%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@18 (2,488 microseconds, 0.14%)</title><a xlink:href="Hasher-pm-6-line.html#18" target="_top"><rect x="1144.8" y="337" width="1.6" height="15.0" fill="rgb(236,129,34)" rx="2" ry="2" />
+<text text-anchor="" x="1147.78" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (1,462 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (1,462 microseconds, 0.08%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="387.3" y="145" width="1.0" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="390.34" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (735 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (735 microseconds, 0.04%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="950.7" y="161" width="0.5" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="953.70" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@22 (13,342 microseconds, 0.74%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@22 (13,342 microseconds, 0.74%)</title><a xlink:href="Hasher-pm-6-line.html#22" target="_top"><rect x="1162.9" y="337" width="8.7" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="1165.86" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__divyMatches (25,778 microseconds, 1.43%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__divyMatches (25,778 microseconds, 1.43%)</title><a xlink:href="Hasher-pm-6-line.html#992" target="_top"><rect x="25.3" y="241" width="16.9" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="28.32" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('overload::mycan (2,267 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>overload::mycan (2,267 microseconds, 0.13%)</title><a xlink:href="overload-pm-15-line.html#118" target="_top"><rect x="126.2" y="209" width="1.5" height="15.0" fill="rgb(243,165,41)" rx="2" ry="2" />
+<text text-anchor="" x="129.23" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (433 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (433 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="23.7" y="241" width="0.3" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="26.74" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (6,319 microseconds, 0.35%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (6,319 microseconds, 0.35%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="94.3" y="193" width="4.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="97.27" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (354 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (354 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="839.9" y="113" width="0.3" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="842.93" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (859 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (859 microseconds, 0.05%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1133.8" y="209" width="0.5" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1136.77" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@27 (4,826 microseconds, 0.27%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@27 (4,826 microseconds, 0.27%)</title><a xlink:href="Hasher-pm-6-line.html#27" target="_top"><rect x="1178.2" y="337" width="3.2" height="15.0" fill="rgb(236,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="1181.21" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (598 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (598 microseconds, 0.03%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="416.5" y="161" width="0.3" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="419.45" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::BEGIN@31 (830 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::BEGIN@31 (830 microseconds, 0.05%)</title><a xlink:href="Walk-pm-28-line.html#31" target="_top"><rect x="1177.6" y="321" width="0.6" height="15.0" fill="rgb(228,94,26)" rx="2" ry="2" />
+<text text-anchor="" x="1180.61" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__getObj (5,523 microseconds, 0.31%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__getObj (5,523 microseconds, 0.31%)</title><a xlink:href="Hasher-pm-6-line.html#1100" target="_top"><rect x="121.8" y="193" width="3.6" height="15.0" fill="rgb(228,129,26)" rx="2" ry="2" />
+<text text-anchor="" x="124.80" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (2,139 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (2,139 microseconds, 0.12%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="931.9" y="145" width="1.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="934.90" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('JSON::XS::decode_json (8,062 microseconds, 0.45%)')" onmouseout="c()" onclick="zoom(this)">
+<title>JSON::XS::decode_json (8,062 microseconds, 0.45%)</title><a xlink:href="JSON-XS-pm-12-line.html#JSON__XS__decode_json" target="_top"><rect x="10.1" y="321" width="5.3" height="15.0" fill="rgb(249,145,48)" rx="2" ry="2" />
+<text text-anchor="" x="13.13" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (1,351 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (1,351 microseconds, 0.08%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="930.3" y="145" width="0.9" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="933.29" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (3,847 microseconds, 0.21%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (3,847 microseconds, 0.21%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="320.2" y="97" width="2.5" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="323.20" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:subst (9,248 microseconds, 0.51%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:subst (9,248 microseconds, 0.51%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_subst" target="_top"><rect x="99.6" y="193" width="6.1" height="15.0" fill="rgb(237,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="102.58" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (197 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (197 microseconds, 0.01%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="966.6" y="161" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="969.64" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (451,492 microseconds, 25.11%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (451,492 microseconds, 25.11%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="131.4" y="225" width="296.3" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="134.40" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (27,498 microseconds, 1.53%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (27,498 microseconds, 1.53%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1101.8" y="97" width="18.0" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1104.75" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:open (298 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:open (298 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_open" target="_top"><rect x="981.1" y="321" width="0.2" height="15.0" fill="rgb(250,129,49)" rx="2" ry="2" />
+<text text-anchor="" x="984.12" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (4,551 microseconds, 0.25%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (4,551 microseconds, 0.25%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="384.4" y="145" width="2.9" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="387.35" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (2,846 microseconds, 0.16%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (2,846 microseconds, 0.16%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="117.8" y="177" width="1.8" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="120.78" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@4 (3,978 microseconds, 0.22%)')" onmouseout="c()" onclick="zoom(this)">
+<title>main::BEGIN@4 (3,978 microseconds, 0.22%)</title><a xlink:href="playground-pl-1-line.html#4" target="_top"><rect x="1137.7" y="353" width="2.6" height="15.0" fill="rgb(237,83,35)" rx="2" ry="2" />
+<text text-anchor="" x="1140.73" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (20,132 microseconds, 1.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (20,132 microseconds, 1.12%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="390.6" y="161" width="13.2" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="393.60" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (479,818 microseconds, 26.69%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (479,818 microseconds, 26.69%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="654.8" y="241" width="314.9" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="657.81" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,054 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,054 microseconds, 0.06%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1129.7" y="129" width="0.7" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1132.66" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__leveler (153,569 microseconds, 8.54%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__leveler (153,569 microseconds, 8.54%)</title><a xlink:href="Hasher-pm-6-line.html#947" target="_top"><rect x="24.7" y="273" width="100.8" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="27.68" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Storable::BEGIN@83 (3,607 microseconds, 0.20%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Storable::BEGIN@83 (3,607 microseconds, 0.20%)</title><a xlink:href="Storable-pm-20-line.html#83" target="_top"><rect x="1169.2" y="321" width="2.4" height="15.0" fill="rgb(249,166,48)" rx="2" ry="2" />
+<text text-anchor="" x="1172.25" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::walk (454,804 microseconds, 25.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::walk (454,804 microseconds, 25.30%)</title><a xlink:href="Walk-pm-28-line.html#42" target="_top"><rect x="130.1" y="305" width="298.5" height="15.0" fill="rgb(232,94,29)" rx="2" ry="2" />
+<text text-anchor="" x="133.15" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::walk</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (1,102 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (1,102 microseconds, 0.06%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="931.2" y="145" width="0.7" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="934.18" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:close (215 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:close (215 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_close" target="_top"><rect x="976.4" y="305" width="0.1" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="979.38" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (1,429 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (1,429 microseconds, 0.08%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="817.0" y="81" width="0.9" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="819.98" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@17 (830 microseconds, 0.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@17 (830 microseconds, 0.05%)</title><a xlink:href="Hasher-pm-6-line.html#17" target="_top"><rect x="1144.2" y="337" width="0.6" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="1147.24" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:readline (3,365 microseconds, 0.19%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:readline (3,365 microseconds, 0.19%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_readline" target="_top"><rect x="981.3" y="321" width="2.2" height="15.0" fill="rgb(246,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="984.34" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (6,927 microseconds, 0.39%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (6,927 microseconds, 0.39%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1125.1" y="113" width="4.6" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1128.12" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (480,558 microseconds, 26.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (480,558 microseconds, 26.73%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="654.5" y="273" width="315.4" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="657.48" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (9,376 microseconds, 0.52%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (9,376 microseconds, 0.52%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="830.9" y="97" width="6.1" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="833.87" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Types::Serialiser::BooleanBase::BEGIN@126 (4,539 microseconds, 0.25%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Types::Serialiser::BooleanBase::BEGIN@126 (4,539 microseconds, 0.25%)</title><a xlink:href="Types-Serialiser-pm-14-line.html#126" target="_top"><rect x="1157.1" y="305" width="3.0" height="15.0" fill="rgb(240,185,39)" rx="2" ry="2" />
+<text text-anchor="" x="1160.07" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (316 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (316 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="830.7" y="81" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="833.66" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::_flatten_hash_level (3,266 microseconds, 0.18%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::_flatten_hash_level (3,266 microseconds, 0.18%)</title><a xlink:href="Flatten-pm-32-line.html#189" target="_top"><rect x="125.6" y="257" width="2.1" height="15.0" fill="rgb(231,146,29)" rx="2" ry="2" />
+<text text-anchor="" x="128.58" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__gen_dspt (5,896 microseconds, 0.33%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__gen_dspt (5,896 microseconds, 0.33%)</title><a xlink:href="Hasher-pm-6-line.html#568" target="_top"><rect x="980.5" y="337" width="3.8" height="15.0" fill="rgb(237,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="983.47" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (3,932 microseconds, 0.22%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (3,932 microseconds, 0.22%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="413.4" y="145" width="2.5" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="416.36" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,715 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,715 microseconds, 0.10%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="991.5" y="337" width="1.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="994.51" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (181,824 microseconds, 10.11%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (181,824 microseconds, 10.11%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1014.2" y="193" width="119.4" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1017.23" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::_..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (20,465 microseconds, 1.14%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (20,465 microseconds, 1.14%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="363.6" y="129" width="13.4" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="366.57" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (403 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (403 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="823.1" y="97" width="0.2" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="826.06" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (453,929 microseconds, 25.25%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (453,929 microseconds, 25.25%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="664.7" y="193" width="297.9" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="667.71" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,570 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,570 microseconds, 0.09%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="878.8" y="129" width="1.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="881.82" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (332 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (332 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="822.8" y="65" width="0.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="825.84" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (326 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (326 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="325.8" y="113" width="0.3" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="328.84" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (55,106 microseconds, 3.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (55,106 microseconds, 3.06%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="840.6" y="129" width="36.1" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="843.56" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (24,205 microseconds, 1.35%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (24,205 microseconds, 1.35%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="823.8" y="113" width="15.9" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="826.82" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__divyMatches (126,156 microseconds, 7.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__divyMatches (126,156 microseconds, 7.02%)</title><a xlink:href="Hasher-pm-6-line.html#992" target="_top"><rect x="42.6" y="225" width="82.8" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="45.64" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hash..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (1,250 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (1,250 microseconds, 0.07%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="324.7" y="113" width="0.8" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="327.72" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (447 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (447 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="322.7" y="97" width="0.3" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="325.72" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (1,410 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (1,410 microseconds, 0.08%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="378.2" y="129" width="0.9" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="381.18" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__init (419 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__init (419 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#492" target="_top"><rect x="984.3" y="337" width="0.3" height="15.0" fill="rgb(236,129,34)" rx="2" ry="2" />
+<text text-anchor="" x="987.34" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (1,350 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (1,350 microseconds, 0.08%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="877.9" y="129" width="0.9" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="880.94" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (507 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (507 microseconds, 0.03%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="964.5" y="177" width="0.3" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="967.51" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (14,267 microseconds, 0.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (14,267 microseconds, 0.79%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="813.7" y="97" width="9.4" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="816.70" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (734 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (734 microseconds, 0.04%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1115.2" y="33" width="0.5" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1118.19" y="43.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Storable::BEGIN@42 (5,879 microseconds, 0.33%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Storable::BEGIN@42 (5,879 microseconds, 0.33%)</title><a xlink:href="Storable-pm-20-line.html#42" target="_top"><rect x="1165.3" y="321" width="3.8" height="15.0" fill="rgb(243,166,42)" rx="2" ry="2" />
+<text text-anchor="" x="1168.26" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (802 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (802 microseconds, 0.04%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="427.7" y="225" width="0.5" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="430.71" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('JSON::XS::decode_json (229 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>JSON::XS::decode_json (229 microseconds, 0.01%)</title><a xlink:href="JSON-XS-pm-12-line.html#JSON__XS__decode_json" target="_top"><rect x="981.0" y="321" width="0.1" height="15.0" fill="rgb(249,145,48)" rx="2" ry="2" />
+<text text-anchor="" x="983.97" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (457 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (457 microseconds, 0.03%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="325.5" y="113" width="0.3" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="328.54" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Storable::BEGIN@109 (343 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Storable::BEGIN@109 (343 microseconds, 0.02%)</title><a xlink:href="Storable-pm-20-line.html#109" target="_top"><rect x="1165.0" y="321" width="0.3" height="15.0" fill="rgb(237,166,35)" rx="2" ry="2" />
+<text text-anchor="" x="1168.03" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (2,691 microseconds, 0.15%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (2,691 microseconds, 0.15%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1131.6" y="161" width="1.7" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1134.57" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (692 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (692 microseconds, 0.04%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="416.8" y="161" width="0.5" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="419.84" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (350 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (350 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="854.7" y="97" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="857.70" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (1,386 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (1,386 microseconds, 0.08%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="968.7" y="225" width="0.9" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="971.74" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__gen_bp (257 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__gen_bp (257 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#297" target="_top"><rect x="128.0" y="289" width="0.2" height="15.0" fill="rgb(232,129,30)" rx="2" ry="2" />
+<text text-anchor="" x="131.03" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (351 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (351 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1133.3" y="177" width="0.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1136.33" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:regcomp (1,178 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:regcomp (1,178 microseconds, 0.07%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_regcomp" target="_top"><rect x="983.5" y="321" width="0.8" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="986.54" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (353 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (353 microseconds, 0.02%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1162.6" y="289" width="0.2" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1165.57" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::CORE:regcomp (190 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::CORE:regcomp (190 microseconds, 0.01%)</title><a xlink:href="Flatten-pm-32-line.html#Hash__Flatten__CORE_regcomp" target="_top"><rect x="125.8" y="225" width="0.1" height="15.0" fill="rgb(238,146,36)" rx="2" ry="2" />
+<text text-anchor="" x="128.78" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__genAttributes (162 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__genAttributes (162 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#1034" target="_top"><rect x="25.1" y="241" width="0.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="28.14" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (4,544 microseconds, 0.25%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (4,544 microseconds, 0.25%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1116.8" y="81" width="3.0" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1119.82" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('lib::BEGIN@6 (2,073 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>lib::BEGIN@6 (2,073 microseconds, 0.12%)</title><a xlink:href="lib-pm-4-line.html#6" target="_top"><rect x="1138.9" y="337" width="1.4" height="15.0" fill="rgb(233,129,31)" rx="2" ry="2" />
+<text text-anchor="" x="1141.92" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (2,420 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (2,420 microseconds, 0.13%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="389.0" y="145" width="1.6" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="392.01" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::_stringify_ref (2,321 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::_stringify_ref (2,321 microseconds, 0.13%)</title><a xlink:href="Flatten-pm-32-line.html#282" target="_top"><rect x="126.2" y="241" width="1.5" height="15.0" fill="rgb(245,146,44)" rx="2" ry="2" />
+<text text-anchor="" x="129.20" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__leveler (152,694 microseconds, 8.49%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__leveler (152,694 microseconds, 8.49%)</title><a xlink:href="Hasher-pm-6-line.html#947" target="_top"><rect x="25.3" y="257" width="100.2" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="28.25" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__genAttributes (95,731 microseconds, 5.32%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__genAttributes (95,731 microseconds, 5.32%)</title><a xlink:href="Hasher-pm-6-line.html#1034" target="_top"><rect x="62.6" y="209" width="62.8" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="65.60" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::H..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (1,150 microseconds, 0.06%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (1,150 microseconds, 0.06%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="417.3" y="177" width="0.8" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="420.30" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (454,761 microseconds, 25.29%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (454,761 microseconds, 25.29%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="130.2" y="273" width="298.4" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="133.18" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (475,359 microseconds, 26.44%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (475,359 microseconds, 26.44%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="656.7" y="209" width="312.0" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="659.68" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (396 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (396 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="428.2" y="225" width="0.3" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="431.23" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (480,355 microseconds, 26.72%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (480,355 microseconds, 26.72%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="654.6" y="257" width="315.2" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="657.55" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__leveler (160,359 microseconds, 8.92%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__leveler (160,359 microseconds, 8.92%)</title><a xlink:href="Hasher-pm-6-line.html#947" target="_top"><rect x="20.2" y="305" width="105.3" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="23.22" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher:..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,352 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,352 microseconds, 0.08%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="959.4" y="145" width="0.8" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="962.36" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Exporter::export (2,288 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Exporter::export (2,288 microseconds, 0.13%)</title><a xlink:href="Exporter-pm-10-line.html#24" target="_top"><rect x="1169.9" y="289" width="1.5" height="15.0" fill="rgb(238,94,36)" rx="2" ry="2" />
+<text text-anchor="" x="1172.85" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (2,169 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (2,169 microseconds, 0.12%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="966.8" y="177" width="1.4" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="969.77" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('overload::BEGIN@142 (1,170 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>overload::BEGIN@142 (1,170 microseconds, 0.07%)</title><a xlink:href="overload-pm-15-line.html#142" target="_top"><rect x="1158.2" y="289" width="0.8" height="15.0" fill="rgb(245,165,44)" rx="2" ry="2" />
+<text text-anchor="" x="1161.23" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__genAttributes (5,339 microseconds, 0.30%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__genAttributes (5,339 microseconds, 0.30%)</title><a xlink:href="Hasher-pm-6-line.html#1034" target="_top"><rect x="21.2" y="257" width="3.5" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="24.16" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (410 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (410 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="823.5" y="97" width="0.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="826.55" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (239 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (239 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="968.2" y="193" width="0.1" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="971.19" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (8,342 microseconds, 0.46%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (8,342 microseconds, 0.46%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="939.7" y="145" width="5.5" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="942.70" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (15,303 microseconds, 0.85%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (15,303 microseconds, 0.85%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="952.0" y="177" width="10.1" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="955.02" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (420,522 microseconds, 23.39%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (420,522 microseconds, 23.39%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="676.0" y="177" width="276.0" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="679.03" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (477,015 microseconds, 26.53%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (477,015 microseconds, 26.53%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="655.7" y="225" width="313.0" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="658.68" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::flatten (3,324 microseconds, 0.18%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::flatten (3,324 microseconds, 0.18%)</title><a xlink:href="Flatten-pm-32-line.html#51" target="_top"><rect x="125.5" y="273" width="2.2" height="15.0" fill="rgb(247,146,46)" rx="2" ry="2" />
+<text text-anchor="" x="128.54" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (1,207 microseconds, 0.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (1,207 microseconds, 0.07%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="126.9" y="193" width="0.8" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="129.89" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (318 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (318 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="969.4" y="209" width="0.2" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="972.44" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('overload::Overloaded (2,305 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>overload::Overloaded (2,305 microseconds, 0.13%)</title><a xlink:href="overload-pm-15-line.html#71" target="_top"><rect x="126.2" y="225" width="1.5" height="15.0" fill="rgb(250,165,49)" rx="2" ry="2" />
+<text text-anchor="" x="129.21" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::_flatten_hash_level (250 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::_flatten_hash_level (250 microseconds, 0.01%)</title><a xlink:href="Flatten-pm-32-line.html#189" target="_top"><rect x="126.0" y="225" width="0.2" height="15.0" fill="rgb(231,146,29)" rx="2" ry="2" />
+<text text-anchor="" x="129.01" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@21 (14,775 microseconds, 0.82%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@21 (14,775 microseconds, 0.82%)</title><a xlink:href="Hasher-pm-6-line.html#21" target="_top"><rect x="1153.2" y="337" width="9.7" height="15.0" fill="rgb(229,129,27)" rx="2" ry="2" />
+<text text-anchor="" x="1156.16" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (411 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (411 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="323.2" y="97" width="0.3" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="326.22" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (582 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (582 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="950.3" y="129" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="953.32" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::_escape (335 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::_escape (335 microseconds, 0.02%)</title><a xlink:href="Flatten-pm-32-line.html#256" target="_top"><rect x="125.7" y="241" width="0.2" height="15.0" fill="rgb(250,146,49)" rx="2" ry="2" />
+<text text-anchor="" x="128.69" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (7,191 microseconds, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (7,191 microseconds, 0.40%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1111.6" y="65" width="4.7" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1114.61" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (137,677 microseconds, 7.66%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (137,677 microseconds, 7.66%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1040.0" y="145" width="90.4" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1043.00" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hashe..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (26,512 microseconds, 1.47%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:737] (26,512 microseconds, 1.47%)</title><a xlink:href="Hasher-pm-6-line.html#733" target="_top"><rect x="933.3" y="161" width="17.4" height="15.0" fill="rgb(247,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="936.31" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__delimitAttr (24,607 microseconds, 1.37%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__delimitAttr (24,607 microseconds, 1.37%)</title><a xlink:href="Hasher-pm-6-line.html#1068" target="_top"><rect x="105.7" y="193" width="16.1" height="15.0" fill="rgb(235,129,33)" rx="2" ry="2" />
+<text text-anchor="" x="108.65" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('all (1,797,984 microseconds, 100%)')" onmouseout="c()" onclick="zoom(this)">
+<title>all (1,797,984 microseconds, 100%)</title><rect x="10.0" y="369" width="1180.0" height="15.0" fill="rgb(255,230,55)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="379.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__getObj (3,277 microseconds, 0.18%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__getObj (3,277 microseconds, 0.18%)</title><a xlink:href="Hasher-pm-6-line.html#1100" target="_top"><rect x="119.6" y="177" width="2.2" height="15.0" fill="rgb(228,129,26)" rx="2" ry="2" />
+<text text-anchor="" x="122.65" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (625 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (625 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="899.9" y="113" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="902.88" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (337 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (337 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="823.3" y="97" width="0.2" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="826.33" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::_flatten (436 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::_flatten (436 microseconds, 0.02%)</title><a xlink:href="Flatten-pm-32-line.html#141" target="_top"><rect x="125.9" y="241" width="0.3" height="15.0" fill="rgb(247,146,46)" rx="2" ry="2" />
+<text text-anchor="" x="128.91" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__leveler (126,804 microseconds, 7.05%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__leveler (126,804 microseconds, 7.05%)</title><a xlink:href="Hasher-pm-6-line.html#947" target="_top"><rect x="42.2" y="241" width="83.3" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="45.24" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hash..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:readline (8,754 microseconds, 0.49%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:readline (8,754 microseconds, 0.49%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_readline" target="_top"><rect x="602.2" y="305" width="5.7" height="15.0" fill="rgb(246,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="605.15" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (194,825 microseconds, 10.84%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (194,825 microseconds, 10.84%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="752.0" y="145" width="127.9" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="754.99" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__re..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (613 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (613 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="951.6" y="161" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="954.61" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::rm_reff (12,209 microseconds, 0.68%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::rm_reff (12,209 microseconds, 0.68%)</title><a xlink:href="Hasher-pm-6-line.html#276" target="_top"><rect x="984.6" y="353" width="8.0" height="15.0" fill="rgb(244,129,43)" rx="2" ry="2" />
+<text text-anchor="" x="987.62" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (321 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (321 microseconds, 0.02%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="820.6" y="65" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="823.62" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (193,469 microseconds, 10.76%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (193,469 microseconds, 10.76%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.4" y="241" width="127.0" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.41" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__walk (480,591 microseconds, 26.73%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__walk (480,591 microseconds, 26.73%)</title><a xlink:href="Walk-pm-28-line.html#62" target="_top"><rect x="654.5" y="289" width="315.4" height="15.0" fill="rgb(232,94,29)" rx="2" ry="2" />
+<text text-anchor="" x="657.46" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__walk</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (781 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (781 microseconds, 0.04%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="415.9" y="161" width="0.6" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="418.94" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::blessed (288 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::blessed (288 microseconds, 0.02%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__blessed" target="_top"><rect x="427.2" y="193" width="0.2" height="15.0" fill="rgb(247,202,47)" rx="2" ry="2" />
+<text text-anchor="" x="430.17" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (156 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (156 microseconds, 0.01%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="817.8" y="65" width="0.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="820.81" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (6,299 microseconds, 0.35%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (6,299 microseconds, 0.35%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="380.2" y="145" width="4.2" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="383.22" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (193,966 microseconds, 10.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (193,966 microseconds, 10.79%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="289" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.09" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_reffs (440 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_reffs (440 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#744" target="_top"><rect x="969.1" y="209" width="0.3" height="15.0" fill="rgb(238,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="972.15" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Exporter::as_heavy (2,280 microseconds, 0.13%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Exporter::as_heavy (2,280 microseconds, 0.13%)</title><a xlink:href="Exporter-pm-10-line.html#15" target="_top"><rect x="1169.9" y="273" width="1.5" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="1172.86" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::new (1,485,042 microseconds, 82.59%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::new (1,485,042 microseconds, 82.59%)</title><a xlink:href="Hasher-pm-6-line.html#100" target="_top"><rect x="10.0" y="353" width="974.6" height="15.0" fill="rgb(235,129,33)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="363.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::new</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (2,184 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (2,184 microseconds, 0.12%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1114.2" y="49" width="1.5" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1117.24" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__get_matches (341,178 microseconds, 18.98%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__get_matches (341,178 microseconds, 18.98%)</title><a xlink:href="Hasher-pm-6-line.html#832" target="_top"><rect x="428.6" y="321" width="223.9" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="431.63" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__get_matches</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (184 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (184 microseconds, 0.01%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="968.1" y="161" width="0.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="971.07" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (242 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (242 microseconds, 0.01%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="968.5" y="193" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="971.50" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (801 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (801 microseconds, 0.04%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="839.2" y="81" width="0.5" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="842.18" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('DynaLoader::BEGIN@114 (2,164 microseconds, 0.12%)')" onmouseout="c()" onclick="zoom(this)">
+<title>DynaLoader::BEGIN@114 (2,164 microseconds, 0.12%)</title><a xlink:href="JSON-XS-pm-12-line.html#114" target="_top"><rect x="1161.4" y="305" width="1.5" height="15.0" fill="rgb(245,159,44)" rx="2" ry="2" />
+<text text-anchor="" x="1164.44" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (402,321 microseconds, 22.38%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (402,321 microseconds, 22.38%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="153.3" y="177" width="264.0" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="156.26" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (201 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (201 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="322.6" y="81" width="0.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="325.59" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Scalar::Util::refaddr (227 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Scalar::Util::refaddr (227 microseconds, 0.01%)</title><a xlink:href="Scalar-Util-pm-29-line.html#Scalar__Util__refaddr" target="_top"><rect x="968.3" y="193" width="0.2" height="15.0" fill="rgb(244,202,43)" rx="2" ry="2" />
+<text text-anchor="" x="971.35" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@20 (3,150 microseconds, 0.18%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@20 (3,150 microseconds, 0.18%)</title><a xlink:href="Hasher-pm-6-line.html#20" target="_top"><rect x="1151.1" y="337" width="2.1" height="15.0" fill="rgb(231,129,29)" rx="2" ry="2" />
+<text text-anchor="" x="1154.10" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (233 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (233 microseconds, 0.01%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="427.5" y="193" width="0.2" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="430.52" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::BEGIN@19 (7,130 microseconds, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::BEGIN@19 (7,130 microseconds, 0.40%)</title><a xlink:href="Hasher-pm-6-line.html#19" target="_top"><rect x="1146.4" y="337" width="4.7" height="15.0" fill="rgb(234,129,32)" rx="2" ry="2" />
+<text text-anchor="" x="1149.42" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (13,889 microseconds, 0.77%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1250] (13,889 microseconds, 0.77%)</title><a xlink:href="Hasher-pm-6-line.html#1136" target="_top"><rect x="311.1" y="97" width="9.1" height="15.0" fill="rgb(241,129,40)" rx="2" ry="2" />
+<text text-anchor="" x="314.08" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (659 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (659 microseconds, 0.04%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="326.1" y="113" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="329.05" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,443 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,443 microseconds, 0.08%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="875.8" y="97" width="0.9" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="878.77" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (551 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (551 microseconds, 0.03%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="961.7" y="145" width="0.4" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="964.70" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (739 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (739 microseconds, 0.04%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="1116.3" y="65" width="0.5" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="1119.33" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('XSLoader::load (335 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>XSLoader::load (335 microseconds, 0.02%)</title><a xlink:href="XSLoader-pm-18-line.html#18" target="_top"><rect x="1165.0" y="305" width="0.3" height="15.0" fill="rgb(243,122,41)" rx="2" ry="2" />
+<text text-anchor="" x="1168.04" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__genAttributes (19,275 microseconds, 1.07%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__genAttributes (19,275 microseconds, 1.07%)</title><a xlink:href="Hasher-pm-6-line.html#1034" target="_top"><rect x="29.6" y="225" width="12.6" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="32.59" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (174 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (174 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="427.1" y="177" width="0.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="430.05" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (314,556 microseconds, 17.49%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (314,556 microseconds, 17.49%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="184.2" y="161" width="206.4" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="187.16" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Data::Walk::__recurse</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (1,877 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (1,877 microseconds, 0.10%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="829.6" y="97" width="1.3" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="832.63" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (18,485 microseconds, 1.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1271] (18,485 microseconds, 1.03%)</title><a xlink:href="Hasher-pm-6-line.html#1251" target="_top"><rect x="403.8" y="161" width="12.1" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="406.81" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (4,087 microseconds, 0.23%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (4,087 microseconds, 0.23%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="837.0" y="97" width="2.7" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="840.02" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (578 microseconds, 0.03%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (578 microseconds, 0.03%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="319.8" y="81" width="0.4" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="322.82" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (3,440 microseconds, 0.19%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (3,440 microseconds, 0.19%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="898.0" y="129" width="2.3" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="901.03" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (191,021 microseconds, 10.62%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (191,021 microseconds, 10.62%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1009.0" y="225" width="125.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1011.97" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('UNIVERSAL::isa (1,687 microseconds, 0.09%)')" onmouseout="c()" onclick="zoom(this)">
+<title>UNIVERSAL::isa (1,687 microseconds, 0.09%)</title><a xlink:href="playground-pl-1-line.html#UNIVERSAL__isa" target="_top"><rect x="379.1" y="129" width="1.1" height="15.0" fill="rgb(231,181,28)" rx="2" ry="2" />
+<text text-anchor="" x="382.11" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:subst (172 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:subst (172 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_subst" target="_top"><rect x="363.5" y="113" width="0.1" height="15.0" fill="rgb(237,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="366.45" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (265 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (265 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="39.6" y="209" width="0.2" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="42.64" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:match (35,740 microseconds, 1.99%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:match (35,740 microseconds, 1.99%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_match" target="_top"><rect x="578.6" y="305" width="23.5" height="15.0" fill="rgb(242,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="581.64" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >O..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_config (4,202 microseconds, 0.23%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_config (4,202 microseconds, 0.23%)</title><a xlink:href="Hasher-pm-6-line.html#127" target="_top"><rect x="125.5" y="305" width="2.7" height="15.0" fill="rgb(239,129,37)" rx="2" ry="2" />
+<text text-anchor="" x="128.46" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__see (194,019 microseconds, 10.79%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__see (194,019 microseconds, 10.79%)</title><a xlink:href="Hasher-pm-6-line.html#243" target="_top"><rect x="1007.1" y="337" width="127.3" height="15.0" fill="rgb(246,129,45)" rx="2" ry="2" />
+<text text-anchor="" x="1010.06" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Exporter::import (2,581 microseconds, 0.14%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Exporter::import (2,581 microseconds, 0.14%)</title><a xlink:href="Exporter-pm-10-line.html#28" target="_top"><rect x="1169.7" y="305" width="1.7" height="15.0" fill="rgb(238,94,36)" rx="2" ry="2" />
+<text text-anchor="" x="1172.66" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::_isPrsv (17,584 microseconds, 0.98%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::_isPrsv (17,584 microseconds, 0.98%)</title><a xlink:href="Hasher-pm-6-line.html#892" target="_top"><rect x="641.0" y="305" width="11.5" height="15.0" fill="rgb(231,129,29)" rx="2" ry="2" />
+<text text-anchor="" x="644.01" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:subst (337 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:subst (337 microseconds, 0.02%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_subst" target="_top"><rect x="24.1" y="241" width="0.2" height="15.0" fill="rgb(237,129,35)" rx="2" ry="2" />
+<text text-anchor="" x="27.07" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:readline (7,246 microseconds, 0.40%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:readline (7,246 microseconds, 0.40%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_readline" target="_top"><rect x="15.4" y="321" width="4.8" height="15.0" fill="rgb(246,129,46)" rx="2" ry="2" />
+<text text-anchor="" x="18.44" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (656 microseconds, 0.04%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (656 microseconds, 0.04%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="955.5" y="161" width="0.4" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="958.51" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::CORE:sort (1,773 microseconds, 0.10%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::CORE:sort (1,773 microseconds, 0.10%)</title><a xlink:href="Hasher-pm-6-line.html#Ohm__Hasher__CORE_sort" target="_top"><rect x="98.4" y="193" width="1.2" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="101.42" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::gen_matches (161 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::gen_matches (161 microseconds, 0.01%)</title><a xlink:href="Hasher-pm-6-line.html#773" target="_top"><rect x="969.0" y="209" width="0.1" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="972.04" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__divy (164,595 microseconds, 9.15%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__divy (164,595 microseconds, 9.15%)</title><a xlink:href="Hasher-pm-6-line.html#918" target="_top"><rect x="20.2" y="321" width="108.0" height="15.0" fill="rgb(238,129,36)" rx="2" ry="2" />
+<text text-anchor="" x="23.20" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Cwd::BEGIN@3 (1,371 microseconds, 0.08%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Cwd::BEGIN@3 (1,371 microseconds, 0.08%)</title><a xlink:href="Cwd-pm-9-line.html#3" target="_top"><rect x="1149.6" y="321" width="0.9" height="15.0" fill="rgb(239,115,37)" rx="2" ry="2" />
+<text text-anchor="" x="1152.62" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (3,399 microseconds, 0.19%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (3,399 microseconds, 0.19%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="820.8" y="81" width="2.3" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="823.83" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Hash::Flatten::unflatten (342 microseconds, 0.02%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Hash::Flatten::unflatten (342 microseconds, 0.02%)</title><a xlink:href="Flatten-pm-32-line.html#70" target="_top"><rect x="127.8" y="289" width="0.2" height="15.0" fill="rgb(247,146,46)" rx="2" ry="2" />
+<text text-anchor="" x="130.78" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Data::Walk::__recurse (34,387 microseconds, 1.91%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Data::Walk::__recurse (34,387 microseconds, 1.91%)</title><a xlink:href="Walk-pm-28-line.html#97" target="_top"><rect x="300.9" y="113" width="22.6" height="15.0" fill="rgb(243,94,42)" rx="2" ry="2" />
+<text text-anchor="" x="303.92" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >D..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::place_holder (14,583 microseconds, 0.81%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::place_holder (14,583 microseconds, 0.81%)</title><a xlink:href="Hasher-pm-6-line.html#790" target="_top"><rect x="867.2" y="113" width="9.5" height="15.0" fill="rgb(243,129,41)" rx="2" ry="2" />
+<text text-anchor="" x="870.15" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Storable::BEGIN@44 (164 microseconds, 0.01%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Storable::BEGIN@44 (164 microseconds, 0.01%)</title><a xlink:href="Storable-pm-20-line.html#44" target="_top"><rect x="1169.1" y="321" width="0.1" height="15.0" fill="rgb(239,166,38)" rx="2" ry="2" />
+<text text-anchor="" x="1172.12" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Ohm::Hasher::__sweep (483,507 microseconds, 26.89%)')" onmouseout="c()" onclick="zoom(this)">
+<title>Ohm::Hasher::__sweep (483,507 microseconds, 26.89%)</title><a xlink:href="Hasher-pm-6-line.html#719" target="_top"><rect x="652.5" y="321" width="317.4" height="15.0" fill="rgb(245,129,44)" rx="2" ry="2" />
+<text text-anchor="" x="655.55" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Ohm::Hasher::__sweep</text>
+</a>
+</g>
+</svg>

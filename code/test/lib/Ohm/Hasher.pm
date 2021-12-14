@@ -232,6 +232,67 @@ sub write { #{{{1
     close $fh;
 }
 
+sub see { #{{{1
+    my ($self, $key) = @_;
+    return $self->__see(
+        $self->{$key},
+        'lib',
+        [],
+    );
+
+}
+
+sub rm_reff { #{{{1
+
+    my ( $self, $args ) = @_;
+
+    my $CIRCS = $self->{circ} // return;
+
+    for my $circ ( @$CIRCS ) {
+
+        my $ref = $circ->{'.'};
+
+        if ( UNIVERSAL::isa($ref,'HASH') ) {
+            delete $ref->{circ};
+        } elsif ( UNIVERSAL::isa($ref,'ARRAY') ) {
+            $ref->[0] = {};
+        } else {
+            die
+        }
+    }
+    $self->{circ} = [];
+}
+
+sub __see {#{{{1
+    my ( $self, $item, $prefix, $flat) = @_;
+
+    if ( UNIVERSAL::isa($item,'HASH' ) ) {
+        for my $key ( keys %$item) {
+            my $flatkey = $prefix . '.' . $key;
+            $flat = $self->__see($item->{$key}, $flatkey, $flat);
+        }
+    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) ) {
+        for my $idx (0 .. $item->$#*) {
+            my $flatkey = $prefix . ':' . $idx;
+            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
+        }
+    } else {
+            my $flatkey = $prefix . '=' . ($item // 'NULL');
+            push @$flat, $flatkey;
+    }
+    return $flat;
+}
+
+sub __flatten {
+    my ($self, $key) = @_;
+    return flatten $self->{$key};
+}
+
+sub __unflatten {
+    my ($self, $key) = @_;
+    return unflatten $self->{$key};
+}
+
 sub __gen_bp { #{{{1
     my ( $self, $bp_name ) = @_;
     my %bps = (
@@ -614,7 +675,8 @@ sub __gen_dspt { #{{{1
 }
 
 
-sub __check_matches { #{{{1
+sub __check_matches #{{{1
+{
     # have option presverses be 2nd option
     my ( $self, $args ) = @_;
 
@@ -624,22 +686,28 @@ sub __check_matches { #{{{1
     my ($fext) = $self->{paths}{input} =~ m/\.([^.]*$)/g;
     $self->{matches} = {} unless exists $self->{matches};
 
-    if ($fext eq 'txt') {
+    if ($fext eq 'txt')
+    {
         delete $self->{matches};
         delete $self->{circ};
         delete $self->{stdout};
-        $self->__get_matches;
+        #$self->__get_matches;
+        $self->get_matches;
         $self->__divy();
         $self->__sweep(['reffs','plhd']);
         $self->__genWrite();
         $self->write();
-        #$self->validate();
+        $self->__validate($fext);
 
-    } elsif ($fext eq 'json') {
+    }
+
+    elsif ($fext eq 'json')
+    {
         delete $self->{matches};
         delete $self->{circ};
         delete $self->{stdout};
-        $self->{hash} = do {
+        $self->{hash} = do
+        {
             open my $fh, '<:utf8', $self->{paths}{input};
             local $/;
             decode_json(<$fh>);
@@ -647,9 +715,14 @@ sub __check_matches { #{{{1
         $self->__sweep(['reffs','matches','plhd']);
         $self->__genWrite();
         $self->write();
-        #$self->validate();
+        $self->__validate($fext);
 
-    } else { die "$fext is not a valid file extesion, must either be 'txt' or 'json'" }
+    }
+
+    else
+    {
+        die "$fext is not a valid file extesion, must either be 'txt' or 'json'"
+    }
 
     return $self;
 }
@@ -767,7 +840,133 @@ sub __sweep { #{{{1
     }
 }
 
-sub __get_matches { #{{{1
+sub __get_matches #{{{1
+{
+    my ( $self, $line, $FR_prsv ) = @_;
+
+    my $dspt = $self->{dspt};
+
+
+    ## --- OBJS
+    my $match;
+    for my $obj (keys %$dspt)
+    {
+        $self->{matches}{objs}{$obj} = [] unless exists $self->{matches}{objs}{$obj};
+
+        my $regex = $dspt->{$obj}{re} // 0;
+        if ($regex and $line =~ $regex)
+        {
+
+            last if _isPrsv($self,$obj,$1,$FR_prsv);
+
+            $match =
+            {
+                obj => $obj,
+                val => $1,
+                meta =>
+                {
+                    raw => $line,
+                    LN  => $.,
+                },
+            };
+            push $self->{matches}{objs}{$obj}->@*, $match;
+        }
+    }
+
+    ## --- PRESERVES
+    if (!$match and _isPrsv($self,'NULL','',$FR_prsv))
+    {
+        $self->{matches}{objs}{prsv} = [] unless exists $self->{matches}{objs}{prsv};
+        $match =
+        {
+            obj => 'prsv',
+            val => $line,
+            meta =>
+            {
+                LN  => $.,
+            },
+        };
+        push $self->{matches}{objs}{prsv}->@*, $match;
+    }
+
+    ## --- MISS
+    elsif (!$match)
+    {
+        $self->{matches}{miss} = [] unless exists $self->{matches}{miss};
+        $match =
+        {
+            obj => 'miss',
+            val => $line,
+            meta =>
+            {
+                LN  => $.,
+            },
+        };
+        push $self->{matches}{miss}->@*, $match;
+    }
+
+    ## -- subroutnes
+    sub _isPrsv2 #{{{
+    {
+        my ($self, $obj, $match, $FR_prsv) = @_;
+        my $dspt = $self->{dspt};
+
+        if ( defined $self->{prsv} and $obj eq $self->{prsv}{till}[0] )
+        {
+            $FR_prsv->{F} = 0, if $FR_prsv->{cnt} eq $self->{prsv}{till}[1];
+            $FR_prsv->{cnt}++;
+        }
+
+        if ( defined $self->{prsv} )
+        {
+          return $FR_prsv->{F};
+        }
+
+        else
+        {
+            return 0;
+        }
+
+    } #}}}
+
+    return $FR_prsv;
+}
+
+
+sub get_matches { #{{{1
+    my ( $self, $args, $tmp ) = @_;
+    my $dspt = $self->{dspt};
+
+    my $FR_prsv = {
+        cnt => 0,
+        F   => 1,
+    };
+
+    if ($tmp)
+    {
+        for my $line ($self->{stdout}->@*)
+        {
+            $FR_prsv = $self->__get_matches($line, $FR_prsv);
+        }
+    }
+
+    else
+    {
+        open my $fh, '<:utf8', $self->{paths}{input}
+            or die $!;
+        {
+            while ( my $line = <$fh> )
+            {
+                $FR_prsv = $self->__get_matches($line, $FR_prsv);
+            }
+        }
+        close $fh ;
+    }
+
+    return $self;
+}
+
+sub __get_matches3 { #{{{1
     my ( $self, $args ) = @_;
     my $dspt = $self->{dspt};
 
@@ -1214,8 +1413,36 @@ sub __genWrite { #{{{1
     return $self;
 }
 
-sub __validate {
-    my ( $self, $args ) = @_;
+sub __validate { #{{{1
+
+    my ( $self, $type ) = @_;
+
+    if ($type eq 'txt')
+    {
+        #$self->{tmp}{matches} = self->__gen_matches ($self->{stdout})
+        #self->{matches};
+    }
+
+    elsif ( $type eq 'json' )
+    {
+        $self->rm_reff;
+        $self->see('hash');
+        $self->__sweep(['reffs']);
+        #do thing all over again
+    }
+
+    elsif ( $type eq 'change' )
+    {
+        #$self->{tmp}{matches} = self->__gen_matches ($self->{stdout})
+        #self->{matches};
+
+        $self->rm_reff;
+        $self->see('hash');
+        $self->__sweep(['reffs']);
+        $self->see('hash');
+    }
+
+
     ##INITS
     # txt -> json -> txt
     # json -> txt -> json
@@ -1229,10 +1456,6 @@ sub __validate {
     # +
     # -
 
-}
-
-sub __rm_reff {
-    my ($self, $args);
 }
 
 sub __longest { #{{{1
