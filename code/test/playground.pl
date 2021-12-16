@@ -30,6 +30,5 @@ my $lib  = Ohm::Hasher->new(
     './deimos.json',
     './drsr_C.json',
     './mask_C.json',
-    {till => ['section', 0]},
 );
 do {};

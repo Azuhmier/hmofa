@@ -1,4 +1,4 @@
-## ENTRY_3  (WIP)
+## ENTRY_3 
 # Created by Azuhmier
 # ---
 #-------------------------------------------------------------------------------------------------------------------------------------------#
@@ -8,51 +8,36 @@ me to be more dynamic when it comes to such transient media forms as pastebin.
 So as one could guess, I have been doing major overhauls to the project with
 new objectives.
 
-TODO
-- standardize ov, db
-- transfer and append preserves
-- devlop delgate/controller architecture and initiate with ohm
-- change hash arcitecture; slowly making way to implementing it on the profiler
-- fix gitio.pl
-- change from procedural to OOP
+Journal entries are going to be a lot less formal now. 'Project Urgent Furry'
+is just a name given to this effort of making /hmofa/ more easily accessible and
+more easily searchable and analyzable.
 
-https://github.com/Azuhmier/hmofa
-ohm - omni hash manipulator
+Current Tasks (whilst juggling school and work):
 
-HASHING
-  generate hashes
-  compare hashes
-  combine hashes
+1. |Masterbin updates|
+- done every 25-100 editions, though this may vary
+- go through every thread since last updated edition via the "previous
+thread" link
+- use the OP's to fill in the masterbin
+- search for AO3 and sofurry links for writers just now moving form pastebin
+and record them on the writers link archive on the /hmofa/ wiki
+- using the writers link archive check each author for new submissions and fill
+in masterbin for AO3, sofurry, et. al links that were not stated in the thread.
 
-SYNCING
-  Masterbin
-  Catalog
-  /hmofa/ wiki [ https://hmofa.fandom.com/wiki//HMoFA/_Wiki ]
+2. |OHM- Omni Hash Manipulator|
+- found in my hmofa git repo; will eventually be moved to it's own repo
+- written in {erl
+- txt file oriented; should work for any storybin; helps maintain consistency
+and develop many versions of said story bin.
+- new features will be added once I get a pre-alpha version off the ground
 
-TAGGING/SCRAPPING
-  sql
-  html
-  API's
-    ghostbin
-    sofurry
-    furaffinity
-    AO3
-    catbox [ https://files.catbox.moe ]
-    hardbin [ https://hardbin.com ]
-    rentry
+3. |story tagging|
+- will resume after syncing the catalog and masterbin for OHM. I said "by
+Christmas" in the thread but I forgot how close christmas was, still trying
+though.
 
-UI
-    primary (rentry)
-    secondary (googledocs)
 
-CHANGES
-    primary (local)
-    alt (googledocs, masterbin only)
+OK now that every thing has been caught up, here is the "Journal Entry" or what
+they will look like in the future.
 
-Workflow
-  scraping
-  archives
-  OP's
-  Masterbin/Catalog
-  hmofa_lib.json
-  paste keys
+
