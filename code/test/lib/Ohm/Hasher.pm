@@ -17,6 +17,7 @@ use strict;
 use warnings;
 use utf8;
 use feature 'current_sub';
+
 use Cwd;
 use File::Basename;
 use JSON::XS;
@@ -26,7 +27,6 @@ use Carp qw(croak carp);
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
 use Hash::Flatten qw(:all);
-my $erreno;
 
 sub get_sum #{{{1
 { # output a summary hash for data dumping.
@@ -159,6 +159,7 @@ sub new #{{{1
     bless $self, $class;
 
     # init and form circular hash check
+    $self->__checkDir();
     $self->__init( $args );
     $self->__gen_dspt();
     $self->__check_matches();
@@ -285,6 +286,48 @@ sub gen_config #{{{1
     #    seek $fh,0,0 or die;
     #close $fh;
 
+}
+
+sub commit #{{{1
+{
+    my ($self, $args) = @_;
+    my @KEYS = qw( hash dspt matches );
+    $self->rm_reff;
+
+    use Data::Structure::Util qw( unbless );
+    # INDIVDUAL HASHES
+    for my $key (@KEYS)
+    {
+        my $hash = dclone $self->{$key};
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        open my $fh, '>:utf8', $self->{cwd} . "/db/$key.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # MISC HASH
+    {
+        my $hash = dclone $self;
+
+        for my $key (@KEYS, 'stdout', 'tmp')
+        {
+            delete $hash->{$key};
+        }
+
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
+        open my $fh, '>:utf8', $self->{cwd} . "/db/self.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    $self->__sweep(['reffs']);
+    return $self;
 }
 
 sub write #{{{1
@@ -653,6 +696,12 @@ sub __gen_bp #{{{1
     return dclone $bps{lc $bp_name};
 }
 
+sub __checkDir #{{{1
+{
+    my ($self, $args) = @_;
+    return $self;
+}
+
 sub __init #{{{1
 {
 
@@ -882,7 +931,7 @@ sub __check_matches #{{{1
         delete $self->{stdout};
         $self->get_matches;
         $self->__divy();
-        $self->__sweep(['reffs']);
+        $self->__sweep(['reffs','plhd']);
         $self->__genWrite();
         $self->write();
         $self->__validate($fext);
@@ -1615,22 +1664,95 @@ sub __validate #{{{1
 
     if ($type eq 'txt')
     {
+        # START
+        my %STDOUT;
+
+        # OUTPUT
         $self->{meta}{tmp}{matches} = {};
         $self->get_matches(1);
         my $tmpFile = $self->{paths}{output} . '/' . $self->{name} . '.txt';
         my $file = $self->{paths}{input};
+        $STDOUT{txtCmp}{fname} = `diff $file $tmpFile`;
+        $STDOUT{txtCmp}{out} = `diff $file $tmpFile`;
 
-        open my $fh, '>', getcwd.'/tmp/diff.txt'
-            or die;
-            open my $cf, '-|', "diff $file $tmpFile"
-                or die "Can't exec: $!\n";
-                while(my $line = <$cf>)
-                {
-                    print $fh $line,"\n";
-                };
-            close $cf;
-        close $fh;
-        system "less " . getcwd . "/tmp/*";
+        do {};
+
+
+        # MATCHES
+        my @STDOUT;
+        my @matches = map
+        {
+            [
+                $_,
+                $self->{matches}{objs}{$_},
+                $self->{tmp}{matches}{objs}{$_},
+            ]
+        } keys $self->{matcjes}{objs}->%*;
+
+        for my $part (@matches)
+        {
+            my ( $obj, $val, $val2 ) = $part;
+            $val = $val // [1];
+            $val2 = $val2 // [1];
+            if (scalar @$val == scalar @$val2 )
+            {
+                push @STDOUT, $obj.':'.
+                (scalar @$val).
+                ':'.
+                (scalar @$val2).
+                "\n";
+            }
+        }
+
+        {
+            open my $fh, '>', getcwd.'/tmp/diff.txt'
+                or die;
+                open my $cf, '-|', "diff $file $tmpFile"
+                    or die "Can't exec: $!\n";
+                    while(my $line = <$cf>)
+                    {
+                        print $fh $line,"\n";
+                    };
+                    truncate $fh, tell($fh) or die;
+                    seek $fh,0,0 or die;
+                close $cf;
+            close $fh;
+        }
+        {
+            open my $fh, '>', getcwd.'/tmp/cnt.txt'
+                or die;
+                print $fh @STDOUT;
+                truncate $fh, tell($fh) or die;
+                seek $fh,0,0 or die;
+            close $fh;
+        }
+
+        my @files;
+        opendir my $dir, "$self->{cwd}/tmp" or die "Cannot open directory: $!";
+            while (my $f = readdir($dir))
+            {
+               next if $f eq '.' or $f eq '..';
+               push @files, $f;
+            }
+        closedir $dir;
+
+        my $fileList;
+        for my $file (@files)
+        {
+            unless (-z "$self->{cwd}/tmp/$file")
+            {
+                $fileList .= " $self->{cwd}/tmp/$file";
+            }
+        }
+
+        if ($fileList)
+        {
+            system "less " . $fileList;
+        }
+
+
+        $self->commit;
+
     }
 
     elsif ( $type eq 'json' )

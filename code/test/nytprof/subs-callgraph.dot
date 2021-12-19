@@ -1,0 +1,864 @@
+digraph {
+graph [overlap=false]
+subgraph cluster_vars {
+	label="vars";
+	"vars::BEGIN@7";
+	"vars::BEGIN@8";
+	"vars::CORE:match";
+	"vars::import";
+	"vars::BEGIN@3";
+}
+subgraph cluster_Fcntl {
+	label="Fcntl";
+	"Fcntl::BEGIN@58";
+}
+subgraph cluster_attributes {
+	label="attributes";
+	"attributes::_modify_attrs_and_deprecate";
+	"attributes::reftype";
+	"attributes::import";
+	"attributes::_modify_attrs";
+	"attributes::BEGIN@9";
+}
+subgraph cluster_AutoLoader {
+	label="AutoLoader";
+	"AutoLoader::BEGIN@3";
+	"AutoLoader::BEGIN@37";
+	"AutoLoader::BEGIN@194";
+	"AutoLoader::BEGIN@13";
+	"AutoLoader::BEGIN@146";
+	"AutoLoader::BEGIN@4";
+}
+subgraph cluster_Ohm_Hasher {
+	label="Ohm::Hasher";
+	"Ohm::Hasher::__checkDir";
+	"Ohm::Hasher::__changePointLvl";
+	"Ohm::Hasher::CORE:seek";
+	"Ohm::Hasher::gen_reffs";
+	"Ohm::Hasher::_isPrsv";
+	"Ohm::Hasher::BEGIN@29";
+	"Ohm::Hasher::__see";
+	"Ohm::Hasher::_checks";
+	"Ohm::Hasher::BEGIN@21";
+	"Ohm::Hasher::BEGIN@22";
+	"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1651]";
+	"Ohm::Hasher::rm_reff";
+	"Ohm::Hasher::__gen_bp";
+	"Ohm::Hasher::new";
+	"Ohm::Hasher::CORE:qr";
+	"Ohm::Hasher::CORE:truncate";
+	"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:254]";
+	"Ohm::Hasher::BEGIN@17";
+	"Ohm::Hasher::__delimitAttr";
+	"Ohm::Hasher::__check_matches";
+	"Ohm::Hasher::BEGIN@28";
+	"Ohm::Hasher::__genAttributes";
+	"Ohm::Hasher::CORE:sort";
+	"Ohm::Hasher::CORE:regcomp";
+	"Ohm::Hasher::gen_config";
+	"Ohm::Hasher::__divy";
+	"Ohm::Hasher::CORE:tell";
+	"Ohm::Hasher::__divyMatches";
+	"Ohm::Hasher::CORE:print";
+	"Ohm::Hasher::CORE:open";
+	"Ohm::Hasher::gen_matches";
+	"Ohm::Hasher::write";
+	"Ohm::Hasher::BEGIN@297";
+	"Ohm::Hasher::get_matches";
+	"Ohm::Hasher::see";
+	"Ohm::Hasher::CORE:readline";
+	"Ohm::Hasher::__getObj";
+	"Ohm::Hasher::__get_matches";
+	"Ohm::Hasher::BEGIN@24";
+	"Ohm::Hasher::__validate";
+	"Ohm::Hasher::__leveler";
+	"Ohm::Hasher::__init";
+	"Ohm::Hasher::BEGIN@18";
+	"Ohm::Hasher::BEGIN@711";
+	"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:990]";
+	"Ohm::Hasher::BEGIN@11";
+	"Ohm::Hasher::__checkChgArgs";
+	"Ohm::Hasher::BEGIN@16";
+	"Ohm::Hasher::__gen_dspt";
+	"Ohm::Hasher::BEGIN@23";
+	"Ohm::Hasher::commit";
+	"Ohm::Hasher::BEGIN@27";
+	"Ohm::Hasher::CORE:match";
+	"Ohm::Hasher::CORE:ftzero";
+	"Ohm::Hasher::__genWrite";
+	"Ohm::Hasher::__getPointStr";
+	"Ohm::Hasher::CORE:subst";
+	"Ohm::Hasher::__sweep";
+	"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1624]";
+	"Ohm::Hasher::BEGIN@19";
+	"Ohm::Hasher::BEGIN@25";
+	"Ohm::Hasher::CORE:close";
+}
+subgraph cluster_re {
+	label="re";
+	"re::regexp_pattern";
+}
+subgraph cluster_main {
+	label="main";
+	"main::BEGIN@2";
+	"main::__ANON__";
+	"main::RUNTIME";
+	"main::BEGIN@3";
+	"main::NULL";
+	"main::BEGIN@5";
+	"main::BEGIN@4";
+}
+subgraph cluster_Digest_MD5 {
+	label="Digest::MD5";
+	"Digest::MD5::BEGIN@4";
+	"Digest::MD5::BEGIN@3";
+}
+subgraph cluster_Data_Walk {
+	label="Data::Walk";
+	"Data::Walk::__recurse";
+	"Data::Walk::__walk";
+	"Data::Walk::BEGIN@31";
+	"Data::Walk::BEGIN@27";
+	"Data::Walk::walk";
+	"Data::Walk::BEGIN@36";
+	"Data::Walk::BEGIN@28";
+	"Data::Walk::BEGIN@26";
+}
+subgraph cluster_Data_Structure_Util {
+	label="Data::Structure::Util";
+	"Data::Structure::Util::BEGIN@5";
+	"Data::Structure::Util::unbless_xs";
+	"Data::Structure::Util::BEGIN@9";
+	"Data::Structure::Util::BEGIN@7";
+	"Data::Structure::Util::BEGIN@3";
+	"Data::Structure::Util::BEGIN@8";
+	"Data::Structure::Util::unbless";
+	"Data::Structure::Util::BEGIN@6";
+	"Data::Structure::Util::bootstrap";
+}
+subgraph cluster_warnings_register {
+	label="warnings::register";
+	"warnings::register::import";
+}
+subgraph cluster_strict {
+	label="strict";
+	"strict::CORE:match";
+	"strict::BEGIN@7";
+	"strict::import";
+	"strict::bits";
+	"strict::unimport";
+}
+subgraph cluster_Types_Serialiser_Error {
+	label="Types::Serialiser::Error";
+	"Types::Serialiser::Error::BEGIN@157";
+}
+subgraph cluster_version {
+	label="version";
+	"version::(cmp";
+	"version::(bool";
+}
+subgraph cluster_utf8 {
+	label="utf8";
+	"utf8::import";
+}
+subgraph cluster_XSLoader {
+	label="XSLoader";
+	"XSLoader::load";
+}
+subgraph cluster_JSON_XS {
+	label="JSON::XS";
+	"JSON::XS::BEGIN@90";
+	"JSON::XS::DESTROY";
+	"JSON::XS::new";
+	"JSON::XS::__ANON__";
+	"JSON::XS::decode_json";
+	"JSON::XS::BEGIN@97";
+	"JSON::XS::BEGIN@1811";
+	"JSON::XS::BEGIN@98";
+	"JSON::XS::BEGIN@100";
+	"JSON::XS::encode";
+	"JSON::XS::pretty";
+	"JSON::XS::allow_nonref";
+	"JSON::XS::allow_blessed";
+}
+subgraph cluster_feature {
+	label="feature";
+	"feature::import";
+	"feature::__common";
+}
+subgraph cluster_List_Util {
+	label="List::Util";
+	"List::Util::BEGIN@10";
+	"List::Util::BEGIN@35";
+	"List::Util::BEGIN@9";
+}
+subgraph cluster_lib {
+	label="lib";
+	"lib::CORE:ftdir";
+	"lib::_get_dirs";
+	"lib::import";
+	"lib::BEGIN@6";
+	"lib::CORE:ftis";
+	"lib::BEGIN@8";
+	"lib::CORE:match";
+}
+subgraph cluster_mro {
+	label="mro";
+	"mro::BEGIN@10";
+	"mro::BEGIN@11";
+	"mro::method_changed_in";
+	"mro::get_linear_isa";
+}
+subgraph cluster_Internals {
+	label="Internals";
+	"Internals::SvREADONLY";
+}
+subgraph cluster_UNIVERSAL {
+	label="UNIVERSAL";
+	"UNIVERSAL::isa";
+	"UNIVERSAL::VERSION";
+	"UNIVERSAL::can";
+}
+subgraph cluster_Hash_Flatten {
+	label="Hash::Flatten";
+	"Hash::Flatten::_flatten_hash_level";
+	"Hash::Flatten::BEGIN@16";
+	"Hash::Flatten::CORE:subst";
+	"Hash::Flatten::CORE:match";
+	"Hash::Flatten::_unescape";
+	"Hash::Flatten::TRACE";
+	"Hash::Flatten::CORE:substcont";
+	"Hash::Flatten::BEGIN@24";
+	"Hash::Flatten::BEGIN@18";
+	"Hash::Flatten::unflatten";
+	"Hash::Flatten::BEGIN@25";
+	"Hash::Flatten::_flatten";
+	"Hash::Flatten::new";
+	"Hash::Flatten::flatten";
+	"Hash::Flatten::CORE:regcomp";
+	"Hash::Flatten::BEGIN@15";
+	"Hash::Flatten::_escape";
+	"Hash::Flatten::BEGIN@14";
+	"Hash::Flatten::BEGIN@28";
+	"Hash::Flatten::_stringify_ref";
+}
+subgraph cluster_Digest_base {
+	label="Digest::base";
+	"Digest::base::BEGIN@3";
+	"Digest::base::BEGIN@4";
+}
+subgraph cluster_Exporter_Heavy {
+	label="Exporter::Heavy";
+	"Exporter::Heavy::heavy_export";
+	"Exporter::Heavy::BEGIN@4";
+	"Exporter::Heavy::CORE:match";
+	"Exporter::Heavy::BEGIN@202";
+	"Exporter::Heavy::BEGIN@3";
+	"Exporter::Heavy::CORE:subst";
+}
+subgraph cluster_overload {
+	label="overload";
+	"overload::BEGIN@112";
+	"overload::mycan";
+	"overload::Overloaded";
+	"overload::OVERLOAD";
+	"overload::import";
+	"overload::BEGIN@142";
+	"overload::BEGIN@81";
+}
+subgraph cluster_Carp {
+	label="Carp";
+	"Carp::BEGIN@296";
+	"Carp::BEGIN@1";
+	"Carp::_fetch_sub";
+	"Carp::BEGIN@73";
+	"Carp::BEGIN@744";
+	"Carp::BEGIN@730";
+	"Carp::BEGIN@6";
+	"Carp::BEGIN@61";
+	"Carp::BEGIN@751";
+	"Carp::BEGIN@49";
+	"Carp::BEGIN@3";
+	"Carp::BEGIN@95";
+	"Carp::BEGIN@169";
+	"Carp::BEGIN@574";
+	"Carp::BEGIN@256";
+	"Carp::_univ_mod_loaded";
+	"Carp::BEGIN@137";
+	"Carp::BEGIN@188";
+	"Carp::BEGIN@5";
+	"Carp::BEGIN@4";
+}
+subgraph cluster_Scalar_Util {
+	label="Scalar::Util";
+	"Scalar::Util::blessed";
+	"Scalar::Util::BEGIN@10";
+	"Scalar::Util::BEGIN@9";
+	"Scalar::Util::refaddr";
+}
+subgraph cluster_File_Basename {
+	label="File::Basename";
+	"File::Basename::CORE:subst";
+	"File::Basename::basename";
+	"File::Basename::BEGIN@371";
+	"File::Basename::BEGIN@50";
+	"File::Basename::CORE:match";
+	"File::Basename::fileparse_set_fstype";
+	"File::Basename::BEGIN@51";
+	"File::Basename::BEGIN@42";
+	"File::Basename::CORE:regcomp";
+	"File::Basename::fileparse";
+	"File::Basename::_strip_trailing_sep";
+	"File::Basename::BEGIN@52";
+}
+subgraph cluster_Types_Serialiser {
+	label="Types::Serialiser";
+	"Types::Serialiser::BEGIN@112";
+	"Types::Serialiser::BEGIN@20";
+}
+subgraph cluster_Config {
+	label="Config";
+	"Config::TIEHASH";
+	"Config::BEGIN@47";
+	"Config::FETCH";
+	"Config::BEGIN@10";
+	"Config::import";
+	"Config::BEGIN@9";
+}
+subgraph cluster_constant {
+	label="constant";
+	"constant::CORE:qr";
+	"constant::CORE:subst";
+	"constant::CORE:regcomp";
+	"constant::BEGIN@4";
+	"constant::BEGIN@24";
+	"constant::BEGIN@2";
+	"constant::BEGIN@90";
+	"constant::CORE:match";
+	"constant::BEGIN@40";
+	"constant::BEGIN@65";
+	"constant::BEGIN@141";
+	"constant::import";
+	"constant::BEGIN@3";
+}
+subgraph cluster_Types_Serialiser_BooleanBase {
+	label="Types::Serialiser::BooleanBase";
+	"Types::Serialiser::BooleanBase::BEGIN@126";
+}
+subgraph cluster_Cwd {
+	label="Cwd";
+	"Cwd::getcwd";
+	"Cwd::abs_path";
+	"Cwd::CORE:fteexec";
+	"Cwd::CORE:match";
+	"Cwd::BEGIN@41";
+	"Cwd::CORE:regcomp";
+	"Cwd::BEGIN@3";
+	"Cwd::BEGIN@2";
+	"Cwd::BEGIN@657";
+}
+subgraph cluster_common_sense {
+	label="common::sense";
+	"common::sense::import";
+}
+subgraph cluster_Exporter {
+	label="Exporter";
+	"Exporter::import";
+	"Exporter::CORE:subst";
+	"Exporter::as_heavy";
+	"Exporter::export";
+	"Exporter::CORE:match";
+}
+subgraph cluster_warnings {
+	label="warnings";
+	"warnings::unimport";
+	"warnings::import";
+	"warnings::CORE:match";
+	"warnings::_mkMask";
+	"warnings::_bits";
+	"warnings::register_categories";
+	"warnings::_expand_bits";
+}
+subgraph cluster_Storable {
+	label="Storable";
+	"Storable::BEGIN@42";
+	"Storable::CORE:match";
+	"Storable::BEGIN@83";
+	"Storable::BEGIN@66";
+	"Storable::BEGIN@487";
+	"Storable::BEGIN@30";
+	"Storable::CORE:qr";
+	"Storable::BEGIN@109";
+	"Storable::CORE:regcomp";
+	"Storable::_make_re";
+	"Storable::BEGIN@44";
+	"Storable::dclone";
+}
+subgraph cluster_overloading {
+	label="overloading";
+	"overloading::unimport";
+	"overloading::BEGIN@2";
+}
+subgraph cluster_DynaLoader {
+	label="DynaLoader";
+	"DynaLoader::CORE:subst";
+	"DynaLoader::dl_find_symbol";
+	"DynaLoader::BEGIN@22";
+	"DynaLoader::BEGIN@18";
+	"DynaLoader::CORE:ftdir";
+	"DynaLoader::dl_load_file";
+	"DynaLoader::dl_load_flags";
+	"DynaLoader::CORE:ftsize";
+	"DynaLoader::bootstrap";
+	"DynaLoader::dl_install_xsub";
+	"DynaLoader::CORE:ftfile";
+	"DynaLoader::BEGIN@114";
+}
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::fileparse_set_fstype";
+"Ohm::Hasher::commit" -> "JSON::XS::allow_nonref";
+"Ohm::Hasher::__get_matches" -> "Ohm::Hasher::_isPrsv";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::CORE:fteexec";
+"Data::Walk::BEGIN@28" -> "Scalar::Util::BEGIN@10";
+"XSLoader::load" -> "DynaLoader::BEGIN@114";
+"Ohm::Hasher::BEGIN@28" -> "Data::Walk::BEGIN@28";
+"Ohm::Hasher::BEGIN@23" -> "JSON::XS::BEGIN@98";
+"File::Basename::basename" -> "File::Basename::_strip_trailing_sep";
+"lib::BEGIN@6" -> "Config::BEGIN@9";
+"Exporter::as_heavy" -> "Exporter::Heavy::BEGIN@3";
+"Storable::BEGIN@42" -> "Carp::BEGIN@730";
+"strict::BEGIN@7" -> "strict::CORE:match";
+"Ohm::Hasher::__get_matches" -> "Ohm::Hasher::_checks";
+"overload::mycan" -> "mro::BEGIN@10";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::CORE:regcomp";
+"Carp::BEGIN@61" -> "Carp::_fetch_sub";
+"Carp::BEGIN@73" -> "Carp::_fetch_sub";
+"Carp::BEGIN@137" -> "Carp::_fetch_sub";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@22";
+"Data::Walk::walk" -> "Data::Walk::__walk";
+"Data::Walk::__walk" -> "UNIVERSAL::isa";
+"Ohm::Hasher::gen_matches" -> "UNIVERSAL::isa";
+"Ohm::Hasher::rm_reff" -> "UNIVERSAL::isa";
+"Data::Walk::walk" -> "UNIVERSAL::isa";
+"Hash::Flatten::_flatten" -> "UNIVERSAL::isa";
+"Ohm::Hasher::__see" -> "UNIVERSAL::isa";
+"Hash::Flatten::unflatten" -> "UNIVERSAL::isa";
+"Ohm::Hasher::gen_reffs" -> "UNIVERSAL::isa";
+"Data::Walk::__recurse" -> "UNIVERSAL::isa";
+"Hash::Flatten::flatten" -> "UNIVERSAL::isa";
+"Ohm::Hasher::new" -> "UNIVERSAL::isa";
+"Data::Walk::__recurse" -> "Scalar::Util::refaddr";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::CORE:match";
+"Hash::Flatten::new" -> "Hash::Flatten::CORE:match";
+"Data::Walk::__walk" -> "Data::Walk::__recurse";
+"Data::Walk::__recurse" -> "Data::Walk::__recurse";
+"constant::import" -> "constant::CORE:subst";
+"Hash::Flatten::_stringify_ref" -> "overload::Overloaded";
+"warnings::register_categories" -> "warnings::_mkMask";
+"Ohm::Hasher::BEGIN@18" -> "utf8::import";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@109";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@4";
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::BEGIN@52";
+"Storable::dclone" -> "Storable::_make_re";
+"constant::import" -> "Internals::SvREADONLY";
+"constant::BEGIN@24" -> "Internals::SvREADONLY";
+"Types::Serialiser::BEGIN@20" -> "common::sense::import";
+"JSON::XS::BEGIN@90" -> "common::sense::import";
+"Storable::BEGIN@42" -> "Carp::BEGIN@61";
+"overload::BEGIN@81" -> "overloading::BEGIN@2";
+"attributes::_modify_attrs_and_deprecate" -> "attributes::_modify_attrs";
+"Storable::BEGIN@42" -> "Carp::BEGIN@6";
+"Hash::Flatten::BEGIN@24" -> "constant::import";
+"Hash::Flatten::BEGIN@28" -> "constant::import";
+"Hash::Flatten::BEGIN@25" -> "constant::import";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@5";
+"mro::BEGIN@10" -> "strict::import";
+"Fcntl::BEGIN@58" -> "strict::import";
+"constant::BEGIN@3" -> "strict::import";
+"File::Basename::BEGIN@50" -> "strict::import";
+"attributes::BEGIN@9" -> "strict::import";
+"vars::BEGIN@8" -> "strict::import";
+"Data::Structure::Util::BEGIN@5" -> "strict::import";
+"Hash::Flatten::BEGIN@14" -> "strict::import";
+"Exporter::Heavy::BEGIN@3" -> "strict::import";
+"AutoLoader::BEGIN@3" -> "strict::import";
+"Scalar::Util::BEGIN@9" -> "strict::import";
+"Digest::MD5::BEGIN@3" -> "strict::import";
+"Digest::base::BEGIN@3" -> "strict::import";
+"Data::Walk::BEGIN@26" -> "strict::import";
+"Cwd::BEGIN@2" -> "strict::import";
+"main::BEGIN@3" -> "strict::import";
+"Ohm::Hasher::BEGIN@16" -> "strict::import";
+"Config::BEGIN@9" -> "strict::import";
+"List::Util::BEGIN@9" -> "strict::import";
+"lib::BEGIN@8" -> "strict::import";
+"Carp::BEGIN@4" -> "strict::import";
+"JSON::XS::BEGIN@100" -> "Types::Serialiser::Error::BEGIN@157";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@8";
+"Storable::BEGIN@42" -> "Carp::BEGIN@256";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@297";
+"Ohm::Hasher::gen_config" -> "Hash::Flatten::unflatten";
+"Hash::Flatten::unflatten" -> "Hash::Flatten::unflatten";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@18";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@146";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::__validate";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@14";
+"Ohm::Hasher::new" -> "Ohm::Hasher::__init";
+"File::Basename::_strip_trailing_sep" -> "File::Basename::CORE:subst";
+"attributes::import" -> "UNIVERSAL::can";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@65";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:subst";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::CORE:match";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@9";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_load_file";
+"Exporter::Heavy::heavy_export" -> "Exporter::Heavy::CORE:match";
+"Data::Walk::BEGIN@31" -> "vars::BEGIN@3";
+"Ohm::Hasher::commit" -> "JSON::XS::encode";
+"Ohm::Hasher::__validate" -> "Cwd::getcwd";
+"Ohm::Hasher::__init" -> "Cwd::getcwd";
+"Ohm::Hasher::__gen_dspt" -> "JSON::XS::decode_json";
+"Ohm::Hasher::__check_matches" -> "JSON::XS::decode_json";
+"Data::Walk::__recurse" -> "Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:990]";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::BEGIN@657";
+"Ohm::Hasher::BEGIN@28" -> "Data::Walk::BEGIN@26";
+"Ohm::Hasher::BEGIN@24" -> "Ohm::Hasher::BEGIN@11";
+"Storable::BEGIN@42" -> "Carp::BEGIN@751";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@16";
+"Types::Serialiser::BooleanBase::BEGIN@126" -> "overload::BEGIN@142";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@25";
+"overload::BEGIN@142" -> "warnings::register::import";
+"Data::Structure::Util::BEGIN@6" -> "warnings::register::import";
+"constant::BEGIN@4" -> "warnings::register::import";
+"vars::BEGIN@7" -> "warnings::register::import";
+"Ohm::Hasher::commit" -> "JSON::XS::new";
+"main::BEGIN@2" -> "warnings::CORE:match";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::BEGIN@41";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@4";
+"Ohm::Hasher::BEGIN@27" -> "lib::import";
+"main::BEGIN@4" -> "lib::import";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@29";
+"strict::import" -> "strict::bits";
+"strict::unimport" -> "strict::bits";
+"lib::BEGIN@6" -> "Config::BEGIN@10";
+"warnings::register::import" -> "warnings::register_categories";
+"Storable::_make_re" -> "Storable::CORE:regcomp";
+"Ohm::Hasher::gen_config" -> "Ohm::Hasher::__gen_bp";
+"Storable::dclone" -> "re::regexp_pattern";
+"Ohm::Hasher::BEGIN@297" -> "DynaLoader::BEGIN@18";
+"Ohm::Hasher::__init" -> "Cwd::abs_path";
+"Storable::BEGIN@42" -> "Carp::BEGIN@744";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@40";
+"Data::Walk::BEGIN@28" -> "UNIVERSAL::VERSION";
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::BEGIN@51";
+"Data::Walk::BEGIN@28" -> "List::Util::BEGIN@35";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@44";
+"Ohm::Hasher::new" -> "Ohm::Hasher::__check_matches";
+"Exporter::import" -> "Exporter::export";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@25";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@13";
+"Data::Structure::Util::unbless" -> "Data::Structure::Util::unbless_xs";
+"DynaLoader::bootstrap" -> "Data::Structure::Util::bootstrap";
+"constant::import" -> "constant::CORE:match";
+"Hash::Flatten::new" -> "Hash::Flatten::CORE:regcomp";
+"Hash::Flatten::unflatten" -> "Hash::Flatten::CORE:regcomp";
+"Hash::Flatten::_escape" -> "Hash::Flatten::CORE:regcomp";
+"Hash::Flatten::_unescape" -> "Hash::Flatten::CORE:regcomp";
+"Carp::BEGIN@169" -> "Carp::BEGIN@1";
+"Ohm::Hasher::commit" -> "JSON::XS::DESTROY";
+"Ohm::Hasher::__divyMatches" -> "Ohm::Hasher::__genAttributes";
+"Data::Walk::BEGIN@31" -> "vars::BEGIN@7";
+"Data::Walk::BEGIN@31" -> "vars::BEGIN@8";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::write";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftsize";
+"Storable::BEGIN@42" -> "Carp::BEGIN@188";
+"constant::import" -> "constant::CORE:regcomp";
+"Storable::BEGIN@42" -> "Carp::BEGIN@4";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:print";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:print";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@194";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:990]" -> "Ohm::Hasher::gen_matches";
+"Ohm::Hasher::__leveler" -> "Ohm::Hasher::__leveler";
+"Ohm::Hasher::__divy" -> "Ohm::Hasher::__leveler";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@66";
+"lib::BEGIN@6" -> "Config::BEGIN@47";
+"Ohm::Hasher::gen_config" -> "Hash::Flatten::flatten";
+"Hash::Flatten::flatten" -> "Hash::Flatten::flatten";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@18";
+"Exporter::import" -> "Exporter::Heavy::heavy_export";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::BEGIN@3";
+"lib::BEGIN@6" -> "Config::import";
+"DynaLoader::BEGIN@22" -> "Config::import";
+"overload::mycan" -> "mro::get_linear_isa";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::CORE:readline";
+"Ohm::Hasher::get_matches" -> "Ohm::Hasher::CORE:readline";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:readline";
+"Ohm::Hasher::__gen_dspt" -> "Ohm::Hasher::CORE:readline";
+"Ohm::Hasher::__divyMatches" -> "Ohm::Hasher::__getObj";
+"Ohm::Hasher::__leveler" -> "Ohm::Hasher::__getObj";
+"Ohm::Hasher::__delimitAttr" -> "Ohm::Hasher::__getObj";
+"Ohm::Hasher::__genAttributes" -> "Ohm::Hasher::__getObj";
+"Ohm::Hasher::commit" -> "Data::Structure::Util::unbless";
+"Ohm::Hasher::BEGIN@297" -> "DynaLoader::bootstrap";
+"lib::BEGIN@6" -> "version::(bool";
+"main::NULL" -> "main::BEGIN@4";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@27";
+"constant::import" -> "mro::method_changed_in";
+"Data::Walk::BEGIN@28" -> "List::Util::BEGIN@10";
+"Ohm::Hasher::BEGIN@21" -> "Cwd::BEGIN@2";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftfile";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::__sweep";
+"Ohm::Hasher::BEGIN@17" -> "warnings::import";
+"Carp::BEGIN@5" -> "warnings::import";
+"overloading::BEGIN@2" -> "warnings::import";
+"mro::BEGIN@11" -> "warnings::import";
+"File::Basename::BEGIN@52" -> "warnings::import";
+"Config::BEGIN@10" -> "warnings::import";
+"List::Util::BEGIN@10" -> "warnings::import";
+"main::BEGIN@2" -> "warnings::import";
+"Scalar::Util::BEGIN@10" -> "warnings::import";
+"lib::BEGIN@6" -> "Config::TIEHASH";
+"Storable::_make_re" -> "Storable::CORE:match";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:ftzero";
+"Ohm::Hasher::commit" -> "JSON::XS::pretty";
+"overload::import" -> "overload::OVERLOAD";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@16";
+"Exporter::Heavy::heavy_export" -> "Exporter::Heavy::CORE:subst";
+"main::NULL" -> "main::BEGIN@5";
+"Ohm::Hasher::BEGIN@28" -> "Data::Walk::BEGIN@36";
+"Ohm::Hasher::new" -> "Ohm::Hasher::__checkDir";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:seek";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:seek";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:seek";
+"JSON::XS::BEGIN@100" -> "Types::Serialiser::BEGIN@20";
+"main::RUNTIME" -> "Ohm::Hasher::new";
+"JSON::XS::BEGIN@98" -> "JSON::XS::__ANON__";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@17";
+"Ohm::Hasher::gen_config" -> "Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:254]";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@141";
+"overload::Overloaded" -> "overload::mycan";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::rm_reff";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::rm_reff";
+"Data::Walk::BEGIN@28" -> "List::Util::BEGIN@9";
+"Types::Serialiser::Error::BEGIN@157" -> "overload::import";
+"Types::Serialiser::BooleanBase::BEGIN@126" -> "overload::import";
+"Storable::BEGIN@42" -> "Carp::BEGIN@5";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@28";
+"Storable::BEGIN@42" -> "Carp::BEGIN@169";
+"File::Basename::basename" -> "File::Basename::fileparse";
+"Storable::_make_re" -> "Storable::CORE:qr";
+"Storable::BEGIN@487" -> "Storable::CORE:qr";
+"Data::Walk::__recurse" -> "Scalar::Util::blessed";
+"File::Basename::fileparse_set_fstype" -> "File::Basename::CORE:regcomp";
+"Storable::BEGIN@42" -> "Carp::BEGIN@95";
+"Ohm::Hasher::__divy" -> "Ohm::Hasher::gen_config";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:tell";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:tell";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:tell";
+"Exporter::export" -> "Exporter::as_heavy";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_load_flags";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@3";
+"File::Basename::fileparse" -> "File::Basename::CORE:match";
+"File::Basename::fileparse_set_fstype" -> "File::Basename::CORE:match";
+"Ohm::Hasher::__gen_dspt" -> "Ohm::Hasher::CORE:sort";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1651]" -> "Ohm::Hasher::CORE:sort";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1624]" -> "Ohm::Hasher::CORE:sort";
+"Ohm::Hasher::__genAttributes" -> "Ohm::Hasher::CORE:sort";
+"main::BEGIN@3" -> "strict::BEGIN@7";
+"overload::mycan" -> "mro::BEGIN@11";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_install_xsub";
+"Storable::BEGIN@42" -> "Carp::BEGIN@137";
+"DynaLoader::BEGIN@114" -> "attributes::import";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::CORE:open";
+"Ohm::Hasher::get_matches" -> "Ohm::Hasher::CORE:open";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:open";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:open";
+"Ohm::Hasher::__gen_dspt" -> "Ohm::Hasher::CORE:open";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:open";
+"Hash::Flatten::_flatten_hash_level" -> "Hash::Flatten::_flatten";
+"JSON::XS::BEGIN@100" -> "Types::Serialiser::BEGIN@112";
+"JSON::XS::BEGIN@100" -> "Types::Serialiser::BooleanBase::BEGIN@126";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@24";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@2";
+"Ohm::Hasher::BEGIN@28" -> "Data::Walk::BEGIN@27";
+"Storable::BEGIN@42" -> "Carp::BEGIN@3";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@24";
+"Ohm::Hasher::get_matches" -> "Ohm::Hasher::__get_matches";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@28";
+"lib::import" -> "lib::CORE:ftdir";
+"Data::Structure::Util::BEGIN@9" -> "Digest::base::BEGIN@4";
+"Storable::BEGIN@42" -> "Carp::BEGIN@73";
+"Storable::BEGIN@83" -> "Fcntl::BEGIN@58";
+"warnings::import" -> "warnings::_bits";
+"lib::BEGIN@6" -> "version::(cmp";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@6";
+"Hash::Flatten::BEGIN@24" -> "constant::CORE:qr";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::commit";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@23";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::CORE:match";
+"Ohm::Hasher::__get_matches" -> "Ohm::Hasher::CORE:match";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:254]" -> "Storable::dclone";
+"Ohm::Hasher::commit" -> "Storable::dclone";
+"Ohm::Hasher::__gen_bp" -> "Storable::dclone";
+"Ohm::Hasher::gen_config" -> "Storable::dclone";
+"Hash::Flatten::flatten" -> "Hash::Flatten::_flatten_hash_level";
+"Hash::Flatten::_flatten" -> "Hash::Flatten::_flatten_hash_level";
+"main::BEGIN@5" -> "main::__ANON__";
+"Data::Structure::Util::BEGIN@9" -> "Digest::base::BEGIN@3";
+"main::NULL" -> "main::BEGIN@3";
+"Types::Serialiser::BooleanBase::BEGIN@126" -> "overload::BEGIN@112";
+"Hash::Flatten::_flatten_hash_level" -> "Hash::Flatten::TRACE";
+"Hash::Flatten::unflatten" -> "Hash::Flatten::TRACE";
+"Hash::Flatten::_flatten" -> "Hash::Flatten::TRACE";
+"Hash::Flatten::new" -> "Hash::Flatten::TRACE";
+"Hash::Flatten::_escape" -> "Hash::Flatten::CORE:substcont";
+"Hash::Flatten::unflatten" -> "Hash::Flatten::_unescape";
+"overload::BEGIN@112" -> "overloading::unimport";
+"overload::BEGIN@81" -> "overloading::unimport";
+"Carp::BEGIN@1" -> "overloading::unimport";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@487";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@19";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:close";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:close";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:close";
+"Ohm::Hasher::get_matches" -> "Ohm::Hasher::CORE:close";
+"Exporter::import" -> "Exporter::CORE:match";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@37";
+"Ohm::Hasher::BEGIN@23" -> "JSON::XS::BEGIN@100";
+"attributes::import" -> "attributes::_modify_attrs_and_deprecate";
+"Ohm::Hasher::BEGIN@21" -> "Config::FETCH";
+"Ohm::Hasher::BEGIN@297" -> "Config::FETCH";
+"main::BEGIN@4" -> "Config::FETCH";
+"Ohm::Hasher::commit" -> "JSON::XS::allow_blessed";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:990]" -> "Ohm::Hasher::gen_reffs";
+"Data::Walk::BEGIN@28" -> "Scalar::Util::BEGIN@9";
+"Ohm::Hasher::__leveler" -> "Ohm::Hasher::__changePointLvl";
+"Ohm::Hasher::BEGIN@19" -> "feature::import";
+"vars::import" -> "vars::CORE:match";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@24";
+"Ohm::Hasher::__gen_dspt" -> "Ohm::Hasher::CORE:qr";
+"Exporter::as_heavy" -> "Exporter::Heavy::BEGIN@4";
+"Types::Serialiser::BooleanBase::BEGIN@126" -> "overload::BEGIN@81";
+"Hash::Flatten::BEGIN@24" -> "constant::BEGIN@90";
+"Ohm::Hasher::__genAttributes" -> "Ohm::Hasher::__delimitAttr";
+"Ohm::Hasher::commit" -> "Ohm::Hasher::CORE:truncate";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::CORE:truncate";
+"Ohm::Hasher::write" -> "Ohm::Hasher::CORE:truncate";
+"Ohm::Hasher::see" -> "Ohm::Hasher::__see";
+"Ohm::Hasher::__see" -> "Ohm::Hasher::__see";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@42";
+"Hash::Flatten::_flatten_hash_level" -> "Hash::Flatten::_stringify_ref";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@21";
+"main::BEGIN@4" -> "lib::BEGIN@6";
+"Data::Walk::__recurse" -> "Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1651]";
+"Hash::Flatten::_unescape" -> "Hash::Flatten::CORE:subst";
+"Hash::Flatten::_escape" -> "Hash::Flatten::CORE:subst";
+"Carp::BEGIN@188" -> "strict::unimport";
+"Carp::BEGIN@256" -> "strict::unimport";
+"List::Util::BEGIN@35" -> "strict::unimport";
+"Carp::BEGIN@751" -> "strict::unimport";
+"AutoLoader::BEGIN@146" -> "strict::unimport";
+"Cwd::BEGIN@657" -> "strict::unimport";
+"AutoLoader::BEGIN@194" -> "strict::unimport";
+"constant::BEGIN@40" -> "strict::unimport";
+"constant::BEGIN@65" -> "strict::unimport";
+"Carp::BEGIN@730" -> "strict::unimport";
+"Exporter::Heavy::BEGIN@4" -> "strict::unimport";
+"constant::BEGIN@90" -> "strict::unimport";
+"Config::BEGIN@47" -> "strict::unimport";
+"AutoLoader::BEGIN@37" -> "strict::unimport";
+"constant::BEGIN@141" -> "strict::unimport";
+"Exporter::as_heavy" -> "Exporter::Heavy::BEGIN@202";
+"Ohm::Hasher::BEGIN@23" -> "JSON::XS::BEGIN@1811";
+"Data::Structure::Util::BEGIN@9" -> "Digest::MD5::BEGIN@3";
+"Ohm::Hasher::BEGIN@297" -> "AutoLoader::BEGIN@3";
+"Storable::BEGIN@42" -> "Carp::BEGIN@574";
+"attributes::import" -> "attributes::reftype";
+"Ohm::Hasher::BEGIN@28" -> "Data::Walk::BEGIN@31";
+"Storable::BEGIN@42" -> "Carp::BEGIN@49";
+"Ohm::Hasher::__gen_dspt" -> "Ohm::Hasher::CORE:regcomp";
+"Ohm::Hasher::__get_matches" -> "Ohm::Hasher::CORE:regcomp";
+"Ohm::Hasher::__delimitAttr" -> "Ohm::Hasher::CORE:regcomp";
+"Ohm::Hasher::__genAttributes" -> "Ohm::Hasher::CORE:regcomp";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@3";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::__divy";
+"Ohm::Hasher::BEGIN@29" -> "Hash::Flatten::BEGIN@15";
+"Ohm::Hasher::BEGIN@297" -> "Data::Structure::Util::BEGIN@7";
+"Ohm::Hasher::BEGIN@23" -> "JSON::XS::BEGIN@90";
+"Storable::BEGIN@42" -> "Carp::BEGIN@296";
+"DynaLoader::BEGIN@114" -> "attributes::BEGIN@9";
+"Storable::BEGIN@109" -> "XSLoader::load";
+"overload::mycan" -> "XSLoader::load";
+"Data::Walk::BEGIN@28" -> "XSLoader::load";
+"Storable::BEGIN@83" -> "XSLoader::load";
+"Data::Structure::Util::BEGIN@9" -> "XSLoader::load";
+"DynaLoader::BEGIN@114" -> "XSLoader::load";
+"Ohm::Hasher::BEGIN@21" -> "XSLoader::load";
+"Ohm::Hasher::BEGIN@23" -> "XSLoader::load";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::get_matches";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::get_matches";
+"lib::import" -> "lib::CORE:ftis";
+"Hash::Flatten::unflatten" -> "Hash::Flatten::new";
+"Hash::Flatten::flatten" -> "Hash::Flatten::new";
+"Ohm::Hasher::__leveler" -> "Ohm::Hasher::__divyMatches";
+"Ohm::Hasher::__sweep" -> "Data::Walk::walk";
+"Ohm::Hasher::__genWrite" -> "Data::Walk::walk";
+"feature::import" -> "feature::__common";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@30";
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::BEGIN@42";
+"DynaLoader::bootstrap" -> "DynaLoader::dl_find_symbol";
+"Ohm::Hasher::BEGIN@297" -> "DynaLoader::BEGIN@22";
+"main::BEGIN@5" -> "Ohm::Hasher::BEGIN@711";
+"main::NULL" -> "main::BEGIN@2";
+"Ohm::Hasher::__validate" -> "Ohm::Hasher::see";
+"Data::Structure::Util::BEGIN@9" -> "Digest::MD5::BEGIN@4";
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::BEGIN@371";
+"Ohm::Hasher::__init" -> "File::Basename::basename";
+"Exporter::as_heavy" -> "Exporter::CORE:subst";
+"Exporter::import" -> "Exporter::CORE:subst";
+"Ohm::Hasher::new" -> "Ohm::Hasher::__gen_dspt";
+"main::BEGIN@4" -> "lib::BEGIN@8";
+"Carp::BEGIN@137" -> "Carp::_univ_mod_loaded";
+"Ohm::Hasher::BEGIN@23" -> "JSON::XS::BEGIN@97";
+"Ohm::Hasher::__init" -> "Ohm::Hasher::__checkChgArgs";
+"Ohm::Hasher::__init" -> "Ohm::Hasher::CORE:subst";
+"Ohm::Hasher::__genAttributes" -> "Ohm::Hasher::CORE:subst";
+"Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1624]" -> "Ohm::Hasher::CORE:subst";
+"Ohm::Hasher::__leveler" -> "Ohm::Hasher::__getPointStr";
+"lib::import" -> "lib::_get_dirs";
+"Hash::Flatten::BEGIN@18" -> "vars::import";
+"Data::Walk::BEGIN@31" -> "vars::import";
+"Data::Walk::BEGIN@36" -> "vars::import";
+"Data::Structure::Util::BEGIN@7" -> "vars::import";
+"Digest::MD5::BEGIN@4" -> "vars::import";
+"Digest::base::BEGIN@4" -> "vars::import";
+"Hash::Flatten::_flatten_hash_level" -> "Hash::Flatten::_escape";
+"Carp::BEGIN@744" -> "warnings::unimport";
+"Carp::BEGIN@6" -> "warnings::unimport";
+"Exporter::Heavy::BEGIN@202" -> "warnings::unimport";
+"Storable::BEGIN@66" -> "warnings::unimport";
+"Data::Walk::__recurse" -> "Ohm::Hasher::__ANON__[/Users/azuhmier/hmofa/hmofa/code/test/lib/Ohm/Hasher.pm:1624]";
+"Ohm::Hasher::BEGIN@23" -> "Exporter::import";
+"Data::Structure::Util::BEGIN@8" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@297" -> "Exporter::import";
+"Hash::Flatten::BEGIN@16" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@29" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@28" -> "Exporter::import";
+"JSON::XS::BEGIN@97" -> "Exporter::import";
+"Data::Walk::BEGIN@28" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@24" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@25" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@711" -> "Exporter::import";
+"Hash::Flatten::BEGIN@15" -> "Exporter::import";
+"Data::Structure::Util::BEGIN@9" -> "Exporter::import";
+"Storable::BEGIN@42" -> "Exporter::import";
+"Storable::BEGIN@83" -> "Exporter::import";
+"Cwd::BEGIN@3" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@21" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@22" -> "Exporter::import";
+"Ohm::Hasher::BEGIN@24" -> "Storable::BEGIN@83";
+"DynaLoader::bootstrap" -> "DynaLoader::CORE:ftdir";
+"lib::import" -> "lib::CORE:match";
+"warnings::unimport" -> "warnings::_expand_bits";
+"warnings::_bits" -> "warnings::_expand_bits";
+"Ohm::Hasher::__check_matches" -> "Ohm::Hasher::__genWrite";
+"Ohm::Hasher::BEGIN@22" -> "File::Basename::BEGIN@50";
+}

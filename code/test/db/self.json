@@ -1,0 +1,42 @@
+{
+   "paths" : {
+      "dspt" : "/Users/azuhmier/hmofa/hmofa/code/test/deimos.json",
+      "output" : "/Users/azuhmier/hmofa/hmofa/code/test/output",
+      "drsr" : "/Users/azuhmier/hmofa/hmofa/code/test/drsr_C.json",
+      "mask" : "/Users/azuhmier/hmofa/hmofa/code/test/mask_C.json",
+      "input" : "/Users/azuhmier/hmofa/hmofa/code/result/libby.txt"
+   },
+   "matcjes" : {
+      "objs" : {}
+   },
+   "circ" : [],
+   "name" : "libby",
+   "cwd" : "/Users/azuhmier/hmofa/hmofa/code/test",
+   "params" : {
+      "attribs" : "1",
+      "mes" : "1",
+      "prsv" : "1",
+      "delims" : "1"
+   },
+   "prsv" : null,
+   "meta" : {
+      "dspt" : {
+         "ord_map" : {
+            "-1" : "prsv",
+            "1.1.1.1.2" : "url",
+            "1.1.1.1" : "title",
+            "1.1.1.1.3" : "description",
+            "1" : "section",
+            "1.1.1.1.1" : "tags",
+            "1.1.1" : "series",
+            "0" : "lib",
+            "1.1" : "author"
+         },
+         "ord_limit" : "1.1.1.1.4",
+         "ord_max" : "1.1.1.1.3"
+      },
+      "tmp" : {
+         "matches" : {}
+      }
+   }
+}
