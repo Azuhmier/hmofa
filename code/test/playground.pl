@@ -30,4 +30,5 @@ my $lib  = Ohm::Hasher->new(
     './drsr_C.json',
     './mask_C.json',
 );
+$lib->gen_config('dspt');
 do {};

@@ -67,22 +67,26 @@ sub flatten { #{{{1
     return \%flat_hash;
 }
 
-sub unflatten { #{{{1
+sub unflatten #{{{1
+{
     #Convert functional to OO with default ctor
-    if(ref $_[0] ne __PACKAGE__) {
+    if (ref $_[0] ne __PACKAGE__)
+    {
         return __PACKAGE__->new($_[1])->unflatten($_[0]);
     }
 
     my ($self, $hashref) = @_;
     die("1st arg must be a hashref") unless(UNIVERSAL::isa($hashref, 'HASH'));
 
-    my $delim = {
+    my $delim =
+    {
         'HASH' => $self->{HashDelimiter},
         'ARRAY' => $self->{ArrayDelimiter}
     };
 
     my $regexp = '((?:' . quotemeta($delim->{'HASH'}) . ')|(?:' . quotemeta($delim->{'ARRAY'}) . '))';
-    if($self->{EscapeSequence}) {
+    if ($self->{EscapeSequence})
+    {
         $regexp = '(?<!'.quotemeta($self->{EscapeSequence}).')'.$regexp; #Use negative look behind
     }
     TRACE("regex = /$regexp/");
@@ -101,20 +105,26 @@ sub unflatten { #{{{1
             my $type = shift(@levels);
             if ($type eq $delim->{'HASH'})
             {
-                if (UNIVERSAL::isa($ptr, 'HASH')) {
+                if (UNIVERSAL::isa($ptr, 'HASH'))
+                {
                     $ptr->{$key} = {} unless exists $ptr->{$key};
                     $ptr = $ptr->{$key};
-                } else {
+                }
+                else
+                {
                     $ptr->[$key] = {} unless defined $ptr->[$key];
                     $ptr = $ptr->[$key];
                 }
             }
             elsif ($type eq $delim->{'ARRAY'})
             {
-                if (UNIVERSAL::isa($ptr, 'HASH')) {
+                if (UNIVERSAL::isa($ptr, 'HASH'))
+                {
                     $ptr->{$key} = [] unless exists $ptr->{$key};
                     $ptr = $ptr->{$key};
-                } else {
+                }
+                else
+                {
                     $ptr->[$key] = [] unless defined $ptr->[$key];
                     $ptr = $ptr->[$key];
                 }
@@ -125,9 +135,12 @@ sub unflatten { #{{{1
             }
         }
 
-        if (UNIVERSAL::isa($ptr, 'HASH')) {
+        if (UNIVERSAL::isa($ptr, 'HASH'))
+        {
             $ptr->{$finalkey} = $value;
-        } else {
+        }
+        else
+        {
             $ptr->[$finalkey] = $value;
         }
     }
@@ -138,30 +151,37 @@ sub unflatten { #{{{1
 # Private subroutines
 #
 
-sub _flatten { #{{{1
+sub _flatten #{{{1
+{
     my ($self, $flatkey, $v, $delim) = @_;
 
     TRACE("flatten: $self - " . ref($v));
 
-    if(UNIVERSAL::isa($v, 'REF')) {
+    if(UNIVERSAL::isa($v, 'REF'))
+    {
         $v = $self->_follow_refs($v);
     }
-    if(UNIVERSAL::isa($v, 'HASH') and %$v) {
+    if(UNIVERSAL::isa($v, 'HASH') and %$v)
+    {
         return $self->_flatten_hash_level($v, $delim, $flatkey);
     }
-    elsif(UNIVERSAL::isa($v, 'ARRAY') and @$v) {
+    elsif(UNIVERSAL::isa($v, 'ARRAY') and @$v)
+    {
         return $self->_flatten_array_level($v, $delim, $flatkey);
     }
-    elsif(UNIVERSAL::isa($v, 'GLOB')) {
+    elsif(UNIVERSAL::isa($v, 'GLOB'))
+    {
         $v = $self->_flatten_glob_ref($v);
     }
-    elsif(UNIVERSAL::isa($v, 'SCALAR')) {
+    elsif(UNIVERSAL::isa($v, 'SCALAR'))
+    {
         $v = $self->_flatten_scalar_ref($v);
     }
     return [$flatkey, $v];
 }
 
-sub _follow_refs { #{{{1
+sub _follow_refs #{{{1
+{
     my ($self, $rscalar) = @_;
     while (UNIVERSAL::isa($rscalar, 'REF'))
     {

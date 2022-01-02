@@ -18,11 +18,11 @@ use warnings;
 use utf8;
 use feature 'current_sub';
 
-use Cwd;
 use File::Basename;
 use JSON::XS;
 use Storable qw(dclone);
 use Carp qw(croak carp);
+use Cwd;
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
@@ -34,6 +34,7 @@ sub get_sum #{{{1
     my ( $self, $args ) = @_;
 
     my $copy = dclone $self;
+    delete $copy->{tmp};
 
     # DSPT
     if ( exists $copy->{dspt} )
@@ -86,28 +87,6 @@ sub get_sum #{{{1
         $copy->{matches} = $matches;
     }
 
-    # MATCHES TMP
-    if ( exists $copy->{tmp}{matches} )
-    {
-        my $matches = $copy->{tmp}{matches};
-        my $total = 0;
-
-        if ( exists $matches->{miss} )
-        {
-            $matches->{miss} = scalar $matches->{miss}->@*;
-            $total += $matches->{miss};
-        }
-
-        $matches->{obj_count} = scalar keys $matches->{objs}->%*;
-        for (keys $matches->{objs}->%*)
-        {
-            $matches->{objs}{$_} = scalar $matches->{objs}{$_}->@*;
-            $total += $matches->{objs}{$_};
-        }
-        $matches->{total} = $total;
-        $copy->{tmp}{matches} = $matches;
-    }
-
     # META
     if (exists $copy->{meta})
     {
@@ -136,83 +115,134 @@ sub get_sum #{{{1
     return $copy;
 }
 
-sub new #{{{1
+sub gen_config #{{{1
 {
-
-    my ($class, $args) = @_;
+    #generates complex configurations
+    my ( $self, $args ) = @_;
 
     # Convert '$args' into type 'HASH', if not already
     unless ( UNIVERSAL::isa($args, 'HASH') )
     {
         $args =
         {
-            input => $_[1],
-            dspt  => $_[2],
-            drsr  => $_[3],
-            mask  => $_[4],
-            prsv  => $_[5],
+            bp_name        => $_[1],
+            init_hash      => $_[2],
+            excluded_keys  => $_[3],
         };
     }
 
-    # Create Object
-    my $self = {};
-    bless $self, $class;
-
-    # init and form circular hash check
-    $self->__checkDir();
-    $self->__init( $args );
-    $self->__gen_dspt();
-    $self->__check_matches();
-
-    return $self;
-}
-
-sub gen_config #{{{1
-{
-    #generates complex configurations
-    my ( $self, $args ) = @_;
-
+    # Name and Init
     my $bp_name   = $args->{bp_name};
     my $init_hash = $args->{init_hash};
-    my @EXL_KEYS = ();
 
+    # EXL KEYS
+    my @EXL_KEYS  = ();
     if (exists $args->{exclude_keys})
     {
         @EXL_KEYS = $args->{exclude_keys}->@*;
     }
 
+    # get boilerplate
     my $bp = dclone $self->__gen_bp($bp_name) // die;
 
-    my $populate = sub #{{{2
+    # genconfig
+    my $config = populate($self, $bp, {});
+
+    # Use init hash
+    if ($init_hash)
+    {
+        my $flat_mask  = flatten $init_hash;
+        my $flat_config = flatten $config;
+
+        $flat_config = $self->__mask($flat_config, $flat_mask);
+
+        for my $key (@EXL_KEYS)
+        {
+            delete $flat_config->{$key};
+        }
+        $config = unflatten $flat_config;
+
+    }
+
+    # RETURN
+    return $config;
+
+    # subroutines
+    sub __mask #{{{
+    {
+        my ($self, $flat_config, $flat_mask) = @_;
+
+        #for my $key ( keys %$flat_config )
+        for my $key ( keys %$flat_mask )
+        {
+            my $str = $key;
+            my $pat;
+            my $delim;
+            my $end;
+            if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
+            {
+                $pat = $1;
+                $delim = $2 // '';
+                $end = $delim ? '' : '$' ;
+            }
+            else { die }
+
+            my @KEYS = grep {$_ =~ /^\Q$pat\E$end/} keys %$flat_config;
+            my @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
+
+            while ( scalar @KEYS > 1 || scalar @CLN )
+            {
+                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
+                {
+                    $pat  .= $delim.$1;
+                    $delim = $2 // '';
+                    $end = $delim ? '' : '$' ;
+
+                }
+
+                @KEYS = grep {$_ =~ /\Q$pat\E$end/ } keys %$flat_config;
+                @CLN  = grep {$_ !~ m/\Q$pat$delim\E$end/ } @KEYS;
+            }
+
+            delete $flat_mask->{$_} for @CLN;
+            $flat_config->{$key} = $flat_mask->{$key};
+
+        }
+        return $flat_config;
+    }
+
+    sub populate #{{{
     {
         my ( $self, $bp, $config, $OBJ ) = @_;
 
         my $type    = delete $bp->{type} // return $config;
-        #die if $type ne 'config';
         my $fill    = delete $bp->{fill} // die;
         my $general = delete $bp->{general};
         my $member  = delete $bp->{member};
+        my @RemKeys = keys %$bp;
         $config  = dclone $general if $general;
 
 
+        # MEMBER
         if ( %$member )
         {
 
+            # KEYS
             my @KEYS;
             if ($OBJ)
             {
-                @KEYS = keys $self->{dspt}{$OBJ}{attr}->%*;
+                @KEYS = keys $self->{dspt}{$OBJ}{attrs}->%*;
                 push @KEYS, $OBJ if $fill->[1];
             }
-
             else
             {
                 @KEYS = keys $self->{dspt}->%*;
             }
 
+            # Recurse with keys
             for my $key ( @KEYS )
             {
-                $config->{$key} = __SUB__->
+                $config->{$key} = populate
                 (
                     $self,
                     dclone $member,
@@ -222,9 +252,10 @@ sub gen_config #{{{1
             }
         }
 
-        for my $key ( keys %$bp )
+        # REMAINING KEYS
+        for my $key ( @RemKeys )
         {
-            $config->{$key} = __SUB__->
+            $config->{$key} = populate
             (
                 $self,
                 dclone $bp->{$key},
@@ -233,108 +264,32 @@ sub gen_config #{{{1
             );
         }
 
-        if ($config eq 'HASH')
+        # GENERAL
+        if (ref $config eq 'HASH')
         {
-            my $flatConfig  = flatten(dclone $general) if $general;
-            my $flatConfig2 = flatten $config;
+            my $flat_mask  = flatten(dclone $general) if $general;
+            my $flat_config = flatten $config;
 
-            for my $key (keys %$flatConfig)
-            {
-                $flatConfig2->{$key} = $flatConfig->{$key};
-            }
+            $flat_config = $self->__mask($flat_config, $flat_mask);
+            #for my $key (keys %$flatConfig)
+            #{
+            #    # do not fill in remainder keys
+            #    if ( (grep {$key eq $_} @RemKeys)[0] ) { next }
+            #    $flatConfig2->{$key} = $flatConfig->{$key};
+            #}
 
-            return unflatten $flatConfig2;
+            return unflatten $flat_config;
         }
 
-        else
-        {
-            return $config;
-        }
-        #return $config;
-    }; #}}}
+        return $config;
+    } #}}}
 
-    my $config = $populate->($self, $bp, {});
-    if ($init_hash)
-    {
-        my $flatConfig  = flatten $init_hash;
-        my $flatConfig2 = flatten $config;
-
-        for my $key (keys %$flatConfig)
-        {
-            $flatConfig2->{$key} = $flatConfig->{$key};
-        }
-
-        for my $key (@EXL_KEYS)
-        {
-            delete $flatConfig2->{$key};
-        }
-        $config = unflatten $flatConfig2;
-
-        for my $key (@EXL_KEYS)
-        {
-            delete $config->{$key};
-        }
-    }
-    return $config;
-
-    #my $json = JSON::XS->new->allow_nonref->pretty->encode( $config );
-    #my $dir  = '/Users/azuhmier/hmofa/hmofa/code/test/';
-    #
-    #open my $fh, '>:utf8', $dir.$fname.'.json' or die $!;
-    #    print $fh $json;
-    #    truncate $fh, tell($fh) or die;
-    #    seek $fh,0,0 or die;
-    #close $fh;
-
-}
-
-sub commit #{{{1
-{
-    my ($self, $args) = @_;
-    my @KEYS = qw( hash dspt matches );
-    $self->rm_reff;
-
-    use Data::Structure::Util qw( unbless );
-    # INDIVDUAL HASHES
-    for my $key (@KEYS)
-    {
-        my $hash = dclone $self->{$key};
-        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
-        open my $fh, '>:utf8', $self->{cwd} . "/db/$key.json"
-            or die;
-            print $fh $json;
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-        close $fh;
-    }
-
-    # MISC HASH
-    {
-        my $hash = dclone $self;
-
-        for my $key (@KEYS, 'stdout', 'tmp')
-        {
-            delete $hash->{$key};
-        }
-
-        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
-        open my $fh, '>:utf8', $self->{cwd} . "/db/self.json"
-            or die;
-            print $fh $json;
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-        close $fh;
-    }
-
-    $self->__sweep(['reffs']);
-    return $self;
 }
 
 sub write #{{{1
 {
     my ( $self, $args ) = @_;
     my $writeArray = $self->{stdout};
-    #my $dir = '/Users/azuhmier/hmofa/hmofa/code/test/reezoli/';
     my $dir = $self->{paths}{output};
     open my $fh, '>:utf8', $dir . '/' . $self->{name} . '.txt' or die $!;
         for (@$writeArray)
@@ -422,321 +377,94 @@ sub get_matches #{{{1
     return $self;
 }
 
-sub __see #{{{1
+sub new #{{{1
 {
-    my ( $self, $item, $prefix, $flat) = @_;
+    my ($class, $args) = @_;
 
-    if ( UNIVERSAL::isa($item,'HASH' ) )
+    # Convert '$args' into type 'HASH', if not already
+    unless ( UNIVERSAL::isa($args, 'HASH') )
     {
-        for my $key ( keys %$item)
+        $args =
         {
-            my $flatkey = $prefix . '.' . $key;
-            $flat = $self->__see($item->{$key}, $flatkey, $flat);
-        }
-    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
-    {
-        for my $idx (0 .. $item->$#*)
-        {
-            my $flatkey = $prefix . ':' . $idx;
-            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
-        }
+            input => $_[1],
+            dspt  => $_[2],
+            drsr  => $_[3],
+            mask  => $_[4],
+            prsv  => $_[5],
+        };
     }
-    else
-    {
-            my $flatkey = $prefix . '=' . ($item // 'NULL');
-            push @$flat, $flatkey;
-    }
-    return $flat;
-}
 
-sub __flatten #{{{1
-{
-    my ($self, $key) = @_;
-    return flatten $self->{$key};
-}
+    # Create Object
+    my $self = {};
+    bless $self, $class;
 
-sub __unflatten #{{{1
-{
-    my ($self, $key) = @_;
-    return unflatten $self->{$key};
-}
+    # check if cwd has .ohm directory
 
-sub __gen_bp #{{{1
-{
-    my ( $self, $bp_name ) = @_;
-    my %bps =
-    (
-        objhash =>
-        {
-            type => 'struct',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                obj => undef,
-                val => undef,
-                childs => {},
-                attrs  => {},
-                meta   => {},
-                circs  =>
-                {
-                    '.'  => undef,
-                    '..' => undef,
-                },
-            },
-        },
-        meta =>
-        {
-            type => 'config',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                dspt =>
-                {
-                   ord_limit => undef,
-                   ord_map => undef,
-                   ord_max => undef,
-                },
-            },
-        },
-        params =>
-        {
-            type => 'config',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                attribs => 1,
-                delims => 1,
-                mes => 1,
-                prsv => 1,
-            },
-        },
-        paths =>
-        {
-            type => 'config',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                drsr => undef,
-                dspt => undef,
-                input => undef,
-                mask => undef,
-                output => undef,
-            },
-        },
-        prsv =>
-        {
-            type => 'config',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                till =>
-                [
-                    'section',
-                    0,
-                ],
-            },
-        },
-        self =>
-        {
-            type => 'config',
-            fill => [''],
-            member => {},
-            general =>
-            {
-                circs => [],
-                dspt => {},
-                hash => {},
-                matches => {},
-                meta => {},
-                name => undef,
-                stdout => [],
-                params => {},
-                paths  => {},
-                prsv => {},
-            },
-        },
-        matches =>
-        {
-            type => 'config',
-            fill => ['obj'],
-            member => {},
-            general =>
-            {
-                miss => [],
-                objs => {},
-            },
-            objs =>
-            {
-                type => 'config',
-                fill => ['obj'],
-                general => {},
-                member =>
-                {
-                    type => 'config',
-                    fill => ['obj'],
-                    general => [],
-                    member => {},
-                },
-            },
-        },
-        drsr =>
-        {
-            type => 'config',
-            fill => ['obj'],
-            general => {},
-            member =>
-            {
-                type => 'config',
-                fill => ['attr',1],
-                general => {},
-                member =>
-                {
-                    type => 'config',
-                    fill => [''],
-                    member => {},
-                    general =>
-                    {
-                        r => '',
-                        l => '',
-                        dr => '',
-                        dl => '',
-                        n => '',
-                        o => {},
-                    },
-                },
-            },
-        },
-        dspt =>
-        {
-            type => 'config',
-            fill => [''],
-            general =>
-            {
-                lib =>
-                {
-                    order => 0,
-                },
-                prsv =>
-                {
-                    order => -1,
-                    mask => {},
-                    drsr => {},
-                },
-            },
-            member =>
-            {
-                type => 'config',
-                fill => ['obj'],
-                member => {},
-                general =>
-                {
-                    re => undef,
-                    order => undef,
-                    attrs => {},
-                    drsr  => {},
-                    mask  => {},
-                },
-                attrs =>
-                {
-                    type => 'config',
-                    fill => ['attr'],
-                    general => {},
-                    member =>
-                    {
-                        type => 'config',
-                        fill => ['attr'],
-                        member => {},
-                        general =>
-                        {
-                            re => undef,
-                            ord => undef,
-                            delims => [],
-                        },
-                    },
-                },
-            },
-        },
-        mask =>
-        {
-            fill => ['obj'],
-            type => 'config',
-            general =>
-            {
-                lib => {},
-                prsv => {},
-            },
-            member =>
-            {
-                fill => ['obj'],
-                type => 'config',
-                member => {},
-                general =>
-                {
-                    supress =>
-                    {
-                        all => 0,
-                        vals => [],
-                    },
-                    sort => -1,
-                    place_holder =>
-                    {
-                        enable => 0,
-                        childs => [],
-                    },
-                },
-            },
-        },
-    );
+    # init and form circular hash check
+    $self->__init( $args );
 
-    return dclone $bps{lc $bp_name};
-}
-
-sub __checkDir #{{{1
-{
-    my ($self, $args) = @_;
     return $self;
 }
 
 sub __init #{{{1
 {
-
     my ( $self, $args ) = @_;
-
     my $class = ref $self;
-    use Cwd 'abs_path';
+
+    $self->{cwd} = getcwd;
+    my $isBase = $self->__checkDir();
+
+    # PARAMS - PRAMEMTERS
+    my $params = delete $args->{params};
+    if ( defined $params )
+    {
+        __checkChgArgs( $params, 'HASH', 'hash' )
+    }
+    $self->{params} = $self->gen_config
+    ({
+        init_hash => $params,
+        bp_name => 'params',
+    });
 
 
     #%--------PATHS--------#
+    use Cwd 'abs_path';
+    my $paths = {};
+
+    # CWD
+    $paths->{cwd} = getcwd;
+
     # INPUT
-    my $paths_input = abs_path delete $args->{input};
-    __checkChgArgs( $paths_input,'','string scalar' );
-    $self->{paths}{input} = $paths_input;
+    my $paths_input = delete $args->{input} || die "No path to input provided";
+    __checkChgArgs( $paths_input, '' , 'string scalar' );
+    if ($paths_input) { $paths->{input} = abs_path $paths_input }
 
     # DSPT - DISPATCH TABLE
-    my $paths_dspt = abs_path delete $args->{dspt};
-    __checkChgArgs( $paths_dspt,'','string scalar' );
-    $self->{paths}{dspt} = $paths_dspt;
+    my $paths_dspt = delete $args->{dspt} || die "No path to dspt provided";
+    __checkChgArgs( $paths_dspt, '' , 'string scalar' );
+    if ($paths_dspt) { $paths->{dspt} = abs_path $paths_dspt }
 
     # OUTPUT
-    my $output = abs_path ( delete $args->{output} // './output') ;
-    unless ( defined $output ) { $output = getcwd.'/output/' }
-    __checkChgArgs( $output,'','string scalar' );
-    $self->{paths}{output} = $output;
+    my $paths_output = delete $args->{output} // '';
+    __checkChgArgs( $paths_output,'','string scalar' );
+    if ($paths_output) { $paths->{output} = abs_path $paths_output }
 
     # DRSR - DRESSER
-    my $paths_drsr = abs_path delete $args->{drsr};
-    __checkChgArgs( $paths_drsr,'','string scalar' );
-    $self->{paths}{drsr} = $paths_drsr;
+    my $paths_drsr = delete $args->{drsr} // '';
+    __checkChgArgs( $paths_drsr, '' , 'string scalar' );
+    if ($paths_drsr) { $paths->{drsr} = abs_path $paths_drsr }
 
     # MASK
-    my $paths_mask = abs_path delete $args->{mask};
-    __checkChgArgs( $paths_mask,'','string scalar' );
-    $self->{paths}{mask} = $paths_mask;
+    my $paths_mask = delete $args->{mask} // '';
+    __checkChgArgs( $paths_mask, '' , 'string scalar' );
+    if ($paths_mask) { $paths->{mask} = abs_path $paths_mask }
+
+    # generate path config
+    $self->{paths} = $self->gen_config
+    ({
+        init_hash => $paths,
+        bp_name => 'paths',
+    });
 
 
     #%--------OTHER ARGS--------#
@@ -750,40 +478,32 @@ sub __init #{{{1
     __checkChgArgs( $name,'','string scalar' );
     $self->{name} = $name;
 
-    # PARAMS - PRAMEMTERS
-    my $params = delete $args->{params};
-    my $defaults =
-    {
-        attribs  => '1',
-        delims   => '1',
-        prsv     => '1',
-        mes      => '1',
-    };
-    $defaults->{$_} = $params->{$_} for keys %$params;
-    $self->{params} = $defaults;
-
     # PRSV - PRESERVES
     my $prsv = delete $args->{prsv};
     $self->{prsv} = $prsv;
 
 
-    #%--------NON ARGS--------#
+    #%-------- CHECK --------#
     # KEYS
     if ( my $remaining = join ', ', keys %$args )
     {
         croak( "Unknown keys to $class\::new: $remaining" );
     }
 
-    # CWD
-    $self->{cwd} = getcwd;
+
+    #%-------- DSPT --------#
+    $self->__gen_dspt();
 
 
+    #%-------- Check Matches --------#
+    $self->__check_matches();
 
+
+    return $self;
 }
 
 sub __gen_dspt #{{{1
 {
-
     my ( $self, $args ) = @_;
 
     # Import DSPT FILE
@@ -794,9 +514,20 @@ sub __gen_dspt #{{{1
         decode_json(<$fh>);
     };
 
+    # generate dspt config
+    $dspt = $self->gen_config
+    ({
+        init_hash => $dspt,
+        bp_name => 'dspt',
+    });
+
+    # assign DSPT
+    $self->{dspt} = $dspt;
+
+
     # Add intrisice DSPT keys
-    $dspt->{lib}  = { order =>'0'};
-    $dspt->{prsv} = { order =>'-1'};
+    #$dspt->{lib}  = { order =>'0'};
+    #$dspt->{prsv} = { order =>'-1'};
 
     # Generate Line and Attr Regexs
     for my $obj (keys %$dspt)
@@ -809,23 +540,23 @@ sub __gen_dspt #{{{1
             #line regexes
             if ( $key eq 're' )
             {
-                $objDSPT->{re} = qr/$objDSPT->{re}/
+                $objDSPT->{cre} = qr/$objDSPT->{re}/
             }
 
             #attribute regexes
-            if ( $key eq 'attr' )
+            if ( $key eq 'attrs' )
             {
 
-                my $dspt_attr = $objDSPT->{attr};
+                my $dspt_attr = $objDSPT->{attrs};
                 for my $attr (keys %$dspt_attr)
                 {
 
-                    $dspt_attr->{$attr}[0] = qr/$dspt_attr->{$attr}[0]/;
-                    if (scalar $dspt_attr->{$attr}->@* >= 3)
+                    $dspt_attr->{$attr}{cre} = qr/$dspt_attr->{$attr}{re}/;
+                    if (defined $dspt_attr->{$attr}{delims})
                     {
 
-                        my $delims = join '', $dspt_attr->{$attr}[2][0];
-                        $dspt_attr->{$attr}[3] = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
+                        my $delims = join '', $dspt_attr->{$attr}{delims}->@*;
+                        $dspt_attr->{$attr}{cdelims} = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
                                                                  : '';
 
                     }
@@ -873,6 +604,36 @@ sub __gen_dspt #{{{1
         grep { exists $dspt->{$_}{order} }
         keys %$dspt;
 
+    # sortMap
+    my @sorted_ords  =
+        sort
+        {
+            ( $a eq 'lib' ?-1 :0 )
+                ||
+            ( $b eq 'lib' ?1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$a}{order}) <=> scalar (split /\./, $dspt->{$b}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map} = [@sorted_ords];
+
+    # sortMap2
+    my @sorted_ords2  =
+        sort
+        {
+            ( $a eq 'lib' ?1 :0 )
+                ||
+            ( $b eq 'lib' ?-1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$b}{order}) <=> scalar (split /\./, $dspt->{$a}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map2} = [@sorted_ords2];
+
     # drsr
     my $drsr = do
     {
@@ -887,7 +648,7 @@ sub __gen_dspt #{{{1
         $dspt->{$obj}{drsr} = $drsr->{$obj};
         for my $attr (grep {$_ ne $obj} keys $drsr->{$obj}->%*)
         {
-            $dspt->{$obj}{attr}{$attr} // die "$attr for $self->{name}" ;
+            $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
 
         }
     }
@@ -931,7 +692,7 @@ sub __check_matches #{{{1
         delete $self->{stdout};
         $self->get_matches;
         $self->__divy();
-        $self->__sweep(['reffs','plhd']);
+        $self->__sweep(['reffs']);
         $self->__genWrite();
         $self->write();
         $self->__validate($fext);
@@ -964,149 +725,6 @@ sub __check_matches #{{{1
     return $self;
 }
 
-sub __sweep #{{{1
-{
-
-    my ( $self, $subs ) = @_;
-
-    my $sub_list =
-    {
-        reffs   => \&gen_reffs,
-        matches => \&gen_matches,
-        plhd    => \&place_holder,
-    };
-
-    $self->{m} = {};
-
-    walk
-    (
-        {
-            wanted => sub
-            {
-                for my $name (@$subs)
-                {
-                    $sub_list->{$name}->($self);
-                }
-            },
-        },
-        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
-    );
-
-    delete $self->{m};
-    return $self;
-
-    sub gen_reffs #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        $self->{circ} = [] unless exists $self->{circ};
-
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $objArr  = $Data::Walk::container;
-            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
-                                              # error or something
-
-            $objHash->{circ}{'.'}   = $objHash;
-            $objHash->{circ}{'..'}  = $objArr // 'NULL';
-            push $self->{circ}->@*, $objHash->{circ};
-
-        }
-
-        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
-        {
-            my $objArr = $_;
-            my $ParentHash  = $Data::Walk::container;
-            unshift @$objArr,
-            {
-                '.'   => $_,
-                '..'  => $ParentHash // 'NULL',
-            };
-            push $self->{circ}->@*, $objArr->[0];
-        }
-    }
-
-    sub gen_matches #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        unless ( exists $self->{matches} )
-        {
-            $self->{matches} =
-            {
-                objs => {},
-                miss => [{a => 2}]
-            }
-        }
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $obj = $objHash->{obj};
-            push $self->{matches}{objs}{ $obj }->@*, $objHash;
-        }
-
-    }
-
-    sub place_holder #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my $self = shift @_;
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-
-            my $objHash = $_;
-            my $obj     = $objHash->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
-
-            if ( $objMask->{place_holder}{enable} )
-            {
-
-                for my $child ( $objMask->{place_holder}{childs}->@* )
-                {
-
-                    unless ( exists $objHash->{childs}{$child} )
-                    {
-
-                        my $childHash = $objHash->{childs}{$child}[0] = {};
-                        %$childHash =
-                        (
-                            obj => $child,
-                            val => [],
-                            meta => undef,
-                        );
-
-                        # attributes
-                        my $childDspt = $self->{dspt}{$child};
-                        if ( defined $childDspt->{attr} )
-                        {
-                            for my $attr ( keys $childDspt->{attr}->%* )
-                            {
-                                if (exists $childDspt->{attr}{$attr}[2])
-                                {
-                                    $childHash->{attr}{$attr} = [];
-                                }
-                                else
-                                {
-                                    $childHash->{attr}{$attr} = '';
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 sub __get_matches #{{{1
 {
     my ( $self, $line, $FR_prsv, $tmp ) = @_;
@@ -1121,7 +739,7 @@ sub __get_matches #{{{1
     {
         $tgt->{matches}{objs}{$obj} = [] unless exists $tgt->{matches}{objs}{$obj};
 
-        my $regex = $dspt->{$obj}{re} // 0;
+        my $regex = $dspt->{$obj}{cre} // 0;
         if ($regex and $line =~ $regex)
         {
 
@@ -1152,6 +770,7 @@ sub __get_matches #{{{1
             val => $line,
             meta =>
             {
+                raw => $line,
                 LN  => $.,
             },
         };
@@ -1169,6 +788,7 @@ sub __get_matches #{{{1
             val => $line,
             meta =>
             {
+                raw => $line,
                 LN  => $.,
             },
         };
@@ -1212,19 +832,6 @@ sub __get_matches #{{{1
     return $FR_prsv;
 }
 
-
-sub __checkChgArgs #{{{1
-{
-    my ($arg, $cond, $type) = @_;
-    unless ( defined $arg )
-    {
-        croak( (caller(1))[3] . " requires an input" );
-    }
-    elsif (ref $arg ne $cond)
-    {
-        croak( (caller(1))[3] . " requires a $type" );
-    }
-}
 
 sub __divy #{{{1
 {
@@ -1368,24 +975,24 @@ sub __divy #{{{1
         my $obj = $self->__getObj;
         $match->{meta}{raw} = $match->{$obj};
 
-        if (exists $self->{dspt}{$obj}{attr})
+        if (exists $self->{dspt}{$obj}{attrs})
         {
-            my $attrsDspt = $self->{dspt}{$obj}{attr};
+            my $attrsDspt = $self->{dspt}{$obj}{attrs};
             my @ATTRS =
             sort
             {
-                $attrsDspt->{$a}[1] cmp $attrsDspt->{$b}[1];
+                $attrsDspt->{$a}{order} cmp $attrsDspt->{$b}{order};
             }
             keys %$attrsDspt;
 
             for my $attr (@ATTRS)
             {
-                my $success = $match->{val} =~ s/$attrsDspt->{$attr}[0]//;
+                my $success = $match->{val} =~ s/$attrsDspt->{$attr}{cre}//;
                 if ( $success )
                 {
-                    $match->{attr}{$attr} = $1;
+                    $match->{attrs}{$attr} = $1;
 
-                    if (scalar $attrsDspt->{$attr}->@* >= 3)
+                    if ( defined $attrsDspt->{$attr}{delims} )
                     {
                         $self->__delimitAttr($attr, $match);
                     }
@@ -1396,9 +1003,9 @@ sub __divy #{{{1
                 $match->{val} = [];
                 for my $attr(@ATTRS)
                 {
-                    if (exists $match->{attr}{$attr})
+                    if (exists $match->{attrs}{$attr})
                     {
-                        push $match->{val}->@*, $match->{attr}{$attr}->@*;
+                        push $match->{val}->@*, $match->{attrs}{$attr}->@*;
                     }
                 }
             }
@@ -1411,16 +1018,16 @@ sub __divy #{{{1
         ## Attributes
         my ( $self , $attr, $match ) = @_;
         my $objKey   = __getObj( $self );
-        my $dspt_attr = $self->{dspt}{$objKey}{attr};
+        my $dspt_attr = $self->{dspt}{$objKey}{attrs};
 
         ## Regex for Attribute Delimiters
-        my $delimsRegex = $dspt_attr->{$attr}[3];
+        my $delimsRegex = $dspt_attr->{$attr}{cdelims};
 
         ## Split and Grep Attribute Match-
-        $match->{attr}{$attr} =
+        $match->{attrs}{$attr} =
         [
             grep { $_ ne '' }
-            split( /$delimsRegex/, $match->{attr}{$attr} )
+            split( /$delimsRegex/, $match->{attrs}{$attr} )
         ];
     }
 
@@ -1468,6 +1075,149 @@ sub __divy #{{{1
 
 }
 
+sub __sweep #{{{1
+{
+
+    my ( $self, $subs ) = @_;
+
+    my $sub_list =
+    {
+        reffs   => \&gen_reffs,
+        matches => \&gen_matches,
+        plhd    => \&place_holder,
+    };
+
+    $self->{m} = {};
+
+    walk
+    (
+        {
+            wanted => sub
+            {
+                for my $name (@$subs)
+                {
+                    $sub_list->{$name}->($self);
+                }
+            },
+        },
+        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
+    );
+
+    delete $self->{m};
+    return $self;
+
+    sub gen_reffs #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        $self->{circ} = [] unless exists $self->{circ};
+
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $objArr  = $Data::Walk::container;
+            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
+                                              # error or something
+
+            $objHash->{circ}{'.'}   = $objHash;
+            $objHash->{circ}{'..'}  = $objArr // 'NULL';
+            push $self->{circ}->@*, $objHash->{circ};
+
+        }
+
+        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
+        {
+            my $objArr = $_;
+            my $ParentHash  = $Data::Walk::container;
+            unshift @$objArr,
+            {
+                '.'   => $_,
+                '..'  => $ParentHash // 'NULL',
+            };
+            push $self->{circ}->@*, $objArr->[0];
+        }
+    }
+
+    sub gen_matches #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        unless ( exists $self->{matches} )
+        {
+            $self->{matches} =
+            {
+                objs => {},
+                miss => [{a => 2}]
+            }
+        }
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $obj = $objHash->{obj};
+            push $self->{matches}{objs}{ $obj }->@*, $objHash;
+        }
+
+    }
+
+    sub place_holder #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my $self = shift @_;
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+
+            my $objHash = $_;
+            my $obj     = $objHash->{obj};
+            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
+
+            if ( $objMask->{place_holder}{enable} )
+            {
+
+                for my $child ( $objMask->{place_holder}{childs}->@* )
+                {
+
+                    unless ( exists $objHash->{childs}{$child} )
+                    {
+
+                        my $childHash = $objHash->{childs}{$child}[0] = {};
+                        %$childHash =
+                        (
+                            obj => $child,
+                            val => [],
+                            meta => undef,
+                        );
+
+                        # attributes
+                        my $childDspt = $self->{dspt}{$child};
+                        if ( defined $childDspt->{attrs} )
+                        {
+                            for my $attr ( keys $childDspt->{attrs}->%* )
+                            {
+                                if (exists $childDspt->{attrs}{$attr}{delims})
+                                {
+                                    $childHash->{attrs}{$attr} = [];
+                                }
+                                else
+                                {
+                                    $childHash->{attrs}{$attr} = '';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 sub __genWrite #{{{1
 {
     my ( $self, $args ) = @_;
@@ -1491,7 +1241,7 @@ sub __genWrite #{{{1
                     my $depth      = $Data::Walk::depth;
                     my $str        = '';
 
-                    ## --- String: d0, d1 #{{{3
+                    ## --- String: d0, d1
                     if (ref $item->{val} ne 'ARRAY')
                     {
                         $str .= $drsr->{$obj}[0]
@@ -1502,32 +1252,33 @@ sub __genWrite #{{{1
                     ## --- Attributes String: d0, d1, d2, d3, d4{{{3
                     my $attrStr = '';
                     # this should be solved in sweep
-                    my $attrDspt = $dspt->{$obj}{attr};
+                    my $attrDspt = $dspt->{$obj}{attrs};
                     if ($attrDspt)
                     {
                         for my $attr
                         (
                             sort
                             {
-                                $attrDspt->{$a}[1]
+                                $attrDspt->{$a}{order}
                                     cmp
-                                $attrDspt->{$b}[1]
+                                $attrDspt->{$b}{order}
                             }
                             keys %$attrDspt
                         )
                         {
 
                             ## Check existence of attributes
-                            if (exists $item->{attr}{$attr})
+                            if ( exists $item->{attrs}{$attr} )
                             {
-                                my $attrItem = $item->{attr}{$attr} // '';
+                                my $attrItem = $item->{attrs}{$attr} // '';
 
                                 ## Item Arrays
-                                if (exists $attrDspt->{$attr}[2])
+                                if (exists $attrDspt->{$attr}{delims})
                                 {
                                     my @itemPartArray = ();
                                     for my $part (@$attrItem)
                                     {
+                                        unless (defined $drsr->{$attr}[2] || defined $drsr->{$attr}[3]) { die " obj '$obj' does not have delims drsrs" }
                                         $part = $drsr->{$attr}[2]
                                               . $part
                                               . $drsr->{$attr}[3];
@@ -1608,7 +1359,6 @@ sub __genWrite #{{{1
                     chomp $str if $obj eq 'prsv';
 
                     #}}}
-                    #unless ($F_empty) { push $self->{stdout}->@*, $str if $obj ne 'lib' }
                     unless ($F_empty)
                     {
                         if ($obj eq 'prsv') {
@@ -1659,27 +1409,24 @@ sub __genWrite #{{{1
 
 sub __validate #{{{1
 {
-
     my ( $self, $type ) = @_;
 
     if ($type eq 'txt')
     {
-        # START
-        my %STDOUT;
+        my $CHECKS;
 
         # OUTPUT
         $self->{meta}{tmp}{matches} = {};
-        $self->get_matches(1);
-        my $tmpFile = $self->{paths}{output} . '/' . $self->{name} . '.txt';
-        my $file = $self->{paths}{input};
-        $STDOUT{txtCmp}{fname} = `diff $file $tmpFile`;
-        $STDOUT{txtCmp}{out} = `diff $file $tmpFile`;
 
-        do {};
+        my $tmpFile = $self->{paths}{output} . '/' . $self->{name} . '.txt';
+        my $file    = $self->{paths}{input};
+
+        $CHECKS->{txtCmp}{fp}  = $self->{paths}{cwd} . '/tmp/diff.txt';
+        $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
 
 
         # MATCHES
-        my @STDOUT;
+        $self->get_matches(1);
         my @matches = map
         {
             [
@@ -1687,61 +1434,57 @@ sub __validate #{{{1
                 $self->{matches}{objs}{$_},
                 $self->{tmp}{matches}{objs}{$_},
             ]
-        } keys $self->{matcjes}{objs}->%*;
+        } keys $self->{matches}{objs}->%*;
 
+        my $miss_matches = [
+                'miss',
+                $self->{matches}{miss},
+                $self->{tmp}{matches}{miss},
+        ];
+        push @matches, $miss_matches;
+
+        my @OUT;
         for my $part (@matches)
         {
-            my ( $obj, $val, $val2 ) = $part;
+            my ( $obj, $val, $val2 ) = @$part;
             $val = $val // [1];
             $val2 = $val2 // [1];
-            if (scalar @$val == scalar @$val2 )
+            if (scalar @$val != scalar @$val2 )
             {
-                push @STDOUT, $obj.':'.
-                (scalar @$val).
-                ':'.
-                (scalar @$val2).
+                push @OUT, $obj .
+                ':' .
+                (scalar @$val) .
+                ':' .
+                (scalar @$val2) .
                 "\n";
             }
         }
 
+        $CHECKS->{matchCmp}{fp}  = $self->{paths}{cwd} . '/tmp/cnt.txt';
+        $CHECKS->{matchCmp}{out} = [@OUT];
+
+        # WRITE
+        for my $check ( values %$CHECKS )
         {
-            open my $fh, '>', getcwd.'/tmp/diff.txt'
+            my $out = $check->{out};
+            my $fp  = $check->{fp};
+            open my $fh, '>:utf8', $fp
                 or die;
-                open my $cf, '-|', "diff $file $tmpFile"
-                    or die "Can't exec: $!\n";
-                    while(my $line = <$cf>)
-                    {
-                        print $fh $line,"\n";
-                    };
-                    truncate $fh, tell($fh) or die;
-                    seek $fh,0,0 or die;
-                close $cf;
-            close $fh;
-        }
-        {
-            open my $fh, '>', getcwd.'/tmp/cnt.txt'
-                or die;
-                print $fh @STDOUT;
+                print $fh @$out;
                 truncate $fh, tell($fh) or die;
                 seek $fh,0,0 or die;
             close $fh;
         }
 
-        my @files;
-        opendir my $dir, "$self->{cwd}/tmp" or die "Cannot open directory: $!";
-            while (my $f = readdir($dir))
-            {
-               next if $f eq '.' or $f eq '..';
-               push @files, $f;
-            }
-        closedir $dir;
-
+        # open non-empty check files in less
+        my @files = glob "$self->{paths}{cwd}/tmp/*";
         my $fileList;
+
         for my $file (@files)
         {
-            unless (-z "$self->{cwd}/tmp/$file")
+            unless (-z $file)
             {
-                $fileList .= " $self->{cwd}/tmp/$file";
+                $fileList .= " $file";
             }
         }
 
@@ -1750,8 +1493,8 @@ sub __validate #{{{1
             system "less " . $fileList;
         }
 
-
-        $self->commit;
+        # COMMIT
+        #$self->__commit;
 
     }
 
@@ -1767,6 +1510,354 @@ sub __validate #{{{1
     {
     }
 
+}
+
+sub __commit #{{{1
+{
+    my ($self, $args) = @_;
+    my @KEYS = qw( hash dspt matches );
+    $self->rm_reff;
+
+    use Data::Structure::Util qw( unbless );
+    # INDIVDUAL HASHES
+    for my $key (@KEYS)
+    {
+        my $hash = dclone $self->{$key};
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "/db/$key.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # MISC HASH
+    {
+        my $hash = dclone $self;
+
+        for my $key (@KEYS, 'stdout', 'tmp')
+        {
+            delete $hash->{$key};
+        }
+
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "/db/self.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    $self->__sweep(['reffs']);
+    return $self;
+}
+
+sub __see #{{{1
+{
+    my ( $self, $item, $prefix, $flat) = @_;
+
+    if ( UNIVERSAL::isa($item,'HASH' ) )
+    {
+        for my $key ( keys %$item)
+        {
+            my $flatkey = $prefix . '.' . $key;
+            $flat = $self->__see($item->{$key}, $flatkey, $flat);
+        }
+    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
+    {
+        for my $idx (0 .. $item->$#*)
+        {
+            my $flatkey = $prefix . ':' . $idx;
+            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
+        }
+    }
+    else
+    {
+            my $flatkey = $prefix . '=' . ($item // 'NULL');
+            push @$flat, $flatkey;
+    }
+    return $flat;
+}
+
+sub __flatten #{{{1
+{
+    my ($self, $key) = @_;
+    return flatten $self->{$key};
+}
+
+sub __unflatten #{{{1
+{
+    my ($self, $key) = @_;
+    return unflatten $self->{$key};
+}
+
+sub __gen_bp #{{{1
+{
+    my ( $self, $bp_name ) = @_;
+    my %bps =
+    (
+        objhash => #{{{
+        {
+            type => 'struct',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                obj => undef,
+                val => undef,
+                childs => {},
+                attrs  => {},
+                meta   => {},
+                circs  =>
+                {
+                    '.'  => undef,
+                    '..' => undef,
+                },
+            },
+        }, #}}}
+        meta => #{{{
+        {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                dspt =>
+                {
+                   ord_limit => undef,
+                   ord_map => undef,
+                   ord_max => undef,
+                   ord_sort_map => undef,
+                },
+            },
+        }, #}}}
+        params => #{{{ 
+        {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                attribs => 1,
+                delims => 1,
+                mes => 1,
+                prsv => 1,
+            },
+        }, #}}}
+        paths => #{{{
+        {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                drsr => undef,
+                dspt => undef,
+                input => undef,
+                mask => undef,
+                cwd => $self->{cwd},
+                output => $self->{cwd}.'/output/',
+            },
+        }, #}}}
+        prsv => #{{{
+        {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                till =>
+                [
+                    'section',
+                    0,
+                ],
+            },
+        }, #}}}
+        self => #{{{
+        {
+            type => 'config',
+            fill => [''],
+            member => {},
+            general =>
+            {
+                circs => [],
+                dspt => {},
+                hash => {},
+                matches => {},
+                meta => {},
+                name => undef,
+                stdout => [],
+                params => {},
+                paths  => {},
+                prsv => {},
+            },
+        }, #}}}
+        matches => #{{{
+        {
+            type => 'config',
+            fill => ['obj'],
+            member => {},
+            general =>
+            {
+                miss => [],
+                objs => {},
+            },
+            objs =>
+            {
+                type => 'config',
+                fill => ['obj'],
+                general => {},
+                member =>
+                {
+                    type => 'config',
+                    fill => ['obj'],
+                    general => [],
+                    member => {},
+                },
+            },
+        }, #}}}
+        drsr => #{{{
+        {
+            type => 'config',
+            fill => ['obj'],
+            general => {},
+            member =>
+            {
+                type => 'config',
+                fill => ['attrs',1],
+                general => {},
+                member =>
+                {
+                    type => 'config',
+                    fill => [''],
+                    member => {},
+                    general =>
+                    {
+                        r => '',
+                        l => '',
+                        dr => '',
+                        dl => '',
+                        n => '',
+                        o => {},
+                    },
+                },
+            },
+        }, #}}}
+        dspt => #{{{
+        {
+            type => 'config',
+            fill => [''],
+            general =>
+            {
+                lib =>
+                {
+                    order => 0,
+                },
+                prsv =>
+                {
+                    order => -1,
+                    mask => {},
+                    drsr => {},
+                },
+            },
+            member =>
+            {
+                type => 'config',
+                fill => ['obj'],
+                member => {},
+                general =>
+                {
+                    re => undef,
+                    cre => undef,
+                    order => undef,
+                    attrs => {},
+                    drsr  => {},
+                    mask  => {},
+                },
+                attrs =>
+                {
+                    type => 'config',
+                    fill => ['attrs'],
+                    general => {},
+                    member =>
+                    {
+                        type => 'config',
+                        fill => ['attrs'],
+                        member => {},
+                        general =>
+                        {
+                            re => undef,
+                            cre => undef,
+                            order => undef,
+                            delims => [],
+                            cdelims => undef,
+                        },
+                    },
+                },
+            },
+        }, #}}}
+        mask => #{{{
+        {
+            fill => ['obj'],
+            type => 'config',
+            general =>
+            {
+                lib => {},
+                prsv => {},
+            },
+            member =>
+            {
+                fill => ['obj'],
+                type => 'config',
+                member => {},
+                general =>
+                {
+                    supress =>
+                    {
+                        all => 0,
+                        vals => [],
+                    },
+                    sort => -1,
+                    place_holder =>
+                    {
+                        enable => 0,
+                        childs => [],
+                    },
+                },
+            },
+        }, #}}}
+    );
+
+    return dclone $bps{lc $bp_name};
+}
+
+sub __checkDir #{{{1
+{
+    my ( $self ) = @_;
+    return (-d $self->{cwd} . '/.ohm') ;
+}
+
+sub __checkChgArgs #{{{1
+{
+    my ($arg, $cond, $type) = @_;
+    unless ( defined $arg )
+    {
+        croak( (caller(1))[3] . " requires an input" );
+    }
+    elsif (ref $arg ne $cond)
+    {
+        croak( (caller(1))[3] . " requires a $type" );
+    }
+}
+
+sub __clone #{{{1
+{
+    my $self = shift;
+    $self->{tmp} = bless { %$self }, ref $self;
+    $self->{tmp}{tmp} = undef;
+    return $self;
 }
 
 sub __longest #{{{1

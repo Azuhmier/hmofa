@@ -1,53 +1,43 @@
 {
-   "prsv" : {
-      "drsr" : {
-         "prsv" : [
-            "",
-            "",
-            "",
-            "",
-            "",
-            {
-               "section" : 1
-            }
+   "author" : {
+      "re" : null,
+      "attr" : {
+         "author_attr" : [
+            null
          ]
       },
-      "order" : "-1",
+      "drsr" : {
+         "author_attr" : [
+            " (",
+            ")"
+         ],
+         "author" : [
+            "\n-----------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------------------\nby ",
+            "",
+            "",
+            "",
+            "",
+            3
+         ]
+      },
+      "mask" : {
+         "sort" : -1,
+         "place_holder" : {
+            "childs" : [],
+            "enable" : 0
+         }
+      },
+      "order" : "1.1"
+   },
+   "section" : {
       "mask" : {
          "place_holder" : {
             "childs" : [],
             "enable" : 0
          },
          "sort" : -1
-      }
-   },
-   "url" : {
-      "attr" : {
-         "url_attr" : [
-            null
-         ]
       },
-      "drsr" : {
-         "url_attr" : [
-            " (",
-            ")"
-         ],
-         "url" : [
-            "",
-            ""
-         ]
-      },
-      "order" : "1.1.1.1.2",
-      "mask" : {
-         "place_holder" : {
-            "enable" : 0,
-            "childs" : []
-         },
-         "sort" : -1
-      },
-      "re" : null
-   },
-   "section" : {
+      "order" : "1",
       "drsr" : {
          "section" : [
             "\n——————————————————————————————————————————————————————————————————————————————————\n%%%%% ",
@@ -60,7 +50,26 @@
             }
          ]
       },
-      "order" : "1",
+      "re" : null
+   },
+   "description" : {
+      "order" : "1.1.1.1.3",
+      "mask" : {
+         "place_holder" : {
+            "enable" : 0,
+            "childs" : []
+         },
+         "sort" : -1
+      },
+      "drsr" : {
+         "description" : [
+            "#",
+            ""
+         ]
+      },
+      "re" : null
+   },
+   "prsv" : {
       "mask" : {
          "place_holder" : {
             "childs" : [],
@@ -68,9 +77,58 @@
          },
          "sort" : -1
       },
+      "order" : "-1",
+      "drsr" : {
+         "prsv" : [
+            "",
+            "",
+            "",
+            "",
+            "",
+            {
+               "section" : 1
+            }
+         ]
+      }
+   },
+   "lib" : {
+      "order" : "0"
+   },
+   "title" : {
+      "mask" : {
+         "sort" : -1,
+         "place_holder" : {
+            "enable" : 1,
+            "childs" : [
+               "tags"
+            ]
+         }
+      },
+      "order" : "1.1.1.1",
+      "attr" : {
+         "title_attr" : [
+            null
+         ]
+      },
+      "drsr" : {
+         "title" : [
+            "\n>",
+            "",
+            "",
+            "",
+            "",
+            {
+               "series" : 1
+            }
+         ],
+         "title_attr" : [
+            " (",
+            ")"
+         ]
+      },
       "re" : null
    },
-   "tags" : {
+   "series" : {
       "mask" : {
          "sort" : -1,
          "place_holder" : {
@@ -78,7 +136,66 @@
             "enable" : 0
          }
       },
+      "order" : "1.1.1",
       "re" : null,
+      "drsr" : {
+         "series" : [
+            "\n=============/ ",
+            " /============="
+         ]
+      }
+   },
+   "url" : {
+      "order" : "1.1.1.1.2",
+      "mask" : {
+         "sort" : -1,
+         "place_holder" : {
+            "enable" : 0,
+            "childs" : []
+         }
+      },
+      "re" : null,
+      "attr" : {
+         "url_attr" : [
+            null
+         ]
+      },
+      "drsr" : {
+         "url" : [
+            "",
+            ""
+         ],
+         "url_attr" : [
+            " (",
+            ")"
+         ]
+      }
+   },
+   "tags" : {
+      "re" : null,
+      "drsr" : {
+         "anthro" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
+         ],
+         "general" : [
+            "[",
+            "]",
+            ";",
+            ";",
+            " "
+         ],
+         "ops" : [
+            "",
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
       "attr" : {
          "general" : [
             null,
@@ -107,130 +224,13 @@
             null
          ]
       },
-      "drsr" : {
-         "general" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
-         ],
-         "anthro" : [
-            "[",
-            "]",
-            ";",
-            ";",
-            " "
-         ],
-         "ops" : [
-            "",
-            "",
-            "",
-            "",
-            ""
-         ]
-      },
-      "order" : "1.1.1.1.1"
-   },
-   "description" : {
-      "order" : "1.1.1.1.3",
-      "drsr" : {
-         "description" : [
-            "#",
-            ""
-         ]
-      },
+      "order" : "1.1.1.1.1",
       "mask" : {
+         "sort" : -1,
          "place_holder" : {
             "childs" : [],
             "enable" : 0
-         },
-         "sort" : -1
-      },
-      "re" : null
-   },
-   "lib" : {
-      "order" : "0"
-   },
-   "series" : {
-      "re" : null,
-      "mask" : {
-         "place_holder" : {
-            "childs" : [],
-            "enable" : 0
-         },
-         "sort" : -1
-      },
-      "order" : "1.1.1",
-      "drsr" : {
-         "series" : [
-            "\n=============/ ",
-            " /============="
-         ]
-      }
-   },
-   "author" : {
-      "mask" : {
-         "place_holder" : {
-            "childs" : [],
-            "enable" : 0
-         },
-         "sort" : -1
-      },
-      "re" : null,
-      "attr" : {
-         "author_attr" : [
-            null
-         ]
-      },
-      "drsr" : {
-         "author" : [
-            "\n-----------------------------------------------------------------------------------------------------------------------------\n-----------------------------------------------------------------------------------------------------------------------------\nby ",
-            "",
-            "",
-            "",
-            "",
-            3
-         ],
-         "author_attr" : [
-            " (",
-            ")"
-         ]
-      },
-      "order" : "1.1"
-   },
-   "title" : {
-      "re" : null,
-      "mask" : {
-         "place_holder" : {
-            "childs" : [
-               "tags"
-            ],
-            "enable" : 1
-         },
-         "sort" : -1
-      },
-      "order" : "1.1.1.1",
-      "drsr" : {
-         "title" : [
-            "\n>",
-            "",
-            "",
-            "",
-            "",
-            {
-               "series" : 1
-            }
-         ],
-         "title_attr" : [
-            " (",
-            ")"
-         ]
-      },
-      "attr" : {
-         "title_attr" : [
-            null
-         ]
+         }
       }
    }
 }

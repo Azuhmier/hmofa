@@ -236,3 +236,38 @@ todo
   - {}
   - meta should not be in the same keys with obj, neither should null
 MISC
+
+mat_1 ={} KEY_1_m = x_1_m_0(.x_1_m_n|:y_1_m_n) = VAL_1_m || {m = 1..j_1}{n = 1..i_1_m}
+
+mat_2 ={} KEY_2_m = x_2_m_0(.x_2_m_n|:y_2_m_n)= VAL_2_m || {m = 1..j_2}{n = 1..i_2_m}
+
+1.
+   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m = 1..i_2_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_1_m = 1..i_2_m}"
+ref x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m = 1..i_2_m}  == ref x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_1_m = 1..i_2_m}
+
+
+   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_2_m}" ( m < i_1_m ) >< i_2_m
+   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_2_m}" ( m < i_1_m ) >< ( m < i_2_m )
+
+flattening algorithm
+
+my %key_cache = ();
+for my $key (keys %$flat_mask)
+{
+    my $str = $key;
+    #need look ahead or groups
+    my $regex = ($str =~ s/(([A-Za-z0-9]+)([^;,])//g)[0];
+    my @KEYS = grep {$_ =~ $regex } keys %$flat_config;
+    my $delim = ($str =~ s/(^.//g)[0];
+    $delim ||= '[^:,];
+
+    while !( (grep {$_ !~ /$regex.$delim/ } @KEYS)[0] }
+    {
+        $delim = ($str =~ s/(^.//g)[0];
+        $delim ||= '[^:,];
+        $regex = ($str =~ s/($delim[A-Za-z0-9][^;,]//g)[0];
+        @KEYS = grep {$_ =~ $regex } keys %$flat_config;
+    }
+    delete $flat_mask->{$_} for grep {$_ !~ /$regex.$delim/ } @KEYS;
+    $flat_mask->{$key} = $flat_mask->{$key};
+}
