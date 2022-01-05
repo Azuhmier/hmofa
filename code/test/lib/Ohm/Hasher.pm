@@ -506,7 +506,7 @@ sub __gen_dspt #{{{1
 {
     my ( $self, $args ) = @_;
 
-    # Import DSPT FILE
+    ## --- IMPORT DSPT FILE
     my $dspt = do
     {
         open my $fh, '<:utf8', $self->{paths}{dspt};
@@ -525,11 +525,7 @@ sub __gen_dspt #{{{1
     $self->{dspt} = $dspt;
 
 
-    # Add intrisice DSPT keys
-    #$dspt->{lib}  = { order =>'0'};
-    #$dspt->{prsv} = { order =>'-1'};
-
-    # Generate Line and Attr Regexs
+    ## --- GENERATE LINE AND ATTR REGEXS FOR DSPT
     for my $obj (keys %$dspt)
     {
 
@@ -565,6 +561,7 @@ sub __gen_dspt #{{{1
         }
     }
 
+
     ## --- VALIDATE
     # check for duplicates: order
     my @keys  =
@@ -578,6 +575,7 @@ sub __gen_dspt #{{{1
         keys %{$dspt};
     my %dupes;
     for (@keys) { die "Cannot have duplicate reserved keys!" if $dupes{$_}++ }
+
 
     ## --- META
     # max
@@ -634,7 +632,8 @@ sub __gen_dspt #{{{1
         keys %$dspt;
     $self->{meta}{dspt}{ord_sort_map2} = [@sorted_ords2];
 
-    # drsr
+
+    ## --- DRSR
     my $drsr = do
     {
         open my $fh, '<:utf8', $self->{paths}{drsr}
@@ -642,6 +641,14 @@ sub __gen_dspt #{{{1
         local $/;
         decode_json(<$fh>);
     };
+
+    # generate drsr config
+    #$drsr = $self->gen_config
+    #({
+    #    init_hash => $drsr,
+    #    bp_name => 'drsr',
+    #});
+
     for my $obj (keys %$drsr)
     {
         $dspt->{$obj} // die;
@@ -653,7 +660,8 @@ sub __gen_dspt #{{{1
         }
     }
 
-    # mask
+
+    ## --- MASK
     my $mask = do
     {
         open my $fh, '<:utf8', $self->{paths}{mask}
@@ -662,14 +670,22 @@ sub __gen_dspt #{{{1
         decode_json(<$fh>);
     };
 
+    # generate mask config
+    $mask = $self->gen_config
+    ({
+        init_hash => $mask,
+        bp_name => 'mask',
+    });
+
     for my $obj (keys %$mask)
     {
         $dspt->{$obj} // die;
         $dspt->{$obj}{mask} = $mask->{$obj};
     }
 
-    $self->{dspt} = $dspt;
 
+    ## --- RETURN
+    $self->{dspt} = $dspt;
     return $self;
 }
 
@@ -1850,6 +1866,11 @@ sub __checkChgArgs #{{{1
     {
         croak( (caller(1))[3] . " requires a $type" );
     }
+}
+
+sub __filter #{{{1
+{
+    my ($self, $args) = @_;
 }
 
 sub __clone #{{{1
