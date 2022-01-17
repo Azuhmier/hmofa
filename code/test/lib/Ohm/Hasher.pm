@@ -187,7 +187,8 @@ sub gen_config #{{{1
             }
             else { die }
 
-            my @KEYS = grep {$_ =~ /^\Q$pat\E$end/} keys %$flat_config;
+            #my @KEYS = grep {$_ =~ /^\Q$pat\E$end/} keys %$flat_config;
+            my @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
             my @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
 
             while ( scalar @KEYS > 1 || scalar @CLN )
@@ -200,11 +201,16 @@ sub gen_config #{{{1
 
                 }
 
-                @KEYS = grep {$_ =~ /\Q$pat\E$end/ } keys %$flat_config;
-                @CLN  = grep {$_ !~ m/\Q$pat$delim\E$end/ } @KEYS;
+                #@KEYS = grep {$_ =~ /\Q$pat\E$end/ } keys %$flat_config;
+                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
+                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
+                delete $flat_config->{$_} for @CLN;
+                #print "$pat ($delim) $end\n";
+                #print( "    KEYS: " .(join ' ', @KEYS) , "\n");
+                #print( "     CLN:" .(join ' ', @CLN) , "\n");
             }
 
-            delete $flat_mask->{$_} for @CLN;
+            #delete $flat_mask->{$_} for @CLN;
             $flat_config->{$key} = $flat_mask->{$key};
 
         }
@@ -643,11 +649,11 @@ sub __gen_dspt #{{{1
     };
 
     # generate drsr config
-    #$drsr = $self->gen_config
-    #({
-    #    init_hash => $drsr,
-    #    bp_name => 'drsr',
-    #});
+    $drsr = $self->gen_config
+    ({
+        init_hash => $drsr,
+        bp_name => 'drsr',
+    });
 
     for my $obj (keys %$drsr)
     {
@@ -1251,6 +1257,7 @@ sub __genWrite #{{{1
                 my $item       = $_;
                 my $container  = $Data::Walk::container;
                 if (ref $item eq 'HASH' && $item->{obj} ne 'lib') {
+
                     my $obj = $item->{obj};
 
                     my $drsr       = $self->{dspt}{$obj}{drsr};
@@ -1267,23 +1274,19 @@ sub __genWrite #{{{1
 
                     ## --- Attributes String: d0, d1, d2, d3, d4{{{3
                     my $attrStr = '';
-                    # this should be solved in sweep
                     my $attrDspt = $dspt->{$obj}{attrs};
+
                     if ($attrDspt)
                     {
                         for my $attr
                         (
-                            sort
-                            {
+                            sort {
                                 $attrDspt->{$a}{order}
                                     cmp
                                 $attrDspt->{$b}{order}
-                            }
-                            keys %$attrDspt
+                            } keys %$attrDspt
                         )
                         {
-
-                            ## Check existence of attributes
                             if ( exists $item->{attrs}{$attr} )
                             {
                                 my $attrItem = $item->{attrs}{$attr} // '';
@@ -1302,6 +1305,10 @@ sub __genWrite #{{{1
                                     }
                                     $attrItem = join $drsr->{$attr}[4], @itemPartArray;
                                 }
+
+                                #if (!$attrItem || $drsr->{$attr}[1] || $drsr->{$attr}[0]) {
+                                #    die;
+                                #}
 
                                 $attrStr .= $drsr->{$attr}[0]
                                          .  $attrItem
@@ -1510,7 +1517,7 @@ sub __validate #{{{1
         }
 
         # COMMIT
-        #$self->__commit;
+        $self->__commit;
 
     }
 
@@ -1531,6 +1538,15 @@ sub __validate #{{{1
 sub __commit #{{{1
 {
     my ($self, $args) = @_;
+
+
+    # set up working dir
+    my $dir = './.ohm';
+    my $db = $dir."/db";
+    mkdir($dir) unless(-d $dir);
+    mkdir($db) unless(-d $db);
+
+
     my @KEYS = qw( hash dspt matches );
     $self->rm_reff;
 
@@ -1539,8 +1555,21 @@ sub __commit #{{{1
     for my $key (@KEYS)
     {
         my $hash = dclone $self->{$key};
+
+        # Delteing Child Reffs in MATCHES
+        if ($key eq 'matches')
+        {
+            for my $obj ( keys %{$hash->{objs}} )
+            {
+                for my $part ( @{ $hash->{objs}{$obj} } )
+                {
+                    delete $part->{childs};
+                }
+            }
+        }
+
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
-        open my $fh, '>:utf8', $self->{paths}{cwd} . "/db/$key.json"
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/$key.json"
             or die;
             print $fh $json;
             truncate $fh, tell($fh) or die;
@@ -1558,7 +1587,7 @@ sub __commit #{{{1
         }
 
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
-        open my $fh, '>:utf8', $self->{paths}{cwd} . "/db/self.json"
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/self.json"
             or die;
             print $fh $json;
             truncate $fh, tell($fh) or die;
@@ -1750,14 +1779,14 @@ sub __gen_bp #{{{1
                     fill => [''],
                     member => {},
                     general =>
-                    {
-                        r => '',
-                        l => '',
-                        dr => '',
-                        dl => '',
-                        n => '',
-                        o => {},
-                    },
+                    [
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        {},
+                    ],
                 },
             },
         }, #}}}
@@ -1866,11 +1895,6 @@ sub __checkChgArgs #{{{1
     {
         croak( (caller(1))[3] . " requires a $type" );
     }
-}
-
-sub __filter #{{{1
-{
-    my ($self, $args) = @_;
 }
 
 sub __clone #{{{1
