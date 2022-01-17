@@ -1,0 +1,63 @@
+{
+   "name" : "libby",
+   "paths" : {
+      "output" : "/Users/azuhmier/hmofa/hmofa/code/test",
+      "input" : "/Users/azuhmier/hmofa/hmofa/code/result/libby.txt",
+      "dir" : "/.ohm",
+      "mask" : "/Users/azuhmier/hmofa/hmofa/code/test/mask_C.json",
+      "cwd" : "/Users/azuhmier/hmofa/hmofa/code/test",
+      "drsr" : "/Users/azuhmier/hmofa/hmofa/code/test/drsr_C.json",
+      "dspt" : "/Users/azuhmier/hmofa/hmofa/code/test/deimos.json"
+   },
+   "meta" : {
+      "tmp" : {
+         "matches" : {}
+      },
+      "dspt" : {
+         "ord_max" : "1.1.1.1.3",
+         "ord_map" : {
+            "1" : "section",
+            "1.1.1" : "series",
+            "1.1.1.1.3" : "description",
+            "1.1.1.1.2" : "url",
+            "1.1.1.1" : "title",
+            "-1" : "prsv",
+            "1.1" : "author",
+            "1.1.1.1.1" : "tags",
+            "0" : "lib"
+         },
+         "ord_sort_map" : [
+            "lib",
+            "prsv",
+            "section",
+            "author",
+            "series",
+            "title",
+            "tags",
+            "url",
+            "description"
+         ],
+         "ord_sort_map2" : [
+            "tags",
+            "url",
+            "description",
+            "title",
+            "series",
+            "author",
+            "prsv",
+            "section",
+            "lib"
+         ],
+         "ord_limit" : "1.1.1.1.4"
+      }
+   },
+   "cwd" : "/Users/azuhmier/hmofa/hmofa/code/test",
+   "params" : {
+      "attribs" : 1,
+      "prsv" : 1,
+      "delims" : 1,
+      "mes" : 1
+   },
+   "prsv" : null,
+   "circ" : []
+}

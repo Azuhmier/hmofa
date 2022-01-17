@@ -296,8 +296,14 @@ sub write #{{{1
 {
     my ( $self, $args ) = @_;
     my $writeArray = $self->{stdout};
-    my $dir = $self->{paths}{output};
-    open my $fh, '>:utf8', $dir . '/' . $self->{name} . '.txt' or die $!;
+
+    my $dir = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/output/';
+
+    mkdir($dir) unless(-d $dir);
+
+    open my $fh, '>:utf8', $dir . $self->{name} . '.txt' or die $!;
         for (@$writeArray)
         {
             print $fh $_,"\n";
@@ -454,6 +460,11 @@ sub __init #{{{1
     my $paths_output = delete $args->{output} // '';
     __checkChgArgs( $paths_output,'','string scalar' );
     if ($paths_output) { $paths->{output} = abs_path $paths_output }
+
+    # DIR
+    my $paths_dir = delete $args->{dir} // '';
+    __checkChgArgs( $paths_dir,'','string scalar' );
+    if ($paths_dir) { $paths->{dir} = $paths_dir }
 
     # DRSR - DRESSER
     my $paths_drsr = delete $args->{drsr} // '';
@@ -1441,10 +1452,20 @@ sub __validate #{{{1
         # OUTPUT
         $self->{meta}{tmp}{matches} = {};
 
-        my $tmpFile = $self->{paths}{output} . '/' . $self->{name} . '.txt';
+        my $tmpFile = $self->{paths}{output}
+        . $self->{paths}{dir}
+        . '/output/'
+        . $self->{name}
+        . '.txt';
         my $file    = $self->{paths}{input};
 
-        $CHECKS->{txtCmp}{fp}  = $self->{paths}{cwd} . '/tmp/diff.txt';
+        my $tmpdir = $self->{paths}{output}
+        . $self->{paths}{dir}
+        . '/tmp/';
+
+        mkdir($tmpdir) unless(-d $tmpdir);
+
+        $CHECKS->{txtCmp}{fp}  = $tmpdir.'diff.txt';
         $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
 
 
@@ -1483,7 +1504,7 @@ sub __validate #{{{1
             }
         }
 
-        $CHECKS->{matchCmp}{fp}  = $self->{paths}{cwd} . '/tmp/cnt.txt';
+        $CHECKS->{matchCmp}{fp}  = $tmpdir.'cnt.txt';
         $CHECKS->{matchCmp}{out} = [@OUT];
 
         # WRITE
@@ -1500,7 +1521,7 @@ sub __validate #{{{1
         }
 
         # open non-empty check files in less
-        my @files = glob "$self->{paths}{cwd}/tmp/*";
+        my @files = glob $tmpdir."*";
         my $fileList;
 
         for my $file (@files)
@@ -1541,7 +1562,8 @@ sub __commit #{{{1
 
 
     # set up working dir
-    my $dir = './.ohm';
+    #my $dir = './.ohm';
+    my $dir = '/.ohm';
     my $db = $dir."/db";
     mkdir($dir) unless(-d $dir);
     mkdir($db) unless(-d $db);
@@ -1703,7 +1725,8 @@ sub __gen_bp #{{{1
                 input => undef,
                 mask => undef,
                 cwd => $self->{cwd},
-                output => $self->{cwd}.'/output/',
+                output => $self->{cwd},
+                dir => '/.ohm',
             },
         }, #}}}
         prsv => #{{{
