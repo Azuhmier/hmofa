@@ -425,6 +425,7 @@ sub __init #{{{1
 
     $self->{cwd} = getcwd;
     my $isBase = $self->__checkDir();
+    my $db = $self->__importJson('./.ohm/db/self.json');
 
     # PARAMS - PRAMEMTERS
     my $params = delete $args->{params};
@@ -517,6 +518,18 @@ sub __init #{{{1
 
 
     return $self;
+}
+
+sub __importJson
+{
+    my ($self, $path) = @_;
+    my $json = do
+    {
+        open my $fh, '<:utf8', $path;
+        local $/;
+        decode_json(<$fh>);
+    };
+    return $json;
 }
 
 sub __gen_dspt #{{{1
@@ -1560,19 +1573,17 @@ sub __commit #{{{1
 {
     my ($self, $args) = @_;
 
-
     # set up working dir
-    #my $dir = './.ohm';
     my $dir = '/.ohm';
     my $db = $dir."/db";
     mkdir($dir) unless(-d $dir);
     mkdir($db) unless(-d $db);
 
 
-    my @KEYS = qw( hash dspt matches );
     $self->rm_reff;
-
     use Data::Structure::Util qw( unbless );
+    my @KEYS = qw( hash dspt matches );
+
     # INDIVDUAL HASHES
     for my $key (@KEYS)
     {
@@ -1590,6 +1601,29 @@ sub __commit #{{{1
             }
         }
 
+        # Seperating Drsr and mask from dspt
+        if ($key eq 'dspt')
+        {
+            $self->{drsr} = {};
+            $self->{mask} = {};
+            for my $obj ( keys %{ $hash } )
+            {
+                for my $key2 ( keys %{ $hash->{$obj} } )
+                {
+                    if ($key2 eq 'drsr')
+                    {
+                        $self->{drsr}{$obj} = delete $hash->{$obj}{$key2};
+                    }
+                    if ($key2 eq 'mask')
+                    {
+                        $self->{mask}{$obj} = delete $hash->{$obj}{$key2}
+                    }
+                }
+            }
+            push @KEYS, qw(drsr mask);
+        }
+
+        # dspt, drsr, mask
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
         open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/$key.json"
             or die;
@@ -1598,6 +1632,8 @@ sub __commit #{{{1
             seek $fh,0,0 or die;
         close $fh;
     }
+    delete $self->{drsr};
+    delete $self->{mask};
 
     # MISC HASH
     {
@@ -1608,6 +1644,7 @@ sub __commit #{{{1
             delete $hash->{$key};
         }
 
+        # paths, cwd
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
         open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/self.json"
             or die;
@@ -1720,11 +1757,11 @@ sub __gen_bp #{{{1
             member => {},
             general =>
             {
-                drsr => undef,
-                dspt => undef,
-                input => undef,
-                mask => undef,
-                cwd => $self->{cwd},
+                drsr => $self->{cwd}.'/.ohm/db/drsr.json',
+                dspt => $self->{cwd}.'/.ohm/db/dspt.json',
+                input => $self->{cwd}.'/.ohm/output/libby.txt',
+                mask => $self->{cwd}.'/.ohm/db/mask.json',
+                cwd => $self->{cwd}.'/.ohm/',
                 output => $self->{cwd},
                 dir => '/.ohm',
             },

@@ -1,0 +1,83 @@
+{
+   "description" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "prsv" : {},
+   "tags" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : -1
+   },
+   "author" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : -1,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "url" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : -1
+   },
+   "lib" : {},
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : -1,
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "section" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : -1
+   },
+   "series" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : -1
+   }
+}

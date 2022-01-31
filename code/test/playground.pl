@@ -31,4 +31,5 @@ my $lib  = Ohm::Hasher->new(
     './drsr_C.json',
     './mask_C.json',
 );
+my $lib2  = Ohm::Hasher->new();
 do {};
