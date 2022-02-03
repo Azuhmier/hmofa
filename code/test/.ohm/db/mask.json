@@ -1,31 +1,21 @@
 {
-   "description" : {
-      "sort" : -1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
+   "tags" : {
       "supress" : {
          "vals" : [],
          "all" : 0
-      }
-   },
-   "prsv" : {},
-   "tags" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
       },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : -1
-   },
-   "author" : {
+      "sort" : -1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
+      }
+   },
+   "title" : {
+      "place_holder" : {
+         "enable" : 1,
+         "childs" : [
+            "tags"
+         ]
       },
       "sort" : -1,
       "supress" : {
@@ -33,29 +23,38 @@
          "vals" : []
       }
    },
-   "url" : {
+   "description" : {
       "supress" : {
          "all" : 0,
          "vals" : []
       },
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "childs" : []
       },
       "sort" : -1
    },
    "lib" : {},
-   "title" : {
+   "author" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "supress" : {
          "all" : 0,
          "vals" : []
+      }
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       },
       "sort" : -1,
       "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
+         "enable" : 0,
+         "childs" : []
       }
    },
    "section" : {
@@ -63,21 +62,22 @@
          "all" : 0,
          "vals" : []
       },
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "url" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
       "sort" : -1
    },
-   "series" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : -1
-   }
+   "prsv" : {}
 }

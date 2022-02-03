@@ -24,12 +24,12 @@ use Ohm::Hasher;
 #    './drsr_C.json',
 #    './mask_C.json',
 #);
-
-my $lib  = Ohm::Hasher->new(
-    '/Users/azuhmier/hmofa/hmofa/code/result/libby.txt',
-    './deimos.json',
-    './drsr_C.json',
-    './mask_C.json',
-);
+#
+#my $lib  = Ohm::Hasher->new(
+#    '/Users/azuhmier/hmofa/hmofa/code/result/libby.txt',
+#    './deimos.json',
+#    './drsr_C.json',
+#    './mask_C.json',
+#);
 my $lib2  = Ohm::Hasher->new();
 do {};

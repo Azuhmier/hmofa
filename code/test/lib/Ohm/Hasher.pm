@@ -404,6 +404,7 @@ sub new #{{{1
             mask  => $_[4],
             prsv  => $_[5],
         };
+        delete $args->{$_} for grep {!(defined $args->{$_})} keys %$args;
     }
 
     # Create Object
@@ -427,17 +428,6 @@ sub __init #{{{1
     my $isBase = $self->__checkDir();
     my $db = $self->__importJson('./.ohm/db/self.json');
 
-    # PARAMS - PRAMEMTERS
-    my $params = delete $args->{params};
-    if ( defined $params )
-    {
-        __checkChgArgs( $params, 'HASH', 'hash' )
-    }
-    $self->{params} = $self->gen_config
-    ({
-        init_hash => $params,
-        bp_name => 'params',
-    });
 
 
     #%--------PATHS--------#
@@ -446,6 +436,24 @@ sub __init #{{{1
 
     # CWD
     $paths->{cwd} = getcwd;
+
+    # TEST
+    my $args2 = do
+    {
+        open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json';
+        local $/;
+        decode_json(<$fh>);
+    };
+    delete $args2->{paths}{cwd};
+    for my $key (keys $args2->{paths}->%*)
+    {
+        $args2->{$key} = $args2->{paths}{$key};
+    }
+    delete $args2->{paths};
+    my $flat_mask  = flatten $args;
+    my $flat_config = flatten $args2;
+    $flat_config = $self->__mask($flat_config, $flat_mask);
+    $args = unflatten $flat_config;
 
     # INPUT
     my $paths_input = delete $args->{input} || die "No path to input provided";
@@ -499,6 +507,18 @@ sub __init #{{{1
     # PRSV - PRESERVES
     my $prsv = delete $args->{prsv};
     $self->{prsv} = $prsv;
+
+    # PARAMS - PRAMEMTERS
+    my $params = delete $args->{params};
+    if ( defined $params )
+    {
+        __checkChgArgs( $params, 'HASH', 'hash' )
+    }
+    $self->{params} = $self->gen_config
+    ({
+        init_hash => $params,
+        bp_name => 'params',
+    });
 
 
     #%-------- CHECK --------#
@@ -666,7 +686,8 @@ sub __gen_dspt #{{{1
     ## --- DRSR
     my $drsr = do
     {
-        open my $fh, '<:utf8', $self->{paths}{drsr}
+        #open my $fh, '<:utf8', $self->{paths}{drsr}
+        open my $fh, '<', $self->{paths}{drsr}
             or die;
         local $/;
         decode_json(<$fh>);
@@ -1462,27 +1483,32 @@ sub __validate #{{{1
     {
         my $CHECKS;
 
-        # OUTPUT
-        $self->{meta}{tmp}{matches} = {};
+        # === TXT DIFF === #{{{
 
+        # OUTPUT FILES
         my $tmpFile = $self->{paths}{output}
         . $self->{paths}{dir}
         . '/output/'
         . $self->{name}
         . '.txt';
-        my $file    = $self->{paths}{input};
+        my $file = $self->{paths}{input};
 
+        # TMP DIR
         my $tmpdir = $self->{paths}{output}
         . $self->{paths}{dir}
         . '/tmp/';
-
         mkdir($tmpdir) unless(-d $tmpdir);
 
-        $CHECKS->{txtCmp}{fp}  = $tmpdir.'diff.txt';
+        # CHECKS
+        $CHECKS->{txtCmp}{fp}  = $tmpdir . 'diff.txt';
         $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
+        #}}}
 
 
-        # MATCHES
+        # === MATCHES === {{{
+
+        # MATCHES: reformat
+        $self->{meta}{tmp}{matches} = {};
         $self->get_matches(1);
         my @matches = map
         {
@@ -1500,6 +1526,7 @@ sub __validate #{{{1
         ];
         push @matches, $miss_matches;
 
+        # MATCHES: compare
         my @OUT;
         for my $part (@matches)
         {
@@ -1517,10 +1544,75 @@ sub __validate #{{{1
             }
         }
 
+        # Matches: checks
         $CHECKS->{matchCmp}{fp}  = $tmpdir.'cnt.txt';
         $CHECKS->{matchCmp}{out} = [@OUT];
+        #}}}
 
-        # WRITE
+
+        # === HASHES === {{{
+        if ( $self->{paths}{input} eq $self->{cwd}.'/.ohm/db/output.txt' )
+        {
+            # Get HASHES
+            my $oldHash = do
+            {
+                open my $fh, '<', $self->{cwd}.'/.ohm/db/hash.json';
+                local $/;
+                decode_json(<$fh>);
+            };
+            $self->rm_reff;
+            my $newHash = dclone $self->{hash};
+
+            ## Boolean Data Compare
+            #use Data::Compare;
+            #my $c = Data::Compare->new($oldHash, $newHash);
+            #print 'structures of $newHash and $oldHash are ',
+            #$c->Cmp ? "" : "not ", "identical.\n";
+
+            ## Diff Data Compare
+            my $newFlat = $self->__see($newHash,'lib',[]);
+            my $oldFlat = $self->__see($oldHash,'lib',[]);
+            @$newFlat = map{ $_."\n" } grep {$_ !~ /LN=/ && $_!~ /raw=/ && $_!~ /\.obj/} @$newFlat;
+            @$oldFlat = map{ $_."\n" } grep {$_ !~ /LN=/ && $_!~ /raw=/ && $_!~ /\.obj/} @$oldFlat;
+
+
+            my $oldPath = $tmpdir . 'oldHash';
+            my $newPath = $tmpdir . 'newHash';
+            my $fh;
+
+            open $fh, ">:utf8", $oldPath;
+            print $fh @$oldFlat;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+            close $fh;
+
+            open $fh, ">:utf8", $newPath;
+            print $fh @$newFlat;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+            close $fh;
+            #$self->__sweep(['reffs']);
+
+            #$CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
+            #$CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
+            $CHECKS->{hashCmp2}{fp}  = $tmpdir . 'hashDiff2.txt';
+            $CHECKS->{hashCmp2}{out} = [`bash -c "comm -3  <(sort $oldPath) <(sort $newPath)"`];
+            #$CHECKS->{hashCmp3}{fp}  = $tmpdir . 'hashDiff3.txt';
+            #$CHECKS->{hashCmp3}{out} = [`cat $oldPath $newPath | sed 's/^.*LN=.*\$//' | sed 's/^.*raw=.*\$//' | sort | uniq -u`];
+            if ($oldPath =~ /ohm/) {unlink $oldPath};
+            if ($newPath =~ /ohm/) {unlink $newPath};
+        }
+        else
+        {
+            open my $fh, ">", $tmpdir . 'hashDiff.txt';
+            print $fh '';
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+            close $fh;
+        }
+
+
+        # === WRITE === #{{{
         for my $check ( values %$CHECKS )
         {
             my $out = $check->{out};
@@ -1549,9 +1641,12 @@ sub __validate #{{{1
         {
             system "less " . $fileList;
         }
+        #}}}
 
-        # COMMIT
+
+        # === COMMIT === #{{{
         $self->__commit;
+        #}}}
 
     }
 
@@ -1562,11 +1657,6 @@ sub __validate #{{{1
         $self->see('hash');
         $self->__sweep(['reffs']);
     }
-
-    elsif ( $type eq 'change' )
-    {
-    }
-
 }
 
 sub __commit #{{{1
@@ -1574,17 +1664,27 @@ sub __commit #{{{1
     my ($self, $args) = @_;
 
     # set up working dir
-    my $dir = '/.ohm';
-    my $db = $dir."/db";
-    mkdir($dir) unless(-d $dir);
-    mkdir($db) unless(-d $db);
+    my $db = $self->{paths}{dir}."/db";
+    unless ( -d $self->{paths}{dir} )
+    {
+        mkdir($self->{paths}{dir})
+    }
+    unless ( -d $db )
+    {
+        mkdir($db)
+    }
 
+    $self->{paths} = $self->gen_config
+    ({
+        init_hash => {},
+        bp_name => 'paths',
+    });
 
     $self->rm_reff;
     use Data::Structure::Util qw( unbless );
-    my @KEYS = qw( hash dspt matches );
 
     # INDIVDUAL HASHES
+    my @KEYS = qw( hash dspt matches );
     for my $key (@KEYS)
     {
         my $hash = dclone $self->{$key};
@@ -1592,11 +1692,11 @@ sub __commit #{{{1
         # Delteing Child Reffs in MATCHES
         if ($key eq 'matches')
         {
-            for my $obj ( keys %{$hash->{objs}} )
+            for my $obj ( keys $hash->{objs}->%* )
             {
-                for my $part ( @{ $hash->{objs}{$obj} } )
+                for my $match ( $hash->{objs}{$obj}->@* )
                 {
-                    delete $part->{childs};
+                    delete $match->{childs};
                 }
             }
         }
@@ -1623,7 +1723,7 @@ sub __commit #{{{1
             push @KEYS, qw(drsr mask);
         }
 
-        # dspt, drsr, mask
+        # write
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
         open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/$key.json"
             or die;
@@ -1639,7 +1739,7 @@ sub __commit #{{{1
     {
         my $hash = dclone $self;
 
-        for my $key (@KEYS, 'stdout', 'tmp')
+        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd')
         {
             delete $hash->{$key};
         }
@@ -1654,6 +1754,17 @@ sub __commit #{{{1
         close $fh;
     }
 
+    # OUTPUT
+    use File::Copy;
+    my $oldfile = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/output/'
+    . $self->{name}
+    . '.txt';
+    my $newfile = $self->{paths}{cwd} . $db . '/output.txt';
+    copy($oldfile, $newfile) or die "failed copy of $oldfile to $newfile: $!";
+
+    # return hash to original state
     $self->__sweep(['reffs']);
     return $self;
 }
@@ -1671,10 +1782,47 @@ sub __see #{{{1
         }
     } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
     {
+        for my $idx (1 .. $item->$#*)
+        {
+            #my $flatkey = $prefix . ':' . $idx;
+            my $key;
+            if (ref $item->[$idx] ne 'HASH' || ref $item->[$idx]{val} eq 'ARRAY')
+            {
+                $key = $idx;
+            }
+            else
+            {
+                $key = $item->[$idx]{val};
+            }
+            my $flatkey = $prefix . ':' . "[".$key."]";
+            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
+        }
+    }
+    else
+    {
+            my $flatkey = $prefix . '=' . ($item // 'NULL');
+            push @$flat, $flatkey;
+    }
+    return $flat;
+}
+
+sub __see2 #{{{1
+{
+    my ( $self, $item, $prefix, $flat) = @_;
+
+    if ( UNIVERSAL::isa($item,'HASH' ) )
+    {
+        for my $key ( keys %$item)
+        {
+            my $flatkey = $prefix . '.' . $key;
+            $flat = $self->__see2($item->{$key}, $flatkey, $flat);
+        }
+    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
+    {
         for my $idx (0 .. $item->$#*)
         {
             my $flatkey = $prefix . ':' . $idx;
-            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
+            $flat = $self->__see2( $item->[$idx], $flatkey, $flat);
         }
     }
     else
@@ -1759,9 +1907,9 @@ sub __gen_bp #{{{1
             {
                 drsr => $self->{cwd}.'/.ohm/db/drsr.json',
                 dspt => $self->{cwd}.'/.ohm/db/dspt.json',
-                input => $self->{cwd}.'/.ohm/output/libby.txt',
+                input => $self->{cwd}.'/.ohm/db/output.txt',
                 mask => $self->{cwd}.'/.ohm/db/mask.json',
-                cwd => $self->{cwd}.'/.ohm/',
+                cwd => $self->{cwd},
                 output => $self->{cwd},
                 dir => '/.ohm',
             },
