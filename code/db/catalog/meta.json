@@ -3,11 +3,17 @@
       "max" : "1.1.1.1.3"
    },
    "matches" : {
-      "tags" : {
-         "count" : 802
+      "author" : {
+         "count" : 238
       },
-      "description" : {
-         "count" : 266
+      "title" : {
+         "count" : 801
+      },
+      "preserve" : {
+         "count" : 64
+      },
+      "series" : {
+         "count" : 37
       },
       "libName" : {
          "count" : 0
@@ -16,19 +22,13 @@
          "count" : 0
       },
       "url" : {
-         "count" : 903
+         "count" : 915
       },
-      "title" : {
-         "count" : 801
+      "tags" : {
+         "count" : 800
       },
-      "series" : {
-         "count" : 37
-      },
-      "author" : {
-         "count" : 239
-      },
-      "preserve" : {
-         "count" : 61
+      "description" : {
+         "count" : 267
       },
       "section" : {
          "count" : 3

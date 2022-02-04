@@ -1,74 +1,28 @@
 {
-   "tags" : {
+   "author" : {
       "supress" : {
          "vals" : [],
          "all" : 0
       },
       "sort" : -1,
       "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+         "childs" : [],
+         "enable" : 0
       }
    },
-   "title" : {
-      "place_holder" : {
-         "enable" : 1,
-         "childs" : [
-            "tags"
-         ]
-      },
+   "tags" : {
       "sort" : -1,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "description" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
       "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+         "childs" : [],
+         "enable" : 0
       },
-      "sort" : -1
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
    },
    "lib" : {},
-   "author" : {
-      "sort" : -1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "series" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : -1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "section" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : -1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "url" : {
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -79,5 +33,51 @@
       },
       "sort" : -1
    },
-   "prsv" : {}
+   "prsv" : {},
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : -1,
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "description" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : -1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "url" : {
+      "sort" : -1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : -1,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   }
 }

@@ -1572,31 +1572,51 @@ sub __validate #{{{1
             ## Diff Data Compare
             my $newFlat = $self->__see($newHash,'lib',[]);
             my $oldFlat = $self->__see($oldHash,'lib',[]);
-            @$newFlat = map{ $_."\n" } grep {$_ !~ /LN=/ && $_!~ /raw=/ && $_!~ /\.obj/} @$newFlat;
-            @$oldFlat = map{ $_."\n" } grep {$_ !~ /LN=/ && $_!~ /raw=/ && $_!~ /\.obj/} @$oldFlat;
+            my $newFlat2 = [];
+            my $oldFlat2 = [];
+            for my $aref ( [$oldFlat, $oldFlat2], [$newFlat, $newFlat2] )
+            {
+                for my $part ( $aref->[0]->@* )
+                {
+                    if
+                    (
+                        $part !~ /LN=/
+                        && $part !~ /raw=/
+                        && $part !~ /\.obj/
+                        && $part !~ /\.tags:\[\d+\]\.attrs/
+                    )
+                    {
+                        $part .= "\n";
+                        $part =~ s/\.childs//g;
+                        $part =~ s/\.val=.*$//g;
+                        $part =~ s/(\.tags:)\[\d+\]\.val:\[\d+\]=(.*)/$1\[$2\]/g;
 
+                        push $aref->[1]->@*, $part;
+                    }
+                }
+            }
 
             my $oldPath = $tmpdir . 'oldHash';
             my $newPath = $tmpdir . 'newHash';
             my $fh;
 
             open $fh, ">:utf8", $oldPath;
-            print $fh @$oldFlat;
+            print $fh @$oldFlat2;
             truncate $fh, tell($fh) or die;
             seek $fh,0,0 or die;
             close $fh;
 
             open $fh, ">:utf8", $newPath;
-            print $fh @$newFlat;
+            print $fh @$newFlat2;
             truncate $fh, tell($fh) or die;
             seek $fh,0,0 or die;
             close $fh;
             #$self->__sweep(['reffs']);
 
-            #$CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
-            #$CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
-            $CHECKS->{hashCmp2}{fp}  = $tmpdir . 'hashDiff2.txt';
-            $CHECKS->{hashCmp2}{out} = [`bash -c "comm -3  <(sort $oldPath) <(sort $newPath)"`];
+            $CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
+            $CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
+            #$CHECKS->{hashCmp2}{fp}  = $tmpdir . 'hashDiff2.txt';
+            #$CHECKS->{hashCmp2}{out} = [`bash -c "comm -3  <(sort $oldPath) <(sort $newPath)"`];
             #$CHECKS->{hashCmp3}{fp}  = $tmpdir . 'hashDiff3.txt';
             #$CHECKS->{hashCmp3}{out} = [`cat $oldPath $newPath | sed 's/^.*LN=.*\$//' | sed 's/^.*raw=.*\$//' | sort | uniq -u`];
             if ($oldPath =~ /ohm/) {unlink $oldPath};
@@ -2130,3 +2150,10 @@ sub __longest #{{{1
 #}}}
 
 1;
+# ===  NOTES
+# double utf8 encoding
+# sweep(['refs'] giving duplicate empty hashes
+# put type (dspt, mask, drsr, hash, matches) in lib of jsons
+# differientiate b/w main mask and launch masks. May need to create seperate class called filters, launchers, or plan. These "submasks" need a launch command, additional scripts to run and masks of their own. They will be kept in supplement folder.
+# changing bp configs.
+
