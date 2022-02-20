@@ -4,62 +4,75 @@
          "enable" : 0,
          "childs" : []
       },
-      "sort" : -1
+      "sort" : 0
    },
    "lib" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
+      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa2",
       "scripts" : [],
       "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
-      "sort" : -1
+      "name" : "masterbin",
+      "sort" : 0
    },
    "description" : {
+      "supress" : {
+          "all" : 0,
+          "vals" : []
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "sort" : -1
+      "sort" : 0
    },
    "prsv" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "sort" : -1
+      "sort" : 0
    },
    "title" : {
-      "sort" : -1,
+      "sort" : 1,
       "place_holder" : {
          "enable" : 1,
          "childs" : ["tags"]
       }
    },
    "author" : {
-      "sort" : -1,
+      "sort" : 1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       }
    },
    "tags" : {
-      "sort" : -1,
+      "sort" : 0,
+      "supress" : {
+          "all" : 0,
+          "vals" : []
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
    "section" : {
-      "sort" : -1,
+      "sort" : 1,
+      "supress" : {
+          "all" : 0,
+          "vals" : []
+      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       }
    },
    "series" : {
-      "sort" : -1,
+      "sort" : 0,
       "place_holder" : {
          "enable" : 0,
          "childs" : []

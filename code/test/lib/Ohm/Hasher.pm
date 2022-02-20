@@ -16,7 +16,7 @@ package Ohm::Hasher;
 use strict;
 use warnings;
 use utf8;
-use feature 'current_sub';
+use feature qw( current_sub );
 
 use File::Basename;
 use JSON::XS;
@@ -116,39 +116,29 @@ sub get_sum #{{{1
 }
 
 sub gen_config #{{{1
-{
-    #generates complex configurations
-    my ( $self, $args ) = @_;
+{ # generates and/or enforces configuration hashes
 
-    # Convert '$args' into type 'HASH', if not already
-    unless ( UNIVERSAL::isa($args, 'HASH') )
-    {
-        $args =
-        {
-            bp_name        => $_[1],
-            init_hash      => $_[2],
-            excluded_keys  => $_[3],
-        };
-    }
+    my
+    ( $self,
+        $bp_name,  # boilerplate name for 'get_bp' subroutine
+        $init_hash # initial hash to mask
+    ) = @_;
 
-    # Name and Init
-    my $bp_name   = $args->{bp_name};
-    my $init_hash = $args->{init_hash};
 
-    # EXL KEYS
-    my @EXL_KEYS  = ();
-    if (exists $args->{exclude_keys})
-    {
-        @EXL_KEYS = $args->{exclude_keys}->@*;
-    }
 
-    # get boilerplate
-    my $bp = dclone $self->__gen_bp($bp_name) // die;
+    my $bp = dclone $self->__gen_bp( $bp_name ) // die;
 
-    # genconfig
-    my $config = populate($self, $bp, {});
+    # populate config
+    my $config = populate
+    (
+        $self,   # 'hasher'
+        $bp,     # boiler plate
+        {},      # initial config to be built within recursion
+        0,       # obj_flag
+        $bp_name,
+    );
 
-    # Use init hash
+    # use init hash if provided
     if ($init_hash)
     {
         my $flat_mask  = flatten $init_hash;
@@ -156,78 +146,28 @@ sub gen_config #{{{1
 
         $flat_config = $self->__mask($flat_config, $flat_mask);
 
-        for my $key (@EXL_KEYS)
-        {
-            delete $flat_config->{$key};
-        }
         $config = unflatten $flat_config;
 
     }
 
-    # RETURN
     return $config;
 
-    # subroutines
-    sub __mask #{{{
+    sub populate #{{{2
     {
-        my ($self, $flat_config, $flat_mask) = @_;
+        my
+        (
+            $self,    # hasher object
+            $bp,      # boiler plate
+            $config,  # config being built within recursion
+            $OBJ,     # Boolean for 1st lvl recursion
+            $bp_name, # Name of boilerplate
+        ) = @_;
 
-        #for my $key ( keys %$flat_config )
-        for my $key ( keys %$flat_mask )
-        {
-            my $str = $key;
-            my $pat;
-            my $delim;
-            my $end;
-            if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
-            {
-                $pat = $1;
-                $delim = $2 // '';
-                $end = $delim ? '' : '$' ;
-            }
-            else { die }
-
-            #my @KEYS = grep {$_ =~ /^\Q$pat\E$end/} keys %$flat_config;
-            my @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
-            my @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
-
-            while ( scalar @KEYS > 1 || scalar @CLN )
-            {
-                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
-                {
-                    $pat  .= $delim.$1;
-                    $delim = $2 // '';
-                    $end = $delim ? '' : '$' ;
-
-                }
-
-                #@KEYS = grep {$_ =~ /\Q$pat\E$end/ } keys %$flat_config;
-                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
-                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
-                delete $flat_config->{$_} for @CLN;
-                #print "$pat ($delim) $end\n";
-                #print( "    KEYS: " .(join ' ', @KEYS) , "\n");
-                #print( "     CLN:" .(join ' ', @CLN) , "\n");
-            }
-
-            #delete $flat_mask->{$_} for @CLN;
-            $flat_config->{$key} = $flat_mask->{$key};
-
-        }
-        return $flat_config;
-    }
-
-    sub populate #{{{
-    {
-        my ( $self, $bp, $config, $OBJ ) = @_;
-
-        my $type    = delete $bp->{type} // return $config;
-        my $fill    = delete $bp->{fill} // die;
-        my $general = delete $bp->{general};
-        my $member  = delete $bp->{member};
+        my $member  = delete $bp->{member}  // die "no member hash in boiler_plate $bp_name";
+        my $fill    = delete $bp->{fill}    // die "no fill hash in boiler_plate $bp_name";
+        my $general = delete $bp->{general} // die "no general hash in boiler_plate $bp_name";
         my @RemKeys = keys %$bp;
-        $config  = dclone $general if $general;
-
+        $config = dclone $general if $general;
 
         # MEMBER
         if ( %$member )
@@ -238,7 +178,7 @@ sub gen_config #{{{1
             if ($OBJ)
             {
                 @KEYS = keys $self->{dspt}{$OBJ}{attrs}->%*;
-                push @KEYS, $OBJ if $fill->[1];
+                push @KEYS, $OBJ if $fill;
             }
             else
             {
@@ -254,6 +194,7 @@ sub gen_config #{{{1
                     dclone $member,
                     $config->{$key},
                     $key,
+                    $bp_name,
                 );
             }
         }
@@ -267,28 +208,62 @@ sub gen_config #{{{1
                 dclone $bp->{$key},
                 $config->{$key},
                 $OBJ,
+                $bp_name,
             );
         }
 
         # GENERAL
         if (ref $config eq 'HASH')
         {
-            my $flat_mask  = flatten(dclone $general) if $general;
+            my $flat_mask  = flatten (dclone $general) if $general;
             my $flat_config = flatten $config;
 
             $flat_config = $self->__mask($flat_config, $flat_mask);
-            #for my $key (keys %$flatConfig)
-            #{
-            #    # do not fill in remainder keys
-            #    if ( (grep {$key eq $_} @RemKeys)[0] ) { next }
-            #    $flatConfig2->{$key} = $flatConfig->{$key};
-            #}
 
             return unflatten $flat_config;
         }
 
         return $config;
     } #}}}
+    sub __mask #{{{2
+    {
+        my
+        (
+            $self,
+            $flat_config,
+            $flat_mask
+        ) = @_;
+
+        for my $key ( keys %$flat_mask )
+        {
+            my $str = $key;
+            my $pat;
+            my $end;
+            my @KEYS;
+            my $delim = '';
+            my @CLN = (0);
+
+            while ( scalar @KEYS > 1 || scalar @CLN )
+            {
+                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
+                {
+                    $pat  .= $delim.$1;
+                    $delim = $2 // '';
+                    $end = $delim ? '' : '$' ;
+
+                }
+
+                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
+                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
+                delete $flat_config->{$_} for @CLN;
+            }
+
+            $flat_config->{$key} = $flat_mask->{$key};
+
+        }
+        return $flat_config;
+    }
+
 
 }
 
@@ -389,6 +364,39 @@ sub get_matches #{{{1
     return $self;
 }
 
+sub launch #{{{1
+{
+    my ( $self, $args ) = @_;
+    my @SMASKS = @{ $self->{smask} };
+
+    for my $smask ( @SMASKS )
+    {
+        my $pwds_DirPaths = $smask->{lib}{pwds};
+        my @pwds;
+        for my $path ( @$pwds_DirPaths )
+        {
+            my $CONFIG_DIR = glob $path->[0];
+            my $pwd = 0;
+            if ( $CONFIG_DIR )
+            {
+                open my $fh, '<', $CONFIG_DIR
+                    or die 'something happened';
+                while (my $line = <$fh>)  {
+                    if ($line =~ qr/$path->[1]/) {
+                        $pwd = $1;
+                        last;
+                    }
+                }
+            }
+            push @pwds, $pwd;
+        }
+        $self->__genWrite($smask);
+
+    }
+
+    return $self;
+}
+
 sub new #{{{1
 {
     my ($class, $args) = @_;
@@ -437,7 +445,7 @@ sub __init #{{{1
     # CWD
     $paths->{cwd} = getcwd;
 
-    # TEST
+    # RESUME
     my $args2 = do
     {
         open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json';
@@ -485,12 +493,17 @@ sub __init #{{{1
     __checkChgArgs( $paths_mask, '' , 'string scalar' );
     if ($paths_mask) { $paths->{mask} = abs_path $paths_mask }
 
+    # SMASK - SUBMASKS
+    my $paths_SMASK = delete $args->{smask} // [];
+    __checkChgArgs( $paths_SMASK, 'ARRAY' , 'ARRAY REF' );
+    if ( $paths_SMASK )
+    {
+        $paths->{smask} = [ map { abs_path $_; $_ } @$paths_SMASK ]
+    }
+
+
     # generate path config
-    $self->{paths} = $self->gen_config
-    ({
-        init_hash => $paths,
-        bp_name => 'paths',
-    });
+    $self->{paths} = $self->gen_config( 'paths', $paths );
 
 
     #%--------OTHER ARGS--------#
@@ -514,11 +527,7 @@ sub __init #{{{1
     {
         __checkChgArgs( $params, 'HASH', 'hash' )
     }
-    $self->{params} = $self->gen_config
-    ({
-        init_hash => $params,
-        bp_name => 'params',
-    });
+    $self->{params} = $self->gen_config( 'params', $params  );
 
 
     #%-------- CHECK --------#
@@ -565,11 +574,7 @@ sub __gen_dspt #{{{1
     };
 
     # generate dspt config
-    $dspt = $self->gen_config
-    ({
-        init_hash => $dspt,
-        bp_name => 'dspt',
-    });
+    $dspt = $self->gen_config( 'dspt', $dspt  );
 
     # assign DSPT
     $self->{dspt} = $dspt;
@@ -694,11 +699,7 @@ sub __gen_dspt #{{{1
     };
 
     # generate drsr config
-    $drsr = $self->gen_config
-    ({
-        init_hash => $drsr,
-        bp_name => 'drsr',
-    });
+    $drsr = $self->gen_config( 'drsr', $drsr  );
 
     for my $obj (keys %$drsr)
     {
@@ -722,11 +723,7 @@ sub __gen_dspt #{{{1
     };
 
     # generate mask config
-    $mask = $self->gen_config
-    ({
-        init_hash => $mask,
-        bp_name => 'mask',
-    });
+    $mask = $self->gen_config( 'mask', $mask  );
 
     for my $obj (keys %$mask)
     {
@@ -734,6 +731,23 @@ sub __gen_dspt #{{{1
         $dspt->{$obj}{mask} = $mask->{$obj};
     }
 
+
+    ## --- SMASK
+    $self->{smask} = [];
+
+    for my $path ( $self->{paths}{smask}->@* )
+    {
+        my $smask = do
+        {
+            open my $fh, '<:utf8', $path
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+        push $self->{smask}->@*, $smask;
+    }
+
+    ## --- MASK
 
     ## --- RETURN
     $self->{dspt} = $dspt;
@@ -763,6 +777,7 @@ sub __check_matches #{{{1
         $self->__genWrite();
         $self->write();
         $self->__validate($fext);
+        $self->launch();
 
     }
 
@@ -781,6 +796,7 @@ sub __check_matches #{{{1
         $self->__genWrite();
         $self->write();
         $self->__validate($fext);
+        $self->launch();
 
     }
 
@@ -906,18 +922,7 @@ sub __divy #{{{1
     my ( $self, $args ) = @_;
 
     #initiate hash
-    $self->{hash} = $self->gen_config
-    (
-        {
-            init_hash =>
-            {
-                val => $self->{name},
-                obj => 'lib',
-            },
-            bp_name => 'objHash',
-            exclude_keys => ['circs'],
-        }
-    );
+    $self->{hash} = $self->gen_config( 'objHash', { val => $self->{name}, obj => 'lib', } );
 
     # method variables
     $self->{m}{reffArray} = [$self->{hash}];
@@ -1287,12 +1292,22 @@ sub __sweep #{{{1
 
 sub __genWrite #{{{1
 {
-    my ( $self, $args ) = @_;
+    my ( $self, $mask ) = @_;
 
-    $self->{stdout} = [] unless exists $self->{stdout};
+    #$self->{stdout} = [] unless exists $self->{stdout};
+    $self->{stdout} = [];
     my $dspt = $self->{dspt};
     $self->{m}{prevDepth} = '';
     $self->{m}{prevObj} = 'NULL';
+
+    # expand mask
+    unless ( $mask )
+    {
+        for my $obj ( keys %{ $dspt } )
+        {
+            $mask->{$obj} = $dspt->{$obj}{mask}
+        }
+    }
 
     walk
     (
@@ -1304,6 +1319,18 @@ sub __genWrite #{{{1
                 if (ref $item eq 'HASH' && $item->{obj} ne 'lib') {
 
                     my $obj = $item->{obj};
+
+                    # SMASK
+                    if ($mask->{$obj}{supress} )
+                    {
+                        if ( $mask->{$obj}{supress}{all} )
+                        {
+                            next;
+                        }
+                        elsif ( scalar $mask->{$obj}{supress}{vals}->@* )
+                        {
+                        }
+                    }
 
                     my $drsr       = $self->{dspt}{$obj}{drsr};
                     my $depth      = $Data::Walk::depth;
@@ -1317,7 +1344,7 @@ sub __genWrite #{{{1
                              .  $drsr->{$obj}[1];
                     }
 
-                    ## --- Attributes String: d0, d1, d2, d3, d4{{{3
+                    ## --- Attributes String: d0, d1, d2, d3, d4{{{
                     my $attrStr = '';
                     my $attrDspt = $dspt->{$obj}{attrs};
 
@@ -1361,9 +1388,9 @@ sub __genWrite #{{{1
 
                             }
                         }
-                    }
+                    }#}}}
 
-                    ## --- Line Striping: d5,d6 #{{{3
+                    ## --- Line Striping: d5,d6 #{{{
                     my $F_empty;
                     if (exists $drsr->{$obj} and exists $drsr->{$obj}[5] and $self->{m}{prevDepth})
                     {
@@ -1419,9 +1446,9 @@ sub __genWrite #{{{1
                             $str =~ s/.*\n// for (1 .. $cnt);
                         }
 
-                    }
+                    } #}}}
 
-                    ## --- String Concatenation {{{3
+                    ## --- String Concatenation {{{
                     $str = ($str) ? $str . $attrStr
                                   : $attrStr;
                     chomp $str if $obj eq 'prsv';
@@ -1464,6 +1491,9 @@ sub __genWrite #{{{1
                             }
                         }
                         @var;
+                }
+                elsif ($type eq 'ARRAY')
+                {
                 }
                 return @children;
             },
@@ -1565,7 +1595,7 @@ sub __validate #{{{1
 
             ## Boolean Data Compare
             #use Data::Compare;
-            #my $c = Data::Compare->new($oldHash, $newHash);
+            #my $c = Data::Compare->new($oldHash, $ newHash);
             #print 'structures of $newHash and $oldHash are ',
             #$c->Cmp ? "" : "not ", "identical.\n";
 
@@ -1694,11 +1724,7 @@ sub __commit #{{{1
         mkdir($db)
     }
 
-    $self->{paths} = $self->gen_config
-    ({
-        init_hash => {},
-        bp_name => 'paths',
-    });
+    $self->{paths} = $self->gen_config( 'paths', { smask => $self->{paths}{smask} } );
 
     $self->rm_reff;
     use Data::Structure::Util qw( unbless );
@@ -1755,11 +1781,29 @@ sub __commit #{{{1
     delete $self->{drsr};
     delete $self->{mask};
 
+    # SMASK
+    unless ( -d $self->{paths}{cwd} . "$db/smask" )
+    {
+        mkdir($self->{paths}{cwd} . "$db/smask")
+    }
+    $self->{paths}{smask} = [];
+    for my $hash ($self->{smask}->@*)
+    {
+        push $self->{paths}{smask}->@*, $self->{paths}{cwd} . "$db/smask/" . $hash->{lib}{name}.".json";
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/smask/" . $hash->{lib}{name}.".json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
     # MISC HASH
     {
         my $hash = dclone $self;
 
-        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd')
+        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask')
         {
             delete $hash->{$key};
         }
@@ -1867,13 +1911,18 @@ sub __unflatten #{{{1
 
 sub __gen_bp #{{{1
 {
-    my ( $self, $bp_name ) = @_;
+    my
+    (
+        $self,    # hasher object
+        $bp_name  # boiler plate key name; not case sensitive
+    ) = @_;
+
+    # boiler plat dispatch table
     my %bps =
     (
         objhash => #{{{
         {
-            type => 'struct',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1889,10 +1938,10 @@ sub __gen_bp #{{{1
                 },
             },
         }, #}}}
+
         meta => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1905,10 +1954,10 @@ sub __gen_bp #{{{1
                 },
             },
         }, #}}}
-        params => #{{{ 
+
+        params => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1918,10 +1967,10 @@ sub __gen_bp #{{{1
                 prsv => 1,
             },
         }, #}}}
+
         paths => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1931,13 +1980,14 @@ sub __gen_bp #{{{1
                 mask => $self->{cwd}.'/.ohm/db/mask.json',
                 cwd => $self->{cwd},
                 output => $self->{cwd},
+                smask => [],
                 dir => '/.ohm',
             },
         }, #}}}
+
         prsv => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1948,10 +1998,10 @@ sub __gen_bp #{{{1
                 ],
             },
         }, #}}}
+
         self => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1967,10 +2017,10 @@ sub __gen_bp #{{{1
                 prsv => {},
             },
         }, #}}}
+
         matches => #{{{
         {
-            type => 'config',
-            fill => ['obj'],
+            fill => 0,
             member => {},
             general =>
             {
@@ -1979,32 +2029,28 @@ sub __gen_bp #{{{1
             },
             objs =>
             {
-                type => 'config',
-                fill => ['obj'],
+                fill => 0,
                 general => {},
                 member =>
                 {
-                    type => 'config',
-                    fill => ['obj'],
+                    fill => 0,
                     general => [],
                     member => {},
                 },
             },
         }, #}}}
+
         drsr => #{{{
         {
-            type => 'config',
-            fill => ['obj'],
+            fill => 0,
             general => {},
             member =>
             {
-                type => 'config',
-                fill => ['attrs',1],
+                fill => 1,
                 general => {},
                 member =>
                 {
-                    type => 'config',
-                    fill => [''],
+                    fill => 0,
                     member => {},
                     general =>
                     [
@@ -2018,15 +2064,16 @@ sub __gen_bp #{{{1
                 },
             },
         }, #}}}
+
         dspt => #{{{
         {
-            type => 'config',
-            fill => [''],
+            fill => 0,
             general =>
             {
                 lib =>
                 {
                     order => 0,
+                    smask => [],
                 },
                 prsv =>
                 {
@@ -2037,8 +2084,7 @@ sub __gen_bp #{{{1
             },
             member =>
             {
-                type => 'config',
-                fill => ['obj'],
+                fill => 0,
                 member => {},
                 general =>
                 {
@@ -2051,13 +2097,11 @@ sub __gen_bp #{{{1
                 },
                 attrs =>
                 {
-                    type => 'config',
-                    fill => ['attrs'],
+                    fill => 0,
                     general => {},
                     member =>
                     {
-                        type => 'config',
-                        fill => ['attrs'],
+                        fill => 0,
                         member => {},
                         general =>
                         {
@@ -2071,19 +2115,24 @@ sub __gen_bp #{{{1
                 },
             },
         }, #}}}
+
         mask => #{{{
         {
-            fill => ['obj'],
-            type => 'config',
+            fill => 0,
             general =>
             {
-                lib => {},
+                lib =>
+                {
+                    cmd => '',
+                    scripts => [],
+                    pwds => [],
+                    name => '',
+                },
                 prsv => {},
             },
             member =>
             {
-                fill => ['obj'],
-                type => 'config',
+                fill => 0,
                 member => {},
                 general =>
                 {
@@ -2092,7 +2141,7 @@ sub __gen_bp #{{{1
                         all => 0,
                         vals => [],
                     },
-                    sort => -1,
+                    sort => 0,
                     place_holder =>
                     {
                         enable => 0,
@@ -2103,6 +2152,7 @@ sub __gen_bp #{{{1
         }, #}}}
     );
 
+    # return clone of boiler plate using undercased version of argument key
     return dclone $bps{lc $bp_name};
 }
 
@@ -2156,4 +2206,6 @@ sub __longest #{{{1
 # put type (dspt, mask, drsr, hash, matches) in lib of jsons
 # differientiate b/w main mask and launch masks. May need to create seperate class called filters, launchers, or plan. These "submasks" need a launch command, additional scripts to run and masks of their own. They will be kept in supplement folder.
 # changing bp configs.
-
+# vim autoread not working
+# empty spaces for tags
+# prsvs, archive, and scraping

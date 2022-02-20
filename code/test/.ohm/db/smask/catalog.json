@@ -1,27 +1,10 @@
 {
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : -1
-   },
-   "lib" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
-      "scripts" : [],
-      "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
-      "sort" : -1
-   },
    "description" : {
+      "sort" : -1,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      },
-      "sort" : -1
+      }
    },
    "prsv" : {
       "place_holder" : {
@@ -30,12 +13,12 @@
       },
       "sort" : -1
    },
-   "title" : {
-      "sort" : -1,
+   "tags" : {
       "place_holder" : {
-         "enable" : 1,
-         "childs" : ["tags"]
-      }
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : -1
    },
    "author" : {
       "sort" : -1,
@@ -44,25 +27,50 @@
          "childs" : []
       }
    },
-   "tags" : {
+   "lib" : {
+      "name" : "catalog",
+      "sort" : -1,
+      "scripts" : [],
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa"
+   },
+   "section" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : -1
+   },
+   "title" : {
+      "sort" : -1,
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "url" : {
       "sort" : -1,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
-   "section" : {
-      "sort" : -1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "series" : {
-      "sort" : -1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      }
+      },
+      "sort" : -1
    }
 }

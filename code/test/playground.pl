@@ -25,11 +25,17 @@ use Ohm::Hasher;
 #    './mask_C.json',
 #);
 #
-#my $lib  = Ohm::Hasher->new(
-#    '/Users/azuhmier/hmofa/hmofa/code/result/libby.txt',
-#    './deimos.json',
-#    './drsr_C.json',
-#    './mask_C.json',
-#);
+my $lib  = Ohm::Hasher->new({
+    input => '/Users/azuhmier/hmofa/hmofa/code/result/libby.txt',
+    dspt => './deimos.json',
+    drsr => './drsr_C.json',
+    mask => './mask_C.json',
+    prsv => {till => ['section', 0]},
+    smask =>
+    [
+        '/Users/azuhmier/hmofa/hmofa/code/test/smask_M.json',
+        '/Users/azuhmier/hmofa/hmofa/code/test/smask_C.json',
+    ],
+});
 my $lib2  = Ohm::Hasher->new();
 do {};

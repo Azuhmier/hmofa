@@ -1,11 +1,88 @@
-Git
-  git config --get remote.origin.url
-  git remote show origin
-  git log -p
-  git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD
-    https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAgQAQ&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F33360043%2Fgit-error-need-to-remove-large-file&usg=AOvVaw3lRsptJG12vql04DiMGusm
-    https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAMQAQ&url=https%3A%2F%2Fthomas-cokelaer.info%2Fblog%2F2018%2F02%2Fgit-how-to-remove-a-big-file-wrongly-committed%2F&usg=AOvVaw23yMnKIDfmpDGPObWIx-7E
-Misc
+== PERL DEBUGGER
+- perl
+- perl -de1 (interactive perl console)
+- perl -MDebug::Trace _sweeper ./json.pl
+- perl -dTrace ./json.pl
+
+== Git
+- git config --get remote.origin.url
+- git remote show origin
+- git log -p
+- git filter-branch --tree-filter 'rm -rf path/to/your/file' HEAD
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAgQAQ&url=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F33360043%2Fgit-error-need-to-remove-large-file&usg=AOvVaw3lRsptJG12vql04DiMGusm
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjnt46GhOjyAhWmaDABHQ5ICCwQFnoECAMQAQ&url=https%3A%2F%2Fthomas-cokelaer.info%2Fblog%2F2018%2F02%2Fgit-how-to-remove-a-big-file-wrongly-committed%2F&usg=AOvVaw23yMnKIDfmpDGPObWIx-7E
+
+== POPULATE ALGORITHM
+boilerplate
+config
+init_hash
+
+member_hash    used to fill current hash lvl obj_keys, each with a member_hash
+remKeys        unique hashes that are not objKeK
+general        acts as an init_hash and will overwrite anything written by
+                   member_hash or remKeys if nessecary
+fill           boolean to include objKey in attribute keys
+failsafes      main point of attack obj/attr keys.
+
+if ( %$member )
+if ($OBJ)
+push @KEYS, $OBJ if $fill->[1];
+for my $key ( @RemKeys )
+if (ref $config eq 'HASH')
+my $flat_mask  = flatten (dclone $general) if $general;
+
+== SIFT ALGORITHM
+':'    ARRAY IDX DELIMITER
+'.'    HASH KEY DELIMITER
+UP TO FIRST DELIMITER    /(?x)
+  '$1'                       (
+  no-match capture               (?:
+  '\:'                               \\\:
+  ||                                 |
+  '\.'                               \\\.
+  ||                                 |
+  '_' or alphanum char               [_[:alnum:]]
+  1 or more times                )+
+  '1$' end                   )
+  '$2'                       (
+  no-match capture               (?:
+  '.'                                \.
+  ||                                 |
+  ':'                                :
+  0 or more times                )*
+  '2' end                    )/
+NON-DELIMITER SECTION    /(?x)
+  BOL                        ^
+  str literal start          \Q
+  var                        $pat
+  str literal end            \E
+  '$1'                       (
+  EOL                            $
+  ||                             |
+  ':'                            :
+  ||                             |
+  '.'                            \.
+  '$' end                    )/
+NON-MATCH DELIMITER SECTION      /(?x)
+  BOL                            ^
+  str literal start              \Q
+  var                            $pat
+  var                            $delim
+  str literal end                \E
+  var                            $end/
+- non-delimiter instances of delimiter characters are escaped with '\'
+- scalar @KEYS > 1 || scalar @CLN
+- $end = $delim ? '' : '$' ;
+- $delim = $2 // '';
+- $pat  .= $delim.$1;
+- keys %$flat_mask
+- keys %$flat_config
+
+
+== MISC
+  - The mutators for flags all return the JSON object again and thus calls can be
+  chained
+  - perl debugger set $SIG{__DIE__}; it would be undef upon normal exectuion of the script
   if ( $URL =~ qr{\Q$ioURL\E|\Q$rawURL\E} )
   '[]' should show up as tags
   the substitution problem
@@ -48,226 +125,116 @@ Misc
     !!$var     # force boolean context
     0 + $var   # force numeric context
     '' . $var  # force string context
-HASH ARCHITECT
+    HASH ARCHITECT
 
-  - Accountability = ( #lines captured / #lines ), can set
-    threshold to min accountability, either global, total,
-    or local to obj
-  - Objects @*(unique/- member check); @*(author(alias)-title-url(url_attributes) link); @$*(obj count  check);
-    containers @(depth priority)
-    - section
-    - series
-    tags $(intra redundancy check)
-    - tags @*(title-tagline link)
-    - description
-    identifiers
-    - libName @$(inter/intra duplicate check)
-    - author  @$(inter/intra duplicate check)
-    - title   @(inter duplicate check)
-  - Attributes @(attribute line up)
-    tag-like $(intra redundancy check)
-    - author_attribute $(alias query)
-    - title_attribute
-    - anthro  $(anthro query)
-    - general $(general query)
-    - ops     $(ops query)
-    ordering $(order check)
-    - url_attribute $(story section/type query)
-
-
-  - no '\' keys
-  - unique obj keys
-  - all '{}' are parts of '[]', except for top.
-  - all '[]' are values in '{}', except for top '[]' (if exists).
-  - all '$_' are values/parts of '{}'/'[]'
-  - all '{}' represent an obj
-  - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
-  - duplicates: file dir based duplicate checking
-  ov
-    - tgt hash
-    - tgt dir
-    - hash buffers (main, cmb, cmp, etc, )
-  - db
-    - dspt
-      - drsr
-      - prsvs
-    - result
-    - cfa
-    - pointer
-    - meta
-      - name
-      - stats
-      - versions
-  - format
-    - $a->{obj}    = obj_name
-    - $a->{value}  = obj_value
-    - $a->{childs} = {child_1: CHILDS_1}
-    - circular reffs
-      Parent
-      - $a->{OBJ} = $b ==> $b->[num] = $c
-      - $c->{..}  = $b ==> $b->[1]  = $a
-      self
-      - $b->[0] = $b
-      - $c->{.} = $c
-  - concepts
-    - attributes
-    - divy
-    - genopt
-    - groupname
-    - leveler
-    - miss
-    - null
-    - order
-    - pointer, pntstr, pntlvls
-    - preserves
-    - regular expression
-    - reserve keys
-    - scalar
-    - sorting, tied hash
-    - tags
+      - Accountability = ( #lines captured / #lines ), can set
+        threshold to min accountability, either global, total,
+        or local to obj
+      - Objects @*(unique/- member check); @*(author(alias)-title-url(url_attributes) link); @$*(obj count  check);
+        containers @(depth priority)
+        - section
+        - series
+        tags $(intra redundancy check)
+        - tags @*(title-tagline link)
+        - description
+        identifiers
+        - libName @$(inter/intra duplicate check)
+        - author  @$(inter/intra duplicate check)
+        - title   @(inter duplicate check)
+      - Attributes @(attribute line up)
+        tag-like $(intra redundancy check)
+        - author_attribute $(alias query)
+        - title_attribute
+        - anthro  $(anthro query)
+        - general $(general query)
+        - ops     $(ops query)
+        ordering $(order check)
+        - url_attribute $(story section/type query)
 
 
-  $ main_controller
-    - cli
-    $ hoarder
-      - sql_client
-      - version control
-      - history
-      @ home_dir
-    $ webber
-      @ scrapper
-      @ upload/downloader
-    $ masher
-      $ hasher
-        - hash obj
-        - circuler reffs (., .., ...)
-        # txt -> json & json -> txt
-        # remove/add circuler reffs
-        # load dspt
-        # self check
-          - duplicates
-        @ writer
-          @ wrtMode: txt, markdown
-          @ output file
-        @ pointer
-        @ indx
-        @ name
-        @ dspt
-      @ comparator/combiner
-        - check sameness of dspts
-        - duplicates
-      @ hash_num
-      @ hash_buf
-      @ file_buf
-
-ohm
-  c
-  c a
-  c -o
-  c a -o
-  c -o a
-  c a -o a
-PERL DEBUGGER
-  perl
-  perl -de1 (interactive perl console)
-  perl -MDebug::Trace _sweeper ./json.pl
-  perl -dTrace ./json.pl
-
-- The mutators for flags all return the JSON object again and thus calls can be
-chained
-
-
-0  Ohm::Hasher=HASH(0x7fe9d4c014a8)
-   'circ' => 6712
-   'debug' => ARRAY(0x7fe9d2dc75a8)
-        empty array
-   'dspt' => 1
-   'hash' => 1
-   'matches' => HASH(0x7fe9d4c1b5c8)
-      'miss' => 1936
-      'obj_count' => 9
-      'objs' => HASH(0x7fe9d5edd290)
-         'author' => 298
-         'description' => 266
-         'lib' => 0
-         'prsv' => 2
-         'section' => 2
-         'series' => 29
-         'tags' => 802
-         'title' => 1044
-         'url' => 1812
-   'meta' => HASH(0x7fe9d5cb3968)
-      'dspt' => HASH(0x7fe9d5cb3b90)
-         'ord_limit' => '1.1.1.1.4'
-         'ord_map' => 9
-         'ord_max' => '1.1.1.1.3'
-   'name' => 'libby'
-   'params' => HASH(0x7fe9d2dc7488)
-      'attribs' => 01
-      'delims' => 01
-      'mes' => 01
-      'prsv' => 01
-   'paths' => HASH(0x7fe9d2def178)
-      'drsr'   => '*.json'
-      'dspt'   => '*.json'
-      'input'  => '*.txt'
-      'mask'   => '*.json'
-      'output' => ''
-   'prsv' => HASH(0x7fe9d2dc7518)
-      'till' => ARRAY(0x7fe9d2dc7548)
-         0  'section'
-         1  0
-   'stdout' => 4498
-
-- perl debugger set $SIG{__DIE__}; it would be undef upon normal exectuion of the script
-
-todo
-  - exists key vs if(key-value)
-    exists key
-      - undefined keys
-      - object/child/attr keys
-      - hash
-    if key-value
-      - pre-defined keys
-      - object dspt/drsr/mask keys
-  - {key => ref}
-  - {key => empty ref}
-  - {key => undef}
-  - {}
-  - meta should not be in the same keys with obj, neither should null
-MISC
-
-mat_1 ={} KEY_1_m = x_1_m_0(.x_1_m_n|:y_1_m_n) = VAL_1_m || {m = 1..j_1}{n = 1..i_1_m}
-
-mat_2 ={} KEY_2_m = x_2_m_0(.x_2_m_n|:y_2_m_n)= VAL_2_m || {m = 1..j_2}{n = 1..i_2_m}
-
-1.
-   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m = 1..i_2_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_1_m = 1..i_2_m}"
-ref x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m = 1..i_2_m}  == ref x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_1_m = 1..i_2_m}
+      - no '\' keys
+      - unique obj keys
+      - all '{}' are parts of '[]', except for top.
+      - all '[]' are values in '{}', except for top '[]' (if exists).
+      - all '$_' are values/parts of '{}'/'[]'
+      - all '{}' represent an obj
+      - Every lvl except -1 and every part and value of that lvl goes into the want subroutine.
+      - duplicates: file dir based duplicate checking
+      ov
+        - tgt hash
+        - tgt dir
+        - hash buffers (main, cmb, cmp, etc, )
+      - db
+        - dspt
+          - drsr
+          - prsvs
+        - result
+        - cfa
+        - pointer
+        - meta
+          - name
+          - stats
+          - versions
+      - format
+        - $a->{obj}    = obj_name
+        - $a->{value}  = obj_value
+        - $a->{childs} = {child_1: CHILDS_1}
+        - circular reffs
+          Parent
+          - $a->{OBJ} = $b ==> $b->[num] = $c
+          - $c->{..}  = $b ==> $b->[1]  = $a
+          self
+          - $b->[0] = $b
+          - $c->{.} = $c
+      - concepts
+        - attributes
+        - divy
+        - genopt
+        - groupname
+        - leveler
+        - miss
+        - null
+        - order
+        - pointer, pntstr, pntlvls
+        - preserves
+        - regular expression
+        - reserve keys
+        - scalar
+        - sorting, tied hash
+        - tags
 
 
-   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_2_m}" ( m < i_1_m ) >< i_2_m
-   "x_1_m_0(.x_1_m_n|:y_1_m_n) || {n = 1..i_1_m}" =str= "x_2_m_0(.x_2_m_n|:y_2_m_n) || {n = 1..i_2_m}" ( m < i_1_m ) >< ( m < i_2_m )
+      $ main_controller
+        - cli
+        $ hoarder
+          - sql_client
+          - version control
+          - history
+          @ home_dir
+        $ webber
+          @ scrapper
+          @ upload/downloader
+        $ masher
+          $ hasher
+            - hash obj
+            - circuler reffs (., .., ...)
+            # txt -> json & json -> txt
+            # remove/add circuler reffs
+            # load dspt
+            # self check
+              - duplicates
+            @ writer
+              @ wrtMode: txt, markdown
+              @ output file
+            @ pointer
+            @ indx
+            @ name
+            @ dspt
+          @ comparator/combiner
+            - check sameness of dspts
+            - duplicates
+          @ hash_num
+          @ hash_buf
+          @ file_buf
 
-flattening algorithm
 
-my %key_cache = ();
-for my $key (keys %$flat_mask)
-{
-    my $str = $key;
-    #need look ahead or groups
-    my $regex = ($str =~ s/(([A-Za-z0-9]+)([^;,])//g)[0];
-    my @KEYS = grep {$_ =~ $regex } keys %$flat_config;
-    my $delim = ($str =~ s/(^.//g)[0];
-    $delim ||= '[^:,];
-
-    while !( (grep {$_ !~ /$regex.$delim/ } @KEYS)[0] }
-    {
-        $delim = ($str =~ s/(^.//g)[0];
-        $delim ||= '[^:,];
-        $regex = ($str =~ s/($delim[A-Za-z0-9][^;,]//g)[0];
-        @KEYS = grep {$_ =~ $regex } keys %$flat_config;
-    }
-    delete $flat_mask->{$_} for grep {$_ !~ /$regex.$delim/ } @KEYS;
-    $flat_mask->{$key} = $flat_mask->{$key};
-}

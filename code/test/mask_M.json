@@ -44,7 +44,9 @@
    "lib" : {
       "place_holder" : {
          "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "cmd" : "ls",
+         "scripts" : ["klh"]
       },
       "sort" : -1
    },
