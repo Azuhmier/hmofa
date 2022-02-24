@@ -1,28 +1,28 @@
 {
+   "params" : {
+      "delims" : 1,
+      "prsv" : 1,
+      "mes" : 1,
+      "attribs" : 1
+   },
    "prsv" : {
       "till" : [
          "section",
          "0"
       ]
    },
-   "params" : {
-      "prsv" : 1,
-      "attribs" : 1,
-      "mes" : 1,
-      "delims" : 1
-   },
-   "name" : "libby",
    "paths" : {
-      "smask" : [
-         "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/smask/masterbin.json",
-         "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/smask/masterbin.json"
-      ],
-      "input" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/output.txt",
-      "mask" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/mask.json",
-      "drsr" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/drsr.json",
-      "cwd" : "/Users/azuhmier/hmofa/hmofa/code/test",
       "dir" : "/.ohm",
       "dspt" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/dspt.json",
-      "output" : "/Users/azuhmier/hmofa/hmofa/code/test"
-   }
+      "smask" : [
+         "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/smask/masterbin.json",
+         "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/smask/catalog.json"
+      ],
+      "mask" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/mask.json",
+      "input" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/output.txt",
+      "output" : "/Users/azuhmier/hmofa/hmofa/code/test",
+      "drsr" : "/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/drsr.json",
+      "cwd" : "/Users/azuhmier/hmofa/hmofa/code/test"
+   },
+   "name" : "libby"
 }

@@ -23,6 +23,8 @@ use JSON::XS;
 use Storable qw(dclone);
 use Carp qw(croak carp);
 use Cwd;
+use Data::Dumper;
+$Data::Dumper::Maxdepth = 1;
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
@@ -317,7 +319,8 @@ sub rm_reff #{{{1
         }
         elsif ( UNIVERSAL::isa($ref,'ARRAY') )
         {
-            $ref->[0] = {};
+            #$ref->[0] = {};
+            shift @$ref;
         }
         else
         {
@@ -390,7 +393,22 @@ sub launch #{{{1
             }
             push @pwds, $pwd;
         }
+
         $self->__genWrite($smask);
+
+        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
+            or die 'something happened';
+            my $writeArray = $self->{stdout};
+
+            for (@$writeArray)
+            {
+                print $fh2 $_,"\n";
+            }
+            truncate $fh2, tell($fh2) or die;
+            seek $fh2,0,0 or die;
+
+        close $fh2
+        #$self->write()
 
     }
 
@@ -744,6 +762,9 @@ sub __gen_dspt #{{{1
             local $/;
             decode_json(<$fh>);
         };
+
+        $smask = $self->gen_config( 'mask', $smask  );
+
         push $self->{smask}->@*, $smask;
     }
 
@@ -1294,7 +1315,6 @@ sub __genWrite #{{{1
 {
     my ( $self, $mask ) = @_;
 
-    #$self->{stdout} = [] unless exists $self->{stdout};
     $self->{stdout} = [];
     my $dspt = $self->{dspt};
     $self->{m}{prevDepth} = '';
@@ -1319,22 +1339,21 @@ sub __genWrite #{{{1
                 if (ref $item eq 'HASH' && $item->{obj} ne 'lib') {
 
                     my $obj = $item->{obj};
+                    my $drsr       = $self->{dspt}{$obj}{drsr};
+                    my $depth      = $Data::Walk::depth;
+                    my $str        = '';
 
                     # SMASK
                     if ($mask->{$obj}{supress} )
                     {
                         if ( $mask->{$obj}{supress}{all} )
                         {
-                            next;
-                        }
-                        elsif ( scalar $mask->{$obj}{supress}{vals}->@* )
-                        {
+                            $self->{m}{prevDepth} = $depth;
+                            $self->{m}{prevObj}   = $obj;
+                            return;
                         }
                     }
 
-                    my $drsr       = $self->{dspt}{$obj}{drsr};
-                    my $depth      = $Data::Walk::depth;
-                    my $str        = '';
 
                     ## --- String: d0, d1
                     if (ref $item->{val} ne 'ARRAY')
@@ -1466,6 +1485,9 @@ sub __genWrite #{{{1
                     $self->{m}{prevDepth} = $depth;
                     $self->{m}{prevObj}   = $obj;
                 }
+                if ( ref $item eq 'ARRAY' )
+                {
+                }
             },
             preprocess => sub
             {
@@ -1494,6 +1516,27 @@ sub __genWrite #{{{1
                 }
                 elsif ($type eq 'ARRAY')
                 {
+                    my $item = \@children;
+                    my $idx_0 =  ( exists  $item->[0]{obj} ) ?0 :1;
+                    my $obj = $item->[$idx_0]{obj};
+                    if ( scalar $mask->{$obj}{supress}{vals}->@* )
+                    {
+                        for my $idx ($mask->{$obj}{supress}{vals}->@*)
+                        {
+                            splice @$item, ($idx+$idx_0),1;
+                        }
+                    }
+                    if ( $mask->{$obj}{sort} != 0 )
+                    {
+                        @children = 
+                        sort
+                        {
+                            $a->{val}
+                            cmp
+                            $b->{val}
+                        }
+                        @children
+                    }
                 }
                 return @children;
             },
@@ -2128,7 +2171,8 @@ sub __gen_bp #{{{1
                     pwds => [],
                     name => '',
                 },
-                prsv => {},
+                #prsv => { akle => 1}, # if defined as '{}, it does not include
+                #supress, including 'akle => 1' does include supress
             },
             member =>
             {

@@ -14,7 +14,7 @@
       "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa2",
       "scripts" : [],
       "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
-      "name" : "masterbin",
+      "name" : "catalog",
       "sort" : 0
    },
    "description" : {
@@ -61,7 +61,7 @@
       }
    },
    "section" : {
-      "sort" : 1,
+      "sort" : 0,
       "supress" : {
           "all" : 0,
           "vals" : []

@@ -26,7 +26,7 @@ use Ohm::Hasher;
 #);
 #
 my $lib  = Ohm::Hasher->new({
-    input => '/Users/azuhmier/hmofa/hmofa/code/result/libby.txt',
+    input => './output.txt',
     dspt => './deimos.json',
     drsr => './drsr_C.json',
     mask => './mask_C.json',
