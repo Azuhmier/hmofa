@@ -24,7 +24,7 @@ use Storable qw(dclone);
 use Carp qw(croak carp);
 use Cwd;
 use Data::Dumper;
-$Data::Dumper::Maxdepth = 1;
+#$Data::Dumper::Maxdepth = 1;
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
@@ -371,6 +371,7 @@ sub launch #{{{1
 {
     my ( $self, $args ) = @_;
     my @SMASKS = @{ $self->{smask} };
+    my $dspt = $self->{dspt};
 
     for my $smask ( @SMASKS )
     {
@@ -378,7 +379,7 @@ sub launch #{{{1
         my @pwds;
         for my $path ( @$pwds_DirPaths )
         {
-            my $CONFIG_DIR = glob $path->[0];
+            my ($CONFIG_DIR) = glob $path->[0];
             my $pwd = 0;
             if ( $CONFIG_DIR )
             {
@@ -393,12 +394,37 @@ sub launch #{{{1
             }
             push @pwds, $pwd;
         }
+        my $sdrsr_name = $smask->{lib}{drsr};
 
-        $self->__genWrite($smask);
+        my $sdrsr = do
+        {
+            #open my $fh, '<:utf8', $self->{paths}{drsr}
+            open my $fh, '<', "./" . $sdrsr_name . ".json"
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+        # generate drsr config
+        $sdrsr = $self->gen_config( 'drsr', $sdrsr  );
+
+        for my $obj (keys %$sdrsr)
+        {
+            $dspt->{$obj} // die;
+            $dspt->{$obj}{drsr} = $sdrsr->{$obj};
+            for my $attr (grep {$_ ne $obj} keys $sdrsr->{$obj}->%*)
+            {
+                $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
+
+            }
+        }
+
+        #print Dumper $sdrsr;
+        $self->__genWrite($smask, $sdrsr);
 
         open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
             or die 'something happened';
             my $writeArray = $self->{stdout};
+            $writeArray->[0] = $smask->{lib}{header} // $writeArray->[0];
 
             for (@$writeArray)
             {
@@ -407,8 +433,12 @@ sub launch #{{{1
             truncate $fh2, tell($fh2) or die;
             seek $fh2,0,0 or die;
 
-        close $fh2
-        #$self->write()
+        close $fh2;
+        ## upload to final destination
+        $smask->{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
+        print $smask->{lib}{cmd}, "\n";
+        my $cmd = `$smask->{lib}{cmd}`;
+
 
     }
 
@@ -1313,7 +1343,7 @@ sub __sweep #{{{1
 
 sub __genWrite #{{{1
 {
-    my ( $self, $mask ) = @_;
+    my ( $self, $mask, $sdrsr ) = @_;
 
     $self->{stdout} = [];
     my $dspt = $self->{dspt};
@@ -1339,7 +1369,11 @@ sub __genWrite #{{{1
                 if (ref $item eq 'HASH' && $item->{obj} ne 'lib') {
 
                     my $obj = $item->{obj};
+
+                    # establish drsr
                     my $drsr       = $self->{dspt}{$obj}{drsr};
+                    if ($sdrsr) { $drsr = $sdrsr->{$obj} };
+
                     my $depth      = $Data::Walk::depth;
                     my $str        = '';
 
@@ -1381,6 +1415,9 @@ sub __genWrite #{{{1
                             if ( exists $item->{attrs}{$attr} )
                             {
                                 my $attrItem = $item->{attrs}{$attr} // '';
+
+                                # if $attrItem is a ref, clone it
+                                if (ref $attrItem) { $attrItem = dclone $item->{attrs}{$attr} }
 
                                 ## Item Arrays
                                 if (exists $attrDspt->{$attr}{delims})
@@ -1467,6 +1504,24 @@ sub __genWrite #{{{1
 
                     } #}}}
 
+                    ## --- Line Chopping d7 #{{{
+                    if ( ref $drsr->{$obj}[6] eq 'HASH' and exists $drsr->{$obj}[6]{chop})
+                    {
+                        my $last = $self->{matches}{objs}{$obj}->$#*;
+
+                        my $cnt = -1;
+                        for my $reff ( $self->{matches}{objs}{$obj}->@* )
+                        {
+                            $cnt++;
+                            if ( $reff == $item )
+                            {
+                                last;
+                            }
+                        }
+                        if ($cnt == $last) { return }
+                    }
+                    #}}}
+
                     ## --- String Concatenation {{{
                     $str = ($str) ? $str . $attrStr
                                   : $attrStr;
@@ -1531,9 +1586,9 @@ sub __genWrite #{{{1
                         @children = 
                         sort
                         {
-                            $a->{val}
+                            lc $a->{val}
                             cmp
-                            $b->{val}
+                            lc $b->{val}
                         }
                         @children
                     }
@@ -1635,12 +1690,6 @@ sub __validate #{{{1
             };
             $self->rm_reff;
             my $newHash = dclone $self->{hash};
-
-            ## Boolean Data Compare
-            #use Data::Compare;
-            #my $c = Data::Compare->new($oldHash, $ newHash);
-            #print 'structures of $newHash and $oldHash are ',
-            #$c->Cmp ? "" : "not ", "identical.\n";
 
             ## Diff Data Compare
             my $newFlat = $self->__see($newHash,'lib',[]);
@@ -1882,14 +1931,14 @@ sub __see #{{{1
 
     if ( UNIVERSAL::isa($item,'HASH' ) )
     {
-        for my $key ( keys %$item)
+        for my $key (keys %$item)
         {
             my $flatkey = $prefix . '.' . $key;
             $flat = $self->__see($item->{$key}, $flatkey, $flat);
         }
     } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
     {
-        for my $idx (1 .. $item->$#*)
+        for my $idx (0 .. $item->$#*)
         {
             #my $flatkey = $prefix . ':' . $idx;
             my $key;

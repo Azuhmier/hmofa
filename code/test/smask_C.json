@@ -11,11 +11,13 @@
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa2",
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
       "scripts" : [],
       "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
       "name" : "catalog",
-      "sort" : 0
+      "sort" : 0,
+      "drsr" : "drsr_M",
+      "header": "/HMoFA/ Catalog"
    },
    "description" : {
       "supress" : {

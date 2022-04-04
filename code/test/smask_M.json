@@ -11,11 +11,13 @@
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
+      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
       "scripts" : [],
       "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
       "name" : "masterbin",
-      "sort" : 0
+      "sort" : 0,
+      "drsr" : "drsr_M",
+      "header": "/HMoFA/ Masterbin"
    },
    "description" : {
       "supress" : {
