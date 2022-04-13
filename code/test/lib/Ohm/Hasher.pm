@@ -128,7 +128,15 @@ sub __init #{{{1
     __checkChgArgs( $paths_SMASK, 'ARRAY' , 'ARRAY REF' );
     if ( $paths_SMASK )
     {
-        $self->{paths}{smask} = [ map { abs_path $_; $_ } @$paths_SMASK ]
+        $self->{paths}{smask} = [ map { abs_path $_[0]; $_[0] } @$paths_SMASK ]
+    }
+
+    # SDRSR - SUBDRESSERS
+    my $paths_SDRSR = delete $args->{sdrsr} // [];
+    __checkChgArgs( $paths_SDRSR, 'ARRAY' , 'ARRAY REF' );
+    if ( $paths_SDRSR )
+    {
+        $self->{paths}{sdrsr} = [ map { abs_path $_; $_ } @$paths_SDRSR ]
     }
 
     # generate path config
@@ -319,15 +327,35 @@ sub gen_dspt #{{{1
     {
         my $smask = do
         {
-            open my $fh, '<:utf8', $path
+            open my $fh, '<:utf8', $path[0]
                 or die;
             local $/;
             decode_json(<$fh>);
         };
 
         $smask = $self->gen_config( 'mask', $smask  );
+        unless ( $path[1] ) {
+            $path[1] = 'drsr';
+        }
 
-        push $self->{smask}->@*, $smask;
+        push $self->{smask}->@*, [$smask $path[1]];
+    }
+
+    ## --- SDRSR
+    $self->{sdrsr} = [];
+    for my $path ( $self->{paths}{sdrsr}->@* )
+    {
+        my $sdrsr = do
+        {
+            open my $fh, '<:utf8', $path
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+
+        $sdrsr = $self->gen_config( 'mask', $sdrsr  );
+
+        push $self->{smask}->@*, $sdrsr;
     }
 
     ## --- RETURN
