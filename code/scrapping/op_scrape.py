@@ -8,19 +8,26 @@ r = session.get(init_url)
 
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(r.content, 'html.parser')
-
-mydivs  = soup.find_all("div", {"class": "container-fluid"})
-mydivs2 = mydivs[0].find_all("div", {"id": "main"})
-article = mydivs2[0].find_all("article", {"class":"clearfix thread"})
-aside = article[0].find_all("aside", {"class":"posts"})
+mydivs   = soup.find_all("div", {"class": "container-fluid"})
+mydivs2  = mydivs[0].find_all("div", {"id": "main"})
+article  = mydivs2[0].find_all("article", {"class":"clearfix thread"})
+aside    = article[0].find_all("aside", {"class":"posts"})
 articles = aside[0].find_all("article")
 
+lines = []
 for article in articles :
     txt = article.find_all("div", {"class":"text"})
     for e in txt[0].findAll('br'):
         e.extract()
     for line in txt[0] :
-        print(line.string)
+        lines.append(line.string)
+
+import os.path
+savepath = "/Users/azuhmier/hmofa/hmofa/code/test/"
+filename = "op_scrapes.txt"
+fh = open( os.path.join(savepath, filename), "w")
+fh.write('\n'.join(str(line) for line in lines))
+fh.close()
 #html body.theme_default.midnight div.container-fluid div#main article.clearfix.thread aside.posts article#46820967.post.doc_id_47765430.post_is_op.has_image div.post_wrapper div.text a
 #\34 6820967 > div:nth-child(2) > div:nth-child(5) > a:nth-child(17)
 #/html/body/div[2]/div[2]/article[1]/aside/article[1]/div[2]/div[4]/a[2]

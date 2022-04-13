@@ -1,28 +1,30 @@
 {
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+   "author" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       },
-      "sort" : 0
-   },
-   "lib" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "scripts" : [],
-      "pwds" : [["~/.ohm/.config","^PWD=(.*)"]],
-      "name" : "catalog",
-      "sort" : 0,
-      "drsr" : "drsr_M",
-      "header": "/HMoFA/ Catalog"
+      "sort" : 1
    },
-   "description" : {
+   "section" : {
+      "sort" : 0,
       "supress" : {
-          "all" : 0,
-          "vals" : []
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "series" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       },
       "place_holder" : {
          "childs" : [],
@@ -31,50 +33,79 @@
       "sort" : 0
    },
    "prsv" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      },
-      "sort" : 0
+      }
    },
    "title" : {
       "sort" : 1,
       "place_holder" : {
          "enable" : 1,
-         "childs" : ["tags"]
+         "childs" : [
+            "tags"
+         ]
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       }
    },
-   "author" : {
-      "sort" : 1,
+   "url" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      }
-   },
-   "tags" : {
-      "sort" : 0,
-      "supress" : {
-          "all" : 0,
-          "vals" : []
       },
+      "sort" : 0
+   },
+   "lib" : {
+      "sort" : 0,
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
       "place_holder" : {
          "childs" : [],
          "enable" : 0
+      },
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "drsr" : "drsr_M",
+      "scripts" : [],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "header" : "/HMoFA/ Catalog",
+      "name" : "catalog"
+   },
+   "tags" : {
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       }
    },
-   "section" : {
+   "description" : {
       "sort" : 0,
       "supress" : {
-          "all" : 0,
-          "vals" : []
+         "all" : 0,
+         "vals" : []
       },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "series" : {
-      "sort" : 0,
       "place_holder" : {
          "enable" : 0,
          "childs" : []

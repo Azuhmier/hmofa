@@ -64,6 +64,7 @@ sub __init #{{{1
 {
     my ( $self, $args ) = @_;
     my $class = ref $self;
+    $self->{state} = '';
 
     use Cwd 'abs_path';  $self->{cwd} = getcwd;  # get CWD
     my $isBase = $self->__checkDir();            # is dir ./ohm?
@@ -77,6 +78,7 @@ sub __init #{{{1
         decode_json(<$fh>);
     };
     delete $old_args->{paths}{cwd}; # this is not set by the user
+    delete $old_args->{state};      # this is not set by the user
 
     # reshape "old_args" to the form of "args"
     for my $key (keys $old_args->{paths}->%*)
@@ -178,11 +180,7 @@ sub gen_dspt #{{{1
         local $/;
         decode_json(<$fh>);
     };
-
-    # generate dspt config
     $dspt = $self->gen_config( 'dspt', $dspt  );
-
-    # assign DSPT
     $self->{dspt} = $dspt;
 
 
@@ -295,7 +293,7 @@ sub gen_dspt #{{{1
 
 
     ## --- DRSR
-    my $drsr = do
+    $self->{drsr} = do
     {
         #open my $fh, '<:utf8', $self->{paths}{drsr}
         open my $fh, '<', $self->{paths}{drsr}
@@ -303,44 +301,20 @@ sub gen_dspt #{{{1
         local $/;
         decode_json(<$fh>);
     };
-
-    # generate drsr config
-    $drsr = $self->gen_config( 'drsr', $drsr  );
-
-    for my $obj (keys %$drsr)
-    {
-        $dspt->{$obj} // die;
-        $dspt->{$obj}{drsr} = $drsr->{$obj};
-        for my $attr (grep {$_ ne $obj} keys $drsr->{$obj}->%*)
-        {
-            $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
-
-        }
-    }
-
+    $self->{drsr} = $self->gen_config( 'drsr', $self->{drsr}  );
 
     ## --- MASK
-    my $mask = do
+    $self->{mask} = do
     {
         open my $fh, '<:utf8', $self->{paths}{mask}
             or die;
         local $/;
         decode_json(<$fh>);
     };
-
-    # generate mask config
-    $mask = $self->gen_config( 'mask', $mask  );
-
-    for my $obj (keys %$mask)
-    {
-        $dspt->{$obj} // die;
-        $dspt->{$obj}{mask} = $mask->{$obj};
-    }
-
+    $self->{mask} = $self->gen_config( 'mask', $self->{mask}  );
 
     ## --- SMASK
     $self->{smask} = [];
-
     for my $path ( $self->{paths}{smask}->@* )
     {
         my $smask = do
@@ -386,8 +360,8 @@ sub check_matches #{{{1
         #
 
         $self->__genWrite();
-        $self->write();
-        $self->validate();
+        $self->__validate();
+        $self->__commit();
 
     }
 
@@ -775,6 +749,149 @@ sub __divy #{{{1
 
 }
 
+sub __sweep #{{{1
+{
+
+    my ( $self, $subs ) = @_;
+
+    my $sub_list =
+    {
+        reffs   => \&gen_reffs,
+        matches => \&gen_matches,
+        plhd    => \&place_holder,
+    };
+
+    $self->{m} = {};
+
+    walk
+    (
+        {
+            wanted => sub
+            {
+                for my $name (@$subs)
+                {
+                    $sub_list->{$name}->($self);
+                }
+            },
+        },
+        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
+    );
+
+    delete $self->{m};
+    return $self;
+
+    sub gen_reffs #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        $self->{circ} = [] unless exists $self->{circ};
+
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $objArr  = $Data::Walk::container;
+            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
+                                              # error or something
+
+            $objHash->{circ}{'.'}   = $objHash;
+            $objHash->{circ}{'..'}  = $objArr // 'NULL';
+            push $self->{circ}->@*, $objHash->{circ};
+
+        }
+
+        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
+        {
+            my $objArr = $_;
+            my $ParentHash  = $Data::Walk::container;
+            unshift @$objArr,
+            {
+                '.'   => $_,
+                '..'  => $ParentHash // 'NULL',
+            };
+            push $self->{circ}->@*, $objArr->[0];
+        }
+    }
+
+    sub gen_matches #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        unless ( exists $self->{matches} )
+        {
+            $self->{matches} =
+            {
+                objs => {},
+                miss => [{a => 2}]
+            }
+        }
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $obj = $objHash->{obj};
+            push $self->{matches}{objs}{ $obj }->@*, $objHash;
+        }
+
+    }
+
+    sub place_holder #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my $self = shift @_;
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+
+            my $objHash = $_;
+            my $obj     = $objHash->{obj};
+            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
+
+            if ( $objMask->{place_holder}{enable} )
+            {
+
+                for my $child ( $objMask->{place_holder}{childs}->@* )
+                {
+
+                    unless ( exists $objHash->{childs}{$child} )
+                    {
+
+                        my $childHash = $objHash->{childs}{$child}[0] = {};
+                        %$childHash =
+                        (
+                            obj => $child,
+                            val => [],
+                            meta => undef,
+                        );
+
+                        # attributes
+                        my $childDspt = $self->{dspt}{$child};
+                        if ( defined $childDspt->{attrs} )
+                        {
+                            for my $attr ( keys $childDspt->{attrs}->%* )
+                            {
+                                if (exists $childDspt->{attrs}{$attr}{delims})
+                                {
+                                    $childHash->{attrs}{$attr} = [];
+                                }
+                                else
+                                {
+                                    $childHash->{attrs}{$attr} = '';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 sub __genWrite #{{{1
 {
     my ( $self, $mask, $sdrsr ) = @_;
@@ -787,10 +904,7 @@ sub __genWrite #{{{1
     # expand mask
     unless ( $mask )
     {
-        for my $obj ( keys %{ $dspt } )
-        {
-            $mask->{$obj} = $dspt->{$obj}{mask}
-        }
+        $mask = $self->{mask}
     }
 
     walk
@@ -805,8 +919,8 @@ sub __genWrite #{{{1
                     my $obj = $item->{obj};
 
                     # establish drsr
-                    my $drsr       = $self->{dspt}{$obj}{drsr};
-                    if ($sdrsr) { $drsr = $sdrsr->{$obj} };
+                    my $drsr       = $self->{drsr};
+                    if ($sdrsr) { $drsr = $sdrsr };
 
                     my $depth      = $Data::Walk::depth;
                     my $str        = '';
@@ -826,9 +940,9 @@ sub __genWrite #{{{1
                     ## --- String: d0, d1
                     if (ref $item->{val} ne 'ARRAY')
                     {
-                        $str .= $drsr->{$obj}[0]
+                        $str .= $drsr->{$obj}{$obj}[0]
                              .  $item->{val}
-                             .  $drsr->{$obj}[1];
+                             .  $drsr->{$obj}{$obj}[1];
                     }
 
                     ## --- Attributes String: d0, d1, d2, d3, d4{{{
@@ -859,22 +973,22 @@ sub __genWrite #{{{1
                                     my @itemPartArray = ();
                                     for my $part (@$attrItem)
                                     {
-                                        unless (defined $drsr->{$attr}[2] || defined $drsr->{$attr}[3]) { die " obj '$obj' does not have delims drsrs" }
-                                        $part = $drsr->{$attr}[2]
+                                        unless (defined $drsr->{$obj}{$attr}[2] || defined $drsr->{$obj}{$attr}[3]) { die " obj '$obj' does not have delims drsrs" }
+                                        $part = $drsr->{$obj}{$attr}[2]
                                               . $part
-                                              . $drsr->{$attr}[3];
+                                              . $drsr->{$obj}{$attr}[3];
                                         push @itemPartArray, $part;
                                     }
-                                    $attrItem = join $drsr->{$attr}[4], @itemPartArray;
+                                    $attrItem = join $drsr->{$obj}{$attr}[4], @itemPartArray;
                                 }
 
                                 #if (!$attrItem || $drsr->{$attr}[1] || $drsr->{$attr}[0]) {
                                 #    die;
                                 #}
 
-                                $attrStr .= $drsr->{$attr}[0]
+                                $attrStr .= $drsr->{$obj}{$attr}[0]
                                          .  $attrItem
-                                         .  $drsr->{$attr}[1];
+                                         .  $drsr->{$obj}{$attr}[1];
 
                             }
                         }
@@ -882,14 +996,14 @@ sub __genWrite #{{{1
 
                     ## --- Line Striping: d5,d6 #{{{
                     my $F_empty;
-                    if (exists $drsr->{$obj} and exists $drsr->{$obj}[5] and $self->{m}{prevDepth})
+                    if (exists $drsr->{$obj}{$obj} and exists $drsr->{$obj}{$obj}[5] and $self->{m}{prevDepth})
                     {
 
                         my $prevObj   = $self->{m}{prevObj};
                         my $prevDepth = $self->{m}{prevDepth};
 
-                        my $ref = ref $drsr->{$obj}[5];
-                        my $tgtObjs = ($ref eq 'HASH') ?$drsr->{$obj}[5]
+                        my $ref = ref $drsr->{$obj}{$obj}[5];
+                        my $tgtObjs = ($ref eq 'HASH') ?$drsr->{$obj}{$obj}[5]
                                                        :0;
 
                         ## strip lines only after target object
@@ -932,14 +1046,14 @@ sub __genWrite #{{{1
                         # descending lvl
                         elsif (!$tgtObjs and $prevDepth < $depth)
                         {
-                            my $cnt = $drsr->{$obj}[5];
+                            my $cnt = $drsr->{$obj}{$obj}[5];
                             $str =~ s/.*\n// for (1 .. $cnt);
                         }
 
                     } #}}}
 
                     ## --- Line Chopping d7 #{{{
-                    if ( ref $drsr->{$obj}[6] eq 'HASH' and exists $drsr->{$obj}[6]{chop})
+                    if ( ref $drsr->{$obj}{$obj}[6] eq 'HASH' and exists $drsr->{$obj}{$obj}[6]{chop})
                     {
                         my $last = $self->{matches}{objs}{$obj}->$#*;
 
@@ -1037,56 +1151,61 @@ sub __genWrite #{{{1
 }
 
 
-sub write #{{{1
-{
-    my ( $self, $args ) = @_;
-    my $writeArray = $self->{stdout};
-
-    my $dir = $self->{paths}{output}
-    . $self->{paths}{dir}
-    . '/output/';
-
-    mkdir($dir) unless(-d $dir);
-
-    open my $fh, '>:utf8', $dir . $self->{name} . '.txt' or die $!;
-        for (@$writeArray)
-        {
-            print $fh $_,"\n";
-        }
-        truncate $fh, tell($fh) or die;
-        seek $fh,0,0 or die;
-    close $fh;
-}
-
-sub validate #{{{1
+sub __validate #{{{1
 {
     my ( $self ) = @_;
 
-    my $CHECKS;
-
-    # === TXT DIFF === #{{{
-
-    # OUTPUT FILES
-    my $tmpFile = $self->{paths}{output}
-    . $self->{paths}{dir}
-    . '/output/'
-    . $self->{name}
-    . '.txt';
-    my $file = $self->{paths}{input};
+    # --------- Dummy File --------{{{2
 
     # TMP DIR
-    my $tmpdir = $self->{paths}{output}
-    . $self->{paths}{dir}
-    . '/tmp/';
+    my $tmpdir =
+        $self->{paths}{output}
+        . $self->{paths}{dir}
+        . '/tmp/';
     mkdir($tmpdir) unless(-d $tmpdir);
 
+    # tgt filepath
+    my $dir =
+        $self->{paths}{output}
+        . $self->{paths}{dir}
+        . '/tmp/';
+
+    # create filepath
+    mkdir($dir) unless(-d $dir);
+
+    # write to filepath
+    open my $fh_22, '>:utf8', $dir . $self->{name} . '.txt' or die $!;
+        for ($self->{stdout}->@*)
+        {
+            print $fh_22 $_,"\n";
+        }
+        truncate $fh_22, tell($fh_22) or die;
+        seek $fh_22,0,0 or die;
+    close $fh_22;
+    my $CHECKS;
+
+    # DIFF DIR
+    my $Diffdir = $tmpdir.'/diffs/';
+    mkdir($Diffdir) unless(-d $Diffdir);
+
+    # --------- TXT DIFF --------{{{2
+
+    # OUTPUT FILES
+    my $tmpFile =
+        $self->{paths}{output}
+        . $self->{paths}{dir}
+        . '/tmp/'
+        . $self->{name}
+        . '.txt';
+    my $file = $self->{paths}{input};
+
+
     # CHECKS
-    $CHECKS->{txtCmp}{fp}  = $tmpdir . 'diff.txt';
+    $CHECKS->{txtCmp}{fp}  = $Diffdir . 'diff.txt';
     $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
-    #}}}
 
 
-    # === MATCHES === {{{
+    # --------- MATCHES ---------- {{{2
 
     # MATCHES: reformat
     $self->{meta}{tmp}{matches} = {};
@@ -1126,12 +1245,12 @@ sub validate #{{{1
     }
 
     # Matches: checks
-    $CHECKS->{matchCmp}{fp}  = $tmpdir.'cnt.txt';
+    $CHECKS->{matchCmp}{fp}  = $Diffdir.'cnt.txt';
     $CHECKS->{matchCmp}{out} = [@OUT];
-    #}}}
 
 
-    # === HASHES === {{{
+    # --------- HASHES ---------{{{2
+
     if ( $self->{paths}{input} eq $self->{cwd}.'/.ohm/db/output.txt' )
     {
         # Get HASHES
@@ -1171,8 +1290,8 @@ sub validate #{{{1
             }
         }
 
-        my $oldPath = $tmpdir . 'oldHash';
-        my $newPath = $tmpdir . 'newHash';
+        my $oldPath = $Diffdir . 'oldHash';
+        my $newPath = $Diffdir . 'newHash';
         my $fh;
 
         open $fh, ">:utf8", $oldPath;
@@ -1187,14 +1306,14 @@ sub validate #{{{1
         seek $fh,0,0 or die;
         close $fh;
 
-        $CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
+        $CHECKS->{hashCmp}{fp}  = $Diffdir . 'hashDiff.txt';
         $CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
         if ($oldPath =~ /ohm/) {unlink $oldPath};
         if ($newPath =~ /ohm/) {unlink $newPath};
     }
     else
     {
-        open my $fh, ">", $tmpdir . 'hashDiff.txt';
+        open my $fh, ">", $Diffdir . 'hashDiff.txt';
         print $fh '';
         truncate $fh, tell($fh) or die;
         seek $fh,0,0 or die;
@@ -1202,7 +1321,8 @@ sub validate #{{{1
     }
 
 
-    # === WRITE === #{{{
+    # --------- WRITE ---------{{{2
+
     for my $check ( values %$CHECKS )
     {
         my $out = $check->{out};
@@ -1216,7 +1336,7 @@ sub validate #{{{1
     }
 
     # open non-empty check files in less
-    my @files = glob $tmpdir."*";
+    my @files = glob $Diffdir."*";
     my $fileList;
 
     for my $file (@files)
@@ -1231,13 +1351,28 @@ sub validate #{{{1
     {
         system "less " . $fileList;
     }
-    #}}}
+
+    # --------- PROMPT ---------{{{2
+
+    use ExtUtils::MakeMaker qw(prompt);
+    my $ans = '';
+    unless ($ans eq 'y' || $ans eq 'n')
+    {
+        $ans = prompt( "contiue?", "y/n" );
+        $self->{state} = $ans eq 'y' ? 'ok' : '';
+    } #}}}
 
 }
 
-sub commit #{{{1
+
+sub __commit #{{{1
 {
     my ($self, $args) = @_;
+    if ( $self->{state} ne 'ok' )
+    {
+        print "Commit aborted, object state is not ok\n";
+        return;
+    }
 
     # set up working dir
     my $db = $self->{paths}{dir}."/db";
@@ -1256,7 +1391,7 @@ sub commit #{{{1
     use Data::Structure::Util qw( unbless );
 
     # INDIVDUAL HASHES
-    my @KEYS = qw( hash dspt matches );
+    my @KEYS = qw( hash dspt matches drsr mask);
     for my $key (@KEYS)
     {
         my $hash = dclone $self->{$key};
@@ -1271,28 +1406,6 @@ sub commit #{{{1
                     delete $match->{childs};
                 }
             }
-        }
-
-        # Seperating Drsr and mask from dspt
-        if ($key eq 'dspt')
-        {
-            $self->{drsr} = {};
-            $self->{mask} = {};
-            for my $obj ( keys %{ $hash } )
-            {
-                for my $key2 ( keys %{ $hash->{$obj} } )
-                {
-                    if ($key2 eq 'drsr')
-                    {
-                        $self->{drsr}{$obj} = delete $hash->{$obj}{$key2};
-                    }
-                    if ($key2 eq 'mask')
-                    {
-                        $self->{mask}{$obj} = delete $hash->{$obj}{$key2}
-                    }
-                }
-            }
-            push @KEYS, qw(drsr mask);
         }
 
         # write
@@ -1348,7 +1461,7 @@ sub commit #{{{1
     use File::Copy;
     my $oldfile = $self->{paths}{output}
     . $self->{paths}{dir}
-    . '/output/'
+    . '/tmp/'
     . $self->{name}
     . '.txt';
     my $newfile = $self->{paths}{cwd} . $db . '/output.txt';
@@ -1362,6 +1475,11 @@ sub commit #{{{1
 sub launch #{{{1
 {
     my ( $self, $args ) = @_;
+    if ( $self->{state} ne 'ok' )
+    {
+        print "Launch aborted, object state is not ok\n";
+        return;
+    }
     my @SMASKS = @{ $self->{smask} };
     my $dspt = $self->{dspt};
 
@@ -1415,10 +1533,9 @@ sub launch #{{{1
 
         open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
             or die 'something happened';
-            my $writeArray = $self->{stdout};
-            $writeArray->[0] = $smask->{lib}{header} // $writeArray->[0];
+            $self->{stdout}[0] = $smask->{lib}{header} // $self->{stdout}[0];
 
-            for (@$writeArray)
+            for ($self->{stdout}->@*)
             {
                 print $fh2 $_,"\n";
             }
@@ -1714,149 +1831,6 @@ sub rm_reff #{{{1
         }
     }
     $self->{circ} = [];
-}
-
-sub __sweep #{{{1
-{
-
-    my ( $self, $subs ) = @_;
-
-    my $sub_list =
-    {
-        reffs   => \&gen_reffs,
-        matches => \&gen_matches,
-        plhd    => \&place_holder,
-    };
-
-    $self->{m} = {};
-
-    walk
-    (
-        {
-            wanted => sub
-            {
-                for my $name (@$subs)
-                {
-                    $sub_list->{$name}->($self);
-                }
-            },
-        },
-        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
-    );
-
-    delete $self->{m};
-    return $self;
-
-    sub gen_reffs #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        $self->{circ} = [] unless exists $self->{circ};
-
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $objArr  = $Data::Walk::container;
-            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
-                                              # error or something
-
-            $objHash->{circ}{'.'}   = $objHash;
-            $objHash->{circ}{'..'}  = $objArr // 'NULL';
-            push $self->{circ}->@*, $objHash->{circ};
-
-        }
-
-        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
-        {
-            my $objArr = $_;
-            my $ParentHash  = $Data::Walk::container;
-            unshift @$objArr,
-            {
-                '.'   => $_,
-                '..'  => $ParentHash // 'NULL',
-            };
-            push $self->{circ}->@*, $objArr->[0];
-        }
-    }
-
-    sub gen_matches #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        unless ( exists $self->{matches} )
-        {
-            $self->{matches} =
-            {
-                objs => {},
-                miss => [{a => 2}]
-            }
-        }
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $obj = $objHash->{obj};
-            push $self->{matches}{objs}{ $obj }->@*, $objHash;
-        }
-
-    }
-
-    sub place_holder #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my $self = shift @_;
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-
-            my $objHash = $_;
-            my $obj     = $objHash->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
-
-            if ( $objMask->{place_holder}{enable} )
-            {
-
-                for my $child ( $objMask->{place_holder}{childs}->@* )
-                {
-
-                    unless ( exists $objHash->{childs}{$child} )
-                    {
-
-                        my $childHash = $objHash->{childs}{$child}[0] = {};
-                        %$childHash =
-                        (
-                            obj => $child,
-                            val => [],
-                            meta => undef,
-                        );
-
-                        # attributes
-                        my $childDspt = $self->{dspt}{$child};
-                        if ( defined $childDspt->{attrs} )
-                        {
-                            for my $attr ( keys $childDspt->{attrs}->%* )
-                            {
-                                if (exists $childDspt->{attrs}{$attr}{delims})
-                                {
-                                    $childHash->{attrs}{$attr} = [];
-                                }
-                                else
-                                {
-                                    $childHash->{attrs}{$attr} = '';
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
 
 sub __see #{{{1
