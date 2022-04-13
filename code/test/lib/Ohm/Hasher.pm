@@ -30,421 +30,6 @@ use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Data::Walk;
 use Hash::Flatten qw(:all);
 
-sub get_sum #{{{1
-{ # output a summary hash for data dumping.
-
-    my ( $self, $args ) = @_;
-
-    my $copy = dclone $self;
-    delete $copy->{tmp};
-
-    # DSPT
-    if ( exists $copy->{dspt} )
-    {
-        my $dspt = $copy->{dspt};
-
-        for my $obj (keys %$dspt)
-        {
-
-            # Creaated Value String for each key in dspt obj.
-            my $str = '';
-            for my $key (sort keys $dspt->{$obj}->%*)
-            {
-
-                my $value = $dspt->{$obj}{$key};
-                my $ref   = ref $value;
-
-                if ( $ref eq 'HASH' )
-                {
-                    $value = '['.( join ',', sort keys %$value ).']';
-                }
-
-                $str .= ';'.$key.':'.( $value // 'n/a' ).'; ';
-            }
-            $dspt->{$obj} = $str;
-        }
-        $copy->{dspt} = $dspt;
-    }
-    $copy->{dspt} = exists $copy->{dspt} ?1 :0;
-
-    # MATCHES
-    if ( exists $copy->{matches} )
-    {
-        my $matches = $copy->{matches};
-        my $total = 0;
-
-        if ( exists $matches->{miss} )
-        {
-            $matches->{miss} = scalar $matches->{miss}->@*;
-            $total += $matches->{miss};
-        }
-
-        $matches->{obj_count} = scalar keys $matches->{objs}->%*;
-        for (keys $matches->{objs}->%*)
-        {
-            $matches->{objs}{$_} = scalar $matches->{objs}{$_}->@*;
-            $total += $matches->{objs}{$_};
-        }
-        $matches->{total} = $total;
-        $copy->{matches} = $matches;
-    }
-
-    # META
-    if (exists $copy->{meta})
-    {
-        my $meta = $copy->{meta};
-        $meta->{dspt}{ord_map} = scalar keys $meta->{dspt}{ord_map}->%*;
-        $copy->{meta} = $meta;
-    }
-
-    # META
-    if (exists $copy->{circ})
-    {
-        $copy->{circ} = scalar $copy->{circ}->@*;
-    }
-
-    # STDOUT
-    if (exists $copy->{stdout})
-    {
-        $copy->{stdout} = scalar $copy->{stdout}->@*;
-    }
-
-    # HASH
-    $copy->{hash} = exists $copy->{hash} ?1 :0;
-
-
-
-    return $copy;
-}
-
-sub gen_config #{{{1
-{ # generates and/or enforces configuration hashes
-
-    my
-    ( $self,
-        $bp_name,  # boilerplate name for 'get_bp' subroutine
-        $init_hash # initial hash to mask
-    ) = @_;
-
-
-
-    my $bp = dclone $self->__gen_bp( $bp_name ) // die;
-
-    # populate config
-    my $config = populate
-    (
-        $self,   # 'hasher'
-        $bp,     # boiler plate
-        {},      # initial config to be built within recursion
-        0,       # obj_flag
-        $bp_name,
-    );
-
-    # use init hash if provided
-    if ($init_hash)
-    {
-        my $flat_mask  = flatten $init_hash;
-        my $flat_config = flatten $config;
-
-        $flat_config = $self->__mask($flat_config, $flat_mask);
-
-        $config = unflatten $flat_config;
-
-    }
-
-    return $config;
-
-    sub populate #{{{2
-    {
-        my
-        (
-            $self,    # hasher object
-            $bp,      # boiler plate
-            $config,  # config being built within recursion
-            $OBJ,     # Boolean for 1st lvl recursion
-            $bp_name, # Name of boilerplate
-        ) = @_;
-
-        my $member  = delete $bp->{member}  // die "no member hash in boiler_plate $bp_name";
-        my $fill    = delete $bp->{fill}    // die "no fill hash in boiler_plate $bp_name";
-        my $general = delete $bp->{general} // die "no general hash in boiler_plate $bp_name";
-        my @RemKeys = keys %$bp;
-        $config = dclone $general if $general;
-
-        # MEMBER
-        if ( %$member )
-        {
-
-            # KEYS
-            my @KEYS;
-            if ($OBJ)
-            {
-                @KEYS = keys $self->{dspt}{$OBJ}{attrs}->%*;
-                push @KEYS, $OBJ if $fill;
-            }
-            else
-            {
-                @KEYS = keys $self->{dspt}->%*;
-            }
-
-            # Recurse with keys
-            for my $key ( @KEYS )
-            {
-                $config->{$key} = populate
-                (
-                    $self,
-                    dclone $member,
-                    $config->{$key},
-                    $key,
-                    $bp_name,
-                );
-            }
-        }
-
-        # REMAINING KEYS
-        for my $key ( @RemKeys )
-        {
-            $config->{$key} = populate
-            (
-                $self,
-                dclone $bp->{$key},
-                $config->{$key},
-                $OBJ,
-                $bp_name,
-            );
-        }
-
-        # GENERAL
-        if (ref $config eq 'HASH')
-        {
-            my $flat_mask  = flatten (dclone $general) if $general;
-            my $flat_config = flatten $config;
-
-            $flat_config = $self->__mask($flat_config, $flat_mask);
-
-            return unflatten $flat_config;
-        }
-
-        return $config;
-    } #}}}
-    sub __mask #{{{2
-    {
-        my
-        (
-            $self,
-            $flat_config,
-            $flat_mask
-        ) = @_;
-
-        for my $key ( keys %$flat_mask )
-        {
-            my $str = $key;
-            my $pat;
-            my $end;
-            my @KEYS;
-            my $delim = '';
-            my @CLN = (0);
-
-            while ( scalar @KEYS > 1 || scalar @CLN )
-            {
-                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
-                {
-                    $pat  .= $delim.$1;
-                    $delim = $2 // '';
-                    $end = $delim ? '' : '$' ;
-
-                }
-
-                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
-                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
-                delete $flat_config->{$_} for @CLN;
-            }
-
-            $flat_config->{$key} = $flat_mask->{$key};
-
-        }
-        return $flat_config;
-    }
-
-
-}
-
-sub write #{{{1
-{
-    my ( $self, $args ) = @_;
-    my $writeArray = $self->{stdout};
-
-    my $dir = $self->{paths}{output}
-    . $self->{paths}{dir}
-    . '/output/';
-
-    mkdir($dir) unless(-d $dir);
-
-    open my $fh, '>:utf8', $dir . $self->{name} . '.txt' or die $!;
-        for (@$writeArray)
-        {
-            print $fh $_,"\n";
-        }
-        truncate $fh, tell($fh) or die;
-        seek $fh,0,0 or die;
-    close $fh;
-}
-
-sub see #{{{1
-{
-    my ($self, $key) = @_;
-    return $self->__see(
-        $self->{$key},
-        'lib',
-        [],
-    );
-
-}
-
-sub rm_reff #{{{1
-{
-
-    my ( $self, $args ) = @_;
-
-    my $CIRCS = $self->{circ} // return;
-
-    for my $circ ( @$CIRCS )
-    {
-
-        my $ref = $circ->{'.'};
-
-        if ( UNIVERSAL::isa($ref,'HASH') )
-        {
-            delete $ref->{circ};
-        }
-        elsif ( UNIVERSAL::isa($ref,'ARRAY') )
-        {
-            #$ref->[0] = {};
-            shift @$ref;
-        }
-        else
-        {
-            die
-        }
-    }
-    $self->{circ} = [];
-}
-
-sub get_matches #{{{1
-{
-    my ( $self, $tmp ) = @_;
-    my $dspt = $self->{dspt};
-
-    my $FR_prsv =
-    {
-        cnt => 0,
-        F   => 1,
-    };
-
-    if ($tmp)
-    {
-        $self->{tmp} = {};
-        $self->{tmp}{matches} = {};
-        for my $line ($self->{stdout}->@*)
-        {
-            $FR_prsv = $self->__get_matches($line, $FR_prsv, $tmp);
-        }
-    }
-
-    else
-    {
-        open my $fh, '<:utf8', $self->{paths}{input}
-            or die $!;
-        {
-            while ( my $line = <$fh> )
-            {
-                $FR_prsv = $self->__get_matches($line, $FR_prsv);
-            }
-        }
-        close $fh ;
-    }
-
-    return $self;
-}
-
-sub launch #{{{1
-{
-    my ( $self, $args ) = @_;
-    my @SMASKS = @{ $self->{smask} };
-    my $dspt = $self->{dspt};
-
-    for my $smask ( @SMASKS )
-    {
-        my $pwds_DirPaths = $smask->{lib}{pwds};
-        my @pwds;
-        for my $path ( @$pwds_DirPaths )
-        {
-            my ($CONFIG_DIR) = glob $path->[0];
-            my $pwd = 0;
-            if ( $CONFIG_DIR )
-            {
-                open my $fh, '<', $CONFIG_DIR
-                    or die 'something happened';
-                while (my $line = <$fh>)  {
-                    if ($line =~ qr/$path->[1]/) {
-                        $pwd = $1;
-                        last;
-                    }
-                }
-            }
-            push @pwds, $pwd;
-        }
-        my $sdrsr_name = $smask->{lib}{drsr};
-
-        my $sdrsr = do
-        {
-            #open my $fh, '<:utf8', $self->{paths}{drsr}
-            open my $fh, '<', "./" . $sdrsr_name . ".json"
-                or die;
-            local $/;
-            decode_json(<$fh>);
-        };
-        # generate drsr config
-        $sdrsr = $self->gen_config( 'drsr', $sdrsr  );
-
-        for my $obj (keys %$sdrsr)
-        {
-            $dspt->{$obj} // die;
-            $dspt->{$obj}{drsr} = $sdrsr->{$obj};
-            for my $attr (grep {$_ ne $obj} keys $sdrsr->{$obj}->%*)
-            {
-                $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
-
-            }
-        }
-
-        #print Dumper $sdrsr;
-        $self->__genWrite($smask, $sdrsr);
-
-        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
-            or die 'something happened';
-            my $writeArray = $self->{stdout};
-            $writeArray->[0] = $smask->{lib}{header} // $writeArray->[0];
-
-            for (@$writeArray)
-            {
-                print $fh2 $_,"\n";
-            }
-            truncate $fh2, tell($fh2) or die;
-            seek $fh2,0,0 or die;
-
-        close $fh2;
-        ## upload to final destination
-        $smask->{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
-        print $smask->{lib}{cmd}, "\n";
-        my $cmd = `$smask->{lib}{cmd}`;
-
-
-    }
-
-    return $self;
-}
-
 sub new #{{{1
 {
     my ($class, $args) = @_;
@@ -460,16 +45,16 @@ sub new #{{{1
             mask  => $_[4],
             prsv  => $_[5],
         };
-        delete $args->{$_} for grep {!(defined $args->{$_})} keys %$args;
+
+        # Remove args with undefined values
+        delete $args->{$_} for grep { !(defined $args->{$_}) } keys %$args;
     }
 
     # Create Object
     my $self = {};
     bless $self, $class;
 
-    # check if cwd has .ohm directory
-
-    # init and form circular hash check
+    # init
     $self->__init( $args );
 
     return $self;
@@ -480,81 +65,75 @@ sub __init #{{{1
     my ( $self, $args ) = @_;
     my $class = ref $self;
 
-    $self->{cwd} = getcwd;
-    my $isBase = $self->__checkDir();
-    my $db = $self->__importJson('./.ohm/db/self.json');
+    use Cwd 'abs_path';  $self->{cwd} = getcwd;  # get CWD
+    my $isBase = $self->__checkDir();            # is dir ./ohm?
 
-
-
-    #%--------PATHS--------#
-    use Cwd 'abs_path';
-    my $paths = {};
-
-    # CWD
-    $paths->{cwd} = getcwd;
-
-    # RESUME
-    my $args2 = do
+    #%-------- RESUME --------#
+    # get the 'self' hash from the db
+    my $old_args = do
     {
         open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json';
         local $/;
         decode_json(<$fh>);
     };
-    delete $args2->{paths}{cwd};
-    for my $key (keys $args2->{paths}->%*)
-    {
-        $args2->{$key} = $args2->{paths}{$key};
-    }
-    delete $args2->{paths};
-    my $flat_mask  = flatten $args;
-    my $flat_config = flatten $args2;
-    $flat_config = $self->__mask($flat_config, $flat_mask);
-    $args = unflatten $flat_config;
+    delete $old_args->{paths}{cwd}; # this is not set by the user
 
+    # reshape "old_args" to the form of "args"
+    for my $key (keys $old_args->{paths}->%*)
+    {
+        $old_args->{$key} = $old_args->{paths}{$key};
+    }
+    delete $old_args->{paths}; # we no longer need it
+
+    # apply flat mask
+    my $flat_config = flatten $old_args;
+    $flat_config    = $self->__mask($flat_config, flatten $args);
+    $args           = unflatten $flat_config;
+
+    #%-------- PATHS --------#
     # INPUT
     my $paths_input = delete $args->{input} || die "No path to input provided";
     __checkChgArgs( $paths_input, '' , 'string scalar' );
-    if ($paths_input) { $paths->{input} = abs_path $paths_input }
+    if ($paths_input) { $self->{paths}{input} = abs_path $paths_input }
 
     # DSPT - DISPATCH TABLE
     my $paths_dspt = delete $args->{dspt} || die "No path to dspt provided";
     __checkChgArgs( $paths_dspt, '' , 'string scalar' );
-    if ($paths_dspt) { $paths->{dspt} = abs_path $paths_dspt }
+    if ($paths_dspt) { $self->{paths}{dspt} = abs_path $paths_dspt }
 
     # OUTPUT
     my $paths_output = delete $args->{output} // '';
     __checkChgArgs( $paths_output,'','string scalar' );
-    if ($paths_output) { $paths->{output} = abs_path $paths_output }
+    if ($paths_output) { $self->{paths}{output} = abs_path $paths_output }
 
     # DIR
     my $paths_dir = delete $args->{dir} // '';
     __checkChgArgs( $paths_dir,'','string scalar' );
-    if ($paths_dir) { $paths->{dir} = $paths_dir }
+    if ($paths_dir) { $self->{paths}{dir} = $paths_dir }
 
     # DRSR - DRESSER
     my $paths_drsr = delete $args->{drsr} // '';
     __checkChgArgs( $paths_drsr, '' , 'string scalar' );
-    if ($paths_drsr) { $paths->{drsr} = abs_path $paths_drsr }
+    if ($paths_drsr) { $self->{paths}{drsr} = abs_path $paths_drsr }
 
     # MASK
     my $paths_mask = delete $args->{mask} // '';
     __checkChgArgs( $paths_mask, '' , 'string scalar' );
-    if ($paths_mask) { $paths->{mask} = abs_path $paths_mask }
+    if ($paths_mask) { $self->{paths}{mask} = abs_path $paths_mask }
 
     # SMASK - SUBMASKS
     my $paths_SMASK = delete $args->{smask} // [];
     __checkChgArgs( $paths_SMASK, 'ARRAY' , 'ARRAY REF' );
     if ( $paths_SMASK )
     {
-        $paths->{smask} = [ map { abs_path $_; $_ } @$paths_SMASK ]
+        $self->{paths}{smask} = [ map { abs_path $_; $_ } @$paths_SMASK ]
     }
 
-
     # generate path config
-    $self->{paths} = $self->gen_config( 'paths', $paths );
+    $self->{paths} = $self->gen_config( 'paths', $self->{paths} );
 
 
-    #%--------OTHER ARGS--------#
+    #%-------- OTHER ARGS --------#
     # NAME
     my $name = delete $args->{name};
     unless ( defined $name )
@@ -585,31 +164,10 @@ sub __init #{{{1
         croak( "Unknown keys to $class\::new: $remaining" );
     }
 
-
-    #%-------- DSPT --------#
-    $self->__gen_dspt();
-
-
-    #%-------- Check Matches --------#
-    $self->__check_matches();
-
-
     return $self;
 }
 
-sub __importJson
-{
-    my ($self, $path) = @_;
-    my $json = do
-    {
-        open my $fh, '<:utf8', $path;
-        local $/;
-        decode_json(<$fh>);
-    };
-    return $json;
-}
-
-sub __gen_dspt #{{{1
+sub gen_dspt #{{{1
 {
     my ( $self, $args ) = @_;
 
@@ -798,15 +356,13 @@ sub __gen_dspt #{{{1
         push $self->{smask}->@*, $smask;
     }
 
-    ## --- MASK
-
     ## --- RETURN
     $self->{dspt} = $dspt;
     return $self;
 }
 
 
-sub __check_matches #{{{1
+sub check_matches #{{{1
 {
     # have option presverses be 2nd option
     my ( $self, $args ) = @_;
@@ -822,38 +378,59 @@ sub __check_matches #{{{1
         delete $self->{matches};
         delete $self->{circ};
         delete $self->{stdout};
+
+        # should be it's own object
         $self->get_matches;
         $self->__divy();
         $self->__sweep(['reffs']);
+        #
+
         $self->__genWrite();
         $self->write();
-        $self->__validate($fext);
-        $self->launch();
-
-    }
-
-    elsif ($fext eq 'json')
-    {
-        delete $self->{matches};
-        delete $self->{circ};
-        delete $self->{stdout};
-        $self->{hash} = do
-        {
-            open my $fh, '<:utf8', $self->{paths}{input};
-            local $/;
-            decode_json(<$fh>);
-        };
-        $self->__sweep(['reffs','matches']);
-        $self->__genWrite();
-        $self->write();
-        $self->__validate($fext);
-        $self->launch();
+        $self->validate();
 
     }
 
     else
     {
         die "$fext is not a valid file extesion, must either be 'txt' or 'json'"
+    }
+
+    return $self;
+}
+
+sub get_matches #{{{1
+{
+    my ( $self, $tmp ) = @_;
+    my $dspt = $self->{dspt};
+
+    my $FR_prsv =
+    {
+        cnt => 0,
+        F   => 1,
+    };
+
+    if ($tmp)
+    {
+        $self->{tmp} = {};
+        $self->{tmp}{matches} = {};
+        for my $line ($self->{stdout}->@*)
+        {
+            $FR_prsv = $self->__get_matches($line, $FR_prsv, $tmp);
+        }
+    }
+
+    else
+    {
+        open my $fh, '<:utf8', $self->{paths}{input}
+            or die $!;
+        {
+            while ( my $line = <$fh> )
+            {
+                $FR_prsv = $self->__get_matches($line, $FR_prsv);
+            }
+        }
+        close $fh ;
     }
 
     return $self;
@@ -1198,149 +775,6 @@ sub __divy #{{{1
 
 }
 
-sub __sweep #{{{1
-{
-
-    my ( $self, $subs ) = @_;
-
-    my $sub_list =
-    {
-        reffs   => \&gen_reffs,
-        matches => \&gen_matches,
-        plhd    => \&place_holder,
-    };
-
-    $self->{m} = {};
-
-    walk
-    (
-        {
-            wanted => sub
-            {
-                for my $name (@$subs)
-                {
-                    $sub_list->{$name}->($self);
-                }
-            },
-        },
-        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
-    );
-
-    delete $self->{m};
-    return $self;
-
-    sub gen_reffs #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        $self->{circ} = [] unless exists $self->{circ};
-
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $objArr  = $Data::Walk::container;
-            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
-                                              # error or something
-
-            $objHash->{circ}{'.'}   = $objHash;
-            $objHash->{circ}{'..'}  = $objArr // 'NULL';
-            push $self->{circ}->@*, $objHash->{circ};
-
-        }
-
-        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
-        {
-            my $objArr = $_;
-            my $ParentHash  = $Data::Walk::container;
-            unshift @$objArr,
-            {
-                '.'   => $_,
-                '..'  => $ParentHash // 'NULL',
-            };
-            push $self->{circ}->@*, $objArr->[0];
-        }
-    }
-
-    sub gen_matches #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my ( $self, $args ) = @_;
-
-        unless ( exists $self->{matches} )
-        {
-            $self->{matches} =
-            {
-                objs => {},
-                miss => [{a => 2}]
-            }
-        }
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-            my $objHash = $_;
-            my $obj = $objHash->{obj};
-            push $self->{matches}{objs}{ $obj }->@*, $objHash;
-        }
-
-    }
-
-    sub place_holder #{{{2
-    {
-    # inherits from Data::Walk module
-
-        my $self = shift @_;
-
-        if ( UNIVERSAL::isa($_, 'HASH') )
-        {
-
-            my $objHash = $_;
-            my $obj     = $objHash->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
-
-            if ( $objMask->{place_holder}{enable} )
-            {
-
-                for my $child ( $objMask->{place_holder}{childs}->@* )
-                {
-
-                    unless ( exists $objHash->{childs}{$child} )
-                    {
-
-                        my $childHash = $objHash->{childs}{$child}[0] = {};
-                        %$childHash =
-                        (
-                            obj => $child,
-                            val => [],
-                            meta => undef,
-                        );
-
-                        # attributes
-                        my $childDspt = $self->{dspt}{$child};
-                        if ( defined $childDspt->{attrs} )
-                        {
-                            for my $attr ( keys $childDspt->{attrs}->%* )
-                            {
-                                if (exists $childDspt->{attrs}{$attr}{delims})
-                                {
-                                    $childHash->{attrs}{$attr} = [];
-                                }
-                                else
-                                {
-                                    $childHash->{attrs}{$attr} = '';
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
 sub __genWrite #{{{1
 {
     my ( $self, $mask, $sdrsr ) = @_;
@@ -1603,205 +1037,205 @@ sub __genWrite #{{{1
 }
 
 
-sub __validate #{{{1
+sub write #{{{1
 {
-    my ( $self, $type ) = @_;
+    my ( $self, $args ) = @_;
+    my $writeArray = $self->{stdout};
 
-    if ($type eq 'txt')
-    {
-        my $CHECKS;
+    my $dir = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/output/';
 
-        # === TXT DIFF === #{{{
+    mkdir($dir) unless(-d $dir);
 
-        # OUTPUT FILES
-        my $tmpFile = $self->{paths}{output}
-        . $self->{paths}{dir}
-        . '/output/'
-        . $self->{name}
-        . '.txt';
-        my $file = $self->{paths}{input};
-
-        # TMP DIR
-        my $tmpdir = $self->{paths}{output}
-        . $self->{paths}{dir}
-        . '/tmp/';
-        mkdir($tmpdir) unless(-d $tmpdir);
-
-        # CHECKS
-        $CHECKS->{txtCmp}{fp}  = $tmpdir . 'diff.txt';
-        $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
-        #}}}
-
-
-        # === MATCHES === {{{
-
-        # MATCHES: reformat
-        $self->{meta}{tmp}{matches} = {};
-        $self->get_matches(1);
-        my @matches = map
+    open my $fh, '>:utf8', $dir . $self->{name} . '.txt' or die $!;
+        for (@$writeArray)
         {
-            [
-                $_,
-                $self->{matches}{objs}{$_},
-                $self->{tmp}{matches}{objs}{$_},
-            ]
-        } keys $self->{matches}{objs}->%*;
-
-        my $miss_matches = [
-                'miss',
-                $self->{matches}{miss},
-                $self->{tmp}{matches}{miss},
-        ];
-        push @matches, $miss_matches;
-
-        # MATCHES: compare
-        my @OUT;
-        for my $part (@matches)
-        {
-            my ( $obj, $val, $val2 ) = @$part;
-            $val = $val // [1];
-            $val2 = $val2 // [1];
-            if (scalar @$val != scalar @$val2 )
-            {
-                push @OUT, $obj .
-                ':' .
-                (scalar @$val) .
-                ':' .
-                (scalar @$val2) .
-                "\n";
-            }
+            print $fh $_,"\n";
         }
-
-        # Matches: checks
-        $CHECKS->{matchCmp}{fp}  = $tmpdir.'cnt.txt';
-        $CHECKS->{matchCmp}{out} = [@OUT];
-        #}}}
-
-
-        # === HASHES === {{{
-        if ( $self->{paths}{input} eq $self->{cwd}.'/.ohm/db/output.txt' )
-        {
-            # Get HASHES
-            my $oldHash = do
-            {
-                open my $fh, '<', $self->{cwd}.'/.ohm/db/hash.json';
-                local $/;
-                decode_json(<$fh>);
-            };
-            $self->rm_reff;
-            my $newHash = dclone $self->{hash};
-
-            ## Diff Data Compare
-            my $newFlat = $self->__see($newHash,'lib',[]);
-            my $oldFlat = $self->__see($oldHash,'lib',[]);
-            my $newFlat2 = [];
-            my $oldFlat2 = [];
-            for my $aref ( [$oldFlat, $oldFlat2], [$newFlat, $newFlat2] )
-            {
-                for my $part ( $aref->[0]->@* )
-                {
-                    if
-                    (
-                        $part !~ /LN=/
-                        && $part !~ /raw=/
-                        && $part !~ /\.obj/
-                        && $part !~ /\.tags:\[\d+\]\.attrs/
-                    )
-                    {
-                        $part .= "\n";
-                        $part =~ s/\.childs//g;
-                        $part =~ s/\.val=.*$//g;
-                        $part =~ s/(\.tags:)\[\d+\]\.val:\[\d+\]=(.*)/$1\[$2\]/g;
-
-                        push $aref->[1]->@*, $part;
-                    }
-                }
-            }
-
-            my $oldPath = $tmpdir . 'oldHash';
-            my $newPath = $tmpdir . 'newHash';
-            my $fh;
-
-            open $fh, ">:utf8", $oldPath;
-            print $fh @$oldFlat2;
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-            close $fh;
-
-            open $fh, ">:utf8", $newPath;
-            print $fh @$newFlat2;
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-            close $fh;
-            #$self->__sweep(['reffs']);
-
-            $CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
-            $CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
-            #$CHECKS->{hashCmp2}{fp}  = $tmpdir . 'hashDiff2.txt';
-            #$CHECKS->{hashCmp2}{out} = [`bash -c "comm -3  <(sort $oldPath) <(sort $newPath)"`];
-            #$CHECKS->{hashCmp3}{fp}  = $tmpdir . 'hashDiff3.txt';
-            #$CHECKS->{hashCmp3}{out} = [`cat $oldPath $newPath | sed 's/^.*LN=.*\$//' | sed 's/^.*raw=.*\$//' | sort | uniq -u`];
-            if ($oldPath =~ /ohm/) {unlink $oldPath};
-            if ($newPath =~ /ohm/) {unlink $newPath};
-        }
-        else
-        {
-            open my $fh, ">", $tmpdir . 'hashDiff.txt';
-            print $fh '';
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-            close $fh;
-        }
-
-
-        # === WRITE === #{{{
-        for my $check ( values %$CHECKS )
-        {
-            my $out = $check->{out};
-            my $fp  = $check->{fp};
-            open my $fh, '>:utf8', $fp
-                or die;
-                print $fh @$out;
-                truncate $fh, tell($fh) or die;
-                seek $fh,0,0 or die;
-            close $fh;
-        }
-
-        # open non-empty check files in less
-        my @files = glob $tmpdir."*";
-        my $fileList;
-
-        for my $file (@files)
-        {
-            unless (-z $file)
-            {
-                $fileList .= " $file";
-            }
-        }
-
-        if ($fileList)
-        {
-            system "less " . $fileList;
-        }
-        #}}}
-
-
-        # === COMMIT === #{{{
-        $self->__commit;
-        #}}}
-
-    }
-
-    elsif ( $type eq 'json' )
-    {
-        $self->rm_reff;
-        $self->see('hash');
-        $self->see('hash');
-        $self->__sweep(['reffs']);
-    }
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+    close $fh;
 }
 
-sub __commit #{{{1
+sub validate #{{{1
+{
+    my ( $self ) = @_;
+
+    my $CHECKS;
+
+    # === TXT DIFF === #{{{
+
+    # OUTPUT FILES
+    my $tmpFile = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/output/'
+    . $self->{name}
+    . '.txt';
+    my $file = $self->{paths}{input};
+
+    # TMP DIR
+    my $tmpdir = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/tmp/';
+    mkdir($tmpdir) unless(-d $tmpdir);
+
+    # CHECKS
+    $CHECKS->{txtCmp}{fp}  = $tmpdir . 'diff.txt';
+    $CHECKS->{txtCmp}{out} = [`diff $file $tmpFile`];
+    #}}}
+
+
+    # === MATCHES === {{{
+
+    # MATCHES: reformat
+    $self->{meta}{tmp}{matches} = {};
+    $self->get_matches(1);
+    my @matches = map
+    {
+        [
+            $_,
+            $self->{matches}{objs}{$_},
+            $self->{tmp}{matches}{objs}{$_},
+        ]
+    } keys $self->{matches}{objs}->%*;
+
+    my $miss_matches = [
+            'miss',
+            $self->{matches}{miss},
+            $self->{tmp}{matches}{miss},
+    ];
+    push @matches, $miss_matches;
+
+    # MATCHES: compare
+    my @OUT;
+    for my $part (@matches)
+    {
+        my ( $obj, $val, $val2 ) = @$part;
+        $val = $val // [1];
+        $val2 = $val2 // [1];
+        if (scalar @$val != scalar @$val2 )
+        {
+            push @OUT, $obj .
+            ':' .
+            (scalar @$val) .
+            ':' .
+            (scalar @$val2) .
+            "\n";
+        }
+    }
+
+    # Matches: checks
+    $CHECKS->{matchCmp}{fp}  = $tmpdir.'cnt.txt';
+    $CHECKS->{matchCmp}{out} = [@OUT];
+    #}}}
+
+
+    # === HASHES === {{{
+    if ( $self->{paths}{input} eq $self->{cwd}.'/.ohm/db/output.txt' )
+    {
+        # Get HASHES
+        my $oldHash = do
+        {
+            open my $fh, '<', $self->{cwd}.'/.ohm/db/hash.json';
+            local $/;
+            decode_json(<$fh>);
+        };
+        $self->rm_reff;
+        my $newHash = dclone $self->{hash};
+
+        ## Diff Data Compare
+        my $newFlat = $self->__see($newHash,'lib',[]);
+        my $oldFlat = $self->__see($oldHash,'lib',[]);
+        my $newFlat2 = [];
+        my $oldFlat2 = [];
+        for my $aref ( [$oldFlat, $oldFlat2], [$newFlat, $newFlat2] )
+        {
+            for my $part ( $aref->[0]->@* )
+            {
+                if
+                (
+                    $part !~ /LN=/
+                    && $part !~ /raw=/
+                    && $part !~ /\.obj/
+                    && $part !~ /\.tags:\[\d+\]\.attrs/
+                )
+                {
+                    $part .= "\n";
+                    $part =~ s/\.childs//g;
+                    $part =~ s/\.val=.*$//g;
+                    $part =~ s/(\.tags:)\[\d+\]\.val:\[\d+\]=(.*)/$1\[$2\]/g;
+
+                    push $aref->[1]->@*, $part;
+                }
+            }
+        }
+
+        my $oldPath = $tmpdir . 'oldHash';
+        my $newPath = $tmpdir . 'newHash';
+        my $fh;
+
+        open $fh, ">:utf8", $oldPath;
+        print $fh @$oldFlat2;
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+        close $fh;
+
+        open $fh, ">:utf8", $newPath;
+        print $fh @$newFlat2;
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+        close $fh;
+
+        $CHECKS->{hashCmp}{fp}  = $tmpdir . 'hashDiff.txt';
+        $CHECKS->{hashCmp}{out} = [`bash -c "diff <(sort $oldPath) <(sort $newPath)"`];
+        if ($oldPath =~ /ohm/) {unlink $oldPath};
+        if ($newPath =~ /ohm/) {unlink $newPath};
+    }
+    else
+    {
+        open my $fh, ">", $tmpdir . 'hashDiff.txt';
+        print $fh '';
+        truncate $fh, tell($fh) or die;
+        seek $fh,0,0 or die;
+        close $fh;
+    }
+
+
+    # === WRITE === #{{{
+    for my $check ( values %$CHECKS )
+    {
+        my $out = $check->{out};
+        my $fp  = $check->{fp};
+        open my $fh, '>:utf8', $fp
+            or die;
+            print $fh @$out;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # open non-empty check files in less
+    my @files = glob $tmpdir."*";
+    my $fileList;
+
+    for my $file (@files)
+    {
+        unless (-z $file)
+        {
+            $fileList .= " $file";
+        }
+    }
+
+    if ($fileList)
+    {
+        system "less " . $fileList;
+    }
+    #}}}
+
+}
+
+sub commit #{{{1
 {
     my ($self, $args) = @_;
 
@@ -1925,6 +1359,506 @@ sub __commit #{{{1
     return $self;
 }
 
+sub launch #{{{1
+{
+    my ( $self, $args ) = @_;
+    my @SMASKS = @{ $self->{smask} };
+    my $dspt = $self->{dspt};
+
+    for my $smask ( @SMASKS )
+    {
+        my $pwds_DirPaths = $smask->{lib}{pwds};
+        my @pwds;
+        for my $path ( @$pwds_DirPaths )
+        {
+            my ($CONFIG_DIR) = glob $path->[0];
+            my $pwd = 0;
+            if ( $CONFIG_DIR )
+            {
+                open my $fh, '<', $CONFIG_DIR
+                    or die 'something happened';
+                while (my $line = <$fh>)  {
+                    if ($line =~ qr/$path->[1]/) {
+                        $pwd = $1;
+                        last;
+                    }
+                }
+            }
+            push @pwds, $pwd;
+        }
+        my $sdrsr_name = $smask->{lib}{drsr};
+
+        my $sdrsr = do
+        {
+            #open my $fh, '<:utf8', $self->{paths}{drsr}
+            open my $fh, '<', "./" . $sdrsr_name . ".json"
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+        # generate drsr config
+        $sdrsr = $self->gen_config( 'drsr', $sdrsr  );
+
+        for my $obj (keys %$sdrsr)
+        {
+            $dspt->{$obj} // die;
+            $dspt->{$obj}{drsr} = $sdrsr->{$obj};
+            for my $attr (grep {$_ ne $obj} keys $sdrsr->{$obj}->%*)
+            {
+                $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
+
+            }
+        }
+
+        #print Dumper $sdrsr;
+        $self->__genWrite($smask, $sdrsr);
+
+        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
+            or die 'something happened';
+            my $writeArray = $self->{stdout};
+            $writeArray->[0] = $smask->{lib}{header} // $writeArray->[0];
+
+            for (@$writeArray)
+            {
+                print $fh2 $_,"\n";
+            }
+            truncate $fh2, tell($fh2) or die;
+            seek $fh2,0,0 or die;
+
+        close $fh2;
+        ## upload to final destination
+        $smask->{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
+        print $smask->{lib}{cmd}, "\n";
+        my $cmd = `$smask->{lib}{cmd}`;
+
+
+    }
+
+    return $self;
+}
+
+sub get_sum #{{{1
+{ # output a summary hash for data dumping.
+
+    my ( $self, $args ) = @_;
+
+    my $copy = dclone $self;
+    delete $copy->{tmp};
+
+    # DSPT
+    if ( exists $copy->{dspt} )
+    {
+        my $dspt = $copy->{dspt};
+
+        for my $obj (keys %$dspt)
+        {
+
+            # Creaated Value String for each key in dspt obj.
+            my $str = '';
+            for my $key (sort keys $dspt->{$obj}->%*)
+            {
+
+                my $value = $dspt->{$obj}{$key};
+                my $ref   = ref $value;
+
+                if ( $ref eq 'HASH' )
+                {
+                    $value = '['.( join ',', sort keys %$value ).']';
+                }
+
+                $str .= ';'.$key.':'.( $value // 'n/a' ).'; ';
+            }
+            $dspt->{$obj} = $str;
+        }
+        $copy->{dspt} = $dspt;
+    }
+    $copy->{dspt} = exists $copy->{dspt} ?1 :0;
+
+    # MATCHES
+    if ( exists $copy->{matches} )
+    {
+        my $matches = $copy->{matches};
+        my $total = 0;
+
+        if ( exists $matches->{miss} )
+        {
+            $matches->{miss} = scalar $matches->{miss}->@*;
+            $total += $matches->{miss};
+        }
+
+        $matches->{obj_count} = scalar keys $matches->{objs}->%*;
+        for (keys $matches->{objs}->%*)
+        {
+            $matches->{objs}{$_} = scalar $matches->{objs}{$_}->@*;
+            $total += $matches->{objs}{$_};
+        }
+        $matches->{total} = $total;
+        $copy->{matches} = $matches;
+    }
+
+    # META
+    if (exists $copy->{meta})
+    {
+        my $meta = $copy->{meta};
+        $meta->{dspt}{ord_map} = scalar keys $meta->{dspt}{ord_map}->%*;
+        $copy->{meta} = $meta;
+    }
+
+    # META
+    if (exists $copy->{circ})
+    {
+        $copy->{circ} = scalar $copy->{circ}->@*;
+    }
+
+    # STDOUT
+    if (exists $copy->{stdout})
+    {
+        $copy->{stdout} = scalar $copy->{stdout}->@*;
+    }
+
+    # HASH
+    $copy->{hash} = exists $copy->{hash} ?1 :0;
+
+
+
+    return $copy;
+}
+
+sub gen_config #{{{1
+{ # generates and/or enforces configuration hashes
+
+    my
+    ( $self,
+        $bp_name,  # boilerplate name for 'get_bp' subroutine
+        $init_hash # initial hash to mask
+    ) = @_;
+
+
+
+    my $bp = dclone $self->__gen_bp( $bp_name ) // die;
+
+    # populate config
+    my $config = populate
+    (
+        $self,   # 'hasher'
+        $bp,     # boiler plate
+        {},      # initial config to be built within recursion
+        0,       # obj_flag
+        $bp_name,
+    );
+
+    # use init hash if provided
+    if ($init_hash)
+    {
+        my $flat_mask  = flatten $init_hash;
+        my $flat_config = flatten $config;
+
+        $flat_config = $self->__mask($flat_config, $flat_mask);
+
+        $config = unflatten $flat_config;
+
+    }
+
+    return $config;
+
+    sub populate #{{{2
+    {
+        my
+        (
+            $self,    # hasher object
+            $bp,      # boiler plate
+            $config,  # config being built within recursion
+            $OBJ,     # Boolean for 1st lvl recursion
+            $bp_name, # Name of boilerplate
+        ) = @_;
+
+        my $member  = delete $bp->{member}  // die "no member hash in boiler_plate $bp_name";
+        my $fill    = delete $bp->{fill}    // die "no fill hash in boiler_plate $bp_name";
+        my $general = delete $bp->{general} // die "no general hash in boiler_plate $bp_name";
+        my @RemKeys = keys %$bp;
+        $config = dclone $general if $general;
+
+        # MEMBER
+        if ( %$member )
+        {
+
+            # KEYS
+            my @KEYS;
+            if ($OBJ)
+            {
+                @KEYS = keys $self->{dspt}{$OBJ}{attrs}->%*;
+                push @KEYS, $OBJ if $fill;
+            }
+            else
+            {
+                @KEYS = keys $self->{dspt}->%*;
+            }
+
+            # Recurse with keys
+            for my $key ( @KEYS )
+            {
+                $config->{$key} = populate
+                (
+                    $self,
+                    dclone $member,
+                    $config->{$key},
+                    $key,
+                    $bp_name,
+                );
+            }
+        }
+
+        # REMAINING KEYS
+        for my $key ( @RemKeys )
+        {
+            $config->{$key} = populate
+            (
+                $self,
+                dclone $bp->{$key},
+                $config->{$key},
+                $OBJ,
+                $bp_name,
+            );
+        }
+
+        # GENERAL
+        if (ref $config eq 'HASH')
+        {
+            my $flat_mask  = flatten (dclone $general) if $general;
+            my $flat_config = flatten $config;
+
+            $flat_config = $self->__mask($flat_config, $flat_mask);
+
+            return unflatten $flat_config;
+        }
+
+        return $config;
+    } #}}}
+    sub __mask #{{{2
+    {
+        my
+        (
+            $self,
+            $flat_config,
+            $flat_mask
+        ) = @_;
+
+        for my $key ( keys %$flat_mask )
+        {
+            my $str = $key;
+            my $pat;
+            my $end;
+            my @KEYS;
+            my $delim = '';
+            my @CLN = (0);
+
+            while ( scalar @KEYS > 1 || scalar @CLN )
+            {
+                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
+                {
+                    $pat  .= $delim.$1;
+                    $delim = $2 // '';
+                    $end = $delim ? '' : '$' ;
+
+                }
+
+                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
+                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
+                delete $flat_config->{$_} for @CLN;
+            }
+
+            $flat_config->{$key} = $flat_mask->{$key};
+
+        }
+        return $flat_config;
+    }
+
+
+}
+
+sub see #{{{1
+{
+    my ($self, $key) = @_;
+    return $self->__see(
+        $self->{$key},
+        'lib',
+        [],
+    );
+
+}
+
+sub rm_reff #{{{1
+{
+
+    my ( $self, $args ) = @_;
+
+    my $CIRCS = $self->{circ} // return;
+
+    for my $circ ( @$CIRCS )
+    {
+
+        my $ref = $circ->{'.'};
+
+        if ( UNIVERSAL::isa($ref,'HASH') )
+        {
+            delete $ref->{circ};
+        }
+        elsif ( UNIVERSAL::isa($ref,'ARRAY') )
+        {
+            #$ref->[0] = {};
+            shift @$ref;
+        }
+        else
+        {
+            die
+        }
+    }
+    $self->{circ} = [];
+}
+
+sub __sweep #{{{1
+{
+
+    my ( $self, $subs ) = @_;
+
+    my $sub_list =
+    {
+        reffs   => \&gen_reffs,
+        matches => \&gen_matches,
+        plhd    => \&place_holder,
+    };
+
+    $self->{m} = {};
+
+    walk
+    (
+        {
+            wanted => sub
+            {
+                for my $name (@$subs)
+                {
+                    $sub_list->{$name}->($self);
+                }
+            },
+        },
+        $self->{hash} // die " No hash has been loaded for object '$self->{name}'"
+    );
+
+    delete $self->{m};
+    return $self;
+
+    sub gen_reffs #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        $self->{circ} = [] unless exists $self->{circ};
+
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $objArr  = $Data::Walk::container;
+            my $obj = $objHash->{obj} // 'NULL'; # need to have NULL be
+                                              # error or something
+
+            $objHash->{circ}{'.'}   = $objHash;
+            $objHash->{circ}{'..'}  = $objArr // 'NULL';
+            push $self->{circ}->@*, $objHash->{circ};
+
+        }
+
+        elsif ( UNIVERSAL::isa($_, 'ARRAY') )
+        {
+            my $objArr = $_;
+            my $ParentHash  = $Data::Walk::container;
+            unshift @$objArr,
+            {
+                '.'   => $_,
+                '..'  => $ParentHash // 'NULL',
+            };
+            push $self->{circ}->@*, $objArr->[0];
+        }
+    }
+
+    sub gen_matches #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my ( $self, $args ) = @_;
+
+        unless ( exists $self->{matches} )
+        {
+            $self->{matches} =
+            {
+                objs => {},
+                miss => [{a => 2}]
+            }
+        }
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+            my $objHash = $_;
+            my $obj = $objHash->{obj};
+            push $self->{matches}{objs}{ $obj }->@*, $objHash;
+        }
+
+    }
+
+    sub place_holder #{{{2
+    {
+    # inherits from Data::Walk module
+
+        my $self = shift @_;
+
+        if ( UNIVERSAL::isa($_, 'HASH') )
+        {
+
+            my $objHash = $_;
+            my $obj     = $objHash->{obj};
+            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
+
+            if ( $objMask->{place_holder}{enable} )
+            {
+
+                for my $child ( $objMask->{place_holder}{childs}->@* )
+                {
+
+                    unless ( exists $objHash->{childs}{$child} )
+                    {
+
+                        my $childHash = $objHash->{childs}{$child}[0] = {};
+                        %$childHash =
+                        (
+                            obj => $child,
+                            val => [],
+                            meta => undef,
+                        );
+
+                        # attributes
+                        my $childDspt = $self->{dspt}{$child};
+                        if ( defined $childDspt->{attrs} )
+                        {
+                            for my $attr ( keys $childDspt->{attrs}->%* )
+                            {
+                                if (exists $childDspt->{attrs}{$attr}{delims})
+                                {
+                                    $childHash->{attrs}{$attr} = [];
+                                }
+                                else
+                                {
+                                    $childHash->{attrs}{$attr} = '';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 sub __see #{{{1
 {
     my ( $self, $item, $prefix, $flat) = @_;
@@ -1952,33 +1886,6 @@ sub __see #{{{1
             }
             my $flatkey = $prefix . ':' . "[".$key."]";
             $flat = $self->__see( $item->[$idx], $flatkey, $flat);
-        }
-    }
-    else
-    {
-            my $flatkey = $prefix . '=' . ($item // 'NULL');
-            push @$flat, $flatkey;
-    }
-    return $flat;
-}
-
-sub __see2 #{{{1
-{
-    my ( $self, $item, $prefix, $flat) = @_;
-
-    if ( UNIVERSAL::isa($item,'HASH' ) )
-    {
-        for my $key ( keys %$item)
-        {
-            my $flatkey = $prefix . '.' . $key;
-            $flat = $self->__see2($item->{$key}, $flatkey, $flat);
-        }
-    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
-    {
-        for my $idx (0 .. $item->$#*)
-        {
-            my $flatkey = $prefix . ':' . $idx;
-            $flat = $self->__see2( $item->[$idx], $flatkey, $flat);
         }
     }
     else
@@ -2268,29 +2175,6 @@ sub __checkChgArgs #{{{1
     }
 }
 
-sub __clone #{{{1
-{
-    my $self = shift;
-    $self->{tmp} = bless { %$self }, ref $self;
-    $self->{tmp}{tmp} = undef;
-    return $self;
-}
-
-sub __longest #{{{1
-{
-    my $max = -1;
-    my $max_ref;
-    for (@_)
-    {
-        if (length > $max) # no temp variable, length() twice is faster
-        {
-            $max = length;
-            $max_ref = \$_;   # avoid any copying
-        }
-    }
-    $$max_ref
-}
-#}}}
 
 1;
 # ===  NOTES
