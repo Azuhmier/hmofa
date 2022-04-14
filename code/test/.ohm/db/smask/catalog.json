@@ -1,47 +1,25 @@
 {
-   "author" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "prsv" : {
+   "url" : {
+      "sort" : 0,
       "supress" : {
          "all" : 0,
          "vals" : []
       },
-      "sort" : 0,
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "childs" : []
       }
-   },
-   "tags" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0
    },
    "series" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
-      "sort" : 0,
       "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
    },
    "description" : {
       "supress" : {
@@ -50,23 +28,57 @@
       },
       "sort" : 0,
       "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+         "childs" : [],
+         "enable" : 0
       }
    },
-   "url" : {
+   "title" : {
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      },
+      "sort" : 1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "section" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
       "sort" : 0,
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       }
    },
+   "author" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 1
+   },
    "lib" : {
+      "name" : "catalog",
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
       "scripts" : [],
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "header" : "/HMoFA/ Catalog",
       "pwds" : [
          [
@@ -74,41 +86,28 @@
             "^PWD=(.*)"
          ]
       ],
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "drsr" : "sdrsr_rentry",
-      "name" : "catalog"
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2"
    },
-   "section" : {
+   "tags" : {
       "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
       }
    },
-   "title" : {
-      "sort" : 1,
+   "prsv" : {
       "place_holder" : {
-         "enable" : 1,
-         "childs" : [
-            "tags"
-         ]
+         "childs" : [],
+         "enable" : 0
       },
+      "sort" : 0,
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       }
    }
 }

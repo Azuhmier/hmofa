@@ -70,15 +70,19 @@ sub __init #{{{1
     my $isBase = $self->__checkDir();            # is dir ./ohm?
 
     #%-------- RESUME --------#
-    # get the 'self' hash from the db
-    my $old_args = do
+    # get the 'self' hash from the db if it exits
+    my $old_args = {};
+    if (-e $self->{cwd}.'/.ohm/db/self.json')
     {
-        open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json';
-        local $/;
-        decode_json(<$fh>);
-    };
-    delete $old_args->{paths}{cwd}; # this is not set by the user
-    delete $old_args->{state};      # this is not set by the user
+        $old_args = do
+        {
+            open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json' ;
+            local $/;
+            decode_json(<$fh>);
+        };
+        delete $old_args->{paths}{cwd}; # this is not set by the user
+        delete $old_args->{state};      # this is not set by the user
+    }
 
     # reshape "old_args" to the form of "args"
     for my $key (keys $old_args->{paths}->%*)
@@ -128,7 +132,7 @@ sub __init #{{{1
     __checkChgArgs( $paths_SMASK, 'ARRAY' , 'ARRAY REF' );
     if ( $paths_SMASK )
     {
-        $self->{paths}{smask} = [ map { abs_path $_[0]; $_[0] } @$paths_SMASK ]
+        $self->{paths}{smask} = [ map { [ abs_path( $_->[0]), $_->[1] ] } @$paths_SMASK ]
     }
 
     # SDRSR - SUBDRESSERS
@@ -323,31 +327,32 @@ sub gen_dspt #{{{1
 
     ## --- SMASK
     $self->{smask} = [];
-    for my $path ( $self->{paths}{smask}->@* )
+    for my $smask_path ( $self->{paths}{smask}->@* )
     {
         my $smask = do
         {
-            open my $fh, '<:utf8', $path[0]
+            open my $fh, '<:utf8', $smask_path->[0]
                 or die;
             local $/;
             decode_json(<$fh>);
         };
 
         $smask = $self->gen_config( 'mask', $smask  );
-        unless ( $path[1] ) {
-            $path[1] = 'drsr';
+        unless ( $smask_path->[1] ) {
+            $smask_path->[1] = '';
         }
 
-        push $self->{smask}->@*, [$smask $path[1]];
+        push $self->{smask}->@*, [$smask, $smask_path->[1]];
     }
 
     ## --- SDRSR
     $self->{sdrsr} = [];
-    for my $path ( $self->{paths}{sdrsr}->@* )
+    for my $sdrs_path ( $self->{paths}{sdrsr}->@* )
     {
         my $sdrsr = do
         {
-            open my $fh, '<:utf8', $path
+            #open my $fh, '<:utf8', $sdrs_path
+            open my $fh, '<', $sdrs_path
                 or die;
             local $/;
             decode_json(<$fh>);
@@ -355,7 +360,11 @@ sub gen_dspt #{{{1
 
         $sdrsr = $self->gen_config( 'mask', $sdrsr  );
 
-        push $self->{smask}->@*, $sdrsr;
+        use File::Basename;
+        my $file = basename($sdrs_path);
+        $sdrsr->{lib}{name} = $file;
+
+        push $self->{sdrsr}->@*, $sdrsr;
     }
 
     ## --- RETURN
@@ -384,6 +393,7 @@ sub check_matches #{{{1
         # should be it's own object
         $self->get_matches;
         $self->__divy();
+        #$self->__sweep(['plhd']);
         $self->__sweep(['reffs']);
         #
 
@@ -878,7 +888,7 @@ sub __sweep #{{{1
 
             my $objHash = $_;
             my $obj     = $objHash->{obj};
-            my $objMask = $self->{dspt}{$obj}{mask} // return 1;
+            my $objMask = $self->{mask}{$obj} // return 1;
 
             if ( $objMask->{place_holder}{enable} )
             {
@@ -1456,9 +1466,27 @@ sub __commit #{{{1
     $self->{paths}{smask} = [];
     for my $hash ($self->{smask}->@*)
     {
-        push $self->{paths}{smask}->@*, $self->{paths}{cwd} . "$db/smask/" . $hash->{lib}{name}.".json";
+        push $self->{paths}{smask}->@*, [$self->{paths}{cwd} . "$db/smask/" . $hash->[0]{lib}{name}.".json", $hash->[1]];
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash->[0] );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/smask/" . $hash->[0]{lib}{name}.".json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # SDRSR
+    unless ( -d $self->{paths}{cwd} . "$db/sdrsr" )
+    {
+        mkdir($self->{paths}{cwd} . "$db/sdrsr")
+    }
+    $self->{paths}{sdrsr} = [];
+    for my $hash ($self->{sdrsr}->@*)
+    {
+        push $self->{paths}{sdrsr}->@*, $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json";
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
-        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/smask/" . $hash->{lib}{name}.".json"
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json"
             or die;
             print $fh $json;
             truncate $fh, tell($fh) or die;
@@ -1470,7 +1498,7 @@ sub __commit #{{{1
     {
         my $hash = dclone $self;
 
-        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask')
+        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask', 'sdrsr')
         {
             delete $hash->{$key};
         }
@@ -1513,7 +1541,7 @@ sub launch #{{{1
 
     for my $smask ( @SMASKS )
     {
-        my $pwds_DirPaths = $smask->{lib}{pwds};
+        my $pwds_DirPaths = $smask->[0]{lib}{pwds};
         my @pwds;
         for my $path ( @$pwds_DirPaths )
         {
@@ -1532,36 +1560,20 @@ sub launch #{{{1
             }
             push @pwds, $pwd;
         }
-        my $sdrsr_name = $smask->{lib}{drsr};
-
-        my $sdrsr = do
+        #my $sdrsr = $smask->[1];
+        my $sdrsr = $self->{sdrsr}[0];
+        unless ( $smask->[1] )
         {
-            #open my $fh, '<:utf8', $self->{paths}{drsr}
-            open my $fh, '<', "./" . $sdrsr_name . ".json"
-                or die;
-            local $/;
-            decode_json(<$fh>);
-        };
-        # generate drsr config
-        $sdrsr = $self->gen_config( 'drsr', $sdrsr  );
-
-        for my $obj (keys %$sdrsr)
-        {
-            $dspt->{$obj} // die;
-            $dspt->{$obj}{drsr} = $sdrsr->{$obj};
-            for my $attr (grep {$_ ne $obj} keys $sdrsr->{$obj}->%*)
-            {
-                $dspt->{$obj}{attrs}{$attr} // die "$attr for $self->{name}" ;
-
-            }
+            $sdrsr = $self->{drsr};
         }
 
-        #print Dumper $sdrsr;
-        $self->__genWrite($smask, $sdrsr);
 
-        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->{lib}{name}.".txt"
+        #print Dumper $sdrsr;
+        $self->__genWrite($smask->[0], $sdrsr);
+
+        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->[0]{lib}{name}.".txt"
             or die 'something happened';
-            $self->{stdout}[0] = $smask->{lib}{header} // $self->{stdout}[0];
+            $self->{stdout}[0] = $smask->[0]{lib}{header} // $self->{stdout}[0];
 
             for ($self->{stdout}->@*)
             {
@@ -1572,9 +1584,10 @@ sub launch #{{{1
 
         close $fh2;
         ## upload to final destination
-        $smask->{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
-        print $smask->{lib}{cmd}, "\n";
-        my $cmd = `$smask->{lib}{cmd}`;
+        $smask->[0]{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
+        print "launching ".$smask->[0]{lib}{name} ." ... ";
+        my $cmd = `$smask->[0]{lib}{cmd}`;
+        print "ok\n";
 
 
     }
