@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 
+
 ## SETUP DIRECTOR
 import os
-
 tgt_dir = "/Users/azuhmier/hmofa/archives/"
 isExist = os.path.exists(tgt_dir)
 if not isExist:
     os.makedirs(tgt_dir)
 archive_name = "/archive_"
 number = 1
-
 isExist = os.path.exists(tgt_dir+archive_name+str(number)+"/")
 if isExist :
     while isExist :
@@ -19,9 +18,16 @@ os.makedirs(tgt_dir+archive_name+str(number)+"/")
 path = tgt_dir+archive_name+str(number)+"/"
 
 ## Import URLS
-urlArr = [ #{{{
-        "https://archiveofourown.org/works/28076361",
-        "https://www.sofurry.com/view/1614335",
+import json
+f = open('/Users/azuhmier/hmofa/hmofa/code/test/.ohm/db/matches.json')
+json = json.load(f)
+urls = []
+for h in json["objs"]["url"] :
+    urls.append(h["val"])
+url_test = [ #{{{
+        #"https://archiveofourown.org/works/28076361",
+        #"https://archiveofourown.org/works/32455084",
+        #"https://www.sofurry.com/view/16143333",
         #"https://docs.google.com/document/d/109iFskyibVgDFRRuuuTu1KkIeiVFICit_qBAgxl6deo",
         #"https://rentry.org/dtas003",
         #"https://ghostbin.com/paste/xWTWS/Tutamet",
@@ -33,6 +39,7 @@ urlArr = [ #{{{
 
 ] #}}}
 
+## DSPT
 dspt = { #{{{
         "archiveofourown.org" : {
             "login" : "https://archiveofourown.org/users/login",
@@ -42,6 +49,7 @@ dspt = { #{{{
             "txt" : ['div', 'id', 'chapters'],
             "join" : 1,
             "find" : ['p','a'],
+            "strip" : 1,
         },
         "www.sofurry.com" : {
             "login" : "https://www.sofurry.com/user/login",
@@ -66,7 +74,7 @@ dspt = { #{{{
         #},
 } #}}}
 
-# LOGIN CREDS
+## LOGIN CREDS
 import csv
 reader = csv.reader(open("/Users/azuhmier/.pwds"), delimiter=" ")
 next(reader)
@@ -75,12 +83,12 @@ pwds = {}
 for row in data :
     pwds[row[0]] = [row[1], row[2]]
 
-# REQUESTS
+## REQUESTS
 import requests
 from bs4 import BeautifulSoup
 data = []
-for url in urlArr :
-
+import time
+for url in urls :
     # Form DSPT key
     from urllib.parse import urlparse
     o = urlparse(url)
@@ -121,26 +129,49 @@ for url in urlArr :
 
             # Get TEXT
             raw = soup.find(dspt[o.netloc]["txt"][0], attrs={dspt[o.netloc]["txt"][1]:dspt[o.netloc]["txt"][2]})
-            raw_text = raw.find_all(dspt[o.netloc]["find"])
-            text = []
-            for line in raw_text :
+            if not raw :
+                html = s.get(url)
+                soup = BeautifulSoup(html.content, 'html.parser')
+                data = {"html" : soup.prettify}
+            else :
+                raw_text = raw.find_all(dspt[o.netloc]["find"])
+                text = []
+                for line in raw_text :
+                    if "strip" in dspt[o.netloc] :
+                        subhtml = str(line).replace("\n", ' ').replace("<br/>", "\n")
+                    else :
+                        subhtml = str(line).replace("\n", ' ')
+                    subsoup = BeautifulSoup(subhtml, 'html.parser')
+                    string= subsoup.text
 
-                string = line.text
-                string = string.replace("\n", ' ').rstrip().strip()
-                if dspt[o.netloc]["join"] :
-                    add = "\n"
-                else :
-                    add = ""
-                text.append((string+add))
-            data = {"html" : soup.prettify, "txt" : text}
+                    string = string.rstrip()
+                    if dspt[o.netloc]["join"] :
+                        add = "\n"
+                    else :
+                        add = ""
+                    text.append((string+add))
+
+                data = {"html" : str(soup), "txt" : text}
         else :
             html = s.get(url)
-            soup = BeautifulSoup(html.content, 'html.parser')
-            data = {"html" : soup.prettify}
+            if html is None :
+                soup = BeautifulSoup(html.content, 'html.parser')
+                data = {"html" : str(soup)}
+            else :
+                data = {"html" : "FAILED"}
 
     dirname = o.netloc+"_"+o.path.replace("/","_")
     dire = path+dirname
-    os.makedirs(dire)
+
+    isExist = os.path.exists(dire)
+    number = 1
+    if isExist :
+        while isExist :
+            isExist = os.path.exists(dire+"_"+str(number))
+            number += 1
+        os.makedirs(dire+"_"+str(number))
+    else :
+        os.makedirs(dire)
     f = open(dire+"/content.html", "w")
     f.write(str(data["html"]))
     f.close()
@@ -149,7 +180,7 @@ for url in urlArr :
         with open(dire+"/content.txt", "w") as f:
             for item in data["txt"]:
                 f.write("%s\n" % item)
-
+    time.sleep(5)
 
 
 
