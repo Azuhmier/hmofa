@@ -29,7 +29,7 @@ url_test = [ #{{{
         #"https://archiveofourown.org/works/32455084",
         #"https://www.sofurry.com/view/16143333",
         #"https://docs.google.com/document/d/109iFskyibVgDFRRuuuTu1KkIeiVFICit_qBAgxl6deo",
-        #"https://rentry.org/dtas003",
+        "https://rentry.org/dtas003",
         #"https://ghostbin.com/paste/xWTWS/Tutamet",
         #"https://pastefs.com/pid/294416",
         #"https://pastebin.com/7mDKuh2L",
@@ -56,7 +56,7 @@ dspt = { #{{{
             "usr" : "LoginForm[sfLoginUsername]",
             "pwd" : "LoginForm[sfLoginPassword]",
             "txt" : ['div', 'id', 'sfContentBody'],
-            "find" : ['p'],
+            "find" : ['p','div'],
             "join" : 1,
         },
         #"www.furaffinity.net" : {
@@ -88,7 +88,13 @@ import requests
 from bs4 import BeautifulSoup
 data = []
 import time
+
+total_urls = len(urls)
+proccessed_urls = -1
+
 for url in urls :
+    proccessed_urls += 1
+    print(str(proccessed_urls) +'/'+ str(total_urls), end='\r')
     # Form DSPT key
     from urllib.parse import urlparse
     o = urlparse(url)
@@ -154,11 +160,7 @@ for url in urls :
                 data = {"html" : str(soup), "txt" : text}
         else :
             html = s.get(url)
-            if html is None :
-                soup = BeautifulSoup(html.content, 'html.parser')
-                data = {"html" : str(soup)}
-            else :
-                data = {"html" : "FAILED"}
+            data = {"html" : html.content}
 
     dirname = o.netloc+"_"+o.path.replace("/","_")
     dire = path+dirname
@@ -180,7 +182,7 @@ for url in urls :
         with open(dire+"/content.txt", "w") as f:
             for item in data["txt"]:
                 f.write("%s\n" % item)
-    time.sleep(5)
+    time.sleep(2)
 
 
-
+print("Scrapping Complete")

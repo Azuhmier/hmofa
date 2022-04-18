@@ -1,45 +1,13 @@
 {
-   "author" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "lib" : {
-      "name" : "catalog",
+   "series" : {
       "sort" : 0,
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "scripts" : [],
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
       "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "header" : "/HMoFA/ Catalog",
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2"
-   },
-   "series" : {
-      "supress" : {
          "vals" : [],
          "all" : 0
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
       }
    },
    "url" : {
@@ -47,13 +15,48 @@
          "childs" : [],
          "enable" : 0
       },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "tags" : {
       "supress" : {
          "all" : 0,
          "vals" : []
       },
-      "sort" : 0
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
    },
-   "description" : {
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 1,
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "author" : {
+      "sort" : 1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "section" : {
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -64,50 +67,47 @@
          "enable" : 0
       }
    },
-   "prsv" : {
+   "lib" : {
+      "name" : "catalog",
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
+      "scripts" : [],
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
+      "header" : "/HMoFA/ Catalog"
    },
-   "title" : {
-      "place_holder" : {
-         "enable" : 1,
-         "childs" : [
-            "tags"
-         ]
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1
-   },
-   "tags" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "section" : {
+   "prsv" : {
       "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "description" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       }
    }
 }
