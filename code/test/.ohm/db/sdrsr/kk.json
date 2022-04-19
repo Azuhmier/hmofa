@@ -1,18 +1,41 @@
 {
    "lib" : {
+      "cmd" : "",
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "pwds" : [],
+      "scripts" : [],
+      "name" : "kk.json",
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      },
-      "scripts" : [],
-      "sort" : 0,
-      "pwds" : [],
-      "name" : "kk.json",
+      }
+   },
+   "author" : {
       "supress" : {
          "all" : 0,
          "vals" : []
       },
-      "cmd" : ""
+      "author_attr" : [
+         " (",
+         ")"
+      ],
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "author" : [
+         "\n‌\n\n---\n\n---\n#####",
+         "",
+         "",
+         "",
+         "",
+         3
+      ]
    },
    "section" : {
       "section" : [
@@ -25,64 +48,57 @@
             "prsv" : 0
          }
       ],
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0
-   },
-   "author" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
       "sort" : 0,
-      "author" : [
-         "\n‌\n\n---\n\n---\n#####",
-         "",
-         "",
-         "",
-         "",
-         3
-      ],
-      "author_attr" : [
-         " (",
-         ")"
-      ],
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
       "supress" : {
          "vals" : [],
          "all" : 0
       }
    },
-   "description" : {
+   "title" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "title" : [
+         "\n`",
+         "`",
+         "",
+         "",
+         "",
+         {
+            "series" : 1
+         }
+      ],
+      "title_attr" : [
+         " (",
+         ")"
+      ],
       "supress" : {
          "all" : 0,
          "vals" : []
+      }
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       },
-      "sort" : 0,
+      "series" : [
+         "\n-> **=== ",
+         " ===** <-"
+      ],
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "childs" : []
       },
-      "description" : [
-         "*",
-         "*"
-      ]
+      "sort" : 0
    },
    "prsv" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
       "prsv" : [
          "",
          "",
@@ -95,12 +111,6 @@
          {
             "chop" : 1
          }
-      ]
-   },
-   "series" : {
-      "series" : [
-         "\n-> **=== ",
-         " ===** <-"
       ],
       "supress" : {
          "vals" : [],
@@ -112,48 +122,42 @@
          "enable" : 0
       }
    },
-   "title" : {
-      "title_attr" : [
-         " (",
-         ")"
-      ],
-      "sort" : 0,
-      "title" : [
-         "\n`",
-         "`",
+   "url" : {
+      "url" : [
          "",
-         "",
-         "",
-         {
-            "series" : 1
-         }
+         ""
       ],
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
+      "sort" : 0,
+      "url_attr" : [
+         " (",
+         ")"
+      ],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "description" : {
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "description" : [
+         "*",
+         "*"
+      ],
       "supress" : {
          "vals" : [],
          "all" : 0
       }
    },
    "tags" : {
-      "ops" : [
-         "",
-         "",
-         "",
-         "",
-         ""
-      ],
       "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
       "general" : [
          "[",
          "]",
@@ -161,6 +165,21 @@
          ";",
          " "
       ],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "ops" : [
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "anthro" : [
          "[",
          "]",
@@ -168,24 +187,5 @@
          ";",
          " "
       ]
-   },
-   "url" : {
-      "sort" : 0,
-      "url_attr" : [
-         " (",
-         ")"
-      ],
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "url" : [
-         "",
-         ""
-      ],
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
    }
 }

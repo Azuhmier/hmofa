@@ -1,62 +1,29 @@
 {
-   "series" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "url" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "tags" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "title" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1,
       "place_holder" : {
          "childs" : [
             "tags"
          ],
          "enable" : 1
-      }
-   },
-   "author" : {
-      "sort" : 1,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       },
+      "sort" : 1,
       "supress" : {
          "all" : 0,
          "vals" : []
       }
    },
-   "section" : {
+   "series" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "prsv" : {
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -68,27 +35,38 @@
       }
    },
    "lib" : {
-      "name" : "catalog",
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "scripts" : [],
+      "header" : "/HMoFA/ Catalog",
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "scripts" : [],
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
+      "name" : "catalog",
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "header" : "/HMoFA/ Catalog"
+      "sort" : 0
    },
-   "prsv" : {
+   "author" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "section" : {
       "sort" : 0,
       "place_holder" : {
          "enable" : 0,
@@ -100,14 +78,36 @@
       }
    },
    "description" : {
-      "sort" : 0,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
+      "sort" : 0,
       "supress" : {
          "all" : 0,
          "vals" : []
       }
+   },
+   "tags" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "url" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
    }
 }
