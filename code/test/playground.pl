@@ -25,7 +25,7 @@ use Ohm::Hasher;
 my $lib2  = Ohm::Hasher->new();
 $lib2->gen_dspt();
 $lib2->check_matches();
-$lib2->launch();
+#$lib2->launch();
 
 
 do {};

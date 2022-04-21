@@ -1022,19 +1022,19 @@ sub __sweep #{{{1
                 for my $child ( $objMask->{place_holder}{childs}->@* )
                 {
 
-                    unless ( exists $objHash->{childs}{$child} )
+                    unless ( exists $objHash->{childs}{$child->[0]} )
                     {
 
-                        my $childHash = $objHash->{childs}{$child}[0] = {};
+                        my $childHash = $objHash->{childs}{$child->[0]}[0] = {};
                         %$childHash =
                         (
-                            obj => $child,
-                            val => [],
+                            obj => $child->[0],
+                            val => $child->[1],
                             meta => undef,
                         );
 
                         # attributes
-                        my $childDspt = $self->{dspt}{$child};
+                        my $childDspt = $self->{dspt}{$child->[0]};
                         if ( defined $childDspt->{attrs} )
                         {
                             for my $attr ( keys $childDspt->{attrs}->%* )

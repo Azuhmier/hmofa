@@ -3,11 +3,12 @@
 
 ## SETUP DIRECTOR
 import os
+import sys
 tgt_dir = "/Users/azuhmier/hmofa/archives/"
 isExist = os.path.exists(tgt_dir)
 if not isExist:
     os.makedirs(tgt_dir)
-archive_name = "/archive_"
+archive_name = "archive_"
 number = 1
 isExist = os.path.exists(tgt_dir+archive_name+str(number)+"/")
 if isExist :
@@ -24,20 +25,6 @@ json = json.load(f)
 urls = []
 for h in json["objs"]["url"] :
     urls.append(h["val"])
-url_test = [ #{{{
-        #"https://archiveofourown.org/works/28076361",
-        #"https://archiveofourown.org/works/32455084",
-        #"https://www.sofurry.com/view/16143333",
-        #"https://docs.google.com/document/d/109iFskyibVgDFRRuuuTu1KkIeiVFICit_qBAgxl6deo",
-        "https://rentry.org/dtas003",
-        #"https://ghostbin.com/paste/xWTWS/Tutamet",
-        #"https://pastefs.com/pid/294416",
-        #"https://pastebin.com/7mDKuh2L",
-        #"https://pastes.psstaudio.com/post/16d0a7fda2db42428dd98d3967ddb8fe",
-        #"https://mega.nz/folder/7X4USRYK#64dv5dVjKPZ-yWBsNC5Kmg/file/2CoQTDpK",
-        #"https://www.furaffinity.net/view/22706328/",
-
-] #}}}
 
 ## DSPT
 dspt = { #{{{
@@ -105,8 +92,8 @@ for url in urls :
         if o.netloc in dspt :
             # PAYLOAD
             headers = {
-                    'User-Agent': 'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.10; rv:75.0) Gecko/20100101 Firefox/75.0'
-                    }
+                    "User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+            }
             payload = {
                 dspt[o.netloc]["usr"] : pwds[o.netloc][0],
                 dspt[o.netloc]["pwd"] : pwds[o.netloc][1],
@@ -159,19 +146,30 @@ for url in urls :
 
                 data = {"html" : str(soup), "txt" : text}
         else :
-            html = s.get(url)
-            data = {"html" : html.content}
+            erreno = 0
+            try :
+                html = s.get(url)
+            except :
+                erreno = 1
+                print("Unexpected error:", sys.exc_info()[0])
+                print("    ["+url+"] "+str(proccessed_urls))
+            data = {}
+            if erreno :
+                data = {"html" : "FAILED"}
+            else :
+                data = {"html" : html.content}
 
     dirname = o.netloc+"_"+o.path.replace("/","_")
     dire = path+dirname
 
     isExist = os.path.exists(dire)
-    number = 1
     if isExist :
+        number = 1
+        isExist = os.path.exists( dire + "_" + str(number) )
         while isExist :
-            isExist = os.path.exists(dire+"_"+str(number))
             number += 1
-        os.makedirs(dire+"_"+str(number))
+            isExist = os.path.exists( dire + "_" + str(number) )
+        os.makedirs( dire + "_" + str(number) )
     else :
         os.makedirs(dire)
     f = open(dire+"/content.html", "w")
