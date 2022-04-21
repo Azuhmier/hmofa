@@ -1,0 +1,993 @@
+#!/usr/bin/env perl
+use warnings;
+use strict;
+use utf8;
+use feature qw( current_sub );
+use File::Basename;
+use File::Path;
+use JSON::XS;
+use Storable qw(dclone);
+use Carp qw(croak carp);
+use Cwd;
+
+use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
+use Ohm::Controller;
+use Ohm::Hasher;
+
+my $lib2  = Ohm::Controller->new();
+
+sub __init #{{{1
+{
+    my ( $self, $args ) = @_;
+    my $class = ref $self;
+    $self->{state} = '';
+
+    use Cwd 'abs_path';  $self->{cwd} = getcwd;  # get CWD
+    my $isBase = $self->__checkDir();            # is dir ./ohm?
+
+    #%-------- RESUME --------#
+    # get the 'self' hash from the db if it exits
+    my $old_args = {};
+    if (-e $self->{cwd}.'/.ohm/db/self.json')
+    {
+        $old_args = do
+        {
+            open my $fh, '<:utf8', $self->{cwd}.'/.ohm/db/self.json' ;
+            local $/;
+            decode_json(<$fh>);
+        };
+        delete $old_args->{paths}{cwd}; # this is not set by the user
+        delete $old_args->{state};      # this is not set by the user
+    }
+
+    # reshape "old_args" to the form of "args"
+    for my $key (keys $old_args->{paths}->%*)
+    {
+        $old_args->{$key} = $old_args->{paths}{$key};
+    }
+    delete $old_args->{paths}; # we no longer need it
+
+    # apply flat mask
+    my $flat_config = flatten $old_args;
+    $flat_config    = $self->__mask($flat_config, flatten $args);
+    $args           = unflatten $flat_config;
+
+    #%-------- PATHS --------#
+    # INPUT
+    my $paths_input = delete $args->{input} || die "No path to input provided";
+    __checkChgArgs( $paths_input, '' , 'string scalar' );
+    if ($paths_input) { $self->{paths}{input} = abs_path $paths_input }
+
+    # DSPT - DISPATCH TABLE
+    my $paths_dspt = delete $args->{dspt} || die "No path to dspt provided";
+    __checkChgArgs( $paths_dspt, '' , 'string scalar' );
+    if ($paths_dspt) { $self->{paths}{dspt} = abs_path $paths_dspt }
+
+    # OUTPUT
+    my $paths_output = delete $args->{output} // '';
+    __checkChgArgs( $paths_output,'','string scalar' );
+    if ($paths_output) { $self->{paths}{output} = abs_path $paths_output }
+
+    # DIR
+    my $paths_dir = delete $args->{dir} // '';
+    __checkChgArgs( $paths_dir,'','string scalar' );
+    if ($paths_dir) { $self->{paths}{dir} = $paths_dir }
+
+    # DRSR - DRESSER
+    my $paths_drsr = delete $args->{drsr} // '';
+    __checkChgArgs( $paths_drsr, '' , 'string scalar' );
+    if ($paths_drsr) { $self->{paths}{drsr} = abs_path $paths_drsr }
+
+    # MASK
+    my $paths_mask = delete $args->{mask} // '';
+    __checkChgArgs( $paths_mask, '' , 'string scalar' );
+    if ($paths_mask) { $self->{paths}{mask} = abs_path $paths_mask }
+
+    # SMASK - SUBMASKS
+    my $paths_SMASK = delete $args->{smask} // [];
+    __checkChgArgs( $paths_SMASK, 'ARRAY' , 'ARRAY REF' );
+    if ( $paths_SMASK )
+    {
+        $self->{paths}{smask} = [ map { [ abs_path( $_->[0]), $_->[1] ] } @$paths_SMASK ]
+    }
+
+    # SDRSR - SUBDRESSERS
+    my $paths_SDRSR = delete $args->{sdrsr} // [];
+    __checkChgArgs( $paths_SDRSR, 'ARRAY' , 'ARRAY REF' );
+    if ( $paths_SDRSR )
+    {
+        $self->{paths}{sdrsr} = [ map { abs_path $_; $_ } @$paths_SDRSR ]
+    }
+
+    # generate path config
+    $self->{paths} = $self->gen_config( 'paths', $self->{paths} );
+
+
+    #%-------- OTHER ARGS --------#
+    # NAME
+    my $name = delete $args->{name};
+    unless ( defined $name )
+    {
+        my $fname = basename( $self->{paths}{input} );
+        $name = $fname =~ s/\..*$//r;
+    }
+    __checkChgArgs( $name,'','string scalar' );
+    $self->{name} = $name;
+
+    # PRSV - PRESERVES
+    my $prsv = delete $args->{prsv};
+    $self->{prsv} = $prsv;
+
+    # PARAMS - PRAMEMTERS
+    my $params = delete $args->{params};
+    if ( defined $params )
+    {
+        __checkChgArgs( $params, 'HASH', 'hash' )
+    }
+    $self->{params} = $self->gen_config( 'params', $params  );
+
+
+    #%-------- CHECK --------#
+    # KEYS
+    if ( my $remaining = join ', ', keys %$args )
+    {
+        croak( "Unknown keys to $class\::new: $remaining" );
+    }
+
+    return $self;
+}
+
+#}}}
+sub new #{{{1
+{
+    my ($class, $args) = @_;
+
+    # Convert '$args' into type 'HASH', if not already
+    unless ( UNIVERSAL::isa($args, 'HASH') )
+    {
+        $args =
+        {
+            input => $_[1],
+            dspt  => $_[2],
+            drsr  => $_[3],
+            mask  => $_[4],
+            prsv  => $_[5],
+        };
+
+        # Remove args with undefined values
+        delete $args->{$_} for grep { !(defined $args->{$_}) } keys %$args;
+    }
+
+    # Create Object
+    my $self = {};
+    bless $self, $class;
+
+    # init
+    $self->__init( $args );
+
+    return $self;
+}
+
+sub gen_dspt #{{{1
+{
+    my ( $self, $args ) = @_;
+
+    ## --- IMPORT DSPT FILE
+    my $dspt = do
+    {
+        open my $fh, '<:utf8', $self->{paths}{dspt};
+        local $/;
+        decode_json(<$fh>);
+    };
+    $dspt = $self->gen_config( 'dspt', $dspt  );
+    $self->{dspt} = $dspt;
+
+
+    ## --- GENERATE LINE AND ATTR REGEXS FOR DSPT
+    for my $obj (keys %$dspt)
+    {
+
+        my $objDSPT = $dspt->{$obj};
+        for my $key (keys %$objDSPT)
+        {
+
+            #line regexes
+            if ( $key eq 're' )
+            {
+                $objDSPT->{cre} = qr/$objDSPT->{re}/
+            }
+
+            #attribute regexes
+            if ( $key eq 'attrs' )
+            {
+
+                my $dspt_attr = $objDSPT->{attrs};
+                for my $attr (keys %$dspt_attr)
+                {
+
+                    $dspt_attr->{$attr}{cre} = qr/$dspt_attr->{$attr}{re}/;
+                    if (defined $dspt_attr->{$attr}{delims})
+                    {
+
+                        my $delims = join '', $dspt_attr->{$attr}{delims}->@*;
+                        $dspt_attr->{$attr}{cdelims} = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
+                                                                 : '';
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    ## --- VALIDATE
+    # check for duplicates: order
+    my @keys  =
+        sort
+        map
+        {
+            exists $dspt->{$_}{order}
+                and
+            $dspt->{$_}{order}
+        }
+        keys %{$dspt};
+    my %dupes;
+    for (@keys) { die "Cannot have duplicate reserved keys!" if $dupes{$_}++ }
+
+
+    ## --- META
+    # max
+    my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
+    $self->{meta}{dspt}{ord_max} =
+    (
+        sort
+        {
+            length $b <=> length $a
+                ||
+            substr($b, -1) <=> substr($a, -1);
+        }
+        @orders
+    )[0];
+
+    # limit
+    my @pntstr = split /\./, $self->{meta}{dspt}{ord_max};
+    $pntstr[$#pntstr]++;
+    $self->{meta}{dspt}{ord_limit} = join '.', @pntstr;
+
+    # ordMap
+    $self->{meta}{dspt}{ord_map}->%* =
+        map  { $dspt->{$_}{order} => $_ }
+        grep { exists $dspt->{$_}{order} }
+        keys %$dspt;
+
+    # sortMap
+    my @sorted_ords  =
+        sort
+        {
+            ( $a eq 'lib' ?-1 :0 )
+                ||
+            ( $b eq 'lib' ?1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$a}{order}) <=> scalar (split /\./, $dspt->{$b}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map} = [@sorted_ords];
+
+    # sortMap2
+    my @sorted_ords2  =
+        sort
+        {
+            ( $a eq 'lib' ?1 :0 )
+                ||
+            ( $b eq 'lib' ?-1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$b}{order}) <=> scalar (split /\./, $dspt->{$a}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map2} = [@sorted_ords2];
+
+
+    ## --- DRSR
+    $self->{drsr} = do
+    {
+        #open my $fh, '<:utf8', $self->{paths}{drsr}
+        open my $fh, '<', $self->{paths}{drsr}
+            or die;
+        local $/;
+        decode_json(<$fh>);
+    };
+    $self->{drsr} = $self->gen_config( 'drsr', $self->{drsr}  );
+
+    ## --- MASK
+    $self->{mask} = do
+    {
+        open my $fh, '<:utf8', $self->{paths}{mask}
+            or die;
+        local $/;
+        decode_json(<$fh>);
+    };
+    $self->{mask} = $self->gen_config( 'mask', $self->{mask}  );
+
+    ## --- SMASK
+    $self->{smask} = [];
+    for my $smask_path ( $self->{paths}{smask}->@* )
+    {
+        my $smask = do
+        {
+            open my $fh, '<:utf8', $smask_path->[0]
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+
+        $smask = $self->gen_config( 'mask', $smask  );
+        unless ( $smask_path->[1] ) {
+            $smask_path->[1] = '';
+        }
+
+        push $self->{smask}->@*, [$smask, $smask_path->[1]];
+    }
+
+    ## --- SDRSR
+    $self->{sdrsr} = [];
+    for my $sdrs_path ( $self->{paths}{sdrsr}->@* )
+    {
+        my $sdrsr = do
+        {
+            #open my $fh, '<:utf8', $sdrs_path
+            open my $fh, '<', $sdrs_path
+                or die;
+            local $/;
+            decode_json(<$fh>);
+        };
+
+        $sdrsr = $self->gen_config( 'mask', $sdrsr  );
+
+        use File::Basename;
+        my $file = basename($sdrs_path);
+        $sdrsr->{lib}{name} = $file;
+
+        push $self->{sdrsr}->@*, $sdrsr;
+    }
+
+    ## --- RETURN
+    $self->{dspt} = $dspt;
+    return $self;
+}
+
+
+sub launch #{{{1
+{
+    my ( $self, $args ) = @_;
+    if ( $self->{state} ne 'ok' )
+    {
+        print "Launch aborted, object state is not ok\n";
+        return;
+    }
+    my @SMASKS = @{ $self->{smask} };
+    my $dspt = $self->{dspt};
+
+    for my $smask ( @SMASKS )
+    {
+        my $pwds_DirPaths = $smask->[0]{lib}{pwds};
+        my @pwds;
+        for my $path ( @$pwds_DirPaths )
+        {
+            my ($CONFIG_DIR) = glob $path->[0];
+            my $pwd = 0;
+            if ( $CONFIG_DIR )
+            {
+                open my $fh, '<', $CONFIG_DIR
+                    or die 'something happened';
+                while (my $line = <$fh>)  {
+                    if ($line =~ qr/$path->[1]/) {
+                        $pwd = $1;
+                        last;
+                    }
+                }
+            }
+            push @pwds, $pwd;
+        }
+        #my $sdrsr = $smask->[1];
+        my $sdrsr = $self->{sdrsr}[0];
+        unless ( $smask->[1] )
+        {
+            $sdrsr = $self->{drsr};
+        }
+
+
+        #print Dumper $sdrsr;
+        $self->__genWrite($smask->[0], $sdrsr);
+
+        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->[0]{lib}{name}.".txt"
+            or die 'something happened';
+            $self->{stdout}[0] = $smask->[0]{lib}{header} // $self->{stdout}[0];
+
+            for ($self->{stdout}->@*)
+            {
+                print $fh2 $_,"\n";
+            }
+            truncate $fh2, tell($fh2) or die;
+            seek $fh2,0,0 or die;
+
+        close $fh2;
+        ## upload to final destination
+        $smask->[0]{lib}{cmd} =~ s/\$\{PWD\}/$pwds[0]/g;
+        print "launching ".$smask->[0]{lib}{name} ." ... ";
+        my $cmd = `$smask->[0]{lib}{cmd}`;
+        print "ok\n";
+
+
+    }
+
+    return $self;
+}
+
+sub gen_config #{{{1
+{ # generates and/or enforces configuration hashes
+
+    my
+    ( $self,
+        $bp_name,  # boilerplate name for 'get_bp' subroutine
+        $init_hash # initial hash to mask
+    ) = @_;
+
+
+
+    my $bp = dclone $self->__gen_bp( $bp_name ) // die;
+
+    # populate config
+    my $config = populate
+    (
+        $self,   # 'hasher'
+        $bp,     # boiler plate
+        {},      # initial config to be built within recursion
+        0,       # obj_flag
+        $bp_name,
+    );
+
+    # use init hash if provided
+    if ($init_hash)
+    {
+        my $flat_mask  = flatten $init_hash;
+        my $flat_config = flatten $config;
+
+        $flat_config = $self->__mask($flat_config, $flat_mask);
+
+        $config = unflatten $flat_config;
+
+    }
+
+    return $config;
+
+    sub populate #{{{2
+    {
+        my
+        (
+            $self,    # hasher object
+            $bp,      # boiler plate
+            $config,  # config being built within recursion
+            $OBJ,     # Boolean for 1st lvl recursion
+            $bp_name, # Name of boilerplate
+        ) = @_;
+
+        my $member  = delete $bp->{member}  // die "no member hash in boiler_plate $bp_name";
+        my $fill    = delete $bp->{fill}    // die "no fill hash in boiler_plate $bp_name";
+        my $general = delete $bp->{general} // die "no general hash in boiler_plate $bp_name";
+        my @RemKeys = keys %$bp;
+        $config = dclone $general if $general;
+
+        # MEMBER
+        if ( %$member )
+        {
+
+            # KEYS
+            my @KEYS;
+            if ($OBJ)
+            {
+                @KEYS = keys $self->{dspt}{$OBJ}{attrs}->%*;
+                push @KEYS, $OBJ if $fill;
+            }
+            else
+            {
+                @KEYS = keys $self->{dspt}->%*;
+            }
+
+            # Recurse with keys
+            for my $key ( @KEYS )
+            {
+                $config->{$key} = populate
+                (
+                    $self,
+                    dclone $member,
+                    $config->{$key},
+                    $key,
+                    $bp_name,
+                );
+            }
+        }
+
+        # REMAINING KEYS
+        for my $key ( @RemKeys )
+        {
+            $config->{$key} = populate
+            (
+                $self,
+                dclone $bp->{$key},
+                $config->{$key},
+                $OBJ,
+                $bp_name,
+            );
+        }
+
+        # GENERAL
+        if (ref $config eq 'HASH')
+        {
+            my $flat_mask  = flatten (dclone $general) if $general;
+            my $flat_config = flatten $config;
+
+            $flat_config = $self->__mask($flat_config, $flat_mask);
+
+            return unflatten $flat_config;
+        }
+
+        return $config;
+    } #}}}
+    sub __mask #{{{2
+    {
+        my
+        (
+            $self,
+            $flat_config,
+            $flat_mask
+        ) = @_;
+
+        for my $key ( keys %$flat_mask )
+        {
+            my $str = $key;
+            my $pat;
+            my $end;
+            my @KEYS;
+            my $delim = '';
+            my @CLN = (0);
+
+            while ( scalar @KEYS > 1 || scalar @CLN )
+            {
+                if ( $str =~ s/((?:\\\:|\\\.|[_[:alnum:]])+)((?:\.|:)*)// )
+                {
+                    $pat  .= $delim.$1;
+                    $delim = $2 // '';
+                    $end = $delim ? '' : '$' ;
+
+                }
+
+                @KEYS = grep {$_ =~ /^\Q$pat\E($|:|\.)/ } keys %$flat_config;
+                @CLN  = grep {$_ !~ m/^\Q$pat$delim\E$end/ } @KEYS;
+                delete $flat_config->{$_} for @CLN;
+            }
+
+            $flat_config->{$key} = $flat_mask->{$key};
+
+        }
+        return $flat_config;
+    }
+
+
+}
+
+sub __commit #{{{1
+{
+    my ($self, $args) = @_;
+    if ( $self->{state} ne 'ok' )
+    {
+        print "Commit aborted, object state is not ok\n";
+        return;
+    }
+
+    # set up working dir
+    my $db = $self->{paths}{dir}."/db";
+    unless ( -d $self->{paths}{dir} )
+    {
+        mkdir($self->{paths}{dir})
+    }
+    unless ( -d $db )
+    {
+        mkdir($db)
+    }
+
+    $self->{paths} = $self->gen_config( 'paths', { smask => $self->{paths}{smask} } );
+
+    $self->rm_reff;
+    use Data::Structure::Util qw( unbless );
+
+    # INDIVDUAL HASHES
+    my @KEYS = qw( hash dspt matches drsr mask);
+    for my $key (@KEYS)
+    {
+        my $hash = dclone $self->{$key};
+
+        # Delteing Child Reffs in MATCHES
+        if ($key eq 'matches')
+        {
+            for my $obj ( keys $hash->{objs}->%* )
+            {
+                for my $match ( $hash->{objs}{$obj}->@* )
+                {
+                    delete $match->{childs};
+                }
+            }
+        }
+
+        # write
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/$key.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+    delete $self->{drsr};
+    delete $self->{mask};
+
+    # SMASK
+    unless ( -d $self->{paths}{cwd} . "$db/smask" )
+    {
+        mkdir($self->{paths}{cwd} . "$db/smask")
+    }
+    $self->{paths}{smask} = [];
+    for my $hash ($self->{smask}->@*)
+    {
+        push $self->{paths}{smask}->@*, [$self->{paths}{cwd} . "$db/smask/" . $hash->[0]{lib}{name}.".json", $hash->[1]];
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash->[0] );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/smask/" . $hash->[0]{lib}{name}.".json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # SDRSR
+    unless ( -d $self->{paths}{cwd} . "$db/sdrsr" )
+    {
+        mkdir($self->{paths}{cwd} . "$db/sdrsr")
+    }
+    $self->{paths}{sdrsr} = [];
+    for my $hash ($self->{sdrsr}->@*)
+    {
+        push $self->{paths}{sdrsr}->@*, $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json";
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # MISC HASH
+    {
+        my $hash = dclone $self;
+
+        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask', 'sdrsr')
+        {
+            delete $hash->{$key};
+        }
+
+        # paths, cwd
+        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
+        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/self.json"
+            or die;
+            print $fh $json;
+            truncate $fh, tell($fh) or die;
+            seek $fh,0,0 or die;
+        close $fh;
+    }
+
+    # OUTPUT
+    use File::Copy;
+    my $oldfile = $self->{paths}{output}
+    . $self->{paths}{dir}
+    . '/tmp/'
+    . $self->{name}
+    . '.txt';
+    my $newfile = $self->{paths}{cwd} . $db . '/output.txt';
+    copy($oldfile, $newfile) or die "failed copy of $oldfile to $newfile: $!";
+
+    # return hash to original state
+    $self->__sweep(['reffs']);
+
+    # gen objLists and write to ohm directory
+    $self->__genObjLists();
+    return $self;
+}
+
+sub __flatten #{{{1
+{
+    my ($self, $key) = @_;
+    return flatten $self->{$key};
+}
+
+sub __unflatten #{{{1
+{
+    my ($self, $key) = @_;
+    return unflatten $self->{$key};
+}
+
+sub __gen_bp #{{{1
+{
+    my
+    (
+        $self,    # hasher object
+        $bp_name  # boiler plate key name; not case sensitive
+    ) = @_;
+
+    # boiler plat dispatch table
+    my %bps =
+    (
+        objhash => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                obj => undef,
+                val => undef,
+                childs => {},
+                attrs  => {},
+                meta   => {},
+                circs  =>
+                {
+                    '.'  => undef,
+                    '..' => undef,
+                },
+            },
+        }, #}}}
+
+        meta => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                dspt =>
+                {
+                   ord_limit => undef,
+                   ord_map => undef,
+                   ord_max => undef,
+                   ord_sort_map => undef,
+                },
+            },
+        }, #}}}
+
+        params => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                attribs => 1,
+                delims => 1,
+                mes => 1,
+                prsv => 1,
+            },
+        }, #}}}
+
+        paths => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                drsr => $self->{cwd}.'/.ohm/db/drsr.json',
+                dspt => $self->{cwd}.'/.ohm/db/dspt.json',
+                input => $self->{cwd}.'/.ohm/db/output.txt',
+                mask => $self->{cwd}.'/.ohm/db/mask.json',
+                cwd => $self->{cwd},
+                output => $self->{cwd},
+                smask => [],
+                dir => '/.ohm',
+            },
+        }, #}}}
+
+        prsv => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                till =>
+                [
+                    'section',
+                    0,
+                ],
+            },
+        }, #}}}
+
+        self => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                circs => [],
+                dspt => {},
+                hash => {},
+                matches => {},
+                meta => {},
+                name => undef,
+                stdout => [],
+                params => {},
+                paths  => {},
+                prsv => {},
+            },
+        }, #}}}
+
+        matches => #{{{
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                miss => [],
+                objs => {},
+            },
+            objs =>
+            {
+                fill => 0,
+                general => {},
+                member =>
+                {
+                    fill => 0,
+                    general => [],
+                    member => {},
+                },
+            },
+        }, #}}}
+
+        drsr => #{{{
+        {
+            fill => 0,
+            general => {},
+            member =>
+            {
+                fill => 1,
+                general => {},
+                member =>
+                {
+                    fill => 0,
+                    member => {},
+                    general =>
+                    [
+                        '',
+                        '',
+                        '',
+                        '',
+                        '',
+                        {},
+                    ],
+                },
+            },
+        }, #}}}
+
+        dspt => #{{{
+        {
+            fill => 0,
+            general =>
+            {
+                lib =>
+                {
+                    order => 0,
+                    smask => [],
+                },
+                prsv =>
+                {
+                    order => -1,
+                    mask => {},
+                    drsr => {},
+                },
+            },
+            member =>
+            {
+                fill => 0,
+                member => {},
+                general =>
+                {
+                    re => undef,
+                    cre => undef,
+                    order => undef,
+                    attrs => {},
+                    drsr  => {},
+                    mask  => {},
+                },
+                attrs =>
+                {
+                    fill => 0,
+                    general => {},
+                    member =>
+                    {
+                        fill => 0,
+                        member => {},
+                        general =>
+                        {
+                            re => undef,
+                            cre => undef,
+                            order => undef,
+                            delims => [],
+                            cdelims => undef,
+                        },
+                    },
+                },
+            },
+        }, #}}}
+
+        mask => #{{{
+        {
+            fill => 0,
+            general =>
+            {
+                lib =>
+                {
+                    cmd => '',
+                    scripts => [],
+                    pwds => [],
+                    name => '',
+                },
+                #prsv => { akle => 1}, # if defined as '{}, it does not include
+                #supress, including 'akle => 1' does include supress
+            },
+            member =>
+            {
+                fill => 0,
+                member => {},
+                general =>
+                {
+                    supress =>
+                    {
+                        all => 0,
+                        vals => [],
+                    },
+                    sort => 0,
+                    place_holder =>
+                    {
+                        enable => 0,
+                        childs => [],
+                    },
+                },
+            },
+        }, #}}}
+    );
+
+    # return clone of boiler plate using undercased version of argument key
+    return dclone $bps{lc $bp_name};
+}
+
+sub __checkChgArgs #{{{1
+{
+    my ($arg, $cond, $type) = @_;
+    unless ( defined $arg )
+    {
+        croak( (caller(1))[3] . " requires an input" );
+    }
+    elsif (ref $arg ne $cond)
+    {
+        croak( (caller(1))[3] . " requires a $type" );
+    }
+}
+
+
+1;
+# ===  NOTES
+# double utf8 encoding
+# sweep(['refs'] giving duplicate empty hashes
+# put type (dspt, mask, drsr, hash, matches) in lib of jsons
+# differientiate b/w main mask and launch masks. May need to create seperate class called filters, launchers, or plan. These "submasks" need a launch command, additional scripts to run and masks of their own. They will be kept in supplement folder.
+# changing bp configs.
+# vim autoread not working
+# empty spaces for tags
+# prsvs, archive, and scraping

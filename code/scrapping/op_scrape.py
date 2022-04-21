@@ -106,8 +106,6 @@ def divy(lst, itemName, stack, db, cycle, updated, top, skip, OP) :
         if key not in db :
             db[key] = {}
             db[key]["cycle"] = -1
-        else :
-            db[key]["cycle"] = cycle
 
         if key not in skip  :
             if db[key]["cycle"] != cycle :
@@ -136,7 +134,7 @@ def divy(lst, itemName, stack, db, cycle, updated, top, skip, OP) :
 
         if "stack" not in stack[-1][itemName + "s"][itemIdx - 1] :
             stack[-1][itemName + "s"][itemIdx-1]["stack"] = []
-        stack[-1][itemName + "s"][itemIdx - 1]["stack"].append(item)
+        stack[-1][itemName + "s"][itemIdx - 1]["stack"].append(copy.deepcopy(item))
 
         ## GO TO CHILDS
         not_matching = re.compile( itemName + "|attr|stack|cycle|idxs|OP" )
@@ -201,10 +199,8 @@ for OP in OP_list[::-1] :
     } )
 
     cycle += 1
-pp.pprint(db)
 
 
-#pp.pprint(db)
 with open("op_list.txt", "w") as f:
     for item in OPs_text:
         f.write("%s\n" % item)

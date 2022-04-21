@@ -14,16 +14,27 @@ my $erreno;
   # drsr
   # stdout
 
-sub new { #{{{1
-    my ( $class, @args ) = @_;
-    my $self = bless {}, $class;
-    $self->__init( \@args );
+sub new #{{{1
+{
+    my $class = shift @_;
+
+    my $self = {};
+    bless $self, $class;
+
+    $self->__init();
+
     return $self;
 }
 
+sub get_status #{{{1
+{
+    my ( $self, $args ) = @_;
+
+}
 sub __init { #{{{1
     my ( $self, $args ) = @_;
     my $class = ref $self;
+    $self->{state} = '';
     unless (UNIVERSAL::isa($args->[0], 'HASH')) {
         $args->[0] = {
             name => $args->[0],
@@ -72,6 +83,9 @@ sub __init { #{{{1
         print $_ for $self->{debug}->@*;
         print $erreno if $erreno;
     };
+}
+
+sub set_args { #{{{1
 }
 
 sub __checkChgArgs { #{{{1
