@@ -78,15 +78,11 @@ sub get_matches #{{{1
 
     else
     {
-        open my $fh, '<:utf8', $self->{paths}{input}
-            or die $!;
+        while ( $self->{input}->@* )
         {
-            while ( my $line = <$fh> )
-            {
-                $FR_prsv = $self->__get_matches($line, $FR_prsv);
-            }
+            my $line = shift $self->{input}->@*;
+            $FR_prsv = $self->__get_matches($line, $FR_prsv);
         }
-        close $fh ;
     }
 
     return $self;
@@ -224,196 +220,68 @@ sub rm_reff #{{{1
 # PRIVATE
 #############################################################
 
-sub __gen_dspt #{{{1
+sub __init #{{{1
 {
     my ( $self, $args ) = @_;
-
-    ## --- IMPORT DSPT FILE
-    my $dspt = do
-    {
-        open my $fh, '<:utf8', $self->{paths}{dspt};
-        local $/;
-        decode_json(<$fh>);
-    };
-    $dspt = $self->gen_config( 'dspt', $dspt  );
-    $self->{dspt} = $dspt;
+    $self->__private(caller);
 
 
-    ## --- GENERATE LINE AND ATTR REGEXS FOR DSPT
-    for my $obj (keys %$dspt)
-    {
 
-        my $objDSPT = $dspt->{$obj};
-        for my $key (keys %$objDSPT)
+        if (exists $self->{args}{dspt})
         {
-
-            #line regexes
-            if ( $key eq 're' )
-            {
-                $objDSPT->{cre} = qr/$objDSPT->{re}/
-            }
-
-            #attribute regexes
-            if ( $key eq 'attrs' )
-            {
-
-                my $dspt_attr = $objDSPT->{attrs};
-                for my $attr (keys %$dspt_attr)
-                {
-
-                    $dspt_attr->{$attr}{cre} = qr/$dspt_attr->{$attr}{re}/;
-                    if (defined $dspt_attr->{$attr}{delims})
-                    {
-
-                        my $delims = join '', $dspt_attr->{$attr}{delims}->@*;
-                        $dspt_attr->{$attr}{cdelims} = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
-                                                                 : '';
-
-                    }
-                }
-            }
+            $self->{dspt} = $self->{args}{dspt};
         }
-    }
-
-
-    ## --- VALIDATE
-    # check for duplicates: order
-    my @keys  =
-        sort
-        map
+        elsif (exists $args->{dspt})
         {
-            exists $dspt->{$_}{order}
-                and
-            $dspt->{$_}{order}
+            $self->{dspt} = $args->{dspt};
         }
-        keys %{$dspt};
-    my %dupes;
-    for (@keys) { die "Cannot have duplicate reserved keys!" if $dupes{$_}++ }
-
-
-    ## --- META
-    # max
-    my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
-    $self->{meta}{dspt}{ord_max} =
-    (
-        sort
+        else
         {
-            length $b <=> length $a
-                ||
-            substr($b, -1) <=> substr($a, -1);
-        }
-        @orders
-    )[0];
-
-    # limit
-    my @pntstr = split /\./, $self->{meta}{dspt}{ord_max};
-    $pntstr[$#pntstr]++;
-    $self->{meta}{dspt}{ord_limit} = join '.', @pntstr;
-
-    # ordMap
-    $self->{meta}{dspt}{ord_map}->%* =
-        map  { $dspt->{$_}{order} => $_ }
-        grep { exists $dspt->{$_}{order} }
-        keys %$dspt;
-
-    # sortMap
-    my @sorted_ords  =
-        sort
-        {
-            ( $a eq 'lib' ?-1 :0 )
-                ||
-            ( $b eq 'lib' ?1 :0 )
-                ||
-            scalar (split /\./, $dspt->{$a}{order}) <=> scalar (split /\./, $dspt->{$b}{order})
-                ||
-            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
-        }
-        keys %$dspt;
-    $self->{meta}{dspt}{ord_sort_map} = [@sorted_ords];
-
-    # sortMap2
-    my @sorted_ords2  =
-        sort
-        {
-            ( $a eq 'lib' ?1 :0 )
-                ||
-            ( $b eq 'lib' ?-1 :0 )
-                ||
-            scalar (split /\./, $dspt->{$b}{order}) <=> scalar (split /\./, $dspt->{$a}{order})
-                ||
-            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
-        }
-        keys %$dspt;
-    $self->{meta}{dspt}{ord_sort_map2} = [@sorted_ords2];
-
-
-    ## --- DRSR
-    $self->{drsr} = do
-    {
-        #open my $fh, '<:utf8', $self->{paths}{drsr}
-        open my $fh, '<', $self->{paths}{drsr}
-            or die;
-        local $/;
-        decode_json(<$fh>);
-    };
-    $self->{drsr} = $self->gen_config( 'drsr', $self->{drsr}  );
-
-    ## --- MASK
-    $self->{mask} = do
-    {
-        open my $fh, '<:utf8', $self->{paths}{mask}
-            or die;
-        local $/;
-        decode_json(<$fh>);
-    };
-    $self->{mask} = $self->gen_config( 'mask', $self->{mask}  );
-
-    ## --- SMASK
-    $self->{smask} = [];
-    for my $smask_path ( $self->{paths}{smask}->@* )
-    {
-        my $smask = do
-        {
-            open my $fh, '<:utf8', $smask_path->[0]
-                or die;
-            local $/;
-            decode_json(<$fh>);
-        };
-
-        $smask = $self->gen_config( 'mask', $smask  );
-        unless ( $smask_path->[1] ) {
-            $smask_path->[1] = '';
+            croak "ERROR: no 'dspt' arg was supplied";
         }
 
-        push $self->{smask}->@*, [$smask, $smask_path->[1]];
-    }
+    $self->__set_args( $args , 1);
+    $self->__use_args();
+    $self->__gen_dspt();
 
-    ## --- SDRSR
-    $self->{sdrsr} = [];
-    for my $sdrs_path ( $self->{paths}{sdrsr}->@* )
-    {
-        my $sdrsr = do
-        {
-            #open my $fh, '<:utf8', $sdrs_path
-            open my $fh, '<', $sdrs_path
-                or die;
-            local $/;
-            decode_json(<$fh>);
-        };
+    my $class = ref $self;
 
-        $sdrsr = $self->gen_config( 'mask', $sdrsr  );
-
-        use File::Basename;
-        my $file = basename($sdrs_path);
-        $sdrsr->{lib}{name} = $file;
-
-        push $self->{sdrsr}->@*, $sdrsr;
-    }
-
-    ## --- RETURN
-    $self->{dspt} = $dspt;
     return $self;
 }
+
+
+
+
+sub __use_args #{{{1
+{
+
+    my ( $self ) = @_;
+    $self->__private(caller);
+
+    ## NAME
+    $self->{name} = $self->{args}{name};
+    ## DSPT
+    $self->{dspt} = $self->{args}{dspt};
+    ## EXTERN
+    $self->{extern} = $self->{args}{extern};
+    ## DRSR
+    $self->{drsr} = $self->{args}{drsr};
+    ## SDRS
+    $self->{sdrsr} = $self->{args}{sdrsr};
+    ## MASK
+    $self->{mask} = $self->{args}{mask};
+    ## SMASK
+    $self->{smask} = $self->{args}{smask};
+    ## OPTS
+    $self->{opts} = $self->{args}{opts};
+    ## FLAGS
+    $self->{flags} = $self->{args}{flags};
+
+
+    return $self;
+}
+
+
 
 
 sub __divy #{{{1
@@ -422,7 +290,7 @@ sub __divy #{{{1
     my ( $self, $args ) = @_;
 
     #initiate hash
-    $self->{hash} = $self->gen_config( 'objHash', { val => $self->{name}, obj => 'lib', } );
+    $self->{hash} = $self->__gen_config( 'objHash', { val => $self->{name}, obj => 'lib', } );
 
     # method variables
     $self->{m}{reffArray} = [$self->{hash}];
@@ -1051,7 +919,9 @@ sub __genWrite #{{{1
 
 sub __get_matches #{{{1
 {
-    my ( $self, $line, $FR_prsv, $tmp ) = @_;
+    my ( $self, $line, $FR_prsv, $tmp, $LN) = @_;
+    $LN = 0 unless $LN;
+    $LN++;
 
     my $tgt = $tmp ? $self->{tmp} : $self;
     my $dspt = $self->{dspt};
@@ -1076,7 +946,7 @@ sub __get_matches #{{{1
                 meta =>
                 {
                     raw => $line,
-                    LN  => $.,
+                    LN  => $LN,
                 },
             };
             $self->_checks($match);
@@ -1095,7 +965,7 @@ sub __get_matches #{{{1
             meta =>
             {
                 raw => $line,
-                LN  => $.,
+                LN  => $LN,
             },
         };
         $self->_checks($match,'prsv');
@@ -1113,7 +983,7 @@ sub __get_matches #{{{1
             meta =>
             {
                 raw => $line,
-                LN  => $.,
+                LN  => $LN,
             },
         };
         $self->_checks( $match,'miss' );
@@ -1371,74 +1241,128 @@ sub __validate #{{{1
 }
 
 
-sub __init #{{{1
+
+
+sub __gen_dspt #{{{1
 {
-    my ( $self, $args ) = @_;
+    my ( $self ) = @_;
 
-    my $class = ref $self;
-    #%-------- PATHS --------#
-    $self->{name}  = delete $args->{name} // undef;
-    $self->{input} = delete $args->{input} // undef;
-    $self->{dspt}  = delete $args->{dspt} // undef;
-    $self->{mask}  = delete $args->{mask} // undef;
-    $self->{smask} = delete $args->{smask} // [];
-    $self->{drsr}  = delete $args->{drsr} // undef;
-    $self->{sdrsr} = delete $args->{sdrsr} // [];
-    $self->{prsv}  = delete $args->{prsv} // undef;
-    $self->{opts}  = delete $args->{opts} // undef;
-
-    #%-------- CHECK --------#
-    # KEYS
-    if ( my $remaining = join ', ', keys %$args )
+    ## DSPT
+    my $dspt = $self->{dspt};
+    ## --- GENERATE LINE AND ATTR REGEXS FOR DSPT
+    for my $obj (keys %$dspt)
     {
-        croak( "Unknown keys to $class\::new: $remaining" );
+
+        my $objDSPT = $dspt->{$obj};
+        for my $key (keys %$objDSPT)
+        {
+
+            #line regexes
+            if ( $key eq 're' )
+            {
+                $objDSPT->{cre} = qr/$objDSPT->{re}/
+            }
+
+            #attribute regexes
+            if ( $key eq 'attrs' )
+            {
+
+                my $dspt_attr = $objDSPT->{attrs};
+                for my $attr (keys %$dspt_attr)
+                {
+
+                    $dspt_attr->{$attr}{cre} = qr/$dspt_attr->{$attr}{re}/;
+                    if (defined $dspt_attr->{$attr}{delims})
+                    {
+
+                        my $delims = join '', $dspt_attr->{$attr}{delims}->@*;
+                        $dspt_attr->{$attr}{cdelims} = ($delims ne '') ? qr{\s*[\Q$delims\E]\s*}
+                                                                 : '';
+
+                    }
+                }
+            }
+        }
     }
+
+
+    ## --- VALIDATE
+    # check for duplicates: order
+    my @keys  =
+        sort
+        map
+        {
+            exists $dspt->{$_}{order}
+                and
+            $dspt->{$_}{order}
+        }
+        keys %{$dspt};
+    my %dupes;
+    for (@keys) { die "Cannot have duplicate reserved keys!" if $dupes{$_}++ }
+
+
+    ## --- META
+    # max
+    my @orders = grep { defined } map {$dspt->{$_}{order}} keys %$dspt;
+    $self->{meta}{dspt}{ord_max} =
+    (
+        sort
+        {
+            length $b <=> length $a
+                ||
+            substr($b, -1) <=> substr($a, -1);
+        }
+        @orders
+    )[0];
+
+    # limit
+    my @pntstr = split /\./, $self->{meta}{dspt}{ord_max};
+    $pntstr[$#pntstr]++;
+    $self->{meta}{dspt}{ord_limit} = join '.', @pntstr;
+
+    # ordMap
+    $self->{meta}{dspt}{ord_map}->%* =
+        map  { $dspt->{$_}{order} => $_ }
+        grep { exists $dspt->{$_}{order} }
+        keys %$dspt;
+
+    # sortMap
+    my @sorted_ords  =
+        sort
+        {
+            ( $a eq 'lib' ?-1 :0 )
+                ||
+            ( $b eq 'lib' ?1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$a}{order}) <=> scalar (split /\./, $dspt->{$b}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map} = [@sorted_ords];
+
+    # sortMap2
+    my @sorted_ords2  =
+        sort
+        {
+            ( $a eq 'lib' ?1 :0 )
+                ||
+            ( $b eq 'lib' ?-1 :0 )
+                ||
+            scalar (split /\./, $dspt->{$b}{order}) <=> scalar (split /\./, $dspt->{$a}{order})
+                ||
+            ($dspt->{$a}{order} =~ m/-*\d+$/g)[0] <=> ($dspt->{$b}{order} =~ m/-*\d+$/g)[0]
+        }
+        keys %$dspt;
+    $self->{meta}{dspt}{ord_sort_map2} = [@sorted_ords2];
+
+
 
     return $self;
 }
 
-#}}}
 
-#############################################################
-#  UTILITIES
-#############################################################
 
-sub __see #{{{1
-{
-    my ( $self, $item, $prefix, $flat) = @_;
-
-    if ( UNIVERSAL::isa($item,'HASH' ) )
-    {
-        for my $key (keys %$item)
-        {
-            my $flatkey = $prefix . '.' . $key;
-            $flat = $self->__see($item->{$key}, $flatkey, $flat);
-        }
-    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
-    {
-        for my $idx (0 .. $item->$#*)
-        {
-            #my $flatkey = $prefix . ':' . $idx;
-            my $key;
-            if (ref $item->[$idx] ne 'HASH' || ref $item->[$idx]{val} eq 'ARRAY')
-            {
-                $key = $idx;
-            }
-            else
-            {
-                $key = $item->[$idx]{val};
-            }
-            my $flatkey = $prefix . ':' . "[".$key."]";
-            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
-        }
-    }
-    else
-    {
-            my $flatkey = $prefix . '=' . ($item // 'NULL');
-            push @$flat, $flatkey;
-    }
-    return $flat;
-}
 
 sub __bps #{{{1
 {
@@ -1447,24 +1371,18 @@ sub __bps #{{{1
 
     my %bps =
     (
+        ## REQUIRED
         self => #{{{2
         {
             fill => 0,
             member => {},
             general =>
             {
-                name    => '',
-                hash    => {},
+                args    => {},
                 circs   => [],
                 dspt    => {},
                 matches => {},
-                extern  => {},
-                mask    => {},
-                smask   => [],
-                drsr    => {},
-                sdrs    => [],
                 meta    => {},
-                opts    => {},
             },
         },
 
@@ -1475,15 +1393,16 @@ sub __bps #{{{1
             general =>
             {
 
-                name    => '',
+                drsr    => {},
                 dspt    => {},
                 extern  => [],
-                drsr    => {},
-                sdrs    => [],
+                flags   => {},
+                input   => [],
                 mask    => {},
-                smask   => [],
+                name    => '',
                 opts    => {},
-                configs => {},
+                sdrs    => [],
+                smask   => [],
             },
         },
 
@@ -1514,8 +1433,6 @@ sub __bps #{{{1
                     cre => undef,
                     order => undef,
                     attrs => {},
-                    drsr  => {},
-                    mask  => {},
                 },
                 attrs =>
                 {
@@ -1599,6 +1516,16 @@ sub __bps #{{{1
             },
         },
 
+        delims => #{{{2
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+
+            },
+        },
+
         opts => #{{{2
         {
             fill => 0,
@@ -1606,73 +1533,11 @@ sub __bps #{{{1
             general =>
             {
                 plhd => {},
-                prsv => {},
+                prsv_opts => {},
             },
-        },
+        },#}}}
 
-        prsv => #{{{2
-        {
-            fill => 0,
-            member => {},
-            general =>
-            {
-                till =>
-                [
-                    'section',
-                    0,
-                ],
-            },
-        },
-
-        objhash => #{{{2
-        {
-            fill => 0,
-            member => {},
-            general =>
-            {
-                obj => undef,
-                val => undef,
-                childs => {},
-                attrs  => {},
-                meta   => {},
-                circs  =>
-                {
-                    '.'  => undef,
-                    '..' => undef,
-                },
-            },
-        },
-
-        meta => #{{{2
-        {
-            fill => 0,
-            member => {},
-            general =>
-            {
-                dspt =>
-                {
-                   ord_limit => undef,
-                   ord_map => undef,
-                   ord_max => undef,
-                   ord_sort_map => undef,
-                },
-            },
-        },
-
-        prsv => #{{{2
-        {
-            fill => 0,
-            member => {},
-            general =>
-            {
-                till =>
-                [
-                    'section',
-                    0,
-                ],
-            },
-        },
-
+        ## UTILITIES
         matches => #{{{2
         {
             fill => 0,
@@ -1694,9 +1559,73 @@ sub __bps #{{{1
                 },
             },
         },
+
+        objhash => #{{{2
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+                obj => undef,
+                val => undef,
+                childs => {},
+                attrs  => {},
+                meta   => {},
+                circs  =>
+                {
+                    '.'  => undef,
+                    '..' => undef,
+                },
+            },
+        },#}}}
+
     );
+
+
 
     return \%bps;
 }#}}}
 
 1;
+
+#############################################################
+#  UTILITIES
+#############################################################
+
+sub __see #{{{1
+{
+    my ( $self, $item, $prefix, $flat) = @_;
+
+    if ( UNIVERSAL::isa($item,'HASH' ) )
+    {
+        for my $key (keys %$item)
+        {
+            my $flatkey = $prefix . '.' . $key;
+            $flat = $self->__see($item->{$key}, $flatkey, $flat);
+        }
+    } elsif ( UNIVERSAL::isa($item,'ARRAY' ) )
+    {
+        for my $idx (0 .. $item->$#*)
+        {
+            #my $flatkey = $prefix . ':' . $idx;
+            my $key;
+            if (ref $item->[$idx] ne 'HASH' || ref $item->[$idx]{val} eq 'ARRAY')
+            {
+                $key = $idx;
+            }
+            else
+            {
+                $key = $item->[$idx]{val};
+            }
+            my $flatkey = $prefix . ':' . "[".$key."]";
+            $flat = $self->__see( $item->[$idx], $flatkey, $flat);
+        }
+    }
+    else
+    {
+            my $flatkey = $prefix . '=' . ($item // 'NULL');
+            push @$flat, $flatkey;
+    }
+    return $flat;
+}#}}}
+

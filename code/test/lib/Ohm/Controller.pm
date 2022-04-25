@@ -1,4 +1,5 @@
 package Ohm::Controller;
+
 use parent 'Ohm::Main';
 
 use warnings;
@@ -15,7 +16,7 @@ use Array::Utils qw(:all);
 use Data::Dumper;
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
-#use Ohm::HasherWIP;
+use Ohm::HasherWIP;
 
 use constant FALSE => 1==0;
 use constant TRUE  => not FALSE;
@@ -25,7 +26,7 @@ use constant BASE  => '.ohmi';
 #############################################################
 #  PUBLIC
 #############################################################
-
+eval 'sub paths {$self=shift; $self->{args}{paths}; }';
 sub init_ohmi #{{{1
 {
     my ($self, $baseDir) = @_;
@@ -121,7 +122,6 @@ sub importFromPaths #{{{1
 
     my $paths = dclone $self->{paths};
 
-
     delete $paths->@{"his","baseDir"};
 
     my $data = {};
@@ -166,10 +166,12 @@ sub importFromPaths #{{{1
             {
                 $data->{$key} = $self->__importJson($path);
             }
+
             elsif ($ext eq '.txt')
             {
                 $data->{$key} = $self->__read($path);
             }
+
             else
             {
                 croak "ERROR: Invalid file type '$ext'";
@@ -196,8 +198,8 @@ sub launch #{{{1
 sub genDb #{{{1
 {
     my ($self, $args) = @_;
-    my $db = Ohm::HasherWIP->new($args);
-    return $db;
+    $self->{db} = Ohm::HasherWIP->new($args);
+    return $self;
 }
 sub commit #{{{1
 {
@@ -218,6 +220,7 @@ sub __init #{{{1
     $self->__private(caller);
 
     $self->__set_args( $args , 1);
+    $self->__use_args();
 
     $self->__set_status
     ({
@@ -228,56 +231,41 @@ sub __init #{{{1
     return $self;
 }
 
-sub __set_args #{{{1
+sub __use_args #{{{1
 {
 
-    my ( $self, $args, $clear ) = @_;
+    my ( $self, $args ) = @_;
     $self->__private(caller);
 
-    my $old_args = $self->{args};
-
-    if ($old_args && !$clear)
-    {
-        $self->__checkArgs( {args => $args} );
-        $args = __merge($args, $old_args);
-    }
-
-    else
-    {
-        $self->__checkArgs( {args => $args}, $clear);
-        print Dumper $args;
-    }
-
-    $self->{args} = $args;
-
-
-
     ## PATHS
-    my $paths = $self->{$args}{paths};
+    my $paths = $self->{args}{paths};
 
     for my $key (keys %$paths)
     {
-        my $ref = ref $paths->{$key};
+        my $item = $paths->{$key};
 
-        if ( $ref eq 'ARRAY' )
+        if ( UNIVERSAL::isa($item, 'ARRAY' ) )
         {
-            $self->{paths}{$key}->@* = map { abs_path $_ } @{ $paths->{key} }
+            $self->{paths}{$key}->@* = map { abs_path $_ } @$item
         }
 
+        elsif ( $item )
+        {
+            $self->{paths}{$key} = abs_path $item;
+        }
         else
         {
-            $self->{paths}{$key} = abs_path $paths->{$key}
+            $self->{paths}{$key} = undef;
         }
     }
 
     ## OPTS
     $self->{opts} = $self->{args}{opts};
 
-    ## CONFIGS
-    $self->{configs} = $self->{args}{configs};
-
     ## FLAGS
     $self->{flags} = $self->{args}{flags};
+
+    #print Dumper $self;
 
     return $self;
 }
@@ -292,6 +280,7 @@ sub __bps #{{{1
 
     my %bps =
     (
+        ## REQUIRED
         self => #{{{2
         {
             fill => 0,
@@ -299,10 +288,6 @@ sub __bps #{{{1
             general =>
             {
                 args    => {},
-                db      => {},
-                paths   => {},
-                opts    => {},
-                configs => {},
                 status  => {
                                state => '',
                                init => FALSE,
@@ -310,7 +295,6 @@ sub __bps #{{{1
                                base => FALSE,
                                sync => FALSE,
                             },
-                flags   => {},
             },
         },
 
@@ -320,10 +304,10 @@ sub __bps #{{{1
             member => {},
             general =>
             {
-                paths   => {},
-                opts    => {},
-                configs => {},
+                db_opts => {},
                 flags   => {},
+                opts    => {},
+                paths   => {},
             },
         },
 
@@ -358,24 +342,28 @@ sub __bps #{{{1
             },
         },
 
-        opts => #{{{2
+        db_opts => #{{{2
         {
             fill => 0,
             member => {},
             general =>
             {
                 plhd => {},
-                prsv => {},
+                prsv_opts => {},
             },
         },
 
-        configs => #{{{2
+        prsv_opts => #{{{2
         {
             fill => 0,
             member => {},
             general =>
             {
-                writable => FALSE,
+                till =>
+                [
+                    'section',
+                    0,
+                ],
             },
         },
 
@@ -385,12 +373,23 @@ sub __bps #{{{1
             member => {},
             general =>
             {
-                launch => FALSE,
-                commit => FALSE,
+                launch   => FALSE,
+                commit   => FALSE,
+                writable => FALSE,
             },
         },
 
+        opts => #{{{2
+        {
+            fill => 0,
+            member => {},
+            general =>
+            {
+            },
+        },#}}}
 
+
+        ## UTILITES
         ohminfo => #{{{2
         {
             fill => 0,

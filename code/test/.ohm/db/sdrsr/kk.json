@@ -1,22 +1,147 @@
 {
-   "url" : {
-      "url" : [
-         "",
-         ""
+   "series" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "series" : [
+         "\n-> **=== ",
+         " ===** <-"
       ],
-      "url_attr" : [
+      "sort" : 0
+   },
+   "author" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "author" : [
+         "\n‌\n\n---\n\n---\n#####",
+         "",
+         "",
+         "",
+         "",
+         3
+      ],
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "author_attr" : [
          " (",
          ")"
       ],
+      "sort" : 0
+   },
+   "title" : {
+      "title" : [
+         "\n`",
+         "`",
+         "",
+         "",
+         "",
+         {
+            "series" : 1
+         }
+      ],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
       "sort" : 0,
+      "title_attr" : [
+         " (",
+         ")"
+      ]
+   },
+   "tags" : {
+      "general" : [
+         "[",
+         "]",
+         ";",
+         ";",
+         " "
+      ],
+      "sort" : 0,
+      "anthro" : [
+         "[",
+         "]",
+         ";",
+         ";",
+         " "
+      ],
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "ops" : [
+         "",
+         "",
+         "",
+         "",
+         ""
+      ]
+   },
+   "description" : {
+      "sort" : 0,
+      "description" : [
+         "*",
+         "*"
+      ],
       "supress" : {
          "vals" : [],
          "all" : 0
       },
       "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "lib" : {
+      "name" : "kk.json",
+      "place_holder" : {
          "childs" : [],
          "enable" : 0
-      }
+      },
+      "pwds" : [],
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "scripts" : [],
+      "cmd" : "",
+      "sort" : 0
+   },
+   "url" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "url_attr" : [
+         " (",
+         ")"
+      ],
+      "url" : [
+         "",
+         ""
+      ],
+      "sort" : 0
    },
    "prsv" : {
       "prsv" : [
@@ -33,123 +158,6 @@
          }
       ],
       "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "title" : {
-      "title_attr" : [
-         " (",
-         ")"
-      ],
-      "sort" : 0,
-      "title" : [
-         "\n`",
-         "`",
-         "",
-         "",
-         "",
-         {
-            "series" : 1
-         }
-      ],
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "lib" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "cmd" : "",
-      "scripts" : [],
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "pwds" : [],
-      "name" : "kk.json",
-      "sort" : 0
-   },
-   "author" : {
-      "sort" : 0,
-      "author_attr" : [
-         " (",
-         ")"
-      ],
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "author" : [
-         "\n‌\n\n---\n\n---\n#####",
-         "",
-         "",
-         "",
-         "",
-         3
-      ],
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "description" : [
-         "*",
-         "*"
-      ],
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "series" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "series" : [
-         "\n-> **=== ",
-         " ===** <-"
-      ]
-   },
-   "tags" : {
-      "ops" : [
-         "",
-         "",
-         "",
-         "",
-         ""
-      ],
-      "general" : [
-         "[",
-         "]",
-         ";",
-         ";",
-         " "
-      ],
       "place_holder" : {
          "enable" : 0,
          "childs" : []
@@ -157,20 +165,12 @@
       "supress" : {
          "vals" : [],
          "all" : 0
-      },
-      "sort" : 0,
-      "anthro" : [
-         "[",
-         "]",
-         ";",
-         ";",
-         " "
-      ]
+      }
    },
    "section" : {
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "childs" : []
       },
       "supress" : {
          "vals" : [],

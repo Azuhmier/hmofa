@@ -25,24 +25,24 @@ my $args = #{{{1
 ({
     paths =>
     {
-        input => './output.txt',
+        input => './.ohm/db/output.txt',
         dspt  => './dspt_deimos.json',
-        drsr  => './drsr_lib.json',
+        drsr  => './.ohm/db/drsr.json',
         sdrsr =>
         [
-            './sdrsr_rentry.json'
+            './.ohm/db/sdrsr/kk.json'
         ],
-        mask  => './mask_lib.json',
+        mask  => './.ohm/db/drsr.json',
         smask =>
         [
-            './smask_masterbin.json',
-            './smask_catalog.json',
+            './.ohm/db/smask/catalog.json',
+            './.ohm/db/smask/masterbin.json',
         ],
     },
-    opts =>
+    db_opts =>
     {
         plhd => {},
-        prsv  =>
+        prsv_opts  =>
         {
             till =>
             [
@@ -54,78 +54,14 @@ my $args = #{{{1
 
 });#}}}
 
-my $c  = Ohm::Controller->new($args);
-
-#my ($path) = @{ $c->seek_ohmi() };
-#
-#$c->select_ohmi($path);
-#
-#my $data = $c->importFromPaths();
-
-#my $dbArgs = {
-#    name => 'hmofa',
-#    %$data,
-#    $c->{opts} => $opts,
-#}
-#$c->{db} = $c->genDb( $dbArgs );
+my $c = Ohm::Controller->new($args);
+my $data = $c->importFromPaths();
+$data->{opts} = $c->{db_opts};
+$c->genDb( {dspt => $data->{dspt} });
+$c->{db}{input} = $data->{input};
+$c->{db}->get_matches();
+$c->{db}->__divy();
+$c->{db}->__sweep(['reffs']);
 
 $DB::single = 1;
 $DB::signal = 1;
-
-#TESTS {{{
-#my $test =
-#[
-#    #flag-value pair
-#    sub { return $controller->__set_status('state', '1') },
-#    sub { return $controller->get('status','state') },
-#    sub { return $controller->set_flags('launch', '1') },
-#    sub { return $controller->get('flags','launch') },
-#    #hash
-#    sub { return $controller->__set_status( {state => '2', init => '2'}) },
-#    sub { return $controller->get('status','state') },
-#    sub { return $controller->get('status','init') },
-#    sub { return $controller->set_flags( {launch => '2', commit => '2'}) },
-#    sub { return $controller->get('flags','launch') },
-#    sub { return $controller->get('flags','commit') },
-#
-#    #ERRORS
-#    sub { return '== $controller->__set_flags(...) ==' },
-#    sub { return $controller->set_flags() },
-#    sub { return $controller->set_flags() },
-#    sub { return $controller->set_flags([0]) },
-#    sub { return $controller->set_flags({ badKey => 'l'}) },
-#    sub { return $controller->set_flags('badKey',1) },
-#    sub { return $controller->set_flags('arg') },
-#    sub { return '== $controller->__set_status(...) ==' },
-#    sub { return $controller->__set_status() },
-#    sub { return $controller->__set_status() },
-#    sub { return $controller->__set_status([0]) },
-#    sub { return $controller->__set_status({ badKey => 'l'}) },
-#    sub { return $controller->__set_status('badKey',1) },
-#    sub { return $controller->__set_status('arg') },
-#    sub { return '== $controller->get(...) ==' },
-#    sub { return $controller->get() },
-#    sub { return $controller->get([0]) },
-#    sub { return $controller->get('arg') },
-#    sub { return $controller->get('badname', 'badkey') },
-#    sub { return $controller->get('status', 'badkey') },
-#    sub { return $controller->get('flags', 'badkey') },
-#];
-
-#for my $code ( @$test )
-#{
-#    my $error = 0;
-#
-#    try
-#    {
-#        &$code
-#    }
-#    catch
-#    {
-#        #warn "caught error: $_"; # not $@
-#        $error = 1;
-#        print "    $_";
-#    };
-#
-#    print "    " . &$code . "\n" if !$error;
-#} #}}}

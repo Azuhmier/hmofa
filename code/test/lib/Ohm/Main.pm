@@ -2,9 +2,12 @@ package Ohm::Main;
 
 use warnings;
 use strict;
+use utf8;
 use Carp qw(croak carp confess);
 use Storable qw(dclone);
 use Cwd qw (getcwd abs_path);
+use JSON::XS;
+use Data::Dumper;
 
 use lib ($ENV{HOME}.'/hmofa/hmofa/code/test/lib');
 use Hash::Flatten qw(:all);
@@ -61,7 +64,7 @@ sub set_flags #{{{1
 
 sub new #{{{1
 {
-    my ($class, $args) = @_;
+    my ($class, $args, $old_args) = @_;
 
     my $self = { cwd => getcwd };
     bless $self, $class;
@@ -70,10 +73,15 @@ sub new #{{{1
 
     $self->{$_} = $bp->{$_} for keys %$bp;
 
+    $self->{args} = $old_args if $old_args;
+
     $self->__init($args);
 
     return $self;
 }#}}}
+
+
+
 
 #############################################################
 # PRIVATE
@@ -165,61 +173,151 @@ sub __set_status #{{{1
 
 
 
-sub __checkArgs #{{{1
+sub __set_args #{{{1
 {
-    my ( $self, $args, $clear ) = @_;
+
+    my ( $self, $args, $clearArgs ) = @_;
     $self->__private(caller);
 
-    $args = $clear
-                ? $args
-                : dclone $args;
 
-    for my $group (keys %$args)
+    my $old_args = $self->{args};
+
+    if ($old_args && !$clearArgs)
+    {
+        $self->__checkArgs( {args => $args} );
+        $args = __merge($args, $old_args);
+    }
+
+    else
+    {
+        $self->__checkArgs( {args => $args}, $clearArgs);
+    }
+
+
+    $self->{args} = $args;
+}
+
+
+
+
+sub __checkArgs #{{{1
+{
+    my ( $self, $args, $clearArgs ) = @_;
+    $self->__private(caller);
+
+
+    $args = $clearArgs
+        ? $args
+        : dclone $args;
+
+
+    for my $key ( keys %$args )
     {
 
-        my $p  = $args->{$group};
+        my $isKeyAGroup = $self->__gen_bp($key);
 
-        next unless $self->__gen_bp($group);
 
-        my $bp = $self->__gen_config($group);
-
-        if (keys %$p)
+        unless ( $isKeyAGroup )
         {
-            %$p  = %{ $self->__gen_config($group, $p) }
+            next;
         }
+
         else
         {
-            %$p = %$bp;
-        }
+            my $group = $key;
+            my $arg   = $args->{$group};
+            my $bp    = $self->__gen_config($group);
 
-        my $seen = {};
-        $seen->{$_}++ for (keys %$bp, keys %$p);
-        my @badGroups = grep {$seen->{$_} == 1} keys %$seen;
+            %$arg = keys %$arg
+                ? %{ $self->__gen_config($group, $arg) }
+                : %$bp;
 
-        if ( my $remaining = join ', ', @badGroups )
-        {
-            croak( "Unknown keys in to $group: $remaining" );
-        }
+            my $InvalidKeys = $self->__getInvalidKeys($arg, $bp);
 
-
-        for my $key ( keys %$p )
-        {
-            my $arg = $p->{$key};
-            my $ref = ref $arg;
-
-            croak "Error: invalid arg type '$ref' for '$key' in '$group'"
-                unless $ref eq ref $bp->{$key};
-            if ($ref eq 'HASH')
+            if ( my $remaining = join ', ', @$InvalidKeys )
             {
-                $self->__checkArgs({$key => $arg}, $clear);
+                croak( "Unknown keys in to $group: $remaining" );
+            }
+
+
+
+            for my $key ( keys %$arg )
+            {
+
+                my $ref = ref($arg->{$key});
+
+                my $validType = $ref eq ref($bp->{$key});
+
+
+                unless ( $validType )
+                {
+                    croak "Error: invalid arg type '$ref' for '$key' in '$group'";
+                }
+
+                elsif ($ref eq 'HASH')
+                {
+                    $self->__checkArgs( { $key => $arg->{$key} }, $clearArgs );
+                }
+
+                elsif ($ref eq 'ARRAY')
+                {
+
+                    $self->__recurse( $arg->{$key}, $clearArgs );
+                }
+
             }
         }
     }
 
     return $args;
-
 }
 
+
+
+
+sub __getInvalidKeys #{{{1
+{
+    my ($self, $arg, $bp) = @_;
+    $self->__private(caller);
+
+    my $seen = {};
+    $seen->{$_}++ for ( keys %$bp, keys %$arg );
+    my @InvalidKeys = grep { $seen->{$_} == 1 } keys %$seen;
+    return \@InvalidKeys;
+}
+
+
+
+
+sub __recurse #{{{1
+{
+    my ($self, $array, $clearArgs) = @_;
+    $self->__private(caller);
+
+    for my $idx (0 .. $array->$#*)
+    {
+
+        my $arg = $array->[$idx];
+        my $ref = ref $arg;
+
+        if ($ref eq 'HASH')
+        {
+            for my $key (keys %$arg)
+            {
+                $self->__checkArgs( $arg->{$key}, $key, $clearArgs );
+
+            }
+        }
+
+        elsif ($ref eq 'ARRAY')
+        {
+            for my $idx (0 .. $array->$#*)
+            {
+                $self->__recurse($arg->[$idx], $clearArgs);
+            }
+        }
+    }
+};
 
 
 
@@ -314,7 +412,7 @@ sub __gen_config #{{{1
             # Recurse with keys
             for my $key ( @KEYS )
             {
-                $config->{$key} = populate
+                $config->{$key} = __populate
                 (
                     $self,
                     dclone $member,
@@ -328,7 +426,7 @@ sub __gen_config #{{{1
         # REMAINING KEYS
         for my $key ( @RemKeys )
         {
-            $config->{$key} = populate
+            $config->{$key} = __populate
             (
                 $self,
                 dclone $bp->{$key},
@@ -424,12 +522,15 @@ sub __bps #{{{1
             general =>
             {
                 plhd => {},
-                prsv => {},
+                prsv_opts => {},
             },
         }
     );
     return \%bps;
 } #}}}
+
+
+
 
 #############################################################
 #  UTILITIES
@@ -458,13 +559,13 @@ sub __importJson #{{{1
     my $jsonHash = do
     {
         open my $fh, '<', $path
-            or die $!;
+            or croak "ERROR: Could not open $path, $!";
         local $/;
         decode_json(<$fh>);
     };
 
     return $jsonHash;
-}#}}}
+}
 
 
 
@@ -473,11 +574,11 @@ sub __private #{{{1
 {
       my ($self, $caller) = @_;
 
-      croak "Error: Private method called $self".caller
+      croak "Error: Private method called"
           unless (caller)[0]->UNIVERSAL::isa( ref($self) )
               || caller eq __PACKAGE__;
 
-      croak "Error: Private method called $self".caller
+      croak "Error: Private method called".caller
           unless ($caller)[0]->UNIVERSAL::isa( ref($self) )
               || $caller eq __PACKAGE__;
 } #}}}
