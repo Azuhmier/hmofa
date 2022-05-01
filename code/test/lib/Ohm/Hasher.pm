@@ -1266,6 +1266,11 @@ sub __genWrite #{{{1
                                     for my $part (@$attrItem)
                                     {
                                         unless (defined $drsr->{$obj}{$attr}[2] || defined $drsr->{$obj}{$attr}[3]) { die " obj '$obj' does not have delims drsrs" }
+                                        if (exists $mask->{$obj}{removeInTag})
+                                        {
+                                            my $removeInTag = $mask->{$obj}{removeInTag};
+                                            $part =~ s/\w+\Q$removeInTag\E//;
+                                        }
                                         $part = $drsr->{$obj}{$attr}[2]
                                               . $part
                                               . $drsr->{$obj}{$attr}[3];
@@ -1371,7 +1376,19 @@ sub __genWrite #{{{1
                     unless ($F_empty)
                     {
                         if ($obj eq 'prsv') {
-                            push $self->{stdout}->@*, $str if $obj ne 'lib'
+
+                            push $self->{stdout}->@*, $str if $obj ne 'lib';
+
+                            if
+                            (
+                                exists $mask->{lib}{prsv_tail}
+                                && $item->{meta}{LN} == $mask->{lib}{prsv_tail}[0]
+                            )
+
+                            {
+                                my $tail = $mask->{lib}{prsv_tail}[1];
+                                push $self->{stdout}->@*, $tail;
+                            }
                         }
                         else {
                             push $self->{stdout}->@*, split/\n/, $str if $obj ne 'lib'
