@@ -1,65 +1,39 @@
 {
-   "tags" : {
-      "removeInTag" : "::",
+   "url" : {
+      "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 0
       },
-      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "prsv" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      }
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
    },
    "series" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "section" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
       "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
+         "all" : 0,
+         "vals" : []
       },
       "sort" : 0
    },
    "author" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
       "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "title" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 1,
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      }
-   },
-   "url" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -67,54 +41,80 @@
       "supress" : {
          "all" : 0,
          "vals" : []
+      }
+   },
+   "section" : {
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
       },
-      "sort" : 0
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            1
+         ]
+      }
    },
    "lib" : {
-      "name" : "catalog",
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
+      "scripts" : [],
+      "sort" : 0,
       "supress" : {
          "all" : 0,
          "vals" : []
       },
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "header" : "#**/HMoFA/ Catalog**",
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "header" : "**/HMoFA/ Catalog**",
-      "scripts" : [],
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ],
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "sort" : 0
+      "name" : "catalog",
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2"
    },
    "description" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "sort" : 0,
       "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0
    },
-   "prsv" : {
+   "tags" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "sort" : 0,
+      "removeInTag" : "::"
+   },
+   "title" : {
       "supress" : {
          "vals" : [],
          "all" : 0
       },
       "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      },
+      "sort" : 1
    }
 }

@@ -1,5 +1,41 @@
 {
-   "author" : {
+   "description" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "tags" : {
+      "removeInTag" : "::",
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "title" : {
+      "sort" : 1,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "enable" : 1,
+         "childs" : [
+            "tags"
+         ]
+      }
+   },
+   "url" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
@@ -8,25 +44,12 @@
          "vals" : [],
          "all" : 0
       },
-      "sort" : 1
+      "sort" : 0
    },
-   "section" : {
-      "supress" : {
-         "vals" : [
-            0
-         ],
-         "all" : 0
-      },
-      "sort" : 0,
+   "prsv" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      }
-   },
-   "series" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       },
       "supress" : {
          "all" : 0,
@@ -34,87 +57,64 @@
       },
       "sort" : 0
    },
-   "tags" : {
-      "removeInTag" : "::",
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "title" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1,
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      }
-   },
-   "url" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "description" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "lib" : {
+   "series" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "author" : {
+      "sort" : 1,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "section" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            0
+         ]
+      },
+      "sort" : 0
+   },
+   "lib" : {
+      "name" : "outerbin",
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "name" : "outerbin",
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
-      "sort" : 0,
-      "scripts" : [],
-      "header" : "**OUTERBIN**: Stories from Outside of /HMoFA/",
       "prsv_tail" : [
          13,
          "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ]
-   },
-   "prsv" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
+      ],
+      "header" : "#**/HMoFA/ Outerbin**",
       "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "scripts" : []
    }
 }
