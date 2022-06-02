@@ -1,109 +1,86 @@
 {
-   "series" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "prsv" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "url" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "section" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
-      }
-   },
-   "tags" : {
-      "sort" : 0,
-      "removeInTag" : "::",
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
+   "description" : {
       "supress" : {
          "vals" : [],
          "all" : 1
-      }
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 1,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "title" : {
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 1
-   },
-   "lib" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "header" : "#**/HMoFA/ Masterbin**",
-      "supress" : {
-         "all" : 0,
-         "vals" : []
       },
       "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "section" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            1
+         ]
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "lib" : {
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "scripts" : [],
       "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
-      "name" : "masterbin"
+      "header" : "#**/HMoFA/ Masterbin**",
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "name" : "masterbin",
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "scripts" : []
    },
-   "author" : {
+   "prsv" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
       "sort" : 1,
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "series" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "url" : {
+      "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -111,6 +88,29 @@
       "place_holder" : {
          "childs" : [],
          "enable" : 0
+      }
+   },
+   "tags" : {
+      "removeInTag" : "::",
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "author" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       }
    }
 }

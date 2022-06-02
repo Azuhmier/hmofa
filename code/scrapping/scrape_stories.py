@@ -78,7 +78,7 @@ import time
 
 total_urls = len(urls)
 proccessed_urls = -1
-
+content_arr = [];
 for url in urls :
     proccessed_urls += 1
     print(str(proccessed_urls) +'/'+ str(total_urls), end='\r')
@@ -162,25 +162,26 @@ for url in urls :
     dirname = o.netloc+"_"+o.path.replace("/","_")
     dire = path+dirname
 
-    isExist = os.path.exists(dire)
+    content = { "dirname" : dirname, "dire" : dire}
+    content_arr.append(content)
+    time.sleep(2)
+
+for content in content_arr :
+    isExist = os.path.exists(content["dire"])
     if isExist :
         number = 1
-        isExist = os.path.exists( dire + "_" + str(number) )
+        isExist = os.path.exists( content["dire"] + "_" + str(number) )
         while isExist :
             number += 1
-            isExist = os.path.exists( dire + "_" + str(number) )
-        os.makedirs( dire + "_" + str(number) )
+            isExist = os.path.exists( content["dire"] + "_" + str(number) )
+        os.makedirs( content["dire"] + "_" + str(number) )
     else :
-        os.makedirs(dire)
-    f = open(dire+"/content.html", "w")
+        os.makedirs(content["dire)"])
+    f = open(content["dire"] + "/content.html", "w")
     f.write(str(data["html"]))
     f.close()
-
     if "txt" in data :
         with open(dire+"/content.txt", "w") as f:
             for item in data["txt"]:
                 f.write("%s\n" % item)
-    time.sleep(2)
-
-
 print("Scrapping Complete")

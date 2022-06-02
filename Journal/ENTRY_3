@@ -1,43 +1,40 @@
 ## ENTRY_3 
 # Created by Azuhmier
-# ---
+# Sun 29/05/22 15:46:25 ECT
 #-------------------------------------------------------------------------------------------------------------------------------------------#
-Long time no write. Since the last entry pastebin nuked itself. Sucks
-since 'Project Urgent Furry' was built around it, but I guess that will teach
-me to be more dynamic when it comes to such transient media forms as pastebin.
-So as one could guess, I have been doing major overhauls to the project with
-new objectives.
+Long time no write. Since the last entry pastebin nuked itself. Sucks since 'Project Urgent Furry' was built around it, but I guess that will teach me to be more dynamic when it comes to such transient media forms as pastebin.  So as one could guess, I have been doing major overhauls to the project with new objectives.
 
-Journal entries are going to be a lot less formal now. 'Project Urgent Furry'
-is just a name given to this effort of making /hmofa/ more easily accessible and
-more easily searchable and analyzable.
+I will try to be more frequent with these journal listsing, previously I was putting them off because so much has happened and I wanted to make a concise update, but I have waited to long so I will just dump the statuses of current objectives here.
 
-Current Tasks (whilst juggling school and work):
+I have built a program around scanning, writing, and manipulating ASCII based story bins. As of now the "source code" is to unorganized and unfinished for it to be utilized by anyone, so I am working on another repo that will be called ohmfa (Omni Hashing Masterbin File Application). However, I am currently in the middle of job searching so progress on this is slow at the moment. The jist of the program is that the user specifies objects matching criteria such as 'titles', 'section', and 'tags' as well as their attributes and relevant flags/options in order to scan a masterbin file and output a nested data structure consisting of arrays and hashes. This structure can then be used to query, manipulate, or 'dress' the contents of the masterbin file. For a working example, I currently use it to create 3 public rentry storybins all from the master masterbin file. Thus, at this moment, we now have 3 storybins:
 
-1. |Masterbin updates|
-- done every 25-100 editions, though this may vary
-- go through every thread since last updated edition via the "previous
-thread" link
-- use the OP's to fill in the masterbin
-- search for AO3 and sofurry links for writers just now moving form pastebin
-and record them on the writers link archive on the /hmofa/ wiki
-- using the writers link archive check each author for new submissions and fill
-in masterbin for AO3, sofurry, et. al links that were not stated in the thread.
+1) Masterbin
+Generally only stories that have been in the OP get into this Masterbin, though I make exceptions for when authors that are already in the Masterbin, have other /hmofa/ stories made before they first got into the OP. The layout of the masterbin contains the following "objects", author, series (if applicable), title, url. Author, title and url can have 'attributes' that are usually but not always enclosed in parentheses after the object, Examples Below:
+....by {Author} (Author Aliases)
+....
+....>{title} (title notes such as 'revised', old titles, game versions, etc)
+....{url_1} (prologue)
+....{url_2} (part 1)
+....{url_2} (part 2)
 
-2. |OHM- Omni Hash Manipulator|
-- found in my hmofa git repo; will eventually be moved to it's own repo
-- written in {erl
-- txt file oriented; should work for any storybin; helps maintain consistency
-and develop many versions of said story bin.
-- new features will be added once I get a pre-alpha version off the ground
+2) Catalog
+Samee as the Masterbin except with the addition of tags and descriptions:
 
-3. |story tagging|
-- will resume after syncing the catalog and masterbin for OHM. I said "by
-Christmas" in the thread but I forgot how close christmas was, still trying
-though.
+3) Outerbin
+Same as the Catalog, except contains stories from authors that were never in the OP. Mostly contains popular and talked about /hmofa/ stories that people may want to red.
 
+When inserting new stories or adding tags, all I have to do is edit the Master Masterbin, and run the program and all three storybins will be generated in rentry and uploaded. Another feature of the program is the printing of data structure, txt, and other difference or changes before each 'commit' of the masterbin database. The prior print will be followed by a confirmation on whether to precede with the commit.
 
-OK now that every thing has been caught up, here is the "Journal Entry" or what
-they will look like in the future.
+As said before there is still alot of work to be done on this program, especially creating a parsing alogrythm for easier for user input. 
 
+Kinda of seperate from ohmfa for now, but will be intergrated in the future is python webscraping, archiving, and op tracker. I have already made a primitive script that archives all the content from the urls in the masterbin (still has bugs like failing to scrape literotica and google docs). I still to implement the scraping of tags and descriptions and other useful meta data.
 
+It must be said again that the purpose for project "Urgent Furry" is to increase exposure of /hmofa/ authors, artists, and other content creators as well as increase engagement of their audiences beyond just finding their story in the /hmofa/ OP. That brings us to another "problem" I found: The OP story list is vastly superior in getting current writers noticed that the masterbin. One can not differentiate between new and old writers in the Masterbin, it is sorted alphabetically. I have been wanting to sort it by last updated or have a 'story stack' for updated stories (kinda like and extended OP list. I thought this would be easy, but my first attempts have been difficult due to the chaotic nature of the OP as well as changing story, author, and url values. In order to create a 'infinite' OP list, I need to be able to identify and associate  authors, titles and urls across th OPs. As stated already, OP mistakes, title/author name changes and url changes make this difficult. And even if those problems were not existent I have the trouble of finding which stories have updated in certain situations, such as an author at the top of the OP who updates again next thread. The only way to tell if that author updated his story in the OP stack is by putting an attribute ('ch. 9' or 'starts at ...'). Else it would be impossible to tell. Because of this, any attempt at a masterbin or list sorted by last updated cannot be taken as 'law' or a official reference and caution should be taken to understand that the sorting on these files may not reflect actual times last updated.
+
+Moving on, I wanted to talk about my role as the maintainer of the masterbins and resource bin, mainly that I do not want it to be seen that I am the "Boss" of what does and does not go into these documents, I have made attempts at hiding my email address in a named hyperlink, but that resulted in an invalid url. I wanted to hide my name because I wanted the hmofa bins to be seen as owned by the general and not on person, I think that would encourage discussion and suggestion in them if people see the rentry bins as a community effort and not some alienating document that is taken care of by 'people who know better than them'. It's why I made the program in the first place, so that anybody can take over the rentry documents and tagging with little hindrance. I want people to associate the rentry bins with /hmofa/ and not me for, as I have seen, people will associate everything on there with me even though most of the links and bins listed are not by me and rather are made and maintained by the likes of fwappriciator, smiling_face, and many others.
+
+It may seem I am trying to hard to appear modest, but their is a very piratical and 'selfish' reason for wanting to hinder people associating me and just me with the rentry bins: I believe it will facilitate more engagement in to the general and thus creating more people you can contact in changing or suggesting hmofa related documents and thus increasing the probability of more content (more networking == more 'doers' == more content). Also it would let me be lazier, knowing that I am not the sole person keeping the rentry documents afloat (I'm not the only one, but I was just using the prior sentence to get a point across).
+
+Thus it should be known by now in this journal, that you are more than welcome to blow up my email (azuhmier@gmail.com) and I will reply ASAP. And when I mean suggestions I mean ANYTHING. Nothing in th erentry bins are set in stone, not the tagging, nothing. If you want more milf tags, I will prioitize milf tagging, if you think the urls are clobbered I will fix them. If you want your story or name removed from the masterbin and archives I will do it (better to message me on the site you made the story so I can verify you are the author of said story). If there are other thins you want to see out of the scraping and tagging say it. I'm all ears, I work more confidently knowing that people agree with the choices I make rather than shooting in the dark.
+
+That concludes this Journal entry.

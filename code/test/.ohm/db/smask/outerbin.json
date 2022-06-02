@@ -1,12 +1,106 @@
 {
-   "lib" : {
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
-      "name" : "outerbin",
+   "tags" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0,
+      "removeInTag" : "::",
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "author" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 1,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
+      }
+   },
+   "url" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "prsv" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "title" : {
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      },
+      "sort" : 1,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "section" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [
+            0
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "description" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "lib" : {
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
       "header" : "#**/HMoFA/ Outerbin**",
+      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -16,105 +110,11 @@
          "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
       ],
       "sort" : 0,
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
+      "name" : "outerbin",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
       "scripts" : []
-   },
-   "author" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 1
-   },
-   "series" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "prsv" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : 0
-   },
-   "section" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [
-            0
-         ],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "title" : {
-      "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      }
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "tags" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "removeInTag" : "::"
    }
 }
