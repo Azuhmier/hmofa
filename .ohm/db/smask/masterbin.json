@@ -1,0 +1,116 @@
+{
+   "prsv" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "lib" : {
+      "sort" : 0,
+      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "header" : "#**/HMoFA/ Masterbin**",
+      "scripts" : [],
+      "name" : "masterbin"
+   },
+   "description" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "title" : {
+      "sort" : 1,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      }
+   },
+   "author" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 1
+   },
+   "section" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "tags" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "removeInTag" : "::",
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      }
+   },
+   "series" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "url" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   }
+}

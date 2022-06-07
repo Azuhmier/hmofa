@@ -1,0 +1,351 @@
+----------------------------------------------------------------------
+Objective
+----------------------------------------------------------------------
+GPG
+- urls --> web scrapping
+
+
+database
+- urls --> web scrapping
+- data <-- other masterbins
+- data <--> masterbin
+- data <-- external data structures
+- query
+- validation
+- story archive
+- delta files
+- web scrapping
+  OP list
+  threads
+  stories
+
+
+
+
+----------------------------------------------------------------------
+Keywods
+----------------------------------------------------------------------
+array
+hash
+json
+linewise
+reference
+regex
+obj
+attribute
+file based database
+capture groups
+substitution
+order
+point
+tree
+object value
+object type
+explicit attribute: attribute and object capture are seperate
+implict attribute:  attribute and object capture group are not seperate
+false attributes
+false objects
+
+----------------------------------------------------------------------
+Data Structure
+----------------------------------------------------------------------
+obj_hash
+{
+    value       : "object value"
+    type        : "object type"
+    attributes  : {...}
+    childs      : {...}
+    meta        : {...}
+}
+
+childs_hash
+{
+   child-1 : [childs-1 array]
+   child-2 : [childs-2 array]
+    ...
+   child-i : [childs-i array]
+    ...
+   child-n : [childs-n array]
+}
+
+childs-i array
+[
+    {obj-i hash-1}
+    {obj-i hash-2}
+    ...
+    {obj-i hash-j}
+    ...
+    {obj-i hash-n}
+]
+
+childs_stack
+[
+    {obj-[1:n] hash-1}
+    {obj-[1:n] hash-2}
+    ...
+    {obj-[1:n] hash-j}
+    ...
+    {obj-[1Ln] hash-n}
+]
+
+circs
+{
+    obj hash ref key :
+    {
+        parent      : parent hash ref key
+        child stack : [...]
+    }
+}
+
+* circs can be recreated by transversal of hash tree.
+* a objhash without a LN, can be a fatal error.
+
+----------------------------------------------------------------------
+Deimos
+----------------------------------------------------------------------
+0.0) author
+1.0) title
+2.0) url
+
+By Author
+>title
+url
+
+By {Author}
+>{title}
+{url}
+
+
+Rules
+- 
+
+----------------------------------------------------------------------
+Deimos_exstended
+----------------------------------------------------------------------
+0.0) section
+1.0) author
+2.0) series
+3.0) title
+4.0) tags
+4.1) url
+4.2) description
+
+{object} = {object_value}
+%%%%% {section} %%%%%
+By {author}
+=============/ {series} /=============
+">{title}"
+"[{tags}]"
+"{url}"
+"#{description}"
+
+----------------------------------------------------------------------
+Deimos_exstended (implicit attributes}
+----------------------------------------------------------------------
+0.0)   section
+1.0)   author
+1.0.0) author_attribute
+2.0)   series
+3.0)   title
+3.0.0) title_attribute
+4.0)   tags
+4.1)   url
+4.1.0) url_attribute
+4.3)   description
+
+{object} = {object_value} + {object_attribute}
+{object} - {object_attribute} = {object_value}
+object value is the result of subtracting the attributes
+{object_value} = "" if attribute is implicit
+
+methods of attribute subtraction
+1) capture groups
+    EX: [anthro][general]ops
+        anthro  = [(.*?)][  | [{anthro}][general]ops
+        general = ][(.*?)]  | [anthro][{general}]ops
+        ops     = ](.*?)$   | [anthro][general]{ops}
+        *subract substrings | ""
+
+2) substitution: assumes attributes are ordered
+    EX: [anthro][general]ops
+        anthro  = "[.*?]  | "[general]ops"
+        general = "[.*?]" | "ops"
+        ops     = ".*"    | ""
+
+*Fails upon "" object value
+
+
+"%%%%% {section} %%%%%"
+"By {author}"
+"=============/ {series} /============="
+">{title}"
+"{tags}"
+"{url}"
+"#{description}"
+
+"%%%%% {section_value} %%%%%"
+"By {author_value} ({author_attribute})"
+"=============/ {series_value} /============="
+">{title_value} ({title_attribute})"
+"{tags_value}"
+"{url_value} ({url attribute})"
+"#{description_value}"
+
+----------------------------------------------------------------------
+Deimos_exstended (implicit attributes and containers}
+----------------------------------------------------------------------
+0.0)   section
+1.0)   author
+1.0.0) author_attribute
+2.0)   series
+3.0)   title
+3.0.0) title_attribute
+(
+    4.0)      tags_container
+    4.0.0)    anthro
+    4.0.0.0)  tag_attribute
+    4.0.1)    general
+    4.0.1.0)  tag_attribute
+    4.0.2)    ops
+)
+4.1)   url
+4.1.0) url_attribute
+4.2)   description
+
+"%%%%% {section} %%%%%"
+"By {author}"
+"=============/ {series_value} /============="
+">{title}"
+"{tags}"
+"{url}"
+"#{description}"
+
+"%%%%% {section_value} %%%%%"
+"By {author_value} ({author_attribute})"
+"=============/ {series_value} /============="
+">{title_value} ({title_attribute})"
+"{tags_value}" => "[{tags_attribute1}][{tags_attribute2}]{tags_attribute3}"
+"{url_value} ({url attribute})"
+"#{description_value}"
+
+*"{tags_value}[{tags_attribute1}][{tags_attribute2}]{tags_attribute3}"
+*containers must resolve to "" value
+*obj vs. linecontainer
+
+----------------------------------------------------------------------
+Deimos_exstended (delimited implicit attributes and objects}
+----------------------------------------------------------------------
+changes the attribute value from scalar to array
+*conserv order?
+*conserve delimiter?
+
+0.0)     section
+1.0)     author
+1.0.0)   author_attribute
+2.0)     series
+3.0)     title-url container
+(
+    3.0.0)   title
+    3.0.0.0) title_attribute
+    3.0.1)   url
+    3.0.1.0) url_attribute
+--------------------------------
+    3.0.0)   title
+    3.0.1)   url
+    3.0.1.0) url_attribute
+    3.0.2)   title_attribute
+)
+4.0)     tags
+4.1)     description
+
+limitaions
+- attributs must come after the object value
+- attributes must be on the same line as the attributes
+- keys can only have the following characters [a-zA-Z_0-9]
+- all childs are grouped with eachother
+
+The general idea of this program (OHMFA) is to create a dynamic program that
+takes user inputs, configurations, and execution history and parses a masterbin
+file, produces a flat file (Ex: json) and uses this file to create a more
+sophisticated database (DB), for example SQL. These concepts are illustrated in
+Figure 1 below.
+
+While most programs/projects might just see the flat file generation as a mere
+intermediate step to the primary goal of a database, OHMFA creates additional
+files and stores them along with the flat file in a directory called '.ohmfi'
+that serves as a local 'database' for the masterbin file and it's contents -
+kinda sorta like git, though no implementations of actual delta files has been
+done.
+
+As of right now, this 'local database' is the one being used to check masterbin
+changes, edit tags, query, and output rentry txt that is uploaded to
+rentry.org. There are 3 main 'methods' it has
+
+1) init
+Take a masterbin file and attempt to create an '.ohmfi' directory out of it,
+success is determined when it can write back the entire file exactly and parse
+it again and get the same flat file. Every time it runs it will show file
+and flat filediffs using the less program, thus, it mean to be used to quickly
+check ones syntaxing and go and make quick edits. Parsing validationg is
+'syntax' like because the user will be editing the flat file by editing the
+masterbin.
+
+2) manipulate
+Like above except success is mainly determined by user, by looking at the
+filediffs betwwen the previous and the newly edited masterbin file and flat
+file. Theroretically, conditions can be put up to check for fundemental
+mistakes such as hierarchical inconsistency and duplicates.
+
+3) compare (this has not been implemented yet)
+Be able to parse an external masterbin, compare it's content, and merge any
+wanted data. The parsing validation best described as 'text wrangling', since
+only parts of the file may be relevant as data.
+
+Even though much of the previous concepts have been implemented, many were done
+poorly or partially. This is the first time I had to describe the project in
+great technical detail for someone else to understand, the theme of this whole
+project so far has been 'jerry rigging' to get to the next wanted feature or
+objective. This makes it harder to improve, expand, or update it. I am having
+to start from square one and build a strong fondation, and first thing I need
+to do is to establish a storg 'data architecture'. My current attempt can be
+seen in Table 1 below.
+
+Note that 'a' stands for attributes, 'v' stands for value or object value (I
+call my 'data fields' objects), and a '@' signifies and array of either of the
+two properties. All regex expression you currently see are the ones being
+implemented. So the obstacle I am trying to find or test my solution against is
+how to store the data in a way that will make it easily transferable to a
+database as well as still be of practical use for local masterbin file
+operations.
+
+There are MANY more concepts implemented that I have not gone over, and I made
+this email in a rush for I did not notify you before hand it would take this
+long. For the sake of your time, here is the TL;DR version of the prior excerpt
+along with additional questions.
+
+TL;DR
+
+
+
+
+I apologize for taking long to reply to you, work has been busy and
+unpredictable.  The general idea of this program (OHMFA) is to create a dynamic
+program that takes user inputs, configurations, and execution history and
+parses a masterbin file, produces a flat file (Ex: json) and uses this file to
+create a more sophisticated database (DB), for example SQL. These concepts are
+illustrated in Figure 1 below
+
+I have many questions but I will start off this first email with my most
+pressing one. My only understanding of databases comes from a brief look at SQL
+as well as plain hash tables, where everything is a table. My problem is trying
+to repereent field inputs that are arrays, especially in the context of
+heiarchal data such as this one. For example how should one repersent tags in a
+data base? When one looks up the 'tags' key for a story?
+compose a myriad ways of repersenting array objects, but I have no idea if
+they are practical. The following is my current conceptulization of it and its implentation into a masterbin flat-file can be seen at:
+root.section[0].author[4].title[2].story[1].tag[3]
+
+a) https://raw.githubusercontent.com/Azuhmier/hmofa/master/code/test/.ohm/db/hash.json
+title.tags[i]
+
+

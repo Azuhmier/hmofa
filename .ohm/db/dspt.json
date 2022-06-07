@@ -1,0 +1,102 @@
+{
+   "tags" : {
+      "re" : "^\\s*(\\[.*)",
+      "order" : "1.1.1.1.1",
+      "attrs" : {
+         "general" : {
+            "re" : "(?x) \\]\\[ ([^\\[\\]]*) \\]",
+            "cre" : null,
+            "delims" : [
+               ";",
+               ","
+            ],
+            "order" : "2",
+            "cdelims" : null
+         },
+         "ops" : {
+            "cre" : null,
+            "re" : "(?x) ([^\\[\\]]+) $",
+            "cdelims" : "",
+            "delims" : [
+               ""
+            ],
+            "order" : "3"
+         },
+         "anthro" : {
+            "cre" : null,
+            "re" : "(?x) ^\\[  ([^\\[\\]]*)",
+            "cdelims" : null,
+            "order" : "1",
+            "delims" : [
+               ";",
+               ","
+            ]
+         }
+      },
+      "cre" : null
+   },
+   "series" : {
+      "cre" : null,
+      "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+",
+      "attrs" : {},
+      "order" : "1.1.1"
+   },
+   "url" : {
+      "re" : "^\\s*(http.+)",
+      "attrs" : {
+         "url_attr" : {
+            "re" : "\\s*\\((.*)\\)",
+            "cre" : null
+         }
+      },
+      "order" : "1.1.1.1.2",
+      "cre" : null
+   },
+   "section" : {
+      "cre" : null,
+      "attrs" : {},
+      "order" : "1",
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+"
+   },
+   "title" : {
+      "order" : "1.1.1.1",
+      "attrs" : {
+         "title_attr" : {
+            "re" : "\\s+\\(([^\\(\\)]*?)\\)\\s*$",
+            "cre" : null
+         }
+      },
+      "re" : "^\\s*>\\s*(.*)",
+      "cre" : null
+   },
+   "author" : {
+      "cre" : null,
+      "re" : "^\\s*[Bb]y\\s+(.*)",
+      "attrs" : {
+         "author_attr" : {
+            "cre" : null,
+            "re" : "\\s+\\(([^\\(\\)]*)\\)\\s*$"
+         }
+      },
+      "order" : "1.1"
+   },
+   "description" : {
+      "re" : "^\\s*#(.*)",
+      "attrs" : {},
+      "order" : "1.1.1.1.3",
+      "cre" : null
+   },
+   "prsv" : {
+      "drsr" : {},
+      "mask" : {
+         "place_holder" : {}
+      },
+      "order" : "-1",
+      "attrs" : {}
+   },
+   "lib" : {
+      "attrs" : {},
+      "order" : 0,
+      "smask" : []
+   }
+}

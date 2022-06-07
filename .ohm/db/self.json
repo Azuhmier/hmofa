@@ -1,0 +1,42 @@
+{
+   "prsv" : {
+      "till" : [
+         "section",
+         "0"
+      ]
+   },
+   "paths" : {
+      "dir" : "/.ohm",
+      "smask" : [
+         [
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/masterbin.json",
+            "sdrsr_rentry"
+         ],
+         [
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/catalog.json",
+            "sdrsr_rentry"
+         ],
+         [
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/outerbin.json",
+            "sdrsr_rentry"
+         ]
+      ],
+      "drsr" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/drsr.json",
+      "input" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/output.txt",
+      "cwd" : "/Users/Azuhmier/hmofa/hmofa",
+      "dspt" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/dspt.json",
+      "sdrsr" : [
+         "/Users/Azuhmier/hmofa/hmofa/.ohm/db/sdrsr/kk.json"
+      ],
+      "mask" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/mask.json",
+      "output" : "/Users/Azuhmier/hmofa/hmofa"
+   },
+   "name" : "output",
+   "params" : {
+      "mes" : 1,
+      "delims" : 1,
+      "prsv" : 1,
+      "attribs" : 1
+   },
+   "state" : "ok"
+}
