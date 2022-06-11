@@ -340,12 +340,151 @@ pressing one. My only understanding of databases comes from a brief look at SQL
 as well as plain hash tables, where everything is a table. My problem is trying
 to repereent field inputs that are arrays, especially in the context of
 heiarchal data such as this one. For example how should one repersent tags in a
-data base? When one looks up the 'tags' key for a story?
-compose a myriad ways of repersenting array objects, but I have no idea if
-they are practical. The following is my current conceptulization of it and its implentation into a masterbin flat-file can be seen at:
-root.section[0].author[4].title[2].story[1].tag[3]
+data base? When one looks up the 'tags' key for a story?  compose a myriad ways
+of repersenting array objects, but I have no idea if they are practical. The
+following is the current index syntax of my current implentation of a
+masterbin flat-file can be seen at:
 
-a) https://raw.githubusercontent.com/Azuhmier/hmofa/master/code/test/.ohm/db/hash.json
-title.tags[i]
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['val'][3] = 'canine'
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs']['anthro'][3] = 'canine'
+
+I just shortened it because it is easier to read it the other way, and that is
+the way I use when brainstorming. As you can see this is a bit nonsensical with
+a value and an attribute having the same value, thus I have been experimenting
+with doing following:
+
+a)
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['childs']['anthro'][0]['childs']['tag'][3]['val'] = 'canine'
+b)
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['val'][3] = 'canine'
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs'][0] = 'anthro'
+c)
+root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs']['tag_group'] = 'anthro'
+
+For further insight into the flat-file architecture see figure 2: below. It is
+similar to the current one in use besides there being a ‘props’ and ‘ID’ key in
+the Object hash. These object hash keys are currently being conceptualize for
+their use.
+
+
+My only experience with the C language is through my brush with embedded
+programing, and besides that I have barley even gotten into C/C++. That said,
+C/C++ is definitely something I want to eventually integrate or include in this
+project, primarily to do all the heavy lifting with text parsing, diffing
+alogrotythms, file deltas, and flat-file queuing and manipulation. My current
+program written in perl takes about 400 ms just to make a flat-file and rewrite
+the input file and compute diffs of the input file and the flat-file with the
+previous ones. In order to perform more complex operations and parsing I have
+no choice but to look into C/C++ or other compiled languages. The masterbin is
+not small about with over 6000+ lines. The sceenshot below sumarizes the amount
+of items for each field in the 'database'
+
+That is a total of 10,905 items, each with their own hash and attributes that
+need to be parsed, categorised, diff'd and written back. My use of an
+interpeted language as put the execution time at about 400 - 2000ms. It
+prevents me from improving or expanding the program due to exponential
+increases in execution time to the point where the program is unusable,
+needless to say this bogs down any potential testing of more rigourous
+operations and makes causes me to have aversion to recursing through the data
+structuere again, even though such operations would only make the program
+better.
+
+I am not 'comfortable' (the best word I could think of at the moment) with
+telling you what you can do because this is basically a hobby of mine and I can
+garuntee no long term deadlines do and will have sometimes a weeks or two of no
+activity on the project due to my work schedule and current job searching. Also
+I am still trying to garner a clear technical objective for this program beyond
+flowcharts, so I can concisly illustrate objectives, I am currently working on
+that and othe documentations. THe figures and tables included were not even the
+tip of the iceberg. However, if you want a genral notion of what you can do it
+would be to develop operations of text parsing a masterbin file into a flat
+file and doing operations of said file in C++, but that is such a genral and
+broad objective that its basically stating to do the project for me lol. I
+guess to try to narrow it down, my main concern would be the text parser and the
+alogrythm used in C++. I just want to be able to integrate a C++ program into
+an interpeted language that can allow me to tranverse the flatfile and parsing
+proess much more rigourously. I can't give you any technically concise
+objectives besides the ones listed in the prior table and I an not going to ask
+something to much or too broad with a person I am just now being aquainted
+with. I am basically trying to rescruture the program at this point and if it
+requires me to move from perl to python or any other language, I would be more
+than fine with that. So yeah, in summary, dynamic/complex file parsing in
+relation to the prior table and flat-file operations for all 10,000+ items. I'm
+apoligize if you dissapointed in not having a much more specfic objective in
+what you can do, part of it is my limited knowledge of the C++ programing
+itself, I imagine I would have to learn a bit more to get an idea of what you
+CAN do with it.
+
+This is an ongoing project that I am currently trying to document and organize
+at the moment to allow more people to contribute, so a day, week, or even a
+month from now I could possibly have a more specfic objective in terms of C++.
+If you want, I can keep you updated on the progress of the project as well with
+newly composed technical documentation and objectives. C/C++ integration into
+this project is inevetible and I'm going to make it happen as to when I am not
+sure. This little project it the culminationnn of nearly 4 years of working on
+and off on my hobby to categorize the /hmofa/ masterbin and make that data available to
+others.
+
+Thank you so much for your time, and I look forward to hearing back from you.
+
+My only experience with the C language is through my brush with embedded
+programing, and besides that I have barley even gotten into C/C++. That said,
+C/C++ is definitely something I want to eventually integrate or include in this
+project, primarily to do all the heavy lifting with text parsing, diffing
+algorithms, file deltas, and flat-file queuing and manipulation. My current
+program written in Perl takes about 400 ms just to make a flat-file and rewrite
+the input file and compute diffs of the input file and the flat-file with the
+previous ones. In order to perform more complex operations and parsing I have
+no choice but to look into C/C++ or other compiled languages. The masterbin is
+not small about with over 6000+ lines. The screenshot below summarizes the
+amount of items for each field in the 'database'
+
+That is a total of 10,905 items, each with their own hash and attributes that
+need to be parsed, categorized, diff'd and written back. My use of an
+interpreted language as put the execution time at about 400 - 2000ms. It
+prevents me from improving or expanding the program due to exponential
+increases in execution time to the point where the program is unusable,
+needless to say, this bogs down any potential testing of more rigorous
+operations and makes causes me to have aversion to recursing through the data
+structure again, even though such operations would only make the program
+better.
+
+I am not 'comfortable' (the best word I could think of at the moment) with
+telling you what you can do because this is basically a hobby of mine and I can
+guarantee no long-term deadlines do and will have sometimes a week or two of no
+activity on the project due to my work schedule and current job searching. Also
+I am still trying to garner a clear technical objective for this program beyond
+flowcharts, so I can concisely illustrate objectives, I am currently working on
+that and other documentations. The figures and tables included were not even
+the tip of the iceberg. However, if you want a general notion of what you can
+do it would be to develop operations of text parsing a masterbin file into a
+flat file and doing operations of said file in C++, but that is such a general
+and broad objective that its basically stating to do the project for me lol. I
+guess to try to narrow it down, my main concern would be the text parser and
+the algorithm used in C++. I just want to be able to integrate a C++ program
+into an interpreted language that can allow me to transverse the flat file and
+parsing proses much more rigorously. I can't give you any technically concise
+objectives besides the ones listed in the prior table and I don’t want to ask
+something to much or too broad with a person I am just now being acquainted
+with. I am basically trying to restructure the program at this point and if it
+requires me to move from Perl to python or any other language, I would be more
+than fine with that. So yeah, in summary, dynamic/complex file parsing in
+relation to the prior table and flat-file operations for all 10,000+ items. I'm
+apologize if you disappointed in not having a much more specific objective in
+what you can do, part of it is my limited knowledge of the C++ programing
+itself, I imagine I would have to learn a bit more to get an idea of what you
+CAN do with it.
+
+This is an ongoing project that I am currently trying to document and organize
+at the moment to allow more people to contribute, so a day, week, or even a
+month from now I could possibly have a more specific objective in terms of C++.
+If you want, I can keep you updated on the progress of the project as well with
+newly composed technical documentation and objectives. C/C++ integration into
+this project is inevitable and I'm going to make it happen as to when I am not
+sure. This little project it the culmination of nearly 4 years of working on
+and off on my hobby to categorize the /hmofa/ masterbin and make that data
+available to others.
+
+Thank you so much for your time, and I look forward to hearing back from you.
 
 
