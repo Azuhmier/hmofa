@@ -1,490 +1,316 @@
-----------------------------------------------------------------------
+--------------------------
 Objective
-----------------------------------------------------------------------
-GPG
-- urls --> web scrapping
+--------------------------
+- Create a program called 'ohmfa' to create, compare, and manipulate a given
+  masterbin by parsing it to devlop a flatfile and then a database.
+
+--------------------------
+Goals
+--------------------------
+- be able to write back the masterbin
+- be able to generate formatted masterbin files for uploads on site like
+  rentry.org
+- be able to integrate scrapping scripts/programs into the database
+- relevant file data such as the flatfile, deltas, and other computation for
+  masterbin separately computed with 'ohmfa' to be kept in a separate dot
+  directory called '/.ohmfa' much like a '/.git' file
+- implement vigour's validation methods when changing the masterbin
+- using the data structure paradigm of a given masterbin, parse other files
+  like the Resource Bin (GPG) and input relevant data into the database
+
+--------------------------
+Layout
+--------------------------
+ohmfa
+./ohmfi
+./ohmfa
+
+configuration
+    - dspt
+    - drsr
+    - sdrsr
+    - mask
+        - placeholder
+        - smask
+        - suppress
+
+database objects
+    - predefined objects
+        - root
+        - prsv
+        - miss
+    - objHash
+        - childs
+        - parent
+        - props
+        - attrs
+    - object value
+    - object class
+    - object UID
+    - objHash index UID
+    - miss
+    - objHash global UID
+    - container object
+    - group object
+    - line object
+    - inline object
 
 
-database
-- urls --> web scrapping
-- data <-- other masterbins
-- data <--> masterbin
-- data <-- external data structures
-- query
-- validation
-- story archive
-- delta files
-- web scrapping
-  OP list
-  threads
-  stories
+--------------------------
+Terms
+--------------------------
+array                          A list of values/scalars.
+object attribute (attr)        Passive object information whose manipulation
+                                   has no effect on the behavior of the object
+                                   value or how it is treated. For example,
+                                   "Part 1" in "http://storyurl.com (Part 1)".
+implicit attribute (i_attr)    Attributes whose values are not generated from
+                                   text using patterns specified by the user.
+                                   For example, "objHash['attrs']['site'] =
+                                   'ghostbin'" from
+                                   "http://ghostbin.com/gmailer0".
+explicit attribute (e_attr)    Attributes whose values are generated from text
+                                   using patterns specified by the user For
+                                   example, "s" in "s::canine"
+attributing (gen_attrs())     The process of extracting attribute values from
+                                   a matched line's text
+child                          Any object hash whose reference can be found in
+                                   another object due to hierarchical sorting
+childs                         The key name of the hash located in the object
+                                   hash that contains all the object hash's
+                                   children.  The 'childs' hash has a key for
+                                   each class of child object each contain an
+                                   array of object hashes of said
+class                          The objects type, that determines how an object
+                                   value will be parsed, stored, and rewritten.
+hierarchical sorting           The process of determening the parent-child
+                                   relationship of objects using class UIDs and
+                                   'Top-down heiarchy'
+Top-down hierarchy             Hierarchy that is based on the line number of
+                                   when the object was encounter in which
+                                   objects can only have children that have a
+                                   higher line number than it
+configuration (config)         Also know as 'config', is the data used by
+                                   'ohmfa' to determine the parsing paradigm
+                                   and behavior among other things. The
+                                   'config' of 'ohmfa' requires at least 3 flat
+                                   files: 'dspt', 'drsr', and 'mask'. Optinal
+                                   'configs' include: 'sdrs', 'smask', and
+                                   'extern'
+container object               An object whose match that contains an 'array'
+                                   of 'delimited' child objects and must be
+                                   further parsed. A 'container' object value
+                                   must reconcile to an empty string and then
+                                   rendered undefined. It can only have
+                                   implicit attributes. For example, the anthro
+                                   tag container "[canine, w::Missy]" in
+                                   "[canine, w::Missy][long story, sex,
+                                   freeform?]~"
+database (DB)                  In the context of this project, any external
+                                   paradigm used to store information. Even
+                                   though a 'flat file' is a file based data
+                                   base, it differs from the 'DB' in that
+                                   rather than a file it's an entire software
+external (extern)              Additional flat-files or txt files that 'ohmfa'
+                                   can utilize. For example, the '.ohmfi' for
+                                   hmofa contains the file gitio.json wich is
+                                   basically a hash table of pastebin.com url
+                                   IDs and their associated git.io url IDs.
+options (ops)                  Input arguments affecting the behavior of 'ohmfa'
+                                   through a user-friendly interface. Options
+                                   can manipulate configs and/or program
+                                   varabiles and parameters.
+flags                          A binary type of options whose values can either
+                                   be 0 or 1.
+status                         Binary values repersenting the status of a myriad
+                                   of process in 'ohmfa' whose values can
+                                   either be 0 or 1
+dispatch table (dspt)          A flat file containg the nessecary configs for
+                                   parsing a masterbin. It contains the keys of
+                                   all the line objects including predefined
+                                   objects such as 'root', 'prsv', and 'miss'.
+                                   Each key points to a hash that contains the
+                                   'regexp'/'substr' value used for parsing as
+                                   well as it's class index ID used for
+                                   hierarchical sorting. Only line objects
+                                   appear on the first level of the dpst hash,
+                                   inline objects and attributes dspt hashes
+                                   are only found as keys as these the dpst
+                                   hashes of these line objects and other
+                                   inline object dpst hashes in which are only
+                                   utilized after a match was found for it's
+                                   parent dspt hash where in the parser will
+                                   see if there are any inline or attr keys to
+                                   decide whether it should parse the match
+                                   further. Only the 'dspt' flat file is needed
+                                   to make a flat-file'
+dresser (drsr)                 A 'flat file' used to rewrite the masterbin txt
+                                   file back from the flat file. This flat file
+                                   along with the dspt is required to write
+                                   back the masterbin txt file and validate the
+                                   parsing process
+mask                           a 'flat file' used to filter or append to the
+                                   flat file during the rewrite or generation
+                                   process.
+Supplementary dresser (sdrsr)  Exactly like the 'drsr' flat file except rather
+                                   than used to rewrite and validate the
+                                   masterbin, it is used to write formated
+                                   masterbin files from flat file. All
+                                   generated masterbin formatted files cannot
+                                   be parsed back into a masterbin file.
+Supplementary mask (smask)     Exactly like the 'mask' only for masterbin
+                                   output files. This flat file is required
+                                   along with the 'dspt' to upload to sited
+                                   like rentry.
+outputs                        Files generated by ohmfa. 
+dressed masterbin (dfile)      A file generated using the IFL and/or the DB per
+miss
+                               object class of any line in the masterbin that
+                                   did not return a 'match'. It's object value
+                                   is the raw content of the line itself.
+                                   cannot have any attributes or children and
+                                   its parent will always be
+                                   'smask' flat file.
 
+ohmfa                          omni hashing masterbin file application
+ohmfi                          omni hashing masterbin file instance
+predefined
+properties                     active object information whose manipulation has
+                                   effects on the behavior of the object value
+                                   or how it is treated. Example: "suppress" in
+                                   objHash['props']['suppress'] = 1".
+prsv                           object class of a line in the masterbin that was
+                                   specified to be preserved. It's object value
+                                   is the raw content of the line itself. It
+                                   cannot have any  attributes or children. And
+                                   it's parent will always be 'root'.
+scalar                         a single value with no dimensions
+UID                            unique identifier
+input args                     The necessary user supplied configs and options
+                                   needed to execute ohmfa. Once supplied, the
+                                   input args are stored in 'Ohm::Controller'
+                                   object as 'args'.
 
+boiler plates (bps)            Template configuration hashes that serve to contract or act as
+                                   defaults for the myriad data structures use
+                                   in 'ohmfa'. The 'bps' themselves cannot be utilized
+genconfig
+populate
+merge
+gen_bp
+params_check
 
-
-----------------------------------------------------------------------
-Keywods
-----------------------------------------------------------------------
-array
 hash
-json
-linewise
+input
+db
+out
+
+use_args
+ohm::Hasher
+ohm::Controller
+ohm::UserController
+ohm::Main
+init
+pre_config
+sweep
+
+data::walk
+new
+delimitattr
+checks
+
+masterbin
+match
+matches
+'root'.
+object
+object hash
+parent
 reference
-regex
-obj
-attribute
-file based database
-capture groups
-substitution
-order
-point
-tree
+numerical
+regex parsing
+root
+string
+substring parsing
+subtraction attributing
+text parsing
 object value
-object type
-explicit attribute: attribute and object capture are seperate
-implict attribute:  attribute and object capture group are not seperate
-false attributes
-false objects
-
-----------------------------------------------------------------------
-Data Structure
-----------------------------------------------------------------------
-obj_hash
-{
-    value       : "object value"
-    type        : "object type"
-    attributes  : {...}
-    childs      : {...}
-    meta        : {...}
-}
-
-childs_hash
-{
-   child-1 : [childs-1 array]
-   child-2 : [childs-2 array]
-    ...
-   child-i : [childs-i array]
-    ...
-   child-n : [childs-n array]
-}
-
-childs-i array
-[
-    {obj-i hash-1}
-    {obj-i hash-2}
-    ...
-    {obj-i hash-j}
-    ...
-    {obj-i hash-n}
-]
-
-childs_stack
-[
-    {obj-[1:n] hash-1}
-    {obj-[1:n] hash-2}
-    ...
-    {obj-[1:n] hash-j}
-    ...
-    {obj-[1Ln] hash-n}
-]
-
-circs
-{
-    obj hash ref key :
-    {
-        parent      : parent hash ref key
-        child stack : [...]
-    }
-}
-
-* circs can be recreated by transversal of hash tree.
-* a objhash without a LN, can be a fatal error.
-
-----------------------------------------------------------------------
-Deimos
-----------------------------------------------------------------------
-0.0) author
-1.0) title
-2.0) url
-
-By Author
->title
-url
-
-By {Author}
->{title}
-{url}
+importfrompaths
+see
+out
+find
 
 
-Rules
-- 
-
-----------------------------------------------------------------------
-Deimos_exstended
-----------------------------------------------------------------------
-0.0) section
-1.0) author
-2.0) series
-3.0) title
-4.0) tags
-4.1) url
-4.2) description
-
-{object} = {object_value}
-%%%%% {section} %%%%%
-By {author}
-=============/ {series} /=============
-">{title}"
-"[{tags}]"
-"{url}"
-"#{description}"
-
-----------------------------------------------------------------------
-Deimos_exstended (implicit attributes}
-----------------------------------------------------------------------
-0.0)   section
-1.0)   author
-1.0.0) author_attribute
-2.0)   series
-3.0)   title
-3.0.0) title_attribute
-4.0)   tags
-4.1)   url
-4.1.0) url_attribute
-4.3)   description
-
-{object} = {object_value} + {object_attribute}
-{object} - {object_attribute} = {object_value}
-object value is the result of subtracting the attributes
-{object_value} = "" if attribute is implicit
-
-methods of attribute subtraction
-1) capture groups
-    EX: [anthro][general]ops
-        anthro  = [(.*?)][  | [{anthro}][general]ops
-        general = ][(.*?)]  | [anthro][{general}]ops
-        ops     = ](.*?)$   | [anthro][general]{ops}
-        *subract substrings | ""
-
-2) substitution: assumes attributes are ordered
-    EX: [anthro][general]ops
-        anthro  = "[.*?]  | "[general]ops"
-        general = "[.*?]" | "ops"
-        ops     = ".*"    | ""
-
-*Fails upon "" object value
+wobjs
+uobjs
+objs
+dspt
 
 
-"%%%%% {section} %%%%%"
-"By {author}"
-"=============/ {series} /============="
-">{title}"
-"{tags}"
-"{url}"
-"#{description}"
+gendb
+getparent
+getpnt
+cmppnt
 
-"%%%%% {section_value} %%%%%"
-"By {author_value} ({author_attribute})"
-"=============/ {series_value} /============="
-">{title_value} ({title_attribute})"
-"{tags_value}"
-"{url_value} ({url attribute})"
-"#{description_value}"
+gen_dspt
+check_dspt
 
-----------------------------------------------------------------------
-Deimos_exstended (implicit attributes and containers}
-----------------------------------------------------------------------
-0.0)   section
-1.0)   author
-1.0.0) author_attribute
-2.0)   series
-3.0)   title
-3.0.0) title_attribute
-(
-    4.0)      tags_container
-    4.0.0)    anthro
-    4.0.0.0)  tag_attribute
-    4.0.1)    general
-    4.0.1.0)  tag_attribute
-    4.0.2)    ops
-)
-4.1)   url
-4.1.0) url_attribute
-4.2)   description
+init_ohmfi
+seek_ohmfi
+select_ohmfi
 
-"%%%%% {section} %%%%%"
-"By {author}"
-"=============/ {series_value} /============="
-">{title}"
-"{tags}"
-"{url}"
-"#{description}"
+set_flags
+get
+set_status
+imprttxt
+importjson
+write
+writejson
+private
 
-"%%%%% {section_value} %%%%%"
-"By {author_value} ({author_attribute})"
-"=============/ {series_value} /============="
-">{title_value} ({title_attribute})"
-"{tags_value}" => "[{tags_attribute1}][{tags_attribute2}]{tags_attribute3}"
-"{url_value} ({url attribute})"
-"#{description_value}"
-
-*"{tags_value}[{tags_attribute1}][{tags_attribute2}]{tags_attribute3}"
-*containers must resolve to "" value
-*obj vs. linecontainer
-
-----------------------------------------------------------------------
-Deimos_exstended (delimited implicit attributes and objects}
-----------------------------------------------------------------------
-changes the attribute value from scalar to array
-*conserv order?
-*conserve delimiter?
-
-0.0)     section
-1.0)     author
-1.0.0)   author_attribute
-2.0)     series
-3.0)     title-url container
-(
-    3.0.0)   title
-    3.0.0.0) title_attribute
-    3.0.1)   url
-    3.0.1.0) url_attribute
---------------------------------
-    3.0.0)   title
-    3.0.1)   url
-    3.0.1.0) url_attribute
-    3.0.2)   title_attribute
-)
-4.0)     tags
-4.1)     description
-
-limitaions
-- attributs must come after the object value
-- attributes must be on the same line as the attributes
-- keys can only have the following characters [a-zA-Z_0-9]
-- all childs are grouped with eachother
-
-The general idea of this program (OHMFA) is to create a dynamic program that
-takes user inputs, configurations, and execution history and parses a masterbin
-file, produces a flat file (Ex: json) and uses this file to create a more
-sophisticated database (DB), for example SQL. These concepts are illustrated in
-Figure 1 below.
-
-While most programs/projects might just see the flat file generation as a mere
-intermediate step to the primary goal of a database, OHMFA creates additional
-files and stores them along with the flat file in a directory called '.ohmfi'
-that serves as a local 'database' for the masterbin file and it's contents -
-kinda sorta like git, though no implementations of actual delta files has been
-done.
-
-As of right now, this 'local database' is the one being used to check masterbin
-changes, edit tags, query, and output rentry txt that is uploaded to
-rentry.org. There are 3 main 'methods' it has
-
-1) init
-Take a masterbin file and attempt to create an '.ohmfi' directory out of it,
-success is determined when it can write back the entire file exactly and parse
-it again and get the same flat file. Every time it runs it will show file
-and flat filediffs using the less program, thus, it mean to be used to quickly
-check ones syntaxing and go and make quick edits. Parsing validationg is
-'syntax' like because the user will be editing the flat file by editing the
-masterbin.
-
-2) manipulate
-Like above except success is mainly determined by user, by looking at the
-filediffs betwwen the previous and the newly edited masterbin file and flat
-file. Theroretically, conditions can be put up to check for fundemental
-mistakes such as hierarchical inconsistency and duplicates.
-
-3) compare (this has not been implemented yet)
-Be able to parse an external masterbin, compare it's content, and merge any
-wanted data. The parsing validation best described as 'text wrangling', since
-only parts of the file may be relevant as data.
-
-Even though much of the previous concepts have been implemented, many were done
-poorly or partially. This is the first time I had to describe the project in
-great technical detail for someone else to understand, the theme of this whole
-project so far has been 'jerry rigging' to get to the next wanted feature or
-objective. This makes it harder to improve, expand, or update it. I am having
-to start from square one and build a strong fondation, and first thing I need
-to do is to establish a storg 'data architecture'. My current attempt can be
-seen in Table 1 below.
-
-Note that 'a' stands for attributes, 'v' stands for value or object value (I
-call my 'data fields' objects), and a '@' signifies and array of either of the
-two properties. All regex expression you currently see are the ones being
-implemented. So the obstacle I am trying to find or test my solution against is
-how to store the data in a way that will make it easily transferable to a
-database as well as still be of practical use for local masterbin file
-operations.
-
-There are MANY more concepts implemented that I have not gone over, and I made
-this email in a rush for I did not notify you before hand it would take this
-long. For the sake of your time, here is the TL;DR version of the prior excerpt
-along with additional questions.
-
-TL;DR
+launch commands
+group object
+hash
+index
+inline
+line objects
+mask
+intermediate flat file (IFL)
+global
+parser
+get_match
+divy_input
+validater
+genwrite
+launch
+sweep
 
 
 
+--------------------------
+Assumptions/constraints
+--------------------------
+- linewise
+- top-down hierarchical computation
+- groups and containers cannot have attributes
+- no multi line objects
+- regex/substr parsing
+- subtraction/match attributing method
+- line numbers are inconsequential
+- no circular reference in the flat file
 
-I apologize for taking long to reply to you, work has been busy and
-unpredictable.  The general idea of this program (OHMFA) is to create a dynamic
-program that takes user inputs, configurations, and execution history and
-parses a masterbin file, produces a flat file (Ex: json) and uses this file to
-create a more sophisticated database (DB), for example SQL. These concepts are
-illustrated in Figure 1 below
-
-I have many questions but I will start off this first email with my most
-pressing one. My only understanding of databases comes from a brief look at SQL
-as well as plain hash tables, where everything is a table. My problem is trying
-to repereent field inputs that are arrays, especially in the context of
-heiarchal data such as this one. For example how should one repersent tags in a
-data base? When one looks up the 'tags' key for a story?  compose a myriad ways
-of repersenting array objects, but I have no idea if they are practical. The
-following is the current index syntax of my current implentation of a
-masterbin flat-file can be seen at:
-
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['val'][3] = 'canine'
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs']['anthro'][3] = 'canine'
-
-I just shortened it because it is easier to read it the other way, and that is
-the way I use when brainstorming. As you can see this is a bit nonsensical with
-a value and an attribute having the same value, thus I have been experimenting
-with doing following:
-
-a)
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['childs']['anthro'][0]['childs']['tag'][3]['val'] = 'canine'
-b)
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['val'][3] = 'canine'
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs'][0] = 'anthro'
-c)
-root['childs']['section'][0]['childs']['author'][4]['childs']['title'][2]['childs']['tags'][0]['attrs']['tag_group'] = 'anthro'
-
-For further insight into the flat-file architecture see figure 2: below. It is
-similar to the current one in use besides there being a ‘props’ and ‘ID’ key in
-the Object hash. These object hash keys are currently being conceptualize for
-their use.
+--------------------------
+Current Implementation
+--------------------------
+FLAT FILE FORMAT: JSON
+LANGUAGE: Perl
+OOP?: YES
 
 
-My only experience with the C language is through my brush with embedded
-programing, and besides that I have barley even gotten into C/C++. That said,
-C/C++ is definitely something I want to eventually integrate or include in this
-project, primarily to do all the heavy lifting with text parsing, diffing
-alogrotythms, file deltas, and flat-file queuing and manipulation. My current
-program written in perl takes about 400 ms just to make a flat-file and rewrite
-the input file and compute diffs of the input file and the flat-file with the
-previous ones. In order to perform more complex operations and parsing I have
-no choice but to look into C/C++ or other compiled languages. The masterbin is
-not small about with over 6000+ lines. The sceenshot below sumarizes the amount
-of items for each field in the 'database'
-
-That is a total of 10,905 items, each with their own hash and attributes that
-need to be parsed, categorised, diff'd and written back. My use of an
-interpeted language as put the execution time at about 400 - 2000ms. It
-prevents me from improving or expanding the program due to exponential
-increases in execution time to the point where the program is unusable,
-needless to say this bogs down any potential testing of more rigourous
-operations and makes causes me to have aversion to recursing through the data
-structuere again, even though such operations would only make the program
-better.
-
-I am not 'comfortable' (the best word I could think of at the moment) with
-telling you what you can do because this is basically a hobby of mine and I can
-garuntee no long term deadlines do and will have sometimes a weeks or two of no
-activity on the project due to my work schedule and current job searching. Also
-I am still trying to garner a clear technical objective for this program beyond
-flowcharts, so I can concisly illustrate objectives, I am currently working on
-that and othe documentations. THe figures and tables included were not even the
-tip of the iceberg. However, if you want a genral notion of what you can do it
-would be to develop operations of text parsing a masterbin file into a flat
-file and doing operations of said file in C++, but that is such a genral and
-broad objective that its basically stating to do the project for me lol. I
-guess to try to narrow it down, my main concern would be the text parser and the
-alogrythm used in C++. I just want to be able to integrate a C++ program into
-an interpeted language that can allow me to tranverse the flatfile and parsing
-proess much more rigourously. I can't give you any technically concise
-objectives besides the ones listed in the prior table and I an not going to ask
-something to much or too broad with a person I am just now being aquainted
-with. I am basically trying to rescruture the program at this point and if it
-requires me to move from perl to python or any other language, I would be more
-than fine with that. So yeah, in summary, dynamic/complex file parsing in
-relation to the prior table and flat-file operations for all 10,000+ items. I'm
-apoligize if you dissapointed in not having a much more specfic objective in
-what you can do, part of it is my limited knowledge of the C++ programing
-itself, I imagine I would have to learn a bit more to get an idea of what you
-CAN do with it.
-
-This is an ongoing project that I am currently trying to document and organize
-at the moment to allow more people to contribute, so a day, week, or even a
-month from now I could possibly have a more specfic objective in terms of C++.
-If you want, I can keep you updated on the progress of the project as well with
-newly composed technical documentation and objectives. C/C++ integration into
-this project is inevetible and I'm going to make it happen as to when I am not
-sure. This little project it the culminationnn of nearly 4 years of working on
-and off on my hobby to categorize the /hmofa/ masterbin and make that data available to
-others.
-
-Thank you so much for your time, and I look forward to hearing back from you.
-
-My only experience with the C language is through my brush with embedded
-programing, and besides that I have barley even gotten into C/C++. That said,
-C/C++ is definitely something I want to eventually integrate or include in this
-project, primarily to do all the heavy lifting with text parsing, diffing
-algorithms, file deltas, and flat-file queuing and manipulation. My current
-program written in Perl takes about 400 ms just to make a flat-file and rewrite
-the input file and compute diffs of the input file and the flat-file with the
-previous ones. In order to perform more complex operations and parsing I have
-no choice but to look into C/C++ or other compiled languages. The masterbin is
-not small about with over 6000+ lines. The screenshot below summarizes the
-amount of items for each field in the 'database'
-
-That is a total of 10,905 items, each with their own hash and attributes that
-need to be parsed, categorized, diff'd and written back. My use of an
-interpreted language as put the execution time at about 400 - 2000ms. It
-prevents me from improving or expanding the program due to exponential
-increases in execution time to the point where the program is unusable,
-needless to say, this bogs down any potential testing of more rigorous
-operations and makes causes me to have aversion to recursing through the data
-structure again, even though such operations would only make the program
-better.
-
-I am not 'comfortable' (the best word I could think of at the moment) with
-telling you what you can do because this is basically a hobby of mine and I can
-guarantee no long-term deadlines do and will have sometimes a week or two of no
-activity on the project due to my work schedule and current job searching. Also
-I am still trying to garner a clear technical objective for this program beyond
-flowcharts, so I can concisely illustrate objectives, I am currently working on
-that and other documentations. The figures and tables included were not even
-the tip of the iceberg. However, if you want a general notion of what you can
-do it would be to develop operations of text parsing a masterbin file into a
-flat file and doing operations of said file in C++, but that is such a general
-and broad objective that its basically stating to do the project for me lol. I
-guess to try to narrow it down, my main concern would be the text parser and
-the algorithm used in C++. I just want to be able to integrate a C++ program
-into an interpreted language that can allow me to transverse the flat file and
-parsing proses much more rigorously. I can't give you any technically concise
-objectives besides the ones listed in the prior table and I don’t want to ask
-something to much or too broad with a person I am just now being acquainted
-with. I am basically trying to restructure the program at this point and if it
-requires me to move from Perl to python or any other language, I would be more
-than fine with that. So yeah, in summary, dynamic/complex file parsing in
-relation to the prior table and flat-file operations for all 10,000+ items. I'm
-apologize if you disappointed in not having a much more specific objective in
-what you can do, part of it is my limited knowledge of the C++ programing
-itself, I imagine I would have to learn a bit more to get an idea of what you
-CAN do with it.
-
-This is an ongoing project that I am currently trying to document and organize
-at the moment to allow more people to contribute, so a day, week, or even a
-month from now I could possibly have a more specific objective in terms of C++.
-If you want, I can keep you updated on the progress of the project as well with
-newly composed technical documentation and objectives. C/C++ integration into
-this project is inevitable and I'm going to make it happen as to when I am not
-sure. This little project it the culmination of nearly 4 years of working on
-and off on my hobby to categorize the /hmofa/ masterbin and make that data
-available to others.
-
-Thank you so much for your time, and I look forward to hearing back from you.
-
-
+--------------------------
+ToDo
+--------------------------
+- remove 'ohmfa' code from the 'hmofa' git repo and put it in it's own separate
+  repo called 'ohmfa'
+- integrate C/C++ into 'ohmfa' to greatly increase execution time
+- rewrite OHMFA in Python for better community engagement
