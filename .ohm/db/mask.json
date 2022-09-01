@@ -1,5 +1,78 @@
 {
-   "tags" : {
+   "series" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "section" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "prsv" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 1,
+         "childs" : [
+            [
+               "tags",
+               ""
+            ],
+            [
+               "description",
+               "{description}"
+            ]
+         ]
+      }
+   },
+   "lib" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "sort" : 0,
+      "scripts" : [],
+      "name" : ""
+   },
+   "url" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -11,108 +84,35 @@
       "sort" : 0
    },
    "author" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "prsv" : {
       "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
       "supress" : {
          "all" : 0,
          "vals" : []
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
       }
    },
-   "series" : {
-      "sort" : 0,
+   "tags" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "url" : {
       "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       }
-   },
-   "lib" : {
-      "name" : "",
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0,
-      "scripts" : [],
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa"
    },
    "description" : {
-      "sort" : 0,
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 0,
+         "childs" : []
       },
       "supress" : {
          "vals" : [],
          "all" : 0
-      }
-   },
-   "section" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "title" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [
-            [
-               "tags",
-               ""
-            ],
-            [
-               "description",
-               "{description}"
-            ]
-         ],
-         "enable" : 1
       },
       "sort" : 0
    }
