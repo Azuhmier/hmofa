@@ -185,22 +185,58 @@ prsv                           object class of a line in the masterbin that was
                                    cannot have any  attributes or children. And
                                    it's parent will always be 'root'.
 scalar                         a single value with no dimensions
-UID                            unique identifier
+----------------------------------------------------------------
 input args                     The necessary user supplied configs and options
                                    needed to execute ohmfa. Once supplied, the
-                                   input args are stored in 'Ohm::Controller'
-                                   object as 'args'.
+                                   input args are stored an 'Ohmfa::Controller'
+                                   object as 'args'. Any argument not supplied
+                                   will be replaced by a default value
+                                   specified in the 'bpc' method of the
+                                   'Ohmfa:Controller' class. This is most
+                                   crucial conserning the 'paths' arguments
+                                   whose 'bpc's contain default 'ohmfi'
+                                   directory paths that allows the user to
+                                   change and use the contents of the ohmfi
+                                   directory directly through the 'paths'
+                                   arguments. Any 'path' argument is a change
+                                   in the 'ohmfi' directory (init), while no
+                                   'paths' arguments leaves it unchanged (run).
 
-boiler plates (bps)            Template configuration hashes that serve to contract or act as
-                                   defaults for the myriad data structures use
-                                   in 'ohmfa'. The 'bps' themselves cannot be utilized
+hash                           An associated array; a dictionary.
+boiler plate config (bpc)      Used by 'genconfig' and 'params_checker' to
+                                     produce boiler plates that serve to
+                                     construct or act as defaults for the
+                                     myriad data structures used in 'ohmfa'.
+                                     Each ohmfa class besides 'main' has its
+                                     own 'get_bpc' method. Each key in the
+                                     'get_bpc' repersents a different 'bpc'.
+                                     The keys are modular so any key can be
+                                     used in a bpc.
+get_bpc
+- start
+- member
+- fill
+Params::Check
+- default
+- strict_type
+- allow
+boiler plate matrix (bpm)
+gen_bp
 genconfig
 populate
 merge
-gen_bp
-params_check
+args
+- baseDir
+- status
+- flags
+- cwd
+- paths
+- opts
+- args
+INIT
+-------------------------------------------------
+unique identifier (UID)
 
-hash
 input
 db
 out
@@ -265,6 +301,8 @@ set_status
 imprttxt
 importjson
 write
+base
+base_dir
 writejson
 private
 
