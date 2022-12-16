@@ -1,102 +1,102 @@
 {
-   "description" : {
-      "cre" : null,
-      "re" : "^\\s*#(.*)",
-      "attrs" : {},
-      "order" : "1.1.1.1.3"
-   },
-   "author" : {
-      "order" : "1.1",
-      "attrs" : {
-         "author_attr" : {
-            "re" : "\\s+\\(([^\\(\\)]*)\\)\\s*$",
-            "cre" : null
-         }
-      },
-      "re" : "^\\s*[Bb]y\\s+(.*)",
-      "cre" : null
-   },
-   "url" : {
-      "cre" : null,
-      "re" : "^\\s*(http.+)",
-      "attrs" : {
-         "url_attr" : {
-            "re" : "\\s*\\((.*)\\)",
-            "cre" : null
-         }
-      },
-      "order" : "1.1.1.1.2"
-   },
    "tags" : {
-      "cre" : null,
-      "order" : "1.1.1.1.1",
       "attrs" : {
          "general" : {
-            "cdelims" : null,
             "re" : "(?x) \\]\\[ ([^\\[\\]]*) \\]",
-            "cre" : null,
-            "order" : "2",
-            "delims" : [
-               ";",
-               ","
-            ]
-         },
-         "anthro" : {
-            "cre" : null,
-            "order" : "1",
             "delims" : [
                ";",
                ","
             ],
             "cdelims" : null,
-            "re" : "(?x) ^\\[  ([^\\[\\]]*)"
+            "order" : "2",
+            "cre" : null
          },
          "ops" : {
             "cre" : null,
             "order" : "3",
+            "cdelims" : "",
             "delims" : [
                ""
             ],
-            "cdelims" : "",
             "re" : "(?x) ([^\\[\\]]+) $"
+         },
+         "anthro" : {
+            "cdelims" : null,
+            "delims" : [
+               ";",
+               ","
+            ],
+            "re" : "(?x) ^\\[  ([^\\[\\]]*)",
+            "order" : "1",
+            "cre" : null
          }
       },
+      "cre" : null,
+      "order" : "1.1.1.1.1",
       "re" : "^\\s*(\\[.*)"
    },
-   "title" : {
+   "description" : {
+      "order" : "1.1.1.1.3",
+      "attrs" : {},
       "cre" : null,
-      "order" : "1.1.1.1",
+      "re" : "^\\s*#(.*)"
+   },
+   "author" : {
+      "re" : "^\\s*[Bb]y\\s+(.*)",
+      "order" : "1.1",
+      "cre" : null,
       "attrs" : {
-         "title_attr" : {
+         "author_attr" : {
             "cre" : null,
-            "re" : "\\s+\\(([^\\(\\)]*?)\\)\\s*$"
+            "re" : "\\s+\\(([^\\(\\)]*)\\)\\s*$"
          }
-      },
-      "re" : "^\\s*>\\s*(.*)"
+      }
    },
    "prsv" : {
-      "attrs" : {},
+      "order" : "-1",
       "mask" : {
          "place_holder" : {}
       },
-      "order" : "-1",
-      "drsr" : {}
+      "drsr" : {},
+      "attrs" : {}
+   },
+   "section" : {
+      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
+      "attrs" : {},
+      "cre" : null,
+      "order" : "1"
    },
    "lib" : {
       "attrs" : {},
       "order" : 0,
       "smask" : []
    },
+   "url" : {
+      "re" : "^\\s*(http.+)",
+      "attrs" : {
+         "url_attr" : {
+            "cre" : null,
+            "re" : "\\s*\\((.*)\\)"
+         }
+      },
+      "cre" : null,
+      "order" : "1.1.1.1.2"
+   },
    "series" : {
       "cre" : null,
-      "order" : "1.1.1",
       "attrs" : {},
+      "order" : "1.1.1",
       "re" : "^\\s*=+\\/?\\s*(.*?)\\s*\\/?=+"
    },
-   "section" : {
+   "title" : {
+      "re" : "^\\s*>\\s*(.*)",
+      "attrs" : {
+         "title_attr" : {
+            "cre" : null,
+            "re" : "\\s+\\(([^\\(\\)]*?)\\)\\s*$"
+         }
+      },
       "cre" : null,
-      "attrs" : {},
-      "re" : "^\\s*-*%+\\s*(.*?)\\s*%+",
-      "order" : "1"
+      "order" : "1.1.1.1"
    }
 }

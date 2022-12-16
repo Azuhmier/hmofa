@@ -1,22 +1,93 @@
 {
-   "tags" : {
+   "prsv" : {
+      "sort" : 0,
       "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+         "childs" : [],
+         "enable" : 0
       },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "section" : {
+      "supress" : {
+         "vals" : [
+            0
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
+   },
+   "description" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "tags" : {
       "removeInTag" : "::",
       "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
       "supress" : {
          "all" : 0,
          "vals" : []
       }
    },
    "author" : {
+      "sort" : 1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
-      "sort" : 1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "lib" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "name" : "outerbin",
+      "scripts" : [],
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "header" : "#**/HMoFA/ Outerbin**"
+   },
+   "series" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -24,8 +95,8 @@
    },
    "url" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
       "sort" : 0,
       "place_holder" : {
@@ -33,88 +104,17 @@
          "enable" : 0
       }
    },
-   "description" : {
+   "title" : {
+      "sort" : 1,
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "enable" : 1,
+         "childs" : [
+            "tags"
+         ]
       },
-      "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 0
-      }
-   },
-   "series" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "section" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : [
-            0
-         ]
-      },
-      "sort" : 0
-   },
-   "lib" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ],
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
-      "scripts" : [],
-      "name" : "outerbin",
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "sort" : 0,
-      "header" : "#**/HMoFA/ Outerbin**"
-   },
-   "title" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1,
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      }
-   },
-   "prsv" : {
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       }
    }
 }

@@ -1,47 +1,107 @@
 {
+   "tags" : {
+      "removeInTag" : "::",
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
    "description" : {
       "supress" : {
          "all" : 0,
          "vals" : []
       },
-      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      }
-   },
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       },
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
+      "sort" : 0
    },
    "author" : {
       "supress" : {
          "vals" : [],
          "all" : 0
       },
-      "sort" : 1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      }
-   },
-   "tags" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
       },
-      "sort" : 0,
-      "removeInTag" : "::",
+      "sort" : 1
+   },
+   "section" : {
+      "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
+      },
+      "sort" : 0
+   },
+   "prsv" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "lib" : {
+      "scripts" : [],
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "name" : "catalog",
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "header" : "#**/HMoFA/ Catalog**",
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "sort" : 0
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
+   },
+   "url" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       }
    },
    "title" : {
@@ -49,72 +109,12 @@
          "all" : 0,
          "vals" : []
       },
-      "sort" : 1,
       "place_holder" : {
-         "enable" : 1,
          "childs" : [
             "tags"
-         ]
-      }
-   },
-   "prsv" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
+         ],
+         "enable" : 1
       },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "lib" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ],
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "scripts" : [],
-      "name" : "catalog",
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "sort" : 0,
-      "header" : "#**/HMoFA/ Catalog**"
-   },
-   "series" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "section" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : [
-            1
-         ]
-      },
-      "sort" : 0
+      "sort" : 1
    }
 }
