@@ -365,10 +365,15 @@ sub launch #{{{1
             push @pwds, $pwd;
         }
         #my $sdrsr = $smask->[1];
+
         my $sdrsr = $self->{sdrsr}[0];
         unless ( $smask->[1] )
         {
             $sdrsr = $self->{drsr};
+        }
+        print $smask->[1], "\n";
+        if ($smask->[1] eq 'newbin') {
+            my $sdrsr = $self->{sdrsr}[1];
         }
 
 

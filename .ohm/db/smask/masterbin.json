@@ -1,51 +1,41 @@
 {
-   "url" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
+   "tags" : {
       "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      },
+      "removeInTag" : "::",
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
-   "series" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
+   "prsv" : {
       "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
-   "title" : {
-      "place_holder" : {
-         "enable" : 1,
-         "childs" : [
-            "tags"
-         ]
-      },
+   "author" : {
       "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "lib" : {
-      "sort" : 0,
-      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "header" : "#**/HMoFA/ Masterbin**",
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "lib" : {
+      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
+      "scripts" : [],
       "name" : "masterbin",
       "pwds" : [
          [
@@ -53,44 +43,53 @@
             "^PWD=(.*)"
          ]
       ],
-      "scripts" : []
+      "sort" : 0,
+      "header" : "#**/HMoFA/ Masterbin**",
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
    },
-   "tags" : {
+   "section" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "series" : {
       "supress" : {
          "vals" : [],
-         "all" : 1
+         "all" : 0
       },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
-      "sort" : 0,
-      "removeInTag" : "::"
+      "sort" : 0
    },
    "description" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "all" : 1,
-         "vals" : []
       }
    },
-   "author" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 1,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "prsv" : {
-      "sort" : 0,
+   "url" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -98,19 +97,20 @@
       "supress" : {
          "vals" : [],
          "all" : 0
-      }
+      },
+      "sort" : 0
    },
-   "section" : {
-      "sort" : 0,
+   "title" : {
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
       },
       "supress" : {
-         "all" : 0,
-         "vals" : [
-            1
-         ]
-      }
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 1
    }
 }
