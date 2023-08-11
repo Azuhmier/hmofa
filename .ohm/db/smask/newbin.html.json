@@ -1,0 +1,120 @@
+{
+   "author" : {
+      "sort" : 1,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "prsv" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "url" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
+   },
+   "title" : {
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 1
+   },
+   "series" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "lib" : {
+      "cmd" : "echo 'lol'",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "scripts" : [],
+      "header" : "<html> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>HMoFA Tag Catalog</title> <!-- The style.css file allows you to change the look of your web pages.  If you include the next line in all your web pages, they will all share the same look.  This makes it easier to make new pages for your site. --> <link href=\"/style.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\"> </head> <body style=\"font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;margin:100px;line-height:1.5;font-size:16px\"><center><h1>HMoFA Tag Catalog</h1></center>",
+      "name" : "newbin.html",
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "prsv_tail" : [
+         14,
+         "<br>== **KEY** <br><ul><li>SEARCHING TAGS -&gt ctrl-f ;tag;</li><li>TAG FORMAT -&gt [anthro][general]<br><li>~ = *story is unfinished*</li><li>$ = *story is complete* </li></ul><br>"
+      ],
+      "sort" : 0
+   },
+   "section" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            1
+         ]
+      },
+      "sort" : 0
+   },
+   "tags" : {
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "removeInTag" : "::",
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "description" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0
+   }
+}

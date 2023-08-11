@@ -373,20 +373,39 @@ sub launch #{{{1
         }
         print $smask->[1], "\n";
         if ($smask->[1] eq 'newbin') {
-            my $sdrsr = $self->{sdrsr}[1];
+            $sdrsr = $self->{sdrsr}[1];
         }
 
+        print $sdrsr, "\n";
 
         #print Dumper $sdrsr;
         $self->__genWrite($smask->[0], $sdrsr);
 
-        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->[0]{lib}{name}.".txt"
+        open my $fh2, '>:utf8', $self->{paths}{output}."/.ohm/output/".$smask->[0]{lib}{name}
             or die 'something happened';
             $self->{stdout}[0] = $smask->[0]{lib}{header} // $self->{stdout}[0];
 
-            for ($self->{stdout}->@*)
+            my $count = 0;
+            for my $line ($self->{stdout}->@*)
             {
-                print $fh2 $_,"\n";
+
+                if ($smask->[0]{lib}{name} eq 'newbin.html') {
+                    if ($count != 0) {
+                        print $fh2 $line, "<br>\n";
+                    }
+                    else {
+                        print $fh2 $line, "\n";
+                    }
+
+                }
+                else {
+                    print $fh2 $line,"\n";
+                }
+                $count++
+            }
+            if ($smask->[0]{lib}{name} eq 'newbin.html') {
+                print $fh2 "</body></html>", "\n";
+
             }
             truncate $fh2, tell($fh2) or die;
             seek $fh2,0,0 or die;
@@ -1135,21 +1154,20 @@ sub __commit #{{{1
     }
 
     # SDRSR
-    unless ( -d $self->{paths}{cwd} . "$db/sdrsr" )
-    {
+    unless ( -d $self->{paths}{cwd} . "$db/sdrsr" ) {
         mkdir($self->{paths}{cwd} . "$db/sdrsr")
     }
     $self->{paths}{sdrsr} = [];
-    for my $hash ($self->{sdrsr}->@*)
-    {
-        push $self->{paths}{sdrsr}->@*, $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json";
-        my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
-        open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/sdrsr/" . "kk.json"
-            or die;
-            print $fh $json;
-            truncate $fh, tell($fh) or die;
-            seek $fh,0,0 or die;
-        close $fh;
+    for my $hash ( $self->{sdrsr}->@* ) {
+        my $filename = ($self->{paths}{cwd}) . ("$db/sdrsr/") . ($hash->{lib}{name});
+        push $self->{paths}{sdrsr}->@*, $filename;
+        #my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( $hash );
+        #open my $fh, '>:utf8', $helf->{paths}{cwd} . "$db/sdrsr/" . "kk.json"
+        #    or die;
+        #    print $fh $json;
+        #    truncate $fh, tell($fh) or die;
+        #    seek $fh,0,0 or die;
+        #close $fh;
     }
 
     # MISC HASH
@@ -1237,8 +1255,46 @@ sub __genWrite #{{{1
                     ## --- String: d0, d1
                     if (ref $item->{val} ne 'ARRAY')
                     {
+                        my $vall = $item->{val};
+
+                        if ($mask->{lib}{name} eq 'newbin.html') {
+                            $vall =~ s/&/&amp/g;
+                            $vall =~ s/</&lt/g;
+                            $vall =~ s/>/&gt/g;
+                            $vall =~ s/'/&#39/g;
+                            $vall =~ s/"/&quot/g;
+
+                            if ( $item->{val} =~ m/^http[^ ]+/ ) {
+                                $vall =~ s/(http[^ ]+)/<a href="$1"> $1<\/a>/;
+                            }
+                            if ( $obj eq 'prsv' ) {
+                                $vall =~ s/\[(.+)\]\((http[^ ]+)\)/<a href="$2"> $1<\/a>/;
+                                $vall =~ s/^-&gt/<center>/;
+                                $vall =~ s/&lt-$/<\/center>/;
+                                if
+                                (
+                                    $vall =~ /Masterbin/
+                                )
+                                {
+                                    $vall =~ s/^-(.+)/<ul><li>$1<\/li>/;
+                                }
+                                elsif
+                                (
+                                    $vall =~ /Program/
+                                )
+                                {
+                                    $vall =~ s/^-(.+)/<li>$1<\/li><\/ul>/;
+                                }
+                                else {
+                                    $vall =~ s/^-(.+)/<li>$1<\/li>/;
+                                }
+
+                            }
+                        }
+
+
                         $str .= $drsr->{$obj}{$obj}[0]
-                             .  $item->{val}
+                             .  $vall
                              .  $drsr->{$obj}{$obj}[1];
                     }
 
@@ -1275,6 +1331,13 @@ sub __genWrite #{{{1
                                         {
                                             my $removeInTag = $mask->{$obj}{removeInTag};
                                             $part =~ s/\w+\Q$removeInTag\E//;
+                                        }
+                                        if ($mask->{lib}{name} eq 'newbin.html') {
+                                            $part =~ s/&/&amp/g;
+                                            $part =~ s/</&lt/g;
+                                            $part =~ s/>/&gt/g;
+                                            $part =~ s/'/&#39/g;
+                                            $part =~ s/"/&quot/g;
                                         }
                                         $part = $drsr->{$obj}{$attr}[2]
                                               . $part
@@ -1392,6 +1455,11 @@ sub __genWrite #{{{1
 
                             {
                                 my $tail = $mask->{lib}{prsv_tail}[1];
+
+                                if ($mask->{lib}{name} eq 'newbin.html') {
+
+                                }
+
                                 push $self->{stdout}->@*, $tail;
                             }
                         }

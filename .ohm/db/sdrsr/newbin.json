@@ -1,8 +1,8 @@
 {
    "title" : {
       "title" : [
-         "\n>>>>>>>>>>>>>>>",
-         "`",
+         "<br><span style=\"background-color: #f5e9e7;color:#9f290e;\">",
+         "</span>",
          "",
          "",
          "",
@@ -45,8 +45,8 @@
    },
    "series" : {
       "series" : [
-         "\n-> **=== ",
-         " ===** <-"
+         "<br><center><b>=== ",
+         " ===</b></center>"
       ],
       "supress" : {
          "all" : 0,
@@ -71,7 +71,7 @@
          "enable" : 0,
          "childs" : []
       },
-      "name" : "kk.json"
+      "name" : "newbin.json"
    },
    "author" : {
       "supress" : {
@@ -79,8 +79,8 @@
          "all" : 0
       },
       "author" : [
-         "\n‌\n\n---\n\n---\n#####",
-         "",
+         "<br>‌<br><br><hr><hr><h3>",
+         "</h3>",
          "",
          "",
          "",
@@ -102,8 +102,8 @@
          "all" : 0
       },
       "description" : [
-         "*",
-         "*"
+         "<span style=\"color:#a6aaad;\">",
+         "</span>"
       ],
       "sort" : 0,
       "place_holder" : {
@@ -127,15 +127,15 @@
       "anthro" : [
          "[",
          "]",
-         ";",
-         ";",
+         ";<span style=\"color:#276c2a;\">",
+         "</span>;",
          " "
       ],
       "general" : [
          "[",
          "]",
-         ";",
-         ";",
+         ";<span style=\"color:#276c2a;\">",
+         "</span>;",
          " "
       ],
       "place_holder" : {
@@ -149,7 +149,7 @@
          "all" : 0
       },
       "section" : [
-         "\n!!! info\n    ##",
+         "<br>!!! info<br>    ##",
          "",
          "",
          "",

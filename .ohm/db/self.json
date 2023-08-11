@@ -1,42 +1,42 @@
 {
+   "state" : "ok",
+   "name" : "output",
+   "params" : {
+      "prsv" : 1,
+      "delims" : 1,
+      "mes" : 1,
+      "attribs" : 1
+   },
    "paths" : {
-      "cwd" : "/Users/Azuhmier/hmofa/hmofa",
+      "drsr" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/drsr.json",
+      "mask" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/mask.json",
       "sdrsr" : [
          "/Users/Azuhmier/hmofa/hmofa/.ohm/db/sdrsr/kk.json",
-         "/Users/Azuhmier/hmofa/hmofa/.ohm/db/sdrsr/kk.json"
+         "/Users/Azuhmier/hmofa/hmofa/.ohm/db/sdrsr/newbin.json"
       ],
-      "mask" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/mask.json",
-      "drsr" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/drsr.json",
+      "cwd" : "/Users/Azuhmier/hmofa/hmofa",
       "dir" : "/.ohm",
+      "output" : "/Users/Azuhmier/hmofa/hmofa",
+      "dspt" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/dspt.json",
       "smask" : [
          [
-            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/masterbin.json",
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/masterbin.txt.json",
             "sdrsr_rentry"
          ],
          [
-            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/catalog.json",
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/catalog.txt.json",
             "sdrsr_rentry"
          ],
          [
-            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/outerbin.json",
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/outerbin.txt.json",
             "sdrsr_rentry"
          ],
          [
-            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/newbin.json",
+            "/Users/Azuhmier/hmofa/hmofa/.ohm/db/smask/newbin.html.json",
             "newbin"
          ]
       ],
-      "input" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/output.txt",
-      "dspt" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/dspt.json",
-      "output" : "/Users/Azuhmier/hmofa/hmofa"
-   },
-   "name" : "output",
-   "state" : "ok",
-   "params" : {
-      "delims" : 1,
-      "mes" : 1,
-      "prsv" : 1,
-      "attribs" : 1
+      "input" : "/Users/Azuhmier/hmofa/hmofa/.ohm/db/output.txt"
    },
    "prsv" : {
       "till" : [
