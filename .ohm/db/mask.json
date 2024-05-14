@@ -1,16 +1,27 @@
 {
-   "prsv" : {
-      "sort" : 0,
+   "series" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "supress" : {
          "vals" : [],
          "all" : 0
       },
+      "sort" : 0
+   },
+   "section" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       }
    },
-   "author" : {
+   "description" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -21,23 +32,9 @@
       },
       "sort" : 0
    },
-   "url" : {
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "title" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
       "place_holder" : {
+         "enable" : 1,
          "childs" : [
             [
                "tags",
@@ -47,73 +44,76 @@
                "description",
                "{description}"
             ]
-         ],
-         "enable" : 1
+         ]
       },
-      "sort" : 0
-   },
-   "series" : {
       "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
       "supress" : {
          "vals" : [],
          "all" : 0
       }
    },
-   "lib" : {
+   "url" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
       "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "author" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "prsv" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0
+   },
+   "tags" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "lib" : {
+      "name" : "",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "scripts" : [],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "name" : "",
-      "scripts" : [],
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa"
-   },
-   "section" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "tags" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
+      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
       "sort" : 0
    }
 }

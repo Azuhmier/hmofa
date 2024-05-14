@@ -1,17 +1,4 @@
 {
-   "title" : {
-      "sort" : 1,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
-      }
-   },
    "series" : {
       "sort" : 0,
       "supress" : {
@@ -19,14 +6,60 @@
          "vals" : []
       },
       "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "section" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [
+            0
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
-   "lib" : {
-      "header" : "#**/HMoFA/ Outerbin**",
-      "name" : "outerbin.txt",
-      "scripts" : [],
+   "description" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "title" : {
+      "place_holder" : {
+         "enable" : 1,
+         "childs" : [
+            "tags"
+         ]
+      },
+      "sort" : 1,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "url" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "author" : {
+      "sort" : 1,
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -34,9 +67,38 @@
       "place_holder" : {
          "childs" : [],
          "enable" : 0
+      }
+   },
+   "prsv" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
       },
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
       "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "tags" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "removeInTag" : "::"
+   },
+   "lib" : {
+      "scripts" : [],
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "name" : "outerbin.txt",
       "prsv_tail" : [
          13,
          "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
@@ -46,75 +108,13 @@
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
-      ]
-   },
-   "prsv" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "author" : {
+      ],
       "supress" : {
          "vals" : [],
          "all" : 0
       },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 1
-   },
-   "url" : {
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "tags" : {
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "removeInTag" : "::",
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "description" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : 0
-   },
-   "section" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : [
-            0
-         ]
-      },
+      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
+      "header" : "#**/HMoFA/ Outerbin**",
       "sort" : 0
    }
 }
