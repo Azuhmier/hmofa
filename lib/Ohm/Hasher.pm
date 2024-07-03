@@ -1271,26 +1271,9 @@ sub __genWrite #{{{1
                                 $vall =~ s/\[(.+)\]\((http[^ ]+)\)/<a href="$2"> $1<\/a>/;
                                 $vall =~ s/^-&gt/<center>/;
                                 $vall =~ s/&lt-$/<\/center>/;
-                                if
-                                (
-                                    $vall =~ /Masterbin/
-                                )
-                                {
-                                    $vall =~ s/^-(.+)/<ul><li>$1<\/li>/;
-                                }
-                                elsif
-                                (
-                                    $vall =~ /Program/
-                                )
-                                {
-                                    $vall =~ s/^-(.+)/<li>$1<\/li><\/ul>/;
-                                }
-                                else {
-                                    $vall =~ s/^-(.+)/<li>$1<\/li>/;
-                                }
-
-                            }
-                        }
+                                if    ( $vall =~ /Masterbin/) { $vall =~ s/^-(.+)/<ul><li>$1<\/li>/ }
+                                elsif ( $vall =~ /Program/)   { $vall =~ s/^-(.+)/<li>$1<\/li><\/ul>/ }
+                                else                          { $vall =~ s/^-(.+)/<li>$1<\/li>/; }}}
 
 
                         $str .= $drsr->{$obj}{$obj}[0]

@@ -1,15 +1,4 @@
 {
-   "prsv" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
    "series" : {
       "supress" : {
          "vals" : [],
@@ -21,32 +10,32 @@
          "childs" : []
       }
    },
-   "description" : {
-      "sort" : 0,
+   "url" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
+      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       }
    },
-   "author" : {
+   "description" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
       "supress" : {
-         "vals" : [],
-         "all" : 0
+         "all" : 0,
+         "vals" : []
       },
       "sort" : 0
    },
    "title" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
       "sort" : 0,
       "place_holder" : {
@@ -64,6 +53,14 @@
       }
    },
    "lib" : {
+      "scripts" : [],
+      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "name" : "",
       "pwds" : [
          [
             "~/.ohm/.config",
@@ -73,31 +70,12 @@
       "supress" : {
          "vals" : [],
          "all" : 0
-      },
-      "cmd" : "{ printf \"[TOC]\n\"; cat ./.ohm/db/output.txt;} | rentry edit -p ${PWD} -u hmofa",
+      }
+   },
+   "tags" : {
       "place_holder" : {
          "childs" : [],
          "enable" : 0
-      },
-      "scripts" : [],
-      "sort" : 0,
-      "name" : ""
-   },
-   "section" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
       },
       "supress" : {
          "all" : 0,
@@ -105,7 +83,29 @@
       },
       "sort" : 0
    },
-   "tags" : {
+   "prsv" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "author" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "section" : {
       "supress" : {
          "all" : 0,
          "vals" : []

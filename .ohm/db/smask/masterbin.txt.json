@@ -1,42 +1,8 @@
 {
-   "section" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "lib" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "name" : "masterbin.txt",
-      "header" : "#**/HMoFA/ Masterbin**",
-      "sort" : 0,
-      "scripts" : []
-   },
    "title" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
       "sort" : 1,
       "place_holder" : {
@@ -46,57 +12,23 @@
          "enable" : 1
       }
    },
-   "series" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "description" : {
-      "supress" : {
-         "all" : 1,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "author" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "prsv" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "tags" : {
-      "sort" : 0,
       "supress" : {
          "vals" : [],
          "all" : 1
       },
-      "removeInTag" : "::",
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "series" : {
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -104,13 +36,81 @@
    },
    "url" : {
       "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0
+   },
+   "tags" : {
+      "removeInTag" : "::",
+      "sort" : 0,
+      "supress" : {
+         "all" : 1,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "lib" : {
+      "sort" : 0,
+      "name" : "masterbin.txt",
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "scripts" : [],
+      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "header" : "#**/HMoFA/ Masterbin**"
+   },
+   "prsv" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "section" : {
+      "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
       "sort" : 0,
       "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      }
+   },
+   "author" : {
+      "sort" : 1,
+      "supress" : {
          "vals" : [],
          "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
       }
    }
 }
