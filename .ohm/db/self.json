@@ -1,10 +1,9 @@
 {
    "paths" : {
-      "input" : "/home/azuhmier/hmofa/hmofa/.ohm/db/output.txt",
-      "dspt" : "/home/azuhmier/hmofa/hmofa/.ohm/db/dspt.json",
-      "dir" : "/.ohm",
+      "mask" : "/home/azuhmier/hmofa/hmofa/.ohm/db/mask.json",
       "output" : "/home/azuhmier/hmofa/hmofa",
-      "drsr" : "/home/azuhmier/hmofa/hmofa/.ohm/db/drsr.json",
+      "input" : "/home/azuhmier/hmofa/hmofa/.ohm/db/output.txt",
+      "dir" : "/.ohm",
       "cwd" : "/home/azuhmier/hmofa/hmofa",
       "smask" : [
          [
@@ -24,24 +23,25 @@
             "newbin"
          ]
       ],
-      "mask" : "/home/azuhmier/hmofa/hmofa/.ohm/db/mask.json",
+      "drsr" : "/home/azuhmier/hmofa/hmofa/.ohm/db/drsr.json",
+      "dspt" : "/home/azuhmier/hmofa/hmofa/.ohm/db/dspt.json",
       "sdrsr" : [
          "/home/azuhmier/hmofa/hmofa/.ohm/db/sdrsr/kk.json",
          "/home/azuhmier/hmofa/hmofa/.ohm/db/sdrsr/newbin.json"
       ]
    },
-   "params" : {
-      "attribs" : 1,
-      "delims" : 1,
-      "prsv" : 1,
-      "mes" : 1
-   },
-   "state" : "ok",
-   "name" : "output",
    "prsv" : {
       "till" : [
          "section",
          "0"
       ]
-   }
+   },
+   "params" : {
+      "delims" : 1,
+      "attribs" : 1,
+      "prsv" : 1,
+      "mes" : 1
+   },
+   "name" : "output",
+   "state" : "ok"
 }

@@ -1,108 +1,12 @@
 {
-   "title" : {
-      "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 1,
-         "childs" : [
-            "tags"
-         ]
-      }
-   },
-   "url" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "series" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "description" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "tags" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
          "vals" : [],
          "all" : 0
       },
-      "sort" : 0,
-      "removeInTag" : "::"
-   },
-   "lib" : {
-      "sort" : 0,
-      "name" : "newbin.html",
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "cmd" : "echo 'lol'",
-      "scripts" : [],
-      "prsv_tail" : [
-         14,
-         "<br>== **KEY** <br><ul><li>SEARCHING TAGS -&gt ctrl-f ;tag;</li><li>TAG FORMAT -&gt [anthro][general]<br><li>~ = *story is unfinished*</li><li>$ = *story is complete* </li></ul><br>"
-      ],
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "header" : "<html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><title>HMoFA Tag Catalog</title><link href=\"/style.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\"></head><body style=\"font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;margin:100px;line-height:1.5;font-size:16px\"><center><h1>HMoFA Tag Catalog</h1></center>"
-   },
-   "prsv" : {
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
-   "section" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
       },
       "sort" : 0
    },
@@ -116,5 +20,101 @@
          "childs" : [],
          "enable" : 0
       }
+   },
+   "prsv" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
+   },
+   "section" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            1
+         ]
+      }
+   },
+   "url" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "description" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "tags" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "removeInTag" : "::"
+   },
+   "lib" : {
+      "name" : "newbin.html",
+      "scripts" : [],
+      "cmd" : "echo 'lol'",
+      "header" : "<html>\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>HMoFA Tag Catalog</title>\n        <link href=\"/style.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n    </head>\n    <body style=\n    \"font-family:system-ui,\n    -apple-system,\n    BlinkMacSystemFont,\n    Segoe UI,\n    Roboto,\n    Noto Sans,\n    Ubuntu,\n    Cantarell,\n    Fira Sans,\n    Droid Sans,\n    Helvetica Neue,\n    Helvetica,\n    Arial,\n    sans-serif,\n    Apple Color Emoji,\n    Segoe UI Emoji,\n    Segoe UI Symbol;\n    margin:100px;\n    line-height:1.5;\n    font-size:16px\">\n        <center><h1>HMoFA Tag Catalog</h1></center>",
+      "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "prsv_tail" : [
+         15,
+         "        <div>\n           <br/>KEY<br/>\n            <ul>\n                <li>SEARCHING TAGS -&gt ctrl-f ;tag;</li>\n                <li>TAG FORMAT -&gt [anthro][general]</li>\n            </ul>\n        </div>\n        <br/><br/><br/><br/>"
+      ],
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ]
+   },
+   "title" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [
+            "tags"
+         ],
+         "enable" : 1
+      },
+      "sort" : 1
    }
 }
