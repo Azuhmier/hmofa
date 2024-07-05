@@ -1,94 +1,105 @@
 {
-   "title" : {
+   "tags" : {
       "place_holder" : {
-         "childs" : [
-            "tags"
-         ],
-         "enable" : 1
+         "enable" : 0,
+         "childs" : []
       },
-      "sort" : 1,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "description" : {
       "supress" : {
          "all" : 0,
          "vals" : []
       },
+      "removeInTag" : "::",
+      "sort" : 0
+   },
+   "title" : {
+      "place_holder" : {
+         "enable" : 1,
+         "childs" : [
+            "tags"
+         ]
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "sort" : 1
+   },
+   "prsv" : {
       "sort" : 0,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "series" : {
+      "sort" : 0,
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       }
    },
-   "lib" : {
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "header" : "#**/HMoFA/ Catalog**",
-      "name" : "catalog.txt",
-      "scripts" : [],
+   "description" : {
+      "sort" : 0,
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      }
+   },
+   "section" : {
+      "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
+   },
+   "lib" : {
+      "name" : "catalog.txt",
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
       "pwds" : [
          [
             "~/.ohm/.config",
             "^PWD=(.*)"
          ]
       ],
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ]
-   },
-   "tags" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "removeInTag" : "::"
-   },
-   "section" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : [
-            1
-         ]
-      }
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
+      "header" : "#**/HMoFA/ Catalog**",
+      "scripts" : []
    },
    "url" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
       "sort" : 0,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      }
-   },
-   "series" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
       },
       "supress" : {
          "all" : 0,
@@ -96,25 +107,14 @@
       }
    },
    "author" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 1
-   },
-   "prsv" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
+      "sort" : 1,
       "supress" : {
          "all" : 0,
          "vals" : []
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
       }
    }
 }

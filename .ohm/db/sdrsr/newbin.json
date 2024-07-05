@@ -1,14 +1,8 @@
 {
    "title" : {
       "title" : [
-         "                    <div>\n                        <br><span style=\"background-color: #f5e9e7;color:#9f290e;\">",
-         "</span>",
-         "",
-         "",
-         "",
-         {
-            "series" : 1
-         }
+         "                    <div><br/><span style=\"background-color: #f5e9e7;color:#9f290e;\">",
+         "</span>"
       ],
       "title_attr" : [
          " (",
@@ -45,8 +39,8 @@
    },
    "series" : {
       "series" : [
-         "                    <div>\n                        <br><center><b>=== ",
-         " ===</b></center>"
+         "                    <div><br/><b>=== ",
+         " ===</b>"
       ],
       "supress" : {
          "all" : 0,
@@ -79,12 +73,8 @@
          "all" : 0
       },
       "author" : [
-         "            <div>\n                <br>‌<br><br><hr><hr><h3>",
-         "</h3>",
-         "",
-         "",
-         "",
-         3
+         "            <div><br/><br/><br/><hr><hr><h3>",
+         "</h3>"
       ],
       "sort" : 0,
       "place_holder" : {
@@ -102,7 +92,7 @@
          "all" : 0
       },
       "description" : [
-         "<span style=\"color:#a6aaad;\">",
+         "                        <span style=\"color:#a6aaad;\">",
          "</span>"
       ],
       "sort" : 0,
@@ -149,7 +139,7 @@
          "all" : 0
       },
       "section" : [
-         "        <div>\n",
+         "        <div>",
          "",
          "",
          "",

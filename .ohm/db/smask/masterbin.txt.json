@@ -1,50 +1,4 @@
 {
-   "url" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0
-   },
-   "section" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : [
-            1
-         ]
-      },
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "series" : {
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
-   "prsv" : {
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      }
-   },
    "author" : {
       "sort" : 1,
       "place_holder" : {
@@ -52,9 +6,87 @@
          "childs" : []
       },
       "supress" : {
+         "all" : 0,
+         "vals" : []
+      }
+   },
+   "url" : {
+      "sort" : 0,
+      "supress" : {
          "vals" : [],
          "all" : 0
+      },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
       }
+   },
+   "description" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 1
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
+   },
+   "section" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [
+            1
+         ],
+         "all" : 0
+      }
+   },
+   "series" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
+   },
+   "lib" : {
+      "sort" : 0,
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "name" : "masterbin.txt",
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "header" : "#**/HMoFA/ Masterbin**",
+      "scripts" : [],
+      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa"
+   },
+   "prsv" : {
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
    },
    "title" : {
       "supress" : {
@@ -62,55 +94,23 @@
          "vals" : []
       },
       "place_holder" : {
+         "enable" : 1,
          "childs" : [
             "tags"
-         ],
-         "enable" : 1
+         ]
       },
       "sort" : 1
    },
    "tags" : {
       "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "removeInTag" : "::",
-      "supress" : {
-         "vals" : [],
-         "all" : 1
-      }
-   },
-   "lib" : {
-      "scripts" : [],
-      "name" : "masterbin.txt",
-      "header" : "#**/HMoFA/ Masterbin**",
-      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
-      "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
-      "sort" : 0,
       "supress" : {
-         "all" : 0,
+         "all" : 1,
          "vals" : []
       },
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ]
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 1
-      }
+      "removeInTag" : "::",
+      "sort" : 0
    }
 }

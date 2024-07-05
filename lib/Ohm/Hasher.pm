@@ -318,7 +318,7 @@ sub __commit { my ($self, $args) = @_;
     for my $hash ( $self->{sdrsr}->@* ) { my $filename = ($self->{paths}{cwd}) . ("$db/sdrsr/") . ($hash->{lib}{name});
         push $self->{paths}{sdrsr}->@*, $filename}
     { my $hash = dclone $self;
-        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask', 'sdrsr') {delete $hash->{$key}}
+        for my $key (@KEYS, 'stdout', 'tmp', 'circ', 'meta', 'cwd', 'smask', 'sdrsr', 'mmm') {delete $hash->{$key}}
         my $json = JSON::XS->new->pretty->allow_nonref->allow_blessed(['true'])->encode( unbless $hash );
         open my $fh, '>:utf8', $self->{paths}{cwd} . "$db/self.json" or die;
             print $fh $json;
@@ -345,7 +345,7 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
         'series' => 0,
         'title' => 0,
         'section' => 0,
-    }
+    };
 
     # Check if mask was supplied, else use config
     unless ($mask) {$mask = $self->{mask}}
@@ -386,7 +386,17 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
                             $vall =~ s/>/&gt/g;
                             $vall =~ s/'/&#39/g;
                             $vall =~ s/"/&quot/g;
-                            if ($item->{val} =~ m/^http[^ ]+/) {$vall =~ s/(http[^ ]+)/<a href="$1">$1<\/a>/}
+                            if ($item->{val} =~ m/^(http[^ ]+)/) {
+                                if (length($1) > 80) {
+                                    $vall =~ s/(http[^ ]+)/                        <a href="$1">Link<\/a>/
+                                }
+                                else {
+                                    $vall =~ s/(http[^ ]+)/                        <a href="$1">$1<\/a>/
+                                }
+                            }
+                            elsif ($vall =~ /^\s*masterbin\s*$/)           {
+                                $vall =~ s/\s*masterbin\s*//;
+                            }
                             if ($obj eq 'prsv') {
                                 $vall =~ s/\[(.+)\]\((http[^ ]+)\)/<a href="$2">$1<\/a>/;
                                 $vall =~ s/^-&gt/<center>/;
@@ -501,59 +511,59 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
 
                             ## --- closing html tags
                             if ($mask->{lib}{name} eq 'newbin.html' and $obj ne 'prsv') {
-                                if ($Obj eq 'section' ||  $Obj eq 'title' || $Obj eq 'author' || $Obj eq 'series') {$self->{mmm}{$obj} = 1}
 
-                                if ($Obj eq 'section' {
+                                if ($obj eq 'section') {
                                     if ($self->{mmm}{section} eq 1)  {
-                                        $str = "        <div\/>\n".$str
+                                        $str = "        <\/div>\n".$str;
                                         $self->{mmm}{section} = 0;
                                         if ($self->{mmm}{author} eq 1)  {
-                                            $str = "            <div\/>\n".$str
+                                            $str = "            <\/div>\n".$str;
                                             $self->{mmm}{author} = 0;
                                             if ($self->{mmm}{series} eq 1) {
-                                                $str = "                <div\/>\n".$str
+                                                $str = "                <\/div>\n".$str;
                                                 $self->{mmm}{series} = 0;
                                             }
                                             if ($self->{mmm}{title} eq 1)  {
-                                                $str = "                <div\/>\n".$str
+                                                $str = "                <\/div>\n".$str;
                                                 $self->{mmm}{title} = 0;
                                             }
                                         }
                                     }
                                 }
                                 #AUTHOR
-                                elsif ($Obj eq 'author' {
+                                elsif ($obj eq 'author') {
                                     if ($self->{mmm}{author} eq 1)  {
-                                        $str = "            <div\/>\n".$str
+                                        $str = "            <\/div>\n".$str;
                                         $self->{mmm}{author} = 0;
                                         if ($self->{mmm}{series} eq 1) {
-                                            $str = "                <div\/>\n".$str
+                                            $str = "                    <\/div>\n".$str;
                                             $self->{mmm}{series} = 0;
                                         }
                                         if ($self->{mmm}{title} eq 1)  {
-                                            $str = "                <div\/>\n".$str
+                                            $str = "                    <\/div>\n".$str;
                                             $self->{mmm}{title} = 0;
                                         }
                                     }
                                 }
                                 #TITLE
-                                elsif ($Obj eq 'title' {
+                                elsif ($obj eq 'title'){
                                     if ($self->{mmm}{title} eq 1)  {
-                                        $str = "                <div\/>\n".$str
+                                        $str = "                    <\/div>\n".$str;
                                         $self->{mmm}{title} = 0;
                                     }
                                 }
                                 #SERIES
-                                elsif ($Obj eq 'series' {
+                                elsif ($obj eq 'series') {
                                     if ($self->{mmm}{title} eq 1)  {
-                                        $str = "                <div\/>\n".$str
+                                        $str = "                    <\/div>\n".$str;
                                         $self->{mmm}{title} = 0;
                                     }
                                     if ($self->{mmm}{series} eq 1) {
-                                        $str = "                <div\/>\n".$str
+                                        $str = "                    <\/div>\n".$str;
                                         $self->{mmm}{series} = 0;
                                     }
                                 }
+                                if ($obj eq 'section' ||  $obj eq 'title' || $obj eq 'author' || $obj eq 'series') {$self->{mmm}{$obj} = 1}
                             }
 
                             push $self->{stdout}->@*, split/\n/, $str if $obj ne 'lib'
@@ -565,17 +575,40 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
             },
 
             # preprocess subroutine
-            preprocess => sub {
-                my $type = $Data::Walk::type; my @children = @_;
+            preprocess => sub {my $type = $Data::Walk::type; my @children = @_;
+                # Alphabetically sort child object names
                 if ($type eq 'HASH') {
-                    my @values = map { $children[$_] } grep { $_ & 1 } (0..$#children);
-                    my @keys   = map { $children[$_] } grep { !($_ & 1) } (0..$#children);
-                    my @var    = map { [$keys[$_],$values[$_]] } (0..$#keys);
+                    # using bitwise operator '&' on 2-base versions of indexes to seperate even and odds.
+                    #even nums: 0, 10, 100, 110, 1000, 1010
+                    #odd  nums: 1, 11, 101, 111, 1001, 1011
+                     
+                    # get odd number idexes
+                    my @values = map { $children[$_]           } grep { $_ & 1    } (0..$#children);
+
+                    # get even number idexes
+                    my @keys   = map { $children[$_]           } grep { !($_ & 1) } (0..$#children);
+
+                    my @var    = map { [$keys[$_],$values[$_]] }                    (0..$#keys);
+
+                    if ($mask->{lib}{name} eq 'newbin.html') {
+                        my $first = $dspt->{url}{order};
+                        $dspt->{url}{order} = $dspt->{description}{order};
+                        $dspt->{description}{order} = $first;
+                    }
                     @children = map {@$_} sort {
                             if (scalar (split /\./, $dspt->{$b->[0]}{order}) != scalar (split /\./,$dspt->{$a->[0]}{order})) {
-                                join '', $dspt->{$b->[0]}{order} cmp join '', $dspt->{$a->[0]}{order} }
-                            else {join '', $dspt->{$a->[0]}{order} cmp join '', $dspt->{$b->[0]}{order}}} @var}
-                elsif ($type eq 'ARRAY') { my $item = \@children; my $idx_0 =  (exists  $item->[0]{obj}) ?0 :1; my $obj = $item->[$idx_0]{obj};
+                                  join '', $dspt->{$b->[0]}{order} cmp join '', $dspt->{$a->[0]}{order}}
+                            else {join '', $dspt->{$a->[0]}{order} cmp join '', $dspt->{$b->[0]}{order}}
+                    } @var
+                    if ($mask->{lib}{name} eq 'newbin.html') {
+                        my $first = $dspt->{url}{order};
+                        $dspt->{url}{order} = $dspt->{description}{order};
+                        $dspt->{description}{order} = $first;
+                    }
+                }
+
+                # Alphabetically sort child object values
+                elsif ($type eq 'ARRAY') { my $item = \@children; my $idx_0 = (exists  $item->[0]{obj}) ?0 :1; my $obj = $item->[$idx_0]{obj};
                     if ( scalar $mask->{$obj}{supress}{vals}->@* ) {
                         for my $idx ($mask->{$obj}{supress}{vals}->@*) {splice @$item, ($idx+$idx_0),1} }
                     if ( $mask->{$obj}{sort} != 0 ) {
@@ -890,10 +923,17 @@ sub launch { my ($self,$args) = @_;
                 # Add breaks to html files for all but the first line (This is the header, breaks were already specified here)
                 if ($smask->[0]{lib}{name} eq 'newbin.html') {
                     if ($count != 0) {
-                        if ($count <= ($smask->[0]{lib}{prsv_tail}[0] + 39)) {
+                        if ($count <= ($smask->[0]{lib}{prsv_tail}[0] + 4)) {
                             unless ($line =~ /^\s*$/) {print $fh2 $line, "\n"}
                         }
-                        else {print $fh2 $line, "<br/>\n"}
+                        elsif ($line =~ /^\s*<br\/>\s*$/) {}
+                        elsif ($line =~ /^\s*<br>\s*$/) {}
+                        elsif ($line =~ /^\s*$/) {}
+                        elsif ($line =~ /^\s*<\/div>\s*$/) {print $fh2 $line, "\n"}
+                        else {
+                            if ($line =~ /^\s*\[/) {$line =~ s/^\s*(\[.*)/                        $1/ }
+                            print $fh2 $line, "<br/>\n"
+                        }
 
                     }
                     else {print $fh2 $line, "\n"}}
@@ -902,12 +942,13 @@ sub launch { my ($self,$args) = @_;
 
             # Append ending tags to html
             if ($smask->[0]{lib}{name} eq 'newbin.html') {
-                if ($self->{mmm}{section} ep 1) {
-                    print $fh2 "                <div>\n                <div>\n            <div>\n        <div>\n    </body>\n</html>", "\n"}
+                if ($self->{mmm}{series} eq 1) {
+                    print $fh2 "                <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    </body>\n</html>", "\n"
                 }
                 else {
-                    print $fh2 "                <div>\n            <div>\n        <div>\n    </body>\n</html>", "\n"}
+                    print $fh2 "                <\/div>\n            <\/div>\n        <\/div>\n    </body>\n</html>", "\n"
                 }
+            }
 
             truncate $fh2, tell($fh2) or die; seek $fh2,0,0 or die; close $fh2;
 
