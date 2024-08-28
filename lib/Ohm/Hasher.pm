@@ -598,8 +598,7 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
                     @children = map {@$_} sort {
                             if (scalar (split /\./, $dspt->{$b->[0]}{order}) != scalar (split /\./,$dspt->{$a->[0]}{order})) {
                                   join '', $dspt->{$b->[0]}{order} cmp join '', $dspt->{$a->[0]}{order}}
-                            else {join '', $dspt->{$a->[0]}{order} cmp join '', $dspt->{$b->[0]}{order}}
-                    } @var
+                            else {join '', $dspt->{$a->[0]}{order} cmp join '', $dspt->{$b->[0]}{order}} } @var;
                     if ($mask->{lib}{name} eq 'newbin.html') {
                         my $first = $dspt->{url}{order};
                         $dspt->{url}{order} = $dspt->{description}{order};
@@ -943,10 +942,10 @@ sub launch { my ($self,$args) = @_;
             # Append ending tags to html
             if ($smask->[0]{lib}{name} eq 'newbin.html') {
                 if ($self->{mmm}{series} eq 1) {
-                    print $fh2 "                <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n    </body>\n</html>", "\n"
+                    print $fh2 "                <\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n<\/div>\n    </body>\n</html>", "\n"
                 }
                 else {
-                    print $fh2 "                <\/div>\n            <\/div>\n        <\/div>\n    </body>\n</html>", "\n"
+                    print $fh2 "                <\/div>\n            <\/div>\n        <\/div>\n<\/div>\n    </body>\n</html>", "\n"
                 }
             }
 

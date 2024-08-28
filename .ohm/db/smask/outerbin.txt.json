@@ -1,38 +1,5 @@
 {
-   "prsv" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0
-   },
-   "url" : {
-      "sort" : 0,
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      }
-   },
    "series" : {
-      "sort" : 0,
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      }
-   },
-   "description" : {
       "supress" : {
          "vals" : [],
          "all" : 0
@@ -42,79 +9,112 @@
          "enable" : 0
       },
       "sort" : 0
-   },
-   "lib" : {
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "name" : "outerbin.txt",
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ],
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0,
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
-      "header" : "#**/HMoFA/ Outerbin**",
-      "scripts" : []
-   },
-   "section" : {
-      "sort" : 0,
-      "supress" : {
-         "vals" : [
-            0
-         ],
-         "all" : 0
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      }
-   },
-   "author" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 1
    },
    "tags" : {
-      "sort" : 0,
       "supress" : {
          "all" : 0,
          "vals" : []
       },
       "removeInTag" : "::",
       "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
+   },
+   "prsv" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "place_holder" : {
          "enable" : 0,
          "childs" : []
+      },
+      "sort" : 0
+   },
+   "description" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       }
+   },
+   "lib" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "name" : "outerbin.txt",
+      "sort" : 0,
+      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
+      "header" : "#**/HMoFA/ Outerbin**",
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "scripts" : []
    },
    "title" : {
       "sort" : 1,
       "place_holder" : {
-         "enable" : 1,
          "childs" : [
             "tags"
-         ]
+         ],
+         "enable" : 1
       },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "section" : {
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [
+            0
+         ],
+         "all" : 0
+      }
+   },
+   "author" : {
+      "sort" : 1,
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "url" : {
       "supress" : {
          "all" : 0,
          "vals" : []
-      }
+      },
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0
    }
 }

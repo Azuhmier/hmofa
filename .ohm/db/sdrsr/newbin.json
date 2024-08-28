@@ -115,18 +115,18 @@
       },
       "sort" : 0,
       "anthro" : [
-         "[",
-         "]",
-         ";<span style=\"color:#276c2a;\">",
-         "</span>;",
-         " "
+         "[<ul id=\"taglist\">",
+         "</ul>]",
+         "<li><span style=\"color:#feffee;\">;</span>",
+         "<span style=\"color:#feffee;\">;</span></li>",
+         ""
       ],
       "general" : [
-         "[",
-         "]",
-         ";<span style=\"color:#276c2a;\">",
-         "</span>;",
-         " "
+         "[<ul id=\"taglist\">",
+         "</ul>]",
+         "<li><span style=\"color:#feffee;\">;</span>",
+         "<span style=\"color:#feffee;\">;</span></li>",
+         ""
       ],
       "place_holder" : {
          "enable" : 0,

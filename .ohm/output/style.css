@@ -1,0 +1,163 @@
+/* style.css */
+/* By Azuhmier */
+/* Special thanks to https://www.w3schools.com/howto/ and the 'C', 'V', and 'ctrl' keys on my keyboard.
+
+
+
+
+/* GENERAL */
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+
+
+
+/* TAGS */
+#taglist {
+  display: inline;
+  padding: 0;
+  list-style: none;
+}
+
+#taglist li {
+  display: inline;
+}
+
+#taglist li:after {
+  content: ",";
+}
+
+#taglist li:last-child:after {
+    content: "";
+}
+
+
+h3 {
+    display: inline !important;
+}
+
+
+
+
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;                /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;        /* Disable horizontal scroll */
+  padding-top: 0px;          /* Place content 60px from the top */
+  transition: 0.3s;          /* 0.3 second transition effect to slide in the sidebar */
+}
+
+
+
+
+
+/* Position and style the close button */
+.sidebar .closebtn {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  border: none;
+  white-space: nowrap;
+}
+
+.sidebar .closebtn:hover {
+  background-color: #444;
+}
+
+
+
+
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;        /* Set the navbar to fixed position */
+  top: 0;                 /* Position the navbar at the top of the page */
+  left: 0;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .3s; /* If you want a transition effect */
+  padding: 200px;
+}
+
+
+
+
+
+/* Didn't really test this just keeping it in for shits and giggles */
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+} 
+
+
+
+
+/* Style the search box */
+#mySearch {
+  position: sticky;
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  top: 5%;
+}
+
+
+
+
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 30px;
+  margin: 0;
+}
+
+
+
+
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 1px;
+  text-decoration: none;
+  color: white;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+  color: black;
+} 
