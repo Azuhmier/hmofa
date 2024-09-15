@@ -1,23 +1,82 @@
 {
-   "section" : {
+   "series" : {
       "sort" : 0,
-      "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
-      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
-      }
-   },
-   "title" : {
-      "sort" : 1,
+      },
       "supress" : {
          "all" : 0,
          "vals" : []
+      }
+   },
+   "description" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
       },
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0
+   },
+   "section" : {
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "sort" : 0,
+      "supress" : {
+         "all" : 0,
+         "vals" : [
+            1
+         ]
+      }
+   },
+   "tags" : {
+      "removeInTag" : "::",
+      "sort" : 0,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "lib" : {
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "name" : "catalog.txt",
+      "scripts" : [],
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
+      "sort" : 0,
+      "header" : "#**/HMoFA/ Catalog**",
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      }
+   },
+   "title" : {
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      },
+      "sort" : 1,
       "place_holder" : {
          "enable" : 1,
          "childs" : [
@@ -25,59 +84,23 @@
          ]
       }
    },
-   "lib" : {
-      "name" : "catalog.txt",
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ],
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "sort" : 0,
-      "header" : "#**/HMoFA/ Catalog**",
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2",
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "scripts" : []
-   },
-   "description" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "url" : {
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "sort" : 0
-   },
    "author" : {
       "sort" : 1,
+      "place_holder" : {
+         "enable" : 0,
+         "childs" : []
+      },
+      "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "url" : {
       "supress" : {
          "vals" : [],
          "all" : 0
       },
+      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -88,30 +111,7 @@
          "all" : 0,
          "vals" : []
       },
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "sort" : 0
-   },
-   "tags" : {
-      "supress" : {
-         "vals" : [],
-         "all" : 0
-      },
-      "removeInTag" : "::",
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
-      },
-      "sort" : 0
-   },
-   "series" : {
       "sort" : 0,
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
       "place_holder" : {
          "enable" : 0,
          "childs" : []
