@@ -331,6 +331,13 @@ sub __commit { my ($self, $args) = @_;
     $self->__genObjLists();
     return $self}
 
+
+
+
+#####################################
+############## GEN WRITE ############
+#####################################
+
 sub __genWrite { my ($self,$mask,$sdrsr) = @_;
     
     # Load Configs
@@ -448,6 +455,7 @@ sub __genWrite { my ($self,$mask,$sdrsr) = @_;
                                             $part =~ s/>/&gt/g;
                                             $part =~ s/'/&#39/g;
                                             $part =~ s/"/&quot/g}
+
 
                                         $part = $drsr->{$obj}{$attr}[2] . $part . $drsr->{$obj}{$attr}[3]; push @itemPartArray, $part}
                                     $attrItem = join $drsr->{$obj}{$attr}[4], @itemPartArray}
