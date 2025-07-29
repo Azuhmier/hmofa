@@ -42,7 +42,7 @@
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "cat ./.ohm/output/masterbin.txt | rentry edit -p ${PWD} -u hmofa",
+      "cmd" : "cat ./.ohm/output/masterbin.txt | python3 ~/rentry/rentry.py edit -p ${PWD} -u hmofa",
       "pwds" : [
          [
             "~/.ohm/.config",

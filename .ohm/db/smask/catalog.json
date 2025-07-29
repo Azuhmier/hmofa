@@ -22,7 +22,7 @@
          "vals" : []
       },
       "header" : "#**/HMoFA/ Catalog**",
-      "cmd" : "cat ./.ohm/output/catalog.txt | rentry edit -p ${PWD} -u hmofa2"
+      "cmd" : "cat ./.ohm/output/catalog.txt | python3 ~/rentry/rentry.py edit -p ${PWD} -u hmofa2"
    },
    "title" : {
       "sort" : 1,

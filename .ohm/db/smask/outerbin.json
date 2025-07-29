@@ -20,7 +20,7 @@
          "childs" : [],
          "enable" : 0
       },
-      "cmd" : "cat ./.ohm/output/outerbin.txt | rentry edit -p ${PWD} -u hmofa3",
+      "cmd" : "cat ./.ohm/output/outerbin.txt | python3 ~/rentry/rentry.py edit -p ${PWD} -u hmofa3",
       "prsv_tail" : [
          13,
          "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
