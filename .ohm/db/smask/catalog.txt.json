@@ -1,5 +1,5 @@
 {
-   "description" : {
+   "url" : {
       "place_holder" : {
          "enable" : 0,
          "childs" : []
@@ -11,46 +11,21 @@
       }
    },
    "tags" : {
-      "removeInTag" : "::",
+      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
       },
-      "supress" : {
-         "all" : 0,
-         "vals" : []
-      },
-      "sort" : 0
-   },
-   "lib" : {
-      "pwds" : [
-         [
-            "~/.ohm/.config",
-            "^PWD=(.*)"
-         ]
-      ],
-      "sort" : 0,
-      "place_holder" : {
-         "enable" : 0,
-         "childs" : []
-      },
-      "header" : "#**/HMoFA/ Catalog**",
-      "cmd" : "cat ./.ohm/output/catalog.txt | python3 ~/rentry/rentry.py edit -p ${PWD} -u hmofa2",
+      "removeInTag" : "::",
       "supress" : {
          "vals" : [],
          "all" : 0
-      },
-      "name" : "catalog.txt",
-      "scripts" : [],
-      "prsv_tail" : [
-         13,
-         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
-      ]
+      }
    },
-   "series" : {
+   "description" : {
       "supress" : {
-         "all" : 0,
-         "vals" : []
+         "vals" : [],
+         "all" : 0
       },
       "sort" : 0,
       "place_holder" : {
@@ -58,28 +33,15 @@
          "childs" : []
       }
    },
-   "section" : {
+   "author" : {
+      "sort" : 1,
       "place_holder" : {
          "enable" : 0,
          "childs" : []
       },
       "supress" : {
-         "vals" : [
-            1
-         ],
-         "all" : 0
-      },
-      "sort" : 0
-   },
-   "author" : {
-      "sort" : 1,
-      "supress" : {
          "all" : 0,
          "vals" : []
-      },
-      "place_holder" : {
-         "childs" : [],
-         "enable" : 0
       }
    },
    "prsv" : {
@@ -89,12 +51,24 @@
       },
       "sort" : 0,
       "supress" : {
+         "vals" : [],
+         "all" : 0
+      }
+   },
+   "section" : {
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
+      },
+      "sort" : 0,
+      "supress" : {
          "all" : 0,
-         "vals" : []
+         "vals" : [
+            1
+         ]
       }
    },
    "title" : {
-      "sort" : 1,
       "supress" : {
          "all" : 0,
          "vals" : []
@@ -104,9 +78,11 @@
          "childs" : [
             "tags"
          ]
-      }
+      },
+      "sort" : 1
    },
-   "url" : {
+   "series" : {
+      "sort" : 0,
       "place_holder" : {
          "childs" : [],
          "enable" : 0
@@ -114,7 +90,31 @@
       "supress" : {
          "all" : 0,
          "vals" : []
+      }
+   },
+   "lib" : {
+      "scripts" : [],
+      "place_holder" : {
+         "childs" : [],
+         "enable" : 0
       },
+      "header" : "#**/HMoFA/ Catalog**",
+      "prsv_tail" : [
+         13,
+         "\n== **KEY** \n- SEARCHING TAGS -> ctrl-f ;tag;\n- TAG FORMAT -> [anthro][general]\n- ~ = *story is unfinished* \n- $ = *story is complete* \n\n"
+      ],
+      "name" : "catalog.txt",
+      "supress" : {
+         "all" : 0,
+         "vals" : []
+      },
+      "cmd" : "cat ./.ohm/output/catalog.txt | python3 ~/rentry/rentry.py edit -p ${PWD} -u hmofa2",
+      "pwds" : [
+         [
+            "~/.ohm/.config",
+            "^PWD=(.*)"
+         ]
+      ],
       "sort" : 0
    }
 }
